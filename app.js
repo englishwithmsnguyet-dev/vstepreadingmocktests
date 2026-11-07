@@ -922,6 +922,21 @@ function closeStudentModal() {
     if (modal) modal.classList.add('hidden');
 }
 
+function isValidTeacherLogin(rawName, rawClass) {
+    const n = normalizeVietnamese(rawName).replace(/[\s\-_]/g, '');
+    const c = normalizeVietnamese(rawClass).replace(/[\s\-_]/g, '');
+    if ((n === 'ptmn' || n === 'ptmngv') && (c === 'gv' || c === 'ptmngv' || c === 'ptmn')) {
+        return true;
+    }
+    if (n === 'ptmngv' && (!c || c === 'gv' || c === 'ptmn' || c === 'ptmngv')) {
+        return true;
+    }
+    if (c === 'ptmngv' && (!n || n === 'ptmn' || n === 'gv' || n === 'ptmngv')) {
+        return true;
+    }
+    return false;
+}
+
 function submitStudentLogin() {
     playSound('click');
     const nameInput = document.getElementById('login-student-name');
@@ -946,28 +961,8 @@ function submitStudentLogin() {
         playSound('wrong');
     };
 
-    // 1. TÀI KHOẢN GIÁO VIÊN (PTMN - GV)
-    const normName = normalizeVietnamese(rawName).replace(/[\s\-_]/g, '');
-    const normClass = normalizeVietnamese(rawClass).replace(/[\s\-_]/g, '');
-    const isTeacherAttempt = normName.includes('ptmn') || normName.includes('nguyet') || normClass.includes('ptmn') || normClass === 'gv' || normClass.includes('giaovien');
-
-    if (isTeacherAttempt) {
-        const teacherPass = ['VSTEPREADING', 'STUDYHARD', 'VSTEPSEPTEMBER', 'PTMN2896', 'PTMN2412', 'PTMN2805', 'GV', 'PTMN'];
-        if (!rawPwd) {
-            showError('Vui lòng nhập mật khẩu truy cập (Mật khẩu: VSTEPREADING)!');
-            if (pwdInput) pwdInput.focus();
-            return;
-        }
-        if (!teacherPass.includes(rawPwd.toUpperCase())) {
-            showError('Mật khẩu giáo viên không chính xác! (Mật khẩu mặc định: VSTEPREADING)');
-            if (pwdInput) {
-                pwdInput.value = '';
-                pwdInput.focus();
-            }
-            return;
-        }
-
-        // Đăng nhập thành công với tài khoản Giáo viên PTMN - GV
+    // 1. TÀI KHOẢN GIÁO VIÊN (PTMN - GV): Không yêu cầu mật khẩu
+    if (isValidTeacherLogin(rawName, rawClass)) {
         state.student.name = 'PTMN - GV';
         state.student.class = 'GV';
         state.student.isTeacher = true;
@@ -989,7 +984,7 @@ function submitStudentLogin() {
         return;
     }
 
-    // 2. KIỂM TRA HỌC VIÊN CÁC LỚP CHÍNH THỨC (CB210, CB211, CB213, ONB103, B212)
+    // 2. TÀI KHOẢN KHÁC (HỌC VIÊN CÁC LỚP CB210, CB211, CB213, ONB103, B212): Yêu cầu mật khẩu (không hiển thị sẵn mật khẩu)
     if (!rawName) {
         showError('Vui lòng nhập Họ và tên học viên!');
         if (nameInput) nameInput.focus();
@@ -997,32 +992,11 @@ function submitStudentLogin() {
     }
 
     if (!rawClass) {
-        showError('Vui lòng nhập Mã lớp học (CB210, CB211, CB213, ONB103, B212)!');
+        showError('Vui lòng nhập Mã lớp học!');
         if (classInput) classInput.focus();
         return;
     }
 
-    const canonicalClass = validateAllowedClass(rawClass);
-    if (!canonicalClass) {
-        showError('Mã lớp học không hợp lệ. Hệ thống chỉ nhận học viên các lớp: <strong>CB210, CB211, CB213, ONB103, B212</strong> và Giáo viên (PTMN - GV)!');
-        if (classInput) classInput.focus();
-        return;
-    }
-
-    // YÊU CẦU NHẬP ĐÚNG TÊN VÀ MÃ LỚP (Đối chiếu danh sách gốc từ thư mục CLASSES)
-    const matchedOfficialName = findOfficialStudent(rawName, canonicalClass);
-    if (!matchedOfficialName) {
-        const otherClass = findClassByStudentName(rawName);
-        if (otherClass && otherClass.classCode !== canonicalClass) {
-            showError(`Học viên "<strong>${rawName}</strong>" thuộc lớp <strong>${otherClass.classCode}</strong>, không phải lớp <strong>${canonicalClass}</strong>.<br><small style="margin-top:6px; display:block; opacity:0.9;">⚠️ Vui lòng nhập đúng mã lớp <strong>${otherClass.classCode}</strong>!</small>`);
-        } else {
-            showError(`Họ và tên "<strong>${rawName}</strong>" không có trong danh sách của lớp <strong>${canonicalClass}</strong>.<br><small style="margin-top:6px; display:block; opacity:0.9;">⚠️ Yêu cầu nhập đúng họ tên và mã lớp (CB210, CB211, CB213, ONB103, B212)!</small>`);
-        }
-        if (nameInput) nameInput.focus();
-        return;
-    }
-
-    // Kiểm tra mật khẩu học viên
     if (!rawPwd) {
         showError('Vui lòng nhập mật khẩu truy cập!');
         if (pwdInput) pwdInput.focus();
@@ -1031,11 +1005,37 @@ function submitStudentLogin() {
 
     const validPasswords = ['VSTEPREADING', 'STUDYHARD', 'VSTEPSEPTEMBER', 'PTMN2896', 'PTMN2412', 'PTMN2805'];
     if (!validPasswords.includes(rawPwd.toUpperCase())) {
-        showError('Mật khẩu không chính xác! (Mật khẩu mặc định: VSTEPREADING)');
+        showError('Mật khẩu truy cập không chính xác! Vui lòng kiểm tra lại.');
         if (pwdInput) {
             pwdInput.value = '';
             pwdInput.focus();
         }
+        return;
+    }
+
+    const canonicalClass = validateAllowedClass(rawClass);
+    if (canonicalClass === 'GV') {
+        showError('Mã lớp GV chỉ dành riêng cho tài khoản Giáo viên (PTMN - GV)!');
+        if (nameInput) nameInput.focus();
+        return;
+    }
+
+    if (!canonicalClass) {
+        showError('Mã lớp học không hợp lệ. Hệ thống chỉ nhận học viên các lớp: <strong>CB210, CB211, CB213, ONB103, B212</strong>!');
+        if (classInput) classInput.focus();
+        return;
+    }
+
+    // YÊU CẦU NHẬP ĐÚNG TÊN VÀ MÃ LỚP (Đối chiếu danh sách gốc từ thư mục CLASSES)
+    const matchedOfficialName = findOfficialStudent(rawName, canonicalClass);
+    if (!matchedOfficialName) {
+        const otherClass = findClassByStudentName(rawName);
+        if (otherClass && otherClass.classCode !== canonicalClass && otherClass.classCode !== 'GV') {
+            showError(`Học viên "<strong>${rawName}</strong>" thuộc lớp <strong>${otherClass.classCode}</strong>, không phải lớp <strong>${canonicalClass}</strong>.<br><small style="margin-top:6px; display:block; opacity:0.9;">⚠️ Vui lòng nhập đúng mã lớp <strong>${otherClass.classCode}</strong>!</small>`);
+        } else {
+            showError(`Họ và tên "<strong>${rawName}</strong>" không có trong danh sách của lớp <strong>${canonicalClass}</strong>.<br><small style="margin-top:6px; display:block; opacity:0.9;">⚠️ Yêu cầu nhập đúng họ tên và mã lớp (CB210, CB211, CB213, ONB103, B212)!</small>`);
+        }
+        if (nameInput) nameInput.focus();
         return;
     }
 
