@@ -494,28 +494,84 @@ function sendToGoogleForm(payloadText) {
     });
 }
 
-// Cheating Monitor (Visibility Change & Window Blur)
+// Cheating Monitor (Chỉ cảnh báo khi THỰC SỰ chuyển Tab hoặc qua màn hình/ứng dụng khác)
+let _cheatBlurTimeout = null;
+let _hasLeftExamContext = false;
+let _leaveExamReason = '';
+
 function initCheatingDetector() {
     if (window._cheatDetectorInitialized) return;
     window._cheatDetectorInitialized = true;
 
+    // 1. Chuyển Tab hoặc Thu nhỏ trình duyệt (Visibility Change)
     document.addEventListener('visibilitychange', () => {
+        if (state.currentView !== 'cbt' || !state.activeExam.test || state.activeExam.isSubmitted) return;
+
         if (document.hidden) {
-            triggerCheatWarning();
+            // Học viên thực sự chuyển sang tab khác hoặc thu nhỏ cửa sổ
+            _hasLeftExamContext = true;
+            _leaveExamReason = 'chuyển sang tab khác của trình duyệt hoặc thu nhỏ cửa sổ';
+        } else {
+            // Khi học viên nhấp quay trở lại tab bài thi
+            if (_hasLeftExamContext) {
+                _hasLeftExamContext = false;
+                triggerCheatWarning(_leaveExamReason || 'chuyển sang tab khác');
+            }
         }
     });
 
+    // 2. Chuyển qua màn hình khác hoặc mở ứng dụng khác (Window Blur)
     window.addEventListener('blur', () => {
-        triggerCheatWarning();
+        if (state.currentView !== 'cbt' || !state.activeExam.test || state.activeExam.isSubmitted) return;
+        
+        // Không kích hoạt nếu modal cảnh báo đã đang hiển thị
+        const modal = document.getElementById('cheat-warning-modal');
+        if (modal && !modal.classList.contains('hidden')) return;
+
+        if (_cheatBlurTimeout) clearTimeout(_cheatBlurTimeout);
+
+        // Bộ lọc thời gian 2000ms:
+        // Nếu học viên chỉ vô tình click chuột trong trang, cuộn trang, thanh cuộn,
+        // hoặc hệ điều hành hiện thông báo chớp nhoáng (< 2 giây) -> sẽ bị hủy bỏ ngay khi lấy lại focus.
+        // Chỉ khi học viên THỰC SỰ chuyển qua màn hình khác/ứng dụng khác kéo dài >= 2 giây mới ghi nhận!
+        _cheatBlurTimeout = setTimeout(() => {
+            if (state.currentView === 'cbt' && state.activeExam.test && !state.activeExam.isSubmitted) {
+                if (!document.hasFocus() || document.hidden) {
+                    _hasLeftExamContext = true;
+                    _leaveExamReason = 'rời khỏi cửa sổ phòng thi sang màn hình hoặc ứng dụng khác';
+                }
+            }
+        }, 2000);
+    });
+
+    // 3. Khi học viên quay trở lại cửa sổ phòng thi (Window Focus)
+    window.addEventListener('focus', () => {
+        // Hủy bỏ timer nếu mất tiêu điểm chỉ là chớp nhoáng (< 2s)
+        if (_cheatBlurTimeout) {
+            clearTimeout(_cheatBlurTimeout);
+            _cheatBlurTimeout = null;
+        }
+
+        if (state.currentView !== 'cbt' || !state.activeExam.test || state.activeExam.isSubmitted) {
+            _hasLeftExamContext = false;
+            return;
+        }
+
+        // Nếu học viên đã thực sự rời phòng thi trước đó (>= 2s)
+        if (_hasLeftExamContext) {
+            _hasLeftExamContext = false;
+            triggerCheatWarning(_leaveExamReason || 'rời khỏi màn hình làm bài');
+        }
     });
 }
 
-function triggerCheatWarning() {
+function triggerCheatWarning(reason = 'chuyển tab hoặc rời khỏi màn hình làm bài') {
     if (state.currentView !== 'cbt') return;
     if (!state.activeExam.test || state.activeExam.isSubmitted) return;
     
     const now = Date.now();
-    if (state.activeExam._lastCheatTime && now - state.activeExam._lastCheatTime < 1500) {
+    // Debounce 2500ms để tránh trigger nhiều lần liên tiếp
+    if (state.activeExam._lastCheatTime && now - state.activeExam._lastCheatTime < 2500) {
         return;
     }
     state.activeExam._lastCheatTime = now;
@@ -527,9 +583,13 @@ function triggerCheatWarning() {
     const countEl = document.getElementById('cbt-cheat-count');
     const modal = document.getElementById('cheat-warning-modal');
     const modalCount = document.getElementById('cheat-modal-count');
+    const reasonEl = document.querySelector('.cheat-warning-text');
 
     if (badge) badge.classList.remove('hidden');
     if (countEl) countEl.textContent = state.activeExam.tabSwitches;
+    if (reasonEl && reason) {
+        reasonEl.innerHTML = `Hệ thống phát hiện bạn vừa <strong>${reason}</strong>. Hành vi này đã được ghi nhận vào lịch sử làm bài thi!`;
+    }
     if (modal) modal.classList.remove('hidden');
     if (modalCount) modalCount.textContent = state.activeExam.tabSwitches;
 
@@ -541,13 +601,14 @@ function triggerCheatWarning() {
     const sName = state.student.name || 'Học viên';
     const sClass = state.student.class || '';
     const tNum = String(state.activeExam.test.testNum).padStart(2, '0');
-    sendToGoogleForm(`[READING MOCK TESTS - VI PHẠM RỜI TAB LẦN ${state.activeExam.tabSwitches}] ${sName} - Lớp ${sClass} - Đề số ${tNum} - Lúc ${nowStr}`);
+    sendToGoogleForm(`[READING MOCK TESTS - VI PHẠM RỜI TAB LẦN ${state.activeExam.tabSwitches}] ${sName} - Lớp ${sClass} - Đề số ${tNum} (${reason}) - Lúc ${nowStr}`);
 }
 
 function dismissCheatWarning() {
     playSound('click');
     const modal = document.getElementById('cheat-warning-modal');
     if (modal) modal.classList.add('hidden');
+    window.focus();
 }
 
 if (document.readyState === 'loading') {
