@@ -877,6 +877,49 @@ function updateHeaderStudentUI(name = state.student.name, sClass = state.student
     const modalClass = document.getElementById('progress-modal-student-class');
     if (modalName) modalName.textContent = name;
     if (modalClass) modalClass.textContent = isTeacher ? 'Giáo viên (GV)' : sClass;
+
+    syncClassAccessRestrictions();
+    if (typeof renderDashboardTests === 'function') renderDashboardTests();
+}
+
+// Kiểm tra khóa đề thi theo lớp học (Lớp B212 mở TEST 01, các đề 02 - 10 khóa)
+function isTestLocked(testNum) {
+    if (state.student.isTeacher || state.student.class === 'GV') return false;
+    if (state.student.class === 'B212') {
+        return Number(testNum) !== 1;
+    }
+    return false;
+}
+
+function notifyLockedTest(testNum) {
+    playSound('wrong');
+    const numStr = String(testNum).padStart(2, '0');
+    showToast(`🔒 Đề số ${numStr} hiện đang khóa đối với lớp B212! Lớp B212 hiện mở Đề số 01.`, 'warning');
+}
+
+function syncClassAccessRestrictions() {
+    const isB212 = (state.student.class === 'B212' && !state.student.isTeacher);
+    const selectIds = ['post-modal-test-select', 'vocab-test-select', 'synonym-test-select'];
+    selectIds.forEach(id => {
+        const sel = document.getElementById(id);
+        if (!sel) return;
+        Array.from(sel.options).forEach(opt => {
+            if (!opt.dataset.origText) opt.dataset.origText = opt.textContent;
+            if (opt.value === 'all') {
+                opt.textContent = isB212 ? 'Đề số 01 (Đã mở khóa cho lớp B212)' : opt.dataset.origText;
+                return;
+            }
+            const tNum = parseInt(opt.value);
+            if (!isNaN(tNum)) {
+                const locked = isTestLocked(tNum);
+                opt.disabled = locked;
+                opt.textContent = locked ? `🔒 ${opt.dataset.origText} (Đang khóa)` : opt.dataset.origText;
+            }
+        });
+        if (isB212 && sel.value !== 'all' && isTestLocked(sel.value)) {
+            sel.value = '1';
+        }
+    });
 }
 
 function openStudentModal(force = false) {
@@ -1270,11 +1313,14 @@ function renderDashboardTests() {
     container.innerHTML = '';
     
     tests.forEach(test => {
+        const locked = isTestLocked(test.testNum);
         // Find best previous score for this test
-        const isSaved = state.savedExam && state.savedExam.testNum === test.testNum;
+        const isSaved = !locked && state.savedExam && state.savedExam.testNum === test.testNum;
         const attempts = state.history.filter(h => h.testId === test.testId);
         let statusBadge = `<span class="test-card-status status-not-done"><i class="fa-regular fa-circle"></i> Chưa làm</span>`;
-        if (isSaved) {
+        if (locked) {
+            statusBadge = `<span class="test-card-status" style="background:#fee2e2; color:#dc2626; border:1.5px solid #fecaca;"><i class="fa-solid fa-lock"></i> Đang khóa</span>`;
+        } else if (isSaved) {
             const ansCount = Object.keys(state.savedExam.answers || {}).length;
             statusBadge = `<span class="test-card-status" style="background:#fef3c7; color:#92400e; border:1.5px solid #fde68a;"><i class="fa-solid fa-clock-rotate-left"></i> Đang làm dở (${ansCount}/40)</span>`;
         } else if (attempts.length > 0) {
@@ -1283,13 +1329,16 @@ function renderDashboardTests() {
         }
 
         const card = document.createElement('div');
-        card.className = 'test-card';
+        card.className = locked ? 'test-card is-locked' : 'test-card';
+        if (locked) {
+            card.style.opacity = '0.78';
+        }
         
         let passagesListHtml = '';
         test.passages.forEach((p, idx) => {
             passagesListHtml += `
                 <div class="test-passage-item" title="${p.topic}">
-                    <i class="fa-solid fa-bookmark"></i>
+                    <i class="fa-solid ${locked ? 'fa-lock' : 'fa-bookmark'}" style="${locked ? 'color:#94a3b8;' : ''}"></i>
                     <strong>P0${idx+1}:</strong> ${p.title.replace(/^Passage\s*\d+:\s*/i, '')}
                 </div>
             `;
@@ -1306,18 +1355,19 @@ function renderDashboardTests() {
             });
         });
 
-        card.innerHTML = `
-            <div class="test-card-top">
-                <div class="test-card-badge-row">
-                    <span class="test-card-num">ĐỀ SỐ ${String(test.testNum).padStart(2, '0')}</span>
-                    ${statusBadge}
-                </div>
-                <h3 class="test-card-title">${test.title}</h3>
-                <div class="test-passages-list">
-                    <div style="font-size: 0.78rem; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">4 Bài đọc học thuật:</div>
-                    ${passagesListHtml}
-                </div>
+        const actionsHtml = locked ? `
+            <div class="test-card-actions">
+                <button class="secondary-btn" style="background: #f1f5f9; color: #64748b; border: 1.5px dashed #cbd5e1; margin-bottom: 8px; width: 100%; justify-content: center; cursor: not-allowed;" onclick="notifyLockedTest(${test.testNum})">
+                    <i class="fa-solid fa-lock" style="color: #ef4444;"></i> BƯỚC 1: PRE-READING (ĐANG KHÓA)
+                </button>
+                <button class="secondary-btn" style="background: #fef2f2; color: #dc2626; border: 1.5px solid #fecaca; width: 100%; justify-content: center; font-weight: 800; cursor: not-allowed;" onclick="notifyLockedTest(${test.testNum})">
+                    <i class="fa-solid fa-lock"></i> BƯỚC 2: ĐỀ SỐ ${String(test.testNum).padStart(2, '0')} ĐANG KHÓA
+                </button>
+                <button class="secondary-btn" style="background: #f1f5f9; color: #64748b; border: 1.5px dashed #cbd5e1; margin-top: 8px; width: 100%; justify-content: center; cursor: not-allowed;" onclick="notifyLockedTest(${test.testNum})">
+                    <i class="fa-solid fa-lock" style="color: #ef4444;"></i> BƯỚC 3: POST-READING (ĐANG KHÓA)
+                </button>
             </div>
+        ` : `
             <div class="test-card-actions">
                 <button class="primary-btn" style="background: linear-gradient(135deg, #4f46e5, #7c3aed); margin-bottom: 8px; width: 100%; justify-content: center;" onclick="openPreTestView(${test.testNum})">
                     <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${testMasteredCount}/${testVocabCount} từ)
@@ -1337,6 +1387,21 @@ function renderDashboardTests() {
                     </button>
                 </div>
             </div>
+        `;
+
+        card.innerHTML = `
+            <div class="test-card-top">
+                <div class="test-card-badge-row">
+                    <span class="test-card-num">ĐỀ SỐ ${String(test.testNum).padStart(2, '0')}</span>
+                    ${statusBadge}
+                </div>
+                <h3 class="test-card-title">${test.title}</h3>
+                <div class="test-passages-list">
+                    <div style="font-size: 0.78rem; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 4px;">4 Bài đọc học thuật:</div>
+                    ${passagesListHtml}
+                </div>
+            </div>
+            ${actionsHtml}
         `;
         container.appendChild(card);
     });
@@ -1405,6 +1470,10 @@ function getFilteredPreTestVocab() {
 }
 
 function openPreTestView(testNum, initialTarget) {
+    if (isTestLocked(testNum || 1)) {
+        notifyLockedTest(testNum || 1);
+        return;
+    }
     playSound('click');
     state.preTest.testNum = testNum || 1;
     state.preTest.passageFilter = 'all';
@@ -1434,6 +1503,10 @@ function openPreTestView(testNum, initialTarget) {
 }
 
 function selectPreTestNum(testNum) {
+    if (isTestLocked(testNum)) {
+        notifyLockedTest(testNum);
+        return;
+    }
     playSound('click');
     state.preTest.testNum = testNum;
     state.preTest.passageFilter = 'all';
@@ -1530,11 +1603,14 @@ function renderPreTestView() {
     const readinessPercent = allVocab.length > 0 ? Math.round((masteredCount / allVocab.length) * 100) : 0;
 
     // 10 Test Selector Pills
-    const testPillsHtml = tests.map(t => `
-        <button class="pretest-test-pill ${t.testNum === test.testNum ? 'active' : ''}" onclick="selectPreTestNum(${t.testNum})">
-            Đề ${String(t.testNum).padStart(2, '0')}
-        </button>
-    `).join('');
+    const testPillsHtml = tests.map(t => {
+        const locked = isTestLocked(t.testNum);
+        return `
+            <button class="pretest-test-pill ${t.testNum === test.testNum ? 'active' : ''}" style="${locked ? 'opacity: 0.55; cursor: not-allowed;' : ''}" onclick="${locked ? `notifyLockedTest(${t.testNum})` : `selectPreTestNum(${t.testNum})`}">
+                ${locked ? '<i class="fa-solid fa-lock" style="font-size: 0.72rem; margin-right: 3px; color: #ef4444;"></i>' : ''}Đề ${String(t.testNum).padStart(2, '0')}
+            </button>
+        `;
+    }).join('');
 
     // 4 Passage Cards (Pre-Test Vocab Filter + Single Passage 15m Practice)
     const passageColors = [
@@ -2153,6 +2229,10 @@ function closeVocabPreview() {
 // CBT EXAM SIMULATOR CONTROLLER
 // =========================================================================
 function startFullExam(testNum) {
+    if (isTestLocked(testNum)) {
+        notifyLockedTest(testNum);
+        return;
+    }
     playSound('click');
     if (state.savedExam && state.savedExam.testNum === testNum) {
         const ansCount = Object.keys(state.savedExam.answers || {}).length;
@@ -2187,6 +2267,10 @@ function startFullExam(testNum) {
 }
 
 function startSinglePassageExam(testNum, passageIdx) {
+    if (isTestLocked(testNum)) {
+        notifyLockedTest(testNum);
+        return;
+    }
     playSound('click');
     const test = getMockTests().find(t => t.testNum === testNum);
     if (!test) return;
@@ -3624,7 +3708,12 @@ function renderPostReadingSection(filter = 'all', mode = 'cards') {
 
 // Standalone Post-Reading Modal Logic
 function openPostReadingModal(testNum = 1) {
+    if (isTestLocked(testNum)) {
+        notifyLockedTest(testNum);
+        return;
+    }
     playSound('click');
+    syncClassAccessRestrictions();
     state.postReading.modalTestNum = parseInt(testNum) || 1;
     state.postReading.modalPassageFilter = 'all';
     state.postReading.modalSearch = '';
@@ -3655,6 +3744,12 @@ function closePostReadingModal() {
 }
 
 function onPostModalTestChange(val) {
+    if (isTestLocked(val)) {
+        notifyLockedTest(val);
+        const selectEl = document.getElementById('post-modal-test-select');
+        if (selectEl) selectEl.value = '1';
+        return;
+    }
     playSound('click');
     state.postReading.modalTestNum = parseInt(val) || 1;
     renderPostReadingModal();
@@ -4179,8 +4274,9 @@ function renderLearningProgressModal() {
             ? `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> Đã học</span>`
             : `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> Chưa học</span>`;
 
+        const locked = isTestLocked(test.testNum);
         rowsHtml += `
-            <tr>
+            <tr style="${locked ? 'opacity: 0.65;' : ''}">
                 <td style="text-align: center;">
                     <span class="post-q-num-pill" style="padding: 3px 8px; font-size: 0.76rem;">ĐỀ ${String(test.testNum).padStart(2, '0')}</span>
                 </td>
@@ -4188,13 +4284,19 @@ function renderLearningProgressModal() {
                     <strong style="color: var(--text-color); font-size: 0.88rem;">${test.title}</strong>
                     <div style="font-size: 0.76rem; color: var(--text-muted);">${test.passages.length} Bài đọc • 40 Câu hỏi</div>
                 </td>
-                <td style="text-align: center;">${preBadge}</td>
-                <td style="text-align: center;">${whileBadge}</td>
-                <td style="text-align: center;">${postBadge}</td>
+                <td style="text-align: center;">${locked ? '<span class="matrix-badge-not-done" style="color:#dc2626;"><i class="fa-solid fa-lock"></i> Khóa</span>' : preBadge}</td>
+                <td style="text-align: center;">${locked ? '<span class="matrix-badge-not-done" style="color:#dc2626;"><i class="fa-solid fa-lock"></i> Khóa</span>' : whileBadge}</td>
+                <td style="text-align: center;">${locked ? '<span class="matrix-badge-not-done" style="color:#dc2626;"><i class="fa-solid fa-lock"></i> Khóa</span>' : postBadge}</td>
                 <td style="text-align: center;">
-                    <button class="btn-jump-passage" style="padding: 4px 10px; font-size: 0.75rem;" onclick="closeLearningProgressModal(); ${isSaved ? 'resumeSavedExam()' : `openPreTestView(${test.testNum})`}">
-                        ${isSaved ? '<i class="fa-solid fa-play"></i> Tiếp tục' : '<i class="fa-solid fa-arrow-right"></i> Học đề này'}
-                    </button>
+                    ${locked ? `
+                        <button class="btn-jump-passage" style="padding: 4px 10px; font-size: 0.75rem; background: #fee2e2; color: #dc2626; border-color: #fecaca; cursor: not-allowed;" onclick="notifyLockedTest(${test.testNum})">
+                            <i class="fa-solid fa-lock"></i> Đang khóa
+                        </button>
+                    ` : `
+                        <button class="btn-jump-passage" style="padding: 4px 10px; font-size: 0.75rem;" onclick="closeLearningProgressModal(); ${isSaved ? 'resumeSavedExam()' : `openPreTestView(${test.testNum})`}">
+                            ${isSaved ? '<i class="fa-solid fa-play"></i> Tiếp tục' : '<i class="fa-solid fa-arrow-right"></i> Học đề này'}
+                        </button>
+                    `}
                 </td>
             </tr>
         `;
@@ -4339,7 +4441,7 @@ function getWordSynonyms(v) {
 }
 
 function getFilteredReviewVocab() {
-    let list = state.allVocab || [];
+    let list = (state.allVocab || []).filter(v => !isTestLocked(v.testNum));
     if (state.review.vocabTestVal && state.review.vocabTestVal !== 'all') {
         const tNum = parseInt(state.review.vocabTestVal);
         list = list.filter(v => v.testNum === tNum);
@@ -4357,6 +4459,7 @@ function getFilteredReviewVocab() {
 }
 
 function initReviewSection() {
+    syncClassAccessRestrictions();
     collectAllVocab();
     switchReviewMainTab(state.review.mainTab || 'vocab');
 }
@@ -4414,6 +4517,12 @@ function onVocabSearch(query) {
 }
 
 function onVocabTestFilter(testVal) {
+    if (testVal !== 'all' && isTestLocked(testVal)) {
+        notifyLockedTest(testVal);
+        const sel = document.getElementById('vocab-test-select');
+        if (sel) sel.value = '1';
+        return;
+    }
     playSound('click');
     state.review.vocabTestVal = testVal;
     initReviewVocabQuiz();
@@ -4806,6 +4915,12 @@ function setSynonymReviewSubMode(submode) {
 }
 
 function onSynonymTestFilter(testVal) {
+    if (testVal !== 'all' && isTestLocked(testVal)) {
+        notifyLockedTest(testVal);
+        const sel = document.getElementById('synonym-test-select');
+        if (sel) sel.value = '1';
+        return;
+    }
     playSound('click');
     state.review.synTestVal = testVal;
     initReviewSynonymMatch();
@@ -4826,7 +4941,7 @@ function renderReviewSynonymActiveSubMode() {
 
 // Submode 2A: Ghép Cặp Từ Đồng Nghĩa (Matching Game)
 function initReviewSynonymMatch() {
-    let pool = state.allVocab.filter(v => getWordSynonyms(v).length > 0);
+    let pool = state.allVocab.filter(v => !isTestLocked(v.testNum) && getWordSynonyms(v).length > 0);
     if (state.review.synTestVal && state.review.synTestVal !== 'all') {
         const tNum = parseInt(state.review.synTestVal);
         pool = pool.filter(v => v.testNum === tNum);
@@ -4989,7 +5104,7 @@ function selectReviewSynonymMatch(side, id) {
 
 // Submode 2B: Trắc Nghiệm Paraphrase ("Closest in meaning")
 function initReviewSynonymQuiz() {
-    let pool = state.allVocab.filter(v => getWordSynonyms(v).length > 0);
+    let pool = state.allVocab.filter(v => !isTestLocked(v.testNum) && getWordSynonyms(v).length > 0);
     if (state.review.synTestVal && state.review.synTestVal !== 'all') {
         const tNum = parseInt(state.review.synTestVal);
         pool = pool.filter(v => v.testNum === tNum);
