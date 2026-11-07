@@ -1231,6 +1231,10 @@ function switchView(viewName) {
     if (viewName === 'dashboard') viewName = 'exam';
     if (viewName === 'vocab') viewName = 'review';
     state.currentView = viewName;
+
+    // Auto-close sidebar on mobile when switching views
+    const sidebarEl = document.getElementById('app-sidebar');
+    if (sidebarEl) sidebarEl.classList.remove('open');
     
     const views = ['home', 'exam', 'pretest', 'cbt', 'results', 'review', 'history', 'dashboard', 'vocab'];
     views.forEach(v => {

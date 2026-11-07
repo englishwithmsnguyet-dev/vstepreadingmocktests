@@ -3141,18 +3141,39 @@ body.dark-mode .cheat-subtext {
     .mobile-menu-btn {
         display: block;
     }
+    .cbt-top-bar {
+        height: auto;
+        min-height: 56px;
+        padding: 8px 12px;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .cbt-brand-section {
+        width: 100%;
+        justify-content: space-between;
+        overflow-x: auto;
+    }
+    .cbt-actions-section {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
     .cbt-split-workspace {
         flex-direction: column;
     }
     .cbt-passage-column {
-        height: 55vh;
+        height: 48vh;
+        flex: none;
         border-right: none;
         border-bottom: 2px solid #cbd5e1;
     }
     .cbt-question-column {
-        height: 45vh;
+        height: auto;
+        flex: 1;
         min-width: 0;
         max-width: 100%;
+        padding: 14px 16px;
     }
     .cbt-palette-grid {
         grid-template-columns: repeat(8, 1fr);
@@ -3161,22 +3182,74 @@ body.dark-mode .cheat-subtext {
 
 @media (max-width: 640px) {
     .page-view {
-        padding: 16px;
+        padding: 12px;
     }
     .top-header {
-        padding: 0 16px;
+        padding: 0 12px;
+        height: 58px;
+    }
+    #current-view-title {
+        font-size: 0.92rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 170px;
     }
     .tests-grid {
         grid-template-columns: 1fr;
     }
-    .cbt-top-bar {
-        padding: 0 10px;
-    }
-    .cbt-brand-badge span {
+    .cbt-brand-badge {
         display: none;
+    }
+    .cbt-part-tabs {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .cbt-part-tab-btn {
+        flex: 1;
+        justify-content: center;
+        padding: 6px 6px;
+        font-size: 0.76rem;
+        gap: 4px;
+    }
+    .cbt-autosave-box {
+        display: none;
+    }
+    .btn-save-progress-cbt span {
+        display: none;
+    }
+    .cbt-timer-badge {
+        font-size: 0.95rem;
+        padding: 5px 10px;
+    }
+    .btn-submit-cbt {
+        padding: 6px 12px;
+        font-size: 0.78rem;
+    }
+    .btn-exit-cbt {
+        padding: 6px 10px;
+        font-size: 0.78rem;
+    }
+    .cbt-passage-header {
+        padding: 10px 14px;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .cbt-passage-tools {
+        flex-wrap: wrap;
+        gap: 4px;
+    }
+    .cbt-passage-body {
+        padding: 16px 16px 28px;
+        font-size: 0.98rem;
+        line-height: 1.75;
     }
     .cbt-palette-grid {
         grid-template-columns: repeat(5, 1fr);
+    }
+    .login-modal-card {
+        padding: 24px 18px 20px 18px;
+        border-radius: 22px;
     }
 }
 
