@@ -469,17 +469,10 @@ function initApp() {
 }
 
 // Google Form Cloud Logger (Thống kê Đăng nhập, Điểm thi & Số lần vi phạm chuyển tab)
+// Form: https://forms.gle/pJ7MfnVbNcnKSB8i9 (READING MOCK TESTS)
 const GOOGLE_FORM_ENDPOINTS = [
     {
-        url: 'https://docs.google.com/forms/d/e/1FAIpQLSc7PpUuIwfXofYNKtZ2L_YqhJTlh-Xc7SoBqAgjXxtUla6XZw/formResponse',
-        entry: 'entry.1205151935'
-    },
-    {
-        url: 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse',
-        entry: 'entry.1205151935'
-    },
-    {
-        url: 'https://docs.google.com/forms/d/e/1FAIpQLSdOUd5JHqX4PXqkgfFuqCXZBEu1dsk3KdndGAio-TXiz6eOmQ/formResponse',
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSc3LCy8gtiDfErynjobi9wJdaeCsFw4GdNGWMozI-IPNaROPg/formResponse',
         entry: 'entry.388968236'
     }
 ];
