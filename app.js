@@ -698,9 +698,17 @@ const OFFICIAL_CLASS_ROSTER = {
         "Đặng Nguyễn Khánh Uyên",
         "Nguyễn Thị Chúc Yến"
     ],
-    "Gia Tuệ (B2)": [
-        "Trương Gia Tuệ",
+    "B2": [
         "Gia Tuệ",
+        "Trương Gia Tuệ",
+        "Gia Tuê",
+        "Nguyễn Gia Tuệ",
+        "Trần Gia Tuệ",
+        "Lê Gia Tuệ"
+    ],
+    "Gia Tuệ (B2)": [
+        "Gia Tuệ",
+        "Trương Gia Tuệ",
         "Gia Tuê",
         "Nguyễn Gia Tuệ",
         "Trần Gia Tuệ",
@@ -763,13 +771,13 @@ function validateAllowedClass(rawClass) {
         return 'GV';
     }
 
-    // 2. 5 Lớp chính thức theo yêu cầu: CB210, CB211, CB213, ONB103, B212
+    // 2. Các lớp chính thức: CB210, CB211, CB213, ONB103, B212 và B2 (Gia Tuệ)
     if (noSpace === 'cb210' || noSpace === 'lopcb210') return 'CB210';
     if (noSpace === 'cb211' || noSpace === 'lopcb211') return 'CB211';
     if (noSpace === 'cb213' || noSpace === 'lopcb213') return 'CB213';
     if (noSpace === 'onb103' || noSpace === 'loponb103') return 'ONB103';
     if (noSpace === 'b212' || noSpace === 'lopb212') return 'B212';
-    if (noSpace.includes('giatue') || norm.includes('gia tue')) return 'Gia Tuệ (B2)';
+    if (noSpace === 'b2' || noSpace === 'lopb2' || noSpace.includes('giatue') || norm.includes('gia tue')) return 'B2';
 
     return null;
 }
@@ -820,7 +828,7 @@ function findClassByStudentName(inputName) {
     if (norm.includes('ptmn') || norm.includes('nguyet')) {
         return { classCode: 'GV', officialName: 'PTMN - GV' };
     }
-    const targetClasses = ['CB210', 'CB211', 'CB213', 'ONB103', 'B212', 'Gia Tuệ (B2)'];
+    const targetClasses = ['CB210', 'CB211', 'CB213', 'ONB103', 'B212', 'B2'];
     for (const cls of targetClasses) {
         const matched = findOfficialStudent(inputName, cls);
         if (matched) return { classCode: cls, officialName: matched };
