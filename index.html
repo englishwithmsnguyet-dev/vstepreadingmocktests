@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSTEP READING MOCK TESTS - English with Miss Nguyet</title>
+    <meta name="description" content="Hệ thống thi thử Đọc hiểu VSTEP CBT trực tuyến 10 bộ đề thi tiêu chuẩn B1-B2-C1 với chia đôi màn hình, đếm ngược và giải thích chi tiết.">
+    <!-- Google Fonts: Plus Jakarta Sans for modern clean UI + Merriweather for reading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome 6.4.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css?v=20261107_01">
+</head>
+<body>
+
+    <!-- Student Authentication & Login Modal -->
+    <div class="modal-overlay" id="student-modal">
+        <div class="login-modal-card">
+            <!-- Close button only enabled if user is already logged in and just changing profile -->
+            <button class="login-modal-close-btn hidden" id="login-modal-close-btn" onclick="closeStudentModal()">&times;</button>
+
+            <!-- Avatar with Glow Ring -->
+            <div class="login-avatar-container">
+                <div class="login-avatar-glow"></div>
+                <img src="teacher_avatar.jpg" alt="Miss Nguyet" class="login-avatar-img">
+            </div>
+
+            <!-- Instructor Badge -->
+            <div>
+                <span class="login-instructor-badge">
+                    <i class="fa-solid fa-certificate"></i> LEAD INSTRUCTOR
+                </span>
+            </div>
+
+            <!-- Welcome & System Title -->
+            <div class="login-welcome-title">
+                <i class="fa-solid fa-graduation-cap"></i> Welcome to Miss Nguyet's Class!
+            </div>
+            <div class="login-system-title">
+                VSTEP READING MOCK TESTS
+            </div>
+
+            <!-- Main Headline -->
+            <h2 class="login-headline">
+                NHẬP THÔNG TIN<br>ĐỂ BẮT ĐẦU HỌC 🚀
+            </h2>
+
+            <!-- Authentication Form -->
+            <form id="login-form" onsubmit="event.preventDefault(); submitStudentLogin();">
+                <!-- Field 1: Họ và tên -->
+                <div class="login-field-group">
+                    <label class="login-field-label">
+                        <i class="fa-solid fa-user-check" style="color: #6366f1;"></i> HỌ VÀ TÊN:
+                    </label>
+                    <input type="text" id="login-student-name" class="login-input" placeholder="Nhập họ và tên..." autocomplete="off">
+                </div>
+
+                <!-- Field 2: Mã lớp học -->
+                <div class="login-field-group">
+                    <label class="login-field-label">
+                        <i class="fa-solid fa-users" style="color: #0284c7;"></i> MÃ LỚP HỌC:
+                    </label>
+                    <input type="text" id="login-student-class" class="login-input" placeholder="Nhập mã lớp..." autocomplete="off">
+                </div>
+
+                <!-- Field 3: Mật khẩu -->
+                <div class="login-field-group">
+                    <label class="login-field-label">
+                        <i class="fa-solid fa-key" style="color: #d97706;"></i> MẬT KHẨU TRUY CẬP:
+                    </label>
+                    <div class="login-password-wrap">
+                        <input type="password" id="login-password" class="login-password-input" placeholder="Nhập mật khẩu..." autocomplete="current-password">
+                        <button type="button" class="login-pwd-toggle-btn" onclick="toggleLoginPassword()" title="Hiện/Ẩn mật khẩu">
+                            <i class="fa-regular fa-eye" id="login-pwd-eye"></i>
+                        </button>
+                    </div>
+                    <!-- Error Message Banner -->
+                    <div id="login-error-msg" class="login-error-msg hidden"></div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="login-submit-btn">
+                    BẮT ĐẦU HỌC <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </form>
+
+            <!-- Brand Footer -->
+            <div class="login-footer-brand">
+                <a href="https://www.facebook.com/nguyetpham28" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+                    <i class="fa-brands fa-facebook" style="color: #1877f2; font-size: 1.05rem;"></i>
+                    <span>ENGLISH WITH MISS NGUYET</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Student Profile & Account Details Modal -->
+    <div class="modal-overlay hidden" id="profile-modal">
+        <div class="modal-content glass-panel" style="max-width: 420px; text-align: center;">
+            <button class="modal-close-btn" onclick="closeProfileModal()">&times;</button>
+            <div style="width: 76px; height: 76px; border-radius: 50%; background: linear-gradient(135deg, #4f46e5, #7c3aed); color: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: 800; margin: 0 auto 12px auto; box-shadow: 0 8px 18px rgba(79, 70, 229, 0.3);" id="profile-avatar-display">
+                H
+            </div>
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-color); margin-bottom: 4px;" id="profile-name-display">
+                Học viên
+            </h3>
+            <p style="font-size: 0.9rem; color: #4f46e5; font-weight: 700; margin-bottom: 18px;" id="profile-class-display">
+                Lớp: CB210
+            </p>
+            <div style="background: var(--bg-color); border: 1px solid var(--border-color); border-radius: 12px; padding: 14px 18px; text-align: left; margin-bottom: 20px; font-size: 0.88rem;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                    <span style="color: var(--text-muted);"><i class="fa-solid fa-shield-check" style="color: #10b981;"></i> Trạng thái:</span>
+                    <span style="color: #10b981; font-weight: 700;">Đã xác thực</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                    <span style="color: var(--text-muted);"><i class="fa-solid fa-user-graduate" style="color: #6366f1;"></i> Vai trò:</span>
+                    <span style="font-weight: 700;" id="profile-role-display">Học viên chính thức</span>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <span style="color: var(--text-muted);"><i class="fa-solid fa-book-open" style="color: #06b6d4;"></i> Kho đề:</span>
+                    <span style="font-weight: 700;">10 Đề Reading (400 Từ)</span>
+                </div>
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <button class="secondary-btn" onclick="reopenLoginForm()" style="flex: 1; justify-content: center;">
+                    <i class="fa-solid fa-pen-to-square"></i> Đổi thông tin
+                </button>
+                <button class="secondary-btn" onclick="logoutStudent()" style="flex: 1; justify-content: center; color: #ef4444; border-color: rgba(239, 68, 68, 0.4);">
+                    <i class="fa-solid fa-right-from-bracket"></i> Đăng xuất
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Celebration Certificate Modal -->
+    <div class="modal-overlay hidden" id="cert-modal">
+        <div class="cert-content">
+            <button class="modal-close-btn" onclick="closeCertModal()">&times;</button>
+            <div class="cert-crown"><i class="fa-solid fa-crown"></i></div>
+            <h2 class="cert-title">CHỨNG NHẬN HOÀN THÀNH</h2>
+            <p class="cert-subtitle">Chúc mừng học viên đã hoàn thành xuất sắc đề thi thử VSTEP Reading</p>
+            <div class="cert-student-box">
+                <p style="font-size: 0.85rem; color: #64748b; text-transform: uppercase; font-weight: 700;">Trao tặng cho học viên</p>
+                <h3 class="cert-student-name" id="cert-name-display">Nguyễn Văn A</h3>
+                <p style="font-size: 0.9rem; color: #475569; margin-top: 6px;" id="cert-class-display">Lớp: VSTEP B2</p>
+                <div style="margin-top: 12px;">
+                    <span style="font-size: 0.9rem; color: #64748b;">Kết quả bài thi:</span>
+                    <div class="cert-score-display" id="cert-score-display">36 / 40 (90%) - BẬC 5 (C1)</div>
+                </div>
+            </div>
+            <div class="cert-footer">
+                <div>
+                    <p style="font-size: 0.82rem; color: #64748b; font-weight: 700;">Giáo viên phụ trách</p>
+                    <p style="font-size: 1.1rem; font-weight: 800; color: #1e3a8a;">Miss Nguyệt</p>
+                    <p style="font-size: 0.8rem; color: #94a3b8; font-style: italic;">@englishwithmissnguyet</p>
+                </div>
+                <img src="teacher_avatar.jpg" alt="Teacher Stamp" class="cert-stamp">
+            </div>
+            <button class="primary-btn" onclick="window.print()" style="margin-top: 22px;">
+                <i class="fa-solid fa-print"></i> In / Lưu chứng nhận
+            </button>
+        </div>
+    </div>
+
+    <!-- Quick Vocab Preview Modal -->
+    <div class="modal-overlay hidden" id="vocab-preview-modal">
+        <div class="modal-content glass-panel" style="max-width: 680px; text-align: left;">
+            <button class="modal-close-btn" onclick="closeVocabPreview()">&times;</button>
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 16px;">
+                <i class="fa-solid fa-book-bookmark" style="color: var(--primary-color); font-size: 1.4rem;"></i>
+                <h3 style="font-size: 1.25rem; font-weight: 800; margin: 0;" id="vocab-preview-title">
+                    Từ vựng trọng tâm
+                </h3>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 18px;">
+                Trau dồi các từ vựng học thuật xuất hiện trong bài đọc trước khi bấm giờ làm bài:
+            </p>
+            <div id="vocab-preview-list" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; max-height: 400px; overflow-y: auto; padding-right: 6px;">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Standalone Post-Reading Deduction Vocab Modal -->
+    <div class="modal-overlay hidden" id="post-reading-modal">
+        <div class="modal-content glass-panel post-reading-modal-content">
+            <button class="modal-close-btn" onclick="closePostReadingModal()">&times;</button>
+            <div class="post-reading-modal-header">
+                <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+                    <div class="post-modal-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <div>
+                        <div class="post-reading-badge-pill" style="margin-bottom: 4px; display: inline-flex;">
+                            <i class="fa-solid fa-graduation-cap"></i> BƯỚC 3: POST-READING (TỔNG KẾT SAU KHI ĐỌC)
+                        </div>
+                        <h3 style="font-size: 1.35rem; font-weight: 900; margin: 0; color: var(--text-color);">
+                            TỪ VỰNG CHỦ CHỐT GIÚP SUY LUẬN ĐÁP ÁN
+                        </h3>
+                        <p style="font-size: 0.88rem; color: var(--text-muted); margin: 3px 0 0 0;" id="post-reading-modal-test-name">
+                            Đề thi thử Đọc hiểu VSTEP
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Controls Toolbar -->
+            <div class="post-modal-controls">
+                <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap; flex: 1;">
+                    <select id="post-modal-test-select" class="vocab-filter-select" onchange="onPostModalTestChange(this.value)">
+                        <option value="1">Đề số 01: Glencorn Lodge & Olympics</option>
+                        <option value="2">Đề số 02: Danakil & Mt. Fuji</option>
+                        <option value="3">Đề số 03: Van Gogh & Mesa Verde</option>
+                        <option value="4">Đề số 04: Earthquakes & Currency</option>
+                        <option value="5">Đề số 05: Salvador Bahia & Brain Science</option>
+                        <option value="6">Đề số 06: Dopamine & Penicillin</option>
+                        <option value="7">Đề số 07: Dorothea Dix & Dinosaurs</option>
+                        <option value="8">Đề số 08: Space Exploration & Olympics 1908</option>
+                        <option value="9">Đề số 09: Failure & Svalbard Seed Vault</option>
+                        <option value="10">Đề số 10: Colors & Coral Reefs</option>
+                    </select>
+                    <input type="text" id="post-modal-search" class="vocab-search-input" placeholder="Tìm từ khóa bài đọc, đáp án..." oninput="onPostModalSearch(this.value)" style="max-width: 250px;">
+                </div>
+
+                <div class="post-modal-filter-pills">
+                    <button class="filter-pill-btn active" id="btn-modal-p-all" onclick="filterPostModalPassage('all', this)">Tất cả 40 câu</button>
+                    <button class="filter-pill-btn" id="btn-modal-p-0" onclick="filterPostModalPassage('0', this)">P1</button>
+                    <button class="filter-pill-btn" id="btn-modal-p-1" onclick="filterPostModalPassage('1', this)">P2</button>
+                    <button class="filter-pill-btn" id="btn-modal-p-2" onclick="filterPostModalPassage('2', this)">P3</button>
+                    <button class="filter-pill-btn" id="btn-modal-p-3" onclick="filterPostModalPassage('3', this)">P4</button>
+                </div>
+
+                <div class="post-reading-view-switch" style="margin-left: auto;">
+                    <button class="view-switch-btn active" id="btn-post-modal-cards" onclick="setPostModalMode('cards')">
+                        <i class="fa-solid fa-table-cells-large"></i> Thẻ
+                    </button>
+                    <button class="view-switch-btn" id="btn-post-modal-table" onclick="setPostModalMode('table')">
+                        <i class="fa-solid fa-table-list"></i> Bảng
+                    </button>
+                </div>
+            </div>
+
+            <!-- Modal Content Body -->
+            <div id="post-reading-modal-body" class="post-modal-scrollable">
+                <!-- Rendered dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Comprehensive Learning Progress & Save Modal -->
+    <div class="modal-overlay hidden" id="learning-progress-modal">
+        <div class="modal-content glass-panel learning-progress-modal-content">
+            <button class="modal-close-btn" onclick="closeLearningProgressModal()">&times;</button>
+            
+            <!-- Header -->
+            <div class="learning-progress-header">
+                <div class="learning-progress-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div>
+                    <h3 style="font-size: 1.35rem; font-weight: 900; margin: 0; color: var(--text-color);">
+                        BẢNG THEO DÕI & LƯU TIẾN ĐỘ HỌC TẬP
+                    </h3>
+                    <p style="font-size: 0.88rem; color: var(--text-muted); margin: 3px 0 0 0;">
+                        Học viên: <strong id="progress-modal-student-name" style="color: var(--primary-color);">PTMN</strong> • Lớp: <span id="progress-modal-student-class" style="font-weight: 700;">GV</span>
+                    </p>
+                </div>
+                <div class="progress-header-actions">
+                    <button class="secondary-btn" style="padding: 7px 13px; font-size: 0.82rem; background: #ecfdf5; color: #059669; border-color: #a7f3d0;" onclick="manualSyncProgress()" title="Lưu và đồng bộ dữ liệu vào bộ nhớ máy">
+                        <i class="fa-solid fa-floppy-disk"></i> Lưu tiến độ ngay
+                    </button>
+                    <button class="secondary-btn" style="padding: 7px 13px; font-size: 0.82rem;" onclick="exportProgressJSON()" title="Xuất file sao lưu .json về máy tính">
+                        <i class="fa-solid fa-download"></i> Sao lưu file (.json)
+                    </button>
+                    <label class="secondary-btn" style="padding: 7px 13px; font-size: 0.82rem; cursor: pointer;" title="Khôi phục tiến độ từ file sao lưu .json">
+                        <i class="fa-solid fa-upload"></i> Nhập file sao lưu
+                        <input type="file" id="import-progress-input" accept=".json" style="display: none;" onchange="importProgressJSON(event)">
+                    </label>
+                </div>
+            </div>
+
+            <!-- Top Stats Grid: 3 Steps Progress -->
+            <div class="progress-stats-overview">
+                <!-- Pre-Reading Stat -->
+                <div class="progress-stat-card card-pre">
+                    <div class="progress-stat-top">
+                        <span class="progress-stat-pill pill-pre">BƯỚC 1: PRE-READING</span>
+                        <i class="fa-solid fa-book-open-reader" style="color: #4f46e5;"></i>
+                    </div>
+                    <div class="progress-stat-value" id="prog-stat-pre-count">0 / 400</div>
+                    <div class="progress-stat-sub">Từ vựng đã nạp (<span id="prog-stat-pre-pct">0%</span>)</div>
+                    <div class="progress-bar-mini">
+                        <div class="progress-bar-fill fill-pre" id="prog-stat-pre-fill" style="width: 0%;"></div>
+                    </div>
+                </div>
+
+                <!-- While-Reading Stat -->
+                <div class="progress-stat-card card-while">
+                    <div class="progress-stat-top">
+                        <span class="progress-stat-pill pill-while">BƯỚC 2: WHILE-READING</span>
+                        <i class="fa-solid fa-laptop-code" style="color: #059669;"></i>
+                    </div>
+                    <div class="progress-stat-value" id="prog-stat-while-count">0 / 10</div>
+                    <div class="progress-stat-sub">Đề đã thi • Điểm cao nhất: <strong id="prog-stat-while-best">0/40</strong></div>
+                    <div class="progress-bar-mini">
+                        <div class="progress-bar-fill fill-while" id="prog-stat-while-fill" style="width: 0%;"></div>
+                    </div>
+                </div>
+
+                <!-- Post-Reading Stat -->
+                <div class="progress-stat-card card-post">
+                    <div class="progress-stat-top">
+                        <span class="progress-stat-pill pill-post">BƯỚC 3: POST-READING</span>
+                        <i class="fa-solid fa-lightbulb" style="color: #0284c7;"></i>
+                    </div>
+                    <div class="progress-stat-value" id="prog-stat-post-count">0 / 10</div>
+                    <div class="progress-stat-sub">Đề đã học phân tích Paraphrase & Suy luận</div>
+                    <div class="progress-bar-mini">
+                        <div class="progress-bar-fill fill-post" id="prog-stat-post-fill" style="width: 0%;"></div>
+                    </div>
+                </div>
+
+                <!-- Overall Grade Stat -->
+                <div class="progress-stat-card card-grade">
+                    <div class="progress-stat-top">
+                        <span class="progress-stat-pill pill-grade">DỰ ĐOÁN BAND VSTEP</span>
+                        <i class="fa-solid fa-trophy" style="color: #d97706;"></i>
+                    </div>
+                    <div class="progress-stat-value" id="prog-stat-current-band" style="font-size: 1.28rem;">BẬC 4 (B2)</div>
+                    <div class="progress-stat-sub" id="prog-stat-grade-sub">Dựa trên điểm thi gần nhất</div>
+                    <div style="font-size: 0.74rem; color: #10b981; font-weight: 800; margin-top: 6px;">
+                        <i class="fa-solid fa-shield-check"></i> Lưu tự động liên tục
+                    </div>
+                </div>
+            </div>
+
+            <!-- In-progress exam notice if exists -->
+            <div id="prog-modal-active-exam-box"></div>
+
+            <!-- 10 Tests Matrix Section -->
+            <div class="progress-matrix-section">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; gap: 8px;">
+                    <h4 style="margin: 0; font-size: 1rem; font-weight: 800; color: var(--text-color); display: flex; align-items: center; gap: 8px;">
+                        <i class="fa-solid fa-table-list" style="color: var(--primary-color);"></i>
+                        Ma Trận Tiến Độ 10 Đề Thi (Pre - While - Post):
+                    </h4>
+                    <span style="font-size: 0.78rem; color: var(--text-muted);">
+                        Hệ thống tự động lưu trên trình duyệt của học viên.
+                    </span>
+                </div>
+
+                <div class="progress-matrix-table-wrap">
+                    <table class="progress-matrix-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 65px; text-align: center;">Đề</th>
+                                <th>Tiêu đề đề thi</th>
+                                <th style="width: 160px; text-align: center;">Bước 1: Pre-Reading</th>
+                                <th style="width: 190px; text-align: center;">Bước 2: While-Reading</th>
+                                <th style="width: 150px; text-align: center;">Bước 3: Post-Reading</th>
+                                <th style="width: 105px; text-align: center;">Hành động</th>
+                            </tr>
+                        </thead>
+                        <tbody id="progress-matrix-tbody">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- App Main Layout -->
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="app-sidebar">
+            <a href="#" class="brand" onclick="switchView('home')">
+                <img src="teacher_avatar.jpg" alt="English with Miss Nguyet" class="brand-logo">
+                <div class="brand-text">
+                    <h3>ENGLISH WITH MISS NGUYET</h3>
+                    <span>Reading Mock Tests</span>
+                </div>
+            </a>
+
+            <!-- Progress Tracker -->
+            <div class="progress-container-sidebar" onclick="openLearningProgressModal()" style="cursor: pointer;" title="Nhấn để xem chi tiết & Quản lý tiến độ học tập">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                    <span class="progress-title" style="margin-bottom: 0;"><i class="fa-solid fa-chart-pie"></i> Tiến độ học tập</span>
+                    <span style="font-size: 0.72rem; color: #a5b4fc; font-weight: 700; text-decoration: underline;"><i class="fa-solid fa-eye"></i> Chi tiết</span>
+                </div>
+                <div class="progress-track">
+                    <div class="progress-fill" id="sidebar-progress-fill"></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 4px;">
+                    <span class="progress-percentage" id="sidebar-progress-text">0/10 Đề hoàn thành (0%)</span>
+                    <span id="sidebar-sync-badge" style="font-size: 0.68rem; color: #34d399; font-weight: 800;"><i class="fa-solid fa-shield-check"></i> Đã lưu</span>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li>
+                    <button class="nav-link-btn active" id="nav-btn-home" onclick="switchView('home')">
+                        <span class="tab-icon"><i class="fa-solid fa-house"></i></span>
+                        <span class="tab-text">TRANG CHỦ</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-link-btn" id="nav-btn-exam" onclick="switchView('exam')">
+                        <span class="tab-icon"><i class="fa-solid fa-laptop-code"></i></span>
+                        <span class="tab-text">PHÒNG THI</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-link-btn" id="nav-btn-review" onclick="switchView('review')">
+                        <span class="tab-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                        <span class="tab-text">ÔN TẬP TỪ VỰNG</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="nav-link-btn" id="nav-btn-history" onclick="switchView('history')">
+                        <span class="tab-icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                        <span class="tab-text">LỊCH SỬ THI THỬ</span>
+                    </button>
+                </li>
+            </ul>
+
+            <!-- Sidebar Footer -->
+            <div class="sidebar-footer">
+                <p class="teacher-tag">
+                    Giáo viên phụ trách: <strong>Miss Nguyệt</strong>
+                </p>
+                <p style="font-size: 0.72rem; color: var(--text-muted); margin-top: 4px;">
+                    © 2026 English with Miss Nguyet
+                </p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Sticky Header -->
+            <header class="top-header" id="app-top-header">
+                <div class="top-header-left">
+                    <button class="mobile-menu-btn" onclick="toggleSidebar()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="page-title-badge">
+                        <i class="fa-solid fa-book-open-reader" style="color: var(--primary-color);"></i>
+                        <span id="current-view-title">DANH SÁCH 10 ĐỀ THI ĐỌC HIỂU VSTEP</span>
+                    </div>
+                </div>
+                <div class="top-header-right">
+                    <!-- Student Profile Pill -->
+                    <div class="user-profile-pill" onclick="handleUserProfileClick()" title="Thông tin tài khoản & Lớp học">
+                        <div class="user-avatar-icon" id="user-avatar-letter">H</div>
+                        <div style="display: flex; flex-direction: column; text-align: left; line-height: 1.15;">
+                            <span class="user-name-text" id="user-name-header">Học viên</span>
+                            <span id="user-class-header" style="font-size: 0.68rem; font-weight: 700; color: #4338ca;">CB210</span>
+                        </div>
+                    </div>
+                    <!-- Save & Progress Button -->
+                    <button class="header-icon-btn" id="btn-save-progress-header" onclick="openLearningProgressModal()" title="Bảng theo dõi & Lưu tiến độ học tập" style="width: auto; padding: 0 12px; border-radius: 10px; gap: 6px; font-size: 0.8rem; font-weight: 700; border: 1.5px solid rgba(16, 185, 129, 0.4); background: rgba(16, 185, 129, 0.1); color: #059669; display: inline-flex; align-items: center;">
+                        <i class="fa-solid fa-floppy-disk" style="color: #059669;"></i>
+                        <span>Lưu tiến độ</span>
+                    </button>
+                    <!-- Studio Voice Mode Toggle -->
+                    <button class="header-icon-btn" id="voice-mode-toggle" onclick="toggleVoiceMode()" title="Đổi chế độ giọng đọc mẫu (Giọng Nữ Studio Ava Neural / Giọng Gốc AI)" style="width: auto; padding: 0 12px; border-radius: 10px; gap: 6px; font-size: 0.8rem; font-weight: 700; border: 1.5px solid rgba(139, 92, 246, 0.4); background: rgba(139, 92, 246, 0.1); color: #7c3aed; display: inline-flex; align-items: center;">
+                        <i class="fa-solid fa-microphone-lines" style="color: #7c3aed;"></i>
+                        <span id="voice-mode-label">Giọng Nữ Studio</span>
+                    </button>
+                    <!-- Sound Toggle -->
+                    <button class="header-icon-btn" id="btn-sound-toggle" onclick="toggleSound()" title="Bật/Tắt âm thanh">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </button>
+                    <!-- Dark/Light Mode -->
+                    <button class="header-icon-btn" id="btn-theme-toggle" onclick="toggleTheme()" title="Chuyển chế độ Sáng / Tối">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- VIEW 1: TRANG CHỦ (HƯỚNG DẪN & LƯU Ý KHI LÀM BÀI) -->
+            <section class="page-view" id="view-home">
+                <!-- Hero Section -->
+                <div class="dashboard-hero">
+                    <h1>
+                        <i class="fa-solid fa-laptop-code"></i> VSTEP READING MOCK TEST
+                    </h1>
+                    <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 22px;">
+                        <button class="primary-btn" onclick="switchView('exam')" style="background: #10b981; font-weight: 800; font-size: 0.95rem; padding: 12px 22px; border-radius: 12px; box-shadow: 0 6px 16px rgba(16, 185, 129, 0.35);">
+                            <i class="fa-solid fa-door-open"></i> VÀO PHÒNG THI (10 ĐỀ THI)
+                        </button>
+                        <button class="secondary-btn" onclick="switchView('review')" style="background: rgba(255,255,255,0.16); color: #fff; border-color: rgba(255,255,255,0.35); font-weight: 700; font-size: 0.95rem; padding: 12px 20px; border-radius: 12px;">
+                            <i class="fa-solid fa-graduation-cap"></i> ÔN TẬP TỪ VỰNG & ĐỒNG NGHĨA
+                        </button>
+                        <button class="secondary-btn" onclick="openLearningProgressModal()" style="background: rgba(255,255,255,0.16); color: #fff; border-color: rgba(255,255,255,0.35); font-weight: 700; font-size: 0.95rem; padding: 12px 20px; border-radius: 12px;">
+                            <i class="fa-solid fa-chart-line"></i> BẢNG TIẾN ĐỘ HỌC TẬP
+                        </button>
+                    </div>
+                    <div class="hero-stats-row">
+                        <div class="hero-stat-chip"><i class="fa-solid fa-clock"></i> 60 Phút / Đề thi</div>
+                        <div class="hero-stat-chip"><i class="fa-solid fa-file-lines"></i> 4 Bài đọc (Passages)</div>
+                        <div class="hero-stat-chip"><i class="fa-solid fa-list-check"></i> 40 Câu hỏi trắc nghiệm</div>
+                        <div class="hero-stat-chip"><i class="fa-solid fa-shield-halved"></i> Giám sát chuyển tab</div>
+                        <div class="hero-stat-chip"><i class="fa-solid fa-award"></i> Quy đổi Bậc 3, 4, 5 (B1, B2, C1)</div>
+                    </div>
+                </div>
+
+                <!-- Resume in-progress exam banner -->
+                <div id="home-resume-banner-container"></div>
+
+                <!-- SECTION 1: HƯỚNG DẪN SỬ DỤNG HỆ THỐNG -->
+                <div class="home-section-box">
+                    <div class="home-section-header">
+                        <div class="home-section-icon" style="background: #eef2ff; color: #4f46e5;">
+                            <i class="fa-solid fa-route"></i>
+                        </div>
+                        <div>
+                            <h2 style="font-size: 1.28rem; font-weight: 900; color: var(--text-color); margin: 0 0 4px 0;">
+                                QUY TRÌNH HỌC TẬP CHUẨN 3 BƯỚC: PRE - WHILE - POST READING
+                            </h2>
+                            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">
+                                Phương pháp giảng dạy Đọc hiểu chuẩn quốc tế giúp học viên rèn luyện tư duy ngôn ngữ và bứt phá band điểm VSTEP B1-B2-C1.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="home-steps-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                        <!-- Step 1: Pre-Reading -->
+                        <div class="home-step-card" style="border-top: 4px solid #4f46e5;">
+                            <div>
+                                <span class="home-step-badge" style="background: #eef2ff; color: #4f46e5;">BƯỚC 1: PRE-READING</span>
+                                <h3 class="home-step-title">Nạp Từ Vựng Trọng Tâm</h3>
+                                <p class="home-step-desc">
+                                    Bấm <strong>"BƯỚC 1: PRE-READING"</strong> trên thẻ đề. Mỗi đề gồm 40 từ học thuật chọn lọc (10 từ/Passage). Học viên xem nghĩa tiếng Việt, cách diễn đạt tương đương (Paraphrases), nghe phát âm Nữ Studio và làm bài trắc nghiệm phản xạ trước khi vào bài đọc.
+                                </p>
+                            </div>
+                            <div style="margin-top: 14px;">
+                                <span style="font-size: 0.78rem; font-weight: 700; color: #4f46e5;"><i class="fa-solid fa-book-open-reader"></i> Nạp từ khóa & Kích hoạt kiến thức nền</span>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: While-Reading -->
+                        <div class="home-step-card" style="border-top: 4px solid #059669;">
+                            <div>
+                                <span class="home-step-badge" style="background: #ecfdf5; color: #059669;">BƯỚC 2: WHILE-READING</span>
+                                <h3 class="home-step-title">Thực Chiến Thi 60 Phút CBT</h3>
+                                <p class="home-step-desc">
+                                    Bấm <strong>"BƯỚC 2: WHILE-READING"</strong> để bước vào phòng thi chuẩn máy tính. Màn hình chia đôi: Bài đọc bên trái, 40 câu hỏi bên phải, đồng hồ đếm ngược 60 phút, bút dạ quang, gắn cờ và giám sát chống gian lận chuyển tab.
+                                </p>
+                            </div>
+                            <div style="margin-top: 14px;">
+                                <span style="font-size: 0.78rem; font-weight: 800; color: #059669;"><i class="fa-solid fa-laptop-code"></i> Rèn luyện Skimming, Scanning & Time Management</span>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Post-Reading -->
+                        <div class="home-step-card" style="border-top: 4px solid #0284c7;">
+                            <div>
+                                <span class="home-step-badge" style="background: #e0f2fe; color: #0284c7;">BƯỚC 3: POST-READING</span>
+                                <h3 class="home-step-title">Từ Vựng Suy Luận & Paraphrase</h3>
+                                <p class="home-step-desc">
+                                    Sau khi nộp bài, hệ thống mở khóa <strong>"BƯỚC 3: POST-READING"</strong>: Bảng đối chiếu từ khóa trong bài đọc đối chiếu với phương án đúng, giải mã logic loại suy và giải thích chi tiết dẫn chứng cho toàn bộ 40 câu hỏi.
+                                </p>
+                            </div>
+                            <div style="margin-top: 14px;">
+                                <span style="font-size: 0.78rem; font-weight: 700; color: #0284c7;"><i class="fa-solid fa-lightbulb"></i> Giải mã bẫy đề & Quy luật suy luận đáp án</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 2: CÁC LƯU Ý QUAN TRỌNG KHI LÀM BÀI THI -->
+                <div class="home-section-box">
+                    <div class="home-section-header">
+                        <div class="home-section-icon" style="background: #fffbeb; color: #d97706;">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <div>
+                            <h2 style="font-size: 1.28rem; font-weight: 900; color: var(--text-color); margin: 0 0 4px 0;">
+                                CÁC LƯU Ý & CHIẾN THUẬT LÀM BÀI THI VSTEP READING
+                            </h2>
+                            <p style="font-size: 0.88rem; color: var(--text-muted); margin: 0;">
+                                Bí quyết phân bổ thời gian, kỹ thuật đọc lướt và quy chế làm bài thi thử trực tuyến.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="home-tips-grid">
+                        <!-- Tip 1 -->
+                        <div class="home-tip-card">
+                            <div class="home-tip-top">
+                                <div class="home-tip-icon" style="background: #eff6ff; color: #2563eb;">
+                                    <i class="fa-solid fa-stopwatch-20"></i>
+                                </div>
+                                <h3 class="home-tip-title">1. Phân Bổ Thời Gian 60 Phút</h3>
+                            </div>
+                            <ul class="home-tip-list">
+                                <li>Đề thi có tổng cộng <strong>40 câu hỏi</strong> chia đều cho <strong>4 bài đọc</strong> (10 câu/bài).</li>
+                                <li>Dành trung bình tối đa <strong>14 - 15 phút</strong> cho mỗi bài đọc để đảm bảo kịp hoàn thành cả 4 bài.</li>
+                                <li>Không dừng quá 2 phút ở 1 câu hỏi khó. Hãy bấm <strong>Flag (Gắn cờ)</strong> để đánh dấu và chuyển sang câu tiếp theo.</li>
+                                <li>Dành 2 phút cuối kiểm tra bảng câu hỏi (Question Palette), đảm bảo 40/40 câu đều đã chọn phương án vì bài thi không trừ điểm câu sai.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Tip 2 -->
+                        <div class="home-tip-card">
+                            <div class="home-tip-top">
+                                <div class="home-tip-icon" style="background: #ecfdf5; color: #059669;">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <h3 class="home-tip-title">2. Kỹ Năng Skimming & Scanning</h3>
+                            </div>
+                            <ul class="home-tip-list">
+                                <li><strong>Skimming (Đọc lướt)</strong>: Đọc nhanh tiêu đề, đoạn mở đầu, câu chủ đề (Topic Sentence) đầu và cuối mỗi đoạn để nắm ý chính (Main Idea).</li>
+                                <li><strong>Scanning (Quét từ khóa)</strong>: Đọc câu hỏi trước, xác định từ khóa đặc trưng (tên riêng, số liệu, năm tháng, thuật ngữ in hoa/in nghiêng) rồi quét mắt định vị dòng chứa thông tin trong bài đọc.</li>
+                                <li>Không dịch từng từ từng câu của bài đọc; hãy tập trung tìm dẫn chứng trả lời cho câu hỏi.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Tip 3 -->
+                        <div class="home-tip-card">
+                            <div class="home-tip-top">
+                                <div class="home-tip-icon" style="background: #f5f3ff; color: #7c3aed;">
+                                    <i class="fa-solid fa-retweet"></i>
+                                </div>
+                                <h3 class="home-tip-title">3. Dạng Câu Hỏi Từ Vựng (Vocabulary)</h3>
+                            </div>
+                            <ul class="home-tip-list">
+                                <li>VSTEP thường hỏi dạng <em>"The word X in paragraph Y is closest in meaning to..."</em> nhằm kiểm tra nghĩa trong ngữ cảnh cụ thể.</li>
+                                <li>Vận dụng ngân hàng từ đồng nghĩa (Paraphrases) đã học ở phần Pre-Test để loại trừ nhanh các phương án gây nhiễu.</li>
+                                <li>Thử thay thế 4 đáp án vào vị trí của từ trong đoạn văn xem câu nào giữ nguyên ý nghĩa logic ban đầu.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Tip 4 -->
+                        <div class="home-tip-card" style="border-color: #fca5a5;">
+                            <div class="home-tip-top">
+                                <div class="home-tip-icon" style="background: #fee2e2; color: #dc2626;">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                </div>
+                                <h3 class="home-tip-title" style="color: #b91c1c;">4. Kỷ Luật & Cảnh Báo Gian Lận</h3>
+                            </div>
+                            <ul class="home-tip-list">
+                                <li>Hệ thống phòng thi tích hợp <strong>tính năng giám sát tự động</strong> trong suốt 60 phút làm bài.</li>
+                                <li>Nghiêm cấm chuyển tab sang trình duyệt khác, mở Google Dịch, tra cứu từ điển hay thu nhỏ màn hình khi đang thi.</li>
+                                <li>Mọi hành vi chuyển tab đều <strong>kích hoạt chuông báo lỗi</strong>, hiện bảng cảnh báo gian lận và ghi lại số lần vi phạm vào bảng điểm tổng hợp!</li>
+                            </ul>
+                        </div>
+
+                        <!-- Tip 5 -->
+                        <div class="home-tip-card">
+                            <div class="home-tip-top">
+                                <div class="home-tip-icon" style="background: #fdf2f8; color: #db2777;">
+                                    <i class="fa-solid fa-desktop"></i>
+                                </div>
+                                <h3 class="home-tip-title">5. Tương Tác Trên Giao Diện CBT</h3>
+                            </div>
+                            <ul class="home-tip-list">
+                                <li>Dùng nút <strong>A- / A+ / 100%</strong> để điều chỉnh cỡ chữ bài đọc phù hợp với mắt bạn.</li>
+                                <li>Bật nút <strong>Bút dạ quang (Highlighter)</strong> để bôi màu các câu chứa dẫn chứng quan trọng khi đọc bài.</li>
+                                <li>Theo dõi Question Palette: Câu màu xanh dương là câu đang mở, màu xám nhạt là câu đã làm, màu trắng là câu chưa làm, viền cam là câu đang gắn cờ (Flag).</li>
+                            </ul>
+                        </div>
+
+                        <!-- Tip 6 -->
+                        <div class="home-tip-card">
+                            <div class="home-tip-top">
+                                <div class="home-tip-icon" style="background: #e0f2fe; color: #0284c7;">
+                                    <i class="fa-solid fa-award"></i>
+                                </div>
+                                <h3 class="home-tip-title">6. Chuẩn Bị Tâm Lý Thi Thật</h3>
+                            </div>
+                            <ul class="home-tip-list">
+                                <li>Hãy chọn không gian yên tĩnh và sắp xếp trọn vẹn 60 phút liên tục để làm bài như đang ngồi trong phòng thi chính thức.</li>
+                                <li>Sau khi thi xong, hãy dành thời gian đọc kỹ phần <strong>Phân Tích & Giải Thích Chi Tiết</strong> để rút kinh nghiệm cho các lần thi tiếp theo.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 3: CEFR Score Conversion Quick Guide -->
+                <div class="vstep-score-bar">
+                    <div style="font-weight: 800; font-size: 0.95rem; color: var(--text-color); display: flex; align-items: center; gap: 8px;">
+                        <i class="fa-solid fa-scale-balanced" style="color: var(--primary-color);"></i>
+                        Thang điểm quy đổi chuẩn VSTEP Reading (Bộ GD&ĐT):
+                    </div>
+                    <div class="score-level-item">
+                        <span class="level-badge level-b1">Bậc 3 (B1)</span>
+                        <span class="level-desc">20 - 25 câu đúng (4.0 - 5.5)</span>
+                    </div>
+                    <div class="score-level-item">
+                        <span class="level-badge level-b2">Bậc 4 (B2)</span>
+                        <span class="level-desc">26 - 34 câu đúng (6.0 - 8.0)</span>
+                    </div>
+                    <div class="score-level-item">
+                        <span class="level-badge level-c1">Bậc 5 (C1)</span>
+                        <span class="level-desc">35 - 40 câu đúng (8.5 - 10.0)</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 2: PHÒNG THI (10 ĐỀ THI) -->
+            <section class="page-view hidden" id="view-exam">
+                <!-- Exam Hero Banner -->
+                <div class="dashboard-hero" style="background: linear-gradient(135deg, #059669 0%, #10b981 50%, #0d9488 100%);">
+                    <h1 style="margin-bottom: 14px;">
+                        <i class="fa-solid fa-laptop-code"></i> PHÒNG THI VSTEP READING
+                    </h1>
+                    <div style="background: rgba(0,0,0,0.2); border: 1.5px dashed rgba(255,255,255,0.4); padding: 12px 18px; border-radius: 12px; font-size: 0.92rem; display: flex; align-items: center; gap: 10px;">
+                        <i class="fa-solid fa-shield-halved" style="font-size: 1.3rem; color: #fde047;"></i>
+                        <span><strong>KỶ LUẬT PHÒNG THI:</strong> Làm bài nghiêm túc trong 60 phút. Hệ thống sẽ phát chuông cảnh báo và ghi nhận vi phạm nếu học viên rời khỏi màn hình làm bài!</span>
+                    </div>
+                </div>
+
+                <!-- Resume in-progress exam banner -->
+                <div id="exam-resume-banner-container"></div>
+
+                <!-- Tests Grid -->
+                <h2 class="tests-section-title">
+                    <i class="fa-solid fa-layer-group" style="color: var(--primary-color);"></i>
+                    Danh Sách 10 Đề Thi Thử Đọc Hiểu:
+                </h2>
+                <div class="tests-grid" id="tests-grid-container">
+                    <!-- Populated dynamically by app.js -->
+                </div>
+            </section>
+
+            <!-- VIEW 2B: PRE-TEST VOCABULARY WARM-UP & TEST LOBBY (NẠP TỪ VỰNG - PRE-TEST) -->
+            <section class="page-view hidden" id="view-pretest">
+                <div id="pretest-workspace-container">
+                    <!-- Populated dynamically by app.js -->
+                </div>
+            </section>
+
+            <!-- VIEW 2: CBT EXAM SIMULATOR -->
+            <section class="page-view hidden" id="view-cbt" style="padding: 0;">
+                <div class="cbt-container">
+                    <!-- CBT Top Bar -->
+                    <div class="cbt-top-bar">
+                        <div class="cbt-brand-section">
+                            <div class="cbt-brand-badge">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <span>VSTEP CBT SIMULATOR</span>
+                            </div>
+                            <!-- Passage Tabs -->
+                            <div class="cbt-part-tabs" id="cbt-passage-tabs">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+
+                        <div class="cbt-actions-section">
+                            <div class="cbt-cheat-warning-badge hidden" id="cbt-tab-warning-badge" title="Hệ thống phát hiện chuyển tab hoặc rời màn hình thi">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                                <span>Rời tab: <strong id="cbt-cheat-count">0</strong></span>
+                            </div>
+                            <!-- CBT Autosave Indicator & Save Button -->
+                            <div class="cbt-autosave-box" id="cbt-autosave-box" title="Tiến độ làm bài được tự động lưu liên tục">
+                                <span class="cbt-autosave-dot"></span>
+                                <span id="cbt-autosave-text">Đã tự lưu</span>
+                            </div>
+                            <button class="btn-save-progress-cbt" id="btn-cbt-save-progress" onclick="saveActiveExamProgress(true)" title="Lưu tiến độ làm bài thi">
+                                <i class="fa-solid fa-floppy-disk"></i> <span>Lưu bài</span>
+                            </button>
+                            <div class="cbt-timer-badge" id="cbt-timer-badge">
+                                <i class="fa-regular fa-clock"></i>
+                                <span id="cbt-timer-display">60:00</span>
+                            </div>
+                            <div class="cbt-review-score-pill hidden" id="cbt-review-score-pill" onclick="switchView('results')" title="Nhấn để xem bảng điểm tổng hợp & Giấy chứng nhận">
+                                <i class="fa-solid fa-trophy" style="color: #fbbf24;"></i>
+                                <span id="cbt-review-score-text">Điểm: 0/40</span>
+                                <span style="font-size: 0.75rem; opacity: 0.85; text-decoration: underline; margin-left: 4px;">Chi tiết</span>
+                            </div>
+                            <button class="btn-submit-cbt" id="btn-top-submit" onclick="confirmSubmitExam()">
+                                <i class="fa-solid fa-paper-plane"></i> NỘP BÀI & KIỂM TRA ĐÁP ÁN
+                            </button>
+                            <button class="btn-exit-cbt" onclick="exitExamPrompt()">
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i> Thoát
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Split Workspace -->
+                    <div class="cbt-split-workspace">
+                        <!-- Left Column: Reading Passage -->
+                        <div class="cbt-passage-column" id="cbt-passage-column">
+                            <div class="cbt-passage-header">
+                                <h3 class="cbt-passage-title" id="active-passage-title">Passage 1</h3>
+                                <div class="cbt-passage-tools">
+                                    <button class="cbt-tool-btn" onclick="zoomPassageText(-1)" title="Giảm cỡ chữ">A-</button>
+                                    <button class="cbt-tool-btn" onclick="zoomPassageText(1)" title="Tăng cỡ chữ">A+</button>
+                                    <button class="cbt-tool-btn" onclick="resetPassageZoom()" title="Mặc định">100%</button>
+                                    <button class="cbt-tool-btn" id="btn-highlight-tool" onclick="toggleHighlightTool()" title="Bút dạ quang (Đánh dấu từ khóa)">
+                                        <i class="fa-solid fa-highlighter"></i> Bút dạ quang
+                                    </button>
+                                    <button class="cbt-tool-btn" onclick="clearHighlights()" title="Xóa các điểm đánh dấu">
+                                        <i class="fa-solid fa-eraser"></i> Xóa highlight
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="cbt-passage-body" id="active-passage-body">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+
+                        <!-- Right Column: Question & Palette -->
+                        <div class="cbt-question-column">
+                            <div id="cbt-question-area">
+                                <div class="cbt-q-header">
+                                    <span class="cbt-q-badge" id="cbt-q-badge">CÂU HỎI 1 / 40</span>
+                                    <span class="cbt-q-status-tag hidden" id="cbt-q-status-tag"></span>
+                                    <button class="cbt-btn-flag" id="cbt-btn-flag" onclick="toggleFlagCurrentQuestion()">
+                                        <i class="fa-regular fa-star"></i> Đánh dấu xem lại
+                                    </button>
+                                </div>
+                                <div class="cbt-q-prompt" id="cbt-q-prompt">
+                                    <!-- Question text populated dynamically -->
+                                </div>
+                                <div class="cbt-options-group" id="cbt-options-group">
+                                    <!-- Options A, B, C, D populated dynamically -->
+                                </div>
+                                <!-- Split-screen Review Panel (Status + Evidence Quote + Detailed Explanation) -->
+                                <div class="cbt-review-panel hidden" id="cbt-review-panel">
+                                    <!-- Populated dynamically after submission -->
+                                </div>
+                            </div>
+
+                            <!-- Bottom Toolbar & Question Palette -->
+                            <div class="cbt-bottom-toolbar">
+                                <div class="cbt-nav-actions">
+                                    <button class="secondary-btn" onclick="navQuestion(-1)" id="btn-prev-q">
+                                        <i class="fa-solid fa-chevron-left"></i> Câu trước
+                                    </button>
+                                    <span style="font-weight: 700; color: #64748b; font-size: 0.92rem;" id="q-counter-text">Câu 1 / 40</span>
+                                    <button class="primary-btn" onclick="navQuestion(1)" id="btn-next-q">
+                                        Câu tiếp <i class="fa-solid fa-chevron-right"></i>
+                                    </button>
+                                </div>
+
+                                <div>
+                                    <div style="font-size: 0.78rem; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 8px; letter-spacing: 0.5px;">
+                                        Bảng câu hỏi (Question Palette):
+                                    </div>
+                                    <div class="cbt-palette-grid" id="cbt-palette-grid">
+                                        <!-- 10 or 40 buttons populated dynamically -->
+                                    </div>
+                                    <button class="cbt-palette-submit-btn" id="btn-palette-submit" onclick="confirmSubmitExam()">
+                                        <i class="fa-solid fa-paper-plane"></i> NỘP BÀI & KIỂM TRA ĐÁP ÁN (<span id="palette-answered-count">0</span>/40)
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CHEAT WARNING MODAL -->
+                    <div id="cheat-warning-modal" class="cheat-warning-overlay hidden">
+                        <div class="cheat-warning-card">
+                            <div class="cheat-warning-icon">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                            </div>
+                            <h3 class="cheat-warning-title">CẢNH BÁO GIAN LẬN PHÒNG THI!</h3>
+                            <p class="cheat-warning-text">
+                                Hệ thống phát hiện bạn vừa <strong>rời khỏi màn hình làm bài</strong> (chuyển sang tab khác hoặc thu nhỏ trình duyệt).
+                            </p>
+                            <div class="cheat-count-banner">
+                                <span>Số lần vi phạm ghi nhận:</span>
+                                <span><strong id="cheat-modal-count" style="font-size: 1.3rem;">1</strong> lần</span>
+                            </div>
+                            <p class="cheat-subtext">
+                                ⚠️ <strong>Lưu ý:</strong> Để đánh giá đúng năng lực đọc hiểu VSTEP thực chất của bạn, vui lòng không tra cứu ngoài và tập trung làm bài cho đến khi hoàn thành 60 phút thi!
+                            </p>
+                            <button class="primary-btn cheat-ack-btn" onclick="dismissCheatWarning()">
+                                <i class="fa-solid fa-check"></i> TÔI ĐÃ HIỂU VÀ TIẾP TỤC LÀM BÀI
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 3: ACADEMIC RESULTS & EXPLANATION REPORT -->
+            <section class="page-view hidden" id="view-results">
+                <div class="results-container">
+                    <!-- Hero Scorecard -->
+                    <div class="results-hero-card">
+                        <div class="results-hero-icon"><i class="fa-solid fa-trophy"></i></div>
+                        <h2 style="font-size: 1.6rem; font-weight: 900; margin-bottom: 6px;">KẾT QUẢ BÀI THI THỬ VSTEP READING</h2>
+                        <p style="font-size: 1rem; color: #cbd5e1; margin-bottom: 18px;" id="results-test-title">VSTEP READING MOCK TEST 01</p>
+                        
+                        <div class="results-score-big">
+                            <span id="results-score-num">0</span><span> / 40</span>
+                        </div>
+                        <div class="results-band-tag" id="results-band-tag">ĐẠT BẬC 4 (B2)</div>
+                        <p style="max-width: 650px; margin: 0 auto; line-height: 1.6; font-size: 0.95rem; color: #e2e8f0;" id="results-feedback-text">
+                            <!-- Feedback injected dynamically -->
+                        </p>
+
+                        <div class="results-stats-grid">
+                            <div class="result-stat-box">
+                                <div class="result-stat-label">Tỉ lệ chính xác</div>
+                                <div class="result-stat-val" id="results-accuracy" style="color: #60a5fa;">0%</div>
+                            </div>
+                            <div class="result-stat-box">
+                                <div class="result-stat-label">Thời gian làm bài</div>
+                                <div class="result-stat-val" id="results-time-spent" style="color: #34d399;">00:00</div>
+                            </div>
+                            <div class="result-stat-box">
+                                <div class="result-stat-label">Số câu đúng / sai</div>
+                                <div class="result-stat-val">
+                                    <span id="results-correct-count" style="color: #34d399;">0</span> / <span id="results-wrong-count" style="color: #f87171;">0</span>
+                                </div>
+                            </div>
+                            <div class="result-stat-box">
+                                <div class="result-stat-label">Kỷ luật phòng thi</div>
+                                <div class="result-stat-val" id="results-tab-discipline" style="color: #10b981; font-size: 0.95rem;">Trung thực 100%</div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div style="display: flex; justify-content: center; gap: 12px; margin-top: 26px; flex-wrap: wrap;">
+                            <button class="primary-btn" onclick="jumpToQuestionFromResults(state.activeExam.currentQuestionId || 1)">
+                                <i class="fa-solid fa-book-open-reader"></i> Đối Chiếu Bài Đọc & Đáp Án
+                            </button>
+                            <button class="primary-btn" style="background: linear-gradient(135deg, #0284c7, #0ea5e9); box-shadow: 0 4px 15px rgba(2, 132, 199, 0.4);" onclick="scrollToPostReading()">
+                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING (TỪ VỰNG SUY LUẬN)
+                            </button>
+                            <button class="primary-btn" style="background: linear-gradient(135deg, #f59e0b, #d97706);" onclick="openCertModal()" id="btn-view-cert">
+                                <i class="fa-solid fa-certificate"></i> Xem Giấy Chứng Nhận
+                            </button>
+                            <button class="secondary-btn" style="background: rgba(255,255,255,0.15); color: white; border-color: rgba(255,255,255,0.3);" onclick="retakeCurrentExam()">
+                                <i class="fa-solid fa-rotate-left"></i> Làm Lại Đề Này
+                            </button>
+                            <button class="secondary-btn" style="background: rgba(255,255,255,0.15); color: white; border-color: rgba(255,255,255,0.3);" onclick="switchView('exam')">
+                                <i class="fa-solid fa-laptop-code"></i> Về Phòng Thi (10 Đề)
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Breakdown by Passage -->
+                    <div class="passage-breakdown-card">
+                        <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin-bottom: 6px;">
+                            <i class="fa-solid fa-chart-column" style="color: var(--primary-color);"></i>
+                            Phân Tích Điểm Số Theo Từng Bài Đọc:
+                        </h3>
+                        <div class="passage-breakdown-grid" id="results-passage-breakdown">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- BƯỚC 3: TỪ VỰNG CHỦ CHỐT GIÚP SUY LUẬN ĐÁP ÁN (POST-READING) -->
+                    <div class="post-reading-section" id="results-post-reading-section">
+                        <div class="post-reading-banner">
+                            <div class="post-reading-badge-pill">
+                                <i class="fa-solid fa-graduation-cap"></i> BƯỚC 3: POST-READING (TỔNG KẾT SAU KHI ĐỌC)
+                            </div>
+                            <h3 class="post-reading-title">
+                                <i class="fa-solid fa-lightbulb" style="color: #fbbf24;"></i> TỪ VỰNG CHỦ CHỐT GIÚP SUY LUẬN ĐÁP ÁN
+                            </h3>
+                            <p class="post-reading-subtitle">
+                                Hệ thống hóa toàn bộ từ khóa đối chiếu giữa <strong>Bài đọc & Phương án đúng (Paraphrase Pairs)</strong> cùng quy luật loại suy giúp bạn giải mã chính xác lý do chọn đáp án.
+                            </p>
+                        </div>
+
+                        <!-- Post-Reading Filter & Mode Switcher -->
+                        <div class="post-reading-toolbar">
+                            <div class="post-reading-filter-pills" id="post-reading-filter-pills">
+                                <button class="filter-pill-btn active" id="btn-post-filter-all" onclick="filterPostReadingSection('all', this)">
+                                    <i class="fa-solid fa-layer-group"></i> Tất cả 40 câu
+                                </button>
+                                <button class="filter-pill-btn" id="btn-post-filter-p1" onclick="filterPostReadingSection('p1', this)">Passage 1 (1-10)</button>
+                                <button class="filter-pill-btn" id="btn-post-filter-p2" onclick="filterPostReadingSection('p2', this)">Passage 2 (11-20)</button>
+                                <button class="filter-pill-btn" id="btn-post-filter-p3" onclick="filterPostReadingSection('p3', this)">Passage 3 (21-30)</button>
+                                <button class="filter-pill-btn" id="btn-post-filter-p4" onclick="filterPostReadingSection('p4', this)">Passage 4 (31-40)</button>
+                                <button class="filter-pill-btn pill-wrong-only" id="btn-post-filter-wrong" onclick="filterPostReadingSection('wrong', this)">
+                                    <i class="fa-solid fa-triangle-exclamation"></i> Chỉ câu làm sai (<span id="post-reading-wrong-badge">0</span>)
+                                </button>
+                            </div>
+                            <div class="post-reading-view-switch">
+                                <button class="view-switch-btn active" id="btn-post-mode-cards" onclick="setPostReadingMode('cards')">
+                                    <i class="fa-solid fa-table-cells-large"></i> Thẻ đối chiếu
+                                </button>
+                                <button class="view-switch-btn" id="btn-post-mode-table" onclick="setPostReadingMode('table')">
+                                    <i class="fa-solid fa-table-list"></i> Bảng tổng hợp
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Post-Reading Dynamic Stage -->
+                        <div id="results-post-reading-container">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+
+                    <!-- Academic Explanation Section -->
+                    <div>
+                        <div class="review-filter-bar">
+                            <h3 style="font-size: 1.2rem; font-weight: 800; color: var(--text-color); margin: 0; display: flex; align-items: center; gap: 8px;">
+                                <i class="fa-solid fa-book-open" style="color: var(--primary-color);"></i>
+                                Giải Thích Đáp Án Chi Tiết:
+                            </h3>
+                            <div class="filter-pills-group">
+                                <button class="filter-pill-btn active" onclick="filterReviewQuestions('all', this)">Tất cả 40 câu</button>
+                                <button class="filter-pill-btn" onclick="filterReviewQuestions('correct', this)">Câu đúng</button>
+                                <button class="filter-pill-btn" onclick="filterReviewQuestions('wrong', this)">Câu sai</button>
+                            </div>
+                        </div>
+
+                        <div id="results-questions-list">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 4: ÔN TẬP (TRẢ BÀI TỪ VỰNG & THỬ THÁCH TỪ ĐỒNG NGHĨA) -->
+            <section class="page-view hidden" id="view-review">
+                <div class="vocab-bank-container">
+                    <!-- Hero Banner -->
+                    <div class="dashboard-hero" style="padding: 28px; margin-bottom: 24px; background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 50%, #2563eb 100%);">
+                        <h2 style="font-size: 1.55rem; font-weight: 900; margin-bottom: 8px;">
+                            <i class="fa-solid fa-graduation-cap"></i> TRUNG TÂM ÔN TẬP VSTEP READING
+                        </h2>
+                        <p style="margin-bottom: 0;">
+                            Luyện tập chuyên sâu 2 kỹ năng cốt lõi: <strong>Trả bài TỪ VỰNG</strong> và <strong>Thử thách TỪ ĐỒNG NGHĨA (Paraphrasing)</strong> cho toàn bộ 400 từ học thuật qua 10 đề thi.
+                        </p>
+                    </div>
+
+                    <!-- 2 Main Tabs -->
+                    <div class="review-main-tabs">
+                        <button class="review-main-tab-btn active" id="btn-review-tab-vocab" onclick="switchReviewMainTab('vocab')">
+                            <i class="fa-solid fa-book-open"></i> 1. TRẢ BÀI TỪ VỰNG
+                            <span class="tab-badge-pill" id="review-vocab-pill">400 từ</span>
+                        </button>
+                        <button class="review-main-tab-btn" id="btn-review-tab-synonyms" onclick="switchReviewMainTab('synonyms')">
+                            <i class="fa-solid fa-bolt"></i> 2. THỬ THÁCH TỪ ĐỒNG NGHĨA
+                            <span class="tab-badge-pill" style="background: #fef08a; color: #854d0e;">Paraphrase</span>
+                        </button>
+                    </div>
+
+                    <!-- TAB 1 CONTAINER: TRẢ BÀI TỪ VỰNG -->
+                    <div id="review-vocab-container">
+                        <!-- Mode sub-pills -->
+                        <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px;">
+                            <button class="filter-pill-btn active" id="btn-vocab-submode-quiz" onclick="setVocabReviewSubMode('quiz')">
+                                <i class="fa-solid fa-bolt"></i> Trắc Nghiệm Trả Bài
+                            </button>
+                            <button class="filter-pill-btn" id="btn-vocab-submode-flashcards" onclick="setVocabReviewSubMode('flashcards')">
+                                <i class="fa-solid fa-clone"></i> Lật Thẻ Flashcards 3D
+                            </button>
+                            <button class="filter-pill-btn" id="btn-vocab-submode-cards" onclick="setVocabReviewSubMode('cards')">
+                                <i class="fa-solid fa-list-ul"></i> Danh Sách Tra Cứu
+                            </button>
+                        </div>
+
+                        <!-- Search & Test Filter Row -->
+                        <div class="vocab-search-row">
+                            <input type="text" id="vocab-search-input" class="vocab-search-input" placeholder="Tìm từ vựng tiếng Anh hoặc nghĩa tiếng Việt..." oninput="onVocabSearch(this.value)">
+                            <select id="vocab-test-select" class="vocab-filter-select" onchange="onVocabTestFilter(this.value)">
+                                <option value="all">Tất cả 10 đề thi (400 từ)</option>
+                                <option value="1">Đề số 01: Glencorn Lodge & Olympics (40 từ)</option>
+                                <option value="2">Đề số 02: Danakil & Mt. Fuji (40 từ)</option>
+                                <option value="3">Đề số 03: Van Gogh & Mesa Verde (40 từ)</option>
+                                <option value="4">Đề số 04: Earthquakes & Currency (40 từ)</option>
+                                <option value="5">Đề số 05: Salvador Bahia & Brain Science (40 từ)</option>
+                                <option value="6">Đề số 06: Dopamine & Penicillin (40 từ)</option>
+                                <option value="7">Đề số 07: Dorothea Dix & Dinosaurs (40 từ)</option>
+                                <option value="8">Đề số 08: Space Exploration & Olympics 1908 (40 từ)</option>
+                                <option value="9">Đề số 09: Failure & Svalbard Seed Vault (40 từ)</option>
+                                <option value="10">Đề số 10: Colors & Coral Reefs (40 từ)</option>
+                            </select>
+                        </div>
+
+                        <!-- Dynamic Stage for Vocab Submodes -->
+                        <div id="review-vocab-active-stage"></div>
+                    </div>
+
+                    <!-- TAB 2 CONTAINER: THỬ THÁCH TỪ ĐỒNG NGHĨA -->
+                    <div id="review-synonyms-container" class="hidden">
+                        <!-- Mode sub-pills -->
+                        <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px;">
+                            <button class="filter-pill-btn active" id="btn-syn-submode-match" onclick="setSynonymReviewSubMode('match')">
+                                <i class="fa-solid fa-puzzle-piece"></i> Ghép Cặp Từ Đồng Nghĩa (Matching Game)
+                            </button>
+                            <button class="filter-pill-btn" id="btn-syn-submode-quiz" onclick="setSynonymReviewSubMode('quiz')">
+                                <i class="fa-solid fa-crosshairs"></i> Trắc Nghiệm Paraphrase ("Closest in meaning")
+                            </button>
+                        </div>
+
+                        <!-- Test Filter for Synonyms -->
+                        <div class="vocab-search-row" style="margin-bottom: 20px;">
+                            <span style="font-size: 0.88rem; font-weight: 800; color: var(--text-color); display: flex; align-items: center; gap: 6px;">
+                                <i class="fa-solid fa-filter" style="color: #4f46e5;"></i> Chọn phạm vi thử thách:
+                            </span>
+                            <select id="synonym-test-select" class="vocab-filter-select" onchange="onSynonymTestFilter(this.value)">
+                                <option value="all">Tất cả 10 đề thi (Toàn bộ 400 cặp từ)</option>
+                                <option value="1">Đề số 01: Glencorn Lodge & Olympics</option>
+                                <option value="2">Đề số 02: Danakil & Mt. Fuji</option>
+                                <option value="3">Đề số 03: Van Gogh & Mesa Verde</option>
+                                <option value="4">Đề số 04: Earthquakes & Currency</option>
+                                <option value="5">Đề số 05: Salvador Bahia & Brain Science</option>
+                                <option value="6">Đề số 06: Dopamine & Penicillin</option>
+                                <option value="7">Đề số 07: Dorothea Dix & Dinosaurs</option>
+                                <option value="8">Đề số 08: Space Exploration & Olympics 1908</option>
+                                <option value="9">Đề số 09: Failure & Svalbard Seed Vault</option>
+                                <option value="10">Đề số 10: Colors & Coral Reefs</option>
+                            </select>
+                        </div>
+
+                        <!-- Dynamic Stage for Synonym Submodes -->
+                        <div id="review-synonyms-active-stage"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- VIEW 5: HISTORY & PERFORMANCE -->
+            <section class="page-view hidden" id="view-history">
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 14px;">
+                        <div>
+                            <h2 style="font-size: 1.5rem; font-weight: 900; color: var(--text-color); margin-bottom: 4px;">
+                                <i class="fa-solid fa-clock-rotate-left" style="color: var(--primary-color);"></i> LỊCH SỬ THI THỬ & THÀNH TÍCH
+                            </h2>
+                            <p style="font-size: 0.92rem; color: var(--text-muted); margin: 0;">
+                                Nhật ký làm bài của học viên được lưu tự động trên thiết bị.
+                            </p>
+                        </div>
+                        <button class="secondary-btn" onclick="clearHistoryData()" style="color: #ef4444; border-color: #fca5a5;">
+                            <i class="fa-solid fa-trash"></i> Xóa lịch sử
+                        </button>
+                    </div>
+
+                    <div id="history-list-container">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Studio Neural Audio Manifest -->
+    <script src="audio/manifest.js?v=20261107_02"></script>
+    <!-- Master Database Script (supports both data/ and root folder) -->
+    <script src="data/tests_data.js?v=20261107_02"></script>
+    <script>
+        if (typeof READING_MOCK_TESTS === 'undefined' && (!window.READING_MOCK_TESTS || window.READING_MOCK_TESTS.length === 0)) {
+            document.write('<script src="tests_data.js?v=20261107_02"><\\/script>');
+        }
+    </script>
+    <!-- Application Logic Script -->
+    <script src="app.js?v=20261107_03"></script>
+</body>
+</html>
