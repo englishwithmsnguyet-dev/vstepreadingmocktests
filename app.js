@@ -1434,7 +1434,7 @@ function renderDashboardTests() {
                     <i class="fa-solid fa-lock" style="color: #ef4444;"></i> BƯỚC 1: PRE-READING (ĐANG KHÓA)
                 </button>
                 <button class="secondary-btn" style="background: #fef2f2; color: #dc2626; border: 1.5px solid #fecaca; width: 100%; justify-content: center; font-weight: 800; cursor: not-allowed;" onclick="notifyLockedTest(${test.testNum})">
-                    <i class="fa-solid fa-lock"></i> BƯỚC 2: ĐỀ SỐ ${String(test.testNum).padStart(2, '0')} ĐANG KHÓA
+                    <i class="fa-solid fa-lock"></i> BƯỚC 2: WHILE-READING (ĐANG KHÓA)
                 </button>
                 <button class="secondary-btn" style="background: #f1f5f9; color: #64748b; border: 1.5px dashed #cbd5e1; margin-top: 8px; width: 100%; justify-content: center; cursor: not-allowed;" onclick="notifyLockedTest(${test.testNum})">
                     <i class="fa-solid fa-lock" style="color: #ef4444;"></i> BƯỚC 3: POST-READING (ĐANG KHÓA)
@@ -1446,7 +1446,7 @@ function renderDashboardTests() {
                     <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${testMasteredCount}/${testVocabCount} từ)
                 </button>
                 <button class="primary-btn" style="background: ${isSaved ? 'linear-gradient(135deg, #d97706, #f59e0b)' : 'linear-gradient(135deg, #059669, #10b981)'}; width: 100%; justify-content: center;" onclick="${isSaved ? 'resumeSavedExam()' : `startFullExam(${test.testNum})`}">
-                    ${isSaved ? `<i class="fa-solid fa-play"></i> BƯỚC 2: TIẾP TỤC BÀI DỞ DANG (${Object.keys(state.savedExam.answers || {}).length}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI 60 PHÚT`}
+                    ${isSaved ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC BÀI DỞ DANG (${Object.keys(state.savedExam.answers || {}).length}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI 60 PHÚT`}
                 </button>
                 <button class="primary-btn" style="background: linear-gradient(135deg, #0284c7, #06b6d4); margin-top: 8px; width: 100%; justify-content: center;" onclick="openPostReadingModal(${test.testNum})">
                     <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • TỪ VỰNG SUY LUẬN
