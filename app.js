@@ -1297,7 +1297,7 @@ function switchView(viewName) {
     const sidebarEl = document.getElementById('app-sidebar');
     if (sidebarEl) sidebarEl.classList.remove('open');
     
-    const views = ['home', 'exam', 'pretest', 'cbt', 'results', 'review', 'history', 'dashboard', 'vocab'];
+    const views = ['home', 'exam', 'practice', 'pretest', 'cbt', 'results', 'review', 'history', 'dashboard', 'vocab'];
     views.forEach(v => {
         const el = document.getElementById(`view-${v}`);
         if (el) el.classList.add('hidden');
@@ -1328,6 +1328,9 @@ function switchView(viewName) {
         } else if (viewName === 'exam') {
             titleEl.textContent = 'PHÒNG THI VSTEP READING (10 ĐỀ CHUẨN CBT)';
             renderDashboardTests();
+        } else if (viewName === 'practice') {
+            titleEl.textContent = 'PHÒNG LUYỆN ĐỌC THEO CHỦ ĐỀ THỰC CHIẾN';
+            renderPracticeView();
         } else if (viewName === 'review') {
             titleEl.textContent = 'TRUNG TÂM ÔN TẬP VSTEP READING';
             initReviewSection();
@@ -1388,14 +1391,14 @@ function renderDashboardTests() {
     tests.forEach(test => {
         const locked = isTestLocked(test.testNum);
         // Find best previous score for this test
-        const isSaved = !locked && state.savedExam && state.savedExam.testNum === test.testNum;
+        const savedAnsCount = (state.savedExam && state.savedExam.answers) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved = !locked && state.savedExam && state.savedExam.testNum === test.testNum && savedAnsCount > 0;
         const attempts = state.history.filter(h => h.testId === test.testId);
         let statusBadge = `<span class="test-card-status status-not-done"><i class="fa-regular fa-circle"></i> Chưa làm</span>`;
         if (locked) {
             statusBadge = `<span class="test-card-status" style="background:#fee2e2; color:#dc2626; border:1.5px solid #fecaca;"><i class="fa-solid fa-lock"></i> Đang khóa</span>`;
         } else if (isSaved) {
-            const ansCount = Object.keys(state.savedExam.answers || {}).length;
-            statusBadge = `<span class="test-card-status" style="background:#fef3c7; color:#92400e; border:1.5px solid #fde68a;"><i class="fa-solid fa-clock-rotate-left"></i> Đang làm dở (${ansCount}/40)</span>`;
+            statusBadge = `<span class="test-card-status" style="background:#fef3c7; color:#92400e; border:1.5px solid #fde68a;"><i class="fa-solid fa-clock-rotate-left"></i> Đang làm dở (${savedAnsCount}/40)</span>`;
         } else if (attempts.length > 0) {
             const best = attempts.reduce((max, cur) => cur.score > max.score ? cur : max, attempts[0]);
             statusBadge = `<span class="test-card-status status-completed"><i class="fa-solid fa-circle-check"></i> Đạt: ${best.score}/40 (${best.band})</span>`;
@@ -1446,7 +1449,7 @@ function renderDashboardTests() {
                     <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${testMasteredCount}/${testVocabCount} từ)
                 </button>
                 <button class="primary-btn" style="background: ${isSaved ? 'linear-gradient(135deg, #d97706, #f59e0b)' : 'linear-gradient(135deg, #059669, #10b981)'}; width: 100%; justify-content: center;" onclick="${isSaved ? 'resumeSavedExam()' : `startFullExam(${test.testNum})`}">
-                    ${isSaved ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC BÀI DỞ DANG (${Object.keys(state.savedExam.answers || {}).length}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI 60 PHÚT`}
+                    ${isSaved ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC BÀI DỞ DANG (${savedAnsCount}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI 60 PHÚT`}
                 </button>
                 <button class="primary-btn" style="background: linear-gradient(135deg, #0284c7, #06b6d4); margin-top: 8px; width: 100%; justify-content: center;" onclick="openPostReadingModal(${test.testNum})">
                     <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • TỪ VỰNG SUY LUẬN
@@ -1494,7 +1497,8 @@ function updateSidebarProgress() {
 
     const syncBadge = document.getElementById('sidebar-sync-badge');
     if (syncBadge) {
-        if (state.savedExam && state.savedExam.testNum) {
+        const savedAnsCount = (state.savedExam && state.savedExam.answers) ? Object.keys(state.savedExam.answers).length : 0;
+        if (state.savedExam && state.savedExam.testNum && savedAnsCount > 0) {
             syncBadge.innerHTML = `<i class="fa-solid fa-clock-rotate-left"></i> Có bài dở (Đề ${state.savedExam.testNum})`;
             syncBadge.style.color = '#fbbf24';
         } else {
@@ -1502,6 +1506,185 @@ function updateSidebarProgress() {
             syncBadge.style.color = '#34d399';
         }
     }
+}
+
+// =========================================================================
+// PHÒNG LUYỆN ĐỌC THEO CHỦ ĐỀ THỰC CHIẾN (PRACTICE LOUNGE)
+// =========================================================================
+state.practice = {
+    filter: 'all',
+    activeSet: 11
+};
+
+function filterPracticeTopics(filterKey, btnEl) {
+    playSound('click');
+    state.practice.filter = filterKey;
+    document.querySelectorAll('.practice-filter-pill').forEach(btn => btn.classList.remove('active'));
+    if (btnEl) btnEl.classList.add('active');
+    renderPracticeView();
+}
+
+function renderPracticeView() {
+    const container = document.getElementById('practice-cards-container');
+    if (!container) return;
+
+    const fullSetBanner = document.getElementById('practice-full-set-banner');
+    const upcomingSection = document.getElementById('practice-upcoming-section');
+
+    const test11 = (getMockTests() || []).find(t => t.testNum === 11);
+    if (!test11) {
+        container.innerHTML = '<p style="color:var(--text-muted); padding: 20px;">Đang tải dữ liệu bài đọc thực chiến...</p>';
+        return;
+    }
+
+    const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
+
+    // Show/hide sections based on filter
+    if (fullSetBanner) {
+        if (filter === 'upcoming') {
+            fullSetBanner.style.display = 'none';
+        } else {
+            fullSetBanner.style.display = 'flex';
+        }
+    }
+
+    if (upcomingSection) {
+        if (filter === 'all' || filter === 'upcoming') {
+            upcomingSection.style.display = 'block';
+        } else {
+            upcomingSection.style.display = 'none';
+        }
+    }
+
+    // Passage metadata for Review 01
+    const passagesMeta = [
+        {
+            passageIdx: 0,
+            partNum: 1,
+            categoryKey: 'social',
+            categoryName: 'Xã hội học & Giai cấp',
+            categoryColor: '#4f46e5',
+            badgeBg: '#eef2ff',
+            cefrBand: 'B2',
+            wordCount: '~460 từ',
+            realReviewNote: 'Review đề thi thật VSTEP: Phân định giai cấp tại Mỹ',
+            icon: 'fa-users',
+            title: 'Class System in the US',
+            titleVi: 'Phân tầng xã hội & Yếu tố định hình giai cấp tại Hoa Kỳ',
+            summary: 'Khám phá 3 trụ cột cấu thành giai cấp: sự khác biệt bản chất giữa thu nhập và của cải ròng, uy tín học vấn và nghề nghiệp, cùng vai trò của vốn văn hóa (cultural capital).'
+        },
+        {
+            passageIdx: 1,
+            partNum: 2,
+            categoryKey: 'urban',
+            categoryName: 'Đô thị học & Ẩm thực',
+            categoryColor: '#059669',
+            badgeBg: '#ecfdf5',
+            cefrBand: 'B2-C1',
+            wordCount: '~470 từ',
+            realReviewNote: 'Review đề thi thật VSTEP: Chuyển dịch Hồ Tây, quán xá & du lịch',
+            icon: 'fa-city',
+            title: 'Tay Ho - A New Destination',
+            titleVi: 'Chuyển dịch Hồ Tây: Quán xá, Điểm đến quốc tế & Thách thức bảo tồn',
+            summary: 'Sự lột xác ngoạn mục từ làng quê nông nghiệp thanh bình thành trung tâm giao lưu quốc tế với hệ sinh thái ẩm thực đa dạng, nghệ thuật sáng tạo và nét đối lập độc đáo cũ - mới.'
+        },
+        {
+            passageIdx: 2,
+            partNum: 3,
+            categoryKey: 'psychology',
+            categoryName: 'Tâm lý học hành vi',
+            categoryColor: '#d97706',
+            badgeBg: '#fffbeb',
+            cefrBand: 'B2-C1',
+            wordCount: '~480 từ',
+            realReviewNote: 'Review đề thi thật VSTEP: TV Binge-watching, lý do & tác hại',
+            icon: 'fa-tv',
+            title: 'The Psychology of TV Binge-Watching',
+            titleVi: 'Tâm lý cày phim dài tập: Sức hút Dopamine, Lợi ích xả stress & Rủi ro sức khỏe',
+            summary: 'Giải mã hiện tượng cày phim liên tục: chất dẫn truyền thần kinh dopamine từ các tình tiết cliffhanger, sự giải tỏa áp lực nhận thức và các tác hại đảo lộn nhịp sinh học do ánh sáng xanh.'
+        },
+        {
+            passageIdx: 3,
+            partNum: 4,
+            categoryKey: 'thinking',
+            categoryName: 'Khoa học nhận thức',
+            categoryColor: '#dc2626',
+            badgeBg: '#fef2f2',
+            cefrBand: 'C1',
+            wordCount: '~490 từ',
+            realReviewNote: 'Review đề thi thật VSTEP: Critical thinkers vs. Passive thinkers',
+            icon: 'fa-brain',
+            title: 'Critical Thinkers vs. Passive Thinkers',
+            titleVi: 'Tư duy phản biện vs. Tư duy thụ động: Sự khác biệt trong kỷ nguyên thông tin',
+            summary: 'Phân tích đối chiếu sâu sắc giữa tư duy nhị phân, thiên kiến xác nhận của người thụ động với kỷ luật bóc tách tiền đề, sự hoài nghi trí tuệ và tư duy đa biến số của người phản biện.'
+        }
+    ];
+
+    let filteredPassages = passagesMeta;
+    if (filter === 'social') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'social');
+    else if (filter === 'urban') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'urban');
+    else if (filter === 'psychology') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'psychology');
+    else if (filter === 'thinking') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'thinking');
+    else if (filter === 'upcoming') filteredPassages = [];
+
+    let cardsHtml = '';
+    filteredPassages.forEach(meta => {
+        const passageData = test11.passages[meta.passageIdx];
+        const vocabList = passageData ? (passageData.vocab || []) : [];
+        const qList = passageData ? (passageData.questions || []) : [];
+
+        // Check user mastered vocab for this passage
+        let masteredVocab = 0;
+        vocabList.forEach(v => {
+            const key = `11_${v.word.toLowerCase()}`;
+            if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+        });
+
+        cardsHtml += `
+            <div class="practice-card">
+                <div class="practice-card-top">
+                    <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                        <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                    </div>
+                    <div class="practice-level-tag">
+                        <span class="cefr-badge">${meta.cefrBand}</span>
+                        <span class="part-badge">Part ${meta.partNum}</span>
+                    </div>
+                </div>
+
+                <div class="practice-review-alert">
+                    <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                </div>
+
+                <h3 class="practice-card-title">${meta.title}</h3>
+                <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                <p class="practice-card-summary">${meta.summary}</p>
+
+                <div class="practice-card-meta-row">
+                    <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                    <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                    <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                    <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                </div>
+
+                <div class="practice-card-actions">
+                    <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(11, ${meta.passageIdx})">
+                        <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                    </button>
+                    <div class="practice-card-sub-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(11, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(11, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: GIẢI MÃ PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+
+    container.innerHTML = cardsHtml;
 }
 
 // =========================================================================
@@ -1542,14 +1725,14 @@ function getFilteredPreTestVocab() {
     });
 }
 
-function openPreTestView(testNum, initialTarget) {
+function openPreTestView(testNum, initialTarget, passageFilter) {
     if (isTestLocked(testNum || 1)) {
         notifyLockedTest(testNum || 1);
         return;
     }
     playSound('click');
     state.preTest.testNum = testNum || 1;
-    state.preTest.passageFilter = 'all';
+    state.preTest.passageFilter = (passageFilter !== undefined && passageFilter !== null) ? String(passageFilter) : 'all';
     state.preTest.levelFilter = 'all';
     state.preTest.searchQuery = '';
     state.preTest.fcIdx = 0;
@@ -2307,10 +2490,10 @@ function startFullExam(testNum) {
         return;
     }
     playSound('click');
-    if (state.savedExam && state.savedExam.testNum === testNum) {
-        const ansCount = Object.keys(state.savedExam.answers || {}).length;
+    const savedAnsCount = (state.savedExam && state.savedExam.answers) ? Object.keys(state.savedExam.answers).length : 0;
+    if (state.savedExam && state.savedExam.testNum === testNum && savedAnsCount > 0) {
         const minsLeft = Math.floor((state.savedExam.timeLeft || 3600) / 60);
-        const confirmResume = confirm(`Bạn đang có bài thi Đề số ${String(testNum).padStart(2, '0')} làm dở dang:\n• Đã làm: ${ansCount}/40 câu\n• Thời gian còn lại: ~${minsLeft} phút\n\nBấm [OK] để TIẾP TỤC làm bài cũ.\nBấm [Cancel / Hủy] để LÀM LẠI TỪ ĐẦU (bài cũ sẽ bị ghi đè).`);
+        const confirmResume = confirm(`Bạn đang có bài thi Đề số ${String(testNum).padStart(2, '0')} làm dở dang:\n• Đã làm: ${savedAnsCount}/40 câu\n• Thời gian còn lại: ~${minsLeft} phút\n\nBấm [OK] để TIẾP TỤC làm bài cũ.\nBấm [Cancel / Hủy] để LÀM LẠI TỪ ĐẦU (bài cũ sẽ bị ghi đè).`);
         if (confirmResume) {
             resumeSavedExam();
             return;
@@ -3780,7 +3963,7 @@ function renderPostReadingSection(filter = 'all', mode = 'cards') {
 }
 
 // Standalone Post-Reading Modal Logic
-function openPostReadingModal(testNum = 1) {
+function openPostReadingModal(testNum = 1, passageFilter = 'all') {
     if (isTestLocked(testNum)) {
         notifyLockedTest(testNum);
         return;
@@ -3788,7 +3971,7 @@ function openPostReadingModal(testNum = 1) {
     playSound('click');
     syncClassAccessRestrictions();
     state.postReading.modalTestNum = parseInt(testNum) || 1;
-    state.postReading.modalPassageFilter = 'all';
+    state.postReading.modalPassageFilter = (passageFilter !== undefined && passageFilter !== null) ? String(passageFilter) : 'all';
     state.postReading.modalSearch = '';
 
     // Mark as learned for progress tracking
@@ -4045,6 +4228,9 @@ function renderPostReadingModal() {
 
 function saveActiveExamProgress(showToastNotify = false) {
     if (!state.activeExam.test || state.activeExam.isSubmitted) return;
+    const ansCount = Object.keys(state.activeExam.answers || {}).length;
+    // Không tự động lưu thành bài dở dang nếu học viên chưa trả lời câu nào
+    if (ansCount === 0 && !showToastNotify) return;
 
     const savedData = {
         testNum: state.activeExam.test.testNum,
@@ -4139,14 +4325,13 @@ function renderResumeBanners() {
     const homeContainer = document.getElementById('home-resume-banner-container');
     const examContainer = document.getElementById('exam-resume-banner-container');
 
-    if (!state.savedExam || !state.savedExam.testNum) {
+    const saved = state.savedExam;
+    const ansCount = (saved && saved.answers) ? Object.keys(saved.answers).length : 0;
+    if (!saved || !saved.testNum || ansCount === 0) {
         if (homeContainer) homeContainer.innerHTML = '';
         if (examContainer) examContainer.innerHTML = '';
         return;
     }
-
-    const saved = state.savedExam;
-    const ansCount = Object.keys(saved.answers || {}).length;
     const mins = Math.floor(saved.timeLeft / 60);
     const secs = saved.timeLeft % 60;
     const timeFormatted = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
@@ -4273,8 +4458,8 @@ function renderLearningProgressModal() {
     // 5. Active exam box inside modal
     const activeBox = document.getElementById('prog-modal-active-exam-box');
     if (activeBox) {
-        if (state.savedExam && state.savedExam.testNum) {
-            const ansCount = Object.keys(state.savedExam.answers || {}).length;
+        const savedAnsCount = (state.savedExam && state.savedExam.answers) ? Object.keys(state.savedExam.answers).length : 0;
+        if (state.savedExam && state.savedExam.testNum && savedAnsCount > 0) {
             const mins = Math.floor(state.savedExam.timeLeft / 60);
             activeBox.innerHTML = `
                 <div style="background: #fef3c7; border: 1.5px solid #fde68a; border-radius: 12px; padding: 12px 16px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
@@ -4282,7 +4467,7 @@ function renderLearningProgressModal() {
                         <i class="fa-solid fa-clock-rotate-left" style="color: #b45309; font-size: 1.2rem;"></i>
                         <div>
                             <strong style="color: #92400e; font-size: 0.92rem;">BÀI THI ĐỀ SỐ ${state.savedExam.testNum} ĐANG LÀM DỞ DANG:</strong>
-                            <div style="color: #b45309; font-size: 0.84rem;">Đã hoàn thành ${ansCount}/40 câu • Còn ${mins} phút. Dữ liệu được bảo toàn an toàn.</div>
+                            <div style="color: #b45309; font-size: 0.84rem;">Đã hoàn thành ${savedAnsCount}/40 câu • Còn ${mins} phút. Dữ liệu được bảo toàn an toàn.</div>
                         </div>
                     </div>
                     <div style="display: flex; gap: 8px;">
@@ -4328,12 +4513,12 @@ function renderLearningProgressModal() {
         }
 
         // While-Reading status
-        const isSaved = state.savedExam && state.savedExam.testNum === test.testNum;
+        const savedAnsCount = (state.savedExam && state.savedExam.answers) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved = state.savedExam && state.savedExam.testNum === test.testNum && savedAnsCount > 0;
         const attempts = state.history.filter(h => h.testId === test.testId);
         let whileBadge = '';
         if (isSaved) {
-            const ansCount = Object.keys(state.savedExam.answers || {}).length;
-            whileBadge = `<span class="matrix-badge-partial" style="background:#fef3c7; color:#b45309; border: 1px solid #fde68a;"><i class="fa-solid fa-clock-rotate-left"></i> Làm dở (${ansCount}/40)</span>`;
+            whileBadge = `<span class="matrix-badge-partial" style="background:#fef3c7; color:#b45309; border: 1px solid #fde68a;"><i class="fa-solid fa-clock-rotate-left"></i> Làm dở (${savedAnsCount}/40)</span>`;
         } else if (attempts.length > 0) {
             const best = attempts.reduce((max, cur) => cur.score > max.score ? cur : max, attempts[0]);
             whileBadge = `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> ${best.score}/40 (${best.band})</span>`;
