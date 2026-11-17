@@ -2582,6 +2582,10 @@ function closeVocabPreview() {
 // CBT EXAM SIMULATOR CONTROLLER
 // =========================================================================
 function startFullExam(testNum) {
+    if (typeof VstepExamRoom !== 'undefined' && !VstepExamRoom.canStudentStartExam('reading')) {
+        alert("⛔ PHÒNG THI ĐỌC (READING) HIỆN ĐANG ĐÓNG!\n\nVui lòng chờ Giáo viên (Cô Nguyệt) mở phòng để vào làm bài.");
+        return;
+    }
     if (isTestLocked(testNum)) {
         notifyLockedTest(testNum);
         return;
@@ -2620,6 +2624,10 @@ function startFullExam(testNum) {
 }
 
 function startSinglePassageExam(testNum, passageIdx) {
+    if (typeof VstepExamRoom !== 'undefined' && !VstepExamRoom.canStudentStartExam('reading')) {
+        alert("⛔ PHÒNG THI ĐỌC (READING) HIỆN ĐANG ĐÓNG!\n\nVui lòng chờ Giáo viên (Cô Nguyệt) mở phòng để vào làm bài.");
+        return;
+    }
     if (isTestLocked(testNum)) {
         notifyLockedTest(testNum);
         return;
