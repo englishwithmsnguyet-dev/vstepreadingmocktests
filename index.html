@@ -12,7 +12,7 @@
     <!-- FontAwesome 6.4.0 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="styles.css?v=20261117_01">
+    <link rel="stylesheet" href="styles.css?v=20261117_02">
 </head>
 <body>
 
@@ -220,6 +220,7 @@
                         <option value="9">Đề số 09: Failure & Svalbard Seed Vault</option>
                         <option value="10">Đề số 10: Colors & Coral Reefs</option>
                         <option value="11">Đề số 11: Thực chiến 01 (Class System, Tay Ho, Binge-Watching, Critical Thinkers)</option>
+                        <option value="12">Đề số 12: Thực chiến 02 (Pandemic Activities, Luck, Asian Labor, US Religion)</option>
                     </select>
                     <input type="text" id="post-modal-search" class="vocab-search-input" placeholder="Tìm từ khóa bài đọc, đáp án..." oninput="onPostModalSearch(this.value)" style="max-width: 250px;">
                 </div>
@@ -752,11 +753,11 @@
                     <div class="practice-stats-row">
                         <div class="practice-stat-pill">
                             <i class="fa-solid fa-book-open"></i>
-                            <span><strong>04</strong> Bài đọc thực chiến chuẩn</span>
+                            <span><strong>08</strong> Bài đọc thực chiến (02 Đề thi)</span>
                         </div>
                         <div class="practice-stat-pill">
                             <i class="fa-solid fa-circle-check"></i>
-                            <span><strong>40</strong> Câu hỏi có dẫn chứng chuẩn</span>
+                            <span><strong>80</strong> Câu hỏi có dẫn chứng chuẩn</span>
                         </div>
                         <div class="practice-stat-pill">
                             <i class="fa-solid fa-arrows-split-up-and-left"></i>
@@ -773,49 +774,85 @@
                 <div class="practice-filter-bar">
                     <div class="practice-filter-pills" id="practice-filter-pills">
                         <button class="practice-filter-pill active" onclick="filterPracticeTopics('all', this)">
-                            <i class="fa-solid fa-border-all"></i> Tất cả bài đọc
+                            <i class="fa-solid fa-border-all"></i> Tất cả bài đọc (8 bài)
+                        </button>
+                        <button class="practice-filter-pill" onclick="filterPracticeTopics('review01', this)">
+                            <i class="fa-solid fa-star" style="color: #f59e0b;"></i> Đề Review 01 (4 bài)
+                        </button>
+                        <button class="practice-filter-pill" onclick="filterPracticeTopics('review02', this)">
+                            <i class="fa-solid fa-bolt" style="color: #10b981;"></i> Đề Review 02 (4 bài)
                         </button>
                         <button class="practice-filter-pill" onclick="filterPracticeTopics('social', this)">
-                            <i class="fa-solid fa-users"></i> Xã hội học (Class System)
-                        </button>
-                        <button class="practice-filter-pill" onclick="filterPracticeTopics('urban', this)">
-                            <i class="fa-solid fa-city"></i> Đô thị & Du lịch (Tây Hồ)
+                            <i class="fa-solid fa-users"></i> Xã hội & Lịch sử
                         </button>
                         <button class="practice-filter-pill" onclick="filterPracticeTopics('psychology', this)">
-                            <i class="fa-solid fa-tv"></i> Tâm lý học (Binge-Watching)
+                            <i class="fa-solid fa-brain"></i> Tâm lý & Hành vi
+                        </button>
+                        <button class="practice-filter-pill" onclick="filterPracticeTopics('urban', this)">
+                            <i class="fa-solid fa-city"></i> Đô thị & Du lịch
                         </button>
                         <button class="practice-filter-pill" onclick="filterPracticeTopics('thinking', this)">
-                            <i class="fa-solid fa-brain"></i> Tư duy phản biện (Critical Thinkers)
+                            <i class="fa-solid fa-lightbulb"></i> Tư duy & Tôn giáo
                         </button>
                         <button class="practice-filter-pill" onclick="filterPracticeTopics('upcoming', this)">
-                            <i class="fa-solid fa-clock-rotate-left"></i> Đề Review 02 & 03 (Sắp ra mắt)
+                            <i class="fa-solid fa-clock-rotate-left"></i> Đề Review 03-06 (Sắp ra mắt)
                         </button>
                     </div>
                 </div>
 
-                <!-- Master Set 01 Full Exam Box -->
-                <div class="practice-full-set-card" id="practice-full-set-banner">
-                    <div class="full-set-info">
-                        <div class="full-set-tag"><i class="fa-solid fa-award"></i> BỘ ĐỀ THỰC CHIẾN SỐ 01 • REVIEW ĐỀ THI THẬT</div>
-                        <h3>VSTEP READING THỰC CHIẾN 01 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
-                        <p>Trải nghiệm phòng thi mô phỏng chuẩn máy tính CBT với trọn bộ 4 bài đọc: Phân tầng xã hội Mỹ, Chuyển dịch Hồ Tây, Tâm lý cày phim dài tập và So sánh tư duy phản biện.</p>
-                        <div class="full-set-meta">
-                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
-                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> 40 từ vựng cốt lõi</span>
+                <!-- Master Set Full Exam Boxes -->
+                <div id="practice-full-set-banners-container">
+                    <!-- Master Set 01 -->
+                    <div class="practice-full-set-card" id="practice-full-set-banner-11" style="margin-bottom: 16px;">
+                        <div class="full-set-info">
+                            <div class="full-set-tag"><i class="fa-solid fa-award"></i> BỘ ĐỀ THỰC CHIẾN SỐ 01 • REVIEW ĐỀ THI THẬT</div>
+                            <h3>VSTEP READING THỰC CHIẾN 01 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                            <p>Trải nghiệm phòng thi mô phỏng chuẩn máy tính CBT: Phân tầng xã hội Mỹ, Chuyển dịch Hồ Tây, Tâm lý cày phim dài tập & Tư duy phản biện.</p>
+                            <div class="full-set-meta">
+                                <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                                <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                                <span><i class="fa-solid fa-spell-check"></i> 40 từ vựng cốt lõi</span>
+                            </div>
+                        </div>
+                        <div class="full-set-actions">
+                            <button class="primary-btn btn-full-set-exam" onclick="startFullExam(11)">
+                                <i class="fa-solid fa-play"></i> BƯỚC 2: THI TRỌN BỘ 60 PHÚT
+                            </button>
+                            <div style="display: flex; gap: 8px; width: 100%;">
+                                <button class="secondary-btn btn-full-set-sub" style="flex: 1;" onclick="openPreTestView(11)">
+                                    <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: Nạp từ (40 từ)
+                                </button>
+                                <button class="secondary-btn btn-full-set-sub" style="flex: 1;" onclick="openPostReadingModal(11)">
+                                    <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: Paraphrase
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div class="full-set-actions">
-                        <button class="primary-btn btn-full-set-exam" onclick="startFullExam(11)">
-                            <i class="fa-solid fa-play"></i> BƯỚC 2: THI TRỌN BỘ 60 PHÚT
-                        </button>
-                        <div style="display: flex; gap: 8px; width: 100%;">
-                            <button class="secondary-btn btn-full-set-sub" style="flex: 1;" onclick="openPreTestView(11)">
-                                <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: Nạp từ (40 từ)
+
+                    <!-- Master Set 02 -->
+                    <div class="practice-full-set-card" id="practice-full-set-banner-12" style="background: linear-gradient(135deg, #064e3b 0%, #065f46 50%, #1e3a8a 100%); border-color: #10b981; margin-bottom: 28px;">
+                        <div class="full-set-info">
+                            <div class="full-set-tag" style="background: rgba(16, 185, 129, 0.25); color: #6ee7b7; border-color: rgba(16, 185, 129, 0.4);"><i class="fa-solid fa-award"></i> BỘ ĐỀ THỰC CHIẾN SỐ 02 • MỚI CẬP NHẬT</div>
+                            <h3>VSTEP READING THỰC CHIẾN 02 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                            <p>Trải nghiệm phòng thi mô phỏng chuẩn máy tính CBT: Hoạt động thích ứng đại dịch, Tâm lý học về may mắn, Phân biệt lao động châu Á & Tôn giáo tại Mỹ.</p>
+                            <div class="full-set-meta">
+                                <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                                <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                                <span><i class="fa-solid fa-spell-check"></i> 40 từ vựng cốt lõi</span>
+                            </div>
+                        </div>
+                        <div class="full-set-actions">
+                            <button class="primary-btn btn-full-set-exam" onclick="startFullExam(12)">
+                                <i class="fa-solid fa-play"></i> BƯỚC 2: THI TRỌN BỘ 60 PHÚT
                             </button>
-                            <button class="secondary-btn btn-full-set-sub" style="flex: 1;" onclick="openPostReadingModal(11)">
-                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: Paraphrase
-                            </button>
+                            <div style="display: flex; gap: 8px; width: 100%;">
+                                <button class="secondary-btn btn-full-set-sub" style="flex: 1;" onclick="openPreTestView(12)">
+                                    <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: Nạp từ (40 từ)
+                                </button>
+                                <button class="secondary-btn btn-full-set-sub" style="flex: 1;" onclick="openPostReadingModal(12)">
+                                    <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: Paraphrase
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -825,48 +862,86 @@
                     <!-- Populated dynamically by app.js -->
                 </div>
 
-                <!-- Upcoming Review Sets Queue (Review 02 & Review 03) -->
+                <!-- Upcoming Review Sets Queue (Review 03, 04, 05, 06) -->
                 <div class="practice-upcoming-section" id="practice-upcoming-section">
                     <h3 class="upcoming-section-title">
                         <i class="fa-solid fa-hourglass-half" style="color: #6366f1;"></i>
-                        CÁC CHỦ ĐỀ REVIEW ĐANG TIẾP TỤC ĐƯỢC BIÊN SOẠN & CẬP NHẬT
+                        CÁC CHỦ ĐỀ REVIEW ĐANG TIẾP TỤC ĐƯỢC BIÊN SOẠN & CẬP NHẬT THEO THỨ TỰ
                     </h3>
                     <div class="upcoming-grid">
-                        <!-- Upcoming Set 02 -->
-                        <div class="upcoming-card">
-                            <div class="upcoming-card-header">
-                                <span class="upcoming-badge badge-review02"><i class="fa-solid fa-sparkles"></i> Đề Thực Chiến 02</span>
-                                <span class="upcoming-status">Đang biên soạn chuẩn hóa</span>
-                            </div>
-                            <h4>Đề Review 02: Dịch Bệnh, May Mắn & Xã Hội</h4>
-                            <p class="upcoming-desc">Tuyển tập 4 chủ đề review thi thật gần đây:</p>
-                            <ul class="upcoming-topic-list">
-                                <li><i class="fa-solid fa-virus"></i> <strong>Part 1:</strong> People's activities during the pandemic (Thích ứng thời dịch bệnh)</li>
-                                <li><i class="fa-solid fa-clover"></i> <strong>Part 2:</strong> Quan niệm về may mắn và không may mắn (Luck & psychology)</li>
-                                <li><i class="fa-solid fa-user-tie"></i> <strong>Part 3:</strong> Phân biệt lao động châu Á ở Mỹ (Asian labor discrimination)</li>
-                                <li><i class="fa-solid fa-place-of-worship"></i> <strong>Part 4:</strong> Tôn giáo ở Mỹ (Religion and secularization in the US)</li>
-                            </ul>
-                            <div class="upcoming-card-footer">
-                                <span><i class="fa-solid fa-circle-notch fa-spin"></i> Dự kiến lên sóng sớm</span>
-                            </div>
-                        </div>
-
                         <!-- Upcoming Set 03 -->
                         <div class="upcoming-card">
                             <div class="upcoming-card-header">
                                 <span class="upcoming-badge badge-review03"><i class="fa-solid fa-sparkles"></i> Đề Thực Chiến 03</span>
-                                <span class="upcoming-status">Đang xếp hàng biên soạn</span>
+                                <span class="upcoming-status">Đang chuẩn bị dữ liệu</span>
                             </div>
-                            <h4>Đề Review 03: Động Vật, Đô Thị & Môi Trường</h4>
-                            <p class="upcoming-desc">Tuyển tập 4 chủ đề review thi thật mới nhất:</p>
+                            <h4>Đề Review 03: Phát Minh, Nhận Thức & Tương Lai</h4>
+                            <p class="upcoming-desc">Review thi thật sát thực tế:</p>
                             <ul class="upcoming-topic-list">
-                                <li><i class="fa-solid fa-dog"></i> <strong>Part 1:</strong> Dog attacks (Hành vi chó & phòng ngừa tai nạn cắn)</li>
-                                <li><i class="fa-solid fa-crow"></i> <strong>Part 2:</strong> Birdsong (Tiếng chim hót & sự thích nghi tiếng ồn đô thị)</li>
-                                <li><i class="fa-solid fa-moon"></i> <strong>Part 3:</strong> Circadian rhythm & Sleep memory (Nhịp sinh học & giấc ngủ)</li>
+                                <li><i class="fa-solid fa-note-sticky"></i> <strong>Part 1:</strong> The story of sticky notes (Phát minh giấy ghi chú Post-it)</li>
+                                <li><i class="fa-solid fa-dog"></i> <strong>Part 2:</strong> Dogs have cognitive abilities (Khả năng nhận thức của loài chó)</li>
+                                <li><i class="fa-solid fa-fish"></i> <strong>Part 3:</strong> Fish-milk thay thế cow-milk (Công nghệ thực phẩm đạm từ biển)</li>
+                                <li><i class="fa-solid fa-language"></i> <strong>Part 4:</strong> English in the future (Tương lai của tiếng Anh toàn cầu)</li>
+                            </ul>
+                            <div class="upcoming-card-footer">
+                                <span><i class="fa-solid fa-circle-notch fa-spin"></i> Xếp hàng biên soạn tiếp theo</span>
+                            </div>
+                        </div>
+
+                        <!-- Upcoming Set 04 -->
+                        <div class="upcoming-card">
+                            <div class="upcoming-card-header">
+                                <span class="upcoming-badge badge-review02"><i class="fa-solid fa-sparkles"></i> Đề Thực Chiến 04</span>
+                                <span class="upcoming-status">Đang xếp hàng</span>
+                            </div>
+                            <h4>Đề Review 04: Võ Thuật, Nghề Nghiệp & Dinh Dưỡng</h4>
+                            <p class="upcoming-desc">Review thi thật mới cập nhật:</p>
+                            <ul class="upcoming-topic-list">
+                                <li><i class="fa-solid fa-bowl-food"></i> <strong>Part 1:</strong> Ẩm thực Phú Yên: Chè cô Phương (Văn hóa ẩm thực bản địa)</li>
+                                <li><i class="fa-solid fa-hand-fist"></i> <strong>Part 2:</strong> Võ Taekwondo Hàn Quốc (Lịch sử, triết lý & Olympic)</li>
+                                <li><i class="fa-solid fa-briefcase"></i> <strong>Part 3:</strong> Xu hướng việc làm giới trẻ: Xưa buôn bán vs Nay Marketing</li>
+                                <li><i class="fa-solid fa-dna"></i> <strong>Part 4:</strong> Saturated vs. Unsaturated fats (Chất béo bão hòa & tim mạch)</li>
+                            </ul>
+                            <div class="upcoming-card-footer">
+                                <span><i class="fa-solid fa-circle-notch fa-spin"></i> Xếp hàng biên soạn</span>
+                            </div>
+                        </div>
+
+                        <!-- Upcoming Set 05 -->
+                        <div class="upcoming-card">
+                            <div class="upcoming-card-header">
+                                <span class="upcoming-badge badge-review03"><i class="fa-solid fa-sparkles"></i> Đề Thực Chiến 05</span>
+                                <span class="upcoming-status">Đang xếp hàng</span>
+                            </div>
+                            <h4>Đề Review 05: Mạng Xã Hội & Môi Trường</h4>
+                            <p class="upcoming-desc">Review thi thật mới cập nhật:</p>
+                            <ul class="upcoming-topic-list">
+                                <li><i class="fa-solid fa-heart"></i> <strong>Part 1:</strong> Sở thích của từng người (Personal leisure hobbies)</li>
+                                <li><i class="fa-brands fa-facebook"></i> <strong>Part 2:</strong> Nghiên cứu dùng Facebook giữa các thế hệ (Gen X vs Boomers)</li>
+                                <li><i class="fa-solid fa-leaf"></i> <strong>Part 3:</strong> Greenwashing (Chiêu trò "Tẩy xanh" của doanh nghiệp)</li>
+                                <li><i class="fa-solid fa-fire-smoke"></i> <strong>Part 4:</strong> Cháy than bùn âm ỉ ở châu Âu (Zombie fires / Peat fires)</li>
+                            </ul>
+                            <div class="upcoming-card-footer">
+                                <span><i class="fa-solid fa-circle-notch fa-spin"></i> Xếp hàng biên soạn</span>
+                            </div>
+                        </div>
+
+                        <!-- Upcoming Set 06 -->
+                        <div class="upcoming-card">
+                            <div class="upcoming-card-header">
+                                <span class="upcoming-badge badge-review02"><i class="fa-solid fa-sparkles"></i> Đề Thực Chiến 06</span>
+                                <span class="upcoming-status">Đang xếp hàng</span>
+                            </div>
+                            <h4>Đề Review 06: Động Vật & Hệ Sinh Thái</h4>
+                            <p class="upcoming-desc">Review thi thật gần đây:</p>
+                            <ul class="upcoming-topic-list">
+                                <li><i class="fa-solid fa-shield-dog"></i> <strong>Part 1:</strong> Dog attack (Hành vi chó & phòng ngừa tai nạn cắn)</li>
+                                <li><i class="fa-solid fa-crow"></i> <strong>Part 2:</strong> Birdsong (Tiếng chim hót & thích nghi tiếng ồn đô thị)</li>
+                                <li><i class="fa-solid fa-brain"></i> <strong>Part 3:</strong> AI & Contemporary Royal World / Circadian rhythm</li>
                                 <li><i class="fa-solid fa-water"></i> <strong>Part 4:</strong> Ocean garbage (Rác thải đại dương & vi nhựa)</li>
                             </ul>
                             <div class="upcoming-card-footer">
-                                <span><i class="fa-solid fa-circle-notch fa-spin"></i> Dự kiến lên sóng sớm</span>
+                                <span><i class="fa-solid fa-circle-notch fa-spin"></i> Xếp hàng biên soạn</span>
                             </div>
                         </div>
                     </div>
@@ -1286,13 +1361,13 @@
     <!-- Studio Neural Audio Manifest -->
     <script src="audio/manifest.js?v=20261107_02"></script>
     <!-- Master Database Script (supports both data/ and root folder) -->
-    <script src="data/tests_data.js?v=20261117_01"></script>
+    <script src="data/tests_data.js?v=20261117_02"></script>
     <script>
         if (typeof READING_MOCK_TESTS === 'undefined' && (!window.READING_MOCK_TESTS || window.READING_MOCK_TESTS.length === 0)) {
-            document.write('<script src="tests_data.js?v=20261117_01"><\\/script>');
+            document.write('<script src="tests_data.js?v=20261117_02"><\\/script>');
         }
     </script>
     <!-- Application Logic Script -->
-    <script src="app.js?v=20261117_01"></script>
+    <script src="app.js?v=20261117_02"></script>
 </body>
 </html>

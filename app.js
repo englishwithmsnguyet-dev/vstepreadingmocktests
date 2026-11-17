@@ -1528,23 +1528,35 @@ function renderPracticeView() {
     const container = document.getElementById('practice-cards-container');
     if (!container) return;
 
-    const fullSetBanner = document.getElementById('practice-full-set-banner');
+    const banner11 = document.getElementById('practice-full-set-banner-11');
+    const banner12 = document.getElementById('practice-full-set-banner-12');
     const upcomingSection = document.getElementById('practice-upcoming-section');
 
-    const test11 = (getMockTests() || []).find(t => t.testNum === 11);
-    if (!test11) {
+    const tests = getMockTests() || [];
+    const test11 = tests.find(t => t.testNum === 11);
+    const test12 = tests.find(t => t.testNum === 12);
+
+    if (!test11 && !test12) {
         container.innerHTML = '<p style="color:var(--text-muted); padding: 20px;">Đang tải dữ liệu bài đọc thực chiến...</p>';
         return;
     }
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
-    // Show/hide sections based on filter
-    if (fullSetBanner) {
-        if (filter === 'upcoming') {
-            fullSetBanner.style.display = 'none';
+    // Show/hide banners based on filter
+    if (banner11) {
+        if (filter === 'upcoming' || filter === 'review02') {
+            banner11.style.display = 'none';
         } else {
-            fullSetBanner.style.display = 'flex';
+            banner11.style.display = 'flex';
+        }
+    }
+
+    if (banner12) {
+        if (filter === 'upcoming' || filter === 'review01') {
+            banner12.style.display = 'none';
+        } else {
+            banner12.style.display = 'flex';
         }
     }
 
@@ -1556,72 +1568,153 @@ function renderPracticeView() {
         }
     }
 
-    // Passage metadata for Review 01
+    // Comprehensive Passage Metadata (Review 01 & Review 02)
     const passagesMeta = [
+        // SET 01 (TEST 11)
         {
+            testNum: 11,
             passageIdx: 0,
             partNum: 1,
+            setLabel: 'Review 01',
             categoryKey: 'social',
             categoryName: 'Xã hội học & Giai cấp',
             categoryColor: '#4f46e5',
             badgeBg: '#eef2ff',
             cefrBand: 'B2',
             wordCount: '~460 từ',
-            realReviewNote: 'Review đề thi thật VSTEP: Phân định giai cấp tại Mỹ',
+            realReviewNote: 'Review đề thi thật: Phân định giai cấp tại Mỹ',
             icon: 'fa-users',
             title: 'Class System in the US',
             titleVi: 'Phân tầng xã hội & Yếu tố định hình giai cấp tại Hoa Kỳ',
             summary: 'Khám phá 3 trụ cột cấu thành giai cấp: sự khác biệt bản chất giữa thu nhập và của cải ròng, uy tín học vấn và nghề nghiệp, cùng vai trò của vốn văn hóa (cultural capital).'
         },
         {
+            testNum: 11,
             passageIdx: 1,
             partNum: 2,
+            setLabel: 'Review 01',
             categoryKey: 'urban',
-            categoryName: 'Đô thị học & Ẩm thực',
+            categoryName: 'Đô thị học & Du lịch',
             categoryColor: '#059669',
             badgeBg: '#ecfdf5',
             cefrBand: 'B2-C1',
             wordCount: '~470 từ',
-            realReviewNote: 'Review đề thi thật VSTEP: Chuyển dịch Hồ Tây, quán xá & du lịch',
+            realReviewNote: 'Review đề thi thật: Chuyển dịch Hồ Tây, quán xá & du lịch',
             icon: 'fa-city',
             title: 'Tay Ho - A New Destination',
             titleVi: 'Chuyển dịch Hồ Tây: Quán xá, Điểm đến quốc tế & Thách thức bảo tồn',
             summary: 'Sự lột xác ngoạn mục từ làng quê nông nghiệp thanh bình thành trung tâm giao lưu quốc tế với hệ sinh thái ẩm thực đa dạng, nghệ thuật sáng tạo và nét đối lập độc đáo cũ - mới.'
         },
         {
+            testNum: 11,
             passageIdx: 2,
             partNum: 3,
+            setLabel: 'Review 01',
             categoryKey: 'psychology',
             categoryName: 'Tâm lý học hành vi',
             categoryColor: '#d97706',
             badgeBg: '#fffbeb',
             cefrBand: 'B2-C1',
             wordCount: '~480 từ',
-            realReviewNote: 'Review đề thi thật VSTEP: TV Binge-watching, lý do & tác hại',
+            realReviewNote: 'Review đề thi thật: TV Binge-watching, lý do & tác hại',
             icon: 'fa-tv',
             title: 'The Psychology of TV Binge-Watching',
             titleVi: 'Tâm lý cày phim dài tập: Sức hút Dopamine, Lợi ích xả stress & Rủi ro sức khỏe',
             summary: 'Giải mã hiện tượng cày phim liên tục: chất dẫn truyền thần kinh dopamine từ các tình tiết cliffhanger, sự giải tỏa áp lực nhận thức và các tác hại đảo lộn nhịp sinh học do ánh sáng xanh.'
         },
         {
+            testNum: 11,
             passageIdx: 3,
             partNum: 4,
+            setLabel: 'Review 01',
             categoryKey: 'thinking',
             categoryName: 'Khoa học nhận thức',
             categoryColor: '#dc2626',
             badgeBg: '#fef2f2',
             cefrBand: 'C1',
             wordCount: '~490 từ',
-            realReviewNote: 'Review đề thi thật VSTEP: Critical thinkers vs. Passive thinkers',
+            realReviewNote: 'Review đề thi thật: Critical thinkers vs. Passive thinkers',
             icon: 'fa-brain',
             title: 'Critical Thinkers vs. Passive Thinkers',
             titleVi: 'Tư duy phản biện vs. Tư duy thụ động: Sự khác biệt trong kỷ nguyên thông tin',
             summary: 'Phân tích đối chiếu sâu sắc giữa tư duy nhị phân, thiên kiến xác nhận của người thụ động với kỷ luật bóc tách tiền đề, sự hoài nghi trí tuệ và tư duy đa biến số của người phản biện.'
+        },
+
+        // SET 02 (TEST 12)
+        {
+            testNum: 12,
+            passageIdx: 0,
+            partNum: 1,
+            setLabel: 'Review 02',
+            categoryKey: 'social',
+            categoryName: 'Xã hội học & Đời sống',
+            categoryColor: '#0284c7',
+            badgeBg: '#f0f9ff',
+            cefrBand: 'B1-B2',
+            wordCount: '~450 từ',
+            realReviewNote: 'Review đề thi thật: People\'s activities during the pandemic',
+            icon: 'fa-house-user',
+            title: 'People\'s Activities During the Pandemic',
+            titleVi: 'Sự thích ứng và các hoạt động đời sống trong thời kỳ đại dịch',
+            summary: 'Khảo sát sự thay đổi thói quen sinh hoạt trong các đợt phong tỏa: sự trỗi dậy của làm bánh mì men tự nhiên, làm vườn ban công, tập thể dục trực tuyến và những thay đổi văn hóa việc làm lâu dài.'
+        },
+        {
+            testNum: 12,
+            passageIdx: 1,
+            partNum: 2,
+            setLabel: 'Review 02',
+            categoryKey: 'psychology',
+            categoryName: 'Tâm lý học nhận thức',
+            categoryColor: '#059669',
+            badgeBg: '#ecfdf5',
+            cefrBand: 'B2',
+            wordCount: '~465 từ',
+            realReviewNote: 'Review đề thi thật: Quan niệm về may mắn và không may mắn',
+            icon: 'fa-clover',
+            title: 'The Psychology of Luck and Misfortune',
+            titleVi: 'Tâm lý học về May mắn & Không may mắn: Cơ chế tư duy và sự kiên trì',
+            summary: 'Giải mã hiện tượng may mắn dưới góc độ tâm lý thực nghiệm của Dr. Richard Wiseman: khả năng chú ý ngoại vi, tư duy phản thực tế hướng xuống và năng lực chủ động tự tạo vận may cho bản thân.'
+        },
+        {
+            testNum: 12,
+            passageIdx: 2,
+            partNum: 3,
+            setLabel: 'Review 02',
+            categoryKey: 'social',
+            categoryName: 'Lịch sử lao động Hoa Kỳ',
+            categoryColor: '#b45309',
+            badgeBg: '#fef3c7',
+            cefrBand: 'B2-C1',
+            wordCount: '~485 từ',
+            realReviewNote: 'Review đề thi thật: Sự phân biệt lao động châu Á ở Mỹ',
+            icon: 'fa-person-digging',
+            title: 'Asian Labor Discrimination in the US',
+            titleVi: 'Lao động châu Á tại Mỹ: Đóng góp lịch sử & Cuộc đấu tranh chống phân biệt đối xử',
+            summary: 'Lịch sử công nhân xây dựng tuyến đường sắt xuyên lục địa, Đạo luật Bài trừ 1882, các cuộc bãi công nông nghiệp và sự phân tích sắc bén về định kiến \"Thiểu số kiểu mẫu\" cùng rào cản \"trần tre\".'
+        },
+        {
+            testNum: 12,
+            passageIdx: 3,
+            partNum: 4,
+            setLabel: 'Review 02',
+            categoryKey: 'thinking',
+            categoryName: 'Xã hội học tôn giáo',
+            categoryColor: '#7c3aed',
+            badgeBg: '#f5f3ff',
+            cefrBand: 'C1',
+            wordCount: '~500 từ',
+            realReviewNote: 'Review đề thi thật: Tôn giáo tại Mỹ & Xu hướng thế tục hóa',
+            icon: 'fa-church',
+            title: 'The Changing Religious Landscape in the US',
+            titleVi: 'Bức tranh tôn giáo Hoa Kỳ: Tiến trình thế tục hóa & Đa nguyên hóa',
+            summary: 'Phân tích sự thay đổi nhân khẩu học tôn giáo: từ tính đặc thù sùng đạo của nước Mỹ đến sự sụt giảm của các giáo phái truyền thống, sự trỗi dậy của nhóm không tôn giáo (\"Nones\") và làn sóng nhập cư đa dạng.'
         }
     ];
 
     let filteredPassages = passagesMeta;
-    if (filter === 'social') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'social');
+    if (filter === 'review01') filteredPassages = passagesMeta.filter(p => p.testNum === 11);
+    else if (filter === 'review02') filteredPassages = passagesMeta.filter(p => p.testNum === 12);
+    else if (filter === 'social') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'social');
     else if (filter === 'urban') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'urban');
     else if (filter === 'psychology') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'psychology');
     else if (filter === 'thinking') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'thinking');
@@ -1629,14 +1722,17 @@ function renderPracticeView() {
 
     let cardsHtml = '';
     filteredPassages.forEach(meta => {
-        const passageData = test11.passages[meta.passageIdx];
+        const testObj = meta.testNum === 11 ? test11 : test12;
+        if (!testObj || !testObj.passages) return;
+
+        const passageData = testObj.passages[meta.passageIdx];
         const vocabList = passageData ? (passageData.vocab || []) : [];
         const qList = passageData ? (passageData.questions || []) : [];
 
         // Check user mastered vocab for this passage
         let masteredVocab = 0;
         vocabList.forEach(v => {
-            const key = `11_${v.word.toLowerCase()}`;
+            const key = `${meta.testNum}_${v.word.toLowerCase()}`;
             if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
         });
 
@@ -1648,6 +1744,7 @@ function renderPracticeView() {
                     </div>
                     <div class="practice-level-tag">
                         <span class="cefr-badge">${meta.cefrBand}</span>
+                        <span class="part-badge" style="background: #e0e7ff; color: #4338ca; font-weight: 800;">${meta.setLabel}</span>
                         <span class="part-badge">Part ${meta.partNum}</span>
                     </div>
                 </div>
@@ -1668,14 +1765,14 @@ function renderPracticeView() {
                 </div>
 
                 <div class="practice-card-actions">
-                    <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(11, ${meta.passageIdx})">
+                    <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
                         <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
                     </button>
                     <div class="practice-card-sub-actions">
-                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(11, 'cards', ${meta.passageIdx})">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
                             <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
                         </button>
-                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(11, '${meta.passageIdx}')">
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
                             <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: GIẢI MÃ PARAPHRASE
                         </button>
                     </div>
