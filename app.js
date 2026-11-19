@@ -1658,17 +1658,15 @@ function renderPracticeView() {
                     </div>
 
                     <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
                         <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
                             <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
                         </button>
-                        <div class="practice-card-sub-actions">
-                            <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
-                                <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
-                            </button>
-                            <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
-                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
-                            </button>
-                        </div>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
                     </div>
                 </div>
             `;
@@ -1693,17 +1691,15 @@ function renderPracticeView() {
                         </div>
                     </div>
                     <div class="suite-header-actions">
-                        <button class="primary-btn btn-suite-exam" style="${isSaved11 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved11 ? 'resumeSavedExam()' : 'startFullExam(11)'}">
-                            ${isSaved11 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: TIẾP TỤC BÀI DỞ DANG (${savedAnsCount11}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: THI TRỌN BỘ 60 PHÚT (40 CÂU)`}
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(11)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (40 TỪ)
                         </button>
-                        <div class="suite-sub-actions-row">
-                            <button class="secondary-btn btn-suite-sub" onclick="openPreTestView(11)">
-                                <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: Nạp từ (40 từ)
-                            </button>
-                            <button class="secondary-btn btn-suite-sub" onclick="openPostReadingModal(11)">
-                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: Paraphrase
-                            </button>
-                        </div>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved11 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved11 ? 'resumeSavedExam()' : 'startFullExam(11)'}">
+                            ${isSaved11 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount11}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(11)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
@@ -1833,17 +1829,15 @@ function renderPracticeView() {
                     </div>
 
                     <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
                         <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
                             <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
                         </button>
-                        <div class="practice-card-sub-actions">
-                            <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
-                                <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
-                            </button>
-                            <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
-                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
-                            </button>
-                        </div>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
                     </div>
                 </div>
             `;
@@ -1868,17 +1862,15 @@ function renderPracticeView() {
                         </div>
                     </div>
                     <div class="suite-header-actions">
-                        <button class="primary-btn btn-suite-exam" style="${isSaved12 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved12 ? 'resumeSavedExam()' : 'startFullExam(12)'}">
-                            ${isSaved12 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: TIẾP TỤC BÀI DỞ DANG (${savedAnsCount12}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: THI TRỌN BỘ 60 PHÚT (40 CÂU)`}
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(12)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (40 TỪ)
                         </button>
-                        <div class="suite-sub-actions-row">
-                            <button class="secondary-btn btn-suite-sub" onclick="openPreTestView(12)">
-                                <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: Nạp từ (40 từ)
-                            </button>
-                            <button class="secondary-btn btn-suite-sub" onclick="openPostReadingModal(12)">
-                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: Paraphrase
-                            </button>
-                        </div>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved12 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved12 ? 'resumeSavedExam()' : 'startFullExam(12)'}">
+                            ${isSaved12 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount12}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(12)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
