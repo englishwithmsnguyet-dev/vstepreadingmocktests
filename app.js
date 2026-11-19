@@ -1366,8 +1366,8 @@ function renderDashboardTests() {
     const container = document.getElementById('tests-grid-container');
     if (!container) return;
 
-    const tests = getMockTests();
-    if (!tests || tests.length === 0) {
+    const allTests = getMockTests();
+    if (!allTests || allTests.length === 0) {
         container.innerHTML = `
             <div style="grid-column: 1 / -1; text-align: center; padding: 40px; background: var(--surface-solid); border-radius: 16px; border: 1.5px dashed var(--border-color);">
                 <i class="fa-solid fa-spinner fa-spin" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 12px;"></i>
@@ -1385,6 +1385,10 @@ function renderDashboardTests() {
         }, 200);
         return;
     }
+
+    // TÁCH BIỆT TRIỆT ĐỂ: PHÒNG THI (view-exam) CHỈ hiển thị đúng 10 ĐỀ THI GỐC (testNum <= 10)
+    // Toàn bộ các bộ đề thực chiến (Đề 11 trở đi) thuộc độc quyền PHÒNG LUYỆN ĐỌC (view-practice)
+    const tests = allTests.filter(t => t.testNum <= 10);
 
     container.innerHTML = '';
     
@@ -1485,9 +1489,14 @@ function renderDashboardTests() {
 
 function updateSidebarProgress() {
     if (!getMockTests()) return;
-    const completedSet = new Set(state.history.map(h => h.testId));
+    // TÁCH BIỆT TRIỆT ĐỂ: Sidebar Progress chỉ theo dõi tiến độ của 10 đề thi chuẩn
+    const coreTests = (getMockTests() || []).filter(t => t.testNum <= 10);
+    const completedSet = new Set(state.history.filter(h => {
+        const num = parseInt(String(h.testId).replace(/\D/g, ''));
+        return num <= 10;
+    }).map(h => h.testId));
     const count = completedSet.size;
-    const total = getMockTests().length;
+    const total = 10;
     const percent = Math.round((count / total) * 100);
 
     const fill = document.getElementById('sidebar-progress-fill');
@@ -1947,20 +1956,30 @@ function renderPreTestView() {
     const container = document.getElementById('pretest-workspace-container');
     if (!container) return;
 
-    const tests = getMockTests();
-    const test = (tests || []).find(t => t.testNum === state.preTest.testNum) || (tests && tests[0]);
+    const allTests = getMockTests() || [];
+    const coreTests = allTests.filter(t => t.testNum <= 10);
+    const test = allTests.find(t => t.testNum === state.preTest.testNum) || coreTests[0];
     if (!test) return;
 
     const allVocab = getTestAllVocab(test.testNum);
     const masteredCount = allVocab.filter(v => state.preTest.masteredWords[`${test.testNum}_${v.word.toLowerCase()}`]).length;
     const readinessPercent = allVocab.length > 0 ? Math.round((masteredCount / allVocab.length) * 100) : 0;
 
-    // 10 Test Selector Pills
-    const testPillsHtml = tests.map(t => {
+    // TÁCH BIỆT TRIỆT ĐỂ: 10 Selector Pills cho 10 Đề thi chuẩn
+    // Nếu học viên nạp từ từ bộ đề thực chiến (testNum > 10), hiển thị thêm 1 pill riêng biệt
+    let pillList = [...coreTests];
+    if (test.testNum > 10 && !pillList.some(t => t.testNum === test.testNum)) {
+        pillList.push(test);
+    }
+
+    const testPillsHtml = pillList.map(t => {
         const locked = isTestLocked(t.testNum);
+        const isPracticeSet = t.testNum > 10;
+        const label = isPracticeSet ? `Thực chiến 0${t.testNum - 10}` : `Đề ${String(t.testNum).padStart(2, '0')}`;
+        const extraStyle = isPracticeSet ? 'background: #fdf4ff; border-color: #d946ef; color: #86198f; font-weight: 800;' : '';
         return `
-            <button class="pretest-test-pill ${t.testNum === test.testNum ? 'active' : ''}" style="${locked ? 'opacity: 0.55; cursor: not-allowed;' : ''}" onclick="${locked ? `notifyLockedTest(${t.testNum})` : `selectPreTestNum(${t.testNum})`}">
-                ${locked ? '<i class="fa-solid fa-lock" style="font-size: 0.72rem; margin-right: 3px; color: #ef4444;"></i>' : ''}Đề ${String(t.testNum).padStart(2, '0')}
+            <button class="pretest-test-pill ${t.testNum === test.testNum ? 'active' : ''}" style="${locked ? 'opacity: 0.55; cursor: not-allowed;' : ''} ${extraStyle}" onclick="${locked ? `notifyLockedTest(${t.testNum})` : `selectPreTestNum(${t.testNum})`}">
+                ${locked ? '<i class="fa-solid fa-lock" style="font-size: 0.72rem; margin-right: 3px; color: #ef4444;"></i>' : ''}${label}
             </button>
         `;
     }).join('');
@@ -4084,7 +4103,16 @@ function openPostReadingModal(testNum = 1, passageFilter = 'all') {
     localStorage.setItem('vstep_postreading_viewed', JSON.stringify(state.postReadingViewed));
 
     const selectEl = document.getElementById('post-modal-test-select');
-    if (selectEl) selectEl.value = String(state.postReading.modalTestNum);
+    if (selectEl) {
+        let opt = selectEl.querySelector(`option[value="${state.postReading.modalTestNum}"]`);
+        if (!opt && state.postReading.modalTestNum > 10) {
+            opt = document.createElement('option');
+            opt.value = String(state.postReading.modalTestNum);
+            opt.textContent = `Thực chiến 0${state.postReading.modalTestNum - 10}: Đề cập nhật review`;
+            selectEl.appendChild(opt);
+        }
+        selectEl.value = String(state.postReading.modalTestNum);
+    }
 
     const searchEl = document.getElementById('post-modal-search');
     if (searchEl) searchEl.value = '';
@@ -4487,12 +4515,14 @@ function closeLearningProgressModal() {
 }
 
 function renderLearningProgressModal() {
-    const tests = getMockTests() || [];
+    const allTests = getMockTests() || [];
+    const coreTests = allTests.filter(t => t.testNum <= 10);
+    const practiceTests = allTests.filter(t => t.testNum > 10);
     
-    // 1. Pre-Reading calculation: 400 total words
+    // 1. Pre-Reading calculation: 400 total words (TÁCH BIỆT: chỉ tính 10 đề thi chuẩn)
     let totalVocab = 0;
     let masteredVocab = 0;
-    tests.forEach(t => {
+    coreTests.forEach(t => {
         t.passages.forEach(p => {
             (p.vocab || []).forEach(v => {
                 totalVocab++;
@@ -4511,26 +4541,29 @@ function renderLearningProgressModal() {
     if (prePctEl) prePctEl.textContent = `${prePct}%`;
     if (preFillEl) preFillEl.style.width = `${prePct}%`;
 
-    // 2. While-Reading calculation: 10 tests
-    const completedSet = new Set(state.history.map(h => h.testId));
+    // 2. While-Reading calculation: 10 đề thi chuẩn
+    const completedSet = new Set(state.history.filter(h => {
+        const num = parseInt(String(h.testId).replace(/\D/g, ''));
+        return num <= 10;
+    }).map(h => h.testId));
     const completedCount = completedSet.size;
-    const whilePct = Math.round((completedCount / (tests.length || 10)) * 100);
+    const whilePct = Math.round((completedCount / 10) * 100);
     const bestScore = state.history.reduce((max, cur) => cur.score > max ? cur.score : max, 0);
 
     const whileCountEl = document.getElementById('prog-stat-while-count');
     const whileBestEl = document.getElementById('prog-stat-while-best');
     const whileFillEl = document.getElementById('prog-stat-while-fill');
-    if (whileCountEl) whileCountEl.textContent = `${completedCount} / ${tests.length || 10}`;
+    if (whileCountEl) whileCountEl.textContent = `${completedCount} / 10`;
     if (whileBestEl) whileBestEl.textContent = `${bestScore}/40`;
     if (whileFillEl) whileFillEl.style.width = `${whilePct}%`;
 
-    // 3. Post-Reading calculation: 10 tests
-    const postCount = Object.keys(state.postReadingViewed || {}).length;
-    const postPct = Math.round((postCount / (tests.length || 10)) * 100);
+    // 3. Post-Reading calculation: 10 đề thi chuẩn
+    const postCount = Object.keys(state.postReadingViewed || {}).filter(k => parseInt(k) <= 10).length;
+    const postPct = Math.round((postCount / 10) * 100);
 
     const postCountEl = document.getElementById('prog-stat-post-count');
     const postFillEl = document.getElementById('prog-stat-post-fill');
-    if (postCountEl) postCountEl.textContent = `${postCount} / ${tests.length || 10}`;
+    if (postCountEl) postCountEl.textContent = `${postCount} / 10`;
     if (postFillEl) postFillEl.style.width = `${postPct}%`;
 
     // 4. Band estimation
@@ -4590,82 +4623,143 @@ function renderLearningProgressModal() {
         }
     }
 
-    // 6. Populate 10 Tests Matrix Table
+    // 6. Populate 10 Tests Matrix Table (TÁCH BIỆT: CHỈ HIỂN THỊ ĐÚNG 10 ĐỀ THI GỐC)
     const tbody = document.getElementById('progress-matrix-tbody');
-    if (!tbody) return;
-
-    let rowsHtml = '';
-    tests.forEach(test => {
-        // Pre-Reading vocab count
-        let tVocab = 0;
-        let tMastered = 0;
-        test.passages.forEach(p => {
-            (p.vocab || []).forEach(v => {
-                tVocab++;
-                const key = `${test.testNum}_${v.word.toLowerCase()}`;
-                if (state.preTest.masteredWords[key]) tMastered++;
+    if (tbody) {
+        let rowsHtml = '';
+        coreTests.forEach(test => {
+            // Pre-Reading vocab count
+            let tVocab = 0;
+            let tMastered = 0;
+            test.passages.forEach(p => {
+                (p.vocab || []).forEach(v => {
+                    tVocab++;
+                    const key = `${test.testNum}_${v.word.toLowerCase()}`;
+                    if (state.preTest.masteredWords[key]) tMastered++;
+                });
             });
+            tVocab = tVocab || 40;
+
+            let preBadge = '';
+            if (tMastered >= tVocab) {
+                preBadge = `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> ${tMastered}/${tVocab} từ</span>`;
+            } else if (tMastered > 0) {
+                preBadge = `<span class="matrix-badge-partial"><i class="fa-solid fa-clock"></i> ${tMastered}/${tVocab} từ</span>`;
+            } else {
+                preBadge = `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> 0/${tVocab} từ</span>`;
+            }
+
+            // While-Reading status
+            const savedAnsCount = (state.savedExam && state.savedExam.answers) ? Object.keys(state.savedExam.answers).length : 0;
+            const isSaved = state.savedExam && state.savedExam.testNum === test.testNum && savedAnsCount > 0;
+            const attempts = state.history.filter(h => h.testId === test.testId);
+            let whileBadge = '';
+            if (isSaved) {
+                whileBadge = `<span class="matrix-badge-partial" style="background:#fef3c7; color:#b45309; border: 1px solid #fde68a;"><i class="fa-solid fa-clock-rotate-left"></i> Làm dở (${savedAnsCount}/40)</span>`;
+            } else if (attempts.length > 0) {
+                const best = attempts.reduce((max, cur) => cur.score > max.score ? cur : max, attempts[0]);
+                whileBadge = `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> ${best.score}/40 (${best.band})</span>`;
+            } else {
+                whileBadge = `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> Chưa thi</span>`;
+            }
+
+            // Post-Reading status
+            const isPostViewed = !!state.postReadingViewed[test.testNum];
+            let postBadge = isPostViewed
+                ? `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> Đã học</span>`
+                : `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> Chưa học</span>`;
+
+            const locked = isTestLocked(test.testNum);
+            rowsHtml += `
+                <tr style="${locked ? 'opacity: 0.65;' : ''}">
+                    <td style="text-align: center;">
+                        <span class="post-q-num-pill" style="padding: 3px 8px; font-size: 0.76rem;">ĐỀ ${String(test.testNum).padStart(2, '0')}</span>
+                    </td>
+                    <td>
+                        <strong style="color: var(--text-color); font-size: 0.88rem;">${test.title}</strong>
+                        <div style="font-size: 0.76rem; color: var(--text-muted);">${test.passages.length} Bài đọc • 40 Câu hỏi</div>
+                    </td>
+                    <td style="text-align: center;">${locked ? '<span class="matrix-badge-not-done" style="color:#dc2626;"><i class="fa-solid fa-lock"></i> Khóa</span>' : preBadge}</td>
+                    <td style="text-align: center;">${locked ? '<span class="matrix-badge-not-done" style="color:#dc2626;"><i class="fa-solid fa-lock"></i> Khóa</span>' : whileBadge}</td>
+                    <td style="text-align: center;">${locked ? '<span class="matrix-badge-not-done" style="color:#dc2626;"><i class="fa-solid fa-lock"></i> Khóa</span>' : postBadge}</td>
+                    <td style="text-align: center;">
+                        ${locked ? `
+                            <button class="btn-jump-passage" style="padding: 4px 10px; font-size: 0.75rem; background: #fee2e2; color: #dc2626; border-color: #fecaca; cursor: not-allowed;" onclick="notifyLockedTest(${test.testNum})">
+                                <i class="fa-solid fa-lock"></i> Đang khóa
+                            </button>
+                        ` : `
+                            <button class="btn-jump-passage" style="padding: 4px 10px; font-size: 0.75rem;" onclick="closeLearningProgressModal(); ${isSaved ? 'resumeSavedExam()' : `openPreTestView(${test.testNum})`}">
+                                ${isSaved ? '<i class="fa-solid fa-play"></i> Tiếp tục' : '<i class="fa-solid fa-arrow-right"></i> Học đề này'}
+                            </button>
+                        `}
+                    </td>
+                </tr>
+            `;
         });
-        tVocab = tVocab || 40;
+        tbody.innerHTML = rowsHtml;
+    }
 
-        let preBadge = '';
-        if (tMastered >= tVocab) {
-            preBadge = `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> ${tMastered}/${tVocab} từ</span>`;
-        } else if (tMastered > 0) {
-            preBadge = `<span class="matrix-badge-partial"><i class="fa-solid fa-clock"></i> ${tMastered}/${tVocab} từ</span>`;
-        } else {
-            preBadge = `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> 0/${tVocab} từ</span>`;
-        }
+    // 7. Populate Practice Review Sets Matrix Table (PHÒNG LUYỆN ĐỌC)
+    const practiceTbody = document.getElementById('progress-practice-matrix-tbody');
+    if (practiceTbody) {
+        let practiceRowsHtml = '';
+        practiceTests.forEach(test => {
+            let tVocab = 0;
+            let tMastered = 0;
+            test.passages.forEach(p => {
+                (p.vocab || []).forEach(v => {
+                    tVocab++;
+                    const key = `${test.testNum}_${v.word.toLowerCase()}`;
+                    if (state.preTest.masteredWords[key]) tMastered++;
+                });
+            });
+            tVocab = tVocab || 40;
 
-        // While-Reading status
-        const savedAnsCount = (state.savedExam && state.savedExam.answers) ? Object.keys(state.savedExam.answers).length : 0;
-        const isSaved = state.savedExam && state.savedExam.testNum === test.testNum && savedAnsCount > 0;
-        const attempts = state.history.filter(h => h.testId === test.testId);
-        let whileBadge = '';
-        if (isSaved) {
-            whileBadge = `<span class="matrix-badge-partial" style="background:#fef3c7; color:#b45309; border: 1px solid #fde68a;"><i class="fa-solid fa-clock-rotate-left"></i> Làm dở (${savedAnsCount}/40)</span>`;
-        } else if (attempts.length > 0) {
-            const best = attempts.reduce((max, cur) => cur.score > max.score ? cur : max, attempts[0]);
-            whileBadge = `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> ${best.score}/40 (${best.band})</span>`;
-        } else {
-            whileBadge = `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> Chưa thi</span>`;
-        }
+            let preBadge = '';
+            if (tMastered >= tVocab) {
+                preBadge = `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> ${tMastered}/${tVocab} từ</span>`;
+            } else if (tMastered > 0) {
+                preBadge = `<span class="matrix-badge-partial"><i class="fa-solid fa-clock"></i> ${tMastered}/${tVocab} từ</span>`;
+            } else {
+                preBadge = `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> 0/${tVocab} từ</span>`;
+            }
 
-        // Post-Reading status
-        const isPostViewed = !!state.postReadingViewed[test.testNum];
-        let postBadge = isPostViewed
-            ? `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> Đã học</span>`
-            : `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> Chưa học</span>`;
+            const attempts = state.history.filter(h => h.testId === test.testId);
+            let whileBadge = '';
+            if (attempts.length > 0) {
+                const best = attempts.reduce((max, cur) => cur.score > max.score ? cur : max, attempts[0]);
+                whileBadge = `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> ${best.score}/40 (${best.band})</span>`;
+            } else {
+                whileBadge = `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> Chưa thi</span>`;
+            }
 
-        const locked = isTestLocked(test.testNum);
-        rowsHtml += `
-            <tr style="${locked ? 'opacity: 0.65;' : ''}">
-                <td style="text-align: center;">
-                    <span class="post-q-num-pill" style="padding: 3px 8px; font-size: 0.76rem;">ĐỀ ${String(test.testNum).padStart(2, '0')}</span>
-                </td>
-                <td>
-                    <strong style="color: var(--text-color); font-size: 0.88rem;">${test.title}</strong>
-                    <div style="font-size: 0.76rem; color: var(--text-muted);">${test.passages.length} Bài đọc • 40 Câu hỏi</div>
-                </td>
-                <td style="text-align: center;">${locked ? '<span class="matrix-badge-not-done" style="color:#dc2626;"><i class="fa-solid fa-lock"></i> Khóa</span>' : preBadge}</td>
-                <td style="text-align: center;">${locked ? '<span class="matrix-badge-not-done" style="color:#dc2626;"><i class="fa-solid fa-lock"></i> Khóa</span>' : whileBadge}</td>
-                <td style="text-align: center;">${locked ? '<span class="matrix-badge-not-done" style="color:#dc2626;"><i class="fa-solid fa-lock"></i> Khóa</span>' : postBadge}</td>
-                <td style="text-align: center;">
-                    ${locked ? `
-                        <button class="btn-jump-passage" style="padding: 4px 10px; font-size: 0.75rem; background: #fee2e2; color: #dc2626; border-color: #fecaca; cursor: not-allowed;" onclick="notifyLockedTest(${test.testNum})">
-                            <i class="fa-solid fa-lock"></i> Đang khóa
+            const isPostViewed = !!state.postReadingViewed[test.testNum];
+            let postBadge = isPostViewed
+                ? `<span class="matrix-badge-done"><i class="fa-solid fa-circle-check"></i> Đã học</span>`
+                : `<span class="matrix-badge-not-done"><i class="fa-regular fa-circle"></i> Chưa học</span>`;
+
+            practiceRowsHtml += `
+                <tr>
+                    <td style="text-align: center;">
+                        <span class="post-q-num-pill" style="padding: 3px 8px; font-size: 0.76rem; background: #e0e7ff; color: #4338ca;">THỰC CHIẾN 0${test.testNum - 10}</span>
+                    </td>
+                    <td>
+                        <strong style="color: var(--text-color); font-size: 0.88rem;">${test.title}</strong>
+                        <div style="font-size: 0.76rem; color: var(--text-muted);">${test.passages.length} Bài đọc • 40 Câu hỏi • Review đề thi thật</div>
+                    </td>
+                    <td style="text-align: center;">${preBadge}</td>
+                    <td style="text-align: center;">${whileBadge}</td>
+                    <td style="text-align: center;">${postBadge}</td>
+                    <td style="text-align: center;">
+                        <button class="btn-jump-passage" style="padding: 4px 10px; font-size: 0.75rem; background: #6366f1; color: #fff; border-color: #4f46e5;" onclick="closeLearningProgressModal(); switchView('practice');">
+                            <i class="fa-solid fa-feather-pointed"></i> Luyện tập
                         </button>
-                    ` : `
-                        <button class="btn-jump-passage" style="padding: 4px 10px; font-size: 0.75rem;" onclick="closeLearningProgressModal(); ${isSaved ? 'resumeSavedExam()' : `openPreTestView(${test.testNum})`}">
-                            ${isSaved ? '<i class="fa-solid fa-play"></i> Tiếp tục' : '<i class="fa-solid fa-arrow-right"></i> Học đề này'}
-                        </button>
-                    `}
-                </td>
-            </tr>
-        `;
-    });
-
-    tbody.innerHTML = rowsHtml;
+                    </td>
+                </tr>
+            `;
+        });
+        practiceTbody.innerHTML = practiceRowsHtml;
+    }
 }
 
 function manualSyncProgress() {

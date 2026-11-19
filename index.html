@@ -219,8 +219,10 @@
                         <option value="8">Đề số 08: Space Exploration & Olympics 1908</option>
                         <option value="9">Đề số 09: Failure & Svalbard Seed Vault</option>
                         <option value="10">Đề số 10: Colors & Coral Reefs</option>
-                        <option value="11">Đề số 11: Thực chiến 01 (Class System, Tay Ho, Binge-Watching, Critical Thinkers)</option>
-                        <option value="12">Đề số 12: Thực chiến 02 (Pandemic Activities, Luck, Asian Labor, US Religion)</option>
+                        <optgroup label="Bộ đề thực chiến cập nhật (Phòng Luyện Đọc)">
+                            <option value="11">Thực chiến 01: Class System, Tay Ho, Binge-Watching, Critical Thinkers</option>
+                            <option value="12">Thực chiến 02: Pandemic Activities, Luck, Asian Labor, US Religion</option>
+                        </optgroup>
                     </select>
                     <input type="text" id="post-modal-search" class="vocab-search-input" placeholder="Tìm từ khóa bài đọc, đáp án..." oninput="onPostModalSearch(this.value)" style="max-width: 250px;">
                 </div>
@@ -367,6 +369,37 @@
                         </tbody>
                     </table>
                 </div>
+
+                <!-- Practice Review Sets Matrix Section -->
+                <div class="progress-matrix-section" id="practice-matrix-section" style="margin-top: 24px; border-top: 1.5px dashed var(--border-color); padding-top: 20px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; flex-wrap: wrap; gap: 8px;">
+                        <h4 style="margin: 0; font-size: 1rem; font-weight: 800; color: #4338ca; display: flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-feather-pointed" style="color: #6366f1;"></i>
+                            Ma Trận Tiến Độ Bộ Đề Thực Chiến (Phòng Luyện Đọc):
+                        </h4>
+                        <span style="font-size: 0.78rem; color: var(--text-muted);">
+                            Review đề thi thật được cập nhật liên tục • Tách riêng với 10 đề thi chuẩn.
+                        </span>
+                    </div>
+
+                    <div class="progress-matrix-table-wrap">
+                        <table class="progress-matrix-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 105px; text-align: center;">Bộ đề</th>
+                                    <th>Chủ đề bài đọc thực chiến</th>
+                                    <th style="width: 160px; text-align: center;">Bước 1: Pre-Reading</th>
+                                    <th style="width: 190px; text-align: center;">Bước 2: While-Reading</th>
+                                    <th style="width: 150px; text-align: center;">Bước 3: Post-Reading</th>
+                                    <th style="width: 105px; text-align: center;">Hành động</th>
+                                </tr>
+                            </thead>
+                            <tbody id="progress-practice-matrix-tbody">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -409,13 +442,14 @@
                 <li>
                     <button class="nav-link-btn" id="nav-btn-exam" onclick="switchView('exam')">
                         <span class="tab-icon"><i class="fa-solid fa-laptop-code"></i></span>
-                        <span class="tab-text">PHÒNG THI</span>
+                        <span class="tab-text">PHÒNG THI (10 ĐỀ)</span>
                     </button>
                 </li>
                 <li>
                     <button class="nav-link-btn" id="nav-btn-practice" onclick="switchView('practice')">
                         <span class="tab-icon"><i class="fa-solid fa-feather-pointed"></i></span>
                         <span class="tab-text">PHÒNG LUYỆN ĐỌC</span>
+                        <span style="background: #10b981; color: #fff; font-size: 0.64rem; padding: 1px 6px; border-radius: 999px; margin-left: auto; font-weight: 800;">MỚI</span>
                     </button>
                 </li>
                 <li>
@@ -495,10 +529,10 @@
                     </h1>
                     <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 22px;">
                         <button class="primary-btn" onclick="switchView('exam')" style="background: #10b981; font-weight: 800; font-size: 0.95rem; padding: 12px 22px; border-radius: 12px; box-shadow: 0 6px 16px rgba(16, 185, 129, 0.35);">
-                            <i class="fa-solid fa-door-open"></i> VÀO PHÒNG THI (10 ĐỀ THI)
+                            <i class="fa-solid fa-door-open"></i> VÀO PHÒNG THI (10 ĐỀ GỐC)
                         </button>
                         <button class="primary-btn" onclick="switchView('practice')" style="background: linear-gradient(135deg, #6366f1, #8b5cf6); font-weight: 800; font-size: 0.95rem; padding: 12px 22px; border-radius: 12px; box-shadow: 0 6px 16px rgba(99, 102, 241, 0.35);">
-                            <i class="fa-solid fa-feather-pointed"></i> PHÒNG LUYỆN ĐỌC THỰC CHIẾN (NEW)
+                            <i class="fa-solid fa-feather-pointed"></i> PHÒNG LUYỆN ĐỌC (CÁC ĐỀ CẬP NHẬT)
                         </button>
                         <button class="secondary-btn" onclick="switchView('review')" style="background: rgba(255,255,255,0.16); color: #fff; border-color: rgba(255,255,255,0.35); font-weight: 700; font-size: 0.95rem; padding: 12px 20px; border-radius: 12px;">
                             <i class="fa-solid fa-graduation-cap"></i> ÔN TẬP TỪ VỰNG & ĐỒNG NGHĨA
@@ -518,6 +552,73 @@
 
                 <!-- Resume in-progress exam banner -->
                 <div id="home-resume-banner-container"></div>
+
+                <!-- DEDICATED ROOMS SELECTION (PHÂN ĐỊNH 2 PHÒNG HỌC TẬP ĐỘC LẬP) -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 18px; margin-bottom: 24px;">
+                    <!-- Room 1: Phòng Thi 10 Đề Gốc -->
+                    <div style="background: var(--surface-solid); border-radius: 16px; padding: 22px; border: 2px solid #10b981; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden;">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 5px; background: #10b981;"></div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                                <div style="display: flex; align-items: center; gap: 10px;">
+                                    <div style="width: 44px; height: 44px; border-radius: 12px; background: #ecfdf5; color: #059669; display: flex; align-items: center; justify-content: center; font-size: 1.3rem;">
+                                        <i class="fa-solid fa-laptop-code"></i>
+                                    </div>
+                                    <div>
+                                        <span style="font-size: 0.72rem; font-weight: 800; color: #059669; text-transform: uppercase; letter-spacing: 0.5px;">Phòng Thi Cố Định</span>
+                                        <h3 style="margin: 0; font-size: 1.15rem; font-weight: 900; color: var(--text-color);">PHÒNG THI (10 ĐỀ GỐC)</h3>
+                                    </div>
+                                </div>
+                                <span style="background: #ecfdf5; color: #059669; font-size: 0.75rem; font-weight: 800; padding: 4px 10px; border-radius: 999px; border: 1px solid #a7f3d0;">
+                                    10 ĐỀ CHUẨN
+                                </span>
+                            </div>
+                            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.55; margin-bottom: 16px;">
+                                Hệ thống 10 đề thi chuẩn hóa VSTEP B1-B2-C1 chuẩn CBT máy tính. Đồng hồ 60 phút, giao diện chia đôi, giám sát chuyển tab và bảng theo dõi tiến độ chuẩn hóa.
+                            </p>
+                            <ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 0.82rem; color: var(--text-color); display: flex; flex-direction: column; gap: 6px;">
+                                <li style="display: flex; align-items: center; gap: 8px;"><i class="fa-solid fa-circle-check" style="color: #10b981;"></i> Đề 01 - Đề 10 phân bổ chuẩn độ khó VSTEP</li>
+                                <li style="display: flex; align-items: center; gap: 8px;"><i class="fa-solid fa-circle-check" style="color: #10b981;"></i> Đầy đủ 3 bước: Nạp từ • Thi 60 phút • Giải mã</li>
+                                <li style="display: flex; align-items: center; gap: 8px;"><i class="fa-solid fa-circle-check" style="color: #10b981;"></i> Quy đổi Band điểm B1, B2, C1 chính xác</li>
+                            </ul>
+                        </div>
+                        <button class="primary-btn" onclick="switchView('exam')" style="background: #10b981; width: 100%; justify-content: center; font-weight: 800; padding: 12px; font-size: 0.92rem; border-radius: 10px;">
+                            <i class="fa-solid fa-door-open"></i> Vào Phòng Thi (10 Đề Gốc)
+                        </button>
+                    </div>
+
+                    <!-- Room 2: Phòng Luyện Đọc Thực Chiến -->
+                    <div style="background: var(--surface-solid); border-radius: 16px; padding: 22px; border: 2px solid #6366f1; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden;">
+                        <div style="position: absolute; top: 0; left: 0; right: 0; height: 5px; background: linear-gradient(90deg, #6366f1, #a855f7);"></div>
+                        <div>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+                                <div style="display: flex; align-items: center; gap: 10px;">
+                                    <div style="width: 44px; height: 44px; border-radius: 12px; background: #eef2ff; color: #4f46e5; display: flex; align-items: center; justify-content: center; font-size: 1.3rem;">
+                                        <i class="fa-solid fa-feather-pointed"></i>
+                                    </div>
+                                    <div>
+                                        <span style="font-size: 0.72rem; font-weight: 800; color: #4f46e5; text-transform: uppercase; letter-spacing: 0.5px;">Cập Nhật Thi Thật</span>
+                                        <h3 style="margin: 0; font-size: 1.15rem; font-weight: 900; color: var(--text-color);">PHÒNG LUYỆN ĐỌC THỰC CHIẾN</h3>
+                                    </div>
+                                </div>
+                                <span style="background: #fdf4ff; color: #c026d3; font-size: 0.75rem; font-weight: 800; padding: 4px 10px; border-radius: 999px; border: 1px solid #f5d0fe;">
+                                    REVIEW THI THẬT
+                                </span>
+                            </div>
+                            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.55; margin-bottom: 16px;">
+                                Tuyển tập các bài đọc biên soạn độc quyền theo đúng topics học viên đi thi về review. Tách riêng để học viên luyện lẻ theo từng bài đọc (15 phút) hoặc thi trọn bộ (60 phút).
+                            </p>
+                            <ul style="list-style: none; padding: 0; margin: 0 0 18px 0; font-size: 0.82rem; color: var(--text-color); display: flex; flex-direction: column; gap: 6px;">
+                                <li style="display: flex; align-items: center; gap: 8px;"><i class="fa-solid fa-bolt" style="color: #6366f1;"></i> 8 bài đọc thực chiến (Đề Review 01 & Review 02)</li>
+                                <li style="display: flex; align-items: center; gap: 8px;"><i class="fa-solid fa-bolt" style="color: #6366f1;"></i> Luyện linh hoạt: 15 phút/Passage hoặc trọn bộ 60 phút</li>
+                                <li style="display: flex; align-items: center; gap: 8px;"><i class="fa-solid fa-bolt" style="color: #6366f1;"></i> 100% bám sát dẫn chứng, không gây tranh cãi</li>
+                            </ul>
+                        </div>
+                        <button class="primary-btn" onclick="switchView('practice')" style="background: linear-gradient(135deg, #6366f1, #8b5cf6); width: 100%; justify-content: center; font-weight: 800; padding: 12px; font-size: 0.92rem; border-radius: 10px; box-shadow: 0 4px 14px rgba(99, 102, 241, 0.35);">
+                            <i class="fa-solid fa-feather-pointed"></i> Vào Phòng Luyện Đọc Thực Chiến
+                        </button>
+                    </div>
+                </div>
 
                 <!-- SECTION 1: HƯỚNG DẪN SỬ DỤNG HỆ THỐNG -->
                 <div class="home-section-box">
@@ -710,12 +811,12 @@
                 </div>
             </section>
 
-            <!-- VIEW 2: PHÒNG THI (10 ĐỀ THI) -->
+            <!-- VIEW 2: PHÒNG THI (10 ĐỀ THI GỐC) -->
             <section class="page-view hidden" id="view-exam">
                 <!-- Exam Hero Banner -->
                 <div class="dashboard-hero" style="background: linear-gradient(135deg, #059669 0%, #10b981 50%, #0d9488 100%);">
                     <h1 style="margin-bottom: 14px;">
-                        <i class="fa-solid fa-laptop-code"></i> PHÒNG THI VSTEP READING
+                        <i class="fa-solid fa-laptop-code"></i> PHÒNG THI VSTEP READING (10 ĐỀ GỐC)
                     </h1>
                     <div style="background: rgba(0,0,0,0.2); border: 1.5px dashed rgba(255,255,255,0.4); padding: 12px 18px; border-radius: 12px; font-size: 0.92rem; display: flex; align-items: center; gap: 10px;">
                         <i class="fa-solid fa-shield-halved" style="font-size: 1.3rem; color: #fde047;"></i>
@@ -726,13 +827,29 @@
                 <!-- Resume in-progress exam banner -->
                 <div id="exam-resume-banner-container"></div>
 
+                <!-- Notice Separation Callout Banner -->
+                <div style="background: linear-gradient(135deg, #eef2ff 0%, #f5f3ff 100%); border: 1.5px solid #c7d2fe; border-radius: 14px; padding: 14px 18px; margin-bottom: 22px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+                    <div style="display: flex; align-items: center; gap: 12px;">
+                        <div style="width: 42px; height: 42px; border-radius: 10px; background: #4f46e5; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                            <i class="fa-solid fa-feather-pointed"></i>
+                        </div>
+                        <div>
+                            <strong style="color: #312e81; font-size: 0.95rem;">BẠN ĐANG TÌM CÁC ĐỀ CẬP NHẬT THEO REVIEW THI THẬT?</strong>
+                            <p style="color: #4338ca; font-size: 0.85rem; margin: 3px 0 0 0;">Các bộ đề thực chiến (Đề 11, Đề 12, ...) được tổ chức riêng tại <strong>Phòng Luyện Đọc</strong> để không xáo trộn lộ trình 10 đề thi chuẩn.</p>
+                        </div>
+                    </div>
+                    <button class="primary-btn" onclick="switchView('practice')" style="background: #4f46e5; padding: 9px 18px; font-size: 0.86rem; font-weight: 800; border-radius: 10px; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.25);">
+                        <i class="fa-solid fa-arrow-right"></i> Sang Phòng Luyện Đọc
+                    </button>
+                </div>
+
                 <!-- Tests Grid -->
                 <h2 class="tests-section-title">
                     <i class="fa-solid fa-layer-group" style="color: var(--primary-color);"></i>
-                    Danh Sách 10 Đề Thi Thử Đọc Hiểu:
+                    Danh Sách 10 Đề Thi Thử Đọc Hiểu Chuẩn CBT (Đề 01 - Đề 10):
                 </h2>
                 <div class="tests-grid" id="tests-grid-container">
-                    <!-- Populated dynamically by app.js -->
+                    <!-- Populated dynamically by app.js (strictly 10 core tests) -->
                 </div>
             </section>
 
@@ -1277,7 +1394,7 @@
                         <div class="vocab-search-row">
                             <input type="text" id="vocab-search-input" class="vocab-search-input" placeholder="Tìm từ vựng tiếng Anh hoặc nghĩa tiếng Việt..." oninput="onVocabSearch(this.value)">
                             <select id="vocab-test-select" class="vocab-filter-select" onchange="onVocabTestFilter(this.value)">
-                                <option value="all">Tất cả 10 đề thi (400 từ)</option>
+                                <option value="all">Tất cả 10 đề thi chuẩn (400 từ)</option>
                                 <option value="1">Đề số 01: Glencorn Lodge & Olympics (40 từ)</option>
                                 <option value="2">Đề số 02: Danakil & Mt. Fuji (40 từ)</option>
                                 <option value="3">Đề số 03: Van Gogh & Mesa Verde (40 từ)</option>
@@ -1288,6 +1405,10 @@
                                 <option value="8">Đề số 08: Space Exploration & Olympics 1908 (40 từ)</option>
                                 <option value="9">Đề số 09: Failure & Svalbard Seed Vault (40 từ)</option>
                                 <option value="10">Đề số 10: Colors & Coral Reefs (40 từ)</option>
+                                <optgroup label="Bộ đề thực chiến cập nhật (Phòng Luyện Đọc)">
+                                    <option value="11">Thực chiến 01: Phân tầng Mỹ, Hồ Tây, TV Binge & Critical Thinkers (40 từ)</option>
+                                    <option value="12">Thực chiến 02: Đại dịch, May mắn, Lao động châu Á & Tôn giáo Mỹ (40 từ)</option>
+                                </optgroup>
                             </select>
                         </div>
 
@@ -1313,7 +1434,7 @@
                                 <i class="fa-solid fa-filter" style="color: #4f46e5;"></i> Chọn phạm vi thử thách:
                             </span>
                             <select id="synonym-test-select" class="vocab-filter-select" onchange="onSynonymTestFilter(this.value)">
-                                <option value="all">Tất cả 10 đề thi (Toàn bộ 400 cặp từ)</option>
+                                <option value="all">Tất cả 10 đề thi chuẩn (Toàn bộ 400 cặp từ)</option>
                                 <option value="1">Đề số 01: Glencorn Lodge & Olympics</option>
                                 <option value="2">Đề số 02: Danakil & Mt. Fuji</option>
                                 <option value="3">Đề số 03: Van Gogh & Mesa Verde</option>
@@ -1324,6 +1445,10 @@
                                 <option value="8">Đề số 08: Space Exploration & Olympics 1908</option>
                                 <option value="9">Đề số 09: Failure & Svalbard Seed Vault</option>
                                 <option value="10">Đề số 10: Colors & Coral Reefs</option>
+                                <optgroup label="Bộ đề thực chiến cập nhật (Phòng Luyện Đọc)">
+                                    <option value="11">Thực chiến 01: Phân tầng Mỹ, Hồ Tây, TV Binge & Critical Thinkers</option>
+                                    <option value="12">Thực chiến 02: Đại dịch, May mắn, Lao động châu Á & Tôn giáo Mỹ</option>
+                                </optgroup>
                             </select>
                         </div>
 
@@ -1361,10 +1486,10 @@
     <!-- Studio Neural Audio Manifest -->
     <script src="audio/manifest.js?v=20261107_02"></script>
     <!-- Master Database Script (supports both data/ and root folder) -->
-    <script src="data/tests_data.js?v=20261117_02"></script>
+    <script src="data/tests_data.js?v=20261119_01"></script>
     <script>
         if (typeof READING_MOCK_TESTS === 'undefined' && (!window.READING_MOCK_TESTS || window.READING_MOCK_TESTS.length === 0)) {
-            document.write('<script src="tests_data.js?v=20261117_02"><\\/script>');
+            document.write('<script src="tests_data.js?v=20261119_01"><\\/script>');
         }
     </script>
     <!-- Firebase Compat SDK -->
@@ -1372,9 +1497,9 @@
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
     <!-- Room Proctoring -->
     <script>window.VSTEP_ROOM_SKILL = 'reading';</script>
-    <script src="exam_room.js?v=20261118"></script>
+    <script src="exam_room.js?v=20261119_01"></script>
 
     <!-- Application Logic Script -->
-    <script src="app.js?v=20261117_02"></script>
+    <script src="app.js?v=20261119_01"></script>
 </body>
 </html>
