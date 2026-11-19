@@ -19328,3948 +19328,5796 @@ var READING_MOCK_TESTS = [
       }
     ]
   },
-{
-  "testId": "TEST11",
-  "testNum": 11,
-  "title": "VSTEP READING THỰC CHIẾN 01 (REVIEW ĐỀ THI THẬT)",
-  "description": "Bộ đề thực chiến biên soạn chuẩn xác từ review học viên: Phân tầng xã hội Mỹ, Chuyển dịch Hồ Tây, Tâm lý cày phim & Tư duy phản biện.",
-  "duration": 3600,
-  "passages": [
-    {
-      "partId": 1,
-      "title": "Passage 1: Class System in the US",
-      "topic": "Xã hội học & Các tiêu chí phân tầng giai cấp tại Hoa Kỳ",
-      "timeAllowed": 15,
-      "passage": "<p>While the United States has historically prided itself on being an egalitarian society where individuals can achieve success purely through hard work—an ethos commonly known as the \"American Dream\"—sociologists emphasize that a well-defined class system exists within the nation. Unlike historical European aristocracies characterized by hereditary titles and rigid legal boundaries, the American social hierarchy is fluid and multifaceted. Understanding what <strong>demarcates</strong> social classes in modern America requires looking beyond simple monetary earnings to a convergence of economic, educational, and socio-cultural dimensions.</p><p>At the foundation of American class stratification lies the crucial distinction between income and accumulated wealth. Income refers to regular cash inflow from salaries, investments, or government assistance over a given period. Wealth, by contrast, comprises the total net worth of an individual or household, including real estate, equity, and inherited assets, minus any outstanding debts. Sociologists point out that while two households may earn identical annual salaries, their class status can diverge radically depending on their wealth. A family possessing generational property and financial reserves enjoys an economic buffer against crises that a family living paycheck to paycheck lacks, making wealth a far more durable determinant of long-term social standing.</p><p>Beyond financial assets, educational attainment and occupational prestige serve as critical pillars in defining social status. In an increasingly knowledge-based economy, post-secondary credentials—especially advanced degrees from elite institutions—act as gatekeepers to high-earning, influential professions. Occupations in medicine, corporate law, and advanced technology not only confer substantial monetary compensation but also command widespread social esteem and autonomy. Conversely, many service and manual occupations often lack <strong>this authority</strong>, regardless of whether an experienced tradesperson's wage occasionally surpasses that of an entry-level professional.</p><p>Social class is further manifested in subtle cultural practices, often described by sociologists as \"cultural capital.\" [A] This concept encompasses speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette absorbed from one's upbringing. [B] Members of the upper-middle and upper classes frequently share specific linguistic codes and social networks that facilitate career advancement. [C] Consequently, cultural literacy acts as an unwritten credential, signaling belonging in elite institutional environments and quietly perpetuating social boundaries. [D]</p><p>Ultimately, what defines the American class system is not an isolated metric, but a synergistic matrix of financial resources, professional standing, and cultural habits. While the absence of statutory barriers preserves the theoretical promise of upward social mobility, statistical evidence in recent decades indicates that intergenerational mobility has slowed. When economic assets, educational credentials, and social connections reinforce one another, class boundaries tend to crystallize, profoundly shaping an individual's life trajectory.</p>",
-      "vocab": [
-        {
-          "word": "egalitarian",
-          "pos": "adj",
-          "ipa": "/ɪˌɡæl.ɪˈteə.ri.ən/",
-          "level": "C1",
-          "mean": "bình đẳng, chủ trương bình đẳng",
-          "syns": [
-            "equal",
-            "democratic",
-            "classless"
-          ],
-          "ex": "An egalitarian society aims to provide equal opportunities for all citizens regardless of family background."
-        },
-        {
-          "word": "demarcate",
-          "pos": "v",
-          "ipa": "/ˈdiː.mɑː.keɪt/",
-          "level": "C1",
-          "mean": "phân định, định rõ ranh giới",
-          "syns": [
-            "distinguish",
-            "delineate",
-            "separate"
-          ],
-          "ex": "Sociologists examine the subtle factors that demarcate different economic classes in metropolitan areas."
-        },
-        {
-          "word": "stratification",
-          "pos": "n",
-          "ipa": "/ˌstræt.ɪ.fɪˈkeɪ.ʃən/",
-          "level": "B2",
-          "mean": "sự phân tầng xã hội",
-          "syns": [
-            "hierarchy",
-            "layering",
-            "categorization"
-          ],
-          "ex": "Social stratification often limits upward mobility for individuals raised in low-income neighborhoods."
-        },
-        {
-          "word": "accumulate",
-          "pos": "v",
-          "ipa": "/əˈkjuː.mjə.leɪt/",
-          "level": "B2",
-          "mean": "tích lũy, tích tụ dần",
-          "syns": [
-            "gather",
-            "amass",
-            "build up"
-          ],
-          "ex": "Generational wealth allows certain families to accumulate real estate across multiple decades."
-        },
-        {
-          "word": "buffer",
-          "pos": "n",
-          "ipa": "/ˈbʌf.ər/",
-          "level": "B2",
-          "mean": "tấm đệm bảo vệ, vật giảm chấn",
-          "syns": [
-            "cushion",
-            "shield",
-            "safeguard"
-          ],
-          "ex": "A robust emergency savings fund acts as an essential financial buffer during recessions."
-        },
-        {
-          "word": "gatekeeper",
-          "pos": "n",
-          "ipa": "/ˈɡeɪtˌkiː.pər/",
-          "level": "B2",
-          "mean": "người / yếu tố kiểm soát lối vào",
-          "syns": [
-            "controller",
-            "filter",
-            "barrier"
-          ],
-          "ex": "Prestigious university degrees frequently serve as gatekeepers to executive leadership roles."
-        },
-        {
-          "word": "autonomy",
-          "pos": "n",
-          "ipa": "/ɔːˈtɒn.ə.mi/",
-          "level": "C1",
-          "mean": "quyền tự chủ, độc lập",
-          "syns": [
-            "independence",
-            "self-determination",
-            "freedom"
-          ],
-          "ex": "Senior medical specialists generally experience substantial professional autonomy in their clinical decisions."
-        },
-        {
-          "word": "etiquette",
-          "pos": "n",
-          "ipa": "/ˈet.ɪ.ket/",
-          "level": "B2",
-          "mean": "quy tắc ứng xử, phép lịch sự",
-          "syns": [
-            "manners",
-            "protocol",
-            "decorum"
-          ],
-          "ex": "Mastering corporate etiquette can significantly enhance an applicant's chances during executive interviews."
-        },
-        {
-          "word": "crystallize",
-          "pos": "v",
-          "ipa": "/ˈkrɪs.təl.aɪz/",
-          "level": "C1",
-          "mean": "định hình rõ rệt, kết tinh bền vững",
-          "syns": [
-            "solidify",
-            "harden",
-            "take clear shape"
-          ],
-          "ex": "When socioeconomic inequalities persist across generations, class divisions tend to crystallize firmly."
-        },
-        {
-          "word": "trajectory",
-          "pos": "n",
-          "ipa": "/trəˈdʒek.tər.i/",
-          "level": "B2",
-          "mean": "quỹ đạo, lộ trình phát triển",
-          "syns": [
-            "path",
-            "course",
-            "route"
-          ],
-          "ex": "Early access to quality education exerts an immense influence on a student's lifelong career trajectory."
-        }
-      ],
-      "questions": [
-        {
-          "id": 1,
-          "num": 1,
-          "question": "Which of the following best expresses the main idea of the passage?",
-          "questionVi": "Ý chính của bài đọc là gì?",
-          "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
-          "options": [
-            "The American Dream has been completely replaced by an aristocratic class structure.",
-            "Social classes in the United States are defined by an interplay of economic, educational, and cultural factors.",
-            "Income is the single most reliable predictor of long-term class position in the United States.",
-            "Upward social mobility in modern America is entirely determined by family inheritance."
-          ],
-          "optionsVi": [
-            "Giấc mơ Mỹ đã bị thay thế hoàn toàn bởi chế độ quý tộc cha truyền con nối.",
-            "Các tầng lớp xã hội tại Mỹ được định hình bởi sự tương tác giữa các yếu tố kinh tế, giáo dục và văn hóa.",
-            "Thu nhập hàng tháng là yếu tố dự báo chuẩn xác duy nhất về vị thế giai cấp lâu dài ở Mỹ.",
-            "Sự dịch chuyển xã hội ở Mỹ hoàn toàn bị quyết định bởi tài sản thừa kế từ gia đình."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Understanding what demarcates social classes in modern America requires looking beyond simple monetary earnings to a convergence of economic, educational, and socio-cultural dimensions. [Paragraph 1 & 5]",
-          "evidenceVi": "Việc hiểu rõ ranh giới các giai cấp tại Mỹ đòi hỏi phải nhìn vượt ra ngoài thu nhập tiền bạc đơn thuần để thấy sự hội tụ của các khía cạnh kinh tế, giáo dục và văn hóa - xã hội. [Đoạn 1 & 5]",
-          "explanation": "Toàn bài phân tích 3 trụ cột định hình giai cấp: kinh tế (thu nhập vs của cải - Đoạn 2), giáo dục & nghề nghiệp (Đoạn 3), và vốn văn hóa (Đoạn 4), kết luận bằng ma trận tổng hợp (Đoạn 5). Do đó B là đáp án toàn diện và chuẩn xác nhất.",
-          "postReading": {
-            "type": "main_idea",
-            "typeLabel": "Ý chính toàn bài (Main Idea)",
-            "cluePassage": "convergence of economic, educational, and socio-cultural dimensions... synergistic matrix of financial resources, professional standing, and cultural habits.",
-            "clueAnswer": "defined by an interplay of economic, educational, and cultural factors.",
-            "keyPassage": "convergence of economic, educational, and socio-cultural dimensions",
-            "keyAnswer": "interplay of economic, educational, and cultural factors",
-            "paraphrasePair": "convergence of dimensions <=> interplay of factors",
-            "meaningVi": "Sự hội tụ của các khía cạnh <=> Sự tương tác qua lại giữa các yếu tố",
-            "deductionLogic": "Phương án B tóm lược trọn vẹn cả 3 khía cạnh được trình bày xuyên suốt bài đọc. Phương án A sai vì bài khẳng định không có quý tộc thế tập; C sai vì của cải bền vững hơn thu nhập; D dùng từ tuyệt đối 'entirely'."
-          }
-        },
-        {
-          "id": 2,
-          "num": 2,
-          "question": "The word \"demarcates\" in paragraph 1 is closest in meaning to:",
-          "questionVi": "Từ \"demarcates\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "eliminates",
-            "distinguishes",
-            "predicts",
-            "improves"
-          ],
-          "optionsVi": [
-            "loại bỏ",
-            "phân định, phân biệt",
-            "dự đoán",
-            "cải thiện"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Understanding what demarcates social classes in modern America requires looking beyond simple monetary earnings... [Paragraph 1]",
-          "evidenceVi": "Việc hiểu được điều gì phân định các tầng lớp xã hội tại nước Mỹ hiện đại đòi hỏi... [Đoạn 1]",
-          "explanation": "\"Demarcate\" nghĩa là vạch rõ ranh giới, phân định sự khác biệt, đồng nghĩa với \"distinguishes\".",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "what demarcates social classes in modern America",
-            "clueAnswer": "distinguishes",
-            "keyPassage": "demarcate",
-            "keyAnswer": "distinguish / set boundaries",
-            "paraphrasePair": "demarcate <=> distinguish",
-            "meaningVi": "phân định, vạch rõ ranh giới <=> phân biệt, chỉ ra khác biệt",
-            "deductionLogic": "Trong ngữ cảnh xác định ranh giới giữa các tầng lớp (classes), 'demarcate' tương đương với 'distinguish'."
-          }
-        },
-        {
-          "id": 3,
-          "num": 3,
-          "question": "According to paragraph 2, how does wealth differ from income?",
-          "questionVi": "Theo đoạn 2, của cải (wealth) khác với thu nhập (income) như thế nào?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "Wealth refers strictly to cash earned from monthly salaries.",
-            "Income includes accumulated real estate, whereas wealth excludes physical assets.",
-            "Wealth represents overall net worth after subtracting debts, while income is regular incoming cash.",
-            "Wealth fluctuates much more rapidly than annual household income during financial crises."
-          ],
-          "optionsVi": [
-            "Của cải chỉ bao gồm tiền mặt nhận được từ lương tháng.",
-            "Thu nhập bao gồm bất động sản tích lũy, trong khi của cải loại trừ tài sản vật chất.",
-            "Của cải đại diện cho tổng giá trị tài sản ròng sau khi trừ nợ, trong khi thu nhập là dòng tiền đều đặn.",
-            "Của cải biến động nhanh hơn nhiều so với thu nhập hàng năm của hộ gia đình khi có khủng hoảng."
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "Income refers to regular cash inflow from salaries, investments, or government assistance... Wealth, by contrast, comprises the total net worth of an individual or household, including real estate, equity, and inherited assets, minus any outstanding debts. [Paragraph 2]",
-          "evidenceVi": "Thu nhập đề cập đến dòng tiền mặt vào đều đặn... Ngược lại, của cải bao gồm tổng giá trị tài sản ròng... trừ đi các khoản nợ chưa thanh toán. [Đoạn 2]",
-          "explanation": "Đoạn 2 định nghĩa rõ ràng: Income là dòng tiền đều đặn từ lương/trợ cấp, còn Wealth là tổng tài sản ròng (nhà đất, chứng khoán, thừa kế) trừ đi nợ nần.",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết đối chiếu (Factual Comparison)",
-            "cluePassage": "Wealth, by contrast, comprises the total net worth... minus any outstanding debts. Income refers to regular cash inflow...",
-            "clueAnswer": "Wealth represents overall net worth after subtracting debts, while income is regular incoming cash.",
-            "keyPassage": "total net worth minus debts vs. regular cash inflow",
-            "keyAnswer": "net worth after subtracting debts vs. regular incoming cash",
-            "paraphrasePair": "minus debts <=> after subtracting debts",
-            "meaningVi": "tổng tài sản ròng trừ đi nợ <=> giá trị sau khi trừ nợ nần",
-            "deductionLogic": "Đáp án C phản ánh chuẩn xác 100% định nghĩa phân biệt của bài đọc. A tráo khái niệm; B sai dữ kiện; D ngược nghĩa (của cải bền vững hơn)."
-          }
-        },
-        {
-          "id": 4,
-          "num": 4,
-          "question": "Why does the author mention a family with \"generational property and financial reserves\" in paragraph 2?",
-          "questionVi": "Tại sao tác giả đề cập đến một gia đình có \"tài sản thế hệ và nguồn dự trữ tài chính\" trong đoạn 2?",
-          "questionType": "DẠNG 06: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
-          "options": [
-            "To illustrate how accumulated wealth provides protection against economic hardship.",
-            "To prove that salary differences have no bearing on social status.",
-            "To argue that real estate investments are always superior to equity.",
-            "To criticize families who rely on inherited wealth instead of working."
-          ],
-          "optionsVi": [
-            "Để minh họa của cải tích lũy tạo ra sự bảo vệ trước khó khăn kinh tế như thế nào.",
-            "Để chứng minh rằng sự chênh lệch tiền lương không ảnh hưởng gì tới địa vị xã hội.",
-            "Để lập luận rằng đầu tư bất động sản luôn vượt trội hơn cổ phiếu.",
-            "Để chỉ trích những gia đình ỷ lại vào tài sản thừa kế thay vì làm việc."
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "A family possessing generational property and financial reserves enjoys an economic buffer against crises that a family living paycheck to paycheck lacks, making wealth a far more durable determinant of long-term social standing. [Paragraph 2]",
-          "evidenceVi": "Một gia đình sở hữu bất động sản thế hệ và nguồn dự trữ tài chính sẽ có một tấm đệm kinh tế chống lại khủng hoảng... [Đoạn 2]",
-          "explanation": "Ví dụ này được đưa ra để chứng minh của cải tạo ra một tấm đệm kinh tế ('economic buffer') bảo vệ gia đình khi biến cố xảy ra, giúp họ duy trì vị thế vững chắc.",
-          "postReading": {
-            "type": "purpose",
-            "typeLabel": "Mục đích ví dụ (Rhetorical Purpose)",
-            "cluePassage": "enjoys an economic buffer against crises that a family living paycheck to paycheck lacks",
-            "clueAnswer": "illustrate how accumulated wealth provides protection against economic hardship",
-            "keyPassage": "economic buffer against crises",
-            "keyAnswer": "protection against economic hardship",
-            "paraphrasePair": "economic buffer <=> protection against hardship",
-            "meaningVi": "tấm đệm kinh tế trước khủng hoảng <=> sự bảo vệ trước khó khăn kinh tế",
-            "deductionLogic": "Tác giả dùng hình ảnh tương phản giữa hai gia đình có cùng mức lương nhưng khác biệt về tài sản tích lũy để nhấn mạnh vai trò bảo hộ của của cải."
-          }
-        },
-        {
-          "id": 5,
-          "num": 5,
-          "question": "The phrase \"this authority\" in paragraph 3 refers to:",
-          "questionVi": "Cụm từ \"this authority\" trong đoạn 3 ám chỉ điều gì?",
-          "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
-          "options": [
-            "advanced university degrees",
-            "substantial monetary compensation",
-            "widespread social esteem and autonomy",
-            "technological innovations"
-          ],
-          "optionsVi": [
-            "các văn bằng đại học nâng cao",
-            "mức thù lao tài chính đáng kể",
-            "sự kính trọng rộng rãi của xã hội và quyền tự chủ nghề nghiệp",
-            "các sáng kiến công nghệ"
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "Occupations in medicine, corporate law, and advanced technology not only confer substantial monetary compensation but also command widespread social esteem and autonomy. Conversely, many service and manual occupations often lack this authority... [Paragraph 3]",
-          "evidenceVi": "Các ngành nghề trong y khoa, luật doanh nghiệp và công nghệ cao không chỉ mang lại thu nhập đáng kể mà còn nhận được sự kính trọng rộng rãi của xã hội và quyền tự chủ. Ngược lại, nhiều ngành dịch vụ và lao động chân tay lại thiếu đi quyền uy này... [Đoạn 3]",
-          "explanation": "\"This authority\" quy chiếu trực tiếp về \"widespread social esteem and autonomy\" (sự kính trọng xã hội và quyền tự chủ) được nhắc ngay ở câu liền trước.",
-          "postReading": {
-            "type": "reference",
-            "typeLabel": "Quy chiếu đại từ (Reference)",
-            "cluePassage": "command widespread social esteem and autonomy. Conversely, many service and manual occupations often lack this authority",
-            "clueAnswer": "widespread social esteem and autonomy",
-            "keyPassage": "widespread social esteem and autonomy",
-            "keyAnswer": "widespread social esteem and autonomy",
-            "paraphrasePair": "this authority => widespread social esteem and autonomy",
-            "meaningVi": "quyền uy / vị thế này => sự kính trọng và quyền tự chủ",
-            "deductionLogic": "Cụm 'this authority' thay thế cho vế thứ hai (social esteem and autonomy) của các nghề nghiệp danh giá."
-          }
-        },
-        {
-          "id": 6,
-          "num": 6,
-          "question": "According to paragraph 3, what role do elite academic credentials play in the modern American economy?",
-          "questionVi": "Theo đoạn 3, các văn bằng học thuật tinh hoa đóng vai trò gì trong nền kinh tế Mỹ hiện đại?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "They guarantee identical salaries for all graduates across all industries.",
-            "They act as barriers or filters that control entry into highly regarded professions.",
-            "They eliminate the need for any practical workplace skills or etiquette.",
-            "They have become far less valuable than vocational apprenticeships."
-          ],
-          "optionsVi": [
-            "Chúng đảm bảo mức lương giống hệt nhau cho mọi sinh viên tốt nghiệp ở mọi ngành.",
-            "Chúng đóng vai trò như những rào cản hay bộ lọc kiểm soát lối vào các ngành nghề được coi trọng.",
-            "Chúng loại bỏ sự cần thiết của các kỹ năng thực tế hay phép lịch sự tại nơi làm việc.",
-            "Chúng đã trở nên kém giá trị hơn nhiều so với việc học nghề thực tế."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "In an increasingly knowledge-based economy, post-secondary credentials—especially advanced degrees from elite institutions—act as gatekeepers to high-earning, influential professions. [Paragraph 3]",
-          "evidenceVi": "Trong một nền kinh tế ngày càng dựa trên tri thức, các văn bằng sau phổ thông—đặc biệt là bằng cấp nâng cao từ các trường tinh hoa—đóng vai trò là người gác cổng dẫn vào các ngành nghề có thu nhập cao và có sức ảnh hưởng. [Đoạn 3]",
-          "explanation": "\"Act as gatekeepers to high-earning, influential professions\" đồng nghĩa với việc đóng vai trò rào cản kiểm soát lối vào các nghề nghiệp danh giá.",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết diễn giải (Paraphrased Detail)",
-            "cluePassage": "act as gatekeepers to high-earning, influential professions",
-            "clueAnswer": "act as barriers or filters that control entry into highly regarded professions",
-            "keyPassage": "gatekeepers to influential professions",
-            "keyAnswer": "barriers or filters that control entry",
-            "paraphrasePair": "gatekeepers <=> barriers/filters controlling entry",
-            "meaningVi": "người gác cổng <=> bộ lọc kiểm soát lối vào",
-            "deductionLogic": "Hình ảnh ẩn dụ 'gatekeeper' (người gác cổng) được diễn giải chuẩn xác thành rào cản kiểm soát sự gia nhập."
-          }
-        },
-        {
-          "id": 7,
-          "num": 7,
-          "question": "Which of the following is NOT mentioned in paragraph 4 as a component of \"cultural capital\"?",
-          "questionVi": "Điều nào sau đây KHÔNG được đề cập trong đoạn 4 như là một thành tố của \"vốn văn hóa\"?",
-          "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
-          "options": [
-            "Speech patterns and language styles",
-            "Aesthetic tastes and leisure preferences",
-            "Inherited investment portfolios and real estate",
-            "Informal behavioral manners learned from upbringing"
-          ],
-          "optionsVi": [
-            "Cách ăn nói và phong cách ngôn ngữ",
-            "Thị hiếu thẩm mỹ và sở thích giải trí",
-            "Danh mục đầu tư thừa kế và bất động sản",
-            "Cách ứng xử phi chính thức học được từ quá trình nuôi dưỡng"
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "This concept encompasses speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette absorbed from one's upbringing. [Paragraph 4]",
-          "evidenceVi": "Khái niệm này bao gồm các kiểu mẫu ngôn ngữ, thị hiếu thẩm mỹ, các thú vui giải trí, và các quy tắc ứng xử phi chính thức được tiếp thu từ quá trình nuôi dưỡng. [Đoạn 4]",
-          "explanation": "Đoạn 4 liệt kê rõ 4 yếu tố của 'cultural capital': speech patterns (A), aesthetic tastes & recreational pursuits (B), informal etiquette (D). 'Inherited investment portfolios' thuộc về kinh tế (wealth ở Đoạn 2), không thuộc vốn văn hóa.",
-          "postReading": {
-            "type": "negative",
-            "typeLabel": "Thông tin loại trừ (Negative Detail)",
-            "cluePassage": "speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette",
-            "clueAnswer": "Inherited investment portfolios and real estate",
-            "keyPassage": "cultural capital encompasses non-material social traits",
-            "keyAnswer": "inherited portfolios belongs to wealth (economic capital)",
-            "paraphrasePair": "recreational pursuits <=> leisure preferences | etiquette <=> behavioral manners",
-            "meaningVi": "thú vui giải trí <=> sở thích giải trí | phép tắc <=> cách ứng xử",
-            "deductionLogic": "Tài sản tài chính (chứng khoán, bất động sản) thuộc vốn tài chính (wealth), không phải vốn văn hóa phi vật thể (cultural capital)."
-          }
-        },
-        {
-          "id": 8,
-          "num": 8,
-          "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"These acquired attributes are rarely taught formally in schools, yet they profoundly influence how an individual is perceived in professional settings.\"\nWhere would the sentence best fit?",
-          "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
-          "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
-          "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
-          ],
-          "optionsVi": [
-            "Vị trí [A]",
-            "Vị trí [B]",
-            "Vị trí [C]",
-            "Vị trí [D]"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "[A] This concept encompasses speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette absorbed from one's upbringing. [B] Members of the upper-middle and upper classes frequently share specific linguistic codes... [Paragraph 4]",
-          "evidenceVi": "Vị trí [B] đứng ngay sau câu liệt kê các thuộc tính (speech patterns, etiquette...) để giải thích 'These acquired attributes' (những thuộc tính tiếp thu này) hiếm khi được dạy trong trường học.",
-          "explanation": "Đại từ chỉ định 'These acquired attributes' kết nối trực tiếp với danh sách các thuộc tính văn hóa ở câu liền trước vị trí [B] (speech patterns, aesthetic tastes, recreational pursuits, etiquette).",
-          "postReading": {
-            "type": "insertion",
-            "typeLabel": "Điền câu logic (Sentence Insertion)",
-            "cluePassage": "encompasses speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette absorbed from one's upbringing. [B]",
-            "clueAnswer": "[B]",
-            "keyPassage": "speech patterns, aesthetic tastes, informal etiquette",
-            "keyAnswer": "These acquired attributes",
-            "paraphrasePair": "attributes absorbed from upbringing <=> acquired attributes",
-            "meaningVi": "thuộc tính tiếp thu từ nuôi dưỡng <=> những thuộc tính tiếp thu này",
-            "deductionLogic": "Móc xích 'These acquired attributes' chỉ có thể thay thế cho các đặc điểm được nêu ở câu trước [B]."
-          }
-        },
-        {
-          "id": 9,
-          "num": 9,
-          "question": "The word \"crystallize\" in paragraph 5 is closest in meaning to:",
-          "questionVi": "Từ \"crystallize\" trong đoạn 5 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "dissolve quickly",
-            "become clearer and more rigid",
-            "expand geographically",
-            "weaken significantly"
-          ],
-          "optionsVi": [
-            "hòa tan nhanh chóng",
-            "trở nên rõ rệt và vững chắc / khó thay đổi hơn",
-            "mở rộng về mặt địa lý",
-            "suy yếu đáng kể"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "When economic assets, educational credentials, and social connections reinforce one another, class boundaries tend to crystallize, profoundly shaping an individual's life trajectory. [Paragraph 5]",
-          "evidenceVi": "Khi tài sản kinh tế, bằng cấp giáo dục và các mối quan hệ xã hội củng cố lẫn nhau, các ranh giới giai cấp có xu hướng kết tinh vững chắc... [Đoạn 5]",
-          "explanation": "\"Crystallize\" theo nghĩa bóng trong xã hội học nghĩa là các ranh giới kết tinh, định hình vững chắc và khó lay chuyển (become clearer and more rigid / solidify).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "class boundaries tend to crystallize, profoundly shaping an individual's life trajectory",
-            "clueAnswer": "become clearer and more rigid",
-            "keyPassage": "crystallize",
-            "keyAnswer": "become clearer and more rigid / solidify",
-            "paraphrasePair": "crystallize <=> become clearer and more rigid",
-            "meaningVi": "kết tinh, đông đặc lại <=> trở nên rõ rệt và khó thay đổi",
-            "deductionLogic": "Từ gốc mang nghĩa kết tinh thể, trong văn cảnh phân tầng giai cấp mang nghĩa định hình ranh giới kiên cố."
-          }
-        },
-        {
-          "id": 10,
-          "num": 10,
-          "question": "Which of the following can be inferred from paragraph 5 about social mobility in the United States?",
-          "questionVi": "Điều nào sau đây có thể được suy luận từ đoạn 5 về sự dịch chuyển xã hội (social mobility) tại Mỹ?",
-          "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN (Inference Question)",
-          "options": [
-            "Upward social mobility is legally prohibited for individuals from working-class backgrounds.",
-            "It has become more difficult in recent decades for people to move from one social class to a higher one.",
-            "Financial resources no longer have any impact on a person's future prospects.",
-            "Intergenerational mobility is now faster and more widespread than in previous centuries."
-          ],
-          "optionsVi": [
-            "Việc thăng tiến giai cấp bị pháp luật ngăn cấm đối với người xuất thân từ giai cấp lao động.",
-            "Việc dịch chuyển từ tầng lớp thấp lên tầng lớp cao hơn đã trở nên khó khăn hơn trong những thập kỷ gần đây.",
-            "Nguồn lực tài chính không còn bất kỳ tác động nào đến tương lai của một cá nhân.",
-            "Sự dịch chuyển giữa các thế hệ hiện nay diễn ra nhanh hơn và phổ biến hơn so với các thế kỷ trước."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "While the absence of statutory barriers preserves the theoretical promise of upward social mobility, statistical evidence in recent decades indicates that intergenerational mobility has slowed. [Paragraph 5]",
-          "evidenceVi": "Mặc dù việc không có rào cản luật pháp vẫn giữ nguyên lời hứa trên lý thuyết về sự thăng tiến xã hội, các bằng chứng thống kê trong các thập kỷ gần đây chỉ ra rằng sự dịch chuyển giữa các thế hệ đã chậm lại. [Đoạn 5]",
-          "explanation": "\"Intergenerational mobility has slowed\" (sự dịch chuyển giữa các thế hệ bị chậm lại) suy ra rằng việc thăng tiến từ tầng lớp dưới lên tầng lớp cao hơn đã trở nên khó khăn hơn (become more difficult).",
-          "postReading": {
-            "type": "inference",
-            "typeLabel": "Suy luận logic (Inference)",
-            "cluePassage": "statistical evidence in recent decades indicates that intergenerational mobility has slowed.",
-            "clueAnswer": "It has become more difficult in recent decades for people to move from one social class to a higher one.",
-            "keyPassage": "intergenerational mobility has slowed",
-            "keyAnswer": "more difficult to move to a higher class",
-            "paraphrasePair": "mobility has slowed <=> become more difficult to move to a higher class",
-            "meaningVi": "dịch chuyển giai cấp bị chậm lại <=> khó khăn hơn để thăng tiến lên tầng lớp cao hơn",
-            "deductionLogic": "A sai vì bài nói 'absence of statutory barriers'; C sai vì tài chính vẫn quyết định lớn; D ngược nghĩa hoàn toàn."
-          }
-        }
-      ]
-    },
-    {
-      "partId": 2,
-      "title": "Passage 2: Tay Ho - A New Destination",
-      "topic": "Đô thị học & Sự chuyển mình quốc tế của vùng đất Tây Hồ",
-      "timeAllowed": 15,
-      "passage": "<p>For centuries, the Tay Ho district—nestled along the shores of Hanoi's expansive West Lake—was regarded primarily as a tranquil agricultural and spiritual retreat. Local residents cultivated fragrant lotus blossoms to scent traditional teas, harvested kumquats for Lunar New Year festivities, and frequented ancient pagodas that have dotted the shoreline since the Ly and Tran dynasties. The atmosphere was characterized by sleepy fishing hamlets and narrow alleys where life moved at an unhurried, rhythmic pace. However, over the past two decades, this picturesque peri-urban enclave has experienced a profound <strong>metamorphosis</strong>, emerging as one of Vietnam's most dynamic international destinations.</p><p>The initial catalyst for this transformation was the district's natural appeal to foreign diplomats, expatriate professionals, and development workers. Drawn by the lake's cooling breezes, scenic waterfront vistas, and relative seclusion from the congested alleys of Hanoi's historic Old Quarter, these newcomers began leasing traditional villas and establishing long-term residences. Over time, the growing international community stimulated a parallel influx of creative young Vietnamese entrepreneurs, artists, and repatriated overseas graduates who sought a modern, cosmopolitan lifestyle within an authentic cultural setting.</p><p>This demographic shift has fostered an exceptionally diverse commercial ecosystem. Today, the streets surrounding West Lake boast an eclectic concentration of specialized businesses that contrast sharply with the city's conventional retail landscape. High-end artisanal bakeries, specialty coffee roasters sourcing single-origin beans from the Central Highlands, and zero-waste organic grocery stores thrive alongside international dining venues. Visitors can readily sample authentic Mediterranean tapas, wood-fired Neapolitan pizzas, plant-based vegan delicacies, and French pastries within a few hundred meters. Furthermore, the district has become a fertile incubator for co-working facilities, independent art galleries, yoga studios, and craft workshops offering pottery and textile design.</p><p>What distinguishes Tay Ho from purely commercialized tourist districts is its vibrant cultural synthesis. [A] Rather than completely obliterating the past, modernity often exists in close harmony with time-honored traditions. [B] Early in the morning, elderly locals practicing Tai Chi along the lakeside promenade share the pavement with foreign joggers and cycling enthusiasts. [C] Moments later, traditional itinerant flower vendors pushing bicycles laden with fresh lilies and hydrangeas navigate past sleek, minimalist glass-fronted espresso bars. [D] <strong>This juxtaposition</strong> lends the neighborhood an unmistakable charm, combining global sophistication with grounded local heritage.</p><p>Nevertheless, the rapid surge in commercialization brings substantial challenges. Rising property values and commercial rents threaten to displace long-standing native families and modest traditional workshops. Additionally, intensified vehicular traffic and weekend tourist congestion place severe strain on the neighborhood's narrow infrastructure and the delicate ecology of West Lake itself. Urban planners and community leaders now face the delicate task of preserving Tay Ho's authentic spiritual roots and environmental serenity while supporting the commercial vitality that makes it such an attractive contemporary destination.</p>",
-      "vocab": [
-        {
-          "word": "tranquil",
-          "pos": "adj",
-          "ipa": "/ˈtræŋ.kwɪl/",
-          "level": "B2",
-          "mean": "yên bình, thanh tĩnh",
-          "syns": [
-            "serene",
-            "peaceful",
-            "placid"
-          ],
-          "ex": "The tranquil waters of West Lake have inspired generations of Vietnamese poets."
-        },
-        {
-          "word": "metamorphosis",
-          "pos": "n",
-          "ipa": "/ˌmet.əˈmɔː.fə.sɪs/",
-          "level": "C1",
-          "mean": "sự chuyển mình, lột xác hoàn toàn",
-          "syns": [
-            "transformation",
-            "transmutation",
-            "conversion"
-          ],
-          "ex": "The old industrial quarter underwent a dramatic metamorphosis into a creative cultural park."
-        },
-        {
-          "word": "catalyst",
-          "pos": "n",
-          "ipa": "/ˈkæt.əl.ɪst/",
-          "level": "B2",
-          "mean": "chất xúc tác, tác nhân thúc đẩy",
-          "syns": [
-            "stimulus",
-            "spark",
-            "impetus"
-          ],
-          "ex": "The opening of the diplomatic compound served as a major catalyst for local real estate development."
-        },
-        {
-          "word": "cosmopolitan",
-          "pos": "adj",
-          "ipa": "/ˌkɒz.məˈpɒl.ɪ.tən/",
-          "level": "C1",
-          "mean": "mang tính quốc tế, quy tụ nhiều nền văn hóa",
-          "syns": [
-            "international",
-            "global",
-            "multicultural"
-          ],
-          "ex": "Tay Ho has evolved into an exceptionally cosmopolitan neighborhood with residents from over forty countries."
-        },
-        {
-          "word": "eclectic",
-          "pos": "adj",
-          "ipa": "/ekˈlek.tɪk/",
-          "level": "C1",
-          "mean": "đa dạng, phong phú từ nhiều nguồn",
-          "syns": [
-            "diverse",
-            "varied",
-            "heterogeneous"
-          ],
-          "ex": "The street offers an eclectic mix of contemporary art galleries, vegan cafes, and traditional pottery shops."
-        },
-        {
-          "word": "incubator",
-          "pos": "n",
-          "ipa": "/ˈɪŋ.kjə.beɪ.tər/",
-          "level": "B2",
-          "mean": "vườn ươm, nơi nuôi dưỡng ý tưởng mới",
-          "syns": [
-            "nursery",
-            "breeding ground",
-            "cradle"
-          ],
-          "ex": "The co-working space acts as a vibrant incubator for innovative tech and design startups."
-        },
-        {
-          "word": "synthesis",
-          "pos": "n",
-          "ipa": "/ˈsɪn.θə.sɪs/",
-          "level": "C1",
-          "mean": "sự tổng hòa, kết hợp hài hòa",
-          "syns": [
-            "fusion",
-            "amalgamation",
-            "blend"
-          ],
-          "ex": "The district's culinary culture is a unique synthesis of European techniques and fresh local herbs."
-        },
-        {
-          "word": "juxtaposition",
-          "pos": "n",
-          "ipa": "/ˌdʒʌk.stə.pəˈzɪʃ.ən/",
-          "level": "C1",
-          "mean": "sự đặt cạnh nhau đối chiếu (cũ - mới)",
-          "syns": [
-            "contrast",
-            "adjacency",
-            "coexistence"
-          ],
-          "ex": "The stunning juxtaposition of ancient Buddhist pagodas and sleek minimalist cafes fascinates visitors."
-        },
-        {
-          "word": "displace",
-          "pos": "v",
-          "ipa": "/dɪsˈpleɪs/",
-          "level": "B2",
-          "mean": "chiếm chỗ, đẩy bật ra khỏi nơi ở cũ",
-          "syns": [
-            "relocate",
-            "oust",
-            "evict"
-          ],
-          "ex": "Skyrocketing commercial rents in historic districts often displace local craft artisans."
-        },
-        {
-          "word": "serenity",
-          "pos": "n",
-          "ipa": "/səˈren.ə.ti/",
-          "level": "B2",
-          "mean": "sự tĩnh lặng, thanh bình",
-          "syns": [
-            "calmness",
-            "peacefulness",
-            "tranquility"
-          ],
-          "ex": "Preserving the lake's environmental serenity while encouraging eco-tourism is an urgent priority."
-        }
-      ],
-      "questions": [
-        {
-          "id": 11,
-          "num": 11,
-          "question": "Which of the following would be the most suitable title for this passage?",
-          "questionVi": "Tiêu đề nào sau đây phù hợp nhất cho bài đọc?",
-          "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
-          "options": [
-            "The Complete Commercial Demolition of Ancient Hanoi",
-            "Tay Ho: From Tranquil Lakeside Hamlet to Cosmopolitan Hub",
-            "Why Foreign Expatriates Dominate Vietnam's Retail Economy",
-            "The Ecological Extinction of West Lake's Native Lotus Flowers"
-          ],
-          "optionsVi": [
-            "Sự phá hủy hoàn toàn về thương mại của Hà Nội cổ kính",
-            "Tây Hồ: Từ làng ven hồ thanh bình đến trung tâm giao thoa quốc tế",
-            "Tại sao chuyên gia nước ngoài lại thống trị nền kinh tế bán lẻ Việt Nam",
-            "Sự tuyệt chủng sinh thái của hoa sen bản địa Hồ Tây"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "However, over the past two decades, this picturesque peri-urban enclave has experienced a profound metamorphosis, emerging as one of Vietnam's most dynamic international destinations. [Paragraph 1 & Throughout]",
-          "evidenceVi": "Tuy nhiên, trong hai thập kỷ qua, vùng ngoại vi tươi đẹp này đã trải qua một sự chuyển mình sâu sắc, trở thành một trong những điểm đến quốc tế năng động nhất của Việt Nam. [Đoạn 1 & toàn bài]",
-          "explanation": "Bài đọc mô tả hành trình biến chuyển của quận Tây Hồ: từ một vùng làng quê tâm linh thanh tĩnh (Đoạn 1) trở thành điểm hội tụ quốc tế đa dạng với nhiều quán xá hiện đại đan xen truyền thống (Đoạn 2-4), cùng những thách thức phát triển (Đoạn 5).",
-          "postReading": {
-            "type": "main_idea",
-            "typeLabel": "Tiêu đề phù hợp nhất (Best Title)",
-            "cluePassage": "From tranquil agricultural and spiritual retreat... to one of Vietnam's most dynamic international destinations.",
-            "clueAnswer": "From Tranquil Lakeside Hamlet to Cosmopolitan Hub",
-            "keyPassage": "tranquil retreat => dynamic international destination",
-            "keyAnswer": "Tranquil Hamlet => Cosmopolitan Hub",
-            "paraphrasePair": "tranquil retreat <=> tranquil hamlet | international destination <=> cosmopolitan hub",
-            "meaningVi": "vùng yên bình => điểm đến quốc tế <=> xóm thanh bình => trung tâm quốc tế",
-            "deductionLogic": "Đáp án B bao quát trọn vẹn cả lịch sử khởi đầu và diện mạo chuyển mình hiện đại của Tây Hồ. Các phương án A, C, D đều quá cực đoan hoặc sai lệch nội dung bài đọc."
-          }
-        },
-        {
-          "id": 12,
-          "num": 12,
-          "question": "The word \"metamorphosis\" in paragraph 1 is closest in meaning to:",
-          "questionVi": "Từ \"metamorphosis\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "transformation",
-            "stagnation",
-            "destruction",
-            "relocation"
-          ],
-          "optionsVi": [
-            "sự chuyển hóa, thay đổi hoàn toàn",
-            "sự trì trệ",
-            "sự tàn phá",
-            "sự di dời"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "However, over the past two decades, this picturesque peri-urban enclave has experienced a profound metamorphosis... [Paragraph 1]",
-          "evidenceVi": "Tuy nhiên, trong hai thập kỷ qua, vùng đất tuyệt đẹp này đã trải qua một sự lột xác sâu sắc... [Đoạn 1]",
-          "explanation": "\"Metamorphosis\" có nghĩa là sự thay đổi hoàn toàn về hình hài, cấu trúc (transformation), chỉ sự lột xác của vùng Tây Hồ.",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "experienced a profound metamorphosis, emerging as one of Vietnam's most dynamic international destinations",
-            "clueAnswer": "transformation",
-            "keyPassage": "metamorphosis",
-            "keyAnswer": "transformation",
-            "paraphrasePair": "metamorphosis <=> transformation",
-            "meaningVi": "sự lột xác / biến đổi sâu sắc <=> sự biến đổi",
-            "deductionLogic": "Văn cảnh miêu tả sự thay đổi từ làng nông nghiệp yên ắng thành trung tâm quốc tế năng động, phù hợp nhất với 'transformation'."
-          }
-        },
-        {
-          "id": 13,
-          "num": 13,
-          "question": "According to paragraph 1, what was Tay Ho primarily known for in the past?",
-          "questionVi": "Theo đoạn 1, quận Tây Hồ trước đây chủ yếu được biết đến với điều gì?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "Dense clusters of modern high-rise office towers",
-            "Quiet fishing hamlets, lotus cultivation, and historical pagodas",
-            "A fast-paced nightlife district catering to international travelers",
-            "Extensive factory facilities producing textiles and ceramics"
-          ],
-          "optionsVi": [
-            "Các cụm cao ốc văn phòng cao tầng hiện đại dày đặc",
-            "Những xóm chài yên bình, việc trồng sen và các ngôi chùa cổ",
-            "Khu vực giải trí về đêm nhộn nhịp phục vụ du khách quốc tế",
-            "Hệ thống nhà máy quy mô lớn sản xuất dệt may và gốm sứ"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Local residents cultivated fragrant lotus blossoms to scent traditional teas, harvested kumquats for Lunar New Year festivities, and frequented ancient pagodas that have dotted the shoreline... sleepy fishing hamlets... [Paragraph 1]",
-          "evidenceVi": "Người dân địa phương trồng những bông sen thơm để ướp trà truyền thống, thu hoạch quất cho dịp Tết và viếng những ngôi chùa cổ ven hồ... những xóm chài yên ngủ... [Đoạn 1]",
-          "explanation": "Đoạn 1 liệt kê rõ ràng: trồng sen ướp trà (cultivated fragrant lotus blossoms), các ngôi chùa cổ (ancient pagodas) và các xóm chài bình yên (sleepy fishing hamlets).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết trong bài (Factual Detail)",
-            "cluePassage": "cultivated fragrant lotus blossoms... ancient pagodas... sleepy fishing hamlets",
-            "clueAnswer": "Quiet fishing hamlets, lotus cultivation, and historical pagodas",
-            "keyPassage": "sleepy fishing hamlets, lotus blossoms, ancient pagodas",
-            "keyAnswer": "Quiet fishing hamlets, lotus cultivation, historical pagodas",
-            "paraphrasePair": "sleepy fishing hamlets <=> quiet fishing hamlets | ancient pagodas <=> historical pagodas",
-            "meaningVi": "xóm chài yên ngủ <=> xóm chài yên tĩnh | chùa cổ <=> chùa lịch sử",
-            "deductionLogic": "Đáp án B khớp chuẩn xác từng chi tiết nông nghiệp và tâm linh được nêu ở đoạn mở đầu."
-          }
-        },
-        {
-          "id": 14,
-          "num": 14,
-          "question": "According to paragraph 2, what initially attracted foreign expatriates to relocate to Tay Ho?",
-          "questionVi": "Theo đoạn 2, điều gì ban đầu đã thu hút các chuyên gia nước ngoài chuyển đến sinh sống tại Tây Hồ?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "Significantly lower consumer prices than in any other Southeast Asian capital",
-            "Cool breezes from the lake, pleasant views, and distance from city center congestion",
-            "The direct availability of international airport express trains",
-            "Government subsidies offering free villas to international diplomats"
-          ],
-          "optionsVi": [
-            "Giá cả sinh hoạt thấp hơn đáng kể so với bất kỳ thủ đô nào ở Đông Nam Á",
-            "Gió mát từ hồ, quang cảnh dễ chịu và sự tách biệt khỏi sự đông đúc của trung tâm thành phố",
-            "Tuyến tàu hỏa tốc hành kết nối trực tiếp với sân bay quốc tế",
-            "Các khoản trợ cấp của chính phủ cấp biệt thự miễn phí cho các nhà ngoại giao"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Drawn by the lake's cooling breezes, scenic waterfront vistas, and relative seclusion from the congested alleys of Hanoi's historic Old Quarter, these newcomers began leasing traditional villas... [Paragraph 2]",
-          "evidenceVi": "Bị thu hút bởi làn gió mát lành từ mặt hồ, cảnh quan ven nước nên thơ và sự tách biệt tương đối khỏi những con ngõ đông đúc của Phố Cổ Hà Nội... [Đoạn 2]",
-          "explanation": "Đoạn 2 nêu 3 lý do hút người nước ngoài: cooling breezes (gió mát), scenic waterfront vistas (cảnh ven hồ thoáng đãng), và relative seclusion from congested alleys (sự yên tĩnh tách biệt phố xá đông đúc).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết nguyên nhân (Cause & Effect)",
-            "cluePassage": "cooling breezes, scenic waterfront vistas, and relative seclusion from congested alleys",
-            "clueAnswer": "Cool breezes from the lake, pleasant views, and distance from city center congestion",
-            "keyPassage": "cooling breezes, waterfront vistas, seclusion from congested alleys",
-            "keyAnswer": "Cool breezes, pleasant views, distance from congestion",
-            "paraphrasePair": "scenic waterfront vistas <=> pleasant views | relative seclusion <=> distance from congestion",
-            "meaningVi": "cảnh ven nước nên thơ <=> cảnh quan dễ chịu | tách biệt khỏi ngõ ngách đông đúc <=> cách xa sự tắc nghẽn",
-            "deductionLogic": "Phương án B diễn đạt lại chính xác 3 yếu tố tự nhiên và vị trí địa lý được nhắc đến trong đoạn 2."
-          }
-        },
-        {
-          "id": 15,
-          "num": 15,
-          "question": "Which of the following types of businesses is NOT mentioned in paragraph 3 as part of Tay Ho's current commercial ecosystem?",
-          "questionVi": "Loại hình kinh doanh nào sau đây KHÔNG được nhắc đến trong đoạn 3 như một phần của hệ sinh thái thương mại Tây Hồ hiện nay?",
-          "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
-          "options": [
-            "Specialty coffee roasters using Central Highlands beans",
-            "Artisanal bakeries and zero-waste organic grocery stores",
-            "Massive industrial automobile assembly plants",
-            "Co-working spaces and craft pottery workshops"
-          ],
-          "optionsVi": [
-            "Các xưởng rang cà phê đặc sản sử dụng hạt từ Tây Nguyên",
-            "Các tiệm bánh thủ công và cửa hàng tạp hóa hữu cơ không rác thải",
-            "Các nhà máy lắp ráp ô tô công nghiệp quy mô lớn",
-            "Không gian làm việc chung và các xưởng làm gốm thủ công"
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "Today, the streets surrounding West Lake boast an eclectic concentration of specialized businesses... artisanal bakeries, specialty coffee roasters... zero-waste organic grocery stores... co-working facilities... pottery and textile design. [Paragraph 3]",
-          "evidenceVi": "Đoạn 3 liệt kê các quán cà phê đặc sản, tiệm bánh thủ công, tiệm thực phẩm hữu cơ, co-working, xưởng gốm. Hoàn toàn không có nhà máy lắp ráp ô tô công nghiệp.",
-          "explanation": "Đoạn 3 tập trung vào các dịch vụ F&B tinh tế, nghệ thuật và thủ công. Phương án C (nhà máy lắp ráp ô tô) là hoàn toàn sai và không xuất hiện trong bài.",
-          "postReading": {
-            "type": "negative",
-            "typeLabel": "Thông tin loại trừ (Negative Detail)",
-            "cluePassage": "artisanal bakeries, specialty coffee roasters... zero-waste organic grocery stores... co-working facilities... pottery workshops",
-            "clueAnswer": "Massive industrial automobile assembly plants",
-            "keyPassage": "specialized boutique, artisanal, and creative services",
-            "keyAnswer": "heavy industrial automobile plants not mentioned",
-            "paraphrasePair": "boutique retail <=> non-industrial businesses",
-            "meaningVi": "các cửa hàng thủ công tinh tế <=> khác biệt hoàn toàn với nhà máy công nghiệp nặng",
-            "deductionLogic": "Tây Hồ phát triển theo hướng dịch vụ sáng tạo và ẩm thực, không có hoạt động công nghiệp lắp ráp ô tô."
-          }
-        },
-        {
-          "id": 16,
-          "num": 16,
-          "question": "The phrase \"This juxtaposition\" in paragraph 4 refers to the coexistence of:",
-          "questionVi": "Cụm từ \"This juxtaposition\" trong đoạn 4 ám chỉ sự cùng tồn tại cạnh nhau của:",
-          "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
-          "options": [
-            "luxury automobiles and high-speed motorbikes",
-            "traditional local practices and contemporary modern lifestyle elements",
-            "different international embassies located on the same boulevard",
-            "various species of aquatic birds residing on the lake"
-          ],
-          "optionsVi": [
-            "ô tô hạng sang và xe máy phân khối lớn",
-            "các tập quán truyền thống địa phương và các yếu tố đời sống hiện đại đương thời",
-            "các đại sứ quán quốc tế khác nhau tọa lạc trên cùng một đại lộ",
-            "các loài chim nước khác nhau sinh sống trên mặt hồ"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Early in the morning, elderly locals practicing Tai Chi... share the pavement with foreign joggers... moments later, traditional itinerant flower vendors pushing bicycles... navigate past sleek, minimalist glass-fronted espresso bars. This juxtaposition lends the neighborhood an unmistakable charm... [Paragraph 4]",
-          "evidenceVi": "Cụ bà tập dưỡng sinh cùng vỉa hè với người nước ngoài chạy bộ; người bán hoa dạo đạp xe ngang qua quán cà phê kính bóng loáng hiện đại. Sự đặt cạnh nhau này đem lại nét quyến rũ không thể nhầm lẫn... [Đoạn 4]",
-          "explanation": "\"This juxtaposition\" tổng kết sự đặt cạnh nhau, đan cài giữa nét cổ truyền bình dị (Tai Chi, gánh hoa) và nét hiện đại ngoại nhập (jogging, espresso bars).",
-          "postReading": {
-            "type": "reference",
-            "typeLabel": "Quy chiếu tổng hợp (Reference)",
-            "cluePassage": "elderly locals practicing Tai Chi... traditional itinerant flower vendors... past sleek, minimalist espresso bars. This juxtaposition...",
-            "clueAnswer": "traditional local practices and contemporary modern lifestyle elements",
-            "keyPassage": "tradition alongside modernity",
-            "keyAnswer": "traditional practices alongside modern elements",
-            "paraphrasePair": "juxtaposition => placing traditional and modern side by side",
-            "meaningVi": "sự đặt cạnh nhau => nét truyền thống song hành cùng nét hiện đại",
-            "deductionLogic": "Câu đứng trước mô tả hai cặp hình ảnh tương phản: người tập dưỡng sinh bên người chạy bộ, xe chở hoa bên quán cà phê kính hiện đại."
-          }
-        },
-        {
-          "id": 17,
-          "num": 17,
-          "question": "The word \"eclectic\" in paragraph 3 is closest in meaning to:",
-          "questionVi": "Từ \"eclectic\" trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "diverse and varied",
-            "strictly uniform",
-            "financially unprofitable",
-            "temporarily closed"
-          ],
-          "optionsVi": [
-            "đa dạng và phong phú",
-            "đồng nhất nghiêm ngặt",
-            "không có lợi nhuận tài chính",
-            "tạm thời đóng cửa"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "Today, the streets surrounding West Lake boast an eclectic concentration of specialized businesses... [Paragraph 3]",
-          "evidenceVi": "Ngày nay, các con phố quanh Hồ Tây tự hào sở hữu một tập hợp đa dạng các cơ sở kinh doanh chuyên biệt... [Đoạn 3]",
-          "explanation": "\"Eclectic\" miêu tả sự pha trộn, chọn lọc từ nhiều phong cách và nguồn khác nhau, đồng nghĩa với \"diverse and varied\".",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "boast an eclectic concentration of specialized businesses that contrast sharply with conventional retail",
-            "clueAnswer": "diverse and varied",
-            "keyPassage": "eclectic",
-            "keyAnswer": "diverse and varied",
-            "paraphrasePair": "eclectic <=> diverse and varied",
-            "meaningVi": "pha trộn từ nhiều trường phái <=> phong phú, đa dạng",
-            "deductionLogic": "Đoạn văn kể hàng loạt mô hình kinh doanh từ bánh mì, cà phê, thực phẩm hữu cơ, đồ ăn Ý, Pháp đến yoga và đồ gốm, chứng minh tính 'đa dạng' (diverse and varied)."
-          }
-        },
-        {
-          "id": 18,
-          "num": 18,
-          "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"Such everyday scenes illustrate how global habits and indigenous customs have formed an unforced, peaceful coexistence.\"\nWhere would the sentence best fit?",
-          "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
-          "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
-          "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
-          ],
-          "optionsVi": [
-            "Vị trí [A]",
-            "Vị trí [B]",
-            "Vị trí [C]",
-            "Vị trí [D]"
-          ],
-          "correctAnswer": "D",
-          "correctIdx": 3,
-          "evidence": "[C] Moments later, traditional itinerant flower vendors pushing bicycles laden with fresh lilies and hydrangeas navigate past sleek, minimalist glass-fronted espresso bars. [D] This juxtaposition lends the neighborhood an unmistakable charm... [Paragraph 4]",
-          "evidenceVi": "Vị trí [D] đứng ngay sau hai ví dụ cụ thể về cảnh tượng thường nhật (scenes): tập dưỡng sinh và xe hoa đi qua quán cà phê.",
-          "explanation": "\"Such everyday scenes\" (Những cảnh tượng thường nhật như vậy) quy chiếu trực tiếp về hai bức tranh đời thường vừa được miêu tả ở các câu trước [C] và [D].",
-          "postReading": {
-            "type": "insertion",
-            "typeLabel": "Điền câu logic (Sentence Insertion)",
-            "cluePassage": "flower vendors pushing bicycles... navigate past sleek espresso bars. [D]",
-            "clueAnswer": "[D]",
-            "keyPassage": "everyday scenes of flower vendors and espresso bars",
-            "keyAnswer": "Such everyday scenes",
-            "paraphrasePair": "scenes of vendors/joggers <=> such everyday scenes",
-            "meaningVi": "cảnh tượng người bán hoa / người chạy bộ <=> những cảnh tượng thường nhật như vậy",
-            "deductionLogic": "Cụm 'Such everyday scenes' cần đứng ngay sau khi các hoạt động đời thường được miêu tả chi tiết để làm câu đúc kết trước khi đến 'This juxtaposition'."
-          }
-        },
-        {
-          "id": 19,
-          "num": 19,
-          "question": "According to paragraph 5, what is one major threat posed by rapid commercialization in Tay Ho?",
-          "questionVi": "Theo đoạn 5, một mối đe dọa lớn do quá trình thương mại hóa nhanh chóng ở Tây Hồ là gì?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "Complete ban on all foreign tourists visiting the district",
-            "Rising rents displacing native residents and straining local infrastructure",
-            "Mandatory relocation of the district government to another city",
-            "A total prohibition against opening any new dining establishments"
-          ],
-          "optionsVi": [
-            "Lệnh cấm hoàn toàn đối với tất cả khách du lịch nước ngoài đến thăm quận",
-            "Giá thuê nhà tăng đẩy các cư dân bản địa đi nơi khác và gây áp lực lên hạ tầng",
-            "Việc bắt buộc di dời chính quyền quận sang một thành phố khác",
-            "Lệnh cấm toàn diện đối với việc mở bất kỳ quán ăn mới nào"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Rising property values and commercial rents threaten to displace long-standing native families and modest traditional workshops. Additionally, intensified vehicular traffic... place severe strain on the neighborhood's narrow infrastructure... [Paragraph 5]",
-          "evidenceVi": "Giá trị bất động sản và giá thuê mặt bằng thương mại tăng vọt đe dọa đẩy các gia đình bản địa lâu đời và các xưởng truyền thống đi nơi khác. Thêm vào đó, mật độ giao thông xe cơ giới gia tăng gây áp lực nghiêm trọng lên cơ sở hạ tầng... [Đoạn 5]",
-          "explanation": "Đoạn 5 chỉ rõ 2 hệ quả tiêu cực: tiền thuê tăng làm cư dân bản địa mất chỗ ở/kinh doanh (displace long-standing families) và ùn tắc giao thông gây áp lực lên hạ tầng hẹp (strain on narrow infrastructure).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết hệ quả (Factual Detail)",
-            "cluePassage": "Rising property values and commercial rents threaten to displace long-standing native families... severe strain on narrow infrastructure",
-            "clueAnswer": "Rising rents displacing native residents and straining local infrastructure",
-            "keyPassage": "rents threaten to displace native families, strain on infrastructure",
-            "keyAnswer": "Rising rents displacing residents, straining infrastructure",
-            "paraphrasePair": "threaten to displace native families <=> displacing native residents | strain on narrow infrastructure <=> straining local infrastructure",
-            "meaningVi": "đe dọa đẩy bật các gia đình bản xứ <=> khiến người dân bản địa bị chuyển dời | gây áp lực lên hạ tầng",
-            "deductionLogic": "Phương án B tóm lược chính xác các thách thức kinh tế - xã hội được đề cập ở câu thứ hai của đoạn 5."
-          }
-        },
-        {
-          "id": 20,
-          "num": 20,
-          "question": "What is the primary objective recommended for urban planners in the final sentence of paragraph 5?",
-          "questionVi": "Mục tiêu chính được khuyến nghị cho các nhà quy hoạch đô thị trong câu cuối đoạn 5 là gì?",
-          "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN / KẾT LUẬN (Author's Recommendation)",
-          "options": [
-            "Convert the entire lake into a private entertainment resort for luxury yachts.",
-            "Strike a balance between preserving cultural-ecological serenity and fostering economic vitality.",
-            "Demolish all historic pagodas to expand multilane highways around the lake.",
-            "Evict all foreign residents to restore the district's ancient agricultural status."
-          ],
-          "optionsVi": [
-            "Chuyển toàn bộ hồ thành khu nghỉ dưỡng giải trí tư nhân cho du thuyền hạng sang.",
-            "Tạo lập sự cân bằng giữa bảo tồn sự tĩnh lặng văn hóa - sinh thái và thúc đẩy sức sống kinh tế.",
-            "Phá dỡ toàn bộ các ngôi chùa cổ để mở rộng các đại lộ nhiều làn xe quanh hồ.",
-            "Trục xuất toàn bộ cư dân nước ngoài để khôi phục trạng thái làng nông nghiệp xưa."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Urban planners and community leaders now face the delicate task of preserving Tay Ho's authentic spiritual roots and environmental serenity while supporting the commercial vitality that makes it such an attractive contemporary destination. [Paragraph 5]",
-          "evidenceVi": "Các nhà quy hoạch đô thị và lãnh đạo cộng đồng hiện đối mặt với nhiệm vụ tinh tế là bảo tồn cội nguồn tâm linh chân thực và sự thanh bình môi trường của Tây Hồ trong khi vẫn hỗ trợ sức sống thương mại... [Đoạn 5]",
-          "explanation": "\"Preserving spiritual roots and environmental serenity while supporting commercial vitality\" tương đương với việc cân bằng giữa bảo tồn di sản văn hóa/môi trường và phát triển kinh tế năng động.",
-          "postReading": {
-            "type": "inference",
-            "typeLabel": "Khuyến nghị của tác giả (Conclusion)",
-            "cluePassage": "preserving Tay Ho's authentic spiritual roots and environmental serenity while supporting the commercial vitality",
-            "clueAnswer": "Strike a balance between preserving cultural-ecological serenity and fostering economic vitality",
-            "keyPassage": "preserving serenity while supporting commercial vitality",
-            "keyAnswer": "balance between serenity and economic vitality",
-            "paraphrasePair": "preserving serenity while supporting vitality <=> balance between serenity and vitality",
-            "meaningVi": "bảo tồn sự thanh bình đồng thời hỗ trợ sức sống <=> cân bằng giữa tĩnh lặng và sức sống kinh tế",
-            "deductionLogic": "Cụm 'delicate task of preserving... while supporting...' là cấu trúc điển hình chỉ sự dung hòa, cân bằng hai mặt phát triển bền vững."
-          }
-        }
-      ]
-    },
-    {
-      "partId": 3,
-      "title": "Passage 3: The Psychology of TV Binge-Watching",
-      "topic": "Tâm lý học hành vi & Tác động của thói quen xem phim liên tục",
-      "timeAllowed": 15,
-      "passage": "<p>The advent of on-demand digital streaming services over the past decade has fundamentally revolutionized how television content is distributed and consumed. Historically, television networks broadcasted serialized dramas in weekly installments, forcing viewers to wait seven days between episodes and months between seasons. Today, digital platforms frequently release entire seasons simultaneously, giving birth to the phenomenon commonly known as \"binge-watching\"—the practice of viewing multiple episodes, or even entire seasons, of a program in a single viewing session. While this entertainment habit has become culturally ubiquitous, psychological and medical researchers have begun examining its underlying motivations, benefits, and potential hazards.</p><p>The psychological allure of binge-watching stems largely from the sophisticated design of contemporary serialized programming combined with human neurological responses. Modern television narratives frequently employ multiple intertwining plotlines and culminate in dramatic \"cliffhangers\"—unresolved suspenseful moments at the end of each episode. When an episode ends on a moment of high tension, the human brain releases dopamine, a neurotransmitter associated with pleasure and anticipatory reward. Streaming platforms exploit this biological mechanism through algorithmic automation, automatically initiating the next episode within five seconds unless the viewer manually intervenes. This creates a state of intense immersion or \"escapism,\" allowing individuals to temporarily detach from daily workplace stresses and interpersonal anxieties.</p><p>From a psychological and social perspective, binge-watching is not without benefits when practiced in moderation. For many individuals, entering a compelling fictional universe serves as an effective mechanism for cognitive decompression after demanding intellectual work. Furthermore, narrative immersion allows for deeper comprehension and emotional appreciation of intricate character development, as viewers do not forget subtle narrative details between weekly broadcasts. Socially, shared viewing experiences foster community bonding. Discussing popular television series provides common conversational currency—often termed the \"virtual watercooler\" effect—enabling friends and coworkers to connect over shared cultural narratives.</p><p>However, excessive and chronic binge-watching carries well-documented adverse physical and psychological consequences. [A] Prolonged sedentary behavior associated with marathon television viewing has been linked to increased risks of cardiovascular disease, musculoskeletal strain, and obesity. [B] Furthermore, the late-night consumption of illuminated screens suppresses melatonin production, disrupting natural circadian rhythms and inducing chronic insomnia. [C] Psychologically, continuous viewing can lead to a state of post-binge melancholy or emptiness once an engrossing series concludes. [D] <strong>This emotional letdown</strong>, coupled with neglected real-world responsibilities and social isolation, can paradoxically exacerbate the very stress and loneliness that viewers sought to escape.</p><p>Ultimately, television binge-watching represents a dual-edged sword of the digital age. It provides unprecedented convenience, narrative depth, and communal enjoyment, yet it possesses addictive tendencies that can compromise physical health and psychological well-being. Health experts emphasize that the key lies in intentional and mindful consumption. Viewers are advised to establish clear viewing boundaries, disable automatic episode playback, and ensure that digital leisure does not supplant physical exercise, restorative sleep, and meaningful face-to-face social relationships.</p>",
-      "vocab": [
-        {
-          "word": "ubiquitous",
-          "pos": "adj",
-          "ipa": "/juːˈbɪk.wɪ.təs/",
-          "level": "C1",
-          "mean": "phổ biến ở khắp mọi nơi",
-          "syns": [
-            "omnipresent",
-            "pervasive",
-            "universal"
-          ],
-          "ex": "Smartphones and streaming services have become ubiquitous features of modern domestic life."
-        },
-        {
-          "word": "cliffhanger",
-          "pos": "n",
-          "ipa": "/ˈklɪfˌhæŋ.ər/",
-          "level": "B2",
-          "mean": "tình tiết gay cấn bỏ lửng ở cuối tập",
-          "syns": [
-            "suspense",
-            "dramatic ending",
-            "tension"
-          ],
-          "ex": "The season finale ended on a breathtaking cliffhanger that left audiences eagerly awaiting season two."
-        },
-        {
-          "word": "anticipatory",
-          "pos": "adj",
-          "ipa": "/ænˌtɪs.ɪˈpeɪ.tər.i/",
-          "level": "C1",
-          "mean": "mang tính mong đợi, dự đoán trước",
-          "syns": [
-            "expectant",
-            "eager",
-            "foreseeing"
-          ],
-          "ex": "The release of dopamine creates an intense anticipatory pleasure right before the next episode begins."
-        },
-        {
-          "word": "immersion",
-          "pos": "n",
-          "ipa": "/ɪˈmɜː.ʃən/",
-          "level": "B2",
-          "mean": "sự đắm chìm hoàn toàn vào thế giới hư cấu",
-          "syns": [
-            "absorption",
-            "engrossment",
-            "involvement"
-          ],
-          "ex": "Deep narrative immersion enables viewers to forget their everyday workplace anxieties."
-        },
-        {
-          "word": "escapism",
-          "pos": "n",
-          "ipa": "/ɪˈskeɪ.pɪz.əm/",
-          "level": "B2",
-          "mean": "khuynh hướng thoát ly thực tế",
-          "syns": [
-            "fantasy",
-            "diversion",
-            "evasion"
-          ],
-          "ex": "While entertainment offers healthy escapism, excessive avoidance of real problems can be counterproductive."
-        },
-        {
-          "word": "decompression",
-          "pos": "n",
-          "ipa": "/ˌdiː.kəmˈpreʃ.ən/",
-          "level": "C1",
-          "mean": "sự xả hơi, giải tỏa căng thẳng sau áp lực",
-          "syns": [
-            "relaxation",
-            "unwinding",
-            "stress relief"
-          ],
-          "ex": "Watching an engaging comedy series serves as valuable cognitive decompression after high-pressure exams."
-        },
-        {
-          "word": "sedentary",
-          "pos": "adj",
-          "ipa": "/ˈsed.ən.tər.i/",
-          "level": "B2",
-          "mean": "ngồi một chỗ nhiều, ít vận động",
-          "syns": [
-            "inactive",
-            "desk-bound",
-            "motionless"
-          ],
-          "ex": "A sedentary lifestyle combined with late-night snacking significantly raises cardiovascular risks."
-        },
-        {
-          "word": "circadian",
-          "pos": "adj",
-          "ipa": "/sɜːˈkeɪ.di.ən/",
-          "level": "C1",
-          "mean": "thuộc nhịp sinh học ngày đêm (24 giờ)",
-          "syns": [
-            "biological rhythm",
-            "daily cycle"
-          ],
-          "ex": "Exposure to blue screen light past midnight severely disrupts natural circadian rhythms."
-        },
-        {
-          "word": "melancholy",
-          "pos": "n",
-          "ipa": "/ˈmel.əŋ.kɒl.i/",
-          "level": "C1",
-          "mean": "nỗi buồn bã, sự hụt hẫng u sầu",
-          "syns": [
-            "sadness",
-            "sorrow",
-            "gloominess"
-          ],
-          "ex": "Many avid viewers experience a temporary sense of melancholy after finishing a beloved book or show."
-        },
-        {
-          "word": "supplant",
-          "pos": "v",
-          "ipa": "/səˈplɑːnt/",
-          "level": "C1",
-          "mean": "thay thế, lấn át vị trí của thứ khác",
-          "syns": [
-            "replace",
-            "supersede",
-            "displace"
-          ],
-          "ex": "Screen-based recreation should never supplant restful sleep and genuine in-person social interactions."
-        }
-      ],
-      "questions": [
-        {
-          "id": 21,
-          "num": 21,
-          "question": "What is the primary topic of the passage?",
-          "questionVi": "Chủ đề chính của bài đọc là gì?",
-          "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
-          "options": [
-            "The technical superiority of digital streaming over analog broadcasting",
-            "The psychological motivations, advantages, and risks associated with binge-watching",
-            "The economic bankruptcy of traditional weekly television networks",
-            "Medical treatments for patients suffering from severe screen addictions"
-          ],
-          "optionsVi": [
-            "Sự vượt trội về mặt kỹ thuật của phát trực tuyến so với phát sóng truyền hình analog",
-            "Các động cơ tâm lý, lợi ích và rủi ro liên quan đến việc cày phim dài tập liên tục",
-            "Sự phá sản về mặt kinh tế của các mạng lưới truyền hình phát sóng hàng tuần truyền thống",
-            "Các phương pháp điều trị y tế cho bệnh nhân mắc chứng nghiện màn hình nghiêm trọng"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "While this entertainment habit has become culturally ubiquitous, psychological and medical researchers have begun examining its underlying motivations, benefits, and potential hazards. [Paragraph 1 & Throughout]",
-          "evidenceVi": "Trong khi thói quen giải trí này đã trở nên phổ biến ở khắp nơi, các nhà nghiên cứu y học và tâm lý học đã bắt đầu xem xét các động cơ tiềm ẩn, lợi ích và các mối nguy hại tiềm tàng của nó. [Đoạn 1]",
-          "explanation": "Bài đọc lần lượt làm rõ: động cơ tâm lý (Đoạn 2), lợi ích khi xem có chừng mực (Đoạn 3), tác hại thể chất & tâm lý khi quá đà (Đoạn 4), và giải pháp cân bằng (Đoạn 5).",
-          "postReading": {
-            "type": "main_idea",
-            "typeLabel": "Chủ đề chính (Main Topic)",
-            "cluePassage": "examining its underlying motivations, benefits, and potential hazards",
-            "clueAnswer": "psychological motivations, advantages, and risks associated with binge-watching",
-            "keyPassage": "motivations, benefits, hazards",
-            "keyAnswer": "motivations, advantages, risks",
-            "paraphrasePair": "benefits <=> advantages | hazards <=> risks",
-            "meaningVi": "lợi ích <=> thuận lợi | mối nguy hại <=> rủi ro",
-            "deductionLogic": "Phương án B bao hàm trọn vẹn cả 3 khía cạnh: động cơ (Đoạn 2), lợi ích (Đoạn 3), rủi ro (Đoạn 4) như đã được đề cập ở câu luận điểm đoạn 1."
-          }
-        },
-        {
-          "id": 22,
-          "num": 22,
-          "question": "The word \"ubiquitous\" in paragraph 1 is closest in meaning to:",
-          "questionVi": "Từ \"ubiquitous\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "extremely rare",
-            "everywhere and common",
-            "financially costly",
-            "strictly forbidden"
-          ],
-          "optionsVi": [
-            "vô cùng hiếm gặp",
-            "phổ biến ở khắp mọi nơi",
-            "tốn kém về tài chính",
-            "bị nghiêm cấm"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "While this entertainment habit has become culturally ubiquitous, psychological and medical researchers have begun... [Paragraph 1]",
-          "evidenceVi": "Trong khi thói quen giải trí này đã trở nên phổ biến ở khắp mọi nơi về mặt văn hóa... [Đoạn 1]",
-          "explanation": "\"Ubiquitous\" mang nghĩa có mặt ở khắp mọi nơi, rất phổ biến (omnipresent, present everywhere and common).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "has become culturally ubiquitous",
-            "clueAnswer": "everywhere and common",
-            "keyPassage": "ubiquitous",
-            "keyAnswer": "everywhere and common",
-            "paraphrasePair": "ubiquitous <=> everywhere and common",
-            "meaningVi": "nhan nhản, có mặt khắp nơi <=> phổ biến ở khắp mọi nơi",
-            "deductionLogic": "Cụm 'has become culturally ubiquitous' chỉ thói quen đã lan rộng khắp mọi gia đình và xã hội hiện đại."
-          }
-        },
-        {
-          "id": 23,
-          "num": 23,
-          "question": "According to paragraph 2, how do streaming platforms encourage continuous viewing?",
-          "questionVi": "Theo đoạn 2, các nền tảng phát trực tuyến khuyến khích việc xem liên tục bằng cách nào?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "By charging penalty fees if a viewer turns off their television screen prematurely",
-            "By automatically starting subsequent episodes unless stopped by the viewer",
-            "By requiring users to pass online quizzes before they can close an episode",
-            "By offering financial cash bonuses for watching twelve consecutive hours"
-          ],
-          "optionsVi": [
-            "Bằng cách thu phí phạt nếu người xem tắt màn hình tivi quá sớm",
-            "Bằng cách tự động phát các tập tiếp theo trừ khi người xem bấm dừng",
-            "Bằng cách bắt buộc người dùng vượt qua bài kiểm tra trước khi có thể đóng tập phim",
-            "Bằng cách tặng thưởng tiền mặt cho việc xem 12 tiếng liên tục"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Streaming platforms exploit this biological mechanism through algorithmic automation, automatically initiating the next episode within five seconds unless the viewer manually intervenes. [Paragraph 2]",
-          "evidenceVi": "Các nền tảng phát trực tuyến khai thác cơ chế sinh học này thông qua tự động hóa bằng thuật toán, tự động khởi chạy tập tiếp theo trong vòng 5 giây trừ khi người xem can thiệp thủ công. [Đoạn 2]",
-          "explanation": "Đoạn 2 nêu rõ: tự động bắt đầu tập tiếp theo trong vòng 5 giây trừ khi người xem can thiệp tắt đi (automatically initiating the next episode unless manually intervenes).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết cơ chế (Factual Detail)",
-            "cluePassage": "automatically initiating the next episode within five seconds unless the viewer manually intervenes",
-            "clueAnswer": "By automatically starting subsequent episodes unless stopped by the viewer",
-            "keyPassage": "automatically initiating next episode unless manually intervenes",
-            "keyAnswer": "automatically starting subsequent episodes unless stopped",
-            "paraphrasePair": "initiating next episode <=> starting subsequent episodes | manually intervenes <=> stopped by viewer",
-            "meaningVi": "bật tập kế tiếp <=> bắt đầu tập tiếp theo | can thiệp bằng tay <=> người xem bấm dừng",
-            "deductionLogic": "Phương án B diễn đạt lại chính xác tính năng 'autoplay' được miêu tả ở nửa sau đoạn 2."
-          }
-        },
-        {
-          "id": 24,
-          "num": 24,
-          "question": "According to paragraph 2, what biological reaction is triggered by dramatic cliffhangers?",
-          "questionVi": "Theo đoạn 2, phản ứng sinh học nào được kích hoạt bởi các tình tiết gay cấn bỏ lửng (cliffhangers)?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "An immediate drop in body temperature causing shivering",
-            "The release of dopamine linked to pleasure and anticipation of reward",
-            "The instant termination of visual perception pathways",
-            "A complete shutdown of the brain's emotional centers"
-          ],
-          "optionsVi": [
-            "Sự sụt giảm ngay lập tức nhiệt độ cơ thể gây run rẩy",
-            "Sự tiết ra hormone dopamine gắn liền với cảm giác thỏa mãn và mong đợi phần thưởng",
-            "Sự chấm dứt ngay lập tức các đường dẫn truyền thị giác",
-            "Sự ngưng hoạt động hoàn toàn của các trung tâm cảm xúc trong não bộ"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "When an episode ends on a moment of high tension, the human brain releases dopamine, a neurotransmitter associated with pleasure and anticipatory reward. [Paragraph 2]",
-          "evidenceVi": "Khi một tập phim kết thúc vào khoảnh khắc căng thẳng đỉnh điểm, não bộ con người sẽ tiết ra dopamine, một chất dẫn truyền thần kinh gắn liền với niềm vui và phần thưởng đón đợi. [Đoạn 2]",
-          "explanation": "Đoạn 2 giải thích rõ ràng: cliffhangers kích thích não tiết dopamine liên quan đến cảm giác thỏa mãn và mong chờ phần thưởng (pleasure and anticipatory reward).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết sinh học (Factual Detail)",
-            "cluePassage": "the human brain releases dopamine, a neurotransmitter associated with pleasure and anticipatory reward",
-            "clueAnswer": "The release of dopamine linked to pleasure and anticipation of reward",
-            "keyPassage": "releases dopamine associated with pleasure and anticipatory reward",
-            "keyAnswer": "release of dopamine linked to pleasure and anticipation",
-            "paraphrasePair": "associated with <=> linked to | anticipatory reward <=> anticipation of reward",
-            "meaningVi": "gắn liền với <=> liên kết với | phần thưởng mong đợi <=> sự đón đợi phần thưởng",
-            "deductionLogic": "Phương án B trích xuất trực tiếp thông tin sinh học chính xác 100% từ câu thứ 3 của đoạn 2."
-          }
-        },
-        {
-          "id": 25,
-          "num": 25,
-          "question": "Which of the following is NOT mentioned in paragraph 3 as a benefit of moderate binge-watching?",
-          "questionVi": "Điều nào sau đây KHÔNG được đề cập trong đoạn 3 như một lợi ích của việc cày phim ở mức độ vừa phải?",
-          "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
-          "options": [
-            "Cognitive decompression after intense intellectual demands",
-            "Enhanced physical cardiovascular endurance and muscular strength",
-            "Deeper retention of subtle plot details and character development",
-            "Shared cultural topics that facilitate interpersonal social bonding"
-          ],
-          "optionsVi": [
-            "Sự giải tỏa nhận thức sau những đòi hỏi trí tuệ căng thẳng",
-            "Tăng cường sức bền tim mạch và sức mạnh cơ bắp của cơ thể",
-            "Ghi nhớ tốt hơn các chi tiết cốt truyện tinh tế và sự phát triển nhân vật",
-            "Các chủ đề văn hóa chung giúp gắn kết các mối quan hệ xã hội"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "For many individuals, entering a compelling fictional universe serves as an effective mechanism for cognitive decompression... deeper comprehension... not forget subtle narrative details... shared viewing experiences foster community bonding... [Paragraph 3]",
-          "evidenceVi": "Đoạn 3 liệt kê 3 lợi ích: xả stress trí óc (A), nhớ cốt truyện không bị ngắt quãng (C), và tạo chủ đề trò chuyện gắn kết bạn bè (D). Hoàn toàn không có chuyện 'tăng sức mạnh tim mạch và cơ bắp' (B).",
-          "explanation": "Xem phim là hoạt động tĩnh (sedentary), thậm chí Đoạn 4 còn cảnh báo nguy cơ bệnh tim mạch chứ không thể tăng sức bền tim mạch hay cơ bắp.",
-          "postReading": {
-            "type": "negative",
-            "typeLabel": "Thông tin loại trừ (Negative Detail)",
-            "cluePassage": "cognitive decompression... deeper comprehension... community bonding",
-            "clueAnswer": "Enhanced physical cardiovascular endurance and muscular strength",
-            "keyPassage": "cognitive decompression, retention of details, social bonding",
-            "keyAnswer": "physical cardiovascular endurance is contradictory to sedentary viewing",
-            "paraphrasePair": "cognitive decompression <=> stress relief | community bonding <=> social bonding",
-            "meaningVi": "xả hơi nhận thức <=> giảm căng thẳng | gắn kết cộng đồng <=> gắn kết xã hội",
-            "deductionLogic": "Cày phim là hoạt động ngồi một chỗ, phương án B trái ngược hoàn toàn với logic thực tế và nội dung bài."
-          }
-        },
-        {
-          "id": 26,
-          "num": 26,
-          "question": "The phrase \"This emotional letdown\" in paragraph 4 refers to:",
-          "questionVi": "Cụm từ \"This emotional letdown\" trong đoạn 4 ám chỉ điều gì?",
-          "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
-          "options": [
-            "the joy of purchasing new high-definition television hardware",
-            "the sense of melancholy or emptiness experienced when a series ends",
-            "the physical pain caused by improper sitting postures on a sofa",
-            "the financial burden of subscribing to multiple streaming services"
-          ],
-          "optionsVi": [
-            "niềm vui khi mua sắm các thiết bị tivi độ nét cao mới",
-            "cảm giác hụt hẫng u sầu hoặc trống rỗng trải qua khi một bộ phim kết thúc",
-            "nỗi đau thể xác gây ra bởi tư thế ngồi không đúng trên ghế sofa",
-            "gánh nặng tài chính khi đăng ký quá nhiều dịch vụ phát trực tuyến"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Psychologically, continuous viewing can lead to a state of post-binge melancholy or emptiness once an engrossing series concludes. This emotional letdown, coupled with neglected real-world responsibilities... [Paragraph 4]",
-          "evidenceVi": "Về mặt tâm lý, việc xem liên tục có thể dẫn đến trạng thái u sầu hoặc trống rỗng sau khi cày phim lúc bộ phim hấp dẫn khép lại. Sự hụt hẫng cảm xúc này, kết hợp với các trách nhiệm ngoài đời thực bị bỏ bê... [Đoạn 4]",
-          "explanation": "\"This emotional letdown\" (sự hụt hẫng về cảm xúc này) quy chiếu trực tiếp về \"a state of post-binge melancholy or emptiness\" ở câu đứng ngay trước nó.",
-          "postReading": {
-            "type": "reference",
-            "typeLabel": "Quy chiếu cảm xúc (Reference)",
-            "cluePassage": "state of post-binge melancholy or emptiness once an engrossing series concludes. This emotional letdown...",
-            "clueAnswer": "the sense of melancholy or emptiness experienced when a series ends",
-            "keyPassage": "post-binge melancholy or emptiness once series concludes",
-            "keyAnswer": "melancholy or emptiness when series ends",
-            "paraphrasePair": "emotional letdown => post-binge melancholy or emptiness",
-            "meaningVi": "sự hụt hẫng cảm xúc => nỗi u sầu, trống vắng sau khi cày xong phim",
-            "deductionLogic": "Cụm từ 'This emotional letdown' tóm lược trạng thái tâm lý tiêu cực vừa được mô tả ở câu trước."
-          }
-        },
-        {
-          "id": 27,
-          "num": 27,
-          "question": "The word \"sedentary\" in paragraph 4 is closest in meaning to:",
-          "questionVi": "Từ \"sedentary\" trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "involving little physical movement and much sitting",
-            "requiring extreme aerobic exertion",
-            "strictly practiced outdoors in natural light",
-            "highly dangerous and accident-prone"
-          ],
-          "optionsVi": [
-            "ít vận động thể chất và ngồi nhiều",
-            "đòi hỏi nỗ lực hiếu khí cao độ",
-            "được thực hiện hoàn toàn ngoài trời dưới ánh sáng tự nhiên",
-            "cực kỳ nguy hiểm và dễ xảy ra tai nạn"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "Prolonged sedentary behavior associated with marathon television viewing has been linked to increased risks of cardiovascular disease... [Paragraph 4]",
-          "evidenceVi": "Hành vi ngồi một chỗ kéo dài gắn liền với việc xem tivi marathon liên tục nhiều giờ... [Đoạn 4]",
-          "explanation": "\"Sedentary\" nghĩa là ngồi nhiều một chỗ, ít hoạt động thể chất (involving little physical activity / sitting down a lot).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "Prolonged sedentary behavior associated with marathon television viewing",
-            "clueAnswer": "involving little physical movement and much sitting",
-            "keyPassage": "sedentary",
-            "keyAnswer": "little physical movement and much sitting",
-            "paraphrasePair": "sedentary <=> little physical movement and much sitting",
-            "meaningVi": "thụ động ngồi nhiều <=> ít vận động thể chất và ngồi nhiều",
-            "deductionLogic": "Trong ngữ cảnh xem tivi nhiều giờ trên ghế, hành vi 'sedentary' chính là ngồi yên không vận động."
-          }
-        },
-        {
-          "id": 28,
-          "num": 28,
-          "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"This blue wavelength light tricks the brain into perceiving that it is still daylight, suppressing essential restorative rest.\"\nWhere would the sentence best fit?",
-          "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
-          "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
-          "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
-          ],
-          "optionsVi": [
-            "Vị trí [A]",
-            "Vị trí [B]",
-            "Vị trí [C]",
-            "Vị trí [D]"
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "[B] Furthermore, the late-night consumption of illuminated screens suppresses melatonin production, disrupting natural circadian rhythms and inducing chronic insomnia. [C] Psychologically, continuous viewing can lead to a state... [Paragraph 4]",
-          "evidenceVi": "Vị trí [C] đứng ngay sau câu nói về 'illuminated screens suppresses melatonin production', giúp giải thích 'This blue wavelength light' (ánh sáng bước sóng xanh này) tác động như thế nào đến não bộ.",
-          "explanation": "\"This blue wavelength light\" liên kết mạch lạc với \"illuminated screens\" (màn hình phát sáng) ở câu trước vị trí [C].",
-          "postReading": {
-            "type": "insertion",
-            "typeLabel": "Điền câu logic (Sentence Insertion)",
-            "cluePassage": "late-night consumption of illuminated screens suppresses melatonin production [C]",
-            "clueAnswer": "[C]",
-            "keyPassage": "illuminated screens suppresses melatonin",
-            "keyAnswer": "This blue wavelength light tricks the brain",
-            "paraphrasePair": "illuminated screens <=> blue wavelength light",
-            "meaningVi": "màn hình phát sáng <=> ánh sáng bước sóng xanh này",
-            "deductionLogic": "Đại từ chỉ định 'This blue wavelength light' làm rõ cho tác nhân phát sáng từ màn hình thiết bị điện tử."
-          }
-        },
-        {
-          "id": 29,
-          "num": 29,
-          "question": "According to paragraph 4, why does late-night screen viewing cause insomnia?",
-          "questionVi": "Theo đoạn 4, tại sao việc xem màn hình vào ban đêm lại gây ra mất ngủ?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "It permanently damages the optical nerves inside the eyes.",
-            "It inhibits the production of melatonin, disturbing natural sleep cycles.",
-            "It accelerates caloric expenditure and induces intense nocturnal hunger.",
-            "It triggers loud sound notifications that awake household members."
-          ],
-          "optionsVi": [
-            "Nó làm tổn thương vĩnh viễn các dây thần kinh thị giác bên trong mắt.",
-            "Nó ức chế sự sản sinh hormone melatonin, làm rối loạn chu kỳ giấc ngủ tự nhiên.",
-            "Nó đẩy nhanh sự tiêu hao calo và gây ra cảm giác đói dữ dội vào ban đêm.",
-            "Nó kích hoạt các chuông thông báo âm thanh lớn đánh thức các thành viên trong gia đình."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "...the late-night consumption of illuminated screens suppresses melatonin production, disrupting natural circadian rhythms and inducing chronic insomnia. [Paragraph 4]",
-          "evidenceVi": "...việc xem màn hình phát sáng vào đêm muộn ức chế sự sản sinh melatonin, làm rối loạn nhịp sinh học tự nhiên và gây mất ngủ kinh niên. [Đoạn 4]",
-          "explanation": "Đoạn 4 nêu trực diện: màn hình sáng ức chế tiết hormone melatonin (suppresses melatonin production) -> đảo lộn nhịp ngày đêm (circadian rhythms) -> mất ngủ.",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết nguyên nhân (Cause & Effect)",
-            "cluePassage": "suppresses melatonin production, disrupting natural circadian rhythms and inducing chronic insomnia",
-            "clueAnswer": "It inhibits the production of melatonin, disturbing natural sleep cycles",
-            "keyPassage": "suppresses melatonin, disrupting circadian rhythms",
-            "keyAnswer": "inhibits melatonin, disturbing sleep cycles",
-            "paraphrasePair": "suppresses <=> inhibits | disrupting circadian rhythms <=> disturbing natural sleep cycles",
-            "meaningVi": "ngăn chặn, kìm hãm <=> ức chế | làm gián đoạn nhịp sinh học <=> làm rối loạn chu kỳ ngủ",
-            "deductionLogic": "Phương án B phản ánh chuẩn xác thuật ngữ y học 'suppresses melatonin' và 'disrupting circadian rhythms'."
-          }
-        },
-        {
-          "id": 30,
-          "num": 30,
-          "question": "What core recommendation does the author give in paragraph 5 regarding binge-watching?",
-          "questionVi": "Tác giả đưa ra khuyến nghị cốt lõi nào trong đoạn 5 liên quan đến việc cày phim?",
-          "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN / KẾT LUẬN (Author's Advice)",
-          "options": [
-            "Viewers must completely eliminate digital streaming accounts forever.",
-            "Consumers should practice mindful moderation and establish personal boundaries.",
-            "Streaming platforms should be legally shut down by governmental authorities.",
-            "Viewers should replace sleep entirely with continuous educational documentaries."
-          ],
-          "optionsVi": [
-            "Người xem phải hủy bỏ hoàn toàn các tài khoản phát trực tuyến mãi mãi.",
-            "Người tiêu dùng nên rèn luyện sự chừng mực có ý thức và thiết lập các giới hạn cá nhân.",
-            "Các nền tảng phát trực tuyến cần phải bị chính quyền đóng cửa theo pháp luật.",
-            "Người xem nên thay thế giấc ngủ hoàn toàn bằng các phim tài liệu giáo dục liên tục."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Health experts emphasize that the key lies in intentional and mindful consumption. Viewers are advised to establish clear viewing boundaries, disable automatic episode playback... [Paragraph 5]",
-          "evidenceVi": "Các chuyên gia y tế nhấn mạnh rằng chìa khóa nằm ở việc tiêu thụ có chủ đích và tỉnh thức. Người xem được khuyên nên thiết lập các ranh giới xem rõ ràng, tắt tính năng tự động phát... [Đoạn 5]",
-          "explanation": "Tác giả khuyến nghị: không cần cấm đoán cực đoan mà cần 'mindful consumption' (tiêu thụ tỉnh thức) và 'establish clear viewing boundaries' (đặt ra giới hạn xem rõ ràng).",
-          "postReading": {
-            "type": "inference",
-            "typeLabel": "Khuyến nghị của tác giả (Conclusion)",
-            "cluePassage": "the key lies in intentional and mindful consumption. Viewers are advised to establish clear viewing boundaries",
-            "clueAnswer": "Consumers should practice mindful moderation and establish personal boundaries",
-            "keyPassage": "intentional and mindful consumption, establish clear viewing boundaries",
-            "keyAnswer": "mindful moderation, establish personal boundaries",
-            "paraphrasePair": "intentional and mindful consumption <=> mindful moderation | viewing boundaries <=> personal boundaries",
-            "meaningVi": "tiêu thụ có ý thức, tỉnh thức <=> chừng mực tỉnh thức | ranh giới xem <=> giới hạn cá nhân",
-            "deductionLogic": "Tác giả không kêu gọi tẩy chay hay cấm đoán mà đề cao sự tự giác kiểm soát bản thân một cách khoa học."
-          }
-        }
-      ]
-    },
-    {
-      "partId": 4,
-      "title": "Passage 4: Critical Thinkers vs. Passive Thinkers",
-      "topic": "Khoa học nhận thức & Sự đối lập giữa tư duy phản biện và thụ động",
-      "timeAllowed": 15,
-      "passage": "<p>In an era characterized by exponential data expansion, algorithmic curation, and hyper-partisan information bubbles, the capacity to process knowledge effectively has become a defining intellectual attribute. How individuals interact with information fundamentally demarcates two contrasting cognitive archetypes: critical thinkers and passive thinkers. While passive thinkers function largely as uncritical receptacles of incoming claims, critical thinkers engage in active, disciplined interrogation of the concepts, evidence, and arguments presented to them. This cognitive divergence fundamentally shapes how people form beliefs, resolve real-world problems, and participate in civic life.</p><p>Passive thinkers are distinguished by their tendency to accept information at face value without interrogating its origin, methodology, or underlying intent. Guided heavily by cognitive convenience, they gravitate toward ideas that confirm their preexisting biases—a psychological phenomenon known as confirmation bias. When presented with persuasive rhetoric or emotional appeals, passive thinkers frequently mistake rhetorical eloquence for factual validity. They display a pronounced deference to perceived authority figures, uncritically adopting dogma without verifying whether empirical evidence substantiates the claims. Consequently, their worldview tends to be rigid and highly impressionable, rendering them especially vulnerable to misinformation and sensationalist propaganda.</p><p>In stark contrast, critical thinkers operate with a deliberate commitment to intellectual skepticism and analytical rigor. Rather than merely absorbing conclusions, they deconstruct arguments into their foundational premises, evaluating whether logical connections truly hold. Critical thinkers actively seek out disconfirming evidence to test the robustness of their own convictions, recognizing that human perception is inherently flawed. When analyzing complex data, they meticulously distinguish between correlation and causation, question sample sizes, and identify hidden assumptions. Crucially, they possess intellectual humility—the willingness to revise or abandon cherished viewpoints when confronted with compelling counter-evidence.</p><p>The divergent modalities of these two groups become especially conspicuous in problem-solving scenarios. Passive thinkers typically approach multifaceted challenges through simplistic binary lenses—categorizing situations into absolute terms of right versus wrong, or black versus white. [A] Confronted with systemic failures, they tend to attribute problems to individual scapegoats rather than examining complex underlying dynamics. [B] Critical thinkers, by comparison, decompose dilemmas into interacting systemic variables. [C] They tolerate cognitive ambiguity, recognizing that modern problems rarely offer effortless, monolithic answers. [D] <strong>This nuanced methodology</strong> enables them to formulate innovative, sustainable solutions where superficial remedies inevitably fail.</p><p>Ultimately, critical thinking is not an innate, genetic predisposition reserved for an intellectual elite; rather, it is a cultivated discipline requiring continuous practice and mental vigilance. In a democratic society increasingly influenced by synthetic media and automated algorithmic amplification, passive thinking poses profound risks to civic cohesion and scientific literacy. Cultivating a habit of rigorous critical inquiry in educational systems is no longer an optional luxury, but an indispensable safeguard for democratic resilience and societal progress.</p>",
-      "vocab": [
-        {
-          "word": "receptacle",
-          "pos": "n",
-          "ipa": "/rɪˈsep.tə.kəl/",
-          "level": "C1",
-          "mean": "vật chứa, nơi tiếp nhận thụ động",
-          "syns": [
-            "container",
-            "vessel",
-            "repository"
-          ],
-          "ex": "Passive students often treat their minds as mere receptacles for memorizing exam facts."
-        },
-        {
-          "word": "deference",
-          "pos": "n",
-          "ipa": "/ˈdef.ər.əns/",
-          "level": "C1",
-          "mean": "sự quy phục, tôn kính răm rắp không chất vấn",
-          "syns": [
-            "respect",
-            "compliance",
-            "submission"
-          ],
-          "ex": "Excessive deference to corporate authority can stifle innovative ideas among junior staff."
-        },
-        {
-          "word": "impressionable",
-          "pos": "adj",
-          "ipa": "/ɪmˈpreʃ.ən.ə.bəl/",
-          "level": "B2",
-          "mean": "dễ bị ảnh hưởng, dễ bị lung lay tư tưởng",
-          "syns": [
-            "suggestible",
-            "vulnerable",
-            "malleable"
-          ],
-          "ex": "Young users are highly impressionable when exposed to algorithmic social media feeds."
-        },
-        {
-          "word": "deconstruct",
-          "pos": "v",
-          "ipa": "/ˌdiː.kənˈstrʌkt/",
-          "level": "C1",
-          "mean": "bóc tách, phân tích cấu trúc từng phần",
-          "syns": [
-            "analyze",
-            "dissect",
-            "break down"
-          ],
-          "ex": "A critical analyst must deconstruct political speeches to reveal hidden ideological assumptions."
-        },
-        {
-          "word": "correlation",
-          "pos": "n",
-          "ipa": "/ˌkɒr.əˈleɪ.ʃən/",
-          "level": "B2",
-          "mean": "mối tương quan (không nhất thiết là quan hệ nhân quả)",
-          "syns": [
-            "association",
-            "connection",
-            "link"
-          ],
-          "ex": "Researchers must never confuse a statistical correlation with direct causation."
-        },
-        {
-          "word": "humility",
-          "pos": "n",
-          "ipa": "/hjuːˈmɪl.ə.ti/",
-          "level": "B2",
-          "mean": "sự khiêm tốn, biết thừa nhận thiếu sót",
-          "syns": [
-            "modesty",
-            "unpretentiousness",
-            "humbleness"
-          ],
-          "ex": "Intellectual humility allows scientists to abandon obsolete theories when new data emerges."
-        },
-        {
-          "word": "binary",
-          "pos": "adj",
-          "ipa": "/ˈbaɪ.nər.i/",
-          "level": "B2",
-          "mean": "nhị phân, tuyệt đối hóa hai cực trắng đen",
-          "syns": [
-            "dual",
-            "black-and-white",
-            "dichotomous"
-          ],
-          "ex": "Complex economic issues cannot be reduced to simplistic binary choices."
-        },
-        {
-          "word": "scapegoat",
-          "pos": "n",
-          "ipa": "/ˈskeɪp.ɡəʊt/",
-          "level": "C1",
-          "mean": "kẻ giơ đầu chịu báng, người bị đổ lỗi oan",
-          "syns": [
-            "whipping boy",
-            "victim",
-            "culprit"
-          ],
-          "ex": "During economic recessions, vulnerable immigrant groups are often unfairly targeted as scapegoats."
-        },
-        {
-          "word": "monolithic",
-          "pos": "adj",
-          "ipa": "/ˌmɒn.əˈlɪθ.ɪk/",
-          "level": "C1",
-          "mean": "đơn nhất cứng nhắc, nguyên khối không thay đổi",
-          "syns": [
-            "inflexible",
-            "uniform",
-            "undifferentiated"
-          ],
-          "ex": "Societal challenges are far too intricate to be solved by a single monolithic policy."
-        },
-        {
-          "word": "vigilance",
-          "pos": "n",
-          "ipa": "/ˈvɪdʒ.əl.əns/",
-          "level": "C1",
-          "mean": "sự tỉnh táo, cảnh giác và thận trọng liên tục",
-          "syns": [
-            "alertness",
-            "watchfulness",
-            "attentiveness"
-          ],
-          "ex": "Detecting digital disinformation requires constant intellectual vigilance from active citizens."
-        }
-      ],
-      "questions": [
-        {
-          "id": 31,
-          "num": 31,
-          "question": "Which of the following best captures the main theme of the passage?",
-          "questionVi": "Câu nào sau đây nắm bắt tốt nhất chủ đề chính của bài đọc?",
-          "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
-          "options": [
-            "The historical origin of algorithmic echo chambers on the modern Internet",
-            "A comparison between the cognitive characteristics, problem-solving methods, and societal significance of critical and passive thinkers",
-            "Why genetic heritage is the primary determining factor in intellectual problem-solving",
-            "The total obsolescence of formal educational institutions in developing critical faculties"
-          ],
-          "optionsVi": [
-            "Nguồn gốc lịch sử của các buồng vang thuật toán trên Internet hiện đại",
-            "Sự so sánh giữa các đặc điểm nhận thức, phương pháp giải quyết vấn đề và ý nghĩa xã hội của người tư duy phản biện và người tư duy thụ động",
-            "Tại sao di truyền lại là yếu tố quyết định hàng đầu trong việc giải quyết vấn đề trí tuệ",
-            "Sự lỗi thời hoàn toàn của các cơ sở giáo dục chính quy trong việc phát triển năng lực phản biện"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "How individuals interact with information fundamentally demarcates two contrasting cognitive archetypes: critical thinkers and passive thinkers... This cognitive divergence fundamentally shapes how people form beliefs, resolve real-world problems, and participate in civic life. [Paragraph 1 & Throughout]",
-          "evidenceVi": "Cách các cá nhân tương tác với thông tin định hình hai khuôn mẫu nhận thức trái ngược: người tư duy phản biện và người tư duy thụ động... [Đoạn 1]",
-          "explanation": "Toàn bài phân tích đối chiếu hai nhóm tư duy: khái niệm tổng quan (Đoạn 1), chân dung tư duy thụ động (Đoạn 2), chân dung tư duy phản biện (Đoạn 3), cách giải quyết vấn đề (Đoạn 4) và tầm quan trọng đối với xã hội dân chủ (Đoạn 5).",
-          "postReading": {
-            "type": "main_idea",
-            "typeLabel": "Chủ đề chính (Main Theme)",
-            "cluePassage": "demarcates two contrasting cognitive archetypes: critical thinkers and passive thinkers... shapes how people form beliefs, resolve problems, and participate in civic life",
-            "clueAnswer": "comparison between the cognitive characteristics, problem-solving methods, and societal significance of critical and passive thinkers",
-            "keyPassage": "two contrasting cognitive archetypes: critical vs passive",
-            "keyAnswer": "comparison between critical and passive thinkers",
-            "paraphrasePair": "contrasting archetypes <=> comparison between thinkers | resolve problems <=> problem-solving methods | civic life <=> societal significance",
-            "meaningVi": "hai khuôn mẫu đối lập <=> so sánh giữa hai nhóm | giải quyết vấn đề <=> phương pháp xử lý | đời sống công dân <=> ý nghĩa xã hội",
-            "deductionLogic": "Phương án B khái quát đầy đủ cấu trúc so sánh đối chiếu xuyên suốt 5 đoạn của bài viết."
-          }
-        },
-        {
-          "id": 32,
-          "num": 32,
-          "question": "The word \"deference\" in paragraph 2 is closest in meaning to:",
-          "questionVi": "Từ \"deference\" trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "active rebellion",
-            "unquestioning respect and submission",
-            "scientific curiosity",
-            "hostile skepticism"
-          ],
-          "optionsVi": [
-            "sự nổi loạn chủ động",
-            "sự tôn kính và quy phục không chất vấn",
-            "sự tò mò khoa học",
-            "sự hoài nghi thù địch"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "They display a pronounced deference to perceived authority figures, uncritically adopting dogma without verifying whether empirical evidence substantiates the claims. [Paragraph 2]",
-          "evidenceVi": "Họ thể hiện sự quy phục rõ rệt đối với những nhân vật được coi là quyền uy, tiếp nhận giáo điều một cách thiếu phản biện mà không xác minh... [Đoạn 2]",
-          "explanation": "\"Deference\" là sự phục tùng, tôn kính và nghe theo mà không chất vấn (polite submission and respect / unquestioning respect and submission).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "pronounced deference to perceived authority figures, uncritically adopting dogma",
-            "clueAnswer": "unquestioning respect and submission",
-            "keyPassage": "deference",
-            "keyAnswer": "unquestioning respect and submission",
-            "paraphrasePair": "deference <=> unquestioning respect and submission",
-            "meaningVi": "sự quy phục, phục tùng <=> sự tôn kính và phục tùng không chất vấn",
-            "deductionLogic": "Cụm 'uncritically adopting dogma' (tiếp thu giáo điều không phê phán) làm rõ thái độ phục tùng răm rắp của người thụ động."
-          }
-        },
-        {
-          "id": 33,
-          "num": 33,
-          "question": "According to paragraph 2, what cognitive trap are passive thinkers particularly susceptible to?",
-          "questionVi": "Theo đoạn 2, người tư duy thụ động đặc biệt dễ rơi vào bẫy nhận thức nào?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "Overestimating their mathematical calculation speeds",
-            "Confirmation bias by preferring information that reinforces preexisting beliefs",
-            "Obsessively hunting for counter-arguments to disprove their own opinions",
-            "Refusing to listen to any charismatic political speakers"
-          ],
-          "optionsVi": [
-            "Đánh giá quá cao tốc độ tính toán toán học của bản thân",
-            "Thiên kiến xác nhận bằng việc ưa thích thông tin củng cố niềm tin có sẵn",
-            "Ám ảnh tìm kiếm các luận điểm phản bác để bác bỏ ý kiến của chính mình",
-            "Từ chối lắng nghe bất kỳ diễn giả chính trị có tài hùng biện nào"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Guided heavily by cognitive convenience, they gravitate toward ideas that confirm their preexisting biases—a psychological phenomenon known as confirmation bias. [Paragraph 2]",
-          "evidenceVi": "Bị chi phối mạnh mẽ bởi sự tiện lợi trong nhận thức, họ hướng về các ý tưởng củng cố các thiên kiến có sẵn của mình—hiện tượng tâm lý được biết đến là thiên kiến xác nhận. [Đoạn 2]",
-          "explanation": "Đoạn 2 nêu trực diện: passive thinkers thường bị dẫn dắt bởi 'confirmation bias' (thiên kiến xác nhận), chỉ tiếp nhận điều củng cố định kiến cũ.",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết bẫy nhận thức (Factual Detail)",
-            "cluePassage": "gravitate toward ideas that confirm their preexisting biases—a psychological phenomenon known as confirmation bias",
-            "clueAnswer": "Confirmation bias by preferring information that reinforces preexisting beliefs",
-            "keyPassage": "gravitate toward ideas that confirm preexisting biases",
-            "keyAnswer": "preferring information that reinforces preexisting beliefs",
-            "paraphrasePair": "gravitate toward ideas that confirm biases <=> preferring info that reinforces beliefs",
-            "meaningVi": "hướng về ý tưởng xác nhận định kiến <=> ưa chuộng thông tin củng cố niềm tin cũ",
-            "deductionLogic": "Phương án B diễn giải lại 100% chuẩn xác định nghĩa hiện tượng tâm lý 'confirmation bias' trong đoạn 2."
-          }
-        },
-        {
-          "id": 34,
-          "num": 34,
-          "question": "How do critical thinkers address potential flaws in their own beliefs according to paragraph 3?",
-          "questionVi": "Theo đoạn 3, những người tư duy phản biện giải quyết các sai sót tiềm ẩn trong niềm tin của chính họ như thế nào?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "They aggressively conceal any conflicting evidence from academic colleagues.",
-            "They actively search for disconfirming evidence and practice intellectual humility.",
-            "They insist that their intuition is universally infallible.",
-            "They avoid participating in any scientific or philosophical debates."
-          ],
-          "optionsVi": [
-            "Họ hung hăng che giấu mọi bằng chứng mâu thuẫn trước các đồng nghiệp học thuật.",
-            "Họ chủ động tìm kiếm các bằng chứng phản nghiệm và thực hành sự khiêm tốn trí tuệ.",
-            "Họ khăng khăng rằng trực giác của mình luôn luôn không bao giờ sai sót.",
-            "Họ tránh tham gia vào bất kỳ cuộc tranh luận khoa học hay triết học nào."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Critical thinkers actively seek out disconfirming evidence to test the robustness of their own convictions... Crucially, they possess intellectual humility—the willingness to revise or abandon cherished viewpoints when confronted with compelling counter-evidence. [Paragraph 3]",
-          "evidenceVi": "Người tư duy phản biện chủ động tìm kiếm các bằng chứng bác bỏ để thử thách độ vững chắc của niềm tin bản thân... Quan trọng là họ sở hữu sự khiêm tốn trí tuệ—sẵn sàng sửa đổi hoặc từ bỏ quan điểm... [Đoạn 3]",
-          "explanation": "Đoạn 3 chỉ rõ hai hành động then chốt: 'actively seek out disconfirming evidence' (chủ động tìm kiếm bằng chứng phản nghiệm) và 'intellectual humility' (khiêm tốn trí tuệ sẵn sàng sửa đổi quan điểm).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết phương pháp (Factual Detail)",
-            "cluePassage": "actively seek out disconfirming evidence... possess intellectual humility",
-            "clueAnswer": "They actively search for disconfirming evidence and practice intellectual humility",
-            "keyPassage": "seek out disconfirming evidence, possess intellectual humility",
-            "keyAnswer": "search for disconfirming evidence, practice intellectual humility",
-            "paraphrasePair": "seek out <=> search for | possess humility <=> practice humility",
-            "meaningVi": "tìm kiếm bằng chứng phản nghiệm và rèn luyện sự khiêm tốn",
-            "deductionLogic": "Phương án B phản ánh chính xác từng cụm từ cốt lõi được tác giả nhấn mạnh ở đoạn 3."
-          }
-        },
-        {
-          "id": 35,
-          "num": 35,
-          "question": "Which of the following analytical skills is NOT attributed to critical thinkers in paragraph 3?",
-          "questionVi": "Kỹ năng phân tích nào sau đây KHÔNG được quy cho người tư duy phản biện trong đoạn 3?",
-          "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
-          "options": [
-            "Distinguishing between correlation and causation",
-            "Evaluating whether sample sizes are statistically sufficient",
-            "Deconstructing arguments into their foundational premises",
-            "Relying solely on gut emotional instincts to evaluate medical research"
-          ],
-          "optionsVi": [
-            "Phân biệt giữa mối tương quan và mối quan hệ nhân quả",
-            "Đánh giá xem quy mô mẫu nghiên cứu có đủ độ tin cậy thống kê hay không",
-            "Bóc tách các lập luận thành các tiền đề nền tảng của chúng",
-            "Chỉ dựa hoàn toàn vào trực giác cảm xúc bản năng để đánh giá nghiên cứu y học"
-          ],
-          "correctAnswer": "D",
-          "correctIdx": 3,
-          "evidence": "Rather than merely absorbing conclusions, they deconstruct arguments into their foundational premises... distinguish between correlation and causation, question sample sizes, and identify hidden assumptions. [Paragraph 3]",
-          "evidenceVi": "Đoạn 3 nêu rõ critical thinkers: bóc tách tiền đề (A), phân biệt tương quan vs nhân quả (B), kiểm tra cỡ mẫu (C). Việc 'chỉ dựa vào cảm xúc bản năng' (D) là thói quen của passive thinkers.",
-          "explanation": "Critical thinkers luôn dùng lý tính, bằng chứng thực nghiệm và logic học, hoàn toàn không dựa vào cảm xúc bột phát (gut emotional instincts).",
-          "postReading": {
-            "type": "negative",
-            "typeLabel": "Thông tin loại trừ (Negative Detail)",
-            "cluePassage": "deconstruct arguments... distinguish between correlation and causation, question sample sizes",
-            "clueAnswer": "Relying solely on gut emotional instincts to evaluate medical research",
-            "keyPassage": "analytical rigor, deconstruct premises, correlation vs causation",
-            "keyAnswer": "gut emotional instincts belongs to passive thinking",
-            "paraphrasePair": "deconstruct arguments <=> break down premises | correlation vs causation <=> association vs causality",
-            "meaningVi": "phân tích tiền đề <=> bóc tách lập luận | tương quan vs nhân quả",
-            "deductionLogic": "Dựa vào cảm xúc là biểu hiện ngược lại hoàn toàn với tư duy phản biện (critical thinking)."
-          }
-        },
-        {
-          "id": 36,
-          "num": 36,
-          "question": "The phrase \"This nuanced methodology\" in paragraph 4 refers to:",
-          "questionVi": "Cụm từ \"This nuanced methodology\" trong đoạn 4 ám chỉ điều gì?",
-          "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
-          "options": [
-            "blaming individual scapegoats whenever institutional errors occur",
-            "decomposing problems into systemic variables and tolerating cognitive ambiguity",
-            "viewing every complex ethical dilemma as a strict binary choice",
-            "ignoring opposing opinions to accelerate decision-making speeds"
-          ],
-          "optionsVi": [
-            "đổ lỗi cho các cá nhân chịu báng bất cứ khi nào xảy ra sai sót thể chế",
-            "phân tích vấn đề thành các biến số hệ thống và chấp nhận sự mơ hồ nhận thức",
-            "nhìn nhận mọi tình huống tiến thoái lưỡng nan về đạo đức như một sự lựa chọn nhị phân cứng nhắc",
-            "phớt lờ các ý kiến đối lập để đẩy nhanh tốc độ ra quyết định"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Critical thinkers, by comparison, decompose dilemmas into interacting systemic variables. They tolerate cognitive ambiguity, recognizing that modern problems rarely offer effortless, monolithic answers. This nuanced methodology enables them... [Paragraph 4]",
-          "evidenceVi": "Người tư duy phản biện phân tích thế lưỡng nan thành các biến số hệ thống tương tác nhau. Họ chấp nhận sự mơ hồ nhận thức... Phương pháp tiếp cận tinh tế, đa chiều này giúp họ... [Đoạn 4]",
-          "explanation": "\"This nuanced methodology\" tóm lược cách tiếp cận của critical thinkers: phân tách biến số hệ thống (decompose dilemmas into systemic variables) và chấp nhận sự phức tạp/mơ hồ (tolerate cognitive ambiguity).",
-          "postReading": {
-            "type": "reference",
-            "typeLabel": "Quy chiếu phương pháp (Reference)",
-            "cluePassage": "decompose dilemmas into interacting systemic variables. They tolerate cognitive ambiguity... This nuanced methodology",
-            "clueAnswer": "decomposing problems into systemic variables and tolerating cognitive ambiguity",
-            "keyPassage": "decompose into systemic variables, tolerate ambiguity",
-            "keyAnswer": "decomposing problems into systemic variables, tolerating ambiguity",
-            "paraphrasePair": "nuanced methodology => decompose variables and tolerate ambiguity",
-            "meaningVi": "phương pháp đa chiều tinh tế => bóc tách biến số và chấp nhận sự mơ hồ",
-            "deductionLogic": "Cụm 'This nuanced methodology' thay thế trực tiếp cho hai câu miêu tả giải pháp của critical thinkers ở ngay phía trước."
-          }
-        },
-        {
-          "id": 37,
-          "num": 37,
-          "question": "The word \"binary\" in paragraph 4 is closest in meaning to:",
-          "questionVi": "Từ \"binary\" trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "divided strictly into two opposing extremes",
-            "involving multiple overlapping perspectives",
-            "scientifically proven by laboratory trials",
-            "constantly shifting according to climate"
-          ],
-          "optionsVi": [
-            "bị chia tách nghiêm ngặt thành hai thái cực đối lập",
-            "liên quan đến nhiều góc nhìn đan xen nhau",
-            "được chứng minh khoa học bởi các thử nghiệm phòng thí nghiệm",
-            "liên tục thay đổi theo điều kiện khí hậu"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "Passive thinkers typically approach multifaceted challenges through simplistic binary lenses—categorizing situations into absolute terms of right versus wrong, or black versus white. [Paragraph 4]",
-          "evidenceVi": "Người tư duy thụ động thường tiếp cận các thách thức đa diện qua lăng kính nhị phân đơn giản hóa—phân loại các tình huống thành các thái cực tuyệt đối đúng hoặc sai, trắng hoặc đen. [Đoạn 4]",
-          "explanation": "\"Binary\" (nhị phân, lưỡng phân) trong tư duy nghĩa là tuyệt đối hóa vấn đề thành hai thái cực đối lập (divided strictly into two opposing extremes: right/wrong, black/white).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "simplistic binary lenses—categorizing situations into absolute terms of right versus wrong, or black versus white",
-            "clueAnswer": "divided strictly into two opposing extremes",
-            "keyPassage": "binary lenses (right vs wrong, black vs white)",
-            "keyAnswer": "divided into two opposing extremes",
-            "paraphrasePair": "binary <=> divided into two opposing extremes",
-            "meaningVi": "nhị phân (trắng/đen) <=> chia tách thành hai thái cực đối lập",
-            "deductionLogic": "Đoạn văn tự giải thích rõ ràng bằng dấu gạch ngang: 'categorizing situations into absolute terms of right versus wrong, or black versus white'."
-          }
-        },
-        {
-          "id": 38,
-          "num": 38,
-          "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"Because this reductive framing overlooks structural complexity, it invariably leads to ineffective policies that fail to treat root causes.\"\nWhere would the sentence best fit?",
-          "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
-          "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
-          "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
-          ],
-          "optionsVi": [
-            "Vị trí [A]",
-            "Vị trí [B]",
-            "Vị trí [C]",
-            "Vị trí [D]"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Confronted with systemic failures, they tend to attribute problems to individual scapegoats rather than examining complex underlying dynamics. [B] Critical thinkers, by comparison, decompose dilemmas into interacting systemic variables. [Paragraph 4]",
-          "evidenceVi": "Vị trí [B] đứng ngay sau việc chỉ trích cách tư duy đổ lỗi cho vật tế thần (scapegoats) và đóng vai trò kết luận cho sự thất bại của lăng kính đơn giản hóa (this reductive framing).",
-          "explanation": "\"This reductive framing\" (lối đóng khung đơn giản hóa này) quy chiếu về lối tư duy 'binary lenses' và 'scapegoating' của passive thinkers được trình bày ngay trước vị trí [B], trước khi chuyển sang đối tượng so sánh mới ('Critical thinkers, by comparison').",
-          "postReading": {
-            "type": "insertion",
-            "typeLabel": "Điền câu logic (Sentence Insertion)",
-            "cluePassage": "attribute problems to individual scapegoats rather than examining complex underlying dynamics. [B] Critical thinkers, by comparison...",
-            "clueAnswer": "[B]",
-            "keyPassage": "simplistic binary lenses, attribute problems to individual scapegoats",
-            "keyAnswer": "Because this reductive framing overlooks structural complexity",
-            "paraphrasePair": "simplistic lenses/scapegoating <=> this reductive framing",
-            "meaningVi": "lăng kính đơn giản hóa/đổ lỗi cá nhân <=> lối đóng khung đơn giản hóa này",
-            "deductionLogic": "Câu cần điền chốt lại hệ quả tai hại của passive thinkers trước khi bài dùng từ nối 'by comparison' để chuyển sang critical thinkers."
-          }
-        },
-        {
-          "id": 39,
-          "num": 39,
-          "question": "According to paragraph 4, how do critical thinkers differ from passive thinkers when facing systemic dilemmas?",
-          "questionVi": "Theo đoạn 4, người tư duy phản biện khác với người tư duy thụ động như thế nào khi đối mặt với các thế lưỡng nan mang tính hệ thống?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Comparison)",
-          "options": [
-            "They quickly identify a single person to blame and impose punitive punishments.",
-            "They break down dilemmas into interacting systemic variables rather than adopting binary conclusions.",
-            "They surrender immediately because they believe systemic issues are insoluble.",
-            "They depend solely on commercial advertisements to determine public policies."
-          ],
-          "optionsVi": [
-            "Họ nhanh chóng tìm ra một người duy nhất để đổ lỗi và áp đặt các hình phạt mang tính trừng phạt.",
-            "Họ bóc tách các thế lưỡng nan thành các biến số hệ thống tương tác nhau thay vì chấp nhận các kết luận nhị phân.",
-            "Họ đầu hàng ngay lập tức vì tin rằng các vấn đề hệ thống là không thể giải quyết.",
-            "Họ phụ thuộc hoàn toàn vào quảng cáo thương mại để xác định các chính sách công."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Critical thinkers, by comparison, decompose dilemmas into interacting systemic variables. They tolerate cognitive ambiguity, recognizing that modern problems rarely offer effortless, monolithic answers. [Paragraph 4]",
-          "evidenceVi": "Ngược lại, người tư duy phản biện phân tích các thế lưỡng nan thành các biến số hệ thống tương tác nhau. Họ chấp nhận sự mơ hồ nhận thức, hiểu rằng các vấn đề hiện đại hiếm khi có câu trả lời đơn giản... [Đoạn 4]",
-          "explanation": "Đoạn 4 đối lập rõ: passive thinkers tư duy nhị phân (right/wrong) và đổ lỗi cá nhân (scapegoats), trong khi critical thinkers phân tích các biến số hệ thống (decompose dilemmas into interacting systemic variables).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết so sánh đối chiếu (Factual Comparison)",
-            "cluePassage": "decompose dilemmas into interacting systemic variables. They tolerate cognitive ambiguity",
-            "clueAnswer": "They break down dilemmas into interacting systemic variables rather than adopting binary conclusions",
-            "keyPassage": "decompose dilemmas into interacting systemic variables",
-            "keyAnswer": "break down dilemmas into interacting systemic variables",
-            "paraphrasePair": "decompose dilemmas <=> break down dilemmas | absolute terms <=> binary conclusions",
-            "meaningVi": "phân rã thế lưỡng nan <=> bóc tách vấn đề | điều tuyệt đối <=> kết luận nhị phân",
-            "deductionLogic": "Phương án B nêu trọn vẹn điểm khác biệt căn bản giữa hai phương pháp tư duy đã được phân tích ở đoạn 4."
-          }
-        },
-        {
-          "id": 40,
-          "num": 40,
-          "question": "Which of the following can be inferred from paragraph 5 about critical thinking ability?",
-          "questionVi": "Điều nào sau đây có thể được suy luận từ đoạn 5 về khả năng tư duy phản biện?",
-          "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN (Inference Question)",
-          "options": [
-            "It is an unchangeable genetic trait inherited strictly from birth.",
-            "It is a learnable skill that can be systematically developed through education and practice.",
-            "It will become completely useless as artificial intelligence systems advance.",
-            "It is only relevant for university professors and useless for general citizens."
-          ],
-          "optionsVi": [
-            "Đó là một đặc điểm di truyền không thể thay đổi được thừa hưởng nghiêm ngặt từ lúc sinh ra.",
-            "Đó là một kỹ năng có thể học hỏi được và có thể phát triển bài bản qua giáo dục và rèn luyện.",
-            "Nó sẽ trở nên hoàn toàn vô dụng khi các hệ thống trí tuệ nhân tạo phát triển.",
-            "Nó chỉ có ý nghĩa với các giáo sư đại học và hoàn toàn vô ích đối với người dân nói chung."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Ultimately, critical thinking is not an innate, genetic predisposition reserved for an intellectual elite; rather, it is a cultivated discipline requiring continuous practice and mental vigilance... Cultivating a habit of rigorous critical inquiry in educational systems is no longer an optional luxury... [Paragraph 5]",
-          "evidenceVi": "Tư duy phản biện không phải là thiên bẩm di truyền dành riêng cho giới tinh hoa; mà là một kỷ luật được rèn giũa đòi hỏi sự thực hành liên tục... Việc trau dồi trong hệ thống giáo dục là điều tất yếu... [Đoạn 5]",
-          "explanation": "\"Not an innate, genetic predisposition... but a cultivated discipline... Cultivating in educational systems\" suy ra rằng tư duy phản biện hoàn toàn có thể học được và rèn luyện thông qua giáo dục (learnable skill developed through education and practice).",
-          "postReading": {
-            "type": "inference",
-            "typeLabel": "Suy luận logic (Inference)",
-            "cluePassage": "not an innate, genetic predisposition... rather, it is a cultivated discipline requiring continuous practice... Cultivating a habit in educational systems",
-            "clueAnswer": "It is a learnable skill that can be systematically developed through education and practice",
-            "keyPassage": "cultivated discipline requiring continuous practice",
-            "keyAnswer": "learnable skill developed through education and practice",
-            "paraphrasePair": "cultivated discipline <=> learnable skill | continuous practice <=> developed through education/practice",
-            "meaningVi": "kỷ luật được rèn giũa qua luyện tập <=> kỹ năng học được qua giáo dục và thực hành",
-            "deductionLogic": "Tác giả phủ định yếu tố bẩm sinh di truyền ('not an innate genetic predisposition') và khẳng định tính rèn giũa giáo dục ('cultivated discipline')."
-          }
-        }
-      ]
-    }
-  ]
-},
-{
-  "testId": "TEST12",
-  "testNum": 12,
-  "title": "VSTEP READING THỰC CHIẾN 02 (REVIEW ĐỀ THI THẬT)",
-  "description": "Bộ đề thực chiến số 02 biên soạn chuẩn xác từ review học viên: Hoạt động thời đại dịch, Tâm lý học về May mắn, Phân biệt lao động châu Á & Tôn giáo tại Mỹ.",
-  "duration": 3600,
-  "passages": [
-    {
-      "partId": 1,
-      "title": "Passage 1: People's Activities During the Pandemic",
-      "topic": "Xã hội học & Sự thích ứng đời sống trong thời kỳ đại dịch toàn cầu",
-      "timeAllowed": 15,
-      "passage": "<p>The global outbreak of the COVID-19 pandemic in early 2020 precipitated an <strong>unprecedented</strong> disruption to everyday life, fundamentally altering how societies functioned. To curb the transmission of the novel coronavirus, national governments worldwide enacted strict quarantine protocols, closed non-essential enterprises, and mandated widespread social distancing. Virtually overnight, billions of individuals found their geographic mobility curtailed, being compulsory confined to their domestic dwellings. Deprived of normal routines, daily commutes, and social gatherings, people across the globe were compelled to radically reconfigure their everyday activities to navigate prolonged periods of isolation.</p><p>One of the most remarkable manifestations of this domestic confinement was a widespread resurgence in traditional household arts and self-sufficiency pursuits. Millions turned to culinary experimentation, igniting an explosive surge in home baking that led to worldwide retail shortages of flour and yeast. Sourdough bread making, in particular, became an international cultural sensation, as amateur bakers found comforting psychological solace in the slow, rhythmic maintenance of fermentation starters. Concurrently, interest in indoor horticulture and backyard gardening escalated dramatically. Cultivating microgreens, potted herbs, and vegetables on balconies provided city dwellers with both a tangible sense of productivity and a soothing connection to the living natural world during a time of pervasive uncertainty.</p><p>Physical fitness and recreational pastimes also underwent a profound digital transformation. With public athletic facilities, fitness gyms, and community recreation centers closed by public health orders, individuals quickly adapted by converting living rooms and bedrooms into makeshift workout studios. Instructors and fitness influencers pivoted to virtual live-streams, broadcasting high-intensity interval training, yoga, and pilates sessions directly into participants' homes. Furthermore, cultural institutions embraced digital accessibility; world-renowned museums, opera houses, and national parks launched free virtual tours and live-streamed performances, allowing homebound audiences to maintain intellectual and aesthetic engagement despite physical restrictions.</p><p>Professional and interpersonal dynamics experienced an equally dramatic realignment through digital telecommunications. [A] Telecommuting transitioned from a peripheral workplace perk into the standard operating modality for white-collar workforces. [B] Platforms like Zoom, Microsoft Teams, and Google Meet became ubiquitous virtual offices where millions conducted daily meetings and collaborative projects. [C] Beyond professional demands, these video platforms were co-opted for impromptu social occasions—including virtual birthday parties, family reunions, and festive \"virtual happy hours\" designed to alleviate loneliness. [D] <strong>This rapid adaptation</strong> demonstrated human resilience and social resourcefulness in sustaining human connection under extraordinary constraints.</p><p>Ultimately, the pandemic era accelerated a profound reevaluation of domestic spaces and daily priorities. While the lifting of restrictions eventually enabled a return to public life, many newly adopted habits have persisted into the post-pandemic era. Hybrid work models, sustained enthusiasm for home cooking, and heightened awareness of personal well-being suggest that people's pandemic-era activities were not merely temporary coping mechanisms, but rather the catalyst for a permanent cultural shift in how individuals balance work, home, and leisure.</p>",
-      "vocab": [
-        {
-          "word": "unprecedented",
-          "pos": "adj",
-          "ipa": "/ʌnˈpres.ɪ.den.tɪd/",
-          "level": "C1",
-          "mean": "chưa từng có tiền lệ, chưa từng xảy ra",
-          "syns": [
-            "unmatched",
-            "unparalleled",
-            "novel"
-          ],
-          "ex": "The global lockdowns caused an unprecedented disruption to international travel and commerce."
-        },
-        {
-          "word": "confinement",
-          "pos": "n",
-          "ipa": "/kənˈfaɪn.mənt/",
-          "level": "B2",
-          "mean": "sự giam hãm, hạn chế đi lại trong nhà",
-          "syns": [
-            "restriction",
-            "isolation",
-            "quarantine"
-          ],
-          "ex": "During weeks of strict home confinement, many residents took up indoor gardening."
-        },
-        {
-          "word": "solace",
-          "pos": "n",
-          "ipa": "/ˈsɒl.ɪs/",
-          "level": "C1",
-          "mean": "sự khuây khỏa, niềm an ủi tâm lý",
-          "syns": [
-            "comfort",
-            "consolation",
-            "relief"
-          ],
-          "ex": "Many isolated seniors found great emotional solace in adopting rescue pets."
-        },
-        {
-          "word": "horticulture",
-          "pos": "n",
-          "ipa": "/ˈhɔː.tɪ.kʌl.tʃər/",
-          "level": "B2",
-          "mean": "nghề làm vườn, trồng trọt cây cảnh",
-          "syns": [
-            "gardening",
-            "cultivation",
-            "plant growing"
-          ],
-          "ex": "Urban horticulture experienced a major boom as apartment dwellers grew herbs on balconies."
-        },
-        {
-          "word": "makeshift",
-          "pos": "adj",
-          "ipa": "/ˈmeɪk.ʃɪft/",
-          "level": "B2",
-          "mean": "tạm thời, chắp vá dùng tạm",
-          "syns": [
-            "temporary",
-            "improvised",
-            "provisional"
-          ],
-          "ex": "Workers transformed kitchen tables into makeshift office desks during remote work."
-        },
-        {
-          "word": "telecommuting",
-          "pos": "n",
-          "ipa": "/ˌtel.i.kəˈmjuː.tɪŋ/",
-          "level": "B2",
-          "mean": "làm việc từ xa qua mạng máy tính",
-          "syns": [
-            "remote work",
-            "telework",
-            "working from home"
-          ],
-          "ex": "Telecommuting has fundamentally reshaped corporate culture across major economies."
-        },
-        {
-          "word": "ubiquitous",
-          "pos": "adj",
-          "ipa": "/juːˈbɪk.wɪ.təs/",
-          "level": "C1",
-          "mean": "phổ biến khắp nơi, đâu đâu cũng thấy",
-          "syns": [
-            "omnipresent",
-            "pervasive",
-            "universal"
-          ],
-          "ex": "Video conferencing applications became ubiquitous tools for modern schooling."
-        },
-        {
-          "word": "impromptu",
-          "pos": "adj",
-          "ipa": "/ɪmˈprɒmp.tjuː/",
-          "level": "C1",
-          "mean": "ngẫu hứng, không chuẩn bị trước",
-          "syns": [
-            "spontaneous",
-            "unrehearsed",
-            "extemporaneous"
-          ],
-          "ex": "Neighbors organized an impromptu balcony concert to uplift community spirits."
-        },
-        {
-          "word": "resilience",
-          "pos": "n",
-          "ipa": "/rɪˈzɪl.jəns/",
-          "level": "B2",
-          "mean": "sự kiên cường, khả năng thích ứng và phục hồi",
-          "syns": [
-            "toughness",
-            "adaptability",
-            "fortitude"
-          ],
-          "ex": "Communities demonstrated extraordinary psychological resilience throughout the health crisis."
-        },
-        {
-          "word": "catalyst",
-          "pos": "n",
-          "ipa": "/ˈkæt.əl.ɪst/",
-          "level": "B2",
-          "mean": "chất xúc tác, nhân tố thúc đẩy biến đổi",
-          "syns": [
-            "impetus",
-            "spark",
-            "stimulus"
-          ],
-          "ex": "The global health crisis served as a powerful catalyst for modernizing digital education."
-        }
-      ],
-      "questions": [
-        {
-          "id": 1,
-          "num": 1,
-          "question": "Which of the following best expresses the main idea of the passage?",
-          "questionVi": "Ý chính của bài đọc là gì?",
-          "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
-          "options": [
-            "The COVID-19 pandemic caused a total collapse of technological infrastructure worldwide.",
-            "Mandatory home confinement led individuals to develop creative domestic routines and digital adaptations that permanently reshaped modern life.",
-            "Indoor gardening is scientifically proven to cure psychological depression during pandemics.",
-            "Video conferencing software has eliminated the need for any in-person human communication."
-          ],
-          "optionsVi": [
-            "Đại dịch COVID-19 gây ra sự sụp đổ hoàn toàn cơ sở hạ tầng công nghệ toàn cầu.",
-            "Việc hạn chế đi lại tại nhà đã thúc đẩy các thói quen đời sống sáng tạo và sự thích ứng kỹ thuật số, làm biến đổi lâu dài lối sống hiện đại.",
-            "Việc làm vườn trong nhà đã được khoa học chứng minh là chữa khỏi bệnh trầm cảm.",
-            "Các phần mềm họp trực tuyến đã loại bỏ hoàn toàn nhu cầu giao tiếp trực tiếp của con người."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Deprived of normal routines... people across the globe were compelled to radically reconfigure their everyday activities... many newly adopted habits have persisted into the post-pandemic era... catalyst for a permanent cultural shift. [Paragraph 1 & 5]",
-          "evidenceVi": "Bị mất đi các thói quen thường nhật... mọi người trên khắp thế giới buộc phải tái cấu trúc các hoạt động hàng ngày... nhiều thói quen mới tiếp tục tồn tại sau đại dịch... chất xúc tác cho sự chuyển dịch văn hóa lâu dài. [Đoạn 1 & 5]",
-          "explanation": "Toàn bài phân tích cách thức con người thích nghi thời dịch bệnh qua ẩm thực/làm vườn (Đoạn 2), thể thao/giải trí trực tuyến (Đoạn 3), làm việc và họp mặt online (Đoạn 4), và tác động văn hóa lâu dài (Đoạn 5).",
-          "postReading": {
-            "type": "main_idea",
-            "typeLabel": "Ý chính toàn bài (Main Idea)",
-            "cluePassage": "compelled to radically reconfigure their everyday activities... catalyst for a permanent cultural shift in how individuals balance work, home, and leisure.",
-            "clueAnswer": "Mandatory home confinement led individuals to develop creative domestic routines and digital adaptations that permanently reshaped modern life.",
-            "keyPassage": "reconfigure everyday activities, permanent cultural shift",
-            "keyAnswer": "creative domestic routines, permanently reshaped modern life",
-            "paraphrasePair": "reconfigure everyday activities <=> develop creative routines | permanent cultural shift <=> permanently reshaped life",
-            "meaningVi": "tái cấu trúc hoạt động đời sống <=> phát triển các thói quen sáng tạo | chuyển dịch văn hóa lâu dài <=> định hình lại lâu dài lối sống",
-            "deductionLogic": "Phương án B bao quát đầy đủ cả quá trình thích nghi tại nhà và hệ quả lâu dài. A sai dữ kiện; C dùng từ tuyệt đối 'cure'; D cực đoan 'eliminated any in-person communication'."
-          }
-        },
-        {
-          "id": 2,
-          "num": 2,
-          "question": "The word \"unprecedented\" in paragraph 1 is closest in meaning to:",
-          "questionVi": "Từ \"unprecedented\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "never experienced before",
-            "predictable and routine",
-            "mild and insignificant",
-            "strictly localized"
-          ],
-          "optionsVi": [
-            "chưa từng trải qua trước đây",
-            "có thể đoán trước và thường ngày",
-            "nhẹ nhàng và không đáng kể",
-            "hoàn toàn mang tính cục bộ"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "The global outbreak of the COVID-19 pandemic in early 2020 precipitated an unprecedented disruption to everyday life... [Paragraph 1]",
-          "evidenceVi": "Sự bùng phát toàn cầu của đại dịch COVID-19 đầu năm 2020 đã gây ra sự gián đoạn chưa từng có tiền lệ đối với đời sống thường nhật... [Đoạn 1]",
-          "explanation": "\"Unprecedented\" có nghĩa là chưa từng có tiền lệ, chưa từng xảy ra trước đây (never experienced or known before).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "precipitated an unprecedented disruption to everyday life",
-            "clueAnswer": "never experienced before",
-            "keyPassage": "unprecedented",
-            "keyAnswer": "never experienced before",
-            "paraphrasePair": "unprecedented <=> never experienced before",
-            "meaningVi": "chưa từng có tiền lệ <=> chưa từng được trải qua trước đây",
-            "deductionLogic": "Trong văn cảnh đại dịch toàn cầu làm tê liệt mọi mặt đời sống, sự gián đoạn này mang tính 'chưa từng có trong lịch sử'."
-          }
-        },
-        {
-          "id": 3,
-          "num": 3,
-          "question": "According to paragraph 2, why did many amateur bakers gravitate toward sourdough bread making?",
-          "questionVi": "Theo đoạn 2, tại sao nhiều người làm bánh nghiệp dư lại tìm đến việc làm bánh mì men tự nhiên (sourdough)?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "It required no flour or water to prepare.",
-            "They found psychological comfort in the slow, rhythmic maintenance of starters.",
-            "They were legally required to produce their own rations by emergency mandates.",
-            "It was guaranteed to earn substantial commercial profits online."
-          ],
-          "optionsVi": [
-            "Nó không cần bột mì hay nước để chế biến.",
-            "Họ tìm thấy sự an ủi tâm lý trong việc chăm sóc men bánh mì một cách chậm rãi, đều đặn.",
-            "Họ bị pháp luật bắt buộc phải tự sản xuất khẩu phần ăn theo lệnh khẩn cấp.",
-            "Nó được đảm bảo mang lại lợi nhuận thương mại đáng kể trên mạng."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "...amateur bakers found comforting psychological solace in the slow, rhythmic maintenance of fermentation starters. [Paragraph 2]",
-          "evidenceVi": "...những người làm bánh nghiệp dư đã tìm thấy niềm an ủi tâm lý dễ chịu trong việc chăm sóc men ủ một cách chậm rãi, nhịp nhàng. [Đoạn 2]",
-          "explanation": "Đoạn 2 nêu trực tiếp: người làm bánh tìm thấy sự an ủi về mặt tâm lý ('comforting psychological solace') trong quá trình chăm sóc nuôi cấy men bột tự nhiên.",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết nguyên nhân (Factual Detail)",
-            "cluePassage": "amateur bakers found comforting psychological solace in the slow, rhythmic maintenance of fermentation starters",
-            "clueAnswer": "They found psychological comfort in the slow, rhythmic maintenance of starters",
-            "keyPassage": "comforting psychological solace in slow, rhythmic maintenance",
-            "keyAnswer": "psychological comfort in the slow, rhythmic maintenance",
-            "paraphrasePair": "solace <=> comfort",
-            "meaningVi": "niềm an ủi tâm lý <=> sự an ủi, khuây khỏa tâm lý",
-            "deductionLogic": "Phương án B phản ánh nguyên văn câu dẫn chứng của bài đọc; các phương án khác hoàn toàn sai lệch thực tế."
-          }
-        },
-        {
-          "id": 4,
-          "num": 4,
-          "question": "According to paragraph 3, how did people maintain physical fitness while public gyms were closed?",
-          "questionVi": "Theo đoạn 3, mọi người đã duy trì thể lực như thế nào khi các phòng tập thể dục công cộng bị đóng cửa?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "By secretly breaking into commercial fitness centers at night",
-            "By taking part in live-streamed online workouts in their homes",
-            "By taking pharmaceutical performance-enhancing medications",
-            "By completely abandoning all physical exertion until lockdowns ended"
-          ],
-          "optionsVi": [
-            "Bằng cách lén lút đột nhập vào các trung tâm thể hình thương mại vào ban đêm",
-            "Bằng cách tham gia các buổi tập trực tuyến phát trực tiếp ngay tại nhà",
-            "Bằng cách sử dụng các loại thuốc tăng cường thể lực",
-            "Bằng cách từ bỏ hoàn toàn mọi hoạt động vận động thể chất cho đến khi hết lệnh phong tỏa"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Instructors and fitness influencers pivoted to virtual live-streams, broadcasting high-intensity interval training, yoga, and pilates sessions directly into participants' homes. [Paragraph 3]",
-          "evidenceVi": "Các huấn luyện viên và người có tầm ảnh hưởng thể hình đã chuyển hướng sang phát trực tiếp, truyền các buổi tập cardio, yoga và pilates thẳng vào nhà của người tham gia. [Đoạn 3]",
-          "explanation": "Đoạn 3 chỉ rõ giải pháp: biến phòng khách/phòng ngủ thành phòng tập tạm thời và tập theo các buổi livestream trực tuyến (virtual live-streams directly into homes).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết phương thức (Factual Detail)",
-            "cluePassage": "pivoted to virtual live-streams, broadcasting high-intensity interval training, yoga, and pilates sessions directly into participants' homes",
-            "clueAnswer": "By taking part in live-streamed online workouts in their homes",
-            "keyPassage": "virtual live-streams directly into participants' homes",
-            "keyAnswer": "taking part in live-streamed online workouts in their homes",
-            "paraphrasePair": "virtual live-streams into homes <=> live-streamed online workouts in their homes",
-            "meaningVi": "phát trực tuyến vào nhà <=> tập luyện trực tuyến phát trực tiếp tại nhà",
-            "deductionLogic": "Phương án B tóm lược chính xác cách thức người dân tập luyện tại nhà theo các hướng dẫn phát trực tiếp trên mạng."
-          }
-        },
-        {
-          "id": 5,
-          "num": 5,
-          "question": "Which of the following is NOT mentioned in paragraph 3 as a virtual activity offered during lockdowns?",
-          "questionVi": "Điều nào sau đây KHÔNG được đề cập trong đoạn 3 như một hoạt động trực tuyến được cung cấp trong đợt phong tỏa?",
-          "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
-          "options": [
-            "Online yoga and pilates workout sessions",
-            "Virtual museum tours and live-streamed performances",
-            "In-person international cruise excursions",
-            "High-intensity interval training broadcasts"
-          ],
-          "optionsVi": [
-            "Các buổi tập yoga và pilates trực tuyến",
-            "Các tour tham quan bảo tàng ảo và biểu diễn nghệ thuật phát trực tiếp",
-            "Các chuyến du lịch du thuyền quốc tế trực tiếp bằng người thật",
-            "Các chương trình phát sóng bài tập cường độ cao"
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "Instructors... broadcasting high-intensity interval training, yoga, and pilates... world-renowned museums, opera houses, and national parks launched free virtual tours and live-streamed performances... [Paragraph 3]",
-          "evidenceVi": "Đoạn 3 liệt kê bài tập thể lực (HIIT, yoga, pilates) và tour ảo của viện bảo tàng/nhà hát. Chuyến đi du thuyền quốc tế trực tiếp (in-person cruise) hoàn toàn trái ngược với lệnh phong tỏa và không hề xuất hiện trong bài.",
-          "explanation": "Trong thời kỳ phong tỏa, các hoạt động du lịch du thuyền quốc tế bị cấm hoàn toàn, không thể diễn ra.",
-          "postReading": {
-            "type": "negative",
-            "typeLabel": "Thông tin loại trừ (Negative Detail)",
-            "cluePassage": "virtual live-streams... yoga, pilates... free virtual tours and live-streamed performances",
-            "clueAnswer": "In-person international cruise excursions",
-            "keyPassage": "digital/virtual domestic engagement",
-            "keyAnswer": "in-person cruise excursions are impossible during global confinement",
-            "paraphrasePair": "virtual tours <=> digital engagement",
-            "meaningVi": "tour ảo <=> trải nghiệm kỹ thuật số",
-            "deductionLogic": "C là hoạt động thực địa quốc tế bị cấm trong đại dịch, các đáp án A, B, D đều được nêu rõ trong đoạn 3."
-          }
-        },
-        {
-          "id": 6,
-          "num": 6,
-          "question": "The phrase \"This rapid adaptation\" in paragraph 4 refers to:",
-          "questionVi": "Cụm từ \"This rapid adaptation\" trong đoạn 4 ám chỉ điều gì?",
-          "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
-          "options": [
-            "the sudden cancellation of all internet connectivity services",
-            "the transition of telecommunications into virtual workspaces and social gatherings",
-            "the permanent closure of all educational institutions",
-            "the construction of new physical highway networks"
-          ],
-          "optionsVi": [
-            "việc hủy bỏ đột ngột tất cả các dịch vụ kết nối internet",
-            "sự chuyển dịch các công cụ viễn thông thành không gian làm việc và giao lưu xã hội ảo",
-            "sự đóng cửa vĩnh viễn của tất cả các cơ sở giáo dục",
-            "việc xây dựng các mạng lưới đường cao tốc vật lý mới"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Telecommuting transitioned... Platforms like Zoom... ubiquitous virtual offices... co-opted for impromptu social occasions—including virtual birthday parties... This rapid adaptation demonstrated human resilience... [Paragraph 4]",
-          "evidenceVi": "Làm việc từ xa chuyển dịch... Các nền tảng như Zoom trở thành văn phòng ảo... được tận dụng cho các dịp giao lưu xã hội... Sự thích ứng nhanh chóng này đã chứng minh tính kiên cường của con người... [Đoạn 4]",
-          "explanation": "\"This rapid adaptation\" tổng kết quá trình con người nhanh chóng ứng dụng công nghệ trực tuyến phục vụ cho cả công việc (telecommuting/virtual offices) lẫn giao tiếp tình cảm (virtual social gatherings).",
-          "postReading": {
-            "type": "reference",
-            "typeLabel": "Quy chiếu tổng hợp (Reference)",
-            "cluePassage": "ubiquitous virtual offices... co-opted for impromptu social occasions... This rapid adaptation",
-            "clueAnswer": "the transition of telecommunications into virtual workspaces and social gatherings",
-            "keyPassage": "telecommuting, virtual offices, impromptu social occasions",
-            "keyAnswer": "transition of telecommunications into workspaces and social gatherings",
-            "paraphrasePair": "This rapid adaptation => virtual offices and online social gatherings",
-            "meaningVi": "Sự thích ứng nhanh chóng này => văn phòng ảo và các buổi tụ họp trực tuyến",
-            "deductionLogic": "Cụm từ chỉ định 'This rapid adaptation' đứng ngay sau chuỗi hành động biến nền tảng video thành văn phòng và nơi gặp gỡ bạn bè."
-          }
-        },
-        {
-          "id": 7,
-          "num": 7,
-          "question": "The word \"ubiquitous\" in paragraph 4 is closest in meaning to:",
-          "questionVi": "Từ \"ubiquitous\" trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "extremely rare and scarce",
-            "found everywhere and widespread",
-            "technically obsolete",
-            "financially unprofitable"
-          ],
-          "optionsVi": [
-            "cực kỳ hiếm hoi và khan hiếm",
-            "có mặt ở khắp nơi và phổ biến rộng rãi",
-            "lạc hậu về mặt kỹ thuật",
-            "không có lợi nhuận tài chính"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Platforms like Zoom, Microsoft Teams, and Google Meet became ubiquitous virtual offices where millions conducted daily meetings... [Paragraph 4]",
-          "evidenceVi": "Các nền tảng như Zoom, Teams, Meet đã trở thành những văn phòng ảo phổ biến khắp mọi nơi nơi hàng triệu người họp hàng ngày... [Đoạn 4]",
-          "explanation": "\"Ubiquitous\" có nghĩa là có mặt khắp nơi, xuất hiện ở mọi nơi (omnipresent, existing or being everywhere).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "became ubiquitous virtual offices where millions conducted daily meetings",
-            "clueAnswer": "found everywhere and widespread",
-            "keyPassage": "ubiquitous",
-            "keyAnswer": "found everywhere and widespread",
-            "paraphrasePair": "ubiquitous <=> found everywhere and widespread",
-            "meaningVi": "đâu đâu cũng có <=> có mặt ở khắp mọi nơi và phổ biến",
-            "deductionLogic": "Trong ngữ cảnh hàng triệu người sử dụng Zoom và Teams mỗi ngày, các nền tảng này đã trở nên 'phổ biến ở khắp nơi'."
-          }
-        },
-        {
-          "id": 8,
-          "num": 8,
-          "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"Employees converted quiet corners of their bedrooms into daily workstations to attend these corporate conferences.\"\nWhere would the sentence best fit?",
-          "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
-          "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
-          "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
-          ],
-          "optionsVi": [
-            "Vị trí [A]",
-            "Vị trí [B]",
-            "Vị trí [C]",
-            "Vị trí [D]"
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "[B] Platforms like Zoom, Microsoft Teams, and Google Meet became ubiquitous virtual offices where millions conducted daily meetings and collaborative projects. [C] Beyond professional demands, these video platforms were co-opted... [Paragraph 4]",
-          "evidenceVi": "Vị trí [C] đứng ngay sau câu nói về 'virtual offices where millions conducted daily meetings' để bổ sung việc nhân viên biến góc phòng ngủ thành bàn làm việc để tham gia các cuộc họp đó ('these corporate conferences').",
-          "explanation": "\"These corporate conferences\" (các cuộc họp công ty này) quy chiếu trực tiếp về \"daily meetings and collaborative projects\" ở câu trước vị trí [C], trước khi câu sau chuyển sang khía cạnh đời sống xã hội (\"Beyond professional demands\").",
-          "postReading": {
-            "type": "insertion",
-            "typeLabel": "Điền câu logic (Sentence Insertion)",
-            "cluePassage": "ubiquitous virtual offices where millions conducted daily meetings and collaborative projects. [C] Beyond professional demands...",
-            "clueAnswer": "[C]",
-            "keyPassage": "daily meetings and collaborative projects",
-            "keyAnswer": "attend these corporate conferences",
-            "paraphrasePair": "daily corporate meetings <=> these corporate conferences",
-            "meaningVi": "các cuộc họp công việc hàng ngày <=> các hội nghị công ty này",
-            "deductionLogic": "Cụm 'these corporate conferences' bắt buộc phải đứng sau câu giới thiệu về các cuộc họp trực tuyến trên Zoom/Teams ở [B]."
-          }
-        },
-        {
-          "id": 9,
-          "num": 9,
-          "question": "According to paragraph 4, what was the primary purpose of \"virtual happy hours\" and online parties?",
-          "questionVi": "Theo đoạn 4, mục đích chính của các buổi liên hoan trực tuyến (\"virtual happy hours\") và tiệc tùng qua mạng là gì?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "To formally negotiate international corporate treaties",
-            "To alleviate feelings of loneliness and maintain social bonds during isolation",
-            "To teach computer programming code to family members",
-            "To comply with legal employment contracts"
-          ],
-          "optionsVi": [
-            "Để đàm phán chính thức các hiệp ước doanh nghiệp quốc tế",
-            "To xoa dịu cảm giác cô đơn và duy trì sự gắn kết xã hội trong thời kỳ cách ly",
-            "Để dạy lập trình máy tính cho các thành viên trong gia đình",
-            "Để tuân thủ các điều khoản hợp đồng lao động bắt buộc"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "...virtual birthday parties, family reunions, and festive \"virtual happy hours\" designed to alleviate loneliness. [Paragraph 4]",
-          "evidenceVi": "...các bữa tiệc sinh nhật ảo, họp mặt gia đình và các buổi liên hoan vui vẻ được thiết kế để xoa dịu cảm giác cô đơn. [Đoạn 4]",
-          "explanation": "Đoạn 4 ghi rõ mục đích của các buổi họp mặt này: 'designed to alleviate loneliness' (được thiết kế để xoa dịu nỗi cô đơn).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết mục đích (Factual Detail)",
-            "cluePassage": "festive \"virtual happy hours\" designed to alleviate loneliness",
-            "clueAnswer": "To alleviate feelings of loneliness and maintain social bonds during isolation",
-            "keyPassage": "designed to alleviate loneliness",
-            "keyAnswer": "alleviate feelings of loneliness",
-            "paraphrasePair": "alleviate loneliness <=> alleviate feelings of loneliness and maintain bonds",
-            "meaningVi": "xoa dịu nỗi cô đơn <=> giảm bớt cảm giác cô đơn và giữ gắn kết",
-            "deductionLogic": "Phương án B phản ánh chính xác mục tiêu tâm lý xã hội được nêu ở câu thứ 3 của đoạn 4."
-          }
-        },
-        {
-          "id": 10,
-          "num": 10,
-          "question": "What can be inferred from paragraph 5 regarding the long-term impact of pandemic activities?",
-          "questionVi": "Có thể suy luận được điều gì từ đoạn 5 về tác động lâu dài của các hoạt động thời kỳ đại dịch?",
-          "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN (Inference Question)",
-          "options": [
-            "People immediately discarded all digital technologies once lockdowns concluded.",
-            "Many behaviors adopted during the crisis evolved into enduring lifestyle changes rather than fleeting remedies.",
-            "All physical offices have permanently ceased to exist throughout the world.",
-            "Traditional cooking and home activities became completely illegal after 2020."
-          ],
-          "optionsVi": [
-            "Mọi người ngay lập tức vứt bỏ toàn bộ công nghệ số ngay khi lệnh phong tỏa kết thúc.",
-            "Nhiều thói quen hình thành trong đại dịch đã phát triển thành những thay đổi lối sống bền vững chứ không chỉ là biện pháp tạm thời.",
-            "Mọi văn phòng làm việc truyền thống đã vĩnh viễn không còn tồn tại trên thế giới.",
-            "Nấu ăn truyền thống và các hoạt động gia đình đã trở nên hoàn toàn bất hợp pháp sau năm 2020."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "While the lifting of restrictions eventually enabled a return to public life, many newly adopted habits have persisted... not merely temporary coping mechanisms, but rather the catalyst for a permanent cultural shift... [Paragraph 5]",
-          "evidenceVi": "Mặc dù việc nới lỏng hạn chế đã cho phép quay lại đời sống công cộng, nhiều thói quen mới vẫn tiếp tục tồn tại... không chỉ là cơ chế đối phó tạm thời, mà là chất xúc tác cho một sự chuyển dịch văn hóa lâu dài... [Đoạn 5]",
-          "explanation": "\"Not merely temporary coping mechanisms, but rather the catalyst for a permanent cultural shift\" chứng minh rằng các hành vi thời dịch đã trở thành sự thay đổi lâu dài (enduring lifestyle changes).",
-          "postReading": {
-            "type": "inference",
-            "typeLabel": "Suy luận logic (Inference)",
-            "cluePassage": "not merely temporary coping mechanisms, but rather the catalyst for a permanent cultural shift",
-            "clueAnswer": "Many behaviors adopted during the crisis evolved into enduring lifestyle changes rather than fleeting remedies",
-            "keyPassage": "not temporary coping mechanisms, permanent cultural shift",
-            "keyAnswer": "enduring lifestyle changes rather than fleeting remedies",
-            "paraphrasePair": "not temporary coping mechanisms <=> rather than fleeting remedies | permanent cultural shift <=> enduring lifestyle changes",
-            "meaningVi": "không chỉ là cơ chế đối phó tạm thời <=> thay vì là giải pháp ngắn hạn | chuyển biến văn hóa lâu dài <=> thay đổi lối sống bền vững",
-            "deductionLogic": "Tác giả khẳng định rõ ràng sự tồn tại bền vững của các thói quen lai ghép (hybrid habits) trong câu đúc kết toàn bài."
-          }
-        }
-      ]
-    },
-    {
-      "partId": 2,
-      "title": "Passage 2: The Psychology of Luck and Misfortune",
-      "topic": "Tâm lý học nhận thức & Cơ chế định hình vận may và rủi ro",
-      "timeAllowed": 15,
-      "passage": "<p>Throughout human history, the concepts of luck and misfortune have occupied a central place in folklore, mythology, and daily life. Civilizations across the globe have devised elaborate rituals, worn protective talismans, and consulted celestial alignments in an effort to attract good fortune and ward off catastrophe. Historically, luck was perceived as a capricious supernatural force—an external blessing bestowed upon favored individuals or an arbitrary curse inflicted by destiny. However, in recent decades, cognitive psychologists have fundamentally reframed this phenomenon. Groundbreaking empirical research demonstrates that luck is not an occult cosmic favor, but rather the psychological byproduct of distinct cognitive habits, behavioral patterns, and perceptual styles.</p><p>The foundational investigation into this psychological reality was spearheaded by British psychologist Dr. Richard Wiseman, who conducted a decade-long study examining self-described \"lucky\" and \"unlucky\" individuals. Wiseman's laboratory experiments revealed that individuals do not encounter good fortune through paranormal serendipity, but through their heightened degree of attentional awareness. Lucky people consistently display a relaxed openness to their environment, which allows them to notice <strong>peripheral</strong> opportunities that others overlook. In one famous experiment, participants were instructed to count photographs in a newspaper. The unlucky participants spent minutes diligently counting each picture, completely blind to a prominent half-page message that read: \"Stop counting—There are 43 photographs in this newspaper.\" By contrast, lucky individuals, unencumbered by tunnel-vision anxiety, spotted the message within seconds.</p><p>Beyond environmental vigilance, the divergence between lucky and unlucky individuals is profoundly shaped by how they cognitively process misfortune. Psychological research indicates that lucky people naturally engage in \"downward counterfactual thinking\" when confronted with adversity. Rather than lamenting their bad luck, they instinctively imagine scenarios that could have been substantially worse. If a lucky person suffers a broken arm in a traffic collision, they tend to frame the event as a stroke of fortune, reasoning that the crash could have been fatal. Conversely, unlucky people engage in \"upward counterfactual thinking,\" dwelling obsessively on ideal scenarios and asking why negative occurrences continually afflict them. This constructive cognitive framing preserves emotional resilience and prevents setbacks from snowballing into chronic despair.</p><p>Furthermore, lucky individuals exhibit a pronounced reliance on intuitive judgment combined with optimistic persistence. [A] They routinely trust their instincts when evaluating interpersonal relationships and professional decisions. [B] Unlucky individuals, frequently paralyzed by neurotic second-guessing, often fail to act on intuitive cues. [C] Moreover, lucky individuals maintain a positive self-fulfilling prophecy: expecting positive outcomes motivates them to persevere through initial failures. [D] <strong>This resilient perseverance</strong> transforms apparent dead-ends into productive breakthroughs, reinforcing their subjective perception that fortune favors them.</p><p>Ultimately, modern psychology reveals that luck is not an unalterable verdict dictated by the stars, but a malleable mental orientation that can be consciously cultivated. By broadening perceptual focus, practicing constructive counterfactual reframing, trusting intuition, and persisting through adversity, individuals can systematically enhance their exposure to beneficial opportunities. Rather than passive victims of fate, human beings possess the cognitive agency to manufacture their own good fortune.</p>",
-      "vocab": [
-        {
-          "word": "capricious",
-          "pos": "adj",
-          "ipa": "/kəˈprɪʃ.əs/",
-          "level": "C1",
-          "mean": "thất thường, thay đổi bất chợt khó đoán",
-          "syns": [
-            "fickle",
-            "unpredictable",
-            "erratic"
-          ],
-          "ex": "Ancient sailors believed oceanic storms were caused by capricious sea gods."
-        },
-        {
-          "word": "serendipity",
-          "pos": "n",
-          "ipa": "/ˌser.ənˈdɪp.ə.ti/",
-          "level": "C1",
-          "mean": "sự tình cờ may mắn phát hiện điều quý giá",
-          "syns": [
-            "fluke",
-            "happy chance",
-            "coincidence"
-          ],
-          "ex": "Many scientific breakthroughs occurred through pure laboratory serendipity."
-        },
-        {
-          "word": "peripheral",
-          "pos": "adj",
-          "ipa": "/pəˈrɪf.ər.əl/",
-          "level": "B2",
-          "mean": "thuộc ngoại vi, rìa bên ngoài",
-          "syns": [
-            "outer",
-            "marginal",
-            "secondary"
-          ],
-          "ex": "Lucky individuals often notice peripheral information that focused people miss."
-        },
-        {
-          "word": "counterfactual",
-          "pos": "adj",
-          "ipa": "/ˌkaʊn.təˈfæk.tʃu.əl/",
-          "level": "C1",
-          "mean": "phản thực tế (tư duy suy diễn 'giá như')",
-          "syns": [
-            "hypothetical",
-            "contrary to fact"
-          ],
-          "ex": "Downward counterfactual thinking helps people feel grateful even during minor accidents."
-        },
-        {
-          "word": "afflict",
-          "pos": "v",
-          "ipa": "/əˈflɪkt/",
-          "level": "B2",
-          "mean": "làm phiền não, gây đau khổ, đày đọa",
-          "syns": [
-            "torment",
-            "burden",
-            "trouble"
-          ],
-          "ex": "Pessimistic thoughts often afflict individuals dealing with chronic career stress."
-        },
-        {
-          "word": "neurotic",
-          "pos": "adj",
-          "ipa": "/njʊəˈrɒt.ɪk/",
-          "level": "C1",
-          "mean": "lo âu thái quá, ám ảnh thần kinh",
-          "syns": [
-            "overanxious",
-            "obsessive",
-            "paranoid"
-          ],
-          "ex": "Neurotic worry can prevent talented individuals from seizing bold career opportunities."
-        },
-        {
-          "word": "prophecy",
-          "pos": "n",
-          "ipa": "/ˈprɒf.ə.si/",
-          "level": "B2",
-          "mean": "lời tiên tri, dự đoán tương lai",
-          "syns": [
-            "prediction",
-            "forecast",
-            "divination"
-          ],
-          "ex": "An optimistic mindset often becomes a self-fulfilling prophecy leading to success."
-        },
-        {
-          "word": "perseverance",
-          "pos": "n",
-          "ipa": "/ˌpɜː.sɪˈvɪə.rəns/",
-          "level": "B2",
-          "mean": "sự kiên trì, bền bỉ đến cùng",
-          "syns": [
-            "persistence",
-            "tenacity",
-            "endurance"
-          ],
-          "ex": "Scientific discovery requires relentless dedication and perseverance in the face of failure."
-        },
-        {
-          "word": "malleable",
-          "pos": "adj",
-          "ipa": "/ˈmæl.i.ə.bəl/",
-          "level": "C1",
-          "mean": "dễ uốn nắn, có thể thay đổi và rèn luyện được",
-          "syns": [
-            "adaptable",
-            "flexible",
-            "pliable"
-          ],
-          "ex": "Human cognitive traits are surprisingly malleable throughout adulthood."
-        },
-        {
-          "word": "agency",
-          "pos": "n",
-          "ipa": "/ˈeɪ.dʒən.si/",
-          "level": "C1",
-          "mean": "năng lực chủ động, quyền tự quyết",
-          "syns": [
-            "autonomy",
-            "control",
-            "self-determination"
-          ],
-          "ex": "Recognizing personal agency empowers individuals to overcome perceived bad luck."
-        }
-      ],
-      "questions": [
-        {
-          "id": 11,
-          "num": 11,
-          "question": "Which of the following would be the most suitable title for this passage?",
-          "questionVi": "Tiêu đề nào sau đây phù hợp nhất cho bài đọc?",
-          "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
-          "options": [
-            "The Mystical Power of Astrological Alignments",
-            "The Psychology of Luck: How Cognitive Habits Shape Good and Bad Fortune",
-            "Why Ancient Talismans Guarantee Financial Prosperity",
-            "Laboratory Instructions for Conducting Newspaper Experiments"
-          ],
-          "optionsVi": [
-            "Quyền năng thần bí của các vị trí sắp đặt chiêm tinh",
-            "Tâm lý học về sự may mắn: Các thói quen nhận thức định hình vận may và rủi ro như thế nào",
-            "Tại sao bùa hộ mệnh cổ xưa đảm bảo sự thịnh vượng tài chính",
-            "Hướng dẫn trong phòng thí nghiệm để thực hiện các thí nghiệm báo chí"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Groundbreaking empirical research demonstrates that luck is not an occult cosmic favor, but rather the psychological byproduct of distinct cognitive habits, behavioral patterns, and perceptual styles. [Paragraph 1 & Throughout]",
-          "evidenceVi": "Nghiên cứu thực nghiệm đột phá chứng minh rằng may mắn không phải là sự ưu ái vũ trụ huyền bí, mà là sản phẩm phụ tâm lý của các thói quen nhận thức, khuôn mẫu hành vi và phong cách cảm nhận rõ rệt. [Đoạn 1]",
-          "explanation": "Toàn bài phân tích may mắn dưới góc nhìn tâm lý học: sự chú ý ngoại vi (Đoạn 2), tư duy phản thực tế hướng xuống (Đoạn 3), trực giác và sự kiên trì (Đoạn 4), kết luận may mắn là năng lực có thể rèn luyện (Đoạn 5).",
-          "postReading": {
-            "type": "main_idea",
-            "typeLabel": "Tiêu đề phù hợp nhất (Best Title)",
-            "cluePassage": "luck is not an occult cosmic favor, but rather the psychological byproduct of distinct cognitive habits",
-            "clueAnswer": "The Psychology of Luck: How Cognitive Habits Shape Good and Bad Fortune",
-            "keyPassage": "psychological byproduct of cognitive habits",
-            "keyAnswer": "Psychology of Luck: How Cognitive Habits Shape Fortune",
-            "paraphrasePair": "psychological byproduct <=> psychology of luck | cognitive habits <=> cognitive habits",
-            "meaningVi": "sản phẩm phụ tâm lý <=> tâm lý học về may mắn | thói quen nhận thức",
-            "deductionLogic": "Phương án B thâu tóm toàn diện luận điểm khoa học của bài viết. A và C nói về mê tín mà bài bác bỏ; D chỉ là một tiểu tiết thí nghiệm nhỏ."
-          }
-        },
-        {
-          "id": 12,
-          "num": 12,
-          "question": "The word \"peripheral\" in paragraph 2 is closest in meaning to:",
-          "questionVi": "Từ \"peripheral\" trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "outer or secondary",
-            "centrally vital",
-            "extremely dangerous",
-            "completely hidden"
-          ],
-          "optionsVi": [
-            "thuộc vùng rìa ngoại vi hoặc phụ",
-            "trung tâm cốt lõi",
-            "cực kỳ nguy hiểm",
-            "hoàn toàn bị giấu kín"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "Lucky people consistently display a relaxed openness to their environment, which allows them to notice peripheral opportunities that others overlook. [Paragraph 2]",
-          "evidenceVi": "Những người may mắn liên tục thể hiện sự cởi mở thư thái trước môi trường xung quanh, điều này cho phép họ nhận ra những cơ hội ở vùng rìa ngoại vi mà người khác bỏ qua. [Đoạn 2]",
-          "explanation": "\"Peripheral\" nghĩa là ở vùng biên, vùng rìa xung quanh, không nằm trực diện ở trung tâm (outer, on the edge, secondary).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "allows them to notice peripheral opportunities that others overlook",
-            "clueAnswer": "outer or secondary",
-            "keyPassage": "peripheral opportunities",
-            "keyAnswer": "outer or secondary",
-            "paraphrasePair": "peripheral <=> outer or secondary",
-            "meaningVi": "ngoại vi, vùng rìa <=> ở bên ngoài hoặc mang tính phụ trợ",
-            "deductionLogic": "Trong ngữ cảnh tìm kiếm cơ hội ngoài luồng (không phải mục tiêu chính), 'peripheral' đồng nghĩa với 'outer or secondary'."
-          }
-        },
-        {
-          "id": 13,
-          "num": 13,
-          "question": "According to paragraph 2, what was the primary reason unlucky participants failed to see the message in the newspaper?",
-          "questionVi": "Theo đoạn 2, lý do chính khiến những người tham gia không may mắn không nhìn thấy thông điệp trên tờ báo là gì?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "The message was printed in a secret invisible code.",
-            "Their intense, narrow focus and anxiety created tunnel vision.",
-            "They were unable to read the English language.",
-            "The experimenters physically prevented them from turning the page."
-          ],
-          "optionsVi": [
-            "Thông điệp được in bằng một loại mật mã vô hình bí mật.",
-            "Sự tập trung quá mức, hạn hẹp và tâm lý lo âu đã tạo ra tầm nhìn hạn hẹp hình ống (tunnel vision).",
-            "Họ không biết đọc tiếng Anh.",
-            "Các nhà nghiên cứu đã ngăn cản họ lật trang báo."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "The unlucky participants spent minutes diligently counting each picture, completely blind to a prominent half-page message... unlucky individuals, encumbered by tunnel-vision anxiety... [Paragraph 2]",
-          "evidenceVi": "Những người tham gia không may mắn đã dành nhiều phút cặm cụi đếm từng bức ảnh, hoàn toàn mù tịt trước một thông điệp nổi bật chiếm nửa trang... bị cản trở bởi sự lo lắng tạo tầm nhìn hình ống... [Đoạn 2]",
-          "explanation": "Đoạn 2 chỉ rõ: họ quá cắm cúi đếm từng bức ảnh do tâm lý lo âu tạo ra tầm nhìn hạn hẹp hình ống ('tunnel-vision anxiety'), khiến họ mù tịt trước thông điệp to đùng giữa trang.",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết nguyên nhân (Factual Detail)",
-            "cluePassage": "The unlucky participants spent minutes diligently counting each picture, completely blind to a prominent half-page message... tunnel-vision anxiety",
-            "clueAnswer": "Their intense, narrow focus and anxiety created tunnel vision",
-            "keyPassage": "diligently counting, completely blind, tunnel-vision anxiety",
-            "keyAnswer": "narrow focus and anxiety created tunnel vision",
-            "paraphrasePair": "completely blind due to tunnel-vision anxiety <=> narrow focus and anxiety created tunnel vision",
-            "meaningVi": "mù tịt vì lo âu hạn chế tầm nhìn <=> tập trung hạn hẹp và lo âu tạo tầm nhìn hình ống",
-            "deductionLogic": "Phương án B giải thích chính xác cơ chế tâm lý cản trở người kém may mắn nhận diện cơ hội."
-          }
-        },
-        {
-          "id": 14,
-          "num": 14,
-          "question": "How do lucky individuals react to accidents according to paragraph 3?",
-          "questionVi": "Những người may mắn phản ứng như thế nào trước các tai nạn theo đoạn 3?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "They engage in downward counterfactual thinking by realizing it could have been much worse.",
-            "They blame their friends and file immediate lawsuits.",
-            "They assume that destiny has permanently abandoned them.",
-            "They pretend that no physical injury has occurred."
-          ],
-          "optionsVi": [
-            "Họ áp dụng tư duy phản thực tế hướng xuống bằng cách nhận ra sự việc có thể tồi tệ hơn rất nhiều.",
-            "Họ đổ lỗi cho bạn bè và ngay lập tức đệ đơn kiện tụng.",
-            "Họ cho rằng số phận đã vĩnh viễn ruồng bỏ họ.",
-            "Họ giả vờ như không có chấn thương thể xác nào xảy ra."
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "...lucky people naturally engage in \"downward counterfactual thinking\" when confronted with adversity. Rather than lamenting their bad luck, they instinctively imagine scenarios that could have been substantially worse. [Paragraph 3]",
-          "evidenceVi": "...những người may mắn tự nhiên áp dụng \"tư duy phản thực tế hướng xuống\" khi đối mặt với nghịch cảnh. Thay vì than thở, họ tưởng tượng ra những kịch bản có thể tồi tệ hơn rất nhiều. [Đoạn 3]",
-          "explanation": "Đoạn 3 giải thích cơ chế: 'downward counterfactual thinking' là tự nhủ sự việc đáng lẽ có thể tồi tệ hơn nhiều (như gãy tay nhưng may là không mất mạng), giúp duy trì tâm lý tích cực.",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết tâm lý (Factual Detail)",
-            "cluePassage": "engage in \"downward counterfactual thinking\"... instinctively imagine scenarios that could have been substantially worse",
-            "clueAnswer": "They engage in downward counterfactual thinking by realizing it could have been much worse",
-            "keyPassage": "downward counterfactual thinking, imagine scenarios substantially worse",
-            "keyAnswer": "downward counterfactual thinking by realizing it could have been much worse",
-            "paraphrasePair": "scenarios that could have been substantially worse <=> realizing it could have been much worse",
-            "meaningVi": "kịch bản có thể tồi tệ hơn nhiều <=> nhận ra sự việc có thể tồi tệ hơn",
-            "deductionLogic": "Phương án A trích xuất trực tiếp thuật ngữ và định nghĩa từ câu mở đầu của đoạn 3."
-          }
-        },
-        {
-          "id": 15,
-          "num": 15,
-          "question": "Which of the following is NOT described as a characteristic of lucky people in paragraphs 2, 3, and 4?",
-          "questionVi": "Điều nào sau đây KHÔNG được miêu tả như một đặc điểm của người may mắn trong các đoạn 2, 3 và 4?",
-          "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
-          "options": [
-            "Relaxed attentional openness to peripheral opportunities",
-            "Downward counterfactual reframing of negative events",
-            "Constant paralysis caused by neurotic second-guessing",
-            "Trusting intuitive hunches and optimistic persistence"
-          ],
-          "optionsVi": [
-            "Sự cởi mở chú ý thư thái trước các cơ hội ở vùng rìa",
-            "Tái cấu trúc nhận thức phản thực tế hướng xuống khi gặp sự cố",
-            "Sự tê liệt liên tục do những ngờ vực lo âu thái quá",
-            "Tin tưởng vào trực giác và sự kiên trì lạc quan"
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "Unlucky individuals, frequently paralyzed by neurotic second-guessing, often fail to act on intuitive cues. [Paragraph 4]",
-          "evidenceVi": "Đoạn 4 nói rõ: Những người KHÔNG may mắn (unlucky individuals) mới thường xuyên bị tê liệt bởi sự ngờ vực lo âu thái quá (paralyzed by neurotic second-guessing).",
-          "explanation": "Phương án C là đặc điểm của người xui xẻo (unlucky people), không phải của người may mắn.",
-          "postReading": {
-            "type": "negative",
-            "typeLabel": "Thông tin loại trừ (Negative Detail)",
-            "cluePassage": "Unlucky individuals, frequently paralyzed by neurotic second-guessing",
-            "clueAnswer": "Constant paralysis caused by neurotic second-guessing",
-            "keyPassage": "unlucky individuals paralyzed by neurotic second-guessing",
-            "keyAnswer": "paralysis belongs to unlucky people",
-            "paraphrasePair": "paralyzed by neurotic second-guessing <=> characteristic of unlucky people",
-            "meaningVi": "bị tê liệt vì lo âu ngờ vực <=> đặc trưng của người xui xẻo",
-            "deductionLogic": "Phương án C bị gán nhầm đối tượng (thuộc nhóm unlucky, không phải lucky)."
-          }
-        },
-        {
-          "id": 16,
-          "num": 16,
-          "question": "The phrase \"This constructive cognitive framing\" in paragraph 3 refers to:",
-          "questionVi": "Cụm từ \"This constructive cognitive framing\" trong đoạn 3 ám chỉ điều gì?",
-          "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
-          "options": [
-            "purchasing lottery tickets every week",
-            "imagining worse possible outcomes rather than dwelling on ideal scenarios",
-            "ignoring traffic laws to test personal fortune",
-            "visiting palm readers and astrologers"
-          ],
-          "optionsVi": [
-            "việc mua vé số hàng tuần",
-            "việc hình dung các kết cục có thể tồi tệ hơn thay vì dằn vặt về các kịch bản lý tưởng",
-            "việc phớt lờ luật giao thông để thử vận may cá nhân",
-            "việc đi xem bói chỉ tay và các nhà chiêm tinh"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Rather than lamenting their bad luck, they instinctively imagine scenarios that could have been substantially worse... This constructive cognitive framing preserves emotional resilience... [Paragraph 3]",
-          "evidenceVi": "Thay vì than vãn, họ tưởng tượng các kịch bản có thể tồi tệ hơn nhiều... Lối định hình nhận thức mang tính xây dựng này bảo tồn khả năng kiên cường cảm xúc... [Đoạn 3]",
-          "explanation": "\"This constructive cognitive framing\" (lối đóng khung nhận thức mang tính xây dựng này) quy chiếu về tư duy phản thực tế hướng xuống: tự nhủ rằng tình huống có thể đã tồi tệ hơn rất nhiều.",
-          "postReading": {
-            "type": "reference",
-            "typeLabel": "Quy chiếu khái niệm (Reference)",
-            "cluePassage": "imagine scenarios that could have been substantially worse... This constructive cognitive framing preserves emotional resilience",
-            "clueAnswer": "imagining worse possible outcomes rather than dwelling on ideal scenarios",
-            "keyPassage": "imagine scenarios substantially worse",
-            "keyAnswer": "imagining worse possible outcomes",
-            "paraphrasePair": "constructive cognitive framing => imagining worse scenarios",
-            "meaningVi": "đóng khung nhận thức mang tính xây dựng => hình dung tình huống tồi tệ hơn",
-            "deductionLogic": "Cụm 'This constructive cognitive framing' thay thế cho hành vi tâm lý diễn ra ở câu liền trước."
-          }
-        },
-        {
-          "id": 17,
-          "num": 17,
-          "question": "The word \"malleable\" in paragraph 5 is closest in meaning to:",
-          "questionVi": "Từ \"malleable\" trong đoạn 5 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "adaptable and trainable",
-            "rigid and permanent",
-            "mysterious and supernatural",
-            "genetically predetermined"
-          ],
-          "optionsVi": [
-            "có thể thích ứng và rèn luyện được",
-            "cứng nhắc và bất biến",
-            "bí ẩn và siêu nhiên",
-            "được định sẵn do di truyền"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "Ultimately, modern psychology reveals that luck is not an unalterable verdict dictated by the stars, but a malleable mental orientation that can be consciously cultivated. [Paragraph 5]",
-          "evidenceVi": "Cuối cùng, tâm lý học hiện đại chỉ ra rằng may mắn không phải là phán quyết bất di bất dịch của các vì sao, mà là một định hướng tinh thần có thể uốn nắn và trau dồi có ý thức. [Đoạn 5]",
-          "explanation": "\"Malleable\" mang nghĩa bóng là có thể uốn nắn, thay đổi, rèn giũa được (adaptable, capable of being shaped or trained).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "a malleable mental orientation that can be consciously cultivated",
-            "clueAnswer": "adaptable and trainable",
-            "keyPassage": "malleable",
-            "keyAnswer": "adaptable and trainable",
-            "paraphrasePair": "malleable <=> adaptable and trainable",
-            "meaningVi": "dễ uốn nắn, thay đổi được <=> có thể thích ứng và rèn luyện được",
-            "deductionLogic": "Đoạn văn đối lập giữa 'unalterable' (không thể đổi) với 'malleable... can be consciously cultivated' (có thể rèn luyện)."
-          }
-        },
-        {
-          "id": 18,
-          "num": 18,
-          "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"Because their gut feelings are informed by subtle subconscious pattern recognition, these rapid choices often prove accurate.\"\nWhere would the sentence best fit?",
-          "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
-          "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
-          "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
-          ],
-          "optionsVi": [
-            "Vị trí [A]",
-            "Vị trí [B]",
-            "Vị trí [C]",
-            "Vị trí [D]"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "[A] They routinely trust their instincts when evaluating interpersonal relationships and professional decisions. [B] Unlucky individuals, frequently paralyzed by neurotic second-guessing... [Paragraph 4]",
-          "evidenceVi": "Vị trí [B] đứng ngay sau câu khẳng định người may mắn tin vào trực giác ('trust their instincts'), để giải thích tại sao cảm giác trực giác ('gut feelings') lại mang lại sự lựa chọn chính xác ('these rapid choices often prove accurate').",
-          "explanation": "\"Gut feelings\" và \"these rapid choices\" liên kết trực tiếp với \"trust their instincts when evaluating decisions\" ở câu trước [B].",
-          "postReading": {
-            "type": "insertion",
-            "typeLabel": "Điền câu logic (Sentence Insertion)",
-            "cluePassage": "routinely trust their instincts when evaluating interpersonal relationships and professional decisions. [B]",
-            "clueAnswer": "[B]",
-            "keyPassage": "trust their instincts when evaluating decisions",
-            "keyAnswer": "gut feelings... these rapid choices",
-            "paraphrasePair": "instincts <=> gut feelings | decisions <=> rapid choices",
-            "meaningVi": "trực giác bản năng <=> linh cảm | quyết định <=> lựa chọn nhanh chóng",
-            "deductionLogic": "Móc xích 'gut feelings' và 'these rapid choices' giải thích cơ chế khoa học cho câu nói về trực giác trước vị trí [B]."
-          }
-        },
-        {
-          "id": 19,
-          "num": 19,
-          "question": "According to paragraph 4, what happens when lucky individuals encounter initial failures?",
-          "questionVi": "Theo đoạn 4, điều gì xảy ra khi những người may mắn gặp phải những thất bại ban đầu?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "They immediately surrender and accept lifelong defeat.",
-            "Their expectation of positive outcomes motivates them to persevere and find breakthroughs.",
-            "They consult fortune tellers to reverse evil curses.",
-            "They stop working and depend entirely on charitable donations."
-          ],
-          "optionsVi": [
-            "Họ đầu hàng ngay lập tức và chấp nhận thất bại cả đời.",
-            "Sự kỳ vọng vào các kết quả tích cực thúc đẩy họ kiên trì và tìm ra các bước đột phá.",
-            "Họ đi xem bói để giải các lời nguyền ác độc.",
-            "Họ ngừng làm việc và phụ thuộc hoàn toàn vào tiền quyên góp từ thiện."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "...expecting positive outcomes motivates them to persevere through initial failures. This resilient perseverance transforms apparent dead-ends into productive breakthroughs... [Paragraph 4]",
-          "evidenceVi": "...kỳ vọng vào những kết quả tích cực thúc đẩy họ kiên trì vượt qua những thất bại ban đầu. Sự kiên trì bền bỉ này biến những ngõ cụt tưởng chừng bế tắc thành những bước đột phá hiệu quả... [Đoạn 4]",
-          "explanation": "Đoạn 4 khẳng định: kỳ vọng vào kết quả tốt ('expecting positive outcomes') thúc đẩy họ kiên trì ('persevere') và biến bế tắc thành bước đột phá ('productive breakthroughs').",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết phản ứng (Factual Detail)",
-            "cluePassage": "expecting positive outcomes motivates them to persevere through initial failures. This resilient perseverance transforms apparent dead-ends into productive breakthroughs",
-            "clueAnswer": "Their expectation of positive outcomes motivates them to persevere and find breakthroughs",
-            "keyPassage": "expecting positive outcomes motivates them to persevere, breakthroughs",
-            "keyAnswer": "expectation of positive outcomes motivates them to persevere and find breakthroughs",
-            "paraphrasePair": "persevere through failures to breakthroughs <=> persevere and find breakthroughs",
-            "meaningVi": "kiên trì vượt qua thất bại để đột phá",
-            "deductionLogic": "Phương án B tóm lược đầy đủ quan hệ nguyên nhân - kết quả được phân tích ở cuối đoạn 4."
-          }
-        },
-        {
-          "id": 20,
-          "num": 20,
-          "question": "What is the primary conclusion drawn by the author in the final paragraph?",
-          "questionVi": "Kết luận chính được tác giả rút ra trong đoạn cuối là gì?",
-          "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN / KẾT LUẬN (Conclusion)",
-          "options": [
-            "Human beings are powerless victims of predetermined astrological fate.",
-            "Luck can be actively cultivated and generated through deliberate psychological habits.",
-            "Scientific psychology has officially endorsed the validity of good luck charms.",
-            "Unlucky individuals should avoid making any significant life decisions."
-          ],
-          "optionsVi": [
-            "Con người là những nạn nhân bất lực trước số phận chiêm tinh đã định sẵn.",
-            "May mắn có thể được chủ động trau dồi và tạo ra thông qua các thói quen tâm lý có chủ đích.",
-            "Tâm lý học khoa học đã chính thức công nhận giá trị của bùa may mắn.",
-            "Những người kém may mắn nên tránh đưa ra bất kỳ quyết định quan trọng nào trong đời."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "Rather than passive victims of fate, human beings possess the cognitive agency to manufacture their own good fortune. [Paragraph 5]",
-          "evidenceVi": "Thay vì là những nạn nhân thụ động của số phận, con người sở hữu năng lực nhận thức chủ động để tự tạo ra vận may cho chính mình. [Đoạn 5]",
-          "explanation": "Tác giả kết luận: con người không phải nạn nhân thụ động mà có năng lực tự quyết ('cognitive agency') để tự tạo ra vận may ('manufacture their own good fortune') bằng cách rèn luyện thói quen tinh thần.",
-          "postReading": {
-            "type": "inference",
-            "typeLabel": "Kết luận tác giả (Conclusion)",
-            "cluePassage": "Rather than passive victims of fate, human beings possess the cognitive agency to manufacture their own good fortune.",
-            "clueAnswer": "Luck can be actively cultivated and generated through deliberate psychological habits.",
-            "keyPassage": "cognitive agency to manufacture their own good fortune",
-            "keyAnswer": "actively cultivated and generated through deliberate psychological habits",
-            "paraphrasePair": "manufacture good fortune <=> actively cultivate and generate luck | cognitive agency <=> deliberate psychological habits",
-            "meaningVi": "tự tạo ra vận may <=> chủ động nuôi dưỡng và tạo ra may mắn | năng lực nhận thức <=> thói quen tâm lý",
-            "deductionLogic": "Câu kết luận đúc rút thông điệp chủ đạo của bài: may mắn nằm trong tầm kiểm soát của tư duy con người."
-          }
-        }
-      ]
-    },
-    {
-      "partId": 3,
-      "title": "Passage 3: Asian Labor Discrimination in United States History",
-      "topic": "Lịch sử lao động & Những cuộc đấu tranh chống phân biệt đối xử của người gốc Á tại Mỹ",
-      "timeAllowed": 15,
-      "passage": "<p>The mid-nineteenth century marked the genesis of large-scale Asian labor migration to the United States, an epochal movement propelled by economic opportunities surrounding the California Gold Rush and western infrastructure expansion. Arriving primarily from southern China, these early migrant workers sought to escape severe domestic turmoil, poverty, and political unrest. Their contributions were paramount in transforming the American West from a rugged frontier into an interconnected economic powerhouse. Most notably, between 1865 and 1869, approximately twelve thousand Chinese laborers formed the backbone of the Central Pacific Railroad workforce, undertaking the <strong>arduous</strong> task of blasting through the granite precipices of the Sierra Nevada mountains to complete the western segment of the First Transcontinental Railroad.</p><p>Despite their indispensable economic contributions, Asian laborers were subjected to virulent systemic discrimination and institutionalized racism. Chinese railroad workers were routinely paid thirty to fifty percent less than their white counterparts and were forced to pay for their own food and lodging, while white workers received provisions free of charge. Furthermore, they were assigned the most perilous duties, such as handling highly volatile nitroglycerin explosives and working through sub-zero winter blizzards. When the railroad was completed at Promontory Summit in 1869, Chinese workers were deliberately excluded from official celebratory photographs. During the economic depression of the 1870s, demagogic politicians and labor unions scapegoated Asian workers for wage stagnation, culminating in the federal passage of the Chinese Exclusion Act of 1882—the first legislation in American history to explicitly prohibit an entire ethnic group from immigrating and obtaining naturalized citizenship.</p><p>As Chinese immigration was curtailed, western agribusiness and industrial enterprises turned to other Asian nationalities, recruiting Japanese, Filipino, Korean, and Punjabi laborers to harvest crops, operate salmon canneries, and clear agricultural lands. In the territories of Hawaii and California, these laborers encountered rigid labor stratification. Employers enforced ethnic segregation in plantation barracks and established differential wage tiers designed to prevent inter-ethnic solidarity. Furthermore, early twentieth-century legislation, such as the California Alien Land Laws, systematically prohibited non-citizen Asian immigrants from purchasing or leasing agricultural land. In response, Asian workers organized pioneering labor strikes, such as the 1903 Oxnard sugar beet strike and the 1920 Oahu plantation strike, demanding equitable remuneration and fundamental human dignity.</p><p>Following World War II and the geopolitical realignment of the Cold War, the nature of Asian labor representation underwent a calculated transformation. [A] In the 1960s, American media and political commentators fabricated the \"Model Minority\" stereotype. [B] This narrative lauded Asian Americans as an exceptionally industrious, compliant, and academically accomplished demographic that had supposedly overcome racial prejudice purely through quiet perseverance without governmental aid. [C] However, historians emphasize that this seemingly flattering caricature was weaponized for political objectives. [D] <strong>This ideological construct</strong> was strategically deployed to discredit the civil rights claims of other minority groups while obscuring the intense economic precarity that continued to burden marginalized segments of the Asian American population.</p><p>The legacy of historical labor discrimination continues to reverberate in the contemporary American workforce. While Asian Americans today exhibit high rates of educational attainment and representation in professional, scientific, and technical sectors, they remain conspicuously underrepresented in senior corporate executive suites, university presidencies, and political governance—a structural barrier commonly termed the \"bamboo ceiling.\" Furthermore, persistent stereotypes depicting Asian workers as passive technical functionaries rather than visionary leaders perpetuate workplace inequities. A comprehensive understanding of American labor history requires recognizing that Asian workers were neither passive victims nor silent beneficiaries, but active, indispensable agents whose labor, struggles, and advocacy helped forge the modern nation.</p>",
-      "vocab": [
-        {
-          "word": "arduous",
-          "pos": "adj",
-          "ipa": "/ˈɑː.dʒu.əs/",
-          "level": "C1",
-          "mean": "gian khổ, đòi hỏi nhiều sức lực và nỗ lực",
-          "syns": [
-            "strenuous",
-            "laborious",
-            "grueling"
-          ],
-          "ex": "Carving railroad tunnels through frozen granite mountains was an arduous endeavor."
-        },
-        {
-          "word": "virulent",
-          "pos": "adj",
-          "ipa": "/ˈvɪr.jə.lənt/",
-          "level": "C1",
-          "mean": "hiểm độc, gay gắt, đầy thù hận",
-          "syns": [
-            "hostile",
-            "malicious",
-            "venomous"
-          ],
-          "ex": "Immigrant laborers faced virulent hostility from nativist political organizations."
-        },
-        {
-          "word": "scapegoat",
-          "pos": "v",
-          "ipa": "/ˈskeɪp.ɡəʊt/",
-          "level": "C1",
-          "mean": "đổ lỗi oan, coi là vật tế thần",
-          "syns": [
-            "blame unfairly",
-            "target",
-            "victimize"
-          ],
-          "ex": "Minority workers are frequently scapegoated for broader economic recessions."
-        },
-        {
-          "word": "stratification",
-          "pos": "n",
-          "ipa": "/ˌstræt.ɪ.fɪˈkeɪ.ʃən/",
-          "level": "B2",
-          "mean": "sự phân tầng, phân cấp bậc xã hội/lao động",
-          "syns": [
-            "hierarchical division",
-            "ranking",
-            "layering"
-          ],
-          "ex": "Plantation owners maintained strict racial stratification to suppress worker strikes."
-        },
-        {
-          "word": "remuneration",
-          "pos": "n",
-          "ipa": "/rɪˌmjuː.nərˈeɪ.ʃən/",
-          "level": "C1",
-          "mean": "tiền thù lao, tiền công chi trả",
-          "syns": [
-            "compensation",
-            "wages",
-            "payment"
-          ],
-          "ex": "Laborers organized widespread strikes to demand fair remuneration and safe working hours."
-        },
-        {
-          "word": "laud",
-          "pos": "v",
-          "ipa": "/lɔːd/",
-          "level": "C1",
-          "mean": "ca ngợi, tán dương",
-          "syns": [
-            "praise",
-            "extol",
-            "commend"
-          ],
-          "ex": "Commentators lauded the community for academic achievements while ignoring institutional obstacles."
-        },
-        {
-          "word": "caricature",
-          "pos": "n",
-          "ipa": "/ˈkær.ɪ.kə.tʃʊər/",
-          "level": "C1",
-          "mean": "bức tranh biếm họa, hình ảnh bóp méo đơn giản hóa",
-          "syns": [
-            "distortion",
-            "stereotype",
-            "parody"
-          ],
-          "ex": "The model minority caricature obscures the diverse economic realities of different immigrant groups."
-        },
-        {
-          "word": "precarity",
-          "pos": "n",
-          "ipa": "/prɪˈkeə.rə.ti/",
-          "level": "C1",
-          "mean": "tình trạng bấp bênh, thiếu an toàn",
-          "syns": [
-            "insecurity",
-            "instability",
-            "vulnerability"
-          ],
-          "ex": "Many service workers continue to endure extreme financial precarity despite working long hours."
-        },
-        {
-          "word": "reverberate",
-          "pos": "v",
-          "ipa": "/rɪˈvɜː.bər.eɪt/",
-          "level": "C1",
-          "mean": "dội lại, còn vang vọng và để lại hệ quả lâu dài",
-          "syns": [
-            "echo",
-            "resonate",
-            "persist"
-          ],
-          "ex": "The consequences of historic exclusion laws still reverberate across minority communities today."
-        },
-        {
-          "word": "bamboo ceiling",
-          "pos": "n",
-          "ipa": "/bæmˈbuː ˈsiː.lɪŋ/",
-          "level": "C1",
-          "mean": "rào cản vô hình đối với người Mỹ gốc Á trong việc thăng tiến lên cấp lãnh đạo",
-          "syns": [
-            "invisible barrier",
-            "promotion obstacle"
-          ],
-          "ex": "Advocacy groups actively combat the bamboo ceiling in Fortune 500 executive suites."
-        }
-      ],
-      "questions": [
-        {
-          "id": 21,
-          "num": 21,
-          "question": "What is the primary purpose of the passage?",
-          "questionVi": "Mục đích chính của bài đọc là gì?",
-          "questionType": "DẠNG 06: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
-          "options": [
-            "To provide a comprehensive examination of the critical contributions, systemic discrimination, and enduring labor struggles of Asian Americans",
-            "To celebrate the architectural engineering of the First Transcontinental Railroad without discussing race",
-            "To prove that Asian Americans have never experienced any form of legislative prejudice",
-            "To discourage young Asian Americans from pursuing careers in technological engineering"
-          ],
-          "optionsVi": [
-            "Khảo sát toàn diện về những đóng góp quan trọng, sự phân biệt đối xử mang tính hệ thống và những cuộc đấu tranh lao động bền bỉ của người Mỹ gốc Á",
-            "Ca ngợi kỹ thuật kiến trúc của Tuyến đường sắt xuyên lục địa mà không thảo luận về chủng tộc",
-            "Chứng minh rằng người Mỹ gốc Á chưa bao giờ trải qua bất kỳ hình thức định kiến pháp lý nào",
-            "Khuyên ngăn thanh niên Mỹ gốc Á theo đuổi sự nghiệp trong ngành kỹ thuật công nghệ"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "A comprehensive understanding of American labor history requires recognizing that Asian workers were neither passive victims nor silent beneficiaries, but active, indispensable agents whose labor, struggles, and advocacy helped forge the modern nation. [Paragraph 1 through 5]",
-          "evidenceVi": "Một sự hiểu biết toàn diện về lịch sử lao động Mỹ đòi hỏi phải nhận thức rằng công nhân châu Á... là những nhân tố tích cực, không thể thiếu mà sức lao động, cuộc đấu tranh và sự vận động của họ đã góp phần tạo dựng nên quốc gia hiện đại. [Đoạn 1-5]",
-          "explanation": "Toàn bài phân tích lịch sử lao động châu Á từ đường sắt (Đoạn 1), đạo luật bài trừ (Đoạn 2), phong trào công đoàn nông nghiệp (Đoạn 3), huyền thoại người thiểu số kiểu mẫu (Đoạn 4) đến rào cản trần tre hiện đại (Đoạn 5).",
-          "postReading": {
-            "type": "purpose",
-            "typeLabel": "Mục đích toàn bài (Primary Purpose)",
-            "cluePassage": "Asian workers were neither passive victims nor silent beneficiaries, but active, indispensable agents whose labor, struggles, and advocacy helped forge the modern nation.",
-            "clueAnswer": "To provide a comprehensive examination of the critical contributions, systemic discrimination, and enduring labor struggles of Asian Americans",
-            "keyPassage": "labor, struggles, and advocacy helped forge the modern nation",
-            "keyAnswer": "examination of contributions, discrimination, and labor struggles",
-            "paraphrasePair": "labor, struggles, advocacy <=> contributions, discrimination, struggles",
-            "meaningVi": "lao động, đấu tranh, vận động quyền lợi <=> đóng góp, phân biệt, đấu tranh lao động",
-            "deductionLogic": "Phương án A bao hàm đầy đủ toàn bộ trục nội dung lịch sử - xã hội được phân tích trong 5 đoạn."
-          }
-        },
-        {
-          "id": 22,
-          "num": 22,
-          "question": "The word \"arduous\" in paragraph 1 is closest in meaning to:",
-          "questionVi": "Từ \"arduous\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "extremely difficult and physically demanding",
-            "enjoyable and entertaining",
-            "financially effortless",
-            "strictly automated"
-          ],
-          "optionsVi": [
-            "cực kỳ khó khăn và đòi hỏi nhiều sức lực",
-            "thú vị và mang tính giải trí",
-            "không tốn kém công sức tài chính",
-            "hoàn toàn tự động hóa"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "...undertaking the arduous task of blasting through the granite precipices of the Sierra Nevada mountains to complete the western segment... [Paragraph 1]",
-          "evidenceVi": "...đảm nhận nhiệm vụ gian khổ là nổ mìn phá vách đá hoa cương của dãy núi Sierra Nevada để hoàn thành đoạn phía tây... [Đoạn 1]",
-          "explanation": "\"Arduous\" có nghĩa là gian nan, cực khổ, đòi hỏi nhiều nỗ lực thể chất (demanding great physical effort and strenuous).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "arduous task of blasting through the granite precipices",
-            "clueAnswer": "extremely difficult and physically demanding",
-            "keyPassage": "arduous task",
-            "keyAnswer": "extremely difficult and physically demanding",
-            "paraphrasePair": "arduous <=> physically demanding / difficult",
-            "meaningVi": "gian nan, vất vả <=> cực kỳ khó khăn và đòi hỏi nhiều sức lực",
-            "deductionLogic": "Việc đục phá núi đá hoa cương trong điều kiện thời tiết khắc nghiệt là minh chứng rõ nét cho tính chất 'arduous'."
-          }
-        },
-        {
-          "id": 23,
-          "num": 23,
-          "question": "According to paragraph 2, in what ways were Chinese railroad laborers subjected to unequal treatment compared to white workers?",
-          "questionVi": "Theo đoạn 2, những công nhân đường sắt người Hoa đã phải chịu sự đối xử bất bình đẳng so với công nhân da trắng ở những phương diện nào?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "They were paid significantly lower wages, forced to purchase their own food, and given the most hazardous assignments.",
-            "They were given executive leadership positions over white managers.",
-            "They were granted free luxury housing while white workers lived in tents.",
-            "They were exempt from working in freezing weather conditions."
-          ],
-          "optionsVi": [
-            "Họ bị trả lương thấp hơn đáng kể, buộc phải tự mua đồ ăn và bị giao những công việc nguy hiểm nhất.",
-            "Họ được trao các vị trí lãnh đạo điều hành cao hơn các nhà quản lý da trắng.",
-            "Họ được cấp nhà ở sang trọng miễn phí trong khi công nhân da trắng phải ở lều.",
-            "Họ được miễn làm việc trong điều kiện thời tiết băng giá."
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "Chinese railroad workers were routinely paid thirty to fifty percent less than their white counterparts and were forced to pay for their own food and lodging... assigned the most perilous duties, such as handling highly volatile nitroglycerin... [Paragraph 2]",
-          "evidenceVi": "Công nhân đường sắt người Hoa thường bị trả lương thấp hơn từ 30 đến 50% so với đồng nghiệp da trắng và phải tự trả tiền ăn ở... bị giao những nhiệm vụ nguy hiểm nhất như xử lý thuốc nổ nitroglycerin... [Đoạn 2]",
-          "explanation": "Đoạn 2 nêu rõ 3 hình thức bóc lột bất công: lương thấp hơn 30-50%, phải tự mua thức ăn chỗ ở, và phải làm việc nguy hiểm nhất (xử lý thuốc nổ nitroglycerin dưới bão tuyết).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết bất bình đẳng (Factual Detail)",
-            "cluePassage": "paid thirty to fifty percent less... forced to pay for their own food and lodging... assigned the most perilous duties",
-            "clueAnswer": "They were paid significantly lower wages, forced to purchase their own food, and given the most hazardous assignments",
-            "keyPassage": "paid less, pay for own food, perilous duties",
-            "keyAnswer": "lower wages, purchase own food, hazardous assignments",
-            "paraphrasePair": "perilous duties <=> hazardous assignments | paid less <=> lower wages",
-            "meaningVi": "nhiệm vụ hiểm nghèo <=> công việc nguy hiểm | trả lương thấp hơn",
-            "deductionLogic": "Phương án A liệt kê chuẩn xác 100% cả 3 chi tiết phân biệt đối xử được nêu ở đoạn 2."
-          }
-        },
-        {
-          "id": 24,
-          "num": 24,
-          "question": "According to paragraph 2, what was historically significant about the Chinese Exclusion Act of 1882?",
-          "questionVi": "Theo đoạn 2, Đạo luật Bài trừ người Hoa năm 1882 có ý nghĩa lịch sử đặc biệt nào?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "It provided free transatlantic passage for all international tourists.",
-            "It was the first federal law explicitly banning immigration and naturalization for an entire ethnic group.",
-            "It established the first bilingual university system in California.",
-            "It legally required railroad companies to double the wages of all immigrant workers."
-          ],
-          "optionsVi": [
-            "Nó cung cấp vé tàu xuyên Đại Tây Dương miễn phí cho mọi khách du lịch quốc tế.",
-            "Đó là đạo luật liên bang đầu tiên cấm nhập cư và nhập tịch một cách rõ ràng đối với toàn bộ một nhóm sắc tộc.",
-            "Nó thành lập hệ thống trường đại học song ngữ đầu tiên ở California.",
-            "Nó yêu cầu các công ty đường sắt phải tăng gấp đôi lương cho tất cả công nhân nhập cư."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "...the Chinese Exclusion Act of 1882—the first legislation in American history to explicitly prohibit an entire ethnic group from immigrating and obtaining naturalized citizenship. [Paragraph 2]",
-          "evidenceVi": "...Đạo luật Bài trừ người Hoa năm 1882—đạo luật đầu tiên trong lịch sử nước Mỹ nghiêm cấm một cách rõ ràng toàn bộ một nhóm sắc tộc nhập cư và có được quốc tịch. [Đoạn 2]",
-          "explanation": "Đoạn 2 khẳng định đây là đạo luật đầu tiên trong lịch sử Mỹ cấm nhập cư và nhập tịch nhắm cụ thể vào một sắc tộc ('first legislation to explicitly prohibit an entire ethnic group').",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết đạo luật (Factual Detail)",
-            "cluePassage": "the first legislation in American history to explicitly prohibit an entire ethnic group from immigrating and obtaining naturalized citizenship",
-            "clueAnswer": "It was the first federal law explicitly banning immigration and naturalization for an entire ethnic group",
-            "keyPassage": "first legislation in American history to explicitly prohibit an entire ethnic group",
-            "keyAnswer": "first federal law explicitly banning immigration and naturalization for an entire ethnic group",
-            "paraphrasePair": "first legislation to explicitly prohibit <=> first federal law explicitly banning",
-            "meaningVi": "đạo luật đầu tiên nghiêm cấm rõ ràng <=> luật liên bang đầu tiên cấm rõ ràng",
-            "deductionLogic": "Phương án B phản ánh chính xác từng từ trong câu định nghĩa lịch sử ở cuối đoạn 2."
-          }
-        },
-        {
-          "id": 25,
-          "num": 25,
-          "question": "Which of the following tactics used by plantation and enterprise owners is NOT mentioned in paragraph 3?",
-          "questionVi": "Chiến thuật nào sau đây được các chủ đồn điền và doanh nghiệp sử dụng KHÔNG được đề cập trong đoạn 3?",
-          "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
-          "options": [
-            "Housing different ethnic groups in segregated plantation barracks",
-            "Establishing differential wage tiers to prevent worker solidarity",
-            "Offering full company ownership shares to all immigrant field laborers",
-            "Utilizing legislation like the Alien Land Laws to bar land ownership"
-          ],
-          "optionsVi": [
-            "Chia tách các nhóm sắc tộc khác nhau vào các khu lán trại đồn điền riêng biệt",
-            "Thiết lập các bậc lương chênh lệch để ngăn chặn sự đoàn kết của công nhân",
-            "Tặng toàn bộ cổ phần sở hữu công ty cho tất cả lao động đồng ruộng nhập cư",
-            "Sử dụng luật pháp như Luật Đất đai Ngoại kiều để ngăn cấm quyền sở hữu đất"
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "Employers enforced ethnic segregation in plantation barracks and established differential wage tiers designed to prevent inter-ethnic solidarity... California Alien Land Laws, systematically prohibited non-citizen Asian immigrants from purchasing or leasing agricultural land. [Paragraph 3]",
-          "evidenceVi": "Đoạn 3 liệt kê 3 thủ đoạn: chia lán trại theo sắc tộc (A), trả lương chênh lệch để chia rẽ đoàn kết (B), dùng luật cấm mua bán đất đai (D). Việc tặng cổ phần công ty (C) là hoàn toàn bịa đặt và không hề có trong bài.",
-          "explanation": "Chủ đồn điền bóc lột và chia rẽ công nhân, hoàn toàn không có chuyện tặng cổ phần sở hữu công ty (company ownership shares).",
-          "postReading": {
-            "type": "negative",
-            "typeLabel": "Thông tin loại trừ (Negative Detail)",
-            "cluePassage": "segregation in plantation barracks... differential wage tiers... prohibited from purchasing or leasing land",
-            "clueAnswer": "Offering full company ownership shares to all immigrant field laborers",
-            "keyPassage": "segregation, differential wage tiers, Alien Land Laws",
-            "keyAnswer": "company ownership shares is contradictory to historical labor exploitation",
-            "paraphrasePair": "labor exploitation <=> opposite of company ownership",
-            "meaningVi": "bóc lột lao động <=> trái ngược với việc chia sẻ quyền sở hữu công ty",
-            "deductionLogic": "Phương án C đưa ra điều phi lý và hoàn toàn không xuất hiện trong nội dung đoạn 3."
-          }
-        },
-        {
-          "id": 26,
-          "num": 26,
-          "question": "The phrase \"This ideological construct\" in paragraph 4 refers to:",
-          "questionVi": "Cụm từ \"This ideological construct\" trong đoạn 4 ám chỉ điều gì?",
-          "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
-          "options": [
-            "the architectural blueprints of plantation barracks",
-            "the \"Model Minority\" stereotype depicting Asian Americans as docile and self-reliant",
-            "the official constitution of early agricultural labor unions",
-            "the engineering equations used for blasting mountain tunnels"
-          ],
-          "optionsVi": [
-            "bản thiết kế kiến trúc của các lán trại đồn điền",
-            "định kiến \"Thiểu số kiểu mẫu\" miêu tả người Mỹ gốc Á là chăm chỉ phục tùng và tự lực",
-            "hiến pháp chính thức của các công đoàn lao động nông nghiệp thời kỳ đầu",
-            "các phương trình kỹ thuật dùng để nổ mìn đục hầm xuyên núi"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "...the \"Model Minority\" stereotype. This narrative lauded Asian Americans as an exceptionally industrious, compliant, and academically accomplished demographic... This ideological construct was strategically deployed to discredit... [Paragraph 4]",
-          "evidenceVi": "...định kiến \"Thiểu số kiểu mẫu\". Lời kể này ca ngợi người Mỹ gốc Á là nhóm chăm chỉ, phục tùng và thành đạt học vấn... Cấu trúc ý thức hệ này đã được triển khai một cách chiến lược nhằm làm giảm uy tín... [Đoạn 4]",
-          "explanation": "\"This ideological construct\" (cấu trúc ý thức hệ này) quy chiếu trực tiếp về huyền thoại/định kiến \"Model Minority\" stereotype vừa được giải thích chi tiết ở các câu trước.",
-          "postReading": {
-            "type": "reference",
-            "typeLabel": "Quy chiếu khái niệm (Reference)",
-            "cluePassage": "\"Model Minority\" stereotype. This narrative lauded Asian Americans... This ideological construct was strategically deployed",
-            "clueAnswer": "the \"Model Minority\" stereotype depicting Asian Americans as docile and self-reliant",
-            "keyPassage": "\"Model Minority\" stereotype and narrative",
-            "keyAnswer": "\"Model Minority\" stereotype",
-            "paraphrasePair": "ideological construct => \"Model Minority\" stereotype",
-            "meaningVi": "cấu trúc ý thức hệ => định kiến 'thiểu số kiểu mẫu'",
-            "deductionLogic": "Khái niệm 'ideological construct' đúc kết lại nhãn mác chính trị 'Model Minority' đã được phân tích ở các câu trước."
-          }
-        },
-        {
-          "id": 27,
-          "num": 27,
-          "question": "The word \"lauded\" in paragraph 4 is closest in meaning to:",
-          "questionVi": "Từ \"lauded\" trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "praised publicly",
-            "prosecuted criminally",
-            "ignored completely",
-            "physically attacked"
-          ],
-          "optionsVi": [
-            "công khai ca ngợi, tán dương",
-            "bị truy tố hình sự",
-            "bị phớt lờ hoàn toàn",
-            "bị tấn công thể xác"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "This narrative lauded Asian Americans as an exceptionally industrious, compliant, and academically accomplished demographic... [Paragraph 4]",
-          "evidenceVi": "Lời kể này đã ca ngợi người Mỹ gốc Á như một nhóm cư dân đặc biệt cần cù, biết nghe lời và thành đạt về mặt học thuật... [Đoạn 4]",
-          "explanation": "\"Lauded\" có nghĩa là tán dương, ca ngợi công khai (praised highly, commended).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "lauded Asian Americans as an exceptionally industrious demographic",
-            "clueAnswer": "praised publicly",
-            "keyPassage": "lauded",
-            "keyAnswer": "praised publicly",
-            "paraphrasePair": "lauded <=> praised publicly",
-            "meaningVi": "tán dương, ca tụng <=> ca ngợi công khai",
-            "deductionLogic": "Trong câu nói về việc tôn vinh các đặc tính cần cù, hiền lành và học giỏi, 'lauded' mang nghĩa ngợi khen (praised)."
-          }
-        },
-        {
-          "id": 28,
-          "num": 28,
-          "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"It portrayed them as proof that any minority could thrive in America without challenging existing systemic barriers.\"\nWhere would the sentence best fit?",
-          "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
-          "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
-          "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
-          ],
-          "optionsVi": [
-            "Vị trí [A]",
-            "Vị trí [B]",
-            "Vị trí [C]",
-            "Vị trí [D]"
-          ],
-          "correctAnswer": "C",
-          "correctIdx": 2,
-          "evidence": "[B] This narrative lauded Asian Americans as an exceptionally industrious, compliant, and academically accomplished demographic that had supposedly overcome racial prejudice purely through quiet perseverance without governmental aid. [C] However, historians emphasize that this seemingly flattering caricature was weaponized for political objectives. [Paragraph 4]",
-          "evidenceVi": "Vị trí [C] đứng ngay sau câu mô tả lời kể ca ngợi ('This narrative lauded... overcame prejudice purely through perseverance') để giải thích thêm: 'It portrayed them as proof...' (Nó khắc họa họ như bằng chứng rằng mọi sắc tộc đều có thể thành công mà không cần thách thức rào cản hệ thống), trước khi dùng từ nối 'However' để lật ngược vấn đề.",
-          "explanation": "Đại từ 'It' thay thế cho 'This narrative' ở câu [B], củng cố cho việc khắc họa hình ảnh vượt khó mà không cần đấu tranh trước khi chuyển sang luận điểm phê phán ở [C].",
-          "postReading": {
-            "type": "insertion",
-            "typeLabel": "Điền câu logic (Sentence Insertion)",
-            "cluePassage": "overcome racial prejudice purely through quiet perseverance without governmental aid. [C] However, historians emphasize...",
-            "clueAnswer": "[C]",
-            "keyPassage": "overcome prejudice through perseverance without aid",
-            "keyAnswer": "portrayed them as proof that any minority could thrive",
-            "paraphrasePair": "narrative of quiet perseverance <=> portrayed them as proof",
-            "meaningVi": "câu chuyện tự vượt khó <=> khắc họa họ như minh chứng thành công",
-            "deductionLogic": "Câu cần điền giải thích thêm cho luận điểm 'thiểu số kiểu mẫu' ở câu [B] trước khi bước sang câu phản biện bắt đầu bằng 'However'."
-          }
-        },
-        {
-          "id": 29,
-          "num": 29,
-          "question": "According to paragraph 4, why was the \"Model Minority\" stereotype harmful to Asian Americans?",
-          "questionVi": "Theo đoạn 4, tại sao định kiến \"Thiểu số kiểu mẫu\" lại gây hại cho người Mỹ gốc Á?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "It caused all Asian American businesses to be legally nationalized.",
-            "It obscured real economic precarity within the community and was weaponized against other civil rights movements.",
-            "It banned Asian American students from attending public universities.",
-            "It forced Asian Americans to work exclusively in manual agriculture."
-          ],
-          "optionsVi": [
-            "Nó khiến tất cả các doanh nghiệp của người Mỹ gốc Á bị quốc hữu hóa theo luật.",
-            "Nó che đậy tình trạng bấp bênh kinh tế thực tế trong cộng đồng và bị biến thành vũ khí chống lại các phong trào dân quyền khác.",
-            "Nó cấm sinh viên người Mỹ gốc Á theo học tại các trường đại học công lập.",
-            "Nó buộc người Mỹ gốc Á chỉ được làm việc duy nhất trong ngành nông nghiệp chân tay."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "...this seemingly flattering caricature was weaponized for political objectives... strategically deployed to discredit the civil rights claims of other minority groups while obscuring the intense economic precarity that continued to burden marginalized segments of the Asian American population. [Paragraph 4]",
-          "evidenceVi": "...hình ảnh tưởng như tâng bốc này bị vũ khí hóa cho các mục tiêu chính trị... được sử dụng có chủ đích để làm giảm uy tín các yêu sách dân quyền của các nhóm thiểu số khác, đồng thời che giấu sự bấp bênh kinh tế dữ dội vẫn đè nặng lên các bộ phận yếu thế của cộng đồng người Mỹ gốc Á. [Đoạn 4]",
-          "explanation": "Đoạn 4 nêu rõ 2 tác hại: bị lợi dụng làm công cụ chính trị chia rẽ khối đoàn kết dân quyền và che giấu tình trạng nghèo khó/bấp bênh kinh tế thực tế ('obscuring the intense economic precarity').",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết tác hại (Factual Detail)",
-            "cluePassage": "weaponized for political objectives... discredit the civil rights claims of other minority groups while obscuring the intense economic precarity",
-            "clueAnswer": "It obscured real economic precarity within the community and was weaponized against other civil rights movements",
-            "keyPassage": "discredit civil rights, obscuring intense economic precarity",
-            "keyAnswer": "obscured economic precarity, weaponized against civil rights",
-            "paraphrasePair": "obscuring economic precarity <=> obscured real economic precarity | weaponized to discredit civil rights <=> weaponized against civil rights movements",
-            "meaningVi": "che giấu bấp bênh kinh tế và bị dùng chống lại phong trào dân quyền",
-            "deductionLogic": "Phương án B phản ánh đầy đủ cả hai khía cạnh tiêu cực mà các nhà sử học đã vạch trần ở câu cuối đoạn 4."
-          }
-        },
-        {
-          "id": 30,
-          "num": 30,
-          "question": "The phrase \"bamboo ceiling\" in paragraph 5 refers to:",
-          "questionVi": "Cụm từ \"bamboo ceiling\" (trần tre) trong đoạn 5 ám chỉ điều gì?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "the architectural use of bamboo in constructing historic Asian restaurants",
-            "an invisible barrier preventing qualified Asian Americans from advancing into executive leadership positions",
-            "a legal quota requiring companies to hire fifty percent Asian engineers",
-            "a traditional roofing method used in rural Chinese villages"
-          ],
-          "optionsVi": [
-            "việc sử dụng tre trong kiến trúc xây dựng các nhà hàng châu Á lịch sử",
-            "một rào cản vô hình ngăn cản những người Mỹ gốc Á có đủ năng lực thăng tiến lên các vị trí lãnh đạo điều hành cao cấp",
-            "một hạn ngạch pháp lý bắt buộc các công ty phải tuyển dụng 50% kỹ sư châu Á",
-            "một phương pháp lợp mái nhà truyền thống được sử dụng ở các ngôi làng nông thôn Trung Quốc"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "...they remain conspicuously underrepresented in senior corporate executive suites, university presidencies, and political governance—a structural barrier commonly termed the \"bamboo ceiling.\" [Paragraph 5]",
-          "evidenceVi": "...họ vẫn vắng bóng một cách đáng chú ý trong các ban giám đốc điều hành doanh nghiệp cấp cao, vị trí hiệu trưởng đại học và chính trường—một rào cản mang tính cấu trúc thường được gọi là \"trần tre\". [Đoạn 5]",
-          "explanation": "\"Bamboo ceiling\" là thuật ngữ xã hội học chỉ rào cản vô hình ngăn người gốc Á thăng tiến vào tầng lớp quản lý cấp cao và lãnh đạo chính trị, dù họ có học vấn và năng lực chuyên môn rất cao.",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết thuật ngữ (Factual Definition)",
-            "cluePassage": "underrepresented in senior corporate executive suites, university presidencies, and political governance—a structural barrier commonly termed the \"bamboo ceiling.\"",
-            "clueAnswer": "an invisible barrier preventing qualified Asian Americans from advancing into executive leadership positions",
-            "keyPassage": "underrepresented in senior corporate executive suites, structural barrier",
-            "keyAnswer": "invisible barrier preventing advancement into executive leadership",
-            "paraphrasePair": "structural barrier preventing executive roles <=> invisible barrier preventing advancing into leadership",
-            "meaningVi": "rào cản cấu trúc trong các vị trí điều hành <=> rào cản vô hình ngăn thăng tiến lên lãnh đạo",
-            "deductionLogic": "Phương án B diễn giải chuẩn xác định nghĩa của khái niệm 'bamboo ceiling' trong văn cảnh quản trị nhân sự hiện đại."
-          }
-        }
-      ]
-    },
-    {
-      "partId": 4,
-      "title": "Passage 4: The Changing Religious Landscape in the United States",
-      "topic": "Xã hội học tôn giáo & Xu hướng thế tục hóa, đa nguyên hóa tại Hoa Kỳ",
-      "timeAllowed": 15,
-      "passage": "<p>For much of the twentieth century, the sociological study of religion regarded the United States as a profound historical anomaly. According to classical secularization theory, as societies modernized, industrialized, and achieved higher levels of scientific literacy, religious adherence was expected to steadily decline—a trajectory vividly illustrated across Western European democracies. The United States, however, appeared to defy this thesis, demonstrating persistent \"religious <strong>exceptionalism</strong>.\" American communities exhibited remarkably robust church attendance rates, high levels of personal prayer, and an influential public role for faith-based discourse, distinguishing the nation from its industrialized peers across the Atlantic.</p><p>In recent decades, however, this long-standing paradigm has unraveled with unprecedented velocity. National demographic surveys conducted by sociological institutes indicate that American religious affiliation is undergoing a seismic restructuring. Mainline Protestant denominations, such as the Episcopalians, Presbyterians, and Methodists, which historically constituted the nation's cultural and political establishment, have experienced severe membership hemorrhages. Roman Catholicism has similarly witnessed net declines among native-born adherents, partially offset only by Hispanic immigration. For the first time in documented demographic history, regular weekly churchgoers constitute a distinct minority of the adult population, signaling that the United States is rapidly converging toward European patterns of secularization.</p><p>The most consequential catalyst of this religious realignment is the meteoric rise of the \"religiously unaffiliated\"—colloquially designated by pollsters as the \"Nones\" because they select \"none of the above\" when questioned about their religious identity. In the early 1990s, the Nones comprised less than ten percent of the American adult population; today, they represent nearly thirty percent, outstripping any single religious denomination. Sociologists emphasize that this cohort is far from homogenous; it is not simply populated by dogmatic atheists or materialists. Rather, a substantial proportion identifies as \"spiritual but not religious,\" rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas, and the increasing politicization of organized religion, while retaining deeply personal moral codes and existential curiosity.</p><p>Simultaneously, the religious landscape has been dramatically transformed by cultural diversification stemming from shifting global immigration patterns. [A] The passage of the Immigration and Nationality Act of 1965 abolished national-origin quotas, stimulating significant migration from Asia, Africa, the Middle East, and Latin America. [B] Consequently, traditional Judeo-Christian hegemony has evolved into a multifaceted religious mosaic. [C] Expanding mosques, Hindu temples, Buddhist meditation centers, and Sikh gurdwaras now dot suburban and metropolitan landscapes across the American sunbelt and Midwest. [D] <strong>This burgeoning pluralism</strong> has challenged historical presumptions that American civic identity is inextricably tethered to Christian heritage.</p><p>Ultimately, the restructuring of American religion carries profound implications for the nation's civic coherence and cultural future. While traditional religious institutions grapple with diminished generational transmission and declining attendance among Generation Z and Millennials, public life has become increasingly polarized between religious traditionalists and secular constituencies. As traditional religious consensus wanes, American society faces the complex challenge of cultivating secular civic spaces and shared ethical frameworks capable of fostering democratic cohesion across an exceptionally pluralistic, post-denominational populace.</p>",
-      "vocab": [
-        {
-          "word": "exceptionalism",
-          "pos": "n",
-          "ipa": "/ɪkˈsep.ʃən.əl.ɪ.zəm/",
-          "level": "C1",
-          "mean": "thuyết về tính đặc thù ngoại lệ, không tuân theo quy luật chung",
-          "syns": [
-            "uniqueness",
-            "singularity",
-            "distinctiveness"
-          ],
-          "ex": "American religious exceptionalism long puzzled European sociologists."
-        },
-        {
-          "word": "secularization",
-          "pos": "n",
-          "ipa": "/ˌsek.jə.lə.raɪˈzeɪ.ʃən/",
-          "level": "C1",
-          "mean": "tiến trình thế tục hóa, giảm tầm ảnh hưởng của tôn giáo",
-          "syns": [
-            "de-Christianization",
-            "temporalization"
-          ],
-          "ex": "Rapid secularization across urban centers has changed societal values."
-        },
-        {
-          "word": "hemorrhage",
-          "pos": "n, v",
-          "ipa": "/ˈhem.ər.ɪdʒ/",
-          "level": "C1",
-          "mean": "sự hao hụt mất mát nghiêm trọng (chảy máu nhân lực/thành viên)",
-          "syns": [
-            "heavy loss",
-            "depletion",
-            "drain"
-          ],
-          "ex": "Mainline churches experienced a massive membership hemorrhage over the last three decades."
-        },
-        {
-          "word": "unaffiliated",
-          "pos": "adj",
-          "ipa": "/ˌʌn.əˈfɪl.i.eɪ.tɪd/",
-          "level": "B2",
-          "mean": "không liên kết, không thuộc tổ chức/giáo phái nào",
-          "syns": [
-            "independent",
-            "autonomous",
-            "uncommitted"
-          ],
-          "ex": "Nearly thirty percent of American adults now describe themselves as religiously unaffiliated."
-        },
-        {
-          "word": "ecclesiastical",
-          "pos": "adj",
-          "ipa": "/ɪˌkliː.ziˈæs.tɪ.kəl/",
-          "level": "C1",
-          "mean": "thuộc về giáo hội, tăng lữ",
-          "syns": [
-            "clerical",
-            "churchly",
-            "canonical"
-          ],
-          "ex": "Younger generations increasingly reject rigid ecclesiastical hierarchies."
-        },
-        {
-          "word": "politicization",
-          "pos": "n",
-          "ipa": "/pəˌlɪt.ɪ.saɪˈzeɪ.ʃən/",
-          "level": "C1",
-          "mean": "sự chính trị hóa",
-          "syns": [
-            "ideological framing",
-            "partisan entanglement"
-          ],
-          "ex": "The politicization of faith-based pulpits drove many moderate believers away from churches."
-        },
-        {
-          "word": "hegemony",
-          "pos": "n",
-          "ipa": "/hɪˈɡem.ən.i/",
-          "level": "C1",
-          "mean": "quyền bá chủ, thế thống trị tuyệt đối",
-          "syns": [
-            "dominance",
-            "supremacy",
-            "ascendancy"
-          ],
-          "ex": "The cultural hegemony of mainline Protestantism eroded during the late twentieth century."
-        },
-        {
-          "word": "pluralism",
-          "pos": "n",
-          "ipa": "/ˈplʊə.rəl.ɪ.zəm/",
-          "level": "C1",
-          "mean": "tính đa nguyên, cùng tồn tại hòa bình giữa nhiều tôn giáo",
-          "syns": [
-            "diversity",
-            "multiculturalism",
-            "coexistence"
-          ],
-          "ex": "Religious pluralism is now an undeniable feature of modern American metropolitan life."
-        },
-        {
-          "word": "wane",
-          "pos": "v",
-          "ipa": "/weɪn/",
-          "level": "C1",
-          "mean": "suy giảm, lụi tàn dần",
-          "syns": [
-            "decline",
-            "diminish",
-            "ebb"
-          ],
-          "ex": "As traditional church influence wanes, civic organizations seek new shared ethical frameworks."
-        },
-        {
-          "word": "populace",
-          "pos": "n",
-          "ipa": "/ˈpɒp.jə.ləs/",
-          "level": "C1",
-          "mean": "quần chúng, dân chúng trong một quốc gia",
-          "syns": [
-            "public",
-            "citizens",
-            "general population"
-          ],
-          "ex": "Engaging a pluralistic populace requires inclusive democratic dialogue."
-        }
-      ],
-      "questions": [
-        {
-          "id": 31,
-          "num": 31,
-          "question": "Which of the following best captures the central theme of the passage?",
-          "questionVi": "Câu nào sau đây nắm bắt tốt nhất chủ đề trung tâm của bài đọc?",
-          "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
-          "options": [
-            "The historical reasons why Western Europe remains the most religious region in the world",
-            "The dramatic ongoing restructuring of the American religious landscape through secularization, the rise of the unaffiliated, and global pluralism",
-            "The complete legal eradication of all religious freedoms under modern American constitutional law",
-            "A technical critique of the financial accounting practices within modern Protestant churches"
-          ],
-          "optionsVi": [
-            "Các lý do lịch sử giải thích tại sao Tây Âu vẫn là khu vực sùng đạo nhất trên thế giới",
-            "Sự tái cấu trúc sâu sắc đang diễn ra trong bức tranh tôn giáo Mỹ thông qua thế tục hóa, sự gia tăng của nhóm không tôn giáo và tính đa nguyên toàn cầu",
-            "Sự xóa bỏ hoàn toàn về mặt pháp lý đối với mọi quyền tự do tôn giáo theo hiến pháp Mỹ",
-            "Sự phê phán kỹ thuật về các hoạt động kế toán tài chính trong các nhà thờ Tin Lành hiện đại"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "National demographic surveys... indicate that American religious affiliation is undergoing a seismic restructuring... rise of the religiously unaffiliated... burgeoning pluralism... [Paragraph 2, 3, 4, 5]",
-          "evidenceVi": "Các khảo sát nhân khẩu học quốc gia... chỉ ra rằng sự liên kết tôn giáo của người Mỹ đang trải qua một sự tái cấu trúc địa chấn... sự trỗi dậy của nhóm không tôn giáo... tính đa nguyên phát triển mạnh mẽ... [Đoạn 2-5]",
-          "explanation": "Toàn bài phân tích sự chuyển dịch mang tính bước ngoặt của tôn giáo Mỹ: từ ngoại lệ sùng đạo (Đoạn 1) sang suy giảm giáo phái truyền thống (Đoạn 2), trỗi dậy của nhóm 'Nones' (Đoạn 3), sự đa dạng hóa do nhập cư (Đoạn 4) và hệ quả xã hội (Đoạn 5).",
-          "postReading": {
-            "type": "main_idea",
-            "typeLabel": "Chủ đề trung tâm (Central Theme)",
-            "cluePassage": "American religious affiliation is undergoing a seismic restructuring... rise of the \"Nones\"... burgeoning pluralism",
-            "clueAnswer": "The dramatic ongoing restructuring of the American religious landscape through secularization, the rise of the unaffiliated, and global pluralism",
-            "keyPassage": "seismic restructuring, secularization, Nones, pluralism",
-            "keyAnswer": "restructuring of American religious landscape through secularization, unaffiliated, pluralism",
-            "paraphrasePair": "seismic restructuring <=> dramatic ongoing restructuring | Nones <=> the unaffiliated",
-            "meaningVi": "tái cấu trúc địa chấn <=> tái cấu trúc sâu sắc | nhóm Nones <=> nhóm không tôn giáo",
-            "deductionLogic": "Phương án B tổng hợp trọn vẹn cả 3 động lực chính của sự biến đổi tôn giáo được phân tích trong bài."
-          }
-        },
-        {
-          "id": 32,
-          "num": 32,
-          "question": "The word \"exceptionalism\" in paragraph 1 is closest in meaning to:",
-          "questionVi": "Từ \"exceptionalism\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "uniqueness and deviation from general trends",
-            "complete conformity to common patterns",
-            "extreme military superiority",
-            "severe financial insolvency"
-          ],
-          "optionsVi": [
-            "tính độc đáo đặc thù và khác biệt với xu hướng chung",
-            "sự tuân thủ hoàn toàn theo khuôn mẫu phổ biến",
-            "sự vượt trội tuyệt đối về quân sự",
-            "tình trạng mất khả năng thanh toán tài chính nghiêm trọng"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "The United States, however, appeared to defy this thesis, demonstrating persistent \"religious exceptionalism.\" [Paragraph 1]",
-          "evidenceVi": "Tuy nhiên, nước Mỹ dường như đã bất tuân luận thuyết này, thể hiện \"tính đặc thù ngoại lệ tôn giáo\" dai dẳng. [Đoạn 1]",
-          "explanation": "\"Exceptionalism\" chỉ trạng thái khác biệt, là một ngoại lệ đặc thù không tuân theo quy luật chung của các nước khác (uniqueness, deviation from the normal rule).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "appeared to defy this thesis, demonstrating persistent \"religious exceptionalism\"",
-            "clueAnswer": "uniqueness and deviation from general trends",
-            "keyPassage": "exceptionalism",
-            "keyAnswer": "uniqueness and deviation from general trends",
-            "paraphrasePair": "exceptionalism <=> uniqueness and deviation from trends",
-            "meaningVi": "tính ngoại lệ đặc thù <=> tính độc đáo và khác biệt với xu hướng",
-            "deductionLogic": "Trong khi Tây Âu thế tục hóa, Mỹ vẫn sùng đạo, tạo thành một 'ngoại lệ lịch sử'."
-          }
-        },
-        {
-          "id": 33,
-          "num": 33,
-          "question": "According to paragraph 1, how did the United States historically contrast with Western European democracies?",
-          "questionVi": "Theo đoạn 1, nước Mỹ trước đây có sự tương phản như thế nào so với các nền dân chủ Tây Âu?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "It banned all forms of religious practice in public schools.",
-            "It maintained remarkably robust levels of church attendance and religious participation.",
-            "It experienced a complete disappearance of Christianity in the eighteenth century.",
-            "It legally established a single national church mandated by the president."
-          ],
-          "optionsVi": [
-            "Nó cấm mọi hình thức thực hành tôn giáo trong các trường học công lập.",
-            "Nó duy trì mức độ đi lễ nhà thờ và tham gia tôn giáo mạnh mẽ một cách đáng chú ý.",
-            "Nó trải qua sự biến mất hoàn toàn của Kitô giáo vào thế kỷ 18.",
-            "Nó thiết lập một giáo hội quốc gia duy nhất theo luật do tổng thống chỉ định."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "American communities exhibited remarkably robust church attendance rates, high levels of personal prayer, and an influential public role for faith-based discourse, distinguishing the nation from its industrialized peers... [Paragraph 1]",
-          "evidenceVi": "Các cộng đồng người Mỹ thể hiện tỷ lệ đi lễ nhà thờ mạnh mẽ đáng chú ý, mức độ cầu nguyện cá nhân cao và vai trò công chúng có sức ảnh hưởng của ngôn luận đức tin, tạo nên sự khác biệt... [Đoạn 1]",
-          "explanation": "Đoạn 1 nêu rõ: Mỹ khác biệt với Tây Âu ở tỷ lệ đi lễ cao (robust church attendance rates), mức độ cầu nguyện cao và đức tin có tiếng nói lớn trong xã hội.",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết so sánh (Factual Comparison)",
-            "cluePassage": "remarkably robust church attendance rates, high levels of personal prayer, and an influential public role",
-            "clueAnswer": "It maintained remarkably robust levels of church attendance and religious participation",
-            "keyPassage": "robust church attendance rates, high levels of personal prayer",
-            "keyAnswer": "robust levels of church attendance and religious participation",
-            "paraphrasePair": "robust church attendance rates <=> robust levels of church attendance and participation",
-            "meaningVi": "tỷ lệ đi lễ nhà thờ mạnh mẽ <=> mức độ đi lễ và tham gia tôn giáo mạnh mẽ",
-            "deductionLogic": "Phương án B phản ánh trực tiếp câu miêu tả sự khác biệt giữa Mỹ và các nước Tây Âu ở cuối đoạn 1."
-          }
-        },
-        {
-          "id": 34,
-          "num": 34,
-          "question": "According to paragraph 2, what major change has occurred within Mainline Protestant denominations in recent decades?",
-          "questionVi": "Theo đoạn 2, sự thay đổi lớn nào đã xảy ra đối với các giáo phái Tin Lành dòng chính trong những thập kỷ gần đây?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "They experienced severe losses in membership and cultural influence.",
-            "They became the mandatory state religion of all fifty states.",
-            "They completely merged with the Roman Catholic Church.",
-            "Their congregations doubled in size every five years."
-          ],
-          "optionsVi": [
-            "Họ phải chịu sự sụt giảm nghiêm trọng về số lượng thành viên và sức ảnh hưởng văn hóa.",
-            "Họ trở thành tôn giáo bắt buộc của toàn bộ 50 bang.",
-            "Họ sáp nhập hoàn toàn vào Giáo hội Công giáo La Mã.",
-            "Các giáo đoàn của họ tăng gấp đôi quy mô sau mỗi 5 năm."
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "Mainline Protestant denominations, such as the Episcopalians, Presbyterians, and Methodists... have experienced severe membership hemorrhages. [Paragraph 2]",
-          "evidenceVi": "Các giáo phái Tin Lành dòng chính như Anh giáo, Trưởng Lão và Giám Lý... đã phải trải qua sự hao hụt thành viên nghiêm trọng. [Đoạn 2]",
-          "explanation": "Đoạn 2 khẳng định các giáo phái Tin Lành dòng chính ('Mainline Protestant denominations') đã trải qua sự sụt giảm thành viên nghiêm trọng ('severe membership hemorrhages').",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết suy giảm (Factual Detail)",
-            "cluePassage": "have experienced severe membership hemorrhages",
-            "clueAnswer": "They experienced severe losses in membership and cultural influence",
-            "keyPassage": "severe membership hemorrhages",
-            "keyAnswer": "severe losses in membership",
-            "paraphrasePair": "membership hemorrhages <=> losses in membership",
-            "meaningVi": "chảy máu thành viên nghiêm trọng <=> tổn thất nghiêm trọng về thành viên",
-            "deductionLogic": "Thuật ngữ ẩn dụ y học 'hemorrhages' (xuất huyết) được diễn giải chuẩn xác thành sự sụt giảm nghiêm trọng về thành viên."
-          }
-        },
-        {
-          "id": 35,
-          "num": 35,
-          "question": "According to paragraph 3, which of the following is true about the group known as the \"Nones\"?",
-          "questionVi": "Theo đoạn 3, điều nào sau đây là đúng về nhóm người được gọi là \"Nones\"?",
-          "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
-          "options": [
-            "They are strictly militant atheists who deny any personal spiritual morality.",
-            "They represent nearly thirty percent of adults and often reject institutional church hierarchies while holding personal moral beliefs.",
-            "They were legally created by an executive decree signed in 1990.",
-            "They constitute a tiny fringe movement of fewer than one percent of citizens."
-          ],
-          "optionsVi": [
-            "Họ là những người vô thần cực đoan phủ nhận mọi đạo đức tâm linh cá nhân.",
-            "Họ chiếm gần 30% người trưởng thành và thường từ chối các giáo hội thể chế trong khi vẫn giữ các chuẩn mực đạo đức cá nhân.",
-            "Họ được thành lập hợp pháp bởi một sắc lệnh hành pháp ký năm 1990.",
-            "Họ tạo thành một phong trào thiểu số nhỏ bé chiếm dưới 1% công dân."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "In the early 1990s, the Nones comprised less than ten percent... today, they represent nearly thirty percent... rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas... while retaining deeply personal moral codes and existential curiosity. [Paragraph 3]",
-          "evidenceVi": "Đầu thập niên 1990 nhóm Nones chiếm dưới 10%... ngày nay họ chiếm gần 30%... từ bỏ thứ bậc giáo hội quyền uy, giáo điều bắt buộc... trong khi vẫn giữ các quy tắc đạo đức cá nhân sâu sắc. [Đoạn 3]",
-          "explanation": "Đoạn 3 chỉ rõ: Nones hiện chiếm gần 30% dân số, không hẳn là vô thần cực đoan mà phần lớn là 'spiritual but not religious' (có tâm linh nhưng không theo tôn giáo thể chế).",
-          "postReading": {
-            "type": "detail",
-            "typeLabel": "Chi tiết đặc tính (Factual Detail)",
-            "cluePassage": "represent nearly thirty percent... rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas... while retaining deeply personal moral codes",
-            "clueAnswer": "They represent nearly thirty percent of adults and often reject institutional church hierarchies while holding personal moral beliefs",
-            "keyPassage": "represent nearly thirty percent, rejecting hierarchies, retaining moral codes",
-            "keyAnswer": "nearly thirty percent, reject hierarchies, holding personal moral beliefs",
-            "paraphrasePair": "rejecting ecclesiastical hierarchies <=> reject institutional church hierarchies | retaining personal moral codes <=> holding personal moral beliefs",
-            "meaningVi": "từ bỏ đẳng cấp giáo hội <=> từ chối thứ bậc giáo hội thể chế | giữ quy tắc đạo đức riêng",
-            "deductionLogic": "Phương án B tổng hợp chính xác dữ liệu tỷ lệ phần trăm (gần 30%) và đặc trưng tâm lý của nhóm 'Nones'."
-          }
-        },
-        {
-          "id": 36,
-          "num": 36,
-          "question": "The word \"ecclesiastical\" in paragraph 3 is closest in meaning to:",
-          "questionVi": "Từ \"ecclesiastical\" trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
-          "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
-          "options": [
-            "relating to church or clerical institutions",
-            "purely scientific and empirical",
-            "strictly financial and commercial",
-            "temporary and transient"
-          ],
-          "optionsVi": [
-            "thuộc về nhà thờ hoặc các thể chế tăng lữ giáo hội",
-            "hoàn toàn mang tính khoa học và thực nghiệm",
-            "hoàn toàn mang tính tài chính và thương mại",
-            "tạm thời và ngắn ngủi"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "...rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas, and the increasing politicization of organized religion... [Paragraph 3]",
-          "evidenceVi": "...từ bỏ các hệ thống thứ bậc giáo hội quyền uy, các giáo điều mang tính bắt buộc và sự chính trị hóa ngày càng tăng của tôn giáo có tổ chức... [Đoạn 3]",
-          "explanation": "\"Ecclesiastical\" có nghĩa là thuộc về giáo hội, tăng lữ hoặc nhà thờ (relating to the Christian Church or its clergy).",
-          "postReading": {
-            "type": "vocab",
-            "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
-            "cluePassage": "authoritarian ecclesiastical hierarchies, mandatory dogmas",
-            "clueAnswer": "relating to church or clerical institutions",
-            "keyPassage": "ecclesiastical hierarchies",
-            "keyAnswer": "relating to church or clerical institutions",
-            "paraphrasePair": "ecclesiastical <=> relating to church or clergy",
-            "meaningVi": "thuộc về giáo hội <=> thuộc về nhà thờ hoặc giáo sĩ",
-            "deductionLogic": "Cụm 'ecclesiastical hierarchies' chỉ hệ thống phân cấp phẩm trật của giáo hội."
-          }
-        },
-        {
-          "id": 37,
-          "num": 37,
-          "question": "Which of the following reasons is NOT cited in paragraph 3 as a motivation for people distancing themselves from organized religion?",
-          "questionVi": "Lý do nào sau đây KHÔNG được trích dẫn trong đoạn 3 như một động cơ khiến mọi người xa rời tôn giáo có tổ chức?",
-          "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
-          "options": [
-            "Rejection of rigid, mandatory dogmas",
-            "Resistance against authoritarian ecclesiastical hierarchies",
-            "The increasing politicization of organized religion",
-            "A legal prohibition preventing citizens from entering houses of worship"
-          ],
-          "optionsVi": [
-            "Sự phản đối các giáo điều bắt buộc cứng nhắc",
-            "Sự phản kháng trước các hệ thống thứ bậc giáo hội quyền uy",
-            "Sự chính trị hóa ngày càng gia tăng của tôn giáo có tổ chức",
-            "Một lệnh cấm theo luật pháp ngăn cản người dân bước vào các nơi thờ tự"
-          ],
-          "correctAnswer": "D",
-          "correctIdx": 3,
-          "evidence": "...rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas, and the increasing politicization of organized religion... [Paragraph 3]",
-          "evidenceVi": "Đoạn 3 liệt kê 3 nguyên nhân: thứ bậc quyền uy (B), giáo điều bắt buộc (A), và sự chính trị hóa tôn giáo (C). Nước Mỹ có quyền tự do tôn giáo, hoàn toàn không có luật nào cấm bước vào nơi thờ tự (D).",
-          "explanation": "Phương án D hoàn toàn sai thực tế pháp lý và không được nhắc đến trong bài đọc.",
-          "postReading": {
-            "type": "negative",
-            "typeLabel": "Thông tin loại trừ (Negative Detail)",
-            "cluePassage": "authoritarian ecclesiastical hierarchies, mandatory dogmas, and the increasing politicization of organized religion",
-            "clueAnswer": "A legal prohibition preventing citizens from entering houses of worship",
-            "keyPassage": "reasons: hierarchies, dogmas, politicization",
-            "keyAnswer": "legal prohibition is non-existent",
-            "paraphrasePair": "causes of disaffiliation <=> internal grievances, not external legal bans",
-            "meaningVi": "nguyên nhân ly khai tôn giáo <=> do nội tại giáo hội và chính trị hóa, không phải lệnh cấm luật pháp",
-            "deductionLogic": "Phương án D đưa ra thông tin giả định vô căn cứ trái ngược với hiến pháp bảo đảm tự do tôn giáo của Mỹ."
-          }
-        },
-        {
-          "id": 38,
-          "num": 38,
-          "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"This landmark legislative reform opened immigration pathways to diverse peoples from previously excluded regions.\"\nWhere would the sentence best fit?",
-          "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
-          "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
-          "options": [
-            "[A]",
-            "[B]",
-            "[C]",
-            "[D]"
-          ],
-          "optionsVi": [
-            "Vị trí [A]",
-            "Vị trí [B]",
-            "Vị trí [C]",
-            "Vị trí [D]"
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "[A] The passage of the Immigration and Nationality Act of 1965 abolished national-origin quotas, stimulating significant migration from Asia, Africa, the Middle East, and Latin America. [B] Consequently, traditional Judeo-Christian hegemony has evolved... [Paragraph 4]",
-          "evidenceVi": "Vị trí [B] đứng ngay sau câu nhắc đến 'The passage of the Immigration and Nationality Act of 1965 abolished national-origin quotas' để giải thích: 'This landmark legislative reform...' (Cải cách lập pháp mang tính bước ngoặt này đã mở ra các lộ trình nhập cư...).",
-          "explanation": "\"This landmark legislative reform\" (Cải cách lập pháp mang tính bước ngoặt này) thay thế trực tiếp cho \"Immigration and Nationality Act of 1965\" được ban hành ở câu trước vị trí [B].",
-          "postReading": {
-            "type": "insertion",
-            "typeLabel": "Điền câu logic (Sentence Insertion)",
-            "cluePassage": "passage of the Immigration and Nationality Act of 1965 abolished national-origin quotas... [B] Consequently...",
-            "clueAnswer": "[B]",
-            "keyPassage": "Immigration and Nationality Act of 1965",
-            "keyAnswer": "This landmark legislative reform",
-            "paraphrasePair": "Act of 1965 <=> this landmark legislative reform",
-            "meaningVi": "Đạo luật năm 1965 <=> cải cách lập pháp bước ngoặt này",
-            "deductionLogic": "Cụm 'This landmark legislative reform' chỉ có thể nối tiếp ngay sau khi tên đạo luật được đề cập ở câu trước [B]."
-          }
-        },
-        {
-          "id": 39,
-          "num": 39,
-          "question": "The phrase \"This burgeoning pluralism\" in paragraph 4 refers to:",
-          "questionVi": "Cụm từ \"This burgeoning pluralism\" trong đoạn 4 ám chỉ điều gì?",
-          "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
-          "options": [
-            "the rapid expansion of mosques, Hindu temples, Buddhist centers, and other diverse places of worship",
-            "the total demolition of historic churches across the nation",
-            "the establishment of mandatory Christian prayer in all government offices",
-            "the complete restriction of foreign immigration after 1965"
-          ],
-          "optionsVi": [
-            "sự mở rộng nhanh chóng của các nhà thờ Hồi giáo, đền thờ Ấn Độ giáo, trung tâm Phật giáo và các địa điểm thờ tự đa dạng khác",
-            "sự phá hủy hoàn toàn các nhà thờ lịch sử trên toàn quốc",
-            "việc thiết lập lễ cầu nguyện Kitô giáo bắt buộc trong mọi công sở chính phủ",
-            "sự hạn chế hoàn toàn nhập cư nước ngoài sau năm 1965"
-          ],
-          "correctAnswer": "A",
-          "correctIdx": 0,
-          "evidence": "Expanding mosques, Hindu temples, Buddhist meditation centers, and Sikh gurdwaras now dot suburban and metropolitan landscapes across the American sunbelt and Midwest. This burgeoning pluralism has challenged... [Paragraph 4]",
-          "evidenceVi": "Các nhà thờ Hồi giáo, đền Hindu, trung tâm thiền Phật giáo và đền Sikh đang mở rộng... Sự đa nguyên đang phát triển mạnh mẽ này đã thách thức... [Đoạn 4]",
-          "explanation": "\"This burgeoning pluralism\" (Sự đa nguyên đang phát triển mạnh mẽ này) tóm lược sự xuất hiện và nhân rộng của các đền chùa, thánh đường thuộc nhiều tôn giáo châu Á và Trung Đông ở câu trước.",
-          "postReading": {
-            "type": "reference",
-            "typeLabel": "Quy chiếu thực thể (Reference)",
-            "cluePassage": "Expanding mosques, Hindu temples, Buddhist meditation centers, and Sikh gurdwaras... This burgeoning pluralism",
-            "clueAnswer": "the rapid expansion of mosques, Hindu temples, Buddhist centers, and other diverse places of worship",
-            "keyPassage": "Expanding mosques, Hindu temples, Buddhist meditation centers",
-            "keyAnswer": "rapid expansion of mosques, Hindu temples, Buddhist centers",
-            "paraphrasePair": "burgeoning pluralism => expanding mosques, temples, meditation centers",
-            "meaningVi": "sự đa nguyên phát triển nhanh => sự mở rộng các thánh đường, đền đài, trung tâm thiền",
-            "deductionLogic": "Khái niệm 'burgeoning pluralism' thay thế cho danh sách các cơ sở tôn giáo đa dạng vừa được liệt kê."
-          }
-        },
-        {
-          "id": 40,
-          "num": 40,
-          "question": "What can be inferred from paragraph 5 regarding the future of American public and civic life?",
-          "questionVi": "Có thể suy luận được điều gì từ đoạn 5 về tương lai của đời sống công và dân sự tại Mỹ?",
-          "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN (Inference Question)",
-          "options": [
-            "American society will easily achieve unanimous agreement on all ethical and political matters.",
-            "Traditional religious homogeneity is permanently disappearing, requiring new secular frameworks to maintain civic cohesion.",
-            "All younger citizens will return en masse to conservative eighteenth-century church doctrines.",
-            "Political polarization will completely vanish within the next few months."
-          ],
-          "optionsVi": [
-            "Xã hội Mỹ sẽ dễ dàng đạt được sự đồng thuận tuyệt đối về mọi vấn đề đạo đức và chính trị.",
-            "Tính đồng nhất tôn giáo truyền thống đang vĩnh viễn biến mất, đòi hỏi các khuôn khổ thế tục mới để duy trì sự gắn kết công dân.",
-            "Tất cả công dân trẻ tuổi sẽ đồng loạt quay trở lại các giáo điều bảo thủ của thế kỷ 18.",
-            "Sự phân cực chính trị sẽ biến mất hoàn toàn trong vài tháng tới."
-          ],
-          "correctAnswer": "B",
-          "correctIdx": 1,
-          "evidence": "As traditional religious consensus wanes, American society faces the complex challenge of cultivating secular civic spaces and shared ethical frameworks capable of fostering democratic cohesion across an exceptionally pluralistic, post-denominational populace. [Paragraph 5]",
-          "evidenceVi": "Khi sự đồng thuận tôn giáo truyền thống suy tàn, xã hội Mỹ đối mặt với thách thức phức tạp là xây dựng các không gian dân sự thế tục và các khuôn khổ đạo đức chung có khả năng nuôi dưỡng sự gắn kết dân chủ... [Đoạn 5]",
-          "explanation": "\"As traditional religious consensus wanes... challenge of cultivating secular civic spaces and shared ethical frameworks\" suy ra rằng sự đồng nhất tôn giáo cũ đang tan rã, buộc xã hội phải tìm các khuôn khổ đạo đức công dân thế tục mới.",
-          "postReading": {
-            "type": "inference",
-            "typeLabel": "Suy luận logic (Inference)",
-            "cluePassage": "As traditional religious consensus wanes, American society faces the complex challenge of cultivating secular civic spaces and shared ethical frameworks",
-            "clueAnswer": "Traditional religious homogeneity is permanently disappearing, requiring new secular frameworks to maintain civic cohesion",
-            "keyPassage": "traditional consensus wanes, challenge of cultivating secular frameworks",
-            "keyAnswer": "religious homogeneity disappearing, requiring new secular frameworks",
-            "paraphrasePair": "traditional religious consensus wanes <=> religious homogeneity disappearing | cultivating secular frameworks <=> requiring new secular frameworks",
-            "meaningVi": "sự đồng thuận tôn giáo truyền thống suy giảm <=> sự đồng nhất tôn giáo biến mất | xây dựng khuôn khổ thế tục",
-            "deductionLogic": "Đoạn 5 khẳng định xã hội Mỹ hậu giáo phái (post-denominational) đang phân cực và cần các nền tảng đạo đức thế tục mới để giữ vững nền dân chủ."
-          }
-        }
-      ]
-    }
-  ]
-}
+  {
+    "testId": "TEST11",
+    "testNum": 11,
+    "title": "VSTEP READING THỰC CHIẾN 01 (REVIEW ĐỀ THI THẬT)",
+    "description": "Bộ đề thực chiến biên soạn chuẩn xác từ review học viên: Phân tầng xã hội Mỹ, Chuyển dịch Hồ Tây, Tâm lý cày phim & Tư duy phản biện.",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Class System in the US",
+        "topic": "Xã hội học & Các tiêu chí phân tầng giai cấp tại Hoa Kỳ",
+        "timeAllowed": 15,
+        "passage": "<p>While the United States has historically prided itself on being an egalitarian society where individuals can achieve success purely through hard work—an ethos commonly known as the \"American Dream\"—sociologists emphasize that a well-defined class system exists within the nation. Unlike historical European aristocracies characterized by hereditary titles and rigid legal boundaries, the American social hierarchy is fluid and multifaceted. Understanding what <strong>demarcates</strong> social classes in modern America requires looking beyond simple monetary earnings to a convergence of economic, educational, and socio-cultural dimensions.</p><p>At the foundation of American class stratification lies the crucial distinction between income and accumulated wealth. Income refers to regular cash inflow from salaries, investments, or government assistance over a given period. Wealth, by contrast, comprises the total net worth of an individual or household, including real estate, equity, and inherited assets, minus any outstanding debts. Sociologists point out that while two households may earn identical annual salaries, their class status can diverge radically depending on their wealth. A family possessing generational property and financial reserves enjoys an economic buffer against crises that a family living paycheck to paycheck lacks, making wealth a far more durable determinant of long-term social standing.</p><p>Beyond financial assets, educational attainment and occupational prestige serve as critical pillars in defining social status. In an increasingly knowledge-based economy, post-secondary credentials—especially advanced degrees from elite institutions—act as gatekeepers to high-earning, influential professions. Occupations in medicine, corporate law, and advanced technology not only confer substantial monetary compensation but also command widespread social esteem and autonomy. Conversely, many service and manual occupations often lack <strong>this authority</strong>, regardless of whether an experienced tradesperson's wage occasionally surpasses that of an entry-level professional.</p><p>Social class is further manifested in subtle cultural practices, often described by sociologists as \"cultural capital.\" [A] This concept encompasses speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette absorbed from one's upbringing. [B] Members of the upper-middle and upper classes frequently share specific linguistic codes and social networks that facilitate career advancement. [C] Consequently, cultural literacy acts as an unwritten credential, signaling belonging in elite institutional environments and quietly perpetuating social boundaries. [D]</p><p>Ultimately, what defines the American class system is not an isolated metric, but a synergistic matrix of financial resources, professional standing, and cultural habits. While the absence of statutory barriers preserves the theoretical promise of upward social mobility, statistical evidence in recent decades indicates that intergenerational mobility has slowed. When economic assets, educational credentials, and social connections reinforce one another, class boundaries tend to crystallize, profoundly shaping an individual's life trajectory.</p>",
+        "vocab": [
+          {
+            "word": "egalitarian",
+            "pos": "adj",
+            "ipa": "/ɪˌɡæl.ɪˈteə.ri.ən/",
+            "level": "C1",
+            "mean": "bình đẳng, chủ trương bình đẳng",
+            "syns": [
+              "equal",
+              "democratic",
+              "classless"
+            ],
+            "ex": "An egalitarian society aims to provide equal opportunities for all citizens regardless of family background."
+          },
+          {
+            "word": "demarcate",
+            "pos": "v",
+            "ipa": "/ˈdiː.mɑː.keɪt/",
+            "level": "C1",
+            "mean": "phân định, định rõ ranh giới",
+            "syns": [
+              "distinguish",
+              "delineate",
+              "separate"
+            ],
+            "ex": "Sociologists examine the subtle factors that demarcate different economic classes in metropolitan areas."
+          },
+          {
+            "word": "stratification",
+            "pos": "n",
+            "ipa": "/ˌstræt.ɪ.fɪˈkeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự phân tầng xã hội",
+            "syns": [
+              "hierarchy",
+              "layering",
+              "categorization"
+            ],
+            "ex": "Social stratification often limits upward mobility for individuals raised in low-income neighborhoods."
+          },
+          {
+            "word": "accumulate",
+            "pos": "v",
+            "ipa": "/əˈkjuː.mjə.leɪt/",
+            "level": "B2",
+            "mean": "tích lũy, tích tụ dần",
+            "syns": [
+              "gather",
+              "amass",
+              "build up"
+            ],
+            "ex": "Generational wealth allows certain families to accumulate real estate across multiple decades."
+          },
+          {
+            "word": "buffer",
+            "pos": "n",
+            "ipa": "/ˈbʌf.ər/",
+            "level": "B2",
+            "mean": "tấm đệm bảo vệ, vật giảm chấn",
+            "syns": [
+              "cushion",
+              "shield",
+              "safeguard"
+            ],
+            "ex": "A robust emergency savings fund acts as an essential financial buffer during recessions."
+          },
+          {
+            "word": "gatekeeper",
+            "pos": "n",
+            "ipa": "/ˈɡeɪtˌkiː.pər/",
+            "level": "B2",
+            "mean": "người / yếu tố kiểm soát lối vào",
+            "syns": [
+              "controller",
+              "filter",
+              "barrier"
+            ],
+            "ex": "Prestigious university degrees frequently serve as gatekeepers to executive leadership roles."
+          },
+          {
+            "word": "autonomy",
+            "pos": "n",
+            "ipa": "/ɔːˈtɒn.ə.mi/",
+            "level": "C1",
+            "mean": "quyền tự chủ, độc lập",
+            "syns": [
+              "independence",
+              "self-determination",
+              "freedom"
+            ],
+            "ex": "Senior medical specialists generally experience substantial professional autonomy in their clinical decisions."
+          },
+          {
+            "word": "etiquette",
+            "pos": "n",
+            "ipa": "/ˈet.ɪ.ket/",
+            "level": "B2",
+            "mean": "quy tắc ứng xử, phép lịch sự",
+            "syns": [
+              "manners",
+              "protocol",
+              "decorum"
+            ],
+            "ex": "Mastering corporate etiquette can significantly enhance an applicant's chances during executive interviews."
+          },
+          {
+            "word": "crystallize",
+            "pos": "v",
+            "ipa": "/ˈkrɪs.təl.aɪz/",
+            "level": "C1",
+            "mean": "định hình rõ rệt, kết tinh bền vững",
+            "syns": [
+              "solidify",
+              "harden",
+              "take clear shape"
+            ],
+            "ex": "When socioeconomic inequalities persist across generations, class divisions tend to crystallize firmly."
+          },
+          {
+            "word": "trajectory",
+            "pos": "n",
+            "ipa": "/trəˈdʒek.tər.i/",
+            "level": "B2",
+            "mean": "quỹ đạo, lộ trình phát triển",
+            "syns": [
+              "path",
+              "course",
+              "route"
+            ],
+            "ex": "Early access to quality education exerts an immense influence on a student's lifelong career trajectory."
+          },
+          {
+            "word": "ethos",
+            "pos": "n",
+            "ipa": "/ˈiː.θɒs/",
+            "level": "C1",
+            "mean": "đặc tính, hệ giá trị đạo đức cốt lõi của một cộng đồng/quốc gia",
+            "syns": [
+              "spirit",
+              "character",
+              "tenet",
+              "creed"
+            ],
+            "ex": "The egalitarian ethos of the community inspired individuals from all social backgrounds to participate."
+          },
+          {
+            "word": "aristocracy",
+            "pos": "n",
+            "ipa": "/ˌær.ɪˈstɒk.rə.si/",
+            "level": "B2",
+            "mean": "tầng lớp quý tộc, giới thượng lưu có đặc quyền cha truyền con nối",
+            "syns": [
+              "nobility",
+              "peerage",
+              "elite",
+              "gentry"
+            ],
+            "ex": "Unlike historical European nations governed by a titled aristocracy, early America championed meritocracy."
+          },
+          {
+            "word": "hereditary",
+            "pos": "adj",
+            "ipa": "/hɪˈred.ɪ.tər.i/",
+            "level": "B2",
+            "mean": "có tính thừa kế, cha truyền con nối qua nhiều đời",
+            "syns": [
+              "inherited",
+              "genetic",
+              "ancestral",
+              "lineal"
+            ],
+            "ex": "The monarch passed hereditary titles down through generations of the noble lineage."
+          },
+          {
+            "word": "multifaceted",
+            "pos": "adj",
+            "ipa": "/ˌmʌl.tiˈfæs.ɪ.tɪd/",
+            "level": "C1",
+            "mean": "nhiều khía cạnh, đa diện và phức tạp",
+            "syns": [
+              "complex",
+              "many-sided",
+              "diverse",
+              "varied"
+            ],
+            "ex": "Understanding social mobility requires examining a multifaceted combination of wealth, education, and geography."
+          },
+          {
+            "word": "convergence",
+            "pos": "n",
+            "ipa": "/kənˈvɜː.dʒəns/",
+            "level": "C1",
+            "mean": "sự hội tụ, sự giao thoa kết hợp của nhiều yếu tố",
+            "syns": [
+              "intersection",
+              "merging",
+              "junction",
+              "confluence"
+            ],
+            "ex": "The convergence of advanced education and financial resources cements upper-class standing."
+          },
+          {
+            "word": "net worth",
+            "pos": "n",
+            "ipa": "/ˌnet ˈwɜːθ/",
+            "level": "B2",
+            "mean": "tổng tài sản ròng (tổng tài sản trừ đi các khoản nợ)",
+            "syns": [
+              "total equity",
+              "financial value",
+              "wealth balance"
+            ],
+            "ex": "Although his salary was modest, his substantial net worth came from valuable real estate assets."
+          },
+          {
+            "word": "equity",
+            "pos": "n",
+            "ipa": "/ˈek.wɪ.ti/",
+            "level": "B2",
+            "mean": "vốn chủ sở hữu, giá trị thực tế của tài sản sau khi trừ nợ",
+            "syns": [
+              "capital value",
+              "stake",
+              "ownership value"
+            ],
+            "ex": "Homeowners build equity over decades as they gradually pay off their mortgage loans."
+          },
+          {
+            "word": "diverge",
+            "pos": "v",
+            "ipa": "/daɪˈvɜːdʒ/",
+            "level": "B2",
+            "mean": "phân kỳ, rẽ nhánh, khác biệt xa nhau",
+            "syns": [
+              "deviate",
+              "differ",
+              "part ways",
+              "branch off"
+            ],
+            "ex": "Though they grew up in the same neighborhood, their financial trajectories diverged sharply in adulthood."
+          },
+          {
+            "word": "generational property",
+            "pos": "n.phr",
+            "ipa": "/ˌdʒen.əˈreɪ.ʃən.əl ˈprɒp.ə.ti/",
+            "level": "B2",
+            "mean": "tài sản bất động sản truyền lại qua nhiều thế hệ gia đình",
+            "syns": [
+              "ancestral estate",
+              "family real estate",
+              "inherited property"
+            ],
+            "ex": "Families who hold generational property are largely insulated from soaring urban rent prices."
+          },
+          {
+            "word": "occupational prestige",
+            "pos": "n.phr",
+            "ipa": "/ˌɒk.jʊˈpeɪ.ʃən.əl presˈtiːʒ/",
+            "level": "C1",
+            "mean": "uy tín và sự tôn trọng của xã hội dành cho một nghề nghiệp",
+            "syns": [
+              "professional esteem",
+              "vocational status",
+              "social standing"
+            ],
+            "ex": "Physicians and research scientists consistently enjoy high levels of occupational prestige."
+          },
+          {
+            "word": "credential",
+            "pos": "n",
+            "ipa": "/krɪˈden.ʃəl/",
+            "level": "B2",
+            "mean": "chứng chỉ, văn bằng, phẩm chất chứng minh năng lực",
+            "syns": [
+              "qualification",
+              "certificate",
+              "accreditation",
+              "degree"
+            ],
+            "ex": "In modern knowledge-based economies, academic credentials open doors to high-earning positions."
+          },
+          {
+            "word": "confer",
+            "pos": "v",
+            "ipa": "/kənˈfɜː/",
+            "level": "C1",
+            "mean": "mang lại, trao tặng (danh dự, uy tín, thẩm quyền)",
+            "syns": [
+              "bestow",
+              "grant",
+              "award",
+              "endow with"
+            ],
+            "ex": "Graduating from an Ivy League university confers an immediate social advantage on young professionals."
+          },
+          {
+            "word": "aesthetic",
+            "pos": "adj",
+            "ipa": "/esˈθet.ɪk/",
+            "level": "B2",
+            "mean": "thuộc về mỹ thuật, khiếu thưởng thức thẩm mỹ",
+            "syns": [
+              "artistic",
+              "visual",
+              "tasteful",
+              "stylistic"
+            ],
+            "ex": "An appreciation for classical music and fine art forms part of the aesthetic culture of the upper class."
+          },
+          {
+            "word": "perpetuate",
+            "pos": "v",
+            "ipa": "/pəˈpetʃ.u.eɪt/",
+            "level": "C1",
+            "mean": "duy trì lâu dài, làm kéo dài mãi mãi một định kiến/thực trạng",
+            "syns": [
+              "sustain",
+              "prolong",
+              "maintain",
+              "preserve"
+            ],
+            "ex": "Informal social clubs often perpetuate class boundaries by restricting membership to alumni."
+          },
+          {
+            "word": "statutory",
+            "pos": "adj",
+            "ipa": "/ˈstætʃ.ə.tər.i/",
+            "level": "C1",
+            "mean": "theo luật định, được quy định chính thức bằng pháp luật",
+            "syns": [
+              "legal",
+              "legislative",
+              "mandated",
+              "lawful"
+            ],
+            "ex": "The absence of statutory barriers does not mean equal economic opportunity exists in practice."
+          },
+          {
+            "word": "upward mobility",
+            "pos": "n.phr",
+            "ipa": "/ˌʌp.wəd məʊˈbɪl.ə.ti/",
+            "level": "B2",
+            "mean": "sự thăng tiến xã hội, nâng cao vị thế và mức thu nhập",
+            "syns": [
+              "social advancement",
+              "progress",
+              "economic rise"
+            ],
+            "ex": "Affordable public higher education remains a vital vehicle for upward social mobility."
+          },
+          {
+            "word": "synergistic",
+            "pos": "adj",
+            "ipa": "/ˌsɪn.əˈdʒɪs.tɪk/",
+            "level": "C1",
+            "mean": "có tính cộng hưởng, tương hỗ tạo ra sức mạnh tổng hợp",
+            "syns": [
+              "collaborative",
+              "mutually reinforcing",
+              "cooperative"
+            ],
+            "ex": "When elite schooling and family wealth combine, their synergistic effect solidifies social advantage."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "Which of the following best expresses the main idea of the passage?",
+            "questionVi": "Ý chính của bài đọc là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The American Dream has been completely replaced by an aristocratic class structure.",
+              "Social classes in the United States are defined by an interplay of economic, educational, and cultural factors.",
+              "Income is the single most reliable predictor of long-term class position in the United States.",
+              "Upward social mobility in modern America is entirely determined by family inheritance."
+            ],
+            "optionsVi": [
+              "Giấc mơ Mỹ đã bị thay thế hoàn toàn bởi chế độ quý tộc cha truyền con nối.",
+              "Các tầng lớp xã hội tại Mỹ được định hình bởi sự tương tác giữa các yếu tố kinh tế, giáo dục và văn hóa.",
+              "Thu nhập hàng tháng là yếu tố dự báo chuẩn xác duy nhất về vị thế giai cấp lâu dài ở Mỹ.",
+              "Sự dịch chuyển xã hội ở Mỹ hoàn toàn bị quyết định bởi tài sản thừa kế từ gia đình."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Understanding what demarcates social classes in modern America requires looking beyond simple monetary earnings to a convergence of economic, educational, and socio-cultural dimensions. [Paragraph 1 & 5]",
+            "evidenceVi": "Việc hiểu rõ ranh giới các giai cấp tại Mỹ đòi hỏi phải nhìn vượt ra ngoài thu nhập tiền bạc đơn thuần để thấy sự hội tụ của các khía cạnh kinh tế, giáo dục và văn hóa - xã hội. [Đoạn 1 & 5]",
+            "explanation": "Toàn bài phân tích 3 trụ cột định hình giai cấp: kinh tế (thu nhập vs của cải - Đoạn 2), giáo dục & nghề nghiệp (Đoạn 3), và vốn văn hóa (Đoạn 4), kết luận bằng ma trận tổng hợp (Đoạn 5). Do đó B là đáp án toàn diện và chuẩn xác nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "convergence of economic, educational, and socio-cultural dimensions... synergistic matrix of financial resources, professional standing, and cultural habits.",
+              "clueAnswer": "defined by an interplay of economic, educational, and cultural factors.",
+              "keyPassage": "convergence of economic, educational, and socio-cultural dimensions",
+              "keyAnswer": "interplay of economic, educational, and cultural factors",
+              "paraphrasePair": "convergence of dimensions <=> interplay of factors",
+              "meaningVi": "Sự hội tụ của các khía cạnh <=> Sự tương tác qua lại giữa các yếu tố",
+              "deductionLogic": "Phương án B tóm lược trọn vẹn cả 3 khía cạnh được trình bày xuyên suốt bài đọc. Phương án A sai vì bài khẳng định không có quý tộc thế tập; C sai vì của cải bền vững hơn thu nhập; D dùng từ tuyệt đối 'entirely'."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "The word \"demarcates\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"demarcates\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "eliminates",
+              "distinguishes",
+              "predicts",
+              "improves"
+            ],
+            "optionsVi": [
+              "loại bỏ",
+              "phân định, phân biệt",
+              "dự đoán",
+              "cải thiện"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Understanding what demarcates social classes in modern America requires looking beyond simple monetary earnings... [Paragraph 1]",
+            "evidenceVi": "Việc hiểu được điều gì phân định các tầng lớp xã hội tại nước Mỹ hiện đại đòi hỏi... [Đoạn 1]",
+            "explanation": "\"Demarcate\" nghĩa là vạch rõ ranh giới, phân định sự khác biệt, đồng nghĩa với \"distinguishes\".",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "what demarcates social classes in modern America",
+              "clueAnswer": "distinguishes",
+              "keyPassage": "demarcate",
+              "keyAnswer": "distinguish / set boundaries",
+              "paraphrasePair": "demarcate <=> distinguish",
+              "meaningVi": "phân định, vạch rõ ranh giới <=> phân biệt, chỉ ra khác biệt",
+              "deductionLogic": "Trong ngữ cảnh xác định ranh giới giữa các tầng lớp (classes), 'demarcate' tương đương với 'distinguish'."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "According to paragraph 2, how does wealth differ from income?",
+            "questionVi": "Theo đoạn 2, của cải (wealth) khác với thu nhập (income) như thế nào?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "Wealth refers strictly to cash earned from monthly salaries.",
+              "Income includes accumulated real estate, whereas wealth excludes physical assets.",
+              "Wealth represents overall net worth after subtracting debts, while income is regular incoming cash.",
+              "Wealth fluctuates much more rapidly than annual household income during financial crises."
+            ],
+            "optionsVi": [
+              "Của cải chỉ bao gồm tiền mặt nhận được từ lương tháng.",
+              "Thu nhập bao gồm bất động sản tích lũy, trong khi của cải loại trừ tài sản vật chất.",
+              "Của cải đại diện cho tổng giá trị tài sản ròng sau khi trừ nợ, trong khi thu nhập là dòng tiền đều đặn.",
+              "Của cải biến động nhanh hơn nhiều so với thu nhập hàng năm của hộ gia đình khi có khủng hoảng."
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Income refers to regular cash inflow from salaries, investments, or government assistance... Wealth, by contrast, comprises the total net worth of an individual or household, including real estate, equity, and inherited assets, minus any outstanding debts. [Paragraph 2]",
+            "evidenceVi": "Thu nhập đề cập đến dòng tiền mặt vào đều đặn... Ngược lại, của cải bao gồm tổng giá trị tài sản ròng... trừ đi các khoản nợ chưa thanh toán. [Đoạn 2]",
+            "explanation": "Đoạn 2 định nghĩa rõ ràng: Income là dòng tiền đều đặn từ lương/trợ cấp, còn Wealth là tổng tài sản ròng (nhà đất, chứng khoán, thừa kế) trừ đi nợ nần.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết đối chiếu (Factual Comparison)",
+              "cluePassage": "Wealth, by contrast, comprises the total net worth... minus any outstanding debts. Income refers to regular cash inflow...",
+              "clueAnswer": "Wealth represents overall net worth after subtracting debts, while income is regular incoming cash.",
+              "keyPassage": "total net worth minus debts vs. regular cash inflow",
+              "keyAnswer": "net worth after subtracting debts vs. regular incoming cash",
+              "paraphrasePair": "minus debts <=> after subtracting debts",
+              "meaningVi": "tổng tài sản ròng trừ đi nợ <=> giá trị sau khi trừ nợ nần",
+              "deductionLogic": "Đáp án C phản ánh chuẩn xác 100% định nghĩa phân biệt của bài đọc. A tráo khái niệm; B sai dữ kiện; D ngược nghĩa (của cải bền vững hơn)."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "Why does the author mention a family with \"generational property and financial reserves\" in paragraph 2?",
+            "questionVi": "Tại sao tác giả đề cập đến một gia đình có \"tài sản thế hệ và nguồn dự trữ tài chính\" trong đoạn 2?",
+            "questionType": "DẠNG 06: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
+            "options": [
+              "To illustrate how accumulated wealth provides protection against economic hardship.",
+              "To prove that salary differences have no bearing on social status.",
+              "To argue that real estate investments are always superior to equity.",
+              "To criticize families who rely on inherited wealth instead of working."
+            ],
+            "optionsVi": [
+              "Để minh họa của cải tích lũy tạo ra sự bảo vệ trước khó khăn kinh tế như thế nào.",
+              "Để chứng minh rằng sự chênh lệch tiền lương không ảnh hưởng gì tới địa vị xã hội.",
+              "Để lập luận rằng đầu tư bất động sản luôn vượt trội hơn cổ phiếu.",
+              "Để chỉ trích những gia đình ỷ lại vào tài sản thừa kế thay vì làm việc."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "A family possessing generational property and financial reserves enjoys an economic buffer against crises that a family living paycheck to paycheck lacks, making wealth a far more durable determinant of long-term social standing. [Paragraph 2]",
+            "evidenceVi": "Một gia đình sở hữu bất động sản thế hệ và nguồn dự trữ tài chính sẽ có một tấm đệm kinh tế chống lại khủng hoảng... [Đoạn 2]",
+            "explanation": "Ví dụ này được đưa ra để chứng minh của cải tạo ra một tấm đệm kinh tế ('economic buffer') bảo vệ gia đình khi biến cố xảy ra, giúp họ duy trì vị thế vững chắc.",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Mục đích ví dụ (Rhetorical Purpose)",
+              "cluePassage": "enjoys an economic buffer against crises that a family living paycheck to paycheck lacks",
+              "clueAnswer": "illustrate how accumulated wealth provides protection against economic hardship",
+              "keyPassage": "economic buffer against crises",
+              "keyAnswer": "protection against economic hardship",
+              "paraphrasePair": "economic buffer <=> protection against hardship",
+              "meaningVi": "tấm đệm kinh tế trước khủng hoảng <=> sự bảo vệ trước khó khăn kinh tế",
+              "deductionLogic": "Tác giả dùng hình ảnh tương phản giữa hai gia đình có cùng mức lương nhưng khác biệt về tài sản tích lũy để nhấn mạnh vai trò bảo hộ của của cải."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "The phrase \"this authority\" in paragraph 3 refers to:",
+            "questionVi": "Cụm từ \"this authority\" trong đoạn 3 ám chỉ điều gì?",
+            "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
+            "options": [
+              "advanced university degrees",
+              "substantial monetary compensation",
+              "widespread social esteem and autonomy",
+              "technological innovations"
+            ],
+            "optionsVi": [
+              "các văn bằng đại học nâng cao",
+              "mức thù lao tài chính đáng kể",
+              "sự kính trọng rộng rãi của xã hội và quyền tự chủ nghề nghiệp",
+              "các sáng kiến công nghệ"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Occupations in medicine, corporate law, and advanced technology not only confer substantial monetary compensation but also command widespread social esteem and autonomy. Conversely, many service and manual occupations often lack this authority... [Paragraph 3]",
+            "evidenceVi": "Các ngành nghề trong y khoa, luật doanh nghiệp và công nghệ cao không chỉ mang lại thu nhập đáng kể mà còn nhận được sự kính trọng rộng rãi của xã hội và quyền tự chủ. Ngược lại, nhiều ngành dịch vụ và lao động chân tay lại thiếu đi quyền uy này... [Đoạn 3]",
+            "explanation": "\"This authority\" quy chiếu trực tiếp về \"widespread social esteem and autonomy\" (sự kính trọng xã hội và quyền tự chủ) được nhắc ngay ở câu liền trước.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Quy chiếu đại từ (Reference)",
+              "cluePassage": "command widespread social esteem and autonomy. Conversely, many service and manual occupations often lack this authority",
+              "clueAnswer": "widespread social esteem and autonomy",
+              "keyPassage": "widespread social esteem and autonomy",
+              "keyAnswer": "widespread social esteem and autonomy",
+              "paraphrasePair": "this authority => widespread social esteem and autonomy",
+              "meaningVi": "quyền uy / vị thế này => sự kính trọng và quyền tự chủ",
+              "deductionLogic": "Cụm 'this authority' thay thế cho vế thứ hai (social esteem and autonomy) của các nghề nghiệp danh giá."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "According to paragraph 3, what role do elite academic credentials play in the modern American economy?",
+            "questionVi": "Theo đoạn 3, các văn bằng học thuật tinh hoa đóng vai trò gì trong nền kinh tế Mỹ hiện đại?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "They guarantee identical salaries for all graduates across all industries.",
+              "They act as barriers or filters that control entry into highly regarded professions.",
+              "They eliminate the need for any practical workplace skills or etiquette.",
+              "They have become far less valuable than vocational apprenticeships."
+            ],
+            "optionsVi": [
+              "Chúng đảm bảo mức lương giống hệt nhau cho mọi sinh viên tốt nghiệp ở mọi ngành.",
+              "Chúng đóng vai trò như những rào cản hay bộ lọc kiểm soát lối vào các ngành nghề được coi trọng.",
+              "Chúng loại bỏ sự cần thiết của các kỹ năng thực tế hay phép lịch sự tại nơi làm việc.",
+              "Chúng đã trở nên kém giá trị hơn nhiều so với việc học nghề thực tế."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In an increasingly knowledge-based economy, post-secondary credentials—especially advanced degrees from elite institutions—act as gatekeepers to high-earning, influential professions. [Paragraph 3]",
+            "evidenceVi": "Trong một nền kinh tế ngày càng dựa trên tri thức, các văn bằng sau phổ thông—đặc biệt là bằng cấp nâng cao từ các trường tinh hoa—đóng vai trò là người gác cổng dẫn vào các ngành nghề có thu nhập cao và có sức ảnh hưởng. [Đoạn 3]",
+            "explanation": "\"Act as gatekeepers to high-earning, influential professions\" đồng nghĩa với việc đóng vai trò rào cản kiểm soát lối vào các nghề nghiệp danh giá.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết diễn giải (Paraphrased Detail)",
+              "cluePassage": "act as gatekeepers to high-earning, influential professions",
+              "clueAnswer": "act as barriers or filters that control entry into highly regarded professions",
+              "keyPassage": "gatekeepers to influential professions",
+              "keyAnswer": "barriers or filters that control entry",
+              "paraphrasePair": "gatekeepers <=> barriers/filters controlling entry",
+              "meaningVi": "người gác cổng <=> bộ lọc kiểm soát lối vào",
+              "deductionLogic": "Hình ảnh ẩn dụ 'gatekeeper' (người gác cổng) được diễn giải chuẩn xác thành rào cản kiểm soát sự gia nhập."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "Which of the following is NOT mentioned in paragraph 4 as a component of \"cultural capital\"?",
+            "questionVi": "Điều nào sau đây KHÔNG được đề cập trong đoạn 4 như là một thành tố của \"vốn văn hóa\"?",
+            "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
+            "options": [
+              "Speech patterns and language styles",
+              "Aesthetic tastes and leisure preferences",
+              "Inherited investment portfolios and real estate",
+              "Informal behavioral manners learned from upbringing"
+            ],
+            "optionsVi": [
+              "Cách ăn nói và phong cách ngôn ngữ",
+              "Thị hiếu thẩm mỹ và sở thích giải trí",
+              "Danh mục đầu tư thừa kế và bất động sản",
+              "Cách ứng xử phi chính thức học được từ quá trình nuôi dưỡng"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "This concept encompasses speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette absorbed from one's upbringing. [Paragraph 4]",
+            "evidenceVi": "Khái niệm này bao gồm các kiểu mẫu ngôn ngữ, thị hiếu thẩm mỹ, các thú vui giải trí, và các quy tắc ứng xử phi chính thức được tiếp thu từ quá trình nuôi dưỡng. [Đoạn 4]",
+            "explanation": "Đoạn 4 liệt kê rõ 4 yếu tố của 'cultural capital': speech patterns (A), aesthetic tastes & recreational pursuits (B), informal etiquette (D). 'Inherited investment portfolios' thuộc về kinh tế (wealth ở Đoạn 2), không thuộc vốn văn hóa.",
+            "postReading": {
+              "type": "negative",
+              "typeLabel": "Thông tin loại trừ (Negative Detail)",
+              "cluePassage": "speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette",
+              "clueAnswer": "Inherited investment portfolios and real estate",
+              "keyPassage": "cultural capital encompasses non-material social traits",
+              "keyAnswer": "inherited portfolios belongs to wealth (economic capital)",
+              "paraphrasePair": "recreational pursuits <=> leisure preferences | etiquette <=> behavioral manners",
+              "meaningVi": "thú vui giải trí <=> sở thích giải trí | phép tắc <=> cách ứng xử",
+              "deductionLogic": "Tài sản tài chính (chứng khoán, bất động sản) thuộc vốn tài chính (wealth), không phải vốn văn hóa phi vật thể (cultural capital)."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"These acquired attributes are rarely taught formally in schools, yet they profoundly influence how an individual is perceived in professional settings.\"\nWhere would the sentence best fit?",
+            "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "Vị trí [A]",
+              "Vị trí [B]",
+              "Vị trí [C]",
+              "Vị trí [D]"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "[A] This concept encompasses speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette absorbed from one's upbringing. [B] Members of the upper-middle and upper classes frequently share specific linguistic codes... [Paragraph 4]",
+            "evidenceVi": "Vị trí [B] đứng ngay sau câu liệt kê các thuộc tính (speech patterns, etiquette...) để giải thích 'These acquired attributes' (những thuộc tính tiếp thu này) hiếm khi được dạy trong trường học.",
+            "explanation": "Đại từ chỉ định 'These acquired attributes' kết nối trực tiếp với danh sách các thuộc tính văn hóa ở câu liền trước vị trí [B] (speech patterns, aesthetic tastes, recreational pursuits, etiquette).",
+            "postReading": {
+              "type": "insertion",
+              "typeLabel": "Điền câu logic (Sentence Insertion)",
+              "cluePassage": "encompasses speech patterns, aesthetic tastes, recreational pursuits, and informal etiquette absorbed from one's upbringing. [B]",
+              "clueAnswer": "[B]",
+              "keyPassage": "speech patterns, aesthetic tastes, informal etiquette",
+              "keyAnswer": "These acquired attributes",
+              "paraphrasePair": "attributes absorbed from upbringing <=> acquired attributes",
+              "meaningVi": "thuộc tính tiếp thu từ nuôi dưỡng <=> những thuộc tính tiếp thu này",
+              "deductionLogic": "Móc xích 'These acquired attributes' chỉ có thể thay thế cho các đặc điểm được nêu ở câu trước [B]."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "The word \"crystallize\" in paragraph 5 is closest in meaning to:",
+            "questionVi": "Từ \"crystallize\" trong đoạn 5 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "dissolve quickly",
+              "become clearer and more rigid",
+              "expand geographically",
+              "weaken significantly"
+            ],
+            "optionsVi": [
+              "hòa tan nhanh chóng",
+              "trở nên rõ rệt và vững chắc / khó thay đổi hơn",
+              "mở rộng về mặt địa lý",
+              "suy yếu đáng kể"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "When economic assets, educational credentials, and social connections reinforce one another, class boundaries tend to crystallize, profoundly shaping an individual's life trajectory. [Paragraph 5]",
+            "evidenceVi": "Khi tài sản kinh tế, bằng cấp giáo dục và các mối quan hệ xã hội củng cố lẫn nhau, các ranh giới giai cấp có xu hướng kết tinh vững chắc... [Đoạn 5]",
+            "explanation": "\"Crystallize\" theo nghĩa bóng trong xã hội học nghĩa là các ranh giới kết tinh, định hình vững chắc và khó lay chuyển (become clearer and more rigid / solidify).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "class boundaries tend to crystallize, profoundly shaping an individual's life trajectory",
+              "clueAnswer": "become clearer and more rigid",
+              "keyPassage": "crystallize",
+              "keyAnswer": "become clearer and more rigid / solidify",
+              "paraphrasePair": "crystallize <=> become clearer and more rigid",
+              "meaningVi": "kết tinh, đông đặc lại <=> trở nên rõ rệt và khó thay đổi",
+              "deductionLogic": "Từ gốc mang nghĩa kết tinh thể, trong văn cảnh phân tầng giai cấp mang nghĩa định hình ranh giới kiên cố."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "Which of the following can be inferred from paragraph 5 about social mobility in the United States?",
+            "questionVi": "Điều nào sau đây có thể được suy luận từ đoạn 5 về sự dịch chuyển xã hội (social mobility) tại Mỹ?",
+            "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN (Inference Question)",
+            "options": [
+              "Upward social mobility is legally prohibited for individuals from working-class backgrounds.",
+              "It has become more difficult in recent decades for people to move from one social class to a higher one.",
+              "Financial resources no longer have any impact on a person's future prospects.",
+              "Intergenerational mobility is now faster and more widespread than in previous centuries."
+            ],
+            "optionsVi": [
+              "Việc thăng tiến giai cấp bị pháp luật ngăn cấm đối với người xuất thân từ giai cấp lao động.",
+              "Việc dịch chuyển từ tầng lớp thấp lên tầng lớp cao hơn đã trở nên khó khăn hơn trong những thập kỷ gần đây.",
+              "Nguồn lực tài chính không còn bất kỳ tác động nào đến tương lai của một cá nhân.",
+              "Sự dịch chuyển giữa các thế hệ hiện nay diễn ra nhanh hơn và phổ biến hơn so với các thế kỷ trước."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "While the absence of statutory barriers preserves the theoretical promise of upward social mobility, statistical evidence in recent decades indicates that intergenerational mobility has slowed. [Paragraph 5]",
+            "evidenceVi": "Mặc dù việc không có rào cản luật pháp vẫn giữ nguyên lời hứa trên lý thuyết về sự thăng tiến xã hội, các bằng chứng thống kê trong các thập kỷ gần đây chỉ ra rằng sự dịch chuyển giữa các thế hệ đã chậm lại. [Đoạn 5]",
+            "explanation": "\"Intergenerational mobility has slowed\" (sự dịch chuyển giữa các thế hệ bị chậm lại) suy ra rằng việc thăng tiến từ tầng lớp dưới lên tầng lớp cao hơn đã trở nên khó khăn hơn (become more difficult).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận logic (Inference)",
+              "cluePassage": "statistical evidence in recent decades indicates that intergenerational mobility has slowed.",
+              "clueAnswer": "It has become more difficult in recent decades for people to move from one social class to a higher one.",
+              "keyPassage": "intergenerational mobility has slowed",
+              "keyAnswer": "more difficult to move to a higher class",
+              "paraphrasePair": "mobility has slowed <=> become more difficult to move to a higher class",
+              "meaningVi": "dịch chuyển giai cấp bị chậm lại <=> khó khăn hơn để thăng tiến lên tầng lớp cao hơn",
+              "deductionLogic": "A sai vì bài nói 'absence of statutory barriers'; C sai vì tài chính vẫn quyết định lớn; D ngược nghĩa hoàn toàn."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Tay Ho - A New Destination",
+        "topic": "Đô thị học & Sự chuyển mình quốc tế của vùng đất Tây Hồ",
+        "timeAllowed": 15,
+        "passage": "<p>For centuries, the Tay Ho district—nestled along the shores of Hanoi's expansive West Lake—was regarded primarily as a tranquil agricultural and spiritual retreat. Local residents cultivated fragrant lotus blossoms to scent traditional teas, harvested kumquats for Lunar New Year festivities, and frequented ancient pagodas that have dotted the shoreline since the Ly and Tran dynasties. The atmosphere was characterized by sleepy fishing hamlets and narrow alleys where life moved at an unhurried, rhythmic pace. However, over the past two decades, this picturesque peri-urban enclave has experienced a profound <strong>metamorphosis</strong>, emerging as one of Vietnam's most dynamic international destinations.</p><p>The initial catalyst for this transformation was the district's natural appeal to foreign diplomats, expatriate professionals, and development workers. Drawn by the lake's cooling breezes, scenic waterfront vistas, and relative seclusion from the congested alleys of Hanoi's historic Old Quarter, these newcomers began leasing traditional villas and establishing long-term residences. Over time, the growing international community stimulated a parallel influx of creative young Vietnamese entrepreneurs, artists, and repatriated overseas graduates who sought a modern, cosmopolitan lifestyle within an authentic cultural setting.</p><p>This demographic shift has fostered an exceptionally diverse commercial ecosystem. Today, the streets surrounding West Lake boast an eclectic concentration of specialized businesses that contrast sharply with the city's conventional retail landscape. High-end artisanal bakeries, specialty coffee roasters sourcing single-origin beans from the Central Highlands, and zero-waste organic grocery stores thrive alongside international dining venues. Visitors can readily sample authentic Mediterranean tapas, wood-fired Neapolitan pizzas, plant-based vegan delicacies, and French pastries within a few hundred meters. Furthermore, the district has become a fertile incubator for co-working facilities, independent art galleries, yoga studios, and craft workshops offering pottery and textile design.</p><p>What distinguishes Tay Ho from purely commercialized tourist districts is its vibrant cultural synthesis. [A] Rather than completely obliterating the past, modernity often exists in close harmony with time-honored traditions. [B] Early in the morning, elderly locals practicing Tai Chi along the lakeside promenade share the pavement with foreign joggers and cycling enthusiasts. [C] Moments later, traditional itinerant flower vendors pushing bicycles laden with fresh lilies and hydrangeas navigate past sleek, minimalist glass-fronted espresso bars. [D] <strong>This juxtaposition</strong> lends the neighborhood an unmistakable charm, combining global sophistication with grounded local heritage.</p><p>Nevertheless, the rapid surge in commercialization brings substantial challenges. Rising property values and commercial rents threaten to displace long-standing native families and modest traditional workshops. Additionally, intensified vehicular traffic and weekend tourist congestion place severe strain on the neighborhood's narrow infrastructure and the delicate ecology of West Lake itself. Urban planners and community leaders now face the delicate task of preserving Tay Ho's authentic spiritual roots and environmental serenity while supporting the commercial vitality that makes it such an attractive contemporary destination.</p>",
+        "vocab": [
+          {
+            "word": "tranquil",
+            "pos": "adj",
+            "ipa": "/ˈtræŋ.kwɪl/",
+            "level": "B2",
+            "mean": "yên bình, thanh tĩnh",
+            "syns": [
+              "serene",
+              "peaceful",
+              "placid"
+            ],
+            "ex": "The tranquil waters of West Lake have inspired generations of Vietnamese poets."
+          },
+          {
+            "word": "metamorphosis",
+            "pos": "n",
+            "ipa": "/ˌmet.əˈmɔː.fə.sɪs/",
+            "level": "C1",
+            "mean": "sự chuyển mình, lột xác hoàn toàn",
+            "syns": [
+              "transformation",
+              "transmutation",
+              "conversion"
+            ],
+            "ex": "The old industrial quarter underwent a dramatic metamorphosis into a creative cultural park."
+          },
+          {
+            "word": "catalyst",
+            "pos": "n",
+            "ipa": "/ˈkæt.əl.ɪst/",
+            "level": "B2",
+            "mean": "chất xúc tác, tác nhân thúc đẩy",
+            "syns": [
+              "stimulus",
+              "spark",
+              "impetus"
+            ],
+            "ex": "The opening of the diplomatic compound served as a major catalyst for local real estate development."
+          },
+          {
+            "word": "cosmopolitan",
+            "pos": "adj",
+            "ipa": "/ˌkɒz.məˈpɒl.ɪ.tən/",
+            "level": "C1",
+            "mean": "mang tính quốc tế, quy tụ nhiều nền văn hóa",
+            "syns": [
+              "international",
+              "global",
+              "multicultural"
+            ],
+            "ex": "Tay Ho has evolved into an exceptionally cosmopolitan neighborhood with residents from over forty countries."
+          },
+          {
+            "word": "eclectic",
+            "pos": "adj",
+            "ipa": "/ekˈlek.tɪk/",
+            "level": "C1",
+            "mean": "đa dạng, phong phú từ nhiều nguồn",
+            "syns": [
+              "diverse",
+              "varied",
+              "heterogeneous"
+            ],
+            "ex": "The street offers an eclectic mix of contemporary art galleries, vegan cafes, and traditional pottery shops."
+          },
+          {
+            "word": "incubator",
+            "pos": "n",
+            "ipa": "/ˈɪŋ.kjə.beɪ.tər/",
+            "level": "B2",
+            "mean": "vườn ươm, nơi nuôi dưỡng ý tưởng mới",
+            "syns": [
+              "nursery",
+              "breeding ground",
+              "cradle"
+            ],
+            "ex": "The co-working space acts as a vibrant incubator for innovative tech and design startups."
+          },
+          {
+            "word": "synthesis",
+            "pos": "n",
+            "ipa": "/ˈsɪn.θə.sɪs/",
+            "level": "C1",
+            "mean": "sự tổng hòa, kết hợp hài hòa",
+            "syns": [
+              "fusion",
+              "amalgamation",
+              "blend"
+            ],
+            "ex": "The district's culinary culture is a unique synthesis of European techniques and fresh local herbs."
+          },
+          {
+            "word": "juxtaposition",
+            "pos": "n",
+            "ipa": "/ˌdʒʌk.stə.pəˈzɪʃ.ən/",
+            "level": "C1",
+            "mean": "sự đặt cạnh nhau đối chiếu (cũ - mới)",
+            "syns": [
+              "contrast",
+              "adjacency",
+              "coexistence"
+            ],
+            "ex": "The stunning juxtaposition of ancient Buddhist pagodas and sleek minimalist cafes fascinates visitors."
+          },
+          {
+            "word": "displace",
+            "pos": "v",
+            "ipa": "/dɪsˈpleɪs/",
+            "level": "B2",
+            "mean": "chiếm chỗ, đẩy bật ra khỏi nơi ở cũ",
+            "syns": [
+              "relocate",
+              "oust",
+              "evict"
+            ],
+            "ex": "Skyrocketing commercial rents in historic districts often displace local craft artisans."
+          },
+          {
+            "word": "serenity",
+            "pos": "n",
+            "ipa": "/səˈren.ə.ti/",
+            "level": "B2",
+            "mean": "sự tĩnh lặng, thanh bình",
+            "syns": [
+              "calmness",
+              "peacefulness",
+              "tranquility"
+            ],
+            "ex": "Preserving the lake's environmental serenity while encouraging eco-tourism is an urgent priority."
+          },
+          {
+            "word": "nestled",
+            "pos": "adj",
+            "ipa": "/ˈnes.əld/",
+            "level": "B2",
+            "mean": "nằm nép mình, tọa lạc yên tĩnh tại vị trí đắc địa",
+            "syns": [
+              "situated",
+              "tucked away",
+              "sheltered",
+              "located snugly"
+            ],
+            "ex": "Nestled along the shoreline, the ancient village provided a tranquil sanctuary from the metropolis."
+          },
+          {
+            "word": "retreat",
+            "pos": "n",
+            "ipa": "/rɪˈtriːt/",
+            "level": "B2",
+            "mean": "chốn ẩn náu thanh tịnh, nơi nghỉ dưỡng tĩnh lặng",
+            "syns": [
+              "haven",
+              "sanctuary",
+              "getaway",
+              "refuge"
+            ],
+            "ex": "The serene lakeside gardens served as a spiritual retreat for city residents seeking peace."
+          },
+          {
+            "word": "peri-urban",
+            "pos": "adj",
+            "ipa": "/ˌper.iˈɜː.bən/",
+            "level": "C1",
+            "mean": "vùng ven đô, khu vực giáp ranh giữa thành thị và nông thôn",
+            "syns": [
+              "suburban fringe",
+              "outlying",
+              "semi-urban"
+            ],
+            "ex": "Peri-urban districts frequently experience rapid commercial development as city borders expand outward."
+          },
+          {
+            "word": "enclave",
+            "pos": "n",
+            "ipa": "/ˈeŋ.kleɪv/",
+            "level": "C1",
+            "mean": "khu vực lãnh thổ/dân cư đặc thù nằm tách biệt trong lòng một vùng lớn hơn",
+            "syns": [
+              "pocket",
+              "distinct district",
+              "settlement"
+            ],
+            "ex": "The district has emerged as a vibrant multicultural enclave for international diplomats and professionals."
+          },
+          {
+            "word": "expatriate",
+            "pos": "n",
+            "ipa": "/ekˈspæt.ri.ət/",
+            "level": "B2",
+            "mean": "chuyên gia/người nước ngoài sinh sống và làm việc xa quê hương",
+            "syns": [
+              "expat",
+              "foreign resident",
+              "emigrant"
+            ],
+            "ex": "A sizable expatriate community has settled near West Lake due to its pleasant open environment."
+          },
+          {
+            "word": "seclusion",
+            "pos": "n",
+            "ipa": "/sɪˈkluː.ʒən/",
+            "level": "C1",
+            "mean": "sự thanh tịnh biệt lập, cách xa khỏi sự ồn ào náo nhiệt",
+            "syns": [
+              "privacy",
+              "isolation",
+              "solitude",
+              "peacefulness"
+            ],
+            "ex": "They appreciated the quiet seclusion of the villa after working long hours in the busy downtown."
+          },
+          {
+            "word": "repatriate",
+            "pos": "v",
+            "ipa": "/riːˈpæt.ri.eɪt/",
+            "level": "C1",
+            "mean": "hồi hương, trở về nước sinh sống sau thời gian dài ở nước ngoài",
+            "syns": [
+              "return home",
+              "resettle domestically"
+            ],
+            "ex": "Many repatriated graduates launched creative start-ups upon returning to Vietnam."
+          },
+          {
+            "word": "artisanal",
+            "pos": "adj",
+            "ipa": "/ˌɑː.tɪˈzæn.əl/",
+            "level": "B2",
+            "mean": "thủ công tinh xảo, sản xuất theo phương pháp truyền thống chất lượng cao",
+            "syns": [
+              "handcrafted",
+              "traditional",
+              "specialty",
+              "custom-made"
+            ],
+            "ex": "The bakery specializes in artisanal sourdough breads made without artificial preservatives."
+          },
+          {
+            "word": "single-origin",
+            "pos": "adj",
+            "ipa": "/ˌsɪŋ.ɡəl ˈɒr.ɪ.dʒɪn/",
+            "level": "B2",
+            "mean": "có nguồn gốc xuất xứ từ một vùng canh tác duy nhất (về hạt cà phê/trà)",
+            "syns": [
+              "estate-grown",
+              "pure-origin",
+              "traceable"
+            ],
+            "ex": "The café roasts single-origin Arabica beans sourced directly from certified organic farms in Da Lat."
+          },
+          {
+            "word": "delicacy",
+            "pos": "n",
+            "ipa": "/ˈdel.ɪ.kə.si/",
+            "level": "B2",
+            "mean": "món ăn cao lương mỹ vị, thức đặc sản quý hiếm",
+            "syns": [
+              "treat",
+              "culinary specialty",
+              "gourmet food"
+            ],
+            "ex": "West Lake lotus tea is considered an exquisite delicacy prized by culinary connoisseurs."
+          },
+          {
+            "word": "obliterate",
+            "pos": "v",
+            "ipa": "/əˈblɪt.ər.eɪt/",
+            "level": "C1",
+            "mean": "xóa sạch hoàn toàn, triệt tiêu không còn dấu vết",
+            "syns": [
+              "wipe out",
+              "erase",
+              "destroy completely",
+              "annihilate"
+            ],
+            "ex": "Modern urban development does not necessarily obliterate historical streetscapes and cultural memory."
+          },
+          {
+            "word": "time-honored",
+            "pos": "adj",
+            "ipa": "/ˈtaɪmˌɒn.əd/",
+            "level": "B2",
+            "mean": "lâu đời, đã được kiểm chứng và tôn vinh qua năm tháng",
+            "syns": [
+              "venerable",
+              "traditional",
+              "age-old",
+              "established"
+            ],
+            "ex": "Flower growers continue the time-honored practice of scenting tea blossoms beneath the evening dew."
+          },
+          {
+            "word": "promenade",
+            "pos": "n",
+            "ipa": "/ˌprɒm.əˈnɑːd/",
+            "level": "B2",
+            "mean": "đường tản bộ, lối đi dạo rộng rãi ven hồ hoặc ven bờ biển",
+            "syns": [
+              "walkway",
+              "esplanade",
+              "boardwalk",
+              "avenue"
+            ],
+            "ex": "Locals gather along the lakeside promenade each morning to exercise and enjoy the fresh breeze."
+          },
+          {
+            "word": "itinerant",
+            "pos": "adj",
+            "ipa": "/aɪˈtɪn.ər.ənt/",
+            "level": "C1",
+            "mean": "lưu động, đi từ nơi này sang nơi khác để mưu sinh/bán hàng rong",
+            "syns": [
+              "traveling",
+              "wandering",
+              "nomadic",
+              "peripatetic"
+            ],
+            "ex": "Itinerant street vendors pedaling bicycles laden with fresh flowers are an iconic image of Hanoi."
+          },
+          {
+            "word": "laden",
+            "pos": "adj",
+            "ipa": "/ˈleɪ.dən/",
+            "level": "C1",
+            "mean": "chất đầy, chở nặng trĩu hàng hóa hoặc cảm xúc",
+            "syns": [
+              "loaded",
+              "burdened",
+              "heavily laden",
+              "brimming"
+            ],
+            "ex": "Bicycles laden with blooming peach blossoms navigated the bustling narrow alleys."
+          },
+          {
+            "word": "commercialization",
+            "pos": "n",
+            "ipa": "/kəˌmɜː.ʃəl.aɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "quá trình thương mại hóa, đưa vào kinh doanh kiếm lợi nhuận",
+            "syns": [
+              "monetization",
+              "merchandising",
+              "business exploitation"
+            ],
+            "ex": "Rapid commercialization has driven up property rents, challenging local long-standing residents."
+          },
+          {
+            "word": "vitality",
+            "pos": "n",
+            "ipa": "/vaɪˈtæl.ə.ti/",
+            "level": "B2",
+            "mean": "sức sống mãnh liệt, năng lượng tươi mới tràn đầy sức phát triển",
+            "syns": [
+              "liveliness",
+              "energy",
+              "dynamism",
+              "vigor"
+            ],
+            "ex": "The blend of traditional pagodas and stylish creative hubs gives the neighborhood unique vitality."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "Which of the following would be the most suitable title for this passage?",
+            "questionVi": "Tiêu đề nào sau đây phù hợp nhất cho bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The Complete Commercial Demolition of Ancient Hanoi",
+              "Tay Ho: From Tranquil Lakeside Hamlet to Cosmopolitan Hub",
+              "Why Foreign Expatriates Dominate Vietnam's Retail Economy",
+              "The Ecological Extinction of West Lake's Native Lotus Flowers"
+            ],
+            "optionsVi": [
+              "Sự phá hủy hoàn toàn về thương mại của Hà Nội cổ kính",
+              "Tây Hồ: Từ làng ven hồ thanh bình đến trung tâm giao thoa quốc tế",
+              "Tại sao chuyên gia nước ngoài lại thống trị nền kinh tế bán lẻ Việt Nam",
+              "Sự tuyệt chủng sinh thái của hoa sen bản địa Hồ Tây"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "However, over the past two decades, this picturesque peri-urban enclave has experienced a profound metamorphosis, emerging as one of Vietnam's most dynamic international destinations. [Paragraph 1 & Throughout]",
+            "evidenceVi": "Tuy nhiên, trong hai thập kỷ qua, vùng ngoại vi tươi đẹp này đã trải qua một sự chuyển mình sâu sắc, trở thành một trong những điểm đến quốc tế năng động nhất của Việt Nam. [Đoạn 1 & toàn bài]",
+            "explanation": "Bài đọc mô tả hành trình biến chuyển của quận Tây Hồ: từ một vùng làng quê tâm linh thanh tĩnh (Đoạn 1) trở thành điểm hội tụ quốc tế đa dạng với nhiều quán xá hiện đại đan xen truyền thống (Đoạn 2-4), cùng những thách thức phát triển (Đoạn 5).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Tiêu đề phù hợp nhất (Best Title)",
+              "cluePassage": "From tranquil agricultural and spiritual retreat... to one of Vietnam's most dynamic international destinations.",
+              "clueAnswer": "From Tranquil Lakeside Hamlet to Cosmopolitan Hub",
+              "keyPassage": "tranquil retreat => dynamic international destination",
+              "keyAnswer": "Tranquil Hamlet => Cosmopolitan Hub",
+              "paraphrasePair": "tranquil retreat <=> tranquil hamlet | international destination <=> cosmopolitan hub",
+              "meaningVi": "vùng yên bình => điểm đến quốc tế <=> xóm thanh bình => trung tâm quốc tế",
+              "deductionLogic": "Đáp án B bao quát trọn vẹn cả lịch sử khởi đầu và diện mạo chuyển mình hiện đại của Tây Hồ. Các phương án A, C, D đều quá cực đoan hoặc sai lệch nội dung bài đọc."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "The word \"metamorphosis\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"metamorphosis\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "transformation",
+              "stagnation",
+              "destruction",
+              "relocation"
+            ],
+            "optionsVi": [
+              "sự chuyển hóa, thay đổi hoàn toàn",
+              "sự trì trệ",
+              "sự tàn phá",
+              "sự di dời"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "However, over the past two decades, this picturesque peri-urban enclave has experienced a profound metamorphosis... [Paragraph 1]",
+            "evidenceVi": "Tuy nhiên, trong hai thập kỷ qua, vùng đất tuyệt đẹp này đã trải qua một sự lột xác sâu sắc... [Đoạn 1]",
+            "explanation": "\"Metamorphosis\" có nghĩa là sự thay đổi hoàn toàn về hình hài, cấu trúc (transformation), chỉ sự lột xác của vùng Tây Hồ.",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "experienced a profound metamorphosis, emerging as one of Vietnam's most dynamic international destinations",
+              "clueAnswer": "transformation",
+              "keyPassage": "metamorphosis",
+              "keyAnswer": "transformation",
+              "paraphrasePair": "metamorphosis <=> transformation",
+              "meaningVi": "sự lột xác / biến đổi sâu sắc <=> sự biến đổi",
+              "deductionLogic": "Văn cảnh miêu tả sự thay đổi từ làng nông nghiệp yên ắng thành trung tâm quốc tế năng động, phù hợp nhất với 'transformation'."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "According to paragraph 1, what was Tay Ho primarily known for in the past?",
+            "questionVi": "Theo đoạn 1, quận Tây Hồ trước đây chủ yếu được biết đến với điều gì?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "Dense clusters of modern high-rise office towers",
+              "Quiet fishing hamlets, lotus cultivation, and historical pagodas",
+              "A fast-paced nightlife district catering to international travelers",
+              "Extensive factory facilities producing textiles and ceramics"
+            ],
+            "optionsVi": [
+              "Các cụm cao ốc văn phòng cao tầng hiện đại dày đặc",
+              "Những xóm chài yên bình, việc trồng sen và các ngôi chùa cổ",
+              "Khu vực giải trí về đêm nhộn nhịp phục vụ du khách quốc tế",
+              "Hệ thống nhà máy quy mô lớn sản xuất dệt may và gốm sứ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Local residents cultivated fragrant lotus blossoms to scent traditional teas, harvested kumquats for Lunar New Year festivities, and frequented ancient pagodas that have dotted the shoreline... sleepy fishing hamlets... [Paragraph 1]",
+            "evidenceVi": "Người dân địa phương trồng những bông sen thơm để ướp trà truyền thống, thu hoạch quất cho dịp Tết và viếng những ngôi chùa cổ ven hồ... những xóm chài yên ngủ... [Đoạn 1]",
+            "explanation": "Đoạn 1 liệt kê rõ ràng: trồng sen ướp trà (cultivated fragrant lotus blossoms), các ngôi chùa cổ (ancient pagodas) và các xóm chài bình yên (sleepy fishing hamlets).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết trong bài (Factual Detail)",
+              "cluePassage": "cultivated fragrant lotus blossoms... ancient pagodas... sleepy fishing hamlets",
+              "clueAnswer": "Quiet fishing hamlets, lotus cultivation, and historical pagodas",
+              "keyPassage": "sleepy fishing hamlets, lotus blossoms, ancient pagodas",
+              "keyAnswer": "Quiet fishing hamlets, lotus cultivation, historical pagodas",
+              "paraphrasePair": "sleepy fishing hamlets <=> quiet fishing hamlets | ancient pagodas <=> historical pagodas",
+              "meaningVi": "xóm chài yên ngủ <=> xóm chài yên tĩnh | chùa cổ <=> chùa lịch sử",
+              "deductionLogic": "Đáp án B khớp chuẩn xác từng chi tiết nông nghiệp và tâm linh được nêu ở đoạn mở đầu."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "According to paragraph 2, what initially attracted foreign expatriates to relocate to Tay Ho?",
+            "questionVi": "Theo đoạn 2, điều gì ban đầu đã thu hút các chuyên gia nước ngoài chuyển đến sinh sống tại Tây Hồ?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "Significantly lower consumer prices than in any other Southeast Asian capital",
+              "Cool breezes from the lake, pleasant views, and distance from city center congestion",
+              "The direct availability of international airport express trains",
+              "Government subsidies offering free villas to international diplomats"
+            ],
+            "optionsVi": [
+              "Giá cả sinh hoạt thấp hơn đáng kể so với bất kỳ thủ đô nào ở Đông Nam Á",
+              "Gió mát từ hồ, quang cảnh dễ chịu và sự tách biệt khỏi sự đông đúc của trung tâm thành phố",
+              "Tuyến tàu hỏa tốc hành kết nối trực tiếp với sân bay quốc tế",
+              "Các khoản trợ cấp của chính phủ cấp biệt thự miễn phí cho các nhà ngoại giao"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Drawn by the lake's cooling breezes, scenic waterfront vistas, and relative seclusion from the congested alleys of Hanoi's historic Old Quarter, these newcomers began leasing traditional villas... [Paragraph 2]",
+            "evidenceVi": "Bị thu hút bởi làn gió mát lành từ mặt hồ, cảnh quan ven nước nên thơ và sự tách biệt tương đối khỏi những con ngõ đông đúc của Phố Cổ Hà Nội... [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu 3 lý do hút người nước ngoài: cooling breezes (gió mát), scenic waterfront vistas (cảnh ven hồ thoáng đãng), và relative seclusion from congested alleys (sự yên tĩnh tách biệt phố xá đông đúc).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết nguyên nhân (Cause & Effect)",
+              "cluePassage": "cooling breezes, scenic waterfront vistas, and relative seclusion from congested alleys",
+              "clueAnswer": "Cool breezes from the lake, pleasant views, and distance from city center congestion",
+              "keyPassage": "cooling breezes, waterfront vistas, seclusion from congested alleys",
+              "keyAnswer": "Cool breezes, pleasant views, distance from congestion",
+              "paraphrasePair": "scenic waterfront vistas <=> pleasant views | relative seclusion <=> distance from congestion",
+              "meaningVi": "cảnh ven nước nên thơ <=> cảnh quan dễ chịu | tách biệt khỏi ngõ ngách đông đúc <=> cách xa sự tắc nghẽn",
+              "deductionLogic": "Phương án B diễn đạt lại chính xác 3 yếu tố tự nhiên và vị trí địa lý được nhắc đến trong đoạn 2."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "Which of the following types of businesses is NOT mentioned in paragraph 3 as part of Tay Ho's current commercial ecosystem?",
+            "questionVi": "Loại hình kinh doanh nào sau đây KHÔNG được nhắc đến trong đoạn 3 như một phần của hệ sinh thái thương mại Tây Hồ hiện nay?",
+            "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
+            "options": [
+              "Specialty coffee roasters using Central Highlands beans",
+              "Artisanal bakeries and zero-waste organic grocery stores",
+              "Massive industrial automobile assembly plants",
+              "Co-working spaces and craft pottery workshops"
+            ],
+            "optionsVi": [
+              "Các xưởng rang cà phê đặc sản sử dụng hạt từ Tây Nguyên",
+              "Các tiệm bánh thủ công và cửa hàng tạp hóa hữu cơ không rác thải",
+              "Các nhà máy lắp ráp ô tô công nghiệp quy mô lớn",
+              "Không gian làm việc chung và các xưởng làm gốm thủ công"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Today, the streets surrounding West Lake boast an eclectic concentration of specialized businesses... artisanal bakeries, specialty coffee roasters... zero-waste organic grocery stores... co-working facilities... pottery and textile design. [Paragraph 3]",
+            "evidenceVi": "Đoạn 3 liệt kê các quán cà phê đặc sản, tiệm bánh thủ công, tiệm thực phẩm hữu cơ, co-working, xưởng gốm. Hoàn toàn không có nhà máy lắp ráp ô tô công nghiệp.",
+            "explanation": "Đoạn 3 tập trung vào các dịch vụ F&B tinh tế, nghệ thuật và thủ công. Phương án C (nhà máy lắp ráp ô tô) là hoàn toàn sai và không xuất hiện trong bài.",
+            "postReading": {
+              "type": "negative",
+              "typeLabel": "Thông tin loại trừ (Negative Detail)",
+              "cluePassage": "artisanal bakeries, specialty coffee roasters... zero-waste organic grocery stores... co-working facilities... pottery workshops",
+              "clueAnswer": "Massive industrial automobile assembly plants",
+              "keyPassage": "specialized boutique, artisanal, and creative services",
+              "keyAnswer": "heavy industrial automobile plants not mentioned",
+              "paraphrasePair": "boutique retail <=> non-industrial businesses",
+              "meaningVi": "các cửa hàng thủ công tinh tế <=> khác biệt hoàn toàn với nhà máy công nghiệp nặng",
+              "deductionLogic": "Tây Hồ phát triển theo hướng dịch vụ sáng tạo và ẩm thực, không có hoạt động công nghiệp lắp ráp ô tô."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "The phrase \"This juxtaposition\" in paragraph 4 refers to the coexistence of:",
+            "questionVi": "Cụm từ \"This juxtaposition\" trong đoạn 4 ám chỉ sự cùng tồn tại cạnh nhau của:",
+            "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
+            "options": [
+              "luxury automobiles and high-speed motorbikes",
+              "traditional local practices and contemporary modern lifestyle elements",
+              "different international embassies located on the same boulevard",
+              "various species of aquatic birds residing on the lake"
+            ],
+            "optionsVi": [
+              "ô tô hạng sang và xe máy phân khối lớn",
+              "các tập quán truyền thống địa phương và các yếu tố đời sống hiện đại đương thời",
+              "các đại sứ quán quốc tế khác nhau tọa lạc trên cùng một đại lộ",
+              "các loài chim nước khác nhau sinh sống trên mặt hồ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Early in the morning, elderly locals practicing Tai Chi... share the pavement with foreign joggers... moments later, traditional itinerant flower vendors pushing bicycles... navigate past sleek, minimalist glass-fronted espresso bars. This juxtaposition lends the neighborhood an unmistakable charm... [Paragraph 4]",
+            "evidenceVi": "Cụ bà tập dưỡng sinh cùng vỉa hè với người nước ngoài chạy bộ; người bán hoa dạo đạp xe ngang qua quán cà phê kính bóng loáng hiện đại. Sự đặt cạnh nhau này đem lại nét quyến rũ không thể nhầm lẫn... [Đoạn 4]",
+            "explanation": "\"This juxtaposition\" tổng kết sự đặt cạnh nhau, đan cài giữa nét cổ truyền bình dị (Tai Chi, gánh hoa) và nét hiện đại ngoại nhập (jogging, espresso bars).",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Quy chiếu tổng hợp (Reference)",
+              "cluePassage": "elderly locals practicing Tai Chi... traditional itinerant flower vendors... past sleek, minimalist espresso bars. This juxtaposition...",
+              "clueAnswer": "traditional local practices and contemporary modern lifestyle elements",
+              "keyPassage": "tradition alongside modernity",
+              "keyAnswer": "traditional practices alongside modern elements",
+              "paraphrasePair": "juxtaposition => placing traditional and modern side by side",
+              "meaningVi": "sự đặt cạnh nhau => nét truyền thống song hành cùng nét hiện đại",
+              "deductionLogic": "Câu đứng trước mô tả hai cặp hình ảnh tương phản: người tập dưỡng sinh bên người chạy bộ, xe chở hoa bên quán cà phê kính hiện đại."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "The word \"eclectic\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"eclectic\" trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "diverse and varied",
+              "strictly uniform",
+              "financially unprofitable",
+              "temporarily closed"
+            ],
+            "optionsVi": [
+              "đa dạng và phong phú",
+              "đồng nhất nghiêm ngặt",
+              "không có lợi nhuận tài chính",
+              "tạm thời đóng cửa"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Today, the streets surrounding West Lake boast an eclectic concentration of specialized businesses... [Paragraph 3]",
+            "evidenceVi": "Ngày nay, các con phố quanh Hồ Tây tự hào sở hữu một tập hợp đa dạng các cơ sở kinh doanh chuyên biệt... [Đoạn 3]",
+            "explanation": "\"Eclectic\" miêu tả sự pha trộn, chọn lọc từ nhiều phong cách và nguồn khác nhau, đồng nghĩa với \"diverse and varied\".",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "boast an eclectic concentration of specialized businesses that contrast sharply with conventional retail",
+              "clueAnswer": "diverse and varied",
+              "keyPassage": "eclectic",
+              "keyAnswer": "diverse and varied",
+              "paraphrasePair": "eclectic <=> diverse and varied",
+              "meaningVi": "pha trộn từ nhiều trường phái <=> phong phú, đa dạng",
+              "deductionLogic": "Đoạn văn kể hàng loạt mô hình kinh doanh từ bánh mì, cà phê, thực phẩm hữu cơ, đồ ăn Ý, Pháp đến yoga và đồ gốm, chứng minh tính 'đa dạng' (diverse and varied)."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"Such everyday scenes illustrate how global habits and indigenous customs have formed an unforced, peaceful coexistence.\"\nWhere would the sentence best fit?",
+            "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "Vị trí [A]",
+              "Vị trí [B]",
+              "Vị trí [C]",
+              "Vị trí [D]"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "[C] Moments later, traditional itinerant flower vendors pushing bicycles laden with fresh lilies and hydrangeas navigate past sleek, minimalist glass-fronted espresso bars. [D] This juxtaposition lends the neighborhood an unmistakable charm... [Paragraph 4]",
+            "evidenceVi": "Vị trí [D] đứng ngay sau hai ví dụ cụ thể về cảnh tượng thường nhật (scenes): tập dưỡng sinh và xe hoa đi qua quán cà phê.",
+            "explanation": "\"Such everyday scenes\" (Những cảnh tượng thường nhật như vậy) quy chiếu trực tiếp về hai bức tranh đời thường vừa được miêu tả ở các câu trước [C] và [D].",
+            "postReading": {
+              "type": "insertion",
+              "typeLabel": "Điền câu logic (Sentence Insertion)",
+              "cluePassage": "flower vendors pushing bicycles... navigate past sleek espresso bars. [D]",
+              "clueAnswer": "[D]",
+              "keyPassage": "everyday scenes of flower vendors and espresso bars",
+              "keyAnswer": "Such everyday scenes",
+              "paraphrasePair": "scenes of vendors/joggers <=> such everyday scenes",
+              "meaningVi": "cảnh tượng người bán hoa / người chạy bộ <=> những cảnh tượng thường nhật như vậy",
+              "deductionLogic": "Cụm 'Such everyday scenes' cần đứng ngay sau khi các hoạt động đời thường được miêu tả chi tiết để làm câu đúc kết trước khi đến 'This juxtaposition'."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "According to paragraph 5, what is one major threat posed by rapid commercialization in Tay Ho?",
+            "questionVi": "Theo đoạn 5, một mối đe dọa lớn do quá trình thương mại hóa nhanh chóng ở Tây Hồ là gì?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "Complete ban on all foreign tourists visiting the district",
+              "Rising rents displacing native residents and straining local infrastructure",
+              "Mandatory relocation of the district government to another city",
+              "A total prohibition against opening any new dining establishments"
+            ],
+            "optionsVi": [
+              "Lệnh cấm hoàn toàn đối với tất cả khách du lịch nước ngoài đến thăm quận",
+              "Giá thuê nhà tăng đẩy các cư dân bản địa đi nơi khác và gây áp lực lên hạ tầng",
+              "Việc bắt buộc di dời chính quyền quận sang một thành phố khác",
+              "Lệnh cấm toàn diện đối với việc mở bất kỳ quán ăn mới nào"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Rising property values and commercial rents threaten to displace long-standing native families and modest traditional workshops. Additionally, intensified vehicular traffic... place severe strain on the neighborhood's narrow infrastructure... [Paragraph 5]",
+            "evidenceVi": "Giá trị bất động sản và giá thuê mặt bằng thương mại tăng vọt đe dọa đẩy các gia đình bản địa lâu đời và các xưởng truyền thống đi nơi khác. Thêm vào đó, mật độ giao thông xe cơ giới gia tăng gây áp lực nghiêm trọng lên cơ sở hạ tầng... [Đoạn 5]",
+            "explanation": "Đoạn 5 chỉ rõ 2 hệ quả tiêu cực: tiền thuê tăng làm cư dân bản địa mất chỗ ở/kinh doanh (displace long-standing families) và ùn tắc giao thông gây áp lực lên hạ tầng hẹp (strain on narrow infrastructure).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết hệ quả (Factual Detail)",
+              "cluePassage": "Rising property values and commercial rents threaten to displace long-standing native families... severe strain on narrow infrastructure",
+              "clueAnswer": "Rising rents displacing native residents and straining local infrastructure",
+              "keyPassage": "rents threaten to displace native families, strain on infrastructure",
+              "keyAnswer": "Rising rents displacing residents, straining infrastructure",
+              "paraphrasePair": "threaten to displace native families <=> displacing native residents | strain on narrow infrastructure <=> straining local infrastructure",
+              "meaningVi": "đe dọa đẩy bật các gia đình bản xứ <=> khiến người dân bản địa bị chuyển dời | gây áp lực lên hạ tầng",
+              "deductionLogic": "Phương án B tóm lược chính xác các thách thức kinh tế - xã hội được đề cập ở câu thứ hai của đoạn 5."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "What is the primary objective recommended for urban planners in the final sentence of paragraph 5?",
+            "questionVi": "Mục tiêu chính được khuyến nghị cho các nhà quy hoạch đô thị trong câu cuối đoạn 5 là gì?",
+            "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN / KẾT LUẬN (Author's Recommendation)",
+            "options": [
+              "Convert the entire lake into a private entertainment resort for luxury yachts.",
+              "Strike a balance between preserving cultural-ecological serenity and fostering economic vitality.",
+              "Demolish all historic pagodas to expand multilane highways around the lake.",
+              "Evict all foreign residents to restore the district's ancient agricultural status."
+            ],
+            "optionsVi": [
+              "Chuyển toàn bộ hồ thành khu nghỉ dưỡng giải trí tư nhân cho du thuyền hạng sang.",
+              "Tạo lập sự cân bằng giữa bảo tồn sự tĩnh lặng văn hóa - sinh thái và thúc đẩy sức sống kinh tế.",
+              "Phá dỡ toàn bộ các ngôi chùa cổ để mở rộng các đại lộ nhiều làn xe quanh hồ.",
+              "Trục xuất toàn bộ cư dân nước ngoài để khôi phục trạng thái làng nông nghiệp xưa."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Urban planners and community leaders now face the delicate task of preserving Tay Ho's authentic spiritual roots and environmental serenity while supporting the commercial vitality that makes it such an attractive contemporary destination. [Paragraph 5]",
+            "evidenceVi": "Các nhà quy hoạch đô thị và lãnh đạo cộng đồng hiện đối mặt với nhiệm vụ tinh tế là bảo tồn cội nguồn tâm linh chân thực và sự thanh bình môi trường của Tây Hồ trong khi vẫn hỗ trợ sức sống thương mại... [Đoạn 5]",
+            "explanation": "\"Preserving spiritual roots and environmental serenity while supporting commercial vitality\" tương đương với việc cân bằng giữa bảo tồn di sản văn hóa/môi trường và phát triển kinh tế năng động.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Khuyến nghị của tác giả (Conclusion)",
+              "cluePassage": "preserving Tay Ho's authentic spiritual roots and environmental serenity while supporting the commercial vitality",
+              "clueAnswer": "Strike a balance between preserving cultural-ecological serenity and fostering economic vitality",
+              "keyPassage": "preserving serenity while supporting commercial vitality",
+              "keyAnswer": "balance between serenity and economic vitality",
+              "paraphrasePair": "preserving serenity while supporting vitality <=> balance between serenity and vitality",
+              "meaningVi": "bảo tồn sự thanh bình đồng thời hỗ trợ sức sống <=> cân bằng giữa tĩnh lặng và sức sống kinh tế",
+              "deductionLogic": "Cụm 'delicate task of preserving... while supporting...' là cấu trúc điển hình chỉ sự dung hòa, cân bằng hai mặt phát triển bền vững."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: The Psychology of TV Binge-Watching",
+        "topic": "Tâm lý học hành vi & Tác động của thói quen xem phim liên tục",
+        "timeAllowed": 15,
+        "passage": "<p>The advent of on-demand digital streaming services over the past decade has fundamentally revolutionized how television content is distributed and consumed. Historically, television networks broadcasted serialized dramas in weekly installments, forcing viewers to wait seven days between episodes and months between seasons. Today, digital platforms frequently release entire seasons simultaneously, giving birth to the phenomenon commonly known as \"binge-watching\"—the practice of viewing multiple episodes, or even entire seasons, of a program in a single viewing session. While this entertainment habit has become culturally ubiquitous, psychological and medical researchers have begun examining its underlying motivations, benefits, and potential hazards.</p><p>The psychological allure of binge-watching stems largely from the sophisticated design of contemporary serialized programming combined with human neurological responses. Modern television narratives frequently employ multiple intertwining plotlines and culminate in dramatic \"cliffhangers\"—unresolved suspenseful moments at the end of each episode. When an episode ends on a moment of high tension, the human brain releases dopamine, a neurotransmitter associated with pleasure and anticipatory reward. Streaming platforms exploit this biological mechanism through algorithmic automation, automatically initiating the next episode within five seconds unless the viewer manually intervenes. This creates a state of intense immersion or \"escapism,\" allowing individuals to temporarily detach from daily workplace stresses and interpersonal anxieties.</p><p>From a psychological and social perspective, binge-watching is not without benefits when practiced in moderation. For many individuals, entering a compelling fictional universe serves as an effective mechanism for cognitive decompression after demanding intellectual work. Furthermore, narrative immersion allows for deeper comprehension and emotional appreciation of intricate character development, as viewers do not forget subtle narrative details between weekly broadcasts. Socially, shared viewing experiences foster community bonding. Discussing popular television series provides common conversational currency—often termed the \"virtual watercooler\" effect—enabling friends and coworkers to connect over shared cultural narratives.</p><p>However, excessive and chronic binge-watching carries well-documented adverse physical and psychological consequences. [A] Prolonged sedentary behavior associated with marathon television viewing has been linked to increased risks of cardiovascular disease, musculoskeletal strain, and obesity. [B] Furthermore, the late-night consumption of illuminated screens suppresses melatonin production, disrupting natural circadian rhythms and inducing chronic insomnia. [C] Psychologically, continuous viewing can lead to a state of post-binge melancholy or emptiness once an engrossing series concludes. [D] <strong>This emotional letdown</strong>, coupled with neglected real-world responsibilities and social isolation, can paradoxically exacerbate the very stress and loneliness that viewers sought to escape.</p><p>Ultimately, television binge-watching represents a dual-edged sword of the digital age. It provides unprecedented convenience, narrative depth, and communal enjoyment, yet it possesses addictive tendencies that can compromise physical health and psychological well-being. Health experts emphasize that the key lies in intentional and mindful consumption. Viewers are advised to establish clear viewing boundaries, disable automatic episode playback, and ensure that digital leisure does not supplant physical exercise, restorative sleep, and meaningful face-to-face social relationships.</p>",
+        "vocab": [
+          {
+            "word": "ubiquitous",
+            "pos": "adj",
+            "ipa": "/juːˈbɪk.wɪ.təs/",
+            "level": "C1",
+            "mean": "phổ biến ở khắp mọi nơi",
+            "syns": [
+              "omnipresent",
+              "pervasive",
+              "universal"
+            ],
+            "ex": "Smartphones and streaming services have become ubiquitous features of modern domestic life."
+          },
+          {
+            "word": "cliffhanger",
+            "pos": "n",
+            "ipa": "/ˈklɪfˌhæŋ.ər/",
+            "level": "B2",
+            "mean": "tình tiết gay cấn bỏ lửng ở cuối tập",
+            "syns": [
+              "suspense",
+              "dramatic ending",
+              "tension"
+            ],
+            "ex": "The season finale ended on a breathtaking cliffhanger that left audiences eagerly awaiting season two."
+          },
+          {
+            "word": "anticipatory",
+            "pos": "adj",
+            "ipa": "/ænˌtɪs.ɪˈpeɪ.tər.i/",
+            "level": "C1",
+            "mean": "mang tính mong đợi, dự đoán trước",
+            "syns": [
+              "expectant",
+              "eager",
+              "foreseeing"
+            ],
+            "ex": "The release of dopamine creates an intense anticipatory pleasure right before the next episode begins."
+          },
+          {
+            "word": "immersion",
+            "pos": "n",
+            "ipa": "/ɪˈmɜː.ʃən/",
+            "level": "B2",
+            "mean": "sự đắm chìm hoàn toàn vào thế giới hư cấu",
+            "syns": [
+              "absorption",
+              "engrossment",
+              "involvement"
+            ],
+            "ex": "Deep narrative immersion enables viewers to forget their everyday workplace anxieties."
+          },
+          {
+            "word": "escapism",
+            "pos": "n",
+            "ipa": "/ɪˈskeɪ.pɪz.əm/",
+            "level": "B2",
+            "mean": "khuynh hướng thoát ly thực tế",
+            "syns": [
+              "fantasy",
+              "diversion",
+              "evasion"
+            ],
+            "ex": "While entertainment offers healthy escapism, excessive avoidance of real problems can be counterproductive."
+          },
+          {
+            "word": "decompression",
+            "pos": "n",
+            "ipa": "/ˌdiː.kəmˈpreʃ.ən/",
+            "level": "C1",
+            "mean": "sự xả hơi, giải tỏa căng thẳng sau áp lực",
+            "syns": [
+              "relaxation",
+              "unwinding",
+              "stress relief"
+            ],
+            "ex": "Watching an engaging comedy series serves as valuable cognitive decompression after high-pressure exams."
+          },
+          {
+            "word": "sedentary",
+            "pos": "adj",
+            "ipa": "/ˈsed.ən.tər.i/",
+            "level": "B2",
+            "mean": "ngồi một chỗ nhiều, ít vận động",
+            "syns": [
+              "inactive",
+              "desk-bound",
+              "motionless"
+            ],
+            "ex": "A sedentary lifestyle combined with late-night snacking significantly raises cardiovascular risks."
+          },
+          {
+            "word": "circadian",
+            "pos": "adj",
+            "ipa": "/sɜːˈkeɪ.di.ən/",
+            "level": "C1",
+            "mean": "thuộc nhịp sinh học ngày đêm (24 giờ)",
+            "syns": [
+              "biological rhythm",
+              "daily cycle"
+            ],
+            "ex": "Exposure to blue screen light past midnight severely disrupts natural circadian rhythms."
+          },
+          {
+            "word": "melancholy",
+            "pos": "n",
+            "ipa": "/ˈmel.əŋ.kɒl.i/",
+            "level": "C1",
+            "mean": "nỗi buồn bã, sự hụt hẫng u sầu",
+            "syns": [
+              "sadness",
+              "sorrow",
+              "gloominess"
+            ],
+            "ex": "Many avid viewers experience a temporary sense of melancholy after finishing a beloved book or show."
+          },
+          {
+            "word": "supplant",
+            "pos": "v",
+            "ipa": "/səˈplɑːnt/",
+            "level": "C1",
+            "mean": "thay thế, lấn át vị trí của thứ khác",
+            "syns": [
+              "replace",
+              "supersede",
+              "displace"
+            ],
+            "ex": "Screen-based recreation should never supplant restful sleep and genuine in-person social interactions."
+          },
+          {
+            "word": "advent",
+            "pos": "n",
+            "ipa": "/ˈæd.vent/",
+            "level": "B2",
+            "mean": "sự ra đời, sự xuất hiện đánh dấu kỷ nguyên mới của công nghệ",
+            "syns": [
+              "arrival",
+              "emergence",
+              "dawn",
+              "introduction"
+            ],
+            "ex": "The advent of video streaming services fundamentally reshaped domestic entertainment habits."
+          },
+          {
+            "word": "serialized",
+            "pos": "adj",
+            "ipa": "/ˈsɪə.ri.ə.laɪzd/",
+            "level": "B2",
+            "mean": "được phát sóng theo từng kỳ/tập liên tục có cốt truyện nối tiếp",
+            "syns": [
+              "episodic",
+              "continuous",
+              "multi-part"
+            ],
+            "ex": "Modern serialized television shows rely on intricate overarching narratives that reward close attention."
+          },
+          {
+            "word": "installment",
+            "pos": "n",
+            "ipa": "/ɪnˈstɔːl.mənt/",
+            "level": "B2",
+            "mean": "tập, kỳ xuất bản trong một chuỗi phát sóng dài tập",
+            "syns": [
+              "episode",
+              "part",
+              "chapter",
+              "edition"
+            ],
+            "ex": "In the past, viewers waited an entire week to watch the next exciting installment of the mystery."
+          },
+          {
+            "word": "allure",
+            "pos": "n",
+            "ipa": "/əˈlʊə/",
+            "level": "C1",
+            "mean": "sức quyến rũ mê hoặc, sức hấp dẫn không thể cưỡng lại",
+            "syns": [
+              "attraction",
+              "fascination",
+              "magnetism",
+              "charm"
+            ],
+            "ex": "The allure of discovering who committed the crime kept viewers glued to their television screens."
+          },
+          {
+            "word": "intertwine",
+            "pos": "v",
+            "ipa": "/ˌɪn.təˈtwaɪn/",
+            "level": "C1",
+            "mean": "đan xen, gắn kết chặt chẽ vào nhau",
+            "syns": [
+              "weave together",
+              "entangle",
+              "interlink",
+              "connect closely"
+            ],
+            "ex": "The screenwriters skillfully intertwine three distinct storylines into a dramatic series finale."
+          },
+          {
+            "word": "culminate",
+            "pos": "v",
+            "ipa": "/ˈkʌl.mɪ.neɪt/",
+            "level": "C1",
+            "mean": "lên đến đỉnh điểm, kết thúc bằng cao trào kịch tính",
+            "syns": [
+              "climax",
+              "peak",
+              "reach a zenith",
+              "conclude with"
+            ],
+            "ex": "Each episode culminates in a shocking cliffhanger designed to provoke compulsive viewing."
+          },
+          {
+            "word": "neurotransmitter",
+            "pos": "n",
+            "ipa": "/ˌnjʊə.rəʊ.trænzˈmɪt.ər/",
+            "level": "C1",
+            "mean": "chất dẫn truyền xung thần kinh trong não bộ con người",
+            "syns": [
+              "chemical messenger",
+              "neural transmitter"
+            ],
+            "ex": "Dopamine is a neurotransmitter that plays a central role in reward perception and habit reinforcement."
+          },
+          {
+            "word": "dopamine",
+            "pos": "n",
+            "ipa": "/ˈdəʊ.pə.miːn/",
+            "level": "B2",
+            "mean": "hóc-môn tạo cảm giác hưng phấn, phần thưởng và động lực",
+            "syns": [
+              "reward chemical",
+              "pleasure hormone"
+            ],
+            "ex": "Anticipating the next episode triggers a dopamine surge that makes it tempting to click play."
+          },
+          {
+            "word": "intervene",
+            "pos": "v",
+            "ipa": "/ˌɪn.təˈviːn/",
+            "level": "B2",
+            "mean": "can thiệp vào để ngăn chặn hoặc thay đổi tiến trình",
+            "syns": [
+              "step in",
+              "interrupt",
+              "interfere",
+              "take action"
+            ],
+            "ex": "The streaming platform automatically launches the next episode unless the user actively intervenes."
+          },
+          {
+            "word": "intricate",
+            "pos": "adj",
+            "ipa": "/ˈɪn.trɪ.kət/",
+            "level": "B2",
+            "mean": "tinh vi, phức tạp tỉ mỉ với nhiều chi tiết đan cài",
+            "syns": [
+              "elaborate",
+              "complex",
+              "detailed",
+              "sophisticated"
+            ],
+            "ex": "The intricate relationships between characters become clearer when watching episodes back-to-back."
+          },
+          {
+            "word": "currency",
+            "pos": "n",
+            "ipa": "/ˈkʌr.ən.si/",
+            "level": "C1",
+            "mean": "giá trị lưu hành, đề tài chung được trao đổi bàn luận phổ biến",
+            "syns": [
+              "social capital",
+              "common topic",
+              "vogue",
+              "medium of exchange"
+            ],
+            "ex": "Discussing hit TV dramas provides valuable cultural currency during office lunch breaks."
+          },
+          {
+            "word": "cardiovascular",
+            "pos": "adj",
+            "ipa": "/ˌkɑː.di.əʊˈvæs.kjə.lər/",
+            "level": "B2",
+            "mean": "thuộc về hệ tim mạch (tim và các mạch máu)",
+            "syns": [
+              "circulatory",
+              "heart-related"
+            ],
+            "ex": "Long sessions of sedentary couch sitting increase the risk of chronic cardiovascular complications."
+          },
+          {
+            "word": "musculoskeletal",
+            "pos": "adj",
+            "ipa": "/ˌmʌs.kjə.ləʊˈskel.ɪ.təl/",
+            "level": "C1",
+            "mean": "thuộc về hệ cơ xương khớp của cơ thể",
+            "syns": [
+              "muscle and bone",
+              "orthopedic"
+            ],
+            "ex": "Slouching on a couch during television marathons often leads to musculoskeletal aches and neck tension."
+          },
+          {
+            "word": "melatonin",
+            "pos": "n",
+            "ipa": "/ˌmel.əˈtəʊ.nɪn/",
+            "level": "C1",
+            "mean": "hoóc-môn tự nhiên điều hòa chu kỳ giấc ngủ của con người",
+            "syns": [
+              "sleep hormone",
+              "circadian regulator"
+            ],
+            "ex": "Blue light emitted by tablet screens suppresses melatonin release, delaying restorative sleep."
+          },
+          {
+            "word": "engrossing",
+            "pos": "adj",
+            "ipa": "/ɪnˈɡrəʊ.sɪŋ/",
+            "level": "C1",
+            "mean": "cuốn hút, hấp dẫn đến mức chiếm trọn tâm trí người theo dõi",
+            "syns": [
+              "captivating",
+              "absorbing",
+              "riveting",
+              "gripping"
+            ],
+            "ex": "The mystery thriller was so engrossing that she finished eight episodes before realizing it was sunrise."
+          },
+          {
+            "word": "exacerbate",
+            "pos": "v",
+            "ipa": "/ɪɡˈzæs.ə.beɪt/",
+            "level": "C1",
+            "mean": "làm trầm trọng thêm, khiến vấn đề trở nên tồi tệ hơn",
+            "syns": [
+              "worsen",
+              "aggravate",
+              "intensify",
+              "inflame"
+            ],
+            "ex": "Isolating oneself to watch endless video content can paradoxically exacerbate underlying anxiety."
+          },
+          {
+            "word": "restorative",
+            "pos": "adj",
+            "ipa": "/rɪˈstɒr.ə.tɪv/",
+            "level": "C1",
+            "mean": "có tính phục hồi, giúp lấy lại năng lượng và thể lực",
+            "syns": [
+              "rejuvenating",
+              "refreshing",
+              "therapeutic",
+              "revitalizing"
+            ],
+            "ex": "Deep, undisturbed slumber provides restorative benefits that late-night screen viewing prevents."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của bài đọc là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The technical superiority of digital streaming over analog broadcasting",
+              "The psychological motivations, advantages, and risks associated with binge-watching",
+              "The economic bankruptcy of traditional weekly television networks",
+              "Medical treatments for patients suffering from severe screen addictions"
+            ],
+            "optionsVi": [
+              "Sự vượt trội về mặt kỹ thuật của phát trực tuyến so với phát sóng truyền hình analog",
+              "Các động cơ tâm lý, lợi ích và rủi ro liên quan đến việc cày phim dài tập liên tục",
+              "Sự phá sản về mặt kinh tế của các mạng lưới truyền hình phát sóng hàng tuần truyền thống",
+              "Các phương pháp điều trị y tế cho bệnh nhân mắc chứng nghiện màn hình nghiêm trọng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "While this entertainment habit has become culturally ubiquitous, psychological and medical researchers have begun examining its underlying motivations, benefits, and potential hazards. [Paragraph 1 & Throughout]",
+            "evidenceVi": "Trong khi thói quen giải trí này đã trở nên phổ biến ở khắp nơi, các nhà nghiên cứu y học và tâm lý học đã bắt đầu xem xét các động cơ tiềm ẩn, lợi ích và các mối nguy hại tiềm tàng của nó. [Đoạn 1]",
+            "explanation": "Bài đọc lần lượt làm rõ: động cơ tâm lý (Đoạn 2), lợi ích khi xem có chừng mực (Đoạn 3), tác hại thể chất & tâm lý khi quá đà (Đoạn 4), và giải pháp cân bằng (Đoạn 5).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Topic)",
+              "cluePassage": "examining its underlying motivations, benefits, and potential hazards",
+              "clueAnswer": "psychological motivations, advantages, and risks associated with binge-watching",
+              "keyPassage": "motivations, benefits, hazards",
+              "keyAnswer": "motivations, advantages, risks",
+              "paraphrasePair": "benefits <=> advantages | hazards <=> risks",
+              "meaningVi": "lợi ích <=> thuận lợi | mối nguy hại <=> rủi ro",
+              "deductionLogic": "Phương án B bao hàm trọn vẹn cả 3 khía cạnh: động cơ (Đoạn 2), lợi ích (Đoạn 3), rủi ro (Đoạn 4) như đã được đề cập ở câu luận điểm đoạn 1."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "The word \"ubiquitous\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"ubiquitous\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "extremely rare",
+              "everywhere and common",
+              "financially costly",
+              "strictly forbidden"
+            ],
+            "optionsVi": [
+              "vô cùng hiếm gặp",
+              "phổ biến ở khắp mọi nơi",
+              "tốn kém về tài chính",
+              "bị nghiêm cấm"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "While this entertainment habit has become culturally ubiquitous, psychological and medical researchers have begun... [Paragraph 1]",
+            "evidenceVi": "Trong khi thói quen giải trí này đã trở nên phổ biến ở khắp mọi nơi về mặt văn hóa... [Đoạn 1]",
+            "explanation": "\"Ubiquitous\" mang nghĩa có mặt ở khắp mọi nơi, rất phổ biến (omnipresent, present everywhere and common).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "has become culturally ubiquitous",
+              "clueAnswer": "everywhere and common",
+              "keyPassage": "ubiquitous",
+              "keyAnswer": "everywhere and common",
+              "paraphrasePair": "ubiquitous <=> everywhere and common",
+              "meaningVi": "nhan nhản, có mặt khắp nơi <=> phổ biến ở khắp mọi nơi",
+              "deductionLogic": "Cụm 'has become culturally ubiquitous' chỉ thói quen đã lan rộng khắp mọi gia đình và xã hội hiện đại."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "According to paragraph 2, how do streaming platforms encourage continuous viewing?",
+            "questionVi": "Theo đoạn 2, các nền tảng phát trực tuyến khuyến khích việc xem liên tục bằng cách nào?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "By charging penalty fees if a viewer turns off their television screen prematurely",
+              "By automatically starting subsequent episodes unless stopped by the viewer",
+              "By requiring users to pass online quizzes before they can close an episode",
+              "By offering financial cash bonuses for watching twelve consecutive hours"
+            ],
+            "optionsVi": [
+              "Bằng cách thu phí phạt nếu người xem tắt màn hình tivi quá sớm",
+              "Bằng cách tự động phát các tập tiếp theo trừ khi người xem bấm dừng",
+              "Bằng cách bắt buộc người dùng vượt qua bài kiểm tra trước khi có thể đóng tập phim",
+              "Bằng cách tặng thưởng tiền mặt cho việc xem 12 tiếng liên tục"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Streaming platforms exploit this biological mechanism through algorithmic automation, automatically initiating the next episode within five seconds unless the viewer manually intervenes. [Paragraph 2]",
+            "evidenceVi": "Các nền tảng phát trực tuyến khai thác cơ chế sinh học này thông qua tự động hóa bằng thuật toán, tự động khởi chạy tập tiếp theo trong vòng 5 giây trừ khi người xem can thiệp thủ công. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ: tự động bắt đầu tập tiếp theo trong vòng 5 giây trừ khi người xem can thiệp tắt đi (automatically initiating the next episode unless manually intervenes).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết cơ chế (Factual Detail)",
+              "cluePassage": "automatically initiating the next episode within five seconds unless the viewer manually intervenes",
+              "clueAnswer": "By automatically starting subsequent episodes unless stopped by the viewer",
+              "keyPassage": "automatically initiating next episode unless manually intervenes",
+              "keyAnswer": "automatically starting subsequent episodes unless stopped",
+              "paraphrasePair": "initiating next episode <=> starting subsequent episodes | manually intervenes <=> stopped by viewer",
+              "meaningVi": "bật tập kế tiếp <=> bắt đầu tập tiếp theo | can thiệp bằng tay <=> người xem bấm dừng",
+              "deductionLogic": "Phương án B diễn đạt lại chính xác tính năng 'autoplay' được miêu tả ở nửa sau đoạn 2."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "According to paragraph 2, what biological reaction is triggered by dramatic cliffhangers?",
+            "questionVi": "Theo đoạn 2, phản ứng sinh học nào được kích hoạt bởi các tình tiết gay cấn bỏ lửng (cliffhangers)?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "An immediate drop in body temperature causing shivering",
+              "The release of dopamine linked to pleasure and anticipation of reward",
+              "The instant termination of visual perception pathways",
+              "A complete shutdown of the brain's emotional centers"
+            ],
+            "optionsVi": [
+              "Sự sụt giảm ngay lập tức nhiệt độ cơ thể gây run rẩy",
+              "Sự tiết ra hormone dopamine gắn liền với cảm giác thỏa mãn và mong đợi phần thưởng",
+              "Sự chấm dứt ngay lập tức các đường dẫn truyền thị giác",
+              "Sự ngưng hoạt động hoàn toàn của các trung tâm cảm xúc trong não bộ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "When an episode ends on a moment of high tension, the human brain releases dopamine, a neurotransmitter associated with pleasure and anticipatory reward. [Paragraph 2]",
+            "evidenceVi": "Khi một tập phim kết thúc vào khoảnh khắc căng thẳng đỉnh điểm, não bộ con người sẽ tiết ra dopamine, một chất dẫn truyền thần kinh gắn liền với niềm vui và phần thưởng đón đợi. [Đoạn 2]",
+            "explanation": "Đoạn 2 giải thích rõ ràng: cliffhangers kích thích não tiết dopamine liên quan đến cảm giác thỏa mãn và mong chờ phần thưởng (pleasure and anticipatory reward).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết sinh học (Factual Detail)",
+              "cluePassage": "the human brain releases dopamine, a neurotransmitter associated with pleasure and anticipatory reward",
+              "clueAnswer": "The release of dopamine linked to pleasure and anticipation of reward",
+              "keyPassage": "releases dopamine associated with pleasure and anticipatory reward",
+              "keyAnswer": "release of dopamine linked to pleasure and anticipation",
+              "paraphrasePair": "associated with <=> linked to | anticipatory reward <=> anticipation of reward",
+              "meaningVi": "gắn liền với <=> liên kết với | phần thưởng mong đợi <=> sự đón đợi phần thưởng",
+              "deductionLogic": "Phương án B trích xuất trực tiếp thông tin sinh học chính xác 100% từ câu thứ 3 của đoạn 2."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "Which of the following is NOT mentioned in paragraph 3 as a benefit of moderate binge-watching?",
+            "questionVi": "Điều nào sau đây KHÔNG được đề cập trong đoạn 3 như một lợi ích của việc cày phim ở mức độ vừa phải?",
+            "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
+            "options": [
+              "Cognitive decompression after intense intellectual demands",
+              "Enhanced physical cardiovascular endurance and muscular strength",
+              "Deeper retention of subtle plot details and character development",
+              "Shared cultural topics that facilitate interpersonal social bonding"
+            ],
+            "optionsVi": [
+              "Sự giải tỏa nhận thức sau những đòi hỏi trí tuệ căng thẳng",
+              "Tăng cường sức bền tim mạch và sức mạnh cơ bắp của cơ thể",
+              "Ghi nhớ tốt hơn các chi tiết cốt truyện tinh tế và sự phát triển nhân vật",
+              "Các chủ đề văn hóa chung giúp gắn kết các mối quan hệ xã hội"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "For many individuals, entering a compelling fictional universe serves as an effective mechanism for cognitive decompression... deeper comprehension... not forget subtle narrative details... shared viewing experiences foster community bonding... [Paragraph 3]",
+            "evidenceVi": "Đoạn 3 liệt kê 3 lợi ích: xả stress trí óc (A), nhớ cốt truyện không bị ngắt quãng (C), và tạo chủ đề trò chuyện gắn kết bạn bè (D). Hoàn toàn không có chuyện 'tăng sức mạnh tim mạch và cơ bắp' (B).",
+            "explanation": "Xem phim là hoạt động tĩnh (sedentary), thậm chí Đoạn 4 còn cảnh báo nguy cơ bệnh tim mạch chứ không thể tăng sức bền tim mạch hay cơ bắp.",
+            "postReading": {
+              "type": "negative",
+              "typeLabel": "Thông tin loại trừ (Negative Detail)",
+              "cluePassage": "cognitive decompression... deeper comprehension... community bonding",
+              "clueAnswer": "Enhanced physical cardiovascular endurance and muscular strength",
+              "keyPassage": "cognitive decompression, retention of details, social bonding",
+              "keyAnswer": "physical cardiovascular endurance is contradictory to sedentary viewing",
+              "paraphrasePair": "cognitive decompression <=> stress relief | community bonding <=> social bonding",
+              "meaningVi": "xả hơi nhận thức <=> giảm căng thẳng | gắn kết cộng đồng <=> gắn kết xã hội",
+              "deductionLogic": "Cày phim là hoạt động ngồi một chỗ, phương án B trái ngược hoàn toàn với logic thực tế và nội dung bài."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "The phrase \"This emotional letdown\" in paragraph 4 refers to:",
+            "questionVi": "Cụm từ \"This emotional letdown\" trong đoạn 4 ám chỉ điều gì?",
+            "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
+            "options": [
+              "the joy of purchasing new high-definition television hardware",
+              "the sense of melancholy or emptiness experienced when a series ends",
+              "the physical pain caused by improper sitting postures on a sofa",
+              "the financial burden of subscribing to multiple streaming services"
+            ],
+            "optionsVi": [
+              "niềm vui khi mua sắm các thiết bị tivi độ nét cao mới",
+              "cảm giác hụt hẫng u sầu hoặc trống rỗng trải qua khi một bộ phim kết thúc",
+              "nỗi đau thể xác gây ra bởi tư thế ngồi không đúng trên ghế sofa",
+              "gánh nặng tài chính khi đăng ký quá nhiều dịch vụ phát trực tuyến"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Psychologically, continuous viewing can lead to a state of post-binge melancholy or emptiness once an engrossing series concludes. This emotional letdown, coupled with neglected real-world responsibilities... [Paragraph 4]",
+            "evidenceVi": "Về mặt tâm lý, việc xem liên tục có thể dẫn đến trạng thái u sầu hoặc trống rỗng sau khi cày phim lúc bộ phim hấp dẫn khép lại. Sự hụt hẫng cảm xúc này, kết hợp với các trách nhiệm ngoài đời thực bị bỏ bê... [Đoạn 4]",
+            "explanation": "\"This emotional letdown\" (sự hụt hẫng về cảm xúc này) quy chiếu trực tiếp về \"a state of post-binge melancholy or emptiness\" ở câu đứng ngay trước nó.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Quy chiếu cảm xúc (Reference)",
+              "cluePassage": "state of post-binge melancholy or emptiness once an engrossing series concludes. This emotional letdown...",
+              "clueAnswer": "the sense of melancholy or emptiness experienced when a series ends",
+              "keyPassage": "post-binge melancholy or emptiness once series concludes",
+              "keyAnswer": "melancholy or emptiness when series ends",
+              "paraphrasePair": "emotional letdown => post-binge melancholy or emptiness",
+              "meaningVi": "sự hụt hẫng cảm xúc => nỗi u sầu, trống vắng sau khi cày xong phim",
+              "deductionLogic": "Cụm từ 'This emotional letdown' tóm lược trạng thái tâm lý tiêu cực vừa được mô tả ở câu trước."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "The word \"sedentary\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"sedentary\" trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "involving little physical movement and much sitting",
+              "requiring extreme aerobic exertion",
+              "strictly practiced outdoors in natural light",
+              "highly dangerous and accident-prone"
+            ],
+            "optionsVi": [
+              "ít vận động thể chất và ngồi nhiều",
+              "đòi hỏi nỗ lực hiếu khí cao độ",
+              "được thực hiện hoàn toàn ngoài trời dưới ánh sáng tự nhiên",
+              "cực kỳ nguy hiểm và dễ xảy ra tai nạn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Prolonged sedentary behavior associated with marathon television viewing has been linked to increased risks of cardiovascular disease... [Paragraph 4]",
+            "evidenceVi": "Hành vi ngồi một chỗ kéo dài gắn liền với việc xem tivi marathon liên tục nhiều giờ... [Đoạn 4]",
+            "explanation": "\"Sedentary\" nghĩa là ngồi nhiều một chỗ, ít hoạt động thể chất (involving little physical activity / sitting down a lot).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "Prolonged sedentary behavior associated with marathon television viewing",
+              "clueAnswer": "involving little physical movement and much sitting",
+              "keyPassage": "sedentary",
+              "keyAnswer": "little physical movement and much sitting",
+              "paraphrasePair": "sedentary <=> little physical movement and much sitting",
+              "meaningVi": "thụ động ngồi nhiều <=> ít vận động thể chất và ngồi nhiều",
+              "deductionLogic": "Trong ngữ cảnh xem tivi nhiều giờ trên ghế, hành vi 'sedentary' chính là ngồi yên không vận động."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"This blue wavelength light tricks the brain into perceiving that it is still daylight, suppressing essential restorative rest.\"\nWhere would the sentence best fit?",
+            "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "Vị trí [A]",
+              "Vị trí [B]",
+              "Vị trí [C]",
+              "Vị trí [D]"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "[B] Furthermore, the late-night consumption of illuminated screens suppresses melatonin production, disrupting natural circadian rhythms and inducing chronic insomnia. [C] Psychologically, continuous viewing can lead to a state... [Paragraph 4]",
+            "evidenceVi": "Vị trí [C] đứng ngay sau câu nói về 'illuminated screens suppresses melatonin production', giúp giải thích 'This blue wavelength light' (ánh sáng bước sóng xanh này) tác động như thế nào đến não bộ.",
+            "explanation": "\"This blue wavelength light\" liên kết mạch lạc với \"illuminated screens\" (màn hình phát sáng) ở câu trước vị trí [C].",
+            "postReading": {
+              "type": "insertion",
+              "typeLabel": "Điền câu logic (Sentence Insertion)",
+              "cluePassage": "late-night consumption of illuminated screens suppresses melatonin production [C]",
+              "clueAnswer": "[C]",
+              "keyPassage": "illuminated screens suppresses melatonin",
+              "keyAnswer": "This blue wavelength light tricks the brain",
+              "paraphrasePair": "illuminated screens <=> blue wavelength light",
+              "meaningVi": "màn hình phát sáng <=> ánh sáng bước sóng xanh này",
+              "deductionLogic": "Đại từ chỉ định 'This blue wavelength light' làm rõ cho tác nhân phát sáng từ màn hình thiết bị điện tử."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "According to paragraph 4, why does late-night screen viewing cause insomnia?",
+            "questionVi": "Theo đoạn 4, tại sao việc xem màn hình vào ban đêm lại gây ra mất ngủ?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "It permanently damages the optical nerves inside the eyes.",
+              "It inhibits the production of melatonin, disturbing natural sleep cycles.",
+              "It accelerates caloric expenditure and induces intense nocturnal hunger.",
+              "It triggers loud sound notifications that awake household members."
+            ],
+            "optionsVi": [
+              "Nó làm tổn thương vĩnh viễn các dây thần kinh thị giác bên trong mắt.",
+              "Nó ức chế sự sản sinh hormone melatonin, làm rối loạn chu kỳ giấc ngủ tự nhiên.",
+              "Nó đẩy nhanh sự tiêu hao calo và gây ra cảm giác đói dữ dội vào ban đêm.",
+              "Nó kích hoạt các chuông thông báo âm thanh lớn đánh thức các thành viên trong gia đình."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...the late-night consumption of illuminated screens suppresses melatonin production, disrupting natural circadian rhythms and inducing chronic insomnia. [Paragraph 4]",
+            "evidenceVi": "...việc xem màn hình phát sáng vào đêm muộn ức chế sự sản sinh melatonin, làm rối loạn nhịp sinh học tự nhiên và gây mất ngủ kinh niên. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu trực diện: màn hình sáng ức chế tiết hormone melatonin (suppresses melatonin production) -> đảo lộn nhịp ngày đêm (circadian rhythms) -> mất ngủ.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết nguyên nhân (Cause & Effect)",
+              "cluePassage": "suppresses melatonin production, disrupting natural circadian rhythms and inducing chronic insomnia",
+              "clueAnswer": "It inhibits the production of melatonin, disturbing natural sleep cycles",
+              "keyPassage": "suppresses melatonin, disrupting circadian rhythms",
+              "keyAnswer": "inhibits melatonin, disturbing sleep cycles",
+              "paraphrasePair": "suppresses <=> inhibits | disrupting circadian rhythms <=> disturbing natural sleep cycles",
+              "meaningVi": "ngăn chặn, kìm hãm <=> ức chế | làm gián đoạn nhịp sinh học <=> làm rối loạn chu kỳ ngủ",
+              "deductionLogic": "Phương án B phản ánh chuẩn xác thuật ngữ y học 'suppresses melatonin' và 'disrupting circadian rhythms'."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "What core recommendation does the author give in paragraph 5 regarding binge-watching?",
+            "questionVi": "Tác giả đưa ra khuyến nghị cốt lõi nào trong đoạn 5 liên quan đến việc cày phim?",
+            "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN / KẾT LUẬN (Author's Advice)",
+            "options": [
+              "Viewers must completely eliminate digital streaming accounts forever.",
+              "Consumers should practice mindful moderation and establish personal boundaries.",
+              "Streaming platforms should be legally shut down by governmental authorities.",
+              "Viewers should replace sleep entirely with continuous educational documentaries."
+            ],
+            "optionsVi": [
+              "Người xem phải hủy bỏ hoàn toàn các tài khoản phát trực tuyến mãi mãi.",
+              "Người tiêu dùng nên rèn luyện sự chừng mực có ý thức và thiết lập các giới hạn cá nhân.",
+              "Các nền tảng phát trực tuyến cần phải bị chính quyền đóng cửa theo pháp luật.",
+              "Người xem nên thay thế giấc ngủ hoàn toàn bằng các phim tài liệu giáo dục liên tục."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Health experts emphasize that the key lies in intentional and mindful consumption. Viewers are advised to establish clear viewing boundaries, disable automatic episode playback... [Paragraph 5]",
+            "evidenceVi": "Các chuyên gia y tế nhấn mạnh rằng chìa khóa nằm ở việc tiêu thụ có chủ đích và tỉnh thức. Người xem được khuyên nên thiết lập các ranh giới xem rõ ràng, tắt tính năng tự động phát... [Đoạn 5]",
+            "explanation": "Tác giả khuyến nghị: không cần cấm đoán cực đoan mà cần 'mindful consumption' (tiêu thụ tỉnh thức) và 'establish clear viewing boundaries' (đặt ra giới hạn xem rõ ràng).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Khuyến nghị của tác giả (Conclusion)",
+              "cluePassage": "the key lies in intentional and mindful consumption. Viewers are advised to establish clear viewing boundaries",
+              "clueAnswer": "Consumers should practice mindful moderation and establish personal boundaries",
+              "keyPassage": "intentional and mindful consumption, establish clear viewing boundaries",
+              "keyAnswer": "mindful moderation, establish personal boundaries",
+              "paraphrasePair": "intentional and mindful consumption <=> mindful moderation | viewing boundaries <=> personal boundaries",
+              "meaningVi": "tiêu thụ có ý thức, tỉnh thức <=> chừng mực tỉnh thức | ranh giới xem <=> giới hạn cá nhân",
+              "deductionLogic": "Tác giả không kêu gọi tẩy chay hay cấm đoán mà đề cao sự tự giác kiểm soát bản thân một cách khoa học."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Critical Thinkers vs. Passive Thinkers",
+        "topic": "Khoa học nhận thức & Sự đối lập giữa tư duy phản biện và thụ động",
+        "timeAllowed": 15,
+        "passage": "<p>In an era characterized by exponential data expansion, algorithmic curation, and hyper-partisan information bubbles, the capacity to process knowledge effectively has become a defining intellectual attribute. How individuals interact with information fundamentally demarcates two contrasting cognitive archetypes: critical thinkers and passive thinkers. While passive thinkers function largely as uncritical receptacles of incoming claims, critical thinkers engage in active, disciplined interrogation of the concepts, evidence, and arguments presented to them. This cognitive divergence fundamentally shapes how people form beliefs, resolve real-world problems, and participate in civic life.</p><p>Passive thinkers are distinguished by their tendency to accept information at face value without interrogating its origin, methodology, or underlying intent. Guided heavily by cognitive convenience, they gravitate toward ideas that confirm their preexisting biases—a psychological phenomenon known as confirmation bias. When presented with persuasive rhetoric or emotional appeals, passive thinkers frequently mistake rhetorical eloquence for factual validity. They display a pronounced deference to perceived authority figures, uncritically adopting dogma without verifying whether empirical evidence substantiates the claims. Consequently, their worldview tends to be rigid and highly impressionable, rendering them especially vulnerable to misinformation and sensationalist propaganda.</p><p>In stark contrast, critical thinkers operate with a deliberate commitment to intellectual skepticism and analytical rigor. Rather than merely absorbing conclusions, they deconstruct arguments into their foundational premises, evaluating whether logical connections truly hold. Critical thinkers actively seek out disconfirming evidence to test the robustness of their own convictions, recognizing that human perception is inherently flawed. When analyzing complex data, they meticulously distinguish between correlation and causation, question sample sizes, and identify hidden assumptions. Crucially, they possess intellectual humility—the willingness to revise or abandon cherished viewpoints when confronted with compelling counter-evidence.</p><p>The divergent modalities of these two groups become especially conspicuous in problem-solving scenarios. Passive thinkers typically approach multifaceted challenges through simplistic binary lenses—categorizing situations into absolute terms of right versus wrong, or black versus white. [A] Confronted with systemic failures, they tend to attribute problems to individual scapegoats rather than examining complex underlying dynamics. [B] Critical thinkers, by comparison, decompose dilemmas into interacting systemic variables. [C] They tolerate cognitive ambiguity, recognizing that modern problems rarely offer effortless, monolithic answers. [D] <strong>This nuanced methodology</strong> enables them to formulate innovative, sustainable solutions where superficial remedies inevitably fail.</p><p>Ultimately, critical thinking is not an innate, genetic predisposition reserved for an intellectual elite; rather, it is a cultivated discipline requiring continuous practice and mental vigilance. In a democratic society increasingly influenced by synthetic media and automated algorithmic amplification, passive thinking poses profound risks to civic cohesion and scientific literacy. Cultivating a habit of rigorous critical inquiry in educational systems is no longer an optional luxury, but an indispensable safeguard for democratic resilience and societal progress.</p>",
+        "vocab": [
+          {
+            "word": "receptacle",
+            "pos": "n",
+            "ipa": "/rɪˈsep.tə.kəl/",
+            "level": "C1",
+            "mean": "vật chứa, nơi tiếp nhận thụ động",
+            "syns": [
+              "container",
+              "vessel",
+              "repository"
+            ],
+            "ex": "Passive students often treat their minds as mere receptacles for memorizing exam facts."
+          },
+          {
+            "word": "deference",
+            "pos": "n",
+            "ipa": "/ˈdef.ər.əns/",
+            "level": "C1",
+            "mean": "sự quy phục, tôn kính răm rắp không chất vấn",
+            "syns": [
+              "respect",
+              "compliance",
+              "submission"
+            ],
+            "ex": "Excessive deference to corporate authority can stifle innovative ideas among junior staff."
+          },
+          {
+            "word": "impressionable",
+            "pos": "adj",
+            "ipa": "/ɪmˈpreʃ.ən.ə.bəl/",
+            "level": "B2",
+            "mean": "dễ bị ảnh hưởng, dễ bị lung lay tư tưởng",
+            "syns": [
+              "suggestible",
+              "vulnerable",
+              "malleable"
+            ],
+            "ex": "Young users are highly impressionable when exposed to algorithmic social media feeds."
+          },
+          {
+            "word": "deconstruct",
+            "pos": "v",
+            "ipa": "/ˌdiː.kənˈstrʌkt/",
+            "level": "C1",
+            "mean": "bóc tách, phân tích cấu trúc từng phần",
+            "syns": [
+              "analyze",
+              "dissect",
+              "break down"
+            ],
+            "ex": "A critical analyst must deconstruct political speeches to reveal hidden ideological assumptions."
+          },
+          {
+            "word": "correlation",
+            "pos": "n",
+            "ipa": "/ˌkɒr.əˈleɪ.ʃən/",
+            "level": "B2",
+            "mean": "mối tương quan (không nhất thiết là quan hệ nhân quả)",
+            "syns": [
+              "association",
+              "connection",
+              "link"
+            ],
+            "ex": "Researchers must never confuse a statistical correlation with direct causation."
+          },
+          {
+            "word": "humility",
+            "pos": "n",
+            "ipa": "/hjuːˈmɪl.ə.ti/",
+            "level": "B2",
+            "mean": "sự khiêm tốn, biết thừa nhận thiếu sót",
+            "syns": [
+              "modesty",
+              "unpretentiousness",
+              "humbleness"
+            ],
+            "ex": "Intellectual humility allows scientists to abandon obsolete theories when new data emerges."
+          },
+          {
+            "word": "binary",
+            "pos": "adj",
+            "ipa": "/ˈbaɪ.nər.i/",
+            "level": "B2",
+            "mean": "nhị phân, tuyệt đối hóa hai cực trắng đen",
+            "syns": [
+              "dual",
+              "black-and-white",
+              "dichotomous"
+            ],
+            "ex": "Complex economic issues cannot be reduced to simplistic binary choices."
+          },
+          {
+            "word": "scapegoat",
+            "pos": "n",
+            "ipa": "/ˈskeɪp.ɡəʊt/",
+            "level": "C1",
+            "mean": "kẻ giơ đầu chịu báng, người bị đổ lỗi oan",
+            "syns": [
+              "whipping boy",
+              "victim",
+              "culprit"
+            ],
+            "ex": "During economic recessions, vulnerable immigrant groups are often unfairly targeted as scapegoats."
+          },
+          {
+            "word": "monolithic",
+            "pos": "adj",
+            "ipa": "/ˌmɒn.əˈlɪθ.ɪk/",
+            "level": "C1",
+            "mean": "đơn nhất cứng nhắc, nguyên khối không thay đổi",
+            "syns": [
+              "inflexible",
+              "uniform",
+              "undifferentiated"
+            ],
+            "ex": "Societal challenges are far too intricate to be solved by a single monolithic policy."
+          },
+          {
+            "word": "vigilance",
+            "pos": "n",
+            "ipa": "/ˈvɪdʒ.əl.əns/",
+            "level": "C1",
+            "mean": "sự tỉnh táo, cảnh giác và thận trọng liên tục",
+            "syns": [
+              "alertness",
+              "watchfulness",
+              "attentiveness"
+            ],
+            "ex": "Detecting digital disinformation requires constant intellectual vigilance from active citizens."
+          },
+          {
+            "word": "exponential",
+            "pos": "adj",
+            "ipa": "/ˌek.spəˈnen.ʃəl/",
+            "level": "B2",
+            "mean": "theo cấp số nhân, gia tăng cực kỳ nhanh chóng chóng mặt",
+            "syns": [
+              "rapid",
+              "mushrooming",
+              "skyrocketing",
+              "escalating"
+            ],
+            "ex": "The exponential growth of digital media creates an unprecedented deluge of unverified claims."
+          },
+          {
+            "word": "algorithmic curation",
+            "pos": "n.phr",
+            "ipa": "/ˌæl.ɡəˈrɪð.mɪk kjʊəˈreɪ.ʃən/",
+            "level": "C1",
+            "mean": "việc sắp xếp, chọn lọc và hiển thị nội dung tự động bằng thuật toán",
+            "syns": [
+              "automated filtering",
+              "algorithmic sorting",
+              "machine curation"
+            ],
+            "ex": "Algorithmic curation prioritizes provocative headlines that generate engagement over verified facts."
+          },
+          {
+            "word": "hyper-partisan",
+            "pos": "adj",
+            "ipa": "/ˌhaɪ.pəˈpɑː.tɪ.zæn/",
+            "level": "C1",
+            "mean": "mang tính bè phái/đảng phái cực đoan, chia rẽ gay gắt",
+            "syns": [
+              "polarized",
+              "fiercely sectarian",
+              "biased",
+              "dogmatic"
+            ],
+            "ex": "Social media feeds often trap users inside hyper-partisan echo chambers that confirm existing prejudices."
+          },
+          {
+            "word": "archetype",
+            "pos": "n",
+            "ipa": "/ˈɑː.kɪ.taɪp/",
+            "level": "C1",
+            "mean": "hình mẫu nguyên bản, kiểu mẫu điển hình đại diện cho một nhóm",
+            "syns": [
+              "prototype",
+              "model",
+              "paradigm",
+              "embodiment"
+            ],
+            "ex": "The essay compares two cognitive archetypes: the analytical interrogator and the uncritical sponge."
+          },
+          {
+            "word": "interrogation",
+            "pos": "n",
+            "ipa": "/ɪnˌter.əˈɡeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự thẩm vấn, sự chất vấn và phân tích phản biện kỹ lưỡng",
+            "syns": [
+              "scrutiny",
+              "questioning",
+              "cross-examination",
+              "probing"
+            ],
+            "ex": "Rigorous interrogation of statistical sources separates credible science from sensational rumors."
+          },
+          {
+            "word": "cognitive convenience",
+            "pos": "n.phr",
+            "ipa": "/ˈkɒɡ.nə.tɪv kənˈviː.ni.əns/",
+            "level": "C1",
+            "mean": "sự tiện lợi lười tư duy, xu hướng chọn suy nghĩ dễ dàng ít tốn năng lượng",
+            "syns": [
+              "mental laziness",
+              "cognitive miserliness",
+              "intellectual shortcut"
+            ],
+            "ex": "Relying on cognitive convenience causes people to accept simple slogans rather than complex nuances."
+          },
+          {
+            "word": "confirmation bias",
+            "pos": "n.phr",
+            "ipa": "/ˌkɒn.fəˈmeɪ.ʃən ˈbaɪ.əs/",
+            "level": "B2",
+            "mean": "thiên kiến xác nhận (xu hướng chỉ tìm kiếm bằng chứng ủng hộ ý kiến có sẵn của mình)",
+            "syns": [
+              "myside bias",
+              "selective perception",
+              "preconceived belief"
+            ],
+            "ex": "Due to confirmation bias, readers readily share articles confirming their views while ignoring counterarguments."
+          },
+          {
+            "word": "eloquence",
+            "pos": "n",
+            "ipa": "/ˈel.ə.kwəns/",
+            "level": "B2",
+            "mean": "tài hùng biện, khả năng nói năng lưu loát và thuyết phục",
+            "syns": [
+              "fluency",
+              "persuasiveness",
+              "articulateness",
+              "oratory"
+            ],
+            "ex": "Uncritical listeners often mistake charismatic eloquence for substantive truth."
+          },
+          {
+            "word": "dogma",
+            "pos": "n",
+            "ipa": "/ˈdɒɡ.mə/",
+            "level": "C1",
+            "mean": "giáo điều cứng nhắc, niềm tin áp đặt không được phép hoài nghi",
+            "syns": [
+              "doctrine",
+              "unquestioned creed",
+              "tenet",
+              "orthodoxy"
+            ],
+            "ex": "Scientific inquiry advances by challenging established dogma through reproducible evidence."
+          },
+          {
+            "word": "substantiate",
+            "pos": "v",
+            "ipa": "/səbˈstæn.ʃi.eɪt/",
+            "level": "C1",
+            "mean": "chứng minh, cung cấp bằng chứng xác thực cho một luận điểm",
+            "syns": [
+              "corroborate",
+              "validate",
+              "verify",
+              "back up"
+            ],
+            "ex": "The researcher provided extensive laboratory data to substantiate her controversial hypothesis."
+          },
+          {
+            "word": "skepticism",
+            "pos": "n",
+            "ipa": "/ˈskep.tɪ.sɪ.zəm/",
+            "level": "B2",
+            "mean": "thái độ hoài nghi khoa học có căn cứ, không dễ dãi tin ngay",
+            "syns": [
+              "doubt",
+              "incredulity",
+              "critical questioning",
+              "suspicion"
+            ],
+            "ex": "Healthy skepticism protects consumers from deceptive advertising and misleading medical claims."
+          },
+          {
+            "word": "premise",
+            "pos": "n",
+            "ipa": "/ˈprem.ɪs/",
+            "level": "C1",
+            "mean": "tiền đề logic, giả định làm nền tảng cho một lập luận",
+            "syns": [
+              "foundation",
+              "assumption",
+              "basis",
+              "presupposition"
+            ],
+            "ex": "If the initial premise of an argument is faulty, the resulting conclusion cannot be logically sound."
+          },
+          {
+            "word": "disconfirming",
+            "pos": "adj",
+            "ipa": "/ˌdɪs.kənˈfɜː.mɪŋ/",
+            "level": "C1",
+            "mean": "có tính phản chứng, cung cấp bằng chứng bác bỏ giả thuyết",
+            "syns": [
+              "falsifying",
+              "contradictory",
+              "refuting",
+              "disproving"
+            ],
+            "ex": "Open-minded scholars deliberately search for disconfirming observations to stress-test their models."
+          },
+          {
+            "word": "causation",
+            "pos": "n",
+            "ipa": "/kɔːˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "mối quan hệ nhân quả (sự việc này trực tiếp gây ra sự việc kia)",
+            "syns": [
+              "causal link",
+              "direct causation",
+              "etiology"
+            ],
+            "ex": "Researchers frequently remind the public that statistical correlation does not necessarily establish causation."
+          },
+          {
+            "word": "conspicuous",
+            "pos": "adj",
+            "ipa": "/kənˈspɪk.ju.əs/",
+            "level": "B2",
+            "mean": "dễ thấy, rõ ràng nổi bật, gây chú ý",
+            "syns": [
+              "noticeable",
+              "prominent",
+              "evident",
+              "salient"
+            ],
+            "ex": "The absence of objective data in the report was conspicuous to every peer reviewer."
+          },
+          {
+            "word": "ambiguity",
+            "pos": "n",
+            "ipa": "/ˌæm.bɪˈɡjuː.ə.ti/",
+            "level": "B2",
+            "mean": "tính mơ hồ, sự chưa rõ ràng, tình trạng có thể hiểu theo nhiều cách",
+            "syns": [
+              "uncertainty",
+              "vagueness",
+              "equivocation",
+              "openness to interpretation"
+            ],
+            "ex": "Mature decision-makers are able to tolerate cognitive ambiguity when solving unprecedented challenges."
+          },
+          {
+            "word": "indispensable",
+            "pos": "adj",
+            "ipa": "/ˌɪn.dɪˈspen.sə.bəl/",
+            "level": "B2",
+            "mean": "tối quan trọng, không thể thiếu được",
+            "syns": [
+              "essential",
+              "vital",
+              "crucial",
+              "imperative"
+            ],
+            "ex": "Analytical literacy is an indispensable safeguard against deceptive algorithmic misinformation."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "Which of the following best captures the main theme of the passage?",
+            "questionVi": "Câu nào sau đây nắm bắt tốt nhất chủ đề chính của bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The historical origin of algorithmic echo chambers on the modern Internet",
+              "A comparison between the cognitive characteristics, problem-solving methods, and societal significance of critical and passive thinkers",
+              "Why genetic heritage is the primary determining factor in intellectual problem-solving",
+              "The total obsolescence of formal educational institutions in developing critical faculties"
+            ],
+            "optionsVi": [
+              "Nguồn gốc lịch sử của các buồng vang thuật toán trên Internet hiện đại",
+              "Sự so sánh giữa các đặc điểm nhận thức, phương pháp giải quyết vấn đề và ý nghĩa xã hội của người tư duy phản biện và người tư duy thụ động",
+              "Tại sao di truyền lại là yếu tố quyết định hàng đầu trong việc giải quyết vấn đề trí tuệ",
+              "Sự lỗi thời hoàn toàn của các cơ sở giáo dục chính quy trong việc phát triển năng lực phản biện"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "How individuals interact with information fundamentally demarcates two contrasting cognitive archetypes: critical thinkers and passive thinkers... This cognitive divergence fundamentally shapes how people form beliefs, resolve real-world problems, and participate in civic life. [Paragraph 1 & Throughout]",
+            "evidenceVi": "Cách các cá nhân tương tác với thông tin định hình hai khuôn mẫu nhận thức trái ngược: người tư duy phản biện và người tư duy thụ động... [Đoạn 1]",
+            "explanation": "Toàn bài phân tích đối chiếu hai nhóm tư duy: khái niệm tổng quan (Đoạn 1), chân dung tư duy thụ động (Đoạn 2), chân dung tư duy phản biện (Đoạn 3), cách giải quyết vấn đề (Đoạn 4) và tầm quan trọng đối với xã hội dân chủ (Đoạn 5).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Theme)",
+              "cluePassage": "demarcates two contrasting cognitive archetypes: critical thinkers and passive thinkers... shapes how people form beliefs, resolve problems, and participate in civic life",
+              "clueAnswer": "comparison between the cognitive characteristics, problem-solving methods, and societal significance of critical and passive thinkers",
+              "keyPassage": "two contrasting cognitive archetypes: critical vs passive",
+              "keyAnswer": "comparison between critical and passive thinkers",
+              "paraphrasePair": "contrasting archetypes <=> comparison between thinkers | resolve problems <=> problem-solving methods | civic life <=> societal significance",
+              "meaningVi": "hai khuôn mẫu đối lập <=> so sánh giữa hai nhóm | giải quyết vấn đề <=> phương pháp xử lý | đời sống công dân <=> ý nghĩa xã hội",
+              "deductionLogic": "Phương án B khái quát đầy đủ cấu trúc so sánh đối chiếu xuyên suốt 5 đoạn của bài viết."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "The word \"deference\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"deference\" trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "active rebellion",
+              "unquestioning respect and submission",
+              "scientific curiosity",
+              "hostile skepticism"
+            ],
+            "optionsVi": [
+              "sự nổi loạn chủ động",
+              "sự tôn kính và quy phục không chất vấn",
+              "sự tò mò khoa học",
+              "sự hoài nghi thù địch"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "They display a pronounced deference to perceived authority figures, uncritically adopting dogma without verifying whether empirical evidence substantiates the claims. [Paragraph 2]",
+            "evidenceVi": "Họ thể hiện sự quy phục rõ rệt đối với những nhân vật được coi là quyền uy, tiếp nhận giáo điều một cách thiếu phản biện mà không xác minh... [Đoạn 2]",
+            "explanation": "\"Deference\" là sự phục tùng, tôn kính và nghe theo mà không chất vấn (polite submission and respect / unquestioning respect and submission).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "pronounced deference to perceived authority figures, uncritically adopting dogma",
+              "clueAnswer": "unquestioning respect and submission",
+              "keyPassage": "deference",
+              "keyAnswer": "unquestioning respect and submission",
+              "paraphrasePair": "deference <=> unquestioning respect and submission",
+              "meaningVi": "sự quy phục, phục tùng <=> sự tôn kính và phục tùng không chất vấn",
+              "deductionLogic": "Cụm 'uncritically adopting dogma' (tiếp thu giáo điều không phê phán) làm rõ thái độ phục tùng răm rắp của người thụ động."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "According to paragraph 2, what cognitive trap are passive thinkers particularly susceptible to?",
+            "questionVi": "Theo đoạn 2, người tư duy thụ động đặc biệt dễ rơi vào bẫy nhận thức nào?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "Overestimating their mathematical calculation speeds",
+              "Confirmation bias by preferring information that reinforces preexisting beliefs",
+              "Obsessively hunting for counter-arguments to disprove their own opinions",
+              "Refusing to listen to any charismatic political speakers"
+            ],
+            "optionsVi": [
+              "Đánh giá quá cao tốc độ tính toán toán học của bản thân",
+              "Thiên kiến xác nhận bằng việc ưa thích thông tin củng cố niềm tin có sẵn",
+              "Ám ảnh tìm kiếm các luận điểm phản bác để bác bỏ ý kiến của chính mình",
+              "Từ chối lắng nghe bất kỳ diễn giả chính trị có tài hùng biện nào"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Guided heavily by cognitive convenience, they gravitate toward ideas that confirm their preexisting biases—a psychological phenomenon known as confirmation bias. [Paragraph 2]",
+            "evidenceVi": "Bị chi phối mạnh mẽ bởi sự tiện lợi trong nhận thức, họ hướng về các ý tưởng củng cố các thiên kiến có sẵn của mình—hiện tượng tâm lý được biết đến là thiên kiến xác nhận. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu trực diện: passive thinkers thường bị dẫn dắt bởi 'confirmation bias' (thiên kiến xác nhận), chỉ tiếp nhận điều củng cố định kiến cũ.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết bẫy nhận thức (Factual Detail)",
+              "cluePassage": "gravitate toward ideas that confirm their preexisting biases—a psychological phenomenon known as confirmation bias",
+              "clueAnswer": "Confirmation bias by preferring information that reinforces preexisting beliefs",
+              "keyPassage": "gravitate toward ideas that confirm preexisting biases",
+              "keyAnswer": "preferring information that reinforces preexisting beliefs",
+              "paraphrasePair": "gravitate toward ideas that confirm biases <=> preferring info that reinforces beliefs",
+              "meaningVi": "hướng về ý tưởng xác nhận định kiến <=> ưa chuộng thông tin củng cố niềm tin cũ",
+              "deductionLogic": "Phương án B diễn giải lại 100% chuẩn xác định nghĩa hiện tượng tâm lý 'confirmation bias' trong đoạn 2."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "How do critical thinkers address potential flaws in their own beliefs according to paragraph 3?",
+            "questionVi": "Theo đoạn 3, những người tư duy phản biện giải quyết các sai sót tiềm ẩn trong niềm tin của chính họ như thế nào?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "They aggressively conceal any conflicting evidence from academic colleagues.",
+              "They actively search for disconfirming evidence and practice intellectual humility.",
+              "They insist that their intuition is universally infallible.",
+              "They avoid participating in any scientific or philosophical debates."
+            ],
+            "optionsVi": [
+              "Họ hung hăng che giấu mọi bằng chứng mâu thuẫn trước các đồng nghiệp học thuật.",
+              "Họ chủ động tìm kiếm các bằng chứng phản nghiệm và thực hành sự khiêm tốn trí tuệ.",
+              "Họ khăng khăng rằng trực giác của mình luôn luôn không bao giờ sai sót.",
+              "Họ tránh tham gia vào bất kỳ cuộc tranh luận khoa học hay triết học nào."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Critical thinkers actively seek out disconfirming evidence to test the robustness of their own convictions... Crucially, they possess intellectual humility—the willingness to revise or abandon cherished viewpoints when confronted with compelling counter-evidence. [Paragraph 3]",
+            "evidenceVi": "Người tư duy phản biện chủ động tìm kiếm các bằng chứng bác bỏ để thử thách độ vững chắc của niềm tin bản thân... Quan trọng là họ sở hữu sự khiêm tốn trí tuệ—sẵn sàng sửa đổi hoặc từ bỏ quan điểm... [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ rõ hai hành động then chốt: 'actively seek out disconfirming evidence' (chủ động tìm kiếm bằng chứng phản nghiệm) và 'intellectual humility' (khiêm tốn trí tuệ sẵn sàng sửa đổi quan điểm).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết phương pháp (Factual Detail)",
+              "cluePassage": "actively seek out disconfirming evidence... possess intellectual humility",
+              "clueAnswer": "They actively search for disconfirming evidence and practice intellectual humility",
+              "keyPassage": "seek out disconfirming evidence, possess intellectual humility",
+              "keyAnswer": "search for disconfirming evidence, practice intellectual humility",
+              "paraphrasePair": "seek out <=> search for | possess humility <=> practice humility",
+              "meaningVi": "tìm kiếm bằng chứng phản nghiệm và rèn luyện sự khiêm tốn",
+              "deductionLogic": "Phương án B phản ánh chính xác từng cụm từ cốt lõi được tác giả nhấn mạnh ở đoạn 3."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "Which of the following analytical skills is NOT attributed to critical thinkers in paragraph 3?",
+            "questionVi": "Kỹ năng phân tích nào sau đây KHÔNG được quy cho người tư duy phản biện trong đoạn 3?",
+            "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
+            "options": [
+              "Distinguishing between correlation and causation",
+              "Evaluating whether sample sizes are statistically sufficient",
+              "Deconstructing arguments into their foundational premises",
+              "Relying solely on gut emotional instincts to evaluate medical research"
+            ],
+            "optionsVi": [
+              "Phân biệt giữa mối tương quan và mối quan hệ nhân quả",
+              "Đánh giá xem quy mô mẫu nghiên cứu có đủ độ tin cậy thống kê hay không",
+              "Bóc tách các lập luận thành các tiền đề nền tảng của chúng",
+              "Chỉ dựa hoàn toàn vào trực giác cảm xúc bản năng để đánh giá nghiên cứu y học"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Rather than merely absorbing conclusions, they deconstruct arguments into their foundational premises... distinguish between correlation and causation, question sample sizes, and identify hidden assumptions. [Paragraph 3]",
+            "evidenceVi": "Đoạn 3 nêu rõ critical thinkers: bóc tách tiền đề (A), phân biệt tương quan vs nhân quả (B), kiểm tra cỡ mẫu (C). Việc 'chỉ dựa vào cảm xúc bản năng' (D) là thói quen của passive thinkers.",
+            "explanation": "Critical thinkers luôn dùng lý tính, bằng chứng thực nghiệm và logic học, hoàn toàn không dựa vào cảm xúc bột phát (gut emotional instincts).",
+            "postReading": {
+              "type": "negative",
+              "typeLabel": "Thông tin loại trừ (Negative Detail)",
+              "cluePassage": "deconstruct arguments... distinguish between correlation and causation, question sample sizes",
+              "clueAnswer": "Relying solely on gut emotional instincts to evaluate medical research",
+              "keyPassage": "analytical rigor, deconstruct premises, correlation vs causation",
+              "keyAnswer": "gut emotional instincts belongs to passive thinking",
+              "paraphrasePair": "deconstruct arguments <=> break down premises | correlation vs causation <=> association vs causality",
+              "meaningVi": "phân tích tiền đề <=> bóc tách lập luận | tương quan vs nhân quả",
+              "deductionLogic": "Dựa vào cảm xúc là biểu hiện ngược lại hoàn toàn với tư duy phản biện (critical thinking)."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "The phrase \"This nuanced methodology\" in paragraph 4 refers to:",
+            "questionVi": "Cụm từ \"This nuanced methodology\" trong đoạn 4 ám chỉ điều gì?",
+            "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
+            "options": [
+              "blaming individual scapegoats whenever institutional errors occur",
+              "decomposing problems into systemic variables and tolerating cognitive ambiguity",
+              "viewing every complex ethical dilemma as a strict binary choice",
+              "ignoring opposing opinions to accelerate decision-making speeds"
+            ],
+            "optionsVi": [
+              "đổ lỗi cho các cá nhân chịu báng bất cứ khi nào xảy ra sai sót thể chế",
+              "phân tích vấn đề thành các biến số hệ thống và chấp nhận sự mơ hồ nhận thức",
+              "nhìn nhận mọi tình huống tiến thoái lưỡng nan về đạo đức như một sự lựa chọn nhị phân cứng nhắc",
+              "phớt lờ các ý kiến đối lập để đẩy nhanh tốc độ ra quyết định"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Critical thinkers, by comparison, decompose dilemmas into interacting systemic variables. They tolerate cognitive ambiguity, recognizing that modern problems rarely offer effortless, monolithic answers. This nuanced methodology enables them... [Paragraph 4]",
+            "evidenceVi": "Người tư duy phản biện phân tích thế lưỡng nan thành các biến số hệ thống tương tác nhau. Họ chấp nhận sự mơ hồ nhận thức... Phương pháp tiếp cận tinh tế, đa chiều này giúp họ... [Đoạn 4]",
+            "explanation": "\"This nuanced methodology\" tóm lược cách tiếp cận của critical thinkers: phân tách biến số hệ thống (decompose dilemmas into systemic variables) và chấp nhận sự phức tạp/mơ hồ (tolerate cognitive ambiguity).",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Quy chiếu phương pháp (Reference)",
+              "cluePassage": "decompose dilemmas into interacting systemic variables. They tolerate cognitive ambiguity... This nuanced methodology",
+              "clueAnswer": "decomposing problems into systemic variables and tolerating cognitive ambiguity",
+              "keyPassage": "decompose into systemic variables, tolerate ambiguity",
+              "keyAnswer": "decomposing problems into systemic variables, tolerating ambiguity",
+              "paraphrasePair": "nuanced methodology => decompose variables and tolerate ambiguity",
+              "meaningVi": "phương pháp đa chiều tinh tế => bóc tách biến số và chấp nhận sự mơ hồ",
+              "deductionLogic": "Cụm 'This nuanced methodology' thay thế trực tiếp cho hai câu miêu tả giải pháp của critical thinkers ở ngay phía trước."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "The word \"binary\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"binary\" trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "divided strictly into two opposing extremes",
+              "involving multiple overlapping perspectives",
+              "scientifically proven by laboratory trials",
+              "constantly shifting according to climate"
+            ],
+            "optionsVi": [
+              "bị chia tách nghiêm ngặt thành hai thái cực đối lập",
+              "liên quan đến nhiều góc nhìn đan xen nhau",
+              "được chứng minh khoa học bởi các thử nghiệm phòng thí nghiệm",
+              "liên tục thay đổi theo điều kiện khí hậu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Passive thinkers typically approach multifaceted challenges through simplistic binary lenses—categorizing situations into absolute terms of right versus wrong, or black versus white. [Paragraph 4]",
+            "evidenceVi": "Người tư duy thụ động thường tiếp cận các thách thức đa diện qua lăng kính nhị phân đơn giản hóa—phân loại các tình huống thành các thái cực tuyệt đối đúng hoặc sai, trắng hoặc đen. [Đoạn 4]",
+            "explanation": "\"Binary\" (nhị phân, lưỡng phân) trong tư duy nghĩa là tuyệt đối hóa vấn đề thành hai thái cực đối lập (divided strictly into two opposing extremes: right/wrong, black/white).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "simplistic binary lenses—categorizing situations into absolute terms of right versus wrong, or black versus white",
+              "clueAnswer": "divided strictly into two opposing extremes",
+              "keyPassage": "binary lenses (right vs wrong, black vs white)",
+              "keyAnswer": "divided into two opposing extremes",
+              "paraphrasePair": "binary <=> divided into two opposing extremes",
+              "meaningVi": "nhị phân (trắng/đen) <=> chia tách thành hai thái cực đối lập",
+              "deductionLogic": "Đoạn văn tự giải thích rõ ràng bằng dấu gạch ngang: 'categorizing situations into absolute terms of right versus wrong, or black versus white'."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"Because this reductive framing overlooks structural complexity, it invariably leads to ineffective policies that fail to treat root causes.\"\nWhere would the sentence best fit?",
+            "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "Vị trí [A]",
+              "Vị trí [B]",
+              "Vị trí [C]",
+              "Vị trí [D]"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Confronted with systemic failures, they tend to attribute problems to individual scapegoats rather than examining complex underlying dynamics. [B] Critical thinkers, by comparison, decompose dilemmas into interacting systemic variables. [Paragraph 4]",
+            "evidenceVi": "Vị trí [B] đứng ngay sau việc chỉ trích cách tư duy đổ lỗi cho vật tế thần (scapegoats) và đóng vai trò kết luận cho sự thất bại của lăng kính đơn giản hóa (this reductive framing).",
+            "explanation": "\"This reductive framing\" (lối đóng khung đơn giản hóa này) quy chiếu về lối tư duy 'binary lenses' và 'scapegoating' của passive thinkers được trình bày ngay trước vị trí [B], trước khi chuyển sang đối tượng so sánh mới ('Critical thinkers, by comparison').",
+            "postReading": {
+              "type": "insertion",
+              "typeLabel": "Điền câu logic (Sentence Insertion)",
+              "cluePassage": "attribute problems to individual scapegoats rather than examining complex underlying dynamics. [B] Critical thinkers, by comparison...",
+              "clueAnswer": "[B]",
+              "keyPassage": "simplistic binary lenses, attribute problems to individual scapegoats",
+              "keyAnswer": "Because this reductive framing overlooks structural complexity",
+              "paraphrasePair": "simplistic lenses/scapegoating <=> this reductive framing",
+              "meaningVi": "lăng kính đơn giản hóa/đổ lỗi cá nhân <=> lối đóng khung đơn giản hóa này",
+              "deductionLogic": "Câu cần điền chốt lại hệ quả tai hại của passive thinkers trước khi bài dùng từ nối 'by comparison' để chuyển sang critical thinkers."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "According to paragraph 4, how do critical thinkers differ from passive thinkers when facing systemic dilemmas?",
+            "questionVi": "Theo đoạn 4, người tư duy phản biện khác với người tư duy thụ động như thế nào khi đối mặt với các thế lưỡng nan mang tính hệ thống?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Comparison)",
+            "options": [
+              "They quickly identify a single person to blame and impose punitive punishments.",
+              "They break down dilemmas into interacting systemic variables rather than adopting binary conclusions.",
+              "They surrender immediately because they believe systemic issues are insoluble.",
+              "They depend solely on commercial advertisements to determine public policies."
+            ],
+            "optionsVi": [
+              "Họ nhanh chóng tìm ra một người duy nhất để đổ lỗi và áp đặt các hình phạt mang tính trừng phạt.",
+              "Họ bóc tách các thế lưỡng nan thành các biến số hệ thống tương tác nhau thay vì chấp nhận các kết luận nhị phân.",
+              "Họ đầu hàng ngay lập tức vì tin rằng các vấn đề hệ thống là không thể giải quyết.",
+              "Họ phụ thuộc hoàn toàn vào quảng cáo thương mại để xác định các chính sách công."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Critical thinkers, by comparison, decompose dilemmas into interacting systemic variables. They tolerate cognitive ambiguity, recognizing that modern problems rarely offer effortless, monolithic answers. [Paragraph 4]",
+            "evidenceVi": "Ngược lại, người tư duy phản biện phân tích các thế lưỡng nan thành các biến số hệ thống tương tác nhau. Họ chấp nhận sự mơ hồ nhận thức, hiểu rằng các vấn đề hiện đại hiếm khi có câu trả lời đơn giản... [Đoạn 4]",
+            "explanation": "Đoạn 4 đối lập rõ: passive thinkers tư duy nhị phân (right/wrong) và đổ lỗi cá nhân (scapegoats), trong khi critical thinkers phân tích các biến số hệ thống (decompose dilemmas into interacting systemic variables).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết so sánh đối chiếu (Factual Comparison)",
+              "cluePassage": "decompose dilemmas into interacting systemic variables. They tolerate cognitive ambiguity",
+              "clueAnswer": "They break down dilemmas into interacting systemic variables rather than adopting binary conclusions",
+              "keyPassage": "decompose dilemmas into interacting systemic variables",
+              "keyAnswer": "break down dilemmas into interacting systemic variables",
+              "paraphrasePair": "decompose dilemmas <=> break down dilemmas | absolute terms <=> binary conclusions",
+              "meaningVi": "phân rã thế lưỡng nan <=> bóc tách vấn đề | điều tuyệt đối <=> kết luận nhị phân",
+              "deductionLogic": "Phương án B nêu trọn vẹn điểm khác biệt căn bản giữa hai phương pháp tư duy đã được phân tích ở đoạn 4."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "Which of the following can be inferred from paragraph 5 about critical thinking ability?",
+            "questionVi": "Điều nào sau đây có thể được suy luận từ đoạn 5 về khả năng tư duy phản biện?",
+            "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN (Inference Question)",
+            "options": [
+              "It is an unchangeable genetic trait inherited strictly from birth.",
+              "It is a learnable skill that can be systematically developed through education and practice.",
+              "It will become completely useless as artificial intelligence systems advance.",
+              "It is only relevant for university professors and useless for general citizens."
+            ],
+            "optionsVi": [
+              "Đó là một đặc điểm di truyền không thể thay đổi được thừa hưởng nghiêm ngặt từ lúc sinh ra.",
+              "Đó là một kỹ năng có thể học hỏi được và có thể phát triển bài bản qua giáo dục và rèn luyện.",
+              "Nó sẽ trở nên hoàn toàn vô dụng khi các hệ thống trí tuệ nhân tạo phát triển.",
+              "Nó chỉ có ý nghĩa với các giáo sư đại học và hoàn toàn vô ích đối với người dân nói chung."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Ultimately, critical thinking is not an innate, genetic predisposition reserved for an intellectual elite; rather, it is a cultivated discipline requiring continuous practice and mental vigilance... Cultivating a habit of rigorous critical inquiry in educational systems is no longer an optional luxury... [Paragraph 5]",
+            "evidenceVi": "Tư duy phản biện không phải là thiên bẩm di truyền dành riêng cho giới tinh hoa; mà là một kỷ luật được rèn giũa đòi hỏi sự thực hành liên tục... Việc trau dồi trong hệ thống giáo dục là điều tất yếu... [Đoạn 5]",
+            "explanation": "\"Not an innate, genetic predisposition... but a cultivated discipline... Cultivating in educational systems\" suy ra rằng tư duy phản biện hoàn toàn có thể học được và rèn luyện thông qua giáo dục (learnable skill developed through education and practice).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận logic (Inference)",
+              "cluePassage": "not an innate, genetic predisposition... rather, it is a cultivated discipline requiring continuous practice... Cultivating a habit in educational systems",
+              "clueAnswer": "It is a learnable skill that can be systematically developed through education and practice",
+              "keyPassage": "cultivated discipline requiring continuous practice",
+              "keyAnswer": "learnable skill developed through education and practice",
+              "paraphrasePair": "cultivated discipline <=> learnable skill | continuous practice <=> developed through education/practice",
+              "meaningVi": "kỷ luật được rèn giũa qua luyện tập <=> kỹ năng học được qua giáo dục và thực hành",
+              "deductionLogic": "Tác giả phủ định yếu tố bẩm sinh di truyền ('not an innate genetic predisposition') và khẳng định tính rèn giũa giáo dục ('cultivated discipline')."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "testId": "TEST12",
+    "testNum": 12,
+    "title": "VSTEP READING THỰC CHIẾN 02 (REVIEW ĐỀ THI THẬT)",
+    "description": "Bộ đề thực chiến số 02 biên soạn chuẩn xác từ review học viên: Hoạt động thời đại dịch, Tâm lý học về May mắn, Phân biệt lao động châu Á & Tôn giáo tại Mỹ.",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: People's Activities During the Pandemic",
+        "topic": "Xã hội học & Sự thích ứng đời sống trong thời kỳ đại dịch toàn cầu",
+        "timeAllowed": 15,
+        "passage": "<p>The global outbreak of the COVID-19 pandemic in early 2020 precipitated an <strong>unprecedented</strong> disruption to everyday life, fundamentally altering how societies functioned. To curb the transmission of the novel coronavirus, national governments worldwide enacted strict quarantine protocols, closed non-essential enterprises, and mandated widespread social distancing. Virtually overnight, billions of individuals found their geographic mobility curtailed, being compulsory confined to their domestic dwellings. Deprived of normal routines, daily commutes, and social gatherings, people across the globe were compelled to radically reconfigure their everyday activities to navigate prolonged periods of isolation.</p><p>One of the most remarkable manifestations of this domestic confinement was a widespread resurgence in traditional household arts and self-sufficiency pursuits. Millions turned to culinary experimentation, igniting an explosive surge in home baking that led to worldwide retail shortages of flour and yeast. Sourdough bread making, in particular, became an international cultural sensation, as amateur bakers found comforting psychological solace in the slow, rhythmic maintenance of fermentation starters. Concurrently, interest in indoor horticulture and backyard gardening escalated dramatically. Cultivating microgreens, potted herbs, and vegetables on balconies provided city dwellers with both a tangible sense of productivity and a soothing connection to the living natural world during a time of pervasive uncertainty.</p><p>Physical fitness and recreational pastimes also underwent a profound digital transformation. With public athletic facilities, fitness gyms, and community recreation centers closed by public health orders, individuals quickly adapted by converting living rooms and bedrooms into makeshift workout studios. Instructors and fitness influencers pivoted to virtual live-streams, broadcasting high-intensity interval training, yoga, and pilates sessions directly into participants' homes. Furthermore, cultural institutions embraced digital accessibility; world-renowned museums, opera houses, and national parks launched free virtual tours and live-streamed performances, allowing homebound audiences to maintain intellectual and aesthetic engagement despite physical restrictions.</p><p>Professional and interpersonal dynamics experienced an equally dramatic realignment through digital telecommunications. [A] Telecommuting transitioned from a peripheral workplace perk into the standard operating modality for white-collar workforces. [B] Platforms like Zoom, Microsoft Teams, and Google Meet became ubiquitous virtual offices where millions conducted daily meetings and collaborative projects. [C] Beyond professional demands, these video platforms were co-opted for impromptu social occasions—including virtual birthday parties, family reunions, and festive \"virtual happy hours\" designed to alleviate loneliness. [D] <strong>This rapid adaptation</strong> demonstrated human resilience and social resourcefulness in sustaining human connection under extraordinary constraints.</p><p>Ultimately, the pandemic era accelerated a profound reevaluation of domestic spaces and daily priorities. While the lifting of restrictions eventually enabled a return to public life, many newly adopted habits have persisted into the post-pandemic era. Hybrid work models, sustained enthusiasm for home cooking, and heightened awareness of personal well-being suggest that people's pandemic-era activities were not merely temporary coping mechanisms, but rather the catalyst for a permanent cultural shift in how individuals balance work, home, and leisure.</p>",
+        "vocab": [
+          {
+            "word": "unprecedented",
+            "pos": "adj",
+            "ipa": "/ʌnˈpres.ɪ.den.tɪd/",
+            "level": "C1",
+            "mean": "chưa từng có tiền lệ, chưa từng xảy ra",
+            "syns": [
+              "unmatched",
+              "unparalleled",
+              "novel"
+            ],
+            "ex": "The global lockdowns caused an unprecedented disruption to international travel and commerce."
+          },
+          {
+            "word": "confinement",
+            "pos": "n",
+            "ipa": "/kənˈfaɪn.mənt/",
+            "level": "B2",
+            "mean": "sự giam hãm, hạn chế đi lại trong nhà",
+            "syns": [
+              "restriction",
+              "isolation",
+              "quarantine"
+            ],
+            "ex": "During weeks of strict home confinement, many residents took up indoor gardening."
+          },
+          {
+            "word": "solace",
+            "pos": "n",
+            "ipa": "/ˈsɒl.ɪs/",
+            "level": "C1",
+            "mean": "sự khuây khỏa, niềm an ủi tâm lý",
+            "syns": [
+              "comfort",
+              "consolation",
+              "relief"
+            ],
+            "ex": "Many isolated seniors found great emotional solace in adopting rescue pets."
+          },
+          {
+            "word": "horticulture",
+            "pos": "n",
+            "ipa": "/ˈhɔː.tɪ.kʌl.tʃər/",
+            "level": "B2",
+            "mean": "nghề làm vườn, trồng trọt cây cảnh",
+            "syns": [
+              "gardening",
+              "cultivation",
+              "plant growing"
+            ],
+            "ex": "Urban horticulture experienced a major boom as apartment dwellers grew herbs on balconies."
+          },
+          {
+            "word": "makeshift",
+            "pos": "adj",
+            "ipa": "/ˈmeɪk.ʃɪft/",
+            "level": "B2",
+            "mean": "tạm thời, chắp vá dùng tạm",
+            "syns": [
+              "temporary",
+              "improvised",
+              "provisional"
+            ],
+            "ex": "Workers transformed kitchen tables into makeshift office desks during remote work."
+          },
+          {
+            "word": "telecommuting",
+            "pos": "n",
+            "ipa": "/ˌtel.i.kəˈmjuː.tɪŋ/",
+            "level": "B2",
+            "mean": "làm việc từ xa qua mạng máy tính",
+            "syns": [
+              "remote work",
+              "telework",
+              "working from home"
+            ],
+            "ex": "Telecommuting has fundamentally reshaped corporate culture across major economies."
+          },
+          {
+            "word": "ubiquitous",
+            "pos": "adj",
+            "ipa": "/juːˈbɪk.wɪ.təs/",
+            "level": "C1",
+            "mean": "phổ biến khắp nơi, đâu đâu cũng thấy",
+            "syns": [
+              "omnipresent",
+              "pervasive",
+              "universal"
+            ],
+            "ex": "Video conferencing applications became ubiquitous tools for modern schooling."
+          },
+          {
+            "word": "impromptu",
+            "pos": "adj",
+            "ipa": "/ɪmˈprɒmp.tjuː/",
+            "level": "C1",
+            "mean": "ngẫu hứng, không chuẩn bị trước",
+            "syns": [
+              "spontaneous",
+              "unrehearsed",
+              "extemporaneous"
+            ],
+            "ex": "Neighbors organized an impromptu balcony concert to uplift community spirits."
+          },
+          {
+            "word": "resilience",
+            "pos": "n",
+            "ipa": "/rɪˈzɪl.jəns/",
+            "level": "B2",
+            "mean": "sự kiên cường, khả năng thích ứng và phục hồi",
+            "syns": [
+              "toughness",
+              "adaptability",
+              "fortitude"
+            ],
+            "ex": "Communities demonstrated extraordinary psychological resilience throughout the health crisis."
+          },
+          {
+            "word": "catalyst",
+            "pos": "n",
+            "ipa": "/ˈkæt.əl.ɪst/",
+            "level": "B2",
+            "mean": "chất xúc tác, nhân tố thúc đẩy biến đổi",
+            "syns": [
+              "impetus",
+              "spark",
+              "stimulus"
+            ],
+            "ex": "The global health crisis served as a powerful catalyst for modernizing digital education."
+          },
+          {
+            "word": "precipitate",
+            "pos": "v",
+            "ipa": "/prɪˈsɪp.ɪ.teɪt/",
+            "level": "C1",
+            "mean": "châm ngòi, thúc đẩy xảy ra nhanh chóng một sự biến đổi lớn",
+            "syns": [
+              "trigger",
+              "instigate",
+              "spark",
+              "hasten"
+            ],
+            "ex": "The onset of quarantine protocols precipitated sweeping changes in global consumer behavior."
+          },
+          {
+            "word": "curb",
+            "pos": "v",
+            "ipa": "/kɜːb/",
+            "level": "B2",
+            "mean": "kiềm chế, kìm hãm sự lây lan hoặc gia tăng",
+            "syns": [
+              "restrain",
+              "suppress",
+              "check",
+              "contain"
+            ],
+            "ex": "Public health agencies introduced masks and hand hygiene to curb viral transmission."
+          },
+          {
+            "word": "curtail",
+            "pos": "v",
+            "ipa": "/kəˈteɪl/",
+            "level": "C1",
+            "mean": "cắt giảm, tước bớt hoặc hạn chế đáng kể quyền hoạt động",
+            "syns": [
+              "restrict",
+              "diminish",
+              "trim",
+              "reduce"
+            ],
+            "ex": "Cross-border travel was drastically curtailed during the height of the epidemic."
+          },
+          {
+            "word": "compulsory",
+            "pos": "adj",
+            "ipa": "/kəmˈpʌl.sər.i/",
+            "level": "B1",
+            "mean": "bắt buộc theo mệnh lệnh chính phủ hoặc luật định",
+            "syns": [
+              "mandatory",
+              "obligatory",
+              "required"
+            ],
+            "ex": "Wearing protective coverings in public buildings became compulsory under regional regulations."
+          },
+          {
+            "word": "reconfigure",
+            "pos": "v",
+            "ipa": "/ˌriː.kənˈfɪɡ.ər/",
+            "level": "C1",
+            "mean": "tái thiết lập, định hình lại cách thức vận hành",
+            "syns": [
+              "reorganize",
+              "restructure",
+              "redesign",
+              "revamp"
+            ],
+            "ex": "Schools were forced to reconfigure lesson plans into digital formats practically overnight."
+          },
+          {
+            "word": "resurgence",
+            "pos": "n",
+            "ipa": "/rɪˈsɜː.dʒəns/",
+            "level": "C1",
+            "mean": "sự trỗi dậy mạnh mẽ trở lại, sự hồi sinh của một trào lưu",
+            "syns": [
+              "revival",
+              "renaissance",
+              "reappearance",
+              "comeback"
+            ],
+            "ex": "Stay-at-home orders triggered a massive resurgence of interest in knitting and breadmaking."
+          },
+          {
+            "word": "self-sufficiency",
+            "pos": "n",
+            "ipa": "/ˌself.səˈfɪʃ.ən.si/",
+            "level": "B2",
+            "mean": "năng lực tự cung tự cấp, tự chủ độc lập không phụ thuộc bên ngoài",
+            "syns": [
+              "autarky",
+              "independence",
+              "self-reliance"
+            ],
+            "ex": "Growing vegetables on apartment balconies inspired a renewed pride in domestic self-sufficiency."
+          },
+          {
+            "word": "culinary",
+            "pos": "adj",
+            "ipa": "/ˈkʌl.ɪ.nər.i/",
+            "level": "B2",
+            "mean": "thuộc về ẩm thực, nghệ thuật nấu nướng",
+            "syns": [
+              "gastronomic",
+              "cooking-related",
+              "dietary"
+            ],
+            "ex": "Confined to their homes, millions pursued new culinary techniques such as handmade pasta."
+          },
+          {
+            "word": "sourdough",
+            "pos": "n",
+            "ipa": "/ˈsaʊə.dəʊ/",
+            "level": "B2",
+            "mean": "bánh mì bột chua lên men tự nhiên bằng men vi sinh tự nuôi",
+            "syns": [
+              "naturally leavened bread",
+              "fermented dough"
+            ],
+            "ex": "Nurturing a living sourdough starter provided daily comfort and structure during isolation."
+          },
+          {
+            "word": "fermentation",
+            "pos": "n",
+            "ipa": "/ˌfɜː.menˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "quá trình lên men sinh học tạo hương vị và men vi sinh",
+            "syns": [
+              "zymosis",
+              "biological culturing"
+            ],
+            "ex": "Amateur bakers shared advice on controlling fermentation temperature to bake perfect loaves."
+          },
+          {
+            "word": "pervasive",
+            "pos": "adj",
+            "ipa": "/pəˈveɪ.sɪv/",
+            "level": "C1",
+            "mean": "lan tỏa khắp mọi ngõ ngách, tràn ngập không gian",
+            "syns": [
+              "omnipresent",
+              "widespread",
+              "ubiquitous",
+              "prevalent"
+            ],
+            "ex": "Tending potted herbs offered psychological relief against the pervasive gloom of lockdowns."
+          },
+          {
+            "word": "pivot",
+            "pos": "v",
+            "ipa": "/ˈpɪv.ət/",
+            "level": "C1",
+            "mean": "chuyển trục chiến lược, thích ứng nhanh sang phương thức mới",
+            "syns": [
+              "shift direction",
+              "adapt swiftly",
+              "reorient",
+              "turn"
+            ],
+            "ex": "Fitness coaches quickly pivoted from physical gyms to interactive morning web broadcasts."
+          },
+          {
+            "word": "homebound",
+            "pos": "adj",
+            "ipa": "/ˈhəʊm.baʊnd/",
+            "level": "B2",
+            "mean": "phải ở yên trong nhà, bị hạn chế ra ngoài",
+            "syns": [
+              "confined to home",
+              "housebound",
+              "sheltered in place"
+            ],
+            "ex": "Virtual museum exhibitions allowed homebound art lovers to explore masterpieces overseas."
+          },
+          {
+            "word": "modality",
+            "pos": "n",
+            "ipa": "/məʊˈdæl.ə.ti/",
+            "level": "C1",
+            "mean": "phương thức hoạt động, cách thức tiến hành một nhiệm vụ",
+            "syns": [
+              "mode",
+              "method",
+              "format",
+              "procedure"
+            ],
+            "ex": "Remote work evolved into the primary operating modality for major consulting corporations."
+          },
+          {
+            "word": "co-opt",
+            "pos": "v",
+            "ipa": "/kəʊˈɒpt/",
+            "level": "C1",
+            "mean": "tận dụng, chuyển đổi công cụ vào mục đích mới bất ngờ",
+            "syns": [
+              "appropriate",
+              "repurpose",
+              "adopt",
+              "harness"
+            ],
+            "ex": "Video conference tools were co-opted to hold festive graduation parties and family dinners."
+          },
+          {
+            "word": "alleviate",
+            "pos": "v",
+            "ipa": "/əˈliː.vi.eɪt/",
+            "level": "B2",
+            "mean": "làm giảm bớt, xoa dịu mức độ nghiêm trọng của sự căng thẳng/cô đơn",
+            "syns": [
+              "ease",
+              "relieve",
+              "mitigate",
+              "lessen"
+            ],
+            "ex": "Singing together from urban balconies helped alleviate feelings of loneliness and isolation."
+          },
+          {
+            "word": "coping mechanism",
+            "pos": "n.phr",
+            "ipa": "/ˈkəʊ.pɪŋ ˌmek.ə.nɪ.zəm/",
+            "level": "B2",
+            "mean": "cơ chế thích ứng tâm lý giúp con người đối phó với khủng hoảng",
+            "syns": [
+              "adaptive strategy",
+              "stress relief tactic",
+              "survival method"
+            ],
+            "ex": "Baking bread served as a productive coping mechanism for workers confronting job uncertainty."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "Which of the following best expresses the main idea of the passage?",
+            "questionVi": "Ý chính của bài đọc là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The COVID-19 pandemic caused a total collapse of technological infrastructure worldwide.",
+              "Mandatory home confinement led individuals to develop creative domestic routines and digital adaptations that permanently reshaped modern life.",
+              "Indoor gardening is scientifically proven to cure psychological depression during pandemics.",
+              "Video conferencing software has eliminated the need for any in-person human communication."
+            ],
+            "optionsVi": [
+              "Đại dịch COVID-19 gây ra sự sụp đổ hoàn toàn cơ sở hạ tầng công nghệ toàn cầu.",
+              "Việc hạn chế đi lại tại nhà đã thúc đẩy các thói quen đời sống sáng tạo và sự thích ứng kỹ thuật số, làm biến đổi lâu dài lối sống hiện đại.",
+              "Việc làm vườn trong nhà đã được khoa học chứng minh là chữa khỏi bệnh trầm cảm.",
+              "Các phần mềm họp trực tuyến đã loại bỏ hoàn toàn nhu cầu giao tiếp trực tiếp của con người."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Deprived of normal routines... people across the globe were compelled to radically reconfigure their everyday activities... many newly adopted habits have persisted into the post-pandemic era... catalyst for a permanent cultural shift. [Paragraph 1 & 5]",
+            "evidenceVi": "Bị mất đi các thói quen thường nhật... mọi người trên khắp thế giới buộc phải tái cấu trúc các hoạt động hàng ngày... nhiều thói quen mới tiếp tục tồn tại sau đại dịch... chất xúc tác cho sự chuyển dịch văn hóa lâu dài. [Đoạn 1 & 5]",
+            "explanation": "Toàn bài phân tích cách thức con người thích nghi thời dịch bệnh qua ẩm thực/làm vườn (Đoạn 2), thể thao/giải trí trực tuyến (Đoạn 3), làm việc và họp mặt online (Đoạn 4), và tác động văn hóa lâu dài (Đoạn 5).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "compelled to radically reconfigure their everyday activities... catalyst for a permanent cultural shift in how individuals balance work, home, and leisure.",
+              "clueAnswer": "Mandatory home confinement led individuals to develop creative domestic routines and digital adaptations that permanently reshaped modern life.",
+              "keyPassage": "reconfigure everyday activities, permanent cultural shift",
+              "keyAnswer": "creative domestic routines, permanently reshaped modern life",
+              "paraphrasePair": "reconfigure everyday activities <=> develop creative routines | permanent cultural shift <=> permanently reshaped life",
+              "meaningVi": "tái cấu trúc hoạt động đời sống <=> phát triển các thói quen sáng tạo | chuyển dịch văn hóa lâu dài <=> định hình lại lâu dài lối sống",
+              "deductionLogic": "Phương án B bao quát đầy đủ cả quá trình thích nghi tại nhà và hệ quả lâu dài. A sai dữ kiện; C dùng từ tuyệt đối 'cure'; D cực đoan 'eliminated any in-person communication'."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "The word \"unprecedented\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"unprecedented\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "never experienced before",
+              "predictable and routine",
+              "mild and insignificant",
+              "strictly localized"
+            ],
+            "optionsVi": [
+              "chưa từng trải qua trước đây",
+              "có thể đoán trước và thường ngày",
+              "nhẹ nhàng và không đáng kể",
+              "hoàn toàn mang tính cục bộ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The global outbreak of the COVID-19 pandemic in early 2020 precipitated an unprecedented disruption to everyday life... [Paragraph 1]",
+            "evidenceVi": "Sự bùng phát toàn cầu của đại dịch COVID-19 đầu năm 2020 đã gây ra sự gián đoạn chưa từng có tiền lệ đối với đời sống thường nhật... [Đoạn 1]",
+            "explanation": "\"Unprecedented\" có nghĩa là chưa từng có tiền lệ, chưa từng xảy ra trước đây (never experienced or known before).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "precipitated an unprecedented disruption to everyday life",
+              "clueAnswer": "never experienced before",
+              "keyPassage": "unprecedented",
+              "keyAnswer": "never experienced before",
+              "paraphrasePair": "unprecedented <=> never experienced before",
+              "meaningVi": "chưa từng có tiền lệ <=> chưa từng được trải qua trước đây",
+              "deductionLogic": "Trong văn cảnh đại dịch toàn cầu làm tê liệt mọi mặt đời sống, sự gián đoạn này mang tính 'chưa từng có trong lịch sử'."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "According to paragraph 2, why did many amateur bakers gravitate toward sourdough bread making?",
+            "questionVi": "Theo đoạn 2, tại sao nhiều người làm bánh nghiệp dư lại tìm đến việc làm bánh mì men tự nhiên (sourdough)?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "It required no flour or water to prepare.",
+              "They found psychological comfort in the slow, rhythmic maintenance of starters.",
+              "They were legally required to produce their own rations by emergency mandates.",
+              "It was guaranteed to earn substantial commercial profits online."
+            ],
+            "optionsVi": [
+              "Nó không cần bột mì hay nước để chế biến.",
+              "Họ tìm thấy sự an ủi tâm lý trong việc chăm sóc men bánh mì một cách chậm rãi, đều đặn.",
+              "Họ bị pháp luật bắt buộc phải tự sản xuất khẩu phần ăn theo lệnh khẩn cấp.",
+              "Nó được đảm bảo mang lại lợi nhuận thương mại đáng kể trên mạng."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...amateur bakers found comforting psychological solace in the slow, rhythmic maintenance of fermentation starters. [Paragraph 2]",
+            "evidenceVi": "...những người làm bánh nghiệp dư đã tìm thấy niềm an ủi tâm lý dễ chịu trong việc chăm sóc men ủ một cách chậm rãi, nhịp nhàng. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu trực tiếp: người làm bánh tìm thấy sự an ủi về mặt tâm lý ('comforting psychological solace') trong quá trình chăm sóc nuôi cấy men bột tự nhiên.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết nguyên nhân (Factual Detail)",
+              "cluePassage": "amateur bakers found comforting psychological solace in the slow, rhythmic maintenance of fermentation starters",
+              "clueAnswer": "They found psychological comfort in the slow, rhythmic maintenance of starters",
+              "keyPassage": "comforting psychological solace in slow, rhythmic maintenance",
+              "keyAnswer": "psychological comfort in the slow, rhythmic maintenance",
+              "paraphrasePair": "solace <=> comfort",
+              "meaningVi": "niềm an ủi tâm lý <=> sự an ủi, khuây khỏa tâm lý",
+              "deductionLogic": "Phương án B phản ánh nguyên văn câu dẫn chứng của bài đọc; các phương án khác hoàn toàn sai lệch thực tế."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "According to paragraph 3, how did people maintain physical fitness while public gyms were closed?",
+            "questionVi": "Theo đoạn 3, mọi người đã duy trì thể lực như thế nào khi các phòng tập thể dục công cộng bị đóng cửa?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "By secretly breaking into commercial fitness centers at night",
+              "By taking part in live-streamed online workouts in their homes",
+              "By taking pharmaceutical performance-enhancing medications",
+              "By completely abandoning all physical exertion until lockdowns ended"
+            ],
+            "optionsVi": [
+              "Bằng cách lén lút đột nhập vào các trung tâm thể hình thương mại vào ban đêm",
+              "Bằng cách tham gia các buổi tập trực tuyến phát trực tiếp ngay tại nhà",
+              "Bằng cách sử dụng các loại thuốc tăng cường thể lực",
+              "Bằng cách từ bỏ hoàn toàn mọi hoạt động vận động thể chất cho đến khi hết lệnh phong tỏa"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Instructors and fitness influencers pivoted to virtual live-streams, broadcasting high-intensity interval training, yoga, and pilates sessions directly into participants' homes. [Paragraph 3]",
+            "evidenceVi": "Các huấn luyện viên và người có tầm ảnh hưởng thể hình đã chuyển hướng sang phát trực tiếp, truyền các buổi tập cardio, yoga và pilates thẳng vào nhà của người tham gia. [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ rõ giải pháp: biến phòng khách/phòng ngủ thành phòng tập tạm thời và tập theo các buổi livestream trực tuyến (virtual live-streams directly into homes).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết phương thức (Factual Detail)",
+              "cluePassage": "pivoted to virtual live-streams, broadcasting high-intensity interval training, yoga, and pilates sessions directly into participants' homes",
+              "clueAnswer": "By taking part in live-streamed online workouts in their homes",
+              "keyPassage": "virtual live-streams directly into participants' homes",
+              "keyAnswer": "taking part in live-streamed online workouts in their homes",
+              "paraphrasePair": "virtual live-streams into homes <=> live-streamed online workouts in their homes",
+              "meaningVi": "phát trực tuyến vào nhà <=> tập luyện trực tuyến phát trực tiếp tại nhà",
+              "deductionLogic": "Phương án B tóm lược chính xác cách thức người dân tập luyện tại nhà theo các hướng dẫn phát trực tiếp trên mạng."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "Which of the following is NOT mentioned in paragraph 3 as a virtual activity offered during lockdowns?",
+            "questionVi": "Điều nào sau đây KHÔNG được đề cập trong đoạn 3 như một hoạt động trực tuyến được cung cấp trong đợt phong tỏa?",
+            "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
+            "options": [
+              "Online yoga and pilates workout sessions",
+              "Virtual museum tours and live-streamed performances",
+              "In-person international cruise excursions",
+              "High-intensity interval training broadcasts"
+            ],
+            "optionsVi": [
+              "Các buổi tập yoga và pilates trực tuyến",
+              "Các tour tham quan bảo tàng ảo và biểu diễn nghệ thuật phát trực tiếp",
+              "Các chuyến du lịch du thuyền quốc tế trực tiếp bằng người thật",
+              "Các chương trình phát sóng bài tập cường độ cao"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Instructors... broadcasting high-intensity interval training, yoga, and pilates... world-renowned museums, opera houses, and national parks launched free virtual tours and live-streamed performances... [Paragraph 3]",
+            "evidenceVi": "Đoạn 3 liệt kê bài tập thể lực (HIIT, yoga, pilates) và tour ảo của viện bảo tàng/nhà hát. Chuyến đi du thuyền quốc tế trực tiếp (in-person cruise) hoàn toàn trái ngược với lệnh phong tỏa và không hề xuất hiện trong bài.",
+            "explanation": "Trong thời kỳ phong tỏa, các hoạt động du lịch du thuyền quốc tế bị cấm hoàn toàn, không thể diễn ra.",
+            "postReading": {
+              "type": "negative",
+              "typeLabel": "Thông tin loại trừ (Negative Detail)",
+              "cluePassage": "virtual live-streams... yoga, pilates... free virtual tours and live-streamed performances",
+              "clueAnswer": "In-person international cruise excursions",
+              "keyPassage": "digital/virtual domestic engagement",
+              "keyAnswer": "in-person cruise excursions are impossible during global confinement",
+              "paraphrasePair": "virtual tours <=> digital engagement",
+              "meaningVi": "tour ảo <=> trải nghiệm kỹ thuật số",
+              "deductionLogic": "C là hoạt động thực địa quốc tế bị cấm trong đại dịch, các đáp án A, B, D đều được nêu rõ trong đoạn 3."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "The phrase \"This rapid adaptation\" in paragraph 4 refers to:",
+            "questionVi": "Cụm từ \"This rapid adaptation\" trong đoạn 4 ám chỉ điều gì?",
+            "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
+            "options": [
+              "the sudden cancellation of all internet connectivity services",
+              "the transition of telecommunications into virtual workspaces and social gatherings",
+              "the permanent closure of all educational institutions",
+              "the construction of new physical highway networks"
+            ],
+            "optionsVi": [
+              "việc hủy bỏ đột ngột tất cả các dịch vụ kết nối internet",
+              "sự chuyển dịch các công cụ viễn thông thành không gian làm việc và giao lưu xã hội ảo",
+              "sự đóng cửa vĩnh viễn của tất cả các cơ sở giáo dục",
+              "việc xây dựng các mạng lưới đường cao tốc vật lý mới"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Telecommuting transitioned... Platforms like Zoom... ubiquitous virtual offices... co-opted for impromptu social occasions—including virtual birthday parties... This rapid adaptation demonstrated human resilience... [Paragraph 4]",
+            "evidenceVi": "Làm việc từ xa chuyển dịch... Các nền tảng như Zoom trở thành văn phòng ảo... được tận dụng cho các dịp giao lưu xã hội... Sự thích ứng nhanh chóng này đã chứng minh tính kiên cường của con người... [Đoạn 4]",
+            "explanation": "\"This rapid adaptation\" tổng kết quá trình con người nhanh chóng ứng dụng công nghệ trực tuyến phục vụ cho cả công việc (telecommuting/virtual offices) lẫn giao tiếp tình cảm (virtual social gatherings).",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Quy chiếu tổng hợp (Reference)",
+              "cluePassage": "ubiquitous virtual offices... co-opted for impromptu social occasions... This rapid adaptation",
+              "clueAnswer": "the transition of telecommunications into virtual workspaces and social gatherings",
+              "keyPassage": "telecommuting, virtual offices, impromptu social occasions",
+              "keyAnswer": "transition of telecommunications into workspaces and social gatherings",
+              "paraphrasePair": "This rapid adaptation => virtual offices and online social gatherings",
+              "meaningVi": "Sự thích ứng nhanh chóng này => văn phòng ảo và các buổi tụ họp trực tuyến",
+              "deductionLogic": "Cụm từ chỉ định 'This rapid adaptation' đứng ngay sau chuỗi hành động biến nền tảng video thành văn phòng và nơi gặp gỡ bạn bè."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "The word \"ubiquitous\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"ubiquitous\" trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "extremely rare and scarce",
+              "found everywhere and widespread",
+              "technically obsolete",
+              "financially unprofitable"
+            ],
+            "optionsVi": [
+              "cực kỳ hiếm hoi và khan hiếm",
+              "có mặt ở khắp nơi và phổ biến rộng rãi",
+              "lạc hậu về mặt kỹ thuật",
+              "không có lợi nhuận tài chính"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Platforms like Zoom, Microsoft Teams, and Google Meet became ubiquitous virtual offices where millions conducted daily meetings... [Paragraph 4]",
+            "evidenceVi": "Các nền tảng như Zoom, Teams, Meet đã trở thành những văn phòng ảo phổ biến khắp mọi nơi nơi hàng triệu người họp hàng ngày... [Đoạn 4]",
+            "explanation": "\"Ubiquitous\" có nghĩa là có mặt khắp nơi, xuất hiện ở mọi nơi (omnipresent, existing or being everywhere).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "became ubiquitous virtual offices where millions conducted daily meetings",
+              "clueAnswer": "found everywhere and widespread",
+              "keyPassage": "ubiquitous",
+              "keyAnswer": "found everywhere and widespread",
+              "paraphrasePair": "ubiquitous <=> found everywhere and widespread",
+              "meaningVi": "đâu đâu cũng có <=> có mặt ở khắp mọi nơi và phổ biến",
+              "deductionLogic": "Trong ngữ cảnh hàng triệu người sử dụng Zoom và Teams mỗi ngày, các nền tảng này đã trở nên 'phổ biến ở khắp nơi'."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"Employees converted quiet corners of their bedrooms into daily workstations to attend these corporate conferences.\"\nWhere would the sentence best fit?",
+            "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "Vị trí [A]",
+              "Vị trí [B]",
+              "Vị trí [C]",
+              "Vị trí [D]"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "[B] Platforms like Zoom, Microsoft Teams, and Google Meet became ubiquitous virtual offices where millions conducted daily meetings and collaborative projects. [C] Beyond professional demands, these video platforms were co-opted... [Paragraph 4]",
+            "evidenceVi": "Vị trí [C] đứng ngay sau câu nói về 'virtual offices where millions conducted daily meetings' để bổ sung việc nhân viên biến góc phòng ngủ thành bàn làm việc để tham gia các cuộc họp đó ('these corporate conferences').",
+            "explanation": "\"These corporate conferences\" (các cuộc họp công ty này) quy chiếu trực tiếp về \"daily meetings and collaborative projects\" ở câu trước vị trí [C], trước khi câu sau chuyển sang khía cạnh đời sống xã hội (\"Beyond professional demands\").",
+            "postReading": {
+              "type": "insertion",
+              "typeLabel": "Điền câu logic (Sentence Insertion)",
+              "cluePassage": "ubiquitous virtual offices where millions conducted daily meetings and collaborative projects. [C] Beyond professional demands...",
+              "clueAnswer": "[C]",
+              "keyPassage": "daily meetings and collaborative projects",
+              "keyAnswer": "attend these corporate conferences",
+              "paraphrasePair": "daily corporate meetings <=> these corporate conferences",
+              "meaningVi": "các cuộc họp công việc hàng ngày <=> các hội nghị công ty này",
+              "deductionLogic": "Cụm 'these corporate conferences' bắt buộc phải đứng sau câu giới thiệu về các cuộc họp trực tuyến trên Zoom/Teams ở [B]."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "According to paragraph 4, what was the primary purpose of \"virtual happy hours\" and online parties?",
+            "questionVi": "Theo đoạn 4, mục đích chính của các buổi liên hoan trực tuyến (\"virtual happy hours\") và tiệc tùng qua mạng là gì?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "To formally negotiate international corporate treaties",
+              "To alleviate feelings of loneliness and maintain social bonds during isolation",
+              "To teach computer programming code to family members",
+              "To comply with legal employment contracts"
+            ],
+            "optionsVi": [
+              "Để đàm phán chính thức các hiệp ước doanh nghiệp quốc tế",
+              "To xoa dịu cảm giác cô đơn và duy trì sự gắn kết xã hội trong thời kỳ cách ly",
+              "Để dạy lập trình máy tính cho các thành viên trong gia đình",
+              "Để tuân thủ các điều khoản hợp đồng lao động bắt buộc"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...virtual birthday parties, family reunions, and festive \"virtual happy hours\" designed to alleviate loneliness. [Paragraph 4]",
+            "evidenceVi": "...các bữa tiệc sinh nhật ảo, họp mặt gia đình và các buổi liên hoan vui vẻ được thiết kế để xoa dịu cảm giác cô đơn. [Đoạn 4]",
+            "explanation": "Đoạn 4 ghi rõ mục đích của các buổi họp mặt này: 'designed to alleviate loneliness' (được thiết kế để xoa dịu nỗi cô đơn).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết mục đích (Factual Detail)",
+              "cluePassage": "festive \"virtual happy hours\" designed to alleviate loneliness",
+              "clueAnswer": "To alleviate feelings of loneliness and maintain social bonds during isolation",
+              "keyPassage": "designed to alleviate loneliness",
+              "keyAnswer": "alleviate feelings of loneliness",
+              "paraphrasePair": "alleviate loneliness <=> alleviate feelings of loneliness and maintain bonds",
+              "meaningVi": "xoa dịu nỗi cô đơn <=> giảm bớt cảm giác cô đơn và giữ gắn kết",
+              "deductionLogic": "Phương án B phản ánh chính xác mục tiêu tâm lý xã hội được nêu ở câu thứ 3 của đoạn 4."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "What can be inferred from paragraph 5 regarding the long-term impact of pandemic activities?",
+            "questionVi": "Có thể suy luận được điều gì từ đoạn 5 về tác động lâu dài của các hoạt động thời kỳ đại dịch?",
+            "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN (Inference Question)",
+            "options": [
+              "People immediately discarded all digital technologies once lockdowns concluded.",
+              "Many behaviors adopted during the crisis evolved into enduring lifestyle changes rather than fleeting remedies.",
+              "All physical offices have permanently ceased to exist throughout the world.",
+              "Traditional cooking and home activities became completely illegal after 2020."
+            ],
+            "optionsVi": [
+              "Mọi người ngay lập tức vứt bỏ toàn bộ công nghệ số ngay khi lệnh phong tỏa kết thúc.",
+              "Nhiều thói quen hình thành trong đại dịch đã phát triển thành những thay đổi lối sống bền vững chứ không chỉ là biện pháp tạm thời.",
+              "Mọi văn phòng làm việc truyền thống đã vĩnh viễn không còn tồn tại trên thế giới.",
+              "Nấu ăn truyền thống và các hoạt động gia đình đã trở nên hoàn toàn bất hợp pháp sau năm 2020."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "While the lifting of restrictions eventually enabled a return to public life, many newly adopted habits have persisted... not merely temporary coping mechanisms, but rather the catalyst for a permanent cultural shift... [Paragraph 5]",
+            "evidenceVi": "Mặc dù việc nới lỏng hạn chế đã cho phép quay lại đời sống công cộng, nhiều thói quen mới vẫn tiếp tục tồn tại... không chỉ là cơ chế đối phó tạm thời, mà là chất xúc tác cho một sự chuyển dịch văn hóa lâu dài... [Đoạn 5]",
+            "explanation": "\"Not merely temporary coping mechanisms, but rather the catalyst for a permanent cultural shift\" chứng minh rằng các hành vi thời dịch đã trở thành sự thay đổi lâu dài (enduring lifestyle changes).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận logic (Inference)",
+              "cluePassage": "not merely temporary coping mechanisms, but rather the catalyst for a permanent cultural shift",
+              "clueAnswer": "Many behaviors adopted during the crisis evolved into enduring lifestyle changes rather than fleeting remedies",
+              "keyPassage": "not temporary coping mechanisms, permanent cultural shift",
+              "keyAnswer": "enduring lifestyle changes rather than fleeting remedies",
+              "paraphrasePair": "not temporary coping mechanisms <=> rather than fleeting remedies | permanent cultural shift <=> enduring lifestyle changes",
+              "meaningVi": "không chỉ là cơ chế đối phó tạm thời <=> thay vì là giải pháp ngắn hạn | chuyển biến văn hóa lâu dài <=> thay đổi lối sống bền vững",
+              "deductionLogic": "Tác giả khẳng định rõ ràng sự tồn tại bền vững của các thói quen lai ghép (hybrid habits) trong câu đúc kết toàn bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: The Psychology of Luck and Misfortune",
+        "topic": "Tâm lý học nhận thức & Cơ chế định hình vận may và rủi ro",
+        "timeAllowed": 15,
+        "passage": "<p>Throughout human history, the concepts of luck and misfortune have occupied a central place in folklore, mythology, and daily life. Civilizations across the globe have devised elaborate rituals, worn protective talismans, and consulted celestial alignments in an effort to attract good fortune and ward off catastrophe. Historically, luck was perceived as a capricious supernatural force—an external blessing bestowed upon favored individuals or an arbitrary curse inflicted by destiny. However, in recent decades, cognitive psychologists have fundamentally reframed this phenomenon. Groundbreaking empirical research demonstrates that luck is not an occult cosmic favor, but rather the psychological byproduct of distinct cognitive habits, behavioral patterns, and perceptual styles.</p><p>The foundational investigation into this psychological reality was spearheaded by British psychologist Dr. Richard Wiseman, who conducted a decade-long study examining self-described \"lucky\" and \"unlucky\" individuals. Wiseman's laboratory experiments revealed that individuals do not encounter good fortune through paranormal serendipity, but through their heightened degree of attentional awareness. Lucky people consistently display a relaxed openness to their environment, which allows them to notice <strong>peripheral</strong> opportunities that others overlook. In one famous experiment, participants were instructed to count photographs in a newspaper. The unlucky participants spent minutes diligently counting each picture, completely blind to a prominent half-page message that read: \"Stop counting—There are 43 photographs in this newspaper.\" By contrast, lucky individuals, unencumbered by tunnel-vision anxiety, spotted the message within seconds.</p><p>Beyond environmental vigilance, the divergence between lucky and unlucky individuals is profoundly shaped by how they cognitively process misfortune. Psychological research indicates that lucky people naturally engage in \"downward counterfactual thinking\" when confronted with adversity. Rather than lamenting their bad luck, they instinctively imagine scenarios that could have been substantially worse. If a lucky person suffers a broken arm in a traffic collision, they tend to frame the event as a stroke of fortune, reasoning that the crash could have been fatal. Conversely, unlucky people engage in \"upward counterfactual thinking,\" dwelling obsessively on ideal scenarios and asking why negative occurrences continually afflict them. This constructive cognitive framing preserves emotional resilience and prevents setbacks from snowballing into chronic despair.</p><p>Furthermore, lucky individuals exhibit a pronounced reliance on intuitive judgment combined with optimistic persistence. [A] They routinely trust their instincts when evaluating interpersonal relationships and professional decisions. [B] Unlucky individuals, frequently paralyzed by neurotic second-guessing, often fail to act on intuitive cues. [C] Moreover, lucky individuals maintain a positive self-fulfilling prophecy: expecting positive outcomes motivates them to persevere through initial failures. [D] <strong>This resilient perseverance</strong> transforms apparent dead-ends into productive breakthroughs, reinforcing their subjective perception that fortune favors them.</p><p>Ultimately, modern psychology reveals that luck is not an unalterable verdict dictated by the stars, but a malleable mental orientation that can be consciously cultivated. By broadening perceptual focus, practicing constructive counterfactual reframing, trusting intuition, and persisting through adversity, individuals can systematically enhance their exposure to beneficial opportunities. Rather than passive victims of fate, human beings possess the cognitive agency to manufacture their own good fortune.</p>",
+        "vocab": [
+          {
+            "word": "capricious",
+            "pos": "adj",
+            "ipa": "/kəˈprɪʃ.əs/",
+            "level": "C1",
+            "mean": "thất thường, thay đổi bất chợt khó đoán",
+            "syns": [
+              "fickle",
+              "unpredictable",
+              "erratic"
+            ],
+            "ex": "Ancient sailors believed oceanic storms were caused by capricious sea gods."
+          },
+          {
+            "word": "serendipity",
+            "pos": "n",
+            "ipa": "/ˌser.ənˈdɪp.ə.ti/",
+            "level": "C1",
+            "mean": "sự tình cờ may mắn phát hiện điều quý giá",
+            "syns": [
+              "fluke",
+              "happy chance",
+              "coincidence"
+            ],
+            "ex": "Many scientific breakthroughs occurred through pure laboratory serendipity."
+          },
+          {
+            "word": "peripheral",
+            "pos": "adj",
+            "ipa": "/pəˈrɪf.ər.əl/",
+            "level": "B2",
+            "mean": "thuộc ngoại vi, rìa bên ngoài",
+            "syns": [
+              "outer",
+              "marginal",
+              "secondary"
+            ],
+            "ex": "Lucky individuals often notice peripheral information that focused people miss."
+          },
+          {
+            "word": "counterfactual",
+            "pos": "adj",
+            "ipa": "/ˌkaʊn.təˈfæk.tʃu.əl/",
+            "level": "C1",
+            "mean": "phản thực tế (tư duy suy diễn 'giá như')",
+            "syns": [
+              "hypothetical",
+              "contrary to fact"
+            ],
+            "ex": "Downward counterfactual thinking helps people feel grateful even during minor accidents."
+          },
+          {
+            "word": "afflict",
+            "pos": "v",
+            "ipa": "/əˈflɪkt/",
+            "level": "B2",
+            "mean": "làm phiền não, gây đau khổ, đày đọa",
+            "syns": [
+              "torment",
+              "burden",
+              "trouble"
+            ],
+            "ex": "Pessimistic thoughts often afflict individuals dealing with chronic career stress."
+          },
+          {
+            "word": "neurotic",
+            "pos": "adj",
+            "ipa": "/njʊəˈrɒt.ɪk/",
+            "level": "C1",
+            "mean": "lo âu thái quá, ám ảnh thần kinh",
+            "syns": [
+              "overanxious",
+              "obsessive",
+              "paranoid"
+            ],
+            "ex": "Neurotic worry can prevent talented individuals from seizing bold career opportunities."
+          },
+          {
+            "word": "prophecy",
+            "pos": "n",
+            "ipa": "/ˈprɒf.ə.si/",
+            "level": "B2",
+            "mean": "lời tiên tri, dự đoán tương lai",
+            "syns": [
+              "prediction",
+              "forecast",
+              "divination"
+            ],
+            "ex": "An optimistic mindset often becomes a self-fulfilling prophecy leading to success."
+          },
+          {
+            "word": "perseverance",
+            "pos": "n",
+            "ipa": "/ˌpɜː.sɪˈvɪə.rəns/",
+            "level": "B2",
+            "mean": "sự kiên trì, bền bỉ đến cùng",
+            "syns": [
+              "persistence",
+              "tenacity",
+              "endurance"
+            ],
+            "ex": "Scientific discovery requires relentless dedication and perseverance in the face of failure."
+          },
+          {
+            "word": "malleable",
+            "pos": "adj",
+            "ipa": "/ˈmæl.i.ə.bəl/",
+            "level": "C1",
+            "mean": "dễ uốn nắn, có thể thay đổi và rèn luyện được",
+            "syns": [
+              "adaptable",
+              "flexible",
+              "pliable"
+            ],
+            "ex": "Human cognitive traits are surprisingly malleable throughout adulthood."
+          },
+          {
+            "word": "agency",
+            "pos": "n",
+            "ipa": "/ˈeɪ.dʒən.si/",
+            "level": "C1",
+            "mean": "năng lực chủ động, quyền tự quyết",
+            "syns": [
+              "autonomy",
+              "control",
+              "self-determination"
+            ],
+            "ex": "Recognizing personal agency empowers individuals to overcome perceived bad luck."
+          },
+          {
+            "word": "talisman",
+            "pos": "n",
+            "ipa": "/ˈtæl.ɪz.mən/",
+            "level": "B2",
+            "mean": "bùa hộ mệnh, vật mang lại may mắn và xua đuổi tai ương",
+            "syns": [
+              "amulet",
+              "charm",
+              "lucky token"
+            ],
+            "ex": "In ancient times, travelers carried carved stone talismans to ward off misfortune at sea."
+          },
+          {
+            "word": "celestial",
+            "pos": "adj",
+            "ipa": "/sɪˈles.ti.əl/",
+            "level": "C1",
+            "mean": "thuộc về bầu trời, các vì sao và thiên thể",
+            "syns": [
+              "astronomical",
+              "heavenly",
+              "stellar",
+              "cosmic"
+            ],
+            "ex": "Astrologers believed celestial movements held the secret to personal prosperity and disaster."
+          },
+          {
+            "word": "ward off",
+            "pos": "phr.v",
+            "ipa": "/wɔːd ɒf/",
+            "level": "B2",
+            "mean": "xua đuổi, ngăn chặn điều xấu hoặc bệnh tật đến gần",
+            "syns": [
+              "fend off",
+              "repel",
+              "avert",
+              "deflect"
+            ],
+            "ex": "Villagers hung garlic and evergreen boughs above entrances to ward off malevolent spirits."
+          },
+          {
+            "word": "bestow",
+            "pos": "v",
+            "ipa": "/bɪˈstəʊ/",
+            "level": "C1",
+            "mean": "ban tặng, ban phát đặc ân hoặc may mắn cho ai",
+            "syns": [
+              "grant",
+              "confer",
+              "award",
+              "give"
+            ],
+            "ex": "Folk tales often depict capricious deities bestowing sudden wealth upon humble peasants."
+          },
+          {
+            "word": "occult",
+            "pos": "adj",
+            "ipa": "/ɒkˈʌlt/",
+            "level": "C1",
+            "mean": "huyền bí, siêu nhiên nằm ngoài tầm giải thích của khoa học",
+            "syns": [
+              "supernatural",
+              "mystical",
+              "esoteric",
+              "magical"
+            ],
+            "ex": "Modern research proves luck is not an occult phenomenon, but the fruit of cognitive habits."
+          },
+          {
+            "word": "spearhead",
+            "pos": "v",
+            "ipa": "/ˈspɪə.hed/",
+            "level": "C1",
+            "mean": "tiên phong khởi xướng, dẫn đầu một cuộc nghiên cứu/phong trào",
+            "syns": [
+              "pioneer",
+              "lead",
+              "champion",
+              "head up"
+            ],
+            "ex": "Dr. Richard Wiseman spearheaded experimental investigations into why certain people consistently encounter luck."
+          },
+          {
+            "word": "empirical",
+            "pos": "adj",
+            "ipa": "/ɪmˈpɪr.ɪ.kəl/",
+            "level": "B2",
+            "mean": "dựa trên bằng chứng thực nghiệm và quan sát khách quan",
+            "syns": [
+              "evidence-based",
+              "experimental",
+              "verifiable",
+              "observed"
+            ],
+            "ex": "Psychologists rely on empirical laboratory data rather than superstition to evaluate human behavior."
+          },
+          {
+            "word": "paranormal",
+            "pos": "adj",
+            "ipa": "/ˌpær.əˈnɔː.məl/",
+            "level": "B2",
+            "mean": "dị thường, vượt ra ngoài quy luật vật lý tự nhiên",
+            "syns": [
+              "supernatural",
+              "unearthly",
+              "inexplicable"
+            ],
+            "ex": "The experiment demonstrated that fortunate events occur without any paranormal intervention."
+          },
+          {
+            "word": "mindset",
+            "pos": "n",
+            "ipa": "/ˈmaɪnd.set/",
+            "level": "B2",
+            "mean": "tư duy, định hướng tinh thần và cách nhìn nhận cuộc sống",
+            "syns": [
+              "outlook",
+              "attitude",
+              "mentality",
+              "worldview"
+            ],
+            "ex": "Adopting an exploratory mindset encourages people to spot unexpected career opportunities."
+          },
+          {
+            "word": "vigilance",
+            "pos": "n",
+            "ipa": "/ˈvɪdʒ.ɪ.ləns/",
+            "level": "C1",
+            "mean": "sự tỉnh táo cảnh giác, sự chú ý tinh tường đến môi trường",
+            "syns": [
+              "alertness",
+              "watchfulness",
+              "attentiveness",
+              "wariness"
+            ],
+            "ex": "Peripheral vigilance enabled participants to notice hidden monetary notes on the test pages."
+          },
+          {
+            "word": "tunnel vision",
+            "pos": "n.phr",
+            "ipa": "/ˌtʌn.əl ˈvɪʒ.ən/",
+            "level": "C1",
+            "mean": "tầm nhìn hẹp hình ống, chỉ chăm chú vào mục tiêu hẹp mà bỏ sót xung quanh",
+            "syns": [
+              "narrow focus",
+              "myopic view",
+              "over-focused attention"
+            ],
+            "ex": "Severe anxiety often creates tunnel vision, blinding individuals to fortunate alternatives."
+          },
+          {
+            "word": "serendipitous",
+            "pos": "adj",
+            "ipa": "/ˌser.ənˈdɪp.ɪ.təs/",
+            "level": "C1",
+            "mean": "tình cờ may mắn một cách thú vị và hữu ích",
+            "syns": [
+              "accidental",
+              "chance",
+              "fortunate",
+              "lucky"
+            ],
+            "ex": "Attending the informal workshop resulted in a serendipitous meeting with his future business partner."
+          },
+          {
+            "word": "resilient",
+            "pos": "adj",
+            "ipa": "/rɪˈzɪl.jənt/",
+            "level": "B2",
+            "mean": "kiên cường, có khả năng phục hồi tinh thần nhanh chóng sau thất bại",
+            "syns": [
+              "tough",
+              "buoyant",
+              "adaptable",
+              "rebounding"
+            ],
+            "ex": "Lucky individuals remain resilient by interpreting minor setbacks as valuable learning opportunities."
+          },
+          {
+            "word": "catastrophic",
+            "pos": "adj",
+            "ipa": "/ˌkæt.əˈstrɒf.ɪk/",
+            "level": "B2",
+            "mean": "thảm khốc, mang tính thảm họa hủy diệt",
+            "syns": [
+              "disastrous",
+              "calamitous",
+              "devastating",
+              "ruinous"
+            ],
+            "ex": "Instead of dwelling on catastrophic possibilities, they felt grateful that their injuries were slight."
+          },
+          {
+            "word": "self-fulfilling",
+            "pos": "adj",
+            "ipa": "/ˌself.fʊlˈfɪl.ɪŋ/",
+            "level": "C1",
+            "mean": "tự ứng nghiệm (niềm tin hoặc dự đoán tự biến thành sự thật vì hành vi tương ứng)",
+            "syns": [
+              "self-actualizing",
+              "self-realizing"
+            ],
+            "ex": "Believing that one is destined to fail often becomes a tragic self-fulfilling prophecy."
+          },
+          {
+            "word": "intuition",
+            "pos": "n",
+            "ipa": "/ˌɪn.tʃuːˈɪʃ.ən/",
+            "level": "B2",
+            "mean": "trực giác, linh cảm mách bảo từ kinh nghiệm tiềm thức",
+            "syns": [
+              "gut feeling",
+              "sixth sense",
+              "hunch",
+              "instinct"
+            ],
+            "ex": "Successful entrepreneurs frequently trust their intuition when evaluating prospective collaborators."
+          },
+          {
+            "word": "transformational",
+            "pos": "adj",
+            "ipa": "/ˌtræns.fəˈmeɪ.ʃən.əl/",
+            "level": "C1",
+            "mean": "có sức biến đổi mạnh mẽ, thay đổi căn bản bản chất",
+            "syns": [
+              "revolutionary",
+              "life-altering",
+              "radical",
+              "reconstructive"
+            ],
+            "ex": "Cultivating curiosity produces a transformational effect on how one navigates adversity."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "Which of the following would be the most suitable title for this passage?",
+            "questionVi": "Tiêu đề nào sau đây phù hợp nhất cho bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The Mystical Power of Astrological Alignments",
+              "The Psychology of Luck: How Cognitive Habits Shape Good and Bad Fortune",
+              "Why Ancient Talismans Guarantee Financial Prosperity",
+              "Laboratory Instructions for Conducting Newspaper Experiments"
+            ],
+            "optionsVi": [
+              "Quyền năng thần bí của các vị trí sắp đặt chiêm tinh",
+              "Tâm lý học về sự may mắn: Các thói quen nhận thức định hình vận may và rủi ro như thế nào",
+              "Tại sao bùa hộ mệnh cổ xưa đảm bảo sự thịnh vượng tài chính",
+              "Hướng dẫn trong phòng thí nghiệm để thực hiện các thí nghiệm báo chí"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Groundbreaking empirical research demonstrates that luck is not an occult cosmic favor, but rather the psychological byproduct of distinct cognitive habits, behavioral patterns, and perceptual styles. [Paragraph 1 & Throughout]",
+            "evidenceVi": "Nghiên cứu thực nghiệm đột phá chứng minh rằng may mắn không phải là sự ưu ái vũ trụ huyền bí, mà là sản phẩm phụ tâm lý của các thói quen nhận thức, khuôn mẫu hành vi và phong cách cảm nhận rõ rệt. [Đoạn 1]",
+            "explanation": "Toàn bài phân tích may mắn dưới góc nhìn tâm lý học: sự chú ý ngoại vi (Đoạn 2), tư duy phản thực tế hướng xuống (Đoạn 3), trực giác và sự kiên trì (Đoạn 4), kết luận may mắn là năng lực có thể rèn luyện (Đoạn 5).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Tiêu đề phù hợp nhất (Best Title)",
+              "cluePassage": "luck is not an occult cosmic favor, but rather the psychological byproduct of distinct cognitive habits",
+              "clueAnswer": "The Psychology of Luck: How Cognitive Habits Shape Good and Bad Fortune",
+              "keyPassage": "psychological byproduct of cognitive habits",
+              "keyAnswer": "Psychology of Luck: How Cognitive Habits Shape Fortune",
+              "paraphrasePair": "psychological byproduct <=> psychology of luck | cognitive habits <=> cognitive habits",
+              "meaningVi": "sản phẩm phụ tâm lý <=> tâm lý học về may mắn | thói quen nhận thức",
+              "deductionLogic": "Phương án B thâu tóm toàn diện luận điểm khoa học của bài viết. A và C nói về mê tín mà bài bác bỏ; D chỉ là một tiểu tiết thí nghiệm nhỏ."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "The word \"peripheral\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"peripheral\" trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "outer or secondary",
+              "centrally vital",
+              "extremely dangerous",
+              "completely hidden"
+            ],
+            "optionsVi": [
+              "thuộc vùng rìa ngoại vi hoặc phụ",
+              "trung tâm cốt lõi",
+              "cực kỳ nguy hiểm",
+              "hoàn toàn bị giấu kín"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Lucky people consistently display a relaxed openness to their environment, which allows them to notice peripheral opportunities that others overlook. [Paragraph 2]",
+            "evidenceVi": "Những người may mắn liên tục thể hiện sự cởi mở thư thái trước môi trường xung quanh, điều này cho phép họ nhận ra những cơ hội ở vùng rìa ngoại vi mà người khác bỏ qua. [Đoạn 2]",
+            "explanation": "\"Peripheral\" nghĩa là ở vùng biên, vùng rìa xung quanh, không nằm trực diện ở trung tâm (outer, on the edge, secondary).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "allows them to notice peripheral opportunities that others overlook",
+              "clueAnswer": "outer or secondary",
+              "keyPassage": "peripheral opportunities",
+              "keyAnswer": "outer or secondary",
+              "paraphrasePair": "peripheral <=> outer or secondary",
+              "meaningVi": "ngoại vi, vùng rìa <=> ở bên ngoài hoặc mang tính phụ trợ",
+              "deductionLogic": "Trong ngữ cảnh tìm kiếm cơ hội ngoài luồng (không phải mục tiêu chính), 'peripheral' đồng nghĩa với 'outer or secondary'."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "According to paragraph 2, what was the primary reason unlucky participants failed to see the message in the newspaper?",
+            "questionVi": "Theo đoạn 2, lý do chính khiến những người tham gia không may mắn không nhìn thấy thông điệp trên tờ báo là gì?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "The message was printed in a secret invisible code.",
+              "Their intense, narrow focus and anxiety created tunnel vision.",
+              "They were unable to read the English language.",
+              "The experimenters physically prevented them from turning the page."
+            ],
+            "optionsVi": [
+              "Thông điệp được in bằng một loại mật mã vô hình bí mật.",
+              "Sự tập trung quá mức, hạn hẹp và tâm lý lo âu đã tạo ra tầm nhìn hạn hẹp hình ống (tunnel vision).",
+              "Họ không biết đọc tiếng Anh.",
+              "Các nhà nghiên cứu đã ngăn cản họ lật trang báo."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The unlucky participants spent minutes diligently counting each picture, completely blind to a prominent half-page message... unlucky individuals, encumbered by tunnel-vision anxiety... [Paragraph 2]",
+            "evidenceVi": "Những người tham gia không may mắn đã dành nhiều phút cặm cụi đếm từng bức ảnh, hoàn toàn mù tịt trước một thông điệp nổi bật chiếm nửa trang... bị cản trở bởi sự lo lắng tạo tầm nhìn hình ống... [Đoạn 2]",
+            "explanation": "Đoạn 2 chỉ rõ: họ quá cắm cúi đếm từng bức ảnh do tâm lý lo âu tạo ra tầm nhìn hạn hẹp hình ống ('tunnel-vision anxiety'), khiến họ mù tịt trước thông điệp to đùng giữa trang.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết nguyên nhân (Factual Detail)",
+              "cluePassage": "The unlucky participants spent minutes diligently counting each picture, completely blind to a prominent half-page message... tunnel-vision anxiety",
+              "clueAnswer": "Their intense, narrow focus and anxiety created tunnel vision",
+              "keyPassage": "diligently counting, completely blind, tunnel-vision anxiety",
+              "keyAnswer": "narrow focus and anxiety created tunnel vision",
+              "paraphrasePair": "completely blind due to tunnel-vision anxiety <=> narrow focus and anxiety created tunnel vision",
+              "meaningVi": "mù tịt vì lo âu hạn chế tầm nhìn <=> tập trung hạn hẹp và lo âu tạo tầm nhìn hình ống",
+              "deductionLogic": "Phương án B giải thích chính xác cơ chế tâm lý cản trở người kém may mắn nhận diện cơ hội."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "How do lucky individuals react to accidents according to paragraph 3?",
+            "questionVi": "Những người may mắn phản ứng như thế nào trước các tai nạn theo đoạn 3?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "They engage in downward counterfactual thinking by realizing it could have been much worse.",
+              "They blame their friends and file immediate lawsuits.",
+              "They assume that destiny has permanently abandoned them.",
+              "They pretend that no physical injury has occurred."
+            ],
+            "optionsVi": [
+              "Họ áp dụng tư duy phản thực tế hướng xuống bằng cách nhận ra sự việc có thể tồi tệ hơn rất nhiều.",
+              "Họ đổ lỗi cho bạn bè và ngay lập tức đệ đơn kiện tụng.",
+              "Họ cho rằng số phận đã vĩnh viễn ruồng bỏ họ.",
+              "Họ giả vờ như không có chấn thương thể xác nào xảy ra."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...lucky people naturally engage in \"downward counterfactual thinking\" when confronted with adversity. Rather than lamenting their bad luck, they instinctively imagine scenarios that could have been substantially worse. [Paragraph 3]",
+            "evidenceVi": "...những người may mắn tự nhiên áp dụng \"tư duy phản thực tế hướng xuống\" khi đối mặt với nghịch cảnh. Thay vì than thở, họ tưởng tượng ra những kịch bản có thể tồi tệ hơn rất nhiều. [Đoạn 3]",
+            "explanation": "Đoạn 3 giải thích cơ chế: 'downward counterfactual thinking' là tự nhủ sự việc đáng lẽ có thể tồi tệ hơn nhiều (như gãy tay nhưng may là không mất mạng), giúp duy trì tâm lý tích cực.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết tâm lý (Factual Detail)",
+              "cluePassage": "engage in \"downward counterfactual thinking\"... instinctively imagine scenarios that could have been substantially worse",
+              "clueAnswer": "They engage in downward counterfactual thinking by realizing it could have been much worse",
+              "keyPassage": "downward counterfactual thinking, imagine scenarios substantially worse",
+              "keyAnswer": "downward counterfactual thinking by realizing it could have been much worse",
+              "paraphrasePair": "scenarios that could have been substantially worse <=> realizing it could have been much worse",
+              "meaningVi": "kịch bản có thể tồi tệ hơn nhiều <=> nhận ra sự việc có thể tồi tệ hơn",
+              "deductionLogic": "Phương án A trích xuất trực tiếp thuật ngữ và định nghĩa từ câu mở đầu của đoạn 3."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "Which of the following is NOT described as a characteristic of lucky people in paragraphs 2, 3, and 4?",
+            "questionVi": "Điều nào sau đây KHÔNG được miêu tả như một đặc điểm của người may mắn trong các đoạn 2, 3 và 4?",
+            "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
+            "options": [
+              "Relaxed attentional openness to peripheral opportunities",
+              "Downward counterfactual reframing of negative events",
+              "Constant paralysis caused by neurotic second-guessing",
+              "Trusting intuitive hunches and optimistic persistence"
+            ],
+            "optionsVi": [
+              "Sự cởi mở chú ý thư thái trước các cơ hội ở vùng rìa",
+              "Tái cấu trúc nhận thức phản thực tế hướng xuống khi gặp sự cố",
+              "Sự tê liệt liên tục do những ngờ vực lo âu thái quá",
+              "Tin tưởng vào trực giác và sự kiên trì lạc quan"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Unlucky individuals, frequently paralyzed by neurotic second-guessing, often fail to act on intuitive cues. [Paragraph 4]",
+            "evidenceVi": "Đoạn 4 nói rõ: Những người KHÔNG may mắn (unlucky individuals) mới thường xuyên bị tê liệt bởi sự ngờ vực lo âu thái quá (paralyzed by neurotic second-guessing).",
+            "explanation": "Phương án C là đặc điểm của người xui xẻo (unlucky people), không phải của người may mắn.",
+            "postReading": {
+              "type": "negative",
+              "typeLabel": "Thông tin loại trừ (Negative Detail)",
+              "cluePassage": "Unlucky individuals, frequently paralyzed by neurotic second-guessing",
+              "clueAnswer": "Constant paralysis caused by neurotic second-guessing",
+              "keyPassage": "unlucky individuals paralyzed by neurotic second-guessing",
+              "keyAnswer": "paralysis belongs to unlucky people",
+              "paraphrasePair": "paralyzed by neurotic second-guessing <=> characteristic of unlucky people",
+              "meaningVi": "bị tê liệt vì lo âu ngờ vực <=> đặc trưng của người xui xẻo",
+              "deductionLogic": "Phương án C bị gán nhầm đối tượng (thuộc nhóm unlucky, không phải lucky)."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "The phrase \"This constructive cognitive framing\" in paragraph 3 refers to:",
+            "questionVi": "Cụm từ \"This constructive cognitive framing\" trong đoạn 3 ám chỉ điều gì?",
+            "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
+            "options": [
+              "purchasing lottery tickets every week",
+              "imagining worse possible outcomes rather than dwelling on ideal scenarios",
+              "ignoring traffic laws to test personal fortune",
+              "visiting palm readers and astrologers"
+            ],
+            "optionsVi": [
+              "việc mua vé số hàng tuần",
+              "việc hình dung các kết cục có thể tồi tệ hơn thay vì dằn vặt về các kịch bản lý tưởng",
+              "việc phớt lờ luật giao thông để thử vận may cá nhân",
+              "việc đi xem bói chỉ tay và các nhà chiêm tinh"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Rather than lamenting their bad luck, they instinctively imagine scenarios that could have been substantially worse... This constructive cognitive framing preserves emotional resilience... [Paragraph 3]",
+            "evidenceVi": "Thay vì than vãn, họ tưởng tượng các kịch bản có thể tồi tệ hơn nhiều... Lối định hình nhận thức mang tính xây dựng này bảo tồn khả năng kiên cường cảm xúc... [Đoạn 3]",
+            "explanation": "\"This constructive cognitive framing\" (lối đóng khung nhận thức mang tính xây dựng này) quy chiếu về tư duy phản thực tế hướng xuống: tự nhủ rằng tình huống có thể đã tồi tệ hơn rất nhiều.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Quy chiếu khái niệm (Reference)",
+              "cluePassage": "imagine scenarios that could have been substantially worse... This constructive cognitive framing preserves emotional resilience",
+              "clueAnswer": "imagining worse possible outcomes rather than dwelling on ideal scenarios",
+              "keyPassage": "imagine scenarios substantially worse",
+              "keyAnswer": "imagining worse possible outcomes",
+              "paraphrasePair": "constructive cognitive framing => imagining worse scenarios",
+              "meaningVi": "đóng khung nhận thức mang tính xây dựng => hình dung tình huống tồi tệ hơn",
+              "deductionLogic": "Cụm 'This constructive cognitive framing' thay thế cho hành vi tâm lý diễn ra ở câu liền trước."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "The word \"malleable\" in paragraph 5 is closest in meaning to:",
+            "questionVi": "Từ \"malleable\" trong đoạn 5 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "adaptable and trainable",
+              "rigid and permanent",
+              "mysterious and supernatural",
+              "genetically predetermined"
+            ],
+            "optionsVi": [
+              "có thể thích ứng và rèn luyện được",
+              "cứng nhắc và bất biến",
+              "bí ẩn và siêu nhiên",
+              "được định sẵn do di truyền"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Ultimately, modern psychology reveals that luck is not an unalterable verdict dictated by the stars, but a malleable mental orientation that can be consciously cultivated. [Paragraph 5]",
+            "evidenceVi": "Cuối cùng, tâm lý học hiện đại chỉ ra rằng may mắn không phải là phán quyết bất di bất dịch của các vì sao, mà là một định hướng tinh thần có thể uốn nắn và trau dồi có ý thức. [Đoạn 5]",
+            "explanation": "\"Malleable\" mang nghĩa bóng là có thể uốn nắn, thay đổi, rèn giũa được (adaptable, capable of being shaped or trained).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "a malleable mental orientation that can be consciously cultivated",
+              "clueAnswer": "adaptable and trainable",
+              "keyPassage": "malleable",
+              "keyAnswer": "adaptable and trainable",
+              "paraphrasePair": "malleable <=> adaptable and trainable",
+              "meaningVi": "dễ uốn nắn, thay đổi được <=> có thể thích ứng và rèn luyện được",
+              "deductionLogic": "Đoạn văn đối lập giữa 'unalterable' (không thể đổi) với 'malleable... can be consciously cultivated' (có thể rèn luyện)."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"Because their gut feelings are informed by subtle subconscious pattern recognition, these rapid choices often prove accurate.\"\nWhere would the sentence best fit?",
+            "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "Vị trí [A]",
+              "Vị trí [B]",
+              "Vị trí [C]",
+              "Vị trí [D]"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "[A] They routinely trust their instincts when evaluating interpersonal relationships and professional decisions. [B] Unlucky individuals, frequently paralyzed by neurotic second-guessing... [Paragraph 4]",
+            "evidenceVi": "Vị trí [B] đứng ngay sau câu khẳng định người may mắn tin vào trực giác ('trust their instincts'), để giải thích tại sao cảm giác trực giác ('gut feelings') lại mang lại sự lựa chọn chính xác ('these rapid choices often prove accurate').",
+            "explanation": "\"Gut feelings\" và \"these rapid choices\" liên kết trực tiếp với \"trust their instincts when evaluating decisions\" ở câu trước [B].",
+            "postReading": {
+              "type": "insertion",
+              "typeLabel": "Điền câu logic (Sentence Insertion)",
+              "cluePassage": "routinely trust their instincts when evaluating interpersonal relationships and professional decisions. [B]",
+              "clueAnswer": "[B]",
+              "keyPassage": "trust their instincts when evaluating decisions",
+              "keyAnswer": "gut feelings... these rapid choices",
+              "paraphrasePair": "instincts <=> gut feelings | decisions <=> rapid choices",
+              "meaningVi": "trực giác bản năng <=> linh cảm | quyết định <=> lựa chọn nhanh chóng",
+              "deductionLogic": "Móc xích 'gut feelings' và 'these rapid choices' giải thích cơ chế khoa học cho câu nói về trực giác trước vị trí [B]."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "According to paragraph 4, what happens when lucky individuals encounter initial failures?",
+            "questionVi": "Theo đoạn 4, điều gì xảy ra khi những người may mắn gặp phải những thất bại ban đầu?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "They immediately surrender and accept lifelong defeat.",
+              "Their expectation of positive outcomes motivates them to persevere and find breakthroughs.",
+              "They consult fortune tellers to reverse evil curses.",
+              "They stop working and depend entirely on charitable donations."
+            ],
+            "optionsVi": [
+              "Họ đầu hàng ngay lập tức và chấp nhận thất bại cả đời.",
+              "Sự kỳ vọng vào các kết quả tích cực thúc đẩy họ kiên trì và tìm ra các bước đột phá.",
+              "Họ đi xem bói để giải các lời nguyền ác độc.",
+              "Họ ngừng làm việc và phụ thuộc hoàn toàn vào tiền quyên góp từ thiện."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...expecting positive outcomes motivates them to persevere through initial failures. This resilient perseverance transforms apparent dead-ends into productive breakthroughs... [Paragraph 4]",
+            "evidenceVi": "...kỳ vọng vào những kết quả tích cực thúc đẩy họ kiên trì vượt qua những thất bại ban đầu. Sự kiên trì bền bỉ này biến những ngõ cụt tưởng chừng bế tắc thành những bước đột phá hiệu quả... [Đoạn 4]",
+            "explanation": "Đoạn 4 khẳng định: kỳ vọng vào kết quả tốt ('expecting positive outcomes') thúc đẩy họ kiên trì ('persevere') và biến bế tắc thành bước đột phá ('productive breakthroughs').",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết phản ứng (Factual Detail)",
+              "cluePassage": "expecting positive outcomes motivates them to persevere through initial failures. This resilient perseverance transforms apparent dead-ends into productive breakthroughs",
+              "clueAnswer": "Their expectation of positive outcomes motivates them to persevere and find breakthroughs",
+              "keyPassage": "expecting positive outcomes motivates them to persevere, breakthroughs",
+              "keyAnswer": "expectation of positive outcomes motivates them to persevere and find breakthroughs",
+              "paraphrasePair": "persevere through failures to breakthroughs <=> persevere and find breakthroughs",
+              "meaningVi": "kiên trì vượt qua thất bại để đột phá",
+              "deductionLogic": "Phương án B tóm lược đầy đủ quan hệ nguyên nhân - kết quả được phân tích ở cuối đoạn 4."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "What is the primary conclusion drawn by the author in the final paragraph?",
+            "questionVi": "Kết luận chính được tác giả rút ra trong đoạn cuối là gì?",
+            "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN / KẾT LUẬN (Conclusion)",
+            "options": [
+              "Human beings are powerless victims of predetermined astrological fate.",
+              "Luck can be actively cultivated and generated through deliberate psychological habits.",
+              "Scientific psychology has officially endorsed the validity of good luck charms.",
+              "Unlucky individuals should avoid making any significant life decisions."
+            ],
+            "optionsVi": [
+              "Con người là những nạn nhân bất lực trước số phận chiêm tinh đã định sẵn.",
+              "May mắn có thể được chủ động trau dồi và tạo ra thông qua các thói quen tâm lý có chủ đích.",
+              "Tâm lý học khoa học đã chính thức công nhận giá trị của bùa may mắn.",
+              "Những người kém may mắn nên tránh đưa ra bất kỳ quyết định quan trọng nào trong đời."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Rather than passive victims of fate, human beings possess the cognitive agency to manufacture their own good fortune. [Paragraph 5]",
+            "evidenceVi": "Thay vì là những nạn nhân thụ động của số phận, con người sở hữu năng lực nhận thức chủ động để tự tạo ra vận may cho chính mình. [Đoạn 5]",
+            "explanation": "Tác giả kết luận: con người không phải nạn nhân thụ động mà có năng lực tự quyết ('cognitive agency') để tự tạo ra vận may ('manufacture their own good fortune') bằng cách rèn luyện thói quen tinh thần.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Kết luận tác giả (Conclusion)",
+              "cluePassage": "Rather than passive victims of fate, human beings possess the cognitive agency to manufacture their own good fortune.",
+              "clueAnswer": "Luck can be actively cultivated and generated through deliberate psychological habits.",
+              "keyPassage": "cognitive agency to manufacture their own good fortune",
+              "keyAnswer": "actively cultivated and generated through deliberate psychological habits",
+              "paraphrasePair": "manufacture good fortune <=> actively cultivate and generate luck | cognitive agency <=> deliberate psychological habits",
+              "meaningVi": "tự tạo ra vận may <=> chủ động nuôi dưỡng và tạo ra may mắn | năng lực nhận thức <=> thói quen tâm lý",
+              "deductionLogic": "Câu kết luận đúc rút thông điệp chủ đạo của bài: may mắn nằm trong tầm kiểm soát của tư duy con người."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Asian Labor Discrimination in United States History",
+        "topic": "Lịch sử lao động & Những cuộc đấu tranh chống phân biệt đối xử của người gốc Á tại Mỹ",
+        "timeAllowed": 15,
+        "passage": "<p>The mid-nineteenth century marked the genesis of large-scale Asian labor migration to the United States, an epochal movement propelled by economic opportunities surrounding the California Gold Rush and western infrastructure expansion. Arriving primarily from southern China, these early migrant workers sought to escape severe domestic turmoil, poverty, and political unrest. Their contributions were paramount in transforming the American West from a rugged frontier into an interconnected economic powerhouse. Most notably, between 1865 and 1869, approximately twelve thousand Chinese laborers formed the backbone of the Central Pacific Railroad workforce, undertaking the <strong>arduous</strong> task of blasting through the granite precipices of the Sierra Nevada mountains to complete the western segment of the First Transcontinental Railroad.</p><p>Despite their indispensable economic contributions, Asian laborers were subjected to virulent systemic discrimination and institutionalized racism. Chinese railroad workers were routinely paid thirty to fifty percent less than their white counterparts and were forced to pay for their own food and lodging, while white workers received provisions free of charge. Furthermore, they were assigned the most perilous duties, such as handling highly volatile nitroglycerin explosives and working through sub-zero winter blizzards. When the railroad was completed at Promontory Summit in 1869, Chinese workers were deliberately excluded from official celebratory photographs. During the economic depression of the 1870s, demagogic politicians and labor unions scapegoated Asian workers for wage stagnation, culminating in the federal passage of the Chinese Exclusion Act of 1882—the first legislation in American history to explicitly prohibit an entire ethnic group from immigrating and obtaining naturalized citizenship.</p><p>As Chinese immigration was curtailed, western agribusiness and industrial enterprises turned to other Asian nationalities, recruiting Japanese, Filipino, Korean, and Punjabi laborers to harvest crops, operate salmon canneries, and clear agricultural lands. In the territories of Hawaii and California, these laborers encountered rigid labor stratification. Employers enforced ethnic segregation in plantation barracks and established differential wage tiers designed to prevent inter-ethnic solidarity. Furthermore, early twentieth-century legislation, such as the California Alien Land Laws, systematically prohibited non-citizen Asian immigrants from purchasing or leasing agricultural land. In response, Asian workers organized pioneering labor strikes, such as the 1903 Oxnard sugar beet strike and the 1920 Oahu plantation strike, demanding equitable remuneration and fundamental human dignity.</p><p>Following World War II and the geopolitical realignment of the Cold War, the nature of Asian labor representation underwent a calculated transformation. [A] In the 1960s, American media and political commentators fabricated the \"Model Minority\" stereotype. [B] This narrative lauded Asian Americans as an exceptionally industrious, compliant, and academically accomplished demographic that had supposedly overcome racial prejudice purely through quiet perseverance without governmental aid. [C] However, historians emphasize that this seemingly flattering caricature was weaponized for political objectives. [D] <strong>This ideological construct</strong> was strategically deployed to discredit the civil rights claims of other minority groups while obscuring the intense economic precarity that continued to burden marginalized segments of the Asian American population.</p><p>The legacy of historical labor discrimination continues to reverberate in the contemporary American workforce. While Asian Americans today exhibit high rates of educational attainment and representation in professional, scientific, and technical sectors, they remain conspicuously underrepresented in senior corporate executive suites, university presidencies, and political governance—a structural barrier commonly termed the \"bamboo ceiling.\" Furthermore, persistent stereotypes depicting Asian workers as passive technical functionaries rather than visionary leaders perpetuate workplace inequities. A comprehensive understanding of American labor history requires recognizing that Asian workers were neither passive victims nor silent beneficiaries, but active, indispensable agents whose labor, struggles, and advocacy helped forge the modern nation.</p>",
+        "vocab": [
+          {
+            "word": "arduous",
+            "pos": "adj",
+            "ipa": "/ˈɑː.dʒu.əs/",
+            "level": "C1",
+            "mean": "gian khổ, đòi hỏi nhiều sức lực và nỗ lực",
+            "syns": [
+              "strenuous",
+              "laborious",
+              "grueling"
+            ],
+            "ex": "Carving railroad tunnels through frozen granite mountains was an arduous endeavor."
+          },
+          {
+            "word": "virulent",
+            "pos": "adj",
+            "ipa": "/ˈvɪr.jə.lənt/",
+            "level": "C1",
+            "mean": "hiểm độc, gay gắt, đầy thù hận",
+            "syns": [
+              "hostile",
+              "malicious",
+              "venomous"
+            ],
+            "ex": "Immigrant laborers faced virulent hostility from nativist political organizations."
+          },
+          {
+            "word": "scapegoat",
+            "pos": "v",
+            "ipa": "/ˈskeɪp.ɡəʊt/",
+            "level": "C1",
+            "mean": "đổ lỗi oan, coi là vật tế thần",
+            "syns": [
+              "blame unfairly",
+              "target",
+              "victimize"
+            ],
+            "ex": "Minority workers are frequently scapegoated for broader economic recessions."
+          },
+          {
+            "word": "stratification",
+            "pos": "n",
+            "ipa": "/ˌstræt.ɪ.fɪˈkeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự phân tầng, phân cấp bậc xã hội/lao động",
+            "syns": [
+              "hierarchical division",
+              "ranking",
+              "layering"
+            ],
+            "ex": "Plantation owners maintained strict racial stratification to suppress worker strikes."
+          },
+          {
+            "word": "remuneration",
+            "pos": "n",
+            "ipa": "/rɪˌmjuː.nərˈeɪ.ʃən/",
+            "level": "C1",
+            "mean": "tiền thù lao, tiền công chi trả",
+            "syns": [
+              "compensation",
+              "wages",
+              "payment"
+            ],
+            "ex": "Laborers organized widespread strikes to demand fair remuneration and safe working hours."
+          },
+          {
+            "word": "laud",
+            "pos": "v",
+            "ipa": "/lɔːd/",
+            "level": "C1",
+            "mean": "ca ngợi, tán dương",
+            "syns": [
+              "praise",
+              "extol",
+              "commend"
+            ],
+            "ex": "Commentators lauded the community for academic achievements while ignoring institutional obstacles."
+          },
+          {
+            "word": "caricature",
+            "pos": "n",
+            "ipa": "/ˈkær.ɪ.kə.tʃʊər/",
+            "level": "C1",
+            "mean": "bức tranh biếm họa, hình ảnh bóp méo đơn giản hóa",
+            "syns": [
+              "distortion",
+              "stereotype",
+              "parody"
+            ],
+            "ex": "The model minority caricature obscures the diverse economic realities of different immigrant groups."
+          },
+          {
+            "word": "precarity",
+            "pos": "n",
+            "ipa": "/prɪˈkeə.rə.ti/",
+            "level": "C1",
+            "mean": "tình trạng bấp bênh, thiếu an toàn",
+            "syns": [
+              "insecurity",
+              "instability",
+              "vulnerability"
+            ],
+            "ex": "Many service workers continue to endure extreme financial precarity despite working long hours."
+          },
+          {
+            "word": "reverberate",
+            "pos": "v",
+            "ipa": "/rɪˈvɜː.bər.eɪt/",
+            "level": "C1",
+            "mean": "dội lại, còn vang vọng và để lại hệ quả lâu dài",
+            "syns": [
+              "echo",
+              "resonate",
+              "persist"
+            ],
+            "ex": "The consequences of historic exclusion laws still reverberate across minority communities today."
+          },
+          {
+            "word": "bamboo ceiling",
+            "pos": "n",
+            "ipa": "/bæmˈbuː ˈsiː.lɪŋ/",
+            "level": "C1",
+            "mean": "rào cản vô hình đối với người Mỹ gốc Á trong việc thăng tiến lên cấp lãnh đạo",
+            "syns": [
+              "invisible barrier",
+              "promotion obstacle"
+            ],
+            "ex": "Advocacy groups actively combat the bamboo ceiling in Fortune 500 executive suites."
+          },
+          {
+            "word": "genesis",
+            "pos": "n",
+            "ipa": "/ˈdʒen.ə.sɪs/",
+            "level": "C1",
+            "mean": "sự khởi nguyên, nguồn gốc ra đời ban đầu",
+            "syns": [
+              "origin",
+              "beginning",
+              "commencement",
+              "inception"
+            ],
+            "ex": "The California Gold Rush marked the genesis of sizable Asian immigration to the American continent."
+          },
+          {
+            "word": "epochal",
+            "pos": "adj",
+            "ipa": "/ˈep.ək.əl/",
+            "level": "C1",
+            "mean": "mang tính thời đại, có ý nghĩa lịch sử sâu sắc mở ra kỷ nguyên mới",
+            "syns": [
+              "momentous",
+              "historic",
+              "groundbreaking",
+              "earth-shaking"
+            ],
+            "ex": "The construction of the transcontinental railway was an epochal engineering achievement of the 1800s."
+          },
+          {
+            "word": "turmoil",
+            "pos": "n",
+            "ipa": "/ˈtɜː.mɔɪl/",
+            "level": "C1",
+            "mean": "tình trạng hỗn loạn biến động dữ dội, cuộc tao loạn",
+            "syns": [
+              "chaos",
+              "upheaval",
+              "turbulence",
+              "disorder"
+            ],
+            "ex": "Fleeing civil turmoil and regional famine, thousands of southern Chinese laborers embarked for America."
+          },
+          {
+            "word": "transcontinental",
+            "pos": "adj",
+            "ipa": "/ˌtrænz.kɒn.tɪˈnen.təl/",
+            "level": "B2",
+            "mean": "xuyên lục địa, kết nối hai bờ đại dương qua đại lục",
+            "syns": [
+              "cross-continent",
+              "nation-spanning"
+            ],
+            "ex": "The transcontinental railroad united the Atlantic and Pacific economies into a single trading market."
+          },
+          {
+            "word": "perilous",
+            "pos": "adj",
+            "ipa": "/ˈper.əl.əs/",
+            "level": "B2",
+            "mean": "cực kỳ hiểm trở và nguy hiểm chết người",
+            "syns": [
+              "hazardous",
+              "treacherous",
+              "dangerous",
+              "risky"
+            ],
+            "ex": "Workers were lowered in wicker baskets to drill into sheer, perilous granite cliffs."
+          },
+          {
+            "word": "dynamite",
+            "pos": "n",
+            "ipa": "/ˈdaɪ.nə.maɪt/",
+            "level": "B2",
+            "mean": "thuốc nổ dynamite dùng để phá đá mở đường hầm",
+            "syns": [
+              "explosive",
+              "blasting charge"
+            ],
+            "ex": "Handling volatile dynamite in freezing blizzards resulted in countless casualties among track layers."
+          },
+          {
+            "word": "disproportional",
+            "pos": "adj",
+            "ipa": "/ˌdɪs.prəˈpɔː.ʃən.əl/",
+            "level": "C1",
+            "mean": "bất cân xứng, không tương xứng so với tỷ lệ chung",
+            "syns": [
+              "unequal",
+              "inordinate",
+              "disproportionate",
+              "unbalanced"
+            ],
+            "ex": "Immigrant laborers bore a disproportional share of fatal workplace hazards on western work sites."
+          },
+          {
+            "word": "hostility",
+            "pos": "n",
+            "ipa": "/hɒsˈtɪl.ə.ti/",
+            "level": "B2",
+            "mean": "thái độ thù địch gay gắt, ác cảm bài xích công khai",
+            "syns": [
+              "animosity",
+              "antagonism",
+              "enmity",
+              "ill will"
+            ],
+            "ex": "Economic recessions frequently inflamed racial hostility toward migrant workers willing to work for lower wages."
+          },
+          {
+            "word": "agitation",
+            "pos": "n",
+            "ipa": "/ˌædʒ.ɪˈteɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự kích động quần chúng, chiến dịch cổ xúy gây rối chính trị",
+            "syns": [
+              "incitement",
+              "ferment",
+              "unrest",
+              "lobbying"
+            ],
+            "ex": "Anti-immigrant agitation led directly to discriminatory local ordinances and boycotts of Chinese businesses."
+          },
+          {
+            "word": "exclusionary",
+            "pos": "adj",
+            "ipa": "/ɪkˈskluː.ʒən.ər.i/",
+            "level": "C1",
+            "mean": "mang tính bài trừ, ngăn cản cấm đoán quyền nhập cảnh/gia nhập",
+            "syns": [
+              "restrictive",
+              "prohibitive",
+              "barring",
+              "discriminatory"
+            ],
+            "ex": "The Chinese Exclusion Act of 1882 was the first federal law explicitly barring an ethnic group based on nationality."
+          },
+          {
+            "word": "disenfranchisement",
+            "pos": "n",
+            "ipa": "/ˌdɪs.ɪnˈfræn.tʃaɪz.mənt/",
+            "level": "C1",
+            "mean": "sự tước quyền công dân, quyền bỏ phiếu và các quyền tự do hiến định",
+            "syns": [
+              "deprivation of rights",
+              "marginalization",
+              "disempowerment"
+            ],
+            "ex": "Legal disenfranchisement prevented Asian immigrants from becoming naturalized citizens or acquiring farmland."
+          },
+          {
+            "word": "destitute",
+            "pos": "adj",
+            "ipa": "/ˈdes.tɪ.tʃuːt/",
+            "level": "C1",
+            "mean": "cơ cực bần hàn cùng quẫn, không nơi nương tựa tài sản",
+            "syns": [
+              "poverty-stricken",
+              "impoverished",
+              "penniless",
+              "indigent"
+            ],
+            "ex": "Evicted without notice, many tenant farming families were left completely destitute on rural roads."
+          },
+          {
+            "word": "model minority",
+            "pos": "n.phr",
+            "ipa": "/ˌmɒd.əl maɪˈnɒr.ə.ti/",
+            "level": "C1",
+            "mean": "huyền thoại 'thiểu số kiểu mẫu' (định kiến rập khuôn khen ngợi có tính phân hóa chính trị)",
+            "syns": [
+              "exemplary minority myth",
+              "stereotypical trope"
+            ],
+            "ex": "The model minority myth obscured the severe economic inequality facing disadvantaged Asian refugee enclaves."
+          },
+          {
+            "word": "stereotype",
+            "pos": "n",
+            "ipa": "/ˈster.i.ə.taɪp/",
+            "level": "B2",
+            "mean": "khuôn mẫu định kiến rập khuôn và phiến diện",
+            "syns": [
+              "cliché",
+              "generalization",
+              "hackneyed perception"
+            ],
+            "ex": "Portraying technical specialists as devoid of charisma is a damaging workplace stereotype."
+          },
+          {
+            "word": "functionary",
+            "pos": "n",
+            "ipa": "/ˈfʌŋk.ʃən.ər.i/",
+            "level": "C1",
+            "mean": "người thừa hành máy móc, viên chức nhỏ thụ động",
+            "syns": [
+              "bureaucrat",
+              "worker drone",
+              "minor official",
+              "cog in the machine"
+            ],
+            "ex": "Some managers mistakenly view Asian professionals as quiet functionaries rather than executive material."
+          },
+          {
+            "word": "visionary",
+            "pos": "adj",
+            "ipa": "/ˈvɪʒ.ən.ər.i/",
+            "level": "B2",
+            "mean": "có tầm nhìn xa trông rộng, có tư chất lãnh đạo tương lai",
+            "syns": [
+              "forward-thinking",
+              "innovative",
+              "prescient",
+              "inspired"
+            ],
+            "ex": "Promoting visionary innovators regardless of heritage strengthens global corporate leadership."
+          },
+          {
+            "word": "beneficiary",
+            "pos": "n",
+            "ipa": "/ˌben.ɪˈfɪʃ.ər.i/",
+            "level": "B2",
+            "mean": "người thụ hưởng quyền lợi, người được hưởng thành quả",
+            "syns": [
+              "recipient",
+              "heir",
+              "receiver",
+              "grantee"
+            ],
+            "ex": "Immigrant laborers were not passive beneficiaries of wealth, but prime architects of national prosperity."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "What is the primary purpose of the passage?",
+            "questionVi": "Mục đích chính của bài đọc là gì?",
+            "questionType": "DẠNG 06: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
+            "options": [
+              "To provide a comprehensive examination of the critical contributions, systemic discrimination, and enduring labor struggles of Asian Americans",
+              "To celebrate the architectural engineering of the First Transcontinental Railroad without discussing race",
+              "To prove that Asian Americans have never experienced any form of legislative prejudice",
+              "To discourage young Asian Americans from pursuing careers in technological engineering"
+            ],
+            "optionsVi": [
+              "Khảo sát toàn diện về những đóng góp quan trọng, sự phân biệt đối xử mang tính hệ thống và những cuộc đấu tranh lao động bền bỉ của người Mỹ gốc Á",
+              "Ca ngợi kỹ thuật kiến trúc của Tuyến đường sắt xuyên lục địa mà không thảo luận về chủng tộc",
+              "Chứng minh rằng người Mỹ gốc Á chưa bao giờ trải qua bất kỳ hình thức định kiến pháp lý nào",
+              "Khuyên ngăn thanh niên Mỹ gốc Á theo đuổi sự nghiệp trong ngành kỹ thuật công nghệ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "A comprehensive understanding of American labor history requires recognizing that Asian workers were neither passive victims nor silent beneficiaries, but active, indispensable agents whose labor, struggles, and advocacy helped forge the modern nation. [Paragraph 1 through 5]",
+            "evidenceVi": "Một sự hiểu biết toàn diện về lịch sử lao động Mỹ đòi hỏi phải nhận thức rằng công nhân châu Á... là những nhân tố tích cực, không thể thiếu mà sức lao động, cuộc đấu tranh và sự vận động của họ đã góp phần tạo dựng nên quốc gia hiện đại. [Đoạn 1-5]",
+            "explanation": "Toàn bài phân tích lịch sử lao động châu Á từ đường sắt (Đoạn 1), đạo luật bài trừ (Đoạn 2), phong trào công đoàn nông nghiệp (Đoạn 3), huyền thoại người thiểu số kiểu mẫu (Đoạn 4) đến rào cản trần tre hiện đại (Đoạn 5).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Mục đích toàn bài (Primary Purpose)",
+              "cluePassage": "Asian workers were neither passive victims nor silent beneficiaries, but active, indispensable agents whose labor, struggles, and advocacy helped forge the modern nation.",
+              "clueAnswer": "To provide a comprehensive examination of the critical contributions, systemic discrimination, and enduring labor struggles of Asian Americans",
+              "keyPassage": "labor, struggles, and advocacy helped forge the modern nation",
+              "keyAnswer": "examination of contributions, discrimination, and labor struggles",
+              "paraphrasePair": "labor, struggles, advocacy <=> contributions, discrimination, struggles",
+              "meaningVi": "lao động, đấu tranh, vận động quyền lợi <=> đóng góp, phân biệt, đấu tranh lao động",
+              "deductionLogic": "Phương án A bao hàm đầy đủ toàn bộ trục nội dung lịch sử - xã hội được phân tích trong 5 đoạn."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "The word \"arduous\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"arduous\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "extremely difficult and physically demanding",
+              "enjoyable and entertaining",
+              "financially effortless",
+              "strictly automated"
+            ],
+            "optionsVi": [
+              "cực kỳ khó khăn và đòi hỏi nhiều sức lực",
+              "thú vị và mang tính giải trí",
+              "không tốn kém công sức tài chính",
+              "hoàn toàn tự động hóa"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...undertaking the arduous task of blasting through the granite precipices of the Sierra Nevada mountains to complete the western segment... [Paragraph 1]",
+            "evidenceVi": "...đảm nhận nhiệm vụ gian khổ là nổ mìn phá vách đá hoa cương của dãy núi Sierra Nevada để hoàn thành đoạn phía tây... [Đoạn 1]",
+            "explanation": "\"Arduous\" có nghĩa là gian nan, cực khổ, đòi hỏi nhiều nỗ lực thể chất (demanding great physical effort and strenuous).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "arduous task of blasting through the granite precipices",
+              "clueAnswer": "extremely difficult and physically demanding",
+              "keyPassage": "arduous task",
+              "keyAnswer": "extremely difficult and physically demanding",
+              "paraphrasePair": "arduous <=> physically demanding / difficult",
+              "meaningVi": "gian nan, vất vả <=> cực kỳ khó khăn và đòi hỏi nhiều sức lực",
+              "deductionLogic": "Việc đục phá núi đá hoa cương trong điều kiện thời tiết khắc nghiệt là minh chứng rõ nét cho tính chất 'arduous'."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "According to paragraph 2, in what ways were Chinese railroad laborers subjected to unequal treatment compared to white workers?",
+            "questionVi": "Theo đoạn 2, những công nhân đường sắt người Hoa đã phải chịu sự đối xử bất bình đẳng so với công nhân da trắng ở những phương diện nào?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "They were paid significantly lower wages, forced to purchase their own food, and given the most hazardous assignments.",
+              "They were given executive leadership positions over white managers.",
+              "They were granted free luxury housing while white workers lived in tents.",
+              "They were exempt from working in freezing weather conditions."
+            ],
+            "optionsVi": [
+              "Họ bị trả lương thấp hơn đáng kể, buộc phải tự mua đồ ăn và bị giao những công việc nguy hiểm nhất.",
+              "Họ được trao các vị trí lãnh đạo điều hành cao hơn các nhà quản lý da trắng.",
+              "Họ được cấp nhà ở sang trọng miễn phí trong khi công nhân da trắng phải ở lều.",
+              "Họ được miễn làm việc trong điều kiện thời tiết băng giá."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Chinese railroad workers were routinely paid thirty to fifty percent less than their white counterparts and were forced to pay for their own food and lodging... assigned the most perilous duties, such as handling highly volatile nitroglycerin... [Paragraph 2]",
+            "evidenceVi": "Công nhân đường sắt người Hoa thường bị trả lương thấp hơn từ 30 đến 50% so với đồng nghiệp da trắng và phải tự trả tiền ăn ở... bị giao những nhiệm vụ nguy hiểm nhất như xử lý thuốc nổ nitroglycerin... [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ 3 hình thức bóc lột bất công: lương thấp hơn 30-50%, phải tự mua thức ăn chỗ ở, và phải làm việc nguy hiểm nhất (xử lý thuốc nổ nitroglycerin dưới bão tuyết).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết bất bình đẳng (Factual Detail)",
+              "cluePassage": "paid thirty to fifty percent less... forced to pay for their own food and lodging... assigned the most perilous duties",
+              "clueAnswer": "They were paid significantly lower wages, forced to purchase their own food, and given the most hazardous assignments",
+              "keyPassage": "paid less, pay for own food, perilous duties",
+              "keyAnswer": "lower wages, purchase own food, hazardous assignments",
+              "paraphrasePair": "perilous duties <=> hazardous assignments | paid less <=> lower wages",
+              "meaningVi": "nhiệm vụ hiểm nghèo <=> công việc nguy hiểm | trả lương thấp hơn",
+              "deductionLogic": "Phương án A liệt kê chuẩn xác 100% cả 3 chi tiết phân biệt đối xử được nêu ở đoạn 2."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "According to paragraph 2, what was historically significant about the Chinese Exclusion Act of 1882?",
+            "questionVi": "Theo đoạn 2, Đạo luật Bài trừ người Hoa năm 1882 có ý nghĩa lịch sử đặc biệt nào?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "It provided free transatlantic passage for all international tourists.",
+              "It was the first federal law explicitly banning immigration and naturalization for an entire ethnic group.",
+              "It established the first bilingual university system in California.",
+              "It legally required railroad companies to double the wages of all immigrant workers."
+            ],
+            "optionsVi": [
+              "Nó cung cấp vé tàu xuyên Đại Tây Dương miễn phí cho mọi khách du lịch quốc tế.",
+              "Đó là đạo luật liên bang đầu tiên cấm nhập cư và nhập tịch một cách rõ ràng đối với toàn bộ một nhóm sắc tộc.",
+              "Nó thành lập hệ thống trường đại học song ngữ đầu tiên ở California.",
+              "Nó yêu cầu các công ty đường sắt phải tăng gấp đôi lương cho tất cả công nhân nhập cư."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...the Chinese Exclusion Act of 1882—the first legislation in American history to explicitly prohibit an entire ethnic group from immigrating and obtaining naturalized citizenship. [Paragraph 2]",
+            "evidenceVi": "...Đạo luật Bài trừ người Hoa năm 1882—đạo luật đầu tiên trong lịch sử nước Mỹ nghiêm cấm một cách rõ ràng toàn bộ một nhóm sắc tộc nhập cư và có được quốc tịch. [Đoạn 2]",
+            "explanation": "Đoạn 2 khẳng định đây là đạo luật đầu tiên trong lịch sử Mỹ cấm nhập cư và nhập tịch nhắm cụ thể vào một sắc tộc ('first legislation to explicitly prohibit an entire ethnic group').",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết đạo luật (Factual Detail)",
+              "cluePassage": "the first legislation in American history to explicitly prohibit an entire ethnic group from immigrating and obtaining naturalized citizenship",
+              "clueAnswer": "It was the first federal law explicitly banning immigration and naturalization for an entire ethnic group",
+              "keyPassage": "first legislation in American history to explicitly prohibit an entire ethnic group",
+              "keyAnswer": "first federal law explicitly banning immigration and naturalization for an entire ethnic group",
+              "paraphrasePair": "first legislation to explicitly prohibit <=> first federal law explicitly banning",
+              "meaningVi": "đạo luật đầu tiên nghiêm cấm rõ ràng <=> luật liên bang đầu tiên cấm rõ ràng",
+              "deductionLogic": "Phương án B phản ánh chính xác từng từ trong câu định nghĩa lịch sử ở cuối đoạn 2."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "Which of the following tactics used by plantation and enterprise owners is NOT mentioned in paragraph 3?",
+            "questionVi": "Chiến thuật nào sau đây được các chủ đồn điền và doanh nghiệp sử dụng KHÔNG được đề cập trong đoạn 3?",
+            "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
+            "options": [
+              "Housing different ethnic groups in segregated plantation barracks",
+              "Establishing differential wage tiers to prevent worker solidarity",
+              "Offering full company ownership shares to all immigrant field laborers",
+              "Utilizing legislation like the Alien Land Laws to bar land ownership"
+            ],
+            "optionsVi": [
+              "Chia tách các nhóm sắc tộc khác nhau vào các khu lán trại đồn điền riêng biệt",
+              "Thiết lập các bậc lương chênh lệch để ngăn chặn sự đoàn kết của công nhân",
+              "Tặng toàn bộ cổ phần sở hữu công ty cho tất cả lao động đồng ruộng nhập cư",
+              "Sử dụng luật pháp như Luật Đất đai Ngoại kiều để ngăn cấm quyền sở hữu đất"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Employers enforced ethnic segregation in plantation barracks and established differential wage tiers designed to prevent inter-ethnic solidarity... California Alien Land Laws, systematically prohibited non-citizen Asian immigrants from purchasing or leasing agricultural land. [Paragraph 3]",
+            "evidenceVi": "Đoạn 3 liệt kê 3 thủ đoạn: chia lán trại theo sắc tộc (A), trả lương chênh lệch để chia rẽ đoàn kết (B), dùng luật cấm mua bán đất đai (D). Việc tặng cổ phần công ty (C) là hoàn toàn bịa đặt và không hề có trong bài.",
+            "explanation": "Chủ đồn điền bóc lột và chia rẽ công nhân, hoàn toàn không có chuyện tặng cổ phần sở hữu công ty (company ownership shares).",
+            "postReading": {
+              "type": "negative",
+              "typeLabel": "Thông tin loại trừ (Negative Detail)",
+              "cluePassage": "segregation in plantation barracks... differential wage tiers... prohibited from purchasing or leasing land",
+              "clueAnswer": "Offering full company ownership shares to all immigrant field laborers",
+              "keyPassage": "segregation, differential wage tiers, Alien Land Laws",
+              "keyAnswer": "company ownership shares is contradictory to historical labor exploitation",
+              "paraphrasePair": "labor exploitation <=> opposite of company ownership",
+              "meaningVi": "bóc lột lao động <=> trái ngược với việc chia sẻ quyền sở hữu công ty",
+              "deductionLogic": "Phương án C đưa ra điều phi lý và hoàn toàn không xuất hiện trong nội dung đoạn 3."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "The phrase \"This ideological construct\" in paragraph 4 refers to:",
+            "questionVi": "Cụm từ \"This ideological construct\" trong đoạn 4 ám chỉ điều gì?",
+            "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
+            "options": [
+              "the architectural blueprints of plantation barracks",
+              "the \"Model Minority\" stereotype depicting Asian Americans as docile and self-reliant",
+              "the official constitution of early agricultural labor unions",
+              "the engineering equations used for blasting mountain tunnels"
+            ],
+            "optionsVi": [
+              "bản thiết kế kiến trúc của các lán trại đồn điền",
+              "định kiến \"Thiểu số kiểu mẫu\" miêu tả người Mỹ gốc Á là chăm chỉ phục tùng và tự lực",
+              "hiến pháp chính thức của các công đoàn lao động nông nghiệp thời kỳ đầu",
+              "các phương trình kỹ thuật dùng để nổ mìn đục hầm xuyên núi"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...the \"Model Minority\" stereotype. This narrative lauded Asian Americans as an exceptionally industrious, compliant, and academically accomplished demographic... This ideological construct was strategically deployed to discredit... [Paragraph 4]",
+            "evidenceVi": "...định kiến \"Thiểu số kiểu mẫu\". Lời kể này ca ngợi người Mỹ gốc Á là nhóm chăm chỉ, phục tùng và thành đạt học vấn... Cấu trúc ý thức hệ này đã được triển khai một cách chiến lược nhằm làm giảm uy tín... [Đoạn 4]",
+            "explanation": "\"This ideological construct\" (cấu trúc ý thức hệ này) quy chiếu trực tiếp về huyền thoại/định kiến \"Model Minority\" stereotype vừa được giải thích chi tiết ở các câu trước.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Quy chiếu khái niệm (Reference)",
+              "cluePassage": "\"Model Minority\" stereotype. This narrative lauded Asian Americans... This ideological construct was strategically deployed",
+              "clueAnswer": "the \"Model Minority\" stereotype depicting Asian Americans as docile and self-reliant",
+              "keyPassage": "\"Model Minority\" stereotype and narrative",
+              "keyAnswer": "\"Model Minority\" stereotype",
+              "paraphrasePair": "ideological construct => \"Model Minority\" stereotype",
+              "meaningVi": "cấu trúc ý thức hệ => định kiến 'thiểu số kiểu mẫu'",
+              "deductionLogic": "Khái niệm 'ideological construct' đúc kết lại nhãn mác chính trị 'Model Minority' đã được phân tích ở các câu trước."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "The word \"lauded\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"lauded\" trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "praised publicly",
+              "prosecuted criminally",
+              "ignored completely",
+              "physically attacked"
+            ],
+            "optionsVi": [
+              "công khai ca ngợi, tán dương",
+              "bị truy tố hình sự",
+              "bị phớt lờ hoàn toàn",
+              "bị tấn công thể xác"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "This narrative lauded Asian Americans as an exceptionally industrious, compliant, and academically accomplished demographic... [Paragraph 4]",
+            "evidenceVi": "Lời kể này đã ca ngợi người Mỹ gốc Á như một nhóm cư dân đặc biệt cần cù, biết nghe lời và thành đạt về mặt học thuật... [Đoạn 4]",
+            "explanation": "\"Lauded\" có nghĩa là tán dương, ca ngợi công khai (praised highly, commended).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "lauded Asian Americans as an exceptionally industrious demographic",
+              "clueAnswer": "praised publicly",
+              "keyPassage": "lauded",
+              "keyAnswer": "praised publicly",
+              "paraphrasePair": "lauded <=> praised publicly",
+              "meaningVi": "tán dương, ca tụng <=> ca ngợi công khai",
+              "deductionLogic": "Trong câu nói về việc tôn vinh các đặc tính cần cù, hiền lành và học giỏi, 'lauded' mang nghĩa ngợi khen (praised)."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"It portrayed them as proof that any minority could thrive in America without challenging existing systemic barriers.\"\nWhere would the sentence best fit?",
+            "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "Vị trí [A]",
+              "Vị trí [B]",
+              "Vị trí [C]",
+              "Vị trí [D]"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "[B] This narrative lauded Asian Americans as an exceptionally industrious, compliant, and academically accomplished demographic that had supposedly overcome racial prejudice purely through quiet perseverance without governmental aid. [C] However, historians emphasize that this seemingly flattering caricature was weaponized for political objectives. [Paragraph 4]",
+            "evidenceVi": "Vị trí [C] đứng ngay sau câu mô tả lời kể ca ngợi ('This narrative lauded... overcame prejudice purely through perseverance') để giải thích thêm: 'It portrayed them as proof...' (Nó khắc họa họ như bằng chứng rằng mọi sắc tộc đều có thể thành công mà không cần thách thức rào cản hệ thống), trước khi dùng từ nối 'However' để lật ngược vấn đề.",
+            "explanation": "Đại từ 'It' thay thế cho 'This narrative' ở câu [B], củng cố cho việc khắc họa hình ảnh vượt khó mà không cần đấu tranh trước khi chuyển sang luận điểm phê phán ở [C].",
+            "postReading": {
+              "type": "insertion",
+              "typeLabel": "Điền câu logic (Sentence Insertion)",
+              "cluePassage": "overcome racial prejudice purely through quiet perseverance without governmental aid. [C] However, historians emphasize...",
+              "clueAnswer": "[C]",
+              "keyPassage": "overcome prejudice through perseverance without aid",
+              "keyAnswer": "portrayed them as proof that any minority could thrive",
+              "paraphrasePair": "narrative of quiet perseverance <=> portrayed them as proof",
+              "meaningVi": "câu chuyện tự vượt khó <=> khắc họa họ như minh chứng thành công",
+              "deductionLogic": "Câu cần điền giải thích thêm cho luận điểm 'thiểu số kiểu mẫu' ở câu [B] trước khi bước sang câu phản biện bắt đầu bằng 'However'."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "According to paragraph 4, why was the \"Model Minority\" stereotype harmful to Asian Americans?",
+            "questionVi": "Theo đoạn 4, tại sao định kiến \"Thiểu số kiểu mẫu\" lại gây hại cho người Mỹ gốc Á?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "It caused all Asian American businesses to be legally nationalized.",
+              "It obscured real economic precarity within the community and was weaponized against other civil rights movements.",
+              "It banned Asian American students from attending public universities.",
+              "It forced Asian Americans to work exclusively in manual agriculture."
+            ],
+            "optionsVi": [
+              "Nó khiến tất cả các doanh nghiệp của người Mỹ gốc Á bị quốc hữu hóa theo luật.",
+              "Nó che đậy tình trạng bấp bênh kinh tế thực tế trong cộng đồng và bị biến thành vũ khí chống lại các phong trào dân quyền khác.",
+              "Nó cấm sinh viên người Mỹ gốc Á theo học tại các trường đại học công lập.",
+              "Nó buộc người Mỹ gốc Á chỉ được làm việc duy nhất trong ngành nông nghiệp chân tay."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...this seemingly flattering caricature was weaponized for political objectives... strategically deployed to discredit the civil rights claims of other minority groups while obscuring the intense economic precarity that continued to burden marginalized segments of the Asian American population. [Paragraph 4]",
+            "evidenceVi": "...hình ảnh tưởng như tâng bốc này bị vũ khí hóa cho các mục tiêu chính trị... được sử dụng có chủ đích để làm giảm uy tín các yêu sách dân quyền của các nhóm thiểu số khác, đồng thời che giấu sự bấp bênh kinh tế dữ dội vẫn đè nặng lên các bộ phận yếu thế của cộng đồng người Mỹ gốc Á. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ 2 tác hại: bị lợi dụng làm công cụ chính trị chia rẽ khối đoàn kết dân quyền và che giấu tình trạng nghèo khó/bấp bênh kinh tế thực tế ('obscuring the intense economic precarity').",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết tác hại (Factual Detail)",
+              "cluePassage": "weaponized for political objectives... discredit the civil rights claims of other minority groups while obscuring the intense economic precarity",
+              "clueAnswer": "It obscured real economic precarity within the community and was weaponized against other civil rights movements",
+              "keyPassage": "discredit civil rights, obscuring intense economic precarity",
+              "keyAnswer": "obscured economic precarity, weaponized against civil rights",
+              "paraphrasePair": "obscuring economic precarity <=> obscured real economic precarity | weaponized to discredit civil rights <=> weaponized against civil rights movements",
+              "meaningVi": "che giấu bấp bênh kinh tế và bị dùng chống lại phong trào dân quyền",
+              "deductionLogic": "Phương án B phản ánh đầy đủ cả hai khía cạnh tiêu cực mà các nhà sử học đã vạch trần ở câu cuối đoạn 4."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "The phrase \"bamboo ceiling\" in paragraph 5 refers to:",
+            "questionVi": "Cụm từ \"bamboo ceiling\" (trần tre) trong đoạn 5 ám chỉ điều gì?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "the architectural use of bamboo in constructing historic Asian restaurants",
+              "an invisible barrier preventing qualified Asian Americans from advancing into executive leadership positions",
+              "a legal quota requiring companies to hire fifty percent Asian engineers",
+              "a traditional roofing method used in rural Chinese villages"
+            ],
+            "optionsVi": [
+              "việc sử dụng tre trong kiến trúc xây dựng các nhà hàng châu Á lịch sử",
+              "một rào cản vô hình ngăn cản những người Mỹ gốc Á có đủ năng lực thăng tiến lên các vị trí lãnh đạo điều hành cao cấp",
+              "một hạn ngạch pháp lý bắt buộc các công ty phải tuyển dụng 50% kỹ sư châu Á",
+              "một phương pháp lợp mái nhà truyền thống được sử dụng ở các ngôi làng nông thôn Trung Quốc"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...they remain conspicuously underrepresented in senior corporate executive suites, university presidencies, and political governance—a structural barrier commonly termed the \"bamboo ceiling.\" [Paragraph 5]",
+            "evidenceVi": "...họ vẫn vắng bóng một cách đáng chú ý trong các ban giám đốc điều hành doanh nghiệp cấp cao, vị trí hiệu trưởng đại học và chính trường—một rào cản mang tính cấu trúc thường được gọi là \"trần tre\". [Đoạn 5]",
+            "explanation": "\"Bamboo ceiling\" là thuật ngữ xã hội học chỉ rào cản vô hình ngăn người gốc Á thăng tiến vào tầng lớp quản lý cấp cao và lãnh đạo chính trị, dù họ có học vấn và năng lực chuyên môn rất cao.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết thuật ngữ (Factual Definition)",
+              "cluePassage": "underrepresented in senior corporate executive suites, university presidencies, and political governance—a structural barrier commonly termed the \"bamboo ceiling.\"",
+              "clueAnswer": "an invisible barrier preventing qualified Asian Americans from advancing into executive leadership positions",
+              "keyPassage": "underrepresented in senior corporate executive suites, structural barrier",
+              "keyAnswer": "invisible barrier preventing advancement into executive leadership",
+              "paraphrasePair": "structural barrier preventing executive roles <=> invisible barrier preventing advancing into leadership",
+              "meaningVi": "rào cản cấu trúc trong các vị trí điều hành <=> rào cản vô hình ngăn thăng tiến lên lãnh đạo",
+              "deductionLogic": "Phương án B diễn giải chuẩn xác định nghĩa của khái niệm 'bamboo ceiling' trong văn cảnh quản trị nhân sự hiện đại."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: The Changing Religious Landscape in the United States",
+        "topic": "Xã hội học tôn giáo & Xu hướng thế tục hóa, đa nguyên hóa tại Hoa Kỳ",
+        "timeAllowed": 15,
+        "passage": "<p>For much of the twentieth century, the sociological study of religion regarded the United States as a profound historical anomaly. According to classical secularization theory, as societies modernized, industrialized, and achieved higher levels of scientific literacy, religious adherence was expected to steadily decline—a trajectory vividly illustrated across Western European democracies. The United States, however, appeared to defy this thesis, demonstrating persistent \"religious <strong>exceptionalism</strong>.\" American communities exhibited remarkably robust church attendance rates, high levels of personal prayer, and an influential public role for faith-based discourse, distinguishing the nation from its industrialized peers across the Atlantic.</p><p>In recent decades, however, this long-standing paradigm has unraveled with unprecedented velocity. National demographic surveys conducted by sociological institutes indicate that American religious affiliation is undergoing a seismic restructuring. Mainline Protestant denominations, such as the Episcopalians, Presbyterians, and Methodists, which historically constituted the nation's cultural and political establishment, have experienced severe membership hemorrhages. Roman Catholicism has similarly witnessed net declines among native-born adherents, partially offset only by Hispanic immigration. For the first time in documented demographic history, regular weekly churchgoers constitute a distinct minority of the adult population, signaling that the United States is rapidly converging toward European patterns of secularization.</p><p>The most consequential catalyst of this religious realignment is the meteoric rise of the \"religiously unaffiliated\"—colloquially designated by pollsters as the \"Nones\" because they select \"none of the above\" when questioned about their religious identity. In the early 1990s, the Nones comprised less than ten percent of the American adult population; today, they represent nearly thirty percent, outstripping any single religious denomination. Sociologists emphasize that this cohort is far from homogenous; it is not simply populated by dogmatic atheists or materialists. Rather, a substantial proportion identifies as \"spiritual but not religious,\" rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas, and the increasing politicization of organized religion, while retaining deeply personal moral codes and existential curiosity.</p><p>Simultaneously, the religious landscape has been dramatically transformed by cultural diversification stemming from shifting global immigration patterns. [A] The passage of the Immigration and Nationality Act of 1965 abolished national-origin quotas, stimulating significant migration from Asia, Africa, the Middle East, and Latin America. [B] Consequently, traditional Judeo-Christian hegemony has evolved into a multifaceted religious mosaic. [C] Expanding mosques, Hindu temples, Buddhist meditation centers, and Sikh gurdwaras now dot suburban and metropolitan landscapes across the American sunbelt and Midwest. [D] <strong>This burgeoning pluralism</strong> has challenged historical presumptions that American civic identity is inextricably tethered to Christian heritage.</p><p>Ultimately, the restructuring of American religion carries profound implications for the nation's civic coherence and cultural future. While traditional religious institutions grapple with diminished generational transmission and declining attendance among Generation Z and Millennials, public life has become increasingly polarized between religious traditionalists and secular constituencies. As traditional religious consensus wanes, American society faces the complex challenge of cultivating secular civic spaces and shared ethical frameworks capable of fostering democratic cohesion across an exceptionally pluralistic, post-denominational populace.</p>",
+        "vocab": [
+          {
+            "word": "exceptionalism",
+            "pos": "n",
+            "ipa": "/ɪkˈsep.ʃən.əl.ɪ.zəm/",
+            "level": "C1",
+            "mean": "thuyết về tính đặc thù ngoại lệ, không tuân theo quy luật chung",
+            "syns": [
+              "uniqueness",
+              "singularity",
+              "distinctiveness"
+            ],
+            "ex": "American religious exceptionalism long puzzled European sociologists."
+          },
+          {
+            "word": "secularization",
+            "pos": "n",
+            "ipa": "/ˌsek.jə.lə.raɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "tiến trình thế tục hóa, giảm tầm ảnh hưởng của tôn giáo",
+            "syns": [
+              "de-Christianization",
+              "temporalization"
+            ],
+            "ex": "Rapid secularization across urban centers has changed societal values."
+          },
+          {
+            "word": "hemorrhage",
+            "pos": "n, v",
+            "ipa": "/ˈhem.ər.ɪdʒ/",
+            "level": "C1",
+            "mean": "sự hao hụt mất mát nghiêm trọng (chảy máu nhân lực/thành viên)",
+            "syns": [
+              "heavy loss",
+              "depletion",
+              "drain"
+            ],
+            "ex": "Mainline churches experienced a massive membership hemorrhage over the last three decades."
+          },
+          {
+            "word": "unaffiliated",
+            "pos": "adj",
+            "ipa": "/ˌʌn.əˈfɪl.i.eɪ.tɪd/",
+            "level": "B2",
+            "mean": "không liên kết, không thuộc tổ chức/giáo phái nào",
+            "syns": [
+              "independent",
+              "autonomous",
+              "uncommitted"
+            ],
+            "ex": "Nearly thirty percent of American adults now describe themselves as religiously unaffiliated."
+          },
+          {
+            "word": "ecclesiastical",
+            "pos": "adj",
+            "ipa": "/ɪˌkliː.ziˈæs.tɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc về giáo hội, tăng lữ",
+            "syns": [
+              "clerical",
+              "churchly",
+              "canonical"
+            ],
+            "ex": "Younger generations increasingly reject rigid ecclesiastical hierarchies."
+          },
+          {
+            "word": "politicization",
+            "pos": "n",
+            "ipa": "/pəˌlɪt.ɪ.saɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự chính trị hóa",
+            "syns": [
+              "ideological framing",
+              "partisan entanglement"
+            ],
+            "ex": "The politicization of faith-based pulpits drove many moderate believers away from churches."
+          },
+          {
+            "word": "hegemony",
+            "pos": "n",
+            "ipa": "/hɪˈɡem.ən.i/",
+            "level": "C1",
+            "mean": "quyền bá chủ, thế thống trị tuyệt đối",
+            "syns": [
+              "dominance",
+              "supremacy",
+              "ascendancy"
+            ],
+            "ex": "The cultural hegemony of mainline Protestantism eroded during the late twentieth century."
+          },
+          {
+            "word": "pluralism",
+            "pos": "n",
+            "ipa": "/ˈplʊə.rəl.ɪ.zəm/",
+            "level": "C1",
+            "mean": "tính đa nguyên, cùng tồn tại hòa bình giữa nhiều tôn giáo",
+            "syns": [
+              "diversity",
+              "multiculturalism",
+              "coexistence"
+            ],
+            "ex": "Religious pluralism is now an undeniable feature of modern American metropolitan life."
+          },
+          {
+            "word": "wane",
+            "pos": "v",
+            "ipa": "/weɪn/",
+            "level": "C1",
+            "mean": "suy giảm, lụi tàn dần",
+            "syns": [
+              "decline",
+              "diminish",
+              "ebb"
+            ],
+            "ex": "As traditional church influence wanes, civic organizations seek new shared ethical frameworks."
+          },
+          {
+            "word": "populace",
+            "pos": "n",
+            "ipa": "/ˈpɒp.jə.ləs/",
+            "level": "C1",
+            "mean": "quần chúng, dân chúng trong một quốc gia",
+            "syns": [
+              "public",
+              "citizens",
+              "general population"
+            ],
+            "ex": "Engaging a pluralistic populace requires inclusive democratic dialogue."
+          },
+          {
+            "word": "anomaly",
+            "pos": "n",
+            "ipa": "/əˈnɒm.ə.li/",
+            "level": "C1",
+            "mean": "hiện tượng dị thường, sự bất thường khác lạ so với quy luật",
+            "syns": [
+              "aberration",
+              "peculiarity",
+              "exception",
+              "irregularity"
+            ],
+            "ex": "High religious devotion in an industrialized powerhouse rendered America a demographic anomaly."
+          },
+          {
+            "word": "adherence",
+            "pos": "n",
+            "ipa": "/ədˈhɪə.rəns/",
+            "level": "C1",
+            "mean": "sự gắn bó trung thành, việc tuân giữ đức tin/quy tắc nghiêm ngặt",
+            "syns": [
+              "devotion",
+              "faithfulness",
+              "allegiance",
+              "commitment"
+            ],
+            "ex": "Sociologists monitored the steady decline of religious adherence across modern urban demographics."
+          },
+          {
+            "word": "robust",
+            "pos": "adj",
+            "ipa": "/rəʊˈbʌst/",
+            "level": "B2",
+            "mean": "mạnh mẽ, kiên cường và có sức chống chịu cao",
+            "syns": [
+              "strong",
+              "vigorous",
+              "sturdy",
+              "hearty"
+            ],
+            "ex": "Until recent decades, church attendance in the American Midwest remained remarkably robust."
+          },
+          {
+            "word": "faith-based",
+            "pos": "adj",
+            "ipa": "/ˈfeɪθ.beɪst/",
+            "level": "B2",
+            "mean": "dựa trên niềm tin tôn giáo, thuộc về các hội thánh/nhà thờ",
+            "syns": [
+              "religious",
+              "confessional",
+              "ecclesiastical"
+            ],
+            "ex": "Faith-based charity programs provided vital community food assistance during hard economic years."
+          },
+          {
+            "word": "unravel",
+            "pos": "v",
+            "ipa": "/ʌnˈræv.əl/",
+            "level": "C1",
+            "mean": "tan vỡ, rã rời hoặc dần sáng tỏ sau thời gian dài che đậy",
+            "syns": [
+              "fall apart",
+              "disintegrate",
+              "come apart",
+              "unwind"
+            ],
+            "ex": "The long-standing paradigm of universal church membership has unraveled in modern metropolitan areas."
+          },
+          {
+            "word": "seismic",
+            "pos": "adj",
+            "ipa": "/ˈsaɪz.mɪk/",
+            "level": "C1",
+            "mean": "thuộc địa chấn, có sức biến động làm rung chuyển sâu sắc",
+            "syns": [
+              "earth-shattering",
+              "colossal",
+              "momentous",
+              "transformative"
+            ],
+            "ex": "The growth of non-religious citizens represents a seismic cultural transformation across the continent."
+          },
+          {
+            "word": "denomination",
+            "pos": "n",
+            "ipa": "/dɪˌnɒm.ɪˈneɪ.ʃən/",
+            "level": "C1",
+            "mean": "giáo phái, tông phái tôn giáo lớn có tổ chức riêng",
+            "syns": [
+              "sect",
+              "religious branch",
+              "order",
+              "communion"
+            ],
+            "ex": "Mainline Protestant denominations have witnessed an aging membership and empty pews."
+          },
+          {
+            "word": "establishment",
+            "pos": "n",
+            "ipa": "/ɪˈstæb.lɪʃ.mənt/",
+            "level": "C1",
+            "mean": "tầng lớp tinh hoa truyền thống nắm giữ quyền lực và văn hóa",
+            "syns": [
+              "ruling elite",
+              "power structure",
+              "status quo",
+              "institutions"
+            ],
+            "ex": "The political establishment once drew its most influential members almost exclusively from traditional churches."
+          },
+          {
+            "word": "cohort",
+            "pos": "n",
+            "ipa": "/ˈkəʊ.hɔːt/",
+            "level": "C1",
+            "mean": "nhóm đối tượng nhân khẩu học cùng chung thời kỳ hoặc đặc điểm",
+            "syns": [
+              "demographic group",
+              "generation",
+              "contingent",
+              "cadre"
+            ],
+            "ex": "The Millennial cohort displays much higher rates of secularity than their grandparents' generation."
+          },
+          {
+            "word": "atheist",
+            "pos": "n",
+            "ipa": "/ˈeɪ.θi.ɪst/",
+            "level": "B2",
+            "mean": "người vô thần, người không tin vào sự tồn tại của thần linh",
+            "syns": [
+              "non-believer",
+              "skeptic",
+              "secularist"
+            ],
+            "ex": "While many youth disassociate from organized religion, only a portion identify as committed atheists."
+          },
+          {
+            "word": "materialist",
+            "pos": "n",
+            "ipa": "/məˈtɪə.ri.ə.lɪst/",
+            "level": "C1",
+            "mean": "người theo chủ nghĩa duy vật (chỉ tin vào thực tại vật lý cụ thể)",
+            "syns": [
+              "physicalist",
+              "empiricist"
+            ],
+            "ex": "Strict materialists argue that only measurable physical phenomena constitute genuine knowledge."
+          },
+          {
+            "word": "existential",
+            "pos": "adj",
+            "ipa": "/ˌeɡ.zɪˈsten.ʃəl/",
+            "level": "C1",
+            "mean": "thuộc về sự hiện sinh, liên quan đến ý nghĩa và bản chất sự sống",
+            "syns": [
+              "philosophical",
+              "experiential",
+              "pertaining to existence"
+            ],
+            "ex": "Secular individuals frequently explore existential dilemmas through literature, philosophy, and mindfulness."
+          },
+          {
+            "word": "abolish",
+            "pos": "v",
+            "ipa": "/əˈbɒl.ɪʃ/",
+            "level": "B2",
+            "mean": "bãi bỏ, hủy bỏ chính thức một đạo luật hoặc hạn ngạch",
+            "syns": [
+              "rescind",
+              "repeal",
+              "annul",
+              "terminate"
+            ],
+            "ex": "The historic 1965 law abolished discriminatory nationality quotas, opening immigration from around the globe."
+          },
+          {
+            "word": "mosaic",
+            "pos": "n",
+            "ipa": "/məʊˈzeɪ.ɪk/",
+            "level": "B2",
+            "mean": "bức tranh ghép đa sắc tộc/văn hóa đa dạng phong phú",
+            "syns": [
+              "patchwork",
+              "tapestry",
+              "medley",
+              "kaleidoscope"
+            ],
+            "ex": "Immigration transformed the religious landscape into a vibrant mosaic of Eastern and Western faiths."
+          },
+          {
+            "word": "gurdwara",
+            "pos": "n",
+            "ipa": "/ɡʊədˈwɑː.rə/",
+            "level": "B2",
+            "mean": "ngôi đền tôn giáo của cộng đồng người theo đạo Sikh",
+            "syns": [
+              "Sikh temple",
+              "place of worship"
+            ],
+            "ex": "The local gurdwara opens its communal kitchen daily to offer free vegetarian meals to all visitors."
+          },
+          {
+            "word": "tethered",
+            "pos": "adj",
+            "ipa": "/ˈteð.əd/",
+            "level": "C1",
+            "mean": "bị ràng buộc, gắn kết chặt chẽ không thể tách rời",
+            "syns": [
+              "bound",
+              "tied",
+              "linked",
+              "anchored"
+            ],
+            "ex": "National citizenship is no longer exclusively tethered to any singular faith heritage."
+          },
+          {
+            "word": "consensus",
+            "pos": "n",
+            "ipa": "/kənˈsen.səs/",
+            "level": "B2",
+            "mean": "sự đồng thuận chung, sự nhất trí của đa số quần chúng",
+            "syns": [
+              "agreement",
+              "harmony",
+              "unanimity",
+              "common accord"
+            ],
+            "ex": "As the old moral consensus wanes, civic leaders work to establish shared ethical grounds for civil discourse."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "Which of the following best captures the central theme of the passage?",
+            "questionVi": "Câu nào sau đây nắm bắt tốt nhất chủ đề trung tâm của bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The historical reasons why Western Europe remains the most religious region in the world",
+              "The dramatic ongoing restructuring of the American religious landscape through secularization, the rise of the unaffiliated, and global pluralism",
+              "The complete legal eradication of all religious freedoms under modern American constitutional law",
+              "A technical critique of the financial accounting practices within modern Protestant churches"
+            ],
+            "optionsVi": [
+              "Các lý do lịch sử giải thích tại sao Tây Âu vẫn là khu vực sùng đạo nhất trên thế giới",
+              "Sự tái cấu trúc sâu sắc đang diễn ra trong bức tranh tôn giáo Mỹ thông qua thế tục hóa, sự gia tăng của nhóm không tôn giáo và tính đa nguyên toàn cầu",
+              "Sự xóa bỏ hoàn toàn về mặt pháp lý đối với mọi quyền tự do tôn giáo theo hiến pháp Mỹ",
+              "Sự phê phán kỹ thuật về các hoạt động kế toán tài chính trong các nhà thờ Tin Lành hiện đại"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "National demographic surveys... indicate that American religious affiliation is undergoing a seismic restructuring... rise of the religiously unaffiliated... burgeoning pluralism... [Paragraph 2, 3, 4, 5]",
+            "evidenceVi": "Các khảo sát nhân khẩu học quốc gia... chỉ ra rằng sự liên kết tôn giáo của người Mỹ đang trải qua một sự tái cấu trúc địa chấn... sự trỗi dậy của nhóm không tôn giáo... tính đa nguyên phát triển mạnh mẽ... [Đoạn 2-5]",
+            "explanation": "Toàn bài phân tích sự chuyển dịch mang tính bước ngoặt của tôn giáo Mỹ: từ ngoại lệ sùng đạo (Đoạn 1) sang suy giảm giáo phái truyền thống (Đoạn 2), trỗi dậy của nhóm 'Nones' (Đoạn 3), sự đa dạng hóa do nhập cư (Đoạn 4) và hệ quả xã hội (Đoạn 5).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề trung tâm (Central Theme)",
+              "cluePassage": "American religious affiliation is undergoing a seismic restructuring... rise of the \"Nones\"... burgeoning pluralism",
+              "clueAnswer": "The dramatic ongoing restructuring of the American religious landscape through secularization, the rise of the unaffiliated, and global pluralism",
+              "keyPassage": "seismic restructuring, secularization, Nones, pluralism",
+              "keyAnswer": "restructuring of American religious landscape through secularization, unaffiliated, pluralism",
+              "paraphrasePair": "seismic restructuring <=> dramatic ongoing restructuring | Nones <=> the unaffiliated",
+              "meaningVi": "tái cấu trúc địa chấn <=> tái cấu trúc sâu sắc | nhóm Nones <=> nhóm không tôn giáo",
+              "deductionLogic": "Phương án B tổng hợp trọn vẹn cả 3 động lực chính của sự biến đổi tôn giáo được phân tích trong bài."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "The word \"exceptionalism\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"exceptionalism\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "uniqueness and deviation from general trends",
+              "complete conformity to common patterns",
+              "extreme military superiority",
+              "severe financial insolvency"
+            ],
+            "optionsVi": [
+              "tính độc đáo đặc thù và khác biệt với xu hướng chung",
+              "sự tuân thủ hoàn toàn theo khuôn mẫu phổ biến",
+              "sự vượt trội tuyệt đối về quân sự",
+              "tình trạng mất khả năng thanh toán tài chính nghiêm trọng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The United States, however, appeared to defy this thesis, demonstrating persistent \"religious exceptionalism.\" [Paragraph 1]",
+            "evidenceVi": "Tuy nhiên, nước Mỹ dường như đã bất tuân luận thuyết này, thể hiện \"tính đặc thù ngoại lệ tôn giáo\" dai dẳng. [Đoạn 1]",
+            "explanation": "\"Exceptionalism\" chỉ trạng thái khác biệt, là một ngoại lệ đặc thù không tuân theo quy luật chung của các nước khác (uniqueness, deviation from the normal rule).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "appeared to defy this thesis, demonstrating persistent \"religious exceptionalism\"",
+              "clueAnswer": "uniqueness and deviation from general trends",
+              "keyPassage": "exceptionalism",
+              "keyAnswer": "uniqueness and deviation from general trends",
+              "paraphrasePair": "exceptionalism <=> uniqueness and deviation from trends",
+              "meaningVi": "tính ngoại lệ đặc thù <=> tính độc đáo và khác biệt với xu hướng",
+              "deductionLogic": "Trong khi Tây Âu thế tục hóa, Mỹ vẫn sùng đạo, tạo thành một 'ngoại lệ lịch sử'."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "According to paragraph 1, how did the United States historically contrast with Western European democracies?",
+            "questionVi": "Theo đoạn 1, nước Mỹ trước đây có sự tương phản như thế nào so với các nền dân chủ Tây Âu?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "It banned all forms of religious practice in public schools.",
+              "It maintained remarkably robust levels of church attendance and religious participation.",
+              "It experienced a complete disappearance of Christianity in the eighteenth century.",
+              "It legally established a single national church mandated by the president."
+            ],
+            "optionsVi": [
+              "Nó cấm mọi hình thức thực hành tôn giáo trong các trường học công lập.",
+              "Nó duy trì mức độ đi lễ nhà thờ và tham gia tôn giáo mạnh mẽ một cách đáng chú ý.",
+              "Nó trải qua sự biến mất hoàn toàn của Kitô giáo vào thế kỷ 18.",
+              "Nó thiết lập một giáo hội quốc gia duy nhất theo luật do tổng thống chỉ định."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "American communities exhibited remarkably robust church attendance rates, high levels of personal prayer, and an influential public role for faith-based discourse, distinguishing the nation from its industrialized peers... [Paragraph 1]",
+            "evidenceVi": "Các cộng đồng người Mỹ thể hiện tỷ lệ đi lễ nhà thờ mạnh mẽ đáng chú ý, mức độ cầu nguyện cá nhân cao và vai trò công chúng có sức ảnh hưởng của ngôn luận đức tin, tạo nên sự khác biệt... [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ: Mỹ khác biệt với Tây Âu ở tỷ lệ đi lễ cao (robust church attendance rates), mức độ cầu nguyện cao và đức tin có tiếng nói lớn trong xã hội.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết so sánh (Factual Comparison)",
+              "cluePassage": "remarkably robust church attendance rates, high levels of personal prayer, and an influential public role",
+              "clueAnswer": "It maintained remarkably robust levels of church attendance and religious participation",
+              "keyPassage": "robust church attendance rates, high levels of personal prayer",
+              "keyAnswer": "robust levels of church attendance and religious participation",
+              "paraphrasePair": "robust church attendance rates <=> robust levels of church attendance and participation",
+              "meaningVi": "tỷ lệ đi lễ nhà thờ mạnh mẽ <=> mức độ đi lễ và tham gia tôn giáo mạnh mẽ",
+              "deductionLogic": "Phương án B phản ánh trực tiếp câu miêu tả sự khác biệt giữa Mỹ và các nước Tây Âu ở cuối đoạn 1."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "According to paragraph 2, what major change has occurred within Mainline Protestant denominations in recent decades?",
+            "questionVi": "Theo đoạn 2, sự thay đổi lớn nào đã xảy ra đối với các giáo phái Tin Lành dòng chính trong những thập kỷ gần đây?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "They experienced severe losses in membership and cultural influence.",
+              "They became the mandatory state religion of all fifty states.",
+              "They completely merged with the Roman Catholic Church.",
+              "Their congregations doubled in size every five years."
+            ],
+            "optionsVi": [
+              "Họ phải chịu sự sụt giảm nghiêm trọng về số lượng thành viên và sức ảnh hưởng văn hóa.",
+              "Họ trở thành tôn giáo bắt buộc của toàn bộ 50 bang.",
+              "Họ sáp nhập hoàn toàn vào Giáo hội Công giáo La Mã.",
+              "Các giáo đoàn của họ tăng gấp đôi quy mô sau mỗi 5 năm."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Mainline Protestant denominations, such as the Episcopalians, Presbyterians, and Methodists... have experienced severe membership hemorrhages. [Paragraph 2]",
+            "evidenceVi": "Các giáo phái Tin Lành dòng chính như Anh giáo, Trưởng Lão và Giám Lý... đã phải trải qua sự hao hụt thành viên nghiêm trọng. [Đoạn 2]",
+            "explanation": "Đoạn 2 khẳng định các giáo phái Tin Lành dòng chính ('Mainline Protestant denominations') đã trải qua sự sụt giảm thành viên nghiêm trọng ('severe membership hemorrhages').",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết suy giảm (Factual Detail)",
+              "cluePassage": "have experienced severe membership hemorrhages",
+              "clueAnswer": "They experienced severe losses in membership and cultural influence",
+              "keyPassage": "severe membership hemorrhages",
+              "keyAnswer": "severe losses in membership",
+              "paraphrasePair": "membership hemorrhages <=> losses in membership",
+              "meaningVi": "chảy máu thành viên nghiêm trọng <=> tổn thất nghiêm trọng về thành viên",
+              "deductionLogic": "Thuật ngữ ẩn dụ y học 'hemorrhages' (xuất huyết) được diễn giải chuẩn xác thành sự sụt giảm nghiêm trọng về thành viên."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "According to paragraph 3, which of the following is true about the group known as the \"Nones\"?",
+            "questionVi": "Theo đoạn 3, điều nào sau đây là đúng về nhóm người được gọi là \"Nones\"?",
+            "questionType": "DẠNG 07: THÔNG TIN CHI TIẾT (Factual Detail)",
+            "options": [
+              "They are strictly militant atheists who deny any personal spiritual morality.",
+              "They represent nearly thirty percent of adults and often reject institutional church hierarchies while holding personal moral beliefs.",
+              "They were legally created by an executive decree signed in 1990.",
+              "They constitute a tiny fringe movement of fewer than one percent of citizens."
+            ],
+            "optionsVi": [
+              "Họ là những người vô thần cực đoan phủ nhận mọi đạo đức tâm linh cá nhân.",
+              "Họ chiếm gần 30% người trưởng thành và thường từ chối các giáo hội thể chế trong khi vẫn giữ các chuẩn mực đạo đức cá nhân.",
+              "Họ được thành lập hợp pháp bởi một sắc lệnh hành pháp ký năm 1990.",
+              "Họ tạo thành một phong trào thiểu số nhỏ bé chiếm dưới 1% công dân."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In the early 1990s, the Nones comprised less than ten percent... today, they represent nearly thirty percent... rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas... while retaining deeply personal moral codes and existential curiosity. [Paragraph 3]",
+            "evidenceVi": "Đầu thập niên 1990 nhóm Nones chiếm dưới 10%... ngày nay họ chiếm gần 30%... từ bỏ thứ bậc giáo hội quyền uy, giáo điều bắt buộc... trong khi vẫn giữ các quy tắc đạo đức cá nhân sâu sắc. [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ rõ: Nones hiện chiếm gần 30% dân số, không hẳn là vô thần cực đoan mà phần lớn là 'spiritual but not religious' (có tâm linh nhưng không theo tôn giáo thể chế).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết đặc tính (Factual Detail)",
+              "cluePassage": "represent nearly thirty percent... rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas... while retaining deeply personal moral codes",
+              "clueAnswer": "They represent nearly thirty percent of adults and often reject institutional church hierarchies while holding personal moral beliefs",
+              "keyPassage": "represent nearly thirty percent, rejecting hierarchies, retaining moral codes",
+              "keyAnswer": "nearly thirty percent, reject hierarchies, holding personal moral beliefs",
+              "paraphrasePair": "rejecting ecclesiastical hierarchies <=> reject institutional church hierarchies | retaining personal moral codes <=> holding personal moral beliefs",
+              "meaningVi": "từ bỏ đẳng cấp giáo hội <=> từ chối thứ bậc giáo hội thể chế | giữ quy tắc đạo đức riêng",
+              "deductionLogic": "Phương án B tổng hợp chính xác dữ liệu tỷ lệ phần trăm (gần 30%) và đặc trưng tâm lý của nhóm 'Nones'."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "The word \"ecclesiastical\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"ecclesiastical\" trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: CÂU HỎI TỪ VỰNG (Vocabulary in Context)",
+            "options": [
+              "relating to church or clerical institutions",
+              "purely scientific and empirical",
+              "strictly financial and commercial",
+              "temporary and transient"
+            ],
+            "optionsVi": [
+              "thuộc về nhà thờ hoặc các thể chế tăng lữ giáo hội",
+              "hoàn toàn mang tính khoa học và thực nghiệm",
+              "hoàn toàn mang tính tài chính và thương mại",
+              "tạm thời và ngắn ngủi"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas, and the increasing politicization of organized religion... [Paragraph 3]",
+            "evidenceVi": "...từ bỏ các hệ thống thứ bậc giáo hội quyền uy, các giáo điều mang tính bắt buộc và sự chính trị hóa ngày càng tăng của tôn giáo có tổ chức... [Đoạn 3]",
+            "explanation": "\"Ecclesiastical\" có nghĩa là thuộc về giáo hội, tăng lữ hoặc nhà thờ (relating to the Christian Church or its clergy).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng trong ngữ cảnh (Vocabulary)",
+              "cluePassage": "authoritarian ecclesiastical hierarchies, mandatory dogmas",
+              "clueAnswer": "relating to church or clerical institutions",
+              "keyPassage": "ecclesiastical hierarchies",
+              "keyAnswer": "relating to church or clerical institutions",
+              "paraphrasePair": "ecclesiastical <=> relating to church or clergy",
+              "meaningVi": "thuộc về giáo hội <=> thuộc về nhà thờ hoặc giáo sĩ",
+              "deductionLogic": "Cụm 'ecclesiastical hierarchies' chỉ hệ thống phân cấp phẩm trật của giáo hội."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "Which of the following reasons is NOT cited in paragraph 3 as a motivation for people distancing themselves from organized religion?",
+            "questionVi": "Lý do nào sau đây KHÔNG được trích dẫn trong đoạn 3 như một động cơ khiến mọi người xa rời tôn giáo có tổ chức?",
+            "questionType": "DẠNG 04: CÂU HỎI PHỦ ĐỊNH (Negative Factual / EXCEPT)",
+            "options": [
+              "Rejection of rigid, mandatory dogmas",
+              "Resistance against authoritarian ecclesiastical hierarchies",
+              "The increasing politicization of organized religion",
+              "A legal prohibition preventing citizens from entering houses of worship"
+            ],
+            "optionsVi": [
+              "Sự phản đối các giáo điều bắt buộc cứng nhắc",
+              "Sự phản kháng trước các hệ thống thứ bậc giáo hội quyền uy",
+              "Sự chính trị hóa ngày càng gia tăng của tôn giáo có tổ chức",
+              "Một lệnh cấm theo luật pháp ngăn cản người dân bước vào các nơi thờ tự"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "...rejecting authoritarian ecclesiastical hierarchies, mandatory dogmas, and the increasing politicization of organized religion... [Paragraph 3]",
+            "evidenceVi": "Đoạn 3 liệt kê 3 nguyên nhân: thứ bậc quyền uy (B), giáo điều bắt buộc (A), và sự chính trị hóa tôn giáo (C). Nước Mỹ có quyền tự do tôn giáo, hoàn toàn không có luật nào cấm bước vào nơi thờ tự (D).",
+            "explanation": "Phương án D hoàn toàn sai thực tế pháp lý và không được nhắc đến trong bài đọc.",
+            "postReading": {
+              "type": "negative",
+              "typeLabel": "Thông tin loại trừ (Negative Detail)",
+              "cluePassage": "authoritarian ecclesiastical hierarchies, mandatory dogmas, and the increasing politicization of organized religion",
+              "clueAnswer": "A legal prohibition preventing citizens from entering houses of worship",
+              "keyPassage": "reasons: hierarchies, dogmas, politicization",
+              "keyAnswer": "legal prohibition is non-existent",
+              "paraphrasePair": "causes of disaffiliation <=> internal grievances, not external legal bans",
+              "meaningVi": "nguyên nhân ly khai tôn giáo <=> do nội tại giáo hội và chính trị hóa, không phải lệnh cấm luật pháp",
+              "deductionLogic": "Phương án D đưa ra thông tin giả định vô căn cứ trái ngược với hiến pháp bảo đảm tự do tôn giáo của Mỹ."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4 that indicate where the following sentence could be added:\n\"This landmark legislative reform opened immigration pathways to diverse peoples from previously excluded regions.\"\nWhere would the sentence best fit?",
+            "questionVi": "Xem bốn vị trí [A], [B], [C], và [D] trong đoạn 4. Câu trên điền vào vị trí nào là thích hợp nhất?",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "Vị trí [A]",
+              "Vị trí [B]",
+              "Vị trí [C]",
+              "Vị trí [D]"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "[A] The passage of the Immigration and Nationality Act of 1965 abolished national-origin quotas, stimulating significant migration from Asia, Africa, the Middle East, and Latin America. [B] Consequently, traditional Judeo-Christian hegemony has evolved... [Paragraph 4]",
+            "evidenceVi": "Vị trí [B] đứng ngay sau câu nhắc đến 'The passage of the Immigration and Nationality Act of 1965 abolished national-origin quotas' để giải thích: 'This landmark legislative reform...' (Cải cách lập pháp mang tính bước ngoặt này đã mở ra các lộ trình nhập cư...).",
+            "explanation": "\"This landmark legislative reform\" (Cải cách lập pháp mang tính bước ngoặt này) thay thế trực tiếp cho \"Immigration and Nationality Act of 1965\" được ban hành ở câu trước vị trí [B].",
+            "postReading": {
+              "type": "insertion",
+              "typeLabel": "Điền câu logic (Sentence Insertion)",
+              "cluePassage": "passage of the Immigration and Nationality Act of 1965 abolished national-origin quotas... [B] Consequently...",
+              "clueAnswer": "[B]",
+              "keyPassage": "Immigration and Nationality Act of 1965",
+              "keyAnswer": "This landmark legislative reform",
+              "paraphrasePair": "Act of 1965 <=> this landmark legislative reform",
+              "meaningVi": "Đạo luật năm 1965 <=> cải cách lập pháp bước ngoặt này",
+              "deductionLogic": "Cụm 'This landmark legislative reform' chỉ có thể nối tiếp ngay sau khi tên đạo luật được đề cập ở câu trước [B]."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "The phrase \"This burgeoning pluralism\" in paragraph 4 refers to:",
+            "questionVi": "Cụm từ \"This burgeoning pluralism\" trong đoạn 4 ám chỉ điều gì?",
+            "questionType": "DẠNG 03: QUY CHIẾU ĐẠI TỪ (Reference Question)",
+            "options": [
+              "the rapid expansion of mosques, Hindu temples, Buddhist centers, and other diverse places of worship",
+              "the total demolition of historic churches across the nation",
+              "the establishment of mandatory Christian prayer in all government offices",
+              "the complete restriction of foreign immigration after 1965"
+            ],
+            "optionsVi": [
+              "sự mở rộng nhanh chóng của các nhà thờ Hồi giáo, đền thờ Ấn Độ giáo, trung tâm Phật giáo và các địa điểm thờ tự đa dạng khác",
+              "sự phá hủy hoàn toàn các nhà thờ lịch sử trên toàn quốc",
+              "việc thiết lập lễ cầu nguyện Kitô giáo bắt buộc trong mọi công sở chính phủ",
+              "sự hạn chế hoàn toàn nhập cư nước ngoài sau năm 1965"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Expanding mosques, Hindu temples, Buddhist meditation centers, and Sikh gurdwaras now dot suburban and metropolitan landscapes across the American sunbelt and Midwest. This burgeoning pluralism has challenged... [Paragraph 4]",
+            "evidenceVi": "Các nhà thờ Hồi giáo, đền Hindu, trung tâm thiền Phật giáo và đền Sikh đang mở rộng... Sự đa nguyên đang phát triển mạnh mẽ này đã thách thức... [Đoạn 4]",
+            "explanation": "\"This burgeoning pluralism\" (Sự đa nguyên đang phát triển mạnh mẽ này) tóm lược sự xuất hiện và nhân rộng của các đền chùa, thánh đường thuộc nhiều tôn giáo châu Á và Trung Đông ở câu trước.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Quy chiếu thực thể (Reference)",
+              "cluePassage": "Expanding mosques, Hindu temples, Buddhist meditation centers, and Sikh gurdwaras... This burgeoning pluralism",
+              "clueAnswer": "the rapid expansion of mosques, Hindu temples, Buddhist centers, and other diverse places of worship",
+              "keyPassage": "Expanding mosques, Hindu temples, Buddhist meditation centers",
+              "keyAnswer": "rapid expansion of mosques, Hindu temples, Buddhist centers",
+              "paraphrasePair": "burgeoning pluralism => expanding mosques, temples, meditation centers",
+              "meaningVi": "sự đa nguyên phát triển nhanh => sự mở rộng các thánh đường, đền đài, trung tâm thiền",
+              "deductionLogic": "Khái niệm 'burgeoning pluralism' thay thế cho danh sách các cơ sở tôn giáo đa dạng vừa được liệt kê."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "What can be inferred from paragraph 5 regarding the future of American public and civic life?",
+            "questionVi": "Có thể suy luận được điều gì từ đoạn 5 về tương lai của đời sống công và dân sự tại Mỹ?",
+            "questionType": "DẠNG 05: CÂU HỎI SUY LUẬN (Inference Question)",
+            "options": [
+              "American society will easily achieve unanimous agreement on all ethical and political matters.",
+              "Traditional religious homogeneity is permanently disappearing, requiring new secular frameworks to maintain civic cohesion.",
+              "All younger citizens will return en masse to conservative eighteenth-century church doctrines.",
+              "Political polarization will completely vanish within the next few months."
+            ],
+            "optionsVi": [
+              "Xã hội Mỹ sẽ dễ dàng đạt được sự đồng thuận tuyệt đối về mọi vấn đề đạo đức và chính trị.",
+              "Tính đồng nhất tôn giáo truyền thống đang vĩnh viễn biến mất, đòi hỏi các khuôn khổ thế tục mới để duy trì sự gắn kết công dân.",
+              "Tất cả công dân trẻ tuổi sẽ đồng loạt quay trở lại các giáo điều bảo thủ của thế kỷ 18.",
+              "Sự phân cực chính trị sẽ biến mất hoàn toàn trong vài tháng tới."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "As traditional religious consensus wanes, American society faces the complex challenge of cultivating secular civic spaces and shared ethical frameworks capable of fostering democratic cohesion across an exceptionally pluralistic, post-denominational populace. [Paragraph 5]",
+            "evidenceVi": "Khi sự đồng thuận tôn giáo truyền thống suy tàn, xã hội Mỹ đối mặt với thách thức phức tạp là xây dựng các không gian dân sự thế tục và các khuôn khổ đạo đức chung có khả năng nuôi dưỡng sự gắn kết dân chủ... [Đoạn 5]",
+            "explanation": "\"As traditional religious consensus wanes... challenge of cultivating secular civic spaces and shared ethical frameworks\" suy ra rằng sự đồng nhất tôn giáo cũ đang tan rã, buộc xã hội phải tìm các khuôn khổ đạo đức công dân thế tục mới.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận logic (Inference)",
+              "cluePassage": "As traditional religious consensus wanes, American society faces the complex challenge of cultivating secular civic spaces and shared ethical frameworks",
+              "clueAnswer": "Traditional religious homogeneity is permanently disappearing, requiring new secular frameworks to maintain civic cohesion",
+              "keyPassage": "traditional consensus wanes, challenge of cultivating secular frameworks",
+              "keyAnswer": "religious homogeneity disappearing, requiring new secular frameworks",
+              "paraphrasePair": "traditional religious consensus wanes <=> religious homogeneity disappearing | cultivating secular frameworks <=> requiring new secular frameworks",
+              "meaningVi": "sự đồng thuận tôn giáo truyền thống suy giảm <=> sự đồng nhất tôn giáo biến mất | xây dựng khuôn khổ thế tục",
+              "deductionLogic": "Đoạn 5 khẳng định xã hội Mỹ hậu giáo phái (post-denominational) đang phân cực và cần các nền tảng đạo đức thế tục mới để giữ vững nền dân chủ."
+            }
+          }
+        ]
+      }
+    ]
+  }
 ];
 
-if (typeof window !== "undefined") { window.READING_MOCK_TESTS = READING_MOCK_TESTS; }
-if (typeof globalThis !== "undefined") { globalThis.READING_MOCK_TESTS = READING_MOCK_TESTS; }
+// Browser environment check
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { READING_MOCK_TESTS };
+}
