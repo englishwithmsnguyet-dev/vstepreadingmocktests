@@ -1550,6 +1550,7 @@ function renderPracticeView() {
     if (filter === 'all' || filter === 'suite11') {
         const savedAnsCount11 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 11) ? Object.keys(state.savedExam.answers).length : 0;
         const isSaved11 = state.savedExam && state.savedExam.testNum === 11 && savedAnsCount11 > 0;
+        const totalVocab11 = (test11 && test11.passages) ? test11.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 40;
 
         const passagesMeta11 = [
             {
@@ -1686,13 +1687,13 @@ function renderPracticeView() {
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> 40 từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab11} từ vựng cốt lõi</span>
                             <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
                     <div class="suite-header-actions">
                         <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(11)">
-                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (40 TỪ)
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab11} TỪ)
                         </button>
                         <button class="primary-btn btn-suite-exam" style="${isSaved11 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved11 ? 'resumeSavedExam()' : 'startFullExam(11)'}">
                             ${isSaved11 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount11}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
@@ -1721,6 +1722,7 @@ function renderPracticeView() {
     if (filter === 'all' || filter === 'suite12') {
         const savedAnsCount12 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 12) ? Object.keys(state.savedExam.answers).length : 0;
         const isSaved12 = state.savedExam && state.savedExam.testNum === 12 && savedAnsCount12 > 0;
+        const totalVocab12 = (test12 && test12.passages) ? test12.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 40;
 
         const passagesMeta12 = [
             {
@@ -1857,13 +1859,13 @@ function renderPracticeView() {
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> 40 từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab12} từ vựng cốt lõi</span>
                             <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
                     <div class="suite-header-actions">
                         <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(12)">
-                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (40 TỪ)
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab12} TỪ)
                         </button>
                         <button class="primary-btn btn-suite-exam" style="${isSaved12 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved12 ? 'resumeSavedExam()' : 'startFullExam(12)'}">
                             ${isSaved12 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount12}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
