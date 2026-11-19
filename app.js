@@ -1518,11 +1518,10 @@ function updateSidebarProgress() {
 }
 
 // =========================================================================
-// PHÒNG LUYỆN ĐỌC THEO CHỦ ĐỀ THỰC CHIẾN (PRACTICE LOUNGE)
+// PHÒNG LUYỆN ĐỌC THEO BỘ ĐỀ THỰC CHIẾN (1 TEST = 4 TOPICS CHUẨN HÓA)
 // =========================================================================
 state.practice = {
-    filter: 'all',
-    activeSet: 11
+    filter: 'all'
 };
 
 function filterPracticeTopics(filterKey, btnEl) {
@@ -1534,263 +1533,728 @@ function filterPracticeTopics(filterKey, btnEl) {
 }
 
 function renderPracticeView() {
-    const container = document.getElementById('practice-cards-container');
+    const container = document.getElementById('practice-test-suites-container');
     if (!container) return;
-
-    const banner11 = document.getElementById('practice-full-set-banner-11');
-    const banner12 = document.getElementById('practice-full-set-banner-12');
-    const upcomingSection = document.getElementById('practice-upcoming-section');
 
     const tests = getMockTests() || [];
     const test11 = tests.find(t => t.testNum === 11);
     const test12 = tests.find(t => t.testNum === 12);
 
-    if (!test11 && !test12) {
-        container.innerHTML = '<p style="color:var(--text-muted); padding: 20px;">Đang tải dữ liệu bài đọc thực chiến...</p>';
-        return;
-    }
-
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
-    // Show/hide banners based on filter
-    if (banner11) {
-        if (filter === 'upcoming' || filter === 'review02') {
-            banner11.style.display = 'none';
-        } else {
-            banner11.style.display = 'flex';
-        }
-    }
+    let suitesHtml = '';
 
-    if (banner12) {
-        if (filter === 'upcoming' || filter === 'review01') {
-            banner12.style.display = 'none';
-        } else {
-            banner12.style.display = 'flex';
-        }
-    }
+    // =========================================================================
+    // 1. BỘ ĐỀ THỰC CHIẾN 01 (TEST 11) - ĐÃ PHÁT HÀNH
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite11') {
+        const savedAnsCount11 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 11) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved11 = state.savedExam && state.savedExam.testNum === 11 && savedAnsCount11 > 0;
 
-    if (upcomingSection) {
-        if (filter === 'all' || filter === 'upcoming') {
-            upcomingSection.style.display = 'block';
-        } else {
-            upcomingSection.style.display = 'none';
-        }
-    }
+        const passagesMeta11 = [
+            {
+                testNum: 11,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'social',
+                categoryName: 'Xã hội học & Giai cấp',
+                categoryColor: '#4f46e5',
+                badgeBg: '#eef2ff',
+                cefrBand: 'B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Phân định giai cấp tại Mỹ',
+                icon: 'fa-users',
+                title: 'Class System in the US',
+                titleVi: 'Phân tầng xã hội & Yếu tố định hình giai cấp tại Hoa Kỳ',
+                summary: 'Khám phá 3 trụ cột cấu thành giai cấp: sự khác biệt bản chất giữa thu nhập và của cải ròng, uy tín học vấn và nghề nghiệp, cùng vai trò của vốn văn hóa (cultural capital).'
+            },
+            {
+                testNum: 11,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'urban',
+                categoryName: 'Đô thị học & Du lịch',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2-C1',
+                wordCount: '~470 từ',
+                realReviewNote: 'Review đề thi thật: Chuyển dịch Hồ Tây, quán xá & du lịch',
+                icon: 'fa-city',
+                title: 'Tay Ho - A New Destination',
+                titleVi: 'Chuyển dịch Hồ Tây: Quán xá, Điểm đến quốc tế & Thách thức bảo tồn',
+                summary: 'Sự lột xác ngoạn mục từ làng quê nông nghiệp thanh bình thành trung tâm giao lưu quốc tế với hệ sinh thái ẩm thực đa dạng, nghệ thuật sáng tạo và nét đối lập độc đáo cũ - mới.'
+            },
+            {
+                testNum: 11,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'psychology',
+                categoryName: 'Tâm lý học hành vi',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~480 từ',
+                realReviewNote: 'Review đề thi thật: TV Binge-watching, lý do & tác hại',
+                icon: 'fa-tv',
+                title: 'The Psychology of TV Binge-Watching',
+                titleVi: 'Tâm lý cày phim dài tập: Sức hút Dopamine, Lợi ích xả stress & Rủi ro sức khỏe',
+                summary: 'Giải mã hiện tượng cày phim liên tục: chất dẫn truyền thần kinh dopamine từ các tình tiết cliffhanger, sự giải tỏa áp lực nhận thức và các tác hại đảo lộn nhịp sinh học do ánh sáng xanh.'
+            },
+            {
+                testNum: 11,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'thinking',
+                categoryName: 'Khoa học nhận thức',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~490 từ',
+                realReviewNote: 'Review đề thi thật: Critical thinkers vs. Passive thinkers',
+                icon: 'fa-brain',
+                title: 'Critical Thinkers vs. Passive Thinkers',
+                titleVi: 'Tư duy phản biện vs. Tư duy thụ động: Sự khác biệt trong kỷ nguyên thông tin',
+                summary: 'Phân tích đối chiếu sâu sắc giữa tư duy nhị phân, thiên kiến xác nhận của người thụ động với kỷ luật bóc tách tiền đề, sự hoài nghi trí tuệ và tư duy đa biến số của người phản biện.'
+            }
+        ];
 
-    // Comprehensive Passage Metadata (Review 01 & Review 02)
-    const passagesMeta = [
-        // SET 01 (TEST 11)
-        {
-            testNum: 11,
-            passageIdx: 0,
-            partNum: 1,
-            setLabel: 'Review 01',
-            categoryKey: 'social',
-            categoryName: 'Xã hội học & Giai cấp',
-            categoryColor: '#4f46e5',
-            badgeBg: '#eef2ff',
-            cefrBand: 'B2',
-            wordCount: '~460 từ',
-            realReviewNote: 'Review đề thi thật: Phân định giai cấp tại Mỹ',
-            icon: 'fa-users',
-            title: 'Class System in the US',
-            titleVi: 'Phân tầng xã hội & Yếu tố định hình giai cấp tại Hoa Kỳ',
-            summary: 'Khám phá 3 trụ cột cấu thành giai cấp: sự khác biệt bản chất giữa thu nhập và của cải ròng, uy tín học vấn và nghề nghiệp, cùng vai trò của vốn văn hóa (cultural capital).'
-        },
-        {
-            testNum: 11,
-            passageIdx: 1,
-            partNum: 2,
-            setLabel: 'Review 01',
-            categoryKey: 'urban',
-            categoryName: 'Đô thị học & Du lịch',
-            categoryColor: '#059669',
-            badgeBg: '#ecfdf5',
-            cefrBand: 'B2-C1',
-            wordCount: '~470 từ',
-            realReviewNote: 'Review đề thi thật: Chuyển dịch Hồ Tây, quán xá & du lịch',
-            icon: 'fa-city',
-            title: 'Tay Ho - A New Destination',
-            titleVi: 'Chuyển dịch Hồ Tây: Quán xá, Điểm đến quốc tế & Thách thức bảo tồn',
-            summary: 'Sự lột xác ngoạn mục từ làng quê nông nghiệp thanh bình thành trung tâm giao lưu quốc tế với hệ sinh thái ẩm thực đa dạng, nghệ thuật sáng tạo và nét đối lập độc đáo cũ - mới.'
-        },
-        {
-            testNum: 11,
-            passageIdx: 2,
-            partNum: 3,
-            setLabel: 'Review 01',
-            categoryKey: 'psychology',
-            categoryName: 'Tâm lý học hành vi',
-            categoryColor: '#d97706',
-            badgeBg: '#fffbeb',
-            cefrBand: 'B2-C1',
-            wordCount: '~480 từ',
-            realReviewNote: 'Review đề thi thật: TV Binge-watching, lý do & tác hại',
-            icon: 'fa-tv',
-            title: 'The Psychology of TV Binge-Watching',
-            titleVi: 'Tâm lý cày phim dài tập: Sức hút Dopamine, Lợi ích xả stress & Rủi ro sức khỏe',
-            summary: 'Giải mã hiện tượng cày phim liên tục: chất dẫn truyền thần kinh dopamine từ các tình tiết cliffhanger, sự giải tỏa áp lực nhận thức và các tác hại đảo lộn nhịp sinh học do ánh sáng xanh.'
-        },
-        {
-            testNum: 11,
-            passageIdx: 3,
-            partNum: 4,
-            setLabel: 'Review 01',
-            categoryKey: 'thinking',
-            categoryName: 'Khoa học nhận thức',
-            categoryColor: '#dc2626',
-            badgeBg: '#fef2f2',
-            cefrBand: 'C1',
-            wordCount: '~490 từ',
-            realReviewNote: 'Review đề thi thật: Critical thinkers vs. Passive thinkers',
-            icon: 'fa-brain',
-            title: 'Critical Thinkers vs. Passive Thinkers',
-            titleVi: 'Tư duy phản biện vs. Tư duy thụ động: Sự khác biệt trong kỷ nguyên thông tin',
-            summary: 'Phân tích đối chiếu sâu sắc giữa tư duy nhị phân, thiên kiến xác nhận của người thụ động với kỷ luật bóc tách tiền đề, sự hoài nghi trí tuệ và tư duy đa biến số của người phản biện.'
-        },
+        let pCardsHtml11 = '';
+        passagesMeta11.forEach(meta => {
+            const pData = (test11 && test11.passages) ? test11.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
 
-        // SET 02 (TEST 12)
-        {
-            testNum: 12,
-            passageIdx: 0,
-            partNum: 1,
-            setLabel: 'Review 02',
-            categoryKey: 'social',
-            categoryName: 'Xã hội học & Đời sống',
-            categoryColor: '#0284c7',
-            badgeBg: '#f0f9ff',
-            cefrBand: 'B1-B2',
-            wordCount: '~450 từ',
-            realReviewNote: 'Review đề thi thật: People\'s activities during the pandemic',
-            icon: 'fa-house-user',
-            title: 'People\'s Activities During the Pandemic',
-            titleVi: 'Sự thích ứng và các hoạt động đời sống trong thời kỳ đại dịch',
-            summary: 'Khảo sát sự thay đổi thói quen sinh hoạt trong các đợt phong tỏa: sự trỗi dậy của làm bánh mì men tự nhiên, làm vườn ban công, tập thể dục trực tuyến và những thay đổi văn hóa việc làm lâu dài.'
-        },
-        {
-            testNum: 12,
-            passageIdx: 1,
-            partNum: 2,
-            setLabel: 'Review 02',
-            categoryKey: 'psychology',
-            categoryName: 'Tâm lý học nhận thức',
-            categoryColor: '#059669',
-            badgeBg: '#ecfdf5',
-            cefrBand: 'B2',
-            wordCount: '~465 từ',
-            realReviewNote: 'Review đề thi thật: Quan niệm về may mắn và không may mắn',
-            icon: 'fa-clover',
-            title: 'The Psychology of Luck and Misfortune',
-            titleVi: 'Tâm lý học về May mắn & Không may mắn: Cơ chế tư duy và sự kiên trì',
-            summary: 'Giải mã hiện tượng may mắn dưới góc độ tâm lý thực nghiệm của Dr. Richard Wiseman: khả năng chú ý ngoại vi, tư duy phản thực tế hướng xuống và năng lực chủ động tự tạo vận may cho bản thân.'
-        },
-        {
-            testNum: 12,
-            passageIdx: 2,
-            partNum: 3,
-            setLabel: 'Review 02',
-            categoryKey: 'social',
-            categoryName: 'Lịch sử lao động Hoa Kỳ',
-            categoryColor: '#b45309',
-            badgeBg: '#fef3c7',
-            cefrBand: 'B2-C1',
-            wordCount: '~485 từ',
-            realReviewNote: 'Review đề thi thật: Sự phân biệt lao động châu Á ở Mỹ',
-            icon: 'fa-person-digging',
-            title: 'Asian Labor Discrimination in the US',
-            titleVi: 'Lao động châu Á tại Mỹ: Đóng góp lịch sử & Cuộc đấu tranh chống phân biệt đối xử',
-            summary: 'Lịch sử công nhân xây dựng tuyến đường sắt xuyên lục địa, Đạo luật Bài trừ 1882, các cuộc bãi công nông nghiệp và sự phân tích sắc bén về định kiến \"Thiểu số kiểu mẫu\" cùng rào cản \"trần tre\".'
-        },
-        {
-            testNum: 12,
-            passageIdx: 3,
-            partNum: 4,
-            setLabel: 'Review 02',
-            categoryKey: 'thinking',
-            categoryName: 'Xã hội học tôn giáo',
-            categoryColor: '#7c3aed',
-            badgeBg: '#f5f3ff',
-            cefrBand: 'C1',
-            wordCount: '~500 từ',
-            realReviewNote: 'Review đề thi thật: Tôn giáo tại Mỹ & Xu hướng thế tục hóa',
-            icon: 'fa-church',
-            title: 'The Changing Religious Landscape in the US',
-            titleVi: 'Bức tranh tôn giáo Hoa Kỳ: Tiến trình thế tục hóa & Đa nguyên hóa',
-            summary: 'Phân tích sự thay đổi nhân khẩu học tôn giáo: từ tính đặc thù sùng đạo của nước Mỹ đến sự sụt giảm của các giáo phái truyền thống, sự trỗi dậy của nhóm không tôn giáo (\"Nones\") và làn sóng nhập cư đa dạng.'
-        }
-    ];
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
 
-    let filteredPassages = passagesMeta;
-    if (filter === 'review01') filteredPassages = passagesMeta.filter(p => p.testNum === 11);
-    else if (filter === 'review02') filteredPassages = passagesMeta.filter(p => p.testNum === 12);
-    else if (filter === 'social') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'social');
-    else if (filter === 'urban') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'urban');
-    else if (filter === 'psychology') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'psychology');
-    else if (filter === 'thinking') filteredPassages = passagesMeta.filter(p => p.categoryKey === 'thinking');
-    else if (filter === 'upcoming') filteredPassages = [];
+            pCardsHtml11 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
 
-    let cardsHtml = '';
-    filteredPassages.forEach(meta => {
-        const testObj = meta.testNum === 11 ? test11 : test12;
-        if (!testObj || !testObj.passages) return;
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
 
-        const passageData = testObj.passages[meta.passageIdx];
-        const vocabList = passageData ? (passageData.vocab || []) : [];
-        const qList = passageData ? (passageData.questions || []) : [];
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
 
-        // Check user mastered vocab for this passage
-        let masteredVocab = 0;
-        vocabList.forEach(v => {
-            const key = `${meta.testNum}_${v.word.toLowerCase()}`;
-            if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <div class="practice-card-sub-actions">
+                            <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                                <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                            </button>
+                            <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
         });
 
-        cardsHtml += `
-            <div class="practice-card">
-                <div class="practice-card-top">
-                    <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
-                        <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+        suitesHtml += `
+            <div class="practice-suite-box suite-01" id="suite-box-11">
+                <div class="practice-suite-header suite-header-01">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #fde047;"></i> BỘ ĐỀ THỰC CHIẾN 01 (TEST 11) • REVIEW THI THẬT
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 01 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Phân tầng xã hội Mỹ (Part 1) • Chuyển dịch Hồ Tây (Part 2) • TV Binge-watching (Part 3) • Tư duy phản biện vs Thụ động (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> 40 từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
+                        </div>
                     </div>
-                    <div class="practice-level-tag">
-                        <span class="cefr-badge">${meta.cefrBand}</span>
-                        <span class="part-badge" style="background: #e0e7ff; color: #4338ca; font-weight: 800;">${meta.setLabel}</span>
-                        <span class="part-badge">Part ${meta.partNum}</span>
+                    <div class="suite-header-actions">
+                        <button class="primary-btn btn-suite-exam" style="${isSaved11 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved11 ? 'resumeSavedExam()' : 'startFullExam(11)'}">
+                            ${isSaved11 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: TIẾP TỤC BÀI DỞ DANG (${savedAnsCount11}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: THI TRỌN BỘ 60 PHÚT (40 CÂU)`}
+                        </button>
+                        <div class="suite-sub-actions-row">
+                            <button class="secondary-btn btn-suite-sub" onclick="openPreTestView(11)">
+                                <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: Nạp từ (40 từ)
+                            </button>
+                            <button class="secondary-btn btn-suite-sub" onclick="openPostReadingModal(11)">
+                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: Paraphrase
+                            </button>
+                        </div>
                     </div>
                 </div>
-
-                <div class="practice-review-alert">
-                    <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
-                </div>
-
-                <h3 class="practice-card-title">${meta.title}</h3>
-                <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
-                <p class="practice-card-summary">${meta.summary}</p>
-
-                <div class="practice-card-meta-row">
-                    <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
-                    <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
-                    <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
-                    <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
-                </div>
-
-                <div class="practice-card-actions">
-                    <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
-                        <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
-                    </button>
-                    <div class="practice-card-sub-actions">
-                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
-                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
-                        </button>
-                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
-                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: GIẢI MÃ PARAPHRASE
-                        </button>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #6366f1;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
+                    </div>
+                    <div class="practice-suite-grid">
+                        ${pCardsHtml11}
                     </div>
                 </div>
             </div>
         `;
-    });
+    }
 
-    container.innerHTML = cardsHtml;
+    // =========================================================================
+    // 2. BỘ ĐỀ THỰC CHIẾN 02 (TEST 12) - ĐÃ PHÁT HÀNH
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite12') {
+        const savedAnsCount12 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 12) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved12 = state.savedExam && state.savedExam.testNum === 12 && savedAnsCount12 > 0;
+
+        const passagesMeta12 = [
+            {
+                testNum: 12,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'social',
+                categoryName: 'Xã hội học & Đời sống',
+                categoryColor: '#0284c7',
+                badgeBg: '#f0f9ff',
+                cefrBand: 'B1-B2',
+                wordCount: '~450 từ',
+                realReviewNote: 'Review đề thi thật: People\'s activities during the pandemic',
+                icon: 'fa-house-user',
+                title: 'People\'s Activities During the Pandemic',
+                titleVi: 'Sự thích ứng và các hoạt động đời sống trong thời kỳ đại dịch',
+                summary: 'Khảo sát sự thay đổi thói quen sinh hoạt trong các đợt phong tỏa: làm bánh mì men tự nhiên, làm vườn ban công, tập thể dục trực tuyến và những thay đổi văn hóa việc làm lâu dài.'
+            },
+            {
+                testNum: 12,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'psychology',
+                categoryName: 'Tâm lý học nhận thức',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~465 từ',
+                realReviewNote: 'Review đề thi thật: Quan niệm về may mắn và không may mắn',
+                icon: 'fa-clover',
+                title: 'The Psychology of Luck and Misfortune',
+                titleVi: 'Tâm lý học về May mắn & Không may mắn: Cơ chế tư duy và sự kiên trì',
+                summary: 'Giải mã hiện tượng may mắn dưới góc độ tâm lý thực nghiệm của Dr. Richard Wiseman: khả năng chú ý ngoại vi, tư duy phản thực tế hướng xuống và năng lực chủ động tự tạo vận may.'
+            },
+            {
+                testNum: 12,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'social',
+                categoryName: 'Lịch sử lao động Hoa Kỳ',
+                categoryColor: '#b45309',
+                badgeBg: '#fef3c7',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Sự phân biệt lao động châu Á ở Mỹ',
+                icon: 'fa-person-digging',
+                title: 'Asian Labor Discrimination in the US',
+                titleVi: 'Lao động châu Á tại Mỹ: Đóng góp lịch sử & Cuộc đấu tranh chống phân biệt đối xử',
+                summary: 'Lịch sử công nhân xây dựng tuyến đường sắt xuyên lục địa, Đạo luật Bài trừ 1882, các cuộc bãi công nông nghiệp và phân tích sắc bén về định kiến \"Thiểu số kiểu mẫu\" cùng rào cản \"trần tre\".'
+            },
+            {
+                testNum: 12,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'thinking',
+                categoryName: 'Xã hội học tôn giáo',
+                categoryColor: '#7c3aed',
+                badgeBg: '#f5f3ff',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Tôn giáo tại Mỹ & Xu hướng thế tục hóa',
+                icon: 'fa-church',
+                title: 'The Changing Religious Landscape in the US',
+                titleVi: 'Bức tranh tôn giáo Hoa Kỳ: Tiến trình thế tục hóa & Đa nguyên hóa',
+                summary: 'Phân tích sự thay đổi nhân khẩu học tôn giáo: từ tính đặc thù sùng đạo của nước Mỹ đến sự sụt giảm của các giáo phái truyền thống, sự trỗi dậy của nhóm không tôn giáo (\"Nones\") và nhập cư đa dạng.'
+            }
+        ];
+
+        let pCardsHtml12 = '';
+        passagesMeta12.forEach(meta => {
+            const pData = (test12 && test12.passages) ? test12.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml12 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <div class="practice-card-sub-actions">
+                            <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                                <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                            </button>
+                            <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+
+        suitesHtml += `
+            <div class="practice-suite-box suite-02" id="suite-box-12">
+                <div class="practice-suite-header suite-header-02">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(16, 185, 129, 0.25); color: #6ee7b7; border-color: rgba(16, 185, 129, 0.45);">
+                            <i class="fa-solid fa-award"></i> BỘ ĐỀ THỰC CHIẾN 02 (TEST 12) • MỚI CẬP NHẬT
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 02 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Hoạt động thời đại dịch (Part 1) • Quan niệm về may mắn (Part 2) • Phân biệt lao động châu Á (Part 3) • Bức tranh tôn giáo tại Mỹ (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> 40 từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
+                        </div>
+                    </div>
+                    <div class="suite-header-actions">
+                        <button class="primary-btn btn-suite-exam" style="${isSaved12 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved12 ? 'resumeSavedExam()' : 'startFullExam(12)'}">
+                            ${isSaved12 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: TIẾP TỤC BÀI DỞ DANG (${savedAnsCount12}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: THI TRỌN BỘ 60 PHÚT (40 CÂU)`}
+                        </button>
+                        <div class="suite-sub-actions-row">
+                            <button class="secondary-btn btn-suite-sub" onclick="openPreTestView(12)">
+                                <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: Nạp từ (40 từ)
+                            </button>
+                            <button class="secondary-btn btn-suite-sub" onclick="openPostReadingModal(12)">
+                                <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: Paraphrase
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #10b981;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
+                    </div>
+                    <div class="practice-suite-grid">
+                        ${pCardsHtml12}
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 3. BỘ ĐỀ THỰC CHIẾN 03 (TEST 13) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite13') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-13">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(99, 102, 241, 0.25); color: #a5b4fc; border-color: rgba(99, 102, 241, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 03 (TEST 13) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 03 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Phòng tránh chó dữ tấn công (Part 1) • Nghiên cứu tiếng chim hót (Part 2) • MXH Facebook giữa các thế hệ (Part 3) • Rác thải đại dương & Vi nhựa (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #6366f1;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 03):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>Dog Attack & Prevention</h4>
+                                <h5>Hành vi loài chó & Biện pháp phòng ngừa tai nạn cắn</h5>
+                                <p>Phân tích ngôn ngữ cơ thể loài chó khi bị kích động, các sai lầm phản xạ thường gặp và quy trình xử lý an toàn để tránh bị tấn công.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#6366f1;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>Birdsong & Acoustic Communication</h4>
+                                <h5>Nghiên cứu tiếng chim hót & Sự thích nghi âm học đô thị</h5>
+                                <p>Khám phá cách thức các loài chim thay đổi cao độ, tần số tiếng hót để vượt qua ô nhiễm tiếng ồn tại các siêu đô thị hiện đại.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Social Media Across Generations</h4>
+                                <h5>Khảo sát sự khác biệt khi dùng Facebook giữa các thế hệ</h5>
+                                <p>Nghiên cứu xã hội học so sánh động cơ chia sẻ, tính bảo mật và sự gắn kết mạng xã hội giữa Gen Z, Gen X và Baby Boomers.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Ocean Garbage & Microplastics</h4>
+                                <h5>Khủng hoảng rác thải đại dương & Mối đe dọa vi nhựa</h5>
+                                <p>Phân tích cơ chế tích tụ rác nhựa tại các dòng hải lưu lớn (Gyres), sự phân rã thành vi nhựa và tác động sâu rộng đến chuỗi thức ăn sinh thái toàn cầu.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 4. BỘ ĐỀ THỰC CHIẾN 04 (TEST 14) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite14') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-14">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(2, 132, 199, 0.25); color: #7dd3fc; border-color: rgba(2, 132, 199, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 04 (TEST 14) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 04 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Phát minh giấy nhớ Post-it (Part 1) • Nhận thức của loài chó (Part 2) • Sữa đạm từ biển (Part 3) • Tương lai tiếng Anh toàn cầu (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #0284c7;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 04):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>The Story of Sticky Notes</h4>
+                                <h5>Câu chuyện phát minh giấy ghi chú Post-it tại tập đoàn 3M</h5>
+                                <p>Sự tình cờ của keo dán yếu của Spencer Silver kết hợp cùng sáng kiến đánh dấu sách của Art Fry tạo nên một trong những sản phẩm văn phòng phổ biến nhất lịch sử.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#0284c7;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>Dogs' Cognitive Abilities</h4>
+                                <h5>Năng lực nhận thức, giải quyết vấn đề & Thấu cảm của loài chó</h5>
+                                <p>Các nghiên cứu thần kinh học chứng minh loài chó có khả năng đọc hiểu cử chỉ con người, xử lý từ ngữ và hình thành mối gắn kết tình cảm tương đương trẻ 2 tuổi.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Marine Protein: Fish-Milk Alternatives</h4>
+                                <h5>Công nghệ thực phẩm sữa đạm từ biển thay thế sữa bò truyền thống</h5>
+                                <p>Giải pháp công nghệ sinh học chiết xuất protein từ sinh vật biển nhằm giải quyết bài toán phát thải khí nhà kính của ngành chăn nuôi bò sữa công nghiệp.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>English in the Future</h4>
+                                <h5>Tiến trình biến đổi & Tương lai của tiếng Anh toàn cầu</h5>
+                                <p>Dự báo xu hướng ngữ pháp giản lược, sự xuất hiện của các biến thể lai ghép (hybrid World Englishes) và tác động của AI dịch thuật đến vị thế của tiếng Anh.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 5. BỘ ĐỀ THỰC CHIẾN 05 (TEST 15) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite15') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-15">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(217, 119, 6, 0.25); color: #fde68a; border-color: rgba(217, 119, 6, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 05 (TEST 15) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 05 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Chè cô Phương ở Phú Yên (Part 1) • Võ Taekwondo Hàn Quốc (Part 2) • Greenwashing tẩy xanh thương hiệu (Part 3) • Quản lý cháy rừng châu Âu (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #d97706;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 05):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>Che Co Phuong in Phu Yen</h4>
+                                <h5>Ẩm thực Phú Yên: Chè Cô Phương & Nét văn hóa bản địa</h5>
+                                <p>Khám phá câu chuyện gìn giữ hương vị ngọt thanh truyền thống miền duyên hải Nam Trung Bộ, sự kỳ công trong khâu chọn lọc nguyên liệu tự nhiên và sức hút du lịch.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>Taekwondo & Korean Heritage</h4>
+                                <h5>Võ thuật Taekwondo & Bản sắc di sản văn hóa Hàn Quốc</h5>
+                                <p>Hành trình lịch sử từ môn võ thuật cổ truyền Triều Tiên vươn lên thành môn thể thao tranh tài chính thức tại Thế vận hội Olympic cùng các giá trị đạo đức cốt lõi.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Greenwashing in Corporate Marketing</h4>
+                                <h5>Chiêu trò "Tẩy xanh" và sự ngụy biện về tính bền vững</h5>
+                                <p>Bóc tách các chiến dịch marketing tạo vỏ bọc thân thiện môi trường của các tập đoàn đa quốc gia và khung pháp lý siết chặt quản lý thông điệp quảng cáo.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#b45309;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>European Forest Fires & Smoking Bans</h4>
+                                <h5>Kiểm soát cháy rừng & Lệnh cấm hút thuốc tại Châu Âu</h5>
+                                <p>Phân tích các đợt hạn hán kỷ lục tại Nam Âu, rủi ro cháy than bùn âm ỉ (zombie fires) và các biện pháp hành chính nghiêm ngặt trong bảo tồn rừng nguyên sinh.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 6. BỘ ĐỀ THỰC CHIẾN 06 (TEST 16) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite16') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-16">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(139, 92, 246, 0.25); color: #c4b5fd; border-color: rgba(139, 92, 246, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 06 (TEST 16) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 06 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Xu hướng việc làm giới trẻ (Part 1) • AI & Thế giới ảo (Part 2) • Lịch sử Hoàng gia Royal World (Part 3) • Chất béo bão hòa vs Không bão hòa (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #8b5cf6;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 06):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>Youth Career Choices: Past vs. Present</h4>
+                                <h5>Sự dịch chuyển nghề nghiệp: Buôn bán hàng hóa xưa vs Marketing nay</h5>
+                                <p>Sự so sánh sâu sắc giữa nền kinh tế phân phối vật lý truyền thống và sự trỗi dậy của tiếp thị số, thương mại điện tử trong định hướng nghề nghiệp giới trẻ.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#8b5cf6;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>AI & Work in Virtual Worlds</h4>
+                                <h5>Trí tuệ nhân tạo & Tương lai lao động trong thế giới số</h5>
+                                <p>Tác động của tự động hóa và các không gian làm việc mô phỏng ảo (metaverse) đối với năng suất, sự sáng tạo và tương tác giữa con người.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>The Royal World: Monarchy & Modernity</h4>
+                                <h5>Thế giới Hoàng gia: Lịch sử, biểu tượng & Thách thức thời đại</h5>
+                                <p>Nghiên cứu về vai trò hiến pháp, sức mạnh ngoại giao văn hóa và sức ép truyền thông đại chúng đối với các vương triều châu Âu thế kỷ 21.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Saturated vs. Unsaturated Fats</h4>
+                                <h5>Hóa sinh dinh dưỡng: Chất béo bão hòa, không bão hòa & Sức khỏe tim mạch</h5>
+                                <p>Cơ chế cấu trúc hóa học phân tử, vai trò của cholesterol LDL/HDL và các khuyến nghị y khoa mới nhất về chế độ dinh dưỡng phòng ngừa xơ vữa động mạch.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    container.innerHTML = suitesHtml;
 }
 
 // =========================================================================
