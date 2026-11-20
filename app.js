@@ -2433,6 +2433,188 @@ function renderPracticeView() {
         `;
     }
 
+    // =========================================================================
+    // 9. BỘ ĐỀ THỰC CHIẾN 09 (TEST 19) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite19') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-19">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(245, 158, 11, 0.25); color: #fde68a; border-color: rgba(245, 158, 11, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 09 (TEST 19) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 09 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Phương pháp học Nói & Viết tiếng Anh (Part 1) • Lịch sử thế giới & Danh nhân (Part 2) • Bảo vệ môi trường sinh thái (Part 3) • Chủ nghĩa cá nhân vs Tập thể trong văn hóa (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #f59e0b;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 09):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>English Speaking & Writing Methods</h4>
+                                <h5>Phương pháp học kỹ năng Nói & Viết: Thụ đắc ngôn ngữ & Giả thuyết đầu ra</h5>
+                                <p>Các lý thuyết tiếp nhận ngôn ngữ thứ hai (SLA), vai trò của giả thuyết đầu ra (Output Hypothesis), kỹ thuật tự sửa lỗi và lộ trình xây dựng độ lưu loát học thuật.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#f59e0b;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>World History: Epochal Figures</h4>
+                                <h5>Lịch sử thế giới: Những nhân vật lịch sử & Các quyết định định hình thời đại</h5>
+                                <p>Khảo sát các bước ngoặt lịch sử nhân loại qua lăng kính của những nhà lãnh đạo và nhà tư tưởng lỗi lạc, sự tương tác giữa hoàn cảnh thời đại và ý chí cá nhân.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Ecological Preservation Dynamics</h4>
+                                <h5>Bảo tồn đa dạng sinh học & Quản trị môi trường sinh thái toàn cầu</h5>
+                                <p>Đánh giá các mô hình bảo tồn khu dự trữ sinh quyển, phục hồi hành lang di cư của động vật hoang dã và vai trò của các thỏa thuận môi trường quốc tế.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Individualism vs. Collectivism</h4>
+                                <h5>Tâm lý học xuyên văn hóa: Chủ nghĩa cá nhân đối chiếu với Chủ nghĩa tập thể</h5>
+                                <p>Phân tích khung lý thuyết chiều kích văn hóa của Geert Hofstede, sự khác biệt trong cấu trúc gia đình, động lực làm việc và phong cách giao tiếp giữa Đông và Tây.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 10. BỘ ĐỀ THỰC CHIẾN 10 (TEST 20) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite20') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-20">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(16, 185, 129, 0.25); color: #6ee7b7; border-color: rgba(16, 185, 129, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 10 (TEST 20) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 10 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Bài đọc nhận diện từ vựng (Part 1) • Môn võ Taekwondo Hàn Quốc (Part 2) • Buôn bán xưa vs Marketing nay (Part 3) • Chất béo bão hòa vs Không bão hòa (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #10b981;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 10):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1</span>
+                                <h4>Foundational Reading: Lexical Clues</h4>
+                                <h5>Đọc hiểu nền tảng: Nhận diện từ vựng & Kỹ thuật suy đoán nghĩa qua văn cảnh</h5>
+                                <p>Phương pháp rà quét từ khóa (scanning), bóc tách tiền tố - hậu tố và cách tận dụng manh mối ngữ pháp để giải quyết các câu hỏi từ vựng trắc nghiệm cơ bản.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>Traditional Taekwondo in Korea</h4>
+                                <h5>Môn võ cổ truyền Taekwondo tại Hàn Quốc: Lịch sử, triết lý & Bước ra thế giới</h5>
+                                <p>Nguồn gốc cổ truyền từ các môn võ Taekkyeon và Subak, quá trình chuẩn hóa thành quốc võ và hành trình trở thành bộ môn tranh tài chính thức tại Olympic.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#059669;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Youth Career Shifts: Goods vs. Marketing</h4>
+                                <h5>Sự chuyển dịch việc làm của giới trẻ: Buôn bán hàng hóa xưa vs Ngành Marketing nay</h5>
+                                <p>Sự so sánh sâu sắc giữa nền kinh tế phân phối vật lý xưa và sự lên ngôi của thương mại điện tử, tiếp thị số (digital marketing) và kinh tế sáng tạo nội dung hiện đại.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Saturated vs. Unsaturated Fats</h4>
+                                <h5>Hóa sinh dinh dưỡng: Chất béo bão hòa và chất béo không bão hòa trong thực phẩm</h5>
+                                <p>Cấu trúc liên kết hóa học phân tử, vai trò chuyển hóa cholesterol HDL và LDL, cùng các bằng chứng y khoa về tác động của từng loại chất béo đối với sức khỏe tim mạch.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
     container.innerHTML = suitesHtml;
 }
 
