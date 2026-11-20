@@ -80186,5 +80186,2558 @@ const READING_MOCK_TESTS = [
       ]
     }
   ]
+},
+{
+  "testNum": 33,
+  "title": "VSTEP READING MOCK TEST 33",
+  "titleVi": "ĐỀ THI THỬ VSTEP READING SỐ 33 (BỘ ĐỀ THỰC CHIẾN 23 - HOÀN TẤT TRỌN BỘ)",
+  "description": "Bộ đề thực chiến 23 (Bộ đề cuối cùng trong đại lộ 23 Suite) gồm 4 bài đọc tuyển chọn theo chuẩn cấu trúc đề thi thật VSTEP (B1-B2-C1): Tái chế nâng cấp đồ gỗ cũ & Kinh tế tuần hoàn (Part 1) • Địa lý phù sa & Hệ thống đê điều Đồng bằng sông Hồng (Part 2) • Rối loạn xử lý ngôn ngữ APD & Chứng khó đọc Dyslexia (Part 3) • Sinh học thần kinh vị giác & Cảm thụ hương vị đa giác quan (Part 4).",
+  "totalPassages": 4,
+  "totalQuestions": 40,
+  "durationMinutes": 60,
+  "passages": [
+    {
+      "passageId": "t33_p1",
+      "passageNum": 1,
+      "title": "Upcycling Second-hand Furniture & Circular Design: Artisanal Restoration vs. Fast Furniture",
+      "titleVi": "Tái chế nâng cấp đồ gỗ cũ & Thiết kế tuần hoàn: Phục hồi thủ công đối đầu Nội thất nhanh",
+      "category": "circular_design",
+      "text": "In an era dominated by the rapid turnover of 'fast furniture'—inexpensive, mass-produced items constructed from compressed particleboard, toxic adhesives, and synthetic laminates designed for swift obsolescence—a counter-cultural movement centered on furniture upcycling is reshaping contemporary interior design. Unlike traditional recycling, which breaks manufactured materials down into raw municipal components through energy-intensive industrial processing, upcycling represents the creative repurposing of discarded or dilapidated objects into products of demonstrably superior aesthetic and functional value. Discarded mid-century sideboards, scuffed solid-hardwood dining tables, and obsolete cast-iron sewing machine bases are rescued from impending landfill disposal, undergoing meticulous restoration that celebrates historical patina rather than concealing chronological wear.\n\nThe methodology of artisanal furniture upcycling merges traditional wood joinery with radical, innovative design techniques. Upcyclers begin with an exhaustive structural diagnosis: stripping away yellowed, peeling chemical varnishes with eco-friendly citrus-based solvents, reinforcing wobbling tenon joints with hide glue, and treating hidden woodworm infestations with non-toxic botanical oils. Rather than attempting a sterile, factory-like reproduction of showroom uniformity, designers employ contrasting visual motifs. For example, a weathered French provincial chest of drawers may be treated with non-toxic, chalk-based mineral paint, paired with striking geometric decoupage, or retrofitted with salvaged brass industrial handles and contemporary tapered metal hairpin legs.\n\nBeyond individual artisanal craftsmanship, furniture upcycling serves as a foundational pillar within the broader transition toward a restorative circular economy. The modern consumer furniture industry generates staggering quantities of municipal solid waste: in the United States alone, the Environmental Protection Agency estimates that over twelve million tons of furniture are discarded annually, with more than eighty percent routed directly to incinerators or subterranean landfills where synthetic adhesives leach dangerous formaldehyde resins into fragile groundwater aquifers. By prolonging the functional lifecycle of existing solid-timber heirlooms, upcycling sequesters embedded carbon for decades, drastically reduces demand for virgin commercial timber, and eliminates the heavy transportation carbon footprints associated with transoceanic shipping routes.\n\nMoreover, sociological research highlights that upcycled furniture resonates deeply with younger, environmentally conscious consumers seeking authentic self-expression. Mass-market retail standardization has left many domestic living spaces feeling sterile, depersonalized, and interchangeable. In contrast, an upcycled furnishing embodies a tangible, bespoke narrative—a unique historical artifact imbued with human intentionality and tactile warmth. While scalable commercial production remains challenging due to the idiosyncratic, non-standardized nature of salvaged materials, upcycling has evolved from an eccentric hobbyist pastime into a lucrative, highly respected sector of sustainable luxury design.",
+      "vocab": [
+        {
+          "word": "particleboard",
+          "pos": "n",
+          "ipa": "/ˈpɑː.tɪ.kəl.bɔːd/",
+          "level": "B2",
+          "mean": "gỗ ván dăm ép nhân tạo",
+          "syns": [
+            "chipboard",
+            "pressed wood"
+          ],
+          "ex": "Cheap particleboard warps easily under humid conditions."
+        },
+        {
+          "word": "obsolescence",
+          "pos": "n",
+          "ipa": "/ˌɒb.səˈles.əns/",
+          "level": "C1",
+          "mean": "sự lỗi thời có chủ đích, mau hỏng",
+          "syns": [
+            "outdatedness",
+            "redundancy"
+          ],
+          "ex": "Fast furniture is manufactured for deliberate obsolescence."
+        },
+        {
+          "word": "repurposing",
+          "pos": "n",
+          "ipa": "/riːˈpɜː.pəs.ɪŋ/",
+          "level": "B2",
+          "mean": "việc tái sử dụng vào công năng mới",
+          "syns": [
+            "reusing",
+            "upcycling",
+            "adapting"
+          ],
+          "ex": "Repurposing old timber reduces industrial energy consumption."
+        },
+        {
+          "word": "dilapidated",
+          "pos": "adj",
+          "ipa": "/dɪˈlæp.ɪ.deɪ.tɪd/",
+          "level": "C1",
+          "mean": "xập xệ, đổ nát, tàn tạ",
+          "syns": [
+            "run-down",
+            "battered",
+            "decayed"
+          ],
+          "ex": "The craftsman repaired a dilapidated nineteenth-century rocking chair."
+        },
+        {
+          "word": "patina",
+          "pos": "n",
+          "ipa": "/ˈpæt.ɪ.nə/",
+          "level": "C1",
+          "mean": "lớp bóng cổ kính, dấu vết thời gian",
+          "syns": [
+            "luster",
+            "aged sheen",
+            "glow"
+          ],
+          "ex": "Restoration celebrates the warm natural patina of aged walnut."
+        },
+        {
+          "word": "artisanal",
+          "pos": "adj",
+          "ipa": "/ˌɑː.tɪˈzæn.əl/",
+          "level": "B2",
+          "mean": "mang tính thủ công tinh xảo",
+          "syns": [
+            "handcrafted",
+            "craftsman-made"
+          ],
+          "ex": "Artisanal workshops focus on sustainable handcrafted furniture."
+        },
+        {
+          "word": "solvents",
+          "pos": "n",
+          "ipa": "/ˈsɒl.vənts/",
+          "level": "B2",
+          "mean": "dung môi hòa tan tẩy rửa",
+          "syns": [
+            "dissolvers",
+            "cleaning agents"
+          ],
+          "ex": "Workers use eco-friendly solvents to remove toxic varnishes."
+        },
+        {
+          "word": "tenon",
+          "pos": "n",
+          "ipa": "/ˈten.ən/",
+          "level": "C1",
+          "mean": "mộng gỗ (đầu mộng lồi ghép nối)",
+          "syns": [
+            "wooden peg",
+            "joint tongue"
+          ],
+          "ex": "He strengthened loose mortise and tenon joints with natural glue."
+        },
+        {
+          "word": "woodworm",
+          "pos": "n",
+          "ipa": "/ˈwʊd.wɜːm/",
+          "level": "C1",
+          "mean": "mọt gỗ đục thân gỗ",
+          "syns": [
+            "borer beetle",
+            "timber pest"
+          ],
+          "ex": "Botanical oils eradicate woodworm without releasing chemical fumes."
+        },
+        {
+          "word": "motifs",
+          "pos": "n",
+          "ipa": "/məʊˈtiːfs/",
+          "level": "B2",
+          "mean": "họa tiết, mô-típ hoa văn trang trí",
+          "syns": [
+            "patterns",
+            "designs",
+            "themes"
+          ],
+          "ex": "Modern geometric motifs give the antique desk a contemporary flair."
+        },
+        {
+          "word": "decoupage",
+          "pos": "n",
+          "ipa": "/ˌdeɪ.kuːˈpɑːʒ/",
+          "level": "C1",
+          "mean": "nghệ thuật dán họa tiết trang trí bề mặt",
+          "syns": [
+            "paper craft decoration",
+            "appliqué"
+          ],
+          "ex": "Delicate floral decoupage was layered across the drawer fronts."
+        },
+        {
+          "word": "retrofitted",
+          "pos": "v",
+          "ipa": "/ˌret.rəʊˈfɪt.ɪd/",
+          "level": "C1",
+          "mean": "được lắp thêm phụ kiện mới cải tiến",
+          "syns": [
+            "modernized",
+            "updated",
+            "refitted"
+          ],
+          "ex": "The cabinet was retrofitted with modern matte black metal legs."
+        },
+        {
+          "word": "tapered",
+          "pos": "adj",
+          "ipa": "/ˈteɪ.pəd/",
+          "level": "B2",
+          "mean": "thon dần về một đầu, vót thon",
+          "syns": [
+            "narrowing",
+            "slenderizing"
+          ],
+          "ex": "The chest rests on elegant tapered wooden spindles."
+        },
+        {
+          "word": "restorative",
+          "pos": "adj",
+          "ipa": "/rɪˈstɔː.rə.tɪv/",
+          "level": "C1",
+          "mean": "có tính phục hồi, tái tạo",
+          "syns": [
+            "reparative",
+            "regenerative",
+            "reviving"
+          ],
+          "ex": "Upcycling exemplifies the principles of a restorative circular economy."
+        },
+        {
+          "word": "incinerators",
+          "pos": "n",
+          "ipa": "/ɪnˈsɪn.ər.eɪ.təz/",
+          "level": "B2",
+          "mean": "lò thiêu đốt rác",
+          "syns": [
+            "waste-burning plants",
+            "furnaces"
+          ],
+          "ex": "Millions of chairs are burned in municipal incinerators."
+        },
+        {
+          "word": "leach",
+          "pos": "v",
+          "ipa": "/liːtʃ/",
+          "level": "C1",
+          "mean": "rò rỉ, thấm hòa tan vào môi trường",
+          "syns": [
+            "filter",
+            "percolate",
+            "drain"
+          ],
+          "ex": "Synthetic adhesives leach toxic chemical compounds into nearby soil."
+        },
+        {
+          "word": "formaldehyde",
+          "pos": "n",
+          "ipa": "/fɔːˈmæl.dɪ.haɪd/",
+          "level": "C1",
+          "mean": "phoóc-môn (chất bảo quản độc hại trong keo ép)",
+          "syns": [
+            "methanal chemical compound"
+          ],
+          "ex": "Inexpensive compressed furniture emits harmful airborne formaldehyde."
+        },
+        {
+          "word": "aquifers",
+          "pos": "n",
+          "ipa": "/ˈæk.wɪ.fəz/",
+          "level": "C1",
+          "mean": "các tầng ngậm nước ngầm",
+          "syns": [
+            "underground water tables",
+            "subsurface reservoirs"
+          ],
+          "ex": "Landfill toxins threaten drinking water stored in deep aquifers."
+        },
+        {
+          "word": "sequesters",
+          "pos": "v",
+          "ipa": "/sɪˈkwes.təz/",
+          "level": "C1",
+          "mean": "cô lập, khóa giữ (carbon) không thoát ra khí quyển",
+          "syns": [
+            "captures",
+            "locks up",
+            "stores"
+          ],
+          "ex": "Solid timber furniture sequesters carbon for generations."
+        },
+        {
+          "word": "heirlooms",
+          "pos": "n",
+          "ipa": "/ˈeə.luːmz/",
+          "level": "B2",
+          "mean": "kỷ vật gia truyền, đồ cổ truyền đời",
+          "syns": [
+            "inheritances",
+            "antiques",
+            "family relics"
+          ],
+          "ex": "Refurbished mahogany heirlooms can endure for over two centuries."
+        },
+        {
+          "word": "transoceanic",
+          "pos": "adj",
+          "ipa": "/ˌtrænz.əʊ.ʃiˈæn.ɪk/",
+          "level": "C1",
+          "mean": "xuyên đại dương, viễn dương",
+          "syns": [
+            "transatlantic",
+            "cross-ocean"
+          ],
+          "ex": "Local sourcing avoids the massive carbon costs of transoceanic freight."
+        },
+        {
+          "word": "resonate",
+          "pos": "v",
+          "ipa": "/ˈrez.ən.eɪt/",
+          "level": "C1",
+          "mean": "tạo được sự đồng cảm sâu sắc",
+          "syns": [
+            "strike a chord",
+            "evoke sympathy"
+          ],
+          "ex": "Customized goods resonate with buyers rejecting corporate mass production."
+        },
+        {
+          "word": "interchangeable",
+          "pos": "adj",
+          "ipa": "/ˌɪn.təˈtʃeɪn.dʒə.bəl/",
+          "level": "B2",
+          "mean": "giống hệt nhau có thể thay thế qua lại",
+          "syns": [
+            "identical",
+            "indistinguishable"
+          ],
+          "ex": "Standardized chain stores sell bland, interchangeable apartment furniture."
+        },
+        {
+          "word": "bespoke",
+          "pos": "adj",
+          "ipa": "/bɪˈspəʊk/",
+          "level": "C1",
+          "mean": "được đặt làm riêng theo yêu cầu",
+          "syns": [
+            "custom-made",
+            "tailored",
+            "made-to-order"
+          ],
+          "ex": "Upcycling produces bespoke interior furnishings with character."
+        },
+        {
+          "word": "imbued",
+          "pos": "v",
+          "ipa": "/ɪmˈbjuːd/",
+          "level": "C1",
+          "mean": "thấm đẫm, chứa chan tình cảm giá trị",
+          "syns": [
+            "infused",
+            "steeped",
+            "saturated"
+          ],
+          "ex": "The handcrafted stool is imbued with generational memory."
+        },
+        {
+          "word": "idiosyncratic",
+          "pos": "adj",
+          "ipa": "/ˌɪd.i.əʊ.sɪŋˈkræt.ɪk/",
+          "level": "C1",
+          "mean": "có nét độc dị riêng biệt không đụng hàng",
+          "syns": [
+            "peculiar",
+            "distinctive",
+            "unique"
+          ],
+          "ex": "Each piece has idiosyncratic knots and grain variations."
+        },
+        {
+          "word": "lucrative",
+          "pos": "adj",
+          "ipa": "/ˈluː.krə.tɪv/",
+          "level": "B2",
+          "mean": "sinh lời lớn, mang lại lợi nhuận cao",
+          "syns": [
+            "profitable",
+            "rewarding",
+            "money-making"
+          ],
+          "ex": "Sustainable interior design has developed into a lucrative enterprise."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t33_p1_q1",
+          "num": 1,
+          "question": "How does furniture upcycling differ fundamentally from traditional recycling in paragraph 1?",
+          "questionVi": "Việc nâng cấp tái chế đồ nội thất (upcycling) khác biệt căn bản như thế nào so với tái chế truyền thống trong đoạn 1?",
+          "questionType": "detail",
+          "options": [
+            "It burns wooden waste to generate municipal steam turbine electricity.",
+            "It creatively repurposes discarded items into products of higher aesthetic and functional value rather than breaking them down into raw materials.",
+            "It exports broken chairs to overseas landfills via transoceanic barges.",
+            "It strictly requires heavy industrial machinery to melt plastics into pellets."
+          ],
+          "optionsVi": [
+            "Nó đốt chất thải gỗ để sản xuất điện từ tuabin hơi nước của thành phố.",
+            "Nó tái sử dụng một cách sáng tạo các đồ vật bị vứt bỏ thành sản phẩm có giá trị thẩm mỹ và chức năng cao hơn thay vì nghiền nhỏ thành nguyên liệu thô.",
+            "Nó xuất khẩu ghế gãy sang các bãi chôn lấp ở nước ngoài bằng sà lan viễn dương.",
+            "Nó đòi hỏi nghiêm ngặt máy móc công nghiệp nặng để nấu chảy nhựa thành hạt."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Unlike traditional recycling, which breaks manufactured materials down into raw municipal components through energy-intensive industrial processing, upcycling represents the creative repurposing of discarded or dilapidated objects into products of demonstrably superior aesthetic and functional value.",
+          "evidenceVi": "Không giống như tái chế truyền thống, vốn nghiền nhỏ các vật liệu đã qua sản xuất thành các thành phần nguyên liệu thô thông qua quá trình công nghiệp tiêu tốn nhiều năng lượng, upcycling đại diện cho việc tái sử dụng sáng tạo các đồ vật bị bỏ đi hoặc xập xệ thành các sản phẩm có giá trị thẩm mỹ và chức năng vượt trội rõ rệt.",
+          "explanation": "Đoạn 1 nêu rõ sự khác biệt cốt lõi: upcycling không nghiền nát đồ vật thành nguyên liệu thô mà sáng tạo biến hóa thành sản phẩm có giá trị công năng và thẩm mỹ cao hơn.",
+          "postReading": {
+            "originToken": "breaks manufactured materials down... upcycling represents creative repurposing... into products of superior aesthetic and functional value",
+            "paraphraseToken": "creatively repurposes discarded items into products of higher aesthetic and functional value rather than breaking them down into raw materials",
+            "explanation": "Khái niệm cốt lõi phân biệt giữa upcycling và recycling."
+          }
+        },
+        {
+          "id": "t33_p1_q2",
+          "num": 2,
+          "question": "The word 'dilapidated' in paragraph 1 is closest in meaning to:",
+          "questionVi": "Từ 'dilapidated' trong đoạn 1 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "brand-new",
+            "run-down",
+            "unbreakable",
+            "valueless"
+          ],
+          "optionsVi": [
+            "mới toanh",
+            "xập xệ, tồi tàn",
+            "không thể phá vỡ",
+            "vô giá trị"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...upcycling represents the creative repurposing of discarded or dilapidated objects into products of demonstrably superior aesthetic and functional value.",
+          "evidenceVi": "...upcycling đại diện cho việc tái sử dụng sáng tạo các đồ vật bị bỏ rơi hoặc xập xệ thành các sản phẩm có giá trị thẩm mỹ và chức năng vượt trội...",
+          "explanation": "'Dilapidated' có nghĩa là bị xuống cấp, xập xệ, hư hại do thời gian, đồng nghĩa với 'run-down' hoặc 'decayed'.",
+          "postReading": {
+            "originToken": "dilapidated",
+            "paraphraseToken": "run-down",
+            "explanation": "'Dilapidated' = 'run-down'."
+          }
+        },
+        {
+          "id": "t33_p1_q3",
+          "num": 3,
+          "question": "Which of the following is cited in paragraph 2 as an eco-friendly restoration technique?",
+          "questionVi": "Kỹ thuật phục hồi thân thiện với môi trường nào sau đây được trích dẫn trong đoạn 2?",
+          "questionType": "detail",
+          "options": [
+            "Burning old varnishes off with high-temperature oxyacetylene torches",
+            "Stripping varnishes using citrus-based solvents and treating woodworms with botanical oils",
+            "Submerging entire tables in synthetic petroleum baths for a week",
+            "Covering all structural cracks with thick industrial plastic tape"
+          ],
+          "optionsVi": [
+            "Đốt sạch lớp vec-ni cũ bằng mỏ hàn khí oxy-axetylen nhiệt độ cao",
+            "Tẩy sạch vec-ni bằng dung môi gốc cam chanh và trị mọt gỗ bằng dầu thực vật",
+            "Ngâm toàn bộ bàn trong bể dầu mỏ nhân tạo suốt một tuần",
+            "Dán đè mọi vết nứt kết cấu bằng băng keo nhựa công nghiệp dày"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...stripping away yellowed, peeling chemical varnishes with eco-friendly citrus-based solvents, reinforcing wobbling tenon joints with hide glue, and treating hidden woodworm infestations with non-toxic botanical oils.",
+          "evidenceVi": "...tẩy bỏ các lớp vec-ni hóa chất ố vàng, bong tróc bằng các dung môi sinh thái chiết xuất từ cam quýt, gia cố các khớp mộng lung lay bằng keo da động vật và xử lý mọt gỗ ẩn giấu bằng các loại dầu thực vật không độc hại.",
+          "explanation": "Đoạn 2 nêu rõ hai kỹ thuật phục hồi xanh: dùng dung môi chiết xuất cam quýt (citrus-based solvents) và dầu thực vật sinh học trừ mọt (botanical oils).",
+          "postReading": {
+            "originToken": "stripping... with eco-friendly citrus-based solvents... treating woodworm... with non-toxic botanical oils",
+            "paraphraseToken": "Stripping varnishes using citrus-based solvents and treating woodworms with botanical oils",
+            "explanation": "Các kỹ thuật phục hồi mộc an toàn sinh thái."
+          }
+        },
+        {
+          "id": "t33_p1_q4",
+          "num": 4,
+          "question": "The word 'retrofitted' in paragraph 2 is closest in meaning to:",
+          "questionVi": "Từ 'retrofitted' trong đoạn 2 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "fitted with modern additions",
+            "scrapped and discarded",
+            "painted in bright red",
+            "measured with laser gauges"
+          ],
+          "optionsVi": [
+            "được lắp ráp thêm các bộ phận mới cải tiến",
+            "bị đập bỏ và vứt vào bãi rác",
+            "được sơn màu đỏ rực",
+            "được đo bằng thước đo laser"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...or retrofitted with salvaged brass industrial handles and contemporary tapered metal hairpin legs.",
+          "evidenceVi": "...hoặc được lắp thêm các tay cầm công nghiệp bằng đồng tái chế và chân chữ U kim loại thon gọn hiện đại.",
+          "explanation": "'Retrofitted' có nghĩa là cải tiến trang bị thêm chi tiết phụ kiện mới cho một vật cũ vốn không có chi tiết đó, đồng nghĩa với 'fitted with modern additions' hoặc 'updated'.",
+          "postReading": {
+            "originToken": "retrofitted with salvaged brass industrial handles",
+            "paraphraseToken": "fitted with modern additions",
+            "explanation": "'Retrofitted' = 'fitted / updated with modern additions'."
+          }
+        },
+        {
+          "id": "t33_p1_q5",
+          "num": 5,
+          "question": "According to paragraph 3, what environmental hazard is caused by discarding mass-produced furniture in landfills?",
+          "questionVi": "Theo đoạn 3, mối nguy hại môi trường nào phát sinh khi vứt bỏ đồ nội thất sản xuất hàng loạt vào các bãi chôn lấp?",
+          "questionType": "detail",
+          "options": [
+            "Synthetic adhesives leach dangerous formaldehyde resins into groundwater aquifers",
+            "Wooden legs decompose into radioactive nuclear isotopes",
+            "Massive magnetic fields disrupt commercial airline navigation systems",
+            "Furniture attracts subterranean carnivores that prey on farm cattle"
+          ],
+          "optionsVi": [
+            "Các chất keo dán tổng hợp rò rỉ nhựa formaldehyde nguy hiểm vào các tầng nước ngầm",
+            "Chân gỗ tự phân hủy thành các đồng vị hạt nhân phóng xạ",
+            "Các từ trường khổng lồ gây gián đoạn hệ thống định vị của máy bay thương mại",
+            "Đồ nội thất thu hút các loài động vật ăn thịt dưới lòng đất săn bắt gia súc trang trại"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...subterranean landfills where synthetic adhesives leach dangerous formaldehyde resins into fragile groundwater aquifers.",
+          "evidenceVi": "...các bãi chôn lấp dưới lòng đất, nơi các chất kết dính nhân tạo rò rỉ nhựa formaldehyde nguy hiểm vào các tầng ngậm nước ngầm mỏng manh.",
+          "explanation": "Đoạn 3 chỉ rõ nguy cơ bãi chôn lấp: keo dán công nghiệp làm rò rỉ hóa chất formaldehyde độc hại thấm vào nguồn nước ngầm (leach dangerous formaldehyde resins into fragile groundwater aquifers).",
+          "postReading": {
+            "originToken": "synthetic adhesives leach dangerous formaldehyde resins into fragile groundwater aquifers",
+            "paraphraseToken": "Synthetic adhesives leach dangerous formaldehyde resins into groundwater aquifers",
+            "explanation": "Tác hại môi trường của rác thải nội thất công nghiệp."
+          }
+        },
+        {
+          "id": "t33_p1_q6",
+          "num": 6,
+          "question": "The word 'sequesters' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'sequesters' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "captures and locks away",
+            "releases and vents",
+            "multiplies and spreads",
+            "tests and analyzes"
+          ],
+          "optionsVi": [
+            "thu giữ và khóa nhốt lại",
+            "giải phóng và xả ra ngoài",
+            "nhân lên và lan rộng",
+            "thử nghiệm và phân tích"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "By prolonging the functional lifecycle of existing solid-timber heirlooms, upcycling sequesters embedded carbon for decades...",
+          "evidenceVi": "Bằng cách kéo dài vòng đời chức năng của các món đồ gia truyền bằng gỗ nguyên khối hiện có, upcycling giúp cô lập và lưu giữ carbon tích hợp trong nhiều thập kỷ...",
+          "explanation": "'Sequestrates / sequesters' trong khoa học môi trường là việc cô lập, giữ chặt carbon không cho thoát ra bầu khí quyển, đồng nghĩa với 'captures and locks away'.",
+          "postReading": {
+            "originToken": "sequesters embedded carbon",
+            "paraphraseToken": "captures and locks away",
+            "explanation": "'Sequester' = 'capture and store / lock away'."
+          }
+        },
+        {
+          "id": "t33_p1_q7",
+          "num": 7,
+          "question": "Why does upcycled furniture appeal to environmentally conscious modern consumers according to paragraph 4?",
+          "questionVi": "Tại sao đồ nội thất upcycle lại thu hút người tiêu dùng hiện đại có ý thức về môi trường theo đoạn 4?",
+          "questionType": "detail",
+          "options": [
+            "It is completely assembled by autonomous household humanoid robots.",
+            "It embodies a bespoke historical narrative and tactile warmth unlike sterile mass-market items.",
+            "It is subsidized by international government tax exemptions.",
+            "It can be eaten as emergency survival food during seasonal blizzards."
+          ],
+          "optionsVi": [
+            "Nó được lắp ráp hoàn toàn bởi các robot hình người tự động trong gia đình.",
+            "Nó chứa đựng câu chuyện lịch sử đặt làm riêng và sự ấm áp xúc giác không giống các món đồ đại trà vô hồn.",
+            "Nó được trợ giá bởi các khoản miễn thuế quốc tế của chính phủ.",
+            "Nó có thể được dùng làm thức ăn cứu sinh khẩn cấp trong những trận bão tuyết theo mùa."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "In contrast, an upcycled furnishing embodies a tangible, bespoke narrative—a unique historical artifact imbued with human intentionality and tactile warmth.",
+          "evidenceVi": "Ngược lại, một món đồ nội thất tái chế chứa đựng một câu chuyện hữu hình, độc bản - một hiện vật lịch sử độc đáo thấm đẫm chủ đích của con người và sự ấm áp của xúc giác.",
+          "explanation": "Đoạn 4 giải thích sức hút đối với giới trẻ: nó mang câu chuyện riêng biệt (bespoke narrative), dấu ấn lịch sử và xúc cảm ấm áp (tactile warmth) thay vì sự đơn điệu của đồ sản xuất hàng loạt.",
+          "postReading": {
+            "originToken": "embodies a tangible, bespoke narrative... unique historical artifact imbued with human intentionality and tactile warmth",
+            "paraphraseToken": "embodies a bespoke historical narrative and tactile warmth unlike sterile mass-market items",
+            "explanation": "Sức hấp dẫn về mặt tâm lý và cảm xúc của đồ nội thất upcycled."
+          }
+        },
+        {
+          "id": "t33_p1_q8",
+          "num": 8,
+          "question": "The word 'idiosyncratic' in paragraph 4 is closest in meaning to:",
+          "questionVi": "Từ 'idiosyncratic' trong đoạn 4 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "distinctively unique and individual",
+            "dangerously flammable",
+            "monotonous and repetitive",
+            "scientifically certified"
+          ],
+          "optionsVi": [
+            "độc đáo và mang tính cá thể riêng biệt",
+            "dễ bắt lửa nguy hiểm",
+            "đơn điệu và lặp đi lặp lại",
+            "được chứng nhận khoa học"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "While scalable commercial production remains challenging due to the idiosyncratic, non-standardized nature of salvaged materials...",
+          "evidenceVi": "Mặc dù việc sản xuất thương mại có thể mở rộng quy mô vẫn là một thách thức do tính chất riêng biệt, không tiêu chuẩn hóa của các vật liệu thu gom...",
+          "explanation": "'Idiosyncratic' chỉ đặc điểm riêng biệt, độc nhất vô nhị của từng cá thể không cái nào giống cái nào, đồng nghĩa với 'distinctively unique and individual'.",
+          "postReading": {
+            "originToken": "idiosyncratic, non-standardized nature",
+            "paraphraseToken": "distinctively unique and individual",
+            "explanation": "'Idiosyncratic' = 'distinctively unique / peculiar'."
+          }
+        },
+        {
+          "id": "t33_p1_q9",
+          "num": 9,
+          "question": "What primary operational limitation prevents furniture upcycling from achieving mass-scale industrial factory output?",
+          "questionVi": "Hạn chế vận hành chủ yếu nào ngăn cản việc nâng cấp đồ nội thất đạt sản lượng quy mô công nghiệp hàng loạt?",
+          "questionType": "detail",
+          "options": [
+            "International timber regulations ban the sale of refurbished furniture across borders.",
+            "The non-standardized and idiosyncratic dimensions of salvaged raw materials",
+            "A global shortage of eco-friendly citrus cleaning solvents",
+            "Universal consumer refusal to pay for any restored vintage furniture"
+          ],
+          "optionsVi": [
+            "Các quy định quốc tế về gỗ cấm bán đồ nội thất tân trang qua biên giới.",
+            "Kích thước không tiêu chuẩn hóa và tính chất riêng biệt của các nguyên liệu thô thu hồi",
+            "Tình trạng thiếu hụt toàn cầu các dung môi làm sạch cam chanh thân thiện với môi trường",
+            "Sự từ chối phổ quát của người tiêu dùng trong việc trả tiền cho bất kỳ đồ nội thất cổ điển nào được phục hồi"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "While scalable commercial production remains challenging due to the idiosyncratic, non-standardized nature of salvaged materials, upcycling has evolved...",
+          "evidenceVi": "Mặc dù việc sản xuất thương mại có thể mở rộng quy mô vẫn là một thách thức do tính chất riêng biệt, không tiêu chuẩn hóa của các vật liệu thu gom, upcycling đã phát triển...",
+          "explanation": "Đoạn 4 chỉ ra rào cản quy mô công nghiệp: tính chất không đồng nhất và không theo kích thước chuẩn của các đồ gỗ cũ thu hồi (the idiosyncratic, non-standardized nature of salvaged materials).",
+          "postReading": {
+            "originToken": "idiosyncratic, non-standardized nature of salvaged materials",
+            "paraphraseToken": "non-standardized and idiosyncratic dimensions of salvaged raw materials",
+            "explanation": "Thách thức mở rộng quy mô dây chuyền của ngành upcycling."
+          }
+        },
+        {
+          "id": "t33_p1_q10",
+          "num": 10,
+          "question": "Which of the following best expresses the main idea of the passage?",
+          "questionVi": "Câu nào sau đây thể hiện đúng nhất ý chính của toàn bộ bài đọc?",
+          "questionType": "main_idea",
+          "options": [
+            "Furniture upcycling combines artisanal craftsmanship, circular ecological principles, and bespoke aesthetic appeal to counter modern disposable furniture waste.",
+            "Fast furniture made from compressed particleboard is the most durable construction material in history.",
+            "Traditional wood joinery methods have been completely banned in North America due to woodworm epidemics.",
+            "All residential furniture should be incinerated every decade to spur manufacturing jobs."
+          ],
+          "optionsVi": [
+            "Nâng cấp đồ nội thất kết hợp tay nghề thủ công mỹ nghệ, các nguyên lý sinh thái tuần hoàn và sức hút thẩm mỹ độc bản để đối phó với rác thải nội thất dùng một lần hiện đại.",
+            "Đồ nội thất nhanh làm từ ván dăm ép là vật liệu xây dựng bền nhất trong lịch sử.",
+            "Các phương pháp ghép mộng gỗ truyền thống đã bị cấm hoàn toàn ở Bắc Mỹ do đại dịch mọt gỗ.",
+            "Tất cả đồ nội thất gia đình nên được đốt trong lò thiêu mỗi mười năm để kích thích việc làm ngành sản xuất."
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The passage outlines the flaws of fast furniture, the methods of artisanal upcycling, its circular environmental benefits (carbon sequestration and groundwater protection), and its cultural value as bespoke luxury design.",
+          "evidenceVi": "Bài đọc khái quát những khuyết điểm của đồ nội thất nhanh, các phương pháp upcycling thủ công, lợi ích môi trường tuần hoàn của nó (cô lập carbon và bảo vệ nước ngầm) và giá trị văn hóa như một thiết kế xa xỉ độc bản.",
+          "explanation": "Bài đọc bao quát trọn vẹn phong trào upcycling: từ kỹ thuật phục hồi xanh, bảo vệ môi trường tuần hoàn đến giá trị thẩm mỹ cá nhân hóa đối lập với rác thải nội thất công nghiệp.",
+          "postReading": {
+            "originToken": "counter-cultural movement centered on furniture upcycling... restorative circular economy... bespoke narrative",
+            "paraphraseToken": "Furniture upcycling combines artisanal craftsmanship, circular ecological principles, and bespoke aesthetic appeal to counter modern disposable furniture waste",
+            "explanation": "Tóm tắt trọn vẹn chủ đề bài đọc."
+          }
+        }
+      ]
+    },
+    {
+      "passageId": "t33_p2",
+      "passageNum": 2,
+      "title": "Red River Delta Geographical Development & Alluvial Floodplains: Hydrology & Dyke Systems",
+      "titleVi": "Sự phát triển địa lý Đồng bằng sông Hồng & Vùng lũ phù sa: Thủy văn & Hệ thống đê điều",
+      "category": "geography_hydrology",
+      "text": "Extending across approximately fifteen thousand square kilometers in northern Vietnam, the Red River Delta (Dong Bang Song Hong) represents one of the most hydro-geologically dynamic and culturally foundational alluvial plains in Southeast Asia. Formed over millennia by the colossal sediment discharge of the Red River (Song Hong) and its major distributor, the Da and Lo rivers, the delta is a textbook product of complex fluvio-marine interactions. Originating in the rugged mountainous highlands of Yunnan, China, the Red River carries a tremendous suspended silt load—estimated at more than one hundred million tons annually—imbued with rich iron oxide sediments that give the rushing waterway its eponymous ochre-crimson hue. As the river debouches into the low-gradient topography of the Gulf of Tonkin, the abrupt deceleration of water velocity forces these fluvial sediments to precipitate, inexorably extending the delta coast seaward by up to one hundred meters annually in active depositional zones.\n\nHowever, the geographic morphology of the delta is defined by severe hydrological volatility. Driven by seasonal monsoons and tropical cyclones, the hydrological regime exhibits extreme divergence between the protracted dry winter months and the tempestuous summer flood season, during which up to eighty percent of total annual precipitation descends upon the watershed within four months. In natural state, such torrential volumes would periodically inundate vast tracts of riparian floodplains, depositing nutrient-rich alluvial silt across fertile rice paddies while reshaping river channels through violent avulsion. To harness this fertile yet perilous landscape, ancestral Vietnamese civilizations undertook one of the most staggering collective hydraulic engineering enterprises in human history: the construction of the Red River dyke network.\n\nInitiated over a millennium ago during the Ly and Tran dynasties and continuously reinforced through successive centuries, the dyke system encompasses more than three thousand kilometers of primary earthen embankments and masonry floodwalls. These monumental levees permanently severed the natural ecological continuum between the main river channels and their adjacent floodplains. By confining torrential floodwaters within artificially constricted channels, the dykes forced fluvial sediment deposition to occur exclusively within the active riverbed. Consequently, over centuries of continuous siltation, the bed of the Red River has gradually risen, creating a precarious topographic anomaly known as 'perched river channels,' where the river water flows several meters above the surrounding agricultural plains and municipal rooflines.\n\nThis elevated river regime transforms hydraulic maintenance into an existential national imperative. The immense hydrostatic pressure exerted on aging dykes during peak monsoon surges creates catastrophic risks of embankment rupture, seepage, and under-scouring. Modern hydrological authorities employ complex engineering systems—including upstream mega-reservoirs like the Hoa Binh and Son La hydropower dams—to regulate seasonal discharge peaks. Nevertheless, climate change introduces mounting vulnerabilities: sea-level rise causes marine saltwater intrusion into southern coastal estuaries, while intense monsoonal cloudbursts stress historic flood-defense systems. Preserving the socioeconomic equilibrium of this ancestral rice basket demands sophisticated integration of ecological flood retention zones with modern geotechnical flood-control infrastructure.",
+      "vocab": [
+        {
+          "word": "alluvial",
+          "pos": "adj",
+          "ipa": "/əˈluː.vi.əl/",
+          "level": "C1",
+          "mean": "thuộc phù sa, do phù sa bồi đắp",
+          "syns": [
+            "silt-formed",
+            "sedimentary"
+          ],
+          "ex": "The alluvial soil of the delta supports intensive agriculture."
+        },
+        {
+          "word": "distributor",
+          "pos": "n",
+          "ipa": "/dɪˈstrɪb.jʊ.tər/",
+          "level": "C1",
+          "mean": "nhánh sông phân lưu chia dòng",
+          "syns": [
+            "distributary",
+            "river branch"
+          ],
+          "ex": "The river separates into multiple coastal distributor channels."
+        },
+        {
+          "word": "fluvio-marine",
+          "pos": "adj",
+          "ipa": "/ˌfluː.vi.əʊ məˈriːn/",
+          "level": "C1",
+          "mean": "thuộc tương tác sông biển kết hợp",
+          "syns": [
+            "river-ocean",
+            "estuarine"
+          ],
+          "ex": "Delta dynamics result from fluvio-marine sedimentation processes."
+        },
+        {
+          "word": "suspended",
+          "pos": "adj",
+          "ipa": "/səˈspen.dɪd/",
+          "level": "B2",
+          "mean": "lơ lửng, huyền phù trong chất lỏng",
+          "syns": [
+            "floating",
+            "dispersed"
+          ],
+          "ex": "The river carries enormous tons of suspended silt particles."
+        },
+        {
+          "word": "eponymous",
+          "pos": "adj",
+          "ipa": "/ɪˈpɒn.ɪ.məs/",
+          "level": "C1",
+          "mean": "cùng tên, mang lại tên gọi cho",
+          "syns": [
+            "name-giving",
+            "namesake"
+          ],
+          "ex": "The red silt gives the river its eponymous color."
+        },
+        {
+          "word": "debouches",
+          "pos": "v",
+          "ipa": "/dɪˈbaʊ.ʃɪz/",
+          "level": "C1",
+          "mean": "đổ ra, tuôn ra cửa sông rộng lớn",
+          "syns": [
+            "empties",
+            "discharges",
+            "flows out"
+          ],
+          "ex": "The river debouches into the open Gulf of Tonkin."
+        },
+        {
+          "word": "fluvial",
+          "pos": "adj",
+          "ipa": "/ˈfluː.vi.əl/",
+          "level": "C1",
+          "mean": "thuộc dòng sông, phù sa dòng chảy",
+          "syns": [
+            "river-borne",
+            "stream-related"
+          ],
+          "ex": "Fluvial sediment deposition created new coastal islands."
+        },
+        {
+          "word": "precipitate",
+          "pos": "v",
+          "ipa": "/prɪˈsɪp.ɪ.teɪt/",
+          "level": "C1",
+          "mean": "kết tủa, lắng đọng xuống đáy",
+          "syns": [
+            "settle out",
+            "deposit",
+            "subside"
+          ],
+          "ex": "Slow water speeds cause rich river silts to precipitate."
+        },
+        {
+          "word": "inexorably",
+          "pos": "adv",
+          "ipa": "/ɪnˈek.sər.ə.bli/",
+          "level": "C1",
+          "mean": "không thể cản nổi, liên tục không ngừng",
+          "syns": [
+            "relentlessly",
+            "unstoppably"
+          ],
+          "ex": "The delta coast expands inexorably into the shallow sea."
+        },
+        {
+          "word": "morphology",
+          "pos": "n",
+          "ipa": "/mɔːˈfɒl.ə.dʒi/",
+          "level": "C1",
+          "mean": "hình thái học địa chất",
+          "syns": [
+            "structural formation",
+            "topography",
+            "shape"
+          ],
+          "ex": "The physical morphology of the delta was shaped by dyke systems."
+        },
+        {
+          "word": "tempestuous",
+          "pos": "adj",
+          "ipa": "/temˈpes.tʃu.əs/",
+          "level": "C1",
+          "mean": "dữ dội, giông bão bão táp",
+          "syns": [
+            "turbulent",
+            "stormy",
+            "tumultuous"
+          ],
+          "ex": "Summer monsoons bring tempestuous rainfall to the region."
+        },
+        {
+          "word": "riparian",
+          "pos": "adj",
+          "ipa": "/raɪˈpeə.ri.ən/",
+          "level": "C1",
+          "mean": "thuộc ven sông, bờ sông",
+          "syns": [
+            "riverbank",
+            "streamside"
+          ],
+          "ex": "Riparian forests were cleared to build protective dyke banks."
+        },
+        {
+          "word": "avulsion",
+          "pos": "n",
+          "ipa": "/əˈvʌl.ʃən/",
+          "level": "C1",
+          "mean": "sự chuyển dòng đột ngột của lòng sông",
+          "syns": [
+            "river abandonment",
+            "channel shift"
+          ],
+          "ex": "Sudden avulsion can create an entirely new path for the river."
+        },
+        {
+          "word": "perilous",
+          "pos": "adj",
+          "ipa": "/ˈper.əl.əs/",
+          "level": "B2",
+          "mean": "nguy hiểm, đầy rủi ro hiểm nguy",
+          "syns": [
+            "hazardous",
+            "dangerous",
+            "treacherous"
+          ],
+          "ex": "Farmers learned to cultivate this fertile yet perilous floodplain."
+        },
+        {
+          "word": "hydraulic",
+          "pos": "adj",
+          "ipa": "/haɪˈdrɒl.ɪk/",
+          "level": "B2",
+          "mean": "thuộc thủy lợi, thủy lực",
+          "syns": [
+            "water-control",
+            "fluid-powered"
+          ],
+          "ex": "The country built complex hydraulic networks to prevent seasonal flooding."
+        },
+        {
+          "word": "dyke",
+          "pos": "n",
+          "ipa": "/daɪk/",
+          "level": "B2",
+          "mean": "con đê ngăn lũ",
+          "syns": [
+            "levee",
+            "embankment",
+            "floodwall"
+          ],
+          "ex": "Miles of ancient dykes protect low-lying villages from high water."
+        },
+        {
+          "word": "levees",
+          "pos": "n",
+          "ipa": "/ˈlev.iːz/",
+          "level": "C1",
+          "mean": "các bờ đê đắp cao ngăn nước",
+          "syns": [
+            "dykes",
+            "retaining banks"
+          ],
+          "ex": "Earthen levees hold back torrential monsoon floodwaters."
+        },
+        {
+          "word": "severed",
+          "pos": "v",
+          "ipa": "/ˈsev.əd/",
+          "level": "C1",
+          "mean": "cắt đứt, chia cắt hoàn toàn",
+          "syns": [
+            "cut off",
+            "disconnected",
+            "separated"
+          ],
+          "ex": "High dykes permanently severed the floodplains from natural sedimentation."
+        },
+        {
+          "word": "constricted",
+          "pos": "adj",
+          "ipa": "/kənˈstrɪk.tɪd/",
+          "level": "C1",
+          "mean": "bị gò bó, thu hẹp khe hẹp",
+          "syns": [
+            "narrowed",
+            "confined",
+            "restricted"
+          ],
+          "ex": "Water velocity accelerates when surging through constricted river walls."
+        },
+        {
+          "word": "perched",
+          "pos": "adj",
+          "ipa": "/pɜːtʃt/",
+          "level": "C1",
+          "mean": "treo lơ lửng ở vị trí cao hơn xung quanh",
+          "syns": [
+            "elevated",
+            "raised above"
+          ],
+          "ex": "A perched river flows high above the surrounding villages."
+        },
+        {
+          "word": "anomaly",
+          "pos": "n",
+          "ipa": "/əˈnɒm.ə.li/",
+          "level": "C1",
+          "mean": "sự bất thường, dị thường địa lý",
+          "syns": [
+            "irregularity",
+            "aberration",
+            "deviation"
+          ],
+          "ex": "The perched riverbed is a striking hydrological anomaly."
+        },
+        {
+          "word": "hydrostatic",
+          "pos": "adj",
+          "ipa": "/ˌhaɪ.drəˈstæt.ɪk/",
+          "level": "C1",
+          "mean": "thuộc áp suất thủy tĩnh của nước",
+          "syns": [
+            "water-pressure-related"
+          ],
+          "ex": "Rising tides apply enormous hydrostatic pressure on aging floodwalls."
+        },
+        {
+          "word": "under-scouring",
+          "pos": "n",
+          "ipa": "/ˌʌn.dəˈskaʊə.rɪŋ/",
+          "level": "C1",
+          "mean": "hiện tượng xói ngầm chân đê",
+          "syns": [
+            "undermining",
+            "subsurface erosion"
+          ],
+          "ex": "Under-scouring weakens the foundation piles beneath concrete dykes."
+        },
+        {
+          "word": "mega-reservoirs",
+          "pos": "n",
+          "ipa": "/ˈmeɡ.ə ˈrez.ə.vwɑːz/",
+          "level": "C1",
+          "mean": "các hồ chứa nước đại thủy điện khổng lồ",
+          "syns": [
+            "massive dam lakes",
+            "holding reservoirs"
+          ],
+          "ex": "Upstream mega-reservoirs regulate downstream water discharge."
+        },
+        {
+          "word": "estuaries",
+          "pos": "n",
+          "ipa": "/ˈes.tʃʊə.riz/",
+          "level": "B2",
+          "mean": "các vùng cửa sông ven biển",
+          "syns": [
+            "coastal river mouths",
+            "tidal inlets"
+          ],
+          "ex": "Saltwater creeps inland across southern estuaries during dry seasons."
+        },
+        {
+          "word": "cloudbursts",
+          "pos": "n",
+          "ipa": "/ˈklaʊd.bɜːsts/",
+          "level": "C1",
+          "mean": "những trận mưa rào trút nước như thác",
+          "syns": [
+            "deluges",
+            "downpours",
+            "torrential rains"
+          ],
+          "ex": "Sudden monsoonal cloudbursts test the resilience of drainage pumps."
+        },
+        {
+          "word": "geotechnical",
+          "pos": "adj",
+          "ipa": "/ˌdʒiː.əʊˈtek.nɪ.kəl/",
+          "level": "C1",
+          "mean": "thuộc địa kỹ thuật công trình đất đá",
+          "syns": [
+            "earth-engineering",
+            "soil-mechanical"
+          ],
+          "ex": "Engineers reinforce dykes using advanced geotechnical geotextiles."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t33_p2_q11",
+          "num": 11,
+          "question": "What gives the Red River its distinctive ochre-crimson color according to paragraph 1?",
+          "questionVi": "Điều gì mang lại cho sông Hồng màu sắc đỏ son đất son đặc trưng theo đoạn 1?",
+          "questionType": "detail",
+          "options": [
+            "Industrial textile dyes dumped along urban canal systems",
+            "A rich suspended silt load containing abundant iron oxide sediments from mountainous terrain",
+            "Decaying mangrove foliage floating from coastal delta swamps",
+            "Volcanic basalt powder emitted from submarine undersea vents"
+          ],
+          "optionsVi": [
+            "Thuốc nhuộm dệt may công nghiệp thải ra dọc theo hệ thống kênh rạch đô thị",
+            "Lượng phù sa lơ lửng dồi dào chứa các trầm tích oxit sắt từ vùng núi cao",
+            "Lá cây đước mục rữa trôi dạt từ các đầm lầy đầm phá ven biển",
+            "Bột đá bazan núi lửa phun ra từ các lỗ thông hơi dưới đáy biển"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...the Red River carries a tremendous suspended silt load—estimated at more than one hundred million tons annually—imbued with rich iron oxide sediments that give the rushing waterway its eponymous ochre-crimson hue.",
+          "evidenceVi": "...Sông Hồng mang theo một lượng phù sa lơ lửng khổng lồ - ước tính hơn 100 triệu tấn mỗi năm - thấm đẫm các trầm tích oxit sắt phong phú tạo cho dòng nước chảy xiết màu sắc đỏ son mang tên nó.",
+          "explanation": "Đoạn 1 nêu rõ: phù sa lơ lửng dồi dào giàu oxit sắt (iron oxide sediments) mang lại màu đỏ son đất đặc trưng cho sông Hồng.",
+          "postReading": {
+            "originToken": "rich iron oxide sediments that give the rushing waterway its eponymous ochre-crimson hue",
+            "paraphraseToken": "A rich suspended silt load containing abundant iron oxide sediments from mountainous terrain",
+            "explanation": "Nguồn gốc màu nước đỏ của phù sa sông Hồng."
+          }
+        },
+        {
+          "id": "t33_p2_q12",
+          "num": 12,
+          "question": "The word 'debouches' in paragraph 1 is closest in meaning to:",
+          "questionVi": "Từ 'debouches' trong đoạn 1 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "empties and flows out",
+            "freezes solid",
+            "evaporates into steam",
+            "splits into mountain springs"
+          ],
+          "optionsVi": [
+            "đổ ra và tuôn chảy vào",
+            "đóng băng rắn chắc",
+            "bốc hơi thành hơi nước",
+            "tách thành các dòng suối núi"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "As the river debouches into the low-gradient topography of the Gulf of Tonkin, the abrupt deceleration of water velocity forces these fluvial sediments to precipitate...",
+          "evidenceVi": "Khi con sông đổ ra vùng địa hình độ dốc thấp của Vịnh Bắc Bộ, sự giảm tốc độ đột ngột của dòng nước buộc các trầm tích sông này phải lắng đọng...",
+          "explanation": "'Debouches' (thuật ngữ thủy văn) có nghĩa là một dòng sông tuôn chảy ra từ một thung lũng hẹp vào một vùng nước rộng lớn hoặc cửa biển, đồng nghĩa với 'empties and flows out'.",
+          "postReading": {
+            "originToken": "debouches into... Gulf of Tonkin",
+            "paraphraseToken": "empties and flows out",
+            "explanation": "'Debouches' = 'empties / emerges into'."
+          }
+        },
+        {
+          "id": "t33_p2_q13",
+          "num": 13,
+          "question": "According to paragraph 2, what seasonal climate characteristic creates severe hydrological volatility in the Red River Delta?",
+          "questionVi": "Theo đoạn 2, đặc tính khí hậu theo mùa nào tạo ra sự biến động thủy văn khắc nghiệt ở Đồng bằng sông Hồng?",
+          "questionType": "detail",
+          "options": [
+            "Permanent winter blizzards that freeze all waterways for six consecutive months",
+            "Up to eighty percent of total annual rainfall descending within four summer months",
+            "Continuous desert droughts that dry up the entire river channel for decades",
+            "Geothermal volcanic heating that boils coastal fishing harbors"
+          ],
+          "optionsVi": [
+            "Những trận bão tuyết mùa đông triền miên làm đóng băng mọi tuyến đường thủy suốt sáu tháng liên tục",
+            "Tới 80% tổng lượng mưa hàng năm trút xuống chỉ trong bốn tháng mùa hè",
+            "Những đợt hạn hán sa mạc liên tục làm khô cạn toàn bộ lòng sông trong nhiều thập kỷ",
+            "Nhiệt lượng địa nhiệt núi lửa làm sôi các bến cảng đánh cá ven biển"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...during which up to eighty percent of total annual precipitation descends upon the watershed within four months.",
+          "evidenceVi": "...trong đó có tới 80% tổng lượng mưa hàng năm đổ xuống lưu vực chỉ trong vòng bốn tháng.",
+          "explanation": "Đoạn 2 nêu rõ sự biến động thủy văn: tới 80% lượng mưa cả năm dồn dập đổ xuống chỉ trong 4 tháng mùa hè (up to eighty percent of total annual precipitation descends upon the watershed within four months).",
+          "postReading": {
+            "originToken": "up to eighty percent of total annual precipitation descends upon the watershed within four months",
+            "paraphraseToken": "Up to eighty percent of total annual rainfall descending within four summer months",
+            "explanation": "Đặc trưng tập trung lượng mưa mùa lũ ở miền Bắc Việt Nam."
+          }
+        },
+        {
+          "id": "t33_p2_q14",
+          "num": 14,
+          "question": "What hydraulic engineering system was constructed over centuries to control seasonal flooding as discussed in paragraph 3?",
+          "questionVi": "Hệ thống công trình thủy lợi nào đã được xây dựng qua nhiều thế kỷ để kiểm soát lũ lụt theo mùa như thảo luận trong đoạn 3?",
+          "questionType": "detail",
+          "options": [
+            "A series of nuclear-powered distillation pumps in Ha Long Bay",
+            "A network of more than three thousand kilometers of earthen dykes and masonry levees",
+            "Underground tunnels diverting the entire Red River into the Mekong basin",
+            "Floating glass domes covering every individual rice paddy"
+          ],
+          "optionsVi": [
+            "Một loạt các máy bơm chưng cất chạy bằng năng lượng hạt nhân ở Vịnh Hạ Long",
+            "Một mạng lưới hơn 3.000 km đê đất và tường kè chắn lũ bằng đá",
+            "Các đường hầm ngầm chuyển hướng toàn bộ sông Hồng vào lưu vực sông Mê Kông",
+            "Các mái vòm bằng kính nổi che phủ từng thửa ruộng lúa riêng lẻ"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...the dyke system encompasses more than three thousand kilometers of primary earthen embankments and masonry floodwalls.",
+          "evidenceVi": "...hệ thống đê điều bao gồm hơn ba nghìn km bờ đê chính bằng đất và tường ngăn lũ bằng gạch đá xây.",
+          "explanation": "Đoạn 3 chỉ rõ hệ thống đê điều sông Hồng gồm hơn 3.000 km đê đất và tường ngăn lũ (more than three thousand kilometers of primary earthen embankments and masonry floodwalls).",
+          "postReading": {
+            "originToken": "dyke system encompasses more than three thousand kilometers of primary earthen embankments",
+            "paraphraseToken": "network of more than three thousand kilometers of earthen dykes and masonry levees",
+            "explanation": "Quy mô kỳ vĩ của hệ thống đê điều sông Hồng."
+          }
+        },
+        {
+          "id": "t33_p2_q15",
+          "num": 15,
+          "question": "The word 'severed' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'severed' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "cut off and separated",
+            "repaired and improved",
+            "measured and mapped",
+            "subsidized and financed"
+          ],
+          "optionsVi": [
+            "cắt đứt và chia tách",
+            "sửa chữa và cải thiện",
+            "đo lường và lập bản đồ",
+            "trợ cấp và tài trợ tài chính"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "These monumental levees permanently severed the natural ecological continuum between the main river channels and their adjacent floodplains.",
+          "evidenceVi": "Những bờ đê vĩ đại này đã cắt đứt vĩnh viễn sự liên tục sinh thái tự nhiên giữa các luồng sông chính và các vùng ngập lũ liền kề.",
+          "explanation": "'Severed' có nghĩa là cắt đứt rời, chia cắt hoàn toàn mối liên hệ, đồng nghĩa với 'cut off and separated'.",
+          "postReading": {
+            "originToken": "permanently severed",
+            "paraphraseToken": "cut off and separated",
+            "explanation": "'Severed' = 'cut off / divided / separated'."
+          }
+        },
+        {
+          "id": "t33_p2_q16",
+          "num": 16,
+          "question": "What is the phenomenon of 'perched river channels' described in paragraph 3?",
+          "questionVi": "Hiện tượng 'lòng sông treo' (perched river channels) được mô tả trong đoạn 3 là gì?",
+          "questionType": "detail",
+          "options": [
+            "Rivers that freeze entirely in mid-air above forested canopies",
+            "Riverbeds that have risen through silt deposition so that water flows meters above surrounding agricultural plains",
+            "Artificially constructed aqueducts carrying drinking water to mountain fortresses",
+            "Rivers that temporarily reverse their flow direction during full moon tides"
+          ],
+          "optionsVi": [
+            "Những dòng sông đóng băng hoàn toàn lơ lửng trên các tán rừng",
+            "Lòng sông bị nâng cao do bồi lắng phù sa khiến nước chảy cao hơn vài mét so với đồng bằng nông nghiệp xung quanh",
+            "Các cầu dẫn nước được xây dựng nhân tạo dẫn nước uống đến các pháo đài miền núi",
+            "Những dòng sông tạm thời đảo ngược hướng dòng chảy trong thời kỳ triều cường trăng tròn"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...the bed of the Red River has gradually risen, creating a precarious topographic anomaly known as 'perched river channels,' where the river water flows several meters above the surrounding agricultural plains and municipal rooflines.",
+          "evidenceVi": "...lòng sông Hồng đã dần dâng cao, tạo ra một sự dị thường địa hình bấp bênh được gọi là 'lòng sông treo', nơi nước sông chảy cao hơn vài mét so với đồng bằng nông nghiệp và mái nhà xung quanh.",
+          "explanation": "Đoạn 3 định nghĩa rõ: do đê ngăn không cho phù sa tràn ra đồng bãi nên phù sa tích tụ trong lòng sông, làm đáy sông dâng cao hơn cả mặt bằng ruộng đồng và nhà cửa xung quanh (perched river channels).",
+          "postReading": {
+            "originToken": "bed of the Red River has gradually risen... river water flows several meters above the surrounding agricultural plains",
+            "paraphraseToken": "Riverbeds that have risen through silt deposition so that water flows meters above surrounding agricultural plains",
+            "explanation": "Khái niệm địa lý thủy văn 'sông treo' sông Hồng."
+          }
+        },
+        {
+          "id": "t33_p2_q17",
+          "num": 17,
+          "question": "The word 'perilous' in paragraph 2 is closest in meaning to:",
+          "questionVi": "Từ 'perilous' trong đoạn 2 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "hazardous and dangerous",
+            "peaceful and quiet",
+            "arid and dry",
+            "frozen and solid"
+          ],
+          "optionsVi": [
+            "nguy hiểm và đầy rủi ro",
+            "thanh bình và yên tĩnh",
+            "khô cằn",
+            "đóng băng rắn chắc"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "To harness this fertile yet perilous landscape, ancestral Vietnamese civilizations undertook one of the most staggering collective hydraulic engineering enterprises...",
+          "evidenceVi": "Để khai thác vùng đất màu mỡ nhưng đầy nguy hiểm này, các nền văn minh tổ tiên người Việt đã thực hiện một trong những công trình kỹ thuật thủy lợi tập thể đáng kinh ngạc nhất...",
+          "explanation": "'Perilous' có nghĩa là đầy hiểm nguy, nguy hiểm rủi ro tính mạng, đồng nghĩa với 'hazardous and dangerous'.",
+          "postReading": {
+            "originToken": "perilous landscape",
+            "paraphraseToken": "hazardous and dangerous",
+            "explanation": "'Perilous' = 'hazardous / dangerous'."
+          }
+        },
+        {
+          "id": "t33_p2_q18",
+          "num": 18,
+          "question": "According to paragraph 4, what modern engineering installations assist in regulating monsoon peak discharge on the Red River?",
+          "questionVi": "Theo đoạn 4, những công trình kỹ thuật hiện đại nào hỗ trợ điều tiết lưu lượng đỉnh lũ gió mùa trên sông Hồng?",
+          "questionType": "detail",
+          "options": [
+            "Upstream mega-reservoirs like the Hoa Binh and Son La hydropower dams",
+            "Desalination factories constructed along coastal Thai Binh",
+            "Nuclear cooling towers stationed along the Yunnan border",
+            "High-capacity airborne cloud-seeding planes operating over Hanoi"
+          ],
+          "optionsVi": [
+            "Các hồ chứa nước khổng lồ ở thượng nguồn như đập thủy điện Hòa Bình và Sơn La",
+            "Các nhà máy khử muối được xây dựng dọc theo vùng ven biển Thái Bình",
+            "Các tháp làm mát hạt nhân đóng dọc biên giới Vân Nam",
+            "Máy bay gieo mây công suất cao hoạt động trên bầu trời Hà Nội"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "Modern hydrological authorities employ complex engineering systems—including upstream mega-reservoirs like the Hoa Binh and Son La hydropower dams—to regulate seasonal discharge peaks.",
+          "evidenceVi": "Các cơ quan thủy văn hiện đại sử dụng các hệ thống kỹ thuật phức tạp - bao gồm các hồ chứa khổng lồ ở thượng nguồn như đập thủy điện Hòa Bình và Sơn La - để điều tiết các đỉnh lưu lượng xả theo mùa.",
+          "explanation": "Đoạn 4 nêu rõ: các hồ chứa đại thủy điện thượng nguồn như Hòa Bình và Sơn La đóng vai trò then chốt điều tiết đỉnh lũ mùa mưa.",
+          "postReading": {
+            "originToken": "upstream mega-reservoirs like the Hoa Binh and Son La hydropower dams",
+            "paraphraseToken": "Upstream mega-reservoirs like the Hoa Binh and Son La hydropower dams",
+            "explanation": "Vai trò cắt lũ của hệ thống hồ chứa thủy điện Hòa Bình - Sơn La."
+          }
+        },
+        {
+          "id": "t33_p2_q19",
+          "num": 19,
+          "question": "Which new vulnerability caused by global climate change is highlighted in paragraph 4?",
+          "questionVi": "Lỗ hổng mới nào do biến đổi khí hậu toàn cầu gây ra được nhấn mạnh trong đoạn 4?",
+          "questionType": "detail",
+          "options": [
+            "Glacial ice sheets expanding and crushing northern mountain passes",
+            "Sea-level rise driving marine saltwater intrusion into southern coastal estuaries",
+            "The permanent drying up of all rainfall across Southeast Asia",
+            "A sudden cooling of the Gulf of Tonkin creating iceberg navigation hazards"
+          ],
+          "optionsVi": [
+            "Các dải băng sông băng mở rộng và đè bẹp các đèo núi phía bắc",
+            "Nước biển dâng thúc đẩy xâm nhập mặn vào các cửa sông ven biển phía nam",
+            "Sự khô cạn vĩnh viễn của mọi cơn mưa trên khắp Đông Nam Á",
+            "Sự lạnh đi đột ngột của Vịnh Bắc Bộ tạo ra các nguy hiểm hàng hải từ tảng băng trôi"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Nevertheless, climate change introduces mounting vulnerabilities: sea-level rise causes marine saltwater intrusion into southern coastal estuaries, while intense monsoonal cloudbursts stress historic flood-defense systems.",
+          "evidenceVi": "Tuy nhiên, biến đổi khí hậu mang lại những điểm dễ bị tổn thương ngày càng tăng: mực nước biển dâng gây ra hiện tượng xâm nhập mặn vào các cửa sông ven biển phía nam, trong khi các trận mưa rào trút nước dữ dội do gió mùa gây áp lực lên hệ thống phòng chống lũ lịch sử.",
+          "explanation": "Đoạn 4 nêu rõ hai tác động của biến đổi khí hậu: nước biển dâng gây xâm nhập mặn (saltwater intrusion) và các trận mưa bão cực đoan làm căng thẳng hệ thống đê điều.",
+          "postReading": {
+            "originToken": "sea-level rise causes marine saltwater intrusion into southern coastal estuaries",
+            "paraphraseToken": "Sea-level rise driving marine saltwater intrusion into southern coastal estuaries",
+            "explanation": "Hiểm họa xâm nhập mặn do biến đổi khí hậu tại các cửa sông ven biển."
+          }
+        },
+        {
+          "id": "t33_p2_q20",
+          "num": 20,
+          "question": "What is the primary topic of the passage?",
+          "questionVi": "Chủ đề chính của bài đọc là gì?",
+          "questionType": "main_idea",
+          "options": [
+            "The geological formation, hydrological dynamics, and historical dyke engineering of Vietnam's Red River Delta",
+            "The commercial export of iron oxide mineral pigments to Chinese dye manufacturers",
+            "A technical review of concrete turbine maintenance at the Hoa Binh hydroelectric station",
+            "The biological lifecycle of freshwater carp in the Gulf of Tonkin"
+          ],
+          "optionsVi": [
+            "Sự hình thành địa chất, động lực học thủy văn và công trình đê điều lịch sử của Đồng bằng sông Hồng Việt Nam",
+            "Việc xuất khẩu thương mại bột màu khoáng oxit sắt cho các nhà sản xuất thuốc nhuộm Trung Quốc",
+            "Đánh giá kỹ thuật về việc bảo trì tuabin bê tông tại nhà máy thủy điện Hòa Bình",
+            "Vòng đời sinh học của cá chép nước ngọt ở Vịnh Bắc Bộ"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The passage explores the delta's alluvial formation from Yunnan sediments, seasonal monsoon flood volatility, the millennial development of the 3,000-km dyke network, perched river channels, and modern climate challenges.",
+          "evidenceVi": "Bài đọc khám phá sự hình thành phù sa của châu thổ từ trầm tích Vân Nam, biến động lũ lụt mùa mưa, sự phát triển nghìn năm của mạng lưới đê 3.000 km, lòng sông treo và những thách thức khí hậu hiện đại.",
+          "explanation": "Toàn bài phân tích toàn diện Đồng bằng sông Hồng: từ sự bồi đắp địa lý, đặc điểm dòng chảy mang phù sa đỏ đến kỳ tích trị thủy đê điều nghìn năm và bài toán thích ứng biến đổi khí hậu ngày nay.",
+          "postReading": {
+            "originToken": "alluvial plains... sediment discharge... dyke network... perched river channels... geotechnical flood-control",
+            "paraphraseToken": "geological formation, hydrological dynamics, and historical dyke engineering of Vietnam's Red River Delta",
+            "explanation": "Nội dung bao quát toàn bài về đồng bằng sông Hồng."
+          }
+        }
+      ]
+    },
+    {
+      "passageId": "t33_p3",
+      "passageNum": 3,
+      "title": "Language Processing Disorders: Auditory Processing Disorder (APD) & Developmental Dyslexia",
+      "titleVi": "Rối loạn xử lý ngôn ngữ: Rối loạn xử lý thính giác (APD) & Chứng khó đọc phát triển",
+      "category": "neuroscience_linguistics",
+      "text": "Human language comprehension and literacy require an astonishingly intricate, high-speed orchestration of neurobiological mechanisms across divergent cortical regions. When an individual hears speech or decodes written symbols, the central nervous system must instantaneously deconstruct rapid acoustic phonemes or visual orthographic graphemes, synthesize them into lexical semantic concepts, and integrate them into syntactic grammar structures. When congenital neurodevelopmental differences or micro-structural anomalies disrupt this seamless neural circuitry, individuals experience language processing disorders. Two of the most prevalent and frequently conflated clinical manifestations of these neurological variances are Auditory Processing Disorder (APD) and Developmental Dyslexia.\n\nAuditory Processing Disorder is a deficit in the perceptual processing of auditory information within the central auditory nervous system, entirely distinct from peripheral hearing impairment or mechanical cochlear deafness. An individual with APD possesses structurally intact ears and normal audiometric hearing thresholds; however, their brain struggles to decode, interpret, and process temporal auditory signals. In acoustic environments with background noise—such as bustling classrooms or open-plan offices—people with APD exhibit impaired auditory figure-ground discrimination, failing to isolate speech frequencies from ambient clamor. Furthermore, deficits in auditory temporal resolution hinder their ability to perceive infinitesimal acoustic boundaries between consonants (such as differentiating the phonemes /b/ and /p/), resulting in delayed comprehension, frequent requests for repetition, and extreme cognitive exhaustion during prolonged verbal discourse.\n\nIn contrast, Developmental Dyslexia is primarily an orthographic and phonological decoding disorder that impairs an individual's ability to achieve fluent, accurate word reading and spelling, despite average or superior intellectual capacity and adequate educational instruction. Neuroimaging studies utilizing functional MRI demonstrate that dyslexic brains exhibit anomalous structural connectivity along the left-hemispheric reading network—specifically involving the phonological temporo-parietal junction and the visual word-form area in the occipito-temporal cortex. Rather than processing printed words automatically via fast lexical sight pathways, individuals with dyslexia experience severe phonological awareness deficits: they struggle to segment printed words into constituent phonemes, map graphemes to corresponding sounds, and retrieve orthographic representations from long-term memory.\n\nCritically, while APD and Dyslexia possess distinct primary neurobiological loci—one situated predominantly along auditory perceptual pathways and the other within phonological-orthographic integration circuits—they exhibit significant clinical comorbidity and overlapping phenotypic symptoms. Both conditions frequently produce spelling errors, reading fluency challenges, and diminished academic self-esteem. Historically, educators mischaracterized these students as intellectually deficient or unmotivated. Fortunately, contemporary neuroscience emphasizes neuroplasticity: targeted, evidence-based interventions—such as multi-sensory phonics instruction (the Orton-Gillingham approach), acoustic frequency modulation (FM) listening systems, and auditory temporal training software—can physically rewire underlying neural pathways, enabling individuals with language processing differences to unlock their full intellectual potential.",
+      "vocab": [
+        {
+          "word": "orchestration",
+          "pos": "n",
+          "ipa": "/ˌɔː.kɪˈstreɪ.ʃən/",
+          "level": "C1",
+          "mean": "sự phối hợp nhịp nhàng, bài trí tinh vi",
+          "syns": [
+            "coordination",
+            "harmonization",
+            "integration"
+          ],
+          "ex": "Language requires high-speed orchestration of diverse brain areas."
+        },
+        {
+          "word": "cortical",
+          "pos": "adj",
+          "ipa": "/ˈkɔː.tɪ.kəl/",
+          "level": "C1",
+          "mean": "thuộc vỏ não",
+          "syns": [
+            "cerebral",
+            "brain-surface"
+          ],
+          "ex": "Cortical regions process visual letters into semantic meanings."
+        },
+        {
+          "word": "phonemes",
+          "pos": "n",
+          "ipa": "/ˈfəʊ.niːmz/",
+          "level": "C1",
+          "mean": "âm vị (đơn vị âm thanh nhỏ nhất trong ngôn ngữ)",
+          "syns": [
+            "speech sounds",
+            "acoustic units"
+          ],
+          "ex": "Infants learn to distinguish distinct phonemes in early childhood."
+        },
+        {
+          "word": "orthographic",
+          "pos": "adj",
+          "ipa": "/ˌɔː.θəˈɡræf.ɪk/",
+          "level": "C1",
+          "mean": "thuộc chữ viết, chính tả",
+          "syns": [
+            "spelling-related",
+            "written-symbolic"
+          ],
+          "ex": "Dyslexia impairs the recognition of orthographic word forms."
+        },
+        {
+          "word": "graphemes",
+          "pos": "n",
+          "ipa": "/ˈɡræf.iːmz/",
+          "level": "C1",
+          "mean": "chữ vị (ký tự chữ viết đại diện cho âm)",
+          "syns": [
+            "letters",
+            "written characters"
+          ],
+          "ex": "Readers learn to map written graphemes to spoken sounds."
+        },
+        {
+          "word": "congenital",
+          "pos": "adj",
+          "ipa": "/kənˈdʒen.ɪ.təl/",
+          "level": "C1",
+          "mean": "bẩm sinh, có từ lúc lọt lòng",
+          "syns": [
+            "innate",
+            "inborn",
+            "hereditary"
+          ],
+          "ex": "Congenital neurological traits influence how children process speech."
+        },
+        {
+          "word": "conflated",
+          "pos": "v",
+          "ipa": "/kənˈfleɪ.tɪd/",
+          "level": "C1",
+          "mean": "bị đánh đồng, bị gộp lẫn lộn",
+          "syns": [
+            "confused",
+            "merged",
+            "blurred"
+          ],
+          "ex": "APD and dyslexia are often mistakenly conflated by non-specialists."
+        },
+        {
+          "word": "manifestations",
+          "pos": "n",
+          "ipa": "/ˌmæn.ɪ.feˈsteɪ.ʃənz/",
+          "level": "B2",
+          "mean": "những biểu hiện, triệu chứng biểu hiện",
+          "syns": [
+            "expressions",
+            "indications",
+            "signs"
+          ],
+          "ex": "Clinical manifestations of processing disorders vary widely."
+        },
+        {
+          "word": "deficit",
+          "pos": "n",
+          "ipa": "/ˈdef.ɪ.sɪt/",
+          "level": "B2",
+          "mean": "sự thiếu hụt, suy giảm chức năng",
+          "syns": [
+            "shortfall",
+            "deficiency",
+            "impairment"
+          ],
+          "ex": "APD represents a neurological deficit in auditory perception."
+        },
+        {
+          "word": "cochlear",
+          "pos": "adj",
+          "ipa": "/ˈkɒk.li.ər/",
+          "level": "C1",
+          "mean": "thuộc ốc tai (bộ phận thính giác)",
+          "syns": [
+            "inner-ear-related"
+          ],
+          "ex": "The disorder exists despite perfect cochlear function in both ears."
+        },
+        {
+          "word": "audiometric",
+          "pos": "adj",
+          "ipa": "/ˌɔː.di.əʊˈmet.rɪk/",
+          "level": "C1",
+          "mean": "thuộc đo lường thính lực",
+          "syns": [
+            "hearing-test-related"
+          ],
+          "ex": "Standard audiometric exams revealed no physical ear damage."
+        },
+        {
+          "word": "thresholds",
+          "pos": "n",
+          "ipa": "/ˈθreʃ.həʊldz/",
+          "level": "B2",
+          "mean": "ngưỡng nhạy cảm, giới hạn cảm nhận",
+          "syns": [
+            "limits",
+            "levels",
+            "boundaries"
+          ],
+          "ex": "Patients have normal sound detection thresholds in quiet rooms."
+        },
+        {
+          "word": "clamor",
+          "pos": "n",
+          "ipa": "/ˈklæm.ər/",
+          "level": "C1",
+          "mean": "tiếng ồn ào náo loạn, tạp âm lớn",
+          "syns": [
+            "din",
+            "racket",
+            "uproar"
+          ],
+          "ex": "Classroom clamor makes it impossible for the student to listen."
+        },
+        {
+          "word": "infinitesimal",
+          "pos": "adj",
+          "ipa": "/ˌɪn.fɪ.nɪˈtes.ɪ.məl/",
+          "level": "C1",
+          "mean": "vô cùng nhỏ, vi mô trong tích tắc",
+          "syns": [
+            "minute",
+            "tiny",
+            "microscopic"
+          ],
+          "ex": "The ear must detect infinitesimal time pauses between syllables."
+        },
+        {
+          "word": "discourse",
+          "pos": "n",
+          "ipa": "/ˈdɪs.kɔːs/",
+          "level": "C1",
+          "mean": "cuộc đối thoại, bài diễn thuyết dài",
+          "syns": [
+            "conversation",
+            "speech",
+            "discussion"
+          ],
+          "ex": "Listening to continuous verbal discourse causes extreme mental fatigue."
+        },
+        {
+          "word": "phonological",
+          "pos": "adj",
+          "ipa": "/ˌfəʊ.nəˈlɒdʒ.ɪ.kəl/",
+          "level": "C1",
+          "mean": "thuộc ngữ âm học",
+          "syns": [
+            "sound-processing",
+            "speech-sound"
+          ],
+          "ex": "Dyslexia stems from a deficit in the brain's phonological module."
+        },
+        {
+          "word": "anomalous",
+          "pos": "adj",
+          "ipa": "/əˈnɒm.ə.ləs/",
+          "level": "C1",
+          "mean": "dị thường, khác lạ bất thường",
+          "syns": [
+            "abnormal",
+            "irregular",
+            "atypical"
+          ],
+          "ex": "Brain scans revealed anomalous white matter tract connections."
+        },
+        {
+          "word": "constituent",
+          "pos": "adj",
+          "ipa": "/kənˈstɪtʃ.u.ənt/",
+          "level": "B2",
+          "mean": "cấu thành, hợp thành đơn vị cơ bản",
+          "syns": [
+            "component",
+            "integral",
+            "foundational"
+          ],
+          "ex": "Readers must break words into their constituent phonemes."
+        },
+        {
+          "word": "loci",
+          "pos": "n",
+          "ipa": "/ˈləʊ.saɪ/",
+          "level": "C1",
+          "mean": "các vị trí, các tiêu điểm trung tâm",
+          "syns": [
+            "locations",
+            "sites",
+            "centers"
+          ],
+          "ex": "The two disorders arise from distinct neurological loci in the brain."
+        },
+        {
+          "word": "comorbidity",
+          "pos": "n",
+          "ipa": "/ˌkəʊ.mɔːˈbɪd.ə.ti/",
+          "level": "C1",
+          "mean": "tình trạng bệnh đồng mắc (cùng xảy ra đồng thời)",
+          "syns": [
+            "co-occurrence",
+            "concurrent presence"
+          ],
+          "ex": "High clinical comorbidity exists between reading and hearing deficits."
+        },
+        {
+          "word": "phenotypic",
+          "pos": "adj",
+          "ipa": "/ˌfiː.nəʊˈtɪp.ɪk/",
+          "level": "C1",
+          "mean": "thuộc biểu hiện kiểu hình lâm sàng",
+          "syns": [
+            "observable",
+            "manifest",
+            "behavioral"
+          ],
+          "ex": "Both conditions share overlapping phenotypic symptoms in the classroom."
+        },
+        {
+          "word": "mischaracterized",
+          "pos": "v",
+          "ipa": "/ˌmɪsˈkær.ək.tə.raɪzd/",
+          "level": "C1",
+          "mean": "bị đánh giá nhận định sai lầm",
+          "syns": [
+            "misjudged",
+            "misrepresented",
+            "mislabeled"
+          ],
+          "ex": "Neurodivergent students were unfairly mischaracterized as lazy."
+        },
+        {
+          "word": "neuroplasticity",
+          "pos": "n",
+          "ipa": "/ˌnjʊə.rəʊ.plæsˈtɪs.ə.ti/",
+          "level": "C1",
+          "mean": "khả năng uốn nắn, tự tái tổ chức của mạng lưới thần kinh",
+          "syns": [
+            "brain adaptability",
+            "neural malleability"
+          ],
+          "ex": "Neuroplasticity enables the brain to build alternative reading pathways."
+        },
+        {
+          "word": "interventions",
+          "pos": "n",
+          "ipa": "/ˌɪn.təˈven.ʃənz/",
+          "level": "B2",
+          "mean": "các biện pháp can thiệp giáo dục điều trị",
+          "syns": [
+            "treatments",
+            "remediations",
+            "programs"
+          ],
+          "ex": "Early educational interventions dramatically improve literacy rates."
+        },
+        {
+          "word": "multisensory",
+          "pos": "adj",
+          "ipa": "/ˌmʌl.tiˈsen.sər.i/",
+          "level": "B2",
+          "mean": "đa giác quan (kết hợp nghe, nhìn, chạm)",
+          "syns": [
+            "cross-modal",
+            "sensory-integrated"
+          ],
+          "ex": "Multisensory reading lessons engage visual, auditory, and motor cues."
+        },
+        {
+          "word": "modulation",
+          "pos": "n",
+          "ipa": "/ˌmɒdʒ.ʊˈleɪ.ʃən/",
+          "level": "C1",
+          "mean": "sự biến điệu, điều chế tần số âm thanh",
+          "syns": [
+            "adjustment",
+            "regulation",
+            "tuning"
+          ],
+          "ex": "Frequency modulation systems transmit the teacher's voice clearly to earphones."
+        },
+        {
+          "word": "rewire",
+          "pos": "v",
+          "ipa": "/ˌriːˈwaɪər/",
+          "level": "C1",
+          "mean": "tái cấu trúc đường dây thần kinh",
+          "syns": [
+            "reconfigure",
+            "remodel",
+            "restructure"
+          ],
+          "ex": "Intensive auditory training can physically rewire synaptic connections."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t33_p3_q21",
+          "num": 21,
+          "question": "According to paragraph 2, how does Auditory Processing Disorder (APD) differ from mechanical hearing loss?",
+          "questionVi": "Theo đoạn 2, Rối loạn Xử lý Thính giác (APD) khác biệt như thế nào so với tình trạng mất thính lực cơ học?",
+          "questionType": "detail",
+          "options": [
+            "APD causes permanent physical scarring on the eardrum membranes.",
+            "APD involves intact ears and normal hearing thresholds, but the brain struggles to process auditory signals.",
+            "APD can only be contracted after reaching fifty years of age.",
+            "APD results exclusively from continuous exposure to loud rock music."
+          ],
+          "optionsVi": [
+            "APD gây ra những vết sẹo thực thể vĩnh viễn trên màng nhĩ.",
+            "APD có đôi tai nguyên vẹn và ngưỡng nghe bình thường, nhưng não bộ gặp khó khăn trong việc xử lý các tín hiệu âm thanh.",
+            "APD chỉ có thể mắc phải sau khi bước sang tuổi 50.",
+            "APD là kết quả duy nhất từ việc tiếp xúc liên tục với nhạc rock ầm ĩ."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "An individual with APD possesses structurally intact ears and normal audiometric hearing thresholds; however, their brain struggles to decode, interpret, and process temporal auditory signals.",
+          "evidenceVi": "Một người mắc APD sở hữu đôi tai nguyên vẹn về mặt cấu trúc và các ngưỡng thính lực bình thường; tuy nhiên, não bộ của họ phải vật lộn để giải mã, diễn giải và xử lý các tín hiệu thính giác theo thời gian.",
+          "explanation": "Đoạn 2 nêu rõ: người bị APD có tai hoàn toàn nguyên vẹn và thính lực bình thường, vấn đề nằm ở việc não bộ không thể giải mã và xử lý tín hiệu âm thanh (brain struggles to decode, interpret, and process).",
+          "postReading": {
+            "originToken": "possesses structurally intact ears and normal audiometric hearing thresholds; however, their brain struggles to decode",
+            "paraphraseToken": "APD involves intact ears and normal hearing thresholds, but the brain struggles to process auditory signals",
+            "explanation": "Điểm cốt lõi phân biệt APD với điếc/khiếm thính cơ học."
+          }
+        },
+        {
+          "id": "t33_p3_q22",
+          "num": 22,
+          "question": "The word 'clamor' in paragraph 2 is closest in meaning to:",
+          "questionVi": "Từ 'clamor' trong đoạn 2 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "loud, chaotic noise",
+            "complete silence",
+            "pleasant melody",
+            "scientific vocabulary"
+          ],
+          "optionsVi": [
+            "tiếng ồn ào hỗn loạn lớn",
+            "sự im lặng tuyệt đối",
+            "giai điệu dễ chịu",
+            "từ vựng khoa học"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...people with APD exhibit impaired auditory figure-ground discrimination, failing to isolate speech frequencies from ambient clamor.",
+          "evidenceVi": "...những người mắc APD bị suy giảm khả năng phân biệt âm thanh nền - âm thanh chính, không thể tách biệt tần số giọng nói khỏi tiếng ồn ào hỗn loạn xung quanh.",
+          "explanation": "'Clamor' có nghĩa là tiếng ồn ào hỗn loạn của đám đông hoặc môi trường náo nhiệt, đồng nghĩa với 'loud, chaotic noise' hoặc 'din'.",
+          "postReading": {
+            "originToken": "ambient clamor",
+            "paraphraseToken": "loud, chaotic noise",
+            "explanation": "'Clamor' = 'loud, chaotic noise'."
+          }
+        },
+        {
+          "id": "t33_p3_q23",
+          "num": 23,
+          "question": "Why do individuals with APD struggle to distinguish consonants like /b/ and /p/ according to paragraph 2?",
+          "questionVi": "Tại sao những người mắc APD lại gặp khó khăn trong việc phân biệt các phụ âm như /b/ và /p/ theo đoạn 2?",
+          "questionType": "detail",
+          "options": [
+            "Because their vocal cords are physically paralyzed",
+            "Because deficits in auditory temporal resolution hinder their ability to perceive minute timing differences between sounds",
+            "Because they cannot read printed text on paper",
+            "Because their inner ears produce continuous high-pitched ringing"
+          ],
+          "optionsVi": [
+            "Bởi vì dây thanh quản của họ bị liệt về mặt thể chất",
+            "Bởi vì sự thiếu hụt độ phân giải thời gian thính giác cản trở khả năng nhận biết sự khác biệt thời gian cực nhỏ giữa các âm",
+            "Bởi vì họ không thể đọc văn bản in trên giấy",
+            "Bởi vì tai trong của họ liên tục phát ra tiếng chuông reo the thé"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Furthermore, deficits in auditory temporal resolution hinder their ability to perceive infinitesimal acoustic boundaries between consonants (such as differentiating the phonemes /b/ and /p/)...",
+          "evidenceVi": "Hơn nữa, sự thiếu hụt trong độ phân giải thời gian thính giác cản trở khả năng của họ trong việc nhận biết ranh giới âm học vô cùng nhỏ giữa các phụ âm (chẳng hạn như phân biệt các âm vị /b/ và /p/)...",
+          "explanation": "Đoạn 2 giải thích: khiếm khuyết về độ phân giải thời gian thính giác (auditory temporal resolution) khiến não không nhận biết được khoảng ngắt thời gian siêu nhỏ (infinitesimal boundaries) giữa các phụ âm gần giống nhau.",
+          "postReading": {
+            "originToken": "deficits in auditory temporal resolution hinder their ability to perceive infinitesimal acoustic boundaries",
+            "paraphraseToken": "deficits in auditory temporal resolution hinder their ability to perceive minute timing differences between sounds",
+            "explanation": "Nguyên nhân thần kinh khiến người mắc APD khó phân biệt phụ âm."
+          }
+        },
+        {
+          "id": "t33_p3_q24",
+          "num": 24,
+          "question": "What is the primary neurodevelopmental nature of Developmental Dyslexia as defined in paragraph 3?",
+          "questionVi": "Bản chất phát triển thần kinh chính của chứng Khó đọc (Developmental Dyslexia) theo định nghĩa ở đoạn 3 là gì?",
+          "questionType": "detail",
+          "options": [
+            "An intellectual disability that limits total brain volume",
+            "An orthographic and phonological decoding disorder impairing reading and spelling despite normal intelligence",
+            "A temporary visual defect in the cornea that can be cured with eyeglasses",
+            "A behavioral refusal to attend mandatory school examinations"
+          ],
+          "optionsVi": [
+            "Một dạng khuyết tật trí tuệ làm giới hạn tổng thể tích não",
+            "Một chứng rối loạn giải mã chính tả và ngữ âm làm suy giảm khả năng đọc và đánh vần dù có trí thông minh bình thường",
+            "Một khiếm khuyết thị giác tạm thời ở giác mạc có thể được chữa khỏi bằng kính mắt",
+            "Một hành vi từ chối tham dự các kỳ thi bắt buộc tại trường học"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "In contrast, Developmental Dyslexia is primarily an orthographic and phonological decoding disorder that impairs an individual's ability to achieve fluent, accurate word reading and spelling, despite average or superior intellectual capacity...",
+          "evidenceVi": "Ngược lại, Chứng khó đọc phát triển chủ yếu là một chứng rối loạn giải mã chính tả và ngữ âm làm suy giảm khả năng đọc và đánh vần từ trôi chảy, chính xác của một cá nhân, bất chấp năng lực trí tuệ trung bình hoặc vượt trội...",
+          "explanation": "Đoạn 3 định nghĩa chứng khó đọc là rối loạn giải mã chính tả và ngữ âm (orthographic and phonological decoding disorder), làm giảm khả năng đọc viết dù trí thông minh hoàn toàn bình thường hoặc xuất sắc.",
+          "postReading": {
+            "originToken": "primarily an orthographic and phonological decoding disorder that impairs... despite average or superior intellectual capacity",
+            "paraphraseToken": "orthographic and phonological decoding disorder impairing reading and spelling despite normal intelligence",
+            "explanation": "Định nghĩa chuẩn xác của Developmental Dyslexia."
+          }
+        },
+        {
+          "id": "t33_p3_q25",
+          "num": 25,
+          "question": "The word 'anomalous' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'anomalous' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "atypical and irregular",
+            "identical and uniform",
+            "temporary and harmless",
+            "surgical and invasive"
+          ],
+          "optionsVi": [
+            "khác thường và bất thường",
+            "giống hệt và đồng nhất",
+            "tạm thời và vô hại",
+            "thuộc phẫu thuật và xâm lấn"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "Neuroimaging studies utilizing functional MRI demonstrate that dyslexic brains exhibit anomalous structural connectivity along the left-hemispheric reading network...",
+          "evidenceVi": "Các nghiên cứu hình ảnh thần kinh sử dụng fMRI chứng minh rằng não của người khó đọc biểu hiện sự kết nối cấu trúc dị thường dọc theo mạng lưới đọc ở bán cầu não trái...",
+          "explanation": "'Anomalous' có nghĩa là khác biệt với bình thường, dị thường bất quy tắc, đồng nghĩa với 'atypical and irregular' hoặc 'abnormal'.",
+          "postReading": {
+            "originToken": "anomalous structural connectivity",
+            "paraphraseToken": "atypical and irregular",
+            "explanation": "'Anomalous' = 'atypical / irregular'."
+          }
+        },
+        {
+          "id": "t33_p3_q26",
+          "num": 26,
+          "question": "According to paragraph 3, which specific cognitive skill is severely deficient in individuals with dyslexia?",
+          "questionVi": "Theo đoạn 3, kỹ năng nhận thức cụ thể nào bị thiếu hụt nghiêm trọng ở những người mắc chứng khó đọc?",
+          "questionType": "detail",
+          "options": [
+            "Long-term visual photographic memory of landscapes",
+            "Phonological awareness: segmenting words into phonemes and mapping graphemes to sounds",
+            "The physical coordination required to operate a motor bicycle",
+            "The mathematical ability to calculate complex compound interest"
+          ],
+          "optionsVi": [
+            "Trí nhớ chụp ảnh trực quan dài hạn về phong cảnh",
+            "Nhận thức ngữ âm: phân đoạn từ thành các âm vị và ánh xạ các ký tự chữ cái thành âm thanh",
+            "Sự phối hợp thể chất cần thiết để điều khiển xe đạp cơ giới",
+            "Khả năng toán học tính toán lãi kép phức tạp"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...individuals with dyslexia experience severe phonological awareness deficits: they struggle to segment printed words into constituent phonemes, map graphemes to corresponding sounds, and retrieve orthographic representations...",
+          "evidenceVi": "...những người mắc chứng khó đọc phải đối mặt với sự thiếu hụt nghiêm trọng về nhận thức ngữ âm: họ phải vật lộn để phân đoạn các từ in thành các âm vị cấu thành, ánh xạ các chữ cái với các âm tương ứng và truy xuất các biểu diễn chính tả...",
+          "explanation": "Đoạn 3 chỉ rõ kỹ năng bị thiếu hụt: nhận thức ngữ âm (phonological awareness) - gặp khó khăn khi tách từ thành âm vị (segment words into phonemes) và ghép chữ cái với âm tương ứng.",
+          "postReading": {
+            "originToken": "severe phonological awareness deficits: they struggle to segment printed words into constituent phonemes, map graphemes to corresponding sounds",
+            "paraphraseToken": "Phonological awareness: segmenting words into phonemes and mapping graphemes to sounds",
+            "explanation": "Khiếm khuyết cốt lõi của chứng khó đọc (phonological awareness deficits)."
+          }
+        },
+        {
+          "id": "t33_p3_q27",
+          "num": 27,
+          "question": "The word 'comorbidity' in paragraph 4 refers to:",
+          "questionVi": "Từ 'comorbidity' trong đoạn 4 đề cập đến:",
+          "questionType": "vocabulary",
+          "options": [
+            "the simultaneous occurrence of two or more medical or neurological conditions",
+            "the complete medical cure of an infectious terminal disease",
+            "the surgical removal of damaged brain tissue",
+            "the legal classification of disabled students in public schools"
+          ],
+          "optionsVi": [
+            "sự xuất hiện đồng thời của hai hay nhiều tình trạng bệnh lý hoặc thần kinh",
+            "việc chữa khỏi hoàn toàn một căn bệnh truyền nhiễm nan y",
+            "việc phẫu thuật cắt bỏ mô não bị tổn thương",
+            "phân loại pháp lý của học sinh khuyết tật trong các trường công lập"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...while APD and Dyslexia possess distinct primary neurobiological loci... they exhibit significant clinical comorbidity and overlapping phenotypic symptoms.",
+          "evidenceVi": "...trong khi APD và Chứng khó đọc sở hữu các vị trí thần kinh sinh học chính khác biệt... chúng thể hiện tình trạng đồng mắc lâm sàng đáng kể và các triệu chứng kiểu hình chồng chéo.",
+          "explanation": "'Comorbidity' (thuật ngữ y khoa) chỉ sự xuất hiện đồng thời của nhiều rối loạn/bệnh lý trên cùng một bệnh nhân (simultaneous occurrence of two or more conditions).",
+          "postReading": {
+            "originToken": "clinical comorbidity",
+            "paraphraseToken": "simultaneous occurrence of two or more medical or neurological conditions",
+            "explanation": "'Comorbidity' = bệnh đồng mắc / cùng tồn tại song hành."
+          }
+        },
+        {
+          "id": "t33_p3_q28",
+          "num": 28,
+          "question": "How did historical educational institutions mistakenly view children with language processing differences according to paragraph 4?",
+          "questionVi": "Các cơ sở giáo dục trong lịch sử đã nhìn nhận sai lầm như thế nào về trẻ em có sự khác biệt trong xử lý ngôn ngữ theo đoạn 4?",
+          "questionType": "detail",
+          "options": [
+            "As gifted artistic geniuses who needed early university admission",
+            "As intellectually deficient or unmotivated students",
+            "As dangerous biological carriers of contagious viral infections",
+            "As future professional military strategists"
+          ],
+          "optionsVi": [
+            "Như những thiên tài nghệ thuật bẩm sinh cần được tuyển thẳng vào đại học sớm",
+            "Như những học sinh kém cỏi về trí tuệ hoặc lười biếng, thiếu động lực",
+            "Như những vật chủ sinh học nguy hiểm mang mầm bệnh truyền nhiễm",
+            "Như những nhà chiến lược quân sự chuyên nghiệp trong tương lai"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Historically, educators mischaracterized these students as intellectually deficient or unmotivated.",
+          "evidenceVi": "Trong lịch sử, các nhà giáo dục đã định kiến sai lầm coi những học sinh này là kém phát triển trí tuệ hoặc lười biếng, thiếu động lực.",
+          "explanation": "Đoạn 4 nêu rõ trong quá khứ giáo viên thường đánh giá sai học sinh mắc APD hay Dyslexia là thiểu năng trí tuệ (intellectually deficient) hoặc thiếu động lực học tập (unmotivated).",
+          "postReading": {
+            "originToken": "mischaracterized these students as intellectually deficient or unmotivated",
+            "paraphraseToken": "intellectually deficient or unmotivated students",
+            "explanation": "Định kiến sai lầm lịch sử về học sinh khó đọc/xử lý thính giác."
+          }
+        },
+        {
+          "id": "t33_p3_q29",
+          "num": 29,
+          "question": "What scientific concept provides hope that targeted interventions can reshape neural reading networks in paragraph 4?",
+          "questionVi": "Khái niệm khoa học nào mang lại hy vọng rằng các can thiệp có mục tiêu có thể định hình lại mạng lưới đọc thần kinh trong đoạn 4?",
+          "questionType": "detail",
+          "options": [
+            "Neuroplasticity",
+            "Cryogenic preservation",
+            "Genetic cloning",
+            "Radioactive ionization"
+          ],
+          "optionsVi": [
+            "Khả năng uốn nắn thần kinh (Neuroplasticity)",
+            "Bảo quản thi thể bằng đông lạnh",
+            "Nhân bản vô tính di truyền",
+            "Ion hóa phóng xạ"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "Fortunately, contemporary neuroscience emphasizes neuroplasticity: targeted, evidence-based interventions... can physically rewire underlying neural pathways...",
+          "evidenceVi": "May mắn thay, khoa học thần kinh đương đại nhấn mạnh tính dẻo dai của não bộ (neuroplasticity): các can thiệp dựa trên bằng chứng có mục tiêu... có thể tái tổ chức vật lý các đường dẫn truyền thần kinh tiềm ẩn...",
+          "explanation": "Đoạn 4 nêu rõ: 'neuroplasticity' (khả năng tự tái tạo, tự uốn nắn và nối lại đường dây thần kinh của não) là nền tảng khoa học giúp việc can thiệp giáo dục có thể tái cấu trúc (rewire) mạng lưới đọc.",
+          "postReading": {
+            "originToken": "contemporary neuroscience emphasizes neuroplasticity... physically rewire underlying neural pathways",
+            "paraphraseToken": "Neuroplasticity",
+            "explanation": "Tính dẻo thần kinh (Neuroplasticity) là cơ chế hồi phục và bù đắp."
+          }
+        },
+        {
+          "id": "t33_p3_q30",
+          "num": 30,
+          "question": "Which of the following best summarizes the main message of the passage?",
+          "questionVi": "Câu nào sau đây tóm tắt đúng nhất thông điệp chính của bài đọc?",
+          "questionType": "main_idea",
+          "options": [
+            "APD and Dyslexia are distinct neurobiological processing disorders with overlapping symptoms that can be successfully remediated through targeted, neuroplasticity-based interventions.",
+            "All children who struggle with spelling should be placed into separate institutions without educational access.",
+            "Auditory Processing Disorder can be completely eradicated within five days using synthetic chemical antibiotics.",
+            "Functional MRI machines should replace traditional classroom teachers in elementary schools."
+          ],
+          "optionsVi": [
+            "APD và Chứng khó đọc là các rối loạn xử lý sinh học thần kinh khác biệt với các triệu chứng chồng chéo, có thể được khắc phục thành công thông qua các can thiệp có mục tiêu dựa trên tính dẻo của não bộ.",
+            "Tất cả trẻ em gặp khó khăn trong việc đánh vần nên được đưa vào các cơ sở riêng biệt mà không được tiếp cận giáo dục.",
+            "Rối loạn Xử lý Thính giác có thể được loại bỏ hoàn toàn trong vòng năm ngày bằng cách sử dụng thuốc kháng sinh hóa học nhân tạo.",
+            "Máy chụp cộng hưởng từ chức năng fMRI nên thay thế giáo viên đứng lớp truyền thống ở các trường tiểu học."
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The passage explores the neurobiology of language processing, contrasts the mechanisms of APD and Dyslexia, highlights their clinical overlap and misconceptions, and introduces neuroplasticity-based interventions.",
+          "evidenceVi": "Bài đọc khám phá sinh học thần kinh của quá trình xử lý ngôn ngữ, đối chiếu các cơ chế của APD và Chứng khó đọc, làm nổi bật sự trùng lặp và quan niệm sai lầm lâm sàng của chúng, đồng thời giới thiệu các biện pháp can thiệp dựa trên tính dẻo của não.",
+          "explanation": "Toàn bài phân biệt rõ cơ chế thần kinh của APD và Dyslexia, phân tích các biểu hiện lâm sàng và khẳng định can thiệp sư phạm đa giác quan có thể uốn nắn mạng lưới thần kinh giúp người học phát huy tiềm năng.",
+          "postReading": {
+            "originToken": "language processing disorders... APD... Dyslexia... comorbidity... neuroplasticity: targeted, evidence-based interventions can physically rewire",
+            "paraphraseToken": "APD and Dyslexia are distinct neurobiological processing disorders with overlapping symptoms that can be successfully remediated through targeted, neuroplasticity-based interventions",
+            "explanation": "Tóm lược toàn diện bài đọc về APD và Dyslexia."
+          }
+        }
+      ]
+    },
+    {
+      "passageId": "t33_p4",
+      "passageNum": 4,
+      "title": "Tongue Taste Buds, Receptors & The Neurobiology of Flavor Perception: Demolishing the Tongue Map",
+      "titleVi": "Thụ thể vị giác trên gai lưỡi & Sinh học thần kinh cảm thụ hương vị: Bác bỏ bản đồ lưỡi cổ điển",
+      "category": "neurobiology_sensory",
+      "text": "For generations, elementary school textbooks propagated a remarkably pervasive scientific myth: the 'tongue map,' which asserted that discrete geographic quadrants of the human tongue were exclusively responsible for detecting individual basic tastes—sweetness at the anterior tip, saltiness and sourness along the lateral edges, and bitterness concentrated solely across the posterior base. Contemporary sensory neuroscience and molecular biology have thoroughly demolished this cartographic fallacy. Modern research reveals that all five canonical primary tastes—sweet, salty, sour, bitter, and umami (savory)—can be perceived across every gustatory zone of the lingual surface. Taste perception is governed by an exquisitely complex peripheral sensory apparatus interacting with sophisticated central nervous system processing networks.\n\nThe primary structural units of oral gustation are taste buds, specialized micro-organs distributed across mucosal epithelial elevations known as papillae. Human tongues host three distinct morphological classes of gustatory papillae: fungiform papillae, mushroom-shaped structures predominantly dotting the anterior dorsal surface; foliate papillae, leaf-like epithelial folds lining the posterolateral borders; and circumvallate papillae, colossal dome-shaped structures arranged in an inverted V-formation across the posterior third of the lingual body. Each individual taste bud comprises a compact bundle of roughly fifty to one hundred elongated neuroepithelial cells arranged like segments of an orange. At the apical apex of each bud, microscopic microvilli project through a tiny opening called the taste pore, directly exposing specialized receptor proteins to chemical compounds dissolved in saliva.\n\nAt the molecular frontier, gustatory transduction operates through two fundamentally divergent biochemical pathways. The perception of salty and sour tastants relies on direct ionotropic mechanisms. Salt perception occurs when ambient sodium ions enter specialized amiloride-sensitive sodium channels, directly depolarizing the receptor cell. Sour perception is stimulated by hydrogen ions present in acidic substances, which permeate proton-selective ion channels and block intracellular potassium efflux, prompting cellular excitation. In sharp contrast, sweet, bitter, and umami tastes are mediated by complex metabotropic G-protein-coupled receptors (GPCRs). Umami and sweetness are detected by hetero-dimeric combinations of the T1R receptor family (T1R1+T1R3 for glutamate, and T1R2+T1R3 for sugars), whereas bitter compounds activate an extraordinarily diverse family of monomeric T2R receptors—an evolutionary sensory sentry system calibrated to detect toxic botanical alkaloids at minute nanomolar concentrations.\n\nOnce taste receptor cells undergo biochemical depolarization, they release neurotransmitters (predominantly ATP, serotonin, and GABA) onto primary afferent nerve fibers. Neural gustatory signals are carried to the brainstem via three distinct cranial nerves: the facial nerve (cranial nerve VII) innervating the anterior tongue, the glossopharyngeal nerve (cranial nerve IX) serving the posterior tongue, and the vagus nerve (cranial nerve X) monitoring the epiglottis. From the brainstem's solitary tract, signals ascend through the thalamus to the primary gustatory cortex in the anterior insula and frontal operculum. Crucially, neuroscientists emphasize that 'taste' is merely a minor component of the holistic experience known as 'flavor.' True flavor perception is a multisensory cortical construction, synthesizing lingual gustatory signals with retronasal olfaction—volatile aromatic molecules traveling from the oral cavity into the nasal epithelium—trigeminal somatosensory feedback of temperature and piquancy, and auditory-visual expectations.",
+      "vocab": [
+        {
+          "word": "pervasive",
+          "pos": "adj",
+          "ipa": "/pəˈveɪ.sɪv/",
+          "level": "C1",
+          "mean": "lan tràn khắp nơi, ăn sâu phổ biến",
+          "syns": [
+            "widespread",
+            "ubiquitous",
+            "omnipresent"
+          ],
+          "ex": "The tongue map is a pervasive educational myth."
+        },
+        {
+          "word": "fallacy",
+          "pos": "n",
+          "ipa": "/ˈfæl.ə.si/",
+          "level": "C1",
+          "mean": "ngụy biện, quan niệm sai lầm hoàn toàn",
+          "syns": [
+            "misconception",
+            "delusion",
+            "error"
+          ],
+          "ex": "Modern science demolished the historical tongue map fallacy."
+        },
+        {
+          "word": "gustatory",
+          "pos": "adj",
+          "ipa": "/ˈɡʌs.tə.tər.i/",
+          "level": "C1",
+          "mean": "thuộc vị giác",
+          "syns": [
+            "taste-related",
+            "flavor-sensing"
+          ],
+          "ex": "The tongue is covered with tiny gustatory sensors."
+        },
+        {
+          "word": "apparatus",
+          "pos": "n",
+          "ipa": "/ˌæp.əˈreɪ.təs/",
+          "level": "C1",
+          "mean": "bộ máy, hệ thống cơ quan phức tạp",
+          "syns": [
+            "mechanism",
+            "system",
+            "organ machinery"
+          ],
+          "ex": "The human gustatory apparatus detects minute chemical differences."
+        },
+        {
+          "word": "papillae",
+          "pos": "n",
+          "ipa": "/pəˈpɪl.iː/",
+          "level": "C1",
+          "mean": "gai lưỡi (các nhú nhỏ trên bề mặt lưỡi)",
+          "syns": [
+            "tongue buds",
+            "taste bumps"
+          ],
+          "ex": "Taste buds reside within thousands of microscopic papillae."
+        },
+        {
+          "word": "epithelial",
+          "pos": "adj",
+          "ipa": "/ˌep.ɪˈθiː.li.əl/",
+          "level": "C1",
+          "mean": "thuộc mô biểu mô",
+          "syns": [
+            "cellular surface",
+            "tissue-lining"
+          ],
+          "ex": "The buds are embedded within the mucosal epithelial lining."
+        },
+        {
+          "word": "circumvallate",
+          "pos": "adj",
+          "ipa": "/ˌsɜː.kəmˈvæl.eɪt/",
+          "level": "C1",
+          "mean": "thuộc gai lưỡi hình đài (ở cuống lưỡi)",
+          "syns": [
+            "large walled",
+            "cupped-papillae"
+          ],
+          "ex": "Circumvallate papillae form a distinct V-shape at the back of the tongue."
+        },
+        {
+          "word": "apical",
+          "pos": "adj",
+          "ipa": "/ˈeɪ.pɪ.kəl/",
+          "level": "C1",
+          "mean": "ở phần đỉnh, thuộc phần chóp",
+          "syns": [
+            "apex",
+            "tip",
+            "topmost"
+          ],
+          "ex": "Microvilli protrude from the apical pore of each taste bud."
+        },
+        {
+          "word": "transduction",
+          "pos": "n",
+          "ipa": "/trænzˈdʌk.ʃən/",
+          "level": "C1",
+          "mean": "sự chuyển nạp tín hiệu hóa học sang điện thế",
+          "syns": [
+            "signal conversion",
+            "transformation"
+          ],
+          "ex": "Sensory transduction converts food chemicals into nerve spikes."
+        },
+        {
+          "word": "ionotropic",
+          "pos": "adj",
+          "ipa": "/ˌaɪ.ə.nəʊˈtrɒp.ɪk/",
+          "level": "C1",
+          "mean": "thuộc kênh ion trực tiếp (dẫn truyền tức thì)",
+          "syns": [
+            "ion-channel-activated"
+          ],
+          "ex": "Salt detection relies on direct ionotropic ion movement."
+        },
+        {
+          "word": "depolarizing",
+          "pos": "v",
+          "ipa": "/diːˈpəʊ.lə.raɪ.zɪŋ/",
+          "level": "C1",
+          "mean": "khử cực màng tế bào thần kinh",
+          "syns": [
+            "exciting",
+            "activating electrically"
+          ],
+          "ex": "Inflowing sodium ions excite the cell by depolarizing its membrane."
+        },
+        {
+          "word": "efflux",
+          "pos": "n",
+          "ipa": "/ˈef.lʌks/",
+          "level": "C1",
+          "mean": "dòng chảy ra ngoài của các ion",
+          "syns": [
+            "outflow",
+            "outrush",
+            "leakage"
+          ],
+          "ex": "Acids block the outward efflux of potassium ions."
+        },
+        {
+          "word": "metabotropic",
+          "pos": "adj",
+          "ipa": "/ˌmet.ə.bəʊˈtrɒp.ɪk/",
+          "level": "C1",
+          "mean": "thuộc thụ thể liên kết protein G chuyển hóa gián tiếp",
+          "syns": [
+            "G-protein-coupled",
+            "second-messenger"
+          ],
+          "ex": "Sweet and bitter tastes trigger complex metabotropic pathways."
+        },
+        {
+          "word": "hetero-dimeric",
+          "pos": "adj",
+          "ipa": "/ˌhet.ər.əʊ daɪˈmer.ɪk/",
+          "level": "C1",
+          "mean": "gồm hai tiểu đơn vị protein khác nhau ghép đôi",
+          "syns": [
+            "dual-protein-unit"
+          ],
+          "ex": "The sweet receptor is a hetero-dimeric pairing of T1R2 and T1R3."
+        },
+        {
+          "word": "alkaloids",
+          "pos": "n",
+          "ipa": "/ˈæl.kə.lɔɪdz/",
+          "level": "C1",
+          "mean": "các hợp chất ancaloit tự nhiên (thường độc đắng)",
+          "syns": [
+            "plant toxins",
+            "nitrogenous organic bases"
+          ],
+          "ex": "Bitter receptors evolved to identify poisonous botanical alkaloids."
+        },
+        {
+          "word": "depolarization",
+          "pos": "n",
+          "ipa": "/diːˌpəʊ.lə.raɪˈzeɪ.ʃən/",
+          "level": "C1",
+          "mean": "quá trình khử cực điện thế màng tế bào",
+          "syns": [
+            "electrical activation",
+            "excitation"
+          ],
+          "ex": "Membrane depolarization causes neurotransmitter vesicles to burst."
+        },
+        {
+          "word": "neurotransmitters",
+          "pos": "n",
+          "ipa": "/ˌnjʊə.rəʊ.trænzˈmɪt.əz/",
+          "level": "B2",
+          "mean": "chất dẫn truyền thần kinh hóa học",
+          "syns": [
+            "chemical messengers",
+            "neural signalers"
+          ],
+          "ex": "Cells release neurotransmitters onto sensory nerve endings."
+        },
+        {
+          "word": "afferent",
+          "pos": "adj",
+          "ipa": "/ˈæf.ər.ənt/",
+          "level": "C1",
+          "mean": "hướng tâm (dẫn truyền tín hiệu về não)",
+          "syns": [
+            "inward-conducting",
+            "sensory-inflowing"
+          ],
+          "ex": "Afferent nerve fibers carry flavor signals toward the brainstem."
+        },
+        {
+          "word": "innervating",
+          "pos": "v",
+          "ipa": "/ˈɪn.ə.veɪ.tɪŋ/",
+          "level": "C1",
+          "mean": "phân bố dây thần kinh chi phối",
+          "syns": [
+            "supplying nerves to",
+            "wiring"
+          ],
+          "ex": "The facial nerve is responsible for innervating the anterior tongue."
+        },
+        {
+          "word": "glossopharyngeal",
+          "pos": "adj",
+          "ipa": "/ˌɡlɒs.əʊ.fəˈrɪn.dʒi.əl/",
+          "level": "C1",
+          "mean": "thuộc dây thần kinh thiệt hầu (dây sọ IX)",
+          "syns": [
+            "ninth cranial nerve"
+          ],
+          "ex": "The glossopharyngeal nerve transmits taste from the rear third of the tongue."
+        },
+        {
+          "word": "epiglottis",
+          "pos": "n",
+          "ipa": "/ˌep.ɪˈɡlɒt.ɪs/",
+          "level": "C1",
+          "mean": "nắp thanh quản",
+          "syns": [
+            "laryngeal flap",
+            "throat valve"
+          ],
+          "ex": "Scattered taste buds are even found along the epiglottis."
+        },
+        {
+          "word": "thalamus",
+          "pos": "n",
+          "ipa": "/ˈθæl.ə.məs/",
+          "level": "C1",
+          "mean": "đồi thị (trạm chuyển tiếp cảm giác trong não)",
+          "syns": [
+            "sensory relay station"
+          ],
+          "ex": "All gustatory inputs pass through the thalamus before reaching the cortex."
+        },
+        {
+          "word": "insula",
+          "pos": "n",
+          "ipa": "/ˈɪn.sjʊ.lə/",
+          "level": "C1",
+          "mean": "thùy đảo của vỏ não",
+          "syns": [
+            "insular cortex"
+          ],
+          "ex": "The anterior insula decodes the primary identity of taste chemicals."
+        },
+        {
+          "word": "olfaction",
+          "pos": "n",
+          "ipa": "/ɒlˈfæk.ʃən/",
+          "level": "C1",
+          "mean": "khứu giác, sự ngửi",
+          "syns": [
+            "sense of smell",
+            "nasal perception"
+          ],
+          "ex": "Retronasal olfaction contributes over eighty percent of perceived flavor."
+        },
+        {
+          "word": "somatosensory",
+          "pos": "adj",
+          "ipa": "/səʊˌmæt.əʊˈsen.sər.i/",
+          "level": "C1",
+          "mean": "thuộc cảm giác thân thể (nhiệt, xúc giác, đau)",
+          "syns": [
+            "bodily sensory",
+            "tactile-thermal"
+          ],
+          "ex": "Trigeminal somatosensory receptors detect the cooling chill of menthol."
+        },
+        {
+          "word": "piquancy",
+          "pos": "n",
+          "ipa": "/ˈpiː.kən.si/",
+          "level": "C1",
+          "mean": "độ cay nồng, vị cay xé",
+          "syns": [
+            "spiciness",
+            "pungency",
+            "sharpness"
+          ],
+          "ex": "Chili peppers trigger a sensation of fiery piquancy via pain nerves."
+        },
+        {
+          "word": "calibrated",
+          "pos": "adj",
+          "ipa": "/ˈkæl.ɪ.breɪ.tɪd/",
+          "level": "C1",
+          "mean": "được căn chỉnh chính xác cao",
+          "syns": [
+            "fine-tuned",
+            "adjusted",
+            "gauged"
+          ],
+          "ex": "Bitter receptors are calibrated to register lethal toxins in trace amounts."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t33_p4_q31",
+          "num": 31,
+          "question": "What widespread scientific myth regarding human taste is dismantled in paragraph 1?",
+          "questionVi": "Huyền thoại khoa học phổ biến nào liên quan đến vị giác của con người bị phá bỏ trong đoạn 1?",
+          "questionType": "detail",
+          "options": [
+            "The belief that human tongues cannot taste spicy chili capsaicin",
+            "The 'tongue map' asserting that discrete regions of the tongue detect individual basic tastes exclusively",
+            "The idea that humans only possess two basic taste categories: sweet and sour",
+            "The concept that taste buds are located exclusively inside the human stomach"
+          ],
+          "optionsVi": [
+            "Niềm tin rằng lưỡi người không thể nếm được chất cay capsaicin trong ớt",
+            "'Bản đồ lưỡi' khẳng định rằng các khu vực riêng biệt trên lưỡi chịu trách nhiệm độc quyền cảm nhận từng vị cơ bản",
+            "Ý kiến cho rằng con người chỉ sở hữu hai loại vị cơ bản: ngọt và chua",
+            "Khái niệm cho rằng các nụ vị giác nằm độc quyền bên trong dạ dày con người"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "For generations, elementary school textbooks propagated a remarkably pervasive scientific myth: the 'tongue map,' which asserted that discrete geographic quadrants of the human tongue were exclusively responsible for detecting individual basic tastes... Contemporary sensory neuroscience and molecular biology have thoroughly demolished this cartographic fallacy.",
+          "evidenceVi": "Trong nhiều thế hệ, sách giáo khoa tiểu học đã truyền bá một huyền thoại khoa học vô cùng phổ biến: 'bản đồ lưỡi', vốn khẳng định rằng các phần góc riêng biệt trên lưỡi người chịu trách nhiệm độc quyền trong việc phát hiện từng vị cơ bản... Khoa học thần kinh cảm giác và sinh học phân tử đương đại đã phá hủy hoàn toàn quan niệm sai lầm này.",
+          "explanation": "Đoạn 1 nêu rõ huyền thoại bị bác bỏ: 'bản đồ lưỡi' cho rằng từng vùng trên lưỡi cảm nhận độc quyền từng vị cơ bản riêng biệt (ngọt ở đầu lưỡi, đắng ở cuống lưỡi). Thực tế toàn bộ bề mặt lưỡi đều cảm nhận được cả 5 vị.",
+          "postReading": {
+            "originToken": "'tongue map,' which asserted that discrete geographic quadrants... were exclusively responsible for detecting individual basic tastes",
+            "paraphraseToken": "'tongue map' asserting that discrete regions of the tongue detect individual basic tastes exclusively",
+            "explanation": "Huyền thoại bản đồ vị giác trên lưỡi bị khoa học bác bỏ."
+          }
+        },
+        {
+          "id": "t33_p4_q32",
+          "num": 32,
+          "question": "The word 'fallacy' in paragraph 1 is closest in meaning to:",
+          "questionVi": "Từ 'fallacy' trong đoạn 1 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "misconception",
+            "scientific breakthrough",
+            "geographical atlas",
+            "medical treatment"
+          ],
+          "optionsVi": [
+            "quan niệm sai lầm, điều ngộ nhận",
+            "đột phá khoa học",
+            "tập bản đồ địa lý",
+            "phương pháp điều trị y tế"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "Contemporary sensory neuroscience and molecular biology have thoroughly demolished this cartographic fallacy.",
+          "evidenceVi": "Khoa học thần kinh cảm giác và sinh học phân tử đương đại đã phá hủy hoàn toàn ngụy biện bản đồ sai lầm này.",
+          "explanation": "'Fallacy' có nghĩa là một niềm tin sai lệch, quan niệm sai lầm hoàn toàn, đồng nghĩa với 'misconception' hoặc 'delusion'.",
+          "postReading": {
+            "originToken": "cartographic fallacy",
+            "paraphraseToken": "misconception",
+            "explanation": "'Fallacy' = 'misconception / error'."
+          }
+        },
+        {
+          "id": "t33_p4_q33",
+          "num": 33,
+          "question": "According to paragraph 2, where do chemical compounds dissolved in saliva first interact with taste receptor proteins?",
+          "questionVi": "Theo đoạn 2, các hợp chất hóa học hòa tan trong nước bọt lần đầu tiên tương tác với các protein thụ thể vị giác ở đâu?",
+          "questionType": "detail",
+          "options": [
+            "Across deep cervical lymph nodes in the neck",
+            "At the microscopic microvilli projecting through the apical taste pore",
+            "Inside the bone marrow of the lower jawbone",
+            "Within the blood vessels lining the roof of the mouth"
+          ],
+          "optionsVi": [
+            "Khắp các hạch bạch huyết cổ sâu ở cổ",
+            "Tại các vi nhung mao cực nhỏ nhô ra qua lỗ vị giác ở đỉnh",
+            "Bên trong tủy xương của xương hàm dưới",
+            "Bên trong các mạch máu lót trên vòm miệng"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "At the apical apex of each bud, microscopic microvilli project through a tiny opening called the taste pore, directly exposing specialized receptor proteins to chemical compounds dissolved in saliva.",
+          "evidenceVi": "Ở đỉnh chóp của mỗi nụ, các vi nhung mao siêu nhỏ nhô ra qua một lỗ nhỏ gọi là lỗ vị giác, để lộ trực tiếp các protein thụ thể chuyên biệt với các hợp chất hóa học hòa tan trong nước bọt.",
+          "explanation": "Đoạn 2 giải thích điểm tiếp xúc: các vi nhung mao (microvilli) nhô ra qua lỗ vị giác ở đỉnh chóp (apical taste pore) tiếp xúc trực tiếp với hóa chất hòa tan trong nước bọt.",
+          "postReading": {
+            "originToken": "microscopic microvilli project through a tiny opening called the taste pore, directly exposing specialized receptor proteins",
+            "paraphraseToken": "microscopic microvilli projecting through the apical taste pore",
+            "explanation": "Cơ chế tiếp xúc thụ thể vi nhung mao qua lỗ vị giác."
+          }
+        },
+        {
+          "id": "t33_p4_q34",
+          "num": 34,
+          "question": "How are salty and sour tastes biochemically transduced according to paragraph 3?",
+          "questionVi": "Vị mặn và vị chua được chuyển nạp sinh hóa như thế nào theo đoạn 3?",
+          "questionType": "detail",
+          "options": [
+            "Through direct ionotropic mechanisms involving sodium and hydrogen ion channels",
+            "Exclusively via complex hormone release from the pancreas",
+            "Through microscopic air bubbles popping against the enamel of teeth",
+            "Via the destruction of taste buds that must regrow every minute"
+          ],
+          "optionsVi": [
+            "Thông qua các cơ chế kênh ion trực tiếp liên quan đến các kênh ion natri và hydro",
+            "Độc quyền thông qua việc giải phóng hormone phức tạp từ tuyến tụy",
+            "Thông qua các bọt khí siêu nhỏ vỡ tung vào men răng",
+            "Thông qua việc phá hủy các nụ vị giác vốn phải mọc lại sau mỗi phút"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The perception of salty and sour tastants relies on direct ionotropic mechanisms. Salt perception occurs when ambient sodium ions enter specialized amiloride-sensitive sodium channels, directly depolarizing the receptor cell. Sour perception is stimulated by hydrogen ions...",
+          "evidenceVi": "Cảm nhận về các chất có vị mặn và chua dựa trên các cơ chế kênh ion trực tiếp. Cảm nhận vị mặn xảy ra khi các ion natri xung quanh đi vào các kênh natri chuyên biệt... Cảm nhận vị chua được kích thích bởi các ion hydro...",
+          "explanation": "Đoạn 3 chỉ rõ vị mặn và chua hoạt động theo cơ chế kênh ion trực tiếp (direct ionotropic mechanisms) với ion Na+ và H+.",
+          "postReading": {
+            "originToken": "salty and sour tastants relies on direct ionotropic mechanisms... sodium ions... hydrogen ions",
+            "paraphraseToken": "direct ionotropic mechanisms involving sodium and hydrogen ion channels",
+            "explanation": "Cơ chế kênh ion ionotropic đối với vị mặn và chua."
+          }
+        },
+        {
+          "id": "t33_p4_q35",
+          "num": 35,
+          "question": "What is the evolutionary function of the diverse family of T2R bitter taste receptors in paragraph 3?",
+          "questionVi": "Chức năng tiến hóa của họ thụ thể vị đắng T2R đa dạng trong đoạn 3 là gì?",
+          "questionType": "detail",
+          "options": [
+            "To stimulate intense cravings for high-calorie baked pastries",
+            "To act as a protective sensory sentry detecting toxic plant alkaloids at minute concentrations",
+            "To allow humans to digest wooden furniture without discomfort",
+            "To filter salt minerals from ocean seawater during swimming"
+          ],
+          "optionsVi": [
+            "Để kích thích cảm giác thèm ăn mãnh liệt các loại bánh nướng giàu calo",
+            "Đóng vai trò như một lính gác cảm giác bảo vệ giúp phát hiện các alkaloid thực vật độc hại ở nồng độ cực nhỏ",
+            "Để cho phép con người tiêu hóa đồ nội thất bằng gỗ mà không cảm thấy khó chịu",
+            "Để lọc khoáng chất muối từ nước biển đại dương khi bơi"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...whereas bitter compounds activate an extraordinarily diverse family of monomeric T2R receptors—an evolutionary sensory sentry system calibrated to detect toxic botanical alkaloids at minute nanomolar concentrations.",
+          "evidenceVi": "...trong khi các hợp chất đắng kích hoạt một họ thụ thể T2R dạng đơn phân cực kỳ đa dạng - một hệ thống lính gác cảm giác tiến hóa được tinh chỉnh để phát hiện các alkaloid thực vật độc hại ở nồng độ cực nhỏ tính bằng nanomol.",
+          "explanation": "Đoạn 3 giải thích ý nghĩa tiến hóa của thụ thể vị đắng T2R: là trạm canh gác (sensory sentry) giúp phát hiện chất độc ancaloit trong cây cỏ ở nồng độ siêu nhỏ để ngăn ngừa ngộ độc.",
+          "postReading": {
+            "originToken": "evolutionary sensory sentry system calibrated to detect toxic botanical alkaloids",
+            "paraphraseToken": "protective sensory sentry detecting toxic plant alkaloids at minute concentrations",
+            "explanation": "Ý nghĩa tiến hóa sinh tồn của thụ thể vị đắng T2R."
+          }
+        },
+        {
+          "id": "t33_p4_q36",
+          "num": 36,
+          "question": "The word 'innervating' in paragraph 4 is closest in meaning to:",
+          "questionVi": "Từ 'innervating' trong đoạn 4 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "supplying nerves to and stimulating",
+            "surgically amputating",
+            "paralyzing with venom",
+            "freezing with liquid nitrogen"
+          ],
+          "optionsVi": [
+            "phân nhánh dây thần kinh chi phối và kích thích",
+            "cắt bỏ bằng phẫu thuật",
+            "làm tê liệt bằng nọc độc",
+            "làm đóng băng bằng nitơ lỏng"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...the facial nerve (cranial nerve VII) innervating the anterior tongue...",
+          "evidenceVi": "...dây thần kinh mặt (dây thần kinh sọ VII) chi phối thần kinh cho phần trước của lưỡi...",
+          "explanation": "'Innervating' (thuật ngữ giải phẫu học) là cung cấp mạng lưới dây thần kinh để dẫn truyền cảm giác hoặc vận động cho một cơ quan, đồng nghĩa với 'supplying nerves to and stimulating'.",
+          "postReading": {
+            "originToken": "innervating the anterior tongue",
+            "paraphraseToken": "supplying nerves to and stimulating",
+            "explanation": "'Innervate' = 'supply nerves to'."
+          }
+        },
+        {
+          "id": "t33_p4_q37",
+          "num": 37,
+          "question": "Which three cranial nerves transmit taste signals from the oral cavity to the brainstem according to paragraph 4?",
+          "questionVi": "Ba dây thần kinh sọ não nào truyền tín hiệu vị giác từ khoang miệng đến thân não theo đoạn 4?",
+          "questionType": "detail",
+          "options": [
+            "The optic, olfactory, and auditory nerves",
+            "The facial (VII), glossopharyngeal (IX), and vagus (X) nerves",
+            "The sciatic, femoral, and radial nerves",
+            "The spinal, lumbar, and cervical nerves"
+          ],
+          "optionsVi": [
+            "Các dây thần kinh thị giác, khứu giác và thính giác",
+            "Các dây thần kinh mặt (VII), thiệt hầu (IX) và lang thang (X)",
+            "Các dây thần kinh hông to, đùi và quay",
+            "Các dây thần kinh tủy sống, thắt lưng và cổ"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Neural gustatory signals are carried to the brainstem via three distinct cranial nerves: the facial nerve (cranial nerve VII) innervating the anterior tongue, the glossopharyngeal nerve (cranial nerve IX) serving the posterior tongue, and the vagus nerve (cranial nerve X) monitoring the epiglottis.",
+          "evidenceVi": "Các tín hiệu vị giác thần kinh được truyền đến thân não thông qua ba dây thần kinh sọ riêng biệt: dây thần kinh mặt (dây thần kinh sọ VII) chi phối phần trước lưỡi, dây thần kinh thiệt hầu (dây thần kinh sọ IX) phục vụ phần sau lưỡi và dây thần kinh lang thang (dây thần kinh sọ X) giám sát nắp thanh quản.",
+          "explanation": "Đoạn 4 chỉ rõ 3 dây thần kinh dẫn truyền vị giác: dây mặt (VII), dây thiệt hầu (IX) và dây lang thang (X).",
+          "postReading": {
+            "originToken": "facial nerve (cranial nerve VII)... glossopharyngeal nerve (cranial nerve IX)... vagus nerve (cranial nerve X)",
+            "paraphraseToken": "facial (VII), glossopharyngeal (IX), and vagus (X) nerves",
+            "explanation": "Ba dây thần kinh sọ não phụ trách vị giác."
+          }
+        },
+        {
+          "id": "t33_p4_q38",
+          "num": 38,
+          "question": "How does 'flavor' differ fundamentally from basic 'taste' as explained in paragraph 4?",
+          "questionVi": "'Hương vị' (flavor) khác biệt căn bản như thế nào so với 'vị' (taste) cơ bản như được giải thích trong đoạn 4?",
+          "questionType": "detail",
+          "options": [
+            "Flavor is detected solely inside the human pancreas while taste is felt on the lips.",
+            "Flavor is a holistic multisensory construction synthesizing lingual taste with retronasal smell and touch, whereas taste is only the direct chemical tongue receptor input.",
+            "Flavor only exists when food is frozen to minus twenty degrees Celsius.",
+            "Taste is an imaginary hallucination while flavor is a measurable physical solid."
+          ],
+          "optionsVi": [
+            "Hương vị chỉ được phát hiện bên trong tuyến tụy của con người trong khi vị được cảm nhận trên môi.",
+            "Hương vị là một cấu trúc đa giác quan tổng thể tổng hợp vị giác trên lưỡi với mùi ngửi qua khoang mũi sau và xúc giác, trong khi vị chỉ là tín hiệu hóa học trực tiếp từ thụ thể trên lưỡi.",
+            "Hương vị chỉ tồn tại khi thức ăn được làm đông lạnh đến âm 20 độ C.",
+            "Vị là một ảo giác tưởng tượng trong khi hương vị là một chất rắn vật lý có thể đo lường được."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Crucially, neuroscientists emphasize that 'taste' is merely a minor component of the holistic experience known as 'flavor.' True flavor perception is a multisensory cortical construction, synthesizing lingual gustatory signals with retronasal olfaction... trigeminal somatosensory feedback... and auditory-visual expectations.",
+          "evidenceVi": "Quan trọng là, các nhà khoa học thần kinh nhấn mạnh rằng 'vị' chỉ là một thành phần nhỏ của trải nghiệm tổng thể được gọi là 'hương vị'. Cảm nhận hương vị thực sự là một cấu trúc vỏ não đa giác quan, tổng hợp các tín hiệu vị giác ở lưỡi với khứu giác khoang mũi sau... phản hồi cảm giác thân thể qua dây tam thoa... và kỳ vọng thính giác - thị giác.",
+          "explanation": "Đoạn 4 phân biệt rõ ràng: 'taste' chỉ là tín hiệu hóa học từ thụ thể trên lưỡi (ngọt, mặn, chua, đắng, umami), trong khi 'flavor' là trải nghiệm đa giác quan tổng hợp giữa vị + mùi hương ngửi qua mũi sau (retronasal olfaction) + xúc giác/nhiệt độ/độ cay.",
+          "postReading": {
+            "originToken": "'taste' is merely a minor component... flavor perception is a multisensory cortical construction, synthesizing lingual gustatory signals with retronasal olfaction",
+            "paraphraseToken": "Flavor is a holistic multisensory construction synthesizing lingual taste with retronasal smell and touch, whereas taste is only the direct chemical tongue receptor input",
+            "explanation": "Sự phân biệt giữa 'vị giác' (taste) và 'hương vị' (flavor)."
+          }
+        },
+        {
+          "id": "t33_p4_q39",
+          "num": 39,
+          "question": "The term 'piquancy' in paragraph 4 refers to:",
+          "questionVi": "Thuật ngữ 'piquancy' trong đoạn 4 đề cập đến:",
+          "questionType": "vocabulary",
+          "options": [
+            "sharp spiciness or pungency felt on the tongue",
+            "total absence of any flavor",
+            "the freezing temperature of ice water",
+            "the color of cooked meat"
+          ],
+          "optionsVi": [
+            "vị cay nồng hoặc hăng sắc bén cảm nhận trên lưỡi",
+            "sự vắng mặt hoàn toàn của bất kỳ hương vị nào",
+            "nhiệt độ đóng băng của nước đá",
+            "màu sắc của thịt nấu chín"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...trigeminal somatosensory feedback of temperature and piquancy, and auditory-visual expectations.",
+          "evidenceVi": "...phản hồi cảm giác thân thể của dây thần kinh sinh ba về nhiệt độ và độ cay nồng, cùng các kỳ vọng thính giác - thị giác.",
+          "explanation": "'Piquancy' chỉ cảm giác cay xé, nồng của ớt/tiêu kích thích dây thần kinh sinh ba (trigeminal nerve), đồng nghĩa với 'sharp spiciness or pungency'.",
+          "postReading": {
+            "originToken": "temperature and piquancy",
+            "paraphraseToken": "sharp spiciness or pungency felt on the tongue",
+            "explanation": "'Piquancy' = 'sharp spiciness / pungency'."
+          }
+        },
+        {
+          "id": "t33_p4_q40",
+          "num": 40,
+          "question": "Which of the following best articulates the primary message of the passage?",
+          "questionVi": "Câu nào sau đây thể hiện đúng nhất thông điệp chính của bài đọc?",
+          "questionType": "main_idea",
+          "options": [
+            "Taste perception debunked the historical tongue map, operating through specialized receptor cells and neural pathways that combine with olfaction to create multisensory flavor.",
+            "Sugar is the only chemical substance capable of triggering neurological activity in the human brain.",
+            "Humans should avoid all bitter foods because every bitter plant alkaloid is instantly lethal.",
+            "The human tongue possesses no sensory receptors and relies entirely on stomach acids to identify meals."
+          ],
+          "optionsVi": [
+            "Cảm nhận vị giác đã bác bỏ bản đồ lưỡi trong lịch sử, hoạt động thông qua các tế bào thụ thể chuyên biệt và các đường truyền thần kinh kết hợp với khứu giác để tạo nên hương vị đa giác quan.",
+            "Đường là chất hóa học duy nhất có khả năng kích hoạt hoạt động thần kinh trong não người.",
+            "Con người nên tránh tất cả các loại thực phẩm đắng vì mọi alkaloid thực vật đắng đều gây tử vong ngay lập tức.",
+            "Lưỡi người không sở hữu thụ thể cảm giác nào và hoàn toàn dựa vào axit dạ dày để nhận biết bữa ăn."
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The passage disproves the tongue map, details taste bud and papillae anatomy, explains ionotropic and GPCR transduction pathways, maps cranial nerve transmission to the cortex, and defines flavor as a multisensory synthesis with retronasal olfaction.",
+          "evidenceVi": "Bài đọc bác bỏ bản đồ lưỡi, chi tiết hóa giải phẫu nụ vị giác và nhú lưỡi, giải thích các con đường truyền tín hiệu ionotropic và GPCR, vẽ bản đồ dẫn truyền dây thần kinh sọ lên vỏ não và định nghĩa hương vị như một sự tổng hợp đa giác quan với khứu giác sau mũi.",
+          "explanation": "Toàn bài bác bỏ bản đồ vị giác cổ hủ, phân tích giải phẫu nụ vị giác, cơ chế sinh hóa ionotropic và GPCR, đường truyền thần kinh lên vỏ não và định nghĩa chuẩn xác về hương vị đa giác quan.",
+          "postReading": {
+            "originToken": "demolished this cartographic fallacy... taste buds... ionotropic... metabotropic... cranial nerves... multisensory cortical construction",
+            "paraphraseToken": "Taste perception debunked the historical tongue map, operating through specialized receptor cells and neural pathways that combine with olfaction to create multisensory flavor",
+            "explanation": "Tóm lược toàn diện bài đọc về sinh học vị giác và hương vị."
+          }
+        }
+      ]
+    }
+  ]
 }
 ];

@@ -1559,6 +1559,7 @@ function renderPracticeView() {
     const test30 = tests.find(t => t.testNum === 30);
     const test31 = tests.find(t => t.testNum === 31);
     const test32 = tests.find(t => t.testNum === 32);
+    const test33 = tests.find(t => t.testNum === 33);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -5349,90 +5350,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 23. BỘ ĐỀ THỰC CHIẾN 23 (TEST 33) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 23. BỘ ĐỀ THỰC CHIẾN 23 (TEST 33) - ĐÃ PHÁT HÀNH (HOÀN TẤT 23 BỘ ĐỀ!)
     // =========================================================================
     if (filter === 'all' || filter === 'suite33') {
+        const savedAnsCount33 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 33) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved33 = state.savedExam && state.savedExam.testNum === 33 && savedAnsCount33 > 0;
+        const totalVocab33 = (test33 && test33.passages) ? test33.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta33 = [
+            {
+                testNum: 33,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'upcycling_circular_design',
+                categoryName: 'Thiết kế bền vững & Kinh tế tuần hoàn',
+                categoryColor: '#a855f7',
+                badgeBg: '#f3e8ff',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Upcycling Second-hand Furniture',
+                icon: 'fa-couch',
+                title: 'Upcycling Second-hand Furniture & Circular Design: Artisanal Restoration vs. Fast Furniture',
+                titleVi: 'Tái chế nâng cấp đồ gỗ cũ & Thiết kế tuần hoàn: Phục hồi thủ công đối đầu Nội thất nhanh',
+                summary: 'Khắc phục nhược điểm độc hại của "nội thất nhanh" ván ép bãi rác, kỹ thuật mộc thủ công dung môi sinh học và giá trị độc bản lưu giữ carbon của đồ gỗ gia truyền.'
+            },
+            {
+                testNum: 33,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'red_river_delta_geography',
+                categoryName: 'Địa lý tự nhiên & Thủy lợi đê điều Việt Nam',
+                categoryColor: '#10b981',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: Red River Delta Geographical Development',
+                icon: 'fa-water',
+                title: 'Red River Delta Geographical Development & Alluvial Floodplains: Hydrology & Dyke Systems',
+                titleVi: 'Sự phát triển địa lý Đồng bằng sông Hồng & Vùng lũ phù sa: Thủy văn & Hệ thống đê điều',
+                summary: 'Trầm tích oxit sắt tạo sắc đỏ sông Hồng, biến động lượng mưa bão mùa hè, kỳ tích 3.000 km đê điều nghìn năm, hiện tượng lòng sông treo và hồ chứa cắt lũ hiện đại.'
+            },
+            {
+                testNum: 33,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'language_processing_disorders',
+                categoryName: 'Khoa học thần kinh & Ngôn ngữ học lâm sàng',
+                categoryColor: '#6366f1',
+                badgeBg: '#e0e7ff',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Language Processing Disorders: APD & Dyslexia',
+                icon: 'fa-brain',
+                title: 'Language Processing Disorders: Auditory Processing Disorder (APD) & Developmental Dyslexia',
+                titleVi: 'Rối loạn xử lý ngôn ngữ: Rối loạn xử lý thính giác (APD) & Chứng khó đọc phát triển',
+                summary: 'Phân biệt cơ chế thần kinh giữa khiếm khuyết xử lý thời gian thính giác (APD) với giải mã ngữ âm chữ viết (Dyslexia), xóa bỏ định kiến và can thiệp tính dẻo não bộ (neuroplasticity).'
+            },
+            {
+                testNum: 33,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'tongue_taste_receptors',
+                categoryName: 'Sinh học phân tử & Sinh học thần kinh cảm giác',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Tongue Taste Buds, Receptors & Flavor Perception',
+                icon: 'fa-face-laugh',
+                title: 'Tongue Taste Buds, Receptors & The Neurobiology of Flavor Perception: Demolishing the Tongue Map',
+                titleVi: 'Thụ thể vị giác trên gai lưỡi & Sinh học thần kinh cảm thụ hương vị: Bác bỏ bản đồ lưỡi cổ điển',
+                summary: 'Bác bỏ huyền thoại bản đồ vị giác, giải phẫu 3 loại nhú gai lưỡi và nụ vị giác, con đường ionotropic (mặn, chua) đối đầu GPCR (ngọt, đắng T2R, umami) và cấu trúc hương vị đa giác quan.'
+            }
+        ];
+
+        let pCardsHtml33 = '';
+        passagesMeta33.forEach(meta => {
+            const pData = (test33 && test33.passages) ? test33.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml33 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-33">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-23" id="suite-box-33">
+                <div class="practice-suite-header suite-header-23">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(249, 115, 22, 0.25); color: #fdba74; border-color: rgba(249, 115, 22, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 23 (TEST 33) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-crown" style="color: #fcd34d;"></i> BỘ ĐỀ THỰC CHIẾN 23 (TEST 33) • HOÀN TẤT TRỌN BỘ 23 SUITE!
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 23 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Tái chế nâng cấp nội thất cũ Upcycling (Part 1) • Văn minh Đồng bằng sông Hồng & Múa rối nước (Part 2) • Xử lý ngôn ngữ & Rối loạn thần kinh (Part 3) • Sinh lý học vị giác & Thụ thể của lưỡi (Part 4)
+                            <strong>4 Topics:</strong> Upcycling nội thất gỗ cũ (Part 1) • Đê điều Đồng bằng sông Hồng (Part 2) • Rối loạn ngôn ngữ APD & Dyslexia (Part 3) • Sinh học thần kinh vị giác (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab33} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(33)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab33} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved33 ? 'background: linear-gradient(135deg, #581c87, #a855f7) !important;' : ''}" onclick="${isSaved33 ? 'resumeSavedExam()' : 'startFullExam(33)'}">
+                            ${isSaved33 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount33}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(33)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
-                        <i class="fa-solid fa-layer-group" style="color: #f97316;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 23):
+                        <i class="fa-solid fa-layer-group" style="color: #a855f7;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Upcycling Second-Hand Furniture</h4>
-                                <h5>Nghệ thuật tái chế nâng cấp (Upcycling) nội thất & đồ gia dụng cũ</h5>
-                                <p>Phân biệt upcycling sáng tạo với tái chế phá hủy thông thường, xu hướng kinh tế tuần hoàn giảm rác thải bãi chôn lấp và giá trị thủ công độc bản.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#6366f1;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Red River Delta & Water Puppetry Heritage</h4>
-                                <h5>Văn minh Đồng bằng sông Hồng & Nghệ thuật Múa rối nước truyền thống</h5>
-                                <p>Khám phá cái nôi văn hóa lúa nước miền Bắc Việt Nam, kỹ thuật điều khiển con rối gỗ dưới mặt ao làng và hành trình đưa di sản dân gian ra sân khấu thế giới.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Language Processing & Neurological Disorders</h4>
-                                <h5>Xử lý ngôn ngữ: Khả năng nghe - đọc & Các rối loạn thần kinh ngôn ngữ</h5>
-                                <p>Nghiên cứu vai trò vùng Broca và Wernicke trong giải mã âm thanh - chữ viết, cơ chế chứng mất ngôn ngữ (aphasia), khó đọc (dyslexia) và phục hồi chức năng thần kinh.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Gustatory Physiology & Tongue Taste Receptors</h4>
-                                <h5>Sinh lý học vị giác: Cơ chế thụ thể thần kinh của lưỡi & Giải ảo bản đồ vị</h5>
-                                <p>Phân tích cấu trúc vi mô tế bào thụ thể vị giác, kênh ion và đường dẫn truyền lên vỏ não vị giác, đồng thời bác bỏ ngộ nhận kinh điển về "bản đồ vùng vị trên lưỡi".</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml33}
                     </div>
                 </div>
             </div>
