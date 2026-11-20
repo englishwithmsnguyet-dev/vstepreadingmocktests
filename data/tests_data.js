@@ -47686,6 +47686,2838 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST21",
+    "testNum": 21,
+    "title": "VSTEP READING MOCK TEST 21",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 11 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Facebook in Modern Society: Evolution, Connectivity & Social Impacts",
+        "topic": "Tác động & Hành vi sử dụng Facebook trong đời sống hiện đại: Từ kết nối bạn bè đến hệ sinh thái tin tức, thương mại số và sức khỏe tinh thần",
+        "timeAllowed": 15,
+        "passage": "<p>When Facebook was first conceived in a Harvard University dormitory room in early 2004, its primary ambition was modest: to provide an interactive digital directory facilitating social connections among university undergraduates. Within a single decade, however, the platform underwent an explosive metamorphosis into a ubiquitous global network. Today, boasting roughly three billion monthly active users, Facebook transcends national borders, language divides, and generational barriers, functioning as an indispensable infrastructure for interpersonal communication and personal identity expression across the planet.</p><p>Over time, Facebook has expanded far beyond personal photo-sharing to establish a multifaceted virtual public square. It serves as a primary hub for real-time news dissemination, grassroots community organizing, and civic mobilization. Local charities coordinate emergency disaster relief, small entrepreneurs browse targeted customer groups to launch e-commerce storefronts, and specialized interest groups exchange professional insights. For millions of individuals in developing regions, Facebook and its parent entity Meta represent their principal gateway to the broader internet, providing free messaging, job listings, and educational resources through localized mobile applications.</p><p>Nevertheless, the algorithmic mechanisms underpinning the platform have sparked widespread academic scrutiny. To maximize daily user engagement and drive advertising revenue, Facebook's News Feed employs machine-learning algorithms that prioritize content capable of evoking strong emotional reactions. While this curation personalizes content feeds according to user preference, it frequently creates insular 'echo chambers' and 'filter bubbles.' In these enclosed digital environments, individuals are repeatedly exposed to perspectives that validate their pre-existing beliefs while contradictory evidence is systematically filtered out, inadvertently accelerating social polarization and the rapid spread of sensationalized misinformation.</p><p>On an individual level, the psychological footprint of pervasive social networking is increasingly documented. Prolonged browsing often induces digital fatigue and the 'fear of missing out' (FOMO), as users unconsciously engage in social comparison with idealized highlight reels presented by peers. In response, digital literacy advocates emphasize the necessity of mindful screen-time management, encouraging individuals to curate their digital footprint deliberately. Ultimately, Facebook embodies the double-edged nature of modern technology: an unparalleled instrument for global human empowerment that simultaneously requires conscious individual regulation and societal oversight.</p>",
+        "vocab": [
+          {
+            "word": "ubiquitous",
+            "pos": "adj",
+            "ipa": "/juːˈbɪk.wɪ.təs/",
+            "level": "B2",
+            "mean": "phổ biến khắp nơi, có mặt ở mọi nơi",
+            "syns": [
+              "omnipresent",
+              "pervasive",
+              "widespread"
+            ],
+            "ex": "Smartphones and social media apps have become ubiquitous in daily life."
+          },
+          {
+            "word": "metamorphosis",
+            "pos": "n",
+            "ipa": "/ˌmet.əˈmɔː.fə.sɪs/",
+            "level": "C1",
+            "mean": "sự biến đổi hình thái ngoạn mục",
+            "syns": [
+              "transformation",
+              "transmutation",
+              "evolution"
+            ],
+            "ex": "The app underwent a rapid metamorphosis from a student directory to a global network."
+          },
+          {
+            "word": "transcend",
+            "pos": "v",
+            "ipa": "/trænˈsend/",
+            "level": "B2",
+            "mean": "vượt qua khỏi ranh giới hay giới hạn",
+            "syns": [
+              "surpass",
+              "exceed",
+              "outstrip"
+            ],
+            "ex": "Music and digital connectivity transcend geographical and cultural boundaries."
+          },
+          {
+            "word": "indispensable",
+            "pos": "adj",
+            "ipa": "/ˌɪn.dɪˈspen.sə.bəl/",
+            "level": "B2",
+            "mean": "không thể thiếu được, thiết yếu",
+            "syns": [
+              "essential",
+              "vital",
+              "crucial"
+            ],
+            "ex": "Internet access is now indispensable for modern academic research."
+          },
+          {
+            "word": "multifaceted",
+            "pos": "adj",
+            "ipa": "/ˌmʌl.tiˈfæs.ɪ.tɪd/",
+            "level": "B2",
+            "mean": "nhiều mặt, đa phương diện phong phú",
+            "syns": [
+              "versatile",
+              "varied",
+              "diverse"
+            ],
+            "ex": "The website serves a multifaceted role as both a news outlet and an e-commerce shop."
+          },
+          {
+            "word": "dissemination",
+            "pos": "n",
+            "ipa": "/dɪˌsem.ɪˈneɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự phổ biến, phát tán rộng rãi thông tin",
+            "syns": [
+              "distribution",
+              "broadcasting",
+              "circulation"
+            ],
+            "ex": "Social networks accelerate the dissemination of urgent weather warnings."
+          },
+          {
+            "word": "grassroots",
+            "pos": "adj",
+            "ipa": "/ˈɡrɑːs.ruːts/",
+            "level": "B2",
+            "mean": "từ tầng lớp bình dân, cơ sở cộng đồng",
+            "syns": [
+              "community-based",
+              "local",
+              "popular"
+            ],
+            "ex": "Grassroots fundraising campaigns quickly gained traction on community groups."
+          },
+          {
+            "word": "mobilization",
+            "pos": "n",
+            "ipa": "/ˌməʊ.bɪ.laɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự huy động, tập hợp lực lượng",
+            "syns": [
+              "rallying",
+              "organization",
+              "assembly"
+            ],
+            "ex": "Civic mobilization via online platforms helped coordinate flood relief volunteers."
+          },
+          {
+            "word": "gateway",
+            "pos": "n",
+            "ipa": "/ˈɡeɪt.weɪ/",
+            "level": "B1",
+            "mean": "cổng vào, phương tiện tiếp cận đầu tiên",
+            "syns": [
+              "portal",
+              "entryway",
+              "access point"
+            ],
+            "ex": "For many rural residents, mobile social platforms serve as a gateway to the web."
+          },
+          {
+            "word": "algorithmic",
+            "pos": "adj",
+            "ipa": "/ˌæl.ɡəˈrɪð.mɪk/",
+            "level": "B2",
+            "mean": "thuộc về thuật toán máy tính",
+            "syns": [
+              "computational",
+              "automated"
+            ],
+            "ex": "Algorithmic curation determines which posts appear at the top of your feed."
+          },
+          {
+            "word": "scrutiny",
+            "pos": "n",
+            "ipa": "/ˈskruː.tɪ.ni/",
+            "level": "C1",
+            "mean": "sự xem xét, kiểm tra kỹ lưỡng khắt khe",
+            "syns": [
+              "inspection",
+              "examination",
+              "investigation"
+            ],
+            "ex": "Tech platforms face increasing regulatory scrutiny over data privacy."
+          },
+          {
+            "word": "engagement",
+            "pos": "n",
+            "ipa": "/ɪnˈɡeɪdʒ.mənt/",
+            "level": "B2",
+            "mean": "mức độ tương tác của người dùng (like, share, comment)",
+            "syns": [
+              "interaction",
+              "involvement",
+              "participation"
+            ],
+            "ex": "Posts with controversial headlines generate the highest user engagement."
+          },
+          {
+            "word": "curation",
+            "pos": "n",
+            "ipa": "/kjʊəˈreɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự tuyển chọn, chọn lọc nội dung có chủ đích",
+            "syns": [
+              "selection",
+              "filtering",
+              "organization"
+            ],
+            "ex": "Automated feed curation shows users posts tailored to their recent searches."
+          },
+          {
+            "word": "insular",
+            "pos": "adj",
+            "ipa": "/ˈɪn.sjə.lər/",
+            "level": "C1",
+            "mean": "khép kín, mang tính cô lập hẹp hòi",
+            "syns": [
+              "isolated",
+              "parochial",
+              "narrow-minded"
+            ],
+            "ex": "Echo chambers produce insular groups that reject outside opinions."
+          },
+          {
+            "word": "polarization",
+            "pos": "n",
+            "ipa": "/ˌpəʊ.lə.raɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự phân cực hóa, chia rẽ thành hai thái cực",
+            "syns": [
+              "division",
+              "fragmentation",
+              "estrangement"
+            ],
+            "ex": "Algorithm-driven news feeds have contributed to political polarization."
+          },
+          {
+            "word": "sensationalized",
+            "pos": "adj",
+            "ipa": "/senˈseɪ.ʃən.əl.aɪzd/",
+            "level": "B2",
+            "mean": "bị giật gân hóa, thổi phồng quá mức",
+            "syns": [
+              "exaggerated",
+              "dramatized",
+              "hyperbolic"
+            ],
+            "ex": "Sensationalized headlines attract quick clicks but often mislead the public."
+          },
+          {
+            "word": "footprint",
+            "pos": "n",
+            "ipa": "/ˈfʊt.prɪnt/",
+            "level": "B2",
+            "mean": "dấu vết, tác động để lại trong đời sống số",
+            "syns": [
+              "mark",
+              "impact",
+              "presence"
+            ],
+            "ex": "Every post and like forms part of your permanent digital footprint."
+          },
+          {
+            "word": "pervasive",
+            "pos": "adj",
+            "ipa": "/pəˈveɪ.sɪv/",
+            "level": "B2",
+            "mean": "lan tỏa sâu rộng, thâm nhập khắp nơi",
+            "syns": [
+              "widespread",
+              "prevalent",
+              "permeating"
+            ],
+            "ex": "The pervasive influence of screens changes how adolescents interact."
+          },
+          {
+            "word": "fatigue",
+            "pos": "n",
+            "ipa": "/fəˈtiːɡ/",
+            "level": "B2",
+            "mean": "sự mệt mỏi, kiệt sức",
+            "syns": [
+              "exhaustion",
+              "weariness",
+              "burnout"
+            ],
+            "ex": "Spending eight hours daily on social media inevitably leads to digital fatigue."
+          },
+          {
+            "word": "comparison",
+            "pos": "n",
+            "ipa": "/kəmˈpær.ɪ.sən/",
+            "level": "B1",
+            "mean": "sự so sánh, đối chiếu bản thân với người khác",
+            "syns": [
+              "evaluation",
+              "juxtaposition"
+            ],
+            "ex": "Constant social comparison with unrealistic lifestyles damages self-esteem."
+          },
+          {
+            "word": "idealized",
+            "pos": "adj",
+            "ipa": "/aɪˈdɪə.laɪzd/",
+            "level": "B2",
+            "mean": "được lý tưởng hóa, tô vẽ hoàn hảo",
+            "syns": [
+              "romanticized",
+              "perfected",
+              "glamorized"
+            ],
+            "ex": "People tend to share only idealized photos of their vacations and accomplishments."
+          },
+          {
+            "word": "literacy",
+            "pos": "n",
+            "ipa": "/ˈlɪt.ər.ə.si/",
+            "level": "B2",
+            "mean": "năng lực hiểu biết, kỹ năng sử dụng thành thạo",
+            "syns": [
+              "competence",
+              "proficiency",
+              "knowledge"
+            ],
+            "ex": "Schools are integrating media literacy classes to help students spot fake news."
+          },
+          {
+            "word": "advocate",
+            "pos": "n",
+            "ipa": "/ˈæd.və.kət/",
+            "level": "B2",
+            "mean": "người ủng hộ, người lên tiếng bảo vệ quan điểm",
+            "syns": [
+              "proponent",
+              "champion",
+              "supporter"
+            ],
+            "ex": "Health advocates recommend turning off phone notifications during dinner."
+          },
+          {
+            "word": "empowerment",
+            "pos": "n",
+            "ipa": "/ɪmˈpaʊə.mənt/",
+            "level": "B2",
+            "mean": "sự trao quyền, nâng cao năng lực cho cá nhân",
+            "syns": [
+              "enablement",
+              "strengthening",
+              "autonomy"
+            ],
+            "ex": "The internet provides unprecedented empowerment for citizen journalists."
+          },
+          {
+            "word": "unparalleled",
+            "pos": "adj",
+            "ipa": "/ʌnˈpær.əl.eld/",
+            "level": "C1",
+            "mean": "vô song, không gì sánh bằng",
+            "syns": [
+              "matchless",
+              "unrivaled",
+              "peerless"
+            ],
+            "ex": "Social media offers an unparalleled reach for international cultural exchange."
+          },
+          {
+            "word": "oversight",
+            "pos": "n",
+            "ipa": "/ˈəʊ.və.saɪt/",
+            "level": "B2",
+            "mean": "sự giám sát, quản lý kiểm tra cẩn thận",
+            "syns": [
+              "supervision",
+              "monitoring",
+              "governance"
+            ],
+            "ex": "Legislators demand greater independent oversight of algorithmic recommendation models."
+          },
+          {
+            "word": "interpersonal",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈpɜː.sən.əl/",
+            "level": "B2",
+            "mean": "giữa các cá nhân với nhau (giao tiếp, quan hệ)",
+            "syns": [
+              "social",
+              "relational"
+            ],
+            "ex": "Digital messaging can supplement but never completely replace interpersonal warmth."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "Which of the following best states the main idea of the passage?",
+            "questionVi": "Ý nào sau đây thể hiện rõ nhất ý chính của toàn bộ đoạn văn?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "Facebook has evolved from a student directory into a multifaceted global infrastructure with both empowering benefits and algorithmic challenges",
+              "The primary purpose of digital social platforms is to eliminate traditional print newspapers completely",
+              "Harvard University was solely responsible for funding Facebook's international expansion into Asia",
+              "Machine learning algorithms have successfully eliminated all forms of misinformation on social networks"
+            ],
+            "optionsVi": [
+              "A. Facebook đã tiến hóa từ một danh bạ sinh viên thành một hạ tầng toàn cầu đa chiều với cả lợi ích trao quyền lẫn những thách thức thuật toán",
+              "B. Mục tiêu chính của các nền tảng mạng xã hội số là loại bỏ hoàn toàn báo giấy truyền thống",
+              "C. Đại học Harvard là đơn vị duy nhất tài trợ cho sự mở rộng quốc tế của Facebook sang châu Á",
+              "D. Các thuật toán học máy đã loại bỏ thành công mọi hình thức thông tin sai lệch trên mạng xã hội"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Ultimately, Facebook embodies the double-edged nature of modern technology: an unparalleled instrument for global human empowerment that simultaneously requires conscious individual regulation and societal oversight. [Paragraph 4]",
+            "evidenceVi": "Sau cùng, Facebook thể hiện tính hai mặt của công nghệ hiện đại: một công cụ vô song để trao quyền cho con người toàn cầu nhưng đồng thời đòi hỏi sự tự điều chỉnh có ý thức của cá nhân và sự giám sát của xã hội. [Đoạn 4]",
+            "explanation": "Toàn bài phân tích hành trình phát triển của Facebook: từ nguồn gốc khiêm tốn đến hạ tầng kết nối toàn cầu (Đoạn 1-2), các vấn đề thuật toán và phân cực (Đoạn 3), tác động tâm lý và sự cần thiết phải kiểm soát (Đoạn 4) -> (A) tóm tắt toàn diện nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "Facebook embodies the double-edged nature of modern technology: an unparalleled instrument for global human empowerment that simultaneously requires conscious individual regulation and societal oversight.",
+              "clueAnswer": "Facebook has evolved from a student directory into a multifaceted global infrastructure with both empowering benefits and algorithmic challenges",
+              "keyPassage": "double-edged nature + human empowerment + conscious individual regulation and societal oversight",
+              "keyAnswer": "multifaceted global infrastructure + empowering benefits and algorithmic challenges",
+              "paraphrasePair": "double-edged nature <=> empowering benefits and algorithmic challenges",
+              "meaningVi": "tính hai mặt: công cụ trao quyền mạnh mẽ kèm theo thách thức thuật toán",
+              "deductionLogic": "Khái quát toàn diện nội dung từ sự khởi đầu, lợi ích đến thách thức xã hội."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "According to paragraph 1, what was Facebook's original ambition when it was created in 2004?",
+            "questionVi": "Theo đoạn 1, tham vọng ban đầu của Facebook khi được tạo ra vào năm 2004 là gì?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "To provide an interactive digital directory facilitating connections among university students",
+              "To establish a worldwide political voting platform for international elections",
+              "To broadcast live sports tournaments and television shows globally",
+              "To replace all cellular telecommunication networks with satellite Wi-Fi"
+            ],
+            "optionsVi": [
+              "A. Cung cấp một danh bạ kỹ thuật số tương tác giúp kết nối sinh viên đại học",
+              "B. Thành lập một nền tảng bỏ phiếu chính trị toàn cầu cho các cuộc bầu cử quốc tế",
+              "C. Phát sóng trực tiếp các giải thể thao và chương trình truyền hình trên toàn thế giới",
+              "D. Thay thế toàn bộ mạng viễn thông di động bằng mạng Wi-Fi vệ tinh"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "its primary ambition was modest: to provide an interactive digital directory facilitating social connections among university undergraduates. [Paragraph 1]",
+            "evidenceVi": "tham vọng ban đầu của nó rất khiêm tốn: cung cấp một danh bạ kỹ thuật số tương tác tạo điều kiện thuận lợi cho các kết nối xã hội giữa các sinh viên đại học. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ: mục đích ban đầu rất khiêm tốn, chỉ là một danh bạ kỹ thuật số tương tác hỗ trợ kết nối giữa các sinh viên đại học (undergraduates) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Thông tin chi tiết (Factual Detail)",
+              "cluePassage": "provide an interactive digital directory facilitating social connections among university undergraduates.",
+              "clueAnswer": "To provide an interactive digital directory facilitating connections among university students",
+              "keyPassage": "interactive digital directory facilitating social connections among university undergraduates",
+              "keyAnswer": "interactive digital directory facilitating connections among university students",
+              "paraphrasePair": "undergraduates <=> students",
+              "meaningVi": "danh bạ số tương tác kết nối sinh viên",
+              "deductionLogic": "Khớp câu đầu tiên đoạn 1."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "The word 'ubiquitous' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'ubiquitous' trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "omnipresent",
+              "temporary",
+              "confidential",
+              "unpopular"
+            ],
+            "optionsVi": [
+              "A. có mặt khắp mọi nơi (omnipresent)",
+              "B. tạm thời, nhất thời (temporary)",
+              "C. bảo mật, bí mật (confidential)",
+              "D. không phổ biến (unpopular)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the platform underwent an explosive metamorphosis into a ubiquitous global network. [Paragraph 1]",
+            "evidenceVi": "nền tảng này đã trải qua một sự biến đổi ngoạn mục thành một mạng lưới toàn cầu hiện diện ở khắp mọi nơi. [Đoạn 1]",
+            "explanation": "'Ubiquitous' mang nghĩa xuất hiện ở khắp nơi, phổ biến rộng khắp, đồng nghĩa với 'omnipresent' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "metamorphosis into a ubiquitous global network.",
+              "clueAnswer": "omnipresent",
+              "keyPassage": "ubiquitous global network",
+              "keyAnswer": "omnipresent global network",
+              "paraphrasePair": "ubiquitous <=> omnipresent",
+              "meaningVi": "phổ biến rộng khắp mọi nơi",
+              "deductionLogic": "Mô tả quy mô toàn cầu kết nối hàng tỷ người."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "According to paragraph 2, what role does Facebook play for many people in developing regions?",
+            "questionVi": "Theo đoạn 2, Facebook đóng vai trò gì đối với nhiều người dân ở các khu vực đang phát triển?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "It represents their principal gateway to the internet, messaging, jobs, and educational resources",
+              "It acts as their primary national banking institution and currency issuer",
+              "It replaces their official passport and immigration documentation",
+              "It manages all public hospital appointments and emergency surgeries"
+            ],
+            "optionsVi": [
+              "A. Đại diện cho cổng vào chính tiếp cận internet, nhắn tin, việc làm và tài nguyên giáo dục",
+              "B. Hoạt động như ngân hàng quốc gia và cơ quan phát hành tiền tệ chính",
+              "C. Thay thế hộ chiếu chính thức và giấy tờ nhập cảnh",
+              "D. Quản lý toàn bộ lịch hẹn bệnh viện công và phẫu thuật cấp cứu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "For millions of individuals in developing regions, Facebook and its parent entity Meta represent their principal gateway to the broader internet, providing free messaging, job listings, and educational resources [Paragraph 2]",
+            "evidenceVi": "Đối với hàng triệu cá nhân ở các khu vực đang phát triển, Facebook và công ty mẹ Meta đại diện cho cổng vào chính của họ với mạng internet rộng lớn hơn, cung cấp tin nhắn miễn phí, danh sách việc làm và tài nguyên giáo dục [Đoạn 2]",
+            "explanation": "Đoạn 2 chỉ rõ: ở các khu vực đang phát triển, Facebook là cổng vào internet chính ('principal gateway'), cung cấp nhắn tin miễn phí, thông tin việc làm và tài nguyên học tập (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Thông tin chi tiết (Factual Detail)",
+              "cluePassage": "represent their principal gateway to the broader internet, providing free messaging, job listings, and educational resources",
+              "clueAnswer": "It represents their principal gateway to the internet, messaging, jobs, and educational resources",
+              "keyPassage": "principal gateway to broader internet, providing free messaging, job listings, and educational resources",
+              "keyAnswer": "principal gateway to the internet, messaging, jobs, and educational resources",
+              "paraphrasePair": "broader internet <=> internet",
+              "meaningVi": "cổng vào chính tiếp cận internet, việc làm và tài nguyên giáo dục",
+              "deductionLogic": "Khớp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "What content does the News Feed algorithm prioritize, according to paragraph 3?",
+            "questionVi": "Thuật toán Bảng tin ưu tiên loại nội dung nào, theo đoạn 3?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Content capable of evoking strong emotional reactions to maximize engagement",
+              "Academic peer-reviewed papers written exclusively in ancient Greek",
+              "Unedited factual census tables produced by government bureaus",
+              "Silent text files that contain no links, pictures, or emojis"
+            ],
+            "optionsVi": [
+              "A. Nội dung có khả năng khơi gợi phản ứng cảm xúc mạnh để tối đa hóa tương tác",
+              "B. Bài báo khoa học viết bằng tiếng Hy Lạp cổ",
+              "C. Bảng số liệu điều tra dân số chưa qua chỉnh sửa",
+              "D. Tệp văn bản thuần túy không có hình ảnh hay link"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Facebook's News Feed employs machine-learning algorithms that prioritize content capable of evoking strong emotional reactions. [Paragraph 3]",
+            "evidenceVi": "Bảng tin của Facebook sử dụng các thuật toán học máy ưu tiên nội dung có khả năng khơi gợi những phản ứng cảm xúc mạnh mẽ. [Đoạn 3]",
+            "explanation": "Đoạn 3 khẳng định: để tối đa hóa sự tương tác, thuật toán ưu tiên những nội dung khơi gợi cảm xúc mạnh ('evoking strong emotional reactions') (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế thuật toán (Algorithmic Detail)",
+              "cluePassage": "prioritize content capable of evoking strong emotional reactions.",
+              "clueAnswer": "Content capable of evoking strong emotional reactions to maximize engagement",
+              "keyPassage": "prioritize content capable of evoking strong emotional reactions",
+              "keyAnswer": "Content capable of evoking strong emotional reactions to maximize engagement",
+              "paraphrasePair": "prioritize content <=> prioritize content",
+              "meaningVi": "ưu tiên nội dung kích thích cảm xúc mạnh để giữ chân người dùng",
+              "deductionLogic": "Khớp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "The word 'curation' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'curation' trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "selection and filtering",
+              "random deleting",
+              "unauthorized copying",
+              "manual printing"
+            ],
+            "optionsVi": [
+              "A. sự tuyển chọn và lọc lọc (selection and filtering)",
+              "B. việc xóa ngẫu nhiên (random deleting)",
+              "C. sao chép trái phép (unauthorized copying)",
+              "D. in ấn thủ công (manual printing)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "While this curation personalizes content feeds according to user preference [Paragraph 3]",
+            "evidenceVi": "Mặc dù sự tuyển chọn này cá nhân hóa các luồng nội dung theo sở thích của người dùng [Đoạn 3]",
+            "explanation": "'Curation' trong quản lý thông tin là quá trình chọn lọc, sắp xếp và phân loại nội dung phù hợp, đồng nghĩa với 'selection and filtering' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "this curation personalizes content feeds according to user preference",
+              "clueAnswer": "selection and filtering",
+              "keyPassage": "curation personalizes content feeds",
+              "keyAnswer": "selection and filtering",
+              "paraphrasePair": "curation <=> selection and filtering",
+              "meaningVi": "chọn lọc và sắp xếp nội dung",
+              "deductionLogic": "Mô tả cách thuật toán chọn bài đăng hiển thị cho từng cá nhân."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "Based on paragraph 3, what negative consequence is created by 'filter bubbles'?",
+            "questionVi": "Dựa vào đoạn 3, hậu quả tiêu cực nào được tạo ra bởi các 'bong bóng lọc' (filter bubbles)?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Users are exposed mainly to viewpoints confirming their biases, accelerating social polarization",
+              "Smartphones automatically shut down after fifteen minutes of video playback",
+              "Users are forced to purchase physical newspaper subscriptions against their will",
+              "Advertisers lose their ability to track any demographic metrics online"
+            ],
+            "optionsVi": [
+              "A. Người dùng chủ yếu tiếp xúc với quan điểm củng cố định kiến, làm gia tăng sự phân cực xã hội",
+              "B. Điện thoại thông minh tự động tắt nguồn sau 15 phút phát video",
+              "C. Người dùng bị buộc phải đăng ký mua báo giấy trái với ý muốn",
+              "D. Các nhà quảng cáo mất khả năng theo dõi các chỉ số nhân khẩu học trên mạng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "In these enclosed digital environments, individuals are repeatedly exposed to perspectives that validate their pre-existing beliefs while contradictory evidence is systematically filtered out, inadvertently accelerating social polarization [Paragraph 3]",
+            "evidenceVi": "Trong các môi trường kỹ thuật số khép kín này, các cá nhân liên tục tiếp xúc với các quan điểm xác thực niềm tin có sẵn của họ trong khi bằng chứng trái ngược bị lọc bỏ có hệ thống, vô tình đẩy nhanh sự phân cực xã hội [Đoạn 3]",
+            "explanation": "Đoạn 3 giải thích: bong bóng lọc khiến người dùng chỉ thấy những quan điểm xác thực niềm tin cũ, loại trừ bằng chứng trái ngược, dẫn tới đẩy nhanh sự phân cực xã hội (polarization) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Tác động tiêu cực (Consequence Detail)",
+              "cluePassage": "individuals are repeatedly exposed to perspectives that validate their pre-existing beliefs while contradictory evidence is systematically filtered out, inadvertently accelerating social polarization",
+              "clueAnswer": "Users are exposed mainly to viewpoints confirming their biases, accelerating social polarization",
+              "keyPassage": "exposed to perspectives that validate pre-existing beliefs + accelerating social polarization",
+              "keyAnswer": "viewpoints confirming their biases, accelerating social polarization",
+              "paraphrasePair": "validate pre-existing beliefs <=> confirming their biases; accelerating <=> increasing",
+              "meaningVi": "chỉ tiếp xúc với ý kiến củng cố định kiến làm tăng phân cực",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "The word 'pervasive' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'pervasive' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "widespread",
+              "negligible",
+              "ancient",
+              "imaginary"
+            ],
+            "optionsVi": [
+              "A. lan tỏa sâu rộng, phổ biến (widespread)",
+              "B. không đáng kể (negligible)",
+              "C. cổ xưa (ancient)",
+              "D. tưởng tượng, không có thật (imaginary)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the psychological footprint of pervasive social networking is increasingly documented. [Paragraph 4]",
+            "evidenceVi": "dấu ấn tâm lý của mạng xã hội lan tỏa sâu rộng ngày càng được ghi chép nhiều hơn. [Đoạn 4]",
+            "explanation": "'Pervasive' chỉ điều gì đó thâm nhập sâu rộng, có mặt khắp nơi trong đời sống, đồng nghĩa với 'widespread' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "psychological footprint of pervasive social networking",
+              "clueAnswer": "widespread",
+              "keyPassage": "pervasive social networking",
+              "keyAnswer": "widespread social networking",
+              "paraphrasePair": "pervasive <=> widespread",
+              "meaningVi": "lan tỏa sâu rộng khắp nơi",
+              "deductionLogic": "Đặc trưng của mạng xã hội hiện diện ở mọi khía cạnh cuộc sống."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "In paragraph 4, why does social comparison on Facebook cause negative psychological feelings like FOMO?",
+            "questionVi": "Trong đoạn 4, tại sao sự so sánh xã hội trên Facebook lại gây ra cảm xúc tâm lý tiêu cực như hội chứng FOMO?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Because users compare their everyday lives with idealized highlight reels posted by peers",
+              "Because the platform automatically deducts money from bank accounts during browsing",
+              "Because users are strictly forbidden from contacting family members online",
+              "Because digital screens emit frequencies that induce immediate physical dizziness"
+            ],
+            "optionsVi": [
+              "A. Vì người dùng so sánh đời sống thường nhật của mình với các khoảnh khắc lung linh được lý tưởng hóa của bạn bè",
+              "B. Vì nền tảng tự động trừ tiền trong tài khoản ngân hàng khi lướt web",
+              "C. Vì người dùng bị nghiêm cấm liên lạc với các thành viên gia đình trên mạng",
+              "D. Vì màn hình số phát ra tần số gây chóng mặt ngay lập tức"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "users unconsciously engage in social comparison with idealized highlight reels presented by peers. [Paragraph 4]",
+            "evidenceVi": "người dùng vô thức tham gia vào việc so sánh xã hội với những khoảnh khắc được lý tưởng hóa mà bạn bè phô diễn. [Đoạn 4]",
+            "explanation": "Đoạn 4 chỉ ra: người dùng vô thức so sánh mình với những thước phim lung linh đã được lý tưởng hóa của người khác ('idealized highlight reels presented by peers'), gây ra tâm lý kiệt sức và hội chứng sợ bỏ lỡ (FOMO) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế tâm lý (Psychological Mechanism)",
+              "cluePassage": "users unconsciously engage in social comparison with idealized highlight reels presented by peers.",
+              "clueAnswer": "Because users compare their everyday lives with idealized highlight reels posted by peers",
+              "keyPassage": "social comparison with idealized highlight reels presented by peers",
+              "keyAnswer": "compare their everyday lives with idealized highlight reels posted by peers",
+              "paraphrasePair": "presented by peers <=> posted by peers; engage in social comparison <=> compare everyday lives",
+              "meaningVi": "so sánh mình với những hình ảnh lung linh được người khác tô vẽ",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "What is the author's final conclusion about Facebook in the closing sentence?",
+            "questionVi": "Kết luận cuối cùng của tác giả về Facebook trong câu kết bài là gì?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "It is a powerful tool for human empowerment that simultaneously requires personal regulation and societal oversight",
+              "It must be completely dismantled by international courts to protect mental health",
+              "It is an obsolete technology that will disappear within the next few months",
+              "It has ceased to be profitable and will transition into a government department"
+            ],
+            "optionsVi": [
+              "A. Đó là một công cụ mạnh mẽ trao quyền cho con người nhưng đồng thời đòi hỏi sự tự điều chỉnh cá nhân và giám sát xã hội",
+              "B. Nó phải bị giải thể hoàn toàn bởi các tòa án quốc tế để bảo vệ sức khỏe tâm thần",
+              "C. Đó là một công nghệ lỗi thời sẽ biến mất trong vòng vài tháng tới",
+              "D. Nó đã ngừng sinh lời và sẽ chuyển thành một bộ phận của chính phủ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "an unparalleled instrument for global human empowerment that simultaneously requires conscious individual regulation and societal oversight. [Paragraph 4]",
+            "evidenceVi": "một công cụ vô song để trao quyền cho con người toàn cầu nhưng đồng thời đòi hỏi sự tự điều chỉnh có ý thức của cá nhân và sự giám sát của xã hội. [Đoạn 4]",
+            "explanation": "Câu kết nhấn mạnh tính chất hai mặt: công cụ trao quyền mạnh mẽ ('human empowerment') nhưng cần cả sự tự kiểm soát cá nhân và giám sát của xã hội (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "an unparalleled instrument for global human empowerment that simultaneously requires conscious individual regulation and societal oversight.",
+              "clueAnswer": "It is a powerful tool for human empowerment that simultaneously requires personal regulation and societal oversight",
+              "keyPassage": "unparalleled instrument for global human empowerment + requires conscious individual regulation and societal oversight",
+              "keyAnswer": "powerful tool for human empowerment + requires personal regulation and societal oversight",
+              "paraphrasePair": "unparalleled instrument <=> powerful tool; conscious individual regulation <=> personal regulation",
+              "meaningVi": "công cụ trao quyền lớn nhưng cần tự chủ cá nhân và giám sát xã hội",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: First-Born vs. Only Children: Parental Dynamics & Personality Development",
+        "topic": "Tâm lý học thứ tự sinh: Tính cách con đầu lòng đối chiếu với con một trong gia đình, kỳ vọng của cha mẹ và xu hướng thành tựu",
+        "timeAllowed": 15,
+        "passage": "<p>The intriguing relationship between family constellation and individual personality development has captivated developmental psychologists for more than a century. Originating with the pioneering theories of Austrian psychotherapist Alfred Adler in the 1920s, birth order psychology posits that a child's ordinal position within the domestic hierarchy fundamentally shapes their perception of the world, emotional coping mechanisms, and behavioral traits. Among the various configurations examined by researchers, the psychological comparison between first-born children and only children offers compelling insights into how parental investment, early social environments, and developmental expectations sculpt the emerging self.</p><p>First-born children occupy a uniquely intense developmental crucible. For the initial period of their lives, they enjoy the undivided attention, emotional focus, and financial resources of their parents. However, because first-time parents are frequently inexperienced and anxious, they tend to impose stringent behavioral benchmarks and high achievement expectations. This dynamic fosters pronounced conscientiousness, reliability, and an inclination toward perfectionism in eldest siblings. The defining psychological crucible for the first-born occurs with the arrival of a younger brother or sister—a phenomenon Adler famously termed 'dethronement.' Suddenly forced to share parental affection, first-borns often compensate by adopting caretaking, authoritative roles, internalizing parental rules, and aligning themselves with conservative authority to preserve their status.</p><p>In contrast, only children experience an upbringing characterized by the permanent absence of sibling rivalry. Consequently, they never undergo the trauma of dethronement, retaining exclusive access to parental emotional and material resources throughout their formative years. While popular culture historically perpetuated the negative stereotype of the 'spoiled, selfish, or maladjusted' only child, modern empirical psychology thoroughly refutes this caricature. Research demonstrates that only children consistently exhibit advanced verbal aptitude, intellectual maturity, and sophisticated self-reliance, primarily because their early language acquisition occurs through constant interaction with adult conversational role models rather than peer playmates. Furthermore, only children demonstrate elevated comfort with solitude, fostering creative introspection and autonomous problem-solving abilities.</p><p>Despite these divergent social environments, first-borns and only children share striking developmental overlaps, predominantly in academic ambition, occupational prestige, and leadership aspiration. Both cohorts benefit from intense early parental cognitive stimulation. However, their interpersonal strategies diverge: first-borns develop sophisticated peer negotiation, conflict mediation, and compromise skills through sibling friction, whereas only children frequently prefer harmonious, adult-centric social relationships and may exhibit heightened sensitivity to peer criticism. Ultimately, contemporary developmentalists emphasize that birth order is not a deterministic biological destiny, but rather a dynamic behavioral framework continually mediated by parental warmth, socioeconomic resources, and individual temperament.</p>",
+        "vocab": [
+          {
+            "word": "constellation",
+            "pos": "n",
+            "ipa": "/ˌkɒn.stəˈleɪ.ʃən/",
+            "level": "B2",
+            "mean": "cấu trúc sắp xếp, chòm sao (ở đây là cấu trúc gia đình)",
+            "syns": [
+              "configuration",
+              "arrangement",
+              "structure"
+            ],
+            "ex": "The family constellation influences how children learn to share attention."
+          },
+          {
+            "word": "pioneering",
+            "pos": "adj",
+            "ipa": "/ˌpaɪəˈnɪə.rɪŋ/",
+            "level": "B2",
+            "mean": "tiên phong, đi đầu mở đường",
+            "syns": [
+              "groundbreaking",
+              "innovative",
+              "trailblazing"
+            ],
+            "ex": "Adler's pioneering work laid the groundwork for birth-order studies."
+          },
+          {
+            "word": "ordinal",
+            "pos": "adj",
+            "ipa": "/ˈɔː.dɪ.nəl/",
+            "level": "B2",
+            "mean": "theo thứ tự, thể hiện vị trí thứ bậc",
+            "syns": [
+              "sequential",
+              "ranked",
+              "numerical"
+            ],
+            "ex": "A child's ordinal position among siblings impacts parental expectations."
+          },
+          {
+            "word": "hierarchy",
+            "pos": "n",
+            "ipa": "/ˈhaɪə.rɑː.ki/",
+            "level": "B2",
+            "mean": "hệ thống thứ bậc, tôn ti trật tự",
+            "syns": [
+              "pecking order",
+              "ranking",
+              "chain of command"
+            ],
+            "ex": "First-borns naturally sit at the top of the sibling hierarchy."
+          },
+          {
+            "word": "crucible",
+            "pos": "n",
+            "ipa": "/ˈkruː.sɪ.bəl/",
+            "level": "C1",
+            "mean": "lò luyện, nơi thử thách tôi luyện tính cách",
+            "syns": [
+              "trial",
+              "testing ground",
+              "furnace"
+            ],
+            "ex": "Family conflicts serve as a crucible where children test negotiation skills."
+          },
+          {
+            "word": "stringent",
+            "pos": "adj",
+            "ipa": "/ˈstrɪn.dʒənt/",
+            "level": "C1",
+            "mean": "nghiêm ngặt, khắt khe",
+            "syns": [
+              "strict",
+              "rigorous",
+              "exacting"
+            ],
+            "ex": "Inexperienced parents often impose stringent rules on their first child."
+          },
+          {
+            "word": "benchmark",
+            "pos": "n",
+            "ipa": "/ˈbentʃ.mɑːk/",
+            "level": "B2",
+            "mean": "tiêu chuẩn đánh giá, mốc chuẩn mực",
+            "syns": [
+              "standard",
+              "criterion",
+              "yardstick"
+            ],
+            "ex": "Parents set high developmental benchmarks for eldest children."
+          },
+          {
+            "word": "conscientiousness",
+            "pos": "n",
+            "ipa": "/ˌkɒn.ʃiˈen.ʃəs.nəs/",
+            "level": "B2",
+            "mean": "sự tận tâm, tính chu đáo và có trách nhiệm",
+            "syns": [
+              "diligence",
+              "meticulousness",
+              "dependability"
+            ],
+            "ex": "First-borns score remarkably high on conscientiousness personality tests."
+          },
+          {
+            "word": "dethronement",
+            "pos": "n",
+            "ipa": "/diːˈθrəʊn.mənt/",
+            "level": "C1",
+            "mean": "sự truất ngôi, mất đi vị trí độc tôn",
+            "syns": [
+              "displacement",
+              "ouster",
+              "demotion"
+            ],
+            "ex": "The birth of a second child triggers psychological dethronement for the eldest."
+          },
+          {
+            "word": "compensate",
+            "pos": "v",
+            "ipa": "/ˈkɒm.pən.seɪt/",
+            "level": "B2",
+            "mean": "bù đắp, đền bù thiếu hụt",
+            "syns": [
+              "make up for",
+              "offset",
+              "balance"
+            ],
+            "ex": "Eldest children compensate for lost attention by excelling academically."
+          },
+          {
+            "word": "internalize",
+            "pos": "v",
+            "ipa": "/ɪnˈtɜː.nəl.aɪz/",
+            "level": "B2",
+            "mean": "nội tâm hóa, tiếp thu sâu sắc vào tâm trí",
+            "syns": [
+              "absorb",
+              "assimilate",
+              "integrate"
+            ],
+            "ex": "Well-behaved children internalize moral rules established by their parents."
+          },
+          {
+            "word": "rivalry",
+            "pos": "n",
+            "ipa": "/ˈraɪ.vəl.ri/",
+            "level": "B2",
+            "mean": "sự cạnh tranh, ganh đua",
+            "syns": [
+              "competition",
+              "contention",
+              "feuding"
+            ],
+            "ex": "Sibling rivalry teaches children how to defend their toys and negotiate."
+          },
+          {
+            "word": "stereotype",
+            "pos": "n",
+            "ipa": "/ˈster.i.ə.taɪp/",
+            "level": "B1",
+            "mean": "khuôn mẫu định kiến rập khuôn",
+            "syns": [
+              "cliche",
+              "preconception",
+              "pigeonhole"
+            ],
+            "ex": "The stereotype that only children are inherently selfish is false."
+          },
+          {
+            "word": "maladjusted",
+            "pos": "adj",
+            "ipa": "/ˌmæl.əˈdʒʌs.tɪd/",
+            "level": "C1",
+            "mean": "khó thích nghi xã hội, bất ổn tâm lý",
+            "syns": [
+              "disturbed",
+              "neurotic",
+              "dysfunctional"
+            ],
+            "ex": "Studies show only children are no more maladjusted than those with siblings."
+          },
+          {
+            "word": "refute",
+            "pos": "v",
+            "ipa": "/rɪˈfjuːt/",
+            "level": "B2",
+            "mean": "bác bỏ, chứng minh một luận điểm là sai",
+            "syns": [
+              "disprove",
+              "debunk",
+              "rebut"
+            ],
+            "ex": "Empirical survey data refute the myth of the lonely, spoiled child."
+          },
+          {
+            "word": "caricature",
+            "pos": "n",
+            "ipa": "/ˈkær.ɪ.kə.tʃʊər/",
+            "level": "C1",
+            "mean": "hình ảnh bóp méo, bức tranh biếm họa",
+            "syns": [
+              "distortion",
+              "parody",
+              "exaggeration"
+            ],
+            "ex": "Media portrayals often present an unfair caricature of single-child families."
+          },
+          {
+            "word": "aptitude",
+            "pos": "n",
+            "ipa": "/ˈæp.tɪ.tjuːd/",
+            "level": "B2",
+            "mean": "năng khiếu bẩm sinh, khả năng tiếp thu",
+            "syns": [
+              "talent",
+              "gift",
+              "flair"
+            ],
+            "ex": "Only children frequently display advanced verbal aptitude from an early age."
+          },
+          {
+            "word": "self-reliance",
+            "pos": "n",
+            "ipa": "/ˌself.rɪˈlaɪ.əns/",
+            "level": "B2",
+            "mean": "tính tự lực cánh sinh, độc lập",
+            "syns": [
+              "independence",
+              "autonomy",
+              "self-sufficiency"
+            ],
+            "ex": "Spending quiet hours alone fosters self-reliance and imagination."
+          },
+          {
+            "word": "solitude",
+            "pos": "n",
+            "ipa": "/ˈsɒl.ɪ.tjuːd/",
+            "level": "B2",
+            "mean": "sự cô độc thanh thản, thời gian ở một mình",
+            "syns": [
+              "aloneness",
+              "seclusion",
+              "privacy"
+            ],
+            "ex": "Creatives often view solitude as a productive source of artistic insight."
+          },
+          {
+            "word": "introspection",
+            "pos": "n",
+            "ipa": "/ˌɪn.trəˈspek.ʃən/",
+            "level": "C1",
+            "mean": "sự tự vấn, nội quan nhìn nhận nội tâm",
+            "syns": [
+              "self-examination",
+              "reflection",
+              "contemplation"
+            ],
+            "ex": "Comfort with solitude encourages healthy emotional introspection."
+          },
+          {
+            "word": "divergent",
+            "pos": "adj",
+            "ipa": "/daɪˈvɜː.dʒənt/",
+            "level": "B2",
+            "mean": "khác biệt, rẽ theo các hướng đối lập",
+            "syns": [
+              "differing",
+              "dissimilar",
+              "deviating"
+            ],
+            "ex": "Siblings raised in the same home can develop widely divergent life paths."
+          },
+          {
+            "word": "prestige",
+            "pos": "n",
+            "ipa": "/presˈtiːʒ/",
+            "level": "B2",
+            "mean": "uy tín, vị thế xã hội được tôn trọng",
+            "syns": [
+              "status",
+              "reputation",
+              "prominence"
+            ],
+            "ex": "First-borns frequently gravitate toward careers with high public prestige."
+          },
+          {
+            "word": "mediation",
+            "pos": "n",
+            "ipa": "/ˌmiː.diˈeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự hòa giải, trung gian giải quyết xung đột",
+            "syns": [
+              "arbitration",
+              "conciliation",
+              "negotiation"
+            ],
+            "ex": "Elder siblings often act as informal mediators between younger brothers."
+          },
+          {
+            "word": "friction",
+            "pos": "n",
+            "ipa": "/ˈfrɪk.ʃən/",
+            "level": "B2",
+            "mean": "sự ma sát, bất hòa va chạm thường nhật",
+            "syns": [
+              "discord",
+              "clash",
+              "conflict"
+            ],
+            "ex": "Everyday sibling friction teaches children how to share and compromise."
+          },
+          {
+            "word": "deterministic",
+            "pos": "adj",
+            "ipa": "/dɪˌtɜː.mɪˈnɪs.tɪk/",
+            "level": "C1",
+            "mean": "mang tính tiền định, tuyệt đối hóa máy móc",
+            "syns": [
+              "fatalistic",
+              "predetermined",
+              "rigid"
+            ],
+            "ex": "Birth order should not be viewed as a deterministic blueprint for life."
+          },
+          {
+            "word": "temperament",
+            "pos": "n",
+            "ipa": "/ˈtem.pər.ə.mənt/",
+            "level": "B2",
+            "mean": "khí chất bẩm sinh, tính khí cá nhân",
+            "syns": [
+              "nature",
+              "disposition",
+              "personality"
+            ],
+            "ex": "A child's biological temperament heavily influences how they respond to rules."
+          },
+          {
+            "word": "sculpt",
+            "pos": "v",
+            "ipa": "/skʌlpt/",
+            "level": "B2",
+            "mean": "nhào nặn, tôi luyện định hình",
+            "syns": [
+              "shape",
+              "mold",
+              "fashion"
+            ],
+            "ex": "Early parental interactions sculpt a child's foundational self-esteem."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của bài đọc là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "Examining developmental similarities and differences between first-born and only children through parental dynamics and social environments",
+              "Proving that large families with five or more children are superior to single-child households",
+              "Analyzing Austrian psychiatric hospitals during the early twentieth century",
+              "Demonstrating that birth order is the sole biological determinant of adult intelligence"
+            ],
+            "optionsVi": [
+              "A. Xem xét các điểm tương đồng và khác biệt phát triển giữa con đầu lòng và con một qua động lực cha mẹ và môi trường xã hội",
+              "B. Chứng minh các gia đình đông con từ 5 người trở lên vượt trội hơn gia đình chỉ có một con",
+              "C. Phân tích các bệnh viện tâm thần tại Áo trong đầu thế kỷ 20",
+              "D. Chứng minh thứ tự sinh là yếu tố sinh học duy nhất quyết định trí thông minh của người trưởng thành"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the psychological comparison between first-born children and only children offers compelling insights into how parental investment, early social environments, and developmental expectations sculpt the emerging self. [Paragraph 1]",
+            "evidenceVi": "sự so sánh tâm lý giữa con đầu lòng và con một mang lại những hiểu biết sâu sắc về cách thức sự đầu tư của cha mẹ, môi trường xã hội ban đầu và kỳ vọng phát triển nhào nặn nên bản ngã đang hình thành. [Đoạn 1]",
+            "explanation": "Bài đọc so sánh chi tiết giữa con đầu lòng và con một: bối cảnh nuôi dạy của cha mẹ, hiện tượng dethronement, các ưu thế và kỹ năng xã hội, cùng điểm tương đồng và khác biệt (A).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "psychological comparison between first-born children and only children offers compelling insights into how parental investment, early social environments, and developmental expectations sculpt the emerging self.",
+              "clueAnswer": "Examining developmental similarities and differences between first-born and only children through parental dynamics and social environments",
+              "keyPassage": "comparison between first-born children and only children + parental investment, early social environments, and developmental expectations",
+              "keyAnswer": "developmental similarities and differences between first-born and only children through parental dynamics and social environments",
+              "paraphrasePair": "parental investment <=> parental dynamics; early social environments <=> social environments",
+              "meaningVi": "so sánh tâm lý phát triển giữa con đầu lòng và con một",
+              "deductionLogic": "Khái quát luận điểm phát triển xuyên suốt từ đoạn 1 đến đoạn 4."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "According to paragraph 1, who was the pioneer of birth order psychology in the 1920s?",
+            "questionVi": "Theo đoạn 1, ai là người tiên phong nghiên cứu tâm lý học thứ tự sinh vào những năm 1920?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Alfred Adler",
+              "Sigmund Freud",
+              "B.F. Skinner",
+              "Carl Jung"
+            ],
+            "optionsVi": [
+              "A. Alfred Adler",
+              "B. Sigmund Freud",
+              "C. B.F. Skinner",
+              "D. Carl Jung"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Originating with the pioneering theories of Austrian psychotherapist Alfred Adler in the 1920s [Paragraph 1]",
+            "evidenceVi": "Khởi nguồn từ những lý thuyết tiên phong của nhà trị liệu tâm lý người Áo Alfred Adler vào những năm 1920 [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu đích danh: nhà trị liệu tâm lý người Áo Alfred Adler vào thập niên 1920 là người khởi xướng lý thuyết này (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Nhân vật lịch sử (Historical Figure)",
+              "cluePassage": "pioneering theories of Austrian psychotherapist Alfred Adler in the 1920s",
+              "clueAnswer": "Alfred Adler",
+              "keyPassage": "Austrian psychotherapist Alfred Adler in the 1920s",
+              "keyAnswer": "Alfred Adler",
+              "paraphrasePair": "pioneering theories <=> pioneer",
+              "meaningVi": "Alfred Adler là người tiên phong",
+              "deductionLogic": "Trích dẫn nguyên văn ở câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "The word 'crucible' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'crucible' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "testing environment",
+              "peaceful vacation",
+              "financial account",
+              "medical facility"
+            ],
+            "optionsVi": [
+              "A. môi trường thử thách, lò tôi luyện (testing environment)",
+              "B. kỳ nghỉ yên bình (peaceful vacation)",
+              "C. tài khoản tài chính (financial account)",
+              "D. cơ sở y tế (medical facility)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "First-born children occupy a uniquely intense developmental crucible. [Paragraph 2]",
+            "evidenceVi": "Những đứa con đầu lòng bước vào một lò luyện phát triển căng thẳng và độc nhất vô nhị. [Đoạn 2]",
+            "explanation": "'Crucible' (nghĩa gốc là nồi nấu kim loại/lò luyện) theo nghĩa ẩn dụ là một môi trường đầy áp lực và thử thách khắc nghiệt, đồng nghĩa với 'testing environment' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "uniquely intense developmental crucible.",
+              "clueAnswer": "testing environment",
+              "keyPassage": "developmental crucible",
+              "keyAnswer": "testing environment",
+              "paraphrasePair": "crucible <=> testing environment",
+              "meaningVi": "lò luyện, nơi thử thách tôi luyện",
+              "deductionLogic": "Mô tả môi trường nuôi dạy đầy kỳ vọng và áp lực của cha mẹ mới sinh con đầu lòng."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "According to paragraph 2, what phenomenon did Adler describe as 'dethronement'?",
+            "questionVi": "Theo đoạn 2, Adler đã mô tả hiện tượng nào là 'sự truất ngôi' (dethronement)?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "The psychological shock when a first-born must suddenly share parental affection with a new sibling",
+              "The legal eviction of a child from the family home upon turning eighteen",
+              "The removal of a royal monarch by military forces",
+              "The loss of academic scholarships due to disciplinary infractions"
+            ],
+            "optionsVi": [
+              "A. Cú sốc tâm lý khi con đầu lòng đột ngột phải chia sẻ tình cảm của cha mẹ với một đứa em mới sinh",
+              "B. Việc đuổi hợp pháp một đứa con ra khỏi nhà khi đủ 18 tuổi",
+              "C. Sự lật đổ một vị vua bởi lực lượng quân sự",
+              "D. Việc mất học bổng vì vi phạm kỷ luật"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The defining psychological crucible for the first-born occurs with the arrival of a younger brother or sister—a phenomenon Adler famously termed 'dethronement.' [Paragraph 2]",
+            "evidenceVi": "Lò luyện tâm lý mang tính định hình của con đầu lòng xảy ra khi có một đứa em trai hoặc em gái chào đời - hiện tượng mà Adler gọi tên một cách nổi tiếng là 'sự truất ngôi'. [Đoạn 2]",
+            "explanation": "Đoạn 2 giải thích rõ 'dethronement' là hiện tượng đứa con đầu lòng đột ngột mất đi vị trí độc tôn và phải chia sẻ tình yêu thương của cha mẹ khi đứa em chào đời (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Khái niệm tâm lý học (Psychological Concept)",
+              "cluePassage": "arrival of a younger brother or sister—a phenomenon Adler famously termed 'dethronement.' Suddenly forced to share parental affection",
+              "clueAnswer": "The psychological shock when a first-born must suddenly share parental affection with a new sibling",
+              "keyPassage": "arrival of a younger brother or sister... termed 'dethronement.' Suddenly forced to share parental affection",
+              "keyAnswer": "psychological shock when a first-born must suddenly share parental affection with a new sibling",
+              "paraphrasePair": "arrival of a younger sibling <=> with a new sibling; share parental affection <=> share parental affection",
+              "meaningVi": "truất ngôi: phải san sẻ tình cảm cha mẹ khi có em",
+              "deductionLogic": "Khớp câu 5 và 6 đoạn 2."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "How do first-born children typically compensate after the arrival of a younger sibling?",
+            "questionVi": "Những đứa con đầu lòng thường bù đắp như thế nào sau khi có em nhỏ?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "By adopting caretaking roles, internalizing rules, and striving for perfection to preserve status",
+              "By running away from home and living independently in student hostels",
+              "By refusing to speak any language other than their invented dialect",
+              "By becoming completely indifferent to all school grades and athletics"
+            ],
+            "optionsVi": [
+              "A. Bằng cách đảm nhận vai trò chăm sóc em, tuân thủ luật lệ và hướng tới sự hoàn hảo để giữ vững vị thế",
+              "B. Bằng cách bỏ nhà ra đi và sống độc lập trong các ký túc xá sinh viên",
+              "C. Bằng cách từ chối nói bất kỳ ngôn ngữ nào ngoài tiếng tự chế",
+              "D. Bằng cách trở nên hoàn toàn thờ ơ với điểm số học tập và thể thao"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "first-borns often compensate by adopting caretaking, authoritative roles, internalizing parental rules, and aligning themselves with conservative authority to preserve their status. [Paragraph 2]",
+            "evidenceVi": "con đầu lòng thường bù đắp bằng cách đảm nhận các vai trò chăm sóc, quyền uy, nội tâm hóa các quy tắc của cha mẹ và gắn kết mình với thẩm quyền bảo thủ để giữ gìn vị thế. [Đoạn 2]",
+            "explanation": "Đoạn 2 chỉ ra cách con cả bù đắp: nhận vai trò chăm sóc, gương mẫu ('caretaking, authoritative roles'), tiếp thu quy tắc và giữ gìn vị thế qua sự mẫu mực (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế bù trừ hành vi (Behavioral Adaptation)",
+              "cluePassage": "compensate by adopting caretaking, authoritative roles, internalizing parental rules, and aligning themselves with conservative authority to preserve their status.",
+              "clueAnswer": "By adopting caretaking roles, internalizing rules, and striving for perfection to preserve status",
+              "keyPassage": "adopting caretaking, authoritative roles, internalizing parental rules... to preserve their status",
+              "keyAnswer": "adopting caretaking roles, internalizing rules, and striving for perfection to preserve status",
+              "paraphrasePair": "caretaking, authoritative roles <=> caretaking roles; preserve their status <=> preserve status",
+              "meaningVi": "đóng vai trò chăm sóc và tuân thủ quy tắc để giữ vị thế",
+              "deductionLogic": "Khớp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "The word 'refutes' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'refutes' trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "disproves",
+              "confirms",
+              "publishes",
+              "ignores"
+            ],
+            "optionsVi": [
+              "A. bác bỏ, chứng minh là sai (disproves)",
+              "B. xác nhận (confirms)",
+              "C. xuất bản (publishes)",
+              "D. phớt lờ (ignores)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "modern empirical psychology thoroughly refutes this caricature. [Paragraph 3]",
+            "evidenceVi": "tâm lý học thực nghiệm hiện đại đã bác bỏ hoàn toàn sự thêu dệt sai lệch này. [Đoạn 3]",
+            "explanation": "'Refute' có nghĩa là bác bỏ, chứng minh một luận cứ hoặc định kiến là hoàn toàn không đúng, đồng nghĩa với 'disproves' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "modern empirical psychology thoroughly refutes this caricature.",
+              "clueAnswer": "disproves",
+              "keyPassage": "thoroughly refutes this caricature",
+              "keyAnswer": "disproves this caricature",
+              "paraphrasePair": "refutes <=> disproves",
+              "meaningVi": "bác bỏ, chứng minh định kiến là sai",
+              "deductionLogic": "Khoa học thực nghiệm chứng minh định kiến cũ về con một là sai."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "According to paragraph 3, why do only children frequently exhibit advanced verbal aptitude?",
+            "questionVi": "Theo đoạn 3, tại sao con một thường thể hiện năng khiếu ngôn ngữ vượt trội?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Their early language acquisition occurs through constant interaction with adult role models",
+              "They are genetically endowed with larger auditory processing lobes at birth",
+              "They are required by law to begin formal schooling at two years old",
+              "They listen exclusively to classical opera recordings throughout infancy"
+            ],
+            "optionsVi": [
+              "A. Quá trình tiếp thu ngôn ngữ sớm diễn ra qua sự tương tác liên tục với người lớn làm mẫu",
+              "B. Chúng được phú cho thùy xử lý thính giác lớn hơn về mặt di truyền khi sinh ra",
+              "C. Chúng bị luật pháp bắt buộc phải đi học chính quy từ lúc hai tuổi",
+              "D. Chúng chỉ nghe nhạc thính phòng cổ điển trong suốt thời kỳ sơ sinh"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "only children consistently exhibit advanced verbal aptitude, intellectual maturity... primarily because their early language acquisition occurs through constant interaction with adult conversational role models rather than peer playmates. [Paragraph 3]",
+            "evidenceVi": "con một luôn thể hiện năng khiếu ngôn ngữ vượt trội, sự trưởng thành trí tuệ... chủ yếu là vì sự tiếp thu ngôn ngữ ban đầu của chúng diễn ra thông qua tương tác liên tục với hình mẫu đàm thoại của người lớn thay vì bạn bè cùng trang lứa. [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu rõ lý do: con một tiếp thu ngôn ngữ qua việc trò chuyện liên tục với người lớn xung quanh thay vì nói chuyện với các bạn nhỏ (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Nguyên nhân phát triển ngôn ngữ (Linguistic Development Detail)",
+              "cluePassage": "early language acquisition occurs through constant interaction with adult conversational role models rather than peer playmates.",
+              "clueAnswer": "Their early language acquisition occurs through constant interaction with adult role models",
+              "keyPassage": "early language acquisition occurs through constant interaction with adult conversational role models",
+              "keyAnswer": "early language acquisition occurs through constant interaction with adult role models",
+              "paraphrasePair": "conversational role models <=> role models",
+              "meaningVi": "tiếp thu ngôn ngữ qua trò chuyện thường xuyên với người lớn",
+              "deductionLogic": "Khớp câu 4 đoạn 3."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "The word 'diverge' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'diverge' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "differ",
+              "combine",
+              "stagnate",
+              "diminish"
+            ],
+            "optionsVi": [
+              "A. khác biệt, rẽ nhánh (differ)",
+              "B. kết hợp, hòa vào nhau (combine)",
+              "C. đình trệ (stagnate)",
+              "D. suy giảm (diminish)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "However, their interpersonal strategies diverge: first-borns develop sophisticated peer negotiation... whereas only children frequently prefer harmonious [Paragraph 4]",
+            "evidenceVi": "Tuy nhiên, các chiến lược giao tiếp giữa các cá nhân của họ rẽ sang hai hướng khác nhau: con đầu lòng phát triển kỹ năng đàm phán bạn bè tinh tế... trong khi con một thường thích sự hòa thuận [Đoạn 4]",
+            "explanation": "'Diverge' có nghĩa là phân nhánh, tách ra theo các hướng khác nhau, đồng nghĩa với 'differ' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "their interpersonal strategies diverge: first-borns develop... whereas only children",
+              "clueAnswer": "differ",
+              "keyPassage": "interpersonal strategies diverge",
+              "keyAnswer": "strategies differ",
+              "paraphrasePair": "diverge <=> differ",
+              "meaningVi": "khác biệt, rẽ nhánh đối lập",
+              "deductionLogic": "Được làm rõ bởi sự đối lập 'first-borns develop... whereas only children prefer...'."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "What skill do first-born children develop from sibling friction that only children may lack?",
+            "questionVi": "Kỹ năng nào mà con đầu lòng phát triển từ những va chạm giữa anh chị em mà con một có thể thiếu?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Peer negotiation, conflict mediation, and compromise skills",
+              "The ability to memorize extensive foreign language vocabularies",
+              "Advanced speed in Olympic marathon swimming",
+              "The capacity to operate industrial machinery without instruction"
+            ],
+            "optionsVi": [
+              "A. Kỹ năng đàm phán với bạn bè, hòa giải xung đột và thỏa hiệp",
+              "B. Khả năng ghi nhớ khối lượng lớn từ vựng ngoại ngữ",
+              "C. Tốc độ bơi marathon Olympic vượt trội",
+              "D. Khả năng vận hành máy móc công nghiệp không cần hướng dẫn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "first-borns develop sophisticated peer negotiation, conflict mediation, and compromise skills through sibling friction [Paragraph 4]",
+            "evidenceVi": "con đầu lòng phát triển các kỹ năng đàm phán bạn bè tinh tế, hòa giải xung đột và thỏa hiệp thông qua các va chạm giữa anh chị em [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ: nhờ va chạm anh em hàng ngày, con cả rèn được kỹ năng đàm phán (peer negotiation), hòa giải tranh chấp (conflict mediation) và thỏa hiệp (compromise) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Kỹ năng xã hội (Social Skills Detail)",
+              "cluePassage": "first-borns develop sophisticated peer negotiation, conflict mediation, and compromise skills through sibling friction",
+              "clueAnswer": "Peer negotiation, conflict mediation, and compromise skills",
+              "keyPassage": "peer negotiation, conflict mediation, and compromise skills",
+              "keyAnswer": "Peer negotiation, conflict mediation, and compromise skills",
+              "paraphrasePair": "sophisticated negotiation and mediation <=> negotiation and conflict mediation",
+              "meaningVi": "kỹ năng đàm phán, hòa giải xung đột và thỏa hiệp",
+              "deductionLogic": "Khớp câu 3 đoạn 4."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "What is the concluding message of the passage regarding birth order theories?",
+            "questionVi": "Thông điệp kết luận của bài đọc về các lý thuyết thứ tự sinh là gì?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "Birth order is not a rigid biological destiny, but a flexible framework shaped by parental warmth and temperament",
+              "All parents must follow a strict psychological handbook to prevent sibling conflicts",
+              "Children should be separated from their families at birth to ensure identical development",
+              "Only children will inevitably struggle with all professional workplace environments"
+            ],
+            "optionsVi": [
+              "A. Thứ tự sinh không phải là định mệnh sinh học cứng nhắc, mà là một khuôn khổ linh hoạt được định hình bởi tình yêu thương của cha mẹ và khí chất cá nhân",
+              "B. Mọi bậc cha mẹ phải tuân thủ cẩm nang tâm lý nghiêm ngặt để ngăn chặn xung đột anh em",
+              "C. Trẻ em nên bị tách khỏi gia đình từ lúc sơ sinh để đảm bảo sự phát triển giống hệt nhau",
+              "D. Con một chắc chắn sẽ gặp khó khăn trong mọi môi trường làm việc chuyên nghiệp"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "birth order is not a deterministic biological destiny, but rather a dynamic behavioral framework continually mediated by parental warmth, socioeconomic resources, and individual temperament. [Paragraph 4]",
+            "evidenceVi": "thứ tự sinh không phải là một định mệnh sinh học bất di bất dịch, mà là một khuôn khổ hành vi linh hoạt liên tục chịu sự tác động điều hòa của sự ấm áp từ cha mẹ, điều kiện kinh tế xã hội và tính khí cá nhân. [Đoạn 4]",
+            "explanation": "Câu kết khẳng định thứ tự sinh không phải số phận tiền định ('not a deterministic biological destiny'), mà chịu ảnh hưởng sâu sắc bởi sự ấm áp của cha mẹ (parental warmth) và tính khí riêng (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "birth order is not a deterministic biological destiny, but rather a dynamic behavioral framework continually mediated by parental warmth, socioeconomic resources, and individual temperament.",
+              "clueAnswer": "Birth order is not a rigid biological destiny, but a flexible framework shaped by parental warmth and temperament",
+              "keyPassage": "not a deterministic biological destiny + dynamic behavioral framework continually mediated by parental warmth... and individual temperament",
+              "keyAnswer": "not a rigid biological destiny, but a flexible framework shaped by parental warmth and temperament",
+              "paraphrasePair": "not deterministic <=> not rigid; dynamic framework continually mediated by <=> flexible framework shaped by",
+              "meaningVi": "thứ tự sinh không phải tiền định mà linh hoạt theo tình yêu thương và khí chất",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Earthquakes in Japan: Seismic Engineering & Societal Resilience",
+        "topic": "Động đất tại Nhật Bản: Kỹ thuật xây dựng kháng chấn, hệ thống cảnh báo sớm siêu tốc và văn hóa chuẩn bị ứng phó thiên tai toàn diện",
+        "timeAllowed": 15,
+        "passage": "<p>Situated directly atop the hazardous convergence zone of four colossal tectonic plates—the Pacific, Philippine Sea, Eurasian, and North American plates—the Japanese archipelago experiences approximately twenty percent of the world's most potent earthquakes measuring magnitude 6.0 or higher. For centuries, this profound geologic vulnerability exposed Japanese settlements to recurrent catastrophic fires, ground ruptures, and towering tsunamis. However, rather than succumbing to fatalism, Japan has leveraged successive seismic tragedies—most notably the 1923 Great Kanto earthquake, the 1995 Kobe earthquake, and the 2011 Great East Japan earthquake—to pioneer the world's most advanced paradigm of structural seismic engineering, automated early-warning technologies, and community disaster resilience.</p><p>The core philosophy of modern Japanese structural engineering distinguishes sharply among three progressive levels of protection: 'Taishin' (earthquake resistance), 'Seishin' (vibration damping), and 'Menshin' (base isolation). The baseline Taishin standard mandates reinforced concrete walls, fortified pillars, and cross-bracing designed to ensure that a structure maintains its load-bearing integrity without collapsing, allowing occupants to evacuate safely. For mid-rise structures, Seishin technology incorporates internal hydraulic shock absorbers and viscous dampers that dissipate kinetic energy as friction heat during tremors, significantly dampening building sway. At the technological pinnacle, Menshin base-isolation physically decouples the building from the vibrating earth. Heavy structures rest atop flexible laminated rubber bearings and lead dampers, enabling the ground beneath to shake violently while the superstructure glides smoothly with minimal lateral acceleration—a principle exemplified by the Tokyo Skytree, which utilizes a massive central oil-damped column acting as a counterweight pendulum.</p><p>Complementing physical structural fortification is Japan's cutting-edge digital early-warning infrastructure. The Japan Meteorological Agency (JMA) maintains an ultra-dense nationwide array of thousands of high-precision borehole seismometers. When a fault slips, seismometers immediately detect the harmless, fast-moving primary seismic waves (P-waves), which travel through the Earth's crust at roughly seven kilometers per second. Complex automated algorithms rapidly calculate the hypocenter, magnitude, and anticipated arrival time of the slower, highly destructive secondary shear waves (S-waves). Within seconds, automated sirens broadcast loud alarms across cellular networks and television stations, while automated safety protocols trigger emergency braking systems on bullet trains (Shinkansen), shut down natural gas pipelines, and halt high-speed factory assembly lines before the violent shaking begins.</p><p>Equally indispensable to Japan's seismic defenses is its deeply embedded societal culture of disaster preparedness. Every September 1, on the anniversary of the 1923 Kanto disaster, millions of citizens—ranging from kindergarten pupils to corporate executives—participate in mandatory nationwide evacuation drills. Households systematically maintain survival backpacks equipped with water rations, freeze-dried food, battery-powered radios, and first-aid supplies. Neighborhood associations maintain autonomous emergency distribution hubs, embodying the civic philosophy of 'Jijo' (self-help), 'Kyojo' (mutual community aid), and 'Gojo' (public emergency assistance). By harmonizing strict architectural engineering, instantaneous automated warning protocols, and disciplined civic readiness, Japan demonstrates how human ingenuity can successfully mitigate the most violent forces of nature.</p>",
+        "vocab": [
+          {
+            "word": "hazardous",
+            "pos": "adj",
+            "ipa": "/ˈhæz.ə.dəs/",
+            "level": "B2",
+            "mean": "nguy hiểm, đầy rủi ro hiểm họa",
+            "syns": [
+              "perilous",
+              "dangerous",
+              "risky"
+            ],
+            "ex": "Building near an active tectonic fault is a hazardous endeavor."
+          },
+          {
+            "word": "convergence",
+            "pos": "n",
+            "ipa": "/kənˈvɜː.dʒəns/",
+            "level": "C1",
+            "mean": "sự hội tụ, giao nhau tại một điểm",
+            "syns": [
+              "junction",
+              "meeting",
+              "confluence"
+            ],
+            "ex": "Japan sits at the convergence of four massive tectonic plates."
+          },
+          {
+            "word": "archipelago",
+            "pos": "n",
+            "ipa": "/ˌɑː.kɪˈpel.ə.ɡəʊ/",
+            "level": "B2",
+            "mean": "quần đảo (nhóm nhiều hòn đảo)",
+            "syns": [
+              "island chain",
+              "isle group"
+            ],
+            "ex": "The Japanese archipelago stretches across thousands of kilometers of coastline."
+          },
+          {
+            "word": "potent",
+            "pos": "adj",
+            "ipa": "/ˈpəʊ.tənt/",
+            "level": "B2",
+            "mean": "mạnh mẽ, có sức tàn phá hoặc hiệu lực lớn",
+            "syns": [
+              "powerful",
+              "forceful",
+              "mighty"
+            ],
+            "ex": "Potent undersea earthquakes frequently trigger destructive tidal waves."
+          },
+          {
+            "word": "catastrophic",
+            "pos": "adj",
+            "ipa": "/ˌkæt.əˈstrɒf.ɪk/",
+            "level": "B2",
+            "mean": "thảm khốc, gây tai ương tột cùng",
+            "syns": [
+              "disastrous",
+              "calamitous",
+              "devastating"
+            ],
+            "ex": "The 1923 earthquake caused catastrophic fires throughout Tokyo."
+          },
+          {
+            "word": "rupture",
+            "pos": "n",
+            "ipa": "/ˈrʌp.tʃər/",
+            "level": "C1",
+            "mean": "sự đứt gãy, nứt vỡ địa chất",
+            "syns": [
+              "fracture",
+              "fissure",
+              "breach"
+            ],
+            "ex": "The fault rupture displaced whole roads by several meters."
+          },
+          {
+            "word": "succumb",
+            "pos": "v",
+            "ipa": "/səˈkʌm/",
+            "level": "C1",
+            "mean": "đầu hàng, chịu khuất phục trước hoàn cảnh",
+            "syns": [
+              "yield",
+              "surrender",
+              "give in"
+            ],
+            "ex": "Rather than succumbing to grief, citizens immediately began reconstruction."
+          },
+          {
+            "word": "fatalism",
+            "pos": "n",
+            "ipa": "/ˈfeɪ.təl.ɪ.zəm/",
+            "level": "C1",
+            "mean": "thuyết định mệnh, tư tưởng cam chịu số phận",
+            "syns": [
+              "defeatism",
+              "resignation",
+              "predestination"
+            ],
+            "ex": "Engineers rejected fatalism, proving that buildings could survive major tremors."
+          },
+          {
+            "word": "mandate",
+            "pos": "v",
+            "ipa": "/ˈmæn.deɪt/",
+            "level": "B2",
+            "mean": "bắt buộc, ban hành chỉ thị quy chuẩn",
+            "syns": [
+              "order",
+              "command",
+              "stipulate"
+            ],
+            "ex": "New building regulations mandate base-isolation devices for all hospitals."
+          },
+          {
+            "word": "reinforce",
+            "pos": "v",
+            "ipa": "/ˌriː.ɪnˈfɔːs/",
+            "level": "B2",
+            "mean": "gia cố, tăng cường độ chắc chắn",
+            "syns": [
+              "strengthen",
+              "fortify",
+              "bolster"
+            ],
+            "ex": "Concrete columns are heavily reinforced with steel rebar."
+          },
+          {
+            "word": "damping",
+            "pos": "n",
+            "ipa": "/ˈdæm.pɪŋ/",
+            "level": "C1",
+            "mean": "sự giảm xóc, triệt tiêu chấn động",
+            "syns": [
+              "shock absorption",
+              "attenuation"
+            ],
+            "ex": "Hydraulic damping systems absorb seismic shocks in modern towers."
+          },
+          {
+            "word": "isolation",
+            "pos": "n",
+            "ipa": "/ˌaɪ.səˈleɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự cách ly, tách rời khỏi chấn động",
+            "syns": [
+              "separation",
+              "decoupling",
+              "detachment"
+            ],
+            "ex": "Base isolation physically detaches the skyscraper foundation from ground vibrations."
+          },
+          {
+            "word": "dissipate",
+            "pos": "v",
+            "ipa": "/ˈdɪs.ɪ.peɪt/",
+            "level": "C1",
+            "mean": "tiêu tán, giải phóng bớt năng lượng",
+            "syns": [
+              "disperse",
+              "scatter",
+              "attenuate"
+            ],
+            "ex": "Special dampers dissipate kinetic shockwaves by converting them into heat."
+          },
+          {
+            "word": "sway",
+            "pos": "n",
+            "ipa": "/sweɪ/",
+            "level": "B2",
+            "mean": "sự đu đưa, lắc lư qua lại",
+            "syns": [
+              "oscillation",
+              "swinging",
+              "wobble"
+            ],
+            "ex": "Flexible skyscrapers are designed to sway gently rather than crack."
+          },
+          {
+            "word": "decouple",
+            "pos": "v",
+            "ipa": "/diːˈkʌp.əl/",
+            "level": "C1",
+            "mean": "tách rời, cắt đứt sự liên kết trực tiếp",
+            "syns": [
+              "disconnect",
+              "disengage",
+              "separate"
+            ],
+            "ex": "Rubber bearings decouple the upper floors from ground movement."
+          },
+          {
+            "word": "bearing",
+            "pos": "n",
+            "ipa": "/ˈbeə.rɪŋ/",
+            "level": "B2",
+            "mean": "ổ đỡ trục, đệm chịu tải trọng",
+            "syns": [
+              "support",
+              "mount",
+              "cushion"
+            ],
+            "ex": "Laminated rubber bearings allow the building to glide back and forth smoothly."
+          },
+          {
+            "word": "counterweight",
+            "pos": "n",
+            "ipa": "/ˈkaʊn.tə.weɪt/",
+            "level": "C1",
+            "mean": "vật đối trọng giúp giữ thăng bằng",
+            "syns": [
+              "counterbalance",
+              "ballast"
+            ],
+            "ex": "A massive steel counterweight suspends at the top of the tower to resist wind and quakes."
+          },
+          {
+            "word": "pendulum",
+            "pos": "n",
+            "ipa": "/ˈpen.dʒəl.əm/",
+            "level": "B2",
+            "mean": "con lắc điều hòa dao động",
+            "syns": [
+              "oscillator",
+              "swing weight"
+            ],
+            "ex": "The central pillar acts like an inverted pendulum, counteracting seismic movement."
+          },
+          {
+            "word": "meteorological",
+            "pos": "adj",
+            "ipa": "/ˌmiː.ti.ər.əˈlɒdʒ.ɪ.kəl/",
+            "level": "B2",
+            "mean": "thuộc về khí tượng học và quan trắc",
+            "syns": [
+              "weather-related",
+              "climatic"
+            ],
+            "ex": "The meteorological agency issues prompt tsunami warnings within minutes."
+          },
+          {
+            "word": "seismometer",
+            "pos": "n",
+            "ipa": "/saɪzˈmɒm.ɪ.tər/",
+            "level": "C1",
+            "mean": "địa chấn kế (máy đo rung lắc động đất)",
+            "syns": [
+              "seismograph",
+              "vibration sensor"
+            ],
+            "ex": "Deep borehole seismometers detect the faintest subterranean tremors."
+          },
+          {
+            "word": "hypocenter",
+            "pos": "n",
+            "ipa": "/ˈhaɪ.pəʊˌsen.tər/",
+            "level": "C1",
+            "mean": "tiêu chấn (tâm chấn ngầm sâu trong lòng đất)",
+            "syns": [
+              "focus",
+              "seismic origin point"
+            ],
+            "ex": "Computers locate the earthquake's hypocenter within three seconds of fault rupture."
+          },
+          {
+            "word": "shear",
+            "pos": "adj",
+            "ipa": "/ʃɪər/",
+            "level": "C1",
+            "mean": "thuộc lực cắt, chấn động ngang vuông góc",
+            "syns": [
+              "lateral",
+              "transverse",
+              "cutting"
+            ],
+            "ex": "Destructive secondary shear waves cause the ground to shake from side to side."
+          },
+          {
+            "word": "decelerate",
+            "pos": "v",
+            "ipa": "/diːˈsel.ə.reɪt/",
+            "level": "B2",
+            "mean": "giảm tốc độ, hãm phanh",
+            "syns": [
+              "slow down",
+              "brake",
+              "retard"
+            ],
+            "ex": "Automated signals immediately decelerate bullet trains to prevent derailment."
+          },
+          {
+            "word": "preparedness",
+            "pos": "n",
+            "ipa": "/prɪˈpeə.rɪd.nəs/",
+            "level": "B2",
+            "mean": "trạng thái sẵn sàng ứng phó thiên tai",
+            "syns": [
+              "readiness",
+              "alertness",
+              "vigilance"
+            ],
+            "ex": "Regular drills foster a widespread culture of disaster preparedness."
+          },
+          {
+            "word": "evacuation",
+            "pos": "n",
+            "ipa": "/ɪˌvæk.juˈeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự sơ tán người dân tới nơi an toàn",
+            "syns": [
+              "clearance",
+              "withdrawal",
+              "relocation"
+            ],
+            "ex": "Tsunami evacuation routes are clearly signposted with reflective green markers."
+          },
+          {
+            "word": "ration",
+            "pos": "n",
+            "ipa": "/ˈræʃ.ən/",
+            "level": "B2",
+            "mean": "khẩu phần dự trữ khẩn cấp",
+            "syns": [
+              "allowance",
+              "allotment",
+              "food pack"
+            ],
+            "ex": "Emergency backpacks contain water bottles and three days of dried rations."
+          },
+          {
+            "word": "harmonize",
+            "pos": "v",
+            "ipa": "/ˈhɑː.mə.naɪz/",
+            "level": "B2",
+            "mean": "kết hợp hài hòa, đồng bộ nhịp nhàng",
+            "syns": [
+              "integrate",
+              "coordinate",
+              "synchronize"
+            ],
+            "ex": "Effective survival depends on harmonizing technology with public discipline."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "Which of the following best expresses the main idea of the passage?",
+            "questionVi": "Ý nào sau đây thể hiện khái quát chủ đề chính của đoạn văn?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "How Japan combines seismic structural engineering, early-warning technology, and civic preparedness to achieve extraordinary earthquake resilience",
+              "Why bullet trains are the only mode of transportation capable of surviving tsunamis",
+              "The historical rivalry between the Eurasian and North American tectonic plates",
+              "A critical argument advocating that all Japanese residents relocate permanently inland"
+            ],
+            "optionsVi": [
+              "A. Cách Nhật Bản kết hợp kỹ thuật công trình kháng chấn, công nghệ cảnh báo sớm và sự chuẩn bị của người dân để đạt năng lực chống chịu động đất phi thường",
+              "B. Vì sao tàu cao tốc là phương tiện giao thông duy nhất có thể sống sót sau sóng thần",
+              "C. Sự cạnh tranh lịch sử giữa mảng kiến tạo Á-Âu và mảng Bắc Mỹ",
+              "D. Luận điểm phê phán kêu gọi toàn bộ cư dân Nhật Bản di dời vĩnh viễn vào sâu trong nội địa"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By harmonizing strict architectural engineering, instantaneous automated warning protocols, and disciplined civic readiness, Japan demonstrates how human ingenuity can successfully mitigate the most violent forces of nature. [Paragraph 4]",
+            "evidenceVi": "Bằng cách kết hợp hài hòa giữa kỹ thuật kiến trúc nghiêm ngặt, các giao thức cảnh báo tự động tức thì và sự sẵn sàng công dân có kỷ luật, Nhật Bản chứng minh trí tuệ con người có thể giảm thiểu thành công những lực lượng hung bạo nhất của tự nhiên. [Đoạn 4]",
+            "explanation": "Toàn bài phân tích mô hình tổng thể của Nhật Bản gồm 3 trụ cột: công trình kháng chấn (Đoạn 2), công nghệ cảnh báo sớm số (Đoạn 3), và văn hóa chuẩn bị cộng đồng (Đoạn 4) -> (A) khái quát chính xác nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "By harmonizing strict architectural engineering, instantaneous automated warning protocols, and disciplined civic readiness, Japan demonstrates how human ingenuity can successfully mitigate the most violent forces of nature.",
+              "clueAnswer": "How Japan combines seismic structural engineering, early-warning technology, and civic preparedness to achieve extraordinary earthquake resilience",
+              "keyPassage": "architectural engineering, instantaneous automated warning protocols, and disciplined civic readiness",
+              "keyAnswer": "seismic structural engineering, early-warning technology, and civic preparedness",
+              "paraphrasePair": "harmonizing <=> combines; civic readiness <=> civic preparedness",
+              "meaningVi": "kết hợp kỹ thuật công trình, cảnh báo sớm và sự sẵn sàng của người dân",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt toàn bài."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "According to paragraph 1, why is Japan so geologically vulnerable to earthquakes?",
+            "questionVi": "Theo đoạn 1, tại sao Nhật Bản lại dễ bị tổn thương về mặt địa chất trước các trận động đất?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "It is situated directly atop the convergence zone of four major tectonic plates",
+              "It is located at the exact geographic magnetic south pole of the planet",
+              "Its islands are composed entirely of soft volcanic ash without solid bedrock",
+              "Its deep underground gold mining operations have destabilized the earth"
+            ],
+            "optionsVi": [
+              "A. Quốc gia này nằm ngay trên vùng hội tụ của 4 mảng kiến tạo lớn",
+              "B. Nằm tại đúng điểm cực nam từ tính của hành tinh",
+              "C. Các hòn đảo được cấu tạo hoàn toàn bằng tro núi lửa mềm không có tầng đá gốc",
+              "D. Các hoạt động khai thác vàng sâu dưới lòng đất đã làm mất ổn định bề mặt"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Situated directly atop the hazardous convergence zone of four colossal tectonic plates—the Pacific, Philippine Sea, Eurasian, and North American plates [Paragraph 1]",
+            "evidenceVi": "Nằm ngay trên vùng hội tụ đầy hiểm họa của bốn mảng kiến tạo khổng lồ - mảng Thái Bình Dương, Biển Philippines, Á-Âu và Bắc Mỹ [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ: Nhật Bản nằm ngay trên vùng giao nhau của 4 mảng kiến tạo lớn: Thái Bình Dương, Biển Philippines, Á-Âu và Bắc Mỹ (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Nguyên nhân địa chất (Geological Cause Detail)",
+              "cluePassage": "Situated directly atop the hazardous convergence zone of four colossal tectonic plates",
+              "clueAnswer": "It is situated directly atop the convergence zone of four major tectonic plates",
+              "keyPassage": "convergence zone of four colossal tectonic plates",
+              "keyAnswer": "convergence zone of four major tectonic plates",
+              "paraphrasePair": "colossal <=> major",
+              "meaningVi": "nằm trên vùng hội tụ của 4 mảng kiến tạo khổng lồ",
+              "deductionLogic": "Trích dẫn nguyên văn câu 1 đoạn 1."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "The word 'catastrophic' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'catastrophic' trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "disastrous",
+              "mild",
+              "predictable",
+              "beneficial"
+            ],
+            "optionsVi": [
+              "A. thảm khốc, tai ương (disastrous)",
+              "B. nhẹ nhàng, êm dịu (mild)",
+              "C. có thể đoán trước (predictable)",
+              "D. có lợi (beneficial)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "exposed Japanese settlements to recurrent catastrophic fires, ground ruptures, and towering tsunamis. [Paragraph 1]",
+            "evidenceVi": "khiến các khu định cư của người Nhật liên tục hứng chịu những đám cháy thảm khốc, nứt toác mặt đất và sóng thần cao chót vót. [Đoạn 1]",
+            "explanation": "'Catastrophic' mang nghĩa thảm họa, gây tàn phá nghiêm trọng, đồng nghĩa với 'disastrous' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "recurrent catastrophic fires, ground ruptures",
+              "clueAnswer": "disastrous",
+              "keyPassage": "catastrophic fires",
+              "keyAnswer": "disastrous fires",
+              "paraphrasePair": "catastrophic <=> disastrous",
+              "meaningVi": "thảm khốc, gây thảm họa tàn phá",
+              "deductionLogic": "Mô tả sức tàn phá kinh hoàng của hỏa hoạn do động đất."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "According to paragraph 2, what is the technological pinnacle of Japanese building defense known as 'Menshin'?",
+            "questionVi": "Theo đoạn 2, đỉnh cao công nghệ bảo vệ công trình của Nhật Bản được gọi là 'Menshin' có đặc điểm gì?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Base isolation that physically decouples the building from the vibrating earth using flexible rubber bearings",
+              "Digging tunnels ten miles deep underneath the building to siphon away shockwaves",
+              "Constructing buildings entirely out of inflatable plastic cushions",
+              "Using giant fans on roofs to blow shockwaves away into the ocean"
+            ],
+            "optionsVi": [
+              "A. Cách ly nền móng giúp tách rời công trình khỏi mặt đất rung lắc bằng cách dùng các đệm cao su dẻo dai",
+              "B. Đào các đường hầm sâu 10 dặm dưới chân tòa nhà để hút bớt sóng xung kích",
+              "C. Xây dựng toàn bộ tòa nhà bằng các đệm nhựa bơm hơi",
+              "D. Dùng quạt khổng lồ trên mái nhà để thổi bay các đợt sóng chấn động ra biển"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Menshin base-isolation physically decouples the building from the vibrating earth. Heavy structures rest atop flexible laminated rubber bearings and lead dampers, enabling the ground beneath to shake violently while the superstructure glides smoothly [Paragraph 2]",
+            "evidenceVi": "Công nghệ cách ly chân đế Menshin tách rời công trình về mặt vật lý khỏi mặt đất đang rung lắc. Các cấu trúc nặng nề nằm trên các ổ đỡ cao su ép nhiều lớp dẻo dai và bộ giảm chấn chì, cho phép mặt đất bên dưới rung lắc dữ dội trong khi phần thân trên của tòa nhà lướt đi êm ái [Đoạn 2]",
+            "explanation": "Đoạn 2 giải thích: 'Menshin' (base-isolation) tách rời vật lý tòa nhà khỏi mặt đất ('decouples the building from the vibrating earth') bằng các gối đệm cao su giảm chấn dẻo dai (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Kỹ thuật công trình (Engineering Detail)",
+              "cluePassage": "Menshin base-isolation physically decouples the building from the vibrating earth. Heavy structures rest atop flexible laminated rubber bearings",
+              "clueAnswer": "Base isolation that physically decouples the building from the vibrating earth using flexible rubber bearings",
+              "keyPassage": "base-isolation physically decouples the building from vibrating earth + flexible laminated rubber bearings",
+              "keyAnswer": "Base isolation that physically decouples the building from vibrating earth using flexible rubber bearings",
+              "paraphrasePair": "decouples the building <=> physically separates building",
+              "meaningVi": "cách ly chân đế tách rời công trình khỏi rung chấn bằng đệm cao su",
+              "deductionLogic": "Khớp câu 5 và 6 đoạn 2."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "In paragraph 2, what engineering feature of the Tokyo Skytree is mentioned as an example of counterbalancing tremors?",
+            "questionVi": "Trong đoạn 2, đặc điểm kỹ thuật nào của tháp Tokyo Skytree được đề cập như một ví dụ về việc cân bằng triệt tiêu chấn động?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "A massive central oil-damped column acting as a counterweight pendulum",
+              "An outer shell made entirely of recycled titanium panels",
+              "A hollow foundation filled with millions of gallons of pressurized mercury",
+              "A retractable spire that folds into the ground during storms"
+            ],
+            "optionsVi": [
+              "A. Một cột trung tâm khổng lồ gắn bộ giảm chấn dầu đóng vai trò như một con lắc đối trọng",
+              "B. Một lớp vỏ ngoài làm hoàn toàn từ các tấm titan tái chế",
+              "C. Móng rỗng chứa hàng triệu gallon thủy ngân điều áp",
+              "D. Một đỉnh tháp có thể thu gọn vào lòng đất khi có bão"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "exemplified by the Tokyo Skytree, which utilizes a massive central oil-damped column acting as a counterweight pendulum. [Paragraph 2]",
+            "evidenceVi": "được minh chứng bởi tháp Tokyo Skytree, nơi sử dụng một cột trung tâm khổng lồ có bộ giảm chấn dầu hoạt động như một con lắc đối trọng. [Đoạn 2]",
+            "explanation": "Đoạn 2 đưa ra dẫn chứng thực tế: tháp Tokyo Skytree sử dụng cột trung tâm giảm chấn dầu ('central oil-damped column') đóng vai trò như một con lắc đối trọng (counterweight pendulum) để triệt tiêu dao động (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Dẫn chứng công trình thực tế (Architectural Example)",
+              "cluePassage": "Tokyo Skytree, which utilizes a massive central oil-damped column acting as a counterweight pendulum.",
+              "clueAnswer": "A massive central oil-damped column acting as a counterweight pendulum",
+              "keyPassage": "Tokyo Skytree... massive central oil-damped column acting as a counterweight pendulum",
+              "keyAnswer": "massive central oil-damped column acting as a counterweight pendulum",
+              "paraphrasePair": "acting as <=> serving as",
+              "meaningVi": "cột trung tâm giảm chấn dầu hoạt động như con lắc đối trọng",
+              "deductionLogic": "Khớp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "The word 'sway' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'sway' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "oscillation",
+              "destruction",
+              "elevation",
+              "expansion"
+            ],
+            "optionsVi": [
+              "A. sự đung đưa, lắc lư qua lại (oscillation)",
+              "B. sự phá hủy hoàn toàn (destruction)",
+              "C. sự nâng cao độ (elevation)",
+              "D. sự giãn nở (expansion)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "significantly dampening building sway. [Paragraph 2]",
+            "evidenceVi": "làm giảm đáng kể độ lắc lư đung đưa của tòa nhà. [Đoạn 2]",
+            "explanation": "'Building sway' là sự dao động đung đưa lắc lư của tòa nhà khi có gió hoặc động đất, đồng nghĩa với 'oscillation' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "significantly dampening building sway.",
+              "clueAnswer": "oscillation",
+              "keyPassage": "building sway",
+              "keyAnswer": "building oscillation",
+              "paraphrasePair": "sway <=> oscillation",
+              "meaningVi": "sự lắc lư, dao động qua lại",
+              "deductionLogic": "Thuật ngữ kỹ thuật xây dựng chỉ chuyển động lắc ngang của tòa nhà."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "According to paragraph 3, what scientific principle allows early warning systems to alert the public before severe damage happens?",
+            "questionVi": "Theo đoạn 3, nguyên lý khoa học nào cho phép hệ thống cảnh báo sớm phát báo động trước khi thiệt hại nghiêm trọng xảy ra?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Detecting fast-moving primary P-waves enables alarms before the slower, destructive S-waves arrive",
+              "Satellites visually photograph tectonic cracks three weeks before they rupture",
+              "Deep-sea whales emit distress songs that are recorded by radio stations",
+              "Ground sensors detect changes in air temperature surrounding nuclear power plants"
+            ],
+            "optionsVi": [
+              "A. Việc phát hiện sóng P sơ cấp truyền nhanh cho phép phát báo động trước khi sóng cắt S tàn phá truyền tới",
+              "B. Các vệ tinh chụp ảnh các vết nứt kiến tạo 3 tuần trước khi nứt vỡ",
+              "C. Cá voi biển sâu phát ra tiếng hát cầu cứu được các đài phát thanh ghi lại",
+              "D. Cảm biến mặt đất phát hiện sự thay đổi nhiệt độ không khí quanh các nhà máy hạt nhân"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "seismometers immediately detect the harmless, fast-moving primary seismic waves (P-waves)... calculate the hypocenter, magnitude, and anticipated arrival time of the slower, highly destructive secondary shear waves (S-waves). [Paragraph 3]",
+            "evidenceVi": "các địa chấn kế ngay lập tức phát hiện các sóng địa chấn sơ cấp (sóng P) vô hại và di chuyển nhanh... tính toán tiêu chấn, độ lớn và thời gian đến dự kiến của các sóng cắt thứ cấp (sóng S) di chuyển chậm hơn nhưng có sức tàn phá dữ dội. [Đoạn 3]",
+            "explanation": "Đoạn 3 giải thích cơ chế: sóng P truyền nhanh (7 km/s) và vô hại được phát hiện tức thì, cho phép phát cảnh báo vài giây đến hàng chục giây trước khi sóng S gây phá hủy truyền tới (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Nguyên lý địa chấn học (Seismological Principle)",
+              "cluePassage": "detect the harmless, fast-moving primary seismic waves (P-waves)... calculate... arrival time of the slower, highly destructive secondary shear waves (S-waves).",
+              "clueAnswer": "Detecting fast-moving primary P-waves enables alarms before the slower, destructive S-waves arrive",
+              "keyPassage": "fast-moving primary seismic waves (P-waves) + arrival time of slower, highly destructive secondary shear waves (S-waves)",
+              "keyAnswer": "fast-moving primary P-waves enables alarms before slower, destructive S-waves arrive",
+              "paraphrasePair": "primary seismic waves <=> P-waves; secondary shear waves <=> S-waves",
+              "meaningVi": "sóng P nhanh vô hại phát hiện trước sóng S chậm tàn phá",
+              "deductionLogic": "Khớp câu 3 và 4 đoạn 3."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "What automated action is triggered on bullet trains (Shinkansen) when seismic alarms are issued?",
+            "questionVi": "Hành động tự động nào được kích hoạt trên các đoàn tàu cao tốc (Shinkansen) khi có báo động địa chấn?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Emergency braking systems are immediately engaged to decelerate trains before shaking begins",
+              "Trains accelerate to double their normal speed to outrun the earthquake",
+              "Passengers are automatically ejected in escape pods onto roadside fields",
+              "The train transforms into a hovercraft to float above cracked tracks"
+            ],
+            "optionsVi": [
+              "A. Hệ thống phanh khẩn cấp được kích hoạt ngay lập tức để giảm tốc độ đoàn tàu trước khi rung lắc bắt đầu",
+              "B. Tàu tăng tốc gấp đôi tốc độ bình thường để chạy đua vượt qua trận động đất",
+              "C. Hành khách tự động được phóng ra ngoài bằng khoang thoát hiểm xuống các cánh đồng ven đường",
+              "D. Đoàn tàu biến thành tàu đệm khí để bay lơ lửng phía trên đường ray bị nứt"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "trigger emergency braking systems on bullet trains (Shinkansen), shut down natural gas pipelines, and halt high-speed factory assembly lines before the violent shaking begins. [Paragraph 3]",
+            "evidenceVi": "kích hoạt hệ thống phanh khẩn cấp trên các chuyến tàu cao tốc (Shinkansen), ngắt các đường ống dẫn khí đốt tự nhiên và dừng các dây chuyền lắp ráp nhà máy tốc độ cao trước khi các rung lắc dữ dội bắt đầu. [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ rõ hành động an toàn tự động: kích hoạt hệ thống phanh khẩn cấp trên tàu Shinkansen để hãm phanh an toàn trước khi mặt đất rung lắc mạnh (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Ứng phó tự động (Automated Response Detail)",
+              "cluePassage": "trigger emergency braking systems on bullet trains (Shinkansen)... before the violent shaking begins.",
+              "clueAnswer": "Emergency braking systems are immediately engaged to decelerate trains before shaking begins",
+              "keyPassage": "emergency braking systems on bullet trains (Shinkansen)... before violent shaking begins",
+              "keyAnswer": "Emergency braking systems are immediately engaged to decelerate trains before shaking begins",
+              "paraphrasePair": "trigger <=> engaged; before shaking begins <=> before violent shaking begins",
+              "meaningVi": "phanh khẩn cấp tự động kích hoạt trước khi rung lắc xảy ra",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "What takes place every September 1 in Japan according to paragraph 4?",
+            "questionVi": "Điều gì diễn ra vào ngày 1 tháng 9 hàng năm tại Nhật Bản theo đoạn 4?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Millions of citizens participate in mandatory nationwide evacuation drills",
+              "All structural engineering companies must submit their financial taxes",
+              "The government shuts down the internet for twenty-four hours to conserve energy",
+              "Subway systems offer completely free travel across the country"
+            ],
+            "optionsVi": [
+              "A. Hàng triệu người dân tham gia các cuộc diễn tập sơ tán bắt buộc trên toàn quốc",
+              "B. Toàn bộ các công ty kỹ thuật xây dựng phải nộp báo cáo thuế",
+              "C. Chính phủ tắt mạng internet trong 24 giờ để tiết kiệm năng lượng",
+              "D. Hệ thống tàu điện ngầm miễn phí vé hoàn toàn trên cả nước"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Every September 1, on the anniversary of the 1923 Kanto disaster, millions of citizens—ranging from kindergarten pupils to corporate executives—participate in mandatory nationwide evacuation drills. [Paragraph 4]",
+            "evidenceVi": "Vào ngày 1 tháng 9 hàng năm, nhân ngày kỷ niệm thảm họa Kanto năm 1923, hàng triệu công dân - từ các em học sinh mẫu giáo đến các giám đốc điều hành tập đoàn - đều tham gia vào các cuộc diễn tập sơ tán bắt buộc trên toàn quốc. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ: ngày 1/9 là ngày diễn tập phòng chống thiên tai toàn quốc, với sự tham gia bắt buộc của hàng triệu công dân từ trẻ nhỏ tới lãnh đạo doanh nghiệp (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Hoạt động xã hội thường niên (Civic Tradition Detail)",
+              "cluePassage": "Every September 1... millions of citizens—ranging from kindergarten pupils to corporate executives—participate in mandatory nationwide evacuation drills.",
+              "clueAnswer": "Millions of citizens participate in mandatory nationwide evacuation drills",
+              "keyPassage": "September 1... millions of citizens... participate in mandatory nationwide evacuation drills",
+              "keyAnswer": "Millions of citizens participate in mandatory nationwide evacuation drills",
+              "paraphrasePair": "participate in mandatory nationwide drills <=> participate in evacuation drills",
+              "meaningVi": "diễn tập sơ tán bắt buộc trên quy mô toàn quốc",
+              "deductionLogic": "Trích dẫn nguyên văn câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "Which of the following best characterizes the author's tone toward Japan's disaster strategies?",
+            "questionVi": "Tính từ nào sau đây mô tả đúng nhất thái độ của tác giả đối với các chiến lược ứng phó thiên tai của Nhật Bản?",
+            "questionType": "DẠNG 07: THÁI ĐỘ TÁC GIẢ (Author's Tone)",
+            "options": [
+              "Admiring, analytical, and respectful",
+              "Condescending, cynical, and critical",
+              "Pessimistic, fatalistic, and anxious",
+              "Indifferent, bored, and dismissive"
+            ],
+            "optionsVi": [
+              "A. Ngưỡng mộ, phân tích khoa học và trân trọng sâu sắc",
+              "B. Trịch thượng, hoài nghi cay độc và chỉ trích",
+              "C. Bi quan, cam chịu số phận và đầy lo âu",
+              "D. Thờ ơ, nhàm chán và xem nhẹ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Japan demonstrates how human ingenuity can successfully mitigate the most violent forces of nature. [Paragraph 4]",
+            "evidenceVi": "Nhật Bản chứng minh trí tuệ con người có thể giảm thiểu thành công những lực lượng hung bạo nhất của tự nhiên. [Đoạn 4]",
+            "explanation": "Tác giả ca ngợi trí tuệ của con người ('human ingenuity'), tính kỷ luật mẫu mực và sự sáng tạo kỹ thuật vượt lên trên bi kịch của Nhật Bản -> Thái độ khâm phục, phân tích khoa học và trân trọng (A).",
+            "postReading": {
+              "type": "tone",
+              "typeLabel": "Thái độ tác giả (Author's Tone)",
+              "cluePassage": "Japan demonstrates how human ingenuity can successfully mitigate the most violent forces of nature.",
+              "clueAnswer": "Admiring, analytical, and respectful",
+              "keyPassage": "human ingenuity can successfully mitigate the most violent forces of nature",
+              "keyAnswer": "Admiring, analytical, and respectful",
+              "paraphrasePair": "human ingenuity <=> admiring and respectful",
+              "meaningVi": "ngưỡng mộ trí tuệ và sự chuẩn bị của người Nhật",
+              "deductionLogic": "Toàn bài thể hiện sự đánh giá cao về năng lực phục hồi và công nghệ."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Tectonic Geology: The Pacific Ring of Fire & Subduction Geodynamics",
+        "topic": "Địa chất học kiến tạo: Vành đai lửa Thái Bình Dương, cơ chế hút chìm mảng kiến tạo (subduction), rãnh đại dương và dự báo thảm họa địa chấn",
+        "timeAllowed": 15,
+        "passage": "<p>Encircling the vast oceanic basin of the Pacific in a colossal 40,000-kilometer horseshoe-shaped perimeter, the circum-Pacific seismic belt—universally termed the 'Ring of Fire'—constitutes the most geodynamically volatile corridor on Earth. This monumental geophysical province encompasses approximately 75 percent of the planet's subaerial active volcanoes and generates over 90 percent of all global seismic tremors, including nearly all recorded megathrust earthquakes of magnitude 8.0 or greater. Rather than being a random distribution of isolated geologic anomalies, the Ring of Fire represents the direct planetary expression of plate tectonics: the perpetual, convective circulation of the Earth's lithosphere, wherein oceanic crust is systematically generated at mid-ocean spreading ridges and subsequently consumed in deep-sea subduction zones.</p><p>The foundational geodynamic engine driving the Ring of Fire's intense volcanism and seismicity is the process of tectonic subduction. Oceanic lithosphere—composed of dense basaltic crust and cold, depleted upper mantle peridotite—gradually cools, thickens, and densifies as it migrates away from spreading centers over tens of millions of years. Eventually, this aged oceanic slab becomes gravitationally unstable relative to the underlying asthenosphere and plunges beneath an adjacent, lighter continental landmass or younger oceanic plate. As the descending slab penetrates depths exceeding eighty kilometers into the hot mantle wedge, volatile compounds trapped within hydrated hydrous minerals—predominantly water and carbon dioxide—are expelled via high-pressure metamorphic dehydration. This released fluid radically lowers the melting temperature (solidus) of the overlying mantle rock, triggering flux melting that generates buoyant, silica-rich andesitic and dacitic magmas that ascend to fuel explosive volcanic arcs such as the Andes, the Cascades, the Aleutians, and the Japanese island chain.</p><p>Simultaneously, the mechanical friction across the converging plate boundary generates the planet's most cataclysmic seismic hazards. Along the megathrust interface—the colossal fault plane separating the overriding continental plate from the down-going oceanic slab—frictional resistance prevents smooth, continuous descent. The two gigantic rock masses become tightly locked. Over centuries or millennia, tectonic convergence relentlessly flexes and compresses the overriding plate, storing immense quantities of elastic strain energy like a coiling steel spring. When the accumulated shear stress finally overcomes the fault's frictional threshold, the locked interface ruptures in an episodic stick-slip dislocation. The compressed continental plate violently rebounds upward and seaward within minutes, instantaneously displacing thousands of cubic kilometers of overlying water to unleash catastrophic trans-oceanic tsunamis, as tragically demonstrated in Sumatra in 2004 and Tohoku in 2011.</p><p>In response to these catastrophic hazards, contemporary geophysicists have mobilized unprecedented observing technologies, including continuous Global Navigation Satellite System (GNSS) geodesy, ocean-bottom pressure gauges, and deep borehole strainmeter networks. These instruments map interseismic crustal deformation in real time, identifying locked fault patches that may host future ruptures. However, geodynamicists have largely abandoned the elusive quest for deterministic short-term earthquake prediction. The complex non-linearity of fault friction, heterogeneous stress distributions, and the chaotic nature of seismic rupture nucleation make predicting the exact day or hour of a rupture scientifically untenable. Consequently, modern seismic geosciences have pivoted decisively toward probabilistic hazard assessment, advanced physics-based ground-motion simulations, and rapid tsunami forecasting to enhance coastal survival.</p>",
+        "vocab": [
+          {
+            "word": "volatile",
+            "pos": "adj",
+            "ipa": "/ˈvɒl.ə.taɪl/",
+            "level": "C1",
+            "mean": "dễ biến động dữ dội, không ổn định",
+            "syns": [
+              "unstable",
+              "turbulent",
+              "explosive"
+            ],
+            "ex": "The Ring of Fire is the most volatile seismic corridor on Earth."
+          },
+          {
+            "word": "subaerial",
+            "pos": "adj",
+            "ipa": "/sʌbˈeə.ri.əl/",
+            "level": "C1",
+            "mean": "nằm trên mặt đất (tiếp xúc với không khí, không chìm dưới biển)",
+            "syns": [
+              "surface-level",
+              "exposed",
+              "open-air"
+            ],
+            "ex": "Seventy-five percent of Earth's subaerial volcanoes sit along the Pacific rim."
+          },
+          {
+            "word": "anomaly",
+            "pos": "n",
+            "ipa": "/əˈnɒm.ə.li/",
+            "level": "C1",
+            "mean": "hiện tượng bất thường, dị thường",
+            "syns": [
+              "irregularity",
+              "aberration",
+              "peculiarity"
+            ],
+            "ex": "These volcanoes are not anomalies; they follow tectonic boundaries."
+          },
+          {
+            "word": "convective",
+            "pos": "adj",
+            "ipa": "/kənˈvek.tɪv/",
+            "level": "C1",
+            "mean": "thuộc về dòng đối lưu nhiệt",
+            "syns": [
+              "thermal-circulatory",
+              "heat-driven"
+            ],
+            "ex": "Convective currents in the mantle slowly drive the motion of continental plates."
+          },
+          {
+            "word": "lithosphere",
+            "pos": "n",
+            "ipa": "/ˈlɪθ.ə.sfɪər/",
+            "level": "C1",
+            "mean": "thạch quyển (lớp vỏ cứng ngoài cùng của Trái Đất)",
+            "syns": [
+              "crust-and-upper-mantle",
+              "outer shell"
+            ],
+            "ex": "The rigid lithosphere is broken into several giant moving plates."
+          },
+          {
+            "word": "subduction",
+            "pos": "n",
+            "ipa": "/səbˈdʌk.ʃən/",
+            "level": "C1",
+            "mean": "sự hút chìm (một mảng kiến tạo lặn xuống dưới mảng khác)",
+            "syns": [
+              "slab descent",
+              "underthrusting"
+            ],
+            "ex": "Subduction occurs when a heavy oceanic plate sinks under a lighter plate."
+          },
+          {
+            "word": "asthenosphere",
+            "pos": "n",
+            "ipa": "/æsˈθen.ə.sfɪər/",
+            "level": "C1",
+            "mean": "quyển mềm (lớp manti dẻo bên dưới thạch quyển)",
+            "syns": [
+              "plastic upper mantle",
+              "weak mantle layer"
+            ],
+            "ex": "Plates glide atop the semi-fluid asthenosphere."
+          },
+          {
+            "word": "peridotite",
+            "pos": "n",
+            "ipa": "/pəˈrɪd.ə.taɪt/",
+            "level": "C1",
+            "mean": "đá peridotit (loại đá giàu olivin cấu thành manti)",
+            "syns": [
+              "ultramafic mantle rock",
+              "olivine rock"
+            ],
+            "ex": "The upper mantle consists largely of dense peridotite."
+          },
+          {
+            "word": "dehydration",
+            "pos": "n",
+            "ipa": "/ˌdiː.haɪˈdreɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự khử nước, mất nước phân tử dưới áp suất",
+            "syns": [
+              "water release",
+              "desiccation"
+            ],
+            "ex": "Metamorphic dehydration releases trapped water from the sinking slab."
+          },
+          {
+            "word": "solidus",
+            "pos": "n",
+            "ipa": "/ˈsɒl.ɪ.dəs/",
+            "level": "C1",
+            "mean": "đường đông đặc (nhiệt độ bắt đầu nóng chảy của đá)",
+            "syns": [
+              "melting threshold",
+              "liquefaction point"
+            ],
+            "ex": "Water lowers the rock's solidus, triggering partial melting."
+          },
+          {
+            "word": "flux",
+            "pos": "n",
+            "ipa": "/flʌks/",
+            "level": "C1",
+            "mean": "chất trợ dung (làm hạ điểm nóng chảy)",
+            "syns": [
+              "melting agent",
+              "catalytic fluid"
+            ],
+            "ex": "Flux melting generates the magma that feeds explosive island arc volcanoes."
+          },
+          {
+            "word": "buoyant",
+            "pos": "adj",
+            "ipa": "/ˈbɔɪ.ənt/",
+            "level": "B2",
+            "mean": "có sức nổi, nhẹ nổi lên trên",
+            "syns": [
+              "floating",
+              "rising",
+              "uplifting"
+            ],
+            "ex": "Hot buoyant magma ascends toward the Earth's crust."
+          },
+          {
+            "word": "cataclysmic",
+            "pos": "adj",
+            "ipa": "/ˌkæt.əˈklɪz.mɪk/",
+            "level": "C1",
+            "mean": "gây biến động dữ dội thảm họa",
+            "syns": [
+              "devastating",
+              "calamitous",
+              "catastrophic"
+            ],
+            "ex": "Subduction zones produce the most cataclysmic earthquakes in human history."
+          },
+          {
+            "word": "megathrust",
+            "pos": "n",
+            "ipa": "/ˈmeɡ.ə.θrʌst/",
+            "level": "C1",
+            "mean": "đới đứt gãy trượt chờm khổng lồ tại rãnh hút chìm",
+            "syns": [
+              "giant thrust fault",
+              "plate boundary fault"
+            ],
+            "ex": "Megathrust earthquakes routinely exceed magnitude 8.5 on the Richter scale."
+          },
+          {
+            "word": "interface",
+            "pos": "n",
+            "ipa": "/ˈɪn.tə.feɪs/",
+            "level": "B2",
+            "mean": "bề mặt ranh giới tiếp xúc giữa hai mảng",
+            "syns": [
+              "contact boundary",
+              "junction plane"
+            ],
+            "ex": "Immense friction accumulates along the locked plate interface."
+          },
+          {
+            "word": "elastic",
+            "pos": "adj",
+            "ipa": "/iˈlæs.tɪk/",
+            "level": "B2",
+            "mean": "có tính đàn hồi, co giãn",
+            "syns": [
+              "flexible",
+              "resilient",
+              "springy"
+            ],
+            "ex": "The overriding plate bends, storing elastic strain energy."
+          },
+          {
+            "word": "strain",
+            "pos": "n",
+            "ipa": "/streɪn/",
+            "level": "B2",
+            "mean": "ứng suất biến dạng, áp lực tích tụ",
+            "syns": [
+              "stress",
+              "tension",
+              "pressure"
+            ],
+            "ex": "Centuries of tectonic strain are released in mere minutes of shaking."
+          },
+          {
+            "word": "rebound",
+            "pos": "v",
+            "ipa": "/rɪˈbaʊnd/",
+            "level": "B2",
+            "mean": "bật ngược trở lại vị trí cũ",
+            "syns": [
+              "spring back",
+              "snap back",
+              "bounce"
+            ],
+            "ex": "The compressed edge of the continent violently rebounds seaward."
+          },
+          {
+            "word": "displace",
+            "pos": "v",
+            "ipa": "/dɪsˈpleɪs/",
+            "level": "B2",
+            "mean": "chiếm chỗ, làm dời chuyển thể tích",
+            "syns": [
+              "shift",
+              "dislodge",
+              "relocate"
+            ],
+            "ex": "Sudden seafloor uplift displaces billions of tons of ocean water."
+          },
+          {
+            "word": "geodesy",
+            "pos": "n",
+            "ipa": "/dʒiˈɒd.ə.si/",
+            "level": "C1",
+            "mean": "trắc địa học (khoa học đo đạc kích thước Trái Đất)",
+            "syns": [
+              "geodetic measurement",
+              "crustal survey"
+            ],
+            "ex": "Satellite geodesy tracks millimeter-scale movements of the Earth's surface."
+          },
+          {
+            "word": "borehole",
+            "pos": "n",
+            "ipa": "/ˈbɔː.həʊl/",
+            "level": "C1",
+            "mean": "lỗ khoan sâu vào lòng đất",
+            "syns": [
+              "drill hole",
+              "deep shaft"
+            ],
+            "ex": "Instruments installed in deep boreholes measure subtle changes in rock stress."
+          },
+          {
+            "word": "interseismic",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈsaɪz.mɪk/",
+            "level": "C1",
+            "mean": "thuộc giai đoạn tích lũy năng lượng giữa hai trận động đất",
+            "syns": [
+              "between-earthquakes",
+              "quiescent-period"
+            ],
+            "ex": "Scientists measure interseismic deformation to identify high-risk fault zones."
+          },
+          {
+            "word": "deterministic",
+            "pos": "adj",
+            "ipa": "/dɪˌtɜː.mɪˈnɪs.tɪk/",
+            "level": "C1",
+            "mean": "mang tính dự báo chính xác tuyệt đối",
+            "syns": [
+              "exact-predictive",
+              "certain"
+            ],
+            "ex": "Deterministic predictions of exact earthquake timing have proven impossible."
+          },
+          {
+            "word": "non-linearity",
+            "pos": "n",
+            "ipa": "/ˌnɒnˌlɪn.iˈær.ə.ti/",
+            "level": "C1",
+            "mean": "tính chất phi tuyến (phức tạp, không theo tỷ lệ đường thẳng)",
+            "syns": [
+              "complexity",
+              "chaotic behavior"
+            ],
+            "ex": "The non-linearity of fault friction makes precise forecasting very difficult."
+          },
+          {
+            "word": "heterogeneous",
+            "pos": "adj",
+            "ipa": "/ˌhet.ər.əˈdʒiː.ni.əs/",
+            "level": "C1",
+            "mean": "không đồng nhất, hỗn tạp đa dạng",
+            "syns": [
+              "diverse",
+              "non-uniform",
+              "variegated"
+            ],
+            "ex": "Heterogeneous rock strength causes unpredictable rupture patterns."
+          },
+          {
+            "word": "nucleation",
+            "pos": "n",
+            "ipa": "/ˌnjuː.kliˈeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự hình thành mầm mống khởi phát",
+            "syns": [
+              "initiation",
+              "genesis",
+              "triggering"
+            ],
+            "ex": "Rupture nucleation begins at microscopic friction patches deep underground."
+          },
+          {
+            "word": "probabilistic",
+            "pos": "adj",
+            "ipa": "/ˌprɒb.ə.bɪˈlɪs.tɪk/",
+            "level": "C1",
+            "mean": "dựa trên xác suất thống kê",
+            "syns": [
+              "statistical",
+              "stochastic",
+              "likelihood-based"
+            ],
+            "ex": "Modern building codes rely on probabilistic seismic hazard models."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "Which of the following best expresses the primary topic of the passage?",
+            "questionVi": "Ý nào sau đây thể hiện khái quát chủ đề chính của đoạn văn?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "The geodynamic subduction processes, megathrust hazards, and monitoring challenges governing the Pacific Ring of Fire",
+              "The commercial exploitation of hydrothermal mineral vents located at the Mariana Trench",
+              "A historical biography of nineteenth-century geologists who mapped the Andes mountains",
+              "Why volcanic ash clouds prevent commercial aviation across the South Pacific"
+            ],
+            "optionsVi": [
+              "A. Các quá trình hút chìm địa động lực học, hiểm họa đứt gãy megathrust và thách thức quan trắc tại Vành đai lửa Thái Bình Dương",
+              "B. Việc khai thác thương mại các miệng phun khoáng sản thủy nhiệt tại Rãnh Mariana",
+              "C. Tiểu sử lịch sử của các nhà địa chất thế kỷ 19 đã lập bản đồ dãy núi Andes",
+              "D. Vì sao các đám mây tro núi lửa ngăn chặn hàng không thương mại bay qua Nam Thái Bình Dương"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "encircling the vast oceanic basin of the Pacific in a colossal 40,000-kilometer horseshoe-shaped perimeter, the circum-Pacific seismic belt—universally termed the 'Ring of Fire'—constitutes the most geodynamically volatile corridor on Earth. [Paragraph 1]",
+            "evidenceVi": "Bao quanh bồn trũng đại dương bao la của Thái Bình Dương theo một chu vi hình móng ngựa khổng lồ dài 40.000 km, vành đai địa chấn quanh Thái Bình Dương - thường gọi là 'Vành đai lửa' - cấu thành hành lang biến động địa động lực dữ dội nhất trên Trái Đất. [Đoạn 1]",
+            "explanation": "Bài đọc phân tích quy mô của Vành đai lửa (Đoạn 1), cơ chế hút chìm và tạo magma (Đoạn 2), động lực học đứt gãy megathrust và sóng thần (Đoạn 3), cùng công nghệ quan trắc và chuyển hướng sang đánh giá rủi ro xác suất (Đoạn 4) -> (A) chuẩn xác nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "circum-Pacific seismic belt—universally termed the 'Ring of Fire'—constitutes the most geodynamically volatile corridor on Earth.",
+              "clueAnswer": "The geodynamic subduction processes, megathrust hazards, and monitoring challenges governing the Pacific Ring of Fire",
+              "keyPassage": "geodynamically volatile corridor + subduction processes + megathrust hazards + monitoring challenges",
+              "keyAnswer": "geodynamic subduction processes, megathrust hazards, and monitoring challenges governing the Pacific Ring of Fire",
+              "paraphrasePair": "geodynamically volatile corridor <=> geodynamic subduction processes and hazards",
+              "meaningVi": "quá trình hút chìm địa động lực học, hiểm họa megathrust và thách thức quan trắc",
+              "deductionLogic": "Khái quát toàn diện nội dung từ đoạn 1 đến đoạn 4."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "According to paragraph 1, what percentage of the world's active volcanoes and seismic tremors occur within the Ring of Fire?",
+            "questionVi": "Theo đoạn 1, bao nhiêu phần trăm núi lửa hoạt động và chấn động địa chấn trên thế giới xảy ra trong Vành đai lửa?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Approximately 75% of active subaerial volcanoes and over 90% of global tremors",
+              "Exactly 25% of active volcanoes and less than 10% of tremors",
+              "Around 50% of volcanoes and exactly 50% of tremors",
+              "Nearly 100% of volcanoes but only 5% of seismic tremors"
+            ],
+            "optionsVi": [
+              "A. Khoảng 75% núi lửa hoạt động trên cạn và hơn 90% các chấn động địa chấn toàn cầu",
+              "B. Đúng 25% núi lửa hoạt động và dưới 10% chấn động",
+              "C. Khoảng 50% núi lửa và đúng 50% chấn động",
+              "D. Gần 100% núi lửa nhưng chỉ 5% chấn động địa chấn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "encompasses approximately 75 percent of the planet's subaerial active volcanoes and generates over 90 percent of all global seismic tremors [Paragraph 1]",
+            "evidenceVi": "bao gồm khoảng 75 phần trăm núi lửa hoạt động trên cạn của hành tinh và tạo ra hơn 90 phần trăm tất cả các chấn động địa chấn toàn cầu [Đoạn 1]",
+            "explanation": "Đoạn 1 cung cấp số liệu thống kê địa chất chính xác: chiếm khoảng 75% núi lửa hoạt động trên cạn và hơn 90% các chấn động địa chấn toàn cầu (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Thông số thống kê (Statistical Detail)",
+              "cluePassage": "approximately 75 percent of the planet's subaerial active volcanoes and generates over 90 percent of all global seismic tremors",
+              "clueAnswer": "Approximately 75% of active subaerial volcanoes and over 90% of global tremors",
+              "keyPassage": "75 percent of planet's subaerial active volcanoes + over 90 percent of all global seismic tremors",
+              "keyAnswer": "75% of active subaerial volcanoes and over 90% of global tremors",
+              "paraphrasePair": "subaerial active volcanoes <=> active subaerial volcanoes",
+              "meaningVi": "75% núi lửa hoạt động và hơn 90% địa chấn toàn cầu",
+              "deductionLogic": "Khớp câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "The word 'volatile' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'volatile' trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "unstable",
+              "peaceful",
+              "permanent",
+              "frozen"
+            ],
+            "optionsVi": [
+              "A. không ổn định, dễ bùng phát dữ dội (unstable)",
+              "B. thanh bình, yên ả (peaceful)",
+              "C. vĩnh cửu (permanent)",
+              "D. đóng băng (frozen)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "constitutes the most geodynamically volatile corridor on Earth. [Paragraph 1]",
+            "evidenceVi": "cấu thành hành lang biến động địa động lực dữ dội nhất trên Trái Đất. [Đoạn 1]",
+            "explanation": "'Volatile' mô tả trạng thái bất ổn, dễ bùng phát rung chuyển dữ dội, đồng nghĩa với 'unstable' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "the most geodynamically volatile corridor on Earth.",
+              "clueAnswer": "unstable",
+              "keyPassage": "volatile corridor",
+              "keyAnswer": "unstable corridor",
+              "paraphrasePair": "volatile <=> unstable",
+              "meaningVi": "không ổn định, dễ bùng phát biến động",
+              "deductionLogic": "Mô tả đới địa chấn liên tục có núi lửa phun và động đất lớn."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "According to paragraph 2, what causes flux melting and magma generation in subduction zones?",
+            "questionVi": "Theo đoạn 2, điều gì gây ra hiện tượng nóng chảy trợ dung (flux melting) và tạo magma ở các đới hút chìm?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Water and fluids released from hydrous minerals lower the melting temperature of overlying mantle rock",
+              "Solar radiation penetrates deep beneath ocean trenches during high tide",
+              "Lightning strikes repeatedly hit the subducting slab through the seawater",
+              "Extreme refrigeration causes basaltic rock to burst into molten lava"
+            ],
+            "optionsVi": [
+              "A. Nước và chất lưu giải phóng từ các khoáng chất ngậm nước làm hạ nhiệt độ nóng chảy của đá manti phía trên",
+              "B. Bức xạ mặt trời xuyên sâu xuống các rãnh đại dương khi thủy triều dâng",
+              "C. Sét đánh liên tục vào mảng hút chìm xuyên qua nước biển",
+              "D. Sự làm lạnh cực độ khiến đá bazan nổ tung thành dung nham nóng chảy"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "volatile compounds trapped within hydrated hydrous minerals—predominantly water and carbon dioxide—are expelled via high-pressure metamorphic dehydration. This released fluid radically lowers the melting temperature (solidus) of the overlying mantle rock, triggering flux melting [Paragraph 2]",
+            "evidenceVi": "các hợp chất dễ bay hơi bị giữ lại bên trong các khoáng chất ngậm nước - chủ yếu là nước và carbon dioxide - bị trục xuất thông qua quá trình khử nước biến chất áp suất cao. Chất lưu được giải phóng này làm giảm mạnh nhiệt độ nóng chảy (solidus) của đá manti nằm phía trên, kích hoạt sự nóng chảy trợ dung [Đoạn 2]",
+            "explanation": "Đoạn 2 giải thích tường tận cơ chế địa hóa: khi mảng chìm xuống, nước thoát ra từ khoáng vật làm hạ nhiệt độ nóng chảy của đá manti nằm trên ('lowers the melting temperature of overlying mantle rock'), sinh ra magma bốc lên bề mặt (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế địa hóa manti (Geochemical Mechanism)",
+              "cluePassage": "released fluid radically lowers the melting temperature (solidus) of the overlying mantle rock, triggering flux melting that generates buoyant... magmas",
+              "clueAnswer": "Water and fluids released from hydrous minerals lower the melting temperature of overlying mantle rock",
+              "keyPassage": "fluid radically lowers melting temperature of overlying mantle rock, triggering flux melting",
+              "keyAnswer": "fluids released from hydrous minerals lower the melting temperature of overlying mantle rock",
+              "paraphrasePair": "fluid radically lowers solidus <=> fluids lower the melting temperature",
+              "meaningVi": "nước thoát ra từ khoáng ngậm nước làm hạ điểm nóng chảy của đá manti",
+              "deductionLogic": "Khớp câu 4 và 5 đoạn 2."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "The word 'plunges' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'plunges' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "sinks steeply",
+              "rises gently",
+              "floats sideways",
+              "evaporates"
+            ],
+            "optionsVi": [
+              "A. chìm dốc xuống sâu (sinks steeply)",
+              "B. bay lên nhẹ nhàng (rises gently)",
+              "C. trôi dạt sang ngang (floats sideways)",
+              "D. bốc hơi (evaporates)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "becomes gravitationally unstable relative to the underlying asthenosphere and plunges beneath an adjacent, lighter continental landmass [Paragraph 2]",
+            "evidenceVi": "trở nên không ổn định về mặt trọng lực so với quyển mềm bên dưới và cắm chìm sâu xuống bên dưới một khối lục địa lân cận nhẹ hơn [Đoạn 2]",
+            "explanation": "'Plunges' trong ngữ cảnh mảng đại dương chìm xuống đới hút chìm có nghĩa là chìm sâu và dốc xuống dưới lòng đất, đồng nghĩa với 'sinks steeply' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "plunges beneath an adjacent, lighter continental landmass",
+              "clueAnswer": "sinks steeply",
+              "keyPassage": "plunges beneath",
+              "keyAnswer": "sinks steeply beneath",
+              "paraphrasePair": "plunges <=> sinks steeply",
+              "meaningVi": "chìm dốc xuống sâu bên dưới",
+              "deductionLogic": "Mô tả chuyển động chìm xuống của mảng kiến tạo đại dương nặng hơn."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "In paragraph 3, how does a megathrust fault store energy before an earthquake?",
+            "questionVi": "Trong đoạn 3, một đới đứt gãy megathrust tích trữ năng lượng trước một trận động đất như thế nào?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Friction locks the two plates together, and continuous convergence compresses the overriding plate like a coiling spring",
+              "Electric currents charge the ocean water with high-voltage battery power",
+              "Deep magma chambers fill with hydrogen gas that expands into hollow caves",
+              "Ocean currents rotate the continental crust like a giant watermill"
+            ],
+            "optionsVi": [
+              "A. Ma sát khóa chặt hai mảng lại với nhau, và sự hội tụ liên tục nén mảng bên trên lại giống như một lò xo đang cuộn",
+              "B. Dòng điện nạp vào nước biển bằng nguồn pin điện áp cao",
+              "C. Các lò magma sâu chứa đầy khí hydro nở ra trong các hang rỗng",
+              "D. Các dòng hải lưu làm quay vỏ lục địa giống như một cối xay nước khổng lồ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "frictional resistance prevents smooth, continuous descent. The two gigantic rock masses become tightly locked. Over centuries or millennia, tectonic convergence relentlessly flexes and compresses the overriding plate, storing immense quantities of elastic strain energy like a coiling steel spring. [Paragraph 3]",
+            "evidenceVi": "lực cản ma sát ngăn chặn sự trượt xuống liên tục êm ả. Hai khối đá khổng lồ bị khóa chặt lại với nhau. Qua nhiều thế kỷ hoặc thiên niên kỷ, sự hội tụ kiến tạo liên tục uốn cong và nén mảng bên trên lại, tích trữ lượng năng lượng biến dạng đàn hồi khổng lồ giống như một chiếc lò xo thép đang cuộn chặt. [Đoạn 3]",
+            "explanation": "Đoạn 3 mô tả sinh động: ma sát làm hai mảng bị khóa chặt (locked), áp lực hội tụ uốn cong và nén mảng lục địa bên trên lại như lò xo, tích trữ năng lượng biến dạng đàn hồi (elastic strain energy) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế tích trữ năng lượng (Strain Accumulation Mechanism)",
+              "cluePassage": "two gigantic rock masses become tightly locked... convergence relentlessly flexes and compresses the overriding plate, storing immense quantities of elastic strain energy like a coiling steel spring.",
+              "clueAnswer": "Friction locks the two plates together, and continuous convergence compresses the overriding plate like a coiling spring",
+              "keyPassage": "plates tightly locked + compresses the overriding plate, storing immense quantities of elastic strain energy like a coiling steel spring",
+              "keyAnswer": "Friction locks the two plates together, and continuous convergence compresses the overriding plate like a coiling spring",
+              "paraphrasePair": "coiling steel spring <=> coiling spring",
+              "meaningVi": "ma sát khóa mảng và sự hội tụ nén mảng trên như lò xo",
+              "deductionLogic": "Khớp câu 2, 3 và 4 đoạn 3."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "The word 'episodic' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'episodic' trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "intermittent",
+              "continuous",
+              "harmless",
+              "invisible"
+            ],
+            "optionsVi": [
+              "A. ngắt quãng, xảy ra theo từng đợt ngẫu nhiên (intermittent)",
+              "B. liên tục không ngừng (continuous)",
+              "C. vô hại (harmless)",
+              "D. vô hình (invisible)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "When the accumulated shear stress finally overcomes the fault's frictional threshold, the locked interface ruptures in an episodic stick-slip dislocation. [Paragraph 3]",
+            "evidenceVi": "Khi ứng suất cắt tích lũy cuối cùng vượt qua ngưỡng ma sát của đứt gãy, ranh giới bị khóa sẽ nứt vỡ trong một sự xê dịch dính - trượt diễn ra theo từng đợt. [Đoạn 3]",
+            "explanation": "'Episodic' có nghĩa là diễn ra theo từng giai đoạn, đợt ngắt quãng chứ không liên tục, đồng nghĩa với 'intermittent' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "ruptures in an episodic stick-slip dislocation.",
+              "clueAnswer": "intermittent",
+              "keyPassage": "episodic dislocation",
+              "keyAnswer": "intermittent dislocation",
+              "paraphrasePair": "episodic <=> intermittent",
+              "meaningVi": "theo từng đợt, ngắt quãng sau thời gian dài tích lũy",
+              "deductionLogic": "Động đất xảy ra theo từng đợt sau hàng trăm năm tích tụ năng lượng."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "According to paragraph 3, what causes catastrophic trans-oceanic tsunamis during a megathrust earthquake?",
+            "questionVi": "Theo đoạn 3, điều gì gây ra các trận sóng thần xuyên đại dương thảm khốc trong một trận động đất megathrust?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "The compressed continental plate violently springs upward and seaward, displacing thousands of cubic kilometers of ocean water",
+              "Undersea tornadoes suck seawater up into storm clouds before dropping it onto coastal towns",
+              "A massive meteorite impact vaporizes the water in the Mariana Trench",
+              "The gravitational pull of the moon quadruples during a solar eclipse"
+            ],
+            "optionsVi": [
+              "A. Mảng lục địa bị nén bật mạnh ngược lên trên và ra biển, làm dời chuyển hàng ngàn km khối nước đại dương",
+              "B. Lốc xoáy dưới đáy biển hút nước biển lên mây bão trước khi trút xuống các thị trấn ven biển",
+              "C. Một vụ va chạm thiên thạch khổng lồ làm bốc hơi nước tại Rãnh Mariana",
+              "D. Lực hút hấp dẫn của mặt trăng tăng gấp 4 lần trong thời gian nhật thực"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The compressed continental plate violently rebounds upward and seaward within minutes, instantaneously displacing thousands of cubic kilometers of overlying water to unleash catastrophic trans-oceanic tsunamis [Paragraph 3]",
+            "evidenceVi": "Mảng lục địa bị nén bật ngược dữ dội lên trên và ra phía biển chỉ trong vài phút, ngay lập tức làm dời chuyển hàng ngàn km khối nước nằm phía trên để giải phóng những trận sóng thần xuyên đại dương thảm khốc [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu rõ: mảng lục địa bị nén bật ngược lên trên và ra phía biển (rebounds upward and seaward), làm xê dịch hàng ngàn kilomet khối nước bên trên và tạo nên sóng thần tàn phá xuyên đại dương (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế hình thành sóng thần (Tsunamigenic Detail)",
+              "cluePassage": "continental plate violently rebounds upward and seaward... instantaneously displacing thousands of cubic kilometers of overlying water to unleash catastrophic trans-oceanic tsunamis",
+              "clueAnswer": "The compressed continental plate violently springs upward and seaward, displacing thousands of cubic kilometers of ocean water",
+              "keyPassage": "rebounds upward and seaward... displacing thousands of cubic kilometers of overlying water",
+              "keyAnswer": "springs upward and seaward, displacing thousands of cubic kilometers of ocean water",
+              "paraphrasePair": "rebounds <=> springs; overlying water <=> ocean water",
+              "meaningVi": "mảng lục địa bật nảy lên làm dời chuyển thể tích nước biển khổng lồ",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "The word 'deformation' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'deformation' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "distortion or alteration of shape",
+              "chemical purification",
+              "freezing of liquid",
+              "sudden vaporization"
+            ],
+            "optionsVi": [
+              "A. sự biến dạng hoặc thay đổi hình dáng (distortion or alteration of shape)",
+              "B. sự tinh chế hóa học (chemical purification)",
+              "C. sự đóng băng của chất lỏng (freezing of liquid)",
+              "D. sự bốc hơi đột ngột (sudden vaporization)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "These instruments map interseismic crustal deformation in real time [Paragraph 4]",
+            "evidenceVi": "Những thiết bị này lập bản đồ sự biến dạng vỏ Trái Đất trong giai đoạn giữa các kỳ động đất theo thời gian thực [Đoạn 4]",
+            "explanation": "'Deformation' là sự biến dạng, méo mó hoặc uốn cong cấu trúc vật lý của vỏ Trái Đất dưới tác động của lực nén kiến tạo, đồng nghĩa với 'distortion or alteration of shape' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng địa vật lý (Geophysical Vocabulary)",
+              "cluePassage": "instruments map interseismic crustal deformation in real time",
+              "clueAnswer": "distortion or alteration of shape",
+              "keyPassage": "crustal deformation",
+              "keyAnswer": "distortion or alteration of shape",
+              "paraphrasePair": "deformation <=> distortion or alteration of shape",
+              "meaningVi": "sự biến dạng của lớp vỏ Trái Đất",
+              "deductionLogic": "Mô tả sự dịch chuyển từng milimet của vỏ Trái Đất do vệ tinh đo đạc."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "What paradigm shift in seismic geosciences is highlighted in the concluding sentences of paragraph 4?",
+            "questionVi": "Sự chuyển dịch mô hình tư duy nào trong khoa học địa chấn được nêu bật trong những câu kết của đoạn 4?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "Abandoning deterministic short-term prediction in favor of probabilistic hazard assessment and tsunami forecasting",
+              "Relying exclusively on animal behavior rather than digital satellite instruments",
+              "Stopping all academic funding for ocean-bottom seismological observatories",
+              "Believing that earthquakes can be completely stopped by detonating nuclear warheads along fault lines"
+            ],
+            "optionsVi": [
+              "A. Từ bỏ dự báo chính xác ngắn hạn để chuyển sang đánh giá hiểm họa theo xác suất và dự báo sóng thần",
+              "B. Chỉ dựa vào hành vi của động vật thay vì các thiết bị vệ tinh kỹ thuật số",
+              "C. Cắt toàn bộ kinh phí học thuật cho các trạm quan trắc địa chấn dưới đáy biển",
+              "D. Tin rằng có thể chặn đứng hoàn toàn động đất bằng cách kích nổ đầu đạn hạt nhân dọc theo đường đứt gãy"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "geodynamicists have largely abandoned the elusive quest for deterministic short-term earthquake prediction... modern seismic geosciences have pivoted decisively toward probabilistic hazard assessment, advanced physics-based ground-motion simulations, and rapid tsunami forecasting to enhance coastal survival. [Paragraph 4]",
+            "evidenceVi": "các nhà địa động lực học phần lớn đã từ bỏ cuộc tìm kiếm viển vông về việc dự đoán động đất ngắn hạn chính xác tuyệt đối... khoa học địa chấn hiện đại đã chuyển hướng dứt khoát sang đánh giá hiểm họa theo xác suất, mô phỏng chuyển động mặt đất dựa trên vật lý tiên tiến và dự báo sóng thần nhanh chóng nhằm nâng cao khả năng sống sót của vùng ven biển. [Đoạn 4]",
+            "explanation": "Câu kết đoạn 4 chỉ ra bước ngoặt lớn của giới khoa học: từ bỏ ảo tưởng dự báo ngắn hạn chính xác tuyệt đối ('deterministic short-term prediction') để tập trung vào đánh giá hiểm họa xác suất ('probabilistic hazard assessment') và cảnh báo sớm sóng thần (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "abandoned the elusive quest for deterministic short-term earthquake prediction... pivoted decisively toward probabilistic hazard assessment, advanced physics-based ground-motion simulations, and rapid tsunami forecasting",
+              "clueAnswer": "Abandoning deterministic short-term prediction in favor of probabilistic hazard assessment and tsunami forecasting",
+              "keyPassage": "abandoned... deterministic short-term prediction... pivoted decisively toward probabilistic hazard assessment",
+              "keyAnswer": "Abandoning deterministic short-term prediction in favor of probabilistic hazard assessment and tsunami forecasting",
+              "paraphrasePair": "abandoned elusive quest <=> abandoning; pivoted decisively toward <=> in favor of",
+              "meaningVi": "từ bỏ dự báo ngắn hạn chuyển sang đánh giá rủi ro xác suất",
+              "deductionLogic": "Khớp câu 3 và câu cuối đoạn 4."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 

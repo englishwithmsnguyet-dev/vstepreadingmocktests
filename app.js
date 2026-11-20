@@ -1547,6 +1547,7 @@ function renderPracticeView() {
     const test18 = tests.find(t => t.testNum === 18);
     const test19 = tests.find(t => t.testNum === 19);
     const test20 = tests.find(t => t.testNum === 20);
+    const test21 = tests.find(t => t.testNum === 21);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -3273,90 +3274,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 11. BỘ ĐỀ THỰC CHIẾN 11 (TEST 21) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 11. BỘ ĐỀ THỰC CHIẾN 11 (TEST 21) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite21') {
+        const savedAnsCount21 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 21) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved21 = state.savedExam && state.savedExam.testNum === 21 && savedAnsCount21 > 0;
+        const totalVocab21 = (test21 && test21.passages) ? test21.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta21 = [
+            {
+                testNum: 21,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'media_society',
+                categoryName: 'Truyền thông & Mạng xã hội',
+                categoryColor: '#2563eb',
+                badgeBg: '#eff6ff',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Facebook in Modern Society',
+                icon: 'fa-globe',
+                title: 'Facebook in Modern Society: Evolution & Social Impacts',
+                titleVi: 'Tác động & Hành vi sử dụng Facebook trong đời sống hiện đại: Từ kết nối bạn bè đến hệ sinh thái tin tức & sức khỏe tinh thần',
+                summary: 'Sự mở rộng từ danh bạ sinh viên 2004 thành mạng lưới 3 tỷ người, cơ chế thuật toán giữ chân, bong bóng lọc (filter bubbles) và hội chứng sợ bỏ lỡ (FOMO).'
+            },
+            {
+                testNum: 21,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'psychology',
+                categoryName: 'Tâm lý học phát triển',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: First-Born vs. Only Children',
+                icon: 'fa-users',
+                title: 'First-Born vs. Only Children: Parental Dynamics & Personality',
+                titleVi: 'Tâm lý học thứ tự sinh: Tính cách con đầu lòng đối chiếu với con một trong gia đình',
+                summary: 'Lý thuyết Alfred Adler, hiện tượng truất ngôi (dethronement), tính tận tâm của con cả, bác bỏ định kiến về con một và sự vượt trội về năng khiếu ngôn ngữ sớm.'
+            },
+            {
+                testNum: 21,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'engineering_disaster',
+                categoryName: 'Kỹ thuật kháng chấn & Ứng phó thiên tai',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Earthquakes in Japan: Resilience',
+                icon: 'fa-building-shield',
+                title: 'Earthquakes in Japan: Seismic Engineering & Resilience',
+                titleVi: 'Động đất tại Nhật Bản: Kỹ thuật xây dựng kháng chấn & Năng lực phục hồi cộng đồng',
+                summary: 'Ba cấp độ phòng vệ Taishin - Seishin - Menshin (cách ly chân đế), con lắc đối trọng Tokyo Skytree, cảnh báo sớm dựa trên sóng P-wave và văn hóa diễn tập toàn dân.'
+            },
+            {
+                testNum: 21,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'geology_tectonics',
+                categoryName: 'Địa chất học & Đới hút chìm kiến tạo',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Tectonic Geology: Pacific Ring of Fire',
+                icon: 'fa-volcano',
+                title: 'Tectonic Geology: The Pacific Ring of Fire & Subduction',
+                titleVi: 'Địa chất học kiến tạo: Vành đai lửa Thái Bình Dương & Động lực học hút chìm',
+                summary: 'Hành lang địa chấn 40.000 km, cơ chế giải phóng nước khoáng vật hạ điểm nóng chảy manti sinh magma, đứt gãy megathrust gây sóng thần và bước chuyển sang đánh giá xác suất.'
+            }
+        ];
+
+        let pCardsHtml21 = '';
+        passagesMeta21.forEach(meta => {
+            const pData = (test21 && test21.passages) ? test21.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml21 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-21">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-11" id="suite-box-21">
+                <div class="practice-suite-header suite-header-11">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(59, 130, 246, 0.25); color: #93c5fd; border-color: rgba(59, 130, 246, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 11 (TEST 21) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #93c5fd;"></i> BỘ ĐỀ THỰC CHIẾN 11 (TEST 21) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 11 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Tác động của Facebook trong đời sống (Part 1) • Tâm lý con đầu lòng vs Con một (Part 2) • Động đất & Ứng phó tại Nhật Bản (Part 3) • Vành đai lửa Thái Bình Dương (Part 4)
+                            <strong>4 Topics:</strong> Tác động của Facebook (Part 1) • Tâm lý con đầu lòng vs Con một (Part 2) • Động đất & Kỹ thuật kháng chấn Nhật Bản (Part 3) • Vành đai lửa Thái Bình Dương (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab21} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(21)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab21} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved21 ? 'background: linear-gradient(135deg, #1d4ed8, #3b82f6) !important;' : ''}" onclick="${isSaved21 ? 'resumeSavedExam()' : 'startFullExam(21)'}">
+                            ${isSaved21 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount21}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(21)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #3b82f6;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 11):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Facebook in Modern Society</h4>
-                                <h5>Tác động & Hành vi sử dụng Facebook trong đời sống hiện đại</h5>
-                                <p>Sự chuyển đổi từ công cụ kết nối bạn bè sang hệ sinh thái tin tức, thương mại số và tác động tâm lý đối với sự tương tác xã hội thường nhật.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#3b82f6;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>First-Born vs. Only Children</h4>
-                                <h5>Tâm lý học thứ tự sinh: Tính cách con đầu lòng đối chiếu với con một</h5>
-                                <p>Nghiên cứu tâm lý học phát triển về kỳ vọng của cha mẹ, xu hướng cầu toàn của con đầu lòng và khả năng độc lập sáng tạo của con một trong gia đình.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Earthquakes in Japan: Resilience</h4>
-                                <h5>Động đất tại Nhật Bản: Kỹ thuật kháng chấn & Năng lực phục hồi cộng đồng</h5>
-                                <p>Kiến trúc xây dựng giảm xóc linh hoạt, hệ thống cảnh báo sớm siêu tốc và văn hóa chuẩn bị ứng phó thiên tai mẫu mực của xã hội Nhật Bản.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Tectonic Geology: Pacific Ring of Fire</h4>
-                                <h5>Địa chất học kiến tạo: Vành đai lửa Thái Bình Dương & Mối đe dọa địa chấn</h5>
-                                <p>Cơ chế hút chìm mảng kiến tạo (subduction zones), sự hình thành rãnh đại dương sâu thẳm và bài toán dự báo sóng thần toàn cầu.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml21}
                     </div>
                 </div>
             </div>
