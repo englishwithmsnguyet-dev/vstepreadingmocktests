@@ -1543,6 +1543,7 @@ function renderPracticeView() {
     const test14 = tests.find(t => t.testNum === 14);
     const test15 = tests.find(t => t.testNum === 15);
     const test16 = tests.find(t => t.testNum === 16);
+    const test17 = tests.find(t => t.testNum === 17);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -2581,90 +2582,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 7. BỘ ĐỀ THỰC CHIẾN 07 (TEST 17) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 7. BỘ ĐỀ THỰC CHIẾN 07 (TEST 17) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite17') {
+        const savedAnsCount17 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 17) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved17 = state.savedExam && state.savedExam.testNum === 17 && savedAnsCount17 > 0;
+        const totalVocab17 = (test17 && test17.passages) ? test17.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta17 = [
+            {
+                testNum: 17,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'history',
+                categoryName: 'Lịch sử & Văn hóa Nhật Bản',
+                categoryColor: '#db2777',
+                badgeBg: '#fdf2f8',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Samurai & Bushido',
+                icon: 'fa-shield-halved',
+                title: 'The Samurai & the Code of Bushido',
+                titleVi: 'Võ sĩ đạo Nhật Bản: Từ chiến binh phong kiến đến triết lý Bushido',
+                summary: 'Giải mã sự tiến hóa của Samurai từ cung thủ kỵ binh thời Heian, quan chức văn võ song toàn thời Edo đến 8 đức tính cốt lõi Bushido và dấu ấn trong xã hội Nhật hiện đại.'
+            },
+            {
+                testNum: 17,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'culture',
+                categoryName: 'Văn hóa & Lịch sử Á Đông',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: Chinese Tea Culture & History',
+                icon: 'fa-mug-hot',
+                title: 'Chinese Tea Culture & Imperial Heritage',
+                titleVi: 'Văn hóa trà Trung Quốc: Triều đại Đường - Tống, Trà Công Phu & Trà Mã Cổ Đạo',
+                summary: 'Hành trình 5 thiên niên kỷ từ Trà Kinh của Lục Vũ, nghệ thuật đánh bột trà thời Tống khai sinh Matcha Nhật Bản, sắc lệnh trà lá thời Minh đến sức ảnh hưởng địa chính trị toàn cầu.'
+            },
+            {
+                testNum: 17,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'geology',
+                categoryName: 'Địa chất học & Phòng chống thiên tai',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Landslides & Soil Erosion',
+                icon: 'fa-hill-rockslide',
+                title: 'Landslides, Soil Erosion & Slope Stability',
+                titleVi: 'Hiện tượng sạt lở đất & xói mòn: Cơ chế địa kỹ thuật & Giải pháp xanh',
+                summary: 'Phân tích áp suất nước lỗ rỗng gây hóa lỏng đất sườn dốc, hệ lụy phá rừng và xẻ ta-luy mở đường, cùng công nghệ radar vệ tinh InSAR và kỹ thuật sinh học cỏ vetiver.'
+            },
+            {
+                testNum: 17,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'global_issues',
+                categoryName: 'Kinh tế phát triển & Lương thực',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Global Hunger & Food Security',
+                icon: 'fa-wheat-awn',
+                title: 'Global Hunger & Food Security Systems',
+                titleVi: 'Nạn đói & An ninh lương thực toàn cầu: Nghịch lý phân phối & Chuyển đổi bền vững',
+                summary: 'Bóc tách 4 trụ cột an ninh lương thực FAO, sự khác biệt giữa thất thoát đầu nguồn (food loss) và lãng phí tiêu dùng (food waste), cùng các giải pháp nông thực nuôi sống 10 tỷ người.'
+            }
+        ];
+
+        let pCardsHtml17 = '';
+        passagesMeta17.forEach(meta => {
+            const pData = (test17 && test17.passages) ? test17.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml17 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-17">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-07" id="suite-box-17">
+                <div class="practice-suite-header suite-header-07">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(236, 72, 153, 0.25); color: #f472b6; border-color: rgba(236, 72, 153, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 07 (TEST 17) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #fbcfe8;"></i> BỘ ĐỀ THỰC CHIẾN 07 (TEST 17) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 07 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Võ sĩ đạo Nhật Bản (Part 1) • Văn hóa trà Trung Quốc (Part 2) • Hiện tượng sạt lở đất (Part 3) • Nạn đói & An ninh lương thực thế giới (Part 4)
+                            <strong>4 Topics:</strong> Võ sĩ đạo Nhật Bản (Part 1) • Văn hóa trà Trung Quốc (Part 2) • Hiện tượng sạt lở đất & xói mòn (Part 3) • Nạn đói & An ninh lương thực thế giới (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab17} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(17)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab17} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved17 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved17 ? 'resumeSavedExam()' : 'startFullExam(17)'}">
+                            ${isSaved17 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount17}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(17)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #ec4899;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 07):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>The Samurai & Bushido Code</h4>
-                                <h5>Võ sĩ đạo Nhật Bản: Nguồn gốc lịch sử & Tinh thần danh dự Bushido</h5>
-                                <p>Quá trình hình thành tầng lớp võ sĩ Samurai thời phong kiến Nhật Bản, 7 đức hạnh cốt lõi của đạo Bushido và ảnh hưởng văn hóa sâu sắc đến xã hội hiện đại.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ec4899;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Chinese Tea Culture & History</h4>
-                                <h5>Văn hóa trà Trung Quốc: Lịch sử, triết lý thưởng trà & Trà đạo truyền thống</h5>
-                                <p>Từ phát hiện huyền thoại của Thần Nông đến nghi thức thưởng trà tinh tế thời Đường - Tống và vai trò của con đường Trà Mã cổ đạo trong giao thương quốc tế.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Landslides & Soil Erosion Dynamics</h4>
-                                <h5>Địa chất học: Cơ chế sạt lở đất, xói mòn & Tác động của biến đổi khí hậu</h5>
-                                <p>Phân tích các yếu tố gây mất ổn định địa hình đồi dốc: cấu trúc bão hòa nước trong đất, nạn phá rừng và các công nghệ cảnh báo sớm sạt lở địa chất.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Global Hunger & Food Security</h4>
-                                <h5>Khủng hoảng lương thực: Nạn đói toàn cầu, đứt gãy chuỗi cung ứng & Giải pháp an ninh</h5>
-                                <p>Đánh giá nghịch lý lãng phí thực phẩm trong bối cảnh xung đột địa chính trị, biến đổi khí hậu khắc nghiệt và các chiến lược nông nghiệp công nghệ cao bền vững.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml17}
                     </div>
                 </div>
             </div>

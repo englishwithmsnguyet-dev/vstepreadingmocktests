@@ -36326,6 +36326,2854 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST17",
+    "testNum": 17,
+    "title": "VSTEP READING MOCK TEST 17",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 07 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: The Samurai & the Code of Bushido",
+        "topic": "Võ sĩ đạo Nhật Bản: Từ chiến binh phong kiến đến triết lý Bushido & di sản văn hóa",
+        "timeAllowed": 15,
+        "passage": "<p>Few historical figures capture the global imagination as vividly as the Japanese samurai—the elite hereditary warriors who shaped Japan's political, military, and artistic destiny for nearly seven centuries. Contrary to popular cinema portraying them purely as lone sword-fighters, the earliest samurai emerged during the late Heian period (794–1185) primarily as mounted archers hired by provincial aristocrats to guard rural estates and collect taxes. As imperial authority weakened, warrior clans consolidated regional power, culminating in the establishment of the Kamakura Shogunate in 1192, which shifted effective governance from the emperor's court to a military commander known as the shogun.</p><p>Over centuries of civil conflict—most notably the turbulent Sengoku, or Warring States, period—samurai warfare evolved substantially. Although the curved steel katana became their iconic emblem of status, battlefield samurai actually relied heavily on long spears, bows, and, after European contact in the sixteenth century, matchlock firearms. Alongside martial prowess, samurai were bound to regional feudal lords called daimyo by strict oaths of fealty, receiving rice stipends rather than coin salaries in exchange for unwavering military service and local administration.</p><p>Following the unification of Japan under the Tokugawa Shogunate in 1603, the nation entered over 250 years of uninterrupted peace known as the Edo period. With major battlefields obsolete, the samurai underwent a profound institutional transformation from battlefield fighters into salaried bureaucrats, magistrates, teachers, and patrons of high culture. It was during this peaceful era—not the violent medieval wars—that philosophers formally articulated Bushido, 'the Way of the Warrior.' Drawing upon Zen Buddhism, Confucian filial ethics, and Shinto reverence, Bushido emphasized eight core virtues including rectitude, courage, benevolence, courtesy, veracity, honor, loyalty, and self-control. Cultivated samurai studied calligraphy, classical poetry, ink painting, and the tea ceremony to harmonize martial discipline with inner tranquility.</p><p>The hereditary samurai class was officially abolished during the Meiji Restoration of the 1870s as Japan rapidly industrialized and established a modern conscript army. Former warriors relinquished their stipends and swords, with many transitioning into pioneering roles as entrepreneurs, educators, and statesmen who propelled Japan's modernization. Even though the feudal order vanished more than a century ago, the aesthetic restraint, craftsman dedication, and ethical discipline inspired by Bushido continue to resonate deeply across contemporary Japanese business culture, martial arts, and global storytelling.</p>",
+        "vocab": [
+          {
+            "word": "hereditary",
+            "pos": "adj",
+            "ipa": "/həˈred.ɪ.tər.i/",
+            "level": "B2",
+            "mean": "cha truyền con nối, thế tập theo dòng dõi",
+            "syns": [
+              "inherited",
+              "ancestral",
+              "dynastic"
+            ],
+            "ex": "Samurai rank was a hereditary privilege passed down across generations."
+          },
+          {
+            "word": "provincial",
+            "pos": "adj",
+            "ipa": "/prəˈvɪn.ʃəl/",
+            "level": "B2",
+            "mean": "thuộc địa phương, cấp tỉnh xa kinh đô",
+            "syns": [
+              "regional",
+              "local",
+              "rural"
+            ],
+            "ex": "Provincial landowners recruited armed retainers to defend distant farms."
+          },
+          {
+            "word": "aristocrat",
+            "pos": "n",
+            "ipa": "/ˈær.ɪ.stə.kræt/",
+            "level": "B2",
+            "mean": "nhà quý tộc",
+            "syns": [
+              "nobleman",
+              "patrician",
+              "lord"
+            ],
+            "ex": "Heian court aristocrats focused on literature while delegating policing to warriors."
+          },
+          {
+            "word": "consolidate",
+            "pos": "v",
+            "ipa": "/kənˈsɒl.ɪ.deɪt/",
+            "level": "C1",
+            "mean": "củng cố, thâu tóm vững chắc (quyền lực)",
+            "syns": [
+              "strengthen",
+              "unify",
+              "secure"
+            ],
+            "ex": "The shogunate moved swiftly to consolidate military authority nationwide."
+          },
+          {
+            "word": "martial",
+            "pos": "adj",
+            "ipa": "/ˈmɑː.ʃəl/",
+            "level": "B2",
+            "mean": "thuộc quân sự, võ thuật",
+            "syns": [
+              "military",
+              "warlike",
+              "combative"
+            ],
+            "ex": "Young warriors balanced rigorous martial training with classical scholarship."
+          },
+          {
+            "word": "prowess",
+            "pos": "n",
+            "ipa": "/ˈpraʊ.es/",
+            "level": "C1",
+            "mean": "tài nghệ xuất chúng, bản lĩnh điêu luyện",
+            "syns": [
+              "skill",
+              "mastery",
+              "expertise"
+            ],
+            "ex": "Archery prowess on horseback was prized above swordsmanship in early eras."
+          },
+          {
+            "word": "feudal",
+            "pos": "adj",
+            "ipa": "/ˈfjuː.dəl/",
+            "level": "B2",
+            "mean": "thuộc chế độ phong kiến",
+            "syns": [
+              "medieval",
+              "aristocratic",
+              "manorial"
+            ],
+            "ex": "Japan's feudal hierarchy placed warriors at the top of four social classes."
+          },
+          {
+            "word": "fealty",
+            "pos": "n",
+            "ipa": "/ˈfiː.əl.ti/",
+            "level": "C1",
+            "mean": "lòng trung thành thề nguyện với lãnh chúa",
+            "syns": [
+              "loyalty",
+              "allegiance",
+              "devotion"
+            ],
+            "ex": "Samurai swore solemn oaths of fealty to their regional daimyo."
+          },
+          {
+            "word": "stipend",
+            "pos": "n",
+            "ipa": "/ˈstaɪ.pend/",
+            "level": "C1",
+            "mean": "bổng lộc định kỳ (trả bằng gạo hoặc tiền)",
+            "syns": [
+              "allowance",
+              "salary",
+              "remuneration"
+            ],
+            "ex": "Retainers received annual rice stipends measured in units called koku."
+          },
+          {
+            "word": "unwavering",
+            "pos": "adj",
+            "ipa": "/ʌnˈweɪ.vər.ɪŋ/",
+            "level": "C1",
+            "mean": "kiên định, không hề lay chuyển",
+            "syns": [
+              "steadfast",
+              "resolute",
+              "firm"
+            ],
+            "ex": "The code demanded unwavering devotion to duty even under extreme hardship."
+          },
+          {
+            "word": "unification",
+            "pos": "n",
+            "ipa": "/ˌjuː.nɪ.fɪˈkeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự thống nhất đất nước",
+            "syns": [
+              "consolidation",
+              "integration",
+              "union"
+            ],
+            "ex": "National unification under Tokugawa ended a century of internal warfare."
+          },
+          {
+            "word": "obsolete",
+            "pos": "adj",
+            "ipa": "/ˌɒb.səlˈiːt/",
+            "level": "B2",
+            "mean": "lỗi thời, không còn được dùng nữa",
+            "syns": [
+              "outdated",
+              "extinct",
+              "antiquated"
+            ],
+            "ex": "Two centuries of peace rendered large-scale battlefield armor largely obsolete."
+          },
+          {
+            "word": "bureaucrat",
+            "pos": "n",
+            "ipa": "/ˈbjʊə.rə.kræt/",
+            "level": "B2",
+            "mean": "quan chức hành chính",
+            "syns": [
+              "administrator",
+              "official",
+              "civil servant"
+            ],
+            "ex": "During the Edo era, samurai served primarily as educated civil bureaucrats."
+          },
+          {
+            "word": "magistrate",
+            "pos": "n",
+            "ipa": "/ˈmædʒ.ɪ.streɪt/",
+            "level": "C1",
+            "mean": "quan tòa địa phương, quan chấp pháp",
+            "syns": [
+              "judge",
+              "justice",
+              "jurist"
+            ],
+            "ex": "Appointed samurai magistrates settled commercial and legal disputes in towns."
+          },
+          {
+            "word": "articulate",
+            "pos": "v",
+            "ipa": "/ɑːˈtɪk.jʊ.leɪt/",
+            "level": "B2",
+            "mean": "diễn đạt rõ ràng, hệ thống hóa thành văn",
+            "syns": [
+              "express",
+              "formulate",
+              "define"
+            ],
+            "ex": "Edo scholars formally articulated the ethical principles of Bushido in treatises."
+          },
+          {
+            "word": "reverence",
+            "pos": "n",
+            "ipa": "/ˈrev.ər.əns/",
+            "level": "C1",
+            "mean": "lòng tôn kính sâu sắc",
+            "syns": [
+              "respect",
+              "veneration",
+              "awe"
+            ],
+            "ex": "Shinto traditions fostered a deep reverence for nature and ancestral spirits."
+          },
+          {
+            "word": "rectitude",
+            "pos": "n",
+            "ipa": "/ˈrek.tɪ.tjuːd/",
+            "level": "C1",
+            "mean": "sự chính trực, ngay thẳng đạo đức",
+            "syns": [
+              "righteousness",
+              "integrity",
+              "uprightness"
+            ],
+            "ex": "Rectitude meant making morally sound decisions without fear or favor."
+          },
+          {
+            "word": "benevolence",
+            "pos": "n",
+            "ipa": "/bəˈnev.əl.əns/",
+            "level": "C1",
+            "mean": "lòng nhân từ, đức nhân ái",
+            "syns": [
+              "compassion",
+              "kindness",
+              "mercy"
+            ],
+            "ex": "True leadership combined martial strength with sincere benevolence toward citizens."
+          },
+          {
+            "word": "veracity",
+            "pos": "n",
+            "ipa": "/vəˈræs.ə.ti/",
+            "level": "C1",
+            "mean": "tính chân thực, lòng trung thực tuyệt đối",
+            "syns": [
+              "truthfulness",
+              "honesty",
+              "sincerity"
+            ],
+            "ex": "In samurai ethics, veracity meant a warrior's spoken word required no written contract."
+          },
+          {
+            "word": "calligraphy",
+            "pos": "n",
+            "ipa": "/kəˈlɪɡ.rə.fi/",
+            "level": "B2",
+            "mean": "nghệ thuật thư pháp",
+            "syns": [
+              "brush writing",
+              "penmanship"
+            ],
+            "ex": "Practicing brush calligraphy trained mental focus and steady hand control."
+          },
+          {
+            "word": "tranquility",
+            "pos": "n",
+            "ipa": "/træŋˈkwɪl.ə.ti/",
+            "level": "B2",
+            "mean": "sự thanh tịnh, bình an nội tâm",
+            "syns": [
+              "serenity",
+              "calmness",
+              "peacefulness"
+            ],
+            "ex": "The ritualized tea ceremony offered warriors a sanctuary of inner tranquility."
+          },
+          {
+            "word": "abolish",
+            "pos": "v",
+            "ipa": "/əˈbɒl.ɪʃ/",
+            "level": "B2",
+            "mean": "bãi bỏ chính thức bằng sắc lệnh",
+            "syns": [
+              "eliminate",
+              "end",
+              "dismantle"
+            ],
+            "ex": "Meiji reformers moved to abolish feudal class privileges in the 1870s."
+          },
+          {
+            "word": "conscript",
+            "pos": "adj",
+            "ipa": "/ˈkɒn.skrɪpt/",
+            "level": "C1",
+            "mean": "tòng quân nghĩa vụ, tuyển quân toàn dân",
+            "syns": [
+              "drafted",
+              "enlisted",
+              "national-service"
+            ],
+            "ex": "A modern conscript army replaced hereditary samurai retainers."
+          },
+          {
+            "word": "relinquish",
+            "pos": "v",
+            "ipa": "/rɪˈlɪŋ.kwɪʃ/",
+            "level": "C1",
+            "mean": "từ bỏ, giao nộp lại (quyền lợi, đặc quyền)",
+            "syns": [
+              "surrender",
+              "give up",
+              "renounce"
+            ],
+            "ex": "Former samurai were compelled to relinquish their hereditary swords and stipends."
+          },
+          {
+            "word": "statesman",
+            "pos": "n",
+            "ipa": "/ˈsteɪts.mən/",
+            "level": "B2",
+            "mean": "chính khách lỗi lạc",
+            "syns": [
+              "politician",
+              "diplomat",
+              "leader"
+            ],
+            "ex": "Many visionary Meiji statesmen hailed from former provincial samurai families."
+          },
+          {
+            "word": "restraint",
+            "pos": "n",
+            "ipa": "/rɪˈstreɪnt/",
+            "level": "B2",
+            "mean": "sự tiết chế, điềm đạm chuẩn mực",
+            "syns": [
+              "moderation",
+              "self-control",
+              "discipline"
+            ],
+            "ex": "Aesthetic restraint remains a hallmark of traditional Japanese interior design."
+          },
+          {
+            "word": "propel",
+            "pos": "v",
+            "ipa": "/prəˈpel/",
+            "level": "B2",
+            "mean": "thúc đẩy tiến vọt về phía trước",
+            "syns": [
+              "drive",
+              "accelerate",
+              "push"
+            ],
+            "ex": "Educated former warriors helped propel Japan's rapid industrial transformation."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "According to paragraph 1, what was the original role of the earliest samurai during the late Heian period?",
+            "questionVi": "Theo đoạn 1, vai trò nguyên thủy của những võ sĩ samurai đầu tiên vào cuối thời kỳ Heian là gì?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Lone wandering duelists challenging rival sword schools in cities",
+              "Mounted archers hired by provincial nobles to protect rural estates and collect taxes",
+              "Buddhist monks who composed classical calligraphy inside imperial palaces",
+              "Modern factory entrepreneurs directing industrial textile mills"
+            ],
+            "optionsVi": [
+              "A. Những kiếm sĩ đơn độc lang thang thách đấu các võ đường ở đô thị",
+              "B. Những cung thủ cưỡi ngựa được quý tộc địa phương thuê để bảo vệ điền trang nông thôn và thu thuế",
+              "C. Các nhà sư Phật giáo sáng tác thư pháp cổ điển trong hoàng cung",
+              "D. Những doanh nhân nhà máy hiện đại điều hành xưởng dệt công nghiệp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the earliest samurai emerged during the late Heian period (794–1185) primarily as mounted archers hired by provincial aristocrats to guard rural estates and collect taxes. [Paragraph 1]",
+            "evidenceVi": "những samurai sớm nhất xuất hiện vào cuối thời Heian chủ yếu là các cung thủ cưỡi ngựa được quý tộc địa phương thuê bảo vệ điền trang nông thôn và thu thuế. [Đoạn 1]",
+            "explanation": "Đoạn 1 đính chính hình ảnh điện ảnh về kiếm sĩ đơn độc: thực tế ban đầu samurai là cung thủ cưỡi ngựa bảo vệ đất đai và thu thuế cho quý tộc địa phương (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguồn gốc lịch sử (Factual)",
+              "cluePassage": "emerged during the late Heian period... primarily as mounted archers hired by provincial aristocrats to guard rural estates and collect taxes.",
+              "clueAnswer": "Mounted archers hired by provincial nobles to protect rural estates and collect taxes",
+              "keyPassage": "mounted archers hired by provincial aristocrats to guard rural estates and collect taxes",
+              "keyAnswer": "mounted archers hired by provincial nobles to protect rural estates and collect taxes",
+              "paraphrasePair": "aristocrats... guard <=> nobles... protect",
+              "meaningVi": "quý tộc & canh giữ <=> quý tộc & bảo vệ",
+              "deductionLogic": "Khớp trực tiếp câu thứ 2 đoạn 1."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "What detail in paragraph 2 challenges the stereotype that battlefield samurai fought solely with swords?",
+            "questionVi": "Chi tiết nào trong đoạn 2 thách thức định kiến rằng samurai trên chiến trường chỉ chiến đấu bằng kiếm?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "They relied heavily on spears, bows, and matchlock firearms after European contact.",
+              "They refused to carry any curved steel blades into regional battles.",
+              "They fought exclusively using unarmed hand-to-hand grappling techniques.",
+              "They banned all sixteenth-century foreign weapons on ethical grounds."
+            ],
+            "optionsVi": [
+              "A. Họ phụ thuộc nhiều vào thương dài, cung tên và súng hỏa mai sau khi tiếp xúc với châu Âu.",
+              "B. Họ từ chối mang bất kỳ thanh kiếm thép cong nào vào trận đánh.",
+              "C. Họ chỉ chiến đấu bằng kỹ thuật vật tay không.",
+              "D. Họ cấm toàn bộ vũ khí ngoại nhập thế kỷ 16 vì lý do đạo đức."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Although the curved steel katana became their iconic emblem of status, battlefield samurai actually relied heavily on long spears, bows, and, after European contact in the sixteenth century, matchlock firearms. [Paragraph 2]",
+            "evidenceVi": "Dù thanh katana thép cong trở thành biểu tượng địa vị, trên chiến trường samurai thực tế dựa rất nhiều vào thương dài, cung tên và súng hỏa mai sau khi tiếp xúc châu Âu thế kỷ 16. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ dù katana là biểu tượng, vũ khí thực chiến chủ lực lại là thương dài, cung và súng hỏa mai (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết thực chiến (Factual)",
+              "cluePassage": "battlefield samurai actually relied heavily on long spears, bows, and, after European contact in the sixteenth century, matchlock firearms.",
+              "clueAnswer": "They relied heavily on spears, bows, and matchlock firearms after European contact.",
+              "keyPassage": "relied heavily on long spears, bows, and... matchlock firearms",
+              "keyAnswer": "relied heavily on spears, bows, and matchlock firearms",
+              "paraphrasePair": "iconic emblem vs battlefield reality",
+              "meaningVi": "biểu tượng địa vị đối lập với vũ khí thực chiến đa dạng",
+              "deductionLogic": "Khớp nguyên vẹn câu thứ 2 đoạn 2."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "How were feudal samurai compensated by their daimyo according to paragraph 2?",
+            "questionVi": "Theo đoạn 2, các võ sĩ samurai phong kiến được lãnh chúa daimyo trả công bằng hình thức nào?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Through rice stipends rather than coin salaries",
+              "Through shares in European maritime shipping companies",
+              "Through direct gold coins minted by the emperor",
+              "Through unpaid voluntary service without any material reward"
+            ],
+            "optionsVi": [
+              "A. Thông qua bổng lộc bằng gạo thay vì lương tiền xu",
+              "B. Thông qua cổ phần trong các công ty hàng hải châu Âu",
+              "C. Thông qua tiền vàng trực tiếp do thiên hoàng đúc",
+              "D. Thông qua nghĩa vụ tình nguyện không có bất kỳ thù lao vật chất nào"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "receiving rice stipends rather than coin salaries in exchange for unwavering military service and local administration. [Paragraph 2]",
+            "evidenceVi": "nhận bổng lộc bằng gạo thay vì lương tiền xu để đổi lấy sự phục vụ quân sự kiên định và quản trị địa phương. [Đoạn 2]",
+            "explanation": "Đoạn 2 ghi rõ họ nhận 'rice stipends rather than coin salaries' (bổng lộc gạo thay vì tiền xu) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết kinh tế phong kiến (Factual)",
+              "cluePassage": "receiving rice stipends rather than coin salaries",
+              "clueAnswer": "Through rice stipends rather than coin salaries",
+              "keyPassage": "rice stipends rather than coin salaries",
+              "keyAnswer": "rice stipends rather than coin salaries",
+              "paraphrasePair": "compensated <=> receiving stipends",
+              "meaningVi": "được trả công <=> nhận bổng lộc bằng gạo",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "What major institutional shift did samurai experience during the peaceful Edo period (paragraph 3)?",
+            "questionVi": "Sự chuyển đổi thể chế lớn nào đã diễn ra với tầng lớp samurai trong thời kỳ hòa bình Edo (đoạn 3)?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "They emigrated abroad to serve as mercenaries across Europe.",
+              "They transitioned from battlefield fighters into salaried bureaucrats, magistrates, teachers, and cultural patrons.",
+              "They dissolved all oaths of loyalty and became wandering merchants.",
+              "They launched continuous naval invasions against neighboring Asian kingdoms."
+            ],
+            "optionsVi": [
+              "A. Họ di cư ra nước ngoài làm lính đánh thuê khắp châu Âu.",
+              "B. Họ chuyển từ chiến binh chiến trường thành quan chức hưởng lương, quan tòa, nhà giáo và người bảo trợ văn hóa.",
+              "C. Họ hủy bỏ mọi lời thề trung thành để trở thành thương nhân lang thang.",
+              "D. Họ liên tục phát động các cuộc xâm lược đường biển sang các vương quốc lân cận."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the samurai underwent a profound institutional transformation from battlefield fighters into salaried bureaucrats, magistrates, teachers, and patrons of high culture. [Paragraph 3]",
+            "evidenceVi": "tầng lớp samurai trải qua cuộc chuyển đổi thể chế sâu sắc từ chiến binh chiến trường thành quan chức hưởng lương, quan tòa, nhà giáo và nhà bảo trợ văn hóa đỉnh cao. [Đoạn 3]",
+            "explanation": "Trong hơn 250 năm hòa bình thời Edo, samurai chuyển vai trò thành bộ máy quan chức hành chính, quan tòa, thầy giáo và nhà bảo trợ nghệ thuật (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Sự chuyển dịch vai trò lịch sử (Factual)",
+              "cluePassage": "profound institutional transformation from battlefield fighters into salaried bureaucrats, magistrates, teachers, and patrons of high culture.",
+              "clueAnswer": "They transitioned from battlefield fighters into salaried bureaucrats, magistrates, teachers, and cultural patrons.",
+              "keyPassage": "transformation from battlefield fighters into salaried bureaucrats, magistrates, teachers, and patrons",
+              "keyAnswer": "transitioned from battlefield fighters into salaried bureaucrats, magistrates, teachers, and cultural patrons",
+              "paraphrasePair": "underwent a transformation <=> transitioned",
+              "meaningVi": "trải qua cuộc chuyển đổi <=> chuyển dịch vai trò",
+              "deductionLogic": "Khớp trực tiếp câu thứ 2 đoạn 3."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "According to paragraph 3, WHEN was the philosophy of Bushido formally articulated?",
+            "questionVi": "Theo đoạn 3, triết lý Võ sĩ đạo (Bushido) được hệ thống hóa chính thức vào THỜI ĐIỂM NÀO?",
+            "questionType": "DẠNG 03: CHI TIẾT THỜI ĐIỂM (Factual Detail)",
+            "options": [
+              "During the peaceful Edo period rather than during medieval battlefield wars",
+              "At the height of the bloody Sengoku civil wars",
+              "Before the establishment of the Kamakura Shogunate in 1192",
+              "After the Meiji Restoration abolished the samurai class"
+            ],
+            "optionsVi": [
+              "A. Trong thời kỳ hòa bình Edo chứ không phải trong các cuộc chiến trung cổ",
+              "B. Vào đỉnh điểm của cuộc nội chiến đẫm máu thời Chiến Quốc (Sengoku)",
+              "C. Trước khi thành lập Mạc phủ Kamakura năm 1192",
+              "D. Sau khi Minh Trị Duy Tân bãi bỏ tầng lớp samurai"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "It was during this peaceful era—not the violent medieval wars—that philosophers formally articulated Bushido, 'the Way of the Warrior.' [Paragraph 3]",
+            "evidenceVi": "Chính trong kỷ nguyên hòa bình này — chứ không phải các cuộc chiến trung cổ bạo lực — các triết gia đã chính thức hệ thống hóa Bushido, 'Con đường của Võ sĩ'. [Đoạn 3]",
+            "explanation": "Đoạn 3 nhấn mạnh bằng cấu trúc câu chẻ ('It was during this peaceful era—not the violent medieval wars—that...'): Bushido được đúc kết thành văn vào thời kỳ hòa bình Edo (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết nhấn mạnh thời gian (Factual)",
+              "cluePassage": "It was during this peaceful era—not the violent medieval wars—that philosophers formally articulated Bushido",
+              "clueAnswer": "During the peaceful Edo period rather than during medieval battlefield wars",
+              "keyPassage": "during this peaceful era—not the violent medieval wars",
+              "keyAnswer": "During the peaceful Edo period rather than during medieval battlefield wars",
+              "paraphrasePair": "this peaceful era <=> the peaceful Edo period",
+              "meaningVi": "kỷ nguyên hòa bình này <=> thời kỳ hòa bình Edo",
+              "deductionLogic": "Nhận diện phép nhấn mạnh tương phản bằng dấu gạch ngang."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "The word \"veracity\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"veracity\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "truthfulness",
+              "wealth",
+              "speed",
+              "secrecy"
+            ],
+            "optionsVi": [
+              "A. tính chân thực, lòng trung thực",
+              "B. sự giàu sang",
+              "C. tốc độ",
+              "D. sự bí mật"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Bushido emphasized eight core virtues including rectitude, courage, benevolence, courtesy, veracity, honor, loyalty, and self-control. [Paragraph 3]",
+            "evidenceVi": "Bushido nhấn mạnh tám đức tính cốt lõi gồm chính trực, dũng cảm, nhân từ, lễ nghĩa, chân thực, danh dự, trung thành và tự chủ. [Đoạn 3]",
+            "explanation": "'Veracity' (gốc Latin 'verus' = thật) mang nghĩa sự trung thực, tính chân thực ('truthfulness').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "eight core virtues including rectitude, courage, benevolence, courtesy, veracity, honor, loyalty, and self-control.",
+              "clueAnswer": "truthfulness",
+              "keyPassage": "core virtues... veracity",
+              "keyAnswer": "truthfulness",
+              "paraphrasePair": "veracity <=> truthfulness / honesty",
+              "meaningVi": "đức tính chân thực <=> lòng trung thực",
+              "deductionLogic": "Nằm trong chuỗi 8 đức tính đạo đức cốt lõi của Võ sĩ đạo."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "Why did cultivated Edo-era samurai study calligraphy, poetry, and the tea ceremony?",
+            "questionVi": "Tại sao các samurai có học thức thời Edo lại rèn luyện thư pháp, thơ ca và trà đạo?",
+            "questionType": "DẠNG 03: MỤC ĐÍCH HÀNH ĐỘNG (Factual Purpose)",
+            "options": [
+              "To harmonize martial discipline with inner tranquility",
+              "To earn extra cash by selling artwork to European tourists",
+              "Because military exercises were strictly punished by death",
+              "To pass imperial entrance examinations in ancient China"
+            ],
+            "optionsVi": [
+              "A. Để hài hòa kỷ luật võ thuật với sự thanh tịnh nội tâm",
+              "B. Để kiếm thêm tiền mặt bằng cách bán tranh cho du khách châu Âu",
+              "C. Bởi vì các bài tập quân sự bị xử tử nghiêm khắc",
+              "D. Để vượt qua kỳ thi tuyển quan lại ở Trung Hoa cổ đại"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Cultivated samurai studied calligraphy, classical poetry, ink painting, and the tea ceremony to harmonize martial discipline with inner tranquility. [Paragraph 3]",
+            "evidenceVi": "Các samurai có học thức trau dồi thư pháp, thơ cổ điển, tranh thủy mặc và trà đạo nhằm hài hòa kỷ luật võ thuật với sự bình an nội tâm. [Đoạn 3]",
+            "explanation": "Câu cuối đoạn 3 nêu trực tiếp mục đích: 'to harmonize martial discipline with inner tranquility' (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Mục đích văn hóa (Factual)",
+              "cluePassage": "studied calligraphy, classical poetry, ink painting, and the tea ceremony to harmonize martial discipline with inner tranquility.",
+              "clueAnswer": "To harmonize martial discipline with inner tranquility",
+              "keyPassage": "harmonize martial discipline with inner tranquility",
+              "keyAnswer": "harmonize martial discipline with inner tranquility",
+              "paraphrasePair": "exact purpose clause",
+              "meaningVi": "hài hòa kỷ luật võ thuật với sự thanh tịnh nội tâm",
+              "deductionLogic": "Khớp nguyên văn mệnh đề mục đích 'to harmonize...' cuối đoạn 3."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "The word \"relinquished\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"relinquished\" trong đoạn 4 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "gave up",
+              "polished",
+              "doubled",
+              "hidden"
+            ],
+            "optionsVi": [
+              "A. từ bỏ, giao nộp lại",
+              "B. đánh bóng",
+              "C. nhân đôi",
+              "D. giấu kín"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The hereditary samurai class was officially abolished during the Meiji Restoration... Former warriors relinquished their stipends and swords... [Paragraph 4]",
+            "evidenceVi": "Tầng lớp samurai thế tập chính thức bị bãi bỏ thời Minh Trị Duy Tân... Các cựu võ sĩ từ bỏ bổng lộc và thanh kiếm của mình... [Đoạn 4]",
+            "explanation": "'Relinquish' nghĩa là từ bỏ quyền sở hữu hay đặc quyền ('gave up').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "Former warriors relinquished their stipends and swords",
+              "clueAnswer": "gave up",
+              "keyPassage": "relinquished their stipends and swords",
+              "keyAnswer": "gave up",
+              "paraphrasePair": "relinquished <=> gave up / surrendered",
+              "meaningVi": "từ bỏ, giao nộp lại <=> buông bỏ",
+              "deductionLogic": "Sau khi chế độ samurai bị bãi bỏ ('abolished'), họ buộc phải giao nộp kiếm và bổng lộc."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "According to paragraph 4, what role did many former samurai play after their feudal class was abolished in the 1870s?",
+            "questionVi": "Theo đoạn 4, nhiều cựu samurai đã đảm nhận vai trò gì sau khi giai cấp phong kiến bị bãi bỏ vào thập niên 1870?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "They became entrepreneurs, educators, and statesmen driving Japan's modernization.",
+              "They refused all employment and isolated themselves permanently in mountain temples.",
+              "They overthrew the Meiji government and restored the Tokugawa Shogunate.",
+              "They abandoned Japanese traditions entirely in favor of rural farming."
+            ],
+            "optionsVi": [
+              "A. Họ trở thành doanh nhân, nhà giáo dục và chính khách thúc đẩy quá trình hiện đại hóa Nhật Bản.",
+              "B. Họ từ chối mọi việc làm và tự cô lập vĩnh viễn trên các ngôi chùa núi.",
+              "C. Họ lật đổ chính phủ Minh Trị và khôi phục Mạc phủ Tokugawa.",
+              "D. Họ từ bỏ hoàn toàn truyền thống Nhật Bản để làm nông thôn."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "with many transitioning into pioneering roles as entrepreneurs, educators, and statesmen who propelled Japan's modernization. [Paragraph 4]",
+            "evidenceVi": "nhiều người chuyển sang các vai trò tiên phong như doanh nhân, nhà giáo dục và chính khách thúc đẩy công cuộc hiện đại hóa Nhật Bản. [Đoạn 4]",
+            "explanation": "Đoạn 4 ghi nhận sự chuyển mình thành công của nhiều cựu samurai thành doanh nhân, nhà giáo và chính khách kiến tạo nước Nhật hiện đại (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Sự chuyển đổi thời Minh Trị (Factual)",
+              "cluePassage": "transitioning into pioneering roles as entrepreneurs, educators, and statesmen who propelled Japan's modernization.",
+              "clueAnswer": "They became entrepreneurs, educators, and statesmen driving Japan's modernization.",
+              "keyPassage": "entrepreneurs, educators, and statesmen who propelled Japan's modernization",
+              "keyAnswer": "entrepreneurs, educators, and statesmen driving Japan's modernization",
+              "paraphrasePair": "propelled <=> driving",
+              "meaningVi": "thúc đẩy tiến về phía trước <=> dẫn dắt thúc đẩy",
+              "deductionLogic": "Khớp trực tiếp câu thứ 2 đoạn 4."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "Which of the following best summarizes the central idea of the passage?",
+            "questionVi": "Phương án nào tóm tắt chính xác nhất ý chủ đạo của toàn bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The samurai evolved from provincial mounted warriors into Edo-era administrators and cultural custodians whose Bushido ethos still shapes modern Japan.",
+              "The katana sword was the only weapon ever respected or deployed by Japanese armies.",
+              "The Meiji Restoration destroyed every trace of samurai ethics in contemporary Japanese society.",
+              "Bushido was created purely as a combat manual for sixteenth-century European mercenaries."
+            ],
+            "optionsVi": [
+              "A. Samurai đã tiến hóa từ cung thủ kỵ binh địa phương thành quan chức hành chính và người giữ gìn văn hóa thời Edo mà tinh thần Bushido vẫn định hình nước Nhật hiện đại.",
+              "B. Thanh kiếm katana là vũ khí duy nhất từng được quân đội Nhật Bản tôn trọng và sử dụng.",
+              "C. Minh Trị Duy Tân đã xóa sạch mọi dấu vết đạo đức samurai trong xã hội Nhật hiện đại.",
+              "D. Bushido được tạo ra thuần túy như cẩm nang chiến đấu cho lính đánh thuê châu Âu thế kỷ 16."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "mounted archers... salaried bureaucrats... Bushido... continue to resonate deeply across contemporary Japanese business culture, martial arts, and global storytelling. [Paragraphs 1-4]",
+            "evidenceVi": "cung thủ cưỡi ngựa... quan chức hành chính... Bushido... tiếp tục vang vọng sâu sắc trong văn hóa doanh nghiệp, võ thuật và nghệ thuật kể chuyện hiện đại. [Đoạn 1-4]",
+            "explanation": "Phương án A bao quát trọn vẹn hành trình lịch sử 4 đoạn của bài đọc; B, C, D đều mâu thuẫn trực tiếp với các dữ kiện trong bài.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "mounted archers... salaried bureaucrats... Bushido... continue to resonate deeply across contemporary Japanese business culture",
+              "clueAnswer": "The samurai evolved from provincial mounted warriors into Edo-era administrators and cultural custodians whose Bushido ethos still shapes modern Japan.",
+              "keyPassage": "mounted archers -> Edo bureaucrats & patrons -> Bushido resonates across contemporary Japan",
+              "keyAnswer": "evolved from provincial warriors into Edo administrators & custodians whose ethos still shapes modern Japan",
+              "paraphrasePair": "resonate deeply across contemporary Japan <=> still shapes modern Japan",
+              "meaningVi": "vang vọng sâu sắc trong xã hội Nhật đương đại <=> vẫn định hình nước Nhật hiện đại",
+              "deductionLogic": "Tổng hợp hoàn hảo tiến trình lịch sử 4 đoạn."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Chinese Tea Culture & Imperial Heritage",
+        "topic": "Văn hóa trà Trung Quốc: Nguồn gốc, Triều đại Đường - Tống, Trà Công Phu & Giao thương toàn cầu",
+        "timeAllowed": 15,
+        "passage": "<p>Steeped in nearly five millennia of legend, philosophy, and botanical refinement, tea occupies a foundational place in Chinese civilization as one of the 'seven daily necessities' alongside firewood, rice, oil, salt, soy sauce, and vinegar. According to classical folklore, Emperor Shennong—the mythical father of Chinese agriculture and herbal medicine—discovered tea in 2737 BCE when wild Camellia sinensis leaves drifted fortuitously into his pot of boiling water, releasing an invigorating, emerald aroma. Beyond myth, archaeological excavations of royal tombs from the Han Dynasty confirm that tea leaves were already prized as medicinal elixirs and aristocratic tribute more than two thousand years ago.</p><p>Tea underwent a decisive cultural metamorphosis during the Tang (618–907) and Song (960–1279) dynasties, evolving from a bitter herbal tonic into a sublime aesthetic pursuit embraced by poets, monks, and scholars. In the eighth century, scholar Lu Yu authored The Classic of Tea (Cha Jing), the world's first systematic monograph detailing tea cultivation, spring water quality, ceramic utensils, and brewing etiquette. While Tang connoisseurs boiled compressed tea cakes seasoned with ginger and salt, Song elites refined the art of whisking finely pulverized green tea powder into frothy bowls—a ritual later transmitted by Zen monks to Japan, where it blossomed into the famed matcha tea ceremony.</p><p>During the Ming Dynasty (1368–1644), Emperor Hongwu abolished labor-intensive compressed tea cakes in favor of loose whole-leaf tea, revolutionizing brewing methods forever. This decree spurred the invention of iconic purple clay teapots from Yixing and gave rise to Gongfu Cha—literally 'making tea with skill'—an intricate ceremonial method still treasured across southern China today. By utilizing tiny porous clay vessels, precise water temperatures, and brief repeated infusions, Gongfu practitioners coax layered floral, roasted, and mineral notes from oolong and aged pu-erh leaves. Equally vital is its social symbolism: pouring tea respectfully for elders or guests conveys humility, reconciliation, and familial harmony.</p><p>Internationally, Chinese tea acted as a formidable catalyst of global commerce and geopolitical history. Carried overland by mule caravans along the perilous Ancient Tea Horse Road into Tibet and shipped aboard European clipper vessels from Canton, Chinese leaves captivated Western societies so intensely that trade imbalances eventually reshaped nineteenth-century Asian history. Today, China remains the world's largest tea producer and consumer, seamlessly bridging quiet meditative teahouses with booming artisanal loose-leaf exports and innovative contemporary tea beverages cherished by younger generations worldwide.</p>",
+        "vocab": [
+          {
+            "word": "steeped",
+            "pos": "adj",
+            "ipa": "/stiːpt/",
+            "level": "C1",
+            "mean": "thấm đẫm, giàu bề dày (lịch sử, truyền thống)",
+            "syns": [
+              "immersed",
+              "imbued",
+              "rich in"
+            ],
+            "ex": "Chinese tea rituals are steeped in millennia of Daoist and Buddhist thought."
+          },
+          {
+            "word": "fortuitously",
+            "pos": "adv",
+            "ipa": "/fɔːˈtʃuː.ɪ.təs.li/",
+            "level": "C1",
+            "mean": "một cách tình cờ may mắn",
+            "syns": [
+              "by chance",
+              "accidentally",
+              "serendipitously"
+            ],
+            "ex": "Legend says wild tea leaves fell fortuitously into the emperor's kettle."
+          },
+          {
+            "word": "invigorating",
+            "pos": "adj",
+            "ipa": "/ɪnˈvɪɡ.ə.reɪ.tɪŋ/",
+            "level": "B2",
+            "mean": "làm sảng khoái, tiếp thêm sinh lực",
+            "syns": [
+              "refreshing",
+              "revitalizing",
+              "energizing"
+            ],
+            "ex": "A cup of fresh green tea delivers an invigorating boost during afternoon study."
+          },
+          {
+            "word": "excavation",
+            "pos": "n",
+            "ipa": "/ˌek.skəˈveɪ.ʃən/",
+            "level": "B2",
+            "mean": "cuộc khai quật khảo cổ học",
+            "syns": [
+              "dig",
+              "unearthing",
+              "archaeological site"
+            ],
+            "ex": "Recent tomb excavations uncovered preserved tea buds dating to the Han Dynasty."
+          },
+          {
+            "word": "elixir",
+            "pos": "n",
+            "ipa": "/ɪˈlɪk.sər/",
+            "level": "C1",
+            "mean": "tiên dược, thuốc bổ trường sinh",
+            "syns": [
+              "tonic",
+              "remedy",
+              "potion"
+            ],
+            "ex": "Early physicians prescribed steeped tea leaves as a medicinal elixir for digestion."
+          },
+          {
+            "word": "tribute",
+            "pos": "n",
+            "ipa": "/ˈtrɪb.juːt/",
+            "level": "B2",
+            "mean": "cống phẩm tiến vua",
+            "syns": [
+              "offering",
+              "homage",
+              "royal gift"
+            ],
+            "ex": "Rare mountain teas were harvested annually as imperial tribute for the court."
+          },
+          {
+            "word": "metamorphosis",
+            "pos": "n",
+            "ipa": "/ˌmet.əˈmɔː.fə.sɪs/",
+            "level": "C1",
+            "mean": "sự biến hóa, lột xác chuyển mình sâu sắc",
+            "syns": [
+              "transformation",
+              "evolution",
+              "change"
+            ],
+            "ex": "Tea underwent a cultural metamorphosis from bitter medicine to high art."
+          },
+          {
+            "word": "sublime",
+            "pos": "adj",
+            "ipa": "/səˈblaɪm/",
+            "level": "C1",
+            "mean": "cao siêu, tuyệt mỹ thanh tao",
+            "syns": [
+              "exalted",
+              "transcendent",
+              "exquisite"
+            ],
+            "ex": "Tang poets celebrated the sublime serenity of brewing tea beside mountain streams."
+          },
+          {
+            "word": "monograph",
+            "pos": "n",
+            "ipa": "/ˈmɒn.ə.ɡrɑːf/",
+            "level": "C1",
+            "mean": "chuyên khảo khoa học - học thuật",
+            "syns": [
+              "treatise",
+              "study",
+              "scholarly book"
+            ],
+            "ex": "Lu Yu's Cha Jing is hailed as history's earliest systematic monograph on tea."
+          },
+          {
+            "word": "utensil",
+            "pos": "n",
+            "ipa": "/juːˈten.səl/",
+            "level": "B2",
+            "mean": "dụng cụ pha chế, trà cụ",
+            "syns": [
+              "implement",
+              "tool",
+              "vessel"
+            ],
+            "ex": "The treatise cataloged twenty-four specialized utensils for preparing tea."
+          },
+          {
+            "word": "connoisseur",
+            "pos": "n",
+            "ipa": "/ˌkɒn.əˈsɜːr/",
+            "level": "C1",
+            "mean": "người sành sỏi, chuyên gia thưởng thức",
+            "syns": [
+              "expert",
+              "aficionado",
+              "specialist"
+            ],
+            "ex": "Tea connoisseurs can identify a tea's mountain origin from a single sip."
+          },
+          {
+            "word": "pulverized",
+            "pos": "adj",
+            "ipa": "/ˈpʌl.və.raɪzd/",
+            "level": "C1",
+            "mean": "được nghiền thành bột siêu mịn",
+            "syns": [
+              "powdered",
+              "ground",
+              "crushed"
+            ],
+            "ex": "Song dynasty courtiers whisked pulverized tea leaves into luminous green foam."
+          },
+          {
+            "word": "frothy",
+            "pos": "adj",
+            "ipa": "/ˈfrɒθ.i/",
+            "level": "B2",
+            "mean": "sủi bọt mịn bông",
+            "syns": [
+              "foamy",
+              "bubbly",
+              "creamy"
+            ],
+            "ex": "Competitors vied to whip the whitest, longest-lasting frothy tea surface."
+          },
+          {
+            "word": "decree",
+            "pos": "n",
+            "ipa": "/dɪˈkriː/",
+            "level": "C1",
+            "mean": "chiếu chỉ, sắc lệnh hoàng gia",
+            "syns": [
+              "edict",
+              "order",
+              "mandate"
+            ],
+            "ex": "Emperor Hongwu's decree ended forced labor spent pressing royal tea bricks."
+          },
+          {
+            "word": "spur",
+            "pos": "v",
+            "ipa": "/spɜːr/",
+            "level": "B2",
+            "mean": "thúc đẩy, kích thích ra đời",
+            "syns": [
+              "stimulate",
+              "prompt",
+              "catalyze"
+            ],
+            "ex": "The shift to whole-leaf brewing helped spur innovations in clay pottery."
+          },
+          {
+            "word": "porous",
+            "pos": "adj",
+            "ipa": "/ˈpɔː.rəs/",
+            "level": "C1",
+            "mean": "xốp, có lỗ khí li ti thấm hương",
+            "syns": [
+              "permeable",
+              "absorbent",
+              "spongy"
+            ],
+            "ex": "Unglazed porous Yixing clay gradually absorbs subtle tea oils over years of use."
+          },
+          {
+            "word": "infusion",
+            "pos": "n",
+            "ipa": "/ɪnˈfjuː.ʒən/",
+            "level": "B2",
+            "mean": "nước hãm trà, lần pha chiết xuất",
+            "syns": [
+              "steeping",
+              "brew",
+              "extract"
+            ],
+            "ex": "High-grade oolong leaves remain aromatic across eight or more short infusions."
+          },
+          {
+            "word": "coax",
+            "pos": "v",
+            "ipa": "/kəʊks/",
+            "level": "C1",
+            "mean": "khơi gợi nhẹ nhàng, chiết xuất tinh tế",
+            "syns": [
+              "draw out",
+              "elicit",
+              "extract"
+            ],
+            "ex": "Careful water temperature helps coax sweet floral notes without bitterness."
+          },
+          {
+            "word": "humility",
+            "pos": "n",
+            "ipa": "/hjuːˈmɪl.ə.ti/",
+            "level": "B2",
+            "mean": "sự khiêm nhường, kính trọng",
+            "syns": [
+              "modesty",
+              "deference",
+              "respectfulness"
+            ],
+            "ex": "Offering a teacup with both hands expresses sincerity and humility."
+          },
+          {
+            "word": "reconciliation",
+            "pos": "n",
+            "ipa": "/ˌrek.ən.sɪl.iˈeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự hòa giải, hàn gắn quan hệ",
+            "syns": [
+              "peace-making",
+              "harmony",
+              "settlement"
+            ],
+            "ex": "Serving tea to an offended elder traditionally symbolizes sincere reconciliation."
+          },
+          {
+            "word": "catalyst",
+            "pos": "n",
+            "ipa": "/ˈkæt.əl.ɪst/",
+            "level": "C1",
+            "mean": "chất xúc tác, động lực bùng nổ",
+            "syns": [
+              "driver",
+              "spark",
+              "stimulus"
+            ],
+            "ex": "European appetite for Chinese tea became a powerful catalyst for maritime trade."
+          },
+          {
+            "word": "perilous",
+            "pos": "adj",
+            "ipa": "/ˈper.əl.əs/",
+            "level": "C1",
+            "mean": "hiểm trở, đầy nguy hiểm",
+            "syns": [
+              "hazardous",
+              "treacherous",
+              "dangerous"
+            ],
+            "ex": "Porters navigated perilous Himalayan mountain trails carrying heavy tea bricks."
+          },
+          {
+            "word": "geopolitical",
+            "pos": "adj",
+            "ipa": "/ˌdʒiː.əʊ.pəˈlɪt.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc địa chính trị quốc tế",
+            "syns": [
+              "international-political",
+              "strategic"
+            ],
+            "ex": "Silver outflows caused by British tea imports triggered major geopolitical conflicts."
+          },
+          {
+            "word": "artisanal",
+            "pos": "adj",
+            "ipa": "/ˌɑː.tɪˈzæn.əl/",
+            "level": "B2",
+            "mean": "thủ công tinh xảo, chất lượng nghệ nhân",
+            "syns": [
+              "handcrafted",
+              "craft",
+              "small-batch"
+            ],
+            "ex": "Global specialty cafes increasingly showcase artisanal single-origin Chinese teas."
+          },
+          {
+            "word": "meditative",
+            "pos": "adj",
+            "ipa": "/ˈmed.ɪ.tə.tɪv/",
+            "level": "B2",
+            "mean": "mang tính thiền định, lắng đọng tâm trí",
+            "syns": [
+              "contemplative",
+              "reflective",
+              "calming"
+            ],
+            "ex": "Slowly warming the teaware creates a meditative pause amid busy urban schedules."
+          },
+          {
+            "word": "imbalance",
+            "pos": "n",
+            "ipa": "/ɪmˈbæl.əns/",
+            "level": "B2",
+            "mean": "sự mất cân bằng (cán cân thương mại)",
+            "syns": [
+              "disparity",
+              "inequality",
+              "asymmetry"
+            ],
+            "ex": "Britain's massive tea purchases generated a severe silver trade imbalance."
+          },
+          {
+            "word": "transmit",
+            "pos": "v",
+            "ipa": "/trænzˈmɪt/",
+            "level": "B2",
+            "mean": "truyền bá, chuyển giao sang nền văn hóa khác",
+            "syns": [
+              "pass on",
+              "convey",
+              "spread"
+            ],
+            "ex": "Traveling Buddhist monks helped transmit Song whisked-tea customs to Japan."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "What do Han Dynasty tomb excavations confirm according to paragraph 1?",
+            "questionVi": "Theo đoạn 1, các cuộc khai quật lăng mộ thời nhà Hán xác nhận điều gì?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "That Emperor Shennong personally built purple clay kilns in Yixing",
+              "That tea leaves were already valued as medicinal elixirs and noble tribute over 2,000 years ago",
+              "That tea was originally imported to China from medieval Europe",
+              "That Han citizens drank tea strictly with added milk and refined sugar"
+            ],
+            "optionsVi": [
+              "A. Rằng Thần Nông trực tiếp xây lò gốm đất tím tại Nghi Hưng",
+              "B. Rằng lá trà đã được coi trọng như dược phẩm bổ dưỡng và cống phẩm quý tộc hơn 2.000 năm trước",
+              "C. Rằng trà ban đầu được nhập khẩu vào Trung Quốc từ châu Âu thời trung cổ",
+              "D. Rằng cư dân thời Hán chỉ uống trà pha với sữa và đường tinh luyện"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "archaeological excavations of royal tombs from the Han Dynasty confirm that tea leaves were already prized as medicinal elixirs and aristocratic tribute more than two thousand years ago. [Paragraph 1]",
+            "evidenceVi": "các cuộc khai quật khảo cổ lăng mộ hoàng gia thời Hán xác nhận lá trà đã được trân trọng như thuốc bổ và cống phẩm quý tộc từ hơn hai nghìn năm trước. [Đoạn 1]",
+            "explanation": "Đoạn 1 đối chiếu truyền thuyết Thần Nông với bằng chứng khảo cổ học thời Hán xác nhận trà từng là dược thảo và cống phẩm quý tộc từ hơn 2.000 năm trước (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Bằng chứng khảo cổ (Factual)",
+              "cluePassage": "archaeological excavations of royal tombs from the Han Dynasty confirm that tea leaves were already prized as medicinal elixirs and aristocratic tribute more than two thousand years ago.",
+              "clueAnswer": "That tea leaves were already valued as medicinal elixirs and noble tribute over 2,000 years ago",
+              "keyPassage": "prized as medicinal elixirs and aristocratic tribute more than two thousand years ago",
+              "keyAnswer": "valued as medicinal elixirs and noble tribute over 2,000 years ago",
+              "paraphrasePair": "prized... aristocratic <=> valued... noble",
+              "meaningVi": "được trân trọng & quý tộc <=> được coi trọng & giới quý tộc",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "Why is Lu Yu's eighth-century work The Classic of Tea (Cha Jing) historically notable?",
+            "questionVi": "Tại sao tác phẩm Trà Kinh (Cha Jing) thế kỷ thứ 8 của Lục Vũ lại có ý nghĩa lịch sử đặc biệt?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "It was the first systematic monograph comprehensively covering tea farming, water, utensils, and brewing etiquette.",
+              "It ordered the permanent abolition of compressed tea cakes across China.",
+              "It documented the maritime routes of nineteenth-century European clipper ships.",
+              "It invented modern porcelain teabags for busy factory laborers."
+            ],
+            "optionsVi": [
+              "A. Đó là chuyên khảo hệ thống đầu tiên trên thế giới trình bày toàn diện về trồng trà, nguồn nước, trà cụ và nghi thức pha trà.",
+              "B. Nó ban hành lệnh bãi bỏ vĩnh viễn bánh trà ép trên khắp Trung Quốc.",
+              "C. Nó ghi chép các hải trình của tàu buồm tốc độ cao châu Âu thế kỷ 19.",
+              "D. Nó phát minh ra túi lọc trà bằng sứ hiện đại cho công nhân nhà máy."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "scholar Lu Yu authored The Classic of Tea (Cha Jing), the world's first systematic monograph detailing tea cultivation, spring water quality, ceramic utensils, and brewing etiquette. [Paragraph 2]",
+            "evidenceVi": "học giả Lục Vũ biên soạn Trà Kinh (Cha Jing), chuyên khảo hệ thống đầu tiên thế giới trình bày chi tiết việc trồng trà, chất lượng nước suối, trà cụ gốm và phép tắc pha trà. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ Trà Kinh của Lục Vũ là chuyên khảo hệ thống đầu tiên trên thế giới về trồng trà, nước pha, trà cụ và nghi thức thưởng trà (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết lịch sử văn hóa (Factual)",
+              "cluePassage": "the world's first systematic monograph detailing tea cultivation, spring water quality, ceramic utensils, and brewing etiquette.",
+              "clueAnswer": "It was the first systematic monograph comprehensively covering tea farming, water, utensils, and brewing etiquette.",
+              "keyPassage": "first systematic monograph detailing tea cultivation, spring water, utensils, brewing etiquette",
+              "keyAnswer": "first systematic monograph covering tea farming, water, utensils, brewing etiquette",
+              "paraphrasePair": "tea cultivation <=> tea farming",
+              "meaningVi": "canh tác trà <=> trồng trọt trà",
+              "deductionLogic": "Loại B vì đó là sắc lệnh của vua Minh Thái Tổ (Emperor Hongwu) ở đoạn 3."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "According to paragraph 2, which Chinese tea practice directly gave rise to Japan's famous matcha tea ceremony?",
+            "questionVi": "Theo đoạn 2, tập quán thưởng trà nào của Trung Quốc đã trực tiếp khai sinh ra trà đạo matcha nổi tiếng của Nhật Bản?",
+            "questionType": "DẠNG 03: MỐI LIÊN HỆ LỊCH SỬ (Factual Detail)",
+            "options": [
+              "Boiling salted tea bricks seasoned with fresh ginger from the Tang Dynasty",
+              "Whisking finely pulverized green tea powder into frothy bowls during the Song Dynasty",
+              "Steeping whole oolong leaves inside tiny Yixing purple clay teapots",
+              "Carrying aged pu-erh bricks by mule caravans into mountainous Tibet"
+            ],
+            "optionsVi": [
+              "A. Đun sôi bánh trà ép nêm muối và gừng tươi thời nhà Đường",
+              "B. Đánh tan bột trà xanh nghiền siêu mịn thành lớp bọt bông thời nhà Tống",
+              "C. Hãm lá trà ô long nguyên cánh trong ấm đất tím Nghi Hưng cỡ nhỏ",
+              "D. Thồ bánh trà phổ nhĩ bằng đoàn la dọc con đường lên Tây Tạng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Song elites refined the art of whisking finely pulverized green tea powder into frothy bowls—a ritual later transmitted by Zen monks to Japan, where it blossomed into the famed matcha tea ceremony. [Paragraph 2]",
+            "evidenceVi": "giới tinh hoa nhà Tống nâng tầm nghệ thuật đánh bột trà xanh nghiền mịn thành bát trà sủi bọt — nghi thức sau đó được các thiền sư truyền sang Nhật và nở rộ thành trà đạo matcha danh tiếng. [Đoạn 2]",
+            "explanation": "Đoạn 2 khẳng định nghệ thuật đánh bột trà xanh thời Tống đã được các thiền sư mang sang Nhật và phát triển thành trà đạo matcha (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Giao lưu văn hóa Đông Á (Factual)",
+              "cluePassage": "Song elites refined the art of whisking finely pulverized green tea powder into frothy bowls—a ritual later transmitted by Zen monks to Japan, where it blossomed into the famed matcha tea ceremony.",
+              "clueAnswer": "Whisking finely pulverized green tea powder into frothy bowls during the Song Dynasty",
+              "keyPassage": "whisking finely pulverized green tea powder... transmitted to Japan... matcha tea ceremony",
+              "keyAnswer": "Whisking finely pulverized green tea powder into frothy bowls during the Song Dynasty",
+              "paraphrasePair": "blossomed into <=> gave rise to",
+              "meaningVi": "nở rộ thành <=> trực tiếp khai sinh ra",
+              "deductionLogic": "Phân biệt rõ thời Đường (đun trà bánh với gừng muối), thời Tống (đánh bột trà -> matcha), và thời Minh (trà lá rời)."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "How did Emperor Hongwu of the Ming Dynasty transform tea preparation in paragraph 3?",
+            "questionVi": "Hoàng đế Hồng Vũ thời nhà Minh đã làm thay đổi cách pha trà như thế nào trong đoạn 3?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / HỆ QUẢ (Cause & Effect)",
+            "options": [
+              "By abolishing labor-intensive compressed tea cakes in favor of loose whole-leaf tea",
+              "By prohibiting ceramic teapots in southern Chinese provinces",
+              "By banning tea drinking among Buddhist monks and university scholars",
+              "By mandating that all tea leaves be ground into fine powder before export"
+            ],
+            "optionsVi": [
+              "A. Bằng cách bãi bỏ bánh trà ép tốn nhiều công sức để chuyển sang dùng trà lá rời nguyên cánh",
+              "B. Bằng cách cấm sử dụng ấm trà bằng gốm tại các tỉnh miền Nam Trung Quốc",
+              "C. Bằng cách cấm các nhà sư Phật giáo và học giả uống trà",
+              "D. Bằng cách bắt buộc nghiền toàn bộ lá trà thành bột mịn trước khi xuất khẩu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "During the Ming Dynasty (1368–1644), Emperor Hongwu abolished labor-intensive compressed tea cakes in favor of loose whole-leaf tea, revolutionizing brewing methods forever. [Paragraph 3]",
+            "evidenceVi": "Thời nhà Minh, Hoàng đế Hồng Vũ bãi bỏ trà bánh ép tốn công sức để chuyển sang trà lá rời nguyên cánh, cách mạng hóa phương pháp pha trà mãi mãi. [Đoạn 3]",
+            "explanation": "Sắc lệnh của Minh Thái Tổ (Emperor Hongwu) bỏ trà bánh ép chuyển sang trà lá rời đã làm ra đời ấm đất Nghi Hưng và nghệ thuật pha trà Công Phu (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cột mốc cải cách thời Minh (Factual)",
+              "cluePassage": "Emperor Hongwu abolished labor-intensive compressed tea cakes in favor of loose whole-leaf tea, revolutionizing brewing methods forever.",
+              "clueAnswer": "By abolishing labor-intensive compressed tea cakes in favor of loose whole-leaf tea",
+              "keyPassage": "abolished labor-intensive compressed tea cakes in favor of loose whole-leaf tea",
+              "keyAnswer": "abolishing labor-intensive compressed tea cakes in favor of loose whole-leaf tea",
+              "paraphrasePair": "revolutionizing brewing methods <=> transform tea preparation",
+              "meaningVi": "cách mạng hóa phương pháp pha <=> thay đổi cách pha trà",
+              "deductionLogic": "Khớp trực tiếp câu 1 đoạn 3."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "The word \"coax\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"coax\" trong đoạn 3 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "gently draw out",
+              "forcefully destroy",
+              "artificially color",
+              "rapidly freeze"
+            ],
+            "optionsVi": [
+              "A. nhẹ nhàng khơi gợi, chiết xuất ra",
+              "B. phá hủy thô bạo",
+              "C. nhuộm màu nhân tạo",
+              "D. làm đông lạnh nhanh"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By utilizing tiny porous clay vessels, precise water temperatures, and brief repeated infusions, Gongfu practitioners coax layered floral, roasted, and mineral notes from oolong and aged pu-erh leaves. [Paragraph 3]",
+            "evidenceVi": "Nhờ dùng ấm đất xốp nhỏ, nhiệt độ nước chuẩn xác và nhiều lần hãm ngắn, người pha trà Công Phu khơi gợi tinh tế các tầng hương hoa, hương rang và khoáng chất từ trà ô long và phổ nhĩ. [Đoạn 3]",
+            "explanation": "'Coax' trong ẩm thực/trà đạo mang nghĩa nhẹ nhàng chiết xuất, khơi gợi hương vị tiềm ẩn ('gently draw out').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa ngữ cảnh (Vocabulary)",
+              "cluePassage": "coax layered floral, roasted, and mineral notes from oolong and aged pu-erh leaves.",
+              "clueAnswer": "gently draw out",
+              "keyPassage": "coax layered floral... notes from... leaves",
+              "keyAnswer": "gently draw out",
+              "paraphrasePair": "coax... from <=> gently draw out... from",
+              "meaningVi": "khéo léo khơi gợi hương thơm từ lá trà <=> nhẹ nhàng chiết xuất ra",
+              "deductionLogic": "Cấu trúc 'coax X from Y' diễn tả sự chiết xuất tinh tế bằng kỹ thuật khéo léo."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "What social meaning does pouring tea for elders or guests symbolize in paragraph 3?",
+            "questionVi": "Hành động rót trà cho bậc trưởng bối hay khách quý mang ý nghĩa xã hội nào trong đoạn 3?",
+            "questionType": "DẠNG 03: Ý NGHĨA VĂN HÓA (Factual Detail)",
+            "options": [
+              "Humility, reconciliation, and family harmony",
+              "Commercial rivalry and aristocratic superiority",
+              "Formal declaration of regional military alliances",
+              "Financial payment for agricultural land leases"
+            ],
+            "optionsVi": [
+              "A. Sự khiêm nhường, hòa giải và hòa thuận gia đình",
+              "B. Sự cạnh tranh thương mại và ưu thế quý tộc",
+              "C. Tuyên bố chính thức các liên minh quân sự địa phương",
+              "D. Khoản thanh toán tài chính cho việc thuê đất nông nghiệp"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "pouring tea respectfully for elders or guests conveys humility, reconciliation, and familial harmony. [Paragraph 3]",
+            "evidenceVi": "kính cẩn rót trà cho người lớn tuổi hay khách mời truyền tải sự khiêm nhường, hòa giải và hòa thuận gia đình. [Đoạn 3]",
+            "explanation": "Câu cuối đoạn 3 nêu chính xác 3 giá trị xã hội: 'humility, reconciliation, and familial harmony' (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Biểu tượng xã hội (Factual)",
+              "cluePassage": "pouring tea respectfully for elders or guests conveys humility, reconciliation, and familial harmony.",
+              "clueAnswer": "Humility, reconciliation, and family harmony",
+              "keyPassage": "humility, reconciliation, and familial harmony",
+              "keyAnswer": "Humility, reconciliation, and family harmony",
+              "paraphrasePair": "familial harmony <=> family harmony",
+              "meaningVi": "sự hòa thuận gia đình",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "The word \"perilous\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"perilous\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "dangerous",
+              "profitable",
+              "flat",
+              "paved"
+            ],
+            "optionsVi": [
+              "A. nguy hiểm, hiểm trở",
+              "B. sinh lời cao",
+              "C. bằng phẳng",
+              "D. được trải nhựa"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Carried overland by mule caravans along the perilous Ancient Tea Horse Road into Tibet... [Paragraph 4]",
+            "evidenceVi": "Được vận chuyển đường bộ bằng đoàn la dọc theo Trà Mã Cổ Đạo hiểm trở tiến vào Tây Tạng... [Đoạn 4]",
+            "explanation": "'Perilous' (từ danh từ 'peril' = hiểm họa) có nghĩa là hiểm trở, đầy nguy hiểm ('dangerous').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "along the perilous Ancient Tea Horse Road into Tibet",
+              "clueAnswer": "dangerous",
+              "keyPassage": "perilous Ancient Tea Horse Road",
+              "keyAnswer": "dangerous",
+              "paraphrasePair": "perilous <=> dangerous / hazardous",
+              "meaningVi": "hiểm trở nguy nan <=> nguy hiểm",
+              "deductionLogic": "Đường bộ bằng la vào cao nguyên Tây Tạng gợi bối cảnh địa hình hiểm trở."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "What geopolitical consequence of European demand for Chinese tea is implied in paragraph 4?",
+            "questionVi": "Hệ quả địa chính trị nào của nhu cầu trà Trung Quốc tại châu Âu được hàm ý trong đoạn 4?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "Intense Western demand created trade imbalances that significantly altered nineteenth-century Asian history.",
+              "European empires completely abandoned sea navigation to use Tibetan mule trails.",
+              "China stopped exporting tea permanently after the eighteenth century.",
+              "Western consumers rejected Chinese tea leaves in favor of herbal salt broths."
+            ],
+            "optionsVi": [
+              "A. Nhu cầu mãnh liệt của phương Tây tạo ra mất cân bằng thương mại làm biến đổi sâu sắc lịch sử châu Á thế kỷ 19.",
+              "B. Các đế quốc châu Âu từ bỏ hoàn toàn hàng hải để đi đường mòn la Tây Tạng.",
+              "C. Trung Quốc ngừng xuất khẩu trà vĩnh viễn sau thế kỷ 18.",
+              "D. Người tiêu dùng phương Tây từ chối trà Trung Quốc để uống nước canh muối thảo mộc."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Chinese leaves captivated Western societies so intensely that trade imbalances eventually reshaped nineteenth-century Asian history. [Paragraph 4]",
+            "evidenceVi": "Lá trà Trung Hoa mê hoặc xã hội phương Tây mãnh liệt đến mức tình trạng mất cân bằng thương mại rốt cuộc đã định hình lại lịch sử châu Á thế kỷ 19. [Đoạn 4]",
+            "explanation": "Đoạn 4 chỉ rõ sức hút của trà Trung Hoa tạo nên thâm hụt/mất cân bằng thương mại dẫn đến các biến cố lịch sử lớn ở châu Á thế kỷ 19 (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận lịch sử (Inference)",
+              "cluePassage": "captivated Western societies so intensely that trade imbalances eventually reshaped nineteenth-century Asian history.",
+              "clueAnswer": "Intense Western demand created trade imbalances that significantly altered nineteenth-century Asian history.",
+              "keyPassage": "trade imbalances eventually reshaped nineteenth-century Asian history",
+              "keyAnswer": "trade imbalances significantly altered nineteenth-century Asian history",
+              "paraphrasePair": "reshaped <=> significantly altered",
+              "meaningVi": "định hình lại <=> làm biến đổi sâu sắc",
+              "deductionLogic": "Khớp trực tiếp mệnh đề kết quả trong câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "Which of the following is NOT mentioned in the passage as part of Chinese tea's history or modern presence?",
+            "questionVi": "Yếu tố nào sau đây KHÔNG được đề cập trong bài đọc như một phần lịch sử hoặc hiện diện ngày nay của trà Trung Quốc?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Yixing purple clay teapots used in Gongfu Cha",
+              "The Ancient Tea Horse Road leading overland into Tibet",
+              "China's current status as the world's largest tea producer and consumer",
+              "A legal ban prohibiting young Chinese consumers from drinking modern tea beverages"
+            ],
+            "optionsVi": [
+              "A. Ấm đất tím Nghi Hưng dùng trong nghệ thuật trà Công Phu",
+              "B. Trà Mã Cổ Đạo vận chuyển đường bộ vào Tây Tạng",
+              "C. Vị thế hiện tại của Trung Quốc là nước sản xuất và tiêu thụ trà lớn nhất thế giới",
+              "D. Lệnh cấm pháp lý ngăn giới trẻ Trung Quốc uống các thức uống trà hiện đại"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "bridging quiet meditative teahouses with booming artisanal loose-leaf exports and innovative contemporary tea beverages cherished by younger generations worldwide. [Paragraph 4]",
+            "evidenceVi": "kết nối trà quán thiền định tĩnh lặng với xuất khẩu trà lá thủ công bùng nổ và các đồ uống trà sáng tạo đương đại được giới trẻ toàn cầu yêu thích. [Đoạn 4]",
+            "explanation": "A, B, C đều được nêu chính xác trong bài. Phương án D hoàn toàn trái ngược vì bài nói giới trẻ rất yêu thích các thức uống trà sáng tạo hiện đại.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "innovative contemporary tea beverages cherished by younger generations worldwide.",
+              "clueAnswer": "A legal ban prohibiting young Chinese consumers from drinking modern tea beverages",
+              "keyPassage": "contemporary tea beverages cherished by younger generations",
+              "keyAnswer": "legal ban prohibiting young consumers (Contradicts text)",
+              "paraphrasePair": "cherished (yêu thích) >< legal ban (lệnh cấm)",
+              "meaningVi": "được yêu thích trái ngược với lệnh cấm pháp lý",
+              "deductionLogic": "Loại trừ A, B, C đều có dẫn chứng rõ ràng trong đoạn 3 và 4."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "Which title best reflects the scope of the entire passage?",
+            "questionVi": "Tiêu đề nào phản ánh đầy đủ nhất phạm vi của toàn bộ bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "From Mythical Elixir to Global Legacy: Five Millennia of Chinese Tea Culture",
+              "Why Tang Dynasty Ginger Tea Failed to Attract Japanese Zen Monks",
+              "Clay Chemistry: How Yixing Potters Mine Underground Minerals",
+              "The Complete Economic Collapse of Nineteenth-Century Clipper Ships"
+            ],
+            "optionsVi": [
+              "A. Từ tiên dược thần thoại đến di sản toàn cầu: Năm thiên niên kỷ văn hóa trà Trung Hoa",
+              "B. Tại sao trà gừng thời Đường không thu hút được thiền sư Nhật Bản",
+              "C. Hóa học đất sét: Cách nghệ nhân Nghi Hưng khai thác khoáng sản dưới lòng đất",
+              "D. Sự sụp đổ kinh tế hoàn toàn của tàu buồm cao tốc thế kỷ 19"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "nearly five millennia of legend... Tang and Song dynasties... Ming Dynasty... Gongfu Cha... global commerce... modern producer and consumer. [Paragraphs 1-4]",
+            "evidenceVi": "gần năm thiên niên kỷ truyền thuyết... triều Đường - Tống... triều Minh... trà Công Phu... thương mại toàn cầu... hiện đại. [Đoạn 1-4]",
+            "explanation": "Phương án A bao quát trọn vẹn dòng chảy 5.000 năm văn hóa, kỹ thuật pha chế và ảnh hưởng toàn cầu của trà Trung Hoa.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Tiêu đề bao quát (Best Title)",
+              "cluePassage": "five millennia of legend... medicinal elixirs... global commerce... cherished by younger generations worldwide",
+              "clueAnswer": "From Mythical Elixir to Global Legacy: Five Millennia of Chinese Tea Culture",
+              "keyPassage": "five millennia... medicinal elixirs... global commerce",
+              "keyAnswer": "Mythical Elixir to Global Legacy: Five Millennia of Chinese Tea Culture",
+              "paraphrasePair": "chronological thematic synthesis",
+              "meaningVi": "tổng hợp toàn bộ tiến trình từ nguồn gốc thần thoại đến di sản toàn cầu",
+              "deductionLogic": "B, C, D quá hẹp hoặc sai sự thật so với bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Landslides, Soil Erosion & Slope Stability",
+        "topic": "Hiện tượng sạt lở đất & xói mòn: Cơ chế địa kỹ thuật, phá rừng và giải pháp giảm thiểu rủi ro",
+        "timeAllowed": 15,
+        "passage": "<p>Across steep mountainous corridors from the Himalayas and the Andes to the central highlands of Vietnam, landslides and accelerated soil erosion pose relentless hazards to rural livelihoods, hydroelectric reservoirs, and vital transport arteries. While soil erosion typically unfolds as a gradual, sheet-like stripping of fertile topsoil by wind and surface runoff, a landslide represents a sudden, catastrophic mass movement of rock, debris, or saturated earth cascading down a slope under the pull of gravity. Geotechnical engineers conceptualize slope stability as a continuous tug-of-war between two opposing forces: shear stress, which drags hillside materials downward, and shear strength—the internal friction and root cohesion holding the soil matrix in place.</p><p>Natural geological preconditions such as fractured bedrock, seismic tremors, and volcanic ash layers establish baseline vulnerability, yet water saturation acts as the single most frequent immediate trigger. During intense monsoon downpours or prolonged typhoon rainfall, rainwater infiltrates porous hillside strata faster than it can drain away. This trapped water elevates pore-water pressure between microscopic soil grains, literally pushing particles apart and dissolving the frictional bonds that bind a slope together. Simultaneously, soaked earth grows dramatically heavier, amplifying downward gravitational shear stress until the hillside crosses its tipping point and liquefies into a fast-moving mudflow capable of burying entire villages in seconds.</p><p>Compounding natural climate extremes—which increasingly deliver concentrated 'rain bombs' due to atmospheric warming—human land-use modifications have sharply magnified slope instability worldwide. Clear-cutting upland forests for timber or monoculture plantations strips hillsides of protective canopy cover that once intercepted pelting raindrops, while decaying tree roots surrender the deep tensile web that mechanically anchored soil layers to underlying bedrock. Equally destructive is improper hillside road construction: slicing vertical cuts into mountain toes removes crucial structural buttressing and disrupts subterranean drainage channels, frequently unleashing recurrent slope failures along newly paved mountain highways.</p><p>Modern hazard mitigation increasingly replaces reactive disaster relief with proactive, multi-layered engineering and ecological planning. High-risk corridors now deploy satellite radar interferometry (InSAR) and wireless ground tiltmeters capable of detecting millimeter-scale hillside creep weeks before catastrophic collapse, buying precious evacuation time. Physically, engineers combine reinforced concrete retaining walls and deep horizontal drainage pipes with bioengineering solutions—such as planting deep-rooted vetiver grass and diverse native forest belts—whose interlocking root matrices continuously absorb excess moisture and regenerate structural slope resilience at a fraction of the cost of pure concrete armor.</p>",
+        "vocab": [
+          {
+            "word": "topsoil",
+            "pos": "n",
+            "ipa": "/ˈtɒp.sɔɪl/",
+            "level": "B2",
+            "mean": "tầng đất mặt màu mỡ",
+            "syns": [
+              "surface soil",
+              "humus layer",
+              "upper earth"
+            ],
+            "ex": "Unchecked water runoff strips away centuries of fertile agricultural topsoil."
+          },
+          {
+            "word": "runoff",
+            "pos": "n",
+            "ipa": "/ˈrʌn.ɒf/",
+            "level": "B2",
+            "mean": "dòng chảy tràn trên mặt đất sau mưa",
+            "syns": [
+              "surface flow",
+              "drainage",
+              "overflow"
+            ],
+            "ex": "Bare deforested hills allow heavy rainfall to turn instantly into erosive runoff."
+          },
+          {
+            "word": "debris",
+            "pos": "n",
+            "ipa": "/ˈdeb.riː/",
+            "level": "B2",
+            "mean": "đất đá, mảnh vỡ sạt lở hỗn hợp",
+            "syns": [
+              "rubble",
+              "fragments",
+              "wreckage"
+            ],
+            "ex": "A torrent of mud, uprooted trees, and rocky debris blocked the mountain pass."
+          },
+          {
+            "word": "cascade",
+            "pos": "v",
+            "ipa": "/kæsˈkeɪd/",
+            "level": "C1",
+            "mean": "đổ ập xuống, trượt ồ ạt xuống dốc",
+            "syns": [
+              "tumble",
+              "plunge",
+              "pour down"
+            ],
+            "ex": "Saturated boulders began to cascade down the cliffside during the typhoon."
+          },
+          {
+            "word": "geotechnical",
+            "pos": "adj",
+            "ipa": "/ˌdʒiː.əʊˈtek.nɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc địa kỹ thuật (cơ học đất đá)",
+            "syns": [
+              "earth-engineering",
+              "soil-mechanics"
+            ],
+            "ex": "Geotechnical surveys evaluate bedrock stability before mountain tunnels are dug."
+          },
+          {
+            "word": "cohesion",
+            "pos": "n",
+            "ipa": "/kəʊˈhiː.ʒən/",
+            "level": "C1",
+            "mean": "lực liên kết kết dính giữa các hạt đất",
+            "syns": [
+              "binding",
+              "adhesion",
+              "unity"
+            ],
+            "ex": "Interlocking tree roots greatly increase the internal cohesion of hillside clay."
+          },
+          {
+            "word": "fractured",
+            "pos": "adj",
+            "ipa": "/ˈfræk.tʃəd/",
+            "level": "B2",
+            "mean": "nứt nẻ, đứt gãy cấu trúc",
+            "syns": [
+              "cracked",
+              "broken",
+              "fissured"
+            ],
+            "ex": "Water seeps easily through fractured limestone bedrock beneath steep ridges."
+          },
+          {
+            "word": "seismic",
+            "pos": "adj",
+            "ipa": "/ˈsaɪz.mɪk/",
+            "level": "B2",
+            "mean": "thuộc địa chấn, động đất",
+            "syns": [
+              "earthquake-related",
+              "tectonic",
+              "tremor"
+            ],
+            "ex": "Seismic shaking can instantly destabilize mountain slopes already weakened by rain."
+          },
+          {
+            "word": "infiltrate",
+            "pos": "v",
+            "ipa": "/ˈɪn.fɪl.treɪt/",
+            "level": "C1",
+            "mean": "thấm sâu vào bên trong các tầng đất",
+            "syns": [
+              "seep into",
+              "permeate",
+              "penetrate"
+            ],
+            "ex": "Prolonged monsoon storms cause water to infiltrate deep soil strata."
+          },
+          {
+            "word": "strata",
+            "pos": "n",
+            "ipa": "/ˈstrɑː.tə/",
+            "level": "C1",
+            "mean": "các địa tầng, lớp đất đá chồng xếp",
+            "syns": [
+              "layers",
+              "beds",
+              "horizons"
+            ],
+            "ex": "Impermeable clay strata trap downward-moving rainwater along steep inclines."
+          },
+          {
+            "word": "frictional",
+            "pos": "adj",
+            "ipa": "/ˈfrɪk.ʃən.əl/",
+            "level": "C1",
+            "mean": "thuộc lực ma sát giữ ổn định",
+            "syns": [
+              "resistance",
+              "gripping",
+              "abrasive"
+            ],
+            "ex": "Rising pore-water pressure weakens the frictional grip between sand grains."
+          },
+          {
+            "word": "amplify",
+            "pos": "v",
+            "ipa": "/ˈæm.plɪ.faɪ/",
+            "level": "B2",
+            "mean": "khuếch đại, làm tăng mạnh thêm",
+            "syns": [
+              "magnify",
+              "intensify",
+              "boost"
+            ],
+            "ex": "Waterlogged soil weight amplifies gravitational forces pulling a slope downward."
+          },
+          {
+            "word": "liquefy",
+            "pos": "v",
+            "ipa": "/ˈlɪk.wɪ.faɪ/",
+            "level": "C1",
+            "mean": "hóa lỏng (đất đá bão hòa biến thành bùn chảy)",
+            "syns": [
+              "turn liquid",
+              "fluidize",
+              "melt"
+            ],
+            "ex": "Excessive moisture can cause loose mountain soil to liquefy into deadly mudflows."
+          },
+          {
+            "word": "compound",
+            "pos": "v",
+            "ipa": "/kəmˈpaʊnd/",
+            "level": "C1",
+            "mean": "làm trầm trọng thêm, cộng hưởng nặng hơn",
+            "syns": [
+              "worsen",
+              "exacerbate",
+              "aggravate"
+            ],
+            "ex": "Illegal logging compounds the destructive risk of extreme tropical cyclones."
+          },
+          {
+            "word": "monoculture",
+            "pos": "n",
+            "ipa": "/ˈmɒn.ə.kʌl.tʃər/",
+            "level": "C1",
+            "mean": "canh tác độc canh một loại cây duy nhất",
+            "syns": [
+              "single-crop farming",
+              "uniform plantation"
+            ],
+            "ex": "Shallow-rooted monoculture crops offer weak protection against hillside erosion."
+          },
+          {
+            "word": "intercept",
+            "pos": "v",
+            "ipa": "/ˌɪn.təˈsept/",
+            "level": "B2",
+            "mean": "chắn đỡ, hứng bớt (lực rơi hạt mưa)",
+            "syns": [
+              "block",
+              "catch",
+              "cushion"
+            ],
+            "ex": "Dense forest canopies intercept pounding rain before it strikes bare soil."
+          },
+          {
+            "word": "tensile",
+            "pos": "adj",
+            "ipa": "/ˈten.saɪl/",
+            "level": "C1",
+            "mean": "chịu lực kéo căng (sức bền cơ học của rễ cây)",
+            "syns": [
+              "stretching-resistant",
+              "elastic",
+              "load-bearing"
+            ],
+            "ex": "Woody taproots provide high tensile strength that anchors topsoil to bedrock."
+          },
+          {
+            "word": "buttressing",
+            "pos": "n",
+            "ipa": "/ˈbʌt.rəs.ɪŋ/",
+            "level": "C1",
+            "mean": "phần chân đế chống đỡ chịu lực",
+            "syns": [
+              "support",
+              "reinforcement",
+              "bracing"
+            ],
+            "ex": "Excavating the base of a steep hill removes its natural buttressing support."
+          },
+          {
+            "word": "recurrent",
+            "pos": "adj",
+            "ipa": "/rɪˈkʌr.ənt/",
+            "level": "B2",
+            "mean": "tái diễn liên tục nhiều lần",
+            "syns": [
+              "repeated",
+              "periodic",
+              "frequent"
+            ],
+            "ex": "Poor road drainage leads to recurrent rockfalls every rainy season."
+          },
+          {
+            "word": "proactive",
+            "pos": "adj",
+            "ipa": "/ˌprəʊˈæk.tɪv/",
+            "level": "B2",
+            "mean": "chủ động phòng ngừa từ sớm",
+            "syns": [
+              "preventative",
+              "anticipatory",
+              "forward-looking"
+            ],
+            "ex": "Proactive satellite monitoring saves lives before landslides strike towns."
+          },
+          {
+            "word": "evacuation",
+            "pos": "n",
+            "ipa": "/ɪˌvæk.juˈeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự sơ tán khẩn cấp người dân",
+            "syns": [
+              "relocation",
+              "withdrawal",
+              "clearance"
+            ],
+            "ex": "Early ground-sensor alerts give villages vital hours for safe evacuation."
+          },
+          {
+            "word": "retaining",
+            "pos": "adj",
+            "ipa": "/rɪˈteɪ.nɪŋ/",
+            "level": "B2",
+            "mean": "chắn giữ đất đá (tường chắn / kè)",
+            "syns": [
+              "supporting",
+              "holding",
+              "stabilizing"
+            ],
+            "ex": "Reinforced concrete retaining walls prevent road shoulders from collapsing."
+          },
+          {
+            "word": "bioengineering",
+            "pos": "n",
+            "ipa": "/ˌbaɪ.əʊ.en.dʒɪˈnɪə.rɪŋ/",
+            "level": "C1",
+            "mean": "kỹ thuật sinh học kết hợp cây xanh vào công trình",
+            "syns": [
+              "ecological engineering",
+              "green stabilization"
+            ],
+            "ex": "Slope bioengineering pairs drainage trenches with deep-rooted native shrubs."
+          },
+          {
+            "word": "interlocking",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈlɒk.ɪŋ/",
+            "level": "B2",
+            "mean": "đan xen khóa chặt vào nhau",
+            "syns": [
+              "interwoven",
+              "meshed",
+              "connected"
+            ],
+            "ex": "Interlocking vetiver roots form a living net three meters deep underground."
+          },
+          {
+            "word": "creep",
+            "pos": "n",
+            "ipa": "/kriːp/",
+            "level": "C1",
+            "mean": "sự dịch chuyển trượt ngầm cực chậm của sườn dốc",
+            "syns": [
+              "slow shift",
+              "gradual slide",
+              "drift"
+            ],
+            "ex": "Satellite radar detects millimeter-scale hillside creep weeks before collapse."
+          },
+          {
+            "word": "regenerate",
+            "pos": "v",
+            "ipa": "/rɪˈdʒen.ə.reɪt/",
+            "level": "B2",
+            "mean": "tái tạo, tự phục hồi sức bền",
+            "syns": [
+              "renew",
+              "restore",
+              "rebuild"
+            ],
+            "ex": "Unlike aging concrete, living vegetation continues to regenerate root strength."
+          },
+          {
+            "word": "subterranean",
+            "pos": "adj",
+            "ipa": "/ˌsʌb.tərˈeɪ.ni.ən/",
+            "level": "C1",
+            "mean": "ngầm dưới lòng đất",
+            "syns": [
+              "underground",
+              "subsurface",
+              "buried"
+            ],
+            "ex": "Blocked subterranean water channels build dangerous hydrostatic pressure."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "How does paragraph 1 distinguish soil erosion from a landslide?",
+            "questionVi": "Đoạn 1 phân biệt xói mòn đất với sạt lở đất như thế nào?",
+            "questionType": "DẠNG 03: CHI TIẾT SO SÁNH (Comparison)",
+            "options": [
+              "Soil erosion is a gradual stripping of surface topsoil, whereas a landslide is a sudden, catastrophic mass movement down a slope.",
+              "Soil erosion occurs only in deserts, whereas landslides happen exclusively underwater.",
+              "Soil erosion is caused purely by earthquakes, whereas landslides are triggered solely by wind.",
+              "Soil erosion improves slope cohesion, whereas landslides enrich mountain topsoil."
+            ],
+            "optionsVi": [
+              "A. Xói mòn đất là quá trình bóc mòn dần dần tầng đất mặt, còn sạt lở đất là sự dịch chuyển khối lớn đột ngột mang tính thảm họa xuống sườn dốc.",
+              "B. Xói mòn đất chỉ xảy ra ở sa mạc, còn sạt lở đất chỉ diễn ra dưới đáy biển.",
+              "C. Xói mòn đất chỉ do động đất, còn sạt lở đất chỉ do gió gây ra.",
+              "D. Xói mòn đất tăng cường liên kết sườn dốc, còn sạt lở đất làm giàu đất mặt."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "While soil erosion typically unfolds as a gradual, sheet-like stripping of fertile topsoil by wind and surface runoff, a landslide represents a sudden, catastrophic mass movement of rock, debris, or saturated earth cascading down a slope... [Paragraph 1]",
+            "evidenceVi": "Trong khi xói mòn đất thường diễn ra như sự bóc mòn dần tầng đất mặt màu mỡ, sạt lở đất là sự dịch chuyển khối đột ngột thảm họa của đá, đất bão hòa đổ xuống dốc. [Đoạn 1]",
+            "explanation": "Đoạn 1 phân định rõ tốc độ và quy mô: xói mòn diễn ra từ từ trên tầng đất mặt, còn sạt lở là sự trượt khối đột ngột thảm họa xuống sườn dốc (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "So sánh khái niệm địa chất (Comparison)",
+              "cluePassage": "soil erosion typically unfolds as a gradual, sheet-like stripping of fertile topsoil... a landslide represents a sudden, catastrophic mass movement",
+              "clueAnswer": "Soil erosion is a gradual stripping of surface topsoil, whereas a landslide is a sudden, catastrophic mass movement down a slope.",
+              "keyPassage": "gradual... stripping of topsoil vs sudden, catastrophic mass movement",
+              "keyAnswer": "gradual stripping of surface topsoil vs sudden, catastrophic mass movement",
+              "paraphrasePair": "unfolds as a gradual stripping <=> is a gradual stripping",
+              "meaningVi": "diễn ra dần dần vs đột ngột thảm họa",
+              "deductionLogic": "Khớp trực tiếp câu thứ 2 đoạn 1."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "According to paragraph 2, how does trapped rainwater mechanically trigger a landslide?",
+            "questionVi": "Theo đoạn 2, nước mưa bị mắc kẹt kích hoạt sạt lở đất về mặt cơ học bằng cách nào?",
+            "questionType": "DẠNG 03: CƠ CHẾ KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "It freezes into solid ice blocks that bind soil particles tightly together.",
+              "It raises pore-water pressure that pushes soil grains apart while making the earth much heavier.",
+              "It evaporates underground, leaving dry vacuum cavities that absorb gravity.",
+              "It washes away all volcanic bedrock within minutes."
+            ],
+            "optionsVi": [
+              "A. Nó đóng băng thành khối đá rắn gắn chặt các hạt đất lại với nhau.",
+              "B. Nó làm tăng áp suất nước lỗ rỗng đẩy tách các hạt đất đồng thời làm khối đất nặng lên đáng kể.",
+              "C. Nó bay hơi dưới lòng đất tạo khoang chân không triệt tiêu trọng lực.",
+              "D. Nó cuốn trôi toàn bộ nền đá núi lửa chỉ trong vài phút."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "This trapped water elevates pore-water pressure between microscopic soil grains, literally pushing particles apart and dissolving the frictional bonds... Simultaneously, soaked earth grows dramatically heavier, amplifying downward gravitational shear stress... [Paragraph 2]",
+            "evidenceVi": "Lượng nước mắc kẹt làm tăng áp suất nước lỗ rỗng giữa các hạt đất vi mô, đẩy các hạt tách rời và phá vỡ liên kết ma sát... Đồng thời, đất sũng nước nặng lên gấp bội, khuếch đại ứng suất cắt kéo xuống. [Đoạn 2]",
+            "explanation": "Đoạn 2 chỉ ra tác động kép của nước bão hòa: tăng áp suất nước lỗ rỗng đẩy tách hạt đất (giảm lực ma sát giữ) VÀ tăng trọng lượng khối đất (tăng lực kéo xuống) (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế địa kỹ thuật (Factual Mechanism)",
+              "cluePassage": "elevates pore-water pressure between microscopic soil grains, literally pushing particles apart... Simultaneously, soaked earth grows dramatically heavier",
+              "clueAnswer": "It raises pore-water pressure that pushes soil grains apart while making the earth much heavier.",
+              "keyPassage": "elevates pore-water pressure... pushing particles apart... grows dramatically heavier",
+              "keyAnswer": "raises pore-water pressure... pushes soil grains apart... making the earth much heavier",
+              "paraphrasePair": "elevates... dramatically heavier <=> raises... much heavier",
+              "meaningVi": "làm tăng áp suất nước lỗ rỗng & nặng lên đáng kể",
+              "deductionLogic": "Hiểu chuẩn hai vế cơ học trong đoạn 2."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "Why does clear-cutting upland forests sharply increase landslide vulnerability according to paragraph 3?",
+            "questionVi": "Theo đoạn 3, tại sao việc chặt trắng rừng đầu nguồn lại làm tăng vọt nguy cơ sạt lở đất?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / HỆ QUẢ (Cause & Effect)",
+            "options": [
+              "Because it removes both the protective leaf canopy that cushions rain and the deep root web that anchors soil to bedrock",
+              "Because fallen timber logs create impenetrable concrete barriers across river valleys",
+              "Because monoculture trees grow too heavy for solid bedrock to support",
+              "Because forest canopies prevent mountain rainwater from ever reaching the ground"
+            ],
+            "optionsVi": [
+              "A. Vì nó loại bỏ cả tán lá bảo vệ chắn đỡ hạt mưa lẫn mạng lưới rễ sâu neo giữ đất vào đá gốc",
+              "B. Vì gỗ chặt hạ tạo ra rào chắn bê tông không thể xuyên qua dọc thung lũng sông",
+              "C. Vì cây trồng độc canh mọc quá nặng vượt sức chịu tải của đá gốc",
+              "D. Vì tán rừng ngăn nước mưa miền núi không bao giờ chạm xuống mặt đất"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Clear-cutting upland forests... strips hillsides of protective canopy cover that once intercepted pelting raindrops, while decaying tree roots surrender the deep tensile web that mechanically anchored soil layers to underlying bedrock. [Paragraph 3]",
+            "evidenceVi": "Chặt trắng rừng đầu nguồn tước đi lớp tán che chở từng hứng đỡ hạt mưa xối xả, còn bộ rễ mục rữa đánh mất mạng lưới chịu kéo sâu từng neo giữ đất vào nền đá gốc. [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ ra hai mất mát cơ học khi mất rừng: mất tán lá chắn lực rơi của mưa và mất bộ rễ cây neo giữ lớp đất vào đá nền (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Tác động của phá rừng (Cause & Effect)",
+              "cluePassage": "strips hillsides of protective canopy cover that once intercepted pelting raindrops, while decaying tree roots surrender the deep tensile web that mechanically anchored soil layers to underlying bedrock.",
+              "clueAnswer": "removes both the protective leaf canopy that cushions rain and the deep root web that anchors soil to bedrock",
+              "keyPassage": "protective canopy cover... intercepted pelting raindrops... root web anchored soil to bedrock",
+              "keyAnswer": "protective leaf canopy that cushions rain... deep root web that anchors soil to bedrock",
+              "paraphrasePair": "intercepted pelting raindrops <=> cushions rain",
+              "meaningVi": "chắn đỡ những hạt mưa xối xả <=> giảm chấn lực mưa",
+              "deductionLogic": "Khớp toàn vẹn câu thứ 2 đoạn 3."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "According to paragraph 3, why does improper mountain road construction often cause repeated landslides?",
+            "questionVi": "Theo đoạn 3, tại sao việc thi công đường miền núi sai kỹ thuật thường gây ra sạt lở tái diễn?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Because asphalt absorbs too much sunlight and melts underground clay",
+              "Because cutting vertically into mountain bases removes structural support and disrupts underground water drainage",
+              "Because vehicle headlights frighten away burrowing mountain wildlife",
+              "Because paved highways prevent satellite radar from scanning steep cliffs"
+            ],
+            "optionsVi": [
+              "A. Vì nhựa đường hấp thụ quá nhiều nắng làm tan chảy đất sét ngầm",
+              "B. Vì xẻ vách đứng vào chân núi làm mất phần chống đỡ kết cấu và phá vỡ mạch thoát nước ngầm",
+              "C. Vì đèn pha xe cộ làm hoảng sợ các loài động vật đào hang miền núi",
+              "D. Vì đường trải nhựa ngăn radar vệ tinh quét các vách đá dốc"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "slicing vertical cuts into mountain toes removes crucial structural buttressing and disrupts subterranean drainage channels, frequently unleashing recurrent slope failures... [Paragraph 3]",
+            "evidenceVi": "việc xẻ vách thẳng đứng vào chân núi làm mất đi phần chân đế chống đỡ thiết yếu và làm đứt gãy các mạch thoát nước ngầm, thường xuyên kích hoạt sạt lở tái diễn. [Đoạn 3]",
+            "explanation": "Xẻ ta-luy đứng vào chân núi ('mountain toes') gây 2 hậu quả: mất chân đế đỡ ('structural buttressing') và làm tắc/rối loạn mạch thoát nước ngầm ('subterranean drainage channels') (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Lỗi kỹ thuật mở đường núi (Cause & Effect)",
+              "cluePassage": "slicing vertical cuts into mountain toes removes crucial structural buttressing and disrupts subterranean drainage channels",
+              "clueAnswer": "cutting vertically into mountain bases removes structural support and disrupts underground water drainage",
+              "keyPassage": "mountain toes... structural buttressing... subterranean drainage channels",
+              "keyAnswer": "mountain bases... structural support... underground water drainage",
+              "paraphrasePair": "mountain toes... buttressing... subterranean <=> mountain bases... support... underground",
+              "meaningVi": "chân núi, phần chống đỡ, ngầm dưới đất",
+              "deductionLogic": "Paraphrase chuẩn 3 thuật ngữ địa kỹ thuật trong đoạn 3."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "The word \"Compounding\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"Compounding\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "worsening",
+              "solving",
+              "measuring",
+              "delaying"
+            ],
+            "optionsVi": [
+              "A. làm trầm trọng thêm",
+              "B. giải quyết",
+              "C. đo lường",
+              "D. trì hoãn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Compounding natural climate extremes... human land-use modifications have sharply magnified slope instability worldwide. [Paragraph 3]",
+            "evidenceVi": "Làm trầm trọng thêm các cực đoan khí hậu tự nhiên... việc con người biến đổi sử dụng đất đã khuếch đại mạnh mẽ sự bất ổn định sườn dốc toàn cầu. [Đoạn 3]",
+            "explanation": "'Compound (a problem)' mang nghĩa cộng dồn làm trầm trọng thêm vấn đề ('worsening').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "Compounding natural climate extremes... human land-use modifications have sharply magnified slope instability",
+              "clueAnswer": "worsening",
+              "keyPassage": "Compounding natural climate extremes",
+              "keyAnswer": "worsening",
+              "paraphrasePair": "compounding <=> worsening / exacerbating",
+              "meaningVi": "cộng hưởng làm nặng thêm <=> làm trầm trọng thêm",
+              "deductionLogic": "Động từ 'sharply magnified slope instability' cùng chiều nghĩa tiêu cực."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "How do satellite radar interferometry (InSAR) and wireless ground tiltmeters save lives according to paragraph 4?",
+            "questionVi": "Theo đoạn 4, công nghệ radar giao thoa vệ tinh (InSAR) và cảm biến độ nghiêng mặt đất cứu sống người dân bằng cách nào?",
+            "questionType": "DẠNG 03: ỨNG DỤNG CÔNG NGHỆ (Factual Detail)",
+            "options": [
+              "By detecting millimeter-scale slope movement weeks before a catastrophic collapse, providing crucial evacuation time",
+              "By firing acoustic waves to push sliding mudflows back up mountainsides",
+              "By automatically draining monsoon rain clouds before they reach highland towns",
+              "By replacing the need for any physical retaining walls or tree planting"
+            ],
+            "optionsVi": [
+              "A. Bằng cách phát hiện sự dịch chuyển sườn dốc ở mức milimet từ nhiều tuần trước khi sụp đổ thảm họa, giúp có thời gian sơ tán quý giá",
+              "B. Bằng cách bắn sóng âm đẩy dòng bùn trượt ngược lên sườn núi",
+              "C. Bằng cách tự động rút cạn mây mưa gió mùa trước khi tới thị trấn vùng cao",
+              "D. Bằng cách thay thế hoàn toàn nhu cầu tường chắn hay trồng cây"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "deploy satellite radar interferometry (InSAR) and wireless ground tiltmeters capable of detecting millimeter-scale hillside creep weeks before catastrophic collapse, buying precious evacuation time. [Paragraph 4]",
+            "evidenceVi": "triển khai radar vệ tinh InSAR và cảm biến nghiêng không dây có khả năng phát hiện chuyển dịch sườn dốc cỡ milimet nhiều tuần trước khi sụp đổ thảm khốc, giúp tranh thủ thời gian sơ tán quý giá. [Đoạn 4]",
+            "explanation": "Các cảm biến và radar vệ tinh phát hiện độ dịch chuyển cỡ milimet ('millimeter-scale hillside creep') từ nhiều tuần trước để sơ tán kịp thời (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Công nghệ cảnh báo sớm (Factual)",
+              "cluePassage": "detecting millimeter-scale hillside creep weeks before catastrophic collapse, buying precious evacuation time.",
+              "clueAnswer": "detecting millimeter-scale slope movement weeks before a catastrophic collapse, providing crucial evacuation time",
+              "keyPassage": "millimeter-scale hillside creep... buying precious evacuation time",
+              "keyAnswer": "millimeter-scale slope movement... providing crucial evacuation time",
+              "paraphrasePair": "hillside creep... buying time <=> slope movement... providing time",
+              "meaningVi": "sự trượt chậm sườn dốc & tranh thủ thời gian <=> dịch chuyển sườn dốc & tạo thời gian sơ tán",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "What advantages do bioengineering solutions like vetiver grass and native forest belts offer over pure concrete armor?",
+            "questionVi": "Các giải pháp kỹ thuật sinh học như cỏ vetiver và dải rừng bản địa có ưu thế gì so với việc chỉ xây kè bê tông thuần túy?",
+            "questionType": "DẠNG 03: CHI TIẾT SO SÁNH (Comparison)",
+            "options": [
+              "Their root networks absorb excess water and continuously regenerate slope strength at a much lower cost.",
+              "They can stop major seismic earthquakes from ever occurring beneath mountain ranges.",
+              "They require zero soil moisture to survive on bare vertical concrete walls.",
+              "They completely eliminate the need for any early-warning tiltmeters."
+            ],
+            "optionsVi": [
+              "A. Mạng lưới rễ của chúng hấp thụ lượng ẩm dư thừa và liên tục tái tạo độ bền sườn dốc với chi phí thấp hơn nhiều.",
+              "B. Chúng có thể ngăn không cho động đất địa chấn xảy ra bên dưới dãy núi.",
+              "C. Chúng không cần bất kỳ độ ẩm đất nào để sống trên vách bê tông thẳng đứng.",
+              "D. Chúng xóa bỏ hoàn toàn nhu cầu dùng cảm biến nghiêng cảnh báo sớm."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "bioengineering solutions—such as planting deep-rooted vetiver grass and diverse native forest belts—whose interlocking root matrices continuously absorb excess moisture and regenerate structural slope resilience at a fraction of the cost of pure concrete armor. [Paragraph 4]",
+            "evidenceVi": "các giải pháp kỹ thuật sinh học — như trồng cỏ vetiver rễ sâu và rừng bản địa đa dạng — có mạng lưới rễ đan xen liên tục hút ẩm dư và tái tạo độ bền kết cấu sườn dốc với chi phí chỉ bằng một phần nhỏ so với kè bê tông thuần túy. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ 3 ưu thế của kỹ thuật sinh học: hút bớt ẩm thừa, tự tái tạo sức bền liên tục, và chi phí chỉ bằng một phần nhỏ ('at a fraction of the cost') so với bê tông thuần túy (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Ưu điểm kỹ thuật sinh học (Comparison)",
+              "cluePassage": "interlocking root matrices continuously absorb excess moisture and regenerate structural slope resilience at a fraction of the cost of pure concrete armor.",
+              "clueAnswer": "Their root networks absorb excess water and continuously regenerate slope strength at a much lower cost.",
+              "keyPassage": "absorb excess moisture... regenerate structural slope resilience... at a fraction of the cost",
+              "keyAnswer": "absorb excess water... continuously regenerate slope strength... at a much lower cost",
+              "paraphrasePair": "at a fraction of the cost <=> at a much lower cost",
+              "meaningVi": "với chi phí chỉ bằng một phần nhỏ <=> với chi phí thấp hơn nhiều",
+              "deductionLogic": "Thành ngữ 'at a fraction of the cost' là paraphrase kinh điển cho 'much cheaper / at a much lower cost'."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "The word \"buttressing\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"buttressing\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "structural support",
+              "surface vegetation",
+              "rainfall measurement",
+              "highway pavement"
+            ],
+            "optionsVi": [
+              "A. phần chống đỡ kết cấu",
+              "B. thảm thực vật bề mặt",
+              "C. phép đo lượng mưa",
+              "D. mặt đường cao tốc"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "slicing vertical cuts into mountain toes removes crucial structural buttressing and disrupts subterranean drainage channels... [Paragraph 3]",
+            "evidenceVi": "xẻ vách đứng vào chân núi loại bỏ phần chân đế chống đỡ kết cấu thiết yếu và phá vỡ mạch thoát nước ngầm... [Đoạn 3]",
+            "explanation": "'Buttress / buttressing' trong kiến trúc và địa kỹ thuật nghĩa là trụ chống, phần đỡ chịu lực ('structural support').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa kỹ thuật (Vocabulary)",
+              "cluePassage": "removes crucial structural buttressing",
+              "clueAnswer": "structural support",
+              "keyPassage": "structural buttressing",
+              "keyAnswer": "structural support",
+              "paraphrasePair": "buttressing <=> support / bracing",
+              "meaningVi": "phần chống đỡ chịu lực <=> sự nâng đỡ kết cấu",
+              "deductionLogic": "Ngữ cảnh đào cắt chân núi làm mất trụ đỡ gây sạt lở."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "Which of the following is NOT mentioned in the passage as either a cause or a mitigation tool for landslides?",
+            "questionVi": "Yếu tố nào sau đây KHÔNG được đề cập trong bài đọc như nguyên nhân hoặc công cụ giảm thiểu sạt lở đất?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Deep horizontal drainage pipes embedded in slopes",
+              "Seismic tremors and fractured bedrock",
+              "Concentrated atmospheric 'rain bombs'",
+              "Controlled underground nuclear blasting to flatten mountain peaks"
+            ],
+            "optionsVi": [
+              "A. Các ống thoát nước ngang đặt sâu trong sườn dốc",
+              "B. Rung chấn địa chấn và đá gốc nứt nẻ",
+              "C. Các trận 'bom mưa' tập trung do khí quyển nóng lên",
+              "D. Đánh mìn hạt nhân ngầm có kiểm soát để san phẳng đỉnh núi"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "fractured bedrock, seismic tremors... 'rain bombs'... deep horizontal drainage pipes... [Paragraphs 2-4]",
+            "evidenceVi": "đá gốc nứt nẻ, rung chấn địa chấn... 'bom mưa'... ống thoát nước ngang đặt sâu... [Đoạn 2-4]",
+            "explanation": "A, B, C đều xuất hiện nguyên văn trong bài; D là phương án phi thực tế không hề có trong văn bản.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "fractured bedrock, seismic tremors... 'rain bombs'... horizontal drainage pipes",
+              "clueAnswer": "Controlled underground nuclear blasting to flatten mountain peaks",
+              "keyPassage": "drainage pipes, seismic tremors, rain bombs",
+              "keyAnswer": "underground nuclear blasting (Not mentioned)",
+              "paraphrasePair": "NOT in passage",
+              "meaningVi": "Không có trong bài đọc",
+              "deductionLogic": "Loại trừ A, B, C đều có dẫn chứng trực tiếp."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "What overarching shift in landslide disaster management does paragraph 4 emphasize?",
+            "questionVi": "Đoạn 4 nhấn mạnh bước chuyển tổng quát nào trong quản lý thảm họa sạt lở đất?",
+            "questionType": "DẠNG 07: KẾT LUẬN / GIẢI PHÁP (Author's Conclusion)",
+            "options": [
+              "Moving from reactive post-disaster relief toward proactive early warning, engineering drainage, and green bioengineering",
+              "Abandoning all mountainous agricultural communities to resettle populations on flat ocean islands",
+              "Relying exclusively on thicker concrete walls while banning tree planting near highways",
+              "Waiting until mudflows stop moving before installing satellite radar sensors"
+            ],
+            "optionsVi": [
+              "A. Chuyển từ cứu trợ bị động sau thảm họa sang cảnh báo sớm chủ động, kỹ thuật thoát nước và kỹ thuật sinh học xanh",
+              "B. Bỏ hoang toàn bộ cộng đồng nông nghiệp miền núi để di dân ra đảo phẳng",
+              "C. Chỉ dựa vào tường bê tông dày hơn và cấm trồng cây gần đường cao tốc",
+              "D. Chờ dòng bùn ngừng chảy mới lắp cảm biến radar vệ tinh"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Modern hazard mitigation increasingly replaces reactive disaster relief with proactive, multi-layered engineering and ecological planning. [Paragraph 4]",
+            "evidenceVi": "Công tác giảm nhẹ thiên tai hiện đại ngày càng thay thế cứu trợ bị động bằng quy hoạch kỹ thuật và sinh thái đa tầng chủ động. [Đoạn 4]",
+            "explanation": "Câu chủ đề và toàn đoạn 4 nhấn mạnh sự chuyển dịch sang phòng ngừa chủ động đa tầng kết hợp cảnh báo sớm, kỹ thuật kè/thoát nước và giải pháp xanh sinh học (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp giải pháp (Author's Conclusion)",
+              "cluePassage": "replaces reactive disaster relief with proactive, multi-layered engineering and ecological planning.",
+              "clueAnswer": "Moving from reactive post-disaster relief toward proactive early warning, engineering drainage, and green bioengineering",
+              "keyPassage": "replaces reactive disaster relief with proactive, multi-layered engineering and ecological planning",
+              "keyAnswer": "Moving from reactive relief toward proactive early warning, engineering drainage, and green bioengineering",
+              "paraphrasePair": "multi-layered engineering and ecological planning <=> early warning, drainage, and green bioengineering",
+              "meaningVi": "quy hoạch kỹ thuật và sinh thái đa tầng <=> cảnh báo sớm, thoát nước và kỹ thuật sinh học",
+              "deductionLogic": "Khớp trọn vẹn thông điệp chủ đạo đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Global Hunger & Food Security Systems",
+        "topic": "Nạn đói & An ninh lương thực toàn cầu: Nghịch lý phân phối, Sốc khí hậu & Nông thực bền vững",
+        "timeAllowed": 15,
+        "passage": "<p>One of the most glaring moral and economic paradoxes of the contemporary world is that global agriculture currently generates more than enough dietary calories to nourish every human being alive, yet over 730 million people still endure chronic undernourishment. Modern food-security scholars therefore reject the antiquated Malthusian assumption that hunger stems solely from absolute production deficits. According to the Food and Agriculture Organization (FAO), true food security rests upon four interdependent pillars: physical availability of food supplies, economic and social access to nutritious diets, physiological utilization of nutrients through clean water and sanitation, and long-term stability against sudden price or supply shocks.</p><p>Over the past decade, progress toward eradicating global hunger has suffered severe reversals driven by a mutually reinforcing triad of armed conflict, climate volatility, and macroeconomic disruption. Geopolitical warfare not only displaces smallholder farmers and devastates rural irrigation networks, but also weaponizes maritime grain corridors—as starkly demonstrated when regional blockades triggered spikes in international wheat and fertilizer prices, pushing millions of import-dependent low-income households into acute food insecurity. Simultaneously, escalating climate anomalies—prolonged East African droughts, South Asian heatwaves, and erratic monsoons—are depressing staple crop yields while depleting the micronutrient density of zinc and iron inside major cereal grains.</p><p>Compounding these external shocks is a staggering systemic inefficiency embedded within global supply chains: roughly one-third of all food produced for human consumption is lost or wasted annually. Crucially, the geography of this inefficiency splits along developmental lines. In low-income agrarian economies, the bulk of 'food loss' occurs upstream between harvest and market due to rudimentary storage silos, unpaved feeder roads, and the absence of solar-powered cold chains—allowing insects, heat, and fungal spoilage to ruin perishable crops. Conversely, in wealthy industrialized nations, 'food waste' predominates downstream at retail supermarkets and household kitchens, driven by rigid cosmetic standards for produce, oversized portions, and misinterpretation of 'best-before' date labels.</p><p>Achieving durable food security for a projected global population approaching ten billion by 2050 will require far more than clearing additional tropical rainforests for industrial monoculture. Agronomists advocate a dual transformation: cultivating climate-resilient, biofortified seed varieties alongside agroecological soil restoration, while simultaneously overhauling distribution equity and social safety nets. Investing in decentralized rural cold storage, empowering women smallholders with equal land tenure and credit, and curbing affluent consumer waste represent high-leverage interventions capable of nourishing humanity without transgressing Earth's planetary boundaries.</p>",
+        "vocab": [
+          {
+            "word": "glaring",
+            "pos": "adj",
+            "ipa": "/ˈɡleə.rɪŋ/",
+            "level": "C1",
+            "mean": "rõ rành rành, nhức nhối không thể chối cãi",
+            "syns": [
+              "blatant",
+              "obvious",
+              "flagrant"
+            ],
+            "ex": "Persistent hunger amidst record grain harvests is a glaring global paradox."
+          },
+          {
+            "word": "undernourishment",
+            "pos": "n",
+            "ipa": "/ˌʌn.dəˈnʌr.ɪʃ.mənt/",
+            "level": "C1",
+            "mean": "tình trạng thiếu dinh dưỡng kéo dài",
+            "syns": [
+              "malnutrition",
+              "starvation",
+              "hunger"
+            ],
+            "ex": "Chronic undernourishment stunts childhood physical and cognitive development."
+          },
+          {
+            "word": "antiquated",
+            "pos": "adj",
+            "ipa": "/ˈæn.tɪ.kweɪ.tɪd/",
+            "level": "C1",
+            "mean": "cổ hủ, lỗi thời không còn đúng",
+            "syns": [
+              "outdated",
+              "obsolete",
+              "archaic"
+            ],
+            "ex": "Economists have moved beyond antiquated models that ignore food distribution."
+          },
+          {
+            "word": "interdependent",
+            "pos": "adj",
+            "ipa": "/ˌɪn.tə.dɪˈpen.dənt/",
+            "level": "B2",
+            "mean": "phụ thuộc lẫn nhau, tương hỗ chặt chẽ",
+            "syns": [
+              "interconnected",
+              "mutually reliant",
+              "linked"
+            ],
+            "ex": "Availability, access, utilization, and stability are four interdependent pillars."
+          },
+          {
+            "word": "utilization",
+            "pos": "n",
+            "ipa": "/ˌjuː.təl.aɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "khả năng hấp thụ và sử dụng hiệu quả (dưỡng chất)",
+            "syns": [
+              "absorption",
+              "effective use",
+              "consumption"
+            ],
+            "ex": "Clean drinking water is essential for proper bodily utilization of dietary nutrients."
+          },
+          {
+            "word": "triad",
+            "pos": "n",
+            "ipa": "/ˈtraɪ.æd/",
+            "level": "C1",
+            "mean": "bộ ba nhân tố gắn kết",
+            "syns": [
+              "trio",
+              "threesome",
+              "trinity"
+            ],
+            "ex": "Conflict, climate change, and inflation form a destructive triad fueling famine."
+          },
+          {
+            "word": "volatility",
+            "pos": "n",
+            "ipa": "/ˌvɒl.əˈtɪl.ə.ti/",
+            "level": "C1",
+            "mean": "sự biến động thất thường, bất ổn dữ dội",
+            "syns": [
+              "instability",
+              "unpredictability",
+              "fluctuation"
+            ],
+            "ex": "Extreme climate volatility makes seasonal planting schedules harder to predict."
+          },
+          {
+            "word": "smallholder",
+            "pos": "n",
+            "ipa": "/ˈsmɔːlˌhəʊl.dər/",
+            "level": "C1",
+            "mean": "nông hộ quy mô nhỏ",
+            "syns": [
+              "small-scale farmer",
+              "family grower"
+            ],
+            "ex": "Smallholders produce roughly one-third of the world's total food supply."
+          },
+          {
+            "word": "blockade",
+            "pos": "n",
+            "ipa": "/blɒˈkeɪd/",
+            "level": "B2",
+            "mean": "sự phong tỏa (cảng biển, tuyến vận tải)",
+            "syns": [
+              "embargo",
+              "siege",
+              "obstruction"
+            ],
+            "ex": "Maritime blockades halted millions of tons of grain destined for developing nations."
+          },
+          {
+            "word": "anomaly",
+            "pos": "n",
+            "ipa": "/əˈnɒm.ə.li/",
+            "level": "C1",
+            "mean": "hiện tượng dị thường, bất thường khí hậu",
+            "syns": [
+              "irregularity",
+              "abnormality",
+              "deviation"
+            ],
+            "ex": "Prolonged temperature anomalies severely reduce wheat pollination rates."
+          },
+          {
+            "word": "erratic",
+            "pos": "adj",
+            "ipa": "/ɪˈræt.ɪk/",
+            "level": "C1",
+            "mean": "thất thường, khó lường trước",
+            "syns": [
+              "unpredictable",
+              "irregular",
+              "inconsistent"
+            ],
+            "ex": "Erratic monsoon arrivals force rural farmers to replant fields multiple times."
+          },
+          {
+            "word": "micronutrient",
+            "pos": "n",
+            "ipa": "/ˌmaɪ.krəʊˈnjuː.tri.ənt/",
+            "level": "C1",
+            "mean": "vi chất dinh dưỡng (kẽm, sắt, vitamin)",
+            "syns": [
+              "trace mineral",
+              "vital nutrient"
+            ],
+            "ex": "Elevated CO2 lowers micronutrient levels of zinc and iron in staple rice."
+          },
+          {
+            "word": "staggering",
+            "pos": "adj",
+            "ipa": "/ˈstæɡ.ər.ɪŋ/",
+            "level": "B2",
+            "mean": "gây sửng sốt, khổng lồ đáng kinh ngạc",
+            "syns": [
+              "astonishing",
+              "shocking",
+              "overwhelming"
+            ],
+            "ex": "Roughly one billion tons of edible food go uneaten—a staggering systemic loss."
+          },
+          {
+            "word": "agrarian",
+            "pos": "adj",
+            "ipa": "/əˈɡreə.ri.ən/",
+            "level": "C1",
+            "mean": "thuộc nông nghiệp, nền kinh tế thuần nông",
+            "syns": [
+              "agricultural",
+              "farming",
+              "rural"
+            ],
+            "ex": "Agrarian economies suffer heavy post-harvest losses without cooling warehouses."
+          },
+          {
+            "word": "rudimentary",
+            "pos": "adj",
+            "ipa": "/ˌruː.dɪˈmen.tər.i/",
+            "level": "C1",
+            "mean": "thô sơ, sơ khai thiếu hiện đại",
+            "syns": [
+              "basic",
+              "primitive",
+              "crude"
+            ],
+            "ex": "Rudimentary grain silos fail to protect harvests from humidity and rodents."
+          },
+          {
+            "word": "spoilage",
+            "pos": "n",
+            "ipa": "/ˈspɔɪ.lɪdʒ/",
+            "level": "B2",
+            "mean": "sự hư hỏng, thối rữa thực phẩm",
+            "syns": [
+              "decay",
+              "rotting",
+              "deterioration"
+            ],
+            "ex": "Solar-powered cold rooms dramatically cut vegetable spoilage in hot climates."
+          },
+          {
+            "word": "perishable",
+            "pos": "adj",
+            "ipa": "/ˈper.ɪ.ʃə.bəl/",
+            "level": "B2",
+            "mean": "dễ hư hỏng, khó bảo quản lâu",
+            "syns": [
+              "short-lived",
+              "spoilable",
+              "delicate"
+            ],
+            "ex": "Perishable fruits require rapid refrigerated transport from farm to city markets."
+          },
+          {
+            "word": "predominate",
+            "pos": "v",
+            "ipa": "/prɪˈdɒm.ɪ.neɪt/",
+            "level": "C1",
+            "mean": "chiếm ưu thế chủ đạo",
+            "syns": [
+              "prevail",
+              "dominate",
+              "preponderate"
+            ],
+            "ex": "Household and retail food waste predominate in affluent Western countries."
+          },
+          {
+            "word": "cosmetic",
+            "pos": "adj",
+            "ipa": "/kɒzˈmet.ɪk/",
+            "level": "B2",
+            "mean": "thuộc vẻ bề ngoài, hình thức bên ngoài",
+            "syns": [
+              "superficial",
+              "appearance-based",
+              "aesthetic"
+            ],
+            "ex": "Supermarkets often reject nutritious vegetables over minor cosmetic blemishes."
+          },
+          {
+            "word": "agronomist",
+            "pos": "n",
+            "ipa": "/əˈɡrɒn.ə.mɪst/",
+            "level": "C1",
+            "mean": "nhà nông học, chuyên gia khoa học cây trồng",
+            "syns": [
+              "crop scientist",
+              "agricultural expert"
+            ],
+            "ex": "Agronomists breed drought-tolerant maize strains for arid African regions."
+          },
+          {
+            "word": "biofortified",
+            "pos": "adj",
+            "ipa": "/ˌbaɪ.əʊˈfɔː.tɪ.faɪd/",
+            "level": "C1",
+            "mean": "được tăng cường vi chất sinh học",
+            "syns": [
+              "nutrient-enriched",
+              "vitamin-enhanced"
+            ],
+            "ex": "Biofortified sweet potatoes combat vitamin A deficiency among rural children."
+          },
+          {
+            "word": "decentralized",
+            "pos": "adj",
+            "ipa": "/ˌdiːˈsen.trə.laɪzd/",
+            "level": "C1",
+            "mean": "phi tập trung, phân tán về tận cơ sở địa phương",
+            "syns": [
+              "distributed",
+              "localized",
+              "community-based"
+            ],
+            "ex": "Decentralized solar cold hubs let village cooperatives store fresh produce locally."
+          },
+          {
+            "word": "tenure",
+            "pos": "n",
+            "ipa": "/ˈten.jər/",
+            "level": "C1",
+            "mean": "quyền sở hữu, quyền sử dụng đất hợp pháp",
+            "syns": [
+              "ownership",
+              "holding",
+              "title"
+            ],
+            "ex": "Securing land tenure for female farmers boosts crop investment and yields."
+          },
+          {
+            "word": "curb",
+            "pos": "v",
+            "ipa": "/kɜːb/",
+            "level": "B2",
+            "mean": "kiềm chế, cắt giảm mạnh",
+            "syns": [
+              "restrain",
+              "reduce",
+              "check"
+            ],
+            "ex": "Clearer date labeling helps curb unnecessary household food disposal."
+          },
+          {
+            "word": "transgress",
+            "pos": "v",
+            "ipa": "/trænzˈɡres/",
+            "level": "C1",
+            "mean": "vượt quá giới hạn cho phép, xâm phạm ranh giới",
+            "syns": [
+              "exceed",
+              "breach",
+              "violate"
+            ],
+            "ex": "Sustainable farming feeds billions without transgressing planetary ecological limits."
+          },
+          {
+            "word": "durable",
+            "pos": "adj",
+            "ipa": "/ˈdjʊə.rə.bəl/",
+            "level": "B2",
+            "mean": "bền vững, lâu dài vững chắc",
+            "syns": [
+              "lasting",
+              "enduring",
+              "long-term"
+            ],
+            "ex": "Durable food security demands both ecological stewardship and fair economics."
+          },
+          {
+            "word": "deplete",
+            "pos": "v",
+            "ipa": "/dɪˈpliːt/",
+            "level": "B2",
+            "mean": "làm suy kiệt, làm sụt giảm cạn kiệt",
+            "syns": [
+              "exhaust",
+              "drain",
+              "diminish"
+            ],
+            "ex": "Extreme heatwaves deplete soil moisture and lower grain mineral content."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "What central paradox does paragraph 1 highlight regarding contemporary world hunger?",
+            "questionVi": "Đoạn 1 nhấn mạnh nghịch lý trung tâm nào về nạn đói trên thế giới đương đại?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Global farms already produce more than enough calories for everyone alive, yet over 730 million people remain chronically undernourished.",
+              "Global food output has declined steadily every decade since the industrial revolution.",
+              "Only wealthy nations suffer from fluctuations in grain availability.",
+              "The FAO considers physical food supply to be the sole determinant of nutrition."
+            ],
+            "optionsVi": [
+              "A. Nông nghiệp toàn cầu đã sản xuất dư thừa calo cho tất cả mọi người đang sống, nhưng hơn 730 triệu người vẫn bị thiếu dinh dưỡng mãn tính.",
+              "B. Sản lượng lương thực toàn cầu suy giảm liên tục qua mỗi thập kỷ kể từ cách mạng công nghiệp.",
+              "C. Chỉ các quốc gia giàu có mới chịu biến động về nguồn cung ngũ cốc.",
+              "D. Tổ chức FAO coi nguồn cung vật lý là yếu tố duy nhất quyết định dinh dưỡng."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "global agriculture currently generates more than enough dietary calories to nourish every human being alive, yet over 730 million people still endure chronic undernourishment. [Paragraph 1]",
+            "evidenceVi": "nông nghiệp toàn cầu hiện tạo ra dư thừa lượng calo để nuôi sống mọi con người đang tồn tại, thế nhưng hơn 730 triệu người vẫn chịu cảnh thiếu dinh dưỡng mãn tính. [Đoạn 1]",
+            "explanation": "Câu mở đầu đoạn 1 nêu thẳng nghịch lý: sản xuất đủ calo nuôi toàn nhân loại nhưng vẫn còn hơn 730 triệu người thiếu đói mãn tính — bác bỏ giả thuyết cũ cho rằng đói chỉ do sản xuất thiếu (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nghịch lý an ninh lương thực (Factual)",
+              "cluePassage": "global agriculture currently generates more than enough dietary calories to nourish every human being alive, yet over 730 million people still endure chronic undernourishment.",
+              "clueAnswer": "Global farms already produce more than enough calories for everyone alive, yet over 730 million people remain chronically undernourished.",
+              "keyPassage": "more than enough dietary calories... yet over 730 million people still endure chronic undernourishment",
+              "keyAnswer": "more than enough calories... yet over 730 million people remain chronically undernourished",
+              "paraphrasePair": "generates... endure <=> produce... remain",
+              "meaningVi": "tạo ra dư thừa calo nhưng hàng trăm triệu người vẫn chịu thiếu đói",
+              "deductionLogic": "Khớp trực tiếp câu 1 đoạn 1."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "Which of the following is NOT one of the FAO's four pillars of food security listed in paragraph 1?",
+            "questionVi": "Yếu tố nào sau đây KHÔNG nằm trong bốn trụ cột an ninh lương thực của FAO được liệt kê ở đoạn 1?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Physical availability of food supplies",
+              "Economic and social access to nutritious diets",
+              "Physiological utilization of nutrients supported by clean water and sanitation",
+              "Elimination of all international maritime trade in agricultural commodities"
+            ],
+            "optionsVi": [
+              "A. Sự sẵn có vật lý của nguồn cung lương thực",
+              "B. Khả năng tiếp cận kinh tế và xã hội với chế độ ăn giàu dinh dưỡng",
+              "C. Khả năng cơ thể hấp thụ sử dụng dưỡng chất nhờ nước sạch và vệ sinh",
+              "D. Xóa bỏ hoàn toàn mọi hoạt động thương mại hàng hải quốc tế về nông sản"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "true food security rests upon four interdependent pillars: physical availability of food supplies, economic and social access to nutritious diets, physiological utilization of nutrients... and long-term stability... [Paragraph 1]",
+            "evidenceVi": "an ninh lương thực thực thụ dựa trên 4 trụ cột phụ thuộc nhau: tính sẵn có vật lý, khả năng tiếp cận kinh tế - xã hội, khả năng hấp thụ sử dụng dưỡng chất và sự ổn định lâu dài. [Đoạn 1]",
+            "explanation": "4 trụ cột của FAO là Availability, Access, Utilization và Stability. Không hề có việc xóa bỏ thương mại nông sản quốc tế (D).",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "physical availability... economic and social access... physiological utilization... long-term stability",
+              "clueAnswer": "Elimination of all international maritime trade in agricultural commodities",
+              "keyPassage": "availability, access, utilization, stability",
+              "keyAnswer": "Elimination of maritime trade (Not one of the 4 pillars)",
+              "paraphrasePair": "NOT in passage",
+              "meaningVi": "Không thuộc 4 trụ cột FAO",
+              "deductionLogic": "Loại trừ A, B, C đều có nguyên văn trong câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "According to paragraph 2, besides lowering total crop yields, what hidden nutritional impact are climate anomalies having on staple grains?",
+            "questionVi": "Theo đoạn 2, ngoài việc làm giảm tổng sản lượng mùa màng, các dị thường khí hậu còn gây tác động dinh dưỡng âm thầm nào lên ngũ cốc chủ lực?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Detail)",
+            "options": [
+              "They are depleting essential micronutrients such as zinc and iron inside major cereal grains.",
+              "They are turning cereal grains chemically toxic to livestock.",
+              "They are doubling the protein content of drought-stressed wheat.",
+              "They are preventing grains from being harvested by modern machinery."
+            ],
+            "optionsVi": [
+              "A. Chúng làm suy giảm mật độ vi chất thiết yếu như kẽm và sắt bên trong các loại ngũ cốc chính.",
+              "B. Chúng biến ngũ cốc thành chất độc hóa học đối với vật nuôi.",
+              "C. Chúng làm tăng gấp đôi hàm lượng đạm của lúa mì chịu hạn.",
+              "D. Chúng ngăn không cho máy móc hiện đại thu hoạch ngũ cốc."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "depressing staple crop yields while depleting the micronutrient density of zinc and iron inside major cereal grains. [Paragraph 2]",
+            "evidenceVi": "làm suy giảm năng suất cây lương thực chủ lực đồng thời làm cạn kiệt mật độ vi chất kẽm và sắt bên trong các hạt ngũ cốc chính. [Đoạn 2]",
+            "explanation": "Câu cuối đoạn 2 chỉ rõ tác động kép lên chất lượng dinh dưỡng: làm suy giảm hàm lượng kẽm và sắt trong ngũ cốc chủ lực (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết suy giảm vi chất (Factual)",
+              "cluePassage": "depleting the micronutrient density of zinc and iron inside major cereal grains.",
+              "clueAnswer": "They are depleting essential micronutrients such as zinc and iron inside major cereal grains.",
+              "keyPassage": "depleting the micronutrient density of zinc and iron inside major cereal grains",
+              "keyAnswer": "depleting essential micronutrients such as zinc and iron inside major cereal grains",
+              "paraphrasePair": "micronutrient density of zinc and iron <=> essential micronutrients such as zinc and iron",
+              "meaningVi": "mật độ vi chất kẽm và sắt <=> các vi chất thiết yếu như kẽm và sắt",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "How does paragraph 3 contrast food inefficiency between low-income agrarian nations and wealthy industrialized nations?",
+            "questionVi": "Đoạn 3 đối chiếu sự lãng phí lương thực giữa các nước nông nghiệp thu nhập thấp và các nước công nghiệp giàu có như thế nào?",
+            "questionType": "DẠNG 03: SO SÁNH ĐỐI CHIẾU (Comparison)",
+            "options": [
+              "Low-income nations suffer upstream 'food loss' from poor storage and cold chains, whereas wealthy nations suffer downstream 'food waste' at supermarkets and kitchens.",
+              "Wealthy nations experience no food waste at all thanks to strict cosmetic supermarket policies.",
+              "Low-income nations throw away food primarily because of confusing 'best-before' labels.",
+              "Both groups lose exactly 90 percent of their crops exclusively during ocean shipping."
+            ],
+            "optionsVi": [
+              "A. Các nước thu nhập thấp chịu 'thất thoát lương thực' ở khâu đầu nguồn do kho bãi và chuỗi lạnh yếu kém, còn nước giàu chịu 'lãng phí lương thực' ở khâu cuối nguồn tại siêu thị và gian bếp.",
+              "B. Các nước giàu hoàn toàn không có lãng phí thực phẩm nhờ tiêu chuẩn thẩm mỹ siêu thị nghiêm ngặt.",
+              "C. Các nước thu nhập thấp vứt bỏ đồ ăn chủ yếu do hiểu nhầm nhãn 'dùng tốt nhất trước ngày'.",
+              "D. Cả hai nhóm mất đúng 90% mùa màng duy nhất trong khâu vận tải biển."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "In low-income agrarian economies, the bulk of 'food loss' occurs upstream... due to rudimentary storage silos... absence of solar-powered cold chains... Conversely, in wealthy industrialized nations, 'food waste' predominates downstream at retail supermarkets and household kitchens... [Paragraph 3]",
+            "evidenceVi": "Ở nền kinh tế nông nghiệp thu nhập thấp, phần lớn 'thất thoát thực phẩm' xảy ra ở đầu nguồn do kho chứa thô sơ và thiếu chuỗi lạnh... Ngược lại, ở nước công nghiệp giàu, 'lãng phí thực phẩm' chiếm chủ đạo ở cuối nguồn tại siêu thị và nhà bếp. [Đoạn 3]",
+            "explanation": "Đoạn 3 phân định rất sắc nét giữa 'food loss' (thất thoát sau thu hoạch đầu nguồn ở nước nghèo) và 'food waste' (lãng phí tiêu dùng/bán lẻ cuối nguồn ở nước giàu) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Đối chiếu thất thoát vs lãng phí (Comparison)",
+              "cluePassage": "low-income agrarian economies... 'food loss' occurs upstream... rudimentary storage... absence of cold chains... Conversely, in wealthy industrialized nations, 'food waste' predominates downstream at retail supermarkets and household kitchens",
+              "clueAnswer": "Low-income nations suffer upstream 'food loss' from poor storage and cold chains, whereas wealthy nations suffer downstream 'food waste' at supermarkets and kitchens.",
+              "keyPassage": "upstream food loss (storage/cold chains) vs downstream food waste (supermarkets/kitchens)",
+              "keyAnswer": "upstream food loss vs downstream food waste",
+              "paraphrasePair": "rudimentary storage <=> poor storage",
+              "meaningVi": "kho bãi thô sơ <=> kho bảo quản kém",
+              "deductionLogic": "Phép tương phản trực tiếp bằng từ nối 'Conversely'."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "The word \"rudimentary\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"rudimentary\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "basic and primitive",
+              "automated and expensive",
+              "refrigerated and sterile",
+              "underground and massive"
+            ],
+            "optionsVi": [
+              "A. cơ bản và thô sơ",
+              "B. tự động hóa và đắt đỏ",
+              "C. được làm lạnh và vô trùng",
+              "D. nằm ngầm và đồ sộ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "due to rudimentary storage silos, unpaved feeder roads, and the absence of solar-powered cold chains... [Paragraph 3]",
+            "evidenceVi": "do các kho chứa thô sơ, đường nhánh chưa trải nhựa và thiếu vắng chuỗi lạnh chạy năng lượng mặt trời... [Đoạn 3]",
+            "explanation": "'Rudimentary' mang nghĩa sơ khai, thô sơ, lạc hậu ('basic and primitive'), đứng song song với đường chưa trải nhựa ('unpaved') và thiếu chuỗi lạnh.",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "rudimentary storage silos, unpaved feeder roads, and the absence of solar-powered cold chains",
+              "clueAnswer": "basic and primitive",
+              "keyPassage": "rudimentary storage silos",
+              "keyAnswer": "basic and primitive",
+              "paraphrasePair": "rudimentary <=> basic and primitive",
+              "meaningVi": "sơ khai thô sơ <=> cơ bản và lạc hậu",
+              "deductionLogic": "Ngữ cảnh hạ tầng yếu kém ở vùng nông thôn thu nhập thấp."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "According to paragraph 3, what causes significant retail and household food waste in wealthy nations?",
+            "questionVi": "Theo đoạn 3, điều gì gây ra lượng lãng phí thực phẩm lớn tại siêu thị và hộ gia đình ở các quốc gia giàu có?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Strict visual standards for produce, oversized servings, and misunderstanding 'best-before' labels",
+              "A lack of paved highways connecting rural farms to city centers",
+              "Widespread fungal outbreaks caused by the total absence of household refrigerators",
+              "Military blockades preventing imported fruits from entering supermarkets"
+            ],
+            "optionsVi": [
+              "A. Tiêu chuẩn khắt khe về hình thức nông sản, khẩu phần quá cỡ và hiểu sai nhãn 'dùng tốt nhất trước ngày'",
+              "B. Thiếu đường cao tốc trải nhựa nối trang trại nông thôn với trung tâm đô thị",
+              "C. Dịch nấm mốc lan rộng do thiếu hoàn toàn tủ lạnh gia đình",
+              "D. Phong tỏa quân sự ngăn trái cây nhập khẩu vào siêu thị"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "driven by rigid cosmetic standards for produce, oversized portions, and misinterpretation of 'best-before' date labels. [Paragraph 3]",
+            "evidenceVi": "bắt nguồn từ các tiêu chuẩn hình thức cứng nhắc đối với nông sản, khẩu phần ăn quá lớn và sự hiểu sai nhãn hạn 'sử dụng tốt nhất trước ngày'. [Đoạn 3]",
+            "explanation": "Câu cuối đoạn 3 liệt kê chính xác 3 nguyên nhân: tiêu chuẩn hình thức ('rigid cosmetic standards'), khẩu phần quá cỡ ('oversized portions') và hiểu nhầm nhãn hạn dùng (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên nhân lãng phí tiêu dùng (Cause & Effect)",
+              "cluePassage": "rigid cosmetic standards for produce, oversized portions, and misinterpretation of 'best-before' date labels.",
+              "clueAnswer": "Strict visual standards for produce, oversized servings, and misunderstanding 'best-before' labels",
+              "keyPassage": "rigid cosmetic standards... oversized portions... misinterpretation of 'best-before' date labels",
+              "keyAnswer": "strict visual standards... oversized servings... misunderstanding 'best-before' labels",
+              "paraphrasePair": "cosmetic... portions... misinterpretation <=> visual... servings... misunderstanding",
+              "meaningVi": "hình thức thẩm mỹ, khẩu phần, hiểu sai",
+              "deductionLogic": "Paraphrase chuẩn 3 cặp từ khóa liên tiếp ở cuối đoạn 3."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "What does paragraph 4 reject as an insufficient or flawed path to feeding ten billion people by 2050?",
+            "questionVi": "Đoạn 4 bác bỏ hướng đi nào vì cho rằng chưa đủ hoặc thiếu bền vững để nuôi sống 10 tỷ người vào năm 2050?",
+            "questionType": "DẠNG 03: QUAN ĐIỂM TÁC GIẢ (Factual Detail)",
+            "options": [
+              "Simply clearing more tropical rainforests to expand industrial monoculture",
+              "Developing climate-resilient, nutrient-enriched seed varieties",
+              "Investing in decentralized rural solar cold storage facilities",
+              "Granting equal land ownership rights and financial credit to women farmers"
+            ],
+            "optionsVi": [
+              "A. Chỉ đơn thuần chặt phá thêm rừng mưa nhiệt đới để mở rộng canh tác độc canh công nghiệp",
+              "B. Phát triển giống cây trồng chịu khí hậu khắc nghiệt và tăng cường vi chất",
+              "C. Đầu tư các kho lạnh năng lượng mặt trời phi tập trung ở nông thôn",
+              "D. Trao quyền sở hữu đất đai và tín dụng tài chính bình đẳng cho nữ nông dân"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Achieving durable food security for a projected global population approaching ten billion by 2050 will require far more than clearing additional tropical rainforests for industrial monoculture. [Paragraph 4]",
+            "evidenceVi": "Đạt được an ninh lương thực bền vững cho dân số toàn cầu tiến sát 10 tỷ người năm 2050 đòi hỏi nhiều hơn rất nhiều so với việc chặt phá thêm rừng mưa nhiệt đới cho độc canh công nghiệp. [Đoạn 4]",
+            "explanation": "Đoạn 4 phản đối cách làm mở rộng diện tích bằng phá rừng nhiệt đới độc canh, và ủng hộ 3 giải pháp B, C, D (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Phản biện giải pháp sai lệch (Factual)",
+              "cluePassage": "will require far more than clearing additional tropical rainforests for industrial monoculture.",
+              "clueAnswer": "Simply clearing more tropical rainforests to expand industrial monoculture",
+              "keyPassage": "far more than clearing additional tropical rainforests for industrial monoculture",
+              "keyAnswer": "Simply clearing more tropical rainforests to expand industrial monoculture",
+              "paraphrasePair": "require far more than X <=> X is insufficient",
+              "meaningVi": "đòi hỏi nhiều hơn thế rất nhiều <=> chỉ làm cách đó là chưa đủ",
+              "deductionLogic": "Phân biệt rõ phương án bị bác bỏ (A) với các giải pháp được khuyến nghị (B, C, D)."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "The word \"transgressing\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"transgressing\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "exceeding or breaching",
+              "protecting or shielding",
+              "mapping or charting",
+              "subsidizing or funding"
+            ],
+            "optionsVi": [
+              "A. vượt quá hoặc xâm phạm",
+              "B. bảo vệ hoặc che chở",
+              "C. vẽ bản đồ hoặc lập biểu đồ",
+              "D. trợ cấp hoặc tài trợ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "capable of nourishing humanity without transgressing Earth's planetary boundaries. [Paragraph 4]",
+            "evidenceVi": "có khả năng nuôi sống nhân loại mà không vượt quá các ranh giới sinh thái hành tinh của Trái Đất. [Đoạn 4]",
+            "explanation": "'Transgress (boundaries/limits)' có nghĩa là vượt rào, xâm phạm, vượt quá giới hạn chịu tải ('exceeding or breaching').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa học thuật (Vocabulary)",
+              "cluePassage": "without transgressing Earth's planetary boundaries.",
+              "clueAnswer": "exceeding or breaching",
+              "keyPassage": "transgressing Earth's planetary boundaries",
+              "keyAnswer": "exceeding or breaching",
+              "paraphrasePair": "transgressing boundaries <=> exceeding or breaching limits",
+              "meaningVi": "xâm phạm ranh giới hành tinh <=> vượt quá giới hạn",
+              "deductionLogic": "Collocation học thuật C1: 'transgress boundaries'."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "Why does the author mention empowering women smallholders with equal land tenure and credit in paragraph 4?",
+            "questionVi": "Tại sao tác giả lại đề cập đến việc trao quyền sở hữu đất đai và tín dụng bình đẳng cho các nữ nông hộ nhỏ trong đoạn 4?",
+            "questionType": "DẠNG 07: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
+            "options": [
+              "As a high-leverage socioeconomic intervention that strengthens global food security without harming ecosystems",
+              "To argue that male farmers should be barred from owning agricultural land",
+              "To prove that rural women prefer industrial monoculture over agroecology",
+              "To show that credit banks have already solved rural poverty worldwide"
+            ],
+            "optionsVi": [
+              "A. Như một biện pháp can thiệp kinh tế - xã hội có sức đòn bẩy cao giúp củng cố an ninh lương thực toàn cầu mà không gây hại hệ sinh thái",
+              "B. Để lập luận rằng nam nông dân nên bị cấm sở hữu đất nông nghiệp",
+              "C. Để chứng minh phụ nữ nông thôn thích độc canh công nghiệp hơn nông sinh thái",
+              "D. Để cho thấy các ngân hàng tín dụng đã giải quyết xong nghèo đói nông thôn toàn cầu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "empowering women smallholders with equal land tenure and credit, and curbing affluent consumer waste represent high-leverage interventions capable of nourishing humanity without transgressing Earth's planetary boundaries. [Paragraph 4]",
+            "evidenceVi": "trao quyền sở hữu đất và tín dụng bình đẳng cho nữ nông hộ nhỏ cùng việc kiềm chế lãng phí tiêu dùng là các can thiệp có đòn bẩy cao giúp nuôi sống nhân loại mà không vượt ranh giới hành tinh. [Đoạn 4]",
+            "explanation": "Tác giả đưa quyền đất đai và tín dụng bình đẳng cho nữ nông dân làm một trong những 'high-leverage interventions' (can thiệp đòn bẩy cao) để đảm bảo an ninh lương thực bền vững (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Mục đích đưa giải pháp (Rhetorical Purpose)",
+              "cluePassage": "empowering women smallholders with equal land tenure and credit... represent high-leverage interventions capable of nourishing humanity without transgressing Earth's planetary boundaries.",
+              "clueAnswer": "As a high-leverage socioeconomic intervention that strengthens global food security without harming ecosystems",
+              "keyPassage": "high-leverage interventions... nourishing humanity without transgressing planetary boundaries",
+              "keyAnswer": "high-leverage socioeconomic intervention... strengthens food security without harming ecosystems",
+              "paraphrasePair": "without transgressing planetary boundaries <=> without harming ecosystems",
+              "meaningVi": "không vượt ranh giới hành tinh <=> không làm tổn hại hệ sinh thái",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 4."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "Which statement best encapsulates the core thesis of the entire passage?",
+            "questionVi": "Phát biểu nào thâu tóm chính xác nhất luận đề cốt lõi của toàn bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / LUẬN ĐỀ (Main Idea)",
+            "options": [
+              "Global hunger is not merely a problem of producing enough food, but a complex challenge of access, conflict, climate resilience, and reducing supply-chain loss and waste.",
+              "World hunger can be eradicated overnight if wealthy countries simply clear all remaining rainforests.",
+              "Malthusian theory has been proven completely correct because global farms no longer produce enough calories.",
+              "Household date-label confusion is the only factor causing malnutrition in developing agrarian nations."
+            ],
+            "optionsVi": [
+              "A. Nạn đói toàn cầu không chỉ là bài toán sản xuất đủ lương thực, mà là thách thức phức hợp về quyền tiếp cận, xung đột, chống chịu khí hậu và cắt giảm thất thoát - lãng phí chuỗi cung ứng.",
+              "B. Nạn đói thế giới có thể xóa sổ sau một đêm nếu các nước giàu chặt hết rừng mưa còn lại.",
+              "C. Thuyết Malthus đã được chứng minh hoàn toàn đúng vì nông trại toàn cầu không còn sản xuất đủ calo.",
+              "D. Hiểu nhầm nhãn hạn dùng tại gia đình là nguyên nhân duy nhất gây suy dinh dưỡng ở nước nông nghiệp đang phát triển."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "reject the antiquated Malthusian assumption... four interdependent pillars... conflict, climate volatility... food loss and waste... dual transformation. [Paragraphs 1-4]",
+            "evidenceVi": "bác bỏ giả thuyết Malthus lỗi thời... 4 trụ cột phụ thuộc nhau... xung đột, biến động khí hậu... thất thoát và lãng phí... chuyển đổi kép. [Đoạn 1-4]",
+            "explanation": "Phương án A tổng hợp chính xác toàn bộ lập luận xuyên suốt 4 đoạn văn; B, C, D đều trực tiếp mâu thuẫn với thông tin bài đọc.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Luận đề bao quát toàn bài (Main Idea)",
+              "cluePassage": "not solely from absolute production deficits... conflict, climate volatility... food loss or wasted... dual transformation",
+              "clueAnswer": "Global hunger is not merely a problem of producing enough food, but a complex challenge of access, conflict, climate resilience, and reducing supply-chain loss and waste.",
+              "keyPassage": "not production deficits -> access + conflict + climate + loss/waste",
+              "keyAnswer": "not merely producing enough -> access, conflict, climate resilience, reducing loss and waste",
+              "paraphrasePair": "comprehensive synthesis across all 4 paragraphs",
+              "meaningVi": "tổng hợp mạch lạc cả 4 đoạn của bài đọc học thuật C1",
+              "deductionLogic": "Loại B, C, D vì đảo ngược hoàn toàn lập luận tác giả."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
