@@ -53336,6 +53336,2850 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST23",
+    "testNum": 23,
+    "title": "VSTEP READING MOCK TEST 23",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 13 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Learning English in Coffee Shops",
+        "topic": "Phương pháp học tiếng Anh tại quán cà phê: Không gian mở, tiếng ồn trắng & tương tác xã hội tự nhiên",
+        "timeAllowed": 15,
+        "passage": "<p>Over the past decade, an increasing number of language learners and university students have abandoned traditional libraries and silent study rooms in favor of bustling coffee shops. The pleasant aroma of freshly roasted beans, comfortable armchairs, and informal music create a relaxing ambiance that helps alleviate foreign language learning anxiety. Unlike sterile classrooms where learners frequently feel self-conscious and intimidated when practicing foreign speech, modern coffee shops cultivate an informal atmosphere that encourages spontaneous speaking practice, relaxed concentration, and low-stress immersion.</p><p>Beyond emotional comfort, contemporary psychological research indicates that the unique acoustic profile of cafes actively enhances cognitive focus. The gentle, continuous murmur of background conversations, clinking ceramic cups, and humming espresso machines generate what acousticians term 'ambient white noise.' When maintained at moderate levels—typically between 50 and 70 decibels—this unobtrusive auditory backdrop dampens sudden jarring noises and disrupts mental fatigue. For English learners reading complex texts or memorizing vocabulary, this ambient sound promotes a state of relaxed alertness and creative problem-solving.</p><p>Moreover, coffee shops serve as dynamic social hubs that provide authentic communicative opportunities. Many cosmopolitan cafes host weekly language exchange meetups where native speakers and international learners interact organically over espresso and pastries. Even outside structured events, ordering beverages in English, overhearing natural dialogues, or striking up casual conversations with expatriate baristas transforms passive study into active linguistic participation. This real-world pragmatic practice bridges the gap between textbook grammar rules and spontaneous conversational fluency.</p><p>Nevertheless, studying English in a public venue requires self-discipline and strategic planning. Popular coffee shops can occasionally become excessively crowded and loud, turning productive focus into overwhelming sensory overload. To maximize learning efficiency, students should select cafes with abundant natural lighting, reliable Wi-Fi, and ergonomic seating, while reserving demanding grammar exercises or listening comprehension drills for quieter times of day. When approached thoughtfully, coffee shops transform routine language study into an engaging and stimulating lifestyle habit.</p>",
+        "vocab": [
+          {
+            "word": "ambiance",
+            "pos": "n",
+            "ipa": "/ˈæm.bi.əns/",
+            "level": "B1",
+            "mean": "không khí, bầu không khí đặc trưng của một địa điểm",
+            "syns": [
+              "atmosphere",
+              "environment",
+              "mood"
+            ],
+            "ex": "The relaxed ambiance of the coffee shop makes it an ideal study location."
+          },
+          {
+            "word": "alleviate",
+            "pos": "v",
+            "ipa": "/əˈliː.vi.eɪt/",
+            "level": "B2",
+            "mean": "làm dịu bớt, giảm nhẹ (nỗi lo, sự căng thẳng, cơn đau)",
+            "syns": [
+              "ease",
+              "relieve",
+              "mitigate"
+            ],
+            "ex": "Casual surroundings help alleviate language anxiety during conversational practice."
+          },
+          {
+            "word": "anxiety",
+            "pos": "n",
+            "ipa": "/æŋˈzaɪ.ə.ti/",
+            "level": "B1",
+            "mean": "sự lo lắng, cảm giác bất an",
+            "syns": [
+              "nervousness",
+              "apprehension",
+              "worry"
+            ],
+            "ex": "Many students suffer from acute anxiety when speaking English in formal classrooms."
+          },
+          {
+            "word": "sterile",
+            "pos": "adj",
+            "ipa": "/ˈster.aɪl/",
+            "level": "B2",
+            "mean": "khô khan, tẻ nhạt, thiếu sức sống hoặc vô trùng",
+            "syns": [
+              "monotonous",
+              "uninspiring",
+              "clinical"
+            ],
+            "ex": "Traditional classrooms can feel sterile compared to vibrant community cafes."
+          },
+          {
+            "word": "self-conscious",
+            "pos": "adj",
+            "ipa": "/ˌselfˈkɒn.ʃəs/",
+            "level": "B2",
+            "mean": "ngượng ngùng, e dè, tự ti trước ánh mắt người khác",
+            "syns": [
+              "embarrassed",
+              "insecure",
+              "hesitant"
+            ],
+            "ex": "Beginners often feel self-conscious about their accent in front of large classes."
+          },
+          {
+            "word": "intimidated",
+            "pos": "adj",
+            "ipa": "/ɪnˈtɪm.ɪ.deɪ.tɪd/",
+            "level": "B2",
+            "mean": "bị đe dọa, cảm thấy sợ hãi và e ngại",
+            "syns": [
+              "frightened",
+              "daunted",
+              "overawed"
+            ],
+            "ex": "Students felt intimidated by strict grading criteria during speaking examinations."
+          },
+          {
+            "word": "spontaneous",
+            "pos": "adj",
+            "ipa": "/spɒnˈteɪ.ni.əs/",
+            "level": "B2",
+            "mean": "tự nhiên, bộc phát, không lên kế hoạch trước",
+            "syns": [
+              "unplanned",
+              "impromptu",
+              "instinctive"
+            ],
+            "ex": "Coffee shops encourage spontaneous conversations with fellow patrons."
+          },
+          {
+            "word": "immersion",
+            "pos": "n",
+            "ipa": "/ɪˈmɜː.ʃən/",
+            "level": "B2",
+            "mean": "sự đắm chìm, sự hòa nhập hoàn toàn vào môi trường ngôn ngữ",
+            "syns": [
+              "involvement",
+              "absorption",
+              "engagement"
+            ],
+            "ex": "Total language immersion accelerates vocabulary acquisition and natural comprehension."
+          },
+          {
+            "word": "acoustic",
+            "pos": "adj",
+            "ipa": "/əˈkuː.stɪk/",
+            "level": "B2",
+            "mean": "thuộc về âm thanh hoặc thính giác",
+            "syns": [
+              "auditory",
+              "sonic",
+              "sound-related"
+            ],
+            "ex": "The acoustic properties of cafes generate pleasant ambient sound."
+          },
+          {
+            "word": "enhance",
+            "pos": "v",
+            "ipa": "/ɪnˈhɑːns/",
+            "level": "B1",
+            "mean": "nâng cao, tăng cường chất lượng hoặc hiệu quả",
+            "syns": [
+              "boost",
+              "improve",
+              "elevate"
+            ],
+            "ex": "Moderate background noise can enhance creative thinking and reading stamina."
+          },
+          {
+            "word": "cognitive",
+            "pos": "adj",
+            "ipa": "/ˈkɒɡ.nə.tɪv/",
+            "level": "B2",
+            "mean": "thuộc về nhận thức và tư duy",
+            "syns": [
+              "intellectual",
+              "mental",
+              "cerebral"
+            ],
+            "ex": "Learning a second language stimulates long-term cognitive agility."
+          },
+          {
+            "word": "murmur",
+            "pos": "n",
+            "ipa": "/ˈmɜː.mər/",
+            "level": "B2",
+            "mean": "tiếng rì rầm, âm thanh thì thầm liên tục",
+            "syns": [
+              "hum",
+              "whisper",
+              "buzz"
+            ],
+            "ex": "The distant murmur of patrons prevents sudden auditory distractions."
+          },
+          {
+            "word": "unobtrusive",
+            "pos": "adj",
+            "ipa": "/ˌʌn.əbˈtruː.sɪv/",
+            "level": "B2",
+            "mean": "khiêm nhường, kín đáo, không gây chú ý làm phiền",
+            "syns": [
+              "discreet",
+              "subtle",
+              "low-profile"
+            ],
+            "ex": "Unobtrusive background music creates a soothing backdrop for reading."
+          },
+          {
+            "word": "backdrop",
+            "pos": "n",
+            "ipa": "/ˈbæk.drɒp/",
+            "level": "B2",
+            "mean": "phông nền, bối cảnh xung quanh",
+            "syns": [
+              "background",
+              "setting",
+              "milieu"
+            ],
+            "ex": "The bustling cafe provided a scenic backdrop for the study group."
+          },
+          {
+            "word": "fatigue",
+            "pos": "n",
+            "ipa": "/fəˈtiːɡ/",
+            "level": "B2",
+            "mean": "sự mệt mỏi về thể chất hoặc tinh thần",
+            "syns": [
+              "exhaustion",
+              "tiredness",
+              "weariness"
+            ],
+            "ex": "Drinking green tea helped ward off mental fatigue during intense study sessions."
+          },
+          {
+            "word": "alertness",
+            "pos": "n",
+            "ipa": "/əˈlɜːt.nəs/",
+            "level": "B2",
+            "mean": "sự tỉnh táo, sự cảnh giác và tập trung",
+            "syns": [
+              "attentiveness",
+              "vigilance",
+              "awareness"
+            ],
+            "ex": "Caffeine combined with lively surroundings heightened cognitive alertness."
+          },
+          {
+            "word": "cosmopolitan",
+            "pos": "adj",
+            "ipa": "/ˌkɒz.məˈpɒl.ɪ.tən/",
+            "level": "B2",
+            "mean": "mang tính quốc tế, đa văn hóa",
+            "syns": [
+              "international",
+              "multicultural",
+              "global"
+            ],
+            "ex": "Cosmopolitan cities offer diverse cafes where multiple languages are spoken."
+          },
+          {
+            "word": "organically",
+            "pos": "adv",
+            "ipa": "/ɔːˈɡæn.ɪ.kəl.i/",
+            "level": "B2",
+            "mean": "một cách tự nhiên, phát triển không gượng gạo",
+            "syns": [
+              "naturally",
+              "spontaneously",
+              "effortlessly"
+            ],
+            "ex": "Friendships formed organically during weekly language exchange meetings."
+          },
+          {
+            "word": "gathering",
+            "pos": "n",
+            "ipa": "/ˈɡæð.ər.ɪŋ/",
+            "level": "B1",
+            "mean": "buổi tụ họp, cuộc gặp mặt đông người",
+            "syns": [
+              "meeting",
+              "assembly",
+              "get-together"
+            ],
+            "ex": "The language club hosted a casual gathering every Friday evening."
+          },
+          {
+            "word": "expatriate",
+            "pos": "n",
+            "ipa": "/ekˈspæt.ri.ət/",
+            "level": "B2",
+            "mean": "người ngoại quốc sinh sống và làm việc ở nước ngoài",
+            "syns": [
+              "foreign resident",
+              "emigrant",
+              "non-native"
+            ],
+            "ex": "Many expatriates frequent the bookstore cafe to converse in English."
+          },
+          {
+            "word": "pragmatic",
+            "pos": "adj",
+            "ipa": "/præɡˈmæt.ɪk/",
+            "level": "B2",
+            "mean": "mang tính thực tế, chú trọng ứng dụng",
+            "syns": [
+              "practical",
+              "functional",
+              "realistic"
+            ],
+            "ex": "Pragmatic conversational practice is essential for mastering idiomatic speech."
+          },
+          {
+            "word": "fluency",
+            "pos": "n",
+            "ipa": "/ˈfluː.ən.si/",
+            "level": "B2",
+            "mean": "sự lưu loát, độ trôi chảy trong ngôn ngữ",
+            "syns": [
+              "articulateness",
+              "coherence",
+              "smoothness"
+            ],
+            "ex": "Achieving oral fluency requires consistent dialogue with diverse speakers."
+          },
+          {
+            "word": "discipline",
+            "pos": "n",
+            "ipa": "/ˈdɪs.ə.plɪn/",
+            "level": "B2",
+            "mean": "tính kỷ luật, sự tự giác tuân thủ quy tắc",
+            "syns": [
+              "self-control",
+              "rigor",
+              "determination"
+            ],
+            "ex": "Independent study demands rigorous self-discipline to resist phone distractions."
+          },
+          {
+            "word": "excessively",
+            "pos": "adv",
+            "ipa": "/ɪkˈses.ɪv.li/",
+            "level": "B2",
+            "mean": "quá mức, vượt quá giới hạn hợp lý",
+            "syns": [
+              "overly",
+              "unduly",
+              "disproportionately"
+            ],
+            "ex": "When cafes become excessively noisy, concentration deteriorates rapidly."
+          },
+          {
+            "word": "sensory",
+            "pos": "adj",
+            "ipa": "/ˈsen.sər.i/",
+            "level": "B2",
+            "mean": "thuộc về giác quan",
+            "syns": [
+              "perceptual",
+              "sensual",
+              "tactile"
+            ],
+            "ex": "Flashing screens and loud chatter can cause sensory fatigue."
+          },
+          {
+            "word": "ergonomic",
+            "pos": "adj",
+            "ipa": "/ˌɜː.ɡəˈnɒm.ɪk/",
+            "level": "B2",
+            "mean": "thiết kế công thái học, đem lại sự thoải mái cho cơ thể",
+            "syns": [
+              "user-friendly",
+              "comfortable",
+              "biomechanical"
+            ],
+            "ex": "Studying for long hours requires ergonomic chairs to prevent back strain."
+          },
+          {
+            "word": "stimulating",
+            "pos": "adj",
+            "ipa": "/ˈstɪm.jə.leɪ.tɪŋ/",
+            "level": "B1",
+            "mean": "kích thích, gợi mở sự hứng thú và tò mò",
+            "syns": [
+              "inspiring",
+              "invigorating",
+              "thought-provoking"
+            ],
+            "ex": "Discussing international news created a stimulating learning experience."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t23_q1",
+            "num": 1,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The historical transition from traditional library study to home schooling",
+              "The psychological and linguistic advantages of learning English in coffee shops",
+              "The nutritional benefits of drinking freshly brewed coffee while working",
+              "The business strategies behind launching successful cosmopolitan cafes"
+            ],
+            "optionsVi": [
+              "Sự chuyển dịch lịch sử từ việc học ở thư viện truyền thống sang giáo dục tại nhà",
+              "Những lợi ích tâm lý và ngôn ngữ của việc học tiếng Anh tại các quán cà phê",
+              "Lợi ích dinh dưỡng của việc uống cà phê pha tươi khi làm việc",
+              "Các chiến lược kinh doanh đằng sau việc ra mắt chuỗi cà phê quốc tế thành công"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Throughout the passage: examines how coffee shops offer relaxed ambiance, ambient noise for cognitive focus, communicative opportunities, and practical advice for learners.",
+            "evidenceVi": "Toàn bộ bài đọc phân tích bầu không khí thư thái, tiếng ồn trắng tăng tập trung, cơ hội giao tiếp thực tế và lời khuyên học tiếng Anh ở quán cà phê.",
+            "explanation": "Đoạn văn tập trung toàn diện vào các lợi thế tâm lý (giảm âu lo, tăng tập trung) và ngôn ngữ (giao tiếp thực tế) khi học tiếng Anh tại quán cà phê.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "Over the past decade... coffee shops cultivate an informal atmosphere that encourages spontaneous speaking practice, relaxed concentration, and low-stress immersion.",
+              "clueAnswer": "The psychological and linguistic advantages of learning English in coffee shops",
+              "keyPassage": "informal atmosphere that encourages spontaneous speaking practice, relaxed concentration, and low-stress immersion",
+              "keyAnswer": "psychological and linguistic advantages of learning English in coffee shops",
+              "paraphrasePair": "informal atmosphere / relaxed concentration <=> psychological and linguistic advantages",
+              "meaningVi": "không gian thư thái và tăng khả năng tập trung <=> các lợi ích tâm lý và ngôn ngữ",
+              "deductionLogic": "Tổng hợp luận điểm xuyên suốt 4 đoạn văn."
+            }
+          },
+          {
+            "id": "t23_q2",
+            "num": 2,
+            "question": "According to paragraph 1, how do coffee shops contrast with traditional sterile classrooms?",
+            "questionVi": "Theo đoạn 1, quán cà phê tương phản với các phòng học khô khan truyền thống như thế nào?",
+            "questionType": "detail",
+            "options": [
+              "They impose strict discipline and mandatory oral presentations",
+              "They offer lower tuition costs and government-subsidized materials",
+              "They reduce feelings of self-consciousness and foreign speech intimidation",
+              "They eliminate the need to memorize academic vocabulary and grammar rules"
+            ],
+            "optionsVi": [
+              "Chúng áp đặt kỷ luật nghiêm ngặt và yêu cầu thuyết trình bắt buộc",
+              "Chúng có học phí thấp hơn và tài liệu được chính phủ trợ cấp",
+              "Chúng làm giảm cảm giác e dè tự ti và sự sợ hãi khi nói ngoại ngữ",
+              "Chúng loại bỏ sự cần thiết phải ghi nhớ từ vựng học thuật và quy tắc ngữ pháp"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Unlike sterile classrooms where learners frequently feel self-conscious and intimidated when practicing foreign speech, modern coffee shops cultivate an informal atmosphere that encourages spontaneous speaking practice...",
+            "evidenceVi": "Khác với các lớp học tẻ nhạt nơi người học thường cảm thấy e dè và sợ hãi khi luyện nói ngoại ngữ, các quán cà phê hiện đại tạo ra bầu không khí thân thiện...",
+            "explanation": "Đoạn 1 nêu rõ lớp học truyền thống khiến người học cảm thấy self-conscious (e dè) và intimidated (sợ hãi), trong khi quán cà phê giúp giảm bớt rào cản này.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết đối chiếu (Contrast Detail)",
+              "cluePassage": "learners frequently feel self-conscious and intimidated when practicing foreign speech, modern coffee shops cultivate an informal atmosphere",
+              "clueAnswer": "reduce feelings of self-consciousness and foreign speech intimidation",
+              "keyPassage": "feel self-conscious and intimidated when practicing foreign speech",
+              "keyAnswer": "reduce feelings of self-consciousness and foreign speech intimidation",
+              "paraphrasePair": "feel self-conscious and intimidated <=> self-consciousness and foreign speech intimidation",
+              "meaningVi": "e dè và sợ hãi khi luyện nói ngoại ngữ",
+              "deductionLogic": "Khớp trực tiếp thông tin ở câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": "t23_q3",
+            "num": 3,
+            "question": "The word 'alleviate' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'alleviate' trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "amplify",
+              "mitigate",
+              "disguise",
+              "trigger"
+            ],
+            "optionsVi": [
+              "khuếch đại",
+              "làm giảm nhẹ / làm dịu",
+              "ngụy trang / che giấu",
+              "kích hoạt / châm ngòi"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...create a relaxing ambiance that helps alleviate foreign language learning anxiety.",
+            "evidenceVi": "...tạo ra một bầu không khí thư giãn giúp làm dịu bớt sự lo âu khi học ngoại ngữ.",
+            "explanation": "'Alleviate' mang nghĩa làm dịu bớt, giảm nhẹ, đồng nghĩa với 'mitigate' hoặc 'ease'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng đồng nghĩa (Vocabulary in Context)",
+              "cluePassage": "create a relaxing ambiance that helps alleviate foreign language learning anxiety",
+              "clueAnswer": "mitigate",
+              "keyPassage": "alleviate foreign language learning anxiety",
+              "keyAnswer": "mitigate",
+              "paraphrasePair": "alleviate <=> mitigate",
+              "meaningVi": "làm giảm bớt, làm dịu",
+              "deductionLogic": "Ngữ cảnh là không khí thư giãn giúp giảm âu lo, nên chọn mitigate."
+            }
+          },
+          {
+            "id": "t23_q4",
+            "num": 4,
+            "question": "What is the cognitive benefit of ambient sound at 50 to 70 decibels described in paragraph 2?",
+            "questionVi": "Lợi ích nhận thức của âm thanh nền ở mức 50 đến 70 decibel được miêu tả trong đoạn 2 là gì?",
+            "questionType": "detail",
+            "options": [
+              "It completely shuts off auditory cortex receptors to induce sleep",
+              "It acts as an unobtrusive barrier that dampens sudden distractions and mental fatigue",
+              "It accelerates the heartbeat and triggers adrenaline release for physical exercise",
+              "It enhances musical pitch discrimination for professional singing students"
+            ],
+            "optionsVi": [
+              "Nó đóng hoàn toàn thụ thể vỏ não thính giác để gây ngủ",
+              "Nó đóng vai trò như rào chắn êm dịu làm giảm xao nhãng đột ngột và mệt mỏi tinh thần",
+              "Nó đẩy nhanh nhịp tim và kích hoạt giải phóng adrenaline để rèn luyện thể chất",
+              "Nó nâng cao khả năng phân biệt cao độ âm nhạc cho sinh viên thanh nhạc"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "When maintained at moderate levels—typically between 50 and 70 decibels—this unobtrusive auditory backdrop dampens sudden jarring noises and disrupts mental fatigue.",
+            "evidenceVi": "Khi duy trì ở mức vừa phải—thường từ 50 đến 70 decibel—phông nền âm thanh khiêm nhường này làm dịu các tiếng ồn chói tai đột ngột và phá vỡ sự mệt mỏi tinh thần.",
+            "explanation": "Đoạn 2 nêu rõ mức 50-70 dB hoạt động như một bức nền âm thanh giúp hạn chế tiếng ồn bất ngờ và xua tan mệt mỏi.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết khoa học (Scientific Detail)",
+              "cluePassage": "this unobtrusive auditory backdrop dampens sudden jarring noises and disrupts mental fatigue",
+              "clueAnswer": "acts as an unobtrusive barrier that dampens sudden distractions and mental fatigue",
+              "keyPassage": "dampens sudden jarring noises and disrupts mental fatigue",
+              "keyAnswer": "dampens sudden distractions and mental fatigue",
+              "paraphrasePair": "dampens sudden jarring noises <=> dampens sudden distractions",
+              "meaningVi": "làm dịu đi các yếu tố gây xao nhãng bất ngờ",
+              "deductionLogic": "Khớp chính xác với nội dung câu 3 đoạn 2."
+            }
+          },
+          {
+            "id": "t23_q5",
+            "num": 5,
+            "question": "Which acoustic elements contribute to cafe white noise according to paragraph 2?",
+            "questionVi": "Những yếu tố âm thanh nào góp phần tạo nên tiếng ồn trắng của quán cà phê theo đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "Loud traffic sirens and street construction drills",
+              "The murmur of conversations, clinking ceramic cups, and humming espresso machines",
+              "Recorded language grammar lectures broadcast over loudspeakers",
+              "Live rock music performances and megaphone announcements"
+            ],
+            "optionsVi": [
+              "Tiếng còi xe lớn và máy khoan công trường đường phố",
+              "Tiếng rì rầm trò chuyện, tiếng ly tách gốm sứ va chạm và tiếng máy pha cà phê vo ve",
+              "Các bài giảng ngữ pháp được ghi âm phát qua loa phóng thanh",
+              "Các buổi biểu diễn nhạc rock sống và thông báo qua loa cầm tay"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The gentle, continuous murmur of background conversations, clinking ceramic cups, and humming espresso machines generate what acousticians term 'ambient white noise.'",
+            "evidenceVi": "Tiếng rì rầm êm đềm liên tục của các cuộc trò chuyện nền, tiếng va chạm lách cách của ly sứ và tiếng máy pha espresso vo ve tạo nên cái mà các nhà âm học gọi là 'tiếng ồn trắng môi trường'.",
+            "explanation": "Đoạn 2 liệt kê chính xác ba âm thanh: background conversations, clinking ceramic cups, và humming espresso machines.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết liệt kê (Listing Detail)",
+              "cluePassage": "murmur of background conversations, clinking ceramic cups, and humming espresso machines generate what acousticians term 'ambient white noise.'",
+              "clueAnswer": "The murmur of conversations, clinking ceramic cups, and humming espresso machines",
+              "keyPassage": "murmur of background conversations, clinking ceramic cups, and humming espresso machines",
+              "keyAnswer": "murmur of conversations, clinking ceramic cups, and humming espresso machines",
+              "paraphrasePair": "murmur... clinking... humming <=> murmur... clinking... humming",
+              "meaningVi": "tiếng rì rầm trò chuyện, lách cách ly tách và vo ve của máy pha cà phê",
+              "deductionLogic": "Đối chiếu trực tiếp danh sách âm thanh ở câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t23_q6",
+            "num": 6,
+            "question": "The word 'unobtrusive' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'unobtrusive' trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "inconspicuous",
+              "belligerent",
+              "boisterous",
+              "tumultuous"
+            ],
+            "optionsVi": [
+              "kín đáo, không lộ liễu, không gây chú ý",
+              "hung hăng hiếu chiến",
+              "náo nhiệt ồn ào",
+              "hỗn loạn dữ dội"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...this unobtrusive auditory backdrop dampens sudden jarring noises...",
+            "evidenceVi": "...phông nền âm thanh kín đáo không làm phiền này làm giảm các tiếng ồn chói tai đột ngột...",
+            "explanation": "'Unobtrusive' nghĩa là kín đáo, tế nhị, không gây cản trở hay khó chịu, đồng nghĩa với 'inconspicuous' hoặc 'discreet'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "this unobtrusive auditory backdrop dampens sudden jarring noises",
+              "clueAnswer": "inconspicuous",
+              "keyPassage": "unobtrusive auditory backdrop",
+              "keyAnswer": "inconspicuous",
+              "paraphrasePair": "unobtrusive <=> inconspicuous",
+              "meaningVi": "không làm phiền, kín đáo không gây chú ý lộ liễu",
+              "deductionLogic": "Unobtrusive miêu tả tiếng ồn nền nhẹ nhàng, không lấn át, do đó tương đương inconspicuous."
+            }
+          },
+          {
+            "id": "t23_q7",
+            "num": 7,
+            "question": "The word 'This' in paragraph 3 refers to:",
+            "questionVi": "Từ 'This' trong đoạn 3 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "Purchasing expensive imported coffee beans online",
+              "Memorizing written grammar tables in complete solitude",
+              "Active linguistic participation through real-world communicative cafe encounters",
+              "Complaining about inaccurate drink orders to management"
+            ],
+            "optionsVi": [
+              "Việc mua hạt cà phê nhập khẩu đắt tiền trực tuyến",
+              "Việc học thuộc bảng ngữ pháp trong sự cô độc hoàn toàn",
+              "Sự tham gia ngôn ngữ chủ động thông qua các cuộc tiếp xúc giao tiếp thực tế tại quán cà phê",
+              "Việc khiếu nại về đồ uống pha không chính xác lên ban quản lý"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Even outside structured events, ordering beverages in English, overhearing natural dialogues, or striking up casual conversations with expatriate baristas transforms passive study into active linguistic participation. This real-world pragmatic practice bridges the gap...",
+            "evidenceVi": "Thậm chí bên ngoài các sự kiện có tổ chức, việc gọi đồ uống bằng tiếng Anh, lắng nghe hội thoại tự nhiên, hay bắt chuyện với barista ngoại quốc biến việc học thụ động thành sự tham gia ngôn ngữ chủ động. Hoạt động thực tế này...",
+            "explanation": "'This' ở đầu câu tiếp theo thay thế cho toàn bộ hành động tham gia ngôn ngữ chủ động qua việc gọi đồ uống, giao lưu với barista ở câu trước.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ chỉ định (Pronoun Reference)",
+              "cluePassage": "transforms passive study into active linguistic participation. This real-world pragmatic practice bridges the gap...",
+              "clueAnswer": "Active linguistic participation through real-world communicative cafe encounters",
+              "keyPassage": "transforms passive study into active linguistic participation. This real-world pragmatic practice",
+              "keyAnswer": "Active linguistic participation through real-world communicative cafe encounters",
+              "paraphrasePair": "active linguistic participation <=> Active linguistic participation through real-world communicative cafe encounters",
+              "meaningVi": "sự tham gia ngôn ngữ chủ động trong đời sống thực",
+              "deductionLogic": "Khớp câu đứng ngay trước đại từ 'This'."
+            }
+          },
+          {
+            "id": "t23_q8",
+            "num": 8,
+            "question": "According to paragraph 3, which informal activity allows learners to practice English naturally?",
+            "questionVi": "Theo đoạn 3, hoạt động thân mật nào cho phép người học luyện tiếng Anh một cách tự nhiên?",
+            "questionType": "detail",
+            "options": [
+              "Administering written vocabulary tests to the restaurant staff",
+              "Ordering drinks and conversing casually with expatriate baristas",
+              "Listening to headphones at maximum volume while ignoring patrons",
+              "Translating historical coffee brewing manuals into their native tongue"
+            ],
+            "optionsVi": [
+              "Phát bài kiểm tra từ vựng dạng viết cho nhân viên nhà hàng",
+              "Gọi đồ uống và trò chuyện thân mật với nhân viên pha chế người nước ngoài",
+              "Đeo tai nghe mở âm lượng tối đa và phớt lờ khách hàng xung quanh",
+              "Dịch các sách hướng dẫn pha chế cà phê lịch sử sang tiếng mẹ đẻ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...ordering beverages in English, overhearing natural dialogues, or striking up casual conversations with expatriate baristas transforms passive study into active linguistic participation.",
+            "evidenceVi": "...gọi đồ uống bằng tiếng Anh, nghe hội thoại tự nhiên, hay bắt chuyện ngẫu nhiên với các barista người nước ngoài...",
+            "explanation": "Đoạn 3 chỉ ra việc gọi đồ uống và trò chuyện với barista ngoại quốc là cơ hội thực hành giao tiếp tự nhiên.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết thực tế (Practical Detail)",
+              "cluePassage": "ordering beverages in English... or striking up casual conversations with expatriate baristas",
+              "clueAnswer": "Ordering drinks and conversing casually with expatriate baristas",
+              "keyPassage": "ordering beverages in English... striking up casual conversations with expatriate baristas",
+              "keyAnswer": "Ordering drinks and conversing casually with expatriate baristas",
+              "paraphrasePair": "ordering beverages... striking up casual conversations <=> Ordering drinks and conversing casually",
+              "meaningVi": "gọi đồ uống và trò chuyện thân mật",
+              "deductionLogic": "Khớp câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": "t23_q9",
+            "num": 9,
+            "question": "According to paragraph 4, what should students do with demanding grammar or listening drills?",
+            "questionVi": "Theo đoạn 4, học sinh nên làm gì với các bài tập ngữ pháp phức tạp hoặc bài luyện nghe đòi hỏi cao?",
+            "questionType": "negative_detail",
+            "options": [
+              "Perform them exclusively during peak rush hours with maximum noise",
+              "Reserve them for quieter times of the day to avoid sensory overload",
+              "Complete them while talking on the phone with multiple classmates",
+              "Avoid practicing them altogether and focus solely on casual chatting"
+            ],
+            "optionsVi": [
+              "Làm chúng duy nhất vào các giờ cao điểm đông đúc nhất với tiếng ồn lớn",
+              "Để dành chúng cho những thời điểm yên tĩnh hơn trong ngày nhằm tránh quá tải giác quan",
+              "Hoàn thành chúng trong khi vừa nói chuyện điện thoại với nhiều bạn cùng lớp",
+              "Hoàn toàn không luyện tập chúng nữa mà chỉ tập trung vào nói chuyện phiếm"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...while reserving demanding grammar exercises or listening comprehension drills for quieter times of day.",
+            "evidenceVi": "...trong khi để dành các bài tập ngữ pháp đòi hỏi cao hoặc bài luyện nghe hiểu cho các thời điểm yên tĩnh hơn trong ngày.",
+            "explanation": "Đoạn 4 khuyên nên để dành (reserving) các bài tập nặng về ngữ pháp và nghe cho thời điểm yên tĩnh trong ngày.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết khuyến nghị (Recommendation Detail)",
+              "cluePassage": "reserving demanding grammar exercises or listening comprehension drills for quieter times of day",
+              "clueAnswer": "Reserve them for quieter times of the day to avoid sensory overload",
+              "keyPassage": "reserving demanding grammar exercises... for quieter times of day",
+              "keyAnswer": "Reserve them for quieter times of the day",
+              "paraphrasePair": "reserving... for quieter times of day <=> Reserve them for quieter times of the day",
+              "meaningVi": "dành những bài khó cho lúc yên tĩnh hơn",
+              "deductionLogic": "Khớp câu 3 đoạn 4."
+            }
+          },
+          {
+            "id": "t23_q10",
+            "num": 10,
+            "question": "What is the author's overall conclusion in paragraph 4 regarding studying in coffee shops?",
+            "questionVi": "Kết luận tổng thể của tác giả trong đoạn 4 về việc học tại quán cà phê là gì?",
+            "questionType": "inference",
+            "options": [
+              "Coffee shops are detrimental to all forms of academic scholarship and should be avoided",
+              "When approached thoughtfully, coffee shops transform routine study into an engaging lifestyle habit",
+              "Language learners should replace all professional university courses with cafe visits",
+              "Libraries should ban all silence rules and install espresso machines immediately"
+            ],
+            "optionsVi": [
+              "Quán cà phê gây hại cho mọi hình thức học thuật và nên tránh xa hoàn toàn",
+              "Khi được tiếp cận một cách thấu đáo có kế hoạch, quán cà phê biến việc học thông thường thành thói quen sống đầy hứng khởi",
+              "Người học ngôn ngữ nên thay thế toàn bộ khóa học đại học chuyên nghiệp bằng việc đi quán cà phê",
+              "Các thư viện nên hủy bỏ mọi quy tắc giữ im lặng và lắp đặt máy pha cà phê ngay lập tức"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "When approached thoughtfully, coffee shops transform routine language study into an engaging and stimulating lifestyle habit.",
+            "evidenceVi": "Khi được tiếp cận một cách chu đáo, các quán cà phê biến việc học ngôn ngữ thường nhật thành một thói quen sống lôi cuốn và kích thích tư duy.",
+            "explanation": "Tác giả kết luận tích cực rằng khi có kế hoạch và phương pháp phù hợp, học ở quán cà phê là thói quen sống thú vị và hiệu quả.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Kết luận tác giả (Author's Conclusion)",
+              "cluePassage": "When approached thoughtfully, coffee shops transform routine language study into an engaging and stimulating lifestyle habit.",
+              "clueAnswer": "When approached thoughtfully, coffee shops transform routine study into an engaging lifestyle habit",
+              "keyPassage": "When approached thoughtfully, coffee shops transform routine language study into an engaging and stimulating lifestyle habit.",
+              "keyAnswer": "When approached thoughtfully, coffee shops transform routine study into an engaging lifestyle habit",
+              "paraphrasePair": "approached thoughtfully... engaging and stimulating lifestyle habit <=> approached thoughtfully... engaging lifestyle habit",
+              "meaningVi": "tiếp cận thấu đáo biến học tập thành thói quen hấp dẫn",
+              "deductionLogic": "Khớp trực tiếp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: African Geography: Sahara & The African Great Lakes",
+        "topic": "Địa lý châu Phi: Sa mạc hóa Sahara, đới tách giãn Đông Phi & hệ thống hồ lớn cung cấp nước ngọt",
+        "timeAllowed": 15,
+        "passage": "<p>The continent of Africa displays an extraordinary geographical dichotomy, encompassing vast arid expanses in the north and fertile freshwater river basins across its equatorial heartland. Dominating northern Africa is the Sahara, the largest hot desert on Earth, sprawling across more than nine million square kilometers. Characterized by shifting sand dunes, gravel plains, and extreme diurnal temperature variations, the Sahara acts as a formidable ecological barrier separating Mediterranean North Africa from sub-Saharan tropical ecosystems. Despite its inhospitable climate, ancient trade caravans and nomadic pastoralists historically navigated trans-Saharan routes, fostering cultural and commercial exchange.</p><p>In recent decades, the Sahara has expanded southward into the Sahel, a semi-arid transitional belt vulnerable to catastrophic desertification. Driven by a volatile combination of prolonged climatic droughts, deforestation, and overgrazing by livestock, fertile topsoil has eroded rapidly. To counter this creeping environmental catastrophe, the African Union launched the ambitious 'Great Green Wall' initiative in 2007. This transnational reforestation project aims to cultivate an 8,000-kilometer barrier of drought-resistant trees across eleven nations from Senegal to Djibouti, restoring degraded land, sequestering carbon, and safeguarding rural agrarian livelihoods.</p><p>In stark contrast to the desiccated landscapes of the Sahara, eastern and central Africa are sculpted by the East African Rift System, a major tectonic boundary where the African continent is slowly cleaving into two plates. This profound geological fissure has fostered the formation of the African Great Lakes, one of the planet's most significant freshwater reserves. Lake Victoria, the world's second-largest freshwater lake by surface area, anchors the regional hydrological cycle and feeds the Nile River. Surrounding lakes, including Lake Tanganyika and Lake Malawi, plunge to extraordinary depths, harboring hundreds of endemic cichlid fish species that represent unique evolutionary laboratories.</p><p>These magnificent lacustrine ecosystems underpin the economic survival and food security of tens of millions of riparian inhabitants. Artisanal fisheries provide essential dietary protein, while freshwater reservoirs generate hydroelectric energy and facilitate domestic maritime transport. However, the African Great Lakes face unprecedented anthropogenic pressures, including industrial runoff, overfishing, and the rapid proliferation of invasive water hyacinths that suffocate aquatic biodiversity. Managing these precious water resources requires robust transboundary treaties and synchronized conservation policies among bordering sovereign nations to preserve equatorial Africa's ecological heritage.</p>",
+        "vocab": [
+          {
+            "word": "dichotomy",
+            "pos": "n",
+            "ipa": "/daɪˈkɒt.ə.mi/",
+            "level": "B2",
+            "mean": "sự phân đôi, hai trạng thái hoàn toàn đối lập nhau",
+            "syns": [
+              "contrast",
+              "division",
+              "polarity"
+            ],
+            "ex": "The continent exhibits a stark climatic dichotomy between barren deserts and tropical rainforests."
+          },
+          {
+            "word": "arid",
+            "pos": "adj",
+            "ipa": "/ˈær.ɪd/",
+            "level": "B2",
+            "mean": "khô cằn, hiếm mưa",
+            "syns": [
+              "parched",
+              "dry",
+              "barren"
+            ],
+            "ex": "Arid regions require innovative irrigation techniques to sustain agriculture."
+          },
+          {
+            "word": "equatorial",
+            "pos": "adj",
+            "ipa": "/ˌek.wəˈtɔː.ri.əl/",
+            "level": "B2",
+            "mean": "thuộc vùng xích đạo",
+            "syns": [
+              "tropical",
+              "central",
+              "equator-adjacent"
+            ],
+            "ex": "Equatorial rainforests receive abundant precipitation throughout the year."
+          },
+          {
+            "word": "diurnal",
+            "pos": "adj",
+            "ipa": "/daɪˈɜː.nəl/",
+            "level": "B2",
+            "mean": "thuộc ban ngày hoặc diễn ra theo chu kỳ ngày đêm",
+            "syns": [
+              "daily",
+              "daytime",
+              "circadian"
+            ],
+            "ex": "Deserts experience dramatic diurnal temperature fluctuations between midday heat and nighttime freezing."
+          },
+          {
+            "word": "formidable",
+            "pos": "adj",
+            "ipa": "/fɔːˈmɪd.ə.bəl/",
+            "level": "B2",
+            "mean": "đáng gờm, ghê gớm, to lớn khó vượt qua",
+            "syns": [
+              "daunting",
+              "imposing",
+              "intimidating"
+            ],
+            "ex": "The Sahara formed a formidable geographical barrier to early human travel."
+          },
+          {
+            "word": "inhospitable",
+            "pos": "adj",
+            "ipa": "/ˌɪn.hɒsˈpɪt.ə.bəl/",
+            "level": "B2",
+            "mean": "khắc nghiệt, không thể sống được, không chào đón",
+            "syns": [
+              "hostile",
+              "unforgiving",
+              "harsh"
+            ],
+            "ex": "Very few mammal species can survive in the inhospitable central dunes."
+          },
+          {
+            "word": "pastoralist",
+            "pos": "n",
+            "ipa": "/ˈpɑː.stər.ə.lɪst/",
+            "level": "B2",
+            "mean": "người làm nghề chăn thả gia súc du mục",
+            "syns": [
+              "herder",
+              "nomad",
+              "rancher"
+            ],
+            "ex": "Nomadic pastoralists migrate across borders in search of fresh pastures."
+          },
+          {
+            "word": "desertification",
+            "pos": "n",
+            "ipa": "/dɪˌzɜː.tɪ.fɪˈkeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự sa mạc hóa, đất đai biến thành hoang mạc",
+            "syns": [
+              "land degradation",
+              "aridification",
+              "soil erosion"
+            ],
+            "ex": "Climate change and overcultivation accelerate desertification in the Sahel."
+          },
+          {
+            "word": "overgrazing",
+            "pos": "n",
+            "ipa": "/ˌəʊ.vəˈɡreɪ.zɪŋ/",
+            "level": "B2",
+            "mean": "sự chăn thả gia súc quá mức làm cạn kiệt thảm thực vật",
+            "syns": [
+              "overpasturing",
+              "excessive grazing",
+              "grass depletion"
+            ],
+            "ex": "Overgrazing by cattle destroys native grasses, exposing fragile topsoil."
+          },
+          {
+            "word": "reforestation",
+            "pos": "n",
+            "ipa": "/riːˌfɒr.ɪˈsteɪ.ʃən/",
+            "level": "B2",
+            "mean": "việc tái trồng rừng, khôi phục rừng đã mất",
+            "syns": [
+              "afforestation",
+              "tree replanting",
+              "forest renewal"
+            ],
+            "ex": "Large-scale reforestation can reverse decades of environmental damage."
+          },
+          {
+            "word": "sequester",
+            "pos": "v",
+            "ipa": "/sɪˈkwes.tər/",
+            "level": "B2",
+            "mean": "cô lập, lưu giữ và hấp thụ (carbon)",
+            "syns": [
+              "capture",
+              "isolate",
+              "absorb"
+            ],
+            "ex": "Dense forests sequester millions of tons of atmospheric carbon dioxide annually."
+          },
+          {
+            "word": "agrarian",
+            "pos": "adj",
+            "ipa": "/əˈɡreə.ri.ən/",
+            "level": "B2",
+            "mean": "thuộc về nông nghiệp, đất canh tác",
+            "syns": [
+              "agricultural",
+              "farming",
+              "rural"
+            ],
+            "ex": "Agrarian communities depend entirely on regular monsoon rains for harvests."
+          },
+          {
+            "word": "desiccated",
+            "pos": "adj",
+            "ipa": "/ˈdes.ɪ.keɪ.tɪd/",
+            "level": "B2",
+            "mean": "khô héo, khô cằn, kiệt quệ nước",
+            "syns": [
+              "dried-out",
+              "dehydrated",
+              "arid"
+            ],
+            "ex": "Plants in the desiccated terrain possess deep taproots to reach subterranean water."
+          },
+          {
+            "word": "fissure",
+            "pos": "n",
+            "ipa": "/ˈfɪʃ.ər/",
+            "level": "B2",
+            "mean": "vết nứt, khe nứt lớn trong lòng đất hoặc địa tầng",
+            "syns": [
+              "cleft",
+              "crevice",
+              "fracture"
+            ],
+            "ex": "The volcanic fissure released geothermal steam into the atmosphere."
+          },
+          {
+            "word": "tectonic",
+            "pos": "adj",
+            "ipa": "/tekˈtɒn.ɪk/",
+            "level": "B2",
+            "mean": "thuộc về kiến tạo mảng địa chất",
+            "syns": [
+              "geological",
+              "structural",
+              "lithospheric"
+            ],
+            "ex": "Tectonic movement along the rift valley causes occasional tremors."
+          },
+          {
+            "word": "cleave",
+            "pos": "v",
+            "ipa": "/kliːv/",
+            "level": "B2",
+            "mean": "tách ra, chẻ đôi, phân chia",
+            "syns": [
+              "split",
+              "divide",
+              "separate"
+            ],
+            "ex": "Tectonic forces will eventually cleave eastern Africa from the continental mainland."
+          },
+          {
+            "word": "hydrological",
+            "pos": "adj",
+            "ipa": "/ˌhaɪ.drəˈlɒdʒ.ɪ.kəl/",
+            "level": "B2",
+            "mean": "thuộc về chu trình thủy văn và phân bố nguồn nước",
+            "syns": [
+              "water-cycle",
+              "aquatic",
+              "hydraulic"
+            ],
+            "ex": "Lake Victoria drives the hydrological patterns of several East African countries."
+          },
+          {
+            "word": "endemic",
+            "pos": "adj",
+            "ipa": "/enˈdem.ɪk/",
+            "level": "B2",
+            "mean": "đặc hữu, chỉ xuất hiện tự nhiên tại một khu vực nhất định",
+            "syns": [
+              "native",
+              "indigenous",
+              "localized"
+            ],
+            "ex": "Lake Malawi contains hundreds of endemic fish species found nowhere else."
+          },
+          {
+            "word": "lacustrine",
+            "pos": "adj",
+            "ipa": "/ləˈkʌs.traɪn/",
+            "level": "B2",
+            "mean": "thuộc về hoặc liên quan đến môi trường hồ nước",
+            "syns": [
+              "lake-dwelling",
+              "limnological",
+              "lake-related"
+            ],
+            "ex": "Lacustrine sediment deposits offer valuable data on prehistoric climate shifts."
+          },
+          {
+            "word": "riparian",
+            "pos": "adj",
+            "ipa": "/raɪˈpeə.ri.ən/",
+            "level": "B2",
+            "mean": "thuộc về dải đất ven bờ sông hoặc bờ hồ",
+            "syns": [
+              "riverside",
+              "lakeside",
+              "coastal"
+            ],
+            "ex": "Riparian forests help filter agricultural runoff before it enters the water."
+          },
+          {
+            "word": "artisanal",
+            "pos": "adj",
+            "ipa": "/ˌɑː.tɪˈzæn.əl/",
+            "level": "B2",
+            "mean": "thủ công, quy mô nhỏ truyền thống bằng tay",
+            "syns": [
+              "traditional",
+              "handcrafted",
+              "small-scale"
+            ],
+            "ex": "Artisanal fishing boats depart at dawn to catch freshwater tilapia."
+          },
+          {
+            "word": "hydroelectric",
+            "pos": "adj",
+            "ipa": "/ˌhaɪ.drəʊ.ɪˈlek.trɪk/",
+            "level": "B2",
+            "mean": "thuộc về năng lượng thủy điện",
+            "syns": [
+              "water-powered",
+              "hydropower-generated",
+              "hydraulic"
+            ],
+            "ex": "Hydroelectric dams built along the outflow rivers provide clean renewable energy."
+          },
+          {
+            "word": "anthropogenic",
+            "pos": "adj",
+            "ipa": "/ˌæn.θrə.pəˈdʒen.ɪk/",
+            "level": "B2",
+            "mean": "do tác động của con người gây ra",
+            "syns": [
+              "human-induced",
+              "man-made",
+              "artificial"
+            ],
+            "ex": "Anthropogenic pollution poses a major threat to delicate aquatic food webs."
+          },
+          {
+            "word": "runoff",
+            "pos": "n",
+            "ipa": "/ˈrʌn.ɒf/",
+            "level": "B2",
+            "mean": "dòng chảy tràn bề mặt mang theo chất bẩn, bùn đất hoặc hóa chất",
+            "syns": [
+              "drainage",
+              "discharge",
+              "effluent"
+            ],
+            "ex": "Agricultural runoff laden with synthetic fertilizers causes toxic algae blooms."
+          },
+          {
+            "word": "proliferation",
+            "pos": "n",
+            "ipa": "/prəˌlɪf.əˈreɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự sinh sôi nảy nở, sự bùng phát số lượng nhanh chóng",
+            "syns": [
+              "rapid increase",
+              "expansion",
+              "multiplication"
+            ],
+            "ex": "The uncontrolled proliferation of weeds impedes boat navigation."
+          },
+          {
+            "word": "suffocate",
+            "pos": "v",
+            "ipa": "/ˈsʌf.ə.keɪt/",
+            "level": "B2",
+            "mean": "làm ngạt thở, bóp nghẹt, cản trở sự sống",
+            "syns": [
+              "stifle",
+              "smother",
+              "strangle"
+            ],
+            "ex": "Dense mats of floating vegetation suffocate underlying fish species by blocking oxygen."
+          },
+          {
+            "word": "transboundary",
+            "pos": "adj",
+            "ipa": "/trænzˈbaʊn.dər.i/",
+            "level": "B2",
+            "mean": "xuyên biên giới quốc gia",
+            "syns": [
+              "cross-border",
+              "multinational",
+              "international"
+            ],
+            "ex": "Preserving transboundary river basins requires cooperative environmental agreements."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t23_q11",
+            "num": 11,
+            "question": "What is the primary focus of the passage?",
+            "questionVi": "Trọng tâm chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The diplomatic relations between Mediterranean nations and the African Union",
+              "The geographical contrast between the Sahara Desert and the African Great Lakes ecosystems",
+              "The engineering specifications of hydroelectric dams along the Nile River",
+              "The evolutionary genetics of cichlid fish under controlled laboratory conditions"
+            ],
+            "optionsVi": [
+              "Mối quan hệ ngoại giao giữa các nước Địa Trung Hải và Liên minh châu Phi",
+              "Sự đối lập địa lý giữa Sa mạc Sahara và các hệ sinh thái Hồ Lớn châu Phi",
+              "Các thông số kỹ thuật của đập thủy điện dọc theo Sông Nile",
+              "Di truyền học tiến hóa của loài cá cichlid dưới điều kiện phòng thí nghiệm có kiểm soát"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Paragraph 1 & 2 discuss Sahara and Sahel desertification, while Paragraph 3 & 4 contrast this with East African Rift and the Great Lakes ecosystems.",
+            "evidenceVi": "Đoạn 1 & 2 bàn về Sahara và sa mạc hóa Sahel, trong khi Đoạn 3 & 4 đối chiếu với Đới tách giãn Đông Phi và hệ sinh thái Hồ Lớn.",
+            "explanation": "Toàn bài tập trung vào sự tương phản địa lý rõ rệt giữa sa mạc Sahara ở phía bắc và hệ sinh thái nước ngọt trù phú ở vùng Hồ Lớn châu Phi.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "The continent of Africa displays an extraordinary geographical dichotomy, encompassing vast arid expanses in the north and fertile freshwater river basins across its equatorial heartland.",
+              "clueAnswer": "The geographical contrast between the Sahara Desert and the African Great Lakes ecosystems",
+              "keyPassage": "extraordinary geographical dichotomy, encompassing vast arid expanses in the north and fertile freshwater river basins",
+              "keyAnswer": "geographical contrast between the Sahara Desert and the African Great Lakes ecosystems",
+              "paraphrasePair": "geographical dichotomy <=> geographical contrast",
+              "meaningVi": "sự phân đôi địa lý <=> sự đối lập về địa lý",
+              "deductionLogic": "Khớp câu mở đầu giới thiệu luận điểm bao quát toàn bài."
+            }
+          },
+          {
+            "id": "t23_q12",
+            "num": 12,
+            "question": "According to paragraph 1, what ecological role has the Sahara Desert played historically?",
+            "questionVi": "Theo đoạn 1, Sa mạc Sahara đã đóng vai trò sinh thái gì trong lịch sử?",
+            "questionType": "detail",
+            "options": [
+              "It served as a fertile agricultural corridor linking Asia and Europe",
+              "It acted as a formidable ecological barrier separating North Africa from sub-Saharan ecosystems",
+              "It provided abundant freshwater springs that sustained dense urban civilizations",
+              "It generated continuous rainfall that nourished the Congo rainforest"
+            ],
+            "optionsVi": [
+              "Nó đóng vai trò như một hành lang nông nghiệp màu mỡ nối liền châu Á và châu Âu",
+              "Nó đóng vai trò như một rào cản sinh thái ghê gớm ngăn cách Bắc Phi với các hệ sinh thái cận Sahara",
+              "Nó cung cấp các mạch nước ngọt dồi dào nuôi sống các nền văn minh đô thị đông đúc",
+              "Nó tạo ra lượng mưa liên tục nuôi dưỡng rừng mưa Congo"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...the Sahara acts as a formidable ecological barrier separating Mediterranean North Africa from sub-Saharan tropical ecosystems.",
+            "evidenceVi": "...sa mạc Sahara đóng vai trò như một rào cản sinh thái ghê gớm ngăn cách Bắc Phi Địa Trung Hải với các hệ sinh thái nhiệt đới cận Sahara.",
+            "explanation": "Đoạn 1 nêu rõ Sahara đóng vai trò là rào cản sinh thái (formidable ecological barrier) chia tách hai khu vực sinh thái.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết địa lý (Geographical Detail)",
+              "cluePassage": "the Sahara acts as a formidable ecological barrier separating Mediterranean North Africa from sub-Saharan tropical ecosystems",
+              "clueAnswer": "acted as a formidable ecological barrier separating North Africa from sub-Saharan ecosystems",
+              "keyPassage": "formidable ecological barrier separating Mediterranean North Africa from sub-Saharan tropical ecosystems",
+              "keyAnswer": "formidable ecological barrier separating North Africa from sub-Saharan ecosystems",
+              "paraphrasePair": "formidable ecological barrier separating <=> formidable ecological barrier separating",
+              "meaningVi": "rào cản sinh thái to lớn ngăn cách",
+              "deductionLogic": "Khớp câu 4 đoạn 1."
+            }
+          },
+          {
+            "id": "t23_q13",
+            "num": 13,
+            "question": "What primary factors have accelerated desertification in the Sahel according to paragraph 2?",
+            "questionVi": "Những yếu tố chính nào đã đẩy nhanh sự sa mạc hóa tại vùng Sahel theo đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "Frequent oceanic tsunamis and deep submarine volcanic eruptions",
+              "Prolonged climatic droughts, deforestation, and overgrazing by livestock",
+              "Excessive industrial snow accumulation and glacial freezing",
+              "Underground nuclear testing and tectonic rift expansions"
+            ],
+            "optionsVi": [
+              "Sóng thần đại dương thường xuyên và phun trào núi lửa ngầm dưới biển",
+              "Hạn hán khí hậu kéo dài, nạn phá rừng và việc chăn thả gia súc quá mức",
+              "Tích tụ tuyết công nghiệp quá mức và băng giá đóng băng",
+              "Thử nghiệm hạt nhân dưới lòng đất và mở rộng vết nứt kiến tạo"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Driven by a volatile combination of prolonged climatic droughts, deforestation, and overgrazing by livestock, fertile topsoil has eroded rapidly.",
+            "evidenceVi": "Bị thúc đẩy bởi sự kết hợp nguy hại giữa các đợt hạn hán khí hậu kéo dài, nạn phá rừng và việc chăn thả gia súc quá mức, lớp đất mặt màu mỡ bị xói mòn nhanh chóng.",
+            "explanation": "Đoạn 2 nêu rõ 3 nguyên nhân: prolonged climatic droughts, deforestation, và overgrazing by livestock.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết nguyên nhân (Causal Detail)",
+              "cluePassage": "combination of prolonged climatic droughts, deforestation, and overgrazing by livestock",
+              "clueAnswer": "Prolonged climatic droughts, deforestation, and overgrazing by livestock",
+              "keyPassage": "prolonged climatic droughts, deforestation, and overgrazing by livestock",
+              "keyAnswer": "Prolonged climatic droughts, deforestation, and overgrazing by livestock",
+              "paraphrasePair": "prolonged climatic droughts, deforestation, and overgrazing <=> Prolonged climatic droughts, deforestation, and overgrazing",
+              "meaningVi": "hạn hán kéo dài, phá rừng và chăn thả quá mức",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t23_q14",
+            "num": 14,
+            "question": "The word 'desiccated' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'desiccated' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "lush",
+              "arid",
+              "submerged",
+              "frigid"
+            ],
+            "optionsVi": [
+              "tươi tốt mượt mà",
+              "khô cằn / kiệt quệ nước",
+              "ngập chìm dưới nước",
+              "băng giá lạnh lẽo"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In stark contrast to the desiccated landscapes of the Sahara...",
+            "evidenceVi": "Tương phản hoàn toàn với cảnh quan khô cằn kiệt nước của sa mạc Sahara...",
+            "explanation": "'Desiccated' có nghĩa là khô kiệt, mất hết độ ẩm, đồng nghĩa với 'arid' hoặc 'parched'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "In stark contrast to the desiccated landscapes of the Sahara",
+              "clueAnswer": "arid",
+              "keyPassage": "desiccated landscapes of the Sahara",
+              "keyAnswer": "arid",
+              "paraphrasePair": "desiccated <=> arid",
+              "meaningVi": "khô cằn, khô héo",
+              "deductionLogic": "Miêu tả cảnh quan sa mạc không có nước, desiccated đồng nghĩa với arid."
+            }
+          },
+          {
+            "id": "t23_q15",
+            "num": 15,
+            "question": "What is the primary goal of the 'Great Green Wall' initiative mentioned in paragraph 2?",
+            "questionVi": "Mục tiêu chính của sáng kiến 'Vạn lý Trường thành Xanh' được đề cập trong đoạn 2 là gì?",
+            "questionType": "detail",
+            "options": [
+              "To construct a concrete border wall to block undocumented immigration",
+              "To cultivate an 8,000-km barrier of drought-resistant trees across 11 nations to restore land and capture carbon",
+              "To build an interstate high-speed railway connecting Senegal directly to Djibouti",
+              "To divert water from Lake Victoria to create commercial artificial ski resorts"
+            ],
+            "optionsVi": [
+              "Xây dựng một bức tường bê tông kiên cố để chặn người nhập cư không giấy tờ",
+              "Trồng một hàng rào cây chịu hạn dài 8.000 km xuyên qua 11 quốc gia để phục hồi đất và giữ carbon",
+              "Xây dựng tuyến đường sắt cao tốc liên quốc gia nối trực tiếp Senegal tới Djibouti",
+              "Chuyển hướng nước từ Hồ Victoria để tạo các khu nghỉ dưỡng trượt tuyết nhân tạo"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "This transnational reforestation project aims to cultivate an 8,000-kilometer barrier of drought-resistant trees across eleven nations from Senegal to Djibouti, restoring degraded land, sequestering carbon...",
+            "evidenceVi": "Dự án tái trồng rừng xuyên quốc gia này nhằm mục đích trồng một dải cây chịu hạn dài 8.000 km qua 11 quốc gia từ Senegal đến Djibouti, phục hồi đất thoái hóa, hấp thụ carbon...",
+            "explanation": "Đoạn 2 nêu rõ mục đích của dự án Great Green Wall là trồng 8.000 km dải cây chịu hạn để khôi phục đất và hấp thụ carbon.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết dự án (Project Detail)",
+              "cluePassage": "cultivate an 8,000-kilometer barrier of drought-resistant trees across eleven nations from Senegal to Djibouti, restoring degraded land, sequestering carbon",
+              "clueAnswer": "cultivate an 8,000-km barrier of drought-resistant trees across 11 nations to restore land and capture carbon",
+              "keyPassage": "8,000-kilometer barrier of drought-resistant trees... restoring degraded land, sequestering carbon",
+              "keyAnswer": "8,000-km barrier of drought-resistant trees... restore land and capture carbon",
+              "paraphrasePair": "sequestering carbon <=> capture carbon",
+              "meaningVi": "hấp thụ / giữ lại khí carbon",
+              "deductionLogic": "Khớp câu 4 đoạn 2."
+            }
+          },
+          {
+            "id": "t23_q16",
+            "num": 16,
+            "question": "How were the African Great Lakes formed according to paragraph 3?",
+            "questionVi": "Hệ thống Hồ Lớn châu Phi được hình thành như thế nào theo đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "By massive glacial carving during the last ice age",
+              "By tectonic forces along the East African Rift System splitting the continent",
+              "By artificial excavators built during colonial mineral mining",
+              "By catastrophic meteorite strikes during the Jurassic period"
+            ],
+            "optionsVi": [
+              "Do sự xói mòn của các tảng băng lớn trong kỷ băng hà cuối cùng",
+              "Do các lực kiến tạo dọc theo Đới tách giãn Đông Phi làm phân tách mảng lục địa",
+              "Do các máy xúc đào nhân tạo được chế tạo trong thời kỳ khai thác khoáng sản thuộc địa",
+              "Do các vụ va chạm thiên thạch thảm khốc trong kỷ Jura"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...eastern and central Africa are sculpted by the East African Rift System, a major tectonic boundary where the African continent is slowly cleaving into two plates. This profound geological fissure has fostered the formation of the African Great Lakes...",
+            "evidenceVi": "...đông và trung Phi được tạo tác bởi Đới tách giãn Đông Phi, một ranh giới kiến tạo lớn nơi lục địa châu Phi đang từ từ tách đôi. Khe nứt địa chất sâu sắc này đã thúc đẩy sự hình thành của các Hồ Lớn...",
+            "explanation": "Đoạn 3 chỉ ra rằng Đới tách giãn Đông Phi (East African Rift System) với các mảng kiến tạo tách rời đã tạo nên các hồ này.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết địa chất (Geological Detail)",
+              "cluePassage": "East African Rift System, a major tectonic boundary where the African continent is slowly cleaving into two plates. This profound geological fissure has fostered the formation of the African Great Lakes",
+              "clueAnswer": "By tectonic forces along the East African Rift System splitting the continent",
+              "keyPassage": "East African Rift System... tectonic boundary... slowly cleaving into two plates... fostered the formation of the African Great Lakes",
+              "keyAnswer": "tectonic forces along the East African Rift System splitting the continent",
+              "paraphrasePair": "cleaving into two plates <=> splitting the continent",
+              "meaningVi": "tách đôi mảng kiến tạo lục địa",
+              "deductionLogic": "Khớp câu 1-2 đoạn 3."
+            }
+          },
+          {
+            "id": "t23_q17",
+            "num": 17,
+            "question": "Why are the endemic cichlid fish species in Lake Tanganyika and Lake Malawi scientifically significant?",
+            "questionVi": "Tại sao các loài cá cichlid đặc hữu ở Hồ Tanganyika và Hồ Malawi lại có ý nghĩa khoa học lớn?",
+            "questionType": "detail",
+            "options": [
+              "They can survive for weeks out of water in the Sahara dunes",
+              "They represent unique natural evolutionary laboratories due to rapid speciation",
+              "They produce commercial synthetic plastic polymers within their scales",
+              "They are the primary source of pharmaceutical insulin used worldwide"
+            ],
+            "optionsVi": [
+              "Chúng có thể sống nhiều tuần trên cạn giữa cồn cát Sahara",
+              "Chúng đại diện cho các phòng thí nghiệm tiến hóa tự nhiên độc nhất vô nhị nhờ sự phân hóa loài nhanh",
+              "Chúng sản sinh các polymer nhựa tổng hợp thương mại trong vảy",
+              "Chúng là nguồn cung cấp insulin dược phẩm chính được sử dụng trên toàn thế giới"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...harboring hundreds of endemic cichlid fish species that represent unique evolutionary laboratories.",
+            "evidenceVi": "...là nơi cư ngụ của hàng trăm loài cá cichlid đặc hữu, đại diện cho những phòng thí nghiệm tiến hóa độc nhất vô nhị.",
+            "explanation": "Đoạn 3 chỉ rõ những loài cá này là 'unique evolutionary laboratories' (phòng thí nghiệm tiến hóa độc nhất vô nhị).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết tiến hóa (Evolutionary Detail)",
+              "cluePassage": "hundreds of endemic cichlid fish species that represent unique evolutionary laboratories",
+              "clueAnswer": "They represent unique natural evolutionary laboratories due to rapid speciation",
+              "keyPassage": "endemic cichlid fish species that represent unique evolutionary laboratories",
+              "keyAnswer": "represent unique natural evolutionary laboratories",
+              "paraphrasePair": "unique evolutionary laboratories <=> unique natural evolutionary laboratories",
+              "meaningVi": "phòng thí nghiệm tiến hóa tự nhiên độc đáo",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": "t23_q18",
+            "num": 18,
+            "question": "The word 'proliferation' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'proliferation' trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "stagnation",
+              "rapid expansion",
+              "gradual extinction",
+              "complete eradication"
+            ],
+            "optionsVi": [
+              "sự trì trệ đình đốn",
+              "sự bùng phát / gia tăng nhanh chóng",
+              "sự tuyệt chủng dần dần",
+              "sự xóa sổ hoàn toàn"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...and the rapid proliferation of invasive water hyacinths that suffocate aquatic biodiversity.",
+            "evidenceVi": "...và sự sinh sôi nhanh chóng của loài bèo lục bình xâm lấn làm ngột ngạt sự đa dạng sinh học thủy sinh.",
+            "explanation": "'Proliferation' nghĩa là sự sinh sôi phát triển với tốc độ nhanh chóng, đồng nghĩa với 'rapid expansion' hoặc 'surge'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "rapid proliferation of invasive water hyacinths that suffocate aquatic biodiversity",
+              "clueAnswer": "rapid expansion",
+              "keyPassage": "rapid proliferation",
+              "keyAnswer": "rapid expansion",
+              "paraphrasePair": "proliferation <=> rapid expansion",
+              "meaningVi": "sự phát triển / gia tăng nhanh chóng",
+              "deductionLogic": "Ngữ cảnh loài thực vật xâm lấn sinh sôi bùng phát, proliferation nghĩa là rapid expansion."
+            }
+          },
+          {
+            "id": "t23_q19",
+            "num": 19,
+            "question": "According to paragraph 4, which of the following is NOT mentioned as a human-induced pressure on the Great Lakes?",
+            "questionVi": "Theo đoạn 4, điều nào sau đây KHÔNG được đề cập như một áp lực do con người gây ra đối với các Hồ Lớn?",
+            "questionType": "negative_detail",
+            "options": [
+              "Industrial runoff polluting lake waters",
+              "Commercial overfishing depleting fish populations",
+              "The proliferation of invasive water hyacinths suffocating aquatic life",
+              "Catastrophic radioactive spills from offshore nuclear power stations"
+            ],
+            "optionsVi": [
+              "Dòng chảy chất thải công nghiệp làm ô nhiễm nước hồ",
+              "Đánh bắt cá quá mức làm cạn kiệt các quần thể cá",
+              "Sự sinh sôi của bèo lục bình xâm hại làm nghẹt thở sinh vật thủy sinh",
+              "Rò rỉ phóng xạ thảm khốc từ các nhà máy điện hạt nhân ngoài khơi"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "However, the African Great Lakes face unprecedented anthropogenic pressures, including industrial runoff, overfishing, and the rapid proliferation of invasive water hyacinths that suffocate aquatic biodiversity.",
+            "evidenceVi": "Tuy nhiên, các Hồ Lớn châu Phi đối mặt với những áp lực do con người gây ra chưa từng có, bao gồm dòng chảy chất thải công nghiệp, đánh bắt cá quá mức và sự sinh sôi nhanh chóng của bèo lục bình xâm lấn...",
+            "explanation": "Đoạn 4 nhắc đến: industrial runoff (A), overfishing (B), proliferation of water hyacinths (C). Hoàn toàn không nhắc tới rò rỉ phóng xạ từ nhà máy điện hạt nhân (D).",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Detail)",
+              "cluePassage": "including industrial runoff, overfishing, and the rapid proliferation of invasive water hyacinths",
+              "clueAnswer": "Catastrophic radioactive spills from offshore nuclear power stations",
+              "keyPassage": "industrial runoff, overfishing, and the rapid proliferation of invasive water hyacinths",
+              "keyAnswer": "radioactive spills (NOT mentioned)",
+              "paraphrasePair": "industrial runoff / overfishing / invasive hyacinths vs radioactive spills",
+              "meaningVi": "các yếu tố được nhắc đến so với yếu tố hoàn toàn không có trong bài",
+              "deductionLogic": "Phương án D hoàn toàn không xuất hiện trong bài đọc."
+            }
+          },
+          {
+            "id": "t23_q20",
+            "num": 20,
+            "question": "What is required to effectively protect the African Great Lakes according to the author in paragraph 4?",
+            "questionVi": "Điều gì là cần thiết để bảo vệ hiệu quả các Hồ Lớn châu Phi theo tác giả ở đoạn 4?",
+            "questionType": "inference",
+            "options": [
+              "Drying out the lake beds to convert them into industrial solar energy farms",
+              "Robust transboundary treaties and synchronized conservation policies among bordering nations",
+              "Erecting concrete dams to isolate each individual country's water border completely",
+              "Transferring complete jurisdiction over all African lakes to foreign private corporations"
+            ],
+            "optionsVi": [
+              "Làm cạn lòng hồ để biến chúng thành các nông trại năng lượng mặt trời công nghiệp",
+              "Các hiệp ước xuyên biên giới vững chắc và chính sách bảo tồn đồng bộ giữa các quốc gia giáp ranh",
+              "Dựng các đập bê tông để cô lập hoàn toàn biên giới nước của từng quốc gia riêng lẻ",
+              "Chuyển toàn bộ quyền tài phán đối với các hồ châu Phi cho các tập đoàn tư nhân nước ngoài"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Managing these precious water resources requires robust transboundary treaties and synchronized conservation policies among bordering sovereign nations to preserve equatorial Africa's ecological heritage.",
+            "evidenceVi": "Việc quản lý nguồn tài nguyên nước quý giá này đòi hỏi các hiệp ước xuyên biên giới mạnh mẽ và các chính sách bảo tồn đồng bộ giữa các quốc gia có chủ quyền giáp ranh...",
+            "explanation": "Tác giả kết luận việc bảo tồn hồ lớn đòi hỏi các hiệp ước xuyên biên giới (transboundary treaties) và sự phối hợp chính sách đồng bộ giữa các nước láng giềng.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Khuyến nghị của tác giả (Author's Policy Recommendation)",
+              "cluePassage": "requires robust transboundary treaties and synchronized conservation policies among bordering sovereign nations",
+              "clueAnswer": "Robust transboundary treaties and synchronized conservation policies among bordering nations",
+              "keyPassage": "robust transboundary treaties and synchronized conservation policies among bordering sovereign nations",
+              "keyAnswer": "Robust transboundary treaties and synchronized conservation policies among bordering nations",
+              "paraphrasePair": "robust transboundary treaties and synchronized conservation policies <=> Robust transboundary treaties and synchronized conservation policies",
+              "meaningVi": "hiệp ước xuyên biên giới vững mạnh và chính sách bảo tồn đồng bộ",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Traditional Schooling vs. Homeschooling",
+        "topic": "Trường học truyền thống đối chiếu Giáo dục tại nhà: Xã hội hóa, chương trình cá nhân hóa & thành tựu học thuật",
+        "timeAllowed": 15,
+        "passage": "<p>The ongoing debate over the optimal pedagogical environment for child development has intensified as alternatives to conventional brick-and-mortar schooling gain global momentum. Traditional educational institutions have long been heralded as foundational crucibles for civic enculturation and intellectual standardization. By grouping children into age-stratified cohorts, public and private schools simulate real-world societal diversity, compelling pupils to negotiate complex interpersonal hierarchies, adhere to strict institutional schedules, and resolve peer conflicts autonomously. Furthermore, physical schools provide centralized access to specialized facilities, such as chemistry laboratories, theater auditoriums, and athletic complexes, which are difficult for individual households to replicate.</p><p>Conversely, proponents of homeschooling argue that traditional classroom models prioritize bureaucratic uniformity over individualized pedagogical needs. In a standardized classroom containing twenty-five or thirty students, teachers must inevitably pace their instruction to the median capability, leaving gifted children intellectually disengaged and struggling pupils chronically left behind. Homeschooling dismantles this rigid paradigm by facilitating bespoke curricula tailored to a child's specific cognitive cadence, innate interests, and learning styles. Neurodivergent students, in particular, often flourish away from the sensory overstimulation and peer pressure common in conventional school corridors.</p><p>Despite these distinct pedagogical advantages, homeschooling frequently encounters skepticism regarding socialization and academic parity. Critics assert that home-educated youth risk social isolation, potentially developing deficits in team collaboration and emotional resilience when encountering opinions divergent from their family's worldview. However, contemporary homeschooling networks have evolved substantially to counteract these perceived shortcomings. Modern homeschoolers frequently participate in regional learning cooperatives, dual-enrollment college programs, community sports leagues, and extracurricular arts collectives, creating dynamic peer networks that rival conventional school interactions.</p><p>Academic comparative studies yield nuanced outcomes regarding educational efficacy. Standardized testing data consistently indicates that homeschooled pupils score at or above national percentiles in reading and mathematics, often attributed to the high ratio of adult engagement and tailored pacing. Yet, sociologists caution against attributing these achievements solely to the educational modality itself. Homeschooling families disproportionately possess socioeconomic advantages, including higher parental educational attainment, flexible work schedules, and discretionary capital to purchase pedagogical resources. Ultimately, neither model represents a panacea; rather, selecting between institutional schooling and domestic instruction necessitates balancing a child's temperamental inclinations with a family's structural capacity.</p>",
+        "vocab": [
+          {
+            "word": "pedagogical",
+            "pos": "adj",
+            "ipa": "/ˌped.əˈɡɒdʒ.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc về phương pháp sư phạm, giáo dục học",
+            "syns": [
+              "educational",
+              "instructional",
+              "didactic"
+            ],
+            "ex": "Modern educators constantly refine their pedagogical techniques to engage students."
+          },
+          {
+            "word": "conventional",
+            "pos": "adj",
+            "ipa": "/kənˈven.ʃən.əl/",
+            "level": "B2",
+            "mean": "thông thường, truyền thống theo tập quán lâu đời",
+            "syns": [
+              "traditional",
+              "customary",
+              "orthodox"
+            ],
+            "ex": "Conventional classroom setups often rely on teacher-centered lectures."
+          },
+          {
+            "word": "crucible",
+            "pos": "n",
+            "ipa": "/ˈkruː.sɪ.bəl/",
+            "level": "C1",
+            "mean": "nơi thử thách gay gắt, lò rèn luyện nhân cách và năng lực",
+            "syns": [
+              "melting pot",
+              "testing ground",
+              "furnace"
+            ],
+            "ex": "School sports serve as a crucible for building leadership and resilience."
+          },
+          {
+            "word": "enculturation",
+            "pos": "n",
+            "ipa": "/enˌkʌl.tʃərˈeɪ.ʃən/",
+            "level": "C1",
+            "mean": "quá trình tiếp thu và hòa nhập các chuẩn mực văn hóa xã hội",
+            "syns": [
+              "socialization",
+              "acculturation",
+              "cultural integration"
+            ],
+            "ex": "Formal schooling accelerates the enculturation of children into national values."
+          },
+          {
+            "word": "stratified",
+            "pos": "adj",
+            "ipa": "/ˈstræt.ɪ.faɪd/",
+            "level": "C1",
+            "mean": "được phân chia thành các tầng bậc hoặc nhóm rõ rệt",
+            "syns": [
+              "layered",
+              "hierarchical",
+              "graded"
+            ],
+            "ex": "Students were organized into age-stratified grades from elementary to high school."
+          },
+          {
+            "word": "cohort",
+            "pos": "n",
+            "ipa": "/ˈkəʊ.hɔːt/",
+            "level": "B2",
+            "mean": "nhóm người có cùng độ tuổi hoặc đặc điểm chung",
+            "syns": [
+              "group",
+              "peer group",
+              "generation"
+            ],
+            "ex": "The graduating cohort achieved record-breaking scores on college entrance exams."
+          },
+          {
+            "word": "interpersonal",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈpɜː.sən.əl/",
+            "level": "B2",
+            "mean": "giữa các cá nhân với nhau, quan hệ người với người",
+            "syns": [
+              "social",
+              "relational",
+              "interactive"
+            ],
+            "ex": "Group projects help adolescents hone vital interpersonal negotiation skills."
+          },
+          {
+            "word": "replicate",
+            "pos": "v",
+            "ipa": "/ˈrep.lɪ.keɪt/",
+            "level": "B2",
+            "mean": "sao chép, mô phỏng lại một cách chính xác",
+            "syns": [
+              "duplicate",
+              "reproduce",
+              "imitate"
+            ],
+            "ex": "Home environments cannot easily replicate full-scale Olympic swimming pools."
+          },
+          {
+            "word": "bureaucratic",
+            "pos": "adj",
+            "ipa": "/ˌbjʊə.rəˈkræt.ɪk/",
+            "level": "B2",
+            "mean": "mang tính quan liêu, cứng nhắc theo thủ tục hành chính",
+            "syns": [
+              "procedural",
+              "rigid",
+              "administrative"
+            ],
+            "ex": "Bureaucratic rules sometimes prevent schools from swiftly adopting new curricula."
+          },
+          {
+            "word": "uniformity",
+            "pos": "n",
+            "ipa": "/ˌjuː.nɪˈfɔː.mə.ti/",
+            "level": "C1",
+            "mean": "tính đồng nhất, sự rập khuôn đều tăm tắp",
+            "syns": [
+              "standardization",
+              "homogeneity",
+              "consistency"
+            ],
+            "ex": "Critics argue that standardized tests enforce intellectual uniformity."
+          },
+          {
+            "word": "disengaged",
+            "pos": "adj",
+            "ipa": "/ˌdɪs.ɪnˈɡeɪdʒd/",
+            "level": "C1",
+            "mean": "thờ ơ, tách rời, mất hứng thú tham gia",
+            "syns": [
+              "detached",
+              "disconnected",
+              "uninterested"
+            ],
+            "ex": "Advanced pupils become disengaged when forced to repeat basic lessons."
+          },
+          {
+            "word": "paradigm",
+            "pos": "n",
+            "ipa": "/ˈpær.ə.daɪm/",
+            "level": "C1",
+            "mean": "mô hình mẫu, khuôn khổ tư duy chuẩn mực",
+            "syns": [
+              "model",
+              "framework",
+              "archetype"
+            ],
+            "ex": "Digital technology introduced a whole new paradigm to distance education."
+          },
+          {
+            "word": "bespoke",
+            "pos": "adj",
+            "ipa": "/bɪˈspəʊk/",
+            "level": "C1",
+            "mean": "được thiết kế riêng, may đo theo yêu cầu cụ thể",
+            "syns": [
+              "customized",
+              "tailor-made",
+              "personalized"
+            ],
+            "ex": "Homeschooling parents can design bespoke lesson plans matching their child's passions."
+          },
+          {
+            "word": "cadence",
+            "pos": "n",
+            "ipa": "/ˈkeɪ.dəns/",
+            "level": "C1",
+            "mean": "nhịp điệu, tốc độ diễn tiến tự nhiên",
+            "syns": [
+              "rhythm",
+              "tempo",
+              "pace"
+            ],
+            "ex": "Each student learns at a unique cognitive cadence that must be respected."
+          },
+          {
+            "word": "neurodivergent",
+            "pos": "adj",
+            "ipa": "/ˌnjʊə.rəʊ.daɪˈvɜː.dʒənt/",
+            "level": "C1",
+            "mean": "thuộc nhóm đa dạng thần kinh (tự kỷ, ADHD, v.v.)",
+            "syns": [
+              "neurologically diverse",
+              "atypical"
+            ],
+            "ex": "Neurodivergent learners often benefit from calm, low-distraction home settings."
+          },
+          {
+            "word": "overstimulation",
+            "pos": "n",
+            "ipa": "/ˌəʊ.vəˌstɪm.jəˈleɪ.ʃən/",
+            "level": "C1",
+            "mean": "tình trạng bị kích thích giác quan quá mức dẫn đến mệt mỏi",
+            "syns": [
+              "sensory overload",
+              "hyperstimulation"
+            ],
+            "ex": "Noisy school cafeterias frequently cause sensory overstimulation in sensitive children."
+          },
+          {
+            "word": "skepticism",
+            "pos": "n",
+            "ipa": "/ˈskep.tɪ.sɪ.zəm/",
+            "level": "B2",
+            "mean": "thái độ hoài nghi, sự ngờ vực",
+            "syns": [
+              "doubt",
+              "cynicism",
+              "incredulity"
+            ],
+            "ex": "Initial skepticism regarding online degrees faded as universities adapted."
+          },
+          {
+            "word": "parity",
+            "pos": "n",
+            "ipa": "/ˈpær.ə.ti/",
+            "level": "C1",
+            "mean": "sự bình đẳng, sự tương đương về vị thế hoặc kết quả",
+            "syns": [
+              "equality",
+              "equivalence",
+              "correspondence"
+            ],
+            "ex": "The study examined whether homeschooling achieves academic parity with public schools."
+          },
+          {
+            "word": "resilience",
+            "pos": "n",
+            "ipa": "/rɪˈzɪl.jəns/",
+            "level": "B2",
+            "mean": "khả năng kiên cường phục hồi sau nghịch cảnh",
+            "syns": [
+              "grit",
+              "toughness",
+              "endurance"
+            ],
+            "ex": "Overcoming playground disputes fosters emotional resilience in growing youngsters."
+          },
+          {
+            "word": "divergent",
+            "pos": "adj",
+            "ipa": "/daɪˈvɜː.dʒənt/",
+            "level": "C1",
+            "mean": "bất đồng, khác biệt, rẽ nhánh ra nhiều hướng",
+            "syns": [
+              "differing",
+              "conflicting",
+              "dissimilar"
+            ],
+            "ex": "Encountering divergent perspectives is crucial for developing critical thought."
+          },
+          {
+            "word": "cooperative",
+            "pos": "n",
+            "ipa": "/kəʊˈɒp.ər.ə.tɪv/",
+            "level": "B2",
+            "mean": "nhóm hợp tác, mô hình phối hợp chung nguồn lực",
+            "syns": [
+              "collective",
+              "association",
+              "consortium"
+            ],
+            "ex": "Parents formed a neighborhood cooperative to teach science and art collectively."
+          },
+          {
+            "word": "extracurricular",
+            "pos": "adj",
+            "ipa": "/ˌek.strə.kəˈrɪk.jə.lər/",
+            "level": "B2",
+            "mean": "ngoại khóa, nằm ngoài chương trình chính khóa",
+            "syns": [
+              "after-school",
+              "supplementary",
+              "non-academic"
+            ],
+            "ex": "Extracurricular music and sports enrich a child's holistic development."
+          },
+          {
+            "word": "efficacy",
+            "pos": "n",
+            "ipa": "/ˈef.ɪ.kə.si/",
+            "level": "C1",
+            "mean": "hiệu lực, tính hiệu quả trong việc mang lại kết quả mong đợi",
+            "syns": [
+              "effectiveness",
+              "potency",
+              "success"
+            ],
+            "ex": "Rigorous researchers tested the pedagogical efficacy of different reading programs."
+          },
+          {
+            "word": "attainment",
+            "pos": "n",
+            "ipa": "/əˈteɪn.mənt/",
+            "level": "C1",
+            "mean": "trình độ đạt được, thành tựu học vấn hoặc năng lực",
+            "syns": [
+              "achievement",
+              "accomplishment",
+              "level"
+            ],
+            "ex": "Parental educational attainment strongly correlates with children's academic success."
+          },
+          {
+            "word": "discretionary",
+            "pos": "adj",
+            "ipa": "/dɪˈskreʃ.ən.ər.i/",
+            "level": "C1",
+            "mean": "tùy ý sử dụng, tự do quyết định chi tiêu",
+            "syns": [
+              "optional",
+              "flexible",
+              "non-mandatory"
+            ],
+            "ex": "Families with discretionary income can purchase specialized lab equipment and books."
+          },
+          {
+            "word": "panacea",
+            "pos": "n",
+            "ipa": "/ˌpæn.əˈsiː.ə/",
+            "level": "C1",
+            "mean": "phương thuốc vạn năng, giải pháp cho mọi vấn đề",
+            "syns": [
+              "cure-all",
+              "universal remedy",
+              "magic bullet"
+            ],
+            "ex": "Neither technology nor homeschooling serves as an absolute panacea for education."
+          },
+          {
+            "word": "temperamental",
+            "pos": "adj",
+            "ipa": "/ˌtem.pər.əˈmen.təl/",
+            "level": "C1",
+            "mean": "thuộc về tính khí, khí chất bẩm sinh",
+            "syns": [
+              "personality-based",
+              "dispositional",
+              "emotional"
+            ],
+            "ex": "A child's temperamental traits often dictate whether they thrive at home or in class."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t23_q21",
+            "num": 21,
+            "question": "What is the central theme explored in the passage?",
+            "questionVi": "Chủ đề trung tâm được khám phá trong đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The financial bankruptcy of municipal public school districts worldwide",
+              "A critical comparison of traditional institutional schooling and homeschooling modalities",
+              "The neurological diagnosis of neurodivergent conditions in early childhood",
+              "The global standardization of university admissions criteria"
+            ],
+            "optionsVi": [
+              "Sự phá sản tài chính của các khu học chánh công lập đô thị trên thế giới",
+              "Sự so sánh phản biện giữa mô hình giáo dục trường học truyền thống và giáo dục tại nhà",
+              "Chẩn đoán thần kinh về các hội chứng đa dạng thần kinh ở trẻ nhỏ",
+              "Sự chuẩn hóa toàn cầu về tiêu chí tuyển sinh đại học"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Entire passage compares traditional schooling (pros/cons) and homeschooling (pros/cons), examining socialization, pacing, facilities, and academic outcomes.",
+            "evidenceVi": "Toàn bộ bài đọc so sánh trường học truyền thống và homeschool về mặt xã hội hóa, nhịp độ học, cơ sở vật chất và thành tích học thuật.",
+            "explanation": "Đoạn văn phân tích đối chiếu toàn diện ưu và nhược điểm của cả trường học truyền thống và giáo dục tại nhà (homeschooling).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "The ongoing debate over the optimal pedagogical environment for child development has intensified as alternatives to conventional brick-and-mortar schooling gain global momentum.",
+              "clueAnswer": "A critical comparison of traditional institutional schooling and homeschooling modalities",
+              "keyPassage": "debate over the optimal pedagogical environment... alternatives to conventional brick-and-mortar schooling",
+              "keyAnswer": "critical comparison of traditional institutional schooling and homeschooling modalities",
+              "paraphrasePair": "debate over pedagogical environment / alternatives <=> critical comparison of schooling modalities",
+              "meaningVi": "cuộc tranh luận về môi trường sư phạm <=> so sánh phản biện các phương thức giáo dục",
+              "deductionLogic": "Khớp câu chủ đề mở đoạn 1 và sự phát triển ý của cả 4 đoạn."
+            }
+          },
+          {
+            "id": "t23_q22",
+            "num": 22,
+            "question": "According to paragraph 1, how do age-stratified cohorts in traditional schools benefit pupils?",
+            "questionVi": "Theo đoạn 1, các nhóm cùng độ tuổi trong trường học truyền thống mang lại lợi ích gì cho học sinh?",
+            "questionType": "detail",
+            "options": [
+              "They guarantee automatic admission to prestigious Ivy League universities",
+              "They simulate societal diversity, compelling pupils to navigate hierarchies and resolve peer conflicts",
+              "They prevent pupils from ever being exposed to dissenting viewpoints or criticism",
+              "They eliminate all academic testing and homework assignments"
+            ],
+            "optionsVi": [
+              "Chúng đảm bảo việc trúng tuyển tự động vào các trường đại học danh tiếng Ivy League",
+              "Chúng mô phỏng sự đa dạng của xã hội, buộc học sinh phải xử lý thứ bậc và tự giải quyết mâu thuẫn bạn bè",
+              "Chúng ngăn học sinh không bao giờ phải tiếp xúc với các quan điểm bất đồng hay chỉ trích",
+              "Chúng loại bỏ toàn bộ các bài kiểm tra học thuật và bài tập về nhà"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "By grouping children into age-stratified cohorts, public and private schools simulate real-world societal diversity, compelling pupils to negotiate complex interpersonal hierarchies, adhere to strict institutional schedules, and resolve peer conflicts autonomously.",
+            "evidenceVi": "Bằng cách nhóm trẻ thành các nhóm cùng độ tuổi, trường công và tư mô phỏng sự đa dạng xã hội thực tế, buộc học sinh phải xử lý các thứ bậc cá nhân phức tạp, tuân theo lịch trình nghiêm ngặt và tự giải quyết xung đột bạn bè.",
+            "explanation": "Đoạn 1 nêu rõ nhóm đồng trang lứa giúp mô phỏng xã hội và rèn luyện kỹ năng giải quyết mâu thuẫn.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết xã hội hóa (Socialization Detail)",
+              "cluePassage": "simulate real-world societal diversity, compelling pupils to negotiate complex interpersonal hierarchies... and resolve peer conflicts autonomously",
+              "clueAnswer": "simulate societal diversity, compelling pupils to navigate hierarchies and resolve peer conflicts",
+              "keyPassage": "simulate real-world societal diversity... negotiate complex interpersonal hierarchies... resolve peer conflicts",
+              "keyAnswer": "simulate societal diversity, compelling pupils to navigate hierarchies and resolve peer conflicts",
+              "paraphrasePair": "negotiate complex interpersonal hierarchies <=> navigate hierarchies",
+              "meaningVi": "xử lý các mối quan hệ thứ bậc trong xã hội",
+              "deductionLogic": "Khớp câu 3 đoạn 1."
+            }
+          },
+          {
+            "id": "t23_q23",
+            "num": 23,
+            "question": "The word 'bespoke' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'bespoke' trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "standardized",
+              "customized",
+              "archaic",
+              "compulsory"
+            ],
+            "optionsVi": [
+              "được chuẩn hóa đồng loạt",
+              "được tùy chỉnh riêng / thiết kế theo yêu cầu",
+              "cổ hủ lạc hậu",
+              "bắt buộc cưỡng chế"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Homeschooling dismantles this rigid paradigm by facilitating bespoke curricula tailored to a child's specific cognitive cadence...",
+            "evidenceVi": "Giáo dục tại nhà xóa bỏ mô hình cứng nhắc này bằng cách tạo điều kiện cho các chương trình học được thiết kế riêng, may đo theo nhịp nhận thức cụ thể của trẻ...",
+            "explanation": "'Bespoke' nghĩa là được thiết kế riêng, tùy chỉnh theo nhu cầu cá nhân, đồng nghĩa với 'customized' hoặc 'tailor-made'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "facilitating bespoke curricula tailored to a child's specific cognitive cadence",
+              "clueAnswer": "customized",
+              "keyPassage": "bespoke curricula tailored to a child's specific cognitive cadence",
+              "keyAnswer": "customized",
+              "paraphrasePair": "bespoke <=> customized",
+              "meaningVi": "được thiết kế riêng theo yêu cầu",
+              "deductionLogic": "Bespoke đi liền với 'tailored to', chỉ sự tùy biến cá nhân hóa (customized)."
+            }
+          },
+          {
+            "id": "t23_q24",
+            "num": 24,
+            "question": "Why does paragraph 2 criticize traditional classrooms for pacing instruction to the 'median capability'?",
+            "questionVi": "Tại sao đoạn 2 lại phê phán các lớp học truyền thống vì điều chỉnh tốc độ giảng dạy theo 'năng lực trung bình'?",
+            "questionType": "detail",
+            "options": [
+              "Because it forces schools to hire twice as many administrators",
+              "Because it leaves gifted students intellectually disengaged and struggling pupils left behind",
+              "Because it increases the cost of school lunches significantly",
+              "Because it prevents students from playing physical outdoor sports"
+            ],
+            "optionsVi": [
+              "Vì nó buộc các trường học phải thuê gấp đôi số lượng nhân viên hành chính",
+              "Vì nó khiến học sinh năng khiếu bị mất hứng thú và học sinh yếu kém bị bỏ lại phía sau",
+              "Vì nó làm tăng đáng kể chi phí bữa ăn trưa ở trường",
+              "Vì nó ngăn cản học sinh chơi các môn thể thao vận động ngoài trời"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...teachers must inevitably pace their instruction to the median capability, leaving gifted children intellectually disengaged and struggling pupils chronically left behind.",
+            "evidenceVi": "...giáo viên chắc chắn phải điều chỉnh tốc độ dạy học theo năng lực trung bình, khiến trẻ em có năng khiếu bị mất hứng thú học tập và những học sinh chật vật bị bỏ lại phía sau dai dẳng.",
+            "explanation": "Đoạn 2 chỉ ra hệ quả kép: học sinh giỏi thì chán nản (disengaged), học sinh đuối thì bị tụt lại (left behind).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết phê phán (Critical Detail)",
+              "cluePassage": "pace their instruction to the median capability, leaving gifted children intellectually disengaged and struggling pupils chronically left behind",
+              "clueAnswer": "leaves gifted students intellectually disengaged and struggling pupils left behind",
+              "keyPassage": "gifted children intellectually disengaged and struggling pupils chronically left behind",
+              "keyAnswer": "gifted students intellectually disengaged and struggling pupils left behind",
+              "paraphrasePair": "intellectually disengaged and struggling pupils... left behind <=> gifted students intellectually disengaged and struggling pupils left behind",
+              "meaningVi": "học sinh giỏi bị chán và học sinh yếu bị bỏ rơi",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t23_q25",
+            "num": 25,
+            "question": "What primary concern do critics raise regarding home-educated children according to paragraph 3?",
+            "questionVi": "Mối lo ngại chính mà các nhà phê bình đưa ra đối với trẻ học tại nhà theo đoạn 3 là gì?",
+            "questionType": "detail",
+            "options": [
+              "They risk severe nutritional deficiencies due to lack of cafeteria milk",
+              "They risk social isolation and deficits in collaboration and resilience",
+              "They are unable to obtain valid birth certificates or passports",
+              "They refuse to utilize digital computers or internet search engines"
+            ],
+            "optionsVi": [
+              "Chúng có nguy cơ thiếu hụt dinh dưỡng nghiêm trọng do thiếu sữa học đường",
+              "Chúng có nguy cơ bị cô lập xã hội và thiếu hụt kỹ năng hợp tác cùng sự kiên cường",
+              "Chúng không thể xin được giấy khai sinh hoặc hộ chiếu hợp lệ",
+              "Chúng từ chối sử dụng máy tính kỹ thuật số hoặc các công cụ tìm kiếm trên internet"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Critics assert that home-educated youth risk social isolation, potentially developing deficits in team collaboration and emotional resilience when encountering opinions divergent from their family's worldview.",
+            "evidenceVi": "Các nhà phê bình khẳng định rằng thanh thiếu niên học tại nhà có nguy cơ bị cô lập xã hội, có khả năng bị thiếu hụt kỹ năng làm việc nhóm và khả năng kiên cường cảm xúc khi gặp những quan điểm khác biệt với gia đình.",
+            "explanation": "Đoạn 3 chỉ ra mối quan ngại lớn nhất là sự cô lập xã hội (social isolation) và thiếu kỹ năng làm việc nhóm/kiên cường.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết quan ngại (Critique Detail)",
+              "cluePassage": "home-educated youth risk social isolation, potentially developing deficits in team collaboration and emotional resilience",
+              "clueAnswer": "risk social isolation and deficits in collaboration and resilience",
+              "keyPassage": "social isolation, potentially developing deficits in team collaboration and emotional resilience",
+              "keyAnswer": "social isolation and deficits in collaboration and resilience",
+              "paraphrasePair": "deficits in team collaboration and emotional resilience <=> deficits in collaboration and resilience",
+              "meaningVi": "thiếu hụt sự hợp tác nhóm và sức chịu đựng kiên cường",
+              "deductionLogic": "Khớp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": "t23_q26",
+            "num": 26,
+            "question": "How do modern homeschooling networks counteract concerns about social isolation according to paragraph 3?",
+            "questionVi": "Các mạng lưới giáo dục tại nhà hiện đại giải quyết những lo ngại về sự cô lập xã hội như thế nào theo đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "By forcing children to spend entire weekends playing online multiplayer video games",
+              "By participating in learning cooperatives, dual-enrollment programs, sports leagues, and arts collectives",
+              "By legally requiring children to take tests inside public school administrative offices",
+              "By hiring private actors to pretend to be classroom classmates at home"
+            ],
+            "optionsVi": [
+              "Bằng cách buộc trẻ em dành toàn bộ cuối tuần chơi trò chơi điện tử nhiều người chơi",
+              "Bằng cách tham gia vào các nhóm học tập, chương trình kép đại học, giải thể thao và nhóm nghệ thuật",
+              "Bằng cách yêu cầu về mặt pháp lý trẻ phải làm bài kiểm tra trong văn phòng trường công",
+              "Bằng cách thuê diễn viên tư nhân đóng giả làm bạn học cùng lớp ở nhà"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Modern homeschoolers frequently participate in regional learning cooperatives, dual-enrollment college programs, community sports leagues, and extracurricular arts collectives, creating dynamic peer networks...",
+            "evidenceVi": "Những người học tại nhà hiện đại thường xuyên tham gia vào các hợp tác xã học tập khu vực, chương trình liên kết kép với đại học, các giải thể thao cộng đồng và tập thể nghệ thuật ngoại khóa...",
+            "explanation": "Đoạn 3 liệt kê cụ thể các hoạt động: learning cooperatives, dual-enrollment programs, sports leagues, và arts collectives.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết giải pháp (Countermeasure Detail)",
+              "cluePassage": "participate in regional learning cooperatives, dual-enrollment college programs, community sports leagues, and extracurricular arts collectives",
+              "clueAnswer": "participating in learning cooperatives, dual-enrollment programs, sports leagues, and arts collectives",
+              "keyPassage": "learning cooperatives, dual-enrollment college programs, community sports leagues, and extracurricular arts collectives",
+              "keyAnswer": "learning cooperatives, dual-enrollment programs, sports leagues, and arts collectives",
+              "paraphrasePair": "participate in regional learning cooperatives... <=> participating in learning cooperatives...",
+              "meaningVi": "tham gia các hợp tác xã học tập, giải thể thao và hoạt động ngoại khóa",
+              "deductionLogic": "Khớp câu 4 đoạn 3."
+            }
+          },
+          {
+            "id": "t23_q27",
+            "num": 27,
+            "question": "The word 'panacea' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'panacea' trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "universal remedy",
+              "bureaucratic obstacle",
+              "financial burden",
+              "statistical anomaly"
+            ],
+            "optionsVi": [
+              "phương thuốc trị bách bệnh / giải pháp vạn năng",
+              "trở ngại quan liêu",
+              "gánh nặng tài chính",
+              "dị thường thống kê"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Ultimately, neither model represents a panacea...",
+            "evidenceVi": "Sau cùng, không mô hình nào đại diện cho một phương thuốc vạn năng...",
+            "explanation": "'Panacea' nghĩa là phương thuốc trị mọi bệnh, giải pháp hoàn hảo cho mọi vấn đề, đồng nghĩa với 'universal remedy' hoặc 'cure-all'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng nâng cao (Advanced Vocabulary)",
+              "cluePassage": "Ultimately, neither model represents a panacea",
+              "clueAnswer": "universal remedy",
+              "keyPassage": "neither model represents a panacea",
+              "keyAnswer": "universal remedy",
+              "paraphrasePair": "panacea <=> universal remedy",
+              "meaningVi": "giải pháp vạn năng, phương thuốc toàn năng",
+              "deductionLogic": "Panacea nghĩa là giải pháp chữa lành mọi thứ (universal remedy / cure-all)."
+            }
+          },
+          {
+            "id": "t23_q28",
+            "num": 28,
+            "question": "The phrase 'these achievements' in paragraph 4 refers to:",
+            "questionVi": "Cụm từ 'these achievements' trong đoạn 4 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "High scores on standardized reading and mathematics testing achieved by homeschooled pupils",
+              "The construction of multi-million dollar science centers by public universities",
+              "The reduction of municipal property taxes for homeschooling families",
+              "The athletic trophies won by public school football teams"
+            ],
+            "optionsVi": [
+              "Điểm số cao trong các bài kiểm tra đọc và toán chuẩn hóa mà học sinh học tại nhà đạt được",
+              "Việc xây dựng các trung tâm khoa học triệu đô của các trường đại học công lập",
+              "Việc giảm thuế tài sản đô thị cho các gia đình có con học tại nhà",
+              "Các cúp thể thao mà các đội bóng đá trường công lập giành được"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Standardized testing data consistently indicates that homeschooled pupils score at or above national percentiles in reading and mathematics... Yet, sociologists caution against attributing these achievements solely to the educational modality itself.",
+            "evidenceVi": "Dữ liệu kiểm tra chuẩn hóa luôn chỉ ra rằng học sinh học tại nhà đạt điểm bằng hoặc cao hơn mức trung bình quốc gia môn đọc và toán... Tuy nhiên, các nhà xã hội học cảnh báo không nên quy những thành tích này hoàn toàn cho bản thân phương thức giáo dục.",
+            "explanation": "'These achievements' thay thế trực tiếp cho việc học sinh homeschool đạt điểm cao trong bài kiểm tra chuẩn hóa đọc và toán ở câu liền trước.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Cụm từ quy chiếu (Referential Phrase)",
+              "cluePassage": "homeschooled pupils score at or above national percentiles in reading and mathematics... caution against attributing these achievements solely to the educational modality",
+              "clueAnswer": "High scores on standardized reading and mathematics testing achieved by homeschooled pupils",
+              "keyPassage": "score at or above national percentiles in reading and mathematics... these achievements",
+              "keyAnswer": "High scores on standardized reading and mathematics testing achieved by homeschooled pupils",
+              "paraphrasePair": "score at or above national percentiles in reading and mathematics <=> these achievements",
+              "meaningVi": "đạt điểm trên mức bách phân vị quốc gia môn đọc và toán",
+              "deductionLogic": "Khớp câu 2 và câu 3 của đoạn 4."
+            }
+          },
+          {
+            "id": "t23_q29",
+            "num": 29,
+            "question": "According to paragraph 4, which of the following is NOT cited as a socioeconomic advantage common among homeschooling families?",
+            "questionVi": "Theo đoạn 4, điều nào sau đây KHÔNG được coi là một lợi thế kinh tế xã hội phổ biến ở các gia đình homeschool?",
+            "questionType": "negative_detail",
+            "options": [
+              "Higher parental educational attainment",
+              "Flexible parental work schedules",
+              "Discretionary capital to purchase educational resources",
+              "Government-provided free luxury housing vouchers"
+            ],
+            "optionsVi": [
+              "Trình độ học vấn của phụ huynh cao hơn",
+              "Lịch làm việc của cha mẹ linh hoạt hơn",
+              "Nguồn vốn khả dụng tự do để mua sắm tài liệu giáo dục",
+              "Phiếu trợ cấp nhà ở hạng sang miễn phí do chính phủ cấp"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Homeschooling families disproportionately possess socioeconomic advantages, including higher parental educational attainment, flexible work schedules, and discretionary capital to purchase pedagogical resources.",
+            "evidenceVi": "Các gia đình học tại nhà thường sở hữu các lợi thế kinh tế xã hội vượt trội, bao gồm trình độ học vấn của phụ huynh cao hơn, lịch làm việc linh hoạt và nguồn vốn tùy ý để mua tài nguyên sư phạm.",
+            "explanation": "Đoạn 4 nêu 3 lợi thế: higher parental educational attainment, flexible work schedules, và discretionary capital. Hoàn toàn không có chuyện chính phủ phát voucher nhà ở hạng sang (D).",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Fact Check)",
+              "cluePassage": "including higher parental educational attainment, flexible work schedules, and discretionary capital",
+              "clueAnswer": "Government-provided free luxury housing vouchers",
+              "keyPassage": "higher parental educational attainment, flexible work schedules, and discretionary capital",
+              "keyAnswer": "luxury housing vouchers (NOT cited)",
+              "paraphrasePair": "educational attainment / flexible work / discretionary capital vs luxury housing vouchers",
+              "meaningVi": "các yếu tố được liệt kê so với chi tiết bịa đặt",
+              "deductionLogic": "Phương án D hoàn toàn không có trong đoạn 4."
+            }
+          },
+          {
+            "id": "t23_q30",
+            "num": 30,
+            "question": "What does the author suggest in the final sentence regarding the choice of schooling model?",
+            "questionVi": "Tác giả gợi ý điều gì ở câu cuối cùng liên quan đến việc lựa chọn mô hình đi học?",
+            "questionType": "inference",
+            "options": [
+              "Governments should outlaw all private and home education to ensure complete equality",
+              "The choice requires balancing a child's temperamental inclinations with a family's structural capacity",
+              "Parents should rely exclusively on computer algorithms to determine their child's future",
+              "Traditional schools will be entirely obsolete within the next five years"
+            ],
+            "optionsVi": [
+              "Chính phủ nên đặt ngoài vòng pháp luật mọi hình thức giáo dục tư thục và tại nhà để đảm bảo bình đẳng tuyệt đối",
+              "Sự lựa chọn đòi hỏi phải cân bằng giữa khuynh hướng tính khí của đứa trẻ với năng lực cấu trúc của gia đình",
+              "Phụ huynh nên dựa hoàn toàn vào các thuật toán máy tính để quyết định tương lai con cái",
+              "Các trường học truyền thống sẽ hoàn toàn lỗi thời biến mất trong vòng 5 năm tới"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...rather, selecting between institutional schooling and domestic instruction necessitates balancing a child's temperamental inclinations with a family's structural capacity.",
+            "evidenceVi": "...thay vào đó, việc lựa chọn giữa đi học ở trường và dạy học ở nhà đòi hỏi phải cân bằng giữa thiên hướng tính khí của trẻ với năng lực thực tế của gia đình.",
+            "explanation": "Tác giả nhấn mạnh việc chọn mô hình nào phụ thuộc vào tính cách đứa trẻ (temperamental inclinations) và hoàn cảnh/nguồn lực gia đình (structural capacity).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Kết luận cân nhắc (Balanced Conclusion)",
+              "cluePassage": "selecting between institutional schooling and domestic instruction necessitates balancing a child's temperamental inclinations with a family's structural capacity",
+              "clueAnswer": "The choice requires balancing a child's temperamental inclinations with a family's structural capacity",
+              "keyPassage": "balancing a child's temperamental inclinations with a family's structural capacity",
+              "keyAnswer": "balancing a child's temperamental inclinations with a family's structural capacity",
+              "paraphrasePair": "balancing child's inclinations with family's capacity <=> balancing child's inclinations with family's capacity",
+              "meaningVi": "cân bằng tính khí đứa trẻ với điều kiện gia đình",
+              "deductionLogic": "Khớp câu cuối đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Brain Lipids & Cognitive Function",
+        "topic": "Hóa sinh màng tế bào thần kinh: Axit béo Omega-3 DHA, vỏ bao Myelin và sự suy giảm nhận thức do lão hóa",
+        "timeAllowed": 15,
+        "passage": "<p>The human brain is an extraordinarily lipid-dense organ, second only to adipose tissue in its overall fat composition. Nearly sixty percent of the dry weight of the central nervous system consists of complex structural lipids, predominantly phospholipids, sphingolipids, and cholesterol. Far from serving merely as passive caloric reservoirs, these brain lipids constitute the fundamental biophysical architecture of neuronal cell membranes, synaptic junctions, and the insulating myelin sheaths that enwrap axonal pathways. Over evolutionary history, the expansion of the hominid cerebral cortex and the emergence of advanced cognitive faculties were intimately intertwined with dietary access to essential polyunsaturated fatty acids (PUFAs), especially docosahexaenoic acid (DHA) and arachidonic acid (ARA).</p><p>At the molecular level, DHA—a long-chain omega-3 fatty acid—plays an irreplaceable role in preserving the biophysical fluidity and plasticity of neuronal membranes. Embedded within the phospholipid bilayer, DHA molecules possess exceptional conformational flexibility due to their six double bonds, which prevents rigid lipid packing and facilitates the rapid lateral diffusion of membrane proteins. This high fluidic elasticity is crucial for the kinetic velocity of neurotransmitter receptor activation, ion channel gating, and vesicle endocytosis during synaptic transmission. Depletion of membrane DHA leads to rigidified neuronal membranes, which impairs synaptic plasticity and precipitates neuroinflammatory cascades that compromise long-term potentiation, the primary cellular mechanism underlying memory formation.</p><p>Concurrently, specialized lipid-protein complexes compose myelin, the multilayered sheath generated by oligodendrocytes that insulates axonal projections. By increasing electrical resistance across the axonal lemma and clustering voltage-gated sodium channels at the nodes of Ranvier, myelin enables saltatory conduction—propagating nerve impulses at speeds up to one hundred times faster than in unmyelinated fibers. In demyelinating neurodegenerative pathologies, such as multiple sclerosis, autoimmune attacks or metabolic dysfunctions degrade myelin lipids, disrupting action potential fidelity and causing severe sensory and motor impairments. Furthermore, the synthesis of sphingolipids like ceramides and gangliosides regulates cellular apoptosis and intercellular signaling, underscoring the precarious equilibrium of neural lipid metabolism.</p><p>During normal chronological aging and in pathological neurodegenerative disorders like Alzheimer's disease, the lipidome of the brain undergoes profound structural perturbations. Lipid peroxidation, instigated by reactive oxygen species (ROS) attacking unsaturated double bonds, leads to the accumulation of toxic lipid aldehydes that crosslink essential neuronal proteins. Concurrently, brain cholesterol homeostasis becomes disrupted, precipitating the aberrant aggregation of amyloid-beta plaques within lipid rafts. Therapeutic interventions aimed at restoring lipid equilibrium—via targeted dietary omega-3 supplementation, antioxidant therapies, or synthetic lipid precursors—represent a promising frontier in neurobiology, offering potential pathways to mitigate cognitive decline and preserve neuronal integrity in an aging global population.</p>",
+        "vocab": [
+          {
+            "word": "adipose",
+            "pos": "adj",
+            "ipa": "/ˈæd.ɪ.pəʊs/",
+            "level": "C1",
+            "mean": "thuộc về mô mỡ",
+            "syns": [
+              "fatty",
+              "lipid-containing",
+              "oleaginous"
+            ],
+            "ex": "Adipose tissue functions as the body's primary energy storage depot."
+          },
+          {
+            "word": "reservoir",
+            "pos": "n",
+            "ipa": "/ˈrez.ə.vwɑːr/",
+            "level": "B2",
+            "mean": "nguồn dự trữ, bể chứa tích lũy lớn",
+            "syns": [
+              "storehouse",
+              "pool",
+              "reserve"
+            ],
+            "ex": "Brain lipids act as structural components rather than mere caloric reservoirs."
+          },
+          {
+            "word": "biophysical",
+            "pos": "adj",
+            "ipa": "/ˌbaɪ.əʊˈfɪz.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc về lý sinh học, vật lý sinh học",
+            "syns": [
+              "biomechanical",
+              "physicochemical"
+            ],
+            "ex": "The biophysical properties of cell membranes regulate nutrient transport."
+          },
+          {
+            "word": "sheath",
+            "pos": "n",
+            "ipa": "/ʃiːθ/",
+            "level": "C1",
+            "mean": "vỏ bọc ngoài, lớp màng bao quanh bảo vệ",
+            "syns": [
+              "covering",
+              "casing",
+              "envelope"
+            ],
+            "ex": "The myelin sheath insulates the electrical signals moving down the axon."
+          },
+          {
+            "word": "axonal",
+            "pos": "adj",
+            "ipa": "/ˈæk.sən.əl/",
+            "level": "C1",
+            "mean": "thuộc về sợi trục của tế bào thần kinh",
+            "syns": [
+              "neurite-related",
+              "nerve-fiber"
+            ],
+            "ex": "Axonal transport carries vital proteins from the cell body to the synapse."
+          },
+          {
+            "word": "intertwined",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈtwaɪnd/",
+            "level": "C1",
+            "mean": "gắn bó mật thiết, đan bện xoắn chặt vào nhau",
+            "syns": [
+              "interconnected",
+              "interlinked",
+              "entangled"
+            ],
+            "ex": "Human brain evolution was intimately intertwined with seafood consumption."
+          },
+          {
+            "word": "polyunsaturated",
+            "pos": "adj",
+            "ipa": "/ˌpɒl.i.ʌnˈsætʃ.ər.eɪ.tɪd/",
+            "level": "C1",
+            "mean": "không bão hòa đa (chứa nhiều liên kết đôi trong phân tử chất béo)",
+            "syns": [
+              "PUFA",
+              "multi-unsaturated"
+            ],
+            "ex": "Polyunsaturated fats are essential nutrients that the human body cannot synthesize de novo."
+          },
+          {
+            "word": "plasticity",
+            "pos": "n",
+            "ipa": "/plæsˈtɪs.ə.ti/",
+            "level": "C1",
+            "mean": "tính mềm dẻo, khả năng tái cấu trúc linh hoạt của não bộ",
+            "syns": [
+              "malleability",
+              "flexibility",
+              "adaptability"
+            ],
+            "ex": "Synaptic plasticity allows the brain to reorganize neural connections after injury."
+          },
+          {
+            "word": "bilayer",
+            "pos": "n",
+            "ipa": "/baɪˈleɪ.ər/",
+            "level": "C1",
+            "mean": "lớp màng kép (lớp phospholipid đôi tạo màng tế bào)",
+            "syns": [
+              "double-membrane",
+              "dual layer"
+            ],
+            "ex": "The lipid bilayer forms a semipermeable boundary around every living cell."
+          },
+          {
+            "word": "conformational",
+            "pos": "adj",
+            "ipa": "/ˌkɒn.fɔːˈmeɪ.ʃən.əl/",
+            "level": "C1",
+            "mean": "thuộc về cấu hình không gian ba chiều của phân tử",
+            "syns": [
+              "structural",
+              "spatial",
+              "geometric"
+            ],
+            "ex": "Conformational changes in receptor proteins trigger intracellular cascades."
+          },
+          {
+            "word": "diffusion",
+            "pos": "n",
+            "ipa": "/dɪˈfjuː.ʒən/",
+            "level": "C1",
+            "mean": "sự khuếch tán, di chuyển phân tán của các phân tử",
+            "syns": [
+              "dispersion",
+              "spreading",
+              "permeation"
+            ],
+            "ex": "The lateral diffusion of proteins across the membrane is vital for signaling."
+          },
+          {
+            "word": "kinetic",
+            "pos": "adj",
+            "ipa": "/kɪˈnet.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về động lực, tốc độ chuyển động",
+            "syns": [
+              "dynamic",
+              "motional",
+              "rate-based"
+            ],
+            "ex": "Kinetic analysis revealed the exact speed of channel opening in neurons."
+          },
+          {
+            "word": "vesicle",
+            "pos": "n",
+            "ipa": "/ˈves.ɪ.kəl/",
+            "level": "C1",
+            "mean": "túi màng nhỏ chứa chất dẫn truyền thần kinh hoặc dịch bào",
+            "syns": [
+              "sac",
+              "capsule",
+              "droplet"
+            ],
+            "ex": "Synaptic vesicles fuse with the cell membrane to release neurotransmitters."
+          },
+          {
+            "word": "endocytosis",
+            "pos": "n",
+            "ipa": "/ˌen.dəʊ.saɪˈtəʊ.sɪs/",
+            "level": "C1",
+            "mean": "quá trình nhập bào (tế bào thu nhận chất vào trong bằng màng bao)",
+            "syns": [
+              "cellular internalization",
+              "vesicular uptake"
+            ],
+            "ex": "Receptor-mediated endocytosis recycles signaling molecules from the synaptic cleft."
+          },
+          {
+            "word": "depletion",
+            "pos": "n",
+            "ipa": "/dɪˈpliː.ʃən/",
+            "level": "C1",
+            "mean": "sự cạn kiệt, sụt giảm nghiêm trọng nguồn dự trữ",
+            "syns": [
+              "exhaustion",
+              "deficiency",
+              "loss"
+            ],
+            "ex": "DHA depletion in neural tissues correlates with impaired learning capability."
+          },
+          {
+            "word": "neuroinflammatory",
+            "pos": "adj",
+            "ipa": "/ˌnjʊə.rəʊ.ɪnˈflæm.ə.tər.i/",
+            "level": "C1",
+            "mean": "thuộc về tình trạng viêm của mô thần kinh",
+            "syns": [
+              "brain-inflammatory",
+              "neural-inflammatory"
+            ],
+            "ex": "Chronic neuroinflammatory responses accelerate the progression of dementia."
+          },
+          {
+            "word": "potentiation",
+            "pos": "n",
+            "ipa": "/pəˌten.ʃiˈeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự tăng cường hiệu lực, sự khuếch đại điện thế tín hiệu",
+            "syns": [
+              "amplification",
+              "enhancement",
+              "strengthening"
+            ],
+            "ex": "Long-term potentiation is widely considered the fundamental cellular basis of memory."
+          },
+          {
+            "word": "oligodendrocyte",
+            "pos": "n",
+            "ipa": "/ˌɒl.ɪ.ɡəʊˈden.drə.saɪt/",
+            "level": "C1",
+            "mean": "tế bào thần kinh đệm ít nhánh (tạo ra vỏ myelin ở hệ thần kinh trung ương)",
+            "syns": [
+              "glial cell",
+              "myelin-producing cell"
+            ],
+            "ex": "Oligodendrocytes wrap their cytoplasmic extensions around axons to form myelin."
+          },
+          {
+            "word": "saltatory",
+            "pos": "adj",
+            "ipa": "/ˈsæl.tə.tər.i/",
+            "level": "C1",
+            "mean": "thuộc về sự dẫn truyền nhảy cóc của xung điện thế thần kinh",
+            "syns": [
+              "leaping",
+              "node-jumping"
+            ],
+            "ex": "Saltatory conduction enables nerve impulses to skip rapidly between nodes of Ranvier."
+          },
+          {
+            "word": "demyelinating",
+            "pos": "adj",
+            "ipa": "/diːˈmaɪ.ə.lɪ.neɪ.tɪŋ/",
+            "level": "C1",
+            "mean": "gây thoái hóa hoặc phá hủy lớp vỏ bọc myelin",
+            "syns": [
+              "myelin-degrading",
+              "neurodestructive"
+            ],
+            "ex": "Multiple sclerosis is a classic demyelinating disease of the central nervous system."
+          },
+          {
+            "word": "equilibrium",
+            "pos": "n",
+            "ipa": "/ˌek.wɪˈlɪb.ri.əm/",
+            "level": "C1",
+            "mean": "trạng thái cân bằng động hoàn hảo",
+            "syns": [
+              "balance",
+              "homeostasis",
+              "stability"
+            ],
+            "ex": "The delicate chemical equilibrium within neurons prevents toxic byproduct accumulation."
+          },
+          {
+            "word": "perturbation",
+            "pos": "n",
+            "ipa": "/ˌpɜː.təˈbeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự xáo trộn, sự biến loạn cấu trúc hoặc chức năng",
+            "syns": [
+              "disturbance",
+              "disruption",
+              "alteration"
+            ],
+            "ex": "Perturbations in lipid metabolism contribute directly to neurodegenerative pathology."
+          },
+          {
+            "word": "peroxidation",
+            "pos": "n",
+            "ipa": "/pəˌrɒk.sɪˈdeɪ.ʃən/",
+            "level": "C1",
+            "mean": "quá trình oxy hóa màng chất béo gây hư hại tế bào",
+            "syns": [
+              "oxidative degradation",
+              "lipid oxidation"
+            ],
+            "ex": "Lipid peroxidation damages unsaturated fatty acids within neuronal membranes."
+          },
+          {
+            "word": "instigated",
+            "pos": "adj",
+            "ipa": "/ˈɪn.stɪ.ɡeɪ.tɪd/",
+            "level": "C1",
+            "mean": "được khởi xướng, bị kích động hoặc châm ngòi",
+            "syns": [
+              "initiated",
+              "triggered",
+              "provoked"
+            ],
+            "ex": "Oxidative stress, instigated by reactive radicals, triggers cellular damage."
+          },
+          {
+            "word": "homeostasis",
+            "pos": "n",
+            "ipa": "/ˌhəʊ.mi.əʊˈsteɪ.sɪs/",
+            "level": "C1",
+            "mean": "cân bằng nội môi (khả năng tự điều hòa môi trường bên trong sinh vật)",
+            "syns": [
+              "internal balance",
+              "physiological equilibrium"
+            ],
+            "ex": "Disruption of cholesterol homeostasis accelerates cognitive decline in elderly brains."
+          },
+          {
+            "word": "aberrant",
+            "pos": "adj",
+            "ipa": "/æbˈer.ənt/",
+            "level": "C1",
+            "mean": "khác thường, dị thường, lệch khỏi chuẩn mực sinh lý",
+            "syns": [
+              "abnormal",
+              "atypical",
+              "pathological"
+            ],
+            "ex": "Aberrant protein folding leads to toxic plaque accumulation in Alzheimer's disease."
+          },
+          {
+            "word": "precursor",
+            "pos": "n",
+            "ipa": "/priːˈkɜː.sər/",
+            "level": "C1",
+            "mean": "chất tiền thân, tiền chất hóa học để tổng hợp hợp chất khác",
+            "syns": [
+              "forerunner",
+              "progenitor",
+              "antecedent"
+            ],
+            "ex": "Dietary choline acts as an essential precursor for synthesis of phosphatidylcholine."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t23_q31",
+            "num": 31,
+            "question": "What is the primary scientific subject examined in the passage?",
+            "questionVi": "Chủ đề khoa học chính được xem xét trong đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The surgical procedures used to remove malignant adipose tumors from the skull",
+              "The indispensable structural and physiological roles of brain lipids in neural function and aging",
+              "The commercial manufacturing processes of industrial margarine and trans fats",
+              "The genetic sequencing of deep-sea algae producing polyunsaturated fatty acids"
+            ],
+            "optionsVi": [
+              "Các quy trình phẫu thuật được sử dụng để loại bỏ khối u mỡ ác tính khỏi hộp sọ",
+              "Các vai trò cấu trúc và sinh lý không thể thiếu của lipid não đối với chức năng thần kinh và sự lão hóa",
+              "Các quy trình sản xuất thương mại của bơ thực vật công nghiệp và chất béo chuyển hóa",
+              "Giải trình tự gen của tảo biển sâu sản xuất axit béo không bão hòa đa"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Passage comprehensively examines: lipid composition of the brain, DHA fluidity in synaptic transmission, myelin sheath in impulse conduction, and lipid disruptions in aging/Alzheimer's.",
+            "evidenceVi": "Toàn bài phân tích toàn diện: thành phần lipid của não, tính linh hoạt của DHA trong dẫn truyền khớp thần kinh, bao myelin trong dẫn truyền xung điện và rối loạn lipid khi lão hóa/Alzheimer.",
+            "explanation": "Đoạn văn tập trung chuyên sâu vào các vai trò sinh hóa và cấu trúc nền tảng của lipid trong hoạt động não bộ và sự suy giảm do lão hóa.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề khoa học (Scientific Main Idea)",
+              "cluePassage": "Nearly sixty percent of the dry weight of the central nervous system consists of complex structural lipids... constitute the fundamental biophysical architecture of neuronal cell membranes...",
+              "clueAnswer": "The indispensable structural and physiological roles of brain lipids in neural function and aging",
+              "keyPassage": "structural lipids... fundamental biophysical architecture of neuronal cell membranes, synaptic junctions, and the insulating myelin sheaths",
+              "keyAnswer": "indispensable structural and physiological roles of brain lipids in neural function and aging",
+              "paraphrasePair": "fundamental biophysical architecture <=> indispensable structural and physiological roles",
+              "meaningVi": "cấu trúc lý sinh học nền tảng <=> vai trò cấu trúc và sinh lý không thể thiếu",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt toàn bài đọc."
+            }
+          },
+          {
+            "id": "t23_q32",
+            "num": 32,
+            "question": "According to paragraph 1, what percentage of the central nervous system's dry weight is composed of lipids?",
+            "questionVi": "Theo đoạn 1, bao nhiêu phần trăm trọng lượng khô của hệ thần kinh trung ương được cấu tạo bởi chất béo (lipids)?",
+            "questionType": "detail",
+            "options": [
+              "Approximately ten percent",
+              "Nearly sixty percent",
+              "Exactly twenty-five percent",
+              "Over ninety-five percent"
+            ],
+            "optionsVi": [
+              "Khoảng mười phần trăm",
+              "Gần sáu mươi phần trăm",
+              "Chính xác hai mươi lăm phần trăm",
+              "Trên chín mươi lăm phần trăm"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Nearly sixty percent of the dry weight of the central nervous system consists of complex structural lipids, predominantly phospholipids, sphingolipids, and cholesterol.",
+            "evidenceVi": "Gần sáu mươi phần trăm trọng lượng khô của hệ thần kinh trung ương bao gồm các lipid cấu trúc phức tạp, chủ yếu là phospholipid, sphingolipid và cholesterol.",
+            "explanation": "Đoạn 1 nêu rõ: 'Nearly sixty percent of the dry weight of the central nervous system consists of complex structural lipids'.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết số liệu (Quantitative Detail)",
+              "cluePassage": "Nearly sixty percent of the dry weight of the central nervous system consists of complex structural lipids",
+              "clueAnswer": "Nearly sixty percent",
+              "keyPassage": "Nearly sixty percent of the dry weight",
+              "keyAnswer": "Nearly sixty percent",
+              "paraphrasePair": "Nearly sixty percent <=> Nearly sixty percent",
+              "meaningVi": "gần 60 phần trăm trọng lượng khô",
+              "deductionLogic": "Khớp câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": "t23_q33",
+            "num": 33,
+            "question": "According to paragraph 2, why does docosahexaenoic acid (DHA) provide exceptional conformational flexibility to neuronal membranes?",
+            "questionVi": "Theo đoạn 2, tại sao axit docosahexaenoic (DHA) lại mang lại tính linh hoạt cấu hình vượt trội cho màng tế bào thần kinh?",
+            "questionType": "detail",
+            "options": [
+              "Due to its rigid, fully saturated single bonds that crystallize at room temperature",
+              "Due to its six double bonds, which prevent tight packing and facilitate protein diffusion",
+              "Due to its high concentration of metallic calcium ions embedded in its head group",
+              "Due to its ability to permanently freeze ion channels in a closed state"
+            ],
+            "optionsVi": [
+              "Do các liên kết đơn bão hòa hoàn toàn cứng nhắc kết tinh ở nhiệt độ phòng",
+              "Do sáu liên kết đôi của nó ngăn cản sự xếp kết chặt và tạo điều kiện khuếch tán protein",
+              "Do nồng độ cao của các ion canxi kim loại gắn vào nhóm đầu của nó",
+              "Do khả năng đóng băng vĩnh viễn các kênh ion ở trạng thái đóng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Embedded within the phospholipid bilayer, DHA molecules possess exceptional conformational flexibility due to their six double bonds, which prevents rigid lipid packing and facilitates the rapid lateral diffusion of membrane proteins.",
+            "evidenceVi": "Được gắn bên trong lớp kép phospholipid, các phân tử DHA sở hữu tính linh hoạt cấu hình đặc biệt nhờ sáu liên kết đôi của chúng, giúp ngăn chặn sự nén chặt của lipid và tạo điều kiện cho sự khuếch tán ngang nhanh chóng của các protein màng.",
+            "explanation": "Đoạn 2 nêu rõ chính 6 liên kết đôi (six double bonds) giúp phân tử linh hoạt, chống lại sự nén cứng của lipid màng.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết cơ chế phân tử (Molecular Mechanism Detail)",
+              "cluePassage": "exceptional conformational flexibility due to their six double bonds, which prevents rigid lipid packing and facilitates the rapid lateral diffusion of membrane proteins",
+              "clueAnswer": "Due to its six double bonds, which prevent tight packing and facilitate protein diffusion",
+              "keyPassage": "six double bonds, which prevents rigid lipid packing and facilitates the rapid lateral diffusion",
+              "keyAnswer": "six double bonds, which prevent tight packing and facilitate protein diffusion",
+              "paraphrasePair": "prevents rigid lipid packing and facilitates... diffusion <=> prevent tight packing and facilitate protein diffusion",
+              "meaningVi": "ngăn chặn sự nén cứng và tạo điều kiện khuếch tán protein",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t23_q34",
+            "num": 34,
+            "question": "The word 'depletion' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'depletion' trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "exhaustion",
+              "accumulation",
+              "crystallization",
+              "fortification"
+            ],
+            "optionsVi": [
+              "sự cạn kiệt / hao hụt nghiêm trọng",
+              "sự tích tụ dần dần",
+              "sự kết tinh thể",
+              "sự củng cố gia cố vững chắc"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Depletion of membrane DHA leads to rigidified neuronal membranes, which impairs synaptic plasticity...",
+            "evidenceVi": "Sự cạn kiệt DHA màng dẫn đến các màng tế bào thần kinh bị xơ cứng, làm suy giảm tính mềm dẻo của khớp thần kinh...",
+            "explanation": "'Depletion' mang nghĩa sự cạn kiệt, suy giảm nghiêm trọng, đồng nghĩa với 'exhaustion' hoặc 'deficiency'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng sinh học (Biological Vocabulary)",
+              "cluePassage": "Depletion of membrane DHA leads to rigidified neuronal membranes",
+              "clueAnswer": "exhaustion",
+              "keyPassage": "Depletion of membrane DHA",
+              "keyAnswer": "exhaustion",
+              "paraphrasePair": "depletion <=> exhaustion",
+              "meaningVi": "sự suy giảm cạn kiệt",
+              "deductionLogic": "Depletion ám chỉ việc thiếu hụt nghiêm trọng, do đó tương đương exhaustion."
+            }
+          },
+          {
+            "id": "t23_q35",
+            "num": 35,
+            "question": "What is the primary function of myelin described in paragraph 3?",
+            "questionVi": "Chức năng chính của myelin được miêu tả trong đoạn 3 là gì?",
+            "questionType": "detail",
+            "options": [
+              "It oxidizes glucose molecules to produce digestive stomach acids",
+              "It acts as an insulating sheath enabling rapid saltatory conduction of nerve impulses",
+              "It traps foreign airborne pathogens before they reach the lungs",
+              "It secretes salivary enzymes that break down dietary carbohydrates"
+            ],
+            "optionsVi": [
+              "Nó oxy hóa các phân tử glucose để sản xuất axit tiêu hóa dạ dày",
+              "Nó hoạt động như vỏ bao cách điện cho phép dẫn truyền xung thần kinh nhảy cóc nhanh chóng",
+              "Nó bẫy các mầm bệnh ngoại lai trong không khí trước khi chúng tới phổi",
+              "Nó tiết ra các enzyme nước bọt phân giải carbohydrate trong chế độ ăn"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...myelin, the multilayered sheath generated by oligodendrocytes that insulates axonal projections... enables saltatory conduction—propagating nerve impulses at speeds up to one hundred times faster than in unmyelinated fibers.",
+            "evidenceVi": "...myelin, lớp vỏ nhiều lớp do tế bào thần kinh đệm ít nhánh tạo ra để cách điện cho các sợi trục... cho phép dẫn truyền nhảy cóc—truyền xung thần kinh với tốc độ nhanh gấp tới một trăm lần so với sợi không có myelin.",
+            "explanation": "Đoạn 3 chỉ ra myelin là vỏ bọc cách điện (insulates axonal projections) cho phép dẫn truyền nhảy cóc (saltatory conduction) với tốc độ gấp 100 lần.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết sinh lý học (Physiological Detail)",
+              "cluePassage": "insulates axonal projections... enables saltatory conduction—propagating nerve impulses at speeds up to one hundred times faster",
+              "clueAnswer": "acts as an insulating sheath enabling rapid saltatory conduction of nerve impulses",
+              "keyPassage": "insulates axonal projections... enables saltatory conduction",
+              "keyAnswer": "insulating sheath enabling rapid saltatory conduction of nerve impulses",
+              "paraphrasePair": "insulates axonal projections... enables saltatory conduction <=> insulating sheath enabling rapid saltatory conduction",
+              "meaningVi": "vỏ bọc cách điện cho phép dẫn truyền nhảy cóc nhanh",
+              "deductionLogic": "Khớp câu 1-2 đoạn 3."
+            }
+          },
+          {
+            "id": "t23_q36",
+            "num": 36,
+            "question": "According to paragraph 3, what occurs in demyelinating pathologies such as multiple sclerosis?",
+            "questionVi": "Theo đoạn 3, điều gì xảy ra trong các bệnh lý hủy myelin như bệnh đa xơ cứng?",
+            "questionType": "detail",
+            "options": [
+              "Axons produce excessive amounts of myelin that crush neighboring muscle cells",
+              "Autoimmune attacks or metabolic dysfunctions degrade myelin lipids, disrupting nerve impulses",
+              "Blood vessels around the skull burst due to extreme intracranial pressure",
+              "Dopamine neurotransmitters are permanently converted into adrenaline"
+            ],
+            "optionsVi": [
+              "Các sợi trục sản sinh quá nhiều myelin chèn ép các tế bào cơ lân cận",
+              "Các cuộc tấn công tự miễn hoặc rối loạn chuyển hóa làm thoái hóa lipid myelin, phá vỡ xung thần kinh",
+              "Các mạch máu quanh hộp sọ bị vỡ do áp lực nội sọ quá mức",
+              "Các chất dẫn truyền thần kinh dopamine bị biến đổi vĩnh viễn thành adrenaline"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In demyelinating neurodegenerative pathologies, such as multiple sclerosis, autoimmune attacks or metabolic dysfunctions degrade myelin lipids, disrupting action potential fidelity and causing severe sensory and motor impairments.",
+            "evidenceVi": "Trong các bệnh lý thoái hóa thần kinh hủy myelin, chẳng hạn như bệnh đa xơ cứng, các cuộc tấn công tự miễn hoặc rối loạn chuyển hóa làm suy thoái lipid myelin, phá vỡ độ chuẩn xác của điện thế hoạt động và gây suy giảm cảm giác và vận động nghiêm trọng.",
+            "explanation": "Đoạn 3 chỉ rõ trong bệnh multiple sclerosis, các đòn tấn công tự miễn hoặc rối loạn chuyển hóa làm thoái hóa lipid myelin.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết bệnh học (Pathology Detail)",
+              "cluePassage": "autoimmune attacks or metabolic dysfunctions degrade myelin lipids, disrupting action potential fidelity",
+              "clueAnswer": "Autoimmune attacks or metabolic dysfunctions degrade myelin lipids, disrupting nerve impulses",
+              "keyPassage": "autoimmune attacks or metabolic dysfunctions degrade myelin lipids, disrupting action potential fidelity",
+              "keyAnswer": "Autoimmune attacks or metabolic dysfunctions degrade myelin lipids, disrupting nerve impulses",
+              "paraphrasePair": "disrupting action potential fidelity <=> disrupting nerve impulses",
+              "meaningVi": "làm gián đoạn độ chính xác của xung điện thế thần kinh",
+              "deductionLogic": "Khớp câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": "t23_q37",
+            "num": 37,
+            "question": "The word 'aberrant' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'aberrant' trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "abnormal",
+              "beneficial",
+              "ubiquitous",
+              "negligible"
+            ],
+            "optionsVi": [
+              "bất thường / lệch lạc khỏi quy luật",
+              "có lợi ích",
+              "phổ biến khắp nơi",
+              "không đáng kể / không quan trọng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...precipitating the aberrant aggregation of amyloid-beta plaques within lipid rafts.",
+            "evidenceVi": "...làm thúc đẩy sự tích tụ bất thường của các mảng amyloid-beta bên trong các bè lipid.",
+            "explanation": "'Aberrant' nghĩa là khác thường, bất thường, đi lệch khỏi trạng thái bình thường (deviating from normal), đồng nghĩa với 'abnormal' hoặc 'atypical'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng bệnh lý (Pathological Vocabulary)",
+              "cluePassage": "precipitating the aberrant aggregation of amyloid-beta plaques",
+              "clueAnswer": "abnormal",
+              "keyPassage": "aberrant aggregation",
+              "keyAnswer": "abnormal",
+              "paraphrasePair": "aberrant <=> abnormal",
+              "meaningVi": "bất thường, không bình thường",
+              "deductionLogic": "Aberrant miêu tả sự tích tụ mảng độc hại gây bệnh, do đó đồng nghĩa abnormal."
+            }
+          },
+          {
+            "id": "t23_q38",
+            "num": 38,
+            "question": "The word 'which' in paragraph 2 refers to:",
+            "questionVi": "Từ 'which' trong đoạn 2 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "The rigidified neuronal membranes caused by DHA depletion",
+              "The exceptional conformational flexibility of DHA molecules",
+              "The dietary consumption of processed saturated trans fats",
+              "The surgical implantation of synthetic electrodes into the brain"
+            ],
+            "optionsVi": [
+              "Các màng nơ-ron bị xơ cứng do cạn kiệt DHA",
+              "Tính linh hoạt cấu hình đặc biệt của các phân tử DHA",
+              "Sự tiêu thụ chất béo bão hòa chuyển hóa qua chế độ ăn",
+              "Sự cấy ghép phẫu thuật các điện cực nhân tạo vào não bộ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Depletion of membrane DHA leads to rigidified neuronal membranes, which impairs synaptic plasticity and precipitates neuroinflammatory cascades...",
+            "evidenceVi": "Sự cạn kiệt DHA màng dẫn đến các màng tế bào thần kinh bị xơ cứng, điều này làm suy giảm tính mềm dẻo của khớp thần kinh và kích hoạt các dòng thác viêm thần kinh...",
+            "explanation": "Đại từ quan hệ 'which' đứng sau mệnh đề 'leads to rigidified neuronal membranes', thay thế cho việc màng nơ-ron bị xơ cứng.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ quan hệ (Relative Pronoun Reference)",
+              "cluePassage": "Depletion of membrane DHA leads to rigidified neuronal membranes, which impairs synaptic plasticity",
+              "clueAnswer": "The rigidified neuronal membranes caused by DHA depletion",
+              "keyPassage": "rigidified neuronal membranes, which impairs synaptic plasticity",
+              "keyAnswer": "The rigidified neuronal membranes caused by DHA depletion",
+              "paraphrasePair": "rigidified neuronal membranes <=> rigidified neuronal membranes caused by DHA depletion",
+              "meaningVi": "tình trạng màng tế bào thần kinh bị xơ cứng",
+              "deductionLogic": "Khớp mệnh đề bổ nghĩa đứng ngay trước 'which'."
+            }
+          },
+          {
+            "id": "t23_q39",
+            "num": 39,
+            "question": "According to paragraph 4, which of the following is NOT described as a consequence of aging and lipid peroxidation?",
+            "questionVi": "Theo đoạn 4, hiện tượng nào sau đây KHÔNG được miêu tả như một hậu quả của lão hóa và peroxy hóa lipid?",
+            "questionType": "negative_detail",
+            "options": [
+              "Accumulation of toxic lipid aldehydes that crosslink essential proteins",
+              "Disruption of brain cholesterol homeostasis",
+              "Aberrant aggregation of amyloid-beta plaques within lipid rafts",
+              "Immediate reversal of chronological aging and doubling of cranial volume"
+            ],
+            "optionsVi": [
+              "Sự tích tụ của các aldehyde lipid độc hại liên kết chéo các protein thiết yếu",
+              "Sự phá vỡ trạng thái cân bằng nội môi cholesterol của não",
+              "Sự tích tụ bất thường của các mảng amyloid-beta trong các bè lipid",
+              "Sự đảo ngược ngay lập tức của lão hóa sinh học và tăng gấp đôi thể tích hộp sọ"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 lists: 'accumulation of toxic lipid aldehydes that crosslink essential neuronal proteins' (A), 'cholesterol homeostasis becomes disrupted' (B), and 'aberrant aggregation of amyloid-beta plaques' (C). Doubling cranial volume is completely unmentioned and absurd.",
+            "evidenceVi": "Đoạn 4 liệt kê: tích tụ aldehyde lipid độc hại (A), phá vỡ cân bằng cholesterol (B), và mảng amyloid-beta (C). Việc tăng gấp đôi thể tích hộp sọ hoàn toàn không có trong bài.",
+            "explanation": "Phương án D là thông tin bịa đặt hoàn toàn không có cơ sở khoa học và không xuất hiện trong bài.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết phủ định (Negative Fact Checking)",
+              "cluePassage": "leads to the accumulation of toxic lipid aldehydes... cholesterol homeostasis becomes disrupted, precipitating the aberrant aggregation of amyloid-beta plaques",
+              "clueAnswer": "Immediate reversal of chronological aging and doubling of cranial volume",
+              "keyPassage": "toxic lipid aldehydes... cholesterol homeostasis disrupted... amyloid-beta plaques",
+              "keyAnswer": "doubling of cranial volume (NOT mentioned)",
+              "paraphrasePair": "aldehyde accumulation / disrupted cholesterol / amyloid plaques vs doubling cranial volume",
+              "meaningVi": "các hậu quả thực sự so với chi tiết hoàn toàn vô căn cứ",
+              "deductionLogic": "Phương án D là khẳng định sai lệch, không được đề cập."
+            }
+          },
+          {
+            "id": "t23_q40",
+            "num": 40,
+            "question": "What therapeutic potential is highlighted in the final sentence of paragraph 4?",
+            "questionVi": "Tiềm năng trị liệu nào được nhấn mạnh ở câu cuối cùng của đoạn 4?",
+            "questionType": "inference",
+            "options": [
+              "Surgical extraction of all lipids from the brain to prevent plaque formation",
+              "Restoring lipid equilibrium via omega-3 supplementation and antioxidants to mitigate cognitive decline",
+              "Replacing all biological brain tissue with silicon microprocessor microchips",
+              "Prohibiting senior citizens from consuming any dietary fats or oils"
+            ],
+            "optionsVi": [
+              "Phẫu thuật bóc tách toàn bộ lipid ra khỏi não để ngăn hình thành mảng bám",
+              "Khôi phục cân bằng lipid qua bổ sung omega-3 và chất chống oxy hóa để giảm suy giảm nhận thức",
+              "Thay thế toàn bộ mô não sinh học bằng các vi mạch vi xử lý silicon",
+              "Cấm người cao tuổi tiêu thụ bất kỳ chất béo hoặc dầu mỡ nào trong chế độ ăn"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Therapeutic interventions aimed at restoring lipid equilibrium—via targeted dietary omega-3 supplementation, antioxidant therapies, or synthetic lipid precursors—represent a promising frontier in neurobiology, offering potential pathways to mitigate cognitive decline and preserve neuronal integrity in an aging global population.",
+            "evidenceVi": "Các can thiệp trị liệu nhằm khôi phục sự cân bằng lipid—thông qua bổ sung omega-3 có mục tiêu, liệu pháp chống oxy hóa hoặc tiền chất lipid tổng hợp—đại diện cho một ranh giới đầy hứa hẹn trong sinh học thần kinh, mang lại các lộ trình tiềm năng để giảm thiểu suy giảm nhận thức và bảo tồn tính toàn vẹn của nơ-ron...",
+            "explanation": "Đoạn cuối nhấn mạnh liệu pháp khôi phục cân bằng lipid bằng omega-3 và chất chống oxy hóa hứa hẹn giúp giảm suy thoái nhận thức.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Triển vọng trị liệu (Therapeutic Outlook)",
+              "cluePassage": "restoring lipid equilibrium—via targeted dietary omega-3 supplementation, antioxidant therapies... offering potential pathways to mitigate cognitive decline and preserve neuronal integrity",
+              "clueAnswer": "Restoring lipid equilibrium via omega-3 supplementation and antioxidants to mitigate cognitive decline",
+              "keyPassage": "restoring lipid equilibrium—via targeted dietary omega-3 supplementation, antioxidant therapies... mitigate cognitive decline",
+              "keyAnswer": "Restoring lipid equilibrium via omega-3 supplementation and antioxidants to mitigate cognitive decline",
+              "paraphrasePair": "restoring lipid equilibrium... mitigate cognitive decline <=> Restoring lipid equilibrium via omega-3 supplementation and antioxidants to mitigate cognitive decline",
+              "meaningVi": "khôi phục cân bằng lipid giúp giảm thiểu suy giảm nhận thức",
+              "deductionLogic": "Khớp câu cuối cùng của bài đọc."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
