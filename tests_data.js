@@ -1,8 +1,4 @@
-/**
- * VSTEP READING MOCK TESTS (10 FULL TESTS)
- * Source: 10 Bo De Thi Doc Hieu VSTEP B1-B2-C1
- */
-var READING_MOCK_TESTS = [
+const READING_MOCK_TESTS = [
   {
     "testId": "TEST01",
     "testNum": 1,
@@ -27997,10 +27993,1954 @@ var READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST14",
+    "testNum": 14,
+    "title": "VSTEP READING MOCK TEST 14",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 04 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Culinary Tourism & Street Food",
+        "topic": "Văn hóa ẩm thực đường phố & Du lịch trải nghiệm ẩm thực bản địa",
+        "timeAllowed": 15,
+        "passage": "<p>Street food has transcended its historical origins as cheap, quick sustenance for laboring classes to become a celebrated cornerstone of global tourism. In metropolitan centers spanning Southeast Asia, Latin America, and the Mediterranean, sidewalk carts and open-air night markets display a gastronomic vitality that brick-and-mortar restaurants frequently struggle to emulate. Generational vendors operate narrow stalls, preparing aromatic recipes passed down through family lineages with singular, practiced focus. For international travelers seeking cultural immersion, dining on plastic stools amid the sizzle of woks offers an unvarnished encounter with indigenous culinary heritage.</p><p>Beyond its cultural allure, street food constitutes a vital pillar of the informal urban economy. In many developing nations, street vending provides immediate livelihood opportunities for millions of citizens who lack access to formal capital or credentialed employment. The low barriers to entry allow enterprising cooks to monetize traditional skills with minimal overhead investment. Furthermore, street food serves an indispensable municipal function by feeding diverse socioeconomic cohorts—from construction workers to office clerks—nutritious, freshly prepared meals at affordable price points, thereby anchoring urban food security.</p><p>Nevertheless, the rapid proliferation of street vending poses formidable regulatory dilemmas for urban planners. Municipal authorities routinely grapple with conflicting priorities regarding public hygiene, pedestrian mobility, and formal taxation. Concerns regarding food safety and water sanitation are not unfounded, as mobile stalls often operate without continuous running water or refrigerated storage. In response, some municipal governments have launched heavy-handed clearance campaigns, seeking to sanitize sidewalks for vehicular transit and modernize their global image. Yet sociologists caution that aggressive displacement eviscerates communal vitality and plunges vulnerable families into acute financial distress.</p><p>Progressive urban administrations are consequently pivoting toward constructive integration rather than eradication. Initiatives such as designated hawker centers, potable water kiosks, and mandatory food hygiene training demonstrate that safety and authenticity need not be mutually exclusive. Moreover, curated street food walking tours have transformed once-marginalized alleyways into vibrant tourist attractions, revitalizing neighborhood commerce while safeguarding intangible cultural heritage for generations to come.</p>",
+        "vocab": [
+          {
+            "word": "vendor",
+            "ipa": "/ˈvɛndər/",
+            "type": "n.",
+            "level": "B1",
+            "meaningVi": "người bán hàng rong, tiểu thương",
+            "synonym": "seller",
+            "example": "Street vendors offer generational recipes passed down through decades."
+          },
+          {
+            "word": "cuisine",
+            "ipa": "/kwɪˈziːn/",
+            "type": "n.",
+            "level": "B1",
+            "meaningVi": "nền ẩm thực, phong cách nấu nướng",
+            "synonym": "cooking style",
+            "example": "Vietnamese cuisine is renowned for its fresh herbs and balanced flavors."
+          },
+          {
+            "word": "delicacy",
+            "ipa": "/ˈdɛlɪkəsi/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "món ăn đặc sản, cao lương mỹ vị",
+            "synonym": "specialty",
+            "example": "Tourists eagerly sample local delicacies at the bustling night market."
+          },
+          {
+            "word": "authenticity",
+            "ipa": "/ˌɔːθɛnˈtɪsɪti/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "tính xác thực, tính nguyên bản",
+            "synonym": "genuineness",
+            "example": "Travelers value the culinary authenticity of sidewalk eateries over upscale restaurants."
+          },
+          {
+            "word": "hygiene",
+            "ipa": "/ˈhaɪdʒiːn/",
+            "type": "n.",
+            "level": "B1",
+            "meaningVi": "vệ sinh, điều kiện giữ sạch",
+            "synonym": "cleanliness",
+            "example": "Strict food hygiene regulations protect customers from foodborne illnesses."
+          },
+          {
+            "word": "municipal",
+            "ipa": "/mjuːˈnɪsɪpəl/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thuộc thành phố, thuộc đô thị",
+            "synonym": "civic",
+            "example": "Municipal authorities are designing designated zones for food stalls."
+          },
+          {
+            "word": "regulation",
+            "ipa": "/ˌrɛɡjʊˈleɪʃən/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "quy định, luật lệ quản lý",
+            "synonym": "rule",
+            "example": "Safety regulations ensure that mobile food carts maintain sanitary conditions."
+          },
+          {
+            "word": "sustenance",
+            "ipa": "/ˈsʌstɪnəns/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "chất bổ dưỡng, thức ăn nuôi sống",
+            "synonym": "nourishment",
+            "example": "Street food originated as affordable sustenance for urban laborers."
+          },
+          {
+            "word": "vibrant",
+            "ipa": "/ˈvaɪbrənt/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "sôi động, tràn đầy sức sống",
+            "synonym": "lively",
+            "example": "The night market presents a vibrant atmosphere filled with sights and aromas."
+          },
+          {
+            "word": "palatable",
+            "ipa": "/ˈpælətəbəl/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "vừa miệng, dễ thưởng thức",
+            "synonym": "tasty",
+            "example": "The cook seasoned the broth to make it palatable to international visitors."
+          },
+          {
+            "word": "gastronomic",
+            "ipa": "/ˌɡæstrəˈnɒmɪk/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thuộc về nghệ thuật ẩm thực",
+            "synonym": "culinary",
+            "example": "Cities celebrate their gastronomic heritage through annual food festivals."
+          },
+          {
+            "word": "indigenous",
+            "ipa": "/ɪnˈdɪdʒɪnəs/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "bản địa, mang tính nguồn cội",
+            "synonym": "native",
+            "example": "Street food showcases indigenous ingredients cultivated in surrounding rural districts."
+          },
+          {
+            "word": "sanitation",
+            "ipa": "/ˌsænɪˈteɪʃən/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "hệ thống vệ sinh môi trường",
+            "synonym": "hygienic conditions",
+            "example": "Improved water sanitation in hawker centers greatly reduces bacterial hazards."
+          },
+          {
+            "word": "livelihood",
+            "ipa": "/ˈlaɪvlihʊd/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "kế sinh nhai, sinh kế",
+            "synonym": "means of living",
+            "example": "Selling street breakfast is the sole livelihood for many urban households."
+          },
+          {
+            "word": "informal",
+            "ipa": "/ɪnˈfɔːməl/",
+            "type": "adj.",
+            "level": "B1",
+            "meaningVi": "phi chính thức, phi hình thức",
+            "synonym": "unofficial",
+            "example": "The informal economy provides employment when formal jobs are scarce."
+          },
+          {
+            "word": "staple",
+            "ipa": "/ˈsteɪpəl/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "lương thực chủ đạo, món thiết yếu",
+            "synonym": "basic food",
+            "example": "Rice noodles and crusty bread are staples of Vietnamese morning street food."
+          },
+          {
+            "word": "savor",
+            "ipa": "/ˈseɪvər/",
+            "type": "v.",
+            "level": "B2",
+            "meaningVi": "thưởng thức, nhấm nháp hương vị",
+            "synonym": "relish",
+            "example": "Foodies savor every spoonful of the slow-simmered herbal soup."
+          },
+          {
+            "word": "aromatic",
+            "ipa": "/ˌærəˈmætɪk/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thơm nức, dậy mùi thơm",
+            "synonym": "fragrant",
+            "example": "The alley was filled with aromatic steam rising from boiling broth kettles."
+          },
+          {
+            "word": "ordinance",
+            "ipa": "/ˈɔːrdɪnəns/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sắc lệnh, quy định địa phương",
+            "synonym": "local law",
+            "example": "The city council enacted a new ordinance governing sidewalk vendors."
+          },
+          {
+            "word": "culinary",
+            "ipa": "/ˈkʌlɪnəri/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thuộc bếp núc, nấu nướng",
+            "synonym": "cooking-related",
+            "example": "Culinary tourism has become one of the fastest-growing sectors in the travel industry."
+          },
+          {
+            "word": "immersion",
+            "ipa": "/ɪˈmɜːrʒən/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự đắm mình, hòa nhập văn hóa",
+            "synonym": "deep involvement",
+            "example": "Eating alongside local workers offers genuine cultural immersion."
+          },
+          {
+            "word": "heritage",
+            "ipa": "/ˈhɛrɪtɪdʒ/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "di sản văn hóa truyền đời",
+            "synonym": "legacy",
+            "example": "Traditional recipes represent an intangible cultural heritage worth preserving."
+          },
+          {
+            "word": "condiment",
+            "ipa": "/ˈkɒndɪmənt/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "đồ gia vị, nước sốt chấm kèm",
+            "synonym": "seasoning",
+            "example": "Chili sauce and lime wedges are common condiments on every tabletop."
+          },
+          {
+            "word": "proliferate",
+            "ipa": "/prəˈlɪfəreɪt/",
+            "type": "v.",
+            "level": "B2",
+            "meaningVi": "sinh sôi, phát triển nhanh chóng",
+            "synonym": "multiply",
+            "example": "Pop-up food stalls proliferate across the downtown district during weekends."
+          },
+          {
+            "word": "affordable",
+            "ipa": "/əˈfɔːrdəbəl/",
+            "type": "adj.",
+            "level": "B1",
+            "meaningVi": "giá cả phải chăng, vừa túi tiền",
+            "synonym": "economical",
+            "example": "Street stalls supply affordable sustenance to budget-conscious commuters."
+          },
+          {
+            "word": "revitalize",
+            "ipa": "/riːˈvaɪtəlaɪz/",
+            "type": "v.",
+            "level": "B2",
+            "meaningVi": "tái sinh, tiếp thêm sức sống mới",
+            "synonym": "re-energize",
+            "example": "Curated food walking tours revitalize forgotten alleyways and heritage quarters."
+          },
+          {
+            "word": "communal",
+            "ipa": "/kəˈmjuːnəl/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "mang tính cộng đồng, chung",
+            "synonym": "collective",
+            "example": "Sidewalk dining fosters a vibrant communal spirit among neighborhood residents."
+          }
+        ],
+        "questions": [
+          {
+            "id": "T14P1Q1",
+            "question": "What is the primary focus of the first paragraph?",
+            "options": {
+              "A": "The financial cost of dining in upscale brick-and-mortar restaurants",
+              "B": "The transformation of street food from humble sustenance to a celebrated tourism asset",
+              "C": "The superior nutritional value of home cooking over commercial night market meals",
+              "D": "The historical expansion of industrial wok manufacturing across Asian cities"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 1 nêu rõ: 'Street food has transcended its historical origins as cheap, quick sustenance for laboring classes to become a celebrated cornerstone of global tourism.' Phương án B tóm lược chính xác sự chuyển mình này.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính đoạn văn (Main Idea)",
+              "cluePassage": "Street food has transcended its historical origins as cheap, quick sustenance for laboring classes to become a celebrated cornerstone of global tourism.",
+              "clueAnswer": "The transformation of street food from humble sustenance to a celebrated tourism asset",
+              "keyPassage": "transcended historical origins... cheap sustenance... celebrated cornerstone of global tourism",
+              "keyAnswer": "transformation... humble sustenance to celebrated tourism asset",
+              "paraphrasePair": "transcended historical origins <=> transformation",
+              "meaningVi": "vượt qua nguồn gốc lịch sử để trở thành trụ cột du lịch <=> sự chuyển mình từ món ăn bình dân thành tài sản du lịch",
+              "deductionLogic": "Đoạn 1 mở đầu và tập trung giải thích sự đổi ngôi từ đồ ăn rẻ tiền cho thợ thuyền thành sức hút cốt lõi của du lịch thế giới."
+            }
+          },
+          {
+            "id": "T14P1Q2",
+            "question": "The word \"emulate\" in paragraph 1 is closest in meaning to:",
+            "options": {
+              "A": "imitate or match",
+              "B": "disapprove of",
+              "C": "financially sponsor",
+              "D": "vigorously inspect"
+            },
+            "correctAnswer": "A",
+            "explanation": "'Emulate' có nghĩa là bắt chước, mô phỏng hoặc cạnh tranh để sánh ngang với ai đó ('imitate or match').",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng theo ngữ cảnh (Vocabulary)",
+              "cluePassage": "...display a gastronomic vitality that brick-and-mortar restaurants frequently struggle to emulate.",
+              "clueAnswer": "imitate or match",
+              "keyPassage": "struggle to emulate",
+              "keyAnswer": "imitate or match",
+              "paraphrasePair": "emulate <=> imitate or match",
+              "meaningVi": "mô phỏng, sánh ngang <=> bắt chước hoặc tương xứng",
+              "deductionLogic": "Ngữ cảnh: các nhà hàng xây gạch kiên cố thường rất khó để 'emulate' (sánh kịp/mô phỏng được) sức sống ẩm thực của các quán vỉa hè."
+            }
+          },
+          {
+            "id": "T14P1Q3",
+            "question": "According to paragraph 2, why is street vending crucial for the informal urban economy?",
+            "options": {
+              "A": "It generates substantial export tariffs for national treasuries.",
+              "B": "It mandates high initial capital investments and university business degrees.",
+              "C": "It offers accessible livelihoods for citizens lacking formal capital or credentialed employment.",
+              "D": "It replaces municipal supermarket chains with state-owned cooperatives."
+            },
+            "correctAnswer": "C",
+            "explanation": "Đoạn 2 nêu rõ: 'street vending provides immediate livelihood opportunities for millions of citizens who lack access to formal capital or credentialed employment.'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết trong bài (Factual)",
+              "cluePassage": "street vending provides immediate livelihood opportunities for millions of citizens who lack access to formal capital or credentialed employment.",
+              "clueAnswer": "It offers accessible livelihoods for citizens lacking formal capital or credentialed employment.",
+              "keyPassage": "livelihood opportunities... lack access to formal capital or credentialed employment",
+              "keyAnswer": "accessible livelihoods... lacking formal capital or credentialed employment",
+              "paraphrasePair": "provides immediate livelihood opportunities <=> offers accessible livelihoods",
+              "meaningVi": "cung cấp cơ hội sinh kế trực tiếp <=> mang lại sinh kế dễ tiếp cận",
+              "deductionLogic": "Phương án C diễn đạt lại trực tiếp câu luận điểm kinh tế trong đoạn 2."
+            }
+          },
+          {
+            "id": "T14P1Q4",
+            "question": "The phrase \"low barriers to entry\" in paragraph 2 implies that starting a street food cart:",
+            "options": {
+              "A": "requires extensive legal contracts with multinational corporations",
+              "B": "does not demand enormous initial capital or sophisticated infrastructure",
+              "C": "is restricted exclusively to certified professional chefs",
+              "D": "prohibits family members from participating in daily cooking"
+            },
+            "correctAnswer": "B",
+            "explanation": "'Low barriers to entry' (rào cản gia nhập thị trường thấp) nghĩa là bất kỳ ai cũng có thể bắt đầu kinh doanh mà không cần vốn khổng lồ hay cơ sở hạ tầng phức tạp.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận logic (Inference)",
+              "cluePassage": "The low barriers to entry allow enterprising cooks to monetize traditional skills with minimal overhead investment.",
+              "clueAnswer": "does not demand enormous initial capital or sophisticated infrastructure",
+              "keyPassage": "low barriers to entry... minimal overhead investment",
+              "keyAnswer": "does not demand enormous initial capital",
+              "paraphrasePair": "minimal overhead investment <=> does not demand enormous initial capital",
+              "meaningVi": "đầu tư chi phí ban đầu tối thiểu <=> không đòi hỏi vốn lớn",
+              "deductionLogic": "Cụm 'minimal overhead investment' giải thích bản chất của 'low barriers to entry'."
+            }
+          },
+          {
+            "id": "T14P1Q5",
+            "question": "Which of the following is NOT mentioned in paragraph 3 as a challenge associated with street vending?",
+            "options": {
+              "A": "Inadequate access to clean running water and refrigeration",
+              "B": "Obstruction of pedestrian footpaths and sidewalk movement",
+              "C": "Excessive carbon taxation imposed on vegetable growers",
+              "D": "Tensions surrounding official tax compliance and municipal hygiene"
+            },
+            "correctAnswer": "C",
+            "explanation": "Đoạn 3 đề cập đến vệ sinh thực phẩm (nước chảy, tủ lạnh), cản trở vỉa hè (pedestrian mobility), và thuế (taxation). Không hề có thông tin về thuế carbon đánh vào người trồng rau (C).",
+            "postReading": {
+              "type": "negative_fact",
+              "typeLabel": "Tìm phương án KHÔNG được nhắc đến (Negative Fact)",
+              "cluePassage": "Municipal authorities routinely grapple with conflicting priorities regarding public hygiene, pedestrian mobility, and formal taxation. Concerns regarding food safety and water sanitation are not unfounded...",
+              "clueAnswer": "Excessive carbon taxation imposed on vegetable growers",
+              "keyPassage": "public hygiene, pedestrian mobility, and formal taxation",
+              "keyAnswer": "Excessive carbon taxation (Not mentioned)",
+              "paraphrasePair": "NOT mentioned in passage",
+              "meaningVi": "Không được đề cập trong bài đọc",
+              "deductionLogic": "Phương án C là thông tin hoàn toàn bịa đặt, không xuất hiện trong bài."
+            }
+          },
+          {
+            "id": "T14P1Q6",
+            "question": "The word \"eviscerates\" in paragraph 3 is closest in meaning to:",
+            "options": {
+              "A": "destroys or severely weakens",
+              "B": "artificially inflates",
+              "C": "thoroughly cleanses",
+              "D": "publicly honors"
+            },
+            "correctAnswer": "A",
+            "explanation": "'Eviscerate' nghĩa đen là moi ruột, nghĩa bóng là tước đoạt phần cốt lõi, phá hủy hoặc làm suy yếu nghiêm trọng ('destroys or severely weakens').",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng nâng cao (Vocabulary)",
+              "cluePassage": "Yet sociologists caution that aggressive displacement eviscerates communal vitality and plunges vulnerable families into acute financial distress.",
+              "clueAnswer": "destroys or severely weakens",
+              "keyPassage": "aggressive displacement eviscerates communal vitality",
+              "keyAnswer": "destroys or severely weakens",
+              "paraphrasePair": "eviscerates <=> destroys or severely weakens",
+              "meaningVi": "triệt tiêu, bóp chết sức sống cộng đồng <=> phá hủy hoặc làm suy yếu nặng nề",
+              "deductionLogic": "Ngữ cảnh đối lập: việc giải tỏa cưỡng chế (aggressive displacement) sẽ triệt hạ (eviscerates) sức sống cộng đồng và đẩy các gia đình vào cảnh khốn đốn."
+            }
+          },
+          {
+            "id": "T14P1Q7",
+            "question": "The word \"their\" in paragraph 3 refers to:",
+            "options": {
+              "A": "sidewalks",
+              "B": "pedestrian pathways",
+              "C": "municipal governments",
+              "D": "mobile stalls"
+            },
+            "correctAnswer": "C",
+            "explanation": "Câu trong bài: 'In response, some municipal governments have launched heavy-handed clearance campaigns, seeking to sanitize sidewalks for vehicular transit and modernize their global image.' -> 'their' thay thế cho 'municipal governments'.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ quy chiếu (Reference)",
+              "cluePassage": "...some municipal governments have launched heavy-handed clearance campaigns, seeking to sanitize sidewalks for vehicular transit and modernize their global image.",
+              "clueAnswer": "municipal governments",
+              "keyPassage": "municipal governments... modernize their global image",
+              "keyAnswer": "municipal governments",
+              "paraphrasePair": "their <=> municipal governments'",
+              "meaningVi": "hình ảnh toàn cầu của họ <=> chính quyền các đô thị",
+              "deductionLogic": "Chính các 'chính quyền đô thị' (municipal governments) mới là chủ thể mong muốn hiện đại hóa hình ảnh quốc tế của mình."
+            }
+          },
+          {
+            "id": "T14P1Q8",
+            "question": "In paragraph 4, what approach do progressive administrations take regarding street food?",
+            "options": {
+              "A": "Banning all open-air cooking in favor of multinational fast-food franchises",
+              "B": "Imposing severe criminal penalties on tourists who consume street snacks",
+              "C": "Constructive integration through designated centers, clean water, and hygiene training",
+              "D": "Permanently relocating all vendors to remote suburban industrial parks"
+            },
+            "correctAnswer": "C",
+            "explanation": "Đoạn 4 nêu: 'Progressive urban administrations are consequently pivoting toward constructive integration rather than eradication. Initiatives such as designated hawker centers, potable water kiosks, and mandatory food hygiene training demonstrate...'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết cụ thể (Factual)",
+              "cluePassage": "Progressive urban administrations are consequently pivoting toward constructive integration rather than eradication. Initiatives such as designated hawker centers, potable water kiosks, and mandatory food hygiene training...",
+              "clueAnswer": "Constructive integration through designated centers, clean water, and hygiene training",
+              "keyPassage": "constructive integration... designated hawker centers, potable water kiosks, and mandatory food hygiene training",
+              "keyAnswer": "Constructive integration through designated centers, clean water, and hygiene training",
+              "paraphrasePair": "constructive integration rather than eradication <=> constructive integration through designated centers",
+              "meaningVi": "tích hợp mang tính xây dựng thay vì xóa sổ",
+              "deductionLogic": "Phương án C nêu chuẩn xác 3 biện pháp cụ thể được nhắc đến trong đoạn."
+            }
+          },
+          {
+            "id": "T14P1Q9",
+            "question": "What can be inferred from the final sentence of the passage?",
+            "options": {
+              "A": "Culinary tours undermine local economies by pricing out domestic residents.",
+              "B": "Commercial tourism and traditional culture can establish a mutually beneficial coexistence.",
+              "C": "Street vendors will soon be entirely superseded by digital delivery apps.",
+              "D": "Municipalities have abandoned all food inspection protocols in historic areas."
+            },
+            "correctAnswer": "B",
+            "explanation": "Câu cuối khẳng định: các tour đi bộ ẩm thực đã biến những con hẻm bị lãng quên thành điểm thu hút du lịch sôi động, vừa hồi sinh thương mại vừa bảo tồn di sản văn hóa phi vật thể -> Du lịch và văn hóa truyền thống cùng có lợi (B).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận tổng hợp (Inference)",
+              "cluePassage": "curated street food walking tours have transformed once-marginalized alleyways into vibrant tourist attractions, revitalizing neighborhood commerce while safeguarding intangible cultural heritage for generations to come.",
+              "clueAnswer": "Commercial tourism and traditional culture can establish a mutually beneficial coexistence.",
+              "keyPassage": "revitalizing neighborhood commerce while safeguarding intangible cultural heritage",
+              "keyAnswer": "mutually beneficial coexistence",
+              "paraphrasePair": "revitalizing commerce while safeguarding heritage <=> mutually beneficial coexistence",
+              "meaningVi": "hồi sinh thương mại đồng thời bảo tồn di sản <=> sự cùng tồn tại song phương có lợi",
+              "deductionLogic": "Việc vừa kích thích kinh tế vừa gìn giữ văn hóa cho thấy mối quan hệ tương hỗ đôi bên cùng có lợi giữa du lịch và di sản."
+            }
+          },
+          {
+            "id": "T14P1Q10",
+            "question": "Which of the following best reflects the author's overall attitude toward street food?",
+            "options": {
+              "A": "Dismissive of its cultural value and alarmed by its economic inefficiency",
+              "B": "Appreciative of its cultural and economic merits while advocating for enlightened regulation",
+              "C": "Indifferent toward vendor welfare and strictly supportive of total sidewalk clearances",
+              "D": "Pessimistic about the survival of traditional culinary practices in modern cities"
+            },
+            "correctAnswer": "B",
+            "explanation": "Tác giả đánh giá cao giá trị văn hóa và kinh tế của ẩm thực đường phố, đồng thời ủng hộ chính sách quản lý tiến bộ (enlightened regulation: cấp nước sạch, đào tạo vệ sinh, chợ tập trung) thay vì cấm đoán cực đoan.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Thái độ tác giả (Author's Attitude)",
+              "cluePassage": "safety and authenticity need not be mutually exclusive... revitalizing neighborhood commerce while safeguarding intangible cultural heritage",
+              "clueAnswer": "Appreciative of its cultural and economic merits while advocating for enlightened regulation",
+              "keyPassage": "safety and authenticity need not be mutually exclusive",
+              "keyAnswer": "Appreciative of merits while advocating enlightened regulation",
+              "paraphrasePair": "constructive integration <=> enlightened regulation",
+              "meaningVi": "tích hợp mang tính xây dựng <=> điều tiết tiến bộ, khai sáng",
+              "deductionLogic": "Toàn bài thể hiện thái độ thấu đáo: công nhận cả lợi ích to lớn lẫn rủi ro vệ sinh, kết luận bằng giải pháp quản lý tích cực."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: The Rise of Food Bloggers & Digital Food Journalism",
+        "topic": "Sự bùng nổ của Food Blogger & Đánh giá ẩm thực thời đại số",
+        "timeAllowed": 15,
+        "passage": "<p>For over a century, culinary criticism was the exclusive domain of an elite cadre of print journalists. Writing for prestigious broadsheets and gastronomy magazines, these arbiters of taste wielded immense influence, capable of catapulting a neighborhood bistro to Michelin-starred fame or condemning an enterprise to bankruptcy with an incisive critique. However, the advent of high-speed mobile internet, digital photography, and social media platforms has precipitated a radical democratization of food journalism. Today, self-styled food bloggers, Instagram influencers, and TikTok creators command audiences that vastly outstrip the readership of legacy print publications.</p><p>This digital paradigm shift has fundamentally transformed how consumers discover and evaluate dining establishments. Where traditional critics valued understated refinement, intricate technical execution, and formal service etiquette, digital creators emphasize sensory immediacy, visual allure, and relatable narrative. A ten-second viral video featuring oozing cheese pulls or flaming tableside preparations can generate queues that wrap around city blocks overnight. Small, family-run establishments that historically lacked PR budgets can now achieve unprecedented visibility through spontaneous user endorsements, leveling the playing field against corporate hospitality groups.</p><p>Nevertheless, the hyper-accelerated nature of digital food blogging has introduced severe ethical and analytical compromises. Traditional journalism enforced rigorous firewalls between editorial commentary and commercial advertising, compelling critics to maintain strict anonymity and pay for their meals out of expense accounts. In stark contrast, many digital creators rely on complimentary banquets, sponsored travel, and undisclosed financial endorsements from restaurateurs. This systemic conflict of interest fosters an environment of relentless, uncritical cheerleading, where discerning critique is supplanted by hyperbolic praise designed to appease sponsors and maximize algorithmic engagement.</p><p>Furthermore, the relentless pursuit of virality frequently prioritizes visual sensationalism over authentic culinary substance. Dishes are increasingly engineered to dazzle smartphone cameras—drenched in kaleidoscopic sauces or assembled into precarious, gravity-defying towers—at the direct expense of balance, texture, and flavor harmony. As culinary fatigue sets in, a discerning segment of the digital audience is beginning to demand greater transparency, prompting reputable creators to explicitly declare commercial partnerships and return to honest, context-rich culinary reporting.</p>",
+        "vocab": [
+          {
+            "word": "journalism",
+            "ipa": "/ˈdʒɜːrnəlɪzəm/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "nghề làm báo, hoạt động báo chí",
+            "synonym": "reporting",
+            "example": "Digital food journalism has reshaped the way restaurants are critiqued."
+          },
+          {
+            "word": "critique",
+            "ipa": "/krɪˈtiːk/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "bài phê bình, phân tích chuyên môn",
+            "synonym": "evaluation",
+            "example": "The chef read the food critic's review with intense concentration."
+          },
+          {
+            "word": "impartiality",
+            "ipa": "/ɪmˌpɑːrʃiˈæləti/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "tính vô tư, sự khách quan",
+            "synonym": "objectivity",
+            "example": "Journalistic impartiality requires paying for one's own meals during a review."
+          },
+          {
+            "word": "sponsored",
+            "ipa": "/ˈspɒnsərd/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "được tài trợ kinh phí",
+            "synonym": "funded",
+            "example": "The influencer failed to disclose that the luxurious dinner was sponsored."
+          },
+          {
+            "word": "undisclosed",
+            "ipa": "/ˌʌndɪsˈkloʊzd/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "không được tiết lộ, giấu kín",
+            "synonym": "unrevealed",
+            "example": "Undisclosed brand partnerships damage a creator's credibility."
+          },
+          {
+            "word": "democratization",
+            "ipa": "/dɪˌmɒkrətaɪˈzeɪʃən/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự phổ cập đại chúng, bình dân hóa",
+            "synonym": "popularization",
+            "example": "Smartphones led to the democratization of restaurant reviewing."
+          },
+          {
+            "word": "aesthetic",
+            "ipa": "/ɛsˈθɛtɪk/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "mang tính thẩm mỹ, nghệ thuật",
+            "synonym": "visual",
+            "example": "The cafe's minimalist aesthetic attracts thousands of photography enthusiasts."
+          },
+          {
+            "word": "virality",
+            "ipa": "/vaɪˈræləti/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "tính lan truyền bùng nổ trên mạng",
+            "synonym": "rapid spread",
+            "example": "Achieving virality can cause a quiet bakery to sell out within hours."
+          },
+          {
+            "word": "credibility",
+            "ipa": "/ˌkrɛdəˈbɪləti/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "uy tín, độ tin cậy",
+            "synonym": "trustworthiness",
+            "example": "Bloggers lose credibility when their praise feels insincere and commercialized."
+          },
+          {
+            "word": "integrity",
+            "ipa": "/ɪnˈtɛɡrəti/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự chính trực, liêm khiết đạo đức",
+            "synonym": "honesty",
+            "example": "Professional food writers uphold their editorial integrity at all costs."
+          },
+          {
+            "word": "monetized",
+            "ipa": "/ˈmɒnɪtaɪzd/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "được thương mại hóa, kiếm ra tiền",
+            "synonym": "commercialized",
+            "example": "Monetized content often creates conflicts between honesty and financial gain."
+          },
+          {
+            "word": "endorsement",
+            "ipa": "/ɪnˈdɔːrsmənt/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự chứng thực, sự quảng bá ủng hộ",
+            "synonym": "approval",
+            "example": "A celebrity endorsement can instantly boost a restaurant's reservations."
+          },
+          {
+            "word": "influencer",
+            "ipa": "/ˈɪnfluənsər/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "người có sức ảnh hưởng mạng xã hội",
+            "synonym": "trendsetter",
+            "example": "Food influencers film their reactions to viral culinary concoctions."
+          },
+          {
+            "word": "discerning",
+            "ipa": "/dɪˈsɜːrnɪŋ/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "sáng suốt, biết nhìn nhận tinh tế",
+            "synonym": "perceptive",
+            "example": "Discerning diners look beyond flashy presentations to assess taste."
+          },
+          {
+            "word": "algorithm",
+            "ipa": "/ˈælɡərɪðəm/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "thuật toán đề xuất nội dung",
+            "synonym": "computational formula",
+            "example": "Social media algorithms reward visually sensational video clips."
+          },
+          {
+            "word": "superficial",
+            "ipa": "/ˌsuːpərˈfɪʃəl/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "hời hợt, chỉ có vẻ bề ngoài",
+            "synonym": "shallow",
+            "example": "Overly staged food videos often provide only a superficial critique of the cuisine."
+          },
+          {
+            "word": "gourmet",
+            "ipa": "/ˈɡʊərmeɪ/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "hảo hạng, chuẩn sành ăn cao cấp",
+            "synonym": "epicurean",
+            "example": "The restaurant reimagines street dishes into modern gourmet creations."
+          },
+          {
+            "word": "transparent",
+            "ipa": "/trænsˈpærənt/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "minh bạch, rõ ràng trung thực",
+            "synonym": "candid",
+            "example": "Audiences appreciate reviewers who are transparent about paid collaborations."
+          },
+          {
+            "word": "sensationalism",
+            "ipa": "/sɛnˈseɪʃənəlɪzəm/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "xu hướng câu khách, giật gân",
+            "synonym": "exaggeration",
+            "example": "Visual sensationalism sometimes leads to bizarre culinary stunts."
+          },
+          {
+            "word": "engagement",
+            "ipa": "/ɪnˈɡeɪdʒmənt/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự tương tác của người xem",
+            "synonym": "audience interaction",
+            "example": "Controversial reviews tend to spark heated comment sections and high engagement."
+          },
+          {
+            "word": "niche",
+            "ipa": "/niːʃ/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "ngách, chuyên biệt một lĩnh vực nhỏ",
+            "synonym": "specialized",
+            "example": "She established a successful niche blog dedicated solely to artisanal sourdough."
+          },
+          {
+            "word": "palatable",
+            "ipa": "/ˈpælətəbəl/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "hợp khẩu vị, dễ tiếp nhận",
+            "synonym": "acceptable",
+            "example": "Critics questioned whether the overly sweet dessert was genuinely palatable."
+          },
+          {
+            "word": "scrutiny",
+            "ipa": "/ˈskruːtɪni/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự soi xét, kiểm tra kỹ lưỡng",
+            "synonym": "critical examination",
+            "example": "Sponsored reviews are increasingly falling under governmental scrutiny."
+          },
+          {
+            "word": "candid",
+            "ipa": "/ˈkændɪd/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thẳng thắn, bộc trực chân thành",
+            "synonym": "frank",
+            "example": "Viewers trust her channel because she offers candid opinions without sugarcoating."
+          },
+          {
+            "word": "disparity",
+            "ipa": "/dɪˈspærəti/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự chênh lệch, độ cách biệt",
+            "synonym": "imbalance",
+            "example": "There is a vast disparity between viral video hype and actual dining reality."
+          },
+          {
+            "word": "patronage",
+            "ipa": "/ˈpeɪtrənɪdʒ/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự lui tới ủng hộ của thực khách",
+            "synonym": "customer support",
+            "example": "A single viral recommendation can guarantee a year of robust customer patronage."
+          },
+          {
+            "word": "resonate",
+            "ipa": "/ˈrɛzəneɪt/",
+            "type": "v.",
+            "level": "B2",
+            "meaningVi": "tạo được sự đồng cảm sâu sắc",
+            "synonym": "evoke empathy",
+            "example": "Stories of resilient family kitchens resonate deeply with online food communities."
+          }
+        ],
+        "questions": [
+          {
+            "id": "T14P2Q1",
+            "question": "Which of the following best summarizes the main idea of paragraph 1?",
+            "options": {
+              "A": "Print food journalism has successfully banned social media creators from upscale dining rooms.",
+              "B": "The exclusive influence of traditional food critics has given way to digital content creators.",
+              "C": "Michelin guides have discontinued rating European bistros due to financial decline.",
+              "D": "Digital photography has reduced the total number of individuals interested in culinary arts."
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 1 phân tích sự chuyển dịch từ độc quyền của giới nhà báo phê bình ẩm thực in ấn sang làn sóng người sáng tạo nội dung số (food bloggers, TikTokers). Phương án B thâu tóm chính xác.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính đoạn 1 (Main Idea)",
+              "cluePassage": "culinary criticism was the exclusive domain of an elite cadre of print journalists... However, the advent of high-speed mobile internet... has precipitated a radical democratization of food journalism.",
+              "clueAnswer": "The exclusive influence of traditional food critics has given way to digital content creators.",
+              "keyPassage": "exclusive domain of print journalists... democratization of food journalism... creators command audiences outstripping legacy print",
+              "keyAnswer": "exclusive influence of traditional critics given way to digital creators",
+              "paraphrasePair": "exclusive domain has given way to radical democratization <=> exclusive influence has given way to digital creators",
+              "meaningVi": "đặc quyền độc chiếm đã nhường chỗ cho sự dân chủ hóa rộng lớn",
+              "deductionLogic": "Đoạn 1 đối chiếu vị thế độc quyền quá khứ với sự bùng nổ của mạng xã hội hiện tại."
+            }
+          },
+          {
+            "id": "T14P2Q2",
+            "question": "The word \"arbiters\" in paragraph 1 is closest in meaning to:",
+            "options": {
+              "A": "authoritative judges",
+              "B": "reluctant apprentices",
+              "C": "financial investors",
+              "D": "occasional bystanders"
+            },
+            "correctAnswer": "A",
+            "explanation": "'Arbiters' (những người phân xử, thẩm định có thẩm quyền) ở đây chỉ các nhà phê bình có quyền định đoạt số phận nhà hàng ('authoritative judges').",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "...these arbiters of taste wielded immense influence, capable of catapulting a neighborhood bistro to Michelin-starred fame...",
+              "clueAnswer": "authoritative judges",
+              "keyPassage": "arbiters of taste wielded immense influence",
+              "keyAnswer": "authoritative judges",
+              "paraphrasePair": "arbiters of taste <=> authoritative judges",
+              "meaningVi": "người thẩm định thị hiếu <=> quan tòa, người phán xét có thẩm quyền",
+              "deductionLogic": "Cụm 'wielded immense influence' và 'capable of catapulting or condemning' chứng minh họ nắm quyền phán xét uy quyền."
+            }
+          },
+          {
+            "id": "T14P2Q3",
+            "question": "According to paragraph 2, what distinct element do digital creators emphasize compared to traditional critics?",
+            "options": {
+              "A": "Strict grammatical adherence in printed weekly columns",
+              "B": "Sensory immediacy, visual allure, and relatable narrative",
+              "C": "Formal classical French culinary pedigree",
+              "D": "In-depth chemical decomposition of organic spices"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 2 nêu trực tiếp: 'Where traditional critics valued understated refinement... digital creators emphasize sensory immediacy, visual allure, and relatable narrative.'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết cụ thể (Factual)",
+              "cluePassage": "digital creators emphasize sensory immediacy, visual allure, and relatable narrative.",
+              "clueAnswer": "Sensory immediacy, visual allure, and relatable narrative",
+              "keyPassage": "emphasize sensory immediacy, visual allure, and relatable narrative",
+              "keyAnswer": "Sensory immediacy, visual allure, and relatable narrative",
+              "paraphrasePair": "emphasize sensory immediacy <=> emphasize sensory immediacy",
+              "meaningVi": "nhấn mạnh vào sự trực quan giác quan, vẻ cuốn hút thị giác và lời kể gần gũi",
+              "deductionLogic": "Khớp nối từ ngữ trực tiếp 100% với văn bản gốc."
+            }
+          },
+          {
+            "id": "T14P2Q4",
+            "question": "How does digital food blogging benefit small, family-run restaurants according to paragraph 2?",
+            "options": {
+              "A": "By granting them tax exemptions from national municipal councils",
+              "B": "By enabling them to obtain free architectural redesigns from luxury agencies",
+              "C": "By providing unprecedented visibility through spontaneous user endorsements without huge marketing budgets",
+              "D": "By requiring all customers to sign non-disclosure agreements before dining"
+            },
+            "correctAnswer": "C",
+            "explanation": "Đoạn 2 chỉ rõ: 'Small, family-run establishments that historically lacked PR budgets can now achieve unprecedented visibility through spontaneous user endorsements...'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết trong bài (Factual)",
+              "cluePassage": "Small, family-run establishments that historically lacked PR budgets can now achieve unprecedented visibility through spontaneous user endorsements, leveling the playing field...",
+              "clueAnswer": "By providing unprecedented visibility through spontaneous user endorsements without huge marketing budgets",
+              "keyPassage": "lacked PR budgets... unprecedented visibility through spontaneous user endorsements",
+              "keyAnswer": "unprecedented visibility through spontaneous endorsements without huge marketing budgets",
+              "paraphrasePair": "lacked PR budgets <=> without huge marketing budgets",
+              "meaningVi": "thiếu ngân sách PR quảng cáo <=> không cần ngân sách tiếp thị lớn",
+              "deductionLogic": "Phương án C tóm lược đầy đủ luận điểm về lợi ích dành cho quán ăn nhỏ gia đình."
+            }
+          },
+          {
+            "id": "T14P2Q5",
+            "question": "The author contrasts traditional critics with modern digital creators in paragraph 3 primarily by pointing out that traditional critics:",
+            "options": {
+              "A": "rarely possessed formal university educations",
+              "B": "maintained strict anonymity and paid for meals to avoid conflicts of interest",
+              "C": "favored street vendors over luxury hotel restaurants",
+              "D": "collaborated actively with commercial television advertisers"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 3 chỉ rõ: 'Traditional journalism enforced rigorous firewalls... compelling critics to maintain strict anonymity and pay for their meals out of expense accounts. In stark contrast, many digital creators rely on complimentary banquets, sponsored travel...'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "So sánh đối chiếu (Comparison)",
+              "cluePassage": "compelling critics to maintain strict anonymity and pay for their meals out of expense accounts. In stark contrast, many digital creators rely on complimentary banquets...",
+              "clueAnswer": "maintained strict anonymity and paid for meals to avoid conflicts of interest",
+              "keyPassage": "strict anonymity and pay for their meals... avoid conflicts of interest",
+              "keyAnswer": "strict anonymity and paid for meals",
+              "paraphrasePair": "maintain strict anonymity and pay for meals <=> maintained strict anonymity and paid for meals",
+              "meaningVi": "giữ kín danh tính tuyệt đối và tự trả tiền ăn để tránh xung đột lợi ích",
+              "deductionLogic": "Sự đối lập đạo đức giữa tự trả tiền để giữ tính khách quan và nhận đồ ăn miễn phí/tiền tài trợ."
+            }
+          },
+          {
+            "id": "T14P2Q6",
+            "question": "The word \"hyperbolic\" in paragraph 3 is closest in meaning to:",
+            "options": {
+              "A": "grossly exaggerated",
+              "B": "meticulously documented",
+              "C": "whispered softly",
+              "D": "statistically verified"
+            },
+            "correctAnswer": "A",
+            "explanation": "'Hyperbolic' (cường điệu, phóng đại quá mức) đồng nghĩa với 'grossly exaggerated'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng (Vocabulary)",
+              "cluePassage": "...where discerning critique is supplanted by hyperbolic praise designed to appease sponsors and maximize algorithmic engagement.",
+              "clueAnswer": "grossly exaggerated",
+              "keyPassage": "supplanted by hyperbolic praise",
+              "keyAnswer": "grossly exaggerated",
+              "paraphrasePair": "hyperbolic praise <=> grossly exaggerated praise",
+              "meaningVi": "lời khen phóng đại, thổi phồng quá mức <=> khen ngợi bị thổi phồng",
+              "deductionLogic": "'Hyperbolic' xuất phát từ 'hyperbole' (phép ngoa dụ, phóng đại)."
+            }
+          },
+          {
+            "id": "T14P2Q7",
+            "question": "According to paragraph 4, what negative consequence arises from the drive for virality?",
+            "options": {
+              "A": "Chefs refuse to use locally harvested organic ingredients.",
+              "B": "Restaurants are forced to hire professional actors as table waiters.",
+              "C": "Dishes are engineered for visual camera appeal at the expense of taste and balance.",
+              "D": "Social platforms ban users from photographing dessert items."
+            },
+            "correctAnswer": "C",
+            "explanation": "Đoạn 4 nêu: 'Dishes are increasingly engineered to dazzle smartphone cameras... at the direct expense of balance, texture, and flavor harmony.'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết hệ quả (Factual)",
+              "cluePassage": "Dishes are increasingly engineered to dazzle smartphone cameras—drenched in kaleidoscopic sauces or assembled into precarious, gravity-defying towers—at the direct expense of balance, texture, and flavor harmony.",
+              "clueAnswer": "Dishes are engineered for visual camera appeal at the expense of taste and balance.",
+              "keyPassage": "engineered to dazzle smartphone cameras... at the direct expense of balance, texture, and flavor harmony",
+              "keyAnswer": "engineered for visual camera appeal at the expense of taste and balance",
+              "paraphrasePair": "dazzle smartphone cameras at expense of flavor <=> visual appeal at expense of taste",
+              "meaningVi": "làm lóa mắt ống kính camera mà hy sinh hương vị và độ cân bằng",
+              "deductionLogic": "Phương án C diễn đạt lại chuẩn xác hệ quả tiêu cực của việc chạy theo xu hướng 'sống ảo'."
+            }
+          },
+          {
+            "id": "T14P2Q8",
+            "question": "The phrase \"at the direct expense of\" in paragraph 4 implies that:",
+            "options": {
+              "A": "flavor harmony is enhanced by visual complexity",
+              "B": "visual appeal is prioritized in a way that harms culinary quality",
+              "C": "restaurant managers reduce the financial price of appetizers",
+              "D": "customers are charged extra for taking pictures"
+            },
+            "correctAnswer": "B",
+            "explanation": "'At the direct expense of' nghĩa là 'phải trả giá bằng / gây tổn hại trực tiếp đến'. Ở đây, việc chăm chút ngoại hình món ăn đã làm tổn hại đến chất lượng ẩm thực thực tế (B).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Hiểu nghĩa ngữ cảnh (Inference)",
+              "cluePassage": "...assembled into precarious, gravity-defying towers—at the direct expense of balance, texture, and flavor harmony.",
+              "clueAnswer": "visual appeal is prioritized in a way that harms culinary quality",
+              "keyPassage": "at the direct expense of balance, texture, and flavor harmony",
+              "keyAnswer": "visual appeal prioritized in a way that harms culinary quality",
+              "paraphrasePair": "at the direct expense of <=> with the detriment/harm to",
+              "meaningVi": "phải trả giá bằng sự hài hòa hương vị <=> ưu tiên thị giác làm tổn hại chất lượng",
+              "deductionLogic": "Cụm thành ngữ chỉ sự đánh đổi tiêu cực giữa hai yếu tố."
+            }
+          },
+          {
+            "id": "T14P2Q9",
+            "question": "What emerging trend is identified at the end of paragraph 4?",
+            "options": {
+              "A": "A total prohibition of smartphones inside Michelin-starred restaurants",
+              "B": "A growing audience demand for transparency and honest, context-rich culinary reporting",
+              "C": "A mass exodus of food writers toward real estate appraisal",
+              "D": "The absolute closure of all independent food-review blogs"
+            },
+            "correctAnswer": "B",
+            "explanation": "Cuối đoạn 4 viết: 'a discerning segment of the digital audience is beginning to demand greater transparency, prompting reputable creators to explicitly declare commercial partnerships and return to honest, context-rich culinary reporting.'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết cuối bài (Factual)",
+              "cluePassage": "...a discerning segment of the digital audience is beginning to demand greater transparency, prompting reputable creators to explicitly declare commercial partnerships and return to honest, context-rich culinary reporting.",
+              "clueAnswer": "A growing audience demand for transparency and honest, context-rich culinary reporting",
+              "keyPassage": "demand greater transparency... return to honest, context-rich culinary reporting",
+              "keyAnswer": "demand for transparency and honest, context-rich reporting",
+              "paraphrasePair": "demand greater transparency <=> growing demand for transparency",
+              "meaningVi": "đòi hỏi sự minh bạch cao hơn và quay về với phóng sự ẩm thực trung thực, giàu bối cảnh",
+              "deductionLogic": "Khớp chuẩn xác ý cuối đoạn 4."
+            }
+          },
+          {
+            "id": "T14P2Q10",
+            "question": "Which of the following titles best encapsulates the main thesis of the passage?",
+            "options": {
+              "A": "The Death of Print: Why Old Newspapers No Longer Employ Critics",
+              "B": "Camera Feasts: The Democratization, Ethical Dilemmas, and Future of Digital Food Reviewing",
+              "C": "Bizarre Viral Recipes: How to Build Gravity-Defying Burger Towers",
+              "D": "Michelin Ratings Explained: The Complete Guide to European Dining"
+            },
+            "correctAnswer": "B",
+            "explanation": "Toàn bài phân tích 3 khía cạnh: sự phổ cập dân chủ hóa của sáng tạo nội dung số (democratization), những thách thức đạo đức xung đột lợi ích (ethical dilemmas), và xu hướng phát triển hướng tới minh bạch trong tương lai (future of digital food reviewing).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Tiêu đề phù hợp nhất (Best Title)",
+              "cluePassage": "democratization of food journalism... ethical and analytical compromises... demand greater transparency",
+              "clueAnswer": "Camera Feasts: The Democratization, Ethical Dilemmas, and Future of Digital Food Reviewing",
+              "keyPassage": "democratization... ethical compromises... future transparency",
+              "keyAnswer": "Democratization, Ethical Dilemmas, and Future of Digital Food Reviewing",
+              "paraphrasePair": "overall thematic synthesis <=> comprehensive title",
+              "meaningVi": "tổng hợp luận điểm toàn bài thành tiêu đề bao quát",
+              "deductionLogic": "Phương án B bao hàm trọn vẹn cả 4 đoạn văn của bài đọc."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: People's Tooth-Brushing Habits & Behavioral Dentistry",
+        "topic": "Thói quen đánh răng của con người & Nha khoa dự phòng",
+        "timeAllowed": 15,
+        "passage": "<p>Oral hygiene practices date back millennia, evolving from ancient Babylonian chew sticks and abrasive powders of crushed eggshells to contemporary motorized toothbrushes and chemically stabilized fluoride pastes. Despite the ubiquitous availability of preventative dental technologies, periodontal ailments and dental caries remain among the most prevalent non-communicable afflictions globally. Epidemiological research indicates that this persistent disease burden is rarely caused by a shortage of information; rather, it stems from deep-seated discrepancies between what patients perceive they do during routine oral care and their actual physical behaviors at the bathroom sink.</p><p>Foremost among these behavioral discrepancies is the phenomenon known as duration bias. The overwhelming consensus among international dental associations mandates that individuals brush thoroughly for a minimum of two minutes twice daily. However, observational studies utilizing concealed timers and smart-sensor brushes reveal that the average adult brushes for merely 45 to 60 seconds. When questioned post-brushing, participants routinely overestimate their elapsed time by more than one hundred percent, genuinely believing they fulfilled the professional two-minute guideline. This cognitive distortion creates a false sense of security while leaving microbial biofilm largely undisturbed across interdental and posterior surfaces.</p><p>Equally detrimental is the prevalent misconception that vigorous mechanical pressure correlates directly with superior plaque removal. In reality, modern nylon bristles are engineered to sweep away soft microbial plaque via gentle, high-frequency movements rather than aggressive scouring. Chronic heavy-handed brushing acts like micro-sandpaper, precipitating cervical enamel abrasion and irreversible gingival recession. Once gum tissue recedes, underlying dentin is exposed, causing acute thermal hypersensitivity and rendering tooth roots acutely susceptible to carious lesions. Furthermore, most individuals exhibit pronounced quadrant neglect, unconsciously devoting disproportionate attention to easily accessible anterior teeth while skipping the lingual surfaces of lower molars entirely.</p><p>To bridge the gap between dental knowledge and somatic execution, behavioral dentistry is embracing technological nudges. Modern electric brushes equipped with pressure sensors, quadrant pacers, and gamified smartphone interfaces provide immediate haptic feedback, interrupting unconscious muscle memory and training users in gentle, systematic technique. By converting passive hygiene recommendations into interactive, quantifiable micro-habits, these innovations hold immense potential to mitigate preventable oral pathology and transform public dental health worldwide.</p>",
+        "vocab": [
+          {
+            "word": "dental",
+            "ipa": "/ˈdɛntəl/",
+            "type": "adj.",
+            "level": "B1",
+            "meaningVi": "thuộc răng miệng, nha khoa",
+            "synonym": "oral",
+            "example": "Regular dental examinations prevent severe gum complications."
+          },
+          {
+            "word": "hygiene",
+            "ipa": "/ˈhaɪdʒiːn/",
+            "type": "n.",
+            "level": "B1",
+            "meaningVi": "vệ sinh phòng ngừa bệnh",
+            "synonym": "cleanliness",
+            "example": "Effective oral hygiene is the foundation of overall wellness."
+          },
+          {
+            "word": "enamel",
+            "ipa": "/ɪˈnæməl/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "men răng (lớp bảo vệ ngoài cùng)",
+            "synonym": "protective tooth layer",
+            "example": "Aggressive brushing wears down tooth enamel over time."
+          },
+          {
+            "word": "plaque",
+            "ipa": "/plæk/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "mảng bám vi khuẩn trên răng",
+            "synonym": "bacterial biofilm",
+            "example": "Flossing removes bacterial plaque between tight teeth."
+          },
+          {
+            "word": "abrasion",
+            "ipa": "/əˈbreɪʒən/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "sự mài mòn cơ học, trầy xước",
+            "synonym": "wearing away",
+            "example": "Toothbrush abrasion causes irreversible damage to tooth enamel."
+          },
+          {
+            "word": "gingival",
+            "ipa": "/ˈdʒɪndʒɪvəl/",
+            "type": "adj.",
+            "level": "C1",
+            "meaningVi": "thuộc về nướu, lợi răng",
+            "synonym": "gum-related",
+            "example": "Gingival inflammation is an early warning sign of periodontal disease."
+          },
+          {
+            "word": "recession",
+            "ipa": "/rɪˈsɛʃən/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự tụt nướu, thụt lùi",
+            "synonym": "withdrawal",
+            "example": "Gum recession exposes sensitive roots to temperature changes."
+          },
+          {
+            "word": "microbial",
+            "ipa": "/maɪˈkroʊbiəl/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thuộc vi sinh vật, vi khuẩn",
+            "synonym": "bacterial",
+            "example": "Toothpaste ingredients inhibit microbial proliferation in the mouth."
+          },
+          {
+            "word": "fluoride",
+            "ipa": "/ˈflʊəraɪd/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "chất flo tăng cường men răng",
+            "synonym": "protective mineral",
+            "example": "Fluoride strengthens weakened enamel against acid attacks."
+          },
+          {
+            "word": "discrepancy",
+            "ipa": "/dɪˈskrɛpənsi/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự chênh lệch, độ lệch thực tế",
+            "synonym": "mismatch",
+            "example": "A huge discrepancy exists between perceived and actual brushing time."
+          },
+          {
+            "word": "ergonomic",
+            "ipa": "/ˌɜːrɡəˈnɒmɪk/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "công thái học, thiết kế tối ưu vận hành",
+            "synonym": "user-optimized",
+            "example": "The toothbrush handle features an ergonomic grip for steady control."
+          },
+          {
+            "word": "compliance",
+            "ipa": "/kəmˈplaɪəns/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự tuân thủ hướng dẫn điều trị",
+            "synonym": "adherence",
+            "example": "Patient compliance with flossing recommendations remains notoriously low."
+          },
+          {
+            "word": "bristled",
+            "ipa": "/ˈbrɪsəld/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "có lông chải",
+            "synonym": "equipped with bristles",
+            "example": "Soft-bristled brushes are strongly recommended by dentists."
+          },
+          {
+            "word": "manual",
+            "ipa": "/ˈmænjuəl/",
+            "type": "adj.",
+            "level": "B1",
+            "meaningVi": "bằng tay, thủ công",
+            "synonym": "hand-operated",
+            "example": "Both manual and electric brushes are effective when used with proper technique."
+          },
+          {
+            "word": "propensity",
+            "ipa": "/prəˈpɛnsəti/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "xu hướng, thiên hướng bẩm sinh",
+            "synonym": "inclination",
+            "example": "People have a natural propensity to rush through evening hygiene rituals."
+          },
+          {
+            "word": "counterproductive",
+            "ipa": "/ˌkaʊntərprəˈdʌktɪv/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "phản tác dụng, đem lại tác hại",
+            "synonym": "harmful",
+            "example": "Scrubbing teeth with excessive force is entirely counterproductive."
+          },
+          {
+            "word": "prophylactic",
+            "ipa": "/ˌprɒfɪˈlæktɪk/",
+            "type": "adj.",
+            "level": "C1",
+            "meaningVi": "mang tính phòng ngừa bệnh tật",
+            "synonym": "preventative",
+            "example": "Routine dental cleaning is a cost-effective prophylactic measure."
+          },
+          {
+            "word": "habitual",
+            "ipa": "/həˈbɪtʃuəl/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thuộc thói quen lâu năm",
+            "synonym": "customary",
+            "example": "Breaking habitual brushing errors requires conscious daily effort."
+          },
+          {
+            "word": "demographic",
+            "ipa": "/ˌdɛməˈɡræfɪk/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "nhóm đối tượng nhân khẩu học",
+            "synonym": "population group",
+            "example": "Gum disease prevalence varies across different demographic sectors."
+          },
+          {
+            "word": "intervention",
+            "ipa": "/ˌɪntərˈvɛnʃən/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự can thiệp, biện pháp can thiệp",
+            "synonym": "action taken",
+            "example": "Behavioral interventions help children develop lasting brushing routines."
+          },
+          {
+            "word": "decay",
+            "ipa": "/dɪˈkeɪ/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự sâu răng, hư hỏng phân rã",
+            "synonym": "caries",
+            "example": "Untreated bacterial plaque inevitably leads to severe tooth decay."
+          },
+          {
+            "word": "rigorous",
+            "ipa": "/ˈrɪɡərəs/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "nghiêm ngặt, triệt để",
+            "synonym": "thorough",
+            "example": "Rigorous oral hygiene reduces systemic cardiovascular inflammation."
+          },
+          {
+            "word": "subconscious",
+            "ipa": "/sʌbˈkɒnʃəs/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thuộc tiềm thức, vô thức",
+            "synonym": "involuntary",
+            "example": "Brushing habits are often performed on subconscious autopilot."
+          },
+          {
+            "word": "efficacy",
+            "ipa": "/ˈɛfɪkəsi/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "hiệu lực, hiệu quả thực tế",
+            "synonym": "effectiveness",
+            "example": "Clinical trials proved the efficacy of oscillating brush heads."
+          },
+          {
+            "word": "sedentary",
+            "ipa": "/ˌsɛdənˈtɛri/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "ít vận động, thụ động",
+            "synonym": "inactive",
+            "example": "A sedentary lifestyle often correlates with neglected self-care habits."
+          },
+          {
+            "word": "sensor",
+            "ipa": "/ˈsɛnsər/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "cảm biến đo lường",
+            "synonym": "detector",
+            "example": "The built-in pressure sensor flashes red when the user brushes too hard."
+          },
+          {
+            "word": "nudge",
+            "ipa": "/nʌdʒ/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "cú huých hành vi, sự nhắc nhở tinh tế",
+            "synonym": "gentle prompt",
+            "example": "Vibrating quadrant timers serve as behavioral nudges to extend brushing time."
+          }
+        ],
+        "questions": [
+          {
+            "id": "T14P3Q1",
+            "question": "According to paragraph 1, what is the primary reason periodontal disease and caries remain widespread?",
+            "options": {
+              "A": "A total lack of access to fluoride toothpaste in industrialized countries",
+              "B": "The complete failure of modern dental science to invent mechanical brushes",
+              "C": "Deep discrepancies between what patients believe they do and their actual physical behaviors",
+              "D": "Genetically inherited resistance to all known chemical mouthwashes"
+            },
+            "correctAnswer": "C",
+            "explanation": "Đoạn 1 nêu rõ: 'it stems from deep-seated discrepancies between what patients perceive they do during routine oral care and their actual physical behaviors at the bathroom sink.'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết trong bài (Factual)",
+              "cluePassage": "it stems from deep-seated discrepancies between what patients perceive they do during routine oral care and their actual physical behaviors at the bathroom sink.",
+              "clueAnswer": "Deep discrepancies between what patients believe they do and their actual physical behaviors",
+              "keyPassage": "discrepancies between what patients perceive they do... and actual physical behaviors",
+              "keyAnswer": "discrepancies between what patients believe they do and their actual physical behaviors",
+              "paraphrasePair": "perceive they do <=> believe they do",
+              "meaningVi": "nhận thức là mình làm <=> tin rằng mình làm",
+              "deductionLogic": "Khớp chuẩn xác câu cuối của đoạn 1."
+            }
+          },
+          {
+            "id": "T14P3Q2",
+            "question": "The term \"duration bias\" in paragraph 2 refers to the fact that individuals:",
+            "options": {
+              "A": "brush their teeth for hours without realizing the sun has set",
+              "B": "drastically overestimate the amount of time they actually spend brushing",
+              "C": "refuse to purchase electric brushes because of battery longevity concerns",
+              "D": "forget their dentist's appointments due to long calendar intervals"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 2 giải thích: dù các hiệp hội nha khoa yêu cầu đánh răng 2 phút, người lớn chỉ đánh 45-60 giây nhưng khi được hỏi thì ước tính cao hơn 100% thời gian thực tế -> 'drastically overestimate elapsed time'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Giải nghĩa thuật ngữ (Vocabulary/Concept)",
+              "cluePassage": "participants routinely overestimate their elapsed time by more than one hundred percent, genuinely believing they fulfilled the professional two-minute guideline.",
+              "clueAnswer": "drastically overestimate the amount of time they actually spend brushing",
+              "keyPassage": "overestimate their elapsed time by more than one hundred percent",
+              "keyAnswer": "drastically overestimate the amount of time they spend brushing",
+              "paraphrasePair": "overestimate elapsed time <=> overestimate time spend brushing",
+              "meaningVi": "ước lượng khống thời gian đã trôi qua <=> đánh giá quá cao thời lượng đánh răng thực tế",
+              "deductionLogic": "Định nghĩa trực tiếp của hiện tượng 'duration bias' trong ngữ cảnh bài đọc."
+            }
+          },
+          {
+            "id": "T14P3Q3",
+            "question": "How long does the average adult actually brush according to observational studies in paragraph 2?",
+            "options": {
+              "A": "Exactly two minutes",
+              "B": "Three to four minutes",
+              "C": "45 to 60 seconds",
+              "D": "Less than 10 seconds"
+            },
+            "correctAnswer": "C",
+            "explanation": "Đoạn 2 viết: 'observational studies utilizing concealed timers and smart-sensor brushes reveal that the average adult brushes for merely 45 to 60 seconds.'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết con số (Factual)",
+              "cluePassage": "...reveal that the average adult brushes for merely 45 to 60 seconds.",
+              "clueAnswer": "45 to 60 seconds",
+              "keyPassage": "merely 45 to 60 seconds",
+              "keyAnswer": "45 to 60 seconds",
+              "paraphrasePair": "merely 45 to 60 seconds <=> 45 to 60 seconds",
+              "meaningVi": "chỉ 45 đến 60 giây",
+              "deductionLogic": "Dữ liệu thực nghiệm được nêu rõ ràng trong đoạn 2."
+            }
+          },
+          {
+            "id": "T14P3Q4",
+            "question": "The word \"detrimental\" in paragraph 3 is closest in meaning to:",
+            "options": {
+              "A": "advantageous",
+              "B": "damaging",
+              "C": "unpredictable",
+              "D": "temporary"
+            },
+            "correctAnswer": "B",
+            "explanation": "'Detrimental' có nghĩa là gây hại, tác hại ('damaging').",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng (Vocabulary)",
+              "cluePassage": "Equally detrimental is the prevalent misconception that vigorous mechanical pressure correlates directly with superior plaque removal.",
+              "clueAnswer": "damaging",
+              "keyPassage": "Equally detrimental is the prevalent misconception",
+              "keyAnswer": "damaging",
+              "paraphrasePair": "detrimental <=> damaging",
+              "meaningVi": "gây tổn hại, có hại <=> có hại",
+              "deductionLogic": "Ngữ cảnh: quan niệm sai lầm về dùng lực mạnh gây tổn hại không kém gì việc đánh răng quá ngắn."
+            }
+          },
+          {
+            "id": "T14P3Q5",
+            "question": "According to paragraph 3, what is the consequence of aggressive, heavy-handed brushing?",
+            "options": {
+              "A": "Complete eradication of all bacterial strains in the mouth",
+              "B": "Enamel abrasion and permanent gingival recession",
+              "C": "Rapid spontaneous regeneration of gum tissue",
+              "D": "Immediate calcification of exposed roots into porcelain"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 3 chỉ rõ: 'Chronic heavy-handed brushing acts like micro-sandpaper, precipitating cervical enamel abrasion and irreversible gingival recession.'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết hậu quả (Factual)",
+              "cluePassage": "Chronic heavy-handed brushing acts like micro-sandpaper, precipitating cervical enamel abrasion and irreversible gingival recession.",
+              "clueAnswer": "Enamel abrasion and permanent gingival recession",
+              "keyPassage": "cervical enamel abrasion and irreversible gingival recession",
+              "keyAnswer": "Enamel abrasion and permanent gingival recession",
+              "paraphrasePair": "irreversible gingival recession <=> permanent gingival recession",
+              "meaningVi": "tụt nướu không thể đảo ngược <=> tụt nướu vĩnh viễn",
+              "deductionLogic": "'Irreversible' được paraphrase thành 'permanent'."
+            }
+          },
+          {
+            "id": "T14P3Q6",
+            "question": "The phenomenon of \"quadrant neglect\" mentioned in paragraph 3 refers to:",
+            "options": {
+              "A": "failing to clean four consecutive teeth after eating meals",
+              "B": "unconsciously skipping or spending inadequate time on harder-to-reach mouth areas",
+              "C": "refusing to replace toothbrushes every four calendar months",
+              "D": "ignoring dietary advice concerning four basic food groups"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 3 giải thích: hầu hết mọi người vô thức dành sự chú ý quá mức cho răng cửa dễ với tới mà bỏ qua hoàn toàn mặt trong của các răng hàm dưới ('skipping harder-to-reach mouth areas').",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận khái niệm (Inference)",
+              "cluePassage": "most individuals exhibit pronounced quadrant neglect, unconsciously devoting disproportionate attention to easily accessible anterior teeth while skipping the lingual surfaces of lower molars entirely.",
+              "clueAnswer": "unconsciously skipping or spending inadequate time on harder-to-reach mouth areas",
+              "keyPassage": "quadrant neglect... devoting attention to anterior teeth while skipping lingual surfaces of lower molars",
+              "keyAnswer": "skipping or spending inadequate time on harder-to-reach mouth areas",
+              "paraphrasePair": "skipping lingual surfaces of molars <=> skipping harder-to-reach mouth areas",
+              "meaningVi": "bỏ qua mặt trong của răng hàm <=> bỏ qua các vùng khó với tới",
+              "deductionLogic": "Khái niệm 'quadrant neglect' miêu tả hành vi phân bổ thời gian không đồng đều giữa 4 góc phần tư hàm răng."
+            }
+          },
+          {
+            "id": "T14P3Q7",
+            "question": "The word \"somatic\" in paragraph 4 is closest in meaning to:",
+            "options": {
+              "A": "bodily or physical",
+              "B": "purely financial",
+              "C": "intellectually abstract",
+              "D": "linguistically complex"
+            },
+            "correctAnswer": "A",
+            "explanation": "'Somatic' có nguồn gốc từ tiếng Hy Lạp 'soma' (thể xác, cơ thể), mang nghĩa thuộc về cơ thể, thể chất ('bodily or physical').",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng y sinh (Vocabulary)",
+              "cluePassage": "To bridge the gap between dental knowledge and somatic execution, behavioral dentistry is embracing technological nudges.",
+              "clueAnswer": "bodily or physical",
+              "keyPassage": "gap between dental knowledge and somatic execution",
+              "keyAnswer": "bodily or physical",
+              "paraphrasePair": "somatic execution <=> physical execution",
+              "meaningVi": "thực hành thuộc về cơ thể thể chất <=> thực hiện bằng thể chất",
+              "deductionLogic": "Đối lập giữa kiến thức trong đầu (knowledge) và hành động vật lý thực tế của tay và cơ thể (somatic execution)."
+            }
+          },
+          {
+            "id": "T14P3Q8",
+            "question": "Which of the following technological features is NOT cited in paragraph 4 as an interactive nudge?",
+            "options": {
+              "A": "Built-in pressure sensors",
+              "B": "Quadrant pacing timers",
+              "C": "Automatic laser enamel re-mineralizers",
+              "D": "Gamified smartphone interfaces"
+            },
+            "correctAnswer": "C",
+            "explanation": "Đoạn 4 nêu: 'pressure sensors, quadrant pacers, and gamified smartphone interfaces'. Không hề nhắc đến thiết bị tái khoáng hóa men răng bằng laser tự động (C).",
+            "postReading": {
+              "type": "negative_fact",
+              "typeLabel": "Tìm phương án KHÔNG có trong bài (Negative Fact)",
+              "cluePassage": "Modern electric brushes equipped with pressure sensors, quadrant pacers, and gamified smartphone interfaces provide immediate haptic feedback...",
+              "clueAnswer": "Automatic laser enamel re-mineralizers",
+              "keyPassage": "pressure sensors, quadrant pacers, and gamified smartphone interfaces",
+              "keyAnswer": "laser enamel re-mineralizers (Not in text)",
+              "paraphrasePair": "Not mentioned in paragraph 4",
+              "meaningVi": "Không được đề cập trong đoạn 4",
+              "deductionLogic": "Phương án C là công nghệ viễn tưởng không xuất hiện trong bài."
+            }
+          },
+          {
+            "id": "T14P3Q9",
+            "question": "What is the primary function of immediate haptic feedback in modern smart toothbrushes?",
+            "options": {
+              "A": "To play musical melodies when brushing finishes",
+              "B": "To interrupt unconscious muscle memory and guide gentle, systematic brushing",
+              "C": "To notify dental clinics to deduct insurance copays automatically",
+              "D": "To sanitize the sink area using ultraviolet radiation"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 4 nêu rõ: 'provide immediate haptic feedback, interrupting unconscious muscle memory and training users in gentle, systematic technique.'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Mục đích công nghệ (Factual)",
+              "cluePassage": "...provide immediate haptic feedback, interrupting unconscious muscle memory and training users in gentle, systematic technique.",
+              "clueAnswer": "To interrupt unconscious muscle memory and guide gentle, systematic brushing",
+              "keyPassage": "interrupting unconscious muscle memory and training users in gentle, systematic technique",
+              "keyAnswer": "interrupt unconscious muscle memory and guide gentle, systematic brushing",
+              "paraphrasePair": "interrupting unconscious muscle memory <=> interrupt unconscious muscle memory",
+              "meaningVi": "ngắt quãng phản xạ cơ bắp vô thức và rèn luyện kỹ thuật chải nhẹ nhàng, có hệ thống",
+              "deductionLogic": "Khớp nguyên vẹn câu văn trong đoạn 4."
+            }
+          },
+          {
+            "id": "T14P3Q10",
+            "question": "Which of the following best expresses the author's primary objective in the passage?",
+            "options": {
+              "A": "To advocate for the total replacement of professional dentists with smartphone applications",
+              "B": "To elucidate how cognitive biases hinder oral hygiene and how behavioral tools can rectify them",
+              "C": "To prove that ancient chew sticks were biologically superior to synthetic fluoride pastes",
+              "D": "To lobby governments to make manual toothbrushes illegal for adult consumers"
+            },
+            "correctAnswer": "B",
+            "explanation": "Mục tiêu bài đọc là giải thích cách các thiên kiến nhận thức (duration bias, dùng lực mạnh, bỏ sót góc) cản trở vệ sinh răng miệng và cách các công cụ nha khoa hành vi công nghệ có thể khắc phục chúng (B).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Mục đích của bài đọc (Author's Purpose)",
+              "cluePassage": "bridge the gap between dental knowledge and somatic execution... converting passive hygiene recommendations into interactive, quantifiable micro-habits...",
+              "clueAnswer": "To elucidate how cognitive biases hinder oral hygiene and how behavioral tools can rectify them",
+              "keyPassage": "cognitive distortion... somatic execution... behavioral dentistry",
+              "keyAnswer": "elucidate how cognitive biases hinder oral hygiene and how behavioral tools can rectify them",
+              "paraphrasePair": "bridge the gap between knowledge and execution <=> elucidate biases and rectify them",
+              "meaningVi": "làm sáng tỏ các thiên kiến cản trở vệ sinh răng miệng và cách công cụ hành vi khắc phục",
+              "deductionLogic": "Phương án B tổng hợp toàn diện luận đề xuyên suốt bài viết."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Depression: Neurobiology, Stigma & Public Health",
+        "topic": "Bệnh trầm cảm: Sinh học thần kinh, Kỳ thị xã hội & Can thiệp y tế công cộng",
+        "timeAllowed": 15,
+        "passage": "<p>Major depressive disorder (MDD) represents one of the most debilitating and widespread public health crises of the twenty-first century, afflicting an estimated 280 million individuals globally. Far removed from the transient melancholy or grief that naturally punctuates human existence, clinical depression is a protracted, multidimensional neurobiological disorder characterized by pervasive anhedonia, profound cognitive impairment, vegetative dysregulation, and a pervasive sense of worthlessness. The World Health Organization ranks depression as a paramount contributor to the global burden of disease and the principal underlying driver of suicide mortality worldwide.</p><p>The pathophysiological architecture of depression has historically been conceptualized through the lens of the monoamine hypothesis, which posited that depressive symptomatology stemmed directly from a deficit in synaptic concentrations of neurotransmitters such as serotonin, norepinephrine, and dopamine. While selective serotonin reuptake inhibitors (SSRIs) emerged from this paradigm and remain first-line pharmacological interventions, contemporary neuroimaging and molecular biology indicate that this model is overly reductive. Modern neuropsychiatry focuses instead on disrupted neuroplasticity and neural circuitry dysregulation. Chronic elevated cortisol levels induced by prolonged stress trigger atrophy within the hippocampus and prefrontal cortex while provoking hyperactivity in the amygdala, impairing cognitive flexibility and emotional homeostasis.</p><p>Crucially, neurobiological vulnerability does not manifest in an environmental vacuum; rather, it intersects dynamically with socioeconomic stressors and epigenetic mechanisms. Chronic poverty, racial discrimination, adverse childhood experiences, and structural loneliness can alter gene expression without mutating DNA sequences, locking neural circuits into states of heightened neuroinflammation and vulnerability. However, societal comprehension of these complex etiologies remains grievously inhibited by persistent stigma. In numerous cultural contexts, depressive manifestations continue to be moralized as flaws in personal character, emotional frailty, or lack of spiritual willpower, dissuading vulnerable individuals from seeking timely clinical diagnosis.</p><p>Overcoming the modern depression epidemic necessitates a profound paradigm shift toward holistic, integrated care systems. Effective public health frameworks must dismantle diagnostic bottlenecks by embedding psychological screening into routine primary care. Furthermore, therapeutic modalities must transcend monotherapy, combining evidence-based psychopharmacology with cognitive behavioral therapy (CBT), social prescribing, and lifestyle psychiatry—including restorative sleep hygiene, anti-inflammatory nutrition, and structured physical exercise. Only by simultaneously addressing the neurobiological circuitry of the brain, the psychological resilience of the mind, and the socioeconomic health of the community can society hope to arrest this escalating crisis.</p>",
+        "vocab": [
+          {
+            "word": "depressive",
+            "ipa": "/dɪˈprɛsɪv/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thuộc chứng trầm cảm",
+            "synonym": "melancholic",
+            "example": "Depressive episodes severely impair a person's ability to work."
+          },
+          {
+            "word": "neurobiology",
+            "ipa": "/ˌnjʊəroʊbaɪˈɒlədʒi/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "sinh học thần kinh",
+            "synonym": "neural science",
+            "example": "Research into neurobiology reveals how stress alters brain structures."
+          },
+          {
+            "word": "stigma",
+            "ipa": "/ˈstɪɡmə/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "sự kỳ thị, vết nhơ định kiến xã hội",
+            "synonym": "disgrace",
+            "example": "Social stigma prevents many patients from seeking psychiatric care."
+          },
+          {
+            "word": "debilitating",
+            "ipa": "/dɪˈbɪlɪteɪtɪŋ/",
+            "type": "adj.",
+            "level": "C1",
+            "meaningVi": "làm suy nhược, tàn phá thể lực tinh thần",
+            "synonym": "crippling",
+            "example": "Chronic depression is a deeply debilitating condition."
+          },
+          {
+            "word": "neurotransmitter",
+            "ipa": "/ˌnjʊəroʊtrænzˈmɪtər/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "chất dẫn truyền thần kinh",
+            "synonym": "chemical messenger",
+            "example": "Serotonin and dopamine are essential neurotransmitters."
+          },
+          {
+            "word": "serotonin",
+            "ipa": "/ˌsɛrəˈtoʊnɪn/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "serotonin (chất điều hòa khí sắc)",
+            "synonym": "mood chemical",
+            "example": "Many antidepressant medications work by stabilizing serotonin levels."
+          },
+          {
+            "word": "neuroplasticity",
+            "ipa": "/ˌnjʊəroʊplæˈstɪsɪti/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "tính khả biến, khả năng tái cấu trúc của não",
+            "synonym": "neural adaptability",
+            "example": "Therapy and exercise promote neuroplasticity in the adult brain."
+          },
+          {
+            "word": "hippocampus",
+            "ipa": "/ˌhɪpəˈkæmpəs/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "hồi hải mã (vùng não chịu trách nhiệm trí nhớ)",
+            "synonym": "memory center",
+            "example": "Prolonged high stress causes shrinkage of the hippocampus."
+          },
+          {
+            "word": "atrophy",
+            "ipa": "/ˈætrəfi/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "sự teo nhỏ, thoái hóa mô",
+            "synonym": "shrinkage",
+            "example": "Cellular atrophy in the prefrontal cortex impairs executive decision-making."
+          },
+          {
+            "word": "cortisol",
+            "ipa": "/ˈkɔːrtɪzɒl/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "hormone cortisol gây căng thẳng",
+            "synonym": "stress hormone",
+            "example": "Chronically elevated cortisol damages brain circuitry."
+          },
+          {
+            "word": "epigenetic",
+            "ipa": "/ˌɛpɪdʒɪˈnɛtɪk/",
+            "type": "adj.",
+            "level": "C1",
+            "meaningVi": "thuộc di truyền biểu sinh (ảnh hưởng của môi trường lên gen)",
+            "synonym": "gene-regulatory",
+            "example": "Epigenetic changes occur in response to severe childhood trauma."
+          },
+          {
+            "word": "epidemiology",
+            "ipa": "/ˌɛpɪˌdiːmiˈɒlədʒi/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "dịch tễ học (nghiên cứu tần suất bệnh)",
+            "synonym": "disease tracking",
+            "example": "Psychiatric epidemiology maps the global prevalence of mood disorders."
+          },
+          {
+            "word": "affective",
+            "ipa": "/əˈfɛktɪv/",
+            "type": "adj.",
+            "level": "C1",
+            "meaningVi": "thuộc cảm xúc, khí sắc",
+            "synonym": "emotional",
+            "example": "Bipolar and major depression are categorized as affective disorders."
+          },
+          {
+            "word": "transient",
+            "ipa": "/ˈtrænziənt/",
+            "type": "adj.",
+            "level": "C1",
+            "meaningVi": "thoáng qua, tạm thời",
+            "synonym": "fleeting",
+            "example": "Clinical depression is very different from transient everyday sadness."
+          },
+          {
+            "word": "chronic",
+            "ipa": "/ˈkrɒnɪk/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "mãn tính, kéo dài triền miên",
+            "synonym": "long-lasting",
+            "example": "Patients suffering from chronic depression require ongoing multimodal therapy."
+          },
+          {
+            "word": "socioeconomic",
+            "ipa": "/ˌsoʊsioʊˌiːkəˈnɒmɪk/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "thuộc kinh tế - xã hội",
+            "synonym": "social and economic",
+            "example": "Socioeconomic deprivation is strongly correlated with increased depression risk."
+          },
+          {
+            "word": "deprivation",
+            "ipa": "/ˌdɛprɪˈveɪʃən/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "sự thiếu thốn, nghèo khổ tước đoạt",
+            "synonym": "hardship",
+            "example": "Sleep deprivation rapidly exacerbates depressive symptoms."
+          },
+          {
+            "word": "therapeutic",
+            "ipa": "/ˌθɛrəˈpjuːtɪk/",
+            "type": "adj.",
+            "level": "B2",
+            "meaningVi": "mang tính điều trị, chữa lành",
+            "synonym": "curative",
+            "example": "Regular aerobic exercise has profound therapeutic benefits for mental health."
+          },
+          {
+            "word": "pharmacotherapy",
+            "ipa": "/ˌfɑːrməkəʊˈθɛrəpi/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "liệu pháp điều trị bằng thuốc",
+            "synonym": "medication treatment",
+            "example": "Pharmacotherapy is most effective when paired with clinical psychotherapy."
+          },
+          {
+            "word": "cognition",
+            "ipa": "/kɒɡˈnɪʃən/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "nhận thức, quá trình tư duy",
+            "synonym": "mental processing",
+            "example": "Depression clouds clear cognition and impairs working memory."
+          },
+          {
+            "word": "paradigm",
+            "ipa": "/ˈpærədaɪm/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "mô hình mẫu, hệ chuẩn tư duy",
+            "synonym": "conceptual framework",
+            "example": "Mental health care is undergoing a major paradigm shift toward integrated holistic treatment."
+          },
+          {
+            "word": "prevalence",
+            "ipa": "/ˈprɛvələns/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "tỷ lệ phổ biến, mức độ thịnh hành",
+            "synonym": "commonness",
+            "example": "The rising prevalence of youth depression demands urgent institutional intervention."
+          },
+          {
+            "word": "manifestation",
+            "ipa": "/ˌmænɪfɛˈsteɪʃən/",
+            "type": "n.",
+            "level": "C1",
+            "meaningVi": "biểu hiện bên ngoài của bệnh",
+            "synonym": "outward symptom",
+            "example": "Insomnia and lethargy are physical manifestations of depressive illness."
+          },
+          {
+            "word": "psychosocial",
+            "ipa": "/ˌsaɪkoʊˈsoʊʃəl/",
+            "type": "adj.",
+            "level": "C1",
+            "meaningVi": "thuộc tâm lý xã hội",
+            "synonym": "psychological and social",
+            "example": "Effective healing addresses both biological chemistry and psychosocial factors."
+          },
+          {
+            "word": "somatic",
+            "ipa": "/soʊˈmætɪk/",
+            "type": "adj.",
+            "level": "C1",
+            "meaningVi": "thuộc thể xác, thể chất",
+            "synonym": "physical",
+            "example": "Patients frequently present with somatic complaints like chronic headaches and body aches."
+          },
+          {
+            "word": "resilience",
+            "ipa": "/rɪˈzɪliəns/",
+            "type": "n.",
+            "level": "B2",
+            "meaningVi": "khả năng phục hồi, sức bật tinh thần",
+            "synonym": "rebound capacity",
+            "example": "Psychological resilience can be cultivated through cognitive therapy techniques."
+          },
+          {
+            "word": "holistic",
+            "ipa": "/hoʊˈlɪstɪk/",
+            "type": "adj.",
+            "level": "C1",
+            "meaningVi": "toàn diện, tổng thể",
+            "synonym": "comprehensive",
+            "example": "A holistic treatment strategy considers diet, sleep, relationships, and medication."
+          }
+        ],
+        "questions": [
+          {
+            "id": "T14P4Q1",
+            "question": "What is the primary function of paragraph 1?",
+            "options": {
+              "A": "To demonstrate that depression is an inevitable and harmless phase of biological maturation",
+              "B": "To delineate the severity, multidimensional nature, and global epidemiological scale of clinical depression",
+              "C": "To argue that psychiatric diagnosis should be abolished in favor of home remedies",
+              "D": "To compare suicide statistics between North American and Scandinavian nations"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 1 nêu rõ quy mô 280 triệu người mắc, tính chất tàn phá đa chiều (anhedonia, cognitive impairment, vegetative dysregulation) và vị thế là nguyên nhân hàng đầu gây gánh nặng bệnh tật toàn cầu. Phương án B bao quát đầy đủ.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Mục đích đoạn 1 (Main Idea)",
+              "cluePassage": "Major depressive disorder (MDD) represents one of the most debilitating and widespread public health crises... afflicting an estimated 280 million individuals globally... paramount contributor to the global burden of disease...",
+              "clueAnswer": "To delineate the severity, multidimensional nature, and global epidemiological scale of clinical depression",
+              "keyPassage": "debilitating and widespread... 280 million individuals... paramount contributor to global burden of disease",
+              "keyAnswer": "delineate the severity, multidimensional nature, and global epidemiological scale",
+              "paraphrasePair": "debilitating and widespread crisis <=> severity and global epidemiological scale",
+              "meaningVi": "cuộc khủng hoảng tàn phá và lan rộng <=> mức độ nghiêm trọng và quy mô dịch tễ toàn cầu",
+              "deductionLogic": "Đoạn 1 định danh chứng trầm cảm là một căn bệnh đa chiều nguy cấp ở quy mô toàn cầu."
+            }
+          },
+          {
+            "id": "T14P4Q2",
+            "question": "The word \"anhedonia\" in paragraph 1 refers to:",
+            "options": {
+              "A": "the inability to experience pleasure in normally enjoyable activities",
+              "B": "an uncontrollable craving for carbohydrate-rich meals",
+              "C": "excessive and rapid heart rate during physical exercise",
+              "D": "sudden loss of short-term auditory memory"
+            },
+            "correctAnswer": "A",
+            "explanation": "Thuật ngữ y khoa 'anhedonia' (mất khả năng cảm nhận niềm vui) là triệu chứng cốt lõi của trầm cảm lâm sàng ('inability to experience pleasure').",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Thuật ngữ y khoa (Medical Terminology)",
+              "cluePassage": "...characterized by pervasive anhedonia, profound cognitive impairment, vegetative dysregulation...",
+              "clueAnswer": "the inability to experience pleasure in normally enjoyable activities",
+              "keyPassage": "pervasive anhedonia",
+              "keyAnswer": "inability to experience pleasure in normally enjoyable activities",
+              "paraphrasePair": "anhedonia <=> inability to experience pleasure",
+              "meaningVi": "anhedonia <=> mất khả năng tận hưởng niềm vui",
+              "deductionLogic": "Định nghĩa chuẩn của thuật ngữ tâm thần học anhedonia."
+            }
+          },
+          {
+            "id": "T14P4Q3",
+            "question": "According to paragraph 2, why is the classical monoamine hypothesis now considered \"overly reductive\"?",
+            "options": {
+              "A": "Because serotonin does not exist in the human central nervous system",
+              "B": "Because modern science recognizes that disrupted neuroplasticity and stress-induced structural changes are also central",
+              "C": "Because pharmaceutical companies have completely ceased the production of SSRI medications",
+              "D": "Because depression is purely an ideological social construct with no biological correlates"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 2 nêu rõ giả thuyết monoamine xem trầm cảm chỉ đơn giản là thiếu serotonin/dopamine là quá giản lược; khoa học thần kinh hiện đại chứng minh sự gián đoạn tính khả biến thần kinh (disrupted neuroplasticity) và sự teo hồi hải mã do cortisol gây ra mới là cơ chế then chốt.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết khoa học (Factual)",
+              "cluePassage": "contemporary neuroimaging and molecular biology indicate that this model is overly reductive. Modern neuropsychiatry focuses instead on disrupted neuroplasticity and neural circuitry dysregulation.",
+              "clueAnswer": "Because modern science recognizes that disrupted neuroplasticity and stress-induced structural changes are also central",
+              "keyPassage": "model is overly reductive... focuses instead on disrupted neuroplasticity and neural circuitry dysregulation",
+              "keyAnswer": "disrupted neuroplasticity and stress-induced structural changes are also central",
+              "paraphrasePair": "overly reductive <=> too simplistic",
+              "meaningVi": "quá giản lược <=> khoa học nhận diện tính khả biến thần kinh và biến đổi cấu trúc do stress là cốt lõi",
+              "deductionLogic": "Đoạn 2 giải thích sự chuyển dịch từ giả thuyết hóa chất đơn thuần sang mạng lưới nơ-ron và biến đổi cấu trúc não."
+            }
+          },
+          {
+            "id": "T14P4Q4",
+            "question": "What structural impact does chronic elevated cortisol have on the brain according to paragraph 2?",
+            "options": {
+              "A": "It dramatically enlarges the volume of the prefrontal cortex.",
+              "B": "It triggers atrophy within the hippocampus and prefrontal cortex while hyperactivating the amygdala.",
+              "C": "It permanently thickens cranial bones to shield brain tissue from physical shocks.",
+              "D": "It eradicates all electrical synapses between sensory neurons."
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 2 viết: 'Chronic elevated cortisol levels induced by prolonged stress trigger atrophy within the hippocampus and prefrontal cortex while provoking hyperactivity in the amygdala...'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết sinh học (Factual)",
+              "cluePassage": "Chronic elevated cortisol levels induced by prolonged stress trigger atrophy within the hippocampus and prefrontal cortex while provoking hyperactivity in the amygdala...",
+              "clueAnswer": "It triggers atrophy within the hippocampus and prefrontal cortex while hyperactivating the amygdala.",
+              "keyPassage": "atrophy within hippocampus and prefrontal cortex... hyperactivity in amygdala",
+              "keyAnswer": "atrophy within hippocampus and prefrontal cortex while hyperactivating amygdala",
+              "paraphrasePair": "trigger atrophy... provoking hyperactivity <=> triggers atrophy while hyperactivating",
+              "meaningVi": "gây teo hồi hải mã và vỏ não trước trán, đồng thời kích hoạt quá mức hạch hạnh nhân",
+              "deductionLogic": "Khớp nối từ vựng trực tiếp với câu văn trong đoạn 2."
+            }
+          },
+          {
+            "id": "T14P4Q5",
+            "question": "The word \"epigenetic\" in paragraph 3 refers to biological mechanisms that:",
+            "options": {
+              "A": "alter gene expression without mutating the underlying DNA sequence",
+              "B": "artificially clone mammalian embryos in laboratory test tubes",
+              "C": "completely eliminate the human need for daily nutritional sustenance",
+              "D": "prevent viral pathogens from invading respiratory membranes"
+            },
+            "correctAnswer": "A",
+            "explanation": "Đoạn 3 định nghĩa rõ ràng: 'alter gene expression without mutating DNA sequences' (thay đổi sự biểu hiện gen mà không làm đột biến trình tự DNA).",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Định nghĩa khoa học (Scientific Definition)",
+              "cluePassage": "...can alter gene expression without mutating DNA sequences, locking neural circuits into states of heightened neuroinflammation...",
+              "clueAnswer": "alter gene expression without mutating the underlying DNA sequence",
+              "keyPassage": "alter gene expression without mutating DNA sequences",
+              "keyAnswer": "alter gene expression without mutating underlying DNA sequence",
+              "paraphrasePair": "alter gene expression without mutating DNA <=> alter gene expression without mutating DNA sequence",
+              "meaningVi": "thay đổi biểu hiện gen mà không làm đột biến chuỗi DNA",
+              "deductionLogic": "Văn bản định nghĩa trực tiếp khái niệm di truyền biểu sinh."
+            }
+          },
+          {
+            "id": "T14P4Q6",
+            "question": "According to paragraph 3, how does societal stigma impede depression treatment?",
+            "options": {
+              "A": "By raising the market retail price of organic produce in supermarkets",
+              "B": "By moralizing depressive symptoms as personal character flaws or lack of willpower, discouraging diagnosis",
+              "C": "By forcing patients to emigrate to foreign countries for physical surgery",
+              "D": "By criminalizing the publication of neuroimaging textbooks"
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 3 chỉ rõ: 'depressive manifestations continue to be moralized as flaws in personal character, emotional frailty, or lack of spiritual willpower, dissuading vulnerable individuals from seeking timely clinical diagnosis.'",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Hệ lụy của kỳ thị (Factual)",
+              "cluePassage": "...depressive manifestations continue to be moralized as flaws in personal character, emotional frailty, or lack of spiritual willpower, dissuading vulnerable individuals from seeking timely clinical diagnosis.",
+              "clueAnswer": "By moralizing depressive symptoms as personal character flaws or lack of willpower, discouraging diagnosis",
+              "keyPassage": "moralized as flaws in personal character... lack of spiritual willpower, dissuading individuals from seeking timely clinical diagnosis",
+              "keyAnswer": "moralizing symptoms as character flaws or lack of willpower, discouraging diagnosis",
+              "paraphrasePair": "dissuading from seeking diagnosis <=> discouraging diagnosis",
+              "meaningVi": "làm nản lòng việc tìm kiếm chẩn đoán kịp thời <=> ngăn cản việc chẩn đoán",
+              "deductionLogic": "Kỳ thị xã hội gán nhãn đạo đức tiêu cực khiến người bệnh xấu hổ không dám đi khám."
+            }
+          },
+          {
+            "id": "T14P4Q7",
+            "question": "The word \"bottlenecks\" in paragraph 4 is closest in meaning to:",
+            "options": {
+              "A": "glass manufacturing defects",
+              "B": "points of congestion or obstruction",
+              "C": "lucrative financial investments",
+              "D": "rapid chemical reactions"
+            },
+            "correctAnswer": "B",
+            "explanation": "'Bottleneck' nghĩa bóng là điểm nghẽn, sự ách tắc gây chậm trễ ('points of congestion or obstruction').",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ẩn dụ (Metaphorical Vocabulary)",
+              "cluePassage": "Effective public health frameworks must dismantle diagnostic bottlenecks by embedding psychological screening into routine primary care.",
+              "clueAnswer": "points of congestion or obstruction",
+              "keyPassage": "dismantle diagnostic bottlenecks",
+              "keyAnswer": "points of congestion or obstruction",
+              "paraphrasePair": "bottlenecks <=> points of congestion or obstruction",
+              "meaningVi": "các điểm nghẽn chẩn đoán <=> điểm ách tắc, cản trở",
+              "deductionLogic": "Tháo dỡ các nút thắt/điểm nghẽn trong khâu chẩn đoán để người bệnh được tiếp cận điều trị sớm."
+            }
+          },
+          {
+            "id": "T14P4Q8",
+            "question": "Which of the following is NOT listed in paragraph 4 as an element of holistic depression care?",
+            "options": {
+              "A": "Evidence-based psychopharmacology paired with cognitive behavioral therapy",
+              "B": "Lifestyle psychiatry including sleep hygiene and structured exercise",
+              "C": "Total social isolation in soundproof subterranean bunkers",
+              "D": "Embedding psychological screening into routine primary healthcare visits"
+            },
+            "correctAnswer": "C",
+            "explanation": "Đoạn 4 khuyến nghị dùng thuốc kết hợp CBT, lối sống (ngủ, tập thể dục), và sàng lọc tâm lý ban đầu. Phương án C (cô lập xã hội trong hầm ngầm) là hoàn toàn bịa đặt và trái ngược với phương pháp điều trị.",
+            "postReading": {
+              "type": "negative_fact",
+              "typeLabel": "Tìm phương án KHÔNG được khuyến nghị (Negative Fact)",
+              "cluePassage": "embedding psychological screening... combining evidence-based psychopharmacology with cognitive behavioral therapy (CBT), social prescribing, and lifestyle psychiatry—including restorative sleep hygiene, anti-inflammatory nutrition, and structured physical exercise.",
+              "clueAnswer": "Total social isolation in soundproof subterranean bunkers",
+              "keyPassage": "psychopharmacology, CBT, social prescribing, lifestyle psychiatry",
+              "keyAnswer": "Total social isolation in subterranean bunkers (Absurd / Not mentioned)",
+              "paraphrasePair": "Not in text",
+              "meaningVi": "Không có trong bài đọc",
+              "deductionLogic": "Phương án C đưa ra hành động phi lý và phản khoa học."
+            }
+          },
+          {
+            "id": "T14P4Q9",
+            "question": "What does the author suggest about \"monotherapy\" (using a single treatment method alone) in paragraph 4?",
+            "options": {
+              "A": "It is sufficient on its own to cure all clinical depression cases permanently.",
+              "B": "It should be transcended in favor of multimodal, integrated interventions.",
+              "C": "It is the only legally permitted therapy in public health facilities.",
+              "D": "It should replace all community-based psychological counseling."
+            },
+            "correctAnswer": "B",
+            "explanation": "Đoạn 4 viết: 'therapeutic modalities must transcend monotherapy, combining evidence-based psychopharmacology with cognitive behavioral therapy (CBT), social prescribing, and lifestyle psychiatry...' -> Cần vượt qua đơn trị liệu để áp dụng can thiệp đa phương thức tích hợp (B).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận quan điểm (Inference)",
+              "cluePassage": "Furthermore, therapeutic modalities must transcend monotherapy, combining evidence-based psychopharmacology with cognitive behavioral therapy (CBT), social prescribing, and lifestyle psychiatry...",
+              "clueAnswer": "It should be transcended in favor of multimodal, integrated interventions.",
+              "keyPassage": "transcend monotherapy, combining evidence-based psychopharmacology with CBT, social prescribing, and lifestyle psychiatry",
+              "keyAnswer": "transcended in favor of multimodal, integrated interventions",
+              "paraphrasePair": "transcend monotherapy <=> transcend in favor of multimodal interventions",
+              "meaningVi": "vượt qua đơn trị liệu để hướng đến can thiệp đa mô thức",
+              "deductionLogic": "'Transcended' nghĩa là vượt qua mô hình điều trị đơn lẻ để phối hợp toàn diện."
+            }
+          },
+          {
+            "id": "T14P4Q10",
+            "question": "Which of the following best encapsulates the concluding argument of the passage?",
+            "options": {
+              "A": "Depression is an unsolvable mystery that will inevitably destroy modern civilization.",
+              "B": "Arresting the crisis requires an integrated approach addressing brain biology, psychological resilience, and socioeconomic environment simultaneously.",
+              "C": "Pharmaceutical medication alone can eliminate all psychiatric illnesses without any lifestyle adjustments.",
+              "D": "Suicide mortality can only be managed by constructing larger psychiatric confinement facilities."
+            },
+            "correctAnswer": "B",
+            "explanation": "Câu kết của bài khẳng định: 'Only by simultaneously addressing the neurobiological circuitry of the brain, the psychological resilience of the mind, and the socioeconomic health of the community can society hope to arrest this escalating crisis.' Phương án B tóm lược hoàn hảo luận điểm này.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Kết luận toàn bài (Concluding Synthesis)",
+              "cluePassage": "Only by simultaneously addressing the neurobiological circuitry of the brain, the psychological resilience of the mind, and the socioeconomic health of the community can society hope to arrest this escalating crisis.",
+              "clueAnswer": "Arresting the crisis requires an integrated approach addressing brain biology, psychological resilience, and socioeconomic environment simultaneously.",
+              "keyPassage": "simultaneously addressing neurobiological circuitry... psychological resilience... socioeconomic health",
+              "keyAnswer": "integrated approach addressing brain biology, psychological resilience, and socioeconomic environment simultaneously",
+              "paraphrasePair": "simultaneously addressing brain, mind, and community <=> addressing brain biology, resilience, and socioeconomic environment simultaneously",
+              "meaningVi": "đồng thời giải quyết sinh học não bộ, sức bật tâm lý và môi trường kinh tế xã hội",
+              "deductionLogic": "Phương án B phản ánh trọn vẹn thông điệp kết bài của tác giả."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
-// Browser environment check
 if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { READING_MOCK_TESTS };
+    module.exports = READING_MOCK_TESTS;
 }
