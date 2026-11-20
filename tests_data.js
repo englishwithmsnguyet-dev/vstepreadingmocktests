@@ -67294,6 +67294,2588 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST28",
+    "testNum": 28,
+    "title": "VSTEP READING MOCK TEST 28",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 18 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: A Family's First Winter Ice-Skating Trip",
+        "topic": "Hồi ức của chàng trai trẻ về chuyến trượt băng đầu tiên cùng gia đình trên mặt hồ đóng băng, bài học vượt qua vấp ngã và sự gắn kết thế hệ",
+        "timeAllowed": 15,
+        "passage": "<p>Growing up in a sun-drenched coastal town, winter had always meant mild breezes and light jackets rather than frosty landscapes. Consequently, the winter I turned fourteen marked an indelible milestone when my parents decided to take my younger sister and me on our inaugural vacation to the mountainous highlands of Vermont. The centerpiece of this holiday was an excursion to an authentic outdoor skating rink nestled beside a frozen glacial lake, enveloped by towering pine trees dusted in pristine white powder. To an adolescent who had only experienced ice cubes in cold sodas, the prospect of balancing on razor-thin steel blades atop solid frozen water was equal parts exhilarating and terrifying.</p><p>The physical transformation began inside the wooden rental lodge, thick with the scent of cedar shavings, damp wool socks, and sweet hot cider. Lacing up our stiff leather rental skates proved surprisingly arduous, requiring my father's firm tugs to secure the ankles against precarious wobbling. When we stepped through the threshold onto the slick, mirrored surface, my sister and I promptly seized the peripheral wooden handrails in panic, our feet sliding in uncoordinated directions like newborn deer. In contrast, local children swept effortlessly past us, carving graceful arcs with gentle rasps of their blades and laughing with infectious nonchalance. My initial attempts to glide without support ended abruptly with three undignified bruised falls against the unforgiving ice.</p><p>Seeing my growing mortification and slumped shoulders, my mother skated slowly toward me, offering both of her mittened hands. She reminded me that tumbling was not a testament to failure, but rather the mandatory currency one pays to purchase true balance. Instead of resisting the ice's friction-free reality, she instructed me to bend my knees, lower my center of gravity, and angle my feet outward in small, gentle herringbone strides. Slowly, the paralyzing dread dissolved into rhythmic propulsion. My sister, initially clinging tearfully to my father's winter coat, gathered courage from our collective small victories, soon venturing into the center rink with beaming cheeks flushed pink by the biting mountain breeze.</p><p>By late afternoon, dusk painted the alpine sky in vibrant strokes of lavender, amber, and indigo, illuminated by strings of warm fairy lights hung between the frosted pines. Our awkward wobbles had matured into modest, fluid strides that carried us gracefully around the lake's perimeter. As we finally surrendered our skates and huddled around a roaring outdoor fire pit to toast marshmallows, I realized that the true magic of that frosty afternoon was not mastering the physical sport itself. Rather, it resided in the enduring familial warmth that turned freezing temperatures and bruising stumbles into a cherished collective triumph of resilience and mutual trust.</p>",
+        "vocab": [
+          {
+            "word": "indelible",
+            "pos": "adjective",
+            "ipa": "/ɪnˈdel.ə.bəl/",
+            "level": "C1",
+            "mean": "không thể phai mờ, sâu đậm mãi mãi",
+            "syns": [
+              "unforgettable",
+              "permanent",
+              "lasting"
+            ],
+            "ex": "That first winter vacation left an indelible memory in my heart."
+          },
+          {
+            "word": "inaugural",
+            "pos": "adjective",
+            "ipa": "/ɪˈnɔː.ɡjə.rəl/",
+            "level": "B2",
+            "mean": "đầu tiên, mở đầu, khai mạc",
+            "syns": [
+              "maiden",
+              "first",
+              "initial"
+            ],
+            "ex": "Our inaugural skiing trip was full of unexpected surprises."
+          },
+          {
+            "word": "excursion",
+            "pos": "noun",
+            "ipa": "/ɪkˈskɜː.ʃən/",
+            "level": "B1",
+            "mean": "chuyến đi tham quan dã ngoại ngắn ngày",
+            "syns": [
+              "outing",
+              "jaunt",
+              "trip"
+            ],
+            "ex": "The family planned an afternoon excursion to the historic frozen lake."
+          },
+          {
+            "word": "pristine",
+            "pos": "adjective",
+            "ipa": "/ˈprɪs.tiːn/",
+            "level": "B2",
+            "mean": "nguyên sơ, trắng tinh khiết chưa bị vấy bẩn",
+            "syns": [
+              "pure",
+              "immaculate",
+              "untouched"
+            ],
+            "ex": "The ground was blanketed under a thick layer of pristine white snow."
+          },
+          {
+            "word": "exhilarating",
+            "pos": "adjective",
+            "ipa": "/ɪɡˈzɪl.ə.reɪ.tɪŋ/",
+            "level": "B2",
+            "mean": "làm phấn khích, hào hứng tột độ",
+            "syns": [
+              "thrilling",
+              "exciting",
+              "invigorating"
+            ],
+            "ex": "Gliding swiftly across the frozen surface was an exhilarating sensation."
+          },
+          {
+            "word": "arduous",
+            "pos": "adjective",
+            "ipa": "/ˈɑː.dʒu.əs/",
+            "level": "C1",
+            "mean": "gian nan, vất vả, đòi hỏi nhiều sức lực",
+            "syns": [
+              "strenuous",
+              "laborious",
+              "taxing"
+            ],
+            "ex": "Tying the frozen skate laces with stiff fingers proved an arduous task."
+          },
+          {
+            "word": "precarious",
+            "pos": "adjective",
+            "ipa": "/prɪˈkeə.ri.əs/",
+            "level": "B2",
+            "mean": "bấp bênh, chông chênh, nguy hiểm",
+            "syns": [
+              "unstable",
+              "wobbly",
+              "insecure"
+            ],
+            "ex": "He stood in a precarious balance before slipping onto the cold ice."
+          },
+          {
+            "word": "threshold",
+            "pos": "noun",
+            "ipa": "/ˈθreʃ.həʊld/",
+            "level": "B2",
+            "mean": "ngưỡng cửa, ranh giới bước sang nơi khác",
+            "syns": [
+              "doorway",
+              "entrance",
+              "verge"
+            ],
+            "ex": "As soon as we crossed the threshold onto the ice, our nervousness spiked."
+          },
+          {
+            "word": "peripheral",
+            "pos": "adjective",
+            "ipa": "/pəˈrɪf.ər.əl/",
+            "level": "C1",
+            "mean": "ở rìa ngoài, ở ngoại vi",
+            "syns": [
+              "outer",
+              "perimeter",
+              "bordering"
+            ],
+            "ex": "Terrified beginners clung tightly to the peripheral wooden railing."
+          },
+          {
+            "word": "nonchalance",
+            "pos": "noun",
+            "ipa": "/ˈnɒn.ʃəl.əns/",
+            "level": "C1",
+            "mean": "sự bình thản, thong thả không chút lo lắng",
+            "syns": [
+              "casualness",
+              "indifference",
+              "calmness"
+            ],
+            "ex": "The local children skated backwards with effortless nonchalance."
+          },
+          {
+            "word": "undignified",
+            "pos": "adjective",
+            "ipa": "/ʌnˈdɪɡ.nɪ.faɪd/",
+            "level": "B2",
+            "mean": "kém đường hoàng, ngượng ngùng, mất thể diện",
+            "syns": [
+              "clumsy",
+              "awkward",
+              "humiliating"
+            ],
+            "ex": "He landed in an undignified heap on the slick ice, laughing at himself."
+          },
+          {
+            "word": "mortification",
+            "pos": "noun",
+            "ipa": "/ˌmɔː.tɪ.fɪˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự xấu hổ tủi thân tột cùng",
+            "syns": [
+              "embarrassment",
+              "humiliation",
+              "chagrin"
+            ],
+            "ex": "To my mortification, everyone in the rink saw my loud stumble."
+          },
+          {
+            "word": "slumped",
+            "pos": "adjective",
+            "ipa": "/slʌmpt/",
+            "level": "B2",
+            "mean": "rũ xuống, sụp xuống (vai, tư thế thất vọng)",
+            "syns": [
+              "drooping",
+              "hunched",
+              "sagging"
+            ],
+            "ex": "His slumped shoulders revealed his deep disappointment after falling."
+          },
+          {
+            "word": "currency",
+            "pos": "noun",
+            "ipa": "/ˈkʌr.ən.si/",
+            "level": "B2",
+            "mean": "cái giá phải trả (nghĩa bóng), tiền tệ",
+            "syns": [
+              "price",
+              "cost",
+              "medium of exchange"
+            ],
+            "ex": "My mother said falling down was the necessary currency for acquiring physical balance."
+          },
+          {
+            "word": "herringbone",
+            "pos": "noun",
+            "ipa": "/ˈher.ɪŋ.bəʊn/",
+            "level": "C1",
+            "mean": "thế chân hình xương cá (mở gót chụm mũi hoặc ngược lại)",
+            "syns": [
+              "V-shaped pattern",
+              "zigzag alignment"
+            ],
+            "ex": "She demonstrated small herringbone steps to help me push forward without slipping back."
+          },
+          {
+            "word": "propulsion",
+            "pos": "noun",
+            "ipa": "/prəˈpʌl.ʃən/",
+            "level": "B2",
+            "mean": "lực đẩy tới, sự chuyển động về phía trước",
+            "syns": [
+              "thrust",
+              "forward drive",
+              "momentum"
+            ],
+            "ex": "Pushing outward against the edges of the blades provided forward propulsion."
+          },
+          {
+            "word": "clinging",
+            "pos": "adjective",
+            "ipa": "/ˈklɪŋ.ɪŋ/",
+            "level": "B2",
+            "mean": "bám chặt lấy không rời",
+            "syns": [
+              "holding tight",
+              "grasping",
+              "gripping"
+            ],
+            "ex": "The little girl was clinging tightly to her father's winter parka."
+          },
+          {
+            "word": "flushed",
+            "pos": "adjective",
+            "ipa": "/flʌʃt/",
+            "level": "B2",
+            "mean": "ửng hồng, đỏ bừng (vì lạnh hoặc phấn khích)",
+            "syns": [
+              "rosy",
+              "reddened",
+              "glowing"
+            ],
+            "ex": "Her cheeks were flushed pink from the brisk sub-zero mountain wind."
+          },
+          {
+            "word": "alpine",
+            "pos": "adjective",
+            "ipa": "/ˈæl.paɪn/",
+            "level": "B2",
+            "mean": "thuộc về vùng núi cao",
+            "syns": [
+              "mountainous",
+              "highland",
+              "montane"
+            ],
+            "ex": "We admired the dramatic alpine sunset descending behind the snowy peaks."
+          },
+          {
+            "word": "indigo",
+            "pos": "noun",
+            "ipa": "/ˈɪn.dɪ.ɡəʊ/",
+            "level": "B2",
+            "mean": "màu chàm, xanh tím đậm",
+            "syns": [
+              "deep blue-violet",
+              "dark navy"
+            ],
+            "ex": "As night fell, the twilight sky shifted into deep shades of indigo."
+          },
+          {
+            "word": "fluid",
+            "pos": "adjective",
+            "ipa": "/ˈfluː.ɪd/",
+            "level": "B2",
+            "mean": "uyển chuyển, mượt mà, lưu loát",
+            "syns": [
+              "graceful",
+              "smooth",
+              "seamless"
+            ],
+            "ex": "With practice, their clumsy steps transformed into fluid, sweeping motions."
+          },
+          {
+            "word": "perimeter",
+            "pos": "noun",
+            "ipa": "/pəˈrɪm.ɪ.tər/",
+            "level": "B2",
+            "mean": "chu vi, đường bao quanh vòng ngoài",
+            "syns": [
+              "boundary",
+              "circumference",
+              "outer edge"
+            ],
+            "ex": "We skated leisurely around the outer perimeter of the illuminated rink."
+          },
+          {
+            "word": "roaring",
+            "pos": "adjective",
+            "ipa": "/ˈrɔː.rɪŋ/",
+            "level": "B2",
+            "mean": "cháy bập bùng, rực lửa",
+            "syns": [
+              "blazing",
+              "crackling",
+              "flaming"
+            ],
+            "ex": "We sat beside a roaring fire pit to thaw out our frozen boots."
+          },
+          {
+            "word": "enduring",
+            "pos": "adjective",
+            "ipa": "/ɪnˈdʒʊə.rɪŋ/",
+            "level": "B2",
+            "mean": "bền bỉ, trường tồn theo năm tháng",
+            "syns": [
+              "lasting",
+              "abiding",
+              "permanent"
+            ],
+            "ex": "That simple trip built an enduring bond among all four family members."
+          },
+          {
+            "word": "familial",
+            "pos": "adjective",
+            "ipa": "/fəˈmɪl.i.əl/",
+            "level": "B2",
+            "mean": "thuộc về gia đình, mang tình thân",
+            "syns": [
+              "family-related",
+              "domestic",
+              "kinship"
+            ],
+            "ex": "Warm familial encouragement helped the children conquer their initial terror."
+          },
+          {
+            "word": "resilience",
+            "pos": "noun",
+            "ipa": "/rɪˈzɪl.jəns/",
+            "level": "B2",
+            "mean": "sự kiên cường, khả năng đứng dậy sau vấp ngã",
+            "syns": [
+              "toughness",
+              "perseverance",
+              "grit"
+            ],
+            "ex": "Learning to stand back up after every tumble is a wonderful lesson in personal resilience."
+          },
+          {
+            "word": "triumph",
+            "pos": "noun",
+            "ipa": "/ˈtraɪ.əmf/",
+            "level": "B2",
+            "mean": "chiến thắng, thành tựu rực rỡ",
+            "syns": [
+              "victory",
+              "achievement",
+              "success"
+            ],
+            "ex": "Skating across the open ice without holding hands felt like a glorious personal triumph."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t28_q1",
+            "num": 1,
+            "question": "What is the primary narrative focus of the passage?",
+            "questionVi": "Trọng tâm tự sự chính của đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "The technical engineering required to maintain outdoor ice-skating rinks in Vermont",
+              "A teenager's memorable family experience of learning to ice-skate, overcoming fear, and bonding through shared vulnerability",
+              "The commercial growth of winter ski resorts catering to tropical tourists",
+              "A comparison between professional figure skating competitions and amateur ice hockey"
+            ],
+            "optionsVi": [
+              "Kỹ thuật kỹ thuật cần thiết để duy trì các sân trượt băng ngoài trời ở Vermont",
+              "Trải nghiệm gia đình đáng nhớ của một thiếu niên học trượt băng, vượt qua nỗi sợ hãi và gắn kết thông qua việc cùng nhau vượt khó",
+              "Sự phát triển thương mại của các khu nghỉ dưỡng trượt tuyết mùa đông phục vụ khách du lịch nhiệt đới",
+              "Sự so sánh giữa các cuộc thi trượt băng nghệ thuật chuyên nghiệp và khúc côn cầu trên băng nghiệp dư"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the winter I turned fourteen marked an indelible milestone when my parents decided to take my younger sister and me on our inaugural vacation... the true magic of that frosty afternoon was not mastering the physical sport itself. Rather, it resided in the enduring familial warmth that turned freezing temperatures and bruising stumbles into a cherished collective triumph...",
+            "evidenceVi": "mùa đông năm tôi 14 tuổi đã đánh dấu một cột mốc không thể nào quên khi bố mẹ đưa em gái và tôi đi kỳ nghỉ đầu tiên... điều kỳ diệu thực sự của buổi chiều băng giá đó không phải là việc làm chủ môn thể thao. Mà nó nằm ở sự ấm áp bền chặt của gia đình đã biến cái lạnh buốt và những cú ngã bầm tím thành một chiến thắng tập thể đáng trân trọng...",
+            "explanation": "Đoạn văn kể về chuyến đi học trượt băng đầu tiên của một gia đình xuất thân miền biển nắng ấm, qua đó nhấn mạnh bài học vượt qua vấp ngã và tình cảm gia đình ấm áp.",
+            "postReading": {
+              "original": "the true magic of that frosty afternoon was not mastering the physical sport itself. Rather, it resided in the enduring familial warmth that turned freezing temperatures and bruising stumbles into a cherished collective triumph",
+              "paraphrase": "the authentic beauty of the winter day lay not in athletic skill, but in the deep family affection that transformed painful falls in the cold into a treasured shared victory",
+              "analysis": "'Mastering the physical sport' = 'athletic skill'; 'enduring familial warmth' = 'deep family affection'; 'bruising stumbles into a cherished collective triumph' = 'painful falls... into a treasured shared victory'."
+            }
+          },
+          {
+            "id": "t28_q2",
+            "num": 2,
+            "question": "According to paragraph 1, why was the trip to Vermont particularly significant for the author?",
+            "questionVi": "Theo đoạn 1, vì sao chuyến đi đến Vermont lại đặc biệt có ý nghĩa đối với tác giả?",
+            "questionType": "Detail",
+            "options": [
+              "The author had won an international youth figure skating scholarship",
+              "Having grown up in a sunny coastal town, the author had never experienced snowy winter landscapes before",
+              "The author was forced to relocate permanently to the mountainous region",
+              "The author was competing in a school championship hockey game"
+            ],
+            "optionsVi": [
+              "Tác giả đã giành được học bổng trượt băng nghệ thuật thanh thiếu niên quốc tế",
+              "Lớn lên ở một thị trấn ven biển đầy nắng, tác giả chưa từng trải nghiệm khung cảnh mùa đông tuyết trắng trước đây",
+              "Tác giả bị bắt buộc phải chuyển chỗ ở vĩnh viễn tới vùng miền núi",
+              "Tác giả đang thi đấu trong một trận khúc côn cầu giải vô địch trường học"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Growing up in a sun-drenched coastal town, winter had always meant mild breezes and light jackets rather than frosty landscapes. Consequently, the winter I turned fourteen marked an indelible milestone...",
+            "evidenceVi": "Lớn lên ở một thị trấn ven biển ngập tràn ánh nắng, mùa đông đối với tôi luôn là những cơn gió nhẹ và áo khoác mỏng thay vì cảnh tượng băng giá. Vì vậy, mùa đông năm tôi 14 tuổi đánh dấu một cột mốc không thể phai mờ...",
+            "explanation": "Đoạn 1 nêu rõ tác giả lớn lên ở vùng biển ấm áp nên đây là lần đầu tiên tiếp xúc với mùa đông băng tuyết thực sự.",
+            "postReading": {
+              "original": "Growing up in a sun-drenched coastal town, winter had always meant mild breezes and light jackets rather than frosty landscapes.",
+              "paraphrase": "Having spent childhood in a sunny seaside village, the narrator was accustomed to temperate breezes rather than freezing winter conditions.",
+              "analysis": "'Sun-drenched coastal town' = 'sunny seaside village'; 'mild breezes' = 'temperate breezes'; 'frosty landscapes' = 'freezing winter conditions'."
+            }
+          },
+          {
+            "id": "t28_q3",
+            "num": 3,
+            "question": "The word \"arduous\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"arduous\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "strenuous",
+              "entertaining",
+              "inexpensive",
+              "careless"
+            ],
+            "optionsVi": [
+              "vất vả, khó khăn",
+              "có tính giải trí",
+              "không tốn kém",
+              "bất cẩn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Lacing up our stiff leather rental skates proved surprisingly arduous, requiring my father's firm tugs to secure the ankles...",
+            "evidenceVi": "Buộc dây đôi giày trượt thuê bằng da cứng ngắc hóa ra vất vả đến bất ngờ, đòi hỏi những cú kéo dứt khoát của bố tôi để giữ chắc cổ chân...",
+            "explanation": "'Arduous' mang nghĩa đòi hỏi nhiều sức lực, nhọc nhằn, đồng nghĩa với 'strenuous' hoặc 'laborious'.",
+            "postReading": {
+              "original": "Lacing up our stiff leather rental skates proved surprisingly arduous",
+              "paraphrase": "Fastening the rigid leather boots turned out to be remarkably strenuous",
+              "analysis": "'Stiff leather rental skates' = 'rigid leather boots'; 'surprisingly arduous' = 'remarkably strenuous'."
+            }
+          },
+          {
+            "id": "t28_q4",
+            "num": 4,
+            "question": "According to paragraph 2, how did the author and his sister react upon first stepping onto the ice?",
+            "questionVi": "Theo đoạn 2, tác giả và em gái đã phản ứng như thế nào khi lần đầu bước chân lên mặt băng?",
+            "questionType": "Detail",
+            "options": [
+              "They immediately executed advanced acrobatic jumps",
+              "They panicked, gripped the peripheral handrails tightly, and had their feet slide in uncoordinated directions",
+              "They sat down calmly on the ice and refused to open their eyes",
+              "They challenged local children to a high-speed racing match"
+            ],
+            "optionsVi": [
+              "Họ ngay lập tức thực hiện các cú nhảy nhào lộn kỹ thuật cao",
+              "Họ hoảng loạn, bám chặt lấy tay vịn gỗ ở rìa ngoài và hai chân trượt loạng choạng mất phương hướng",
+              "Họ ngồi bệt xuống băng một cách bình thản và từ chối mở mắt",
+              "Họ thách thức lũ trẻ địa phương một cuộc đua tốc độ cao"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "my sister and I promptly seized the peripheral wooden handrails in panic, our feet sliding in uncoordinated directions like newborn deer.",
+            "evidenceVi": "em gái và tôi lập tức nắm chặt lấy tay vịn gỗ bên rìa trong sự hoảng loạn, hai bàn chân trượt đi loạng choạng không định hướng như những chú nai con mới chào đời.",
+            "explanation": "Đoạn 2 nêu rõ hai anh em sợ hãi bám chặt lan can viền ngoài và chân xoạc lung tung mất kiểm soát.",
+            "postReading": {
+              "original": "promptly seized the peripheral wooden handrails in panic, our feet sliding in uncoordinated directions like newborn deer.",
+              "paraphrase": "instantly grabbed the border wooden barriers in fear, while our legs drifted clumsily in opposing ways like young fawns.",
+              "analysis": "'Seized the peripheral wooden handrails in panic' = 'grabbed the border wooden barriers in fear'; 'sliding in uncoordinated directions' = 'drifted clumsily in opposing ways'."
+            }
+          },
+          {
+            "id": "t28_q5",
+            "num": 5,
+            "question": "The word \"nonchalance\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"nonchalance\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "casual indifference",
+              "extreme anger",
+              "deep terror",
+              "clumsy hesitation"
+            ],
+            "optionsVi": [
+              "sự thong dong, bình thản",
+              "cơn giận dữ cực độ",
+              "nỗi sợ hãi tột cùng",
+              "sự ngập ngừng vụng về"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "local children swept effortlessly past us, carving graceful arcs with gentle rasps of their blades and laughing with infectious nonchalance.",
+            "evidenceVi": "trẻ em địa phương lướt qua chúng tôi một cách nhẹ nhàng, vẽ nên những đường vòng cung duyên dáng cùng tiếng lưỡi lê cạo nhẹ trên băng và cười đùa với vẻ thong dong đầy cuốn hút.",
+            "explanation": "'Nonchalance' có nghĩa là sự thong thả, điềm nhiên, không có vẻ gì lo âu, đồng nghĩa với 'casual indifference' hoặc 'calm ease'.",
+            "postReading": {
+              "original": "carving graceful arcs with gentle rasps of their blades and laughing with infectious nonchalance.",
+              "paraphrase": "tracing elegant curves with their skates and chuckling with a carefree, relaxed attitude.",
+              "analysis": "'Carving graceful arcs' = 'tracing elegant curves'; 'nonchalance' = 'carefree, relaxed attitude'."
+            }
+          },
+          {
+            "id": "t28_q6",
+            "num": 6,
+            "question": "In paragraph 3, the mother's metaphor that falling is \"the mandatory currency one pays to purchase true balance\" means that:",
+            "questionVi": "Trong đoạn 3, phép ẩn dụ của người mẹ rằng ngã là \"cái giá bắt buộc phải trả để mua lấy sự thăng bằng thực sự\" có nghĩa là:",
+            "questionType": "Inference",
+            "options": [
+              "Visitors must pay extra cash penalties whenever they damage the ice",
+              "Mistakes and temporary failures are indispensable parts of learning and mastering a new skill",
+              "Beginners should buy more expensive ice skates to prevent any tumbling",
+              "Falling on the ice causes permanent physical damage that requires medical payment"
+            ],
+            "optionsVi": [
+              "Du khách phải nộp thêm tiền phạt mỗi khi làm hỏng mặt băng",
+              "Sai lầm và những lần vấp ngã tạm thời là một phần tất yếu không thể thiếu để học hỏi và làm chủ một kỹ năng mới",
+              "Người mới tập nên mua những đôi giày trượt đắt tiền hơn để ngăn ngừa việc vấp ngã",
+              "Ngã trên băng gây tổn thương thể chất vĩnh viễn cần phải trả viện phí"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "She reminded me that tumbling was not a testament to failure, but rather the mandatory currency one pays to purchase true balance.",
+            "evidenceVi": "Mẹ nhắc tôi rằng vấp ngã không phải là minh chứng cho sự thất bại, mà là cái giá tất yếu ta phải trả để đổi lấy sự thăng bằng thực sự.",
+            "explanation": "Câu nói mang triết lý giáo dục: vấp ngã không phải là dấu chấm hết mà là chi phí cần thiết để đạt được kỹ năng và sự tự tin.",
+            "postReading": {
+              "original": "tumbling was not a testament to failure, but rather the mandatory currency one pays to purchase true balance.",
+              "paraphrase": "falling down does not signify defeat, but serves as the inevitable price required to gain authentic equilibrium.",
+              "analysis": "'Not a testament to failure' = 'does not signify defeat'; 'mandatory currency one pays' = 'inevitable price required'."
+            }
+          },
+          {
+            "id": "t28_q7",
+            "num": 7,
+            "question": "What practical physical advice did the mother give the author in paragraph 3 to regain balance?",
+            "questionVi": "Người mẹ đã đưa ra lời khuyên thực hành thể chất nào cho tác giả ở đoạn 3 để lấy lại thăng bằng?",
+            "questionType": "Detail",
+            "options": [
+              "To stand as upright and stiff as possible on the heels of the blades",
+              "To bend knees, lower the center of gravity, and angle feet outward in small herringbone strides",
+              "To run as fast as possible across the ice directly toward the lodge",
+              "To close eyes and allow the wind to push the body forward"
+            ],
+            "optionsVi": [
+              "Đứng thẳng người và gồng cứng hết mức có thể trên gót lưỡi lê",
+              "Trùng đầu gối xuống, hạ thấp trọng tâm và mở mũi chân ra ngoài theo những bước hình xương cá nhỏ",
+              "Chạy nhanh hết mức có thể qua mặt băng hướng thẳng về ngôi nhà gỗ",
+              "Nhắm mắt lại và để gió đẩy cơ thể tiến về phía trước"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "she instructed me to bend my knees, lower my center of gravity, and angle my feet outward in small, gentle herringbone strides.",
+            "evidenceVi": "mẹ hướng dẫn tôi chùng đầu gối xuống, hạ thấp trọng tâm cơ thể và chếch hai bàn chân ra ngoài theo các bước xương cá nhỏ, nhẹ nhàng.",
+            "explanation": "Đoạn 3 ghi rõ chỉ dẫn kỹ thuật của người mẹ: 'bend my knees, lower my center of gravity, and angle my feet outward in small, gentle herringbone strides'.",
+            "postReading": {
+              "original": "instructed me to bend my knees, lower my center of gravity, and angle my feet outward in small, gentle herringbone strides.",
+              "paraphrase": "advised me to flex my legs, drop my body's balance point, and position my feet outward in slight V-shaped steps.",
+              "analysis": "'Bend my knees' = 'flex my legs'; 'lower my center of gravity' = 'drop my body's balance point'; 'angle my feet outward in small, gentle herringbone strides' = 'position my feet outward in slight V-shaped steps'."
+            }
+          },
+          {
+            "id": "t28_q8",
+            "num": 8,
+            "question": "The word \"flushed\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"flushed\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "rosy and reddened",
+              "pale and sickly",
+              "frozen and numb",
+              "wrinkled and dry"
+            ],
+            "optionsVi": [
+              "ửng hồng, đỏ bừng",
+              "nhợt nhạt và ốm yếu",
+              "đóng băng và tê cóng",
+              "nhăn nheo và khô ráp"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "soon venturing into the center rink with beaming cheeks flushed pink by the biting mountain breeze.",
+            "evidenceVi": "chẳng bao lâu sau đã can đảm tiến vào giữa sân băng với gò má rạng rỡ ửng hồng vì cơn gió núi buốt lạnh.",
+            "explanation": "'Flushed pink' mô tả đôi má ửng đỏ bừng lên do nhiệt huyết và cái lạnh, đồng nghĩa với 'rosy and reddened'.",
+            "postReading": {
+              "original": "venturing into the center rink with beaming cheeks flushed pink by the biting mountain breeze.",
+              "paraphrase": "gliding toward the middle of the ice with cheerful cheeks turned rosy by the crisp alpine wind.",
+              "analysis": "'Beaming cheeks' = 'cheerful cheeks'; 'flushed pink' = 'turned rosy'; 'biting mountain breeze' = 'crisp alpine wind'."
+            }
+          },
+          {
+            "id": "t28_q9",
+            "num": 9,
+            "question": "Which of the following actions occurred toward the end of the day as described in paragraph 4?",
+            "questionVi": "Hành động nào sau đây đã diễn ra vào lúc cuối ngày như được miêu tả ở đoạn 4?",
+            "questionType": "Detail",
+            "options": [
+              "The family rented hotel rooms directly on top of the frozen lake",
+              "The family returned their skates and gathered around an outdoor fire pit to toast marshmallows",
+              "The sister slipped again and was carried to a medical hospital",
+              "The parents booked a train to return to the beach immediately"
+            ],
+            "optionsVi": [
+              "Gia đình thuê phòng khách sạn ngay trên đỉnh mặt hồ đóng băng",
+              "Gia đình trả lại giày trượt và quây quần bên đống lửa ngoài trời nướng kẹo dẻo",
+              "Em gái lại bị trượt ngã và được đưa vào bệnh viện cấp cứu",
+              "Bố mẹ đặt vé tàu để quay về bãi biển ngay lập tức"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "As we finally surrendered our skates and huddled around a roaring outdoor fire pit to toast marshmallows, I realized that the true magic...",
+            "evidenceVi": "Khi chúng tôi trả lại giày trượt và túm tụm quanh hố lửa ngoài trời đang cháy bập bùng để nướng kẹo dẻo, tôi nhận ra rằng điều kỳ diệu thực sự...",
+            "explanation": "Đoạn 4 nêu rõ chi tiết kết thúc buổi trượt: trả giày trượt ('surrendered our skates') và quây quần quanh bếp lửa nướng kẹo dẻo ('huddled around a roaring outdoor fire pit to toast marshmallows').",
+            "postReading": {
+              "original": "finally surrendered our skates and huddled around a roaring outdoor fire pit to toast marshmallows",
+              "paraphrase": "eventually handed back our rented equipment and gathered closely near a blazing campfire to roast sweet snacks",
+              "analysis": "'Surrendered our skates' = 'handed back our rented equipment'; 'huddled around a roaring outdoor fire pit' = 'gathered closely near a blazing campfire'."
+            }
+          },
+          {
+            "id": "t28_q10",
+            "num": 10,
+            "question": "What broad philosophical lesson does the author derive from this experience?",
+            "questionVi": "Tác giả rút ra bài học triết lý khái quát nào từ trải nghiệm này?",
+            "questionType": "Inference",
+            "options": [
+              "Athletic competition is only valuable when winning first prize medals",
+              "Shared family support can transform fear and physical mistakes into enduring bonds of trust and resilience",
+              "People born in warm climates should never visit cold countries",
+              "Outdoor recreational facilities should replace all natural ice lakes"
+            ],
+            "optionsVi": [
+              "Cạnh tranh thể thao chỉ có giá trị khi giành được huy chương giải nhất",
+              "Sự nâng đỡ của gia đình có thể biến nỗi sợ hãi và vấp ngã thành sự gắn kết bền vững của lòng tin và tính kiên cường",
+              "Những người sinh ra ở khí hậu ấm áp không bao giờ nên đi du lịch xứ lạnh",
+              "Các khu vui chơi ngoài trời nên thay thế toàn bộ các hồ băng tự nhiên"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "it resided in the enduring familial warmth that turned freezing temperatures and bruising stumbles into a cherished collective triumph of resilience and mutual trust.",
+            "evidenceVi": "nó nằm ở sự ấm áp bền bỉ của gia đình đã biến nhiệt độ đóng băng và những cú vấp bầm dập thành một thắng lợi tập thể đáng trân trọng của tính kiên cường và niềm tin tưởng lẫn nhau.",
+            "explanation": "Câu kết của bài đúc kết giá trị cốt lõi: sự đồng hành ấm áp của gia đình giúp chuyển hóa khó khăn và sợ hãi thành sự kiên cường và gắn kết tình thân.",
+            "postReading": {
+              "original": "turned freezing temperatures and bruising stumbles into a cherished collective triumph of resilience and mutual trust.",
+              "paraphrase": "converted bitter cold and painful accidents into a memorable shared accomplishment grounded in fortitude and confidence.",
+              "analysis": "'Bruising stumbles' = 'painful accidents'; 'cherished collective triumph' = 'memorable shared accomplishment'; 'resilience and mutual trust' = 'fortitude and confidence'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Holistic Wellness & Breaking Bad Habits: The Science of Sustainable Change",
+        "topic": "Sức khỏe toàn diện: Mối liên kết giữa dinh dưỡng, giấc ngủ đủ và khoa học thần kinh về vòng lặp thói quen Cue - Routine - Reward để loại bỏ hành vi có hại",
+        "timeAllowed": 15,
+        "passage": "<p>In contemporary health science, wellness is no longer conceptualized merely as the passive absence of acute disease, but rather as an integrated, proactive state of physical vitality, psychological flourishing, and emotional balance. Central to this holistic paradigm is the tripartite foundation consisting of wholesome nutrition, restorative sleep, and intentional daily physical activity. Epidemiological research consistently corroborates that individuals who maintain a diverse, nutrient-dense whole-food diet—rich in dietary fiber, omega-3 fatty acids, and essential micronutrients—exhibit substantially lower systemic inflammation and enhanced cognitive resilience. When paired with seven to nine hours of consistent nocturnal rest, the brain’s glymphatic filtration system efficiently flushes neurotoxic waste products, optimizing executive function and metabolic equilibrium.</p><p>Despite widespread public literacy concerning these health imperatives, millions of well-intentioned individuals chronically struggle to translate intellectual knowledge into sustained behavioral routines. The culprit behind this persistent discrepancy lies within the deep evolutionary architecture of human habit formation. In the basal ganglia, the brain conserves vital cognitive bandwidth by converting repeated behavioral sequences into automated neurological loops. Pioneering behavioral psychologists identify this mechanism as the 'habit loop,' which operates through an invariable three-part sequence: a contextual <em>cue</em> (such as an environmental trigger or internal emotional state), a customary <em>routine</em> (the physical behavior executed), and an immediate neurochemical <em>reward</em>, typically mediated by a spike in dopamine.</p><p>A prevalent misconception in popular self-help culture is that eradicating detrimental habits—such as compulsive late-night snacking, sedentary screen immersion, or stress-induced nicotine consumption—requires immense, heroic reserves of willpower. Neuroscientific inquiry, however, demonstrates that willpower functions akin to a finite muscle that rapidly depletes under sustained decision fatigue and environmental stress. Consequently, attempting to extinguish an ingrained habit loop through sheer suppression almost inevitably precipitates a demoralizing relapse. The neurological pathways forged by years of repetition remain permanently etched within basal neural circuitry, ready to be reactivated whenever the familiar cue reappears.</p><p>A far more efficacious behavioral strategy is the Golden Rule of Habit Change: rather than attempting to obliterate the cue or deny the craving, one must intentionally alter the routine while keeping the cue and the underlying reward constant. For instance, an office worker who habitually consumes sugary pastries at 3:00 PM to combat mid-afternoon lethargy is frequently craving mental distraction and social connection rather than glucose. By substituting the pastry run with a ten-minute brisk walk outside with a colleague, the individual satisfies the neurological reward through elevated endorphins and social interaction without sabotaging metabolic goals. By architecting one’s ambient environment to diminish destructive cues and fortify constructive alternatives, true holistic wellness evolves from an agonizing daily battle into an effortless, self-sustaining lifestyle.</p>",
+        "vocab": [
+          {
+            "word": "tripartite",
+            "pos": "adjective",
+            "ipa": "/traɪˈpɑː.taɪt/",
+            "level": "C1",
+            "mean": "gồm ba phần, có ba thành phần trụ cột",
+            "syns": [
+              "three-part",
+              "three-fold",
+              "trilateral"
+            ],
+            "ex": "Holistic wellness rests upon a tripartite foundation of nutrition, rest, and exercise."
+          },
+          {
+            "word": "corroborate",
+            "pos": "verb",
+            "ipa": "/kəˈrɒb.ə.reɪt/",
+            "level": "C1",
+            "mean": "chứng thực, củng cố thêm bằng chứng",
+            "syns": [
+              "confirm",
+              "verify",
+              "substantiate"
+            ],
+            "ex": "Recent clinical studies corroborate the mental health benefits of regular sleep."
+          },
+          {
+            "word": "systemic",
+            "pos": "adjective",
+            "ipa": "/sɪˈstem.ɪk/",
+            "level": "B2",
+            "mean": "thuộc toàn bộ hệ thống cơ thể",
+            "syns": [
+              "widespread",
+              "body-wide",
+              "comprehensive"
+            ],
+            "ex": "A poor diet leads to chronic systemic inflammation across various organs."
+          },
+          {
+            "word": "glymphatic",
+            "pos": "adjective",
+            "ipa": "/ɡlɪmˈfæt.ɪk/",
+            "level": "C1",
+            "mean": "thuộc hệ thống thanh thải glymphatic của não",
+            "syns": [
+              "neural-clearing",
+              "waste-removal"
+            ],
+            "ex": "The glymphatic system is active primarily during deep phases of nocturnal sleep."
+          },
+          {
+            "word": "metabolic",
+            "pos": "adjective",
+            "ipa": "/ˌmet.əˈbɒl.ɪk/",
+            "level": "B2",
+            "mean": "thuộc về chuyển hóa và trao đổi chất",
+            "syns": [
+              "physiological",
+              "cellular-energy"
+            ],
+            "ex": "Adequate rest helps maintain proper metabolic function and prevents obesity."
+          },
+          {
+            "word": "discrepancy",
+            "pos": "noun",
+            "ipa": "/dɪˈskrep.ən.si/",
+            "level": "B2",
+            "mean": "sự sai lệch, độ chênh lệch giữa hai điều",
+            "syns": [
+              "inconsistency",
+              "divergence",
+              "gap"
+            ],
+            "ex": "There is a wide discrepancy between knowing what is healthy and doing it daily."
+          },
+          {
+            "word": "culprit",
+            "pos": "noun",
+            "ipa": "/ˈkʌl.prɪt/",
+            "level": "B2",
+            "mean": "thủ phạm, nguyên nhân gây ra vấn đề",
+            "syns": [
+              "cause",
+              "offender",
+              "root problem"
+            ],
+            "ex": "Unconscious neurological loops are often the hidden culprit behind procrastination."
+          },
+          {
+            "word": "bandwidth",
+            "pos": "noun",
+            "ipa": "/ˈbænd.wɪtθ/",
+            "level": "B2",
+            "mean": "dung lượng chú ý, năng lực xử lý tinh thần",
+            "syns": [
+              "mental capacity",
+              "cognitive resources"
+            ],
+            "ex": "Automating routine tasks frees up mental bandwidth for creative problem solving."
+          },
+          {
+            "word": "cue",
+            "pos": "noun",
+            "ipa": "/kjuː/",
+            "level": "B2",
+            "mean": "tín hiệu kích hoạt, manh mối gợi ý",
+            "syns": [
+              "trigger",
+              "prompt",
+              "signal"
+            ],
+            "ex": "Hearing the notification chime acts as an instant cue to check the phone."
+          },
+          {
+            "word": "routine",
+            "pos": "noun",
+            "ipa": "/ruːˈtiːn/",
+            "level": "B1",
+            "mean": "hành vi theo thói quen định kỳ",
+            "syns": [
+              "habitual behavior",
+              "practice",
+              "custom"
+            ],
+            "ex": "Changing the customary routine is the most effective way to modify a habit."
+          },
+          {
+            "word": "reward",
+            "pos": "noun",
+            "ipa": "/rɪˈwɔːd/",
+            "level": "B1",
+            "mean": "phần thưởng, cảm giác thỏa mãn sinh học",
+            "syns": [
+              "payoff",
+              "benefit",
+              "gratification"
+            ],
+            "ex": "Dopamine provides the biological reward that reinforces the entire loop."
+          },
+          {
+            "word": "detrimental",
+            "pos": "adjective",
+            "ipa": "/ˌdet.rɪˈmen.təl/",
+            "level": "B2",
+            "mean": "có hại, gây bất lợi",
+            "syns": [
+              "harmful",
+              "damaging",
+              "injurious"
+            ],
+            "ex": "Smoking and sedentary screen time have detrimental effects on long-term vitality."
+          },
+          {
+            "word": "willpower",
+            "pos": "noun",
+            "ipa": "/ˈwɪlˌpaʊ.ər/",
+            "level": "B2",
+            "mean": "nghị lực, ý chí tự chủ",
+            "syns": [
+              "self-control",
+              "determination",
+              "resolve"
+            ],
+            "ex": "Relying purely on willpower is rarely sufficient to eliminate decades-old habits."
+          },
+          {
+            "word": "deplete",
+            "pos": "verb",
+            "ipa": "/dɪˈpliːt/",
+            "level": "B2",
+            "mean": "làm cạn kiệt, vắt kiệt năng lượng",
+            "syns": [
+              "exhaust",
+              "drain",
+              "diminish"
+            ],
+            "ex": "Making hundreds of small choices throughout the day can deplete mental focus."
+          },
+          {
+            "word": "suppression",
+            "pos": "noun",
+            "ipa": "/səˈpreʃ.ən/",
+            "level": "B2",
+            "mean": "sự kìm nén, ép buộc dồn nén cảm xúc/hành vi",
+            "syns": [
+              "repression",
+              "inhibition",
+              "containment"
+            ],
+            "ex": "Emotional suppression often backfires and leads to intense binge eating later."
+          },
+          {
+            "word": "precipitate",
+            "pos": "verb",
+            "ipa": "/prɪˈsɪp.ɪ.teɪt/",
+            "level": "C1",
+            "mean": "đẩy nhanh, làm xảy ra đột ngột",
+            "syns": [
+              "trigger",
+              "provoke",
+              "hasten"
+            ],
+            "ex": "Severe exhaustion can precipitate an unexpected relapse into smoking."
+          },
+          {
+            "word": "relapse",
+            "pos": "noun",
+            "ipa": "/rɪˈlæps/",
+            "level": "B2",
+            "mean": "sự tái phát, ngựa quen đường cũ",
+            "syns": [
+              "regression",
+              "backsliding",
+              "recurrence"
+            ],
+            "ex": "Experiencing a brief relapse is a natural phase in the recovery journey."
+          },
+          {
+            "word": "etched",
+            "pos": "adjective",
+            "ipa": "/etʃt/",
+            "level": "B2",
+            "mean": "khắc sâu, in hằn không xóa được",
+            "syns": [
+              "imprinted",
+              "ingrained",
+              "engraved"
+            ],
+            "ex": "Old habits remain etched deeply within our neurological circuits."
+          },
+          {
+            "word": "circuitry",
+            "pos": "noun",
+            "ipa": "/ˈsɜː.kɪ.tri/",
+            "level": "B2",
+            "mean": "mạng lưới mạch (thần kinh/điện tử)",
+            "syns": [
+              "neural networks",
+              "pathways",
+              "wiring"
+            ],
+            "ex": "Repeated practice reshapes the neural circuitry in the human brain."
+          },
+          {
+            "word": "efficacious",
+            "pos": "adjective",
+            "ipa": "/ˌef.ɪˈkeɪ.ʃəs/",
+            "level": "C1",
+            "mean": "có hiệu quả thực tế, đem lại kết quả mong muốn",
+            "syns": [
+              "effective",
+              "productive",
+              "successful"
+            ],
+            "ex": "Replacing a habit is far more efficacious than trying to eliminate it through force."
+          },
+          {
+            "word": "obliterate",
+            "pos": "verb",
+            "ipa": "/əˈblɪt.ər.eɪt/",
+            "level": "C1",
+            "mean": "xóa sổ hoàn toàn, quét sạch",
+            "syns": [
+              "annihilate",
+              "destroy",
+              "erase"
+            ],
+            "ex": "It is virtually impossible to obliterate every cue from our everyday environment."
+          },
+          {
+            "word": "lethargy",
+            "pos": "noun",
+            "ipa": "/ˈleθ.ə.dʒi/",
+            "level": "C1",
+            "mean": "sự uể oải, lờ đờ thiếu sức sống",
+            "syns": [
+              "sluggishness",
+              "drowsiness",
+              "fatigue"
+            ],
+            "ex": "Many workers experience mid-afternoon lethargy after sitting for four hours straight."
+          },
+          {
+            "word": "endorphin",
+            "pos": "noun",
+            "ipa": "/enˈdɔː.fɪn/",
+            "level": "B2",
+            "mean": "hormone hưng phấn tự nhiên của cơ thể",
+            "syns": [
+              "neurochemical",
+              "mood-enhancer"
+            ],
+            "ex": "A brisk twenty-minute run triggers the release of uplifting endorphins."
+          },
+          {
+            "word": "sabotage",
+            "pos": "verb",
+            "ipa": "/ˈsæb.ə.tɑːʒ/",
+            "level": "B2",
+            "mean": "phá hoại ngấm ngầm, làm hỏng kế hoạch",
+            "syns": [
+              "undermine",
+              "wreck",
+              "disrupt"
+            ],
+            "ex": "Mindless midnight snacking can easily sabotage months of gym training."
+          },
+          {
+            "word": "architect",
+            "pos": "verb",
+            "ipa": "/ˈɑː.kɪ.tekt/",
+            "level": "B2",
+            "mean": "thiết kế, kiến tạo có chủ ý",
+            "syns": [
+              "design",
+              "construct",
+              "structure"
+            ],
+            "ex": "You must architect your bedroom environment to eliminate screens before sleep."
+          },
+          {
+            "word": "ambient",
+            "pos": "adjective",
+            "ipa": "/ˈæm.bi.ənt/",
+            "level": "B2",
+            "mean": "xung quanh, mang tính môi trường bao bọc",
+            "syns": [
+              "surrounding",
+              "environmental",
+              "atmospheric"
+            ],
+            "ex": "Lowering ambient room temperature promotes deeper slow-wave sleep cycles."
+          },
+          {
+            "word": "agonizing",
+            "pos": "adjective",
+            "ipa": "/ˈæɡ.ə.naɪ.zɪŋ/",
+            "level": "B2",
+            "mean": "đau khổ, vật vã, khổ sở",
+            "syns": [
+              "painful",
+              "torturous",
+              "excruciating"
+            ],
+            "ex": "Dieting does not need to be an agonizing daily battle of self-denial."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t28_q11",
+            "num": 11,
+            "question": "What is the primary thesis of the passage?",
+            "questionVi": "Luận điểm chính của đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "Willpower is an infinite biological resource that can eliminate all human addictions through sheer effort",
+              "Sustainable wellness requires understanding the neurological habit loop and replacing routines rather than relying on brute willpower",
+              "Dietary fiber and omega-3 fatty acids are the only factors determining longevity",
+              "The human brain is physically incapable of changing any behavioral patterns after adolescence"
+            ],
+            "optionsVi": [
+              "Ý chí là một nguồn tài nguyên sinh học vô hạn có thể xóa bỏ mọi cơn nghiện của con người thông qua nỗ lực đơn thuần",
+              "Sức khỏe toàn diện bền vững đòi hỏi phải hiểu rõ vòng lặp thói quen thần kinh và thay thế hành vi thay vì dựa vào ý chí thô thiển",
+              "Chất xơ và axit béo omega-3 là những yếu tố duy nhất quyết định tuổi thọ",
+              "Bộ não con người hoàn toàn không có khả năng thay đổi bất kỳ khuôn mẫu hành vi nào sau tuổi vị thành niên"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Central to this holistic paradigm is the tripartite foundation... The culprit behind this persistent discrepancy lies within the deep evolutionary architecture of human habit formation... rather than attempting to obliterate the cue or deny the craving, one must intentionally alter the routine while keeping the cue and the underlying reward constant.",
+            "evidenceVi": "Trọng tâm của mô hình toàn diện này là nền tảng tam giác... Thủ phạm đằng sau sự chênh lệch dai dẳng này nằm ở kiến trúc tiến hóa sâu xa của sự hình thành thói quen... thay vì cố xóa sổ tín hiệu gợi ý hay từ chối cơn thèm, ta phải chủ động thay đổi hành vi trong khi vẫn giữ nguyên tín hiệu và phần thưởng cốt lõi.",
+            "explanation": "Đoạn văn phân tích rằng sức khỏe toàn diện cần dinh dưỡng, giấc ngủ và vận động, nhưng chìa khóa để thay đổi thói quen xấu không phải là đè nén bằng ý chí mà là thay thế thói quen (routine) theo cơ chế vòng lặp thần kinh.",
+            "postReading": {
+              "original": "wellness is no longer conceptualized merely as the passive absence of acute disease, but rather as an integrated, proactive state of physical vitality, psychological flourishing, and emotional balance.",
+              "paraphrase": "health is no longer defined simply as not being sick, but as an active condition encompassing physical energy, mental thriving, and emotional harmony.",
+              "analysis": "'Absence of acute disease' = 'not being sick'; 'physical vitality, psychological flourishing, and emotional balance' = 'physical energy, mental thriving, and emotional harmony'."
+            }
+          },
+          {
+            "id": "t28_q12",
+            "num": 12,
+            "question": "According to paragraph 1, what essential nocturnal function is performed by the brain's glymphatic system?",
+            "questionVi": "Theo đoạn 1, chức năng quan trọng nào được thực hiện vào ban đêm bởi hệ thống glymphatic của não bộ?",
+            "questionType": "Detail",
+            "options": [
+              "It stores all daytime auditory memories as spoken audio files",
+              "It clears neurotoxic waste products from the brain to optimize cognitive and metabolic function",
+              "It prevents blood from circulating to the extremities during sleep",
+              "It stimulates the appetite for high-sugar snacks upon waking"
+            ],
+            "optionsVi": [
+              "Nó lưu trữ tất cả các ký ức âm thanh ban ngày thành các tệp âm thanh lời nói",
+              "Nó dọn sạch các chất thải nhiễm độc thần kinh khỏi não để tối ưu hóa chức năng nhận thức và chuyển hóa",
+              "Nó ngăn máu không lưu thông đến các chi trong khi ngủ",
+              "Nó kích thích sự thèm ăn các món ăn nhẹ nhiều đường ngay khi thức dậy"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "When paired with seven to nine hours of consistent nocturnal rest, the brain’s glymphatic filtration system efficiently flushes neurotoxic waste products, optimizing executive function and metabolic equilibrium.",
+            "evidenceVi": "Khi đi kèm với 7 đến 9 giờ nghỉ ngơi ban đêm đều đặn, hệ thống lọc glymphatic của não bộ sẽ dọn sạch các chất độc thần kinh một cách hiệu quả, tối ưu hóa chức năng điều hành và sự cân bằng chuyển hóa.",
+            "explanation": "Đoạn 1 nêu rõ: giấc ngủ 7-9 tiếng kích hoạt hệ thống glymphatic xả sạch các chất độc thần kinh giúp não bộ phục hồi chức năng điều hành và cân bằng trao đổi chất.",
+            "postReading": {
+              "original": "the brain’s glymphatic filtration system efficiently flushes neurotoxic waste products, optimizing executive function and metabolic equilibrium.",
+              "paraphrase": "the brain's cleansing mechanism effectively eliminates cellular toxins, enhancing mental performance and bodily regulation.",
+              "analysis": "'Glymphatic filtration system' = 'cleansing mechanism'; 'flushes neurotoxic waste products' = 'eliminates cellular toxins'; 'optimizing executive function' = 'enhancing mental performance'."
+            }
+          },
+          {
+            "id": "t28_q13",
+            "num": 13,
+            "question": "The word \"bandwidth\" in paragraph 2 refers to:",
+            "questionVi": "Từ \"bandwidth\" trong đoạn 2 đề cập đến:",
+            "questionType": "Vocabulary",
+            "options": [
+              "Internet download transmission velocity",
+              "Finite mental energy and cognitive capacity",
+              "Physical width of nerve fibers in the spinal column",
+              "The volume of music played through headphones"
+            ],
+            "optionsVi": [
+              "Tốc độ truyền tải tải về của internet",
+              "Năng lượng tinh thần và năng lực nhận thức có hạn",
+              "Bề rộng vật lý của sợi thần kinh trong cột sống",
+              "Âm lượng của âm nhạc phát qua tai nghe"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In the basal ganglia, the brain conserves vital cognitive bandwidth by converting repeated behavioral sequences into automated neurological loops.",
+            "evidenceVi": "Tại hạch nền, bộ não bảo tồn dung lượng nhận thức quý giá bằng cách chuyển đổi các chuỗi hành vi lặp đi lặp lại thành các vòng lặp thần kinh tự động hóa.",
+            "explanation": "'Cognitive bandwidth' trong tâm lý học chỉ dung lượng chú ý và năng lực xử lý nhận thức có hạn của con người, đồng nghĩa với 'mental capacity'.",
+            "postReading": {
+              "original": "the brain conserves vital cognitive bandwidth by converting repeated behavioral sequences into automated neurological loops.",
+              "paraphrase": "the mind preserves precious mental capacity by turning habitual actions into automatic subconscious patterns.",
+              "analysis": "'Vital cognitive bandwidth' = 'precious mental capacity'; 'repeated behavioral sequences' = 'habitual actions'; 'automated neurological loops' = 'automatic subconscious patterns'."
+            }
+          },
+          {
+            "id": "t28_q14",
+            "num": 14,
+            "question": "According to paragraph 2, what are the three components of the neurological \"habit loop\"?",
+            "questionVi": "Theo đoạn 2, ba thành phần của \"vòng lặp thói quen\" thần kinh là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Intention, punishment, and regret",
+              "Cue, routine, and reward",
+              "Fasting, exercising, and resting",
+              "Genetics, education, and wealth"
+            ],
+            "optionsVi": [
+              "Ý định, hình phạt và sự hối hận",
+              "Tín hiệu kích hoạt (cue), hành vi thói quen (routine) và phần thưởng (reward)",
+              "Nhịn ăn, tập thể dục và nghỉ ngơi",
+              "Di truyền, học vấn và sự giàu có"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "operates through an invariable three-part sequence: a contextual cue (such as an environmental trigger or internal emotional state), a customary routine (the physical behavior executed), and an immediate neurochemical reward, typically mediated by a spike in dopamine.",
+            "evidenceVi": "vận hành qua một chuỗi ba phần bất biến: tín hiệu kích hoạt theo ngữ cảnh (cue), hành vi quen thuộc (routine), và phần thưởng sinh hóa tức thì (reward), thường qua sự tăng đột ngột của dopamine.",
+            "explanation": "Đoạn 2 chỉ rõ ba yếu tố cấu thành vòng lặp thói quen: cue (tín hiệu), routine (hành vi thực hiện), reward (phần thưởng sinh hóa).",
+            "postReading": {
+              "original": "a contextual cue... a customary routine... and an immediate neurochemical reward, typically mediated by a spike in dopamine.",
+              "paraphrase": "a situational trigger, an established action, and a prompt biochemical payoff driven by dopamine release.",
+              "analysis": "'Contextual cue' = 'situational trigger'; 'customary routine' = 'established action'; 'immediate neurochemical reward' = 'prompt biochemical payoff'."
+            }
+          },
+          {
+            "id": "t28_q15",
+            "num": 15,
+            "question": "The word \"precipitates\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"precipitates\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "triggers",
+              "prevents",
+              "clarifies",
+              "delays"
+            ],
+            "optionsVi": [
+              "kích hoạt, đẩy nhanh",
+              "ngăn chặn",
+              "làm rõ",
+              "trì hoãn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "attempting to extinguish an ingrained habit loop through sheer suppression almost inevitably precipitates a demoralizing relapse.",
+            "evidenceVi": "cố gắng dập tắt một vòng lặp thói quen ăn sâu chỉ bằng sự kìm nén đơn thuần hầu như chắc chắn sẽ kích hoạt một sự tái phát đáng nản lòng.",
+            "explanation": "'Precipitates' nghĩa là gây ra hoặc đẩy nhanh một kết quả tiêu cực một cách đột ngột, đồng nghĩa với 'triggers' hoặc 'causes rapidly'.",
+            "postReading": {
+              "original": "attempting to extinguish an ingrained habit loop through sheer suppression almost inevitably precipitates a demoralizing relapse.",
+              "paraphrase": "trying to erase an established habit purely by force of restraint virtually always provokes a frustrating setback.",
+              "analysis": "'Extinguish an ingrained habit loop' = 'erase an established habit'; 'sheer suppression' = 'force of restraint'; 'precipitates a demoralizing relapse' = 'provokes a frustrating setback'."
+            }
+          },
+          {
+            "id": "t28_q16",
+            "num": 16,
+            "question": "Why does relying exclusively on willpower often fail to eliminate bad habits, according to paragraph 3?",
+            "questionVi": "Vì sao việc chỉ dựa duy nhất vào ý chí lại thường thất bại trong việc loại bỏ thói quen xấu, theo đoạn 3?",
+            "questionType": "Detail",
+            "options": [
+              "Willpower is an invented myth that does not exist in human neurology",
+              "Willpower behaves like a finite muscle that quickly depletes under stress and decision fatigue, leaving neural circuits intact",
+              "Human beings inherently prefer bad health over longevity",
+              "Exercising willpower damages the physical structures of heart ventricles"
+            ],
+            "optionsVi": [
+              "Ý chí là một huyền thoại bịa đặt không tồn tại trong thần kinh học",
+              "Ý chí vận hành như một cơ bắp có hạn nhanh chóng kiệt sức dưới áp lực và sự mệt mỏi khi ra quyết định, trong khi mạch thần kinh cũ vẫn còn nguyên",
+              "Con người vốn dĩ thích sức khỏe tồi tệ hơn là sống thọ",
+              "Việc rèn luyện ý chí làm tổn hại cấu trúc vật lý của tâm thất tim"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "willpower functions akin to a finite muscle that rapidly depletes under sustained decision fatigue and environmental stress. Consequently, attempting to extinguish an ingrained habit loop through sheer suppression almost inevitably precipitates a demoralizing relapse. The neurological pathways... remain permanently etched...",
+            "evidenceVi": "ý chí hoạt động tương tự như một cơ bắp có hạn nhanh chóng bị vắt kiệt dưới sự mệt mỏi khi phải ra quyết định liên tục và căng thẳng môi trường. Do đó, nỗ lực dập tắt thói quen chỉ bằng kìm nén hầu như dẫn đến tái phát. Các con đường thần kinh... vẫn in hằn vĩnh viễn...",
+            "explanation": "Đoạn 3 ví ý chí như một cơ bắp hữu hạn dễ bị kiệt sức, trong khi mạch thần kinh của thói quen cũ không hề biến mất.",
+            "postReading": {
+              "original": "willpower functions akin to a finite muscle that rapidly depletes under sustained decision fatigue and environmental stress.",
+              "paraphrase": "self-control acts like a limited muscular capacity that quickly exhausts when subjected to continuous choices and pressure.",
+              "analysis": "'Functions akin to a finite muscle' = 'acts like a limited muscular capacity'; 'rapidly depletes' = 'quickly exhausts'; 'decision fatigue' = 'continuous choices'."
+            }
+          },
+          {
+            "id": "t28_q17",
+            "num": 17,
+            "question": "The word \"obliterate\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"obliterate\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "annihilate",
+              "replicate",
+              "celebrate",
+              "negotiate"
+            ],
+            "optionsVi": [
+              "tiêu diệt hoàn toàn, xóa sạch",
+              "sao chép",
+              "tôn vinh",
+              "đàm phán"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "rather than attempting to obliterate the cue or deny the craving, one must intentionally alter the routine...",
+            "evidenceVi": "thay vì nỗ lực xóa sạch tín hiệu kích hoạt hoặc chối bỏ cơn thèm, ta phải chủ động thay đổi hành vi thực hiện...",
+            "explanation": "'Obliterate' nghĩa là xóa sổ, hủy diệt hoàn toàn, đồng nghĩa với 'annihilate' hoặc 'wipe out'.",
+            "postReading": {
+              "original": "rather than attempting to obliterate the cue or deny the craving",
+              "paraphrase": "instead of trying to erase the initial trigger or suppress the urge",
+              "analysis": "'Obliterate the cue' = 'erase the initial trigger'; 'deny the craving' = 'suppress the urge'."
+            }
+          },
+          {
+            "id": "t28_q18",
+            "num": 18,
+            "question": "According to paragraph 4, what is the \"Golden Rule of Habit Change\"?",
+            "questionVi": "Theo đoạn 4, \"Quy tắc vàng của việc thay đổi thói quen\" là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Moving to a different foreign country whenever an unhealthy urge strikes",
+              "Keeping the cue and the underlying reward constant while intentionally altering the routine",
+              "Fasting for forty-eight hours after every nutritional lapse",
+              "Ignoring all biological signals of fatigue and hunger completely"
+            ],
+            "optionsVi": [
+              "Chuyển đến một quốc gia khác mỗi khi xuất hiện một cơn thôi thúc không lành mạnh",
+              "Giữ nguyên tín hiệu kích hoạt và phần thưởng cốt lõi trong khi chủ động thay đổi hành vi quen thuộc",
+              "Nhịn ăn trong 48 giờ sau mỗi lần vi phạm chế độ ăn",
+              "Phớt lờ hoàn toàn mọi tín hiệu sinh học về sự mệt mỏi và đói bụng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the Golden Rule of Habit Change: rather than attempting to obliterate the cue or deny the craving, one must intentionally alter the routine while keeping the cue and the underlying reward constant.",
+            "evidenceVi": "Quy tắc vàng của việc thay đổi thói quen: thay vì cố gắng xóa sạch tín hiệu gợi nhắc hoặc chối bỏ cơn thèm, ta phải chủ động thay đổi thói quen hành vi trong khi vẫn giữ nguyên tín hiệu kích hoạt và phần thưởng cốt lõi.",
+            "explanation": "Đoạn 4 nêu nguyên lý then chốt: giữ nguyên Cue (tín hiệu) và Reward (phần thưởng thỏa mãn), chỉ thay thế Routine (hành động).",
+            "postReading": {
+              "original": "one must intentionally alter the routine while keeping the cue and the underlying reward constant.",
+              "paraphrase": "a person should consciously substitute the action while preserving the initial trigger and the core satisfaction.",
+              "analysis": "'Intentionally alter the routine' = 'consciously substitute the action'; 'keeping the cue and the underlying reward constant' = 'preserving the initial trigger and the core satisfaction'."
+            }
+          },
+          {
+            "id": "t28_q19",
+            "num": 19,
+            "question": "In the author's example of the office worker at 3:00 PM, what was the real underlying reward being sought?",
+            "questionVi": "Trong ví dụ của tác giả về nhân viên văn phòng lúc 3:00 chiều, phần thưởng tiềm ẩn thực sự đang được tìm kiếm là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Massive doses of synthetic medicinal painkillers",
+              "Mental diversion and social connection",
+              "Refined cane sugar to store as liver glycogen",
+              "Financial career promotion from company directors"
+            ],
+            "optionsVi": [
+              "Liều lượng lớn thuốc giảm đau tổng hợp",
+              "Sự giải tỏa tâm trí và sự kết nối giao tiếp xã hội",
+              "Đường mía tinh luyện để tích trữ glycogen trong gan",
+              "Sự thăng tiến sự nghiệp tài chính từ ban giám đốc công ty"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "frequently craving mental distraction and social connection rather than glucose. By substituting the pastry run with a ten-minute brisk walk outside with a colleague, the individual satisfies the neurological reward...",
+            "evidenceVi": "thường là đang khao khát sự giải tỏa tâm trí và kết nối xã hội hơn là glucose. Bằng cách thay thế việc đi mua bánh ngọt bằng 10 phút đi bộ nhanh ngoài trời cùng đồng nghiệp, người đó đã thỏa mãn phần thưởng thần kinh...",
+            "explanation": "Tác giả chỉ ra rằng cơn thèm ăn bánh ngọt buổi chiều thực chất là nhu cầu giải tỏa sự mệt mỏi tinh thần và trò chuyện với đồng nghiệp (mental distraction and social connection).",
+            "postReading": {
+              "original": "frequently craving mental distraction and social connection rather than glucose.",
+              "paraphrase": "often seeking cognitive relief and interpersonal interaction instead of sugar.",
+              "analysis": "'Mental distraction' = 'cognitive relief'; 'social connection' = 'interpersonal interaction'; 'glucose' = 'sugar'."
+            }
+          },
+          {
+            "id": "t28_q20",
+            "num": 20,
+            "question": "What can be inferred from the final sentence regarding the environment's role in health?",
+            "questionVi": "Có thể suy ra điều gì từ câu cuối cùng liên quan đến vai trò của môi trường đối với sức khỏe?",
+            "questionType": "Inference",
+            "options": [
+              "Environmental changes have zero effect on human neural processing",
+              "Designing one's surroundings to minimize negative triggers makes healthy living natural and effortless rather than exhausting",
+              "People should live only in isolated wilderness without any human technology",
+              "Unhealthy cues can only be eliminated by criminal law statutes"
+            ],
+            "optionsVi": [
+              "Sự thay đổi môi trường không có bất kỳ tác động nào lên quá trình xử lý thần kinh của con người",
+              "Thiết kế môi trường xung quanh để giảm thiểu các tín hiệu tiêu cực sẽ khiến lối sống lành mạnh trở nên tự nhiên và dễ dàng thay vì kiệt sức",
+              "Con người chỉ nên sống ở nơi hoang dã biệt lập không có bất kỳ công nghệ nào",
+              "Các tín hiệu không lành mạnh chỉ có thể bị loại bỏ bởi các điều luật hình sự"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "By architecting one’s ambient environment to diminish destructive cues and fortify constructive alternatives, true holistic wellness evolves from an agonizing daily battle into an effortless, self-sustaining lifestyle.",
+            "evidenceVi": "Bằng cách kiến tạo môi trường xung quanh để giảm bớt các tín hiệu tiêu cực và củng cố các lựa chọn thay thế mang tính xây dựng, sức khỏe toàn diện thực sự sẽ chuyển biến từ một trận chiến khổ ải hàng ngày thành một lối sống tự duy trì nhẹ nhàng.",
+            "explanation": "Câu kết rút ra kết luận quan trọng: bằng việc sắp đặt môi trường sống thông minh để giảm các 'cue' xấu và tăng 'cue' tốt, việc sống lành mạnh sẽ trở thành thói quen tự nhiên không tốn sức.",
+            "postReading": {
+              "original": "true holistic wellness evolves from an agonizing daily battle into an effortless, self-sustaining lifestyle.",
+              "paraphrase": "genuine complete health transforms from an exhausting daily struggle into a natural, enduring way of living.",
+              "analysis": "'True holistic wellness' = 'genuine complete health'; 'agonizing daily battle' = 'exhausting daily struggle'; 'effortless, self-sustaining lifestyle' = 'natural, enduring way of living'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Botany: Techniques to Induce Flower Blossoming: Photoperiodism & Vernalization",
+        "topic": "Thực vật học: Hai kỹ thuật cốt lõi điều khiển hoa nở đúng vụ: Quang chu kỳ (Photoperiodism) & Xuân hóa (Vernalization), vai trò hormone florigen và ứng dụng thương mại",
+        "timeAllowed": 15,
+        "passage": "<p>In the evolutionary history of angiosperms (flowering plants), the transition from vegetative growth—the proliferation of roots, stems, and foliage—to floral morphogenesis represents a momentous developmental commitment. Because floral organs are energetically expensive to generate and essential for sexual reproduction, flowering must coincide precisely with optimal environmental windows. Premature blossoming in frost-prone early spring or delayed blooming during arid summer droughts risks reproductive failure and pollinator mismatch. To circumvent these climatic hazards, plants evolved sophisticated sensory mechanisms that register environmental zeitgebers. In modern commercial horticulture and agronomy, manipulating these physiological triggers allows cultivators to induce synchronized blossoming, ensuring crops and ornamental blooms reach wholesale markets precisely when demand crests.</p><p>The foremost physiological mechanism governing floral induction is photoperiodism: the developmental response of plants to the relative durations of light and darkness across a twenty-four-hour cycle. Decades of biochemical inquiry revealed that the critical determining variable is not, as historically presumed, the duration of daylight, but rather the uninterrupted length of the nocturnal dark period. Photoreceptor pigment proteins, primarily phytochromes and cryptochromes housed within leaf mesophyll tissue, detect fluctuations between red and far-red light spectra. In 'short-day' plants (such as chrysanthemums and poinsettias), flowering occurs only when darkness exceeds a critical nocturnal threshold; even a fleeting flash of artificial light interrupting midnight darkness resets the biochemical timer and suppresses bud differentiation. Conversely, 'long-day' flora (including wheat and clover) initiate floral meristems when nocturnal darkness drops below a specific duration.</p><p>Operating in parallel with light cues is the temperature-dependent phenomenon known as vernalization: the acquisition of the competence to flower following an extended period of low, chilling winter temperatures. Prevalent in biennial and winter-annual species—such as winter wheat, barley, and brassicas—vernalization safeguards plants from blossoming during autumn warm spells prior to severe winter freezes. At the molecular level, prolonged exposure to temperatures typically ranging between one and seven degrees Celsius triggers stable epigenetic modifications. In the model plant <em>Arabidopsis thaliana</em>, prolonged cold induces chromatin silencing of the <em>FLOWERING LOCUS C</em> (FLC) gene, an overarching transcriptional repressor. Silencing FLC permits the expression of florigen—a mobile signaling protein (encoded by the <em>FT</em> gene)—which translocates through vascular phloem to the shoot apical meristem to activate floral identity genes.</p><p>Agronomists and greenhouse floriculturists deploy these botanical principles to achieve exquisite schedule precision. By installing automated blackout curtains, computerized supplemental high-pressure sodium or LED lighting, and climate-controlled refrigeration chambers, commercial growers simulate artificial seasonal rhythms. Winter crops can be chemically or thermally pre-chilled to bypass natural vernalization requirements, while year-round holiday cut-flower production is engineered through calibrated photoperiodic interruptions. Far from mere academic theory, mastering these floral induction mechanisms underpins global food security and fuels a multibillion-dollar international trade in cut flowers and grain crops.</p>",
+        "vocab": [
+          {
+            "word": "angiosperm",
+            "pos": "noun",
+            "ipa": "/ˈæn.dʒi.əʊ.spɜːm/",
+            "level": "C1",
+            "mean": "thực vật hạt kín, thực vật có hoa",
+            "syns": [
+              "flowering plant",
+              "seed-bearing vascular plant"
+            ],
+            "ex": "Angiosperms constitute the vast majority of terrestrial plant species today."
+          },
+          {
+            "word": "morphogenesis",
+            "pos": "noun",
+            "ipa": "/ˌmɔː.fəˈdʒen.ɪ.sɪs/",
+            "level": "C1",
+            "mean": "sự phát sinh hình thái (quá trình hình thành cơ quan)",
+            "syns": [
+              "structural development",
+              "form generation"
+            ],
+            "ex": "Floral morphogenesis involves the orderly emergence of petals, sepals, and stamens."
+          },
+          {
+            "word": "circumvent",
+            "pos": "verb",
+            "ipa": "/ˌsɜː.kəmˈvent/",
+            "level": "B2",
+            "mean": "né tránh, lách qua rủi ro một cách khéo léo",
+            "syns": [
+              "bypass",
+              "evade",
+              "sidestep"
+            ],
+            "ex": "Plants developed sensory adaptations to circumvent dangerous winter frosts."
+          },
+          {
+            "word": "zeitgeber",
+            "pos": "noun",
+            "ipa": "/ˈtsaɪtˌɡeɪ.bər/",
+            "level": "C1",
+            "mean": "tín hiệu đồng bộ sinh học (yếu tố môi trường định thời gian)",
+            "syns": [
+              "environmental cue",
+              "time-giver",
+              "synchronizer"
+            ],
+            "ex": "Daylight serves as the primary zeitgeber coordinating biological rhythms in living organisms."
+          },
+          {
+            "word": "horticulture",
+            "pos": "noun",
+            "ipa": "/ˈhɔː.tɪˌkʌl.tʃər/",
+            "level": "B2",
+            "mean": "nghề làm vườn, khoa học cây trồng hoa màu",
+            "syns": [
+              "gardening",
+              "plant cultivation",
+              "floriculture"
+            ],
+            "ex": "Modern commercial horticulture relies heavily on greenhouse environmental control."
+          },
+          {
+            "word": "induction",
+            "pos": "noun",
+            "ipa": "/ɪnˈdʌk.ʃən/",
+            "level": "B2",
+            "mean": "sự kích ứng, cảm ứng phát triển",
+            "syns": [
+              "initiation",
+              "triggering",
+              "activation"
+            ],
+            "ex": "Floral induction begins deep within leaf cells before visible buds appear."
+          },
+          {
+            "word": "photoperiodism",
+            "pos": "noun",
+            "ipa": "/ˌfəʊ.təʊˈpɪə.ri.ə.dɪ.zəm/",
+            "level": "C1",
+            "mean": "hiện tượng quang chu kỳ (phản ứng với độ dài ngày đêm)",
+            "syns": [
+              "day-length sensitivity",
+              "light-cycle response"
+            ],
+            "ex": "Photoperiodism regulates when trees shed leaves and when flowers bloom."
+          },
+          {
+            "word": "phytochrome",
+            "pos": "noun",
+            "ipa": "/ˈfaɪ.təʊ.krəʊm/",
+            "level": "C1",
+            "mean": "sắc tố thụ cảm ánh sáng đỏ/xa ở thực vật",
+            "syns": [
+              "light-sensing protein",
+              "photoreceptor"
+            ],
+            "ex": "Phytochromes enable plant leaves to detect subtle shifts in sunrise and sunset wavelengths."
+          },
+          {
+            "word": "mesophyll",
+            "pos": "noun",
+            "ipa": "/ˈmes.ə.fɪl/",
+            "level": "C1",
+            "mean": "mô giậu / thịt lá (nơi chứa lục lạp chính)",
+            "syns": [
+              "inner leaf tissue",
+              "photosynthetic tissue"
+            ],
+            "ex": "Photoreceptor pigments are concentrated within the green mesophyll cells of the foliage."
+          },
+          {
+            "word": "fleeting",
+            "pos": "adjective",
+            "ipa": "/ˈfliː.tɪŋ/",
+            "level": "B2",
+            "mean": "thoáng qua, chốc lát, ngắn ngủi",
+            "syns": [
+              "transient",
+              "momentary",
+              "brief"
+            ],
+            "ex": "Even a fleeting flash of flashlight in the greenhouse can disrupt floral budding."
+          },
+          {
+            "word": "meristem",
+            "pos": "noun",
+            "ipa": "/ˈmer.ɪ.stem/",
+            "level": "C1",
+            "mean": "mô phân sinh (vùng tế bào phân chia tạo cơ quan mới)",
+            "syns": [
+              "growth zone",
+              "undifferentiated tissue"
+            ],
+            "ex": "The apical meristem transforms from producing green leaves to forming flower petals."
+          },
+          {
+            "word": "vernalization",
+            "pos": "noun",
+            "ipa": "/ˌvɜː.nəl.aɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "hiện tượng xuân hóa (kích thích nở hoa bằng nhiệt độ lạnh)",
+            "syns": [
+              "cold treatment",
+              "chilling induction"
+            ],
+            "ex": "Winter wheat seeds require artificial vernalization if planted during the spring."
+          },
+          {
+            "word": "biennial",
+            "pos": "adjective",
+            "ipa": "/baɪˈen.i.əl/",
+            "level": "B2",
+            "mean": "cây hai năm (chu kỳ sinh trưởng kéo dài 2 năm)",
+            "syns": [
+              "two-year cycle",
+              "two-season plant"
+            ],
+            "ex": "Carrots are biennial crops that only produce flowers in their second season."
+          },
+          {
+            "word": "brassica",
+            "pos": "noun",
+            "ipa": "/ˈbræs.ɪ.kə/",
+            "level": "C1",
+            "mean": "cây họ Cải (bắp cải, súp lơ, mù tạt)",
+            "syns": [
+              "cruciferous plant",
+              "cabbage family"
+            ],
+            "ex": "Various wild brassicas rely on winter chills to initiate timely summer blossoming."
+          },
+          {
+            "word": "safeguard",
+            "pos": "verb",
+            "ipa": "/ˈseɪf.ɡɑːd/",
+            "level": "B2",
+            "mean": "bảo vệ, che chắn khỏi rủi ro",
+            "syns": [
+              "protect",
+              "shield",
+              "defend"
+            ],
+            "ex": "The chilling requirement safeguards young shoots from budding during deceptive autumn thaws."
+          },
+          {
+            "word": "epigenetic",
+            "pos": "adjective",
+            "ipa": "/ˌep.ɪ.dʒəˈnet.ɪk/",
+            "level": "C1",
+            "mean": "thuộc ngoại di truyền (biến đổi biểu hiện gen không đổi ADN)",
+            "syns": [
+              "gene-regulatory",
+              "non-DNA-altering"
+            ],
+            "ex": "Vernalization causes stable epigenetic changes that persist through cell division."
+          },
+          {
+            "word": "chromatin",
+            "pos": "noun",
+            "ipa": "/ˈkrəʊ.mə.tɪn/",
+            "level": "C1",
+            "mean": "chất nhiễm sắc trong nhân tế bào",
+            "syns": [
+              "nuclear genetic complex"
+            ],
+            "ex": "Condensing the chromatin prevents transcription machinery from reading the repressor gene."
+          },
+          {
+            "word": "repressor",
+            "pos": "noun",
+            "ipa": "/rɪˈpres.ər/",
+            "level": "C1",
+            "mean": "protein ức chế / gen kìm hãm biểu hiện",
+            "syns": [
+              "inhibitor",
+              "suppressor",
+              "blocker"
+            ],
+            "ex": "The FLC gene acts as a molecular repressor that prevents early budding."
+          },
+          {
+            "word": "florigen",
+            "pos": "noun",
+            "ipa": "/ˈflɔː.rɪ.dʒən/",
+            "level": "C1",
+            "mean": "hormone nở hoa (protein tín hiệu FT)",
+            "syns": [
+              "flowering hormone",
+              "flowering locus T protein"
+            ],
+            "ex": "Scientists identified florigen as the mobile protein moving from leaves to the stem tip."
+          },
+          {
+            "word": "translocate",
+            "pos": "verb",
+            "ipa": "/trænz.ləʊˈkeɪt/",
+            "level": "C1",
+            "mean": "vận chuyển trong mạch dẫn của cây",
+            "syns": [
+              "transport",
+              "channel",
+              "circulate"
+            ],
+            "ex": "Sugars and hormone molecules translocate through the phloem to feed growing tips."
+          },
+          {
+            "word": "phloem",
+            "pos": "noun",
+            "ipa": "/ˈfləʊ.em/",
+            "level": "B2",
+            "mean": "mạch rây (hệ thống dẫn chất dinh dưỡng hữu cơ)",
+            "syns": [
+              "vascular nutrient vessel",
+              "inner bark tissue"
+            ],
+            "ex": "Signals travel rapidly through the phloem from sunlit leaves to the distant roots."
+          },
+          {
+            "word": "apical",
+            "pos": "adjective",
+            "ipa": "/ˈeɪ.pɪ.kəl/",
+            "level": "C1",
+            "mean": "ở đỉnh, ở chóp ngọn cây",
+            "syns": [
+              "terminal",
+              "topmost",
+              "tip-located"
+            ],
+            "ex": "The shoot apical bud is responsible for upward vertical growth."
+          },
+          {
+            "word": "floriculturist",
+            "pos": "noun",
+            "ipa": "/ˌflɔː.rɪˈkʌl.tʃər.ɪst/",
+            "level": "C1",
+            "mean": "người trồng và kinh doanh hoa thương mại",
+            "syns": [
+              "flower grower",
+              "commercial horticulturist"
+            ],
+            "ex": "Professional floriculturists coordinate lighting schedules to produce red roses for Valentine's Day."
+          },
+          {
+            "word": "blackout",
+            "pos": "noun",
+            "ipa": "/ˈblæk.aʊt/",
+            "level": "B2",
+            "mean": "màn che chắn sáng tuyệt đối",
+            "syns": [
+              "darkening screen",
+              "light-blocking curtain"
+            ],
+            "ex": "Automated blackout shades plunge greenhouses into darkness at 5:00 PM."
+          },
+          {
+            "word": "supplemental",
+            "pos": "adjective",
+            "ipa": "/ˌsʌp.lɪˈmen.təl/",
+            "level": "B2",
+            "mean": "bổ sung, trợ lực thêm",
+            "syns": [
+              "additional",
+              "auxiliary",
+              "extra"
+            ],
+            "ex": "High-intensity supplemental lamps extend daylight during cloudy winter weeks."
+          },
+          {
+            "word": "calibrated",
+            "pos": "adjective",
+            "ipa": "/ˈkæl.ɪ.breɪ.tɪd/",
+            "level": "B2",
+            "mean": "được tính toán căn chỉnh chính xác",
+            "syns": [
+              "fine-tuned",
+              "measured",
+              "gauged"
+            ],
+            "ex": "Carefully calibrated light pulses trick plants into blooming weeks ahead of schedule."
+          },
+          {
+            "word": "underpin",
+            "pos": "verb",
+            "ipa": "/ˌʌn.dəˈpɪn/",
+            "level": "B2",
+            "mean": "làm nền tảng cốt lõi, nâng đỡ",
+            "syns": [
+              "support",
+              "anchor",
+              "bolster"
+            ],
+            "ex": "Botanical discoveries underpin modern agricultural productivity and food security."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t28_q21",
+            "num": 21,
+            "question": "What is the primary subject of the passage?",
+            "questionVi": "Chủ đề chính của đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "The genetic synthesis of artificial chemical fertilizers for desert farming",
+              "The physiological mechanisms of photoperiodism and vernalization that control plant flowering and their horticultural applications",
+              "The evolutionary decline of insect pollinators due to pesticide contamination",
+              "The architectural engineering of glass greenhouse structures in Europe"
+            ],
+            "optionsVi": [
+              "Sự tổng hợp di truyền phân bón hóa học nhân tạo cho nông nghiệp sa mạc",
+              "Các cơ chế sinh lý về quang chu kỳ và xuân hóa kiểm soát sự nở hoa của thực vật cùng ứng dụng trong nghề làm vườn",
+              "Sự suy giảm tiến hóa của các loài côn trùng thụ phấn do ô nhiễm thuốc trừ sâu",
+              "Kỹ thuật kiến trúc của các cấu trúc nhà kính thủy tinh tại Châu Âu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In modern commercial horticulture and agronomy, manipulating these physiological triggers allows cultivators to induce synchronized blossoming... The foremost physiological mechanism... is photoperiodism... Operating in parallel with light cues is the temperature-dependent phenomenon known as vernalization... Agronomists and greenhouse floriculturists deploy these botanical principles...",
+            "evidenceVi": "Trong nghề làm vườn thương mại và nông học hiện đại, việc điều khiển các kích thích sinh lý này cho phép người trồng kích thích hoa nở đồng loạt... Cơ chế sinh lý hàng đầu... là quang chu kỳ... Song song với tín hiệu ánh sáng là hiện tượng phụ thuộc nhiệt độ gọi là xuân hóa... Các chuyên gia nông học áp dụng các nguyên lý này...",
+            "explanation": "Đoạn văn trình bày hai cơ chế khoa học cốt lõi kích thích nở hoa (quang chu kỳ và xuân hóa) cùng các ứng dụng thực tiễn trong ngành trồng hoa thương mại và an ninh lương thực.",
+            "postReading": {
+              "original": "manipulating these physiological triggers allows cultivators to induce synchronized blossoming, ensuring crops and ornamental blooms reach wholesale markets precisely when demand crests.",
+              "paraphrase": "controlling these biological cues enables growers to stimulate uniform flowering, guaranteeing that harvest produces arrive on the market exactly at peak demand periods.",
+              "analysis": "'Manipulating these physiological triggers' = 'controlling these biological cues'; 'induce synchronized blossoming' = 'stimulate uniform flowering'; 'when demand crests' = 'at peak demand periods'."
+            }
+          },
+          {
+            "id": "t28_q22",
+            "num": 22,
+            "question": "According to paragraph 1, why is the timing of floral development so critical for angiosperms?",
+            "questionVi": "Theo đoạn 1, vì sao thời điểm phát triển hoa lại có tính sống còn đối với thực vật hạt kín?",
+            "questionType": "Detail",
+            "options": [
+              "Flowering consumes minimal cellular energy and can happen at any temperature",
+              "Floral organs are energetically expensive and blooming must align with optimal weather and pollinator presence to ensure reproductive success",
+              "Flowers only bloom when visited by predatory mammals",
+              "Plants must flower before developing roots to absorb groundwater"
+            ],
+            "optionsVi": [
+              "Việc ra hoa tiêu tốn năng lượng tế bào tối thiểu và có thể xảy ra ở bất kỳ nhiệt độ nào",
+              "Cơ quan hoa tiêu tốn năng lượng rất lớn và việc nở hoa phải trùng khớp với thời tiết tối ưu cùng sự hiện diện của thụ phấn để đảm bảo sinh sản",
+              "Hoa chỉ nở khi có động vật có vú ăn thịt ghé thăm",
+              "Cây cối phải ra hoa trước khi phát triển rễ để hấp thụ nước ngầm"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Because floral organs are energetically expensive to generate and essential for sexual reproduction, flowering must coincide precisely with optimal environmental windows. Premature blossoming in frost-prone early spring or delayed blooming during arid summer droughts risks reproductive failure and pollinator mismatch.",
+            "evidenceVi": "Bởi vì các cơ quan hoa đòi hỏi tiêu tốn nhiều năng lượng để tạo ra và mang tính sống còn cho sinh sản hữu tính, sự nở hoa phải trùng khớp chính xác với những khung thời gian môi trường tối ưu. Nở quá sớm trong thời tiết băng giá hoặc quá muộn trong mùa hè khô hạn sẽ gây thất bại sinh sản...",
+            "explanation": "Đoạn 1 nêu rõ: cơ quan hoa tiêu tốn năng lượng khổng lồ ('energetically expensive') nên phải nở trùng vào mùa có thời tiết thuận lợi và có côn trùng thụ phấn.",
+            "postReading": {
+              "original": "Premature blossoming in frost-prone early spring or delayed blooming during arid summer droughts risks reproductive failure and pollinator mismatch.",
+              "paraphrase": "Flowering too early during freezing weather or too late in dry conditions leads to failed propagation and lack of synchronized insect pollinators.",
+              "analysis": "'Premature blossoming' = 'Flowering too early'; 'frost-prone' = 'freezing weather'; 'reproductive failure and pollinator mismatch' = 'failed propagation and lack of synchronized insect pollinators'."
+            }
+          },
+          {
+            "id": "t28_q23",
+            "num": 23,
+            "question": "The word \"circumvent\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"circumvent\" trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "bypass",
+              "accelerate",
+              "welcome",
+              "magnify"
+            ],
+            "optionsVi": [
+              "né tránh, lách qua",
+              "gia tốc làm nhanh",
+              "chào đón",
+              "phóng đại"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "To circumvent these climatic hazards, plants evolved sophisticated sensory mechanisms that register environmental zeitgebers.",
+            "evidenceVi": "Để né tránh những hiểm họa khí hậu này, thực vật đã tiến hóa các cơ chế cảm biến tinh vi giúp ghi nhận các tín hiệu định thời gian của môi trường.",
+            "explanation": "'Circumvent' nghĩa là né tránh, lách qua rủi ro, đồng nghĩa với 'bypass' hoặc 'avoid'.",
+            "postReading": {
+              "original": "To circumvent these climatic hazards, plants evolved sophisticated sensory mechanisms",
+              "paraphrase": "In order to avoid these environmental dangers, flora developed complex perceptual systems",
+              "analysis": "'Circumvent these climatic hazards' = 'avoid these environmental dangers'; 'sophisticated sensory mechanisms' = 'complex perceptual systems'."
+            }
+          },
+          {
+            "id": "t28_q24",
+            "num": 24,
+            "question": "What surprising scientific discovery regarding photoperiodism is highlighted in paragraph 2?",
+            "questionVi": "Khám phá khoa học đáng ngạc nhiên nào liên quan đến quang chu kỳ được nhấn mạnh ở đoạn 2?",
+            "questionType": "Detail",
+            "options": [
+              "Daylight intensity has zero effect on plant chlorophyll",
+              "The critical determining factor is the uninterrupted duration of nocturnal darkness rather than daylight length",
+              "Plants can only detect ultraviolet rays from distant stars",
+              "Flowers bloom only when exposed to total continuous darkness for 365 days"
+            ],
+            "optionsVi": [
+              "Cường độ ánh sáng ban ngày không có tác động nào lên chất diệp lục của thực vật",
+              "Yếu tố quyết định mang tính then chốt là độ dài liên tục không đứt quãng của bóng tối ban đêm chứ không phải thời gian chiếu sáng ban ngày",
+              "Thực vật chỉ có thể phát hiện các tia cực tím từ các ngôi sao xa xôi",
+              "Hoa chỉ nở khi tiếp xúc với bóng tối liên tục hoàn toàn suốt 365 ngày"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the critical determining variable is not, as historically presumed, the duration of daylight, but rather the uninterrupted length of the nocturnal dark period.",
+            "evidenceVi": "biến số quyết định then chốt không phải là độ dài ban ngày như từng giả định trước đây, mà là độ dài liên tục không bị gián đoạn của thời gian bóng tối ban đêm.",
+            "explanation": "Đoạn 2 nêu rõ phát hiện bước ngoặt: độ dài của ban đêm liên tục ('uninterrupted length of the nocturnal dark period') mới là yếu tố quyết định.",
+            "postReading": {
+              "original": "the critical determining variable is not, as historically presumed, the duration of daylight, but rather the uninterrupted length of the nocturnal dark period.",
+              "paraphrase": "the vital decider is not the number of daylight hours as previously believed, but the continuous duration of nighttime darkness.",
+              "analysis": "'Critical determining variable' = 'vital decider'; 'as historically presumed' = 'as previously believed'; 'uninterrupted length of the nocturnal dark period' = 'continuous duration of nighttime darkness'."
+            }
+          },
+          {
+            "id": "t28_q25",
+            "num": 25,
+            "question": "According to paragraph 2, what happens if a brief flash of light interrupts the nocturnal darkness of a \"short-day\" plant?",
+            "questionVi": "Theo đoạn 2, điều gì xảy ra nếu một tia sáng ngắn lóe lên làm gián đoạn bóng tối ban đêm của một cây \"ngày ngắn\"?",
+            "questionType": "Detail",
+            "options": [
+              "The plant immediately produces double the number of seed pods",
+              "The biochemical timer is reset, suppressing bud differentiation and preventing flowering",
+              "The plant sheds all of its green leaves within ten minutes",
+              "The plant undergoes spontaneous root liquefaction"
+            ],
+            "optionsVi": [
+              "Cây ngay lập tức sản sinh ra số lượng quả gấp đôi",
+              "Bộ đếm thời gian sinh hóa bị đặt lại (reset), ức chế sự phân hóa nụ và ngăn chặn sự ra hoa",
+              "Cây rụng toàn bộ lá xanh trong vòng mười phút",
+              "Cây bị hóa lỏng rễ tự phát"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In 'short-day' plants (such as chrysanthemums and poinsettias), flowering occurs only when darkness exceeds a critical nocturnal threshold; even a fleeting flash of artificial light interrupting midnight darkness resets the biochemical timer and suppresses bud differentiation.",
+            "evidenceVi": "Ở các cây 'ngày ngắn' (như cúc và trạng nguyên), sự ra hoa chỉ xảy ra khi bóng tối vượt qua một ngưỡng ban đêm giới hạn; chỉ một tia sáng nhân tạo thoáng qua làm gián đoạn bóng đêm lúc nửa đêm cũng đặt lại đồng hồ sinh hóa và ức chế sự phân hóa nụ hoa.",
+            "explanation": "Đoạn 2 chỉ ra: chỉ một tia sáng le lói ngắt quãng bóng đêm cũng khiến đồng hồ sinh hóa của cây ngày ngắn bị reset và làm ngừng phân hóa nụ.",
+            "postReading": {
+              "original": "even a fleeting flash of artificial light interrupting midnight darkness resets the biochemical timer and suppresses bud differentiation.",
+              "paraphrase": "just a brief burst of synthetic illumination breaking the night cancels the biological clock and halts flower formation.",
+              "analysis": "'Fleeting flash of artificial light' = 'brief burst of synthetic illumination'; 'resets the biochemical timer' = 'cancels the biological clock'; 'suppresses bud differentiation' = 'halts flower formation'."
+            }
+          },
+          {
+            "id": "t28_q26",
+            "num": 26,
+            "question": "The word \"fleeting\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"fleeting\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "transient and brief",
+              "intense and blinding",
+              "permanent and unending",
+              "gradual and gentle"
+            ],
+            "optionsVi": [
+              "thoáng qua và ngắn ngủi",
+              "dữ dội và chói lòa",
+              "vĩnh viễn và không bao giờ dứt",
+              "dần dần và nhẹ nhàng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "even a fleeting flash of artificial light interrupting midnight darkness resets the biochemical timer...",
+            "evidenceVi": "thậm chí một tia sáng nhân tạo thoáng qua làm gián đoạn bóng đêm nửa đêm cũng đặt lại đồng hồ sinh hóa...",
+            "explanation": "'Fleeting' nghĩa là lướt qua trong tích tắc, ngắn ngủi, đồng nghĩa với 'transient and brief'.",
+            "postReading": {
+              "original": "even a fleeting flash of artificial light",
+              "paraphrase": "even a momentary glimpse of man-made illumination",
+              "analysis": "'Fleeting flash' = 'momentary glimpse'."
+            }
+          },
+          {
+            "id": "t28_q27",
+            "num": 27,
+            "question": "According to paragraph 3, how does vernalization prevent reproductive catastrophe in biennial crops?",
+            "questionVi": "Theo đoạn 3, hiện tượng xuân hóa ngăn ngừa thảm họa sinh sản ở các cây hai năm như thế nào?",
+            "questionType": "Detail",
+            "options": [
+              "It prevents plants from flowering during deceptive autumn warm spells prior to harsh winter freezes",
+              "It makes the root system immune to flooding and tidal surges",
+              "It converts starch into poisonous alkaloids that kill all herbivores",
+              "It causes plants to discard their stems and survive purely as underground fungal spores"
+            ],
+            "optionsVi": [
+              "Nó ngăn cây ra hoa trong các đợt ấm áp đánh lừa vào mùa thu trước khi mùa đông băng giá khắc nghiệt ập đến",
+              "Nó làm cho bộ rễ miễn nhiễm với ngập lụt và triều cường",
+              "Nó chuyển đổi tinh bột thành các ancaloit có độc giết chết mọi động vật ăn cỏ",
+              "Nó khiến cây rụng hết thân và sống sót thuần túy dưới dạng bào tử nấm ngầm"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "vernalization safeguards plants from blossoming during autumn warm spells prior to severe winter freezes. At the molecular level, prolonged exposure to temperatures typically ranging between one and seven degrees Celsius triggers stable epigenetic modifications.",
+            "evidenceVi": "xuân hóa bảo vệ thực vật khỏi việc nở hoa trong các đợt ấm áp mùa thu trước các đợt đóng băng mùa đông khắc nghiệt. Ở cấp độ phân tử, việc tiếp xúc lâu dài với nhiệt độ từ 1 đến 7 độ C kích hoạt những biến đổi ngoại di truyền ổn định.",
+            "explanation": "Đoạn 3 nêu rõ vai trò bảo vệ: nếu không có cơ chế đòi hỏi phải trải qua lạnh giá (vernalization) thì gặp thời tiết ấm áp mùa thu cây sẽ nở hoa và sau đó bị băng giá mùa đông giết chết.",
+            "postReading": {
+              "original": "vernalization safeguards plants from blossoming during autumn warm spells prior to severe winter freezes.",
+              "paraphrase": "cold requirements protect crops from flowering during misleading warm autumn periods before destructive winter frosts arrive.",
+              "analysis": "'Vernalization safeguards plants' = 'cold requirements protect crops'; 'autumn warm spells' = 'misleading warm autumn periods'; 'severe winter freezes' = 'destructive winter frosts'."
+            }
+          },
+          {
+            "id": "t28_q28",
+            "num": 28,
+            "question": "What is the biological identity and function of \"florigen\" as described in paragraph 3?",
+            "questionVi": "Bản chất sinh học và chức năng của \"florigen\" được miêu tả ở đoạn 3 là gì?",
+            "questionType": "Detail",
+            "options": [
+              "A gaseous toxin released to kill caterpillars on young buds",
+              "A mobile signaling protein that moves through vascular phloem to activate floral genes in shoot tips",
+              "A red pigment that reflects sunlight to warm the roots",
+              "An enzyme that dissolves cellulose cell walls during bark shedding"
+            ],
+            "optionsVi": [
+              "Một loại khí độc tiết ra để diệt sâu bướm trên các chồi non",
+              "Một protein tín hiệu di động di chuyển qua mạch rây để kích hoạt các gen ra hoa ở đỉnh chồi ngọn",
+              "Một sắc tố đỏ phản chiếu ánh nắng mặt trời để sưởi ấm rễ",
+              "Một loại enzyme hòa tan thành tế bào xenlulôzơ trong quá trình rụng vỏ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "expression of florigen—a mobile signaling protein (encoded by the FT gene)—which translocates through vascular phloem to the shoot apical meristem to activate floral identity genes.",
+            "evidenceVi": "sự biểu hiện của florigen—một protein tín hiệu di động (được mã hóa bởi gen FT)—chất này di chuyển qua mạch rây đến mô phân sinh ngọn chồi để kích hoạt các gen nhận dạng hoa.",
+            "explanation": "Đoạn 3 định nghĩa rõ ràng: florigen là protein tín hiệu di động truyền qua mạch rây phloem đến mô phân sinh ngọn (shoot apical meristem) để bật công tắc tạo hoa.",
+            "postReading": {
+              "original": "florigen—a mobile signaling protein (encoded by the FT gene)—which translocates through vascular phloem to the shoot apical meristem to activate floral identity genes.",
+              "paraphrase": "florigen, a movable messenger protein, circulates through nutrient vessels to the growth tip, triggering the genes responsible for flower development.",
+              "analysis": "'Mobile signaling protein' = 'movable messenger protein'; 'translocates through vascular phloem' = 'circulates through nutrient vessels'; 'shoot apical meristem' = 'growth tip'."
+            }
+          },
+          {
+            "id": "t28_q29",
+            "num": 29,
+            "question": "The word \"deploy\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"deploy\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "utilize and apply",
+              "reject and abandon",
+              "misunderstand",
+              "prohibit"
+            ],
+            "optionsVi": [
+              "vận dụng và áp dụng",
+              "bác bỏ và từ bỏ",
+              "hiểu nhầm",
+              "nghiêm cấm"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Agronomists and greenhouse floriculturists deploy these botanical principles to achieve exquisite schedule precision.",
+            "evidenceVi": "Các nhà nông học và người trồng hoa nhà kính vận dụng các nguyên lý thực vật học này để đạt được sự chính xác tuyệt đối về tiến độ.",
+            "explanation": "'Deploy' nghĩa là áp dụng, triển khai sử dụng công nghệ/nguyên lý vào thực tế, đồng nghĩa với 'utilize and apply'.",
+            "postReading": {
+              "original": "deploy these botanical principles to achieve exquisite schedule precision.",
+              "paraphrase": "apply these plant science fundamentals to attain impeccable timing accuracy.",
+              "analysis": "'Deploy these botanical principles' = 'apply these plant science fundamentals'; 'exquisite schedule precision' = 'impeccable timing accuracy'."
+            }
+          },
+          {
+            "id": "t28_q30",
+            "num": 30,
+            "question": "What commercial benefit of manipulating flowering triggers is emphasized in paragraph 4?",
+            "questionVi": "Lợi ích thương mại nào của việc điều khiển các kích thích nở hoa được nhấn mạnh ở đoạn 4?",
+            "questionType": "Detail",
+            "options": [
+              "Eliminating the need to purchase water or soil for greenhouse farming",
+              "Year-round supply of holiday cut flowers and bypassing natural cold requirements for global food crops",
+              "Generating self-replicating agricultural robotic machinery",
+              "Allowing cut flowers to survive without any roots or stems"
+            ],
+            "optionsVi": [
+              "Loại bỏ nhu cầu mua nước hoặc đất cho việc canh tác nhà kính",
+              "Cung cấp quanh năm hoa cắt cành phục vụ ngày lễ và vượt qua yêu cầu lạnh tự nhiên cho các cây lương thực toàn cầu",
+              "Tạo ra máy móc robot nông nghiệp tự sao chép",
+              "Cho phép hoa cắt cành tồn tại mà không cần bất kỳ rễ hay thân nào"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Winter crops can be chemically or thermally pre-chilled to bypass natural vernalization requirements, while year-round holiday cut-flower production is engineered through calibrated photoperiodic interruptions... underpins global food security and fuels a multibillion-dollar international trade...",
+            "evidenceVi": "Cây vụ đông có thể được xử lý lạnh trước bằng hóa chất hoặc nhiệt độ để bỏ qua các yêu cầu xuân hóa tự nhiên, trong khi sản xuất hoa cắt cành quanh năm cho các dịp lễ được thiết kế qua sự điều chỉnh quang chu kỳ... củng cố an ninh lương thực và tiếp sức cho thương mại quốc tế hàng tỷ đô la...",
+            "explanation": "Đoạn 4 nêu rõ: các kỹ thuật này cho phép sản xuất hoa cắt cành quanh năm đúng các dịp lễ hội và giúp cây trồng vượt qua rào cản thời tiết, bảo đảm an ninh lương thực.",
+            "postReading": {
+              "original": "year-round holiday cut-flower production is engineered through calibrated photoperiodic interruptions... underpins global food security and fuels a multibillion-dollar international trade",
+              "paraphrase": "continuous commercial flower harvests for festive seasons are made possible by precise light management, supporting planetary food supplies and a massive global export industry",
+              "analysis": "'Year-round holiday cut-flower production' = 'continuous commercial flower harvests for festive seasons'; 'underpins global food security' = 'supporting planetary food supplies'; 'fuels a multibillion-dollar international trade' = 'fuels a massive global export industry'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Women's Healthcare Disparities in Developing Nations: Systemic Barriers & Community Solutions",
+        "topic": "Khả năng tiếp cận y tế hiện đại của phụ nữ tại các nước đang phát triển: Tỷ lệ tử vong bà mẹ sản khoa, rào cản địa lý và kinh tế, định kiến văn hóa, giải pháp phòng khám lưu động và mạng lưới nữ hộ sinh cộng đồng",
+        "timeAllowed": 15,
+        "passage": "<p>Despite substantial macroeconomic progress and epidemiological advancements across the Global South over the past half-century, profound disparities in maternal and female reproductive healthcare persist as an acute humanitarian crisis. The World Health Organization (WHO) estimates that nearly three hundred thousand women perish annually from preventable complications relating to pregnancy and childbirth, with an overwhelming ninety-four percent of these mortalities concentrated within resource-constrained, low-income nations—predominantly across Sub-Saharan Africa and South Asia. Rather than stemming from insurmountable biomedical mysteries, the etiology of this maternal mortality toll resides in pervasive systemic failures: catastrophic hemorrhages, hypertensive disorders like pre-eclampsia, sepsis, and obstructed labor—conditions that are readily diagnosable, manageable, and curable within adequately equipped clinical infrastructures.</p><p>Analyzing the operational obstacles that impede women from securing timely medical interventions necessitates examining the 'Three Delays' model, a widely recognized framework in public health sociology. The first delay occurs at the household level, where decision-making to seek professional medical care is frequently impeded by patriarchal socio-cultural norms, entrenched gender hierarchies, and severe deficits in female bodily autonomy. In many agrarian rural societies, expectant mothers lack independent financial resources or require explicit authorization from male heads of household or elders before departing for a clinic. Furthermore, widespread health illiteracy and stigma surrounding reproductive complications lead families to dismiss critical warning symptoms as normal physiological discomforts.</p><p>The second and third delays represent severe physical and institutional bottlenecks. The second delay involves geographical transit: rural peripheral hamlets often lie isolated dozens of kilometers away from secondary referral hospitals across impassable terrain devoid of paved roads, reliable vehicular ambulances, or emergency telecommunications. Expectant mothers are frequently transported via makeshift handcarts, motorcycles, or on foot, enduring agonizing delays during acute obstetric crises. When patients finally traverse these geographic chasms, they encounter the third delay: institutional delivery failure. Peripheral rural health centers chronically suffer from critical shortages of trained obstetricians, stock-outs of essential uterotonic medications like oxytocin, absent electricity grids, and non-existent blood transfusion banks, rendering clinics incapable of performing life-saving emergency cesarean sections.</p><p>Rectifying these deeply entrenched inequities demands decentralized, culturally congruent public health architectures. Top-down, capital-intensive medical complexes in distant urban metropolises consistently fail to reach destitute agrarian women. Conversely, high-impact paradigms prioritize community-based health worker networks—specifically trained, locally embedded midwives and community nurses equipped with portable diagnostic ultrasound devices and clean delivery kits. When integrated with subsidized mobile maternity clinics, community-managed emergency transport funds, and legal advocacy expanding female reproductive education, maternal mortality rates plummet dramatically. Investing in female healthcare infrastructure is not merely an ethical imperative; it constitutes the foundational catalyst for broader poverty alleviation and generational human capital development.</p>",
+        "vocab": [
+          {
+            "word": "disparity",
+            "pos": "noun",
+            "ipa": "/dɪˈspær.ə.ti/",
+            "level": "B2",
+            "mean": "sự bất bình đẳng, chênh lệch lớn",
+            "syns": [
+              "inequality",
+              "imbalance",
+              "gap"
+            ],
+            "ex": "Severe disparities in healthcare access persist between urban centers and remote rural areas."
+          },
+          {
+            "word": "perish",
+            "pos": "verb",
+            "ipa": "/ˈper.ɪʃ/",
+            "level": "C1",
+            "mean": "bị thiệt mạng, chết thương tâm",
+            "syns": [
+              "die",
+              "succumb",
+              "lose one's life"
+            ],
+            "ex": "Thousands of pregnant mothers perish each year from preventable obstetric complications."
+          },
+          {
+            "word": "insurmountable",
+            "pos": "adjective",
+            "ipa": "/ˌɪn.səˈmaʊn.tə.bəl/",
+            "level": "C1",
+            "mean": "không thể vượt qua, nan giải khôn cùng",
+            "syns": [
+              "unconquerable",
+              "impossible",
+              "insuperable"
+            ],
+            "ex": "These medical challenges are not insurmountable if adequate resources are deployed."
+          },
+          {
+            "word": "etiology",
+            "pos": "noun",
+            "ipa": "/ˌiː.tiˈɒl.ə.dʒi/",
+            "level": "C1",
+            "mean": "căn nguyên, nguồn gốc gây bệnh",
+            "syns": [
+              "causation",
+              "origin",
+              "underlying cause"
+            ],
+            "ex": "The etiology of maternal deaths lies in poverty and weak transport infrastructure."
+          },
+          {
+            "word": "hemorrhage",
+            "pos": "noun",
+            "ipa": "/ˈhem.ər.ɪdʒ/",
+            "level": "C1",
+            "mean": "sự xuất huyết dữ dội, băng huyết",
+            "syns": [
+              "severe bleeding",
+              "blood loss"
+            ],
+            "ex": "Postpartum hemorrhage is one of the leading causes of maternal mortality worldwide."
+          },
+          {
+            "word": "sepsis",
+            "pos": "noun",
+            "ipa": "/ˈsep.sɪs/",
+            "level": "C1",
+            "mean": "nhiễm trùng huyết",
+            "syns": [
+              "blood poisoning",
+              "systemic infection"
+            ],
+            "ex": "Unsterile birthing environments can lead to fatal bacterial sepsis in mothers."
+          },
+          {
+            "word": "obstructed",
+            "pos": "adjective",
+            "ipa": "/əbˈstrʌk.tɪd/",
+            "level": "B2",
+            "mean": "bị tắc nghẽn, đẻ khó do ngôi thai kẹt",
+            "syns": [
+              "blocked",
+              "impeded",
+              "hindered"
+            ],
+            "ex": "Obstructed labor requires immediate surgical intervention to save the infant and mother."
+          },
+          {
+            "word": "patriarchal",
+            "pos": "adjective",
+            "ipa": "/ˌpeɪ.triˈɑː.kəl/",
+            "level": "B2",
+            "mean": "mang tính gia trưởng, phụ hệ",
+            "syns": [
+              "male-dominated",
+              "patrilineal"
+            ],
+            "ex": "Strict patriarchal traditions prevent women from making independent health choices."
+          },
+          {
+            "word": "autonomy",
+            "pos": "noun",
+            "ipa": "/ɔːˈtɒn.ə.mi/",
+            "level": "B2",
+            "mean": "quyền tự quyết, sự tự chủ",
+            "syns": [
+              "independence",
+              "self-determination",
+              "freedom"
+            ],
+            "ex": "Expanding female bodily autonomy empowers women to seek timely medical attention."
+          },
+          {
+            "word": "illiteracy",
+            "pos": "noun",
+            "ipa": "/ɪˈlɪt.ər.ə.si/",
+            "level": "B2",
+            "mean": "nạn mù chữ, thiếu hiểu biết",
+            "syns": [
+              "lack of knowledge",
+              "ignorance"
+            ],
+            "ex": "Health illiteracy leads patients to ignore dangerous warning signs during labor."
+          },
+          {
+            "word": "stigma",
+            "pos": "noun",
+            "ipa": "/ˈstɪɡ.mə/",
+            "level": "B2",
+            "mean": "sự kỳ thị, vết nhơ định kiến xã hội",
+            "syns": [
+              "disgrace",
+              "shame",
+              "dishonor"
+            ],
+            "ex": "Social stigma surrounding reproductive illness forces many women to suffer in silence."
+          },
+          {
+            "word": "bottleneck",
+            "pos": "noun",
+            "ipa": "/ˈbɒt.əl.nek/",
+            "level": "B2",
+            "mean": "điểm nghẽn, trở ngại làm chậm tiến trình",
+            "syns": [
+              "obstruction",
+              "constriction",
+              "impediment"
+            ],
+            "ex": "Poor road conditions create a dangerous transport bottleneck for ambulances."
+          },
+          {
+            "word": "hamlet",
+            "pos": "noun",
+            "ipa": "/ˈhæm.lət/",
+            "level": "B2",
+            "mean": "xóm nhỏ, thôn bản hẻo lánh",
+            "syns": [
+              "small village",
+              "settlement"
+            ],
+            "ex": "Expectant mothers in remote mountain hamlets must travel hours on dirt roads."
+          },
+          {
+            "word": "makeshift",
+            "pos": "adjective",
+            "ipa": "/ˈmeɪk.ʃɪft/",
+            "level": "B2",
+            "mean": "tạm bợ, chắp vá dùng tạm",
+            "syns": [
+              "improvised",
+              "temporary",
+              "rough-and-ready"
+            ],
+            "ex": "Villagers transported the sick woman using a makeshift stretcher made of bamboo."
+          },
+          {
+            "word": "chasm",
+            "pos": "noun",
+            "ipa": "/ˈkæz.əm/",
+            "level": "C1",
+            "mean": "hố sâu ngăn cách, vực thẳm khoảng cách",
+            "syns": [
+              "gulf",
+              "abyss",
+              "divide"
+            ],
+            "ex": "There remains a vast geographic chasm between urban hospitals and rural patients."
+          },
+          {
+            "word": "obstetrician",
+            "pos": "noun",
+            "ipa": "/ˌɒb.stəˈtrɪʃ.ən/",
+            "level": "C1",
+            "mean": "bác sĩ sản khoa",
+            "syns": [
+              "maternity specialist",
+              "birth doctor"
+            ],
+            "ex": "Rural clinics lack certified obstetricians to manage complex surgical deliveries."
+          },
+          {
+            "word": "uterotonic",
+            "pos": "adjective",
+            "ipa": "/ˌjuː.tə.rəʊˈtɒn.ɪk/",
+            "level": "C1",
+            "mean": "thuộc thuốc co bóp tử cung (chống băng huyết)",
+            "syns": [
+              "uterine-contracting",
+              "anti-hemorrhagic"
+            ],
+            "ex": "Administering uterotonic drugs immediately after delivery prevents fatal postpartum bleeding."
+          },
+          {
+            "word": "oxytocin",
+            "pos": "noun",
+            "ipa": "/ˌɒk.sɪˈtəʊ.sɪn/",
+            "level": "C1",
+            "mean": "hormone/thuốc oxytocin kích thích co bóp",
+            "syns": [
+              "uterine-stimulating hormone"
+            ],
+            "ex": "Refrigerated storage is required to keep ampoules of oxytocin effective in tropical heat."
+          },
+          {
+            "word": "transfusion",
+            "pos": "noun",
+            "ipa": "/trænzˈfjuː.ʒən/",
+            "level": "B2",
+            "mean": "sự truyền máu",
+            "syns": [
+              "blood transfer",
+              "infusion"
+            ],
+            "ex": "A prompt blood transfusion can save a mother suffering from acute hemorrhage."
+          },
+          {
+            "word": "cesarean",
+            "pos": "noun",
+            "ipa": "/sɪˈzeə.ri.ən/",
+            "level": "C1",
+            "mean": "phẫu thuật mổ lấy thai (sinh mổ)",
+            "syns": [
+              "C-section",
+              "surgical delivery"
+            ],
+            "ex": "Performing an emergency cesarean section requires an equipped operating theater and sterile surgical tools."
+          },
+          {
+            "word": "congruent",
+            "pos": "adjective",
+            "ipa": "/ˈkɒŋ.ɡru.ənt/",
+            "level": "C1",
+            "mean": "phù hợp, hài hòa và tương thích",
+            "syns": [
+              "compatible",
+              "consistent",
+              "aligned"
+            ],
+            "ex": "Health programs must be culturally congruent with indigenous village beliefs."
+          },
+          {
+            "word": "destitute",
+            "pos": "adjective",
+            "ipa": "/ˈdes.tɪ.tʃuːt/",
+            "level": "C1",
+            "mean": "cơ cực, bần cùng không một xu dính túi",
+            "syns": [
+              "impoverished",
+              "penniless",
+              "needy"
+            ],
+            "ex": "Free medical care is essential for destitute families living below the poverty threshold."
+          },
+          {
+            "word": "midwife",
+            "pos": "noun",
+            "ipa": "/ˈmɪd.waɪf/",
+            "level": "B2",
+            "mean": "nữ hộ sinh, bà đỡ",
+            "syns": [
+              "birth attendant",
+              "obstetric nurse"
+            ],
+            "ex": "Skilled local midwives deliver babies safely in remote communities."
+          },
+          {
+            "word": "subsidized",
+            "pos": "adjective",
+            "ipa": "/ˈsʌb.sɪ.daɪzd/",
+            "level": "B2",
+            "mean": "được trợ cấp, hỗ trợ kinh phí",
+            "syns": [
+              "funded",
+              "supported",
+              "sponsored"
+            ],
+            "ex": "The government launched subsidized ambulance services to transport pregnant women."
+          },
+          {
+            "word": "plummet",
+            "pos": "verb",
+            "ipa": "/ˈplʌm.ɪt/",
+            "level": "B2",
+            "mean": "lao dốc nhanh, sụt giảm mạnh",
+            "syns": [
+              "drop sharply",
+              "plunge",
+              "decline steeply"
+            ],
+            "ex": "Infant mortality plummeted after clean water and trained nurses were introduced."
+          },
+          {
+            "word": "alleviation",
+            "pos": "noun",
+            "ipa": "/əˌliː.viˈeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự giảm bớt, xóa đói giảm nghèo",
+            "syns": [
+              "reduction",
+              "mitigation",
+              "easing"
+            ],
+            "ex": "Educating and caring for women is central to global poverty alleviation efforts."
+          },
+          {
+            "word": "generational",
+            "pos": "adjective",
+            "ipa": "/ˌdʒen.əˈreɪ.ʃən.əl/",
+            "level": "B2",
+            "mean": "mang tính thế hệ, truyền qua các thế hệ",
+            "syns": [
+              "intergenerational",
+              "age-spanning"
+            ],
+            "ex": "Healthy mothers foster long-term generational prosperity and educational attainment for their offspring."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t28_q31",
+            "num": 31,
+            "question": "Which of the following best captures the main idea of the passage?",
+            "questionVi": "Câu nào sau đây thể hiện tốt nhất ý chính của đoạn văn?",
+            "questionType": "Main Idea",
+            "options": [
+              "Preventable maternal mortality in developing nations stems from systemic socio-cultural, geographic, and institutional delays that require decentralized community-based solutions",
+              "Sub-Saharan Africa possesses the world's most advanced network of tertiary teaching hospitals",
+              "The primary cause of female mortality in developing countries is modern industrialized air pollution",
+              "High-tech surgical robots in urban metropolises have eliminated all rural health inequalities"
+            ],
+            "optionsVi": [
+              "Tử vong mẹ có thể phòng ngừa ở các nước đang phát triển bắt nguồn từ những sự chậm trễ có tính hệ thống về văn hóa - xã hội, địa lý và thể chế, đòi hỏi các giải pháp cộng đồng phân tán",
+              "Khu vực châu Phi cận Sahara sở hữu mạng lưới bệnh viện giảng dạy tuyến ba tiên tiến nhất thế giới",
+              "Nguyên nhân chính gây tử vong ở phụ nữ tại các quốc gia đang phát triển là ô nhiễm không khí công nghiệp hóa",
+              "Robot phẫu thuật công nghệ cao ở các đô thị lớn đã xóa bỏ hoàn toàn mọi bất bình đẳng y tế nông thôn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "profound disparities in maternal and female reproductive healthcare persist as an acute humanitarian crisis... the etiology of this maternal mortality toll resides in pervasive systemic failures... Analyzing the operational obstacles... necessitates examining the 'Three Delays' model... Rectifying these deeply entrenched inequities demands decentralized, culturally congruent public health architectures...",
+            "evidenceVi": "sự bất bình đẳng sâu sắc trong chăm sóc sức khỏe sinh sản và thai sản của phụ nữ vẫn tiếp diễn như một cuộc khủng hoảng nhân đạo nhức nhối... nguyên căn của con số tử vong này nằm ở những thất bại có tính hệ thống... mô hình Ba sự chậm trễ... Khắc phục những bất bình đẳng này đòi hỏi cấu trúc y tế công cộng phân tán và phù hợp văn hóa...",
+            "explanation": "Đoạn văn phân tích thực trạng tử vong mẹ do các bệnh có thể chữa khỏi, giải thích nguyên nhân qua mô hình 'Ba sự chậm trễ' (văn hóa xã hội, giao thông địa lý, năng lực bệnh viện) và đề xuất giải pháp y tế cộng đồng.",
+            "postReading": {
+              "original": "profound disparities in maternal and female reproductive healthcare persist as an acute humanitarian crisis.",
+              "paraphrase": "deep inequalities regarding pregnancy and childbirth care remain an urgent global emergency.",
+              "analysis": "'Profound disparities' = 'deep inequalities'; 'maternal and female reproductive healthcare' = 'pregnancy and childbirth care'; 'acute humanitarian crisis' = 'urgent global emergency'."
+            }
+          },
+          {
+            "id": "t28_q32",
+            "num": 32,
+            "question": "According to paragraph 1, what proportion of global maternal deaths occurs within low-income, resource-constrained nations?",
+            "questionVi": "Theo đoạn 1, tỷ lệ tử vong mẹ trên toàn cầu xảy ra tại các quốc gia thu nhập thấp và khan hiếm nguồn lực là bao nhiêu?",
+            "questionType": "Detail",
+            "options": [
+              "Roughly ten percent",
+              "Approximately twenty-five percent",
+              "An overwhelming ninety-four percent",
+              "Less than five percent"
+            ],
+            "optionsVi": [
+              "Khoảng 10 phần trăm",
+              "Xấp xỉ 25 phần trăm",
+              "Áp đảo tới 94 phần trăm",
+              "Dưới 5 phần trăm"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "The World Health Organization (WHO) estimates that nearly three hundred thousand women perish annually from preventable complications relating to pregnancy and childbirth, with an overwhelming ninety-four percent of these mortalities concentrated within resource-constrained, low-income nations...",
+            "evidenceVi": "Tổ chức Y tế Thế giới (WHO) ước tính rằng gần 300.000 phụ nữ thiệt mạng mỗi năm do các biến chứng có thể phòng ngừa liên quan đến thai kỳ và sinh nở, với tỷ lệ áp đảo 94% các ca tử vong này tập trung ở các quốc gia có thu nhập thấp, khan hiếm nguồn lực...",
+            "explanation": "Đoạn 1 nêu con số cụ thể từ WHO: 94% các ca tử vong tập trung ở các quốc gia có thu nhập thấp.",
+            "postReading": {
+              "original": "with an overwhelming ninety-four percent of these mortalities concentrated within resource-constrained, low-income nations",
+              "paraphrase": "with a massive 94% majority of these deaths occurring in impoverished countries lacking sufficient resources",
+              "analysis": "'An overwhelming ninety-four percent' = 'a massive 94% majority'; 'mortalities' = 'deaths'; 'resource-constrained, low-income nations' = 'impoverished countries lacking sufficient resources'."
+            }
+          },
+          {
+            "id": "t28_q33",
+            "num": 33,
+            "question": "The word \"insurmountable\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"insurmountable\" trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "unconquerable",
+              "inexpensive",
+              "predictable",
+              "infectious"
+            ],
+            "optionsVi": [
+              "không thể vượt qua, nan giải",
+              "không tốn kém",
+              "có thể dự đoán",
+              "truyền nhiễm"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Rather than stemming from insurmountable biomedical mysteries, the etiology of this maternal mortality toll resides in pervasive systemic failures...",
+            "evidenceVi": "Thay vì bắt nguồn từ những bí ẩn y sinh học nan giải không thể vượt qua, căn nguyên của con số tử vong bà mẹ này nằm ở những thất bại có tính hệ thống lan rộng...",
+            "explanation": "'Insurmountable' nghĩa là quá khó khăn, không thể vượt qua được, đồng nghĩa với 'unconquerable' hoặc 'insuperable'.",
+            "postReading": {
+              "original": "Rather than stemming from insurmountable biomedical mysteries",
+              "paraphrase": "Instead of arising from unsolvable scientific enigmas",
+              "analysis": "'Stemming from' = 'arising from'; 'insurmountable biomedical mysteries' = 'unsolvable scientific enigmas'."
+            }
+          },
+          {
+            "id": "t28_q34",
+            "num": 34,
+            "question": "According to paragraph 2, what factors contribute to the \"first delay\" in seeking medical care?",
+            "questionVi": "Theo đoạn 2, những yếu tố nào dẫn đến \"sự chậm trễ thứ nhất\" trong việc tìm kiếm sự chăm sóc y tế?",
+            "questionType": "Detail",
+            "options": [
+              "Malfunctioning hospital computer software in tertiary clinics",
+              "Patriarchal cultural norms, deficits in female autonomy, health illiteracy, and authorization requirements from elders",
+              "Excessive numbers of female doctors practicing in rural villages",
+              "Strict governmental laws banning all natural childbirth"
+            ],
+            "optionsVi": [
+              "Lỗi phần mềm máy tính bệnh viện tại các phòng khám tuyến ba",
+              "Định kiến văn hóa phụ hệ, thiếu quyền tự chủ của phụ nữ, thiếu hiểu biết về sức khỏe và yêu cầu xin phép người lớn trong gia đình",
+              "Số lượng quá lớn các nữ bác sĩ hành nghề tại các làng quê nông thôn",
+              "Các quy định pháp luật nghiêm ngặt cấm việc sinh con tự nhiên"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The first delay occurs at the household level, where decision-making to seek professional medical care is frequently impeded by patriarchal socio-cultural norms, entrenched gender hierarchies, and severe deficits in female bodily autonomy. In many agrarian rural societies, expectant mothers lack independent financial resources or require explicit authorization from male heads of household...",
+            "evidenceVi": "Sự chậm trễ thứ nhất xảy ra ở cấp độ hộ gia đình, nơi việc ra quyết định tìm kiếm chăm sóc y tế thường bị cản trở bởi các chuẩn mực văn hóa gia trưởng, hệ thống thứ bậc giới tính ăn sâu và sự thiếu hụt nghiêm trọng quyền tự chủ của phụ nữ. Ở nhiều xã hội nông nghiệp, phụ nữ mang thai thiếu tài chính độc lập hoặc phải xin phép...",
+            "explanation": "Đoạn 2 phân tích sự chậm trễ thứ nhất bắt nguồn từ tư tưởng gia trưởng, phụ nữ không có quyền tự quyết kinh tế và phải chờ phép chồng/trưởng gia đình.",
+            "postReading": {
+              "original": "impeded by patriarchal socio-cultural norms, entrenched gender hierarchies, and severe deficits in female bodily autonomy.",
+              "paraphrase": "obstructed by male-dominated customs, deep-seated gender inequality, and a serious lack of personal freedom for women.",
+              "analysis": "'Impeded by patriarchal socio-cultural norms' = 'obstructed by male-dominated customs'; 'entrenched gender hierarchies' = 'deep-seated gender inequality'; 'deficits in female bodily autonomy' = 'lack of personal freedom for women'."
+            }
+          },
+          {
+            "id": "t28_q35",
+            "num": 35,
+            "question": "The word \"makeshift\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"makeshift\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "improvised and crude",
+              "luxurious and comfortable",
+              "permanent and indestructible",
+              "electronically powered"
+            ],
+            "optionsVi": [
+              "chắp vá, tạm bợ thô sơ",
+              "sang trọng và tiện nghi",
+              "vĩnh cửu và không thể phá hủy",
+              "chạy bằng năng lượng điện tử"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Expectant mothers are frequently transported via makeshift handcarts, motorcycles, or on foot...",
+            "evidenceVi": "Các sản phụ thường được vận chuyển bằng những chiếc xe kéo tay tạm bợ, xe máy hoặc đi bộ...",
+            "explanation": "'Makeshift' nghĩa là tạm bợ, tự chế chắp vá trong hoàn cảnh thiếu thốn, đồng nghĩa với 'improvised and crude'.",
+            "postReading": {
+              "original": "Expectant mothers are frequently transported via makeshift handcarts, motorcycles, or on foot",
+              "paraphrase": "Pregnant women are regularly moved using rough improvised carts, two-wheeled motorbikes, or by walking",
+              "analysis": "'Makeshift handcarts' = 'rough improvised carts'."
+            }
+          },
+          {
+            "id": "t28_q36",
+            "num": 36,
+            "question": "According to paragraph 3, what institutional deficiencies characterize the \"third delay\" at rural healthcare centers?",
+            "questionVi": "Theo đoạn 3, những thiếu hụt mang tính thể chế nào là đặc trưng của \"sự chậm trễ thứ ba\" tại các trạm y tế nông thôn?",
+            "questionType": "Detail",
+            "options": [
+              "Shortages of trained obstetricians, stock-outs of essential uterotonics, absent electricity, and lack of blood banks",
+              "An overabundance of luxury hotel suites attached to delivery wards",
+              "Excessive stocks of frozen vaccines expiring before use",
+              "Prohibitions against admitting any patients arriving on foot"
+            ],
+            "optionsVi": [
+              "Thiếu hụt bác sĩ sản khoa có đào tạo, cạn kiệt thuốc co hồi tử cung thiết yếu, mất điện và thiếu ngân hàng máu",
+              "Sự thừa mứa các phòng khách sạn sang trọng gắn liền với khu đỡ đẻ",
+              "Lượng vắc-xin đông lạnh quá nhiều bị hết hạn trước khi sử dụng",
+              "Lệnh cấm tiếp nhận bất kỳ bệnh nhân nào đến bằng đường đi bộ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Peripheral rural health centers chronically suffer from critical shortages of trained obstetricians, stock-outs of essential uterotonic medications like oxytocin, absent electricity grids, and non-existent blood transfusion banks...",
+            "evidenceVi": "Các trạm y tế nông thôn tuyến ngoại vi thường xuyên phải chịu cảnh thiếu hụt nghiêm trọng bác sĩ sản khoa lành nghề, cạn kiệt các loại thuốc co hồi tử cung thiết yếu như oxytocin, không có điện lưới và thiếu vắng các ngân hàng truyền máu...",
+            "explanation": "Đoạn 3 chỉ rõ sự chậm trễ thứ 3: trạm y tế nông thôn thiếu nhân lực sản khoa, hết thuốc oxytocin, mất điện lưới và không có máu truyền cấp cứu.",
+            "postReading": {
+              "original": "Peripheral rural health centers chronically suffer from critical shortages of trained obstetricians, stock-outs of essential uterotonic medications like oxytocin",
+              "paraphrase": "Remote clinics persistently experience severe deficits of qualified maternity doctors and depleted supplies of crucial labor drugs",
+              "analysis": "'Peripheral rural health centers' = 'Remote clinics'; 'critical shortages' = 'severe deficits'; 'stock-outs of essential uterotonic medications' = 'depleted supplies of crucial labor drugs'."
+            }
+          },
+          {
+            "id": "t28_q37",
+            "num": 37,
+            "question": "The word \"congruent\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"congruent\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "compatible and harmonious",
+              "opposed and antagonistic",
+              "profitable and commercial",
+              "isolated and secret"
+            ],
+            "optionsVi": [
+              "tương thích và hài hòa",
+              "đối lập và thù địch",
+              "mang lại lợi nhuận và thương mại",
+              "biệt lập và bí mật"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Rectifying these deeply entrenched inequities demands decentralized, culturally congruent public health architectures.",
+            "evidenceVi": "Khắc phục những bất bình đẳng ăn sâu bám rễ này đòi hỏi các cấu trúc y tế công cộng phân tán và phù hợp, tương thích về mặt văn hóa.",
+            "explanation": "'Culturally congruent' nghĩa là phù hợp, hài hòa với phong tục tập quán và văn hóa của người dân bản địa, đồng nghĩa với 'compatible and harmonious'.",
+            "postReading": {
+              "original": "demands decentralized, culturally congruent public health architectures.",
+              "paraphrase": "requires localized, community-compatible medical frameworks.",
+              "analysis": "'Decentralized' = 'localized'; 'culturally congruent' = 'community-compatible'; 'public health architectures' = 'medical frameworks'."
+            }
+          },
+          {
+            "id": "t28_q38",
+            "num": 38,
+            "question": "Which community-level healthcare solution is praised in paragraph 4 for reducing maternal mortality?",
+            "questionVi": "Giải pháp y tế cấp cộng đồng nào được ca ngợi ở đoạn 4 vì đã làm giảm tỷ lệ tử vong bà mẹ?",
+            "questionType": "Detail",
+            "options": [
+              "Building massive centralized teaching hospitals exclusively in national capital cities",
+              "Deploying locally embedded midwives and community nurses equipped with portable ultrasounds and subsidized transport funds",
+              "Mandating that pregnant women purchase international private health insurance",
+              "Replacing all human nurses with automated telephone hotline recordings"
+            ],
+            "optionsVi": [
+              "Xây dựng các bệnh viện giảng dạy tập trung quy mô lớn duy nhất ở các thủ đô",
+              "Triển khai mạng lưới nữ hộ sinh và y tá cộng đồng bản địa được trang bị máy siêu âm di động và quỹ vận chuyển trợ cấp",
+              "Bắt buộc phụ nữ mang thai phải mua bảo hiểm y tế tư nhân quốc tế",
+              "Thay thế tất cả y tá người thật bằng bản ghi âm đường dây nóng điện thoại tự động"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "high-impact paradigms prioritize community-based health worker networks—specifically trained, locally embedded midwives and community nurses equipped with portable diagnostic ultrasound devices and clean delivery kits. When integrated with subsidized mobile maternity clinics, community-managed emergency transport funds... maternal mortality rates plummet dramatically.",
+            "evidenceVi": "các mô hình mang lại hiệu quả cao ưu tiên các mạng lưới nhân viên y tế cộng đồng—cụ thể là các nữ hộ sinh và y tá cộng đồng bản địa được đào tạo, trang bị máy siêu âm chẩn đoán cầm tay và bộ dụng cụ sinh đẻ vô trùng... kết hợp với phòng khám lưu động trợ giá và quỹ vận chuyển khẩn cấp...",
+            "explanation": "Đoạn 4 nêu rõ mô hình thành công: nhân viên y tế và nữ hộ sinh cắm bản, thiết bị siêu âm cầm tay, bộ đỡ đẻ sạch và quỹ xe cấp cứu cộng đồng.",
+            "postReading": {
+              "original": "locally embedded midwives and community nurses equipped with portable diagnostic ultrasound devices and clean delivery kits.",
+              "paraphrase": "village-based birth assistants and local health workers provided with handheld ultrasound scanners and sterile birthing packages.",
+              "analysis": "'Locally embedded midwives' = 'village-based birth assistants'; 'portable diagnostic ultrasound devices' = 'handheld ultrasound scanners'; 'clean delivery kits' = 'sterile birthing packages'."
+            }
+          },
+          {
+            "id": "t28_q39",
+            "num": 39,
+            "question": "The word \"plummet\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"plummet\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "drop sharply",
+              "climb steeply",
+              "fluctuate randomly",
+              "remain stationary"
+            ],
+            "optionsVi": [
+              "giảm mạnh, sụt dốc",
+              "leo dốc nhanh",
+              "biến động ngẫu nhiên",
+              "đứng yên một chỗ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "maternal mortality rates plummet dramatically.",
+            "evidenceVi": "tỷ lệ tử vong bà mẹ lao dốc giảm mạnh.",
+            "explanation": "'Plummet' nghĩa là rơi thẳng xuống, sụt giảm mạnh mẽ, đồng nghĩa với 'drop sharply' hoặc 'fall steeply'.",
+            "postReading": {
+              "original": "maternal mortality rates plummet dramatically.",
+              "paraphrase": "pregnancy-related death figures decrease remarkably.",
+              "analysis": "'Maternal mortality rates' = 'pregnancy-related death figures'; 'plummet dramatically' = 'decrease remarkably'."
+            }
+          },
+          {
+            "id": "t28_q40",
+            "num": 40,
+            "question": "What broader socioeconomic conclusion does the author reach in the final sentence?",
+            "questionVi": "Tác giả đi đến kết luận kinh tế - xã hội rộng lớn hơn nào trong câu văn cuối cùng?",
+            "questionType": "Inference",
+            "options": [
+              "Healthcare funding should be diverted away from women's clinics into urban manufacturing plants",
+              "Investing in women's healthcare is not only a moral duty, but also the cornerstone for reducing poverty and fostering generational human capital",
+              "Developing countries should depend entirely on charitable donations rather than training their own doctors",
+              "Maternal mortality will naturally disappear without any financial investment over time"
+            ],
+            "optionsVi": [
+              "Kinh phí y tế nên được chuyển hướng từ các phòng khám phụ nữ sang các nhà máy sản xuất đô thị",
+              "Đầu tư vào hạ tầng y tế cho phụ nữ không chỉ là một bổn phận đạo đức mà còn là nền tảng cốt lõi để xóa đói giảm nghèo và phát triển vốn con người qua nhiều thế hệ",
+              "Các nước đang phát triển nên dựa hoàn toàn vào các khoản quyên góp từ thiện thay vì tự đào tạo bác sĩ",
+              "Tử vong mẹ sẽ tự nhiên biến mất theo thời gian mà không cần bất kỳ sự đầu tư tài chính nào"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Investing in female healthcare infrastructure is not merely an ethical imperative; it constitutes the foundational catalyst for broader poverty alleviation and generational human capital development.",
+            "evidenceVi": "Đầu tư vào cơ sở hạ tầng chăm sóc sức khỏe phụ nữ không đơn thuần là một mệnh lệnh đạo đức; nó cấu thành chất xúc tác nền tảng cho việc xóa đói giảm nghèo trên diện rộng và phát triển nguồn vốn con người qua các thế hệ.",
+            "explanation": "Câu kết khẳng định: việc đầu tư vào y tế cho phụ nữ không chỉ là nghĩa vụ đạo đức mà còn là đòn bẩy căn bản nhất để giảm nghèo bền vững và phát triển vốn con người (human capital) lâu dài.",
+            "postReading": {
+              "original": "Investing in female healthcare infrastructure is not merely an ethical imperative; it constitutes the foundational catalyst for broader poverty alleviation and generational human capital development.",
+              "paraphrase": "Allocating funds to women's medical systems is not simply a moral obligation, but serves as the core driver for comprehensive poverty eradication and long-term societal progress.",
+              "analysis": "'Not merely an ethical imperative' = 'not simply a moral obligation'; 'foundational catalyst for broader poverty alleviation' = 'core driver for comprehensive poverty eradication'; 'generational human capital development' = 'long-term societal progress'."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 

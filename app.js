@@ -1554,6 +1554,7 @@ function renderPracticeView() {
     const test25 = tests.find(t => t.testNum === 25);
     const test26 = tests.find(t => t.testNum === 26);
     const test27 = tests.find(t => t.testNum === 27);
+    const test28 = tests.find(t => t.testNum === 28);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -4484,90 +4485,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 18. BỘ ĐỀ THỰC CHIẾN 18 (TEST 28) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 18. BỘ ĐỀ THỰC CHIẾN 18 (TEST 28) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite28') {
+        const savedAnsCount28 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 28) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved28 = state.savedExam && state.savedExam.testNum === 28 && savedAnsCount28 > 0;
+        const totalVocab28 = (test28 && test28.passages) ? test28.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta28 = [
+            {
+                testNum: 28,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'family_iceskating_memoir',
+                categoryName: 'Tự sự gia đình & Tâm lý học vượt khó',
+                categoryColor: '#0ea5e9',
+                badgeBg: '#f0f9ff',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: "Review đề thi thật: A Family's First Winter Ice-Skating Trip",
+                icon: 'fa-person-skating',
+                title: "A Family's First Winter Ice-Skating Trip: Fear, Falling & Bonding",
+                titleVi: 'Hồi ức chuyến trượt băng mùa đông đầu tiên: Nỗi sợ hãi & Tình thân',
+                summary: 'Câu chuyện tự sự của chàng trai miền biển lần đầu lên vùng núi tuyết, bài học vấp ngã là cái giá để mua thăng bằng và sự gắn kết gia đình bên đống lửa sưởi ấm.'
+            },
+            {
+                testNum: 28,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'holistic_wellness_habits',
+                categoryName: 'Khoa học thần kinh & Sức khỏe lối sống',
+                categoryColor: '#10b981',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: Holistic Wellness & Breaking Bad Habits',
+                icon: 'fa-heart-pulse',
+                title: 'Holistic Wellness & Breaking Bad Habits: The Science of Sustainable Change',
+                titleVi: 'Sức khỏe toàn diện & Khoa học từ bỏ thói quen xấu: Thay đổi bền vững',
+                summary: 'Tam giác vàng dinh dưỡng - giấc ngủ - vận động, giải mã vòng lặp thói quen Cue - Routine - Reward của hạch nền và Quy tắc vàng thay thế hành vi thay vì đè nén ý chí.'
+            },
+            {
+                testNum: 28,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'botany_flowering_induction',
+                categoryName: 'Sinh lý học thực vật & Nông nghiệp công nghệ cao',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Botany: Techniques to Induce Flower Blossoming',
+                icon: 'fa-seedling',
+                title: 'Botany: Techniques to Induce Flower Blossoming: Photoperiodism & Vernalization',
+                titleVi: 'Thực vật học: Kỹ thuật điều khiển hoa nở: Quang chu kỳ & Xuân hóa nhiệt độ',
+                summary: 'Cơ chế cảm nhận độ dài đêm liên tục của sắc tố phytochrome, xuân hóa giải ức chế gen FLC, vai trò dẫn truyền của hormone florigen và công nghệ nhà kính thương mại.'
+            },
+            {
+                testNum: 28,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'maternal_healthcare_global',
+                categoryName: 'Y tế công cộng & Bất bình đẳng giới toàn cầu',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: "Review đề thi thật: Women's Healthcare in Developing Countries",
+                icon: 'fa-hospital-user',
+                title: "Women's Healthcare Disparities in Developing Nations: Systemic Barriers & Solutions",
+                titleVi: 'Bất bình đẳng y tế phụ nữ tại các nước đang phát triển: Rào cản & Giải pháp',
+                summary: 'Thảm kịch 300.000 ca tử vong mẹ hàng năm, mô hình Ba sự chậm trễ (gia trưởng, giao thông chia cắt, thiếu thuốc máu cấp cứu) và giải pháp nữ hộ sinh cắm bản.'
+            }
+        ];
+
+        let pCardsHtml28 = '';
+        passagesMeta28.forEach(meta => {
+            const pData = (test28 && test28.passages) ? test28.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml28 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-28">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-18" id="suite-box-28">
+                <div class="practice-suite-header suite-header-18">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(14, 165, 233, 0.25); color: #7dd3fc; border-color: rgba(14, 165, 233, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 18 (TEST 28) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #7dd3fc;"></i> BỘ ĐỀ THỰC CHIẾN 18 (TEST 28) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 18 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Hồi ức chuyến trượt băng mùa đông (Part 1) • Sức khỏe lối sống & Từ bỏ thói quen xấu (Part 2) • Thực vật học: Kỹ thuật điều khiển hoa nở (Part 3) • Tiếp cận y tế hiện đại của phụ nữ tại các nước đang phát triển (Part 4)
+                            <strong>4 Topics:</strong> Trượt băng mùa đông (Part 1) • Sức khỏe & Bỏ thói quen xấu (Part 2) • Kỹ thuật hoa nở (Part 3) • Y tế phụ nữ nước nghèo (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab28} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(28)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab28} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved28 ? 'background: linear-gradient(135deg, #0369a1, #0ea5e9) !important;' : ''}" onclick="${isSaved28 ? 'resumeSavedExam()' : 'startFullExam(28)'}">
+                            ${isSaved28 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount28}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(28)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #0ea5e9;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 18):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>A Family's First Winter Ice-Skating Trip</h4>
-                                <h5>Hồi ức của chàng trai trẻ về chuyến trượt băng đầu tiên cùng gia đình</h5>
-                                <p>Câu chuyện tự sự ấm áp về nỗi e ngại ban đầu trên mặt hồ đóng băng, bài học vượt qua vấp ngã và sự gắn kết thế hệ giữa tiết trời mùa đông.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#6366f1;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Holistic Wellness & Breaking Bad Habits</h4>
-                                <h5>Sức khỏe toàn diện: Dinh dưỡng, Giấc ngủ đủ & Khoa học bỏ thói quen xấu</h5>
-                                <p>Khám phá mối liên kết vòng lặp giữa chế độ ăn cân bằng, ngủ đủ giấc và cơ chế tâm lý thay thế vòng lặp thói quen tiêu cực bằng hành vi bền vững.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Botany: Techniques to Induce Flower Blossoming</h4>
-                                <h5>Thực vật học: Hai kỹ thuật cốt lõi điều khiển và kích thích hoa nở đúng vụ</h5>
-                                <p>Phân tích sinh lý thực vật về quang chu kỳ (photoperiodism - điều chỉnh ánh sáng) và xuân hóa nhiệt độ (vernalization) trong ngành nông nghiệp hoa thương mại.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Women's Healthcare in Developing Countries</h4>
-                                <h5>Khả năng tiếp cận y tế hiện đại của phụ nữ tại các nước đang phát triển</h5>
-                                <p>Nghiên cứu rào cản địa lý, kinh tế và định kiến văn hóa cản trở chăm sóc sức khỏe sinh sản cùng giải pháp y tế lưu động và nữ hộ sinh cộng đồng.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml28}
                     </div>
                 </div>
             </div>
