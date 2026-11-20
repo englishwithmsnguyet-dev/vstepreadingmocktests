@@ -25114,6 +25114,2889 @@ var READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST13",
+    "testNum": 13,
+    "title": "VSTEP READING MOCK TEST 13",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 03 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Dog Attack & Prevention",
+        "topic": "Tâm lý học động vật & Kỹ năng phòng tránh chó dữ tấn công",
+        "timeAllowed": 15,
+        "passage": "<p>Domestic dogs have lived alongside human beings for tens of thousands of years, earning a well-deserved reputation as loyal companions and working partners. However, millions of canine bite incidents are recorded globally each year, ranging from superficial abrasions to life-threatening trauma. Veterinary behaviorists emphasize that contrary to common belief, canine aggression rarely occurs without advance warning. In the vast majority of cases, an aggressive encounter is not an unpredictable act of malice, but rather the culmination of misread behavioral signals, perceived territorial intrusion, or profound defensive fear. Understanding canine body language and adopting counter-intuitive safety responses are therefore essential skills for preventing dangerous confrontations.</p><p>Canine communication relies predominantly on subtle postural shifts and facial expressions rather than vocalizations. When an unfamiliar dog feels anxious or uncomfortable, it displays early appeasement gestures known as \"calming signals.\" These subtle cues include rapid nose licking, yawning in the absence of tiredness, averting its gaze, and stiffening its posture. If humans fail to recognize these initial indicators and continue approaching, the animal's stress level begins to <strong>escalate</strong>. The dog may transition into defensive threat displays, characterized by a hard, unblinking stare, flattened ears against the skull, a raised tail held rigidly aloft, and guttural low-frequency growls. Recognizing this behavioral progression allows humans to disengage long before physical violence becomes inevitable.</p><p>When confronted by an agitated or aggressive dog, human instinctive reactions are frequently catastrophic. The natural urge to scream, wave arms frantically, or turn around and flee directly stimulates the canine predatory chase drive, transforming what might have been a territorial bluff into a vicious pursuit. Animal safety specialists advise adopting the \"tree posture\": halting all movement immediately, folding arms across the chest to protect vital arteries, and completely avoiding direct eye contact, which dogs perceive as an unambiguous declaration of hostility. By standing motionless and looking slightly to the side, the human presents a boring, non-threatening stimulus, allowing the animal's heightened arousal to subside naturally.</p><p>If an aggressive canine continues closing the distance despite passive deterrence, physical barriers must be utilized strategically. [A] Carrying an umbrella, walking stick, backpack, or even a folded jacket can provide an indispensable buffer between the person and the animal's jaws. [B] Rather than attempting to strike the dog—an action that invariably triggers retaliatory strikes—the individual should extend the object outward, allowing the dog to bite the inanimate item while slowly backing away toward a secure enclosure. [C] Should an individual be knocked to the ground, they must immediately curl into a tight fetal ball, protecting the neck and throat with interlocked hands and covering the ears with the forearms. [D] Remaining completely still in this defensive posture minimizes soft-tissue lacerations until assistance arrives or the animal disengages.</p><p>Ultimately, eradicating canine attacks requires comprehensive societal commitment that extends beyond emergency response techniques. Responsible pet ownership entails diligent socialization during a puppy's critical developmental window, humane positive-reinforcement training, and strict adherence to municipal leash mandates in public thoroughfares. Simultaneously, integrating age-appropriate bite-prevention education into primary school curricula empowers children—the demographic statistically most vulnerable to severe facial bites—to interact respectfully with unfamiliar animals, transforming public spaces into safer environments for humans and canines alike.</p>",
+        "vocab": [
+          {
+            "word": "abrasion",
+            "pos": "n",
+            "ipa": "/əˈbreɪ.ʒən/",
+            "level": "B2",
+            "mean": "vết trầy xước ngoài da do cọ xát",
+            "syns": [
+              "scratch",
+              "scrape",
+              "graze",
+              "superficial cut"
+            ],
+            "ex": "Fortunately, the runner escaped the encounter with only minor abrasions on his arms."
+          },
+          {
+            "word": "canine",
+            "pos": "adj",
+            "ipa": "/ˈkeɪ.naɪn/",
+            "level": "B2",
+            "mean": "thuộc về loài chó, mang đặc tính loài chó",
+            "syns": [
+              "dog-like",
+              "hound",
+              "dog"
+            ],
+            "ex": "Veterinary behaviorists specialize in interpreting complex canine communication signals."
+          },
+          {
+            "word": "malice",
+            "pos": "n",
+            "ipa": "/ˈmæl.ɪs/",
+            "level": "C1",
+            "mean": "ác ý, dã tâm muốn làm hại người khác",
+            "syns": [
+              "malevolence",
+              "ill will",
+              "spite",
+              "hostility"
+            ],
+            "ex": "Animal aggression rarely stems from innate malice, but rather from fear or territorial defense."
+          },
+          {
+            "word": "culmination",
+            "pos": "n",
+            "ipa": "/ˌkʌl.mɪˈneɪ.ʃən/",
+            "level": "C1",
+            "mean": "kết quả đỉnh điểm, sự tích tụ dẫn đến cao trào cuối cùng",
+            "syns": [
+              "climax",
+              "peak",
+              "zenith",
+              "outcome"
+            ],
+            "ex": "The sudden attack was the tragic culmination of several missed behavioral warning signs."
+          },
+          {
+            "word": "intrusion",
+            "pos": "n",
+            "ipa": "/ɪnˈtruː.ʒən/",
+            "level": "B2",
+            "mean": "sự xâm nhập, sự xâm phạm lãnh thổ trái phép",
+            "syns": [
+              "encroachment",
+              "invasion",
+              "trespass",
+              "infringement"
+            ],
+            "ex": "A guard dog views an uninvited delivery worker as an alarming territorial intrusion."
+          },
+          {
+            "word": "counter-intuitive",
+            "pos": "adj",
+            "ipa": "/ˌkaʊn.tər.ɪnˈtʃuː.ɪ.tɪv/",
+            "level": "C1",
+            "mean": "ngược lại với trực giác thông thường nhưng lại đúng",
+            "syns": [
+              "illogical at first glance",
+              "contrary to intuition",
+              "paradoxical"
+            ],
+            "ex": "Standing still when facing an aggressive animal is a counter-intuitive yet life-saving tactic."
+          },
+          {
+            "word": "postural",
+            "pos": "adj",
+            "ipa": "/ˈpɒs.tʃər.əl/",
+            "level": "C1",
+            "mean": "thuộc về tư thế, dáng điệu của cơ thể",
+            "syns": [
+              "positional",
+              "bodily",
+              "attitudinal"
+            ],
+            "ex": "Dogs rely heavily on subtle postural adjustments to communicate their emotional states."
+          },
+          {
+            "word": "appeasement",
+            "pos": "n",
+            "ipa": "/əˈpiːz.mənt/",
+            "level": "C1",
+            "mean": "hành động làm dịu, nhượng bộ để tránh xung đột",
+            "syns": [
+              "pacification",
+              "conciliation",
+              "placation",
+              "calming gesture"
+            ],
+            "ex": "Yawning and lip-licking are classic appeasement gestures dogs display when stressed."
+          },
+          {
+            "word": "avert",
+            "pos": "v",
+            "ipa": "/əˈvɜːt/",
+            "level": "B2",
+            "mean": "ngoảnh mặt đi, quay mắt sang hướng khác; ngăn ngừa",
+            "syns": [
+              "turn away",
+              "divert",
+              "ward off",
+              "prevent"
+            ],
+            "ex": "Averting one's gaze signals submission and non-aggression to an agitated dog."
+          },
+          {
+            "word": "escalate",
+            "pos": "v",
+            "ipa": "/ˈes.kə.leɪt/",
+            "level": "B2",
+            "mean": "leo thang, gia tăng nhanh chóng về mức độ nghiêm trọng",
+            "syns": [
+              "intensify",
+              "heighten",
+              "amplify",
+              "aggravate"
+            ],
+            "ex": "If warning signals are ignored, the animal's defensiveness will quickly escalate into violence."
+          },
+          {
+            "word": "guttural",
+            "pos": "adj",
+            "ipa": "/ˈɡʌt.ər.əl/",
+            "level": "C1",
+            "mean": "phát ra từ sâu trong cuống họng, trầm đục và gằn giọng",
+            "syns": [
+              "throaty",
+              "gravelly",
+              "growling",
+              "rasping"
+            ],
+            "ex": "The dog emitted a low, guttural growl that warned the trespasser not to step closer."
+          },
+          {
+            "word": "disengage",
+            "pos": "v",
+            "ipa": "/ˌdɪs.ɪŋˈɡeɪdʒ/",
+            "level": "C1",
+            "mean": "rút lui, ngắt tiếp xúc, tách khỏi tình huống xung đột",
+            "syns": [
+              "withdraw",
+              "pull back",
+              "detach",
+              "disconnect"
+            ],
+            "ex": "Recognizing early stress cues allows handlers to safely disengage from the confrontation."
+          },
+          {
+            "word": "predatory",
+            "pos": "adj",
+            "ipa": "/ˈpred.ə.tər.i/",
+            "level": "B2",
+            "mean": "mang tính săn mồi, săn đuổi con mồi",
+            "syns": [
+              "hunting",
+              "carnivorous",
+              "rapacious"
+            ],
+            "ex": "Running away from a canine stimulates its instinctive predatory chase reflex."
+          },
+          {
+            "word": "bluff",
+            "pos": "n",
+            "ipa": "/blʌf/",
+            "level": "B2",
+            "mean": "đòn dọa dẫm răn đe, sự nghi binh đánh đòn gió",
+            "syns": [
+              "threat display",
+              "feint",
+              "posture",
+              "sham"
+            ],
+            "ex": "Many dog lunges are a defensive territorial bluff meant to drive the intruder away."
+          },
+          {
+            "word": "vicious",
+            "pos": "adj",
+            "ipa": "/ˈvɪʃ.əs/",
+            "level": "B2",
+            "mean": "hung dữ, độc địa, nguy hiểm tàn bạo",
+            "syns": [
+              "ferocious",
+              "savage",
+              "fierce",
+              "brutal"
+            ],
+            "ex": "Panic often transforms an anxious dog's warning into a vicious physical assault."
+          },
+          {
+            "word": "unambiguous",
+            "pos": "adj",
+            "ipa": "/ˌʌn.æmˈbɪɡ.ju.əs/",
+            "level": "C1",
+            "mean": "rõ ràng, dứt khoát, không thể nhầm lẫn",
+            "syns": [
+              "clear-cut",
+              "unequivocal",
+              "explicit",
+              "distinct"
+            ],
+            "ex": "Direct eye contact is interpreted by dominant canines as an unambiguous declaration of war."
+          },
+          {
+            "word": "arousal",
+            "pos": "n",
+            "ipa": "/əˈraʊ.zəl/",
+            "level": "C1",
+            "mean": "trạng thái kích động thần kinh, hưng phấn kích thích",
+            "syns": [
+              "excitement",
+              "stimulation",
+              "agitation",
+              "heightened alertness"
+            ],
+            "ex": "Remaining motionless gives time for the animal's physiological arousal to subside."
+          },
+          {
+            "word": "deterrence",
+            "pos": "n",
+            "ipa": "/dɪˈter.əns/",
+            "level": "C1",
+            "mean": "sự ngăn chặn, biện pháp răn đe làm nản lòng",
+            "syns": [
+              "prevention",
+              "discouragement",
+              "disincentive",
+              "curb"
+            ],
+            "ex": "Passive deterrence often defuses tensions without provoking a defensive strike."
+          },
+          {
+            "word": "inanimate",
+            "pos": "adj",
+            "ipa": "/ɪnˈæn.ɪ.mət/",
+            "level": "C1",
+            "mean": "vô tri vô giác, không có sự sống",
+            "syns": [
+              "lifeless",
+              "inert",
+              "non-living",
+              "inorganic"
+            ],
+            "ex": "Extending a backpack encourages the attacking dog to clamp onto an inanimate object instead of a limb."
+          },
+          {
+            "word": "retaliatory",
+            "pos": "adj",
+            "ipa": "/rɪˈtæl.jə.tər.i/",
+            "level": "C1",
+            "mean": "mang tính trả đũa, đánh trả để báo thù",
+            "syns": [
+              "vengeful",
+              "counteracting",
+              "punitive",
+              "reciprocal"
+            ],
+            "ex": "Attempting to kick or strike an aggressive animal triggers an intense retaliatory reaction."
+          },
+          {
+            "word": "fetal",
+            "pos": "adj",
+            "ipa": "/ˈfiː.təl/",
+            "level": "B2",
+            "mean": "thuộc tư thế bào thai (co tròn tay chân vào người)",
+            "syns": [
+              "curled up",
+              "protective posture"
+            ],
+            "ex": "If knocked down, rolling into a tight fetal ball protects vulnerable abdominal organs."
+          },
+          {
+            "word": "laceration",
+            "pos": "n",
+            "ipa": "/ˌlæs.əˈreɪ.ʃən/",
+            "level": "C1",
+            "mean": "vết rách thịt sâu do cắn xé hoặc vật sắc nhọn",
+            "syns": [
+              "deep cut",
+              "tear",
+              "gash",
+              "wound"
+            ],
+            "ex": "Remaining still on the ground substantially reduces the severity of muscular lacerations."
+          },
+          {
+            "word": "diligent",
+            "pos": "adj",
+            "ipa": "/ˈdɪl.ɪ.dʒənt/",
+            "level": "B2",
+            "mean": "siêng năng, chu đáo cẩn trọng và kiên trì",
+            "syns": [
+              "conscientious",
+              "meticulous",
+              "attentive",
+              "careful"
+            ],
+            "ex": "Diligent puppy socialization teaches dogs to feel calm around diverse human strangers."
+          },
+          {
+            "word": "positive-reinforcement",
+            "pos": "n.phr",
+            "ipa": "/ˌpɒz.ə.tɪv ˌriː.ɪnˈfɔːs.mənt/",
+            "level": "B2",
+            "mean": "phương pháp củng cố tích cực (khen thưởng hành vi tốt)",
+            "syns": [
+              "reward-based training",
+              "constructive encouragement"
+            ],
+            "ex": "Modern trainers advocate positive-reinforcement techniques over harsh physical punishment."
+          },
+          {
+            "word": "mandate",
+            "pos": "n",
+            "ipa": "/ˈmæn.deɪt/",
+            "level": "B2",
+            "mean": "quy định pháp lý bắt buộc, mệnh lệnh chính thức",
+            "syns": [
+              "decree",
+              "directive",
+              "legal requirement",
+              "statute"
+            ],
+            "ex": "Municipal leash mandates ensure public parks remain safe for all recreational users."
+          },
+          {
+            "word": "thoroughfare",
+            "pos": "n",
+            "ipa": "/ˈθʌr.ə.feər/",
+            "level": "C1",
+            "mean": "đường phố chính giao thương đông đúc, đại lộ công cộng",
+            "syns": [
+              "main road",
+              "artery",
+              "avenue",
+              "passageway"
+            ],
+            "ex": "Dogs should always be securely leashed when walking along busy urban thoroughfares."
+          },
+          {
+            "word": "empower",
+            "pos": "v",
+            "ipa": "/ɪmˈpaʊ.ər/",
+            "level": "B2",
+            "mean": "trao quyền, trang bị năng lực và kỹ năng để tự tin xử lý",
+            "syns": [
+              "equip",
+              "enable",
+              "authorize",
+              "strengthen"
+            ],
+            "ex": "Educating elementary school pupils empowers them to recognize animal boundaries safely."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của bài đọc là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "A historical overview of dog domestication across human civilizations",
+              "Understanding canine stress signals and behavioral techniques to defuse attacks",
+              "Medical procedures and surgical protocols for treating severe canine bites",
+              "Legal liabilities and financial penalties imposed on irresponsible pet owners"
+            ],
+            "optionsVi": [
+              "A. Tổng quan lịch sử thuần hóa loài chó qua các nền văn minh nhân loại",
+              "B. Hiểu các tín hiệu căng thẳng của loài chó và các kỹ thuật hành vi để hóa giải sự tấn công",
+              "C. Thủ thuật y tế và phác đồ phẫu thuật điều trị các vết cắn nặng của chó",
+              "D. Trách nhiệm pháp lý và hình phạt tài chính áp đặt lên chủ vật nuôi vô trách nhiệm"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Understanding canine body language and adopting counter-intuitive safety responses are therefore essential skills for preventing dangerous confrontations. [Paragraph 1]",
+            "evidenceVi": "Hiểu được ngôn ngữ cơ thể loài chó và áp dụng các phản xạ an toàn ngược với trực giác là kỹ năng thiết yếu để phòng tránh các cuộc đối đầu nguy hiểm. [Đoạn 1]",
+            "explanation": "Bài đọc tập trung xuyên suốt vào việc nhận biết ngôn ngữ hình thể khi chó bị căng thẳng (Đoạn 2), phản xạ đúng đắn khi đối mặt (Đoạn 3-4), và các giải pháp phòng tránh lâu dài (Đoạn 5). Do đó phương án B là chính xác nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "Understanding canine body language and adopting counter-intuitive safety responses are therefore essential skills for preventing dangerous confrontations.",
+              "clueAnswer": "Understanding canine stress signals and behavioral techniques to defuse attacks",
+              "keyPassage": "canine body language... counter-intuitive safety responses... preventing dangerous confrontations",
+              "keyAnswer": "canine stress signals... behavioral techniques to defuse attacks",
+              "paraphrasePair": "body language & safety responses <=> stress signals & behavioral techniques",
+              "meaningVi": "Ngôn ngữ cơ thể & phản ứng an toàn <=> Tín hiệu căng thẳng & kỹ thuật hành vi",
+              "deductionLogic": "Phương án B bao quát trọn vẹn luận điểm chính. Các phương án A, C, D chỉ là các chi tiết nhỏ ngoài lề hoặc không xuất hiện trong bài."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "According to paragraph 1, what causes the vast majority of aggressive canine encounters?",
+            "questionVi": "Theo đoạn 1, nguyên nhân của đại đa số các vụ chạm trán hung hãn của loài chó là gì?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Innate canine malice and uncontrollable wild instincts",
+              "Unpredictable genetic mutations in modern domesticated breeds",
+              "Misunderstood behavioral cues, perceived territorial breaches, or defensive fear",
+              "Sudden neurological seizures brought on by dietary deficiencies"
+            ],
+            "optionsVi": [
+              "A. Ác tâm bẩm sinh và bản năng hoang dã không thể kiểm soát của loài chó",
+              "B. Đột biến gen không thể dự báo ở các giống chó đã thuần hóa hiện đại",
+              "C. Tín hiệu hành vi bị hiểu sai, nhận thức về sự xâm phạm lãnh thổ, hoặc nỗi sợ tự vệ",
+              "D. Cơn co giật thần kinh đột ngột do thiếu hụt dinh dưỡng"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "In the vast majority of cases, an aggressive encounter is not an unpredictable act of malice, but rather the culmination of misread behavioral signals, perceived territorial intrusion, or profound defensive fear. [Paragraph 1]",
+            "evidenceVi": "Trong đại đa số các trường hợp, một cuộc chạm trán hung dữ không phải là hành vi ác ý bất ngờ, mà là đỉnh điểm của việc hiểu sai các tín hiệu hành vi, nhận thức về sự xâm phạm lãnh thổ, hoặc nỗi sợ tự vệ sâu sắc. [Đoạn 1]",
+            "explanation": "Bài đọc nêu rõ rằng phần lớn các vụ tấn công là do 'misread behavioral signals, perceived territorial intrusion, or profound defensive fear', khớp chính xác với phương án C.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết thông tin (Factual Detail)",
+              "cluePassage": "misread behavioral signals, perceived territorial intrusion, or profound defensive fear",
+              "clueAnswer": "Misunderstood behavioral cues, perceived territorial breaches, or defensive fear",
+              "keyPassage": "misread behavioral signals... territorial intrusion",
+              "keyAnswer": "Misunderstood behavioral cues... territorial breaches",
+              "paraphrasePair": "misread signals / territorial intrusion <=> misunderstood cues / territorial breaches",
+              "meaningVi": "Tín hiệu bị đọc sai / xâm phạm lãnh thổ <=> Dấu hiệu bị hiểu lầm / vi phạm ranh giới",
+              "deductionLogic": "Đối chiếu trực tiếp câu cuối đoạn 1 để chọn C. Phương án A trái ngược trực tiếp với 'not an unpredictable act of malice'."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "Which of the following is NOT mentioned in paragraph 2 as an early 'calming signal'?",
+            "questionVi": "Điều nào sau đây KHÔNG được đề cập trong đoạn 2 như một 'tín hiệu làm dịu' ban đầu?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Rapidly licking its nose",
+              "Barking loudly at high pitch",
+              "Yawning when not weary",
+              "Averting its visual gaze"
+            ],
+            "optionsVi": [
+              "A. Liếm mũi nhanh liên tục",
+              "B. Sủa to ở cao độ lớn",
+              "C. Ngáp dù không hề mệt mỏi",
+              "D. Quay mắt nhìn sang hướng khác"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "These subtle cues include rapid nose licking, yawning in the absence of tiredness, averting its gaze, and stiffening its posture. [Paragraph 2]",
+            "evidenceVi": "Những dấu hiệu tinh tế này bao gồm liếm mũi nhanh, ngáp khi không mệt mỏi, ngoảnh mắt đi và gồng cứng cơ thể. [Đoạn 2]",
+            "explanation": "Đoạn 2 liệt kê liếm mũi (A), ngáp khi không mệt (C), và ngoảnh mắt (D). Tiếng sủa to (B) không được coi là calming signal mà ngược lại đoạn 2 nói giao tiếp của chó chủ yếu dựa vào tư thế chứ không phải vocalizations.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (Negative Factual - NOT/EXCEPT)",
+              "cluePassage": "These subtle cues include rapid nose licking, yawning in the absence of tiredness, averting its gaze, and stiffening its posture.",
+              "clueAnswer": "Barking loudly at high pitch",
+              "keyPassage": "subtle cues include rapid nose licking, yawning... averting its gaze",
+              "keyAnswer": "Barking loudly (không có trong danh sách calming signals)",
+              "paraphrasePair": "calming signals vs vocal barking",
+              "meaningVi": "Tín hiệu cơ thể làm dịu đối lập với tiếng sủa to",
+              "deductionLogic": "Tìm thấy cả A, C, D trong văn bản, chọn đáp án ngoại lệ B."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "The word 'escalate' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'escalate' trong đoạn 2 có nghĩa gần nhất với:",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "dissipate",
+              "intensify",
+              "stabilize",
+              "stagnate"
+            ],
+            "optionsVi": [
+              "A. tiêu tan, biến mất dần",
+              "B. gia tăng, tăng cường cường độ",
+              "C. ổn định trở lại",
+              "D. đình trệ, ứ đọng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "If humans fail to recognize these initial indicators and continue approaching, the animal's stress level begins to escalate. [Paragraph 2]",
+            "evidenceVi": "Nếu con người không nhận ra các dấu hiệu ban đầu này và tiếp tục tiến lại gần, mức độ căng thẳng của con vật bắt đầu leo thang. [Đoạn 2]",
+            "explanation": "Từ 'escalate' mang nghĩa leo thang, tăng mạnh về mức độ nghiêm trọng hoặc cường độ. Từ đồng nghĩa chính xác nhất là 'intensify'.",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Closest in Meaning)",
+              "cluePassage": "the animal's stress level begins to escalate. The dog may transition into defensive threat displays...",
+              "clueAnswer": "intensify",
+              "keyPassage": "escalate",
+              "keyAnswer": "intensify",
+              "paraphrasePair": "escalate <=> intensify",
+              "meaningVi": "Leo thang, tăng cao <=> Gia tăng cường độ",
+              "deductionLogic": "Ngữ cảnh miêu tả sự chuyển tiếp từ lo lắng sang đe dọa tấn công dữ dội hơn, do đó 'escalate' = 'intensify'."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "According to paragraph 3, what negative consequence occurs when a human screams and runs away from an aggressive dog?",
+            "questionVi": "Theo đoạn 3, hậu quả tiêu cực nào xảy ra khi con người la hét và bỏ chạy khỏi một con chó hung dữ?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "It triggers the animal's natural predatory chase instinct.",
+              "It damages the human's vocal cords and equilibrium.",
+              "It alerts neighboring animals to join the pack attack.",
+              "It causes the dog to become immediately disoriented and submissive."
+            ],
+            "optionsVi": [
+              "A. Nó kích hoạt bản năng rượt đuổi săn mồi tự nhiên của con vật.",
+              "B. Nó làm tổn thương dây thanh quản và khả năng giữ thăng bằng của con người.",
+              "C. Nó đánh động các loài động vật lân cận cùng gia nhập đàn tấn công.",
+              "D. Nó khiến con chó ngay lập tức bị mất phương hướng và quy phục."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The natural urge to scream, wave arms frantically, or turn around and flee directly stimulates the canine predatory chase drive, transforming what might have been a territorial bluff into a vicious pursuit. [Paragraph 3]",
+            "evidenceVi": "Bản năng tự nhiên muốn la hét, khua tay hoảng loạn, hoặc quay lưng bỏ chạy trực tiếp kích thích bản năng rượt đuổi săn mồi của loài chó, biến điều lẽ ra chỉ là đòn dọa dẫm lãnh thổ thành một cuộc săn đuổi hung dữ. [Đoạn 3]",
+            "explanation": "Văn bản khẳng định rõ la hét và bỏ chạy sẽ 'directly stimulates the canine predatory chase drive', tương đương với phương án A.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết thông tin (Factual Detail)",
+              "cluePassage": "directly stimulates the canine predatory chase drive, transforming what might have been a territorial bluff into a vicious pursuit.",
+              "clueAnswer": "It triggers the animal's natural predatory chase instinct.",
+              "keyPassage": "stimulates the canine predatory chase drive",
+              "keyAnswer": "triggers the animal's natural predatory chase instinct",
+              "paraphrasePair": "stimulates predatory chase drive <=> triggers predatory chase instinct",
+              "meaningVi": "Kích thích động lực săn đuổi <=> Kích hoạt bản năng săn mồi",
+              "deductionLogic": "Chọn A vì 'stimulates' = 'triggers' và 'predatory chase drive' = 'predatory chase instinct'."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "What is the primary rationale behind assuming the 'tree posture' described in paragraph 3?",
+            "questionVi": "Lý do căn bản đằng sau việc thực hiện 'tư thế cái cây' được mô tả ở đoạn 3 là gì?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "To physically intimidate the canine by appearing substantially taller",
+              "To mimic the appearance of a dangerous natural predator",
+              "To present a motionless, non-threatening target so the dog's agitation cools down",
+              "To buy sufficient time for the handler to retrieve a defensive weapon"
+            ],
+            "optionsVi": [
+              "A. Để đe dọa con chó bằng cách tỏ ra cao lớn hơn đáng kể",
+              "B. Để bắt chước hình dáng của một loài thú săn mồi nguy hiểm trong tự nhiên",
+              "C. Để tạo thành mục tiêu bất động, không đe dọa giúp con chó tự hạ nhiệt kích động",
+              "D. Để kéo dài đủ thời gian cho người nuôi lấy vũ khí tự vệ"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "By standing motionless and looking slightly to the side, the human presents a boring, non-threatening stimulus, allowing the animal's heightened arousal to subside naturally. [Paragraph 3]",
+            "evidenceVi": "Bằng cách đứng bất động và nhìn hơi chếch sang bên, con người tạo ra một tác nhân nhàm chán, không đe dọa, cho phép sự kích động cao độ của con vật tự lắng xuống một cách tự nhiên. [Đoạn 3]",
+            "explanation": "Đứng yên và không nhìn vào mắt chó làm con người trở thành một 'boring, non-threatening stimulus', giúp sự kích động của chó lắng xuống, đúng với phương án C.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận logic (Inference)",
+              "cluePassage": "the human presents a boring, non-threatening stimulus, allowing the animal's heightened arousal to subside naturally.",
+              "clueAnswer": "To present a motionless, non-threatening target so the dog's agitation cools down",
+              "keyPassage": "boring, non-threatening stimulus... arousal to subside naturally",
+              "keyAnswer": "motionless, non-threatening target... agitation cools down",
+              "paraphrasePair": "arousal to subside <=> agitation cools down",
+              "meaningVi": "Sự kích động lắng xuống <=> Cơn giận dữ nguội bớt",
+              "deductionLogic": "Chọn C. A và B sai vì bài nhấn mạnh tránh đe dọa ('non-threatening'); D không được nhắc đến."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "The author advises extending an inanimate object outward primarily to:",
+            "questionVi": "Tác giả khuyên nên đưa một vật vô tri ra phía trước chủ yếu nhằm để:",
+            "questionType": "DẠNG 07: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
+            "options": [
+              "Distract the animal into biting the item rather than human limbs",
+              "Inflict blunt force trauma to disable the animal's jaw mechanism",
+              "Trap the animal underneath the heavy fabric of the clothing",
+              "Signal nearby passersby that an emergency is unfolding"
+            ],
+            "optionsVi": [
+              "A. Chuyển hướng con vật cắn vào đồ vật thay vì cắn vào tay chân con người",
+              "B. Gây chấn thương ngoại lực mạnh để vô hiệu hóa cơ hàm của con vật",
+              "C. Bẫy con vật nằm gọn bên dưới lớp vải dày của trang phục",
+              "D. Phát tín hiệu cho người qua đường biết một tình huống khẩn cấp đang xảy ra"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Rather than attempting to strike the dog—an action that invariably triggers retaliatory strikes—the individual should extend the object outward, allowing the dog to bite the inanimate item while slowly backing away toward a secure enclosure. [Paragraph 4]",
+            "evidenceVi": "Thay vì cố gắng đánh con chó—hành động luôn kích hoạt các đòn tấn công trả đũa—người đó nên đưa đồ vật ra phía ngoài, để con chó cắn vào đồ vật vô tri trong khi từ từ lùi lại về nơi an toàn. [Đoạn 4]",
+            "explanation": "Mục đích của việc giơ đồ vật (ba lô, áo khoác) ra là để con chó cắn vào đồ vật đó ('bite the inanimate item') thay vì cắn vào cơ thể con người, đúng với phương án A.",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Mục đích hành động (Author's Purpose)",
+              "cluePassage": "extend the object outward, allowing the dog to bite the inanimate item while slowly backing away",
+              "clueAnswer": "Distract the animal into biting the item rather than human limbs",
+              "keyPassage": "allowing the dog to bite the inanimate item",
+              "keyAnswer": "biting the item rather than human limbs",
+              "paraphrasePair": "bite the inanimate item <=> biting the item rather than limbs",
+              "meaningVi": "Cắn vào vật vô tri <=> Cắn vào đồ vật thay vì tay chân",
+              "deductionLogic": "Chọn A. B sai vì văn bản cảnh báo không đánh con vật ('Rather than attempting to strike the dog'); C và D không có trong bài."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 4. Where would the following sentence best fit?\n\"These items serve as sacrificial targets that absorb the initial force of an attack.\"",
+            "questionVi": "Xem bốn vị trí [A], [B], [C] và [D] trong đoạn 4. Câu sau đây điền vào vị trí nào là thích hợp nhất?\n\"Những vật dụng này đóng vai trò như những mục tiêu hy sinh giúp hấp thụ lực tấn công ban đầu.\"",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "A. Vị trí [A]",
+              "B. Vị trí [B]",
+              "C. Vị trí [C]",
+              "D. Vị trí [D]"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Carrying an umbrella, walking stick, backpack, or even a folded jacket can provide an indispensable buffer between the person and the animal's jaws. [B] Rather than attempting to strike the dog... [Paragraph 4]",
+            "evidenceVi": "Mang theo ô, gậy đi bộ, ba lô hoặc thậm chí một chiếc áo khoác gấp lại có thể tạo ra một vùng đệm không thể thiếu giữa con người và hàm răng con vật. [B] Thay vì cố gắng tấn công con chó... [Đoạn 4]",
+            "explanation": "Đại từ 'These items' trong câu cần điền liên kết trực tiếp với danh sách các đồ vật 'an umbrella, walking stick, backpack, or even a folded jacket' ở câu đứng ngay trước vị trí [B]. Do đó [B] là vị trí chuẩn xác nhất.",
+            "postReading": {
+              "type": "sentence_insertion",
+              "typeLabel": "Điền câu vào văn bản (Sentence Insertion)",
+              "cluePassage": "Carrying an umbrella, walking stick, backpack, or even a folded jacket can provide an indispensable buffer... [B]",
+              "clueAnswer": "These items serve as sacrificial targets that absorb the initial force of an attack.",
+              "keyPassage": "umbrella, walking stick, backpack, folded jacket",
+              "keyAnswer": "These items (đại từ tham chiếu ngược)",
+              "paraphrasePair": "an umbrella, walking stick... <=> These items",
+              "meaningVi": "Liệt kê các đồ vật mang theo <=> Những vật dụng này",
+              "deductionLogic": "'These items' bắt buộc phải đứng ngay sau câu liệt kê các đồ vật ở vị trí [B]."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "The word 'diligent' in paragraph 5 is closest in meaning to:",
+            "questionVi": "Từ 'diligent' trong đoạn 5 có nghĩa gần nhất với:",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "sporadic",
+              "conscientious",
+              "lenient",
+              "passive"
+            ],
+            "optionsVi": [
+              "A. ngắt quãng, thỉnh thoảng",
+              "B. chu đáo, tận tâm, có trách nhiệm",
+              "C. khoan dung, dễ dãi",
+              "D. thụ động, ỷ lại"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Responsible pet ownership entails diligent socialization during a puppy's critical developmental window, humane positive-reinforcement training... [Paragraph 5]",
+            "evidenceVi": "Việc nuôi thú cưng có trách nhiệm đòi hỏi sự xã hội hóa chu đáo trong giai đoạn phát triển quan trọng của chó con, huấn luyện củng cố tích cực nhân đạo... [Đoạn 5]",
+            "explanation": "Từ 'diligent' mang nghĩa chu đáo, kiên trì và tận tâm (careful, conscientious). 'Conscientious' là từ đồng nghĩa chính xác nhất.",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Closest in Meaning)",
+              "cluePassage": "Responsible pet ownership entails diligent socialization during a puppy's critical developmental window...",
+              "clueAnswer": "conscientious",
+              "keyPassage": "diligent",
+              "keyAnswer": "conscientious",
+              "paraphrasePair": "diligent <=> conscientious",
+              "meaningVi": "Chu đáo, cẩn thận <=> Tận tâm, có trách nhiệm",
+              "deductionLogic": "Ngữ cảnh nói về việc nuôi dạy chó có trách nhiệm đòi hỏi nỗ lực chu đáo liên tục, do đó 'diligent' = 'conscientious'."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "What does the author conclude regarding long-term bite prevention in the final paragraph?",
+            "questionVi": "Tác giả kết luận điều gì về việc ngăn ngừa tai nạn cắn về mặt lâu dài ở đoạn văn cuối?",
+            "questionType": "DẠNG 06: SUY LUẬN / KẾT LUẬN (Inference / Conclusion)",
+            "options": [
+              "Canine attacks can only be eliminated by banning aggressive breeds entirely.",
+              "Long-term safety demands combining responsible animal husbandry with early public safety education.",
+              "Technology-assisted wearable alarms should be mandatory for all pedestrians.",
+              "Adults should take over all outdoor pet care because children cannot learn canine cues."
+            ],
+            "optionsVi": [
+              "A. Các vụ chó cắn chỉ có thể được xóa bỏ bằng cách cấm hoàn toàn các giống chó hung dữ.",
+              "B. Sự an toàn dài hạn đòi hỏi sự kết hợp giữa chăn nuôi thú cưng có trách nhiệm và giáo dục an toàn cộng đồng từ sớm.",
+              "C. Các thiết bị báo động đeo tay hỗ trợ công nghệ nên là bắt buộc cho mọi người đi bộ.",
+              "D. Người lớn nên đảm nhận toàn bộ việc chăm sóc thú cưng ngoài trời vì trẻ em không thể học được các dấu hiệu của chó."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Responsible pet ownership entails diligent socialization... Simultaneously, integrating age-appropriate bite-prevention education into primary school curricula empowers children... transforming public spaces into safer environments for humans and canines alike. [Paragraph 5]",
+            "evidenceVi": "Nuôi thú cưng có trách nhiệm bao gồm xã hội hóa chu đáo... Đồng thời, việc lồng ghép giáo dục phòng chống chó cắn phù hợp lứa tuổi vào chương trình tiểu học sẽ trao quyền cho trẻ em... biến không gian công cộng thành môi trường an toàn hơn cho cả người và chó. [Đoạn 5]",
+            "explanation": "Đoạn cuối nhấn mạnh sự kết hợp giữa trách nhiệm người nuôi (socialization, leash mandates) và giáo dục trẻ em trong trường học (bite-prevention education), tương ứng trọn vẹn với B.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận / Kết luận (Conclusion)",
+              "cluePassage": "Responsible pet ownership entails diligent socialization... Simultaneously, integrating age-appropriate bite-prevention education into primary school curricula...",
+              "clueAnswer": "Long-term safety demands combining responsible animal husbandry with early public safety education.",
+              "keyPassage": "Responsible pet ownership... integrating bite-prevention education into primary curricula",
+              "keyAnswer": "responsible animal husbandry with early public safety education",
+              "paraphrasePair": "responsible ownership & education <=> animal husbandry with safety education",
+              "meaningVi": "Nuôi dưỡng có trách nhiệm & giáo dục học đường <=> Chăn nuôi thú cưng trách nhiệm & giáo dục an toàn",
+              "deductionLogic": "Chọn B vì tóm lược chính xác hai vế giải pháp ở đoạn cuối. Phương án A, C, D là những khẳng định cực đoan không có căn cứ trong bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Birdsong & Acoustic Communication",
+        "topic": "Âm học sinh học & Sự thích nghi của tiếng chim hót trong đô thị",
+        "timeAllowed": 15,
+        "passage": "<p>In the natural world, acoustic communication represents one of the most sophisticated evolutionary adaptations among avian species. Birdsong serves essential biological functions indispensable to survival and reproduction, including proclaiming territorial ownership, deterring sexual rivals, and attracting prospective mates. Each species produces distinct vocal signatures shaped by millions of years of natural selection, optimized to transmit efficiently through their native biomes—whether dense tropical rainforests, temperate woodlands, or windswept grasslands. However, the relentless acceleration of human urbanization over the past century has generated an unprecedented sensory pollutant: continuous, high-amplitude anthropogenic noise.</p><p>Urban ambient noise is predominantly concentrated in low-frequency acoustic bands, generated by vehicular traffic, industrial machinery, and climate-control infrastructure. This persistent mechanical rumble creates a severe ecological phenomenon known as \"acoustic masking.\" When traffic noise overlaps with the acoustic bandwidth of birdsong, it obliterates critical acoustic signals, preventing vocalizations from traveling across their customary ranges. Consequently, male birds struggling to be heard across noisy boulevards experience contracted territorial boundaries and diminished reproductive success, as receptive females fail to detect their courtship songs over the urban drone.</p><p>To mitigate the detrimental effects of acoustic masking, various songbird species exhibit remarkable behavioral plasticity. Bioacousticians studying urban populations of great tits (<em>Parus major</em>) and European blackbirds have documented measurable phenotypic shifts in vocalization structure. Urban birds consistently sing at higher minimum frequencies than their rural counterparts, deliberately elevating the pitch of their melodies to occupy an acoustic niche above the low-frequency rumble of automotive traffic. [A] Furthermore, many urban songbirds demonstrate the \"Lombard effect\"—an involuntary increase in vocal amplitude or loudness in response to noisy surroundings, analogous to humans raising their voices in crowded cafeterias. [B]</p><p>Beyond modulating pitch and volume, songbirds alter temporal singing patterns to navigate human-dominated soundscapes. [C] In heavily congested metropolitan centers, several species have been observed shifting their dawn choruses substantially earlier, beginning their vocal displays in the pre-dawn darkness before morning commuter traffic peaks. In extreme cases, such as European robins residing near 24-hour industrial plants or illuminated city squares, birds have transitioned into nocturnal singing. [D] While this temporal realignment successfully evades daytime acoustic interference, it carries severe metabolic costs, exposing diurnal birds to sleep deprivation and increased vulnerability to nocturnal predators.</p><p>While the evolutionary agility of urban songbirds is scientifically captivating, researchers caution against assuming that all avian species can adapt indefinitely to sensory pollution. Higher-frequency songs often contain less tonal complexity, which can paradoxically diminish a male's attractiveness to females programmed to prefer rich, low-frequency vocal displays. Moreover, species with rigid, genetically hardwired songs lacking structural plasticity are unable to modify their frequencies, resulting in widespread population collapses and local extinctions in urban centers. Preserving urban biodiversity ultimately necessitates civil engineering interventions, such as installing noise-absorbing roadside barriers, expanding green acoustic buffers, and transitioning toward whisper-quiet electric transport infrastructure.</p>",
+        "vocab": [
+          {
+            "word": "acoustic",
+            "pos": "adj",
+            "ipa": "/əˈkuː.stɪk/",
+            "level": "B2",
+            "mean": "thuộc về âm thanh, âm học",
+            "syns": [
+              "auditory",
+              "sonic",
+              "sound-related"
+            ],
+            "ex": "Acoustic signals allow songbirds to communicate across dense forest canopies."
+          },
+          {
+            "word": "avian",
+            "pos": "adj",
+            "ipa": "/ˈeɪ.vi.ən/",
+            "level": "B2",
+            "mean": "thuộc về loài chim",
+            "syns": [
+              "bird-related",
+              "ornithological"
+            ],
+            "ex": "Urbanization has caused significant disruptions to avian nesting and communication habits."
+          },
+          {
+            "word": "proclaim",
+            "pos": "v",
+            "ipa": "/prəˈkleɪm/",
+            "level": "B2",
+            "mean": "tuyên bố, công bố rộng rãi một cách dõng dạc",
+            "syns": [
+              "declare",
+              "announce",
+              "broadcast",
+              "assert"
+            ],
+            "ex": "Male songbirds sing from treetop branches to proclaim their territorial boundaries."
+          },
+          {
+            "word": "biome",
+            "pos": "n",
+            "ipa": "/ˈbaɪ.əʊm/",
+            "level": "C1",
+            "mean": "khu sinh học lớn (rừng mưa, sa mạc, thảo nguyên...)",
+            "syns": [
+              "ecosystem",
+              "ecological zone",
+              "habitat"
+            ],
+            "ex": "Species evolve vocalizations tuned specifically to the acoustic density of their native biome."
+          },
+          {
+            "word": "anthropogenic",
+            "pos": "adj",
+            "ipa": "/ˌæn.θrə.pəˈdʒen.ɪk/",
+            "level": "C1",
+            "mean": "do con người tạo ra, bắt nguồn từ hoạt động của con người",
+            "syns": [
+              "human-generated",
+              "man-made",
+              "artificial"
+            ],
+            "ex": "Continuous anthropogenic noise interferes with wildlife communication in metropolitan zones."
+          },
+          {
+            "word": "rumble",
+            "pos": "n",
+            "ipa": "/ˈrʌm.bəl/",
+            "level": "B2",
+            "mean": "tiếng ầm ì trầm đục kéo dài liên tục",
+            "syns": [
+              "drone",
+              "hum",
+              "reverberation",
+              "roor"
+            ],
+            "ex": "The constant low-frequency rumble of heavy freight trucks masks avian mating calls."
+          },
+          {
+            "word": "acoustic masking",
+            "pos": "n.phr",
+            "ipa": "/əˈkuː.stɪk ˈmɑː.skɪŋ/",
+            "level": "C1",
+            "mean": "hiện tượng che mờ âm thanh (tiếng ồn lấn át tín hiệu âm thanh sinh học)",
+            "syns": [
+              "auditory interference",
+              "signal drowning"
+            ],
+            "ex": "Acoustic masking makes it virtually impossible for female birds to locate singing suitors."
+          },
+          {
+            "word": "obliterate",
+            "pos": "v",
+            "ipa": "/əˈblɪt.ər.eɪt/",
+            "level": "C1",
+            "mean": "xóa sạch hoàn toàn, triệt tiêu không còn dấu vết",
+            "syns": [
+              "wipe out",
+              "erase",
+              "annihilate",
+              "destroy completely"
+            ],
+            "ex": "Engine noise from nearby highways can obliterate the delicate notes of warbler melodies."
+          },
+          {
+            "word": "contracted",
+            "pos": "adj",
+            "ipa": "/kənˈtræk.tɪd/",
+            "level": "B2",
+            "mean": "bị thu hẹp lại, bị co rút diện tích hoặc quy mô",
+            "syns": [
+              "shrunken",
+              "narrowed",
+              "diminished",
+              "reduced"
+            ],
+            "ex": "Male birds in noisy neighborhoods hold contracted territories compared to rural conspecifics."
+          },
+          {
+            "word": "plasticity",
+            "pos": "n",
+            "ipa": "/plæsˈtɪs.ə.ti/",
+            "level": "C1",
+            "mean": "tính linh hoạt dẻo dai, khả năng thích ứng mềm dẻo với môi trường",
+            "syns": [
+              "flexibility",
+              "adaptability",
+              "malleability",
+              "elasticity"
+            ],
+            "ex": "Behavioral plasticity enables certain bird species to survive within concrete urban jungles."
+          },
+          {
+            "word": "phenotypic",
+            "pos": "adj",
+            "ipa": "/ˌfiː.nəʊˈtɪp.ɪk/",
+            "level": "C1",
+            "mean": "thuộc kiểu hình (đặc điểm có thể quan sát được do môi trường tác động)",
+            "syns": [
+              "observable trait",
+              "morphological"
+            ],
+            "ex": "Shifts in singing pitch represent phenotypic modifications rather than immediate genetic changes."
+          },
+          {
+            "word": "counterpart",
+            "pos": "n",
+            "ipa": "/ˈkaʊn.tə.pɑːt/",
+            "level": "B2",
+            "mean": "bên tương ứng, đối tượng cùng vai trò ở hoàn cảnh khác",
+            "syns": [
+              "equivalent",
+              "peer",
+              "corresponding partner"
+            ],
+            "ex": "City blackbirds produce calls at higher frequencies than their forest counterparts."
+          },
+          {
+            "word": "niche",
+            "pos": "n",
+            "ipa": "/niːʃ/",
+            "level": "C1",
+            "mean": "vị trí thích hợp đặc thù, ổ sinh thái chuyên biệt",
+            "syns": [
+              "specialized role",
+              "acoustic slot",
+              "domain"
+            ],
+            "ex": "By elevating their pitch, songbirds carve out a clear acoustic niche above traffic rumble."
+          },
+          {
+            "word": "amplitude",
+            "pos": "n",
+            "ipa": "/ˈæm.plɪ.tʃuːd/",
+            "level": "C1",
+            "mean": "biên độ sóng âm, độ lớn âm lượng",
+            "syns": [
+              "loudness",
+              "volume",
+              "sound intensity",
+              "magnitude"
+            ],
+            "ex": "The Lombard effect causes vocalists to amplify their song amplitude in noisy settings."
+          },
+          {
+            "word": "modulate",
+            "pos": "v",
+            "ipa": "/ˈmɒdʒ.ə.leɪt/",
+            "level": "C1",
+            "mean": "điều chỉnh, biến đổi cao độ hoặc âm điệu linh hoạt",
+            "syns": [
+              "adjust",
+              "regulate",
+              "alter",
+              "modify"
+            ],
+            "ex": "Songbirds dynamically modulate their frequencies depending on real-time traffic volume."
+          },
+          {
+            "word": "soundscape",
+            "pos": "n",
+            "ipa": "/ˈsaʊnd.skeɪp/",
+            "level": "C1",
+            "mean": "không gian âm thanh tổng thể của một môi trường sống",
+            "syns": [
+              "acoustic environment",
+              "sonic landscape"
+            ],
+            "ex": "The modern urban soundscape is dominated by mechanical motors and sirens."
+          },
+          {
+            "word": "dawn chorus",
+            "pos": "n.phr",
+            "ipa": "/ˌdɔːn ˈkɔː.rəs/",
+            "level": "B2",
+            "mean": "dàn hợp xướng ban mai (thời điểm các loài chim cùng hót rộn rã lúc rạng đông)",
+            "syns": [
+              "morning birdsong",
+              "sunrise singing"
+            ],
+            "ex": "Metropolitan robins begin their dawn chorus earlier to beat the morning rush hour."
+          },
+          {
+            "word": "nocturnal",
+            "pos": "adj",
+            "ipa": "/nɒkˈtɜː.nəl/",
+            "level": "B2",
+            "mean": "về đêm, hoạt động vào ban đêm",
+            "syns": [
+              "nighttime",
+              "night-active"
+            ],
+            "ex": "Light pollution encourages diurnal species to adopt unusual nocturnal singing patterns."
+          },
+          {
+            "word": "realignment",
+            "pos": "n",
+            "ipa": "/ˌriː.əˈlaɪn.mənt/",
+            "level": "C1",
+            "mean": "sự tái sắp xếp, sự điều chỉnh chuyển đổi trục thời gian/chiến lược",
+            "syns": [
+              "readjustment",
+              "reorganization",
+              "rescheduling"
+            ],
+            "ex": "This temporal realignment allows birds to avoid daytime noise at the expense of sleep."
+          },
+          {
+            "word": "metabolic",
+            "pos": "adj",
+            "ipa": "/ˌmet.əˈbɒl.ɪk/",
+            "level": "C1",
+            "mean": "thuộc quá trình trao đổi chất và chuyển hóa năng lượng",
+            "syns": [
+              "physiological",
+              "energetic"
+            ],
+            "ex": "Singing through the night incurs severe metabolic costs that exhaust small birds."
+          },
+          {
+            "word": "diurnal",
+            "pos": "adj",
+            "ipa": "/daɪˈɜː.nəl/",
+            "level": "C1",
+            "mean": "ban ngày, hoạt động vào thời gian ban ngày",
+            "syns": [
+              "daytime-active",
+              "day-oriented"
+            ],
+            "ex": "Forcing diurnal birds to sing at midnight disrupts their natural biological clocks."
+          },
+          {
+            "word": "deprivation",
+            "pos": "n",
+            "ipa": "/ˌdep.rɪˈveɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự tước đoạt, sự thiếu thốn nghiêm trọng (giấc ngủ, thức ăn)",
+            "syns": [
+              "deficiency",
+              "loss",
+              "denial",
+              "destitution"
+            ],
+            "ex": "Prolonged sleep deprivation impairs immune functioning and cognitive performance in animals."
+          },
+          {
+            "word": "agility",
+            "pos": "n",
+            "ipa": "/əˈdʒɪl.ə.ti/",
+            "level": "C1",
+            "mean": "sự nhanh nhạy, tính linh hoạt thích ứng nhanh chóng",
+            "syns": [
+              "nimbleness",
+              "adaptability",
+              "quickness"
+            ],
+            "ex": "Evolutionary agility enables some species to thrive while rigid species disappear."
+          },
+          {
+            "word": "tonal",
+            "pos": "adj",
+            "ipa": "/ˈtəʊ.nəl/",
+            "level": "B2",
+            "mean": "thuộc về âm sắc, giai điệu và cung bậc âm thanh",
+            "syns": [
+              "harmonic",
+              "melodic",
+              "pitch-related"
+            ],
+            "ex": "Urban songs frequently suffer from reduced tonal complexity and richness."
+          },
+          {
+            "word": "hardwired",
+            "pos": "adj",
+            "ipa": "/ˌhɑːdˈwaɪəd/",
+            "level": "C1",
+            "mean": "được cài đặt sẵn cố định trong gen, không thể biến đổi",
+            "syns": [
+              "innate",
+              "genetically programmed",
+              "instinctive",
+              "ingrained"
+            ],
+            "ex": "Species with hardwired vocalizations cannot adjust their pitch when noise levels soar."
+          },
+          {
+            "word": "collapse",
+            "pos": "n",
+            "ipa": "/kəˈlæps/",
+            "level": "B2",
+            "mean": "sự sụp đổ, sự suy giảm đột ngột về số lượng",
+            "syns": [
+              "crash",
+              "breakdown",
+              "fall",
+              "depletion"
+            ],
+            "ex": "Inability to communicate leads to an abrupt reproductive collapse in sensitive birds."
+          },
+          {
+            "word": "buffer",
+            "pos": "n",
+            "ipa": "/ˈbʌf.ər/",
+            "level": "B2",
+            "mean": "dải đệm, vùng cách ly giúp giảm thiểu xung đột/tiếng ồn",
+            "syns": [
+              "shield",
+              "cushion",
+              "barrier",
+              "protective zone"
+            ],
+            "ex": "Planting dense strips of trees creates an acoustic buffer that absorbs roadway din."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "Which of the following best states the main idea of the passage?",
+            "questionVi": "Câu nào sau đây thể hiện rõ nhất ý chính của bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "Urban development has completely silenced songbirds across all major metropolitan cities.",
+              "Songbirds adapt to urban noise through acoustic and temporal changes, but such adjustments carry significant ecological costs and limitations.",
+              "High-amplitude birdsong causes severe auditory damage to human city dwellers.",
+              "Civil engineering noise barriers have successfully eliminated acoustic masking in modern cities."
+            ],
+            "optionsVi": [
+              "A. Sự phát triển đô thị đã làm tắt hoàn toàn tiếng hót của loài chim ở mọi thành phố lớn.",
+              "B. Các loài chim hót thích nghi với tiếng ồn đô thị qua việc biến đổi âm học và thời gian, nhưng các điều chỉnh đó kéo theo cái giá sinh thái và giới hạn đáng kể.",
+              "C. Tiếng chim hót biên độ lớn gây tổn thương thính giác nghiêm trọng cho cư dân thành phố.",
+              "D. Các bức tường giảm âm công trình đã xóa bỏ thành công hiện tượng che mờ âm thanh tại các đô thị hiện đại."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "To mitigate the detrimental effects of acoustic masking, various songbird species exhibit remarkable behavioral plasticity... While the evolutionary agility of urban songbirds is scientifically captivating, researchers caution against assuming that all avian species can adapt indefinitely... [Paragraphs 3 & 5]",
+            "evidenceVi": "Để giảm thiểu tác động bất lợi của hiện tượng che mờ âm thanh, nhiều loài chim thể hiện sự linh hoạt hành vi đáng kinh ngạc... Dù tính thích nghi tiến hóa là hấp dẫn, các nhà nghiên cứu cảnh báo không nên cho rằng mọi loài chim đều có thể thích nghi vô hạn... [Đoạn 3 & 5]",
+            "explanation": "Bài đọc trình bày vấn đề ô nhiễm tiếng ồn đô thị (Đoạn 1-2), cách thức chim thích ứng về cao độ, âm lượng và thời gian (Đoạn 3-4), cùng cái giá sinh thái và giới hạn sinh học (Đoạn 5). B là câu tóm lược đầy đủ cả hai mặt của vấn đề.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "To mitigate... various songbird species exhibit remarkable behavioral plasticity... While the evolutionary agility... carries severe metabolic costs... species with rigid songs are unable to modify...",
+              "clueAnswer": "Songbirds adapt to urban noise through acoustic and temporal changes, but such adjustments carry significant ecological costs and limitations.",
+              "keyPassage": "behavioral plasticity... metabolic costs... unable to adapt indefinitely",
+              "keyAnswer": "adapt through changes... carry significant costs and limitations",
+              "paraphrasePair": "plasticity vs metabolic costs <=> adapt vs costs and limitations",
+              "meaningVi": "Khả năng thích ứng đối lập chi phí trao đổi chất <=> Thích nghi đối lập chi phí và giới hạn",
+              "deductionLogic": "Phương án B nêu trọn vẹn cả sự thích ứng (plasticity) và hệ lụy đi kèm (costs/limitations)."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "According to paragraph 1, birdsong fulfills all of the following biological functions EXCEPT:",
+            "questionVi": "Theo đoạn 1, tiếng chim hót đáp ứng tất cả các chức năng sinh học sau đây, NGOẠI TRỪ:",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Asserting territorial dominion",
+              "Attracting potential breeding partners",
+              "Fending off mating competitors",
+              "Navigating through dense fog during long migrations"
+            ],
+            "optionsVi": [
+              "A. Khẳng định chủ quyền lãnh thổ",
+              "B. Thu hút bạn tình giao phối tiềm năng",
+              "C. Xua đuổi các đối thủ tranh giành bạn tình",
+              "D. Định hướng vượt qua sương mù dày đặc khi di cư xa"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Birdsong serves essential biological functions indispensable to survival and reproduction, including proclaiming territorial ownership, deterring sexual rivals, and attracting prospective mates. [Paragraph 1]",
+            "evidenceVi": "Tiếng chim hót phục vụ các chức năng sinh học thiết yếu không thể thiếu đối với sự sinh tồn và sinh sản, bao gồm tuyên bố quyền sở hữu lãnh thổ, ngăn chặn các đối thủ tình dục và thu hút bạn tình tiềm năng. [Đoạn 1]",
+            "explanation": "Đoạn 1 nhắc đến quyền lãnh thổ (A), thu hút bạn tình (B), và ngăn chặn đối thủ (C). Việc định hướng trong sương mù (D) hoàn toàn không xuất hiện.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (Negative Factual - NOT/EXCEPT)",
+              "cluePassage": "proclaiming territorial ownership, deterring sexual rivals, and attracting prospective mates.",
+              "clueAnswer": "Navigating through dense fog during long migrations",
+              "keyPassage": "territorial ownership, deterring rivals, attracting mates",
+              "keyAnswer": "Navigating through dense fog (không có trong bài)",
+              "paraphrasePair": "biological functions vs migration navigation",
+              "meaningVi": "Chức năng sinh tồn sinh sản đối lập với định vị sương mù di cư",
+              "deductionLogic": "A, B, C đều có trong bài, chọn D là thông tin không được nhắc tới."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "The term 'acoustic masking' in paragraph 2 refers to a situation where:",
+            "questionVi": "Thuật ngữ 'acoustic masking' trong đoạn 2 đề cập đến tình huống mà trong đó:",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN / KHÁI NIỆM (Factual Concept)",
+            "options": [
+              "Birds voluntarily camouflage their nests using sound-dampening moss",
+              "Mechanical low-frequency traffic noise drowns out avian vocal communication",
+              "City architecture amplifies birdsong until it echoes uncontrollably",
+              "Predatory mammals mimic birdsong to lure unsuspecting avian prey"
+            ],
+            "optionsVi": [
+              "A. Loài chim chủ động ngụy trang tổ của chúng bằng rêu giảm âm",
+              "B. Tiếng ồn giao thông cơ học tần số thấp lấn át thông điệp giao tiếp bằng giọng hót của chim",
+              "C. Kiến trúc thành phố khuếch đại tiếng chim hót cho đến khi nó vang vọng không kiểm soát",
+              "D. Động vật săn mồi có vú bắt chước tiếng chim hót để dụ con mồi chim non"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "When traffic noise overlaps with the acoustic bandwidth of birdsong, it obliterates critical acoustic signals, preventing vocalizations from traveling across their customary ranges. [Paragraph 2]",
+            "evidenceVi": "Khi tiếng ồn giao thông chồng lấn lên dải tần số âm thanh của tiếng chim hót, nó xóa sạch các tín hiệu âm thanh then chốt, ngăn không cho tiếng hót truyền đi xa qua phạm vi thông thường. [Đoạn 2]",
+            "explanation": "Acoustic masking là hiện tượng tiếng ồn cơ giới đô thị đè bẹp và lấn át tiếng hót của chim, khiến các tín hiệu sinh học không thể truyền tới người nhận, đúng với phương án B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Khái niệm khoa học (Factual Detail)",
+              "cluePassage": "When traffic noise overlaps with the acoustic bandwidth of birdsong, it obliterates critical acoustic signals...",
+              "clueAnswer": "Mechanical low-frequency traffic noise drowns out avian vocal communication",
+              "keyPassage": "traffic noise overlaps... obliterates critical acoustic signals",
+              "keyAnswer": "noise drowns out avian vocal communication",
+              "paraphrasePair": "overlaps and obliterates signals <=> drowns out vocal communication",
+              "meaningVi": "Chồng lấn và xóa bỏ tín hiệu <=> Nhấn chìm thông tin giao tiếp",
+              "deductionLogic": "B giải thích chính xác định nghĩa được nêu ở câu thứ hai và thứ ba của đoạn 2."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "The word 'plasticity' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'plasticity' trong đoạn 3 có nghĩa gần nhất với:",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "rigidity",
+              "adaptability",
+              "vulnerability",
+              "predictability"
+            ],
+            "optionsVi": [
+              "A. sự cứng nhắc, bất biến",
+              "B. khả năng thích ứng linh hoạt",
+              "C. tính dễ bị tổn thương",
+              "D. tính có thể dự đoán trước"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "To mitigate the detrimental effects of acoustic masking, various songbird species exhibit remarkable behavioral plasticity. [Paragraph 3]",
+            "evidenceVi": "Để giảm thiểu các tác động bất lợi của hiện tượng che mờ âm thanh, nhiều loài chim hót thể hiện tính linh hoạt hành vi đáng kinh ngạc. [Đoạn 3]",
+            "explanation": "Từ 'plasticity' trong sinh học biểu thị năng lực thay đổi linh hoạt để thích nghi với hoàn cảnh sống (adaptability).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Closest in Meaning)",
+              "cluePassage": "various songbird species exhibit remarkable behavioral plasticity. Bioacousticians... documented measurable phenotypic shifts...",
+              "clueAnswer": "adaptability",
+              "keyPassage": "behavioral plasticity",
+              "keyAnswer": "adaptability",
+              "paraphrasePair": "plasticity <=> adaptability",
+              "meaningVi": "Tính mềm dẻo, linh hoạt <=> Khả năng thích ứng",
+              "deductionLogic": "Ngữ cảnh miêu tả sự chuyển đổi tần số và âm lượng để tồn tại trong tiếng ồn, chứng minh 'plasticity' = 'adaptability'."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "How do urban great tits modify their songs compared to rural populations?",
+            "questionVi": "Chim bạc má lớn ở đô thị biến đổi tiếng hót của chúng như thế nào so với quần thể ở nông thôn?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "They sing at a higher minimum pitch to avoid traffic rumble.",
+              "They lower their frequency to pierce through concrete buildings.",
+              "They replace musical whistling with sharp mechanical clicks.",
+              "They stop singing altogether and rely solely on colorful plumage."
+            ],
+            "optionsVi": [
+              "A. Chúng hót ở cao độ tối thiểu cao hơn để tránh tiếng ầm ầm của giao thông.",
+              "B. Chúng hạ thấp tần số để xuyên qua các tòa nhà bê tông.",
+              "C. Chúng thay thế tiếng huýt sáo giai điệu bằng những tiếng lách cách cơ học đanh gọn.",
+              "D. Chúng ngừng hót hoàn toàn và chỉ dựa vào bộ lông sặc sỡ."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Urban birds consistently sing at higher minimum frequencies than their rural counterparts, deliberately elevating the pitch of their melodies to occupy an acoustic niche above the low-frequency rumble of automotive traffic. [Paragraph 3]",
+            "evidenceVi": "Chim đô thị luôn hót ở tần số tối thiểu cao hơn so với đồng loại ở nông thôn, chủ động nâng cao cao độ của các giai điệu để chiếm giữ một khoảng âm thanh bên trên tiếng ầm ĩ tần số thấp của giao thông xe cộ. [Đoạn 3]",
+            "explanation": "Văn bản nêu rõ chim ở đô thị hát ở 'higher minimum frequencies', tức là nâng cao cao độ (pitch) để tránh tiếng ồn trầm của xe cộ, khớp với phương án A.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết thông tin (Factual Detail)",
+              "cluePassage": "Urban birds consistently sing at higher minimum frequencies... elevating the pitch of their melodies to occupy an acoustic niche above the low-frequency rumble...",
+              "clueAnswer": "They sing at a higher minimum pitch to avoid traffic rumble.",
+              "keyPassage": "sing at higher minimum frequencies... elevating the pitch",
+              "keyAnswer": "sing at a higher minimum pitch",
+              "paraphrasePair": "higher minimum frequencies / elevating pitch <=> higher minimum pitch",
+              "meaningVi": "Tần số tối thiểu cao hơn / nâng cao độ <=> Cao độ tối thiểu cao hơn",
+              "deductionLogic": "Chọn A. B nói ngược lại ('lower'); C và D sai lệch hoàn toàn."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "The 'Lombard effect' mentioned in paragraph 3 is characterized by:",
+            "questionVi": "'Hiệu ứng Lombard' được đề cập ở đoạn 3 mang đặc trưng bởi:",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN / KHÁI NIỆM (Factual Concept)",
+            "options": [
+              "A voluntary reduction in song duration to conserve oxygen",
+              "An involuntary increase in vocal loudness in noisy surroundings",
+              "A genetic mutation that causes birds to lose hearing acuity",
+              "A shift toward mimicking artificial siren frequencies"
+            ],
+            "optionsVi": [
+              "A. Sự chủ động giảm thời lượng bài hót để bảo tồn oxy",
+              "B. Sự gia tăng âm lượng giọng hót một cách không chủ ý trong môi trường ồn ào",
+              "C. Đột biến gen khiến loài chim bị giảm thính lực",
+              "D. Sự dịch chuyển sang bắt chước tần số của tiếng còi báo động nhân tạo"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Furthermore, many urban songbirds demonstrate the 'Lombard effect'—an involuntary increase in vocal amplitude or loudness in response to noisy surroundings, analogous to humans raising their voices in crowded cafeterias. [Paragraph 3]",
+            "evidenceVi": "Hơn nữa, nhiều loài chim hót đô thị thể hiện 'hiệu ứng Lombard'—một sự gia tăng không chủ ý về biên độ hoặc độ lớn của giọng hót để phản ứng lại môi trường xung quanh ồn ào, tương tự như con người nói to hơn trong quán ăn đông đúc. [Đoạn 3]",
+            "explanation": "Hiệu ứng Lombard được định nghĩa chính xác là 'an involuntary increase in vocal amplitude or loudness in response to noisy surroundings', tương ứng trực tiếp với phương án B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết định nghĩa (Factual Detail)",
+              "cluePassage": "an involuntary increase in vocal amplitude or loudness in response to noisy surroundings",
+              "clueAnswer": "An involuntary increase in vocal loudness in noisy surroundings",
+              "keyPassage": "involuntary increase in vocal amplitude or loudness",
+              "keyAnswer": "involuntary increase in vocal loudness",
+              "paraphrasePair": "involuntary increase in amplitude <=> involuntary increase in loudness",
+              "meaningVi": "Tăng biên độ âm không tự chủ <=> Tăng âm lượng không chủ ý",
+              "deductionLogic": "Chọn B vì khớp từng chữ với lời giải thích sau dấu gạch ngang ở đoạn 3."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "What serious drawback is associated with nocturnal singing in urban songbirds (paragraph 4)?",
+            "questionVi": "Hạn chế nghiêm trọng nào gắn liền với việc hót ban đêm ở các loài chim hót đô thị (đoạn 4)?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "It alerts municipal wildlife agencies to capture the birds.",
+              "It permanently damages their respiratory air sacs.",
+              "It leads to sleep deprivation and greater exposure to night predators.",
+              "It causes immediate vocal cord atrophy due to colder temperatures."
+            ],
+            "optionsVi": [
+              "A. Nó báo hiệu cho các cơ quan kiểm lâm đô thị tới bắt giữ loài chim.",
+              "B. Nó làm tổn thương vĩnh viễn các túi khí hô hấp của chúng.",
+              "C. Nó dẫn đến tình trạng thiếu ngủ và tăng nguy cơ bị động vật ăn thịt ban đêm tấn công.",
+              "D. Nó gây teo dây thanh quản ngay lập tức do nhiệt độ lạnh hơn."
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "While this temporal realignment successfully evades daytime acoustic interference, it carries severe metabolic costs, exposing diurnal birds to sleep deprivation and increased vulnerability to nocturnal predators. [Paragraph 4]",
+            "evidenceVi": "Mặc dù sự tái sắp xếp thời gian này giúp tránh được sự can thiệp âm thanh ban ngày một cách thành công, nó kéo theo các chi phí trao đổi chất nặng nề, khiến loài chim hoạt động ban ngày phải chịu cảnh thiếu ngủ và tăng tính dễ bị tổn thương trước những kẻ săn mồi ban đêm. [Đoạn 4]",
+            "explanation": "Văn bản nêu rõ hai hậu quả của việc hót ban đêm: 'sleep deprivation' (thiếu ngủ) và 'increased vulnerability to nocturnal predators' (tăng nguy cơ bị thú săn mồi ban đêm tấn công), đúng với C.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết thông tin (Factual Detail)",
+              "cluePassage": "exposing diurnal birds to sleep deprivation and increased vulnerability to nocturnal predators.",
+              "clueAnswer": "It leads to sleep deprivation and greater exposure to night predators.",
+              "keyPassage": "sleep deprivation and increased vulnerability to nocturnal predators",
+              "keyAnswer": "sleep deprivation and greater exposure to night predators",
+              "paraphrasePair": "vulnerability to nocturnal predators <=> exposure to night predators",
+              "meaningVi": "Tính dễ tổn thương trước kẻ săn mồi đêm <=> Nguy cơ trước động vật ăn thịt đêm",
+              "deductionLogic": "Chọn C. A, B, D là những giả định vô căn cứ không hề có trong bài."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraphs 3 and 4. Where would the following sentence best fit?\n\"In addition to these physical changes, altering the scheduling of vocal performances offers another pathway to survival.\"",
+            "questionVi": "Xem bốn vị trí [A], [B], [C] và [D] trong đoạn 3 và 4. Câu sau đây điền vào vị trí nào là thích hợp nhất?\n\"Bên cạnh những thay đổi thể chất này, việc thay đổi lịch trình hót mang lại một lộ trình sinh tồn khác.\"",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "A. Vị trí [A]",
+              "B. Vị trí [B]",
+              "C. Vị trí [C]",
+              "D. Vị trí [D]"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Beyond modulating pitch and volume, songbirds alter temporal singing patterns to navigate human-dominated soundscapes. [Paragraph 4]",
+            "evidenceVi": "Bên cạnh việc điều chỉnh cao độ và âm lượng, loài chim hót biến đổi các khuôn mẫu hót theo thời gian để vượt qua không gian âm thanh do con người thống trị. [Đoạn 4]",
+            "explanation": "Đoạn 3 bàn về các thay đổi thể chất (physical changes: pitch elevation & volume increase/Lombard effect). Đầu đoạn 4 bắt đầu chuyển sang chủ đề thay đổi thời gian (temporal patterns/scheduling). Do đó câu nối chuyển tiếp 'In addition to these physical changes, altering the scheduling...' nằm chuẩn xác nhất tại vị trí [C].",
+            "postReading": {
+              "type": "sentence_insertion",
+              "typeLabel": "Điền câu vào văn bản (Sentence Insertion)",
+              "cluePassage": "[C] In heavily congested metropolitan centers, several species have been observed shifting their dawn choruses substantially earlier...",
+              "clueAnswer": "In addition to these physical changes, altering the scheduling of vocal performances offers another pathway to survival.",
+              "keyPassage": "Beyond modulating pitch and volume... alter temporal singing patterns [C]",
+              "keyAnswer": "In addition to these physical changes... altering the scheduling",
+              "paraphrasePair": "pitch and volume <=> physical changes; temporal patterns <=> scheduling",
+              "meaningVi": "Cao độ và âm lượng <=> Thay đổi thể chất; Khuôn mẫu thời gian <=> Lịch trình hót",
+              "deductionLogic": "Câu cần chèn đóng vai trò câu chuyển ý hoàn hảo từ đoạn 3 (thể chất) sang đoạn 4 (thời gian), đặt tại [C]."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "Why might higher-frequency singing paradoxically harm a male bird's reproductive chances (paragraph 5)?",
+            "questionVi": "Vì sao việc hót ở tần số cao hơn lại có thể gây tổn hại một cách nghịch lý đến cơ hội sinh sản của chim trống (đoạn 5)?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "Females may naturally prefer lower, acoustically complex songs that signal vigor.",
+              "Higher-frequency sounds cause the male's vocal organs to hemorrhage during mating season.",
+              "Neighbouring males perceive higher-pitched songs as territorial surrenders.",
+              "High pitches attract swarms of parasitic insects directly into the nesting cavity."
+            ],
+            "optionsVi": [
+              "A. Chim mái có thể vốn ưa chuộng những bài hót trầm, phức tạp về âm học thể hiện sinh lực.",
+              "B. Âm thanh tần số cao làm cơ quan phát âm của chim trống bị xuất huyết trong mùa sinh sản.",
+              "C. Các con chim trống láng giềng coi tiếng hót the thé như lời đầu hàng lãnh thổ.",
+              "D. Âm vực cao thu hút đàn côn trùng ký sinh bay thẳng vào hốc tổ."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Higher-frequency songs often contain less tonal complexity, which can paradoxically diminish a male's attractiveness to females programmed to prefer rich, low-frequency vocal displays. [Paragraph 5]",
+            "evidenceVi": "Các bài hát tần số cao thường chứa ít sự phức tạp về âm sắc hơn, điều này có thể làm giảm sức hấp dẫn của chim trống đối với chim mái vốn được lập trình để ưa chuộng các màn trình diễn giọng trầm phong phú. [Đoạn 5]",
+            "explanation": "Văn bản giải thích chim mái được lập trình tự nhiên để chuộng giọng hót trầm phong phú và phức tạp ('prefer rich, low-frequency vocal displays'). Do đó, khi chim trống nâng cao độ thì bài hót bớt phong phú đi, làm giảm sức hấp dẫn, đúng với A.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận nhân quả (Inference)",
+              "cluePassage": "diminish a male's attractiveness to females programmed to prefer rich, low-frequency vocal displays.",
+              "clueAnswer": "Females may naturally prefer lower, acoustically complex songs that signal vigor.",
+              "keyPassage": "prefer rich, low-frequency vocal displays",
+              "keyAnswer": "prefer lower, acoustically complex songs",
+              "paraphrasePair": "rich, low-frequency displays <=> lower, acoustically complex songs",
+              "meaningVi": "Màn trình diễn giọng trầm phong phú <=> Giọng hót trầm, phức tạp về âm học",
+              "deductionLogic": "Chọn A vì giải thích chính xác cơ chế chọn lọc bạn tình của chim mái ở câu thứ hai của đoạn 5."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "What conclusion does the author reach regarding the conservation of urban avian biodiversity?",
+            "questionVi": "Tác giả đi đến kết luận gì liên quan đến việc bảo tồn đa dạng sinh học các loài chim đô thị?",
+            "questionType": "DẠNG 07: KẾT LUẬN / Ý KIẾN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "All urban songbirds will naturally evolve immunity to noise within another decade.",
+              "Preservation requires deliberate engineering measures to quiet cities rather than expecting birds to adapt alone.",
+              "Wild birds should be removed from city parks and confined strictly to rural sanctuaries.",
+              "Traffic noise should be embraced as an inevitable acoustic enhancement to human civilization."
+            ],
+            "optionsVi": [
+              "A. Mọi loài chim hót đô thị sẽ tự nhiên tiến hóa khả năng miễn nhiễm với tiếng ồn trong vòng một thập kỷ tới.",
+              "B. Việc bảo tồn đòi hỏi các giải pháp công trình có chủ đích để làm yên tĩnh đô thị thay vì kỳ vọng loài chim tự thích nghi.",
+              "C. Chim hoang dã nên được di dời khỏi công viên thành phố và giam giữ nghiêm ngặt tại các khu bảo tồn nông thôn.",
+              "D. Tiếng ồn giao thông nên được đón nhận như một nét nâng tầm âm thanh tất yếu của nền văn minh nhân loại."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Preserving urban biodiversity ultimately necessitates civil engineering interventions, such as installing noise-absorbing roadside barriers, expanding green acoustic buffers, and transitioning toward whisper-quiet electric transport infrastructure. [Paragraph 5]",
+            "evidenceVi": "Bảo tồn đa dạng sinh học đô thị rốt cuộc đòi hỏi các can thiệp kỹ thuật xây dựng dân dụng, chẳng hạn như lắp đặt các rào chắn hấp thụ tiếng ồn ven đường, mở rộng các vùng đệm xanh giảm âm và chuyển đổi sang cơ sở hạ tầng giao thông điện vận hành êm ái. [Đoạn 5]",
+            "explanation": "Tác giả kết luận rằng không thể trông chờ loài chim thích ứng mãi mà con người phải chủ động can thiệp bằng các biện pháp công trình kỹ thuật để giảm tiếng ồn đô thị, đúng với phương án B.",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Kết luận tác giả (Author's Conclusion)",
+              "cluePassage": "Preserving urban biodiversity ultimately necessitates civil engineering interventions, such as installing noise-absorbing roadside barriers, expanding green acoustic buffers...",
+              "clueAnswer": "Preservation requires deliberate engineering measures to quiet cities rather than expecting birds to adapt alone.",
+              "keyPassage": "necessitates civil engineering interventions... green acoustic buffers",
+              "keyAnswer": "requires deliberate engineering measures to quiet cities",
+              "paraphrasePair": "civil engineering interventions <=> deliberate engineering measures",
+              "meaningVi": "Can thiệp công trình kỹ thuật <=> Biện pháp kỹ thuật xây dựng có chủ đích",
+              "deductionLogic": "Chọn B vì tóm lược trọn vẹn khuyến nghị chính sách của tác giả ở câu kết toàn bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Social Media Across Generations",
+        "topic": "Xã hội học truyền thông & Khảo sát sử dụng MXH giữa các thế hệ",
+        "timeAllowed": 15,
+        "passage": "<p>In the relatively brief span of two decades, social media platforms have evolved from fringe collegiate networking portals into the dominant communication infrastructure of global society. However, the assumption that users interact with these digital networks in a uniform fashion is fundamentally flawed. Contemporary sociological and market research reveals that generational cohorts demonstrate distinct psychological motivations, consumption patterns, and privacy thresholds when navigating virtual spaces. Nowhere is this divergence more <strong>pronounced</strong> than in how Baby Boomers, Generation X, and Generation Z engage with mainstream social networks, most notably Meta's Facebook platform.</p><p>For Baby Boomers (born between 1946 and 1964), the adoption of social media occurred relatively late in their adult lives, yet this demographic has paradoxically become Facebook's fastest-growing and most steadfast user group. Boomers primarily perceive the platform through a utilitarian lens of interpersonal maintenance. Living in an era where adult children and extended relatives are frequently dispersed across continents, older adults utilize the platform as a vital digital hearth—a means to view photographs of grandchildren, revive long-dormant high school acquaintanceships, and combat the physical isolation often associated with retirement. [A] Furthermore, Boomers demonstrate a distinct content sharing style characterized by public status updates, political commentary, and reciprocal commenting, viewing the network as an open public square rather than a carefully curated gallery.</p><p>In stark contrast, Generation Z (born from the late 1990s through early 2010s)—the first generation of true digital natives who grew up with smartphones as ubiquitous childhood artifacts—interacts with social media through an entirely different paradigm. [B] Having observed the permanent digital footprints and embarrassing historical posts of their predecessors, Gen Z users approach public social sharing with intense skepticism and guarded deliberation. While they maintain Facebook accounts primarily out of pragmatic necessity—such as participating in university group projects, searching for apartment roommates, or utilizing second-hand marketplaces—they have largely abandoned the platform as an authentic venue for personal expression. Instead, their social engagement has migrated toward visually driven, ephemeral platforms like Instagram, TikTok, and Snapchat, alongside encrypted messaging channels where interactions disappear after viewing.</p><p>This generational schism extends profoundly into attitudes surrounding digital surveillance and algorithmic curation. Generation Z displays an acute awareness of data harvesting and commercial tracking. [C] Consequently, they routinely employ sophisticated privacy countermeasures, including creating pseudonymous alternative profiles (\"finstas\"), disabling geo-location metadata, and segmenting their audience via \"Close Friends\" lists. [D] Conversely, older cohorts exhibit a considerably more trusting—and vulnerable—relationship with algorithmic content. Studies indicate that Boomers are statistically far more susceptible to algorithmic echo chambers, hyper-partisan sensationalism, and misleading dis-information, largely because their digital literacy was acquired informally in adulthood without systematic training in source interrogation.</p><p>The divergent trajectories of these demographic cohorts have precipitated a profound transformation in how social media companies design interfaces and monetize attention. Platforms once celebrated as universal public forums are increasingly fragmenting into specialized, age-segregated silos. As older users consolidate their dominance over text-centric legacy networks, younger generations actively construct ephemeral, decentralized digital micro-communities. Ultimately, understanding these generational dynamics is not merely a marketing imperative for tech conglomerates; it is critical for comprehending broader sociological shifts in democratic discourse, intergenerational empathy, and the evolving nature of human connection in an algorithmically mediated world.</p>",
+        "vocab": [
+          {
+            "word": "collegiate",
+            "pos": "adj",
+            "ipa": "/kəˈliː.dʒi.ət/",
+            "level": "B2",
+            "mean": "thuộc về sinh viên đại học, liên quan đến trường đại học",
+            "syns": [
+              "university-related",
+              "academic",
+              "campus"
+            ],
+            "ex": "Facebook originated as an exclusive collegiate networking platform at Harvard."
+          },
+          {
+            "word": "fringe",
+            "pos": "adj",
+            "ipa": "/frɪndʒ/",
+            "level": "C1",
+            "mean": "ngoài lề, nhóm thiểu số, không thuộc dòng chính",
+            "syns": [
+              "marginal",
+              "peripheral",
+              "unconventional",
+              "niche"
+            ],
+            "ex": "What began as a fringe digital experiment grew into a global media empire."
+          },
+          {
+            "word": "cohort",
+            "pos": "n",
+            "ipa": "/ˈkəʊ.hɔːt/",
+            "level": "C1",
+            "mean": "nhóm đối tượng nhân khẩu học cùng chung một thời kỳ",
+            "syns": [
+              "demographic group",
+              "generation",
+              "contingent"
+            ],
+            "ex": "Each generational cohort exhibits distinct attitudes toward online privacy."
+          },
+          {
+            "word": "pronounced",
+            "pos": "adj",
+            "ipa": "/prəˈnaʊnst/",
+            "level": "B2",
+            "mean": "rõ ràng, rõ rệt, nổi bật dễ nhận thấy",
+            "syns": [
+              "conspicuous",
+              "noticeable",
+              "marked",
+              "prominent"
+            ],
+            "ex": "The behavioral divergence between age groups is especially pronounced on social media."
+          },
+          {
+            "word": "steadfast",
+            "pos": "adj",
+            "ipa": "/ˈsted.fɑːst/",
+            "level": "C1",
+            "mean": "kiên định, trung thành bền bỉ không lay chuyển",
+            "syns": [
+              "loyal",
+              "unwavering",
+              "dedicated",
+              "faithful"
+            ],
+            "ex": "Older users have become the platform's most steadfast and active demographic."
+          },
+          {
+            "word": "hearth",
+            "pos": "n",
+            "ipa": "/hɑːθ/",
+            "level": "C1",
+            "mean": "lò sưởi gia đình, biểu tượng của sự ấm cúng và sum họp gia đình",
+            "syns": [
+              "fireside",
+              "home center",
+              "gathering place"
+            ],
+            "ex": "The digital platform acts as a virtual hearth connecting grandparents with distant relatives."
+          },
+          {
+            "word": "dormant",
+            "pos": "adj",
+            "ipa": "/ˈdɔː.mənt/",
+            "level": "B2",
+            "mean": "ngủ yên, tạm ngừng hoạt động trong thời gian dài",
+            "syns": [
+              "inactive",
+              "quiescent",
+              "latent",
+              "asleep"
+            ],
+            "ex": "Social networks allow retirees to revive long-dormant friendships from their school days."
+          },
+          {
+            "word": "curated",
+            "pos": "adj",
+            "ipa": "/kjʊəˈreɪ.tɪd/",
+            "level": "B2",
+            "mean": "được chọn lọc và trau chuốt tỉ mỉ trước khi trưng bày",
+            "syns": [
+              "selected",
+              "carefully organized",
+              "edited"
+            ],
+            "ex": "Younger generations treat their profiles as a curated portfolio of aesthetic snapshots."
+          },
+          {
+            "word": "digital native",
+            "pos": "n.phr",
+            "ipa": "/ˌdɪdʒ.ɪ.təl ˈneɪ.tɪv/",
+            "level": "B2",
+            "mean": "thế hệ bản địa kỹ thuật số (sinh ra và lớn lên cùng công nghệ Internet)",
+            "syns": [
+              "tech-innate generation",
+              "screen native"
+            ],
+            "ex": "Digital natives navigate complex touch interfaces with effortless intuitive fluency."
+          },
+          {
+            "word": "predecessor",
+            "pos": "n",
+            "ipa": "/ˈpriː.dɪˌses.ər/",
+            "level": "B2",
+            "mean": "người đi trước, thế hệ tiền bối",
+            "syns": [
+              "forebear",
+              "ancestor",
+              "antecedent",
+              "earlier generation"
+            ],
+            "ex": "Gen Z observed the permanent online blunders of their millennial predecessors."
+          },
+          {
+            "word": "pragmatic",
+            "pos": "adj",
+            "ipa": "/præɡˈmæt.ɪk/",
+            "level": "C1",
+            "mean": "thực tế, thiên về tính ứng dụng và hiệu quả thực tiễn",
+            "syns": [
+              "practical",
+              "utilitarian",
+              "functional",
+              "matter-of-fact"
+            ],
+            "ex": "Young users maintain accounts out of pragmatic need for academic study groups."
+          },
+          {
+            "word": "ephemeral",
+            "pos": "adj",
+            "ipa": "/ɪˈfem.ər.əl/",
+            "level": "C1",
+            "mean": "phù du, chỉ tồn tại trong thời gian rất ngắn rồi biến mất",
+            "syns": [
+              "transitory",
+              "fleeting",
+              "short-lived",
+              "momentary"
+            ],
+            "ex": "Ephemeral photo messages disappear seconds after being viewed by the recipient."
+          },
+          {
+            "word": "encrypted",
+            "pos": "adj",
+            "ipa": "/ɪnˈkrɪp.tɪd/",
+            "level": "B2",
+            "mean": "được mã hóa bảo mật đầu cuối",
+            "syns": [
+              "ciphered",
+              "secured",
+              "encoded"
+            ],
+            "ex": "Youth conversations have largely migrated to encrypted messaging platforms."
+          },
+          {
+            "word": "schism",
+            "pos": "n",
+            "ipa": "/ˈskɪz.əm/",
+            "level": "C1",
+            "mean": "sự chia rẽ sâu sắc, sự phân hóa rạn nứt thành hai phe",
+            "syns": [
+              "division",
+              "split",
+              "rift",
+              "rupture"
+            ],
+            "ex": "A generational schism has emerged regarding data privacy and platform loyalty."
+          },
+          {
+            "word": "surveillance",
+            "pos": "n",
+            "ipa": "/səˈveɪ.ləns/",
+            "level": "B2",
+            "mean": "sự giám sát, sự theo dõi bí mật",
+            "syns": [
+              "monitoring",
+              "observation",
+              "tracking",
+              "scrutiny"
+            ],
+            "ex": "Corporate data surveillance tracks user browsing behavior across the web."
+          },
+          {
+            "word": "countermeasure",
+            "pos": "n",
+            "ipa": "/ˈkaʊn.təˌmeʒ.ər/",
+            "level": "C1",
+            "mean": "biện pháp đối phó, giải pháp ngăn chặn trả đũa",
+            "syns": [
+              "precaution",
+              "defensive action",
+              "safeguard"
+            ],
+            "ex": "Young people employ countermeasures such as disabling geolocation tracking."
+          },
+          {
+            "word": "pseudonymous",
+            "pos": "adj",
+            "ipa": "/sjuːˈdɒn.ɪ.məs/",
+            "level": "C1",
+            "mean": "sử dụng bí danh, mang tên giả để ẩn danh",
+            "syns": [
+              "alias-based",
+              "fictitious-named",
+              "incognito"
+            ],
+            "ex": "Many teenagers maintain pseudonymous accounts to escape parental scrutiny."
+          },
+          {
+            "word": "susceptible",
+            "pos": "adj",
+            "ipa": "/səˈsep.tə.bəl/",
+            "level": "B2",
+            "mean": "dễ bị ảnh hưởng, nhạy cảm dễ bị tổn thương/lừa dối",
+            "syns": [
+              "vulnerable",
+              "prone",
+              "exposed",
+              "liable"
+            ],
+            "ex": "Older adults are statistically more susceptible to sensationalist fake news headlines."
+          },
+          {
+            "word": "echo chamber",
+            "pos": "n.phr",
+            "ipa": "/ˈek.əʊ ˌtʃeɪm.bər/",
+            "level": "C1",
+            "mean": "buồng vang thông tin (môi trường chỉ phản hồi ý kiến giống mình)",
+            "syns": [
+              "information bubble",
+              "confirmation loop"
+            ],
+            "ex": "Algorithms trap consumers inside ideological echo chambers that reinforce bias."
+          },
+          {
+            "word": "sensationalism",
+            "pos": "n",
+            "ipa": "/senˈseɪ.ʃən.əl.ɪ.zəm/",
+            "level": "B2",
+            "mean": "xu hướng giật gân, câu khách bằng nội dung kích động",
+            "syns": [
+              "yellow journalism",
+              "melodrama",
+              "provocation"
+            ],
+            "ex": "Headlines designed around emotional sensationalism generate rapid viral shares."
+          },
+          {
+            "word": "dis-information",
+            "pos": "n",
+            "ipa": "/ˌdɪs.ɪn.fəˈmeɪ.ʃən/",
+            "level": "B2",
+            "mean": "thông tin giả mạo có chủ đích nhằm thao túng nhận thức",
+            "syns": [
+              "fake news",
+              "propaganda",
+              "deliberate falsehood"
+            ],
+            "ex": "Combating political dis-information requires systematic critical source interrogation."
+          },
+          {
+            "word": "monetize",
+            "pos": "v",
+            "ipa": "/ˈmʌn.ɪ.taɪz/",
+            "level": "C1",
+            "mean": "kiếm tiền từ, thương mại hóa một dịch vụ hoặc lưu lượng truy cập",
+            "syns": [
+              "commercialize",
+              "cash in on",
+              "capitalize on"
+            ],
+            "ex": "Tech giants design sticky features to monetize user attention through targeted advertisements."
+          },
+          {
+            "word": "silo",
+            "pos": "n",
+            "ipa": "/ˈsaɪ.ləʊ/",
+            "level": "C1",
+            "mean": "kho chứa riêng biệt, tình trạng phân chia biệt lập không giao tiếp",
+            "syns": [
+              "isolated compartment",
+              "segregated sector",
+              "island"
+            ],
+            "ex": "Online communities are fragmenting into demographic silos with little cross-age dialogue."
+          },
+          {
+            "word": "consolidate",
+            "pos": "v",
+            "ipa": "/kənˈsɒl.ɪ.deɪt/",
+            "level": "C1",
+            "mean": "củng cố, tăng cường vị thế vững chắc",
+            "syns": [
+              "strengthen",
+              "solidify",
+              "cement",
+              "reinforce"
+            ],
+            "ex": "Older generations continue to consolidate their numeric dominance on text-based forums."
+          },
+          {
+            "word": "decentralized",
+            "pos": "adj",
+            "ipa": "/diːˈsen.trə.laɪzd/",
+            "level": "C1",
+            "mean": "phi tập trung, phân tán quyền kiểm soát không qua trung tâm",
+            "syns": [
+              "distributed",
+              "dispersed",
+              "non-hierarchical"
+            ],
+            "ex": "Youth networks thrive on decentralized server architectures and private servers."
+          },
+          {
+            "word": "imperative",
+            "pos": "n",
+            "ipa": "/ɪmˈper.ə.tɪv/",
+            "level": "C1",
+            "mean": "mệnh lệnh cấp bách, nhu cầu tất yếu bắt buộc phải làm",
+            "syns": [
+              "necessity",
+              "priority",
+              "pressing demand",
+              "duty"
+            ],
+            "ex": "Understanding algorithmic psychology is an urgent societal imperative for democratic survival."
+          },
+          {
+            "word": "mediated",
+            "pos": "adj",
+            "ipa": "/ˈmiː.di.eɪ.tɪd/",
+            "level": "C1",
+            "mean": "được truyền dẫn qua trung gian, được định hình qua công nghệ",
+            "syns": [
+              "facilitated",
+              "filtered",
+              "technology-channeled"
+            ],
+            "ex": "Modern youth experience interpersonal relationships heavily mediated by digital screens."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "What is the central focus of the passage?",
+            "questionVi": "Trọng tâm chính của bài đọc là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "A technical breakdown of server architecture powering Meta's social platforms",
+              "The stark generational differences in social media usage, motivations, and privacy behaviors",
+              "A legal analysis of global regulations regarding digital marketing to minors",
+              "The historical collapse of print journalism caused by algorithmic newsfeeds"
+            ],
+            "optionsVi": [
+              "A. Bản phân tích kỹ thuật về kiến trúc máy chủ vận hành các nền tảng của Meta",
+              "B. Sự khác biệt thế hệ sâu sắc trong cách sử dụng, động cơ và hành vi bảo mật trên mạng xã hội",
+              "C. Phân tích pháp lý về các quy định toàn cầu liên quan đến tiếp thị số cho trẻ vị thành niên",
+              "D. Sự sụp đổ lịch sử của báo in do các bảng tin thuật toán gây ra"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Contemporary sociological and market research reveals that generational cohorts demonstrate distinct psychological motivations, consumption patterns, and privacy thresholds when navigating virtual spaces. [Paragraph 1]",
+            "evidenceVi": "Nghiên cứu xã hội học và thị trường đương đại cho thấy các nhóm thế hệ thể hiện những động cơ tâm lý, khuôn mẫu tiêu dùng và ngưỡng bảo mật riêng biệt khi tham gia các không gian ảo. [Đoạn 1]",
+            "explanation": "Bài đọc so sánh chi tiết giữa Baby Boomers, Gen X và Gen Z về mục đích dùng Facebook, cách chia sẻ nội dung và nhận thức về quyền riêng tư. Do đó B là đáp án tóm lược chuẩn xác nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "generational cohorts demonstrate distinct psychological motivations, consumption patterns, and privacy thresholds...",
+              "clueAnswer": "The stark generational differences in social media usage, motivations, and privacy behaviors",
+              "keyPassage": "generational cohorts demonstrate distinct motivations... privacy thresholds",
+              "keyAnswer": "generational differences in social media usage, motivations, and privacy behaviors",
+              "paraphrasePair": "distinct motivations & thresholds <=> generational differences in usage and privacy",
+              "meaningVi": "Động cơ và ngưỡng riêng biệt <=> Sự khác biệt thế hệ về cách dùng và bảo mật",
+              "deductionLogic": "B là đáp án toàn diện. A, C, D là các chi tiết lạc đề không được bài đọc nhắc tới."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "The word 'pronounced' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'pronounced' trong đoạn 1 có nghĩa gần nhất với:",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "inconsequential",
+              "conspicuous",
+              "ambiguous",
+              "tentative"
+            ],
+            "optionsVi": [
+              "A. không quan trọng, vụn vặt",
+              "B. rõ ràng, nổi bật dễ thấy",
+              "C. mơ hồ, đa nghĩa",
+              "D. ngập ngừng, tạm thời"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Nowhere is this divergence more pronounced than in how Baby Boomers, Generation X, and Generation Z engage with mainstream social networks... [Paragraph 1]",
+            "evidenceVi": "Không nơi nào mà sự phân kỳ này lại rõ rệt hơn là trong cách mà thế hệ Baby Boomers, Gen X và Gen Z tương tác với các mạng xã hội chính thống... [Đoạn 1]",
+            "explanation": "'Pronounced' có nghĩa là rõ nét, nổi bật, dễ thấy (noticeable, conspicuous). 'Conspicuous' là từ đồng nghĩa chính xác nhất.",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Closest in Meaning)",
+              "cluePassage": "Nowhere is this divergence more pronounced than in how Baby Boomers, Generation X, and Generation Z engage...",
+              "clueAnswer": "conspicuous",
+              "keyPassage": "divergence more pronounced",
+              "keyAnswer": "conspicuous",
+              "paraphrasePair": "pronounced <=> conspicuous",
+              "meaningVi": "Rõ rệt, nổi bật <=> Dễ thấy, nổi bật",
+              "deductionLogic": "Chọn B vì cả hai đều biểu thị đặc tính rõ ràng, đập vào mắt người quan sát."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "According to paragraph 2, what primary function does Facebook serve for Baby Boomers?",
+            "questionVi": "Theo đoạn 2, Facebook phục vụ chức năng chính nào cho thế hệ Baby Boomers?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "A professional incubator for launching high-tech startups",
+              "A digital hearth to maintain family ties and overcome retirement isolation",
+              "An anonymous forum for expressing artistic visual portfolios",
+              "A competitive gaming portal for participating in e-sports tournaments"
+            ],
+            "optionsVi": [
+              "A. Vườn ươm chuyên nghiệp để khởi nghiệp công nghệ cao",
+              "B. Chiếc lò sưởi số giúp duy trì mối quan hệ gia đình và vượt qua sự cô lập tuổi hưu",
+              "C. Diễn đàn ẩn danh để thể hiện hồ sơ tác phẩm nghệ thuật thị giác",
+              "D. Cổng chơi game cạnh tranh để tham gia các giải đấu thể thao điện tử"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...older adults utilize the platform as a vital digital hearth—a means to view photographs of grandchildren, revive long-dormant high school acquaintanceships, and combat the physical isolation often associated with retirement. [Paragraph 2]",
+            "evidenceVi": "...người lớn tuổi sử dụng nền tảng này như một chiếc lò sưởi số thiết yếu—một phương tiện để xem ảnh cháu chắt, làm sống lại các mối quan hệ bạn học cũ và chống lại sự cô lập về mặt thể chất thường gắn liền với việc nghỉ hưu. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ người cao tuổi xem Facebook là 'vital digital hearth' để xem ảnh gia đình và 'combat the physical isolation often associated with retirement', hoàn toàn trùng khớp với B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết thông tin (Factual Detail)",
+              "cluePassage": "vital digital hearth—a means to view photographs of grandchildren... and combat the physical isolation often associated with retirement.",
+              "clueAnswer": "A digital hearth to maintain family ties and overcome retirement isolation",
+              "keyPassage": "digital hearth... combat physical isolation",
+              "keyAnswer": "digital hearth to maintain family ties and overcome isolation",
+              "paraphrasePair": "combat isolation <=> overcome isolation",
+              "meaningVi": "Chống lại sự cô lập <=> Vượt qua sự cô đơn",
+              "deductionLogic": "Chọn B theo nội dung câu thứ ba của đoạn 2."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "Why has Generation Z largely abandoned Facebook as a venue for personal expression (paragraph 3)?",
+            "questionVi": "Tại sao thế hệ Gen Z phần lớn đã từ bỏ Facebook làm nơi thể hiện bản thân cá nhân (đoạn 3)?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "They lack the computer literacy required to navigate desktop interfaces.",
+              "They are wary of permanent digital footprints and prefer visual, disappearing media.",
+              "Subscription fees on Facebook have become unaffordable for students.",
+              "Government firewalls prohibit teenagers from accessing the platform."
+            ],
+            "optionsVi": [
+              "A. Họ thiếu kiến thức tin học cần thiết để điều hướng giao diện máy tính.",
+              "B. Họ cảnh giác với dấu chân kỹ thuật số vĩnh viễn và ưa chuộng các phương tiện thị giác tự xóa.",
+              "C. Phí đăng ký sử dụng Facebook đã trở nên quá đắt đỏ đối với học sinh sinh viên.",
+              "D. Tường lửa chính phủ cấm thanh thiếu niên truy cập vào nền tảng này."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Having observed the permanent digital footprints and embarrassing historical posts of their predecessors, Gen Z users approach public social sharing with intense skepticism... Instead, their social engagement has migrated toward visually driven, ephemeral platforms... [Paragraph 3]",
+            "evidenceVi": "Nhìn thấy những dấu chân kỹ thuật số vĩnh viễn và các bài đăng đáng xấu hổ trong quá khứ của thế hệ đi trước, người dùng Gen Z tiếp cận việc chia sẻ công khai với sự hoài nghi sâu sắc... Thay vào đó, sự tương tác xã hội của họ chuyển dịch sang các nền tảng thị giác, tạm thời... [Đoạn 3]",
+            "explanation": "Gen Z cảnh giác trước các 'permanent digital footprints' và chuyển sang các nền tảng 'visually driven, ephemeral platforms' (hình ảnh, tự biến mất), khớp với phương án B.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Nguyên nhân hành vi (Inference)",
+              "cluePassage": "observed the permanent digital footprints and embarrassing historical posts... migrated toward visually driven, ephemeral platforms...",
+              "clueAnswer": "They are wary of permanent digital footprints and prefer visual, disappearing media.",
+              "keyPassage": "permanent digital footprints... visually driven, ephemeral platforms",
+              "keyAnswer": "permanent digital footprints... visual, disappearing media",
+              "paraphrasePair": "ephemeral platforms <=> disappearing media",
+              "meaningVi": "Nền tảng phù du/ngắn hạn <=> Phương tiện tự biến mất",
+              "deductionLogic": "Chọn B vì 'ephemeral' = 'disappearing' và 'wary of' = 'approach with intense skepticism'."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "According to paragraph 3, what is one pragmatic reason Gen Z users continue to keep Facebook accounts?",
+            "questionVi": "Theo đoạn 3, một lý do thực dụng khiến người dùng Gen Z vẫn giữ tài khoản Facebook là gì?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "To post daily public journals about their emotional lives",
+              "To coordinate academic group assignments and buy second-hand goods",
+              "To verify their credit scores with commercial banking institutions",
+              "To participate in political debates with foreign diplomats"
+            ],
+            "optionsVi": [
+              "A. Để đăng nhật ký công khai hàng ngày về đời sống cảm xúc của họ",
+              "B. Để điều phối các bài tập nhóm học tập và mua bán đồ cũ",
+              "C. Để xác minh điểm tín dụng với các tổ chức ngân hàng thương mại",
+              "D. Để tham gia các cuộc tranh luận chính trị với các nhà ngoại giao nước ngoài"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "While they maintain Facebook accounts primarily out of pragmatic necessity—such as participating in university group projects, searching for apartment roommates, or utilizing second-hand marketplaces—they have largely abandoned the platform as an authentic venue for personal expression. [Paragraph 3]",
+            "evidenceVi": "Mặc dù họ duy trì tài khoản Facebook chủ yếu vì nhu cầu thực tế—chẳng hạn như tham gia các dự án nhóm đại học, tìm bạn cùng phòng trọ hoặc sử dụng chợ đồ cũ—họ phần lớn đã từ bỏ nền tảng này làm nơi thể hiện chân thực cá nhân. [Đoạn 3]",
+            "explanation": "Bài đọc liệt kê các lý do thực tế của Gen Z: tham gia dự án nhóm ('participating in university group projects') và dùng chợ đồ cũ ('utilizing second-hand marketplaces'), khớp với B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết thông tin (Factual Detail)",
+              "cluePassage": "participating in university group projects, searching for apartment roommates, or utilizing second-hand marketplaces...",
+              "clueAnswer": "To coordinate academic group assignments and buy second-hand goods",
+              "keyPassage": "university group projects... second-hand marketplaces",
+              "keyAnswer": "academic group assignments and buy second-hand goods",
+              "paraphrasePair": "university projects & marketplaces <=> academic assignments & second-hand goods",
+              "meaningVi": "Dự án đại học & chợ đồ cũ <=> Bài tập học thuật & mua bán đồ cũ",
+              "deductionLogic": "Chọn B đối chiếu trực tiếp danh sách trong ngoặc đơn ở đoạn 3."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "The word 'schism' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'schism' trong đoạn 4 có nghĩa gần nhất với:",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "consensus",
+              "division",
+              "symbiosis",
+              "convergence"
+            ],
+            "optionsVi": [
+              "A. sự đồng thuận nhất trí",
+              "B. sự phân chia, chia rẽ rạn nứt",
+              "C. sự cộng sinh tương hỗ",
+              "D. sự hội tụ hợp nhất"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "This generational schism extends profoundly into attitudes surrounding digital surveillance and algorithmic curation. [Paragraph 4]",
+            "evidenceVi": "Sự phân chia thế hệ này mở rộng sâu sắc sang các thái độ xoay quanh sự giám sát kỹ thuật số và việc quản lý bằng thuật toán. [Đoạn 4]",
+            "explanation": "Từ 'schism' bắt nguồn từ tiếng Hy Lạp mang nghĩa chia rẽ, phân hóa sâu sắc (split, rift, division). Từ đồng nghĩa chuẩn xác nhất là 'division'.",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Closest in Meaning)",
+              "cluePassage": "This generational schism extends profoundly into attitudes surrounding digital surveillance...",
+              "clueAnswer": "division",
+              "keyPassage": "generational schism",
+              "keyAnswer": "division",
+              "paraphrasePair": "schism <=> division",
+              "meaningVi": "Sự chia rẽ, rạn nứt <=> Sự phân chia",
+              "deductionLogic": "Chọn B vì A, C, D đều mang nghĩa hội tụ/đồng thuận, hoàn toàn trái nghĩa với 'schism'."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "Which of the following is described in paragraph 4 as a privacy tactic employed by Generation Z?",
+            "questionVi": "Điều nào sau đây được mô tả trong đoạn 4 như một chiến thuật bảo mật được thế hệ Gen Z áp dụng?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Encrypting their broadband routers with government hardware",
+              "Creating pseudonymous secondary accounts and disabling location tracking",
+              "Refusing to own any internet-connected digital mobile devices",
+              "Paying monthly subscriptions to remove algorithmic advertisements"
+            ],
+            "optionsVi": [
+              "A. Mã hóa bộ định tuyến băng thông rộng bằng phần cứng chính phủ",
+              "B. Tạo các tài khoản phụ dùng bí danh và tắt tính năng theo dõi vị trí",
+              "C. Từ chối sở hữu bất kỳ thiết bị di động nào có kết nối Internet",
+              "D. Trả phí thuê bao hàng tháng để gỡ bỏ quảng cáo thuật toán"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Consequently, they routinely employ sophisticated privacy countermeasures, including creating pseudonymous alternative profiles ('finstas'), disabling geo-location metadata, and segmenting their audience via 'Close Friends' lists. [Paragraph 4]",
+            "evidenceVi": "Do đó, họ thường xuyên sử dụng các biện pháp đối phó bảo mật tinh vi, bao gồm tạo các hồ sơ thay thế dùng bí danh ('finstas'), vô hiệu hóa dữ liệu vị trí địa lý và phân loại khán giả qua danh sách 'Bạn thân'. [Đoạn 4]",
+            "explanation": "Các biện pháp bảo mật của Gen Z được liệt kê rõ: 'creating pseudonymous alternative profiles' và 'disabling geo-location metadata', tương ứng chính xác với phương án B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết thông tin (Factual Detail)",
+              "cluePassage": "creating pseudonymous alternative profiles ('finstas'), disabling geo-location metadata...",
+              "clueAnswer": "Creating pseudonymous secondary accounts and disabling location tracking",
+              "keyPassage": "pseudonymous alternative profiles... disabling geo-location",
+              "keyAnswer": "pseudonymous secondary accounts... disabling location tracking",
+              "paraphrasePair": "alternative profiles & geo-location <=> secondary accounts & location tracking",
+              "meaningVi": "Hồ sơ thay thế & định vị địa lý <=> Tài khoản phụ & theo dõi vị trí",
+              "deductionLogic": "Chọn B theo danh sách biện pháp phòng ngừa ở đoạn 4."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "According to paragraph 4, why are Baby Boomers statistically more vulnerable to digital misinformation?",
+            "questionVi": "Theo đoạn 4, tại sao thế hệ Baby Boomers về mặt thống kê lại dễ bị tổn thương hơn trước thông tin sai lệch trên mạng?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Their eyesight prevents them from reading small font disclaimers.",
+              "They acquired digital literacy informally in adulthood without formal training in source evaluation.",
+              "Social platforms deliberately delete factual news from older users' feeds.",
+              "They only access the Internet during late night hours when fake news peaks."
+            ],
+            "optionsVi": [
+              "A. Thị lực kém ngăn cản họ đọc các dòng ghi chú cảnh báo chữ nhỏ.",
+              "B. Họ tiếp thu kỹ năng số một cách tự phát khi đã trưởng thành mà không qua đào tạo bài bản về thẩm định nguồn tin.",
+              "C. Các nền tảng xã hội cố tình xóa tin tức có thật khỏi bảng tin của người già.",
+              "D. Họ chỉ vào mạng vào đêm khuya khi tin giả đạt đỉnh điểm."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Studies indicate that Boomers are statistically far more susceptible to algorithmic echo chambers, hyper-partisan sensationalism, and misleading dis-information, largely because their digital literacy was acquired informally in adulthood without systematic training in source interrogation. [Paragraph 4]",
+            "evidenceVi": "Các nghiên cứu chỉ ra rằng thế hệ Boomers về mặt thống kê dễ bị ảnh hưởng hơn nhiều bởi các buồng vang thuật toán, xu hướng giật gân bè phái và thông tin sai lệch lừa dối, phần lớn là do kỹ năng số của họ được tiếp nhận một cách tự phát ở tuổi trưởng thành mà không qua đào tạo có hệ thống về thẩm vấn nguồn tin. [Đoạn 4]",
+            "explanation": "Nguyên nhân được tác giả chỉ rõ: kỹ năng số của họ được tiếp thu tự phát khi đã lớn ('acquired informally in adulthood without systematic training in source interrogation'), đúng với phương án B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên nhân (Cause & Effect)",
+              "cluePassage": "largely because their digital literacy was acquired informally in adulthood without systematic training in source interrogation.",
+              "clueAnswer": "They acquired digital literacy informally in adulthood without formal training in source evaluation.",
+              "keyPassage": "digital literacy was acquired informally... without systematic training in source interrogation",
+              "keyAnswer": "acquired digital literacy informally... without formal training in source evaluation",
+              "paraphrasePair": "source interrogation <=> source evaluation",
+              "meaningVi": "Thẩm vấn nguồn tin <=> Đánh giá thẩm định nguồn",
+              "deductionLogic": "Chọn B đối chiếu trực tiếp vế giải thích 'largely because...' ở cuối đoạn 4."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraphs 2, 3, and 4. Where would the following sentence best fit?\n\"Rather than broadcasting their unfiltered lives to hundred of casual acquaintances, they cultivate private digital enclaves.\"",
+            "questionVi": "Xem bốn vị trí [A], [B], [C] và [D] trong các đoạn 2, 3 và 4. Câu sau đây điền vào vị trí nào là thích hợp nhất?\n\"Thay vì phát tán cuộc sống chưa qua kiểm duyệt của mình cho hàng trăm người quen biết sơ sơ, họ xây dựng các không gian kỹ thuật số riêng tư biệt lập.\"",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "A. Vị trí [A]",
+              "B. Vị trí [B]",
+              "C. Vị trí [C]",
+              "D. Vị trí [D]"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Consequently, they routinely employ sophisticated privacy countermeasures, including creating pseudonymous alternative profiles ('finstas'), disabling geo-location metadata, and segmenting their audience via 'Close Friends' lists. [D] Conversely, older cohorts exhibit a considerably more trusting...",
+            "evidenceVi": "Do đó, họ thường xuyên áp dụng các biện pháp bảo mật tinh vi... phân loại khán giả qua danh sách 'Bạn thân'. [D] Ngược lại, các thế hệ lớn tuổi hơn thể hiện mối quan hệ tin tưởng hơn đáng kể...",
+            "explanation": "Câu cần chèn mô tả việc thanh thiếu niên Gen Z không muốn chia sẻ với 'hundreds of casual acquaintances' mà chọn 'private digital enclaves'. Nó bổ nghĩa hoàn hảo cho việc lập 'Close Friends lists' và tài khoản phụ ở câu đứng ngay trước [D], đồng thời làm nổi bật sự đối lập với câu nói về người già ('Conversely...') ngay sau [D].",
+            "postReading": {
+              "type": "sentence_insertion",
+              "typeLabel": "Điền câu vào văn bản (Sentence Insertion)",
+              "cluePassage": "...segmenting their audience via 'Close Friends' lists. [D] Conversely, older cohorts exhibit a considerably more trusting...",
+              "clueAnswer": "Rather than broadcasting their unfiltered lives to hundred of casual acquaintances, they cultivate private digital enclaves.",
+              "keyPassage": "Close Friends lists... [D] Conversely, older cohorts",
+              "keyAnswer": "private digital enclaves (tương thích hoàn toàn với Close Friends)",
+              "paraphrasePair": "Close Friends lists <=> private digital enclaves",
+              "meaningVi": "Danh sách bạn thân <=> Khu vực kỹ thuật số riêng tư",
+              "deductionLogic": "Vị trí [D] kết nối chặt chẽ giữa hành vi tạo danh sách bạn bè kín của Gen Z và sự đối lập ở câu kế tiếp."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "What broader societal implication does the author highlight in the final paragraph?",
+            "questionVi": "Hệ lụy xã hội rộng lớn hơn nào được tác giả nhấn mạnh trong đoạn văn kết bài?",
+            "questionType": "DẠNG 07: KẾT LUẬN / Ý NGHĨA RỘNG (Broader Implication)",
+            "options": [
+              "Age-segregated digital spaces risk undermining intergenerational empathy and cohesive democratic discourse.",
+              "Tech monopolies will soon collapse because younger generations refuse to view commercial advertisements.",
+              "Educational curricula should entirely eliminate computer classes to encourage face-to-face dialogue.",
+              "Retirement homes should ban all internet routers to prevent senior citizens from experiencing digital stress."
+            ],
+            "optionsVi": [
+              "A. Các không gian số bị phân hóa theo độ tuổi có nguy cơ làm xói mòn sự thấu cảm giữa các thế hệ và sự gắn kết trong thảo luận dân chủ.",
+              "B. Các tập đoàn công nghệ độc quyền sẽ sớm sụp đổ vì thế hệ trẻ từ chối xem quảng cáo thương mại.",
+              "C. Chương trình giáo dục nên loại bỏ hoàn toàn các lớp học tin học để khuyến khích đối thoại trực tiếp.",
+              "D. Các viện dưỡng lão nên cấm tất cả bộ phát wifi để ngăn người cao tuổi bị căng thẳng kỹ thuật số."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Ultimately, understanding these generational dynamics is not merely a marketing imperative for tech conglomerates; it is critical for comprehending broader sociological shifts in democratic discourse, intergenerational empathy, and the evolving nature of human connection in an algorithmically mediated world. [Paragraph 5]",
+            "evidenceVi": "Rốt cuộc, việc hiểu rõ các động lực thế hệ này không đơn thuần là mệnh lệnh tiếp thị cho các tập đoàn công nghệ; nó rất quan trọng để thấu hiểu những bước chuyển xã hội học rộng lớn hơn trong diễn ngôn dân chủ, sự thấu cảm giữa các thế hệ và bản chất đang tiến hóa của sự gắn kết con người trong một thế giới được trung gian bởi thuật toán. [Đoạn 5]",
+            "explanation": "Câu cuối cùng nhấn mạnh việc phân hóa thế hệ trên mạng xã hội ảnh hưởng sâu sắc đến 'democratic discourse' (diễn ngôn dân chủ) và 'intergenerational empathy' (sự thấu cảm giữa các thế hệ), tương ứng hoàn hảo với phương án A.",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Hệ lụy xã hội (Broader Implication)",
+              "cluePassage": "critical for comprehending broader sociological shifts in democratic discourse, intergenerational empathy, and the evolving nature of human connection...",
+              "clueAnswer": "Age-segregated digital spaces risk undermining intergenerational empathy and cohesive democratic discourse.",
+              "keyPassage": "democratic discourse, intergenerational empathy",
+              "keyAnswer": "intergenerational empathy and cohesive democratic discourse",
+              "paraphrasePair": "shifts in discourse & empathy <=> risk undermining empathy and discourse",
+              "meaningVi": "Bước chuyển trong đối thoại & thấu cảm <=> Nguy cơ xói mòn thấu cảm và đối thoại",
+              "deductionLogic": "Chọn A theo đúng nội dung câu đúc kết triết lý toàn bài ở đoạn cuối."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Ocean Garbage & Microplastics",
+        "topic": "Hải dương học môi trường: Rác thải đại dương & Khủng hoảng vi nhựa",
+        "timeAllowed": 15,
+        "passage": "<p>Since the advent of mass commercial polymer production in the mid-twentieth century, plastics have become the quintessential material of global industrialization. Celebrated for their unparalleled durability, low manufacturing costs, and chemical inertness, synthetic polymers revolutionized medicine, commerce, and everyday consumer conveniences. However, those very physicochemical attributes that make plastics economically indispensable render them an ecological catastrophe when discarded into natural biomes. Lacking natural metabolic pathways for biological decomposition, discarded plastic debris persists for centuries. Today, marine scientists estimate that hundreds of millions of metric tons of plastic waste choke the world's oceans, creating a ubiquitous planetary crisis that transcends international boundaries.</p><p>The spatial distribution of oceanic plastic debris is governed by colossal global circulation systems known as subtropical gyres. Powered by prevailing atmospheric winds and the Earth's Coriolis deflection, these rotating ocean currents act as gigantic planetary whirlpools, drawing floating detritus inward and trapping it within stable high-pressure vortexes. The most infamous accumulation zone—the Great Pacific Garbage Patch, spanning between California and Hawaii—covers an expanse estimated at more than three times the land area of France. Contrary to the sensationalized popular depiction of a solid, visible plastic island, the patch resembles a murky, high-density suspension of degraded fragments: a vast, toxic \"plastic soup\" extending meters beneath the ocean's surface.</p><p>As macroplastic items—including discarded monofilament fishing nets, consumer packaging, and synthetic textiles—drift across open waters, solar ultraviolet radiation initiates a chemical breakdown known as photodegradation. [A] Exposure to ultraviolet rays cleaves polymer molecular bonds, rendering the material brittle and vulnerable to mechanical wave battering. [B] Over decades, large debris progressively disintegrates into microscopic particles designated as \"microplastics\" (fragments smaller than five millimeters) and sub-microscopic \"nanoplastics.\" [C] Because these minute particles closely mimic the size, buoyancy, and coloration of marine phytoplankton and zooplankton, they are voraciously ingested by filter-feeding organisms, rapidly infiltrating the foundational tiers of the oceanic trophic pyramid. [D]</p><p>The ecological hazard posed by microplastics extends far beyond mechanical gastrointestinal blockage in marine fauna. Due to their hydrophobic chemical structure and enormous surface-area-to-volume ratio, microplastic particles function as aggressive environmental sponges, adsorbing persistent organic pollutants (POPs)—including legacy pesticides like DDT, industrial polychlorinated biphenyls (PCBs), and heavy metals—present in trace quantities in seawater. When planktivorous organisms consume these contaminant-laden particles, toxic compounds desorb within acidic digestive tracts, entering bodily tissues. Through the interrelated mechanisms of bioaccumulation and biomagnification, chemical concentrations exponentially amplify at each successive trophic tier, culminating in apex predators such as tuna, seals, seabirds, and ultimately human seafood consumers, with documented risks of endocrine disruption and cellular cytotoxicity.</p><p>Confronting the oceanic microplastic emergency demands an unprecedented paradigm shift from passive waste containment toward aggressive source reduction. While mechanical skimming vessels and ocean barrier initiatives capture public imagination, marine engineers acknowledge that attempting to vacuum microscopic fragments from high-seas gyres is thermodynamically and economically unfeasible. Lasting remediation necessitates binding international treaties that mandate producer responsibility, phase out non-essential single-use polymers, foster biodegradable circular economies, and revolutionize municipal stormwater filtration before terrestrial effluent ever reaches marine watersheds.</p>",
+        "vocab": [
+          {
+            "word": "quintessential",
+            "pos": "adj",
+            "ipa": "/ˌkwɪn.tɪˈsen.ʃəl/",
+            "level": "C1",
+            "mean": "điển hình nhất, đại diện hoàn hảo tinh túy nhất cho một thời kỳ",
+            "syns": [
+              "archetypal",
+              "exemplary",
+              "definitive",
+              "prototypical"
+            ],
+            "ex": "Plastic became the quintessential manufacturing material of twentieth-century consumerism."
+          },
+          {
+            "word": "inertness",
+            "pos": "n",
+            "ipa": "/ɪˈnɜːt.nəs/",
+            "level": "C1",
+            "mean": "tính trơ về mặt hóa học, không phản ứng với môi trường",
+            "syns": [
+              "inactivity",
+              "unreactiveness",
+              "passivity",
+              "stability"
+            ],
+            "ex": "Chemical inertness allows plastics to store liquids safely without corroding."
+          },
+          {
+            "word": "physicochemical",
+            "pos": "adj",
+            "ipa": "/ˌfɪz.ɪ.kəʊˈkem.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc về đặc tính vật lý và hóa học kết hợp",
+            "syns": [
+              "physical-chemical",
+              "structural"
+            ],
+            "ex": "The unique physicochemical properties of polymers make them virtually immune to natural decay."
+          },
+          {
+            "word": "debris",
+            "pos": "n",
+            "ipa": "/ˈdeb.riː/",
+            "level": "B2",
+            "mean": "mảnh vụn, rác thải phế liệu trôi nổi",
+            "syns": [
+              "rubbish",
+              "detritus",
+              "waste",
+              "flotsam"
+            ],
+            "ex": "Millions of tons of non-biodegradable debris accumulate in marine environments."
+          },
+          {
+            "word": "gyre",
+            "pos": "n",
+            "ipa": "/dʒaɪər/",
+            "level": "C1",
+            "mean": "hải lưu xoay vòng lớn của đại dương (hoàn lưu)",
+            "syns": [
+              "oceanic vortex",
+              "rotating current",
+              "whirlpool"
+            ],
+            "ex": "Subtropical gyres concentrate floating waste into immense oceanic convergence zones."
+          },
+          {
+            "word": "deflection",
+            "pos": "n",
+            "ipa": "/dɪˈflek.ʃən/",
+            "level": "C1",
+            "mean": "sự làm lệch hướng chuyển động (hiệu ứng Coriolis)",
+            "syns": [
+              "deviation",
+              "divergence",
+              "turning aside",
+              "swerve"
+            ],
+            "ex": "The Coriolis deflection curves ocean currents into giant circular vortexes."
+          },
+          {
+            "word": "detritus",
+            "pos": "n",
+            "ipa": "/dɪˈtraɪ.təs/",
+            "level": "C1",
+            "mean": "mảnh vụn rác rưởi, chất thải phân hủy trôi nổi",
+            "syns": [
+              "waste",
+              "debris",
+              "remains",
+              "rubble"
+            ],
+            "ex": "Floating detritus is swept toward the center of calm high-pressure zones."
+          },
+          {
+            "word": "vortex",
+            "pos": "n",
+            "ipa": "/ˈvɔː.teks/",
+            "level": "C1",
+            "mean": "vùng xoáy nước hoặc lốc xoáy khổng lồ hút vào tâm",
+            "syns": [
+              "whirlpool",
+              "eddy",
+              "maelstrom",
+              "swirl"
+            ],
+            "ex": "Garbage remains trapped inside oceanic vortexes for decades without dispersing."
+          },
+          {
+            "word": "monofilament",
+            "pos": "adj",
+            "ipa": "/ˌmɒn.əʊˈfɪl.ə.mənt/",
+            "level": "C1",
+            "mean": "làm bằng sợi cước đơn tổng hợp (lưới đánh cá)",
+            "syns": [
+              "single-strand synthetic",
+              "nylon-filament"
+            ],
+            "ex": "Discarded monofilament fishing nets continue ghost-fishing wildlife for centuries."
+          },
+          {
+            "word": "photodegradation",
+            "pos": "n",
+            "ipa": "/ˌfəʊ.təʊˌdeɡ.rəˈdeɪ.ʃən/",
+            "level": "C1",
+            "mean": "quá trình phân hủy quang học (bị ánh sáng mặt trời/tia UV bẻ gãy)",
+            "syns": [
+              "light-induced breakdown",
+              "solar decomposition"
+            ],
+            "ex": "Photodegradation fragments rigid plastic containers into microscopic brittles."
+          },
+          {
+            "word": "cleave",
+            "pos": "v",
+            "ipa": "/kliːv/",
+            "level": "C1",
+            "mean": "chẻ đôi, bẻ gãy liên kết phân tử",
+            "syns": [
+              "split",
+              "sever",
+              "break apart",
+              "fracture"
+            ],
+            "ex": "Ultraviolet rays cleave carbon polymer bonds, causing the plastic to shatter."
+          },
+          {
+            "word": "brittle",
+            "pos": "adj",
+            "ipa": "/ˈbrɪt.əl/",
+            "level": "B2",
+            "mean": "giòn, dễ vỡ vụn khi chịu tác động cơ học",
+            "syns": [
+              "fragile",
+              "breakable",
+              "crumbly",
+              "delicate"
+            ],
+            "ex": "Prolonged sun exposure makes plastic sheeting extremely brittle."
+          },
+          {
+            "word": "buoyancy",
+            "pos": "n",
+            "ipa": "/ˈbɔɪ.ən.si/",
+            "level": "B2",
+            "mean": "độ nổi, sức nổi của vật thể trong chất lỏng",
+            "syns": [
+              "floatability",
+              "levity"
+            ],
+            "ex": "Microplastics maintain neutral buoyancy, drifting at depths accessible to fish."
+          },
+          {
+            "word": "phytoplankton",
+            "pos": "n",
+            "ipa": "/ˌfaɪ.təʊˈplæŋk.tən/",
+            "level": "C1",
+            "mean": "thực vật phù du (sinh vật quang hợp nền tảng của đại dương)",
+            "syns": [
+              "microscopic marine algae",
+              "autotrophic plankton"
+            ],
+            "ex": "Phytoplankton form the photosynthetic foundation of global marine food webs."
+          },
+          {
+            "word": "zooplankton",
+            "pos": "n",
+            "ipa": "/ˌzəʊ.əˈplæŋk.tən/",
+            "level": "C1",
+            "mean": "động vật phù du trôi dạt trong nước biển",
+            "syns": [
+              "microscopic animal plankton"
+            ],
+            "ex": "Zooplankton mistake brightly colored microplastic specks for nutritious prey."
+          },
+          {
+            "word": "trophic",
+            "pos": "adj",
+            "ipa": "/ˈtrɒf.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về dinh dưỡng trong chuỗi thức ăn sinh thái",
+            "syns": [
+              "dietary",
+              "nutritional",
+              "food-chain"
+            ],
+            "ex": "Contaminants travel upward through successive trophic tiers of the ocean."
+          },
+          {
+            "word": "gastrointestinal",
+            "pos": "adj",
+            "ipa": "/ˌɡæs.trəʊ.ɪnˈtes.tɪ.nəl/",
+            "level": "C1",
+            "mean": "thuộc về dạ dày và đường ruột",
+            "syns": [
+              "digestive",
+              "gut-related"
+            ],
+            "ex": "Ingesting bottle caps causes lethal gastrointestinal blockages in albatross chicks."
+          },
+          {
+            "word": "hydrophobic",
+            "pos": "adj",
+            "ipa": "/ˌhaɪ.drəˈfəʊ.bɪk/",
+            "level": "C1",
+            "mean": "kỵ nước, không thấm nước và hút chất dầu mỡ",
+            "syns": [
+              "water-repelling",
+              "non-polar"
+            ],
+            "ex": "The hydrophobic surface of plastic particles readily binds with toxic oily residues."
+          },
+          {
+            "word": "adsorb",
+            "pos": "v",
+            "ipa": "/ædˈzɔːb/",
+            "level": "C1",
+            "mean": "hấp phụ (hút và giữ các phân tử chất bẩn trên bề mặt)",
+            "syns": [
+              "attract and hold",
+              "surface-bind",
+              "accumulate on surface"
+            ],
+            "ex": "Plastics adsorb industrial chemicals from seawater at concentrations a million times higher than surrounding water."
+          },
+          {
+            "word": "persistent organic pollutants",
+            "pos": "n.phr",
+            "ipa": "/pəˈsɪs.tənt ɔːˈɡæn.ɪk pəˈluː.tənts/",
+            "level": "C1",
+            "mean": "các chất ô nhiễm hữu cơ khó phân hủy (POPs)",
+            "syns": [
+              "toxic chemical residues",
+              "bio-accumulative toxins"
+            ],
+            "ex": "Persistent organic pollutants such as PCBs resist natural environmental degradation."
+          },
+          {
+            "word": "desorb",
+            "pos": "v",
+            "ipa": "/diːˈzɔːb/",
+            "level": "C1",
+            "mean": "giải hấp (nhả ra các chất độc đã hấp phụ khi gặp môi trường axit)",
+            "syns": [
+              "release",
+              "discharge",
+              "leach out"
+            ],
+            "ex": "Toxins desorb from ingested plastic particles directly into animal intestinal tissue."
+          },
+          {
+            "word": "bioaccumulation",
+            "pos": "n",
+            "ipa": "/ˌbaɪ.əʊ.əˌkjuː.mjəˈleɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự tích lũy sinh học trong mô cơ thể sinh vật qua thời gian",
+            "syns": [
+              "biological buildup",
+              "internal accumulation"
+            ],
+            "ex": "Bioaccumulation causes toxins to build up in animal fatty tissues over a lifetime."
+          },
+          {
+            "word": "biomagnification",
+            "pos": "n",
+            "ipa": "/ˌbaɪ.əʊˌmæɡ.nɪ.fɪˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự khuếch đại sinh học (nồng độ độc tố tăng vọt qua từng bậc chuỗi thức ăn)",
+            "syns": [
+              "food-chain amplification",
+              "trophic concentration increase"
+            ],
+            "ex": "Through biomagnification, apex predators consume thousands of times more poison than plankton."
+          },
+          {
+            "word": "apex predator",
+            "pos": "n.phr",
+            "ipa": "/ˌeɪ.peks ˈpred.ə.tər/",
+            "level": "B2",
+            "mean": "loài săn mồi đầu bảng, đỉnh chuỗi thức ăn không có kẻ thù tự nhiên",
+            "syns": [
+              "top predator",
+              "alpha predator"
+            ],
+            "ex": "Tuna and killer whales are marine apex predators heavily contaminated by plastics."
+          },
+          {
+            "word": "cytotoxicity",
+            "pos": "n",
+            "ipa": "/ˌsaɪ.təʊ.tɒkˈsɪs.ə.ti/",
+            "level": "C1",
+            "mean": "độc tính đối với tế bào, khả năng phá hủy tế bào sống",
+            "syns": [
+              "cellular toxicity",
+              "cell damage capability"
+            ],
+            "ex": "Nanoplastics penetrate cell membranes, triggering inflammation and cytotoxicity."
+          },
+          {
+            "word": "thermodynamically",
+            "pos": "adv",
+            "ipa": "/ˌθɜː.məʊ.daɪˈnæm.ɪ.kli/",
+            "level": "C1",
+            "mean": "về mặt nhiệt động lực học và năng lượng tiêu hao",
+            "syns": [
+              "energetically",
+              "energy-wise"
+            ],
+            "ex": "Filtering microplastics from open seas is thermodynamically unfeasible due to infinite dilution."
+          },
+          {
+            "word": "effluent",
+            "pos": "n",
+            "ipa": "/ˈef.lu.ənt/",
+            "level": "C1",
+            "mean": "nước thải công nghiệp hoặc sinh hoạt chảy ra sông biển",
+            "syns": [
+              "wastewater",
+              "sewage discharge",
+              "outflow",
+              "runoff"
+            ],
+            "ex": "Urban wastewater effluent carries trillions of synthetic clothing microfibers into rivers."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "What is the primary objective of the author in this passage?",
+            "questionVi": "Mục tiêu chính của tác giả trong bài đọc này là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH / MỤC ĐÍCH TỔNG QUÁT (Main Idea)",
+            "options": [
+              "To promote commercial plastic packaging as a sanitary solution for global food transport",
+              "To examine the formation, chemical hazards, and ecological impacts of oceanic microplastics, advocating for source reduction",
+              "To document the economic profitability of deep-sea plastic recycling vessels",
+              "To criticize marine biologists for overstating the dangers of synthetic fibers"
+            ],
+            "optionsVi": [
+              "A. Khuyến khích bao bì nhựa thương mại như một giải pháp vệ sinh cho vận chuyển thực phẩm",
+              "B. Khảo sát sự hình thành, hiểm họa hóa học và tác động sinh thái của vi nhựa đại dương, đồng thời kêu gọi giảm thiểu từ nguồn",
+              "C. Ghi chép về lợi nhuận kinh tế của các tàu tái chế nhựa ở biển sâu",
+              "D. Chỉ trích các nhà sinh vật biển vì đã thổi phồng mối nguy hiểm của sợi tổng hợp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "marine scientists estimate that hundreds of millions of metric tons of plastic waste choke the world's oceans, creating a ubiquitous planetary crisis... Confronting the oceanic microplastic emergency demands an unprecedented paradigm shift from passive waste containment toward aggressive source reduction. [Paragraphs 1 & 5]",
+            "evidenceVi": "các nhà khoa học ước tính hàng trăm triệu tấn rác nhựa làm nghẹt thở các đại dương... Đối mặt với tình trạng khẩn cấp vi nhựa đòi hỏi bước chuyển đổi từ gom rác thụ động sang giảm thiểu triệt để từ nguồn. [Đoạn 1 & 5]",
+            "explanation": "Bài đọc đi từ nguyên nhân tích tụ rác nhựa trong các hoàn lưu (Đoạn 1-2), cơ chế phân rã quang học thành vi nhựa (Đoạn 3), cơ chế hấp phụ độc tố và khuếch đại sinh học (Đoạn 4), kết luận bằng giải pháp giảm thiểu từ nguồn (Đoạn 5). B là câu trả lời toàn diện nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "creating a ubiquitous planetary crisis... photodegradation... bioaccumulation and biomagnification... demands an unprecedented paradigm shift toward aggressive source reduction.",
+              "clueAnswer": "To examine the formation, chemical hazards, and ecological impacts of oceanic microplastics, advocating for source reduction",
+              "keyPassage": "ubiquitous planetary crisis... chemical breakdown... biomagnification... source reduction",
+              "keyAnswer": "formation, chemical hazards, ecological impacts... advocating for source reduction",
+              "paraphrasePair": "planetary crisis & reduction <=> hazards & impacts & source reduction",
+              "meaningVi": "Khủng hoảng toàn cầu & giảm thiểu <=> Hiểm họa, tác động & giảm từ nguồn",
+              "deductionLogic": "B tóm lược trọn vẹn từ nguyên nhân, tác động đến giải pháp của toàn bài."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "According to paragraph 1, what irony or paradox characterizes synthetic plastics?",
+            "questionVi": "Theo đoạn 1, sự mỉa mai hoặc nghịch lý nào mang tính đặc trưng của nhựa tổng hợp?",
+            "questionType": "DẠNG 06: SUY LUẬN / NGHỊCH LÝ (Inference / Paradox)",
+            "options": [
+              "They are extremely costly to produce yet are given away for free by supermarkets.",
+              "The very durability and chemical inertness that make them valuable also make them an ecological disaster.",
+              "They dissolve instantly in fresh water but survive indefinitely in saline ocean water.",
+              "They were invented to protect marine life from timber logging but ended up destroying forests."
+            ],
+            "optionsVi": [
+              "A. Chúng cực kỳ tốn kém để sản xuất nhưng lại được các siêu thị phát miễn phí.",
+              "B. Chính độ bền và tính trơ hóa học khiến chúng có giá trị cao cũng biến chúng thành thảm họa sinh thái.",
+              "C. Chúng hòa tan ngay lập tức trong nước ngọt nhưng tồn tại vĩnh viễn trong nước biển mặn.",
+              "D. Chúng được phát minh để bảo vệ sinh vật biển khỏi nạn đốn gỗ nhưng rốt cuộc lại phá hủy rừng."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "However, those very physicochemical attributes that make plastics economically indispensable render them an ecological catastrophe when discarded into natural biomes. [Paragraph 1]",
+            "evidenceVi": "Tuy nhiên, chính những thuộc tính hóa lý làm cho nhựa trở nên thiết yếu về mặt kinh tế lại biến chúng thành thảm họa sinh thái khi bị vứt bỏ vào các khu sinh học tự nhiên. [Đoạn 1]",
+            "explanation": "Nghịch lý nằm ở chỗ độ bền và tính trơ hóa học (không bị phân hủy sinh học) giúp đồ nhựa rất tiện lợi trong công nghiệp nhưng lại khiến chúng tồn tại hàng thế kỷ trong môi trường, khớp với B.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Nghịch lý khoa học (Paradox / Inference)",
+              "cluePassage": "those very physicochemical attributes that make plastics economically indispensable render them an ecological catastrophe...",
+              "clueAnswer": "The very durability and chemical inertness that make them valuable also make them an ecological disaster.",
+              "keyPassage": "attributes that make plastics indispensable render them a catastrophe",
+              "keyAnswer": "durability and chemical inertness that make them valuable also make them an ecological disaster",
+              "paraphrasePair": "indispensable vs catastrophe <=> valuable vs ecological disaster",
+              "meaningVi": "Không thể thiếu đối lập với thảm họa <=> Có giá trị đối lập với thảm họa sinh thái",
+              "deductionLogic": "Chọn B theo đúng câu thứ ba của đoạn 1."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "According to paragraph 2, the Great Pacific Garbage Patch is best characterized as:",
+            "questionVi": "Theo đoạn 2, Đảo rác Thái Bình Dương được đặc trưng đúng nhất là:",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "A solid, walk-able landmass comprised of compressed shipping containers",
+              "A murky soup of degraded plastic particles suspended throughout the upper water column",
+              "A single continuous coral reef completely encased in nylon fishing nets",
+              "A volcanic caldera that continuously vents liquid petroleum into the sea"
+            ],
+            "optionsVi": [
+              "A. Một vùng đất rắn chắc có thể đi bộ được bao gồm các thùng container bị ép chặt",
+              "B. Một hỗn hợp lơ lửng đục ngầu gồm các mảnh nhựa phân rã phân bố khắp cột nước bề mặt",
+              "C. Một rạn san hô liền mạch bị bọc kín hoàn toàn trong lưới đánh cá bằng sợi nylon",
+              "D. Một miệng núi lửa liên tục xả dầu mỏ lỏng vào đại dương"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Contrary to the sensationalized popular depiction of a solid, visible plastic island, the patch resembles a murky, high-density suspension of degraded fragments: a vast, toxic 'plastic soup' extending meters beneath the ocean's surface. [Paragraph 2]",
+            "evidenceVi": "Trái ngược với sự mô tả giật gân phổ biến về một hòn đảo nhựa rắn chắc có thể nhìn thấy, bãi rác này giống như một dung dịch lơ lửng đục ngầu, mật độ cao gồm các mảnh vỡ phân rã: một 'nồi súp nhựa' độc hại khổng lồ trải dài nhiều mét dưới bề mặt đại dương. [Đoạn 2]",
+            "explanation": "Tác giả đính chính quan niệm sai lầm về đảo rác: nó không phải đảo rắn chắc mà là một dung dịch lơ lửng đục ngầu gồm các mảnh phân rã ('murky, high-density suspension... plastic soup'), đúng với B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết thông tin (Factual Detail)",
+              "cluePassage": "Contrary to the sensationalized popular depiction of a solid, visible plastic island, the patch resembles a murky, high-density suspension of degraded fragments...",
+              "clueAnswer": "A murky soup of degraded plastic particles suspended throughout the upper water column",
+              "keyPassage": "murky, high-density suspension of degraded fragments: a vast, toxic 'plastic soup'",
+              "keyAnswer": "murky soup of degraded plastic particles suspended throughout water column",
+              "paraphrasePair": "suspension of degraded fragments <=> soup of degraded particles suspended",
+              "meaningVi": "Dung dịch lơ lửng các mảnh phân rã <=> Nồi súp chứa các hạt phân rã lơ lửng",
+              "deductionLogic": "Chọn B. Phương án A là ngộ nhận đã bị bác bỏ trực tiếp trong câu."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "The process of 'photodegradation' described in paragraph 3 occurs when:",
+            "questionVi": "Quá trình 'phân hủy quang học' được mô tả ở đoạn 3 xảy ra khi:",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "Deep-sea geothermal vents melt synthetic polymers into petroleum gas",
+              "Solar ultraviolet radiation cleaves molecular bonds, making plastic brittle and prone to fragmentation",
+              "Bioluminescent algae dissolve plastics using specialized enzymes",
+              "Marine lightning strikes combust surface flotsam into airborne soot"
+            ],
+            "optionsVi": [
+              "A. Các miệng phun nhiệt địa chất biển sâu làm tan chảy polymer thành khí dầu mỏ",
+              "B. Bức xạ cực tím mặt trời bẻ gãy các liên kết phân tử, làm nhựa giòn và dễ vỡ vụn",
+              "C. Tảo phát quang sinh học hòa tan nhựa bằng các enzyme chuyên biệt",
+              "D. Sét đánh trên biển đốt cháy các mảnh trôi nổi trên mặt nước thành muội than bay trong không khí"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Exposure to ultraviolet rays cleaves polymer molecular bonds, rendering the material brittle and vulnerable to mechanical wave battering. [Paragraph 3]",
+            "evidenceVi": "Việc tiếp xúc với các tia cực tím bẻ gãy các liên kết phân tử polymer, làm cho vật liệu trở nên giòn và dễ bị sóng biển cơ học đập vỡ vụn. [Đoạn 3]",
+            "explanation": "Phân hủy quang học (photodegradation) là quá trình tia cực tím (UV) phá vỡ các liên kết phân tử trong nhựa, làm nhựa bị giòn và vỡ vụn khi bị sóng đánh, khớp với B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế khoa học (Factual Detail)",
+              "cluePassage": "Exposure to ultraviolet rays cleaves polymer molecular bonds, rendering the material brittle and vulnerable to mechanical wave battering.",
+              "clueAnswer": "Solar ultraviolet radiation cleaves molecular bonds, making plastic brittle and prone to fragmentation",
+              "keyPassage": "ultraviolet rays cleaves polymer molecular bonds... brittle",
+              "keyAnswer": "ultraviolet radiation cleaves molecular bonds... brittle and prone to fragmentation",
+              "paraphrasePair": "cleaves molecular bonds & brittle <=> cleaves bonds & brittle / prone to fragmentation",
+              "meaningVi": "Bẻ gãy liên kết phân tử & làm giòn <=> Cắt đứt liên kết & giòn dễ vỡ",
+              "deductionLogic": "Chọn B theo giải thích khoa học ở câu thứ hai của đoạn 3."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "Why do filter-feeding marine organisms readily ingest microplastics (paragraph 3)?",
+            "questionVi": "Tại sao các sinh vật lọc thức ăn ở biển lại dễ dàng nuốt phải vi nhựa (đoạn 3)?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN (Cause & Effect)",
+            "options": [
+              "Plastics omit chemical aromas identical to decaying whale carcasses.",
+              "The particles closely resemble the dimensions, buoyancy, and colors of natural plankton.",
+              "Filter feeders require synthetic plastic compounds to construct their protective shells.",
+              "Microplastics release magnetic pulses that attract hungry marine mammals."
+            ],
+            "optionsVi": [
+              "A. Nhựa tỏa ra mùi thơm hóa học giống hệt xác cá voi đang phân hủy.",
+              "B. Các hạt vi nhựa có kích thước, độ nổi và màu sắc rất giống các sinh vật phù du tự nhiên.",
+              "C. Sinh vật ăn lọc cần các hợp chất nhựa tổng hợp để tạo vỏ bảo vệ của chúng.",
+              "D. Vi nhựa phát ra các xung từ tính thu hút các loài động vật có vú biển đang đói."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Because these minute particles closely mimic the size, buoyancy, and coloration of marine phytoplankton and zooplankton, they are voraciously ingested by filter-feeding organisms... [Paragraph 3]",
+            "evidenceVi": "Bởi vì những hạt nhỏ bé này bắt chước rất giống kích thước, độ nổi và màu sắc của sinh vật phù du thực vật và động vật biển, chúng bị các sinh vật ăn lọc nuốt ngấu nghiến... [Đoạn 3]",
+            "explanation": "Sinh vật ăn lọc nuốt phải vi nhựa vì các hạt này 'closely mimic the size, buoyancy, and coloration of marine phytoplankton and zooplankton', khớp với B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên nhân sinh học (Cause & Effect)",
+              "cluePassage": "Because these minute particles closely mimic the size, buoyancy, and coloration of marine phytoplankton and zooplankton...",
+              "clueAnswer": "The particles closely resemble the dimensions, buoyancy, and colors of natural plankton.",
+              "keyPassage": "mimic the size, buoyancy, and coloration of marine phytoplankton and zooplankton",
+              "keyAnswer": "resemble the dimensions, buoyancy, and colors of natural plankton",
+              "paraphrasePair": "mimic size and coloration <=> resemble dimensions and colors",
+              "meaningVi": "Bắt chước kích thước và màu sắc <=> Rất giống kích cỡ và màu sắc",
+              "deductionLogic": "Chọn B vì 'closely mimic' = 'closely resemble' và 'size' = 'dimensions'."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "Look at the four squares [A], [B], [C], and [D] in paragraph 3. Where would the following sentence best fit?\n\"Wave action acts like a giant blender, accelerating this fragmentation through relentless mechanical abrasion.\"",
+            "questionVi": "Xem bốn vị trí [A], [B], [C] và [D] trong đoạn 3. Câu sau đây điền vào vị trí nào là thích hợp nhất?\n\"Sóng biển đóng vai trò như một máy xay khổng lồ, đẩy nhanh quá trình vỡ vụn này thông qua sự cọ xát cơ học không ngừng nghỉ.\"",
+            "questionType": "DẠNG 08: ĐIỀN CÂU VÀO ĐOẠN VĂN (Sentence Insertion)",
+            "options": [
+              "[A]",
+              "[B]",
+              "[C]",
+              "[D]"
+            ],
+            "optionsVi": [
+              "A. Vị trí [A]",
+              "B. Vị trí [B]",
+              "C. Vị trí [C]",
+              "D. Vị trí [D]"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Exposure to ultraviolet rays cleaves polymer molecular bonds, rendering the material brittle and vulnerable to mechanical wave battering. [B] Over decades, large debris progressively disintegrates into microscopic particles... [Paragraph 3]",
+            "evidenceVi": "Việc tiếp xúc với các tia cực tím bẻ gãy các liên kết phân tử polymer, làm cho vật liệu trở nên giòn và dễ bị sóng biển cơ học đập vỡ vụn. [B] Qua nhiều thập kỷ, rác lớn dần tan rã thành các hạt siêu nhỏ... [Đoạn 3]",
+            "explanation": "Câu đứng trước [B] nói về 'mechanical wave battering' (sóng biển va đập cơ học). Câu cần điền tiếp nối trực tiếp hình ảnh sóng biển: 'Wave action acts like a giant blender, accelerating this fragmentation...'. Do đó vị trí [B] là phù hợp nhất.",
+            "postReading": {
+              "type": "sentence_insertion",
+              "typeLabel": "Điền câu vào văn bản (Sentence Insertion)",
+              "cluePassage": "...vulnerable to mechanical wave battering. [B] Over decades, large debris progressively disintegrates into microscopic particles...",
+              "clueAnswer": "Wave action acts like a giant blender, accelerating this fragmentation through relentless mechanical abrasion.",
+              "keyPassage": "mechanical wave battering [B]",
+              "keyAnswer": "Wave action acts like a giant blender... fragmentation",
+              "paraphrasePair": "wave battering <=> Wave action blender & fragmentation",
+              "meaningVi": "Sóng va đập cơ học <=> Tác động của sóng như máy xay gây vỡ vụn",
+              "deductionLogic": "Vị trí [B] là vị trí duy nhất khớp nối hoàn hảo giữa câu nói về 'wave battering' và câu tiếp theo nói về sự tan rã thành hạt nhỏ."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "The chemical hazard of microplastics is magnified because their hydrophobic surfaces:",
+            "questionVi": "Mối nguy hiểm hóa học của vi nhựa được phóng đại bởi vì bề mặt kỵ nước của chúng:",
+            "questionType": "DẠNG 03: CƠ CHẾ ĐỘC CHẤT HỌC (Toxicological Mechanism)",
+            "options": [
+              "Act as sponges that attract and concentrate persistent organic toxins from seawater",
+              "Generate electrical sparks that ignite flammable oceanic gas bubbles",
+              "Produce radioactive isotopes that sterilize fish populations",
+              "Neutralize essential minerals required for phytoplankton photosynthesis"
+            ],
+            "optionsVi": [
+              "A. Đóng vai trò như những miếng bọt biển hút và cô đặc các độc tố hữu cơ khó phân hủy từ nước biển",
+              "B. Tạo ra tia lửa điện kích nổ các bọt khí dễ cháy trong đại dương",
+              "C. Sản sinh ra các đồng vị phóng xạ làm triệt sản các quần thể cá",
+              "D. Vô hiệu hóa các khoáng chất thiết yếu cần cho quang hợp của thực vật phù du"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Due to their hydrophobic chemical structure and enormous surface-area-to-volume ratio, microplastic particles function as aggressive environmental sponges, adsorbing persistent organic pollutants (POPs)—including legacy pesticides like DDT, industrial polychlorinated biphenyls (PCBs), and heavy metals... [Paragraph 4]",
+            "evidenceVi": "Do cấu trúc hóa học kỵ nước và tỷ lệ diện tích bề mặt trên thể tích khổng lồ, các hạt vi nhựa hoạt động như những miếng bọt biển môi trường hung hãn, hấp phụ các chất ô nhiễm hữu cơ khó phân hủy (POPs)—bao gồm thuốc trừ sâu tàn dư như DDT, PCBs công nghiệp và kim loại nặng... [Đoạn 4]",
+            "explanation": "Văn bản khẳng định bề mặt kỵ nước khiến vi nhựa hoạt động như 'environmental sponges, adsorbing persistent organic pollutants (POPs)', tương ứng chính xác với A.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế độc chất (Factual Detail)",
+              "cluePassage": "function as aggressive environmental sponges, adsorbing persistent organic pollutants (POPs)... present in trace quantities in seawater.",
+              "clueAnswer": "Act as sponges that attract and concentrate persistent organic toxins from seawater",
+              "keyPassage": "environmental sponges, adsorbing persistent organic pollutants",
+              "keyAnswer": "sponges that attract and concentrate persistent organic toxins",
+              "paraphrasePair": "sponges adsorbing pollutants <=> sponges that attract and concentrate toxins",
+              "meaningVi": "Bọt biển hấp phụ chất ô nhiễm <=> Bọt biển hút và cô đặc độc tố",
+              "deductionLogic": "Chọn A. B, C, D là những phương án hoang đường không có trong thực tế khoa học."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "The term 'biomagnification' in paragraph 4 describes:",
+            "questionVi": "Thuật ngữ 'biomagnification' trong đoạn 4 mô tả:",
+            "questionType": "DẠNG 03: CHI TIẾT ĐỊNH NGHĨA (Factual Definition)",
+            "options": [
+              "The rapid increase in visual magnification when inspecting plankton under electron microscopes",
+              "The increasing concentration of toxic substances at each successively higher level of the food chain",
+              "The deliberate breeding of oversized marine fish in offshore aquaculture pens",
+              "The expansion of oceanic gyres caused by global thermal expansion"
+            ],
+            "optionsVi": [
+              "A. Sự gia tăng độ phóng đại quang học khi quan sát sinh vật phù du dưới kính hiển vi điện tử",
+              "B. Nồng độ chất độc gia tăng ở mỗi bậc dinh dưỡng cao hơn tiếp theo của chuỗi thức ăn",
+              "C. Việc nhân giống có chủ đích các loài cá biển kích thước lớn trong các lồng bè nuôi trồng thủy sản",
+              "D. Sự mở rộng diện tích của các hoàn lưu đại dương do hiện tượng giãn nở nhiệt toàn cầu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Through the interrelated mechanisms of bioaccumulation and biomagnification, chemical concentrations exponentially amplify at each successive trophic tier, culminating in apex predators... [Paragraph 4]",
+            "evidenceVi": "Thông qua các cơ chế tương tác của sự tích lũy sinh học và khuếch đại sinh học, nồng độ hóa chất tăng theo cấp số nhân ở từng bậc dinh dưỡng tiếp theo, lên đến đỉnh điểm ở các loài săn mồi đầu bảng... [Đoạn 4]",
+            "explanation": "Biomagnification là hiện tượng nồng độ độc tố khuếch đại tăng vọt qua từng bậc dinh dưỡng trong chuỗi thức ăn ('exponentially amplify at each successive trophic tier'), đúng với B.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Khái niệm sinh thái (Factual Definition)",
+              "cluePassage": "Through the interrelated mechanisms of bioaccumulation and biomagnification, chemical concentrations exponentially amplify at each successive trophic tier...",
+              "clueAnswer": "The increasing concentration of toxic substances at each successively higher level of the food chain",
+              "keyPassage": "chemical concentrations exponentially amplify at each successive trophic tier",
+              "keyAnswer": "increasing concentration of toxic substances at each higher level of the food chain",
+              "paraphrasePair": "concentrations amplify at each trophic tier <=> increasing concentration at each level of the food chain",
+              "meaningVi": "Nồng độ tăng ở từng bậc dinh dưỡng <=> Nồng độ gia tăng ở từng nấc chuỗi thức ăn",
+              "deductionLogic": "Chọn B vì định nghĩa chính xác quá trình khuếch đại sinh học."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "Why does the author consider ocean-skimming vessels to be an inadequate solution (paragraph 5)?",
+            "questionVi": "Tại sao tác giả lại coi các tàu gom vớt rác đại dương là một giải pháp không thỏa đáng (đoạn 5)?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "They consume so much fossil fuel that they create worse oil slicks.",
+              "Filtering microscopic fragments dispersed throughout immense oceanic gyres is energetically and economically impossible.",
+              "International maritime law classifies plastic-skimming vessels as unauthorized pirate ships.",
+              "Ocean waves immediately capsize any vessel designed to haul floating refuse."
+            ],
+            "optionsVi": [
+              "A. Chúng tiêu thụ quá nhiều nhiên liệu hóa thạch đến mức tạo ra các vết dầu loang tồi tệ hơn.",
+              "B. Việc lọc các mảnh vụn vi mô phân tán khắp các hoàn lưu khổng lồ là bất khả thi về mặt năng lượng và kinh tế.",
+              "C. Luật hàng hải quốc tế coi các tàu gom rác nhựa là tàu cướp biển trái phép.",
+              "D. Sóng đại dương ngay lập tức làm lật úp bất kỳ con tàu nào được thiết kế để kéo rác trôi nổi."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...marine engineers acknowledge that attempting to vacuum microscopic fragments from high-seas gyres is thermodynamically and economically unfeasible. [Paragraph 5]",
+            "evidenceVi": "...các kỹ sư hàng hải thừa nhận rằng nỗ lực hút các mảnh vụn vi mô từ các hoàn lưu biển khơi là bất khả thi về mặt nhiệt động lực học và kinh tế. [Đoạn 5]",
+            "explanation": "Văn bản nêu rõ việc cố gắng hút lọc các mảnh vi nhựa vụn vặt ở biển khơi là 'thermodynamically and economically unfeasible' (bất khả thi về mặt năng lượng/nhiệt động lực học và kinh tế), khớp với B.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận khoa học (Inference)",
+              "cluePassage": "attempting to vacuum microscopic fragments from high-seas gyres is thermodynamically and economically unfeasible.",
+              "clueAnswer": "Filtering microscopic fragments dispersed throughout immense oceanic gyres is energetically and economically impossible.",
+              "keyPassage": "vacuum microscopic fragments... thermodynamically and economically unfeasible",
+              "keyAnswer": "Filtering microscopic fragments... energetically and economically impossible",
+              "paraphrasePair": "thermodynamically unfeasible <=> energetically impossible",
+              "meaningVi": "Bất khả thi về nhiệt động lực học <=> Không thể thực hiện về mặt năng lượng",
+              "deductionLogic": "Chọn B. 'thermodynamically' = 'energetically', 'unfeasible' = 'impossible'."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "According to the final paragraph, what is the most indispensable measure for resolving the marine plastic crisis?",
+            "questionVi": "Theo đoạn văn cuối cùng, biện pháp tối quan trọng nào là cần thiết để giải quyết cuộc khủng hoảng nhựa đại dương?",
+            "questionType": "DẠNG 07: KẾT LUẬN / GIẢI PHÁP (Author's Conclusion)",
+            "options": [
+              "Subsidizing chemical factories to burn existing oceanic garbage stockpiles",
+              "Shifting away from cleanup gimmicks toward binding source reduction, circular economies, and stormwater interception",
+              "Encouraging coastal populations to abandon fish consumption permanently",
+              "Deploying genetically modified bacteria into open marine currents without regulation"
+            ],
+            "optionsVi": [
+              "A. Trợ cấp cho các nhà máy hóa chất để đốt các đống rác thải đại dương hiện có",
+              "B. Chuyển dịch khỏi các chiêu trò dọn rác bề nổi sang ràng buộc giảm thiểu từ nguồn, kinh tế tuần hoàn và ngăn chặn nước thải đô thị",
+              "C. Khuyến khích cư dân ven biển từ bỏ vĩnh viễn việc ăn cá",
+              "D. Triển khai vi khuẩn biến đổi gen vào các dòng hải lưu mở mà không cần quy chuẩn quản lý"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Confronting the oceanic microplastic emergency demands an unprecedented paradigm shift from passive waste containment toward aggressive source reduction... Lasting remediation necessitates binding international treaties that mandate producer responsibility, phase out non-essential single-use polymers, foster biodegradable circular economies, and revolutionize municipal stormwater filtration... [Paragraph 5]",
+            "evidenceVi": "Đối mặt với tình trạng khẩn cấp vi nhựa đòi hỏi một bước chuyển dịch mô hình chưa từng có từ việc ngăn chặn rác thụ động sang giảm thiểu rác quyết liệt từ nguồn... Sự khắc phục lâu dài đòi hỏi các hiệp ước quốc tế có tính ràng buộc pháp lý bắt buộc trách nhiệm nhà sản xuất, loại bỏ dần nhựa dùng một lần không thiết yếu, bồi đắp nền kinh tế tuần hoàn tự phân hủy sinh học và cách mạng hóa việc lọc nước mưa đô thị... [Đoạn 5]",
+            "explanation": "Tác giả kết luận giải pháp cốt lõi bền vững là chuyển từ dọn rác thụ động sang giảm thiểu từ nguồn ('aggressive source reduction'), hiệp ước quốc tế bắt buộc trách nhiệm ('binding international treaties that mandate producer responsibility'), kinh tế tuần hoàn và lọc nước thải đô thị, đúng với phương án B.",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Giải pháp then chốt (Author's Conclusion)",
+              "cluePassage": "paradigm shift from passive waste containment toward aggressive source reduction... binding international treaties... biodegradable circular economies, and revolutionize municipal stormwater filtration...",
+              "clueAnswer": "Shifting away from cleanup gimmicks toward binding source reduction, circular economies, and stormwater interception",
+              "keyPassage": "shift from passive waste containment toward aggressive source reduction... binding international treaties... circular economies",
+              "keyAnswer": "Shifting away from cleanup gimmicks toward binding source reduction, circular economies, and stormwater interception",
+              "paraphrasePair": "shift toward source reduction & circular economies <=> binding source reduction & circular economies",
+              "meaningVi": "Chuyển sang giảm thiểu từ nguồn & kinh tế tuần hoàn <=> Ràng buộc giảm từ nguồn & kinh tế tuần hoàn",
+              "deductionLogic": "Chọn B vì tổng hợp toàn diện các giải pháp mang tính cấu trúc ở câu cuối cùng của bài."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
