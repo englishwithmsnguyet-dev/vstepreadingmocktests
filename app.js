@@ -2615,6 +2615,461 @@ function renderPracticeView() {
         `;
     }
 
+    // =========================================================================
+    // 11. BỘ ĐỀ THỰC CHIẾN 11 (TEST 21) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite21') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-21">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(59, 130, 246, 0.25); color: #93c5fd; border-color: rgba(59, 130, 246, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 11 (TEST 21) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 11 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Tác động của Facebook trong đời sống (Part 1) • Tâm lý con đầu lòng vs Con một (Part 2) • Động đất & Ứng phó tại Nhật Bản (Part 3) • Vành đai lửa Thái Bình Dương (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #3b82f6;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 11):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>Facebook in Modern Society</h4>
+                                <h5>Tác động & Hành vi sử dụng Facebook trong đời sống hiện đại</h5>
+                                <p>Sự chuyển đổi từ công cụ kết nối bạn bè sang hệ sinh thái tin tức, thương mại số và tác động tâm lý đối với sự tương tác xã hội thường nhật.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#3b82f6;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>First-Born vs. Only Children</h4>
+                                <h5>Tâm lý học thứ tự sinh: Tính cách con đầu lòng đối chiếu với con một</h5>
+                                <p>Nghiên cứu tâm lý học phát triển về kỳ vọng của cha mẹ, xu hướng cầu toàn của con đầu lòng và khả năng độc lập sáng tạo của con một trong gia đình.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Earthquakes in Japan: Resilience</h4>
+                                <h5>Động đất tại Nhật Bản: Kỹ thuật kháng chấn & Năng lực phục hồi cộng đồng</h5>
+                                <p>Kiến trúc xây dựng giảm xóc linh hoạt, hệ thống cảnh báo sớm siêu tốc và văn hóa chuẩn bị ứng phó thiên tai mẫu mực của xã hội Nhật Bản.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Tectonic Geology: Pacific Ring of Fire</h4>
+                                <h5>Địa chất học kiến tạo: Vành đai lửa Thái Bình Dương & Mối đe dọa địa chấn</h5>
+                                <p>Cơ chế hút chìm mảng kiến tạo (subduction zones), sự hình thành rãnh đại dương sâu thẳm và bài toán dự báo sóng thần toàn cầu.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 12. BỘ ĐỀ THỰC CHIẾN 12 (TEST 22) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite22') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-22">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(139, 92, 246, 0.25); color: #c4b5fd; border-color: rgba(139, 92, 246, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 12 (TEST 22) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 12 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Bệnh viện ngoại ô & Y tế (Part 1) • Huyền thoại 10% não bộ (Part 2) • Chăn nuôi tại bang Iowa, Mỹ (Part 3) • Trí tuệ nhân tạo (AI) (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #8b5cf6;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 12):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>Suburban Hospitals & Healthcare</h4>
+                                <h5>Bệnh viện vùng ngoại ô & Khả năng tiếp cận dịch vụ y tế công bằng</h5>
+                                <p>Thách thức phân bổ nguồn lực y tế giữa đô thị trung tâm và vùng ngoại ô, dịch vụ y tế từ xa (telehealth) và chăm sóc sức khỏe ban đầu.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#8b5cf6;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>Debunking the 10% Brain Myth</h4>
+                                <h5>Khoa học thần kinh: Giải mã huyền thoại con người chỉ dùng 10% não bộ</h5>
+                                <p>Bác bỏ quan niệm sai lầm phổ biến qua bằng chứng chụp cắt lớp cộng hưởng từ (fMRI), chứng minh toàn bộ não bộ đều hoạt động tích cực liên tục.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Cattle Farming & Agriculture in Iowa</h4>
+                                <h5>Ngành chăn nuôi gia súc & Nông nghiệp công nghiệp hóa tại bang Iowa, Mỹ</h5>
+                                <p>Mô hình chuỗi cung ứng ngô - thịt bò quy mô lớn vùng Trung Tây nước Mỹ, cơ giới hóa tự động và các giải pháp giảm thiểu khí thải nhà kính trong chăn nuôi.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Artificial Intelligence: Advances</h4>
+                                <h5>Trí tuệ nhân tạo (AI): Bước tiến thần tốc & Những hệ lụy đạo đức xã hội</h5>
+                                <p>Mô hình ngôn ngữ lớn (LLM), bài toán điều chỉnh an toàn AI (alignment problem) và tác động tái cấu trúc thị trường lao động trí tuệ toàn cầu.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 13. BỘ ĐỀ THỰC CHIẾN 13 (TEST 23) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite23') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-23">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(6, 182, 212, 0.25); color: #67e8f9; border-color: rgba(6, 182, 212, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 13 (TEST 23) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 13 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Học tiếng Anh tại quán cà phê (Part 1) • Châu Phi: Sahara & Hồ lớn (Part 2) • Trường học vs Homeschooling (Part 3) • Chất béo trong não bộ & Nhận thức (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #06b6d4;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 13):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>Learning English in Coffee Shops</h4>
+                                <h5>Học tiếng Anh tại các quán cà phê: Không gian mở & Giao tiếp tự nhiên</h5>
+                                <p>Sự dịch chuyển từ lớp học truyền thống sang các câu lạc bộ cà phê tiếng Anh, tác động của âm thanh nền (ambient noise) và sự giảm bớt ức chế tâm lý.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#06b6d4;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>African Geography: Sahara & Lakes</h4>
+                                <h5>Địa lý lục địa châu Phi: Hoang mạc Sahara, cảnh quan & Hệ thống hồ lớn</h5>
+                                <p>Khí hậu khắc nghiệt và sự thích nghi sinh học ở sa mạc Sahara, kết hợp với vai trò sinh thái và nguồn nước của vùng Hồ Lớn (African Great Lakes).</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Traditional Schooling vs. Homeschooling</h4>
+                                <h5>Phương thức học tập: Giáo dục tại trường truyền thống vs Tự học ở nhà</h5>
+                                <p>So sánh toàn diện giữa chương trình chuẩn hóa với học tập cá nhân hóa tại nhà, các chỉ số phát triển kỹ năng xã hội và hiệu quả học thuật dài hạn.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Brain Lipids & Cognitive Function</h4>
+                                <h5>Hóa sinh thần kinh: Chất béo trong não bộ & Chức năng nhận thức con người</h5>
+                                <p>Cấu tạo màng tế bào thần kinh từ lipid, vai trò của axit béo Omega-3 (DHA/EPA) đối với tính linh hoạt synap và phòng ngừa suy giảm trí nhớ.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 14. BỘ ĐỀ THỰC CHIẾN 14 (TEST 24) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite24') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-24">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(236, 72, 153, 0.25); color: #f472b6; border-color: rgba(236, 72, 153, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 14 (TEST 24) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 14 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Bệnh truyền nhiễm (Part 1) • Lịch sử chiếc xe đạp (Part 2) • Chim va chạm tòa nhà kính (Part 3) • Khoa học giấc ngủ & Chu kỳ ngủ (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #ec4899;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 14):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>Medical Science: Infectious Diseases</h4>
+                                <h5>Khoa học y tế: Cơ chế lây truyền & Khống chế bệnh truyền nhiễm</h5>
+                                <p>Lịch sử dịch tễ học, sự bùng phát của mầm bệnh virus và vi khuẩn, cùng các phác đồ tiêm chủng và biện pháp kiểm dịch y tế cộng đồng.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ec4899;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>Invention & History of the Bicycle</h4>
+                                <h5>Lịch sử chiếc xe đạp: Từ cỗ máy chạy bộ gỗ đến biểu tượng giao thông xanh</h5>
+                                <p>Sự ra đời của chiếc Draisine thế kỷ 19, thời kỳ Penny-farthing bánh lớn, cuộc cách mạng giải phóng phụ nữ và vai trò trong giao thông đô thị hiện đại.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Avian Collisions with Glass Buildings</h4>
+                                <h5>Loài chim bị ảnh hưởng bởi ánh sáng nhân tạo & Tòa nhà kính cao tầng</h5>
+                                <p>Nghiên cứu thị giác của loài chim di cư ban đêm, hiện tượng bẫy ánh sáng đô thị và các sáng kiến kiến trúc kính hoa văn an toàn cho chim (bird-friendly glass).</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Science of Human Sleep & Cycles</h4>
+                                <h5>Khoa học giấc ngủ con người: Cấu trúc chu kỳ ngủ & Chức năng hồi phục</h5>
+                                <p>Sự luân chuyển giữa các giai đoạn ngủ sóng chậm (NREM) và ngủ mắt chuyển động nhanh (REM), cơ chế dọn dẹp độc tố não bộ và củng cố trí nhớ.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 15. BỘ ĐỀ THỰC CHIẾN 15 (TEST 25) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite25') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-25">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(249, 115, 22, 0.25); color: #fdba74; border-color: rgba(249, 115, 22, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 15 (TEST 25) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 15 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Xu hướng thức ăn nhanh (Part 1) • Âm nhạc cổ truyền Trung Quốc (Part 2) • Nền tảng MXH & Tương tác (Part 3) • Tẩy xanh Greenwashing (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #f97316;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 15):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>Evolution of Fast Food Trends</h4>
+                                <h5>Xu hướng thức ăn nhanh toàn cầu: Từ tiện lợi siêu tốc đến lựa chọn lành mạnh</h5>
+                                <p>Sự trỗi dậy của các chuỗi đồ ăn nhanh, biến chuyển sang thực phẩm hữu cơ, nguyên liệu gốc thực vật và thách thức béo phì trong xã hội hiện đại.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#f97316;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>Traditional Chinese Music & Instruments</h4>
+                                <h5>Âm nhạc cổ truyền Trung Quốc: Hệ ngũ cung, nhạc cụ truyền thống & Triết lý âm dương</h5>
+                                <p>Khám phá âm sắc đàn Cổ cầm (Guqin), đàn Nhị (Erhu), thang âm ngũ cung trong tư tưởng Đạo giáo và sự bảo tồn âm nhạc di sản qua các thời đại.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Social Media Platforms & Engagement</h4>
+                                <h5>Các nền tảng mạng xã hội: Thuật toán tương tác & Tâm lý học người dùng</h5>
+                                <p>Cơ chế giữ chân người dùng qua các định dạng video ngắn, tác động của vòng lặp thông báo (notification loops) và sự phân cực ý kiến trong cộng đồng mạng.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Corporate Greenwashing & Sustainability</h4>
+                                <h5>Chiêu trò "Tẩy xanh" của doanh nghiệp & Khung quản lý tính bền vững</h5>
+                                <p>Bóc tách các chiến dịch marketing tạo vỏ bọc thân thiện môi trường của các tập đoàn đa quốc gia và khung pháp lý siết chặt kiểm toán sinh thái.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
     container.innerHTML = suitesHtml;
 }
 
