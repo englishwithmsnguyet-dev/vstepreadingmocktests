@@ -1991,11 +1991,12 @@ function renderPracticeView() {
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 04 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Phát minh giấy nhớ Post-it (Part 1) • Nhận thức của loài chó (Part 2) • Sữa đạm từ biển (Part 3) • Tương lai tiếng Anh toàn cầu (Part 4)
+                            <strong>4 Topics:</strong> Văn hóa ẩm thực đường phố (Part 1) • Food Blogger & Đánh giá ẩm thực số (Part 2) • Thói quen đánh răng của con người (Part 3) • Bệnh trầm cảm & Sức khỏe tâm thần (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
                             <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
                         </div>
                     </div>
@@ -2014,9 +2015,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>The Story of Sticky Notes</h4>
-                                <h5>Câu chuyện phát minh giấy ghi chú Post-it tại tập đoàn 3M</h5>
-                                <p>Sự tình cờ của keo dán yếu của Spencer Silver kết hợp cùng sáng kiến đánh dấu sách của Art Fry tạo nên một trong những sản phẩm văn phòng phổ biến nhất lịch sử.</p>
+                                <h4>Culinary Tourism & Street Food</h4>
+                                <h5>Văn hóa ẩm thực đường phố & Du lịch trải nghiệm ẩm thực bản địa</h5>
+                                <p>Khám phá bản sắc văn hóa ẩm thực truyền thống, sự sáng tạo của các quán ăn vỉa hè và sức hấp dẫn du khách quốc tế.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2027,9 +2028,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Dogs' Cognitive Abilities</h4>
-                                <h5>Năng lực nhận thức, giải quyết vấn đề & Thấu cảm của loài chó</h5>
-                                <p>Các nghiên cứu thần kinh học chứng minh loài chó có khả năng đọc hiểu cử chỉ con người, xử lý từ ngữ và hình thành mối gắn kết tình cảm tương đương trẻ 2 tuổi.</p>
+                                <h4>The Rise of Food Bloggers</h4>
+                                <h5>Food Blogger / Viết blog về ẩm thực & Văn hóa đánh giá thời đại số</h5>
+                                <p>Sự bùng nổ của các nhà sáng tạo nội dung ẩm thực, tác động của các bài review trực tuyến đến ngành nhà hàng và bài toán tính khách quan.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2040,9 +2041,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Marine Protein: Fish-Milk Alternatives</h4>
-                                <h5>Công nghệ thực phẩm sữa đạm từ biển thay thế sữa bò truyền thống</h5>
-                                <p>Giải pháp công nghệ sinh học chiết xuất protein từ sinh vật biển nhằm giải quyết bài toán phát thải khí nhà kính của ngành chăn nuôi bò sữa công nghiệp.</p>
+                                <h4>People's Tooth-Brushing Habits</h4>
+                                <h5>Lịch sử & Thói quen đánh răng: Từ cành cây cổ đại đến bàn chải thông minh</h5>
+                                <p>Quá trình tiến hóa của vệ sinh răng miệng qua các nền văn minh, các sai lầm nha khoa phổ biến và ảnh hưởng của sức khỏe nướu đến toàn thân.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2053,9 +2054,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>English in the Future</h4>
-                                <h5>Tiến trình biến đổi & Tương lai của tiếng Anh toàn cầu</h5>
-                                <p>Dự báo xu hướng ngữ pháp giản lược, sự xuất hiện của các biến thể lai ghép (hybrid World Englishes) và tác động của AI dịch thuật đến vị thế của tiếng Anh.</p>
+                                <h4>Clinical Depression & Neuroscience</h4>
+                                <h5>Bệnh trầm cảm: Cơ chế thần kinh học, căn nguyên & Liệu pháp can thiệp</h5>
+                                <p>Phân tích sinh học phân tử của các chất dẫn truyền thần kinh, áp lực tâm lý xã hội hiện đại và các bước tiến mới trong điều trị trầm cảm đa mô thức.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2081,11 +2082,12 @@ function renderPracticeView() {
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 05 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Chè cô Phương ở Phú Yên (Part 1) • Võ Taekwondo Hàn Quốc (Part 2) • Greenwashing tẩy xanh thương hiệu (Part 3) • Quản lý cháy rừng châu Âu (Part 4)
+                            <strong>4 Topics:</strong> Đồng bằng sông Cửu Long (Part 1) • Giáo dục năm 2018 (Part 2) • Rừng ngập mặn & Thích ứng sạt lở (Part 3) • Dữ liệu nghiên cứu Sao Hỏa NASA (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
                             <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
                         </div>
                     </div>
@@ -2104,9 +2106,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Che Co Phuong in Phu Yen</h4>
-                                <h5>Ẩm thực Phú Yên: Chè Cô Phương & Nét văn hóa bản địa</h5>
-                                <p>Khám phá câu chuyện gìn giữ hương vị ngọt thanh truyền thống miền duyên hải Nam Trung Bộ, sự kỳ công trong khâu chọn lọc nguyên liệu tự nhiên và sức hút du lịch.</p>
+                                <h4>The Mekong Delta Ecosystem</h4>
+                                <h5>Đồng bằng sông Cửu Long: Hệ sinh thái, vựa lúa & Thách thức sinh kế</h5>
+                                <p>Vai trò an ninh lương thực của vùng châu thổ, nhịp sống mùa nước nổi và các mô hình nông nghiệp thích ứng với xâm nhập mặn.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2117,9 +2119,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Taekwondo & Korean Heritage</h4>
-                                <h5>Võ thuật Taekwondo & Bản sắc di sản văn hóa Hàn Quốc</h5>
-                                <p>Hành trình lịch sử từ môn võ thuật cổ truyền Triều Tiên vươn lên thành môn thể thao tranh tài chính thức tại Thế vận hội Olympic cùng các giá trị đạo đức cốt lõi.</p>
+                                <h4>Global Education Trends in 2018</h4>
+                                <h5>Giáo dục năm 2018: Bước ngoặt công nghệ giáo dục & Học tập cá nhân hóa</h5>
+                                <p>Phân tích các báo cáo giáo dục năm 2018 về sự tích hợp của trí tuệ nhân tạo, lớp học đảo ngược (flipped classrooms) và phát triển kỹ năng thế kỷ 21.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2130,9 +2132,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Greenwashing in Corporate Marketing</h4>
-                                <h5>Chiêu trò "Tẩy xanh" và sự ngụy biện về tính bền vững</h5>
-                                <p>Bóc tách các chiến dịch marketing tạo vỏ bọc thân thiện môi trường của các tập đoàn đa quốc gia và khung pháp lý siết chặt quản lý thông điệp quảng cáo.</p>
+                                <h4>Mangrove Ecosystems & Coastal Defense</h4>
+                                <h5>Hệ sinh thái rừng ngập mặn & Chiến lược chống xói mòn sạt lở ven bờ</h5>
+                                <p>Nghiên cứu cấu trúc rễ đước, khả năng lưu trữ carbon xanh (blue carbon) và vai trò lá chắn tự nhiên trước bão biển và triều cường.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2143,9 +2145,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>European Forest Fires & Smoking Bans</h4>
-                                <h5>Kiểm soát cháy rừng & Lệnh cấm hút thuốc tại Châu Âu</h5>
-                                <p>Phân tích các đợt hạn hán kỷ lục tại Nam Âu, rủi ro cháy than bùn âm ỉ (zombie fires) và các biện pháp hành chính nghiêm ngặt trong bảo tồn rừng nguyên sinh.</p>
+                                <h4>NASA's Research Data on Mars</h4>
+                                <h5>Dữ liệu nghiên cứu của NASA về Sao Hỏa: Địa chất & Dấu vết sinh học</h5>
+                                <p>Giải mã các khám phá từ robot thám hiểm Curiosity và Perseverance: bằng chứng về hồ nước cổ đại, khoáng chất đất sét và triển vọng định cư tương lai.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2171,11 +2173,12 @@ function renderPracticeView() {
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 06 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Xu hướng việc làm giới trẻ (Part 1) • AI & Thế giới ảo (Part 2) • Lịch sử Hoàng gia Royal World (Part 3) • Chất béo bão hòa vs Không bão hòa (Part 4)
+                            <strong>4 Topics:</strong> Lịch sử xe xích lô (Part 1) • Lịch sử múa ba lê & Vũ công huyền thoại (Part 2) • Giao thông VN vs Chính sách Anh (Part 3) • Thiên văn học - Ngôi sao mới & Sao Hải Vương (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
                             <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
                         </div>
                     </div>
@@ -2194,9 +2197,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Youth Career Choices: Past vs. Present</h4>
-                                <h5>Sự dịch chuyển nghề nghiệp: Buôn bán hàng hóa xưa vs Marketing nay</h5>
-                                <p>Sự so sánh sâu sắc giữa nền kinh tế phân phối vật lý truyền thống và sự trỗi dậy của tiếp thị số, thương mại điện tử trong định hướng nghề nghiệp giới trẻ.</p>
+                                <h4>History of the Cyclo in Vietnam</h4>
+                                <h5>Lịch sử xe xích lô: Biểu tượng văn hóa đô thị & Bước chuyển thời gian</h5>
+                                <p>Sự ra đời của chiếc xe xích lô đầu thế kỷ 20, thời hoàng kim trong giao thông công cộng và sự chuyển mình thành phương tiện du lịch di sản đặc sắc.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2207,9 +2210,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>AI & Work in Virtual Worlds</h4>
-                                <h5>Trí tuệ nhân tạo & Tương lai lao động trong thế giới số</h5>
-                                <p>Tác động của tự động hóa và các không gian làm việc mô phỏng ảo (metaverse) đối với năng suất, sự sáng tạo và tương tác giữa con người.</p>
+                                <h4>Classical Ballet: Legacy & Legend</h4>
+                                <h5>Lịch sử múa ba lê nổi tiếng: Tác phẩm kinh điển & Vũ công huyền thoại</h5>
+                                <p>Nguồn gốc nghệ thuật múa ba lê từ thời kỳ Phục hưng Pháp - Ý, sự thăng hoa của vở Hồ Thiên Nga và kỷ luật khổ luyện phi thường của các vũ công kiệt xuất.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2220,9 +2223,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>The Royal World: Monarchy & Modernity</h4>
-                                <h5>Thế giới Hoàng gia: Lịch sử, biểu tượng & Thách thức thời đại</h5>
-                                <p>Nghiên cứu về vai trò hiến pháp, sức mạnh ngoại giao văn hóa và sức ép truyền thông đại chúng đối với các vương triều châu Âu thế kỷ 21.</p>
+                                <h4>Traffic in VN vs. British Transport</h4>
+                                <h5>Giao thông Việt Nam & So sánh với chính sách giao thông chính phủ Anh</h5>
+                                <p>Nghiên cứu đối chiếu quản lý ùn tắc đô thị: mô hình xe máy tại Hà Nội, TP.HCM so sánh với phí ùn tắc (congestion charge) và giao thông công cộng của London.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
@@ -2233,9 +2236,9 @@ function renderPracticeView() {
                         <div class="upcoming-passage-card">
                             <div>
                                 <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Saturated vs. Unsaturated Fats</h4>
-                                <h5>Hóa sinh dinh dưỡng: Chất béo bão hòa, không bão hòa & Sức khỏe tim mạch</h5>
-                                <p>Cơ chế cấu trúc hóa học phân tử, vai trò của cholesterol LDL/HDL và các khuyến nghị y khoa mới nhất về chế độ dinh dưỡng phòng ngừa xơ vữa động mạch.</p>
+                                <h4>Astronomy: Rising Stars & Neptune</h4>
+                                <h5>Thiên văn học: Tiến hóa sao, Các ngôi sao mới & Bí ẩn sao Hải Vương</h5>
+                                <p>Cơ chế hình thành tiền sao trong các đám mây phân tử khí, kết hợp với các dữ liệu khí quyển và bão từ cực đoan trên hành tinh băng khổng lồ Neptune.</p>
                             </div>
                             <div class="upcoming-tag-bar">
                                 <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
