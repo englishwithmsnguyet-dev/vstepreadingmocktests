@@ -1542,6 +1542,7 @@ function renderPracticeView() {
     const test13 = tests.find(t => t.testNum === 13);
     const test14 = tests.find(t => t.testNum === 14);
     const test15 = tests.find(t => t.testNum === 15);
+    const test16 = tests.find(t => t.testNum === 16);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -2408,90 +2409,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 6. BỘ ĐỀ THỰC CHIẾN 06 (TEST 16) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 6. BỘ ĐỀ THỰC CHIẾN 06 (TEST 16) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite16') {
+        const savedAnsCount16 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 16) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved16 = state.savedExam && state.savedExam.testNum === 16 && savedAnsCount16 > 0;
+        const totalVocab16 = (test16 && test16.passages) ? test16.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta16 = [
+            {
+                testNum: 16,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'heritage',
+                categoryName: 'Lịch sử & Di sản đô thị',
+                categoryColor: '#7c3aed',
+                badgeBg: '#f5f3ff',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: History of the Cyclo',
+                icon: 'fa-bicycle',
+                title: 'The History of the Cyclo',
+                titleVi: 'Lịch sử xe xích lô: Từ sáng chế năm 1939 đến biểu tượng du lịch di sản',
+                summary: 'Hành trình của chiếc xe xích lô từ thiết kế độc đáo khách ngồi trước của Pierre Coupeaud năm 1939, vai trò trụ cột vận tải đô thị thế kỷ 20 đến sự tái định vị thành du lịch di sản không phát thải.'
+            },
+            {
+                testNum: 16,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'arts',
+                categoryName: 'Nghệ thuật Biểu diễn & Múa',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: Famous Ballet Performance & Dancer',
+                icon: 'fa-masks-theater',
+                title: 'Classical Ballet: Swan Lake & Legendary Ballerinas',
+                titleVi: 'Lịch sử múa Ba-lê: Vở Hồ Thiên Nga kinh điển & Huyền thoại sân khấu',
+                summary: 'Từ yến tiệc Phục hưng Ý đến cuộc hồi sinh kỳ diệu của Hồ Thiên Nga năm 1895, thử thách 32 vòng xoay fouetté của vai kép Odette - Odile và dấu ấn đổi mới từ Anna Pavlova đến Misty Copeland.'
+            },
+            {
+                testNum: 16,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'urban_policy',
+                categoryName: 'Giao thông & Chính sách công',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Traffic in Vietnam vs. British Policies',
+                icon: 'fa-traffic-light',
+                title: 'Urban Traffic in Vietnam & British Transport Policies',
+                titleVi: 'Giao thông Việt Nam & Đối chiếu chính sách quy hoạch giao thông Anh',
+                summary: 'Phân tích đối chiếu hệ sinh thái xe máy tại Hà Nội - TP.HCM với phí chống ùn tắc, vùng phát thải thấp ULEZ và bài học về trình tự triển khai hạ tầng công cộng đồng bộ của London.'
+            },
+            {
+                testNum: 16,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'astronomy',
+                categoryName: 'Thiên văn học & Vật lý vũ trụ',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Astronomy - Rising Stars & Planet Neptune',
+                icon: 'fa-meteor',
+                title: 'Astronomy: Stellar Nurseries & Planet Neptune',
+                titleVi: 'Thiên văn học: Sự hình thành ngôi sao mới & Khám phá Sao Hải Vương',
+                summary: 'Cơ chế nhiệt hạch khai sinh ngôi sao trong tinh vân phân tử, sự bồi tụ hành tinh băng ngoài đường băng giá, chiến thắng toán học khám phá Sao Hải Vương 1846 và những cơn gió siêu thanh 2.100 km/h.'
+            }
+        ];
+
+        let pCardsHtml16 = '';
+        passagesMeta16.forEach(meta => {
+            const pData = (test16 && test16.passages) ? test16.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml16 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-16">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-06" id="suite-box-16">
+                <div class="practice-suite-header suite-header-06">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(139, 92, 246, 0.25); color: #c4b5fd; border-color: rgba(139, 92, 246, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 06 (TEST 16) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #ddd6fe;"></i> BỘ ĐỀ THỰC CHIẾN 06 (TEST 16) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 06 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Lịch sử xe xích lô (Part 1) • Lịch sử múa ba lê & Vũ công huyền thoại (Part 2) • Giao thông VN vs Chính sách Anh (Part 3) • Thiên văn học - Ngôi sao mới & Sao Hải Vương (Part 4)
+                            <strong>4 Topics:</strong> Lịch sử xe xích lô (Part 1) • Lịch sử múa Ba-lê & Hồ Thiên Nga (Part 2) • Giao thông VN vs Chính sách Anh (Part 3) • Thiên văn học: Sao mới & Sao Hải Vương (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab16} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(16)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab16} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved16 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved16 ? 'resumeSavedExam()' : 'startFullExam(16)'}">
+                            ${isSaved16 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount16}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(16)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #8b5cf6;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 06):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>History of the Cyclo in Vietnam</h4>
-                                <h5>Lịch sử xe xích lô: Biểu tượng văn hóa đô thị & Bước chuyển thời gian</h5>
-                                <p>Sự ra đời của chiếc xe xích lô đầu thế kỷ 20, thời hoàng kim trong giao thông công cộng và sự chuyển mình thành phương tiện du lịch di sản đặc sắc.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#8b5cf6;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Classical Ballet: Legacy & Legend</h4>
-                                <h5>Lịch sử múa ba lê nổi tiếng: Tác phẩm kinh điển & Vũ công huyền thoại</h5>
-                                <p>Nguồn gốc nghệ thuật múa ba lê từ thời kỳ Phục hưng Pháp - Ý, sự thăng hoa của vở Hồ Thiên Nga và kỷ luật khổ luyện phi thường của các vũ công kiệt xuất.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Traffic in VN vs. British Transport</h4>
-                                <h5>Giao thông Việt Nam & So sánh với chính sách giao thông chính phủ Anh</h5>
-                                <p>Nghiên cứu đối chiếu quản lý ùn tắc đô thị: mô hình xe máy tại Hà Nội, TP.HCM so sánh với phí ùn tắc (congestion charge) và giao thông công cộng của London.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Astronomy: Rising Stars & Neptune</h4>
-                                <h5>Thiên văn học: Tiến hóa sao, Các ngôi sao mới & Bí ẩn sao Hải Vương</h5>
-                                <p>Cơ chế hình thành tiền sao trong các đám mây phân tử khí, kết hợp với các dữ liệu khí quyển và bão từ cực đoan trên hành tinh băng khổng lồ Neptune.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml16}
                     </div>
                 </div>
             </div>

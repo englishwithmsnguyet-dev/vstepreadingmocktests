@@ -4917,6 +4917,18 @@ body.dark-mode .resume-exam-banner {
     border-color: #06b6d4;
 }
 
+.practice-suite-box.suite-06 {
+    border-color: #8b5cf6;
+}
+
+.practice-suite-box.suite-07 {
+    border-color: #ec4899;
+}
+
+.practice-suite-box.suite-08 {
+    border-color: #14b8a6;
+}
+
 .practice-suite-box.suite-upcoming {
     border: 2px dashed #94a3b8;
     background: var(--surface-solid);
@@ -4950,6 +4962,18 @@ body.dark-mode .resume-exam-banner {
 
 .suite-header-05 {
     background: linear-gradient(135deg, #164e63 0%, #0e7490 45%, #0891b2 100%);
+}
+
+.suite-header-06 {
+    background: linear-gradient(135deg, #3b0764 0%, #5b21b6 45%, #7c3aed 100%);
+}
+
+.suite-header-07 {
+    background: linear-gradient(135deg, #831843 0%, #9d174d 45%, #db2777 100%);
+}
+
+.suite-header-08 {
+    background: linear-gradient(135deg, #134e4a 0%, #115e59 45%, #0d9488 100%);
 }
 
 .suite-header-upcoming {

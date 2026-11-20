@@ -33476,6 +33476,2856 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST16",
+    "testNum": 16,
+    "title": "VSTEP READING MOCK TEST 16",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 06 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: The History of the Cyclo",
+        "topic": "Lịch sử xe xích lô: Từ phương tiện giao thông thuộc địa đến biểu tượng di sản đô thị",
+        "timeAllowed": 15,
+        "passage": "<p>Gliding gently through the tree-lined boulevards of Hanoi's Old Quarter or past the imperial citadel of Hue, the three-wheeled cycle rickshaw—universally known in Vietnam as the cyclo (xích lô)—remains an unmistakable emblem of urban heritage. Although many contemporary visitors assume the vehicle is an ancient indigenous craft, the cyclo is actually a twentieth-century Franco-Vietnamese mechanical innovation. Its lineage traces back to 1939, when French inventor Pierre Coupeaud designed a pedal-driven tricycle to replace the physically exhausting hand-pulled rickshaws (xe kéo) that had dominated Indochinese streets since the late nineteenth century. To publicize his prototype, Coupeaud famously organized a grueling promotional journey covering roughly 200 kilometers from Phnom Penh to Saigon, proving that the geared vehicle could carry heavy loads across long distances with considerably less human exertion.</p><p>What distinguished the Vietnamese cyclo from similar pedicabs in neighboring Asian countries was its ingenious structural geometry. Unlike Indian or Thai trishaws where the driver sits in front and pulls a rear carriage, Coupeaud positioned the cushioned passenger seat at the front and placed the driver elevated behind it. This configuration offered multiple practical advantages: passengers enjoyed an unobstructed panoramic view of bustling streetscapes and refreshing breezes, while drivers could monitor cargo weight directly ahead and steer accurately through narrow market alleys. Within a single decade, cyclos proliferated across Hanoi, Hue, and Saigon, evolving into the indispensable workhorses of daily urban commerce.</p><p>Throughout the mid-to-late twentieth century, cyclos fulfilled an astonishing spectrum of municipal roles. Before private automobiles and motorbikes became financially attainable for ordinary families, cyclos ferried schoolchildren to class, transported brides in traditional wedding processions, hauled construction timber and refrigerators, and even served as makeshift ambulances during emergencies. For thousands of rural migrants moving to cities in search of steady earnings, pedaling a rented cyclo offered immediate entry into the urban workforce without requiring formal credentials or substantial startup capital.</p><p>Since the late 1990s, however, Vietnam's rapid economic modernization and soaring motorbike ownership have dramatically reshaped city streets. Citing severe traffic congestion and slower operating speeds, municipal authorities in major metropolises restricted cyclos from arterial roads and commercial freight routes. Today, rather than vanishing completely, the cyclo has undergone a graceful cultural reinvention. Licensed heritage fleets now operate primarily within historic tourism corridors, offering international travelers an unhurried, zero-emission vantage point from which to absorb architectural history, street melodies, and the nostalgic rhythm of bygone Vietnam.</p>",
+        "vocab": [
+          {
+            "word": "boulevard",
+            "pos": "n",
+            "ipa": "/ˈbuː.lə.vɑːd/",
+            "level": "B2",
+            "mean": "đại lộ rợp bóng cây",
+            "syns": [
+              "avenue",
+              "thoroughfare",
+              "promenade"
+            ],
+            "ex": "Cyclos glide leisurely along the wide, tree-lined boulevards of central Hanoi."
+          },
+          {
+            "word": "emblem",
+            "pos": "n",
+            "ipa": "/ˈem.bləm/",
+            "level": "B2",
+            "mean": "biểu tượng đặc trưng",
+            "syns": [
+              "symbol",
+              "icon",
+              "badge"
+            ],
+            "ex": "The classic three-wheeled cyclo has become an enduring emblem of Vietnamese tourism."
+          },
+          {
+            "word": "lineage",
+            "pos": "n",
+            "ipa": "/ˈlɪn.i.ɪdʒ/",
+            "level": "C1",
+            "mean": "nguồn gốc lịch sử, dòng dõi phát triển",
+            "syns": [
+              "ancestry",
+              "origin",
+              "pedigree"
+            ],
+            "ex": "Historians trace the mechanical lineage of the cyclo back to 1939."
+          },
+          {
+            "word": "prototype",
+            "pos": "n",
+            "ipa": "/ˈprəʊ.tə.taɪp/",
+            "level": "B2",
+            "mean": "nguyên mẫu thử nghiệm đầu tiên",
+            "syns": [
+              "early model",
+              "archetype",
+              "sample"
+            ],
+            "ex": "Pierre Coupeaud tested his early cyclo prototype on an intercity road trip."
+          },
+          {
+            "word": "grueling",
+            "pos": "adj",
+            "ipa": "/ˈɡruː.ə.lɪŋ/",
+            "level": "C1",
+            "mean": "gian khổ, đòi hỏi sức bền cực độ",
+            "syns": [
+              "exhausting",
+              "arduous",
+              "strenuous"
+            ],
+            "ex": "Pulling hand rickshaws under the tropical sun was grueling physical labor."
+          },
+          {
+            "word": "exertion",
+            "pos": "n",
+            "ipa": "/ɪɡˈzɜː.ʃən/",
+            "level": "B2",
+            "mean": "sự gắng sức, hao tổn thể lực",
+            "syns": [
+              "effort",
+              "strain",
+              "labor"
+            ],
+            "ex": "Bicycle gears allowed drivers to carry passengers with much less physical exertion."
+          },
+          {
+            "word": "ingenious",
+            "pos": "adj",
+            "ipa": "/ɪnˈdʒiː.ni.əs/",
+            "level": "B2",
+            "mean": "tài tình, sáng tạo khéo léo",
+            "syns": [
+              "clever",
+              "inventive",
+              "resourceful"
+            ],
+            "ex": "The front-mounted passenger seat was an ingenious design for narrow Asian lanes."
+          },
+          {
+            "word": "geometry",
+            "pos": "n",
+            "ipa": "/dʒiˈɒm.ə.tri/",
+            "level": "B2",
+            "mean": "hình học kết cấu, bố cục hình khối",
+            "syns": [
+              "layout",
+              "configuration",
+              "structure"
+            ],
+            "ex": "The tricycle's balanced geometry kept heavy cargo stable around sharp corners."
+          },
+          {
+            "word": "elevated",
+            "pos": "adj",
+            "ipa": "/ˈel.ɪ.veɪ.tɪd/",
+            "level": "B2",
+            "mean": "ở vị trí cao hơn",
+            "syns": [
+              "raised",
+              "higher",
+              "lifted"
+            ],
+            "ex": "From an elevated rear saddle, the cyclo rider easily observes oncoming traffic."
+          },
+          {
+            "word": "configuration",
+            "pos": "n",
+            "ipa": "/kənˌfɪɡ.əˈreɪ.ʃən/",
+            "level": "B2",
+            "mean": "cách bố trí, cấu hình thiết kế",
+            "syns": [
+              "arrangement",
+              "setup",
+              "layout"
+            ],
+            "ex": "This seating configuration gives sightseers a clear view of historic buildings."
+          },
+          {
+            "word": "unobstructed",
+            "pos": "adj",
+            "ipa": "/ˌʌn.əbˈstrʌk.tɪd/",
+            "level": "B2",
+            "mean": "không bị che khuất, thông thoáng tầm nhìn",
+            "syns": [
+              "clear",
+              "open",
+              "unblocked"
+            ],
+            "ex": "Sitting at the front ensures an unobstructed panorama of the Old Quarter."
+          },
+          {
+            "word": "panoramic",
+            "pos": "adj",
+            "ipa": "/ˌpæn.əˈræm.ɪk/",
+            "level": "B2",
+            "mean": "toàn cảnh rộng mở",
+            "syns": [
+              "sweeping",
+              "wide-angle",
+              "expansive"
+            ],
+            "ex": "Tourists enjoy panoramic street photography during slow afternoon cyclo rides."
+          },
+          {
+            "word": "indispensable",
+            "pos": "adj",
+            "ipa": "/ˌɪn.dɪˈspen.sə.bəl/",
+            "level": "B2",
+            "mean": "không thể thiếu, vô cùng thiết yếu",
+            "syns": [
+              "essential",
+              "vital",
+              "crucial"
+            ],
+            "ex": "During the 1960s, cyclos were indispensable for transporting household goods."
+          },
+          {
+            "word": "workhorse",
+            "pos": "n",
+            "ipa": "/ˈwɜːk.hɔːs/",
+            "level": "B2",
+            "mean": "công cụ lao động chủ lực, bền bỉ",
+            "syns": [
+              "mainstay",
+              "reliable utility",
+              "backbone"
+            ],
+            "ex": "For decades, the humble cyclo served as the workhorse of local urban trade."
+          },
+          {
+            "word": "spectrum",
+            "pos": "n",
+            "ipa": "/ˈspek.trəm/",
+            "level": "B2",
+            "mean": "phổ rộng, phạm vi đa dạng",
+            "syns": [
+              "range",
+              "array",
+              "variety"
+            ],
+            "ex": "Cyclos handled a broad spectrum of errands from deliveries to wedding parades."
+          },
+          {
+            "word": "attainable",
+            "pos": "adj",
+            "ipa": "/əˈteɪ.nə.bəl/",
+            "level": "B2",
+            "mean": "có thể đạt được, trong tầm với tài chính",
+            "syns": [
+              "achievable",
+              "affordable",
+              "accessible"
+            ],
+            "ex": "Private cars only became attainable for middle-class households in recent decades."
+          },
+          {
+            "word": "ferry",
+            "pos": "v",
+            "ipa": "/ˈfer.i/",
+            "level": "B2",
+            "mean": "chuyên chở qua lại thường xuyên",
+            "syns": [
+              "transport",
+              "carry",
+              "shuttle"
+            ],
+            "ex": "Drivers would ferry young students to school every morning before rush hour."
+          },
+          {
+            "word": "haul",
+            "pos": "v",
+            "ipa": "/hɔːl/",
+            "level": "B2",
+            "mean": "kéo chở vật nặng cồng kềnh",
+            "syns": [
+              "lug",
+              "cart",
+              "drag"
+            ],
+            "ex": "Reinforced cargo cyclos could haul heavy sacks of rice and wooden beams."
+          },
+          {
+            "word": "makeshift",
+            "pos": "adj",
+            "ipa": "/ˈmeɪk.ʃɪft/",
+            "level": "B2",
+            "mean": "tạm thời, ứng biến tình huống khẩn cấp",
+            "syns": [
+              "improvised",
+              "temporary",
+              "stopgap"
+            ],
+            "ex": "In urgent cases, flat-bed cyclos acted as makeshift ambulances to nearby clinics."
+          },
+          {
+            "word": "migrant",
+            "pos": "n",
+            "ipa": "/ˈmaɪ.ɡrənt/",
+            "level": "B1",
+            "mean": "người di cư lên thành phố tìm việc",
+            "syns": [
+              "newcomer",
+              "relocator",
+              "mover"
+            ],
+            "ex": "Many rural migrants rented cyclos to earn an immediate income in big cities."
+          },
+          {
+            "word": "congestion",
+            "pos": "n",
+            "ipa": "/kənˈdʒes.tʃən/",
+            "level": "B2",
+            "mean": "tình trạng ùn tắc giao thông",
+            "syns": [
+              "gridlock",
+              "bottleneck",
+              "jam"
+            ],
+            "ex": "City planners restricted slow vehicles to alleviate peak-hour traffic congestion."
+          },
+          {
+            "word": "arterial",
+            "pos": "adj",
+            "ipa": "/ɑːˈtɪə.ri.əl/",
+            "level": "C1",
+            "mean": "thuộc tuyến đường huyết mạch chính",
+            "syns": [
+              "main",
+              "major",
+              "primary"
+            ],
+            "ex": "Slow tricycles are prohibited on busy arterial roads during weekday commutes."
+          },
+          {
+            "word": "freight",
+            "pos": "n",
+            "ipa": "/freɪt/",
+            "level": "B2",
+            "mean": "hàng hóa vận tải",
+            "syns": [
+              "cargo",
+              "goods",
+              "merchandise"
+            ],
+            "ex": "Motorized vans gradually replaced cyclos on commercial freight routes."
+          },
+          {
+            "word": "reinvention",
+            "pos": "n",
+            "ipa": "/ˌriː.ɪnˈven.ʃən/",
+            "level": "B2",
+            "mean": "sự tái định vị, đổi mới vai trò",
+            "syns": [
+              "transformation",
+              "renewal",
+              "rebirth"
+            ],
+            "ex": "Heritage tourism sparked a graceful economic reinvention for historic cyclo fleets."
+          },
+          {
+            "word": "vantage",
+            "pos": "n",
+            "ipa": "/ˈvɑːn.tɪdʒ/",
+            "level": "C1",
+            "mean": "vị trí quan sát thuận lợi",
+            "syns": [
+              "viewpoint",
+              "perspective",
+              "lookout"
+            ],
+            "ex": "The open front canopy offers a superb vantage point for admiring colonial facades."
+          },
+          {
+            "word": "nostalgic",
+            "pos": "adj",
+            "ipa": "/nɒsˈtæl.dʒɪk/",
+            "level": "B2",
+            "mean": "gợi nhớ hoài niệm xưa cũ",
+            "syns": [
+              "sentimental",
+              "reminiscent",
+              "wistful"
+            ],
+            "ex": "The soft chime of a cyclo bell evokes a nostalgic charm for older residents."
+          },
+          {
+            "word": "bygone",
+            "pos": "adj",
+            "ipa": "/ˈbaɪ.ɡɒn/",
+            "level": "C1",
+            "mean": "đã qua, thuộc thời xa xưa",
+            "syns": [
+              "past",
+              "former",
+              "historical"
+            ],
+            "ex": "Guided cyclo tours preserve the tranquil rhythm of a bygone era."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "What common misconception about the cyclo does the author correct in paragraph 1?",
+            "questionVi": "Quan niệm sai lầm phổ biến nào về xe xích lô được tác giả đính chính trong đoạn 1?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "That the cyclo was originally powered by small gasoline engines",
+              "That the cyclo is an ancient traditional Vietnamese invention rather than a twentieth-century Franco-Vietnamese innovation",
+              "That the cyclo was designed exclusively for royal ceremonies in Hue",
+              "That the cyclo could only travel short distances inside flat city parks"
+            ],
+            "optionsVi": [
+              "A. Rằng xe xích lô ban đầu chạy bằng động cơ xăng cỡ nhỏ",
+              "B. Rằng xe xích lô là một nghề thủ công cổ xưa của người Việt thay vì phát minh cơ khí Pháp - Việt thế kỷ 20",
+              "C. Rằng xe xích lô được thiết kế riêng cho các nghi lễ cung đình tại Huế",
+              "D. Rằng xe xích lô chỉ đi được quãng ngắn trong công viên bằng phẳng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Although many contemporary visitors assume the vehicle is an ancient indigenous craft, the cyclo is actually a twentieth-century Franco-Vietnamese mechanical innovation. [Paragraph 1]",
+            "evidenceVi": "Mặc dù nhiều du khách ngày nay cho rằng phương tiện này là sản phẩm thủ công bản địa cổ xưa, thực chất xích lô là một sáng chế cơ khí Pháp - Việt thế kỷ 20. [Đoạn 1]",
+            "explanation": "Đoạn 1 đính chính rõ ràng: nhiều du khách lầm tưởng xích lô là nghề thủ công cổ truyền, nhưng thực ra nó ra đời năm 1939 bởi nhà phát minh Pháp Pierre Coupeaud (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Đính chính nhận thức (Factual Detail)",
+              "cluePassage": "Although many contemporary visitors assume the vehicle is an ancient indigenous craft, the cyclo is actually a twentieth-century Franco-Vietnamese mechanical innovation.",
+              "clueAnswer": "That the cyclo is an ancient traditional Vietnamese invention rather than a twentieth-century Franco-Vietnamese innovation",
+              "keyPassage": "assume... ancient indigenous craft... actually twentieth-century Franco-Vietnamese innovation",
+              "keyAnswer": "ancient traditional Vietnamese invention rather than twentieth-century Franco-Vietnamese innovation",
+              "paraphrasePair": "ancient indigenous craft <=> ancient traditional Vietnamese invention",
+              "meaningVi": "sản phẩm thủ công bản địa cổ xưa <=> phát minh truyền thống cổ đại của Việt Nam",
+              "deductionLogic": "Cấu trúc 'Although many assume X, it is actually Y' chỉ trực tiếp quan niệm sai lầm cần đính chính."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "Why did Pierre Coupeaud organize a 200-kilometer journey from Phnom Penh to Saigon in 1939?",
+            "questionVi": "Tại sao Pierre Coupeaud lại tổ chức hành trình dài 200 km từ Phnom Penh đến Sài Gòn vào năm 1939?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / MỤC ĐÍCH (Cause & Effect)",
+            "options": [
+              "To promote his prototype and prove it could haul heavy loads over long distances with less human effort",
+              "To win an annual international bicycle racing championship hosted by colonial authorities",
+              "To protest municipal bans against hand-pulled rickshaws in Hanoi",
+              "To map out new railway corridors connecting Cambodia and southern Vietnam"
+            ],
+            "optionsVi": [
+              "A. Để quảng bá nguyên mẫu và chứng minh nó có thể chở nặng đường dài với ít công sức con người hơn",
+              "B. Để giành chức vô địch giải đua xe đạp quốc tế thường niên",
+              "C. Để phản đối lệnh cấm xe kéo tay tại Hà Nội",
+              "D. Để vẽ bản đồ các tuyến đường sắt mới nối Campuchia và miền Nam Việt Nam"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "To publicize his prototype, Coupeaud famously organized a grueling promotional journey covering roughly 200 kilometers from Phnom Penh to Saigon, proving that the geared vehicle could carry heavy loads across long distances with considerably less human exertion. [Paragraph 1]",
+            "evidenceVi": "Để quảng bá nguyên mẫu của mình, Coupeaud đã tổ chức chuyến đi quảng bá dài khoảng 200 km từ Phnom Penh đến Sài Gòn, chứng minh chiếc xe có hộp số có thể chở nặng đường dài với ít sức lực hơn nhiều. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ hai mục tiêu của hành trình: quảng bá nguyên mẫu ('publicize his prototype') và chứng minh khả năng chở nặng đường dài đỡ tốn sức hơn (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Mục đích hành động (Factual)",
+              "cluePassage": "To publicize his prototype... proving that the geared vehicle could carry heavy loads across long distances with considerably less human exertion.",
+              "clueAnswer": "To promote his prototype and prove it could haul heavy loads over long distances with less human effort",
+              "keyPassage": "publicize prototype... carry heavy loads across long distances with less human exertion",
+              "keyAnswer": "promote prototype... haul heavy loads over long distances with less human effort",
+              "paraphrasePair": "publicize... human exertion <=> promote... human effort",
+              "meaningVi": "công bố quảng bá & hao tổn thể lực <=> quảng bá & công sức con người",
+              "deductionLogic": "Paraphrase trực tiếp từ 'publicize' sang 'promote' và 'exertion' sang 'effort'."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "According to paragraph 2, how did the Vietnamese cyclo differ structurally from trishaws in India or Thailand?",
+            "questionVi": "Theo đoạn 2, xe xích lô Việt Nam có cấu trúc khác biệt gì so với xe lôi ba bánh ở Ấn Độ hay Thái Lan?",
+            "questionType": "DẠNG 03: CHI TIẾT SO SÁNH (Comparison)",
+            "options": [
+              "It used four wooden wheels instead of three rubber tires.",
+              "It placed the passenger seat at the front while positioning the driver elevated behind it.",
+              "It enclosed passengers inside a locked metal cabin for privacy.",
+              "It required two drivers pedaling side by side to steer around corners."
+            ],
+            "optionsVi": [
+              "A. Nó dùng bốn bánh gỗ thay vì ba bánh cao su.",
+              "B. Nó bố trí ghế hành khách ở phía trước trong khi người đạp ngồi cao ở phía sau.",
+              "C. Nó đóng kín hành khách trong khoang kim loại có khóa để đảm bảo riêng tư.",
+              "D. Nó đòi hỏi hai người đạp song song nhau để rẽ qua các góc phố."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Unlike Indian or Thai trishaws where the driver sits in front and pulls a rear carriage, Coupeaud positioned the cushioned passenger seat at the front and placed the driver elevated behind it. [Paragraph 2]",
+            "evidenceVi": "Khác với xe ba bánh Ấn Độ hay Thái Lan nơi người lái ngồi trước kéo thùng sau, Coupeaud đặt ghế khách bọc nệm phía trước và người lái ngồi cao phía sau. [Đoạn 2]",
+            "explanation": "Điểm độc đáo trong hình học kết cấu của xích lô Việt Nam là khách ngồi trước, người đạp ngồi cao phía sau (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "So sánh cấu trúc (Comparison)",
+              "cluePassage": "positioned the cushioned passenger seat at the front and placed the driver elevated behind it.",
+              "clueAnswer": "It placed the passenger seat at the front while positioning the driver elevated behind it.",
+              "keyPassage": "passenger seat at the front... driver elevated behind it",
+              "keyAnswer": "passenger seat at the front while positioning the driver elevated behind it",
+              "paraphrasePair": "positioned... placed <=> placed... positioning",
+              "meaningVi": "đặt ghế khách phía trước & người lái ngồi cao phía sau",
+              "deductionLogic": "Khớp trực tiếp mô tả cấu trúc ở câu thứ 2 đoạn 2."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "The word \"unobstructed\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"unobstructed\" trong đoạn 2 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "unblocked",
+              "expensive",
+              "crowded",
+              "shadowed"
+            ],
+            "optionsVi": [
+              "A. không bị che khuất",
+              "B. đắt đỏ",
+              "C. đông đúc",
+              "D. bị phủ bóng râm"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "passengers enjoyed an unobstructed panoramic view of bustling streetscapes and refreshing breezes... [Paragraph 2]",
+            "evidenceVi": "hành khách tận hưởng tầm nhìn toàn cảnh không bị che khuất ra phố xá nhộn nhịp và những làn gió mát... [Đoạn 2]",
+            "explanation": "'Unobstructed' (tiền tố 'un-' + 'obstruct' = cản trở) mang nghĩa không bị che chắn, thông thoáng ('unblocked').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "passengers enjoyed an unobstructed panoramic view of bustling streetscapes",
+              "clueAnswer": "unblocked",
+              "keyPassage": "unobstructed panoramic view",
+              "keyAnswer": "unblocked",
+              "paraphrasePair": "unobstructed <=> unblocked / clear",
+              "meaningVi": "không bị cản trở <=> không bị che khuất",
+              "deductionLogic": "Vì ghế khách đặt ở phía trước nên không bị lưng người lái che mất tầm nhìn."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "Which of the following is NOT mentioned in paragraph 3 as a historical use of cyclos?",
+            "questionVi": "Vai trò nào sau đây KHÔNG được đề cập trong đoạn 3 như một công dụng lịch sử của xe xích lô?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Carrying schoolchildren to class",
+              "Transporting brides in wedding processions",
+              "Hauling construction wood and household appliances",
+              "Delivering official diplomatic mail between foreign embassies"
+            ],
+            "optionsVi": [
+              "A. Đưa đón học sinh đi học",
+              "B. Chở cô dâu trong các đám rước dâu truyền thống",
+              "C. Chở gỗ xây dựng và đồ gia dụng (tủ lạnh)",
+              "D. Chuyển phát thư tín ngoại giao chính thức giữa các đại sứ quán"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "cyclos ferried schoolchildren to class, transported brides in traditional wedding processions, hauled construction timber and refrigerators, and even served as makeshift ambulances... [Paragraph 3]",
+            "evidenceVi": "xích lô đưa học sinh đến lớp, chở cô dâu trong lễ rước dâu truyền thống, chở gỗ xây dựng và tủ lạnh, thậm chí làm xe cứu thương tạm thời... [Đoạn 3]",
+            "explanation": "Đoạn 3 liệt kê rõ A, B, C (và xe cứu thương tạm). Không hề nhắc đến thư tín ngoại giao giữa các đại sứ quán (D).",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "ferried schoolchildren... transported brides... hauled construction timber and refrigerators... makeshift ambulances",
+              "clueAnswer": "Delivering official diplomatic mail between foreign embassies",
+              "keyPassage": "schoolchildren, brides, timber, refrigerators, ambulances",
+              "keyAnswer": "diplomatic mail (Not mentioned)",
+              "paraphrasePair": "NOT in passage",
+              "meaningVi": "Không có trong đoạn văn",
+              "deductionLogic": "Loại trừ A, B, C đều được liệt kê trực tiếp trong câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "Why did pedaling a cyclo appeal to rural migrants moving to Vietnamese cities in the twentieth century?",
+            "questionVi": "Tại sao nghề đạp xích lô lại thu hút người di cư nông thôn lên các thành phố Việt Nam trong thế kỷ 20?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "It guaranteed lifetime municipal pensions and free housing.",
+              "It allowed immediate entry into urban employment without formal qualifications or large startup capital.",
+              "It was restricted strictly to university-educated engineers.",
+              "It paid higher hourly salaries than commercial airline piloting."
+            ],
+            "optionsVi": [
+              "A. Nó bảo đảm lương hưu đô thị trọn đời và nhà ở miễn phí.",
+              "B. Nó cho phép gia nhập ngay lực lượng lao động đô thị mà không cần bằng cấp chính thức hay vốn khởi nghiệp lớn.",
+              "C. Nó chỉ dành riêng cho các kỹ sư tốt nghiệp đại học.",
+              "D. Nó trả lương theo giờ cao hơn cả nghề lái máy bay thương mại."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "For thousands of rural migrants moving to cities in search of steady earnings, pedaling a rented cyclo offered immediate entry into the urban workforce without requiring formal credentials or substantial startup capital. [Paragraph 3]",
+            "evidenceVi": "Với hàng nghìn người di cư nông thôn lên thành phố kiếm thu nhập ổn định, thuê xe xích lô đạp giúp gia nhập ngay thị trường lao động mà không đòi hỏi bằng cấp hay vốn lớn. [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu rõ lý do: có thể thuê xe để làm việc ngay, không cần bằng cấp chính thức ('formal credentials') hay vốn khởi đầu lớn ('substantial startup capital') (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết kinh tế - xã hội (Factual)",
+              "cluePassage": "offered immediate entry into the urban workforce without requiring formal credentials or substantial startup capital.",
+              "clueAnswer": "It allowed immediate entry into urban employment without formal qualifications or large startup capital.",
+              "keyPassage": "immediate entry... without requiring formal credentials or substantial startup capital",
+              "keyAnswer": "immediate entry... without formal qualifications or large startup capital",
+              "paraphrasePair": "formal credentials... substantial <=> formal qualifications... large",
+              "meaningVi": "chứng chỉ chính thức & vốn đáng kể <=> bằng cấp chính thức & vốn lớn",
+              "deductionLogic": "Paraphrase trực tiếp từ 'credentials' sang 'qualifications' và 'substantial' sang 'large'."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "The word \"makeshift\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"makeshift\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "improvised",
+              "luxurious",
+              "automated",
+              "permanent"
+            ],
+            "optionsVi": [
+              "A. ứng biến, tạm thời",
+              "B. xa hoa lộng lẫy",
+              "C. tự động hóa",
+              "D. vĩnh viễn lâu dài"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "and even served as makeshift ambulances during emergencies. [Paragraph 3]",
+            "evidenceVi": "và thậm chí còn đóng vai trò như những chiếc xe cứu thương tạm thời trong các tình huống khẩn cấp. [Đoạn 3]",
+            "explanation": "'Makeshift' mang nghĩa dùng tạm, ứng biến thay thế trong lúc khẩn cấp ('improvised').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "served as makeshift ambulances during emergencies.",
+              "clueAnswer": "improvised",
+              "keyPassage": "makeshift ambulances during emergencies",
+              "keyAnswer": "improvised",
+              "paraphrasePair": "makeshift <=> improvised / temporary",
+              "meaningVi": "tạm thời ứng biến <=> ứng biến",
+              "deductionLogic": "Trong hoàn cảnh khẩn cấp thiếu xe chuyên dụng, xích lô được ứng biến thành xe cứu thương tạm."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "According to paragraph 4, why did municipal authorities restrict cyclos from major arterial roads?",
+            "questionVi": "Theo đoạn 4, tại sao chính quyền đô thị hạn chế xe xích lô lưu thông trên các tuyến đường huyết mạch lớn?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Because of severe traffic congestion and the cyclos' slower operating speeds",
+              "Because cyclos emitted excessive levels of toxic diesel exhaust",
+              "Because international tourists refused to ride three-wheeled vehicles",
+              "Because all cyclo manufacturers went bankrupt in the 1980s"
+            ],
+            "optionsVi": [
+              "A. Do tình trạng ùn tắc giao thông nghiêm trọng và tốc độ vận hành chậm của xe xích lô",
+              "B. Vì xe xích lô thải ra quá nhiều khí thải diesel độc hại",
+              "C. Vì du khách quốc tế từ chối ngồi xe ba bánh",
+              "D. Vì toàn bộ nhà sản xuất xe xích lô đã phá sản từ thập niên 1980"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Citing severe traffic congestion and slower operating speeds, municipal authorities in major metropolises restricted cyclos from arterial roads and commercial freight routes. [Paragraph 4]",
+            "evidenceVi": "Viện dẫn tình trạng ùn tắc giao thông nghiêm trọng và tốc độ di chuyển chậm hơn, chính quyền các đô thị lớn đã hạn chế xích lô trên các tuyến đường trục chính. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu chính xác hai nguyên nhân: ùn tắc giao thông nghiêm trọng ('severe traffic congestion') và tốc độ chậm hơn ('slower operating speeds') (A). Phương án B sai vì xích lô là xe không phát thải ('zero-emission').",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên nhân quy định giao thông (Cause & Effect)",
+              "cluePassage": "Citing severe traffic congestion and slower operating speeds, municipal authorities... restricted cyclos from arterial roads",
+              "clueAnswer": "Because of severe traffic congestion and the cyclos' slower operating speeds",
+              "keyPassage": "severe traffic congestion and slower operating speeds",
+              "keyAnswer": "severe traffic congestion and slower operating speeds",
+              "paraphrasePair": "citing X and Y <=> because of X and Y",
+              "meaningVi": "viện dẫn lý do tắc đường và tốc độ chậm",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "How has the cyclo survived into the modern era according to paragraph 4?",
+            "questionVi": "Theo đoạn 4, xe xích lô đã tồn tại đến kỷ nguyên hiện đại bằng cách nào?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "By installing high-speed electric motorcycle engines to compete with taxis",
+              "By reinventing itself as a licensed, zero-emission heritage tourism experience in historic quarters",
+              "By operating exclusively as late-night freight trucks along coastal highways",
+              "By becoming a mandatory commuter vehicle for all government office workers"
+            ],
+            "optionsVi": [
+              "A. Bằng cách lắp động cơ xe máy điện tốc độ cao để cạnh tranh với taxi",
+              "B. Bằng cách tái định vị thành trải nghiệm du lịch di sản không phát thải có cấp phép tại các khu phố cổ",
+              "C. Bằng cách hoạt động độc quyền như xe tải đêm trên cao tốc ven biển",
+              "D. Bằng cách trở thành phương tiện đi làm bắt buộc cho công chức nhà nước"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the cyclo has undergone a graceful cultural reinvention. Licensed heritage fleets now operate primarily within historic tourism corridors, offering international travelers an unhurried, zero-emission vantage point... [Paragraph 4]",
+            "evidenceVi": "xích lô đã trải qua cuộc tái định vị văn hóa duyên dáng. Các đội xe di sản được cấp phép hiện hoạt động chủ yếu trong hành lang du lịch lịch sử, mang lại trải nghiệm chậm rãi không phát thải... [Đoạn 4]",
+            "explanation": "Đoạn 4 mô tả sự chuyển mình sang du lịch di sản xanh không phát thải tại các khu phố lịch sử (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Sự thích nghi hiện đại (Factual)",
+              "cluePassage": "graceful cultural reinvention. Licensed heritage fleets now operate primarily within historic tourism corridors, offering... zero-emission vantage point",
+              "clueAnswer": "By reinventing itself as a licensed, zero-emission heritage tourism experience in historic quarters",
+              "keyPassage": "cultural reinvention... licensed heritage fleets... historic tourism corridors... zero-emission",
+              "keyAnswer": "reinventing itself as licensed, zero-emission heritage tourism experience in historic quarters",
+              "paraphrasePair": "historic tourism corridors <=> historic quarters",
+              "meaningVi": "hành lang du lịch lịch sử <=> các khu phố cổ lịch sử",
+              "deductionLogic": "Khớp toàn diện thông tin cuối đoạn 4."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "Which statement best captures the main theme of the entire passage?",
+            "questionVi": "Phát biểu nào thâu tóm chính xác nhất chủ đề chính của toàn bộ bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The cyclo evolved from a 1939 mechanical invention and vital urban workhorse into a cherished cultural tourism icon.",
+              "Traffic planners made a fatal mistake by building wide boulevards in Hanoi and Hue.",
+              "Hand-pulled rickshaws were far more efficient than pedal-driven tricycles for heavy cargo.",
+              "Modern Vietnamese cities have completely eradicated all forms of human-powered transport."
+            ],
+            "optionsVi": [
+              "A. Xe xích lô đã phát triển từ một sáng chế cơ khí năm 1939 và phương tiện lao động đô thị thiết yếu thành biểu tượng du lịch văn hóa đáng trân trọng.",
+              "B. Các nhà quy hoạch giao thông đã mắc sai lầm chí mạng khi xây đại lộ rộng ở Hà Nội và Huế.",
+              "C. Xe kéo tay hiệu quả hơn nhiều so với xe đạp ba bánh khi chở hàng nặng.",
+              "D. Các đô thị Việt Nam hiện đại đã xóa bỏ hoàn toàn mọi phương tiện chạy bằng sức người."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "1939... mechanical innovation... indispensable workhorses of daily urban commerce... graceful cultural reinvention... nostalgic rhythm of bygone Vietnam. [Paragraphs 1-4]",
+            "evidenceVi": "sáng chế cơ khí năm 1939... công cụ chủ lực của thương mại đô thị... tái định vị văn hóa duyên dáng thành biểu tượng du lịch. [Đoạn 1-4]",
+            "explanation": "Phương án A kết nối trọn vẹn dòng chảy lịch sử qua cả 4 đoạn văn từ nguồn gốc 1939, vai trò kinh tế - đời sống thế kỷ 20 đến biểu tượng du lịch di sản hôm nay.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề bao quát toàn bài (Main Idea)",
+              "cluePassage": "twentieth-century Franco-Vietnamese mechanical innovation... indispensable workhorses... graceful cultural reinvention",
+              "clueAnswer": "The cyclo evolved from a 1939 mechanical invention and vital urban workhorse into a cherished cultural tourism icon.",
+              "keyPassage": "1939 mechanical innovation... indispensable workhorses... cultural reinvention",
+              "keyAnswer": "evolved from 1939 mechanical invention and vital urban workhorse into cherished cultural tourism icon",
+              "paraphrasePair": "indispensable workhorses <=> vital urban workhorse",
+              "meaningVi": "phương tiện lao động không thể thiếu <=> phương tiện đô thị thiết yếu",
+              "deductionLogic": "Loại trừ B, C, D vì đều sai lệch hoặc trái ngược với dữ liệu bài đọc."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Classical Ballet: Swan Lake & Legendary Ballerinas",
+        "topic": "Lịch sử nghệ thuật múa Ba-lê: Vở Hồ Thiên Nga kinh điển & Huyền thoại sân khấu",
+        "timeAllowed": 15,
+        "passage": "<p>Although classical ballet is widely admired today as the pinnacle of theatrical athleticism and lyrical grace, its origins lay in the opulent banquet halls of fifteenth-century Italian Renaissance courts rather than professional opera houses. Noblemen and courtiers performed stately, choreographed spectacles to project dynastic prestige before the art form migrated to France under Queen Catherine de' Medici and reached codified maturity under King Louis XIV. Over subsequent centuries, ballet shed its heavy court brocades and heeled shoes in favor of airy tutus and satin pointe shoes, paving the way for the Romantic and Classical golden ages in imperial Russia.</p><p>Nowhere is the dramatic evolution of ballet better illustrated than in the unlikely trajectory of Pyotr Ilyich Tchaikovsky's masterpiece, Swan Lake. Remarkably, when the ballet premiered at Moscow's Bolshoi Theatre in 1877, it was dismissed by critics as an unmitigated failure. Contemporary reviewers complained that Tchaikovsky's symphonic score was far too dense and emotionally intricate for dance, while the initial choreography was derided as uninspired. Only after Tchaikovsky's death did legendary choreographers Marius Petipa and Lev Ivanov revive the work in St. Petersburg in 1895, crafting the iconic 'white acts' of shimmering swan formations and transforming a forgotten flop into the supreme touchstone of classical repertoire.</p><p>At the physical heart of Swan Lake lies one of the most daunting dual roles ever conceived for a prima ballerina: Odette, the fragile, enchanted White Swan, and Odile, the seductive, deceptive Black Swan. Executing this contrast demands not merely extraordinary emotional versatility, but astonishing neuromuscular discipline—culminating in the celebrated sequence of thirty-two consecutive fouetté turns executed on the tip of a single toe. When Italian virtuoso Pierina Legnani first unveiled this dazzling technical feat in the 1895 revival, Russian audiences erupted in disbelief, forever raising the technical threshold expected of elite ballerinas worldwide.</p><p>In the twentieth century, trailblazing performers further revolutionized ballet by infusing rigid classical technique with raw human vulnerability and modern psychological depth. Russian icon Anna Pavlova captivated global audiences across six continents through her ethereal solo The Dying Swan, proving that quiet expressiveness could rival pyrotechnic spins. Later, contemporary pioneers such as Misty Copeland broke entrenched racial and physical barriers at major institutions like American Ballet Theatre. Today, classical ballet endures precisely because it balances centuries-old technical rigor with continual cultural renewal, inviting new generations of dancers to reinterpret timeless stories through their own lived artistry.</p>",
+        "vocab": [
+          {
+            "word": "pinnacle",
+            "pos": "n",
+            "ipa": "/ˈpɪn.ə.kəl/",
+            "level": "C1",
+            "mean": "đỉnh cao chói lọi nhất",
+            "syns": [
+              "peak",
+              "summit",
+              "apex"
+            ],
+            "ex": "Swan Lake is revered as the pinnacle of nineteenth-century classical ballet."
+          },
+          {
+            "word": "opulent",
+            "pos": "adj",
+            "ipa": "/ˈɒp.jʊ.lənt/",
+            "level": "C1",
+            "mean": "xa hoa, lộng lẫy tráng lệ",
+            "syns": [
+              "lavish",
+              "luxurious",
+              "sumptuous"
+            ],
+            "ex": "Early court ballets were staged inside opulent Renaissance palace ballrooms."
+          },
+          {
+            "word": "choreographed",
+            "pos": "adj",
+            "ipa": "/ˈkɒr.i.ə.ɡrɑːft/",
+            "level": "B2",
+            "mean": "được biên đạo công phu bài bản",
+            "syns": [
+              "staged",
+              "arranged",
+              "orchestrated"
+            ],
+            "ex": "Every gesture in the final act is meticulously choreographed to the violin solo."
+          },
+          {
+            "word": "prestige",
+            "pos": "n",
+            "ipa": "/presˈtiːʒ/",
+            "level": "B2",
+            "mean": "uy tín, thanh thế lẫy lừng",
+            "syns": [
+              "status",
+              "renown",
+              "standing"
+            ],
+            "ex": "European monarchs funded elaborate dance productions to display royal prestige."
+          },
+          {
+            "word": "codified",
+            "pos": "adj",
+            "ipa": "/ˈkəʊ.dɪ.faɪd/",
+            "level": "C1",
+            "mean": "được hệ thống hóa thành quy chuẩn chặt chẽ",
+            "syns": [
+              "standardized",
+              "systematized",
+              "formalized"
+            ],
+            "ex": "French ballet academies codified the five fundamental foot positions still taught today."
+          },
+          {
+            "word": "trajectory",
+            "pos": "n",
+            "ipa": "/trəˈdʒek.tər.i/",
+            "level": "C1",
+            "mean": "quỹ đạo, chặng đường phát triển",
+            "syns": [
+              "course",
+              "path",
+              "progression"
+            ],
+            "ex": "The artistic trajectory of Swan Lake shifted from early rejection to global acclaim."
+          },
+          {
+            "word": "premiere",
+            "pos": "v",
+            "ipa": "/ˈprem.i.eər/",
+            "level": "B2",
+            "mean": "công diễn ra mắt lần đầu tiên",
+            "syns": [
+              "debut",
+              "launch",
+              "open"
+            ],
+            "ex": "Tchaikovsky's original ballet premiered in Moscow to lukewarm critical reviews."
+          },
+          {
+            "word": "unmitigated",
+            "pos": "adj",
+            "ipa": "/ʌnˈmɪt.ɪ.ɡeɪ.tɪd/",
+            "level": "C1",
+            "mean": "hoàn toàn, triệt để (thường đi với thất bại)",
+            "syns": [
+              "complete",
+              "total",
+              "sheer"
+            ],
+            "ex": "Critics initially labeled the poorly rehearsed 1877 staging an unmitigated disaster."
+          },
+          {
+            "word": "intricate",
+            "pos": "adj",
+            "ipa": "/ˈɪn.trɪ.kət/",
+            "level": "B2",
+            "mean": "tinh vi, phức tạp giàu tầng nghĩa",
+            "syns": [
+              "complex",
+              "elaborate",
+              "detailed"
+            ],
+            "ex": "Conductors praised Tchaikovsky's intricate symphonic melodies and emotional range."
+          },
+          {
+            "word": "deride",
+            "pos": "v",
+            "ipa": "/dɪˈraɪd/",
+            "level": "C1",
+            "mean": "chế nhạo, chê bai khinh miệt",
+            "syns": [
+              "mock",
+              "ridicule",
+              "scorn"
+            ],
+            "ex": "Nineteenth-century journalists derided the original choreography as unimaginative."
+          },
+          {
+            "word": "touchstone",
+            "pos": "n",
+            "ipa": "/ˈtʌtʃ.stəʊn/",
+            "level": "C1",
+            "mean": "thước đo chuẩn mực, tiêu chuẩn vàng",
+            "syns": [
+              "benchmark",
+              "standard",
+              "gold standard"
+            ],
+            "ex": "The 1895 revival remains the enduring touchstone of classical ballet artistry."
+          },
+          {
+            "word": "repertoire",
+            "pos": "n",
+            "ipa": "/ˈrep.ə.twɑːr/",
+            "level": "C1",
+            "mean": "vốn tiết mục, danh mục vở diễn kinh điển",
+            "syns": [
+              "catalog",
+              "collection",
+              "canon"
+            ],
+            "ex": "Every major international ballet company keeps Swan Lake in its core repertoire."
+          },
+          {
+            "word": "daunting",
+            "pos": "adj",
+            "ipa": "/ˈdɔːn.tɪŋ/",
+            "level": "B2",
+            "mean": "đầy thử thách, khiến người ta e ngại",
+            "syns": [
+              "intimidating",
+              "formidable",
+              "challenging"
+            ],
+            "ex": "Portraying both Odette and Odile in one evening is a daunting artistic challenge."
+          },
+          {
+            "word": "versatility",
+            "pos": "n",
+            "ipa": "/ˌvɜː.səˈtɪl.ə.ti/",
+            "level": "B2",
+            "mean": "sự linh hoạt đa năng, khả năng biến hóa",
+            "syns": [
+              "adaptability",
+              "flexibility",
+              "range"
+            ],
+            "ex": "Lead dancers demonstrate remarkable versatility when shifting between contrasting roles."
+          },
+          {
+            "word": "neuromuscular",
+            "pos": "adj",
+            "ipa": "/ˌnjʊə.rəʊˈmʌs.kjʊ.lər/",
+            "level": "C1",
+            "mean": "thuộc thần kinh - cơ bắp",
+            "syns": [
+              "nerve-and-muscle",
+              "motor-control"
+            ],
+            "ex": "Thirty-two consecutive spins require peak neuromuscular coordination and stamina."
+          },
+          {
+            "word": "consecutive",
+            "pos": "adj",
+            "ipa": "/kənˈsek.jʊ.tɪv/",
+            "level": "B2",
+            "mean": "liên tiếp nhau không ngắt quãng",
+            "syns": [
+              "successive",
+              "back-to-back",
+              "uninterrupted"
+            ],
+            "ex": "The audience counted every one of her thirty-two consecutive turns in breathless silence."
+          },
+          {
+            "word": "virtuoso",
+            "pos": "n",
+            "ipa": "/ˌvɜː.tʃuˈəʊ.səʊ/",
+            "level": "C1",
+            "mean": "nghệ sĩ bậc thầy điêu luyện xuất chúng",
+            "syns": [
+              "master",
+              "maestro",
+              "prodigy"
+            ],
+            "ex": "Italian virtuoso Pierina Legnani stunned St. Petersburg spectators with her precision."
+          },
+          {
+            "word": "threshold",
+            "pos": "n",
+            "ipa": "/ˈθreʃ.həʊld/",
+            "level": "B2",
+            "mean": "ngưỡng chuẩn mực, giới hạn yêu cầu",
+            "syns": [
+              "level",
+              "bar",
+              "standard"
+            ],
+            "ex": "Her historic performance permanently raised the athletic threshold of classical dance."
+          },
+          {
+            "word": "trailblazing",
+            "pos": "adj",
+            "ipa": "/ˈtreɪl.bleɪ.zɪŋ/",
+            "level": "C1",
+            "mean": "tiên phong mở đường, đột phá",
+            "syns": [
+              "pioneering",
+              "groundbreaking",
+              "innovative"
+            ],
+            "ex": "Trailblazing ballerinas expanded both expressive depth and diversity on stage."
+          },
+          {
+            "word": "vulnerability",
+            "pos": "n",
+            "ipa": "/ˌvʌl.nər.əˈbɪl.ə.ti/",
+            "level": "B2",
+            "mean": "sự mong manh chân thực về cảm xúc",
+            "syns": [
+              "fragility",
+              "openness",
+              "sensitivity"
+            ],
+            "ex": "Pavlova infused classical poses with poignant human vulnerability."
+          },
+          {
+            "word": "ethereal",
+            "pos": "adj",
+            "ipa": "/ɪˈθɪə.ri.əl/",
+            "level": "C1",
+            "mean": "thanh thoát, nhẹ nhàng như hư không",
+            "syns": [
+              "delicate",
+              "celestial",
+              "otherworldly"
+            ],
+            "ex": "Her ethereal arm movements created the illusion of a swan gliding across water."
+          },
+          {
+            "word": "pyrotechnic",
+            "pos": "adj",
+            "ipa": "/ˌpaɪ.rəʊˈtek.nɪk/",
+            "level": "C1",
+            "mean": "phô diễn kỹ thuật rực rỡ ngoạn mục",
+            "syns": [
+              "dazzling",
+              "flashy",
+              "spectacular"
+            ],
+            "ex": "Quiet poetic artistry can move audiences more deeply than pyrotechnic leaps."
+          },
+          {
+            "word": "entrenched",
+            "pos": "adj",
+            "ipa": "/ɪnˈtrentʃt/",
+            "level": "C1",
+            "mean": "ăn sâu cố hữu, khó lay chuyển",
+            "syns": [
+              "deep-rooted",
+              "ingrained",
+              "established"
+            ],
+            "ex": "Misty Copeland challenged entrenched stereotypes regarding a ballerina's physique."
+          },
+          {
+            "word": "rigor",
+            "pos": "n",
+            "ipa": "/ˈrɪɡ.ər/",
+            "level": "C1",
+            "mean": "tính kỷ luật khắt khe, chuẩn mực nghiêm ngặt",
+            "syns": [
+              "discipline",
+              "precision",
+              "strictness"
+            ],
+            "ex": "Daily studio practice builds the physical rigor essential for pointe work."
+          },
+          {
+            "word": "lyrical",
+            "pos": "adj",
+            "ipa": "/ˈlɪr.ɪ.kəl/",
+            "level": "B2",
+            "mean": "trữ tình, giàu chất thơ uyển chuyển",
+            "syns": [
+              "poetic",
+              "expressive",
+              "graceful"
+            ],
+            "ex": "Swan Lake blends dramatic storytelling with sweeping, lyrical choreography."
+          },
+          {
+            "word": "flop",
+            "pos": "n",
+            "ipa": "/flɒp/",
+            "level": "B2",
+            "mean": "tác phẩm thất bại nặng nề khi ra mắt",
+            "syns": [
+              "failure",
+              "fiasco",
+              "disaster"
+            ],
+            "ex": "Few theatergoers realize that Swan Lake began its life as a critical flop."
+          },
+          {
+            "word": "endure",
+            "pos": "v",
+            "ipa": "/ɪnˈdjʊər/",
+            "level": "B2",
+            "mean": "trường tồn, sống mãi với thời gian",
+            "syns": [
+              "persist",
+              "last",
+              "survive"
+            ],
+            "ex": "Great theatrical works endure because each era rediscovers fresh meaning within them."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "Where did classical ballet originally emerge according to paragraph 1?",
+            "questionVi": "Theo đoạn 1, nghệ thuật múa ba-lê cổ điển ban đầu ra đời ở đâu?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "In public opera houses of nineteenth-century imperial Russia",
+              "In the lavish banquet halls of fifteenth-century Italian Renaissance courts",
+              "In rural folk theaters across southern France",
+              "In modern American dance conservatories"
+            ],
+            "optionsVi": [
+              "A. Trong các nhà hát opera công cộng của nước Nga đế quốc thế kỷ 19",
+              "B. Trong các đại sảnh yến tiệc xa hoa của cung đình Phục hưng Ý thế kỷ 15",
+              "C. Trong các nhà hát dân gian nông thôn miền Nam nước Pháp",
+              "D. Trong các nhạc viện múa hiện đại tại Mỹ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "its origins lay in the opulent banquet halls of fifteenth-century Italian Renaissance courts rather than professional opera houses. [Paragraph 1]",
+            "evidenceVi": "nguồn gốc của nó nằm ở những đại sảnh yến tiệc xa hoa của các triều đình Phục hưng Ý thế kỷ 15 chứ không phải nhà hát opera chuyên nghiệp. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ xuất phát điểm là cung đình Phục hưng Ý thế kỷ 15 ('opulent banquet halls of fifteenth-century Italian Renaissance courts') trước khi sang Pháp rồi phát triển rực rỡ ở Nga (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguồn gốc lịch sử (Factual)",
+              "cluePassage": "its origins lay in the opulent banquet halls of fifteenth-century Italian Renaissance courts",
+              "clueAnswer": "In the lavish banquet halls of fifteenth-century Italian Renaissance courts",
+              "keyPassage": "opulent banquet halls of fifteenth-century Italian Renaissance courts",
+              "keyAnswer": "lavish banquet halls of fifteenth-century Italian Renaissance courts",
+              "paraphrasePair": "opulent <=> lavish",
+              "meaningVi": "xa hoa lộng lẫy <=> xa hoa tráng lệ",
+              "deductionLogic": "Khớp trực tiếp câu 1 đoạn 1, paraphrase 'opulent' sang 'lavish'."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "Why was the 1877 Moscow premiere of Swan Lake initially regarded as a failure?",
+            "questionVi": "Tại sao buổi công diễn ra mắt Hồ Thiên Nga năm 1877 tại Moscow ban đầu bị coi là thất bại?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Because Moscow audiences refused to attend performances composed by Russian musicians",
+              "Because critics felt Tchaikovsky's score was too complex for dance and dismissed the original choreography as uninspired",
+              "Because the Bolshoi Theatre suffered a severe fire halfway through the second act",
+              "Because dancers refused to wear satin pointe shoes on stage"
+            ],
+            "optionsVi": [
+              "A. Vì khán giả Moscow từ chối xem các tác phẩm do nhạc sĩ Nga sáng tác",
+              "B. Vì giới phê bình cho rằng bản nhạc của Tchaikovsky quá phức tạp cho múa và chê phần biên đạo ban đầu thiếu cảm hứng",
+              "C. Vì nhà hát Bolshoi bị hỏa hoạn nghiêm trọng giữa hồi hai",
+              "D. Vì các vũ công từ chối mang giày mũi cứng bằng sa-tanh lên sân khấu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Contemporary reviewers complained that Tchaikovsky's symphonic score was far too dense and emotionally intricate for dance, while the initial choreography was derided as uninspired. [Paragraph 2]",
+            "evidenceVi": "Các nhà phê bình đương thời phàn nàn rằng bản tổng phổ giao hưởng của Tchaikovsky quá dày đặc và phức tạp cảm xúc cho vũ đạo, còn phần biên đạo đầu tiên bị chê là thiếu cảm hứng. [Đoạn 2]",
+            "explanation": "Đoạn 2 chỉ ra 2 lý do khiến bản diễn 1877 bị chê bai: âm nhạc bị cho là quá phức tạp/nặng nề cho múa và vũ đạo ban đầu nhàm chán thiếu sáng tạo (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên nhân thất bại ban đầu (Cause & Effect)",
+              "cluePassage": "Tchaikovsky's symphonic score was far too dense and emotionally intricate for dance, while the initial choreography was derided as uninspired.",
+              "clueAnswer": "critics felt Tchaikovsky's score was too complex for dance and dismissed the original choreography as uninspired",
+              "keyPassage": "too dense and emotionally intricate... choreography derided as uninspired",
+              "keyAnswer": "too complex... original choreography as uninspired",
+              "paraphrasePair": "dense and intricate... derided <=> complex... dismissed",
+              "meaningVi": "dày đặc phức tạp & bị chê bai <=> phức tạp & bị bác bỏ",
+              "deductionLogic": "Paraphrase chuẩn các tính từ phê bình nghệ thuật trong đoạn 2."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "Who was responsible for turning Swan Lake into a triumphant classical masterpiece in 1895?",
+            "questionVi": "Ai là người đã biến Hồ Thiên Nga thành kiệt tác cổ điển vang dội vào năm 1895?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Queen Catherine de' Medici and King Louis XIV",
+              "Choreographers Marius Petipa and Lev Ivanov",
+              "Anna Pavlova and Misty Copeland",
+              "Pyotr Ilyich Tchaikovsky working independently in Moscow"
+            ],
+            "optionsVi": [
+              "A. Hoàng hậu Catherine de' Medici và Vua Louis XIV",
+              "B. Hai biên đạo múa Marius Petipa và Lev Ivanov",
+              "C. Anna Pavlova và Misty Copeland",
+              "D. Pyotr Ilyich Tchaikovsky tự mình thực hiện độc lập tại Moscow"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Only after Tchaikovsky's death did legendary choreographers Marius Petipa and Lev Ivanov revive the work in St. Petersburg in 1895, crafting the iconic 'white acts'... [Paragraph 2]",
+            "evidenceVi": "Chỉ sau khi Tchaikovsky qua đời, hai biên đạo huyền thoại Marius Petipa và Lev Ivanov mới hồi sinh tác phẩm tại St. Petersburg năm 1895, sáng tạo các 'hồi trắng' biểu tượng... [Đoạn 2]",
+            "explanation": "Bản phục dựng kinh điển năm 1895 diễn ra sau khi Tchaikovsky đã mất, do hai biên đạo Marius Petipa và Lev Ivanov thực hiện tại St. Petersburg (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nhân vật lịch sử (Factual)",
+              "cluePassage": "legendary choreographers Marius Petipa and Lev Ivanov revive the work in St. Petersburg in 1895",
+              "clueAnswer": "Choreographers Marius Petipa and Lev Ivanov",
+              "keyPassage": "Marius Petipa and Lev Ivanov revive the work in 1895",
+              "keyAnswer": "Choreographers Marius Petipa and Lev Ivanov",
+              "paraphrasePair": "revive the work... transforming a flop into touchstone <=> turning into masterpiece",
+              "meaningVi": "hồi sinh tác phẩm thành thước đo chuẩn mực <=> biến thành kiệt tác",
+              "deductionLogic": "Loại D vì bài nêu rõ 'after Tchaikovsky's death'."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "The word \"touchstone\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"touchstone\" trong đoạn 2 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "gold standard",
+              "minor footnote",
+              "forgotten relic",
+              "financial burden"
+            ],
+            "optionsVi": [
+              "A. tiêu chuẩn vàng, thước đo chuẩn mực",
+              "B. chú thích nhỏ",
+              "C. di vật bị lãng quên",
+              "D. gánh nặng tài chính"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "transforming a forgotten flop into the supreme touchstone of classical repertoire. [Paragraph 2]",
+            "evidenceVi": "biến một tác phẩm thất bại bị lãng quên thành thước đo chuẩn mực tối cao của kho tàng cổ điển. [Đoạn 2]",
+            "explanation": "'Touchstone' (đá thử vàng) nghĩa bóng là chuẩn mực tối thượng dùng để đánh giá giá trị ('gold standard').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "transforming a forgotten flop into the supreme touchstone of classical repertoire",
+              "clueAnswer": "gold standard",
+              "keyPassage": "supreme touchstone",
+              "keyAnswer": "gold standard",
+              "paraphrasePair": "touchstone <=> gold standard / benchmark",
+              "meaningVi": "đá thử vàng, thước đo mẫu mực <=> tiêu chuẩn vàng",
+              "deductionLogic": "Sự tương phản 'from a forgotten flop into the supreme touchstone' khẳng định nghĩa tích cực tột đỉnh."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "Why is the dual role of Odette and Odile described as \"daunting\" in paragraph 3?",
+            "questionVi": "Tại sao vai diễn kép Odette và Odile được mô tả là \"đầy thử thách\" (daunting) trong đoạn 3?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Because it requires both profound emotional versatility and elite neuromuscular control, including 32 consecutive fouetté turns",
+              "Because the ballerina must sing operatic arias while dancing on stage",
+              "Because performers must design and sew their own costumes during intermission",
+              "Because the role can only be performed outdoors during winter frost"
+            ],
+            "optionsVi": [
+              "A. Vì nó đòi hỏi cả khả năng biến hóa cảm xúc sâu sắc lẫn kiểm soát thần kinh - cơ đỉnh cao, gồm 32 vòng xoay fouetté liên tiếp",
+              "B. Vì nữ vũ công phải hát các khúc aria opera trong lúc múa trên sân khấu",
+              "C. Vì người biểu diễn phải tự thiết kế và may trang phục trong giờ giải lao",
+              "D. Vì vai diễn chỉ có thể trình diễn ngoài trời vào mùa đông giá rét"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Executing this contrast demands not merely extraordinary emotional versatility, but astonishing neuromuscular discipline—culminating in the celebrated sequence of thirty-two consecutive fouetté turns executed on the tip of a single toe. [Paragraph 3]",
+            "evidenceVi": "Thể hiện sự tương phản này không chỉ đòi hỏi sự linh hoạt cảm xúc phi thường mà còn kỷ luật thần kinh - cơ đáng kinh ngạc — đỉnh điểm là chuỗi 32 vòng xoay fouetté liên tiếp trên đầu một mũi chân. [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu rõ hai đòi hỏi cực khó: biến hóa cảm xúc giữa Thiên nga Trắng mong manh và Thiên nga Đen quyến rũ, cộng thêm kỹ thuật đỉnh cao 32 vòng xoay fouetté liên tiếp (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết nghệ thuật & kỹ thuật (Factual)",
+              "cluePassage": "demands not merely extraordinary emotional versatility, but astonishing neuromuscular discipline—culminating in... thirty-two consecutive fouetté turns",
+              "clueAnswer": "requires both profound emotional versatility and elite neuromuscular control, including 32 consecutive fouetté turns",
+              "keyPassage": "emotional versatility... neuromuscular discipline... thirty-two consecutive fouetté turns",
+              "keyAnswer": "emotional versatility... neuromuscular control... 32 consecutive fouetté turns",
+              "paraphrasePair": "neuromuscular discipline <=> neuromuscular control",
+              "meaningVi": "kỷ luật thần kinh - cơ <=> khả năng kiểm soát thần kinh - cơ",
+              "deductionLogic": "Khớp trực tiếp câu thứ 2 đoạn 3."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "What lasting impact did Italian ballerina Pierina Legnani's 1895 performance have on ballet?",
+            "questionVi": "Màn trình diễn năm 1895 của nữ vũ công người Ý Pierina Legnani đã tạo ra tác động lâu dài nào đối với múa ba-lê?",
+            "questionType": "DẠNG 03: HỆ QUẢ LỊCH SỬ (Cause & Effect)",
+            "options": [
+              "It convinced Russian theaters to abandon Italian musical terminology.",
+              "It permanently elevated the technical standard demanded of elite ballerinas worldwide.",
+              "It outlawed solo variations in favor of large group dances.",
+              "It inspired composers to shorten all ballets to under twenty minutes."
+            ],
+            "optionsVi": [
+              "A. Nó thuyết phục các nhà hát Nga bỏ toàn bộ thuật ngữ âm nhạc tiếng Ý.",
+              "B. Nó vĩnh viễn nâng cao ngưỡng chuẩn mực kỹ thuật đòi hỏi ở các nữ vũ công hàng đầu thế giới.",
+              "C. Nó cấm các màn múa đơn để ưu tiên múa tập thể đông người.",
+              "D. Nó truyền cảm hứng để các nhà soạn nhạc rút ngắn mọi vở ba-lê xuống dưới 20 phút."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "When Italian virtuoso Pierina Legnani first unveiled this dazzling technical feat in the 1895 revival, Russian audiences erupted in disbelief, forever raising the technical threshold expected of elite ballerinas worldwide. [Paragraph 3]",
+            "evidenceVi": "Khi bậc thầy người Ý Pierina Legnani lần đầu trình diễn kỳ tích kỹ thuật chói lọi này năm 1895, khán giả Nga vỡ òa sửng sốt, mãi mãi nâng ngưỡng chuẩn kỹ thuật đòi hỏi ở các nữ vũ công tinh hoa toàn cầu. [Đoạn 3]",
+            "explanation": "Đoạn 3 khẳng định màn trình diễn 32 vòng fouetté của Legnani đã 'forever raising the technical threshold expected of elite ballerinas worldwide' (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Tác động lịch sử (Cause & Effect)",
+              "cluePassage": "forever raising the technical threshold expected of elite ballerinas worldwide.",
+              "clueAnswer": "It permanently elevated the technical standard demanded of elite ballerinas worldwide.",
+              "keyPassage": "forever raising the technical threshold expected of elite ballerinas",
+              "keyAnswer": "permanently elevated the technical standard demanded of elite ballerinas",
+              "paraphrasePair": "forever raising the technical threshold <=> permanently elevated the technical standard",
+              "meaningVi": "mãi mãi nâng ngưỡng kỹ thuật <=> vĩnh viễn nâng cao chuẩn mực kỹ thuật",
+              "deductionLogic": "Paraphrase chuẩn 3 cặp: forever = permanently, raising = elevated, threshold = standard."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "Why does the author mention Anna Pavlova's solo The Dying Swan in paragraph 4?",
+            "questionVi": "Tại sao tác giả nhắc đến màn độc diễn Cái chết của Thiên nga (The Dying Swan) của Anna Pavlova ở đoạn 4?",
+            "questionType": "DẠNG 07: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
+            "options": [
+              "To illustrate that subtle emotional expressiveness can match flashy acrobatic spins in artistic power",
+              "To prove that Russian dancers disliked touring outside European capitals",
+              "To show that Pavlova invented the 32 fouetté turn sequence",
+              "To argue that ballet solos are less engaging than full-length symphonies"
+            ],
+            "optionsVi": [
+              "A. Để minh họa rằng sức biểu cảm tinh tế sâu lắng có thể sánh ngang những cú xoay kỹ thuật hào nhoáng về sức mạnh nghệ thuật",
+              "B. Để chứng minh vũ công Nga không thích lưu diễn ngoài các thủ đô châu Âu",
+              "C. Để cho thấy Pavlova là người phát minh chuỗi 32 vòng xoay fouetté",
+              "D. Để lập luận rằng múa đơn kém hấp dẫn hơn các bản giao hưởng dài"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Russian icon Anna Pavlova captivated global audiences across six continents through her ethereal solo The Dying Swan, proving that quiet expressiveness could rival pyrotechnic spins. [Paragraph 4]",
+            "evidenceVi": "Biểu tượng nước Nga Anna Pavlova chinh phục khán giả khắp sáu châu lục bằng màn độc diễn thanh thoát The Dying Swan, chứng minh sức biểu cảm trầm lắng có thể sánh ngang những cú xoay phô diễn kỹ thuật. [Đoạn 4]",
+            "explanation": "Tác giả dẫn chứng Anna Pavlova nhằm chứng minh chiều sâu cảm xúc ('quiet expressiveness') có sức lay động sánh ngang kỹ thuật xoay ngoạn mục ('pyrotechnic spins') (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Mục đích dẫn chứng (Rhetorical Purpose)",
+              "cluePassage": "proving that quiet expressiveness could rival pyrotechnic spins.",
+              "clueAnswer": "To illustrate that subtle emotional expressiveness can match flashy acrobatic spins in artistic power",
+              "keyPassage": "quiet expressiveness could rival pyrotechnic spins",
+              "keyAnswer": "subtle emotional expressiveness can match flashy acrobatic spins",
+              "paraphrasePair": "rival pyrotechnic spins <=> match flashy acrobatic spins",
+              "meaningVi": "sánh ngang các cú xoay rực rỡ kỹ thuật <=> ngang tầm các cú xoay nhào lộn hào nhoáng",
+              "deductionLogic": "Paraphrase trực tiếp từ 'rival' sang 'match' và 'pyrotechnic' sang 'flashy acrobatic'."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "The word \"entrenched\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"entrenched\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "deep-rooted",
+              "temporary",
+              "invisible",
+              "celebrated"
+            ],
+            "optionsVi": [
+              "A. ăn sâu cố hữu",
+              "B. tạm thời",
+              "C. vô hình",
+              "D. được ca ngợi"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "contemporary pioneers such as Misty Copeland broke entrenched racial and physical barriers at major institutions like American Ballet Theatre. [Paragraph 4]",
+            "evidenceVi": "những người tiên phong đương đại như Misty Copeland đã phá vỡ những rào cản sắc tộc và hình thể ăn sâu cố hữu tại các thiết chế lớn như Nhà hát Ba-lê Mỹ. [Đoạn 4]",
+            "explanation": "'Entrenched' mang nghĩa bám rễ sâu, cố hữu khó thay đổi ('deep-rooted').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "broke entrenched racial and physical barriers",
+              "clueAnswer": "deep-rooted",
+              "keyPassage": "entrenched racial and physical barriers",
+              "keyAnswer": "deep-rooted",
+              "paraphrasePair": "entrenched <=> deep-rooted / ingrained",
+              "meaningVi": "cố hữu lâu đời <=> ăn sâu bám rễ",
+              "deductionLogic": "Động từ 'broke' (phá vỡ) kết hợp với 'barriers' (rào cản) xác nhận sắc thái cố hữu tồn tại lâu dài."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "What can be inferred from the passage about the secret to classical ballet's continued survival?",
+            "questionVi": "Có thể suy luận điều gì từ bài đọc về bí quyết giúp nghệ thuật múa ba-lê cổ điển tiếp tục trường tồn?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "It strictly forbids any reinterpretation of nineteenth-century choreography or casting norms.",
+              "It thrives by uniting strict historical technical discipline with ongoing artistic and cultural renewal.",
+              "It has completely abandoned traditional pointe work in favor of street hip-hop.",
+              "It depends solely on royal court patronage from European monarchies."
+            ],
+            "optionsVi": [
+              "A. Nó nghiêm cấm mọi sự diễn giải mới về vũ đạo hay chuẩn tuyển vai thế kỷ 19.",
+              "B. Nó phát triển bền vững nhờ kết hợp kỷ luật kỹ thuật truyền thống khắt khe với sự đổi mới nghệ thuật và văn hóa liên tục.",
+              "C. Nó đã từ bỏ hoàn toàn kỹ thuật múa mũi cứng để chuyển sang hip-hop đường phố.",
+              "D. Nó phụ thuộc duy nhất vào sự bảo trợ cung đình của các hoàng gia châu Âu."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Today, classical ballet endures precisely because it balances centuries-old technical rigor with continual cultural renewal, inviting new generations of dancers to reinterpret timeless stories... [Paragraph 4]",
+            "evidenceVi": "Ngày nay, ba-lê cổ điển trường tồn chính nhờ cân bằng được chuẩn mực kỹ thuật hàng thế kỷ với sự đổi mới văn hóa liên tục, mời gọi các thế hệ vũ công mới diễn giải lại câu chuyện vượt thời gian. [Đoạn 4]",
+            "explanation": "Câu cuối bài khẳng định bí quyết trường tồn nằm ở sự cân bằng giữa kỷ luật kỹ thuật lâu đời ('technical rigor') và sự đổi mới văn hóa liên tục ('continual cultural renewal') (B).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận kết luận (Inference)",
+              "cluePassage": "endures precisely because it balances centuries-old technical rigor with continual cultural renewal",
+              "clueAnswer": "It thrives by uniting strict historical technical discipline with ongoing artistic and cultural renewal.",
+              "keyPassage": "balances centuries-old technical rigor with continual cultural renewal",
+              "keyAnswer": "uniting strict historical technical discipline with ongoing artistic and cultural renewal",
+              "paraphrasePair": "technical rigor + continual renewal <=> technical discipline + ongoing renewal",
+              "meaningVi": "kỷ luật kỹ thuật khắt khe & đổi mới liên tục",
+              "deductionLogic": "Phương án A, C, D đều mâu thuẫn trực tiếp với câu cuối đoạn 4."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "Which of the following best outlines the organizational structure of the passage?",
+            "questionVi": "Phương án nào mô tả đúng nhất cấu trúc triển khai của bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / CẤU TRÚC BÀI ĐỌC (Organization)",
+            "options": [
+              "Court origins of ballet ➔ Swan Lake's revival ➔ Technical demands of its dual lead role ➔ Modern expressive and inclusive renewal",
+              "Anatomy of satin pointe shoes ➔ Biography of Tchaikovsky's childhood ➔ Ticket pricing in Moscow ➔ Decline of opera houses",
+              "Critique of Italian Renaissance politics ➔ Comparison of jazz and ballet ➔ Medical injuries in dancers ➔ Future of virtual reality theaters",
+              "List of modern American dance schools ➔ Rules of French royal etiquette ➔ Failure of the 1895 revival ➔ Abolition of classical music"
+            ],
+            "optionsVi": [
+              "A. Nguồn gốc cung đình của ba-lê ➔ Sự hồi sinh của Hồ Thiên Nga ➔ Đòi hỏi kỹ thuật vai diễn kép ➔ Đổi mới biểu cảm và hòa nhập hiện đại",
+              "B. Giải phẫu giày mũi cứng ➔ Tiểu sử tuổi thơ Tchaikovsky ➔ Giá vé ở Moscow ➔ Sự suy tàn của nhà hát opera",
+              "C. Phê bình chính trị Phục hưng Ý ➔ So sánh jazz và ba-lê ➔ Chấn thương vũ công ➔ Tương lai rạp thực tế ảo",
+              "D. Danh sách trường múa Mỹ ➔ Quy tắc lễ nghi hoàng gia Pháp ➔ Thất bại bản dựng 1895 ➔ Xóa bỏ nhạc cổ điển"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Paragraph 1 (Renaissance origins) -> Paragraph 2 (Swan Lake 1877 flop to 1895 revival) -> Paragraph 3 (Odette/Odile & 32 fouettés) -> Paragraph 4 (Pavlova, Misty Copeland & renewal). [Paragraphs 1-4]",
+            "evidenceVi": "Đoạn 1 (Nguồn gốc cung đình) -> Đoạn 2 (Hồ Thiên Nga hồi sinh) -> Đoạn 3 (Vai kép & 32 vòng xoay) -> Đoạn 4 (Pavlova, Misty Copeland & sự đổi mới). [Đoạn 1-4]",
+            "explanation": "Phương án A phản ánh chính xác 100% trình tự 4 đoạn văn từ đầu đến cuối bài đọc.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Cấu trúc toàn bài (Passage Organization)",
+              "cluePassage": "Italian Renaissance courts... revive the work in 1895... daunting dual roles... trailblazing performers further revolutionized ballet",
+              "clueAnswer": "Court origins of ballet -> Swan Lake's revival -> Technical demands of its dual lead role -> Modern expressive and inclusive renewal",
+              "keyPassage": "origins -> Swan Lake revival -> dual lead role -> modern renewal",
+              "keyAnswer": "Court origins -> Swan Lake's revival -> Technical demands -> Modern renewal",
+              "paraphrasePair": "4-paragraph chronological arc",
+              "meaningVi": "mạch triển khai 4 đoạn theo tiến trình lịch sử và nghệ thuật",
+              "deductionLogic": "Đối chiếu ý chủ đạo của từng đoạn 1–4 xác nhận duy nhất A chính xác."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Urban Traffic in Vietnam & British Transport Policies",
+        "topic": "Giao thông tại Việt Nam & Đối chiếu chính sách quy hoạch giao thông của chính phủ Anh",
+        "timeAllowed": 15,
+        "passage": "<p>Urban mobility represents one of the defining infrastructural challenges of twenty-first-century governance, yet the structural dynamics of traffic differ markedly between rapidly industrializing Southeast Asian economies and mature Western European nations. Nowhere is this contrast more instructive than in a comparative analysis of Vietnamese metropolises—namely Hanoi and Ho Chi Minh City—and major British urban centers regulated under United Kingdom transport policy. While both nations confront severe peak-hour congestion, air quality degradation, and mounting urban population density, their underlying fleet compositions, historical street layouts, and regulatory toolkits diverge substantially.</p><p>Vietnam's urban transport ecosystem is overwhelmingly characterized by extraordinary two-wheeler dominance. With more than 70 million registered motorcycles nationwide, motorbikes account for roughly 80 percent of daily commuter trips in Hanoi and Ho Chi Minh City. This reliance is not merely cultural; it reflects pragmatic spatial adaptation. Narrow historic alleyways (hẻm), mixed-use ground-floor shophouses, and historically modest public transit networks make compact scooters unmatched in door-to-door agility and affordability. Nevertheless, as rising middle-class affluence fuels a surge in private car ownership, roadways originally calibrated for nimble two-wheelers are encountering acute spatial saturation, prompting Vietnam to invest aggressively in urban metro rail corridors, dedicated bus rapid transit lanes, and electric two-wheeler incentives.</p><p>By contrast, the British government inherited an automobile-centric mid-twentieth-century road network superimposed upon medieval city cores, complemented by an extensive legacy rail grid. Rather than attempting to construct endless urban motorways—a strategy British planners recognized decades ago as self-defeating due to 'induced demand'—UK policy has pivoted decisively toward demand management and disincentivizing private car use. Flagship interventions include London's pioneering Congestion Charge Zone (launched in 2003), the expanded Ultra Low Emission Zone (ULEZ) levying daily fees on high-polluting vehicles, integrated contactless transit ticketing via the Oyster card system, and stringent parking caps in commercial districts.</p><p>Crucially, comparative transport scholars caution against blindly importing British fiscal deterrents into Vietnam without prerequisite transit alternatives. In London, punitive congestion pricing succeeded politically and practically precisely because commuters could immediately shift onto a dense, punctual network of Underground lines, overground trains, and high-frequency double-decker buses—with revenues legally ring-fenced for reinvestment into public transit. For Vietnam, the most transferable lesson from British transport governance lies in synchronized sequencing: expanding reliable metro networks, safe pedestrian sidewalks, and integrated multimodal ticketing first, before progressively introducing emission zones and private-vehicle restrictions.</p>",
+        "vocab": [
+          {
+            "word": "mobility",
+            "pos": "n",
+            "ipa": "/məʊˈbɪl.ə.ti/",
+            "level": "B2",
+            "mean": "khả năng di chuyển, lưu thông đô thị",
+            "syns": [
+              "movement",
+              "transit",
+              "transportation"
+            ],
+            "ex": "Sustainable urban mobility requires seamless links between walking, buses, and rail."
+          },
+          {
+            "word": "instructive",
+            "pos": "adj",
+            "ipa": "/ɪnˈstrʌk.tɪv/",
+            "level": "C1",
+            "mean": "mang nhiều bài học hữu ích, giàu tính tham khảo",
+            "syns": [
+              "informative",
+              "illuminating",
+              "educational"
+            ],
+            "ex": "Comparing London and Hanoi yields instructive insights for urban planners."
+          },
+          {
+            "word": "degradation",
+            "pos": "n",
+            "ipa": "/ˌdeɡ.rəˈdeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự suy thoái, xuống cấp (chất lượng không khí)",
+            "syns": [
+              "deterioration",
+              "decline",
+              "worsening"
+            ],
+            "ex": "Tailpipe emissions accelerate air quality degradation in dense downtown quarters."
+          },
+          {
+            "word": "diverge",
+            "pos": "v",
+            "ipa": "/daɪˈvɜːdʒ/",
+            "level": "B2",
+            "mean": "phân nhánh, khác biệt rõ rệt",
+            "syns": [
+              "differ",
+              "branch apart",
+              "vary"
+            ],
+            "ex": "European and Asian cities diverge sharply in how they regulate private vehicles."
+          },
+          {
+            "word": "dominance",
+            "pos": "n",
+            "ipa": "/ˈdɒm.ɪ.nəns/",
+            "level": "B2",
+            "mean": "sự chiếm ưu thế áp đảo",
+            "syns": [
+              "prevalence",
+              "supremacy",
+              "predominance"
+            ],
+            "ex": "Motorbike dominance defines the distinctive rhythm of Vietnamese city streets."
+          },
+          {
+            "word": "pragmatic",
+            "pos": "adj",
+            "ipa": "/præɡˈmæt.ɪk/",
+            "level": "C1",
+            "mean": "thực dụng, sát thực tế",
+            "syns": [
+              "practical",
+              "realistic",
+              "sensible"
+            ],
+            "ex": "Riding a scooter is a pragmatic choice for navigating narrow residential lanes."
+          },
+          {
+            "word": "agility",
+            "pos": "n",
+            "ipa": "/əˈdʒɪl.ə.ti/",
+            "level": "B2",
+            "mean": "sự linh hoạt, nhanh nhẹn luồn lách",
+            "syns": [
+              "nimbleness",
+              "maneuverability",
+              "flexibility"
+            ],
+            "ex": "Compact two-wheelers offer unmatched agility for door-to-door urban errands."
+          },
+          {
+            "word": "calibrated",
+            "pos": "adj",
+            "ipa": "/ˈkæl.ɪ.breɪ.tɪd/",
+            "level": "C1",
+            "mean": "được hiệu chỉnh, thiết kế tương thích cho",
+            "syns": [
+              "tailored",
+              "adjusted",
+              "sized"
+            ],
+            "ex": "Older streets calibrated for bicycles struggle to accommodate large SUVs."
+          },
+          {
+            "word": "saturation",
+            "pos": "n",
+            "ipa": "/ˌsætʃ.əˈreɪ.ʃən/",
+            "level": "C1",
+            "mean": "trạng thái bão hòa, quá tải không gian",
+            "syns": [
+              "overload",
+              "full capacity",
+              "overcrowding"
+            ],
+            "ex": "Rapid car growth pushes narrow inner-city roads toward total spatial saturation."
+          },
+          {
+            "word": "corridor",
+            "pos": "n",
+            "ipa": "/ˈkɒr.ɪ.dɔːr/",
+            "level": "B2",
+            "mean": "hành lang giao thông trọng điểm",
+            "syns": [
+              "route",
+              "passageway",
+              "artery"
+            ],
+            "ex": "New elevated metro corridors connect suburban districts to the commercial center."
+          },
+          {
+            "word": "superimposed",
+            "pos": "adj",
+            "ipa": "/ˌsuː.pər.ɪmˈpəʊzd/",
+            "level": "C1",
+            "mean": "được đặt chồng lên trên (cấu trúc có sẵn)",
+            "syns": [
+              "layered over",
+              "overlaid",
+              "placed atop"
+            ],
+            "ex": "Modern asphalt highways were superimposed upon centuries-old medieval street grids."
+          },
+          {
+            "word": "self-defeating",
+            "pos": "adj",
+            "ipa": "/ˌself.dɪˈfiː.tɪŋ/",
+            "level": "C1",
+            "mean": "phản tác dụng, tự làm hỏng mục tiêu đề ra",
+            "syns": [
+              "counterproductive",
+              "futile",
+              "self-sabotaging"
+            ],
+            "ex": "Widening urban highways often proves self-defeating because it attracts extra drivers."
+          },
+          {
+            "word": "disincentivize",
+            "pos": "v",
+            "ipa": "/ˌdɪs.ɪnˈsen.tɪ.vaɪz/",
+            "level": "C1",
+            "mean": "làm giảm động lực, hạn chế bằng chế tài",
+            "syns": [
+              "discourage",
+              "deter",
+              "dissuade"
+            ],
+            "ex": "Daily entry charges disincentivize unnecessary solo car commutes into central London."
+          },
+          {
+            "word": "flagship",
+            "pos": "adj",
+            "ipa": "/ˈflæɡ.ʃɪp/",
+            "level": "B2",
+            "mean": "tiêu biểu, mũi nhọn hàng đầu",
+            "syns": [
+              "premier",
+              "leading",
+              "signature"
+            ],
+            "ex": "The Ultra Low Emission Zone is a flagship environmental policy of London's mayor."
+          },
+          {
+            "word": "levy",
+            "pos": "v",
+            "ipa": "/ˈlev.i/",
+            "level": "C1",
+            "mean": "áp thu (phí, thuế)",
+            "syns": [
+              "impose",
+              "charge",
+              "assess"
+            ],
+            "ex": "Authorities levy substantial daily fees on older diesel trucks entering downtown."
+          },
+          {
+            "word": "stringent",
+            "pos": "adj",
+            "ipa": "/ˈstrɪn.dʒənt/",
+            "level": "C1",
+            "mean": "nghiêm ngặt, khắt khe",
+            "syns": [
+              "strict",
+              "rigorous",
+              "tough"
+            ],
+            "ex": "Stringent parking limits encourage office employees to commute by train."
+          },
+          {
+            "word": "deterrent",
+            "pos": "n",
+            "ipa": "/dɪˈter.ənt/",
+            "level": "C1",
+            "mean": "biện pháp răn đe, công cụ ngăn cản",
+            "syns": [
+              "disincentive",
+              "obstacle",
+              "restraint"
+            ],
+            "ex": "High downtown parking fees act as an effective financial deterrent against driving."
+          },
+          {
+            "word": "prerequisite",
+            "pos": "n",
+            "ipa": "/ˌpriːˈrek.wɪ.zɪt/",
+            "level": "C1",
+            "mean": "điều kiện tiên quyết phải có trước",
+            "syns": [
+              "precondition",
+              "requirement",
+              "necessity"
+            ],
+            "ex": "Reliable public transit is a prerequisite for restricting private vehicle ownership."
+          },
+          {
+            "word": "punitive",
+            "pos": "adj",
+            "ipa": "/ˈpjuː.nɪ.tɪv/",
+            "level": "C1",
+            "mean": "mang tính chế tài, trừng phạt tài chính",
+            "syns": [
+              "penal",
+              "disciplinary",
+              "harsh"
+            ],
+            "ex": "Punitive road charges face public backlash when affordable bus alternatives do not exist."
+          },
+          {
+            "word": "punctual",
+            "pos": "adj",
+            "ipa": "/ˈpʌŋk.tʃu.əl/",
+            "level": "B1",
+            "mean": "đúng giờ, chính xác lịch trình",
+            "syns": [
+              "on-time",
+              "prompt",
+              "reliable"
+            ],
+            "ex": "Commuters gladly abandon cars when trains are clean, frequent, and punctual."
+          },
+          {
+            "word": "ring-fenced",
+            "pos": "adj",
+            "ipa": "/ˈrɪŋ.fenst/",
+            "level": "C1",
+            "mean": "được khoanh vùng bảo vệ riêng (ngân sách cho mục đích cụ thể)",
+            "syns": [
+              "earmarked",
+              "dedicated",
+              "protected"
+            ],
+            "ex": "London's congestion fees are legally ring-fenced exclusively for upgrading buses and trains."
+          },
+          {
+            "word": "transferable",
+            "pos": "adj",
+            "ipa": "/trænsˈfɜː.rə.bəl/",
+            "level": "B2",
+            "mean": "có thể chuyển giao, áp dụng sang bối cảnh khác",
+            "syns": [
+              "applicable",
+              "adaptable",
+              "portable"
+            ],
+            "ex": "Integrated fare cards represent a highly transferable policy innovation."
+          },
+          {
+            "word": "sequencing",
+            "pos": "n",
+            "ipa": "/ˈsiː.kwən.sɪŋ/",
+            "level": "C1",
+            "mean": "sự sắp xếp trình tự triển khai các bước",
+            "syns": [
+              "ordering",
+              "phasing",
+              "staging"
+            ],
+            "ex": "Smart policy sequencing builds metro capacity before enforcing car bans."
+          },
+          {
+            "word": "multimodal",
+            "pos": "adj",
+            "ipa": "/ˌmʌl.tiˈməʊ.dəl/",
+            "level": "C1",
+            "mean": "đa phương thức (kết nối tàu, xe buýt, đi bộ)",
+            "syns": [
+              "multi-transport",
+              "integrated-transit"
+            ],
+            "ex": "Multimodal hubs let passengers switch effortlessly from subway trains to electric buses."
+          },
+          {
+            "word": "nimble",
+            "pos": "adj",
+            "ipa": "/ˈnɪm.bəl/",
+            "level": "B2",
+            "mean": "nhanh nhẹn, xoay xở linh hoạt",
+            "syns": [
+              "agile",
+              "deft",
+              "quick"
+            ],
+            "ex": "Nimble electric scooters easily navigate dense inner-city neighborhoods."
+          },
+          {
+            "word": "fiscal",
+            "pos": "adj",
+            "ipa": "/ˈfɪs.kəl/",
+            "level": "C1",
+            "mean": "thuộc tài khóa, thuế phí công",
+            "syns": [
+              "financial",
+              "budgetary",
+              "monetary"
+            ],
+            "ex": "Fiscal measures like fuel taxes shape long-term commuting preferences."
+          },
+          {
+            "word": "legacy",
+            "pos": "adj",
+            "ipa": "/ˈleɡ.ə.si/",
+            "level": "B2",
+            "mean": "kế thừa từ lịch sử, có sẵn từ thế hệ trước",
+            "syns": [
+              "inherited",
+              "existing",
+              "traditional"
+            ],
+            "ex": "Britain benefits from an extensive legacy railway network built in the Victorian era."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "According to paragraph 2, why do motorbikes account for roughly 80 percent of commuter trips in Hanoi and Ho Chi Minh City?",
+            "questionVi": "Theo đoạn 2, tại sao xe máy chiếm khoảng 80% các chuyến đi lại hàng ngày tại Hà Nội và TP. Hồ Chí Minh?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Because national laws prohibit importing four-wheeled passenger cars",
+              "Because narrow alleys, mixed-use streetscapes, and modest public transit make scooters unmatched in agility and affordability",
+              "Because Vietnamese urban highways have dedicated elevated lanes exclusively for motorcycles",
+              "Because British engineering firms subsidized scooter production in Vietnam"
+            ],
+            "optionsVi": [
+              "A. Bởi vì luật quốc gia cấm nhập khẩu xe ô tô con bốn bánh",
+              "B. Bởi vì các con hẻm nhỏ, nhà phố kết hợp kinh doanh và mạng lưới giao thông công cộng còn khiêm tốn khiến xe máy vượt trội về sự linh hoạt và giá cả",
+              "C. Bởi vì các đại lộ đô thị Việt Nam có làn trên cao dành riêng cho xe máy",
+              "D. Bởi vì các hãng kỹ thuật Anh trợ giá sản xuất xe tay ga tại Việt Nam"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Narrow historic alleyways (hẻm), mixed-use ground-floor shophouses, and historically modest public transit networks make compact scooters unmatched in door-to-door agility and affordability. [Paragraph 2]",
+            "evidenceVi": "Các con hẻm lịch sử hẹp, nhà phố mặt tiền đa công năng và mạng lưới giao thông công cộng trước đây còn khiêm tốn khiến xe máy nhỏ gọn vượt trội về sự linh hoạt tận cửa và chi phí hợp lý. [Đoạn 2]",
+            "explanation": "Đoạn 2 giải thích việc dùng xe máy là sự thích nghi không gian thực tế do hẻm nhỏ, nhà phố và hạ tầng công cộng còn đang phát triển (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên nhân thực tiễn (Cause & Effect)",
+              "cluePassage": "Narrow historic alleyways, mixed-use ground-floor shophouses, and historically modest public transit networks make compact scooters unmatched in door-to-door agility and affordability.",
+              "clueAnswer": "Because narrow alleys, mixed-use streetscapes, and modest public transit make scooters unmatched in agility and affordability",
+              "keyPassage": "narrow alleyways... modest public transit... unmatched in agility and affordability",
+              "keyAnswer": "narrow alleys... modest public transit... unmatched in agility and affordability",
+              "paraphrasePair": "pragmatic spatial adaptation <=> practical adaptation to narrow alleys",
+              "meaningVi": "sự thích nghi không gian thực tế trước đặc thù hẻm nhỏ và nhà phố",
+              "deductionLogic": "Khớp trực tiếp câu thứ 4 đoạn 2."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "What new problem is currently straining Vietnamese city roads according to paragraph 2?",
+            "questionVi": "Vấn đề mới nào hiện đang gây áp lực căng thẳng lên đường phố đô thị Việt Nam theo đoạn 2?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "A sharp surge in private car ownership overwhelming streets originally sized for smaller two-wheelers",
+              "A nationwide shortage of paved asphalt caused by heavy monsoon floods",
+              "The sudden closure of all bus rapid transit lanes across the country",
+              "An abrupt decline in urban middle-class household incomes"
+            ],
+            "optionsVi": [
+              "A. Sự gia tăng mạnh mẽ sở hữu ô tô cá nhân làm quá tải các tuyến đường vốn thiết kế cho xe hai bánh nhỏ gọn",
+              "B. Tình trạng thiếu hụt nhựa đường toàn quốc do lũ gió mùa lớn",
+              "C. Việc đóng cửa đột ngột toàn bộ làn xe buýt nhanh trên cả nước",
+              "D. Sự sụt giảm đột ngột thu nhập của tầng lớp trung lưu đô thị"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "as rising middle-class affluence fuels a surge in private car ownership, roadways originally calibrated for nimble two-wheelers are encountering acute spatial saturation... [Paragraph 2]",
+            "evidenceVi": "khi sự khá giả gia tăng của tầng lớp trung lưu thúc đẩy làn sóng sở hữu ô tô cá nhân, những con đường vốn hiệu chỉnh cho xe hai bánh nhỏ gọn đang đối mặt với tình trạng bão hòa không gian gay gắt... [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ: làn sóng mua ô tô cá nhân đang làm quá tải không gian ('acute spatial saturation') trên những con đường vốn phù hợp với xe máy (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Áp lực hạ tầng mới (Factual)",
+              "cluePassage": "fuels a surge in private car ownership, roadways originally calibrated for nimble two-wheelers are encountering acute spatial saturation",
+              "clueAnswer": "A sharp surge in private car ownership overwhelming streets originally sized for smaller two-wheelers",
+              "keyPassage": "surge in private car ownership... calibrated for nimble two-wheelers... acute spatial saturation",
+              "keyAnswer": "sharp surge in private car ownership overwhelming streets originally sized for smaller two-wheelers",
+              "paraphrasePair": "calibrated for... spatial saturation <=> sized for... overwhelming",
+              "meaningVi": "thiết kế cho xe nhỏ & bão hòa không gian <=> cỡ cho xe hai bánh & gây quá tải",
+              "deductionLogic": "Paraphrase chính xác cụm 'calibrated for' thành 'sized for'."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "According to paragraph 3, why did British transport planners abandon the strategy of building endless urban motorways?",
+            "questionVi": "Theo đoạn 3, tại sao các nhà quy hoạch giao thông Anh từ bỏ chiến lược liên tục xây thêm cao tốc đô thị?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CƠ CHẾ (Cause & Effect)",
+            "options": [
+              "Because British citizens no longer owned private automobiles",
+              "Because they recognized that expanding roads is self-defeating due to 'induced demand'",
+              "Because construction costs were banned by European railway treaties",
+              "Because medieval castle ruins prevented building any roads outside London"
+            ],
+            "optionsVi": [
+              "A. Vì người dân Anh không còn sở hữu ô tô cá nhân nữa",
+              "B. Vì họ nhận ra mở rộng đường sá mang tính phản tác dụng do hiệu ứng 'nhu cầu phát sinh' (induced demand)",
+              "C. Vì chi phí xây dựng bị cấm bởi các hiệp ước đường sắt châu Âu",
+              "D. Vì di tích lâu đài trung cổ ngăn cấm xây mọi con đường ngoài London"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Rather than attempting to construct endless urban motorways—a strategy British planners recognized decades ago as self-defeating due to 'induced demand'—UK policy has pivoted decisively toward demand management... [Paragraph 3]",
+            "evidenceVi": "Thay vì cố gắng xây vô tận cao tốc đô thị — chiến lược mà giới quy hoạch Anh từ nhiều thập kỷ trước đã nhận ra là phản tác dụng do 'nhu cầu phát sinh' — chính sách Anh chuyển hướng sang quản lý nhu cầu... [Đoạn 3]",
+            "explanation": "Đoạn 3 giải thích rõ: mở rộng đường chỉ kích thích thêm nhiều xe chạy hơn ('induced demand'), khiến giải pháp này tự phản tác dụng ('self-defeating') (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên lý quy hoạch giao thông (Factual)",
+              "cluePassage": "construct endless urban motorways—a strategy British planners recognized decades ago as self-defeating due to 'induced demand'",
+              "clueAnswer": "Because they recognized that expanding roads is self-defeating due to 'induced demand'",
+              "keyPassage": "self-defeating due to 'induced demand'",
+              "keyAnswer": "self-defeating due to 'induced demand'",
+              "paraphrasePair": "construct endless urban motorways <=> expanding roads",
+              "meaningVi": "xây dựng cao tốc đô thị vô tận <=> mở rộng đường sá",
+              "deductionLogic": "Thông tin khớp trực tiếp câu thứ 2 đoạn 3."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "Which of the following is NOT listed in paragraph 3 as a flagship UK transport demand-management measure?",
+            "questionVi": "Biện pháp nào sau đây KHÔNG được liệt kê trong đoạn 3 như một chính sách quản lý nhu cầu giao thông tiêu biểu của Anh?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "London's Congestion Charge Zone",
+              "The Ultra Low Emission Zone (ULEZ) taxing high-polluting vehicles",
+              "Contactless integrated transit payment via the Oyster card",
+              "Free municipal gasoline vouchers for suburban carpool drivers"
+            ],
+            "optionsVi": [
+              "A. Vùng Thu phí Ùn tắc của London",
+              "B. Vùng Phát thải Cực thấp (ULEZ) thu phí xe gây ô nhiễm cao",
+              "C. Thanh toán giao thông công cộng không chạm tích hợp qua thẻ Oyster",
+              "D. Phiếu xăng miễn phí của thành phố cho tài xế đi chung xe ngoại ô"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Flagship interventions include London's pioneering Congestion Charge Zone (launched in 2003), the expanded Ultra Low Emission Zone (ULEZ)... integrated contactless transit ticketing via the Oyster card system, and stringent parking caps... [Paragraph 3]",
+            "evidenceVi": "Các can thiệp mũi nhọn gồm Vùng Thu phí Ùn tắc London, Vùng Phát thải Cực thấp (ULEZ), hệ thống vé không chạm thẻ Oyster và giới hạn nghiêm ngặt bãi đỗ xe... [Đoạn 3]",
+            "explanation": "A, B, C đều được liệt kê trực tiếp ở câu cuối đoạn 3. Phương án D (phiếu xăng miễn phí) không có và trái ngược với tinh thần hạn chế xe cá nhân.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "Congestion Charge Zone, Ultra Low Emission Zone (ULEZ), Oyster card system, stringent parking caps",
+              "clueAnswer": "Free municipal gasoline vouchers for suburban carpool drivers",
+              "keyPassage": "Congestion Charge, ULEZ, Oyster card, parking caps",
+              "keyAnswer": "Free gasoline vouchers (Not mentioned)",
+              "paraphrasePair": "NOT in passage",
+              "meaningVi": "Không xuất hiện trong bài đọc",
+              "deductionLogic": "Loại trừ A, B, C đều có dẫn chứng nguyên văn."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "The word \"levying\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"levying\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "imposing",
+              "refunding",
+              "ignoring",
+              "abolishing"
+            ],
+            "optionsVi": [
+              "A. áp đặt, thu (phí/thuế)",
+              "B. hoàn trả lại tiền",
+              "C. phớt lờ",
+              "D. bãi bỏ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the expanded Ultra Low Emission Zone (ULEZ) levying daily fees on high-polluting vehicles... [Paragraph 3]",
+            "evidenceVi": "Vùng Phát thải Cực thấp (ULEZ) mở rộng áp thu phí hàng ngày đối với các phương tiện gây ô nhiễm cao... [Đoạn 3]",
+            "explanation": "'Levy (a fee/tax)' là cụm từ học thuật trang trọng mang nghĩa áp đặt/thu thuế phí ('imposing').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "levying daily fees on high-polluting vehicles",
+              "clueAnswer": "imposing",
+              "keyPassage": "levying daily fees",
+              "keyAnswer": "imposing",
+              "paraphrasePair": "levying daily fees <=> imposing daily fees",
+              "meaningVi": "áp thu phí hàng ngày <=> áp đặt phí hàng ngày",
+              "deductionLogic": "Collocation chuẩn trong chính sách công: 'levy fees/taxes on' = 'impose fees/taxes on'."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "In paragraph 4, what does the phrase \"legally ring-fenced\" indicate about London's congestion charge revenues?",
+            "questionVi": "Trong đoạn 4, cụm từ \"legally ring-fenced\" cho biết điều gì về nguồn thu từ phí chống ùn tắc tại London?",
+            "questionType": "DẠNG 02: GIẢI NGHĨA CỤM TỪ (Vocabulary in Context)",
+            "options": [
+              "The funds are legally protected and dedicated strictly to reinvesting in public transportation.",
+              "The money is used to construct metal fences around outer-ring suburbs.",
+              "The revenues are distributed randomly among private automobile dealers.",
+              "The funds are frozen indefinitely in overseas court accounts."
+            ],
+            "optionsVi": [
+              "A. Nguồn quỹ được pháp luật bảo vệ và khoanh vùng dành riêng cho việc tái đầu tư vào giao thông công cộng.",
+              "B. Số tiền được dùng để dựng hàng rào kim loại quanh vùng ngoại ô.",
+              "C. Nguồn thu được phân phát ngẫu nhiên cho các đại lý ô tô tư nhân.",
+              "D. Nguồn quỹ bị đóng băng vô thời hạn trong các tài khoản tòa án nước ngoài."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "with revenues legally ring-fenced for reinvestment into public transit. [Paragraph 4]",
+            "evidenceVi": "với nguồn thu được pháp luật khoanh vùng bảo vệ riêng để tái đầu tư trở lại hệ thống giao thông công cộng. [Đoạn 4]",
+            "explanation": "'Ring-fenced' là thuật ngữ tài chính công của Anh nghĩa là khoanh vùng ngân sách bảo đảm chỉ dùng cho một mục đích duy nhất (ở đây là tái đầu tư vào giao thông công cộng) (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Thuật ngữ chính sách công (Vocabulary)",
+              "cluePassage": "with revenues legally ring-fenced for reinvestment into public transit.",
+              "clueAnswer": "The funds are legally protected and dedicated strictly to reinvesting in public transportation.",
+              "keyPassage": "revenues legally ring-fenced for reinvestment into public transit",
+              "keyAnswer": "funds legally protected and dedicated strictly to reinvesting in public transportation",
+              "paraphrasePair": "ring-fenced for reinvestment <=> protected and dedicated strictly to reinvesting",
+              "meaningVi": "được khoanh vùng để tái đầu tư <=> được bảo vệ và dành riêng cho tái đầu tư",
+              "deductionLogic": "Tránh bẫy nghĩa đen 'fences' ở phương án B."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "Why did punitive congestion pricing succeed in London according to paragraph 4?",
+            "questionVi": "Theo đoạn 4, tại sao chính sách thu phí ùn tắc mang tính chế tài lại thành công ở London?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / ĐIỀU KIỆN (Cause & Effect)",
+            "options": [
+              "Because commuters already had immediate access to a dense, punctual public transit network to switch onto",
+              "Because London completely banned all buses and trains during rush hours",
+              "Because the daily fee was set to zero pounds for private luxury vehicles",
+              "Because British cities lack medieval street grids in their historic centers"
+            ],
+            "optionsVi": [
+              "A. Bởi vì người đi làm đã có sẵn ngay một mạng lưới giao thông công cộng dày đặc, đúng giờ để chuyển đổi sang",
+              "B. Bởi vì London cấm toàn bộ xe buýt và tàu hỏa trong giờ cao điểm",
+              "C. Bởi vì mức phí hàng ngày được đặt bằng 0 bảng cho xe sang tư nhân",
+              "D. Bởi vì các thành phố Anh không có mạng lưới đường phố trung cổ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "In London, punitive congestion pricing succeeded politically and practically precisely because commuters could immediately shift onto a dense, punctual network of Underground lines, overground trains, and high-frequency double-decker buses... [Paragraph 4]",
+            "evidenceVi": "Tại London, phí chống ùn tắc thành công cả về chính trị lẫn thực tiễn chính nhờ người dân có thể lập tức chuyển sang mạng lưới dày đặc, đúng giờ gồm tàu điện ngầm, tàu mặt đất và xe buýt hai tầng tần suất cao. [Đoạn 4]",
+            "explanation": "Đoạn 4 nhấn mạnh yếu tố tiên quyết ('precisely because'): có sẵn mạng lưới tàu điện ngầm, tàu hỏa và xe buýt dày đặc, đúng giờ để người dân chuyển đổi ngay (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Điều kiện thành công (Cause & Effect)",
+              "cluePassage": "succeeded politically and practically precisely because commuters could immediately shift onto a dense, punctual network of Underground lines, overground trains, and high-frequency double-decker buses",
+              "clueAnswer": "Because commuters already had immediate access to a dense, punctual public transit network to switch onto",
+              "keyPassage": "immediately shift onto a dense, punctual network",
+              "keyAnswer": "immediate access to a dense, punctual public transit network to switch onto",
+              "paraphrasePair": "shift onto <=> switch onto",
+              "meaningVi": "chuyển sang <=> chuyển đổi sang",
+              "deductionLogic": "Mệnh đề 'precisely because' nêu trực tiếp lý do cốt lõi."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "What do comparative transport scholars warn Vietnam NOT to do in paragraph 4?",
+            "questionVi": "Các học giả giao thông so sánh cảnh báo Việt Nam KHÔNG nên làm điều gì trong đoạn 4?",
+            "questionType": "DẠNG 03: CHI TIẾT CẢNH BÁO (Factual Detail)",
+            "options": [
+              "Investing in urban metro rail corridors or electric two-wheelers",
+              "Blindly copying British financial road penalties before establishing reliable public transit alternatives",
+              "Introducing contactless ticketing cards across different bus routes",
+              "Upgrading safe pedestrian sidewalks near residential neighborhoods"
+            ],
+            "optionsVi": [
+              "A. Đầu tư vào các hành lang tàu điện đô thị hay xe máy điện",
+              "B. Sao chép máy móc các biện pháp phạt phí đường bộ kiểu Anh trước khi có sẵn phương tiện công cộng thay thế đáng tin cậy",
+              "C. Áp dụng thẻ vé không chạm giữa các tuyến xe buýt",
+              "D. Nâng cấp vỉa hè an toàn cho người đi bộ gần khu dân cư"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "comparative transport scholars caution against blindly importing British fiscal deterrents into Vietnam without prerequisite transit alternatives. [Paragraph 4]",
+            "evidenceVi": "các học giả giao thông so sánh cảnh báo không nên áp dụng máy móc các biện pháp tài khóa răn đe của Anh vào Việt Nam khi chưa có điều kiện tiên quyết là phương tiện công cộng thay thế. [Đoạn 4]",
+            "explanation": "Đoạn 4 cảnh báo rõ không được 'blindly importing British fiscal deterrents... without prerequisite transit alternatives' (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Lời cảnh báo chính sách (Factual)",
+              "cluePassage": "caution against blindly importing British fiscal deterrents into Vietnam without prerequisite transit alternatives.",
+              "clueAnswer": "Blindly copying British financial road penalties before establishing reliable public transit alternatives",
+              "keyPassage": "blindly importing British fiscal deterrents... without prerequisite transit alternatives",
+              "keyAnswer": "blindly copying British financial road penalties before establishing reliable public transit alternatives",
+              "paraphrasePair": "fiscal deterrents... without prerequisite <=> financial road penalties... before establishing",
+              "meaningVi": "biện pháp tài khóa răn đe khi thiếu điều kiện tiên quyết <=> phạt phí đường bộ trước khi có sẵn giao thông công cộng",
+              "deductionLogic": "Paraphrase chuẩn xác cụm 'fiscal deterrents' và 'prerequisite'."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "According to the final sentence, what is the most valuable policy lesson Vietnam can adapt from British governance?",
+            "questionVi": "Theo câu cuối bài, bài học chính sách giá trị nhất mà Việt Nam có thể tiếp thu từ quản trị giao thông của Anh là gì?",
+            "questionType": "DẠNG 07: KẾT LUẬN / GIẢI PHÁP (Author's Conclusion)",
+            "options": [
+              "Synchronized sequencing: building metro, sidewalks, and unified ticketing first, then gradually introducing vehicle restrictions and emission zones",
+              "Banning all two-wheelers overnight before opening any metro stations",
+              "Privatizing every sidewalk into paid private automobile parking",
+              "Replacing all electric scooters with vintage diesel double-decker buses"
+            ],
+            "optionsVi": [
+              "A. Triển khai theo trình tự đồng bộ: xây dựng metro, vỉa hè và vé tích hợp trước, rồi từng bước áp dụng vùng phát thải và hạn chế xe cá nhân",
+              "B. Cấm toàn bộ xe hai bánh chỉ sau một đêm trước khi mở bất kỳ ga metro nào",
+              "C. Tư nhân hóa mọi vỉa hè thành bãi đỗ ô tô cá nhân có thu phí",
+              "D. Thay thế toàn bộ xe máy điện bằng xe buýt hai tầng chạy dầu diesel đời cũ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the most transferable lesson from British transport governance lies in synchronized sequencing: expanding reliable metro networks, safe pedestrian sidewalks, and integrated multimodal ticketing first, before progressively introducing emission zones and private-vehicle restrictions. [Paragraph 4]",
+            "evidenceVi": "bài học dễ chuyển giao nhất từ quản trị giao thông Anh nằm ở trình tự đồng bộ: mở rộng mạng lưới metro tin cậy, vỉa hè an toàn và vé đa phương thức trước, rồi từng bước áp dụng vùng phát thải và hạn chế xe cá nhân. [Đoạn 4]",
+            "explanation": "Câu cuối bài đúc kết rõ nguyên tắc 'synchronized sequencing': phát triển hạ tầng công cộng và vé tích hợp trước, sau đó mới áp dụng dần các biện pháp hạn chế xe cá nhân và vùng phát thải (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Bài học chính sách (Author's Conclusion)",
+              "cluePassage": "synchronized sequencing: expanding reliable metro networks, safe pedestrian sidewalks, and integrated multimodal ticketing first, before progressively introducing emission zones and private-vehicle restrictions.",
+              "clueAnswer": "Synchronized sequencing: building metro, sidewalks, and unified ticketing first, then gradually introducing vehicle restrictions and emission zones",
+              "keyPassage": "synchronized sequencing... metro, sidewalks, integrated ticketing first... progressively introducing emission zones and restrictions",
+              "keyAnswer": "synchronized sequencing... building metro, sidewalks, unified ticketing first... gradually introducing restrictions and emission zones",
+              "paraphrasePair": "integrated multimodal ticketing... progressively <=> unified ticketing... gradually",
+              "meaningVi": "vé đa phương thức tích hợp & từng bước <=> vé thống nhất & dần dần",
+              "deductionLogic": "Khớp nguyên vẹn trật tự nhân quả 'first... before progressively...' ở câu cuối."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "Which of the following best describes the author's tone throughout the passage?",
+            "questionVi": "Phương án nào mô tả đúng nhất giọng điệu của tác giả xuyên suốt bài đọc?",
+            "questionType": "DẠNG 07: THÁI ĐỘ TÁC GIẢ (Author's Tone)",
+            "options": [
+              "Analytical, balanced, and policy-oriented",
+              "Mocking toward Vietnamese commuters and scooters",
+              "Blindly idolizing British roads without acknowledging contextual differences",
+              "Alarmist and hostile toward all public rail investments"
+            ],
+            "optionsVi": [
+              "A. Phân tích sâu sắc, cân bằng khách quan và định hướng chính sách",
+              "B. Chế giễu người đi lại và xe máy tại Việt Nam",
+              "C. Thần tượng mù quáng đường sá Anh mà bỏ qua khác biệt bối cảnh",
+              "D. Gây hoang mang và thù địch với mọi khoản đầu tư đường sắt công cộng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "comparative analysis... pragmatic spatial adaptation... caution against blindly importing... synchronized sequencing. [Paragraphs 1-4]",
+            "evidenceVi": "phân tích so sánh... thích nghi không gian thực tế... cảnh báo không nhập khẩu mù quáng... trình tự đồng bộ. [Đoạn 1-4]",
+            "explanation": "Tác giả duy trì giọng văn học thuật khách quan, cân bằng giữa hai bối cảnh địa lý - kinh tế và đưa ra khuyến nghị chính sách thực tiễn (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Giọng điệu học thuật (Author's Tone)",
+              "cluePassage": "comparative analysis... pragmatic spatial adaptation... caution against blindly importing... transferable lesson",
+              "clueAnswer": "Analytical, balanced, and policy-oriented",
+              "keyPassage": "comparative analysis... caution against blindly importing... transferable lesson",
+              "keyAnswer": "Analytical, balanced, and policy-oriented",
+              "paraphrasePair": "comparative analysis + transferable lesson <=> analytical and policy-oriented",
+              "meaningVi": "phân tích so sánh & rút ra bài học chính sách <=> phân tích cân bằng và định hướng chính sách",
+              "deductionLogic": "Loại B, C, D vì đều mang cảm xúc cực đoan không hề có trong bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Astronomy: Stellar Nurseries & Planet Neptune",
+        "topic": "Thiên văn học: Quá trình hình thành sao mới & Khám phá toán học về Sao Hải Vương",
+        "timeAllowed": 15,
+        "passage": "<p>Modern astrophysics spans astonishing scales of space and time, illuminating both the violent birth of nascent stars across interstellar molecular clouds and the enigmatic ice giants patrolling the frigid fringes of our own solar system. Stars do not ignite spontaneously in empty space; they germinate deep inside colossal, frigid nebulae composed predominantly of molecular hydrogen and microscopic cosmic dust. When an external shockwave—frequently propagated by a nearby supernova detonation—compresses a dense pocket of this gas, gravitational collapse begins. As matter spirals inward under escalating gravity, the contracting core heats dramatically, forming a glowing protostar shrouded by a rotating protoplanetary disk. Once core temperatures surpass roughly ten million kelvins, thermonuclear fusion ignites, fusing hydrogen nuclei into helium and releasing immense outward radiation pressure that halts further collapse, marking the birth of a main-sequence 'rising star.'</p><p>Remarkably, the swirling disks of residual dust and volatile ices orbiting newly born stars are the exact crucibles in which planetary systems assemble. Within the frost line of our own infant solar system roughly 4.5 billion years ago, refractory metals and silicates coalesced into rocky inner worlds, whereas beyond that thermal boundary, abundant frozen water, ammonia, and methane enabled the accretion of massive outer planets—culminating at the solar system's outermost frontier with Neptune. Orbiting thirty times farther from the Sun than Earth, Neptune takes 165 terrestrial years to complete a single revolution and receives less than one-thousandth of the sunlight reaching our planet.</p><p>Neptune occupies a singular chapter in the history of science as the first major planet discovered through mathematical prediction rather than empirical telescopic scanning. Following William Herschel's accidental sighting of Uranus in 1781, astronomers noticed persistent, puzzling irregularities in Uranus's orbital trajectory that defied Newtonian predictions. Independently, French mathematician Urbain Le Verrier and British scholar John Couch Adams deduced that an unseen massive body must be exerting gravitational perturbations on Uranus. In September 1846, acting on Le Verrier's precise celestial coordinates, Berlin astronomer Johann Gottfried Galle pointed his refractor telescope and located Neptune within a single degree of its predicted position—an extraordinary triumph for theoretical celestial mechanics.</p><p>Decades later, NASA's Voyager 2 flyby in 1989 and recent infrared observations from the James Webb Space Telescope (JWST) shattered assumptions that such a distant, dimly lit ice giant would be geologically inert. Beneath a vivid azure haze colored by atmospheric methane, Neptune hosts the fastest sustained supersonic winds in the solar system, clocked at over 2,100 kilometers per hour, alongside transient dark anticyclonic storms the size of Earth. Because Neptune radiates more than twice as much internal heat as it absorbs from the distant Sun, astronomers conclude that primordial gravitational contraction and deep diamond-rain convection drive its turbulent weather—reminding humanity that even at the darkest margins of planetary systems, cosmic physics remains vibrantly dynamic.</p>",
+        "vocab": [
+          {
+            "word": "astrophysics",
+            "pos": "n",
+            "ipa": "/ˌæs.trəʊˈfɪz.ɪks/",
+            "level": "C1",
+            "mean": "vật lý thiên văn học",
+            "syns": [
+              "space physics",
+              "cosmology"
+            ],
+            "ex": "Modern astrophysics unites quantum mechanics with observations of distant galaxies."
+          },
+          {
+            "word": "nascent",
+            "pos": "adj",
+            "ipa": "/ˈnæs.ənt/",
+            "level": "C1",
+            "mean": "mới chớm hình thành, sơ khai",
+            "syns": [
+              "emerging",
+              "fledgling",
+              "newborn"
+            ],
+            "ex": "Infrared telescopes peer through dense dust to photograph nascent stars."
+          },
+          {
+            "word": "interstellar",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈstel.ər/",
+            "level": "C1",
+            "mean": "liên sao, giữa các vì sao",
+            "syns": [
+              "between stars",
+              "cosmic",
+              "galactic"
+            ],
+            "ex": "Vast interstellar clouds supply the raw hydrogen needed for stellar birth."
+          },
+          {
+            "word": "enigmatic",
+            "pos": "adj",
+            "ipa": "/ˌen.ɪɡˈmæt.ɪk/",
+            "level": "C1",
+            "mean": "bí ẩn, đầy câu đố khó giải",
+            "syns": [
+              "mysterious",
+              "puzzling",
+              "cryptic"
+            ],
+            "ex": "Neptune remains one of the most enigmatic worlds in our solar system."
+          },
+          {
+            "word": "germinate",
+            "pos": "v",
+            "ipa": "/ˈdʒɜː.mɪ.neɪt/",
+            "level": "C1",
+            "mean": "nảy mầm, bắt đầu hình thành phôi thai",
+            "syns": [
+              "originate",
+              "sprout",
+              "develop"
+            ],
+            "ex": "New suns germinate inside cold, dark pockets of interstellar gas."
+          },
+          {
+            "word": "nebula",
+            "pos": "n",
+            "ipa": "/ˈneb.jʊ.lə/",
+            "level": "C1",
+            "mean": "tinh vân (đám mây khí bụi vũ trụ khổng lồ)",
+            "syns": [
+              "cosmic gas cloud",
+              "stellar nursery"
+            ],
+            "ex": "The Orion Nebula is a famous stellar nursery visible even to the naked eye."
+          },
+          {
+            "word": "propagate",
+            "pos": "v",
+            "ipa": "/ˈprɒp.ə.ɡeɪt/",
+            "level": "C1",
+            "mean": "lan truyền (sóng xung kích, năng lượng)",
+            "syns": [
+              "transmit",
+              "spread",
+              "radiate"
+            ],
+            "ex": "Shockwaves propagate rapidly outward after a massive star explodes as a supernova."
+          },
+          {
+            "word": "detonation",
+            "pos": "n",
+            "ipa": "/ˌdet.əˈneɪ.ʃən/",
+            "level": "C1",
+            "mean": "vụ nổ dữ dội",
+            "syns": [
+              "explosion",
+              "blast",
+              "eruption"
+            ],
+            "ex": "A nearby supernova detonation can compress gas clouds and trigger star formation."
+          },
+          {
+            "word": "shrouded",
+            "pos": "adj",
+            "ipa": "/ˈʃraʊ.dɪd/",
+            "level": "C1",
+            "mean": "bị bao phủ, che khuất dày đặc",
+            "syns": [
+              "veiled",
+              "enveloped",
+              "obscured"
+            ],
+            "ex": "Young protostars remain shrouded inside opaque cocoons of swirling dust."
+          },
+          {
+            "word": "thermonuclear",
+            "pos": "adj",
+            "ipa": "/ˌθɜː.məʊˈnjuː.kli.ər/",
+            "level": "C1",
+            "mean": "nhiệt hạch (phản ứng hợp hạch ở nhiệt độ cực cao)",
+            "syns": [
+              "nuclear-fusion",
+              "atomic"
+            ],
+            "ex": "Thermonuclear fusion in a star's core converts hydrogen into helium and light."
+          },
+          {
+            "word": "residual",
+            "pos": "adj",
+            "ipa": "/rɪˈzɪd.ju.əl/",
+            "level": "C1",
+            "mean": "còn sót lại, dư lại sau quá trình chính",
+            "syns": [
+              "remaining",
+              "leftover",
+              "remnant"
+            ],
+            "ex": "Planets coalesce from residual gas and dust orbiting a newborn star."
+          },
+          {
+            "word": "crucible",
+            "pos": "n",
+            "ipa": "/ˈkruː.sɪ.bəl/",
+            "level": "C1",
+            "mean": "lò luyện, nơi hun đúc tạo thành",
+            "syns": [
+              "forge",
+              "cauldron",
+              "birthplace"
+            ],
+            "ex": "Protoplanetary disks act as cosmic crucibles where rocky and icy worlds take shape."
+          },
+          {
+            "word": "coalesce",
+            "pos": "v",
+            "ipa": "/ˌkəʊ.əˈles/",
+            "level": "C1",
+            "mean": "kết tụ lại, hợp nhất thành khối lớn",
+            "syns": [
+              "merge",
+              "fuse",
+              "combine"
+            ],
+            "ex": "Microscopic dust grains gradually coalesce into asteroid-sized planetary seeds."
+          },
+          {
+            "word": "accretion",
+            "pos": "n",
+            "ipa": "/əˈkriː.ʃən/",
+            "level": "C1",
+            "mean": "quá trình bồi tụ vật chất dưới lực hấp dẫn",
+            "syns": [
+              "accumulation",
+              "buildup",
+              "gathering"
+            ],
+            "ex": "Giant outer planets grew rapidly through the accretion of frozen gases."
+          },
+          {
+            "word": "revolution",
+            "pos": "n",
+            "ipa": "/ˌrev.əˈluː.ʃən/",
+            "level": "B2",
+            "mean": "một vòng quay trọn vẹn quanh quỹ đạo",
+            "syns": [
+              "orbit",
+              "circuit",
+              "cycle"
+            ],
+            "ex": "Neptune completed its first full revolution since its 1846 discovery in 2011."
+          },
+          {
+            "word": "irregularity",
+            "pos": "n",
+            "ipa": "/ɪˌreɡ.jʊˈlær.ə.ti/",
+            "level": "B2",
+            "mean": "sự bất thường, độ lệch quỹ đạo",
+            "syns": [
+              "anomaly",
+              "deviation",
+              "aberration"
+            ],
+            "ex": "Subtle irregularities in Uranus's path hinted at an undiscovered outer planet."
+          },
+          {
+            "word": "deduce",
+            "pos": "v",
+            "ipa": "/dɪˈdjuːs/",
+            "level": "B2",
+            "mean": "suy diễn logic, suy luận toán học",
+            "syns": [
+              "infer",
+              "conclude",
+              "calculate"
+            ],
+            "ex": "Mathematicians deduced Neptune's exact sky position using Newton's laws of gravity."
+          },
+          {
+            "word": "perturbation",
+            "pos": "n",
+            "ipa": "/ˌpɜː.təˈbeɪ.ʃən/",
+            "level": "C1",
+            "mean": "nhiễu loạn quỹ đạo do lực hấp dẫn",
+            "syns": [
+              "disturbance",
+              "deflection",
+              "deviation"
+            ],
+            "ex": "Gravitational perturbations from Neptune gently tugged Uranus off its expected path."
+          },
+          {
+            "word": "celestial",
+            "pos": "adj",
+            "ipa": "/səˈles.ti.əl/",
+            "level": "C1",
+            "mean": "thuộc bầu trời, thiên thể",
+            "syns": [
+              "astronomical",
+              "heavenly",
+              "planetary"
+            ],
+            "ex": "Celestial mechanics enables scientists to predict eclipses centuries in advance."
+          },
+          {
+            "word": "inert",
+            "pos": "adj",
+            "ipa": "/ɪˈnɜːt/",
+            "level": "C1",
+            "mean": "trơ, bất động, không có hoạt động địa chất",
+            "syns": [
+              "inactive",
+              "dormant",
+              "static"
+            ],
+            "ex": "Before Voyager 2, many assumed distant ice giants were frozen and inert."
+          },
+          {
+            "word": "azure",
+            "pos": "adj",
+            "ipa": "/ˈæʒ.ər/",
+            "level": "C1",
+            "mean": "xanh da trời thẫm rực rỡ",
+            "syns": [
+              "deep blue",
+              "cerulean",
+              "cobalt"
+            ],
+            "ex": "Atmospheric methane absorbs red light, giving Neptune its striking azure tint."
+          },
+          {
+            "word": "supersonic",
+            "pos": "adj",
+            "ipa": "/ˌsuː.pəˈsɒn.ɪk/",
+            "level": "B2",
+            "mean": "siêu thanh, vượt vận tốc âm thanh",
+            "syns": [
+              "faster-than-sound",
+              "ultrafast"
+            ],
+            "ex": "Neptune's equatorial jet streams rage at ferocious supersonic velocities."
+          },
+          {
+            "word": "primordial",
+            "pos": "adj",
+            "ipa": "/praɪˈmɔː.di.əl/",
+            "level": "C1",
+            "mean": "nguyên thủy, từ thuở sơ khai hình thành hành tinh",
+            "syns": [
+              "ancient",
+              "primeval",
+              "original"
+            ],
+            "ex": "Primordial heat trapped since Neptune's birth still powers its fierce storms."
+          },
+          {
+            "word": "convection",
+            "pos": "n",
+            "ipa": "/kənˈvek.ʃən/",
+            "level": "C1",
+            "mean": "sự đối lưu nhiệt",
+            "syns": [
+              "heat circulation",
+              "thermal transfer"
+            ],
+            "ex": "Deep internal convection transports thermal energy from Neptune's core to its clouds."
+          },
+          {
+            "word": "turbulent",
+            "pos": "adj",
+            "ipa": "/ˈtɜː.bjʊ.lənt/",
+            "level": "B2",
+            "mean": "hỗn loạn dữ dội, cuồng phong",
+            "syns": [
+              "stormy",
+              "tempestuous",
+              "violent"
+            ],
+            "ex": "Telescopes track massive dark cyclones churning across Neptune's turbulent atmosphere."
+          },
+          {
+            "word": "radiate",
+            "pos": "v",
+            "ipa": "/ˈreɪ.di.eɪt/",
+            "level": "B2",
+            "mean": "bức xạ, tỏa nhiệt năng ra ngoài",
+            "syns": [
+              "emit",
+              "give off",
+              "discharge"
+            ],
+            "ex": "Neptune radiates over twice as much thermal energy as it receives from the Sun."
+          },
+          {
+            "word": "volatile",
+            "pos": "adj",
+            "ipa": "/ˈvɒl.ə.taɪl/",
+            "level": "C1",
+            "mean": "dễ bay hơi (chất khí và băng như metan, amoniac)",
+            "syns": [
+              "evaporable",
+              "unstable",
+              "gaseous"
+            ],
+            "ex": "Volatile ices survived beyond the frost line to build Uranus and Neptune."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "According to paragraph 1, what physically halts the gravitational collapse of a newly forming protostar?",
+            "questionVi": "Theo đoạn 1, lực vật lý nào ngăn chặn quá trình co sụp hấp dẫn của một tiền sao mới hình thành?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "Outward radiation pressure generated once core thermonuclear fusion ignites",
+              "Cold cosmic dust freezing the protostar's outer shell solid",
+              "Gravitational tugs from orbiting ice giants like Neptune",
+              "A sudden drop in core temperature below one million kelvins"
+            ],
+            "optionsVi": [
+              "A. Áp suất bức xạ hướng ra ngoài sinh ra khi phản ứng tổng hợp nhiệt hạch tại lõi bùng cháy",
+              "B. Bụi vũ trụ lạnh làm đóng băng cứng lớp vỏ ngoài của tiền sao",
+              "C. Lực kéo hấp dẫn từ các hành tinh băng khổng lồ như Sao Hải Vương",
+              "D. Sự giảm nhiệt độ lõi đột ngột xuống dưới một triệu độ Kelvin"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Once core temperatures surpass roughly ten million kelvins, thermonuclear fusion ignites, fusing hydrogen nuclei into helium and releasing immense outward radiation pressure that halts further collapse... [Paragraph 1]",
+            "evidenceVi": "Khi nhiệt độ lõi vượt khoảng 10 triệu Kelvin, phản ứng nhiệt hạch bùng cháy, hợp nhất hạt nhân hydro thành heli và giải phóng áp suất bức xạ hướng ra ngoài cực lớn ngăn chặn sự co sụp tiếp theo. [Đoạn 1]",
+            "explanation": "Đoạn 1 giải thích chính xác cơ chế cân bằng thủy tĩnh: phản ứng nhiệt hạch tạo áp suất bức xạ hướng ra ngoài ('outward radiation pressure') giúp dừng quá trình co sụp hấp dẫn (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế vật lý thiên văn (Factual Mechanism)",
+              "cluePassage": "thermonuclear fusion ignites... releasing immense outward radiation pressure that halts further collapse",
+              "clueAnswer": "Outward radiation pressure generated once core thermonuclear fusion ignites",
+              "keyPassage": "thermonuclear fusion ignites... outward radiation pressure that halts further collapse",
+              "keyAnswer": "Outward radiation pressure generated once core thermonuclear fusion ignites",
+              "paraphrasePair": "releasing... halts collapse <=> generated once... halts collapse",
+              "meaningVi": "giải phóng áp suất bức xạ ngăn co sụp <=> áp suất bức xạ sinh ra khi phản ứng nhiệt hạch bùng cháy",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "In paragraph 1, what frequently initiates the compression of interstellar gas clouds to begin star formation?",
+            "questionVi": "Trong đoạn 1, hiện tượng nào thường khởi phát sự nén các đám mây khí liên sao để bắt đầu quá trình tạo sao?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CƠ CHẾ (Cause & Effect)",
+            "options": [
+              "An external shockwave propagated by a nearby supernova explosion",
+              "Supersonic methane winds blowing outward from Neptune",
+              "Sunlight reflected off rocky inner planets",
+              "Slow evaporation of helium inside empty intergalactic space"
+            ],
+            "optionsVi": [
+              "A. Một sóng xung kích từ bên ngoài lan truyền từ vụ nổ siêu tân tinh gần đó",
+              "B. Những cơn gió khí mê-tan siêu thanh thổi ra từ Sao Hải Vương",
+              "C. Ánh sáng Mặt Trời phản xạ từ các hành tinh đá vòng trong",
+              "D. Sự bay hơi chậm của khí heli trong không gian liên thiên hà trống rỗng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "When an external shockwave—frequently propagated by a nearby supernova detonation—compresses a dense pocket of this gas, gravitational collapse begins. [Paragraph 1]",
+            "evidenceVi": "Khi một sóng xung kích bên ngoài — thường lan truyền từ vụ nổ siêu tân tinh lân cận — nén một vùng khí đặc này lại, sự co sụp hấp dẫn bắt đầu. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ tác nhân kích hoạt là sóng xung kích từ vụ nổ siêu tân tinh gần đó ('nearby supernova detonation') (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Tác nhân kích hoạt (Cause & Effect)",
+              "cluePassage": "external shockwave—frequently propagated by a nearby supernova detonation—compresses a dense pocket of this gas",
+              "clueAnswer": "An external shockwave propagated by a nearby supernova explosion",
+              "keyPassage": "external shockwave... nearby supernova detonation",
+              "keyAnswer": "external shockwave... nearby supernova explosion",
+              "paraphrasePair": "detonation <=> explosion",
+              "meaningVi": "vụ nổ dữ dội <=> vụ nổ siêu tân tinh",
+              "deductionLogic": "Paraphrase trực tiếp từ 'detonation' sang 'explosion'."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "According to paragraph 2, why did massive icy planets like Neptune form beyond the solar system's frost line rather than inside it?",
+            "questionVi": "Theo đoạn 2, tại sao các hành tinh băng khổng lồ như Sao Hải Vương hình thành bên ngoài đường băng giá của hệ Mặt Trời thay vì bên trong?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "Because metals and silicates only exist at the outermost edge of the galaxy",
+              "Because beyond that thermal boundary, abundant frozen water, ammonia, and methane were available to accrete massive planets",
+              "Because inside the frost line, sunlight was too dim to permit planetary orbits",
+              "Because stars expel all solid rocks outward into interstellar nebulae"
+            ],
+            "optionsVi": [
+              "A. Bởi vì kim loại và silicat chỉ tồn tại ở rìa ngoài cùng của thiên hà",
+              "B. Bởi vì bên ngoài ranh giới nhiệt đó, lượng dồi dào nước đóng băng, amoniac và mê-tan sẵn có giúp bồi tụ các hành tinh khổng lồ",
+              "C. Bởi vì bên trong đường băng giá, ánh sáng Mặt Trời quá mờ không cho phép hành tinh quay quỹ đạo",
+              "D. Bởi vì các ngôi sao đẩy toàn bộ đá rắn ra ngoài các tinh vân liên sao"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "whereas beyond that thermal boundary, abundant frozen water, ammonia, and methane enabled the accretion of massive outer planets—culminating at the solar system's outermost frontier with Neptune. [Paragraph 2]",
+            "evidenceVi": "trong khi vượt qua ranh giới nhiệt đó, nguồn nước đóng băng, amoniac và mê-tan dồi dào cho phép bồi tụ các hành tinh khổng lồ vòng ngoài — xa nhất là Sao Hải Vương. [Đoạn 2]",
+            "explanation": "Bên ngoài đường băng giá ('frost line'), nhiệt độ đủ thấp để nước, amoniac và mê-tan đóng băng dồi dào, cung cấp vật liệu bồi tụ nên các hành tinh khổng lồ vòng ngoài như Sao Hải Vương (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế hình thành hành tinh (Factual)",
+              "cluePassage": "beyond that thermal boundary, abundant frozen water, ammonia, and methane enabled the accretion of massive outer planets",
+              "clueAnswer": "Because beyond that thermal boundary, abundant frozen water, ammonia, and methane were available to accrete massive planets",
+              "keyPassage": "beyond that thermal boundary... abundant frozen water, ammonia, and methane enabled the accretion",
+              "keyAnswer": "beyond that thermal boundary... abundant frozen water, ammonia, and methane available to accrete",
+              "paraphrasePair": "enabled the accretion of <=> were available to accrete",
+              "meaningVi": "cho phép sự bồi tụ <=> sẵn có để bồi tụ",
+              "deductionLogic": "Khớp trực tiếp câu thứ 2 đoạn 2."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "Why does Neptune hold a unique place in the history of science according to paragraph 3?",
+            "questionVi": "Theo đoạn 3, tại sao Sao Hải Vương lại chiếm một vị trí đặc biệt trong lịch sử khoa học?",
+            "questionType": "DẠNG 03: CHI TIẾT LỊCH SỬ KHOA HỌC (Factual Detail)",
+            "options": [
+              "It was the first major planet ever discovered through mathematical prediction rather than random visual sky scanning.",
+              "It was the closest planet ever visited by William Herschel in 1781.",
+              "It was the first planet proved to defy Isaac Newton's laws of universal gravitation.",
+              "It was discovered simultaneously by astronauts aboard Voyager 2 and the James Webb telescope."
+            ],
+            "optionsVi": [
+              "A. Nó là hành tinh lớn đầu tiên được phát hiện nhờ dự đoán toán học thay vì quét bầu trời tình cờ bằng kính thiên văn.",
+              "B. Nó là hành tinh gần nhất từng được William Herschel ghé thăm năm 1781.",
+              "C. Nó là hành tinh đầu tiên được chứng minh phủ định định luật vạn vật hấp dẫn của Newton.",
+              "D. Nó được phát hiện đồng thời bởi phi hành gia trên Voyager 2 và kính James Webb."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Neptune occupies a singular chapter in the history of science as the first major planet discovered through mathematical prediction rather than empirical telescopic scanning. [Paragraph 3]",
+            "evidenceVi": "Sao Hải Vương chiếm một chương độc nhất trong lịch sử khoa học vì là hành tinh lớn đầu tiên được khám phá qua dự đoán toán học thay vì quét bầu trời bằng kính thiên văn. [Đoạn 3]",
+            "explanation": "Câu chủ đề đoạn 3 nêu trực tiếp lý do: hành tinh lớn đầu tiên được tìm ra bằng tính toán dự đoán toán học (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cột mốc lịch sử thiên văn (Factual)",
+              "cluePassage": "the first major planet discovered through mathematical prediction rather than empirical telescopic scanning.",
+              "clueAnswer": "It was the first major planet ever discovered through mathematical prediction rather than random visual sky scanning.",
+              "keyPassage": "first major planet discovered through mathematical prediction rather than empirical telescopic scanning",
+              "keyAnswer": "first major planet discovered through mathematical prediction rather than random visual sky scanning",
+              "paraphrasePair": "empirical telescopic scanning <=> random visual sky scanning",
+              "meaningVi": "quét bầu trời thực nghiệm bằng kính thiên văn <=> quét bầu trời bằng thị giác ngẫu nhiên",
+              "deductionLogic": "Loại C vì khám phá Sao Hải Vương chính là chiến thắng của cơ học Newton, không phải phủ định nó."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "How did Urbain Le Verrier and John Couch Adams deduce the existence of Neptune?",
+            "questionVi": "Urbain Le Verrier và John Couch Adams đã suy luận ra sự tồn tại của Sao Hải Vương bằng cách nào?",
+            "questionType": "DẠNG 03: PHƯƠNG PHÁP KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "By analyzing unexplained gravitational irregularities in the orbit of Uranus",
+              "By photographing azure methane clouds with an infrared space telescope",
+              "By measuring radio signals emitted by supersonic Martian storms",
+              "By discovering ancient Babylonian star charts depicting eight outer planets"
+            ],
+            "optionsVi": [
+              "A. Bằng cách phân tích những nhiễu loạn hấp dẫn bất thường khó giải thích trên quỹ đạo của Sao Thiên Vương",
+              "B. Bằng cách chụp ảnh các đám mây mê-tan xanh thẫm bằng kính viễn vọng không gian hồng ngoại",
+              "C. Bằng cách đo tín hiệu vô tuyến phát ra từ các cơn bão siêu thanh trên Sao Hỏa",
+              "D. Bằng cách phát hiện bản đồ sao cổ Babylon vẽ tám hành tinh vòng ngoài"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "astronomers noticed persistent, puzzling irregularities in Uranus's orbital trajectory... Urbain Le Verrier and British scholar John Couch Adams deduced that an unseen massive body must be exerting gravitational perturbations on Uranus. [Paragraph 3]",
+            "evidenceVi": "các nhà thiên văn nhận thấy những bất thường khó hiểu trên quỹ đạo Sao Thiên Vương... Le Verrier và Adams đã suy luận rằng phải có một thiên thể khối lượng lớn chưa thấy đang gây nhiễu loạn hấp dẫn lên Sao Thiên Vương. [Đoạn 3]",
+            "explanation": "Cả hai nhà toán học đã tính toán độc lập từ độ lệch quỹ đạo ('orbital irregularities' / 'gravitational perturbations') của Sao Thiên Vương để tìm ra vị trí Sao Hải Vương (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Phương pháp suy diễn toán học (Factual)",
+              "cluePassage": "irregularities in Uranus's orbital trajectory... deduced that an unseen massive body must be exerting gravitational perturbations on Uranus.",
+              "clueAnswer": "By analyzing unexplained gravitational irregularities in the orbit of Uranus",
+              "keyPassage": "irregularities in Uranus's orbital trajectory... gravitational perturbations on Uranus",
+              "keyAnswer": "unexplained gravitational irregularities in the orbit of Uranus",
+              "paraphrasePair": "orbital trajectory <=> orbit",
+              "meaningVi": "quỹ đạo chuyển động <=> quỹ đạo",
+              "deductionLogic": "Khớp trực tiếp câu 2 và câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "The word \"inert\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"inert\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "inactive",
+              "explosive",
+              "luminous",
+              "habitable"
+            ],
+            "optionsVi": [
+              "A. bất động, không hoạt động",
+              "B. dễ phát nổ",
+              "C. phát sáng rực rỡ",
+              "D. có thể sinh sống"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "shattered assumptions that such a distant, dimly lit ice giant would be geologically inert... Neptune hosts the fastest sustained supersonic winds... [Paragraph 4]",
+            "evidenceVi": "đập tan giả định rằng một hành tinh băng khổng lồ xa xôi thiếu ánh sáng như vậy sẽ hoàn toàn bất động về địa chất... Sao Hải Vương sở hữu những cơn gió siêu thanh nhanh nhất hệ Mặt Trời... [Đoạn 4]",
+            "explanation": "'Inert' (trơ, bất động, thiếu hoạt động) đối lập trực tiếp với gió siêu thanh và bão khổng lồ cuồn cuộn ('turbulent', 'vibrantly dynamic'), nên đồng nghĩa với 'inactive' (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "shattered assumptions that such a distant, dimly lit ice giant would be geologically inert... cosmic physics remains vibrantly dynamic",
+              "clueAnswer": "inactive",
+              "keyPassage": "geologically inert (contrasted with vibrantly dynamic)",
+              "keyAnswer": "inactive",
+              "paraphrasePair": "inert <=> inactive / dormant",
+              "meaningVi": "trơ lì bất động <=> không hoạt động",
+              "deductionLogic": "Phép tương phản với 'vibrantly dynamic' (sôi động mạnh mẽ) ở cuối đoạn xác nhận nghĩa 'inactive'."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "What produces Neptune's vivid azure color according to paragraph 4?",
+            "questionVi": "Theo đoạn 4, yếu tố nào tạo nên sắc xanh da trời rực rỡ (azure) của Sao Hải Vương?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Detail)",
+            "options": [
+              "Liquid tropical oceans covering its rocky crust",
+              "Atmospheric methane",
+              "Reflected blue light from neighboring Uranus",
+              "Supernova ash settled across its polar ice sheets"
+            ],
+            "optionsVi": [
+              "A. Các đại dương nhiệt đới nước lỏng bao phủ lớp vỏ đá",
+              "B. Khí mê-tan trong bầu khí quyển",
+              "C. Ánh sáng xanh phản chiếu từ Sao Thiên Vương lân cận",
+              "D. Tro siêu tân tinh lắng đọng trên các mảng băng cực"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Beneath a vivid azure haze colored by atmospheric methane, Neptune hosts the fastest sustained supersonic winds in the solar system... [Paragraph 4]",
+            "evidenceVi": "Bên dưới lớp sương mù xanh thẫm rực rỡ được tạo màu bởi khí mê-tan khí quyển, Sao Hải Vương chứa những cơn gió siêu thanh bền bỉ nhanh nhất hệ Mặt Trời... [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ: 'a vivid azure haze colored by atmospheric methane' (sắc xanh được tạo màu bởi khí mê-tan trong khí quyển) (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết vật lý (Factual)",
+              "cluePassage": "a vivid azure haze colored by atmospheric methane",
+              "clueAnswer": "Atmospheric methane",
+              "keyPassage": "azure haze colored by atmospheric methane",
+              "keyAnswer": "Atmospheric methane",
+              "paraphrasePair": "colored by <=> produces its color",
+              "meaningVi": "được nhuộm màu bởi khí mê-tan khí quyển",
+              "deductionLogic": "Khớp nguyên văn cụm phân từ ở câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "Why are astronomers able to conclude that internal processes—rather than sunlight—power Neptune's supersonic storms?",
+            "questionVi": "Tại sao các nhà thiên văn kết luận rằng các quá trình nội tại — chứ không phải ánh sáng Mặt Trời — cung cấp năng lượng cho bão siêu thanh trên Sao Hải Vương?",
+            "questionType": "DẠNG 03: LẬP LUẬN KHOA HỌC (Cause & Effect)",
+            "options": [
+              "Because Neptune radiates more than twice as much internal heat as the energy it absorbs from the Sun",
+              "Because Neptune orbits closer to the Sun than Earth during winter months",
+              "Because Voyager 2 physically landed inside an active surface volcano on Neptune",
+              "Because thermonuclear fusion of hydrogen is currently occurring at Neptune's surface"
+            ],
+            "optionsVi": [
+              "A. Bởi vì Sao Hải Vương bức xạ lượng nhiệt nội tại lớn hơn gấp đôi năng lượng nó hấp thụ từ Mặt Trời",
+              "B. Bởi vì Sao Hải Vương quay gần Mặt Trời hơn Trái Đất vào các tháng mùa đông",
+              "C. Bởi vì tàu Voyager 2 đã hạ cánh trực tiếp bên trong một ngọn núi lửa đang hoạt động trên Sao Hải Vương",
+              "D. Bởi vì phản ứng nhiệt hạch hydro hiện đang diễn ra ngay trên bề mặt Sao Hải Vương"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Because Neptune radiates more than twice as much internal heat as it absorbs from the distant Sun, astronomers conclude that primordial gravitational contraction and deep diamond-rain convection drive its turbulent weather... [Paragraph 4]",
+            "evidenceVi": "Bởi vì Sao Hải Vương bức xạ lượng nhiệt nội tại cao hơn gấp đôi lượng nhiệt nó hấp thụ từ Mặt Trời xa xôi, các nhà thiên văn kết luận sự co nén hấp dẫn nguyên thủy và đối lưu mưa kim cương sâu bên trong điều khiển thời tiết dữ dội của nó. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu thẳng bằng chứng định lượng: Sao Hải Vương tỏa ra nhiệt nội tại nhiều hơn gấp đôi nhiệt lượng nhận từ Mặt Trời (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chứng cứ năng lượng (Cause & Effect)",
+              "cluePassage": "Because Neptune radiates more than twice as much internal heat as it absorbs from the distant Sun, astronomers conclude that primordial gravitational contraction and deep diamond-rain convection drive its turbulent weather",
+              "clueAnswer": "Because Neptune radiates more than twice as much internal heat as the energy it absorbs from the Sun",
+              "keyPassage": "radiates more than twice as much internal heat as it absorbs from the distant Sun",
+              "keyAnswer": "radiates more than twice as much internal heat as the energy it absorbs from the Sun",
+              "paraphrasePair": "internal heat > 2x solar absorption => internal processes drive weather",
+              "meaningVi": "nhiệt tỏa ra gấp đôi nhiệt hấp thụ từ Mặt Trời => động lực đến từ bên trong hành tinh",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 4."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "Which of the following is NOT true about Neptune according to the passage?",
+            "questionVi": "Thông tin nào sau đây KHÔNG đúng về Sao Hải Vương theo bài đọc?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "It requires 165 Earth years to complete one orbit around the Sun.",
+              "Johann Gottfried Galle located it in 1846 within one degree of Le Verrier's mathematical prediction.",
+              "Its sustained winds have been measured at over 2,100 kilometers per hour.",
+              "Its dark anticyclonic storms have permanently remained frozen in one fixed spot for centuries."
+            ],
+            "optionsVi": [
+              "A. Nó cần 165 năm Trái Đất để hoàn thành một vòng quay quanh Mặt Trời.",
+              "B. Johann Gottfried Galle tìm thấy nó năm 1846 trong phạm vi sai số một độ so với dự đoán toán học của Le Verrier.",
+              "C. Những cơn gió bền bỉ của nó được đo đạt vượt quá 2.100 km/giờ.",
+              "D. Những cơn bão tối nghịch xoáy của nó đóng băng vĩnh viễn tại một vị trí cố định suốt nhiều thế kỷ."
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "alongside transient dark anticyclonic storms the size of Earth. [Paragraph 4]",
+            "evidenceVi": "bên cạnh những cơn bão tối nghịch xoáy mang tính tạm thời có kích cỡ bằng Trái Đất. [Đoạn 4]",
+            "explanation": "Đoạn 4 gọi các cơn bão tối trên Sao Hải Vương là 'transient' (tạm thời, thoáng qua — có thể hình thành rồi tan biến), hoàn toàn trái ngược với 'permanently remained frozen' ở phương án D. A, B, C đều đúng theo bài.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Chi tiết sai lệch (NOT true)",
+              "cluePassage": "alongside transient dark anticyclonic storms the size of Earth.",
+              "clueAnswer": "Its dark anticyclonic storms have permanently remained frozen in one fixed spot for centuries.",
+              "keyPassage": "transient dark anticyclonic storms",
+              "keyAnswer": "permanently remained frozen (Contradicts 'transient')",
+              "paraphrasePair": "transient (tạm thời) >< permanently frozen (đóng băng vĩnh viễn)",
+              "meaningVi": "tính chất tạm thời trái ngược hoàn toàn với đóng băng vĩnh viễn",
+              "deductionLogic": "Phát hiện cặp từ trái nghĩa 'transient' vs 'permanently'."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "How does the passage conceptually connect the birth of new stars (paragraph 1) with Planet Neptune (paragraphs 2–4)?",
+            "questionVi": "Bài đọc kết nối mặt khái niệm giữa sự ra đời của các ngôi sao mới (đoạn 1) với Sao Hải Vương (đoạn 2–4) như thế nào?",
+            "questionType": "DẠNG 06: SUY LUẬN LIÊN KẾT (Inference / Synthesis)",
+            "options": [
+              "The residual disks of gas and volatile ice surrounding newborn stars serve as the exact environments where outer planets like Neptune form.",
+              "Neptune is currently collapsing inward to ignite into a second sun for our solar system.",
+              "Supernova explosions happen exclusively inside Neptune's upper methane clouds.",
+              "Astronomers discovered protostars in 1846 before realizing that planets existed."
+            ],
+            "optionsVi": [
+              "A. Những đĩa khí và băng dễ bay hơi sót lại quanh các ngôi sao mới sinh chính là môi trường hun đúc nên các hành tinh vòng ngoài như Sao Hải Vương.",
+              "B. Sao Hải Vương hiện đang co sụp vào trong để bùng cháy thành Mặt Trời thứ hai cho hệ Mặt Trời.",
+              "C. Các vụ nổ siêu tân tinh chỉ xảy ra bên trong tầng mây mê-tan trên cao của Sao Hải Vương.",
+              "D. Các nhà thiên văn phát hiện tiền sao vào năm 1846 trước khi biết đến sự tồn tại của các hành tinh."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Remarkably, the swirling disks of residual dust and volatile ices orbiting newly born stars are the exact crucibles in which planetary systems assemble... culminating at the solar system's outermost frontier with Neptune. [Paragraph 2]",
+            "evidenceVi": "Đáng kinh ngạc là những đĩa bụi sót lại và băng dễ bay hơi xoay quanh các ngôi sao mới sinh chính là lò luyện nơi các hệ hành tinh hình thành... kết thúc ở biên giới ngoài cùng với Sao Hải Vương. [Đoạn 2]",
+            "explanation": "Đoạn 2 đóng vai trò cầu nối trực tiếp: đĩa tiền hành tinh quanh các ngôi sao mới sinh ('rising stars') chính là nơi bồi tụ vật chất tạo nên các hệ hành tinh, trong đó có Sao Hải Vương (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Liên kết cấu trúc khoa học (Synthesis)",
+              "cluePassage": "the swirling disks of residual dust and volatile ices orbiting newly born stars are the exact crucibles in which planetary systems assemble... culminating... with Neptune.",
+              "clueAnswer": "The residual disks of gas and volatile ice surrounding newborn stars serve as the exact environments where outer planets like Neptune form.",
+              "keyPassage": "disks of residual dust and volatile ices orbiting newly born stars... crucibles in which planetary systems assemble",
+              "keyAnswer": "residual disks surrounding newborn stars serve as environments where outer planets like Neptune form",
+              "paraphrasePair": "crucibles in which planetary systems assemble <=> environments where planets form",
+              "meaningVi": "lò luyện nơi các hệ hành tinh tụ hợp <=> môi trường nơi các hành tinh hình thành",
+              "deductionLogic": "Câu đầu đoạn 2 là cầu nối khái niệm trực tiếp giữa thiên văn sao mới và hành tinh Sao Hải Vương."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
