@@ -1,14 +1,61 @@
 
-// Safe accessor for 10 mock tests database
+function getQuestionNumericId(idOrObj) {
+    if (!idOrObj && idOrObj !== 0) return 1;
+    if (typeof idOrObj === 'object') {
+        if (typeof idOrObj.num === 'number' && idOrObj.num > 0) return idOrObj.num;
+        idOrObj = idOrObj.id || idOrObj.code || idOrObj.num;
+    }
+    if (typeof idOrObj === 'number') return idOrObj;
+    const str = String(idOrObj);
+    const mQ = str.match(/(?:_|^)q(\d+)/i) || str.match(/q_?(\d+)/i);
+    if (mQ) return parseInt(mQ[1], 10);
+    const mEnd = str.match(/(\d+)$/);
+    if (mEnd) return parseInt(mEnd[1], 10);
+    const mAny = str.match(/\d+/);
+    return mAny ? parseInt(mAny[0], 10) : 1;
+}
+
+let _normalizedMockTests = null;
+
+function normalizeMockTestsData(tests) {
+    if (!Array.isArray(tests)) return tests;
+    tests.forEach((test, tIdx) => {
+        const testNum = test.testNum || (tIdx + 1);
+        test.testNum = testNum;
+        if (!test.testId) test.testId = `TEST${String(testNum).padStart(2, '0')}`;
+        (test.passages || []).forEach((p, pIdx) => {
+            const partNum = p.partId || p.passageNum || (pIdx + 1);
+            p.partId = partNum;
+            p.passageNum = partNum;
+            if (!p.passage && p.text) p.passage = p.text;
+            if (!p.text && p.passage) p.text = p.passage;
+            (p.questions || []).forEach((q, qIdx) => {
+                const calculatedQNum = (partNum - 1) * 10 + (qIdx + 1);
+                const qNum = (typeof q.num === 'number' && q.num > 0) ? q.num : (getQuestionNumericId(q.id) || calculatedQNum);
+                q.id = qNum;
+                q.num = qNum;
+            });
+        });
+    });
+    return tests;
+}
+
+// Safe accessor for all 33 mock tests database
 function getMockTests() {
+    if (_normalizedMockTests && _normalizedMockTests.length > 0) {
+        return _normalizedMockTests;
+    }
+    let raw = null;
     if (typeof READING_MOCK_TESTS !== 'undefined' && Array.isArray(READING_MOCK_TESTS) && READING_MOCK_TESTS.length > 0) {
-        return READING_MOCK_TESTS;
+        raw = READING_MOCK_TESTS;
+    } else if (typeof window !== 'undefined' && window.READING_MOCK_TESTS && Array.isArray(window.READING_MOCK_TESTS) && window.READING_MOCK_TESTS.length > 0) {
+        raw = window.READING_MOCK_TESTS;
+    } else if (typeof globalThis !== 'undefined' && globalThis.READING_MOCK_TESTS && Array.isArray(globalThis.READING_MOCK_TESTS)) {
+        raw = globalThis.READING_MOCK_TESTS;
     }
-    if (typeof window !== 'undefined' && window.READING_MOCK_TESTS && Array.isArray(window.READING_MOCK_TESTS) && window.READING_MOCK_TESTS.length > 0) {
-        return window.READING_MOCK_TESTS;
-    }
-    if (typeof globalThis !== 'undefined' && globalThis.READING_MOCK_TESTS && Array.isArray(globalThis.READING_MOCK_TESTS)) {
-        return globalThis.READING_MOCK_TESTS;
+    if (raw) {
+        _normalizedMockTests = normalizeMockTestsData(raw);
+        return _normalizedMockTests;
     }
     return [];
 }
@@ -6507,18 +6554,20 @@ function renderCBTPassageTabs() {
 function highlightPassageWithEvidence(pHtml, passage, activeQId) {
     const escapeRegExp = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const htmlKeywords = new Set(['span', 'class', 'strong', 'style', 'mark', 'font', 'passage', 'subheading', 'target', 'word', 'cbt', 'badge']);
+    const targetQNum = getQuestionNumericId(activeQId);
 
-    passage.questions.forEach(q => {
-        const isActive = q.id === activeQId;
+    (passage.questions || []).forEach(q => {
+        const qNum = getQuestionNumericId(q);
+        const isActive = (qNum === targetQNum);
         const activeCls = isActive ? ' active-ev' : '';
-        const ql = q.question.toLowerCase();
+        const ql = (q.question || '').toLowerCase();
         let replaced = false;
 
         // 1. Sentence insertion marker [A], [B], [C], [D]
         if (ql.includes('in which space') || ql.includes('which space')) {
             const markerRegex = new RegExp(`(<strong>\\[${escapeRegExp(q.correctAnswer)}\\]<\\/strong>|\\[${escapeRegExp(q.correctAnswer)}\\])`, 'i');
             if (markerRegex.test(pHtml)) {
-                pHtml = pHtml.replace(markerRegex, `<span class="cbt-ev-hl${activeCls}" id="passage-ev-${q.id}" onclick="jumpToQuestion(${q.id})"><span class="ev-badge">(${q.id})</span> $1</span>`);
+                pHtml = pHtml.replace(markerRegex, `<span class="cbt-ev-hl${activeCls}" id="passage-ev-${qNum}" onclick="jumpToQuestion(${qNum})"><span class="ev-badge">(${qNum})</span> $1</span>`);
                 replaced = true;
             }
         }
@@ -6540,14 +6589,14 @@ function highlightPassageWithEvidence(pHtml, passage, activeQId) {
                             realParaCounter++;
                             if (!replaced && realParaCounter === targetParaNum && wordPattern.test(inner)) {
                                 replaced = true;
-                                const newInner = inner.replace(wordPattern, `<span class="cbt-ev-hl${activeCls}" id="passage-ev-${q.id}" onclick="jumpToQuestion(${q.id})"><span class="ev-badge">(${q.id})</span> $1</span>`);
+                                const newInner = inner.replace(wordPattern, `<span class="cbt-ev-hl${activeCls}" id="passage-ev-${qNum}" onclick="jumpToQuestion(${qNum})"><span class="ev-badge">(${qNum})</span> $1</span>`);
                                 return `<p${attrStr}>${newInner}</p>`;
                             }
                             return fullMatch;
                         });
                     }
                     if (!replaced && wordPattern.test(pHtml)) {
-                        pHtml = pHtml.replace(wordPattern, `<span class="cbt-ev-hl${activeCls}" id="passage-ev-${q.id}" onclick="jumpToQuestion(${q.id})"><span class="ev-badge">(${q.id})</span> $1</span>`);
+                        pHtml = pHtml.replace(wordPattern, `<span class="cbt-ev-hl${activeCls}" id="passage-ev-${qNum}" onclick="jumpToQuestion(${qNum})"><span class="ev-badge">(${qNum})</span> $1</span>`);
                         replaced = true;
                     }
                 }
@@ -6567,7 +6616,7 @@ function highlightPassageWithEvidence(pHtml, passage, activeQId) {
                     try {
                         const flexRegex = new RegExp(`(${flexPatternStr}[^.<]*\\.?)(?![^<]*>)`, 'i');
                         if (flexRegex.test(pHtml)) {
-                            pHtml = pHtml.replace(flexRegex, `<span class="cbt-ev-hl${activeCls}" id="passage-ev-${q.id}" onclick="jumpToQuestion(${q.id})"><span class="ev-badge">(${q.id})</span> $1</span>`);
+                            pHtml = pHtml.replace(flexRegex, `<span class="cbt-ev-hl${activeCls}" id="passage-ev-${qNum}" onclick="jumpToQuestion(${qNum})"><span class="ev-badge">(${qNum})</span> $1</span>`);
                             replaced = true;
                         }
                     } catch (e) {}
@@ -6580,8 +6629,9 @@ function highlightPassageWithEvidence(pHtml, passage, activeQId) {
 }
 
 function scrollToPassageEvidence(qId) {
+    const qNum = getQuestionNumericId(qId);
     const col = document.getElementById('cbt-passage-column');
-    const evEl = document.getElementById(`passage-ev-${qId}`);
+    const evEl = document.getElementById(`passage-ev-${qNum}`) || document.getElementById(`passage-ev-${qId}`);
     if (col && evEl) {
         const colRect = col.getBoundingClientRect();
         const evRect = evEl.getBoundingClientRect();
@@ -6591,14 +6641,15 @@ function scrollToPassageEvidence(qId) {
 }
 
 function updateActiveEvidenceInPassage(activeQId) {
+    const targetQNum = getQuestionNumericId(activeQId);
     document.querySelectorAll('#active-passage-body .cbt-ev-hl').forEach(el => {
-        if (el.id === `passage-ev-${activeQId}`) {
+        if (el.id === `passage-ev-${targetQNum}` || el.id === `passage-ev-${activeQId}`) {
             el.classList.add('active-ev');
         } else {
             el.classList.remove('active-ev');
         }
     });
-    scrollToPassageEvidence(activeQId);
+    scrollToPassageEvidence(targetQNum);
 }
 
 function renderCBTPassage() {
@@ -6684,22 +6735,29 @@ function renderCBTPassage() {
 function renderCBTActiveQuestion() {
     const test = state.activeExam.test;
     if (!test || !test.passages) return;
-    const passage = test.passages[state.activeExam.currentPassageIdx];
+    const passageIdx = Math.max(0, Math.min(test.passages.length - 1, state.activeExam.currentPassageIdx || 0));
+    const passage = test.passages[passageIdx];
     if (!passage || !passage.questions || passage.questions.length === 0) return;
-    let q = passage.questions.find(item => item.id == state.activeExam.currentQuestionId || item.num == state.activeExam.currentQuestionId);
+
+    const targetNum = getQuestionNumericId(state.activeExam.currentQuestionId);
+    let q = passage.questions.find(item => getQuestionNumericId(item) === targetNum);
     if (!q) {
         q = passage.questions[0];
-        if (q) state.activeExam.currentQuestionId = q.id;
     }
     if (!q) return;
 
+    const qNum = getQuestionNumericId(q);
+    state.activeExam.currentQuestionId = qNum;
+
     const isSubmitted = !!state.activeExam.isSubmitted;
-    const userSelected = state.activeExam.answers[q.id];
+    const userSelected = state.activeExam.answers[qNum] || state.activeExam.answers[q.id] || null;
     const isCorrect = userSelected === q.correctAnswer;
 
     // Header badge matching reference screenshot
-    document.getElementById('cbt-q-badge').textContent = `CÂU HỎI ${q.id}`;
-    document.getElementById('q-counter-text').textContent = `Câu ${q.id} / 40`;
+    const qBadge = document.getElementById('cbt-q-badge');
+    if (qBadge) qBadge.textContent = `CÂU HỎI ${qNum}`;
+    const qCounter = document.getElementById('q-counter-text');
+    if (qCounter) qCounter.textContent = `Câu ${qNum} / 40`;
 
     const flagBtn = document.getElementById('cbt-btn-flag');
     const statusTag = document.getElementById('cbt-q-status-tag');
@@ -6716,70 +6774,74 @@ function renderCBTActiveQuestion() {
                 statusTag.innerHTML = `<i class="fa-solid fa-circle-xmark"></i> SAI`;
             } else {
                 statusTag.className = 'cbt-q-status-tag status-skipped';
-                statusTag.innerHTML = `<i class="fa-solid fa-circle-Minus"></i> CHƯA LÀM`;
+                statusTag.innerHTML = `<i class="fa-solid fa-circle-minus"></i> CHƯA LÀM`;
             }
         }
     } else {
         if (statusTag) statusTag.classList.add('hidden');
         if (flagBtn) {
             flagBtn.classList.remove('hidden');
-            const isFlagged = !!state.activeExam.flags[q.id];
+            const isFlagged = !!(state.activeExam.flags[qNum] || state.activeExam.flags[q.id]);
             flagBtn.className = `cbt-btn-flag ${isFlagged ? 'flagged' : ''}`;
             flagBtn.innerHTML = isFlagged ? `<i class="fa-solid fa-star"></i> Đã đánh dấu xem lại` : `<i class="fa-regular fa-star"></i> Đánh dấu xem lại`;
         }
     }
 
     // Prompt: English question
-    const cleanPrompt = q.question.replace(/^(?:[A-Za-z\s]*PASSAGE\s*\d+|GIẢI THÍCH ĐÁP ÁN|\d+[\.\s]*)+/gi, '').trim();
+    const cleanPrompt = (q.question || '').replace(/^(?:[A-Za-z\s]*PASSAGE\s*\d+|GIẢI THÍCH ĐÁP ÁN|\d+[\.\s]*)+/gi, '').trim();
     const promptEl = document.getElementById('cbt-q-prompt');
-    const quoteMatch = cleanPrompt.match(/^([\s\S]+?\?)\s*"([^"]+)"\s*$/);
-    if (quoteMatch) {
-        promptEl.innerHTML = '';
-        const mainText = document.createElement('div');
-        mainText.textContent = quoteMatch[1].trim();
-        const quoteBox = document.createElement('div');
-        quoteBox.className = 'cbt-q-target-sentence';
-        quoteBox.textContent = `"${quoteMatch[2].trim()}"`;
-        promptEl.appendChild(mainText);
-        promptEl.appendChild(quoteBox);
-    } else {
-        promptEl.textContent = cleanPrompt;
+    if (promptEl) {
+        const quoteMatch = cleanPrompt.match(/^([\s\S]+?\?)\s*"([^"]+)"\s*$/);
+        if (quoteMatch) {
+            promptEl.innerHTML = '';
+            const mainText = document.createElement('div');
+            mainText.textContent = quoteMatch[1].trim();
+            const quoteBox = document.createElement('div');
+            quoteBox.className = 'cbt-q-target-sentence';
+            quoteBox.textContent = `"${quoteMatch[2].trim()}"`;
+            promptEl.appendChild(mainText);
+            promptEl.appendChild(quoteBox);
+        } else {
+            promptEl.textContent = cleanPrompt;
+        }
     }
 
     // Options
     const optContainer = document.getElementById('cbt-options-group');
-    optContainer.innerHTML = '';
+    if (optContainer) {
+        optContainer.innerHTML = '';
 
-    q.options.forEach((optText, idx) => {
-        const letter = String.fromCharCode(65 + idx);
-        const item = document.createElement('div');
-        const isSelected = userSelected === letter;
-        const isRightOption = q.correctAnswer === letter;
+        (q.options || []).forEach((optText, idx) => {
+            const letter = String.fromCharCode(65 + idx);
+            const item = document.createElement('div');
+            const isSelected = userSelected === letter;
+            const isRightOption = q.correctAnswer === letter;
 
-        let cls = 'cbt-option-item';
-        if (isSubmitted) {
-            if (isRightOption) cls += ' rev-correct';
-            else if (isSelected && !isRightOption) cls += ' rev-wrong';
-        } else if (isSelected) {
-            cls += ' selected';
-        }
-        item.className = cls;
+            let cls = 'cbt-option-item';
+            if (isSubmitted) {
+                if (isRightOption) cls += ' rev-correct';
+                else if (isSelected && !isRightOption) cls += ' rev-wrong';
+            } else if (isSelected) {
+                cls += ' selected';
+            }
+            item.className = cls;
 
-        const cleanOpt = optText.replace(/^[A-D][\.\)]\s*/, '').trim();
+            const cleanOpt = (optText || '').replace(/^[A-D][\.\)]\s*/, '').trim();
 
-        item.innerHTML = `
-            <div class="cbt-option-letter">${letter}</div>
-            <div class="cbt-option-text">${cleanOpt}</div>
-        `;
+            item.innerHTML = `
+                <div class="cbt-option-letter">${letter}</div>
+                <div class="cbt-option-text">${cleanOpt}</div>
+            `;
 
-        if (!isSubmitted) {
-            item.addEventListener('click', () => {
-                selectOption(q.id, letter);
-            });
-        }
+            if (!isSubmitted) {
+                item.addEventListener('click', () => {
+                    selectOption(qNum, letter);
+                });
+            }
 
-        optContainer.appendChild(item);
-    });
+            optContainer.appendChild(item);
+        });
+    }
 
     // Split-Screen Review Panel (Status Banner + Evidence Box + Detailed Explanation Box)
     const revPanel = document.getElementById('cbt-review-panel');
@@ -6801,10 +6863,10 @@ function renderCBTActiveQuestion() {
 
             const cleanEvEn = (q.evidence || '').replace(/\[(?:Paragraph|Đoạn)\s*\d+\]/gi, '').trim();
             const evidenceBoxHtml = cleanEvEn ? `
-                <div class="cbt-rev-evidence-box" onclick="scrollToPassageEvidence(${q.id})" title="Nhấn để cuộn bài đọc bên trái tới vị trí dẫn chứng (${q.id})">
+                <div class="cbt-rev-evidence-box" onclick="scrollToPassageEvidence(${qNum})" title="Nhấn để cuộn bài đọc bên trái tới vị trí dẫn chứng (${qNum})">
                     <div class="cbt-rev-ev-header">
                         <span class="cbt-rev-ev-title"><i class="fa-solid fa-quote-left"></i> TRÍCH DẪN ĐOẠN VĂN</span>
-                        <span class="cbt-rev-ev-pos">Vị trí (${q.id})</span>
+                        <span class="cbt-rev-ev-pos">Vị trí (${qNum})</span>
                     </div>
                     <div class="cbt-rev-ev-quote">"${cleanEvEn}"</div>
                 </div>
@@ -6812,7 +6874,7 @@ function renderCBTActiveQuestion() {
 
             // Vietnamese options breakdown
             let optsViListHtml = '';
-            if (q.optionsVi && q.optionsVi.some(v => v && v.trim())) {
+            if (q.optionsVi && Array.isArray(q.optionsVi) && q.optionsVi.some(v => v && v.trim())) {
                 const rows = q.optionsVi.map((v, i) => {
                     if (!v || !v.trim()) return '';
                     const letChar = String.fromCharCode(65 + i);
@@ -6824,40 +6886,67 @@ function renderCBTActiveQuestion() {
                 }
             }
 
-            const rawDetailVi = (q.evidenceVi || '').trim() || `Đối chiếu dẫn chứng tại vị trí (${q.id}) trong bài đọc, đáp án chính xác là ${q.correctAnswer}.`;
-            const detailViText = rawDetailVi.replace(/\[Đoạn\s*(\d+)\]/gi, '<span style="display: inline-block; background: #dcfce7; color: #166534; font-weight: 700; font-size: 0.76rem; padding: 1px 7px; border-radius: 9999px; margin: 0 3px;">Đoạn $1</span>');
+            // Detailed explanation analysis
+            const rawExp = (q.explanation || '').trim();
+            const rawEvVi = (q.evidenceVi || '').trim();
+            let analysisContentHtml = '';
+            if (rawExp && rawEvVi && rawExp !== rawEvVi) {
+                analysisContentHtml = `
+                    <div style="margin-top: 6px; color: #1e293b; line-height: 1.55;">
+                        <strong><i class="fa-solid fa-circle-info" style="color: #2563eb;"></i> Giải thích đáp án:</strong> ${rawExp}
+                    </div>
+                    <div style="margin-top: 6px; color: #1e293b; line-height: 1.55;">
+                        <strong><i class="fa-regular fa-lightbulb" style="color: #d97706;"></i> Phân tích dẫn chứng:</strong> ${rawEvVi.replace(/\[Đoạn\s*(\d+)\]/gi, '<span style="display: inline-block; background: #dcfce7; color: #166534; font-weight: 700; font-size: 0.76rem; padding: 1px 7px; border-radius: 9999px; margin: 0 3px;">Đoạn $1</span>')}
+                    </div>
+                `;
+            } else {
+                const singleExp = rawExp || rawEvVi || `Đối chiếu dẫn chứng tại vị trí (${qNum}) trong bài đọc, đáp án chính xác là ${q.correctAnswer}.`;
+                analysisContentHtml = `
+                    <div style="margin-top: 6px; color: #1e293b; line-height: 1.55;">
+                        <strong><i class="fa-regular fa-lightbulb" style="color: #d97706;"></i> Phân tích & Giải thích:</strong> ${singleExp.replace(/\[Đoạn\s*(\d+)\]/gi, '<span style="display: inline-block; background: #dcfce7; color: #166534; font-weight: 700; font-size: 0.76rem; padding: 1px 7px; border-radius: 9999px; margin: 0 3px;">Đoạn $1</span>')}
+                    </div>
+                `;
+            }
 
+            // Post-reading Box (Support both Format A and Format B)
             let postReadingBoxHtml = '';
             if (q.postReading) {
                 const pr = q.postReading;
-                postReadingBoxHtml = `
-                    <div class="post-reading-q-box" style="margin-top: 10px;">
-                        <div class="post-reading-q-header">
-                            <span style="display: inline-flex; align-items: center; gap: 6px;">
-                                <i class="fa-solid fa-lightbulb" style="color: #0284c7;"></i> TỪ VỰNG SUY LUẬN (POST-READING)
-                            </span>
-                            <span class="post-reading-type-tag">${pr.typeLabel || 'Suy luận'}</span>
-                        </div>
-                        <div class="post-reading-pair-row">
-                            <div class="post-pair-item passage-side">
-                                <div class="post-pair-tag">Từ trong bài đọc (Clue)</div>
-                                <div class="post-pair-text">${pr.cluePassage || pr.keyPassage}</div>
+                const clueP = pr.cluePassage || pr.keyPassage || pr.original || pr.originToken || '';
+                const clueA = pr.clueAnswer || pr.keyAnswer || pr.paraphrase || pr.paraphraseToken || '';
+                const logic = pr.analysis || pr.deductionLogic || pr.explanation || '';
+                
+                if (clueP || clueA || logic) {
+                    postReadingBoxHtml = `
+                        <div class="post-reading-q-box" style="margin-top: 10px;">
+                            <div class="post-reading-q-header">
+                                <span style="display: inline-flex; align-items: center; gap: 6px;">
+                                    <i class="fa-solid fa-lightbulb" style="color: #0284c7;"></i> TỪ VỰNG SUY LUẬN (POST-READING)
+                                </span>
+                                <span class="post-reading-type-tag">${pr.typeLabel || 'Suy luận'}</span>
                             </div>
-                            <div class="post-pair-arrow"><i class="fa-solid fa-right-left"></i></div>
-                            <div class="post-pair-item answer-side">
-                                <div class="post-pair-tag">Từ trong đáp án (${q.correctAnswer})</div>
-                                <div class="post-pair-text">${pr.clueAnswer || pr.keyAnswer}</div>
+                            <div class="post-reading-pair-row">
+                                <div class="post-pair-item passage-side">
+                                    <div class="post-pair-tag">Từ / Cụm từ trong bài đọc (Clue)</div>
+                                    <div class="post-pair-text">${clueP || '(Theo ngữ cảnh đoạn văn)'}</div>
+                                </div>
+                                <div class="post-pair-arrow"><i class="fa-solid fa-right-left"></i></div>
+                                <div class="post-pair-item answer-side">
+                                    <div class="post-pair-tag">Từ trong đáp án (${q.correctAnswer})</div>
+                                    <div class="post-pair-text">${clueA || '(Phương án đúng)'}</div>
+                                </div>
                             </div>
+                            ${pr.meaningVi ? `
+                            <div style="font-size: 0.82rem; color: #475569; margin-top: 4px;">
+                                <i class="fa-solid fa-language" style="color: #4f46e5;"></i> <strong>Đối chiếu nghĩa:</strong> ${pr.meaningVi}
+                            </div>` : ''}
+                            ${logic ? `
+                            <div class="post-pair-logic" style="margin-top: 4px;">
+                                <strong><i class="fa-solid fa-brain"></i> Logic loại suy / Phân tích:</strong> ${logic}
+                            </div>` : ''}
                         </div>
-                        ${pr.meaningVi ? `
-                        <div style="font-size: 0.82rem; color: #475569; margin-top: 4px;">
-                            <i class="fa-solid fa-language" style="color: #4f46e5;"></i> <strong>Đối chiếu nghĩa:</strong> ${pr.meaningVi}
-                        </div>` : ''}
-                        <div class="post-pair-logic" style="margin-top: 4px;">
-                            <strong><i class="fa-solid fa-brain"></i> Logic loại suy:</strong> ${pr.deductionLogic}
-                        </div>
-                    </div>
-                `;
+                    `;
+                }
             }
 
             revPanel.innerHTML = `
@@ -6866,7 +6955,7 @@ function renderCBTActiveQuestion() {
                 ${postReadingBoxHtml}
                 <div class="cbt-rev-exp-box">
                     <div class="cbt-rev-exp-header">
-                        <i class="fa-solid fa-wand-magic-sparkles"></i> GIẢI THÍCH LÝ DO CHỌN
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> GIẢI THÍCH LÝ DO CHỌN & ĐỐI CHIẾU
                     </div>
                     <div class="cbt-rev-exp-inner">
                         <div class="cbt-rev-qtype">
@@ -6874,7 +6963,7 @@ function renderCBTActiveQuestion() {
                         </div>
                         ${q.questionVi ? `<div class="cbt-rev-qvi"><i class="fa-solid fa-language" style="color: #4f46e5;"></i> <strong>Dịch câu hỏi:</strong> ${q.questionVi}</div>` : ''}
                         ${optsViListHtml}
-                        ${detailViText ? `<div style="margin-top: 6px; color: #1e293b; line-height: 1.55;"><strong><i class="fa-regular fa-lightbulb" style="color: #d97706;"></i> Phân tích dẫn chứng:</strong> ${detailViText}</div>` : ''}
+                        ${analysisContentHtml}
                     </div>
                 </div>
             `;
@@ -6882,16 +6971,20 @@ function renderCBTActiveQuestion() {
     }
 
     // Prev / Next button state
-    document.getElementById('btn-prev-q').disabled = q.id === 1;
-    document.getElementById('btn-next-q').disabled = q.id === 40;
+    const prevBtn = document.getElementById('btn-prev-q');
+    if (prevBtn) prevBtn.disabled = qNum <= 1;
+    const nextBtn = document.getElementById('btn-next-q');
+    if (nextBtn) nextBtn.disabled = qNum >= 40;
 }
 
 function selectOption(qId, letter) {
     if (state.activeExam.isSubmitted) return;
     playSound('click');
+    const qNum = getQuestionNumericId(qId);
+    state.activeExam.answers[qNum] = letter;
     state.activeExam.answers[qId] = letter;
     renderCBTActiveQuestion();
-    renderCBTPageTabs ? renderCBTPassageTabs() : renderCBTPassageTabs();
+    renderCBTPassageTabs();
     renderCBTPalette();
     if (typeof saveActiveExamProgress === 'function') {
         saveActiveExamProgress(false);
@@ -6901,8 +6994,9 @@ function selectOption(qId, letter) {
 function toggleFlagCurrentQuestion() {
     if (state.activeExam.isSubmitted) return;
     playSound('click');
-    const qId = state.activeExam.currentQuestionId;
-    state.activeExam.flags[qId] = !state.activeExam.flags[qId];
+    const qNum = getQuestionNumericId(state.activeExam.currentQuestionId);
+    state.activeExam.flags[qNum] = !state.activeExam.flags[qNum];
+    state.activeExam.flags[state.activeExam.currentQuestionId] = state.activeExam.flags[qNum];
     renderCBTActiveQuestion();
     renderCBTPalette();
     if (typeof saveActiveExamProgress === 'function') {
@@ -6912,21 +7006,17 @@ function toggleFlagCurrentQuestion() {
 
 function navQuestion(dir) {
     playSound('click');
-    const nextQId = state.activeExam.currentQuestionId + dir;
-    if (nextQId < 1 || nextQId > 40) return;
+    const currentQNum = getQuestionNumericId(state.activeExam.currentQuestionId);
+    const nextQNum = currentQNum + dir;
+    if (nextQNum < 1 || nextQNum > 40) return;
 
-    jumpToQuestion(nextQId);
+    jumpToQuestion(nextQNum);
 }
 
 function jumpToQuestion(targetQId) {
-    let numQId = parseInt(targetQId, 10);
-    if (isNaN(numQId)) {
-        const m = String(targetQId).match(/\d+/);
-        numQId = m ? parseInt(m[0], 10) : 1;
-    }
-    targetQId = numQId;
-    state.activeExam.currentQuestionId = targetQId;
-    const targetPassageIdx = Math.max(0, Math.min(3, Math.floor((targetQId - 1) / 10)));
+    const qNum = getQuestionNumericId(targetQId);
+    state.activeExam.currentQuestionId = qNum;
+    const targetPassageIdx = Math.max(0, Math.min(3, Math.floor((qNum - 1) / 10)));
     const needPassageSwitch = targetPassageIdx !== state.activeExam.currentPassageIdx;
     
     state.activeExam.currentPassageIdx = targetPassageIdx;
@@ -6934,7 +7024,7 @@ function jumpToQuestion(targetQId) {
         renderCBTPassageTabs();
         renderCBTPassage();
     } else if (state.activeExam.isSubmitted) {
-        updateActiveEvidenceInPassage(targetQId);
+        updateActiveEvidenceInPassage(qNum);
     }
     renderCBTActiveQuestion();
     renderCBTPalette();
@@ -6944,7 +7034,7 @@ function renderCBTPalette() {
     const grid = document.getElementById('cbt-palette-grid');
     if (!grid) return;
     grid.innerHTML = '';
-    const currentQId = state.activeExam.currentQuestionId;
+    const currentQNum = getQuestionNumericId(state.activeExam.currentQuestionId);
     const isSubmitted = !!state.activeExam.isSubmitted;
     const test = state.activeExam.test;
     if (!test || !test.passages) return;
@@ -6956,11 +7046,11 @@ function renderCBTPalette() {
 
     for (let qId = pStart; qId <= pEnd; qId++) {
         const btn = document.createElement('button');
-        const userAns = state.activeExam.answers[qId];
+        const qObj = (passage.questions || []).find(item => getQuestionNumericId(item) === qId);
+        const userAns = state.activeExam.answers[qId] || (qObj && state.activeExam.answers[qObj.id]) || null;
         const isAnswered = !!userAns;
-        const isFlagged = !!state.activeExam.flags[qId];
-        const isActive = qId == currentQId;
-        const qObj = (passage.questions || []).find(item => item.id == qId || item.num == qId);
+        const isFlagged = !!(state.activeExam.flags[qId] || (qObj && state.activeExam.flags[qObj.id]));
+        const isActive = (qId === currentQNum);
 
         let classes = ['palette-btn'];
         if (isActive) classes.push('active');
@@ -7154,7 +7244,8 @@ function submitExam() {
 
     test.passages.forEach((p, pIdx) => {
         p.questions.forEach(q => {
-            const userPick = state.activeExam.answers[q.id] || null;
+            const qNum = getQuestionNumericId(q);
+            const userPick = state.activeExam.answers[qNum] || state.activeExam.answers[q.id] || null;
             const isCorrect = userPick === q.correctAnswer;
             if (isCorrect) {
                 correctCount++;
@@ -7162,7 +7253,7 @@ function submitExam() {
             }
 
             reviewDetails.push({
-                qId: q.id,
+                qId: qNum,
                 passageIdx: pIdx,
                 question: q.question,
                 questionVi: q.questionVi,
