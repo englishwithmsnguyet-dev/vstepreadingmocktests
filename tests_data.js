@@ -59019,6 +59019,2850 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST25",
+    "testNum": 25,
+    "title": "VSTEP READING MOCK TEST 25",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 15 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Fast Food Trends & Youth Dietary Shifts",
+        "topic": "Xu hướng thức ăn nhanh & Sự thay đổi chế độ ăn của giới trẻ: Tiếp thị kỹ thuật số, đồ ăn siêu chế biến, tác động chuyển hóa & giáo dục dinh dưỡng",
+        "timeAllowed": 15,
+        "passage": "<p>Over the past two decades, the global culinary landscape has witnessed a dramatic proliferation of multinational fast-food franchises. Driven by aggressive commercial expansion and modern urban lifestyles, quick-service restaurants have proliferated across both developed and emerging economies. Younger generations, particularly adolescents and university students, have become the primary consumers of these ultra-processed dietary staples. Fast food's irresistible combination of low cost, rapid preparation, and intensely palatable flavor profiles—heavily engineered with elevated levels of sodium, refined sugar, and saturated fats—has fundamentally altered traditional domestic eating rituals.</p><p>A major catalyst behind this dietary transition is sophisticated digital marketing and app-based food delivery services. Fast-food corporations leverage algorithm-driven social media platforms to target younger demographics with hyper-personalized advertising, influencer endorsements, and gamified loyalty rewards. Concurrently, ubiquitous smartphone delivery applications allow teenagers to order high-calorie meals directly to their doorsteps with a few taps. This frictionless convenience has largely displaced home-cooked family meals, which historically provided balanced nutritional profiles rich in dietary fiber, micronutrients, and fresh produce.</p><p>Epidemiologists and nutritional scientists caution that the sustained consumption of ultra-processed fast food incurs severe physiological consequences. Regular intake of foods with high glycemic indices disrupts metabolic equilibrium, precipitating chronic insulin resistance, childhood obesity, and early-onset cardiovascular dysfunction. Furthermore, emerging neuropsychological research indicates that diets dominated by refined carbohydrates and artificial additives can adversely impair cognitive concentration, mood regulation, and academic stamina in developing adolescents, creating an addictive physiological cycle of craving and lethargy.</p><p>In response to this escalating public health crisis, international health agencies and progressive governments are enacting multifaceted countermeasures. Educational initiatives in schools emphasize nutritional literacy, teaching children how to decipher commercial ingredient labels and prepare wholesome, economical meals. Simultaneously, several jurisdictions have implemented legislative fiscal policies, such as levies on sugar-sweetened beverages and stringent restrictions on junk-food advertising near primary schools. Fostering a lasting cultural shift toward wholesome nutrition requires collaborative engagement among families, educators, and policymakers to safeguard the vitality of future generations.</p>",
+        "vocab": [
+          {
+            "word": "culinary",
+            "pos": "adj",
+            "ipa": "/ˈkʌl.ɪ.nər.i/",
+            "level": "B2",
+            "mean": "thuộc về ẩm thực, nghệ thuật nấu nướng",
+            "syns": [
+              "gastronomic",
+              "cooking-related",
+              "dietary"
+            ],
+            "ex": "The city's vibrant culinary culture blends street food with fine dining."
+          },
+          {
+            "word": "franchise",
+            "pos": "n",
+            "ipa": "/ˈfræn.tʃaɪz/",
+            "level": "B2",
+            "mean": "chuỗi nhượng quyền thương mại",
+            "syns": [
+              "chain",
+              "branch",
+              "licensed business"
+            ],
+            "ex": "Multinational fast-food franchises operate thousands of outlets worldwide."
+          },
+          {
+            "word": "proliferation",
+            "pos": "n",
+            "ipa": "/prəˌlɪf.əˈreɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự sinh sôi bùng phát số lượng nhanh chóng",
+            "syns": [
+              "rapid expansion",
+              "multiplication",
+              "surge"
+            ],
+            "ex": "The proliferation of fast-food chains has reshaped suburban eating habits."
+          },
+          {
+            "word": "palatable",
+            "pos": "adj",
+            "ipa": "/ˈpæl.ə.tə.bəl/",
+            "level": "B2",
+            "mean": "ngon miệng, hợp khẩu vị, dễ nuốt",
+            "syns": [
+              "delicious",
+              "tasty",
+              "appetizing"
+            ],
+            "ex": "Engineered flavor enhancers make processed foods intensely palatable."
+          },
+          {
+            "word": "staple",
+            "pos": "n",
+            "ipa": "/ˈsteɪ.pəl/",
+            "level": "B2",
+            "mean": "thực phẩm thiết yếu, lương thực chủ lực",
+            "syns": [
+              "basic food",
+              "essential item",
+              "core diet"
+            ],
+            "ex": "Rice and wheat have been traditional dietary staples for millennia."
+          },
+          {
+            "word": "catalyst",
+            "pos": "n",
+            "ipa": "/ˈkæt.əl.ɪst/",
+            "level": "B2",
+            "mean": "chất xúc tác thúc đẩy sự thay đổi nhanh",
+            "syns": [
+              "trigger",
+              "stimulus",
+              "spark"
+            ],
+            "ex": "Smartphone delivery applications served as a major catalyst for midnight snacking."
+          },
+          {
+            "word": "leverage",
+            "pos": "v",
+            "ipa": "/ˈliː.vər.ɪdʒ/",
+            "level": "B2",
+            "mean": "tận dụng, phát huy tối đa đòn bẩy",
+            "syns": [
+              "utilize",
+              "exploit",
+              "capitalize on"
+            ],
+            "ex": "Corporations leverage behavioral algorithms to maximize snack food sales."
+          },
+          {
+            "word": "endorsement",
+            "pos": "n",
+            "ipa": "/ɪnˈdɔːs.mənt/",
+            "level": "B2",
+            "mean": "sự chứng thực quảng bá của người nổi tiếng",
+            "syns": [
+              "sponsorship",
+              "backing",
+              "recommendation"
+            ],
+            "ex": "Celebrity endorsements strongly influence teenagers' beverage purchases."
+          },
+          {
+            "word": "gamified",
+            "pos": "adj",
+            "ipa": "/ˈɡeɪ.mɪ.faɪd/",
+            "level": "B2",
+            "mean": "được trò chơi hóa để tăng tương tác giữ chân người dùng",
+            "syns": [
+              "game-based",
+              "interactive",
+              "point-rewarded"
+            ],
+            "ex": "Gamified loyalty apps reward customers with free fries after ten visits."
+          },
+          {
+            "word": "ubiquitous",
+            "pos": "adj",
+            "ipa": "/juːˈbɪk.wɪ.təs/",
+            "level": "B2",
+            "mean": "có mặt ở mọi nơi, nhan nhản khắp chỗ",
+            "syns": [
+              "omnipresent",
+              "pervasive",
+              "universal"
+            ],
+            "ex": "Fast-food logos have become ubiquitous symbols across modern cityscapes."
+          },
+          {
+            "word": "frictionless",
+            "pos": "adj",
+            "ipa": "/ˈfrɪk.ʃən.ləs/",
+            "level": "B2",
+            "mean": "trơn tru, không có lực cản hay trở ngại",
+            "syns": [
+              "effortless",
+              "seamless",
+              "smooth"
+            ],
+            "ex": "Frictionless mobile checkout encourages spontaneous impulse food purchases."
+          },
+          {
+            "word": "displace",
+            "pos": "v",
+            "ipa": "/dɪsˈpleɪs/",
+            "level": "B2",
+            "mean": "choán chỗ, thay thế vị trí vốn có",
+            "syns": [
+              "replace",
+              "supersede",
+              "supplant"
+            ],
+            "ex": "Processed takeout meals have gradually displaced nutritious home cooking."
+          },
+          {
+            "word": "micronutrient",
+            "pos": "n",
+            "ipa": "/ˈmaɪ.krəʊˌnjuː.tri.ənt/",
+            "level": "B2",
+            "mean": "vi chất dinh dưỡng (vitamin, khoáng chất thiết yếu)",
+            "syns": [
+              "essential vitamin",
+              "trace mineral"
+            ],
+            "ex": "Fresh vegetables supply essential micronutrients necessary for immune defense."
+          },
+          {
+            "word": "epidemiologist",
+            "pos": "n",
+            "ipa": "/ˌep.ɪ.diː.miˈɒl.ə.dʒɪst/",
+            "level": "B2",
+            "mean": "nhà dịch tễ học nghiên cứu phân bố bệnh tật",
+            "syns": [
+              "public health scientist",
+              "disease researcher"
+            ],
+            "ex": "Epidemiologists track the direct correlation between soda consumption and diabetes."
+          },
+          {
+            "word": "incur",
+            "pos": "v",
+            "ipa": "/ɪnˈkɜːr/",
+            "level": "B2",
+            "mean": "gánh chịu hậu quả xấu, chuốc lấy rủi ro",
+            "syns": [
+              "suffer",
+              "bring about",
+              "experience"
+            ],
+            "ex": "Unhealthy diets incur massive long-term cardiovascular healthcare costs."
+          },
+          {
+            "word": "glycemic",
+            "pos": "adj",
+            "ipa": "/ɡlaɪˈsiː.mɪk/",
+            "level": "B2",
+            "mean": "thuộc về nồng độ đường huyết sau ăn",
+            "syns": [
+              "blood-sugar-related",
+              "glucose-spiking"
+            ],
+            "ex": "Foods with high glycemic indices cause sharp insulin spikes and rapid fatigue."
+          },
+          {
+            "word": "metabolic",
+            "pos": "adj",
+            "ipa": "/ˌmet.əˈbɒl.ɪk/",
+            "level": "B2",
+            "mean": "thuộc về quá trình chuyển hóa trao đổi chất",
+            "syns": [
+              "physiological",
+              "energy-processing"
+            ],
+            "ex": "Sedentary living combined with junk food impairs metabolic regulation."
+          },
+          {
+            "word": "dysfunction",
+            "pos": "n",
+            "ipa": "/dɪsˈfʌŋk.ʃən/",
+            "level": "B2",
+            "mean": "sự rối loạn chức năng bình thường của cơ quan",
+            "syns": [
+              "malfunction",
+              "disorder",
+              "impairment"
+            ],
+            "ex": "Early vascular dysfunction can develop silently during childhood obesity."
+          },
+          {
+            "word": "stamina",
+            "pos": "n",
+            "ipa": "/ˈstæm.ɪ.nə/",
+            "level": "B2",
+            "mean": "sức bền, thể lực dẻo dai duy trì lâu dài",
+            "syns": [
+              "endurance",
+              "vitality",
+              "staying power"
+            ],
+            "ex": "A wholesome breakfast provides the sustained stamina needed for athletic training."
+          },
+          {
+            "word": "lethargy",
+            "pos": "n",
+            "ipa": "/ˈleθ.ə.dʒi/",
+            "level": "B2",
+            "mean": "trạng thái uể oải, đờ đẫn, thiếu sinh lực",
+            "syns": [
+              "sluggishness",
+              "apathy",
+              "fatigue"
+            ],
+            "ex": "A heavy meal of fried carbohydrates often plunges students into severe lethargy."
+          },
+          {
+            "word": "escalating",
+            "pos": "adj",
+            "ipa": "/ˈes.kə.leɪ.tɪŋ/",
+            "level": "B2",
+            "mean": "leo thang, gia tăng dồn dập mức độ",
+            "syns": [
+              "intensifying",
+              "mounting",
+              "rising"
+            ],
+            "ex": "Public concern over escalating childhood obesity prompted legislative debate."
+          },
+          {
+            "word": "multifaceted",
+            "pos": "adj",
+            "ipa": "/ˌmʌl.tiˈfæs.ɪ.tɪd/",
+            "level": "B2",
+            "mean": "nhiều mặt, đa dạng giải pháp trên nhiều khía cạnh",
+            "syns": [
+              "comprehensive",
+              "versatile",
+              "all-embracing"
+            ],
+            "ex": "Tackling malnutrition requires a multifaceted community strategy."
+          },
+          {
+            "word": "literacy",
+            "pos": "n",
+            "ipa": "/ˈlɪt.ər.ə.si/",
+            "level": "B1",
+            "mean": "sự hiểu biết, kiến thức thực hành về một lĩnh vực",
+            "syns": [
+              "knowledge",
+              "competence",
+              "understanding"
+            ],
+            "ex": "Nutritional literacy helps shoppers identify hidden sugars on cereal boxes."
+          },
+          {
+            "word": "decipher",
+            "pos": "v",
+            "ipa": "/dɪˈsaɪ.fər/",
+            "level": "B2",
+            "mean": "giải mã, hiểu rõ ý nghĩa của thông tin phức tạp",
+            "syns": [
+              "decode",
+              "interpret",
+              "understand"
+            ],
+            "ex": "Shoppers must learn to decipher chemical additive codes on packaged foods."
+          },
+          {
+            "word": "wholesome",
+            "pos": "adj",
+            "ipa": "/ˈhəʊl.səm/",
+            "level": "B2",
+            "mean": "lành mạnh, bổ dưỡng, có lợi cho sức khỏe",
+            "syns": [
+              "nutritious",
+              "health-giving",
+              "beneficial"
+            ],
+            "ex": "Cooking wholesome family dinners promotes both physical health and emotional bonds."
+          },
+          {
+            "word": "jurisdiction",
+            "pos": "n",
+            "ipa": "/ˌdʒʊə.rɪsˈdɪk.ʃən/",
+            "level": "B2",
+            "mean": "khu vực thuộc quyền tài phán hoặc quản lý pháp lý",
+            "syns": [
+              "territory",
+              "authority",
+              "domain"
+            ],
+            "ex": "Several municipal jurisdictions have banned sugary soda vending machines in schools."
+          },
+          {
+            "word": "vitality",
+            "pos": "n",
+            "ipa": "/vaɪˈtæl.ə.ti/",
+            "level": "B2",
+            "mean": "sinh lực, sức sống tràn trề mạnh mẽ",
+            "syns": [
+              "vigor",
+              "energy",
+              "liveliness"
+            ],
+            "ex": "Proper balanced nutrition is essential for preserving youthful physical vitality."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t25_q1",
+            "num": 1,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The corporate bankruptcy of traditional agricultural family farms",
+              "The rise of fast-food consumption among youth, its health impacts, and public countermeasures",
+              "The biological breeding techniques used in factory chicken farming",
+              "The economic inflation of commercial retail rent in urban shopping malls"
+            ],
+            "optionsVi": [
+              "Sự phá sản của các trang trại nông nghiệp gia đình truyền thống",
+              "Sự gia tăng tiêu thụ thức ăn nhanh ở giới trẻ, các tác động sức khỏe và biện pháp đối phó cộng đồng",
+              "Các kỹ thuật nhân giống sinh học được sử dụng trong chăn nuôi gà công nghiệp",
+              "Sự lạm phát giá thuê bán lẻ thương mại tại các trung tâm mua sắm đô thị"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Entire passage analyzes fast food growth among youth, marketing/delivery app drivers, physiological/cognitive consequences, and multifaceted educational/fiscal countermeasures.",
+            "evidenceVi": "Toàn bài phân tích sự phát triển thức ăn nhanh ở giới trẻ, đòn bẩy tiếp thị/ứng dụng giao hàng, hệ lụy sinh lý/nhận thức và các giải pháp giáo dục/chính sách đa diện.",
+            "explanation": "Toàn bài tập trung vào xu hướng tiêu thụ thức ăn nhanh của giới trẻ, nguyên nhân công nghệ, tác hại sức khỏe và giải pháp cộng đồng.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "Over the past two decades... dramatic proliferation of multinational fast-food franchises... Younger generations... primary consumers... In response to this escalating public health crisis...",
+              "clueAnswer": "The rise of fast-food consumption among youth, its health impacts, and public countermeasures",
+              "keyPassage": "proliferation of multinational fast-food franchises... Younger generations... primary consumers... escalating public health crisis... countermeasures",
+              "keyAnswer": "rise of fast-food consumption among youth, its health impacts, and public countermeasures",
+              "paraphrasePair": "fast-food franchises / primary consumers / health crisis / countermeasures <=> rise of fast-food consumption / health impacts / countermeasures",
+              "meaningVi": "sự bùng nổ thức ăn nhanh ở giới trẻ, tác hại sức khỏe và biện pháp đối phó",
+              "deductionLogic": "Tổng hợp ý chính xuyên suốt 4 đoạn văn."
+            }
+          },
+          {
+            "id": "t25_q2",
+            "num": 2,
+            "question": "According to paragraph 1, what makes fast food so intensely appealing to young consumers?",
+            "questionVi": "Theo đoạn 1, điều gì khiến thức ăn nhanh hấp dẫn mạnh mẽ đối với người tiêu dùng trẻ tuổi?",
+            "questionType": "detail",
+            "options": [
+              "Its high concentration of rare medicinal organic herbs and vitamins",
+              "Its combination of low cost, rapid preparation, and palatable flavors engineered with sodium, sugar, and fat",
+              "Its requirement that customers cook their own meals in the restaurant kitchen",
+              "Its endorsement exclusively by university academic professors"
+            ],
+            "optionsVi": [
+              "Hàm lượng cao các loại thảo mộc hữu cơ quý hiếm và vitamin chữa bệnh",
+              "Sự kết hợp giữa giá thành rẻ, chế biến nhanh và hương vị ngon miệng từ muối, đường và chất béo",
+              "Yêu cầu khách hàng phải tự nấu bữa ăn của mình trong bếp nhà hàng",
+              "Sự chứng thực độc quyền bởi các giáo sư học thuật đại học"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Fast food's irresistible combination of low cost, rapid preparation, and intensely palatable flavor profiles—heavily engineered with elevated levels of sodium, refined sugar, and saturated fats—has fundamentally altered traditional domestic eating rituals.",
+            "evidenceVi": "Sự kết hợp không thể cưỡng lại của thức ăn nhanh gồm giá thành thấp, chuẩn bị nhanh chóng và hương vị thơm ngon hấp dẫn—được điều chế với hàm lượng natri cao, đường tinh luyện và chất béo bão hòa...",
+            "explanation": "Đoạn 1 nêu rõ 3 yếu tố: low cost, rapid preparation, và palatable flavors engineered with sodium, sugar, and fat.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết nguyên nhân (Causal Detail)",
+              "cluePassage": "irresistible combination of low cost, rapid preparation, and intensely palatable flavor profiles—heavily engineered with elevated levels of sodium, refined sugar, and saturated fats",
+              "clueAnswer": "combination of low cost, rapid preparation, and palatable flavors engineered with sodium, sugar, and fat",
+              "keyPassage": "low cost, rapid preparation, and intensely palatable flavor profiles... sodium, refined sugar, and saturated fats",
+              "keyAnswer": "combination of low cost, rapid preparation, and palatable flavors engineered with sodium, sugar, and fat",
+              "paraphrasePair": "low cost, rapid preparation, and intensely palatable flavor profiles <=> combination of low cost, rapid preparation, and palatable flavors",
+              "meaningVi": "giá rẻ, chuẩn bị nhanh và hương vị ngon miệng",
+              "deductionLogic": "Khớp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": "t25_q3",
+            "num": 3,
+            "question": "The word 'palatable' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'palatable' trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "appetizing",
+              "repulsive",
+              "inexpensive",
+              "poisonous"
+            ],
+            "optionsVi": [
+              "ngon miệng, kích thích vị giác",
+              "ghê tởm, xua đuổi",
+              "rẻ tiền",
+              "độc hại"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...intensely palatable flavor profiles—heavily engineered with elevated levels of sodium, refined sugar, and saturated fats...",
+            "evidenceVi": "...hương vị thơm ngon hợp khẩu vị sâu sắc—được chế biến với hàm lượng natri, đường và chất béo bão hòa cao...",
+            "explanation": "'Palatable' có nghĩa là ngon miệng, hợp khẩu vị, đồng nghĩa với 'appetizing' hoặc 'tasty'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "intensely palatable flavor profiles",
+              "clueAnswer": "appetizing",
+              "keyPassage": "palatable flavor profiles",
+              "keyAnswer": "appetizing",
+              "paraphrasePair": "palatable <=> appetizing",
+              "meaningVi": "ngon miệng, hấp dẫn vị giác",
+              "deductionLogic": "Thức ăn nhanh được thiết kế để kích thích vị giác người dùng, do đó palatable tương đương appetizing."
+            }
+          },
+          {
+            "id": "t25_q4",
+            "num": 4,
+            "question": "According to paragraph 2, how do corporations use digital marketing to target younger consumers?",
+            "questionVi": "Theo đoạn 2, các tập đoàn sử dụng tiếp thị kỹ thuật số như thế nào để nhắm vào người tiêu dùng trẻ tuổi?",
+            "questionType": "detail",
+            "options": [
+              "By broadcasting silent black-and-white television advertisements late at night",
+              "Through algorithm-driven social media with personalized ads, influencer endorsements, and gamified loyalty rewards",
+              "By sending handwritten letters through the postal service to university dormitories",
+              "By requiring students to pass nutritional exams before viewing advertisements"
+            ],
+            "optionsVi": [
+              "Bằng cách phát các quảng cáo truyền hình đen trắng không tiếng vào đêm muộn",
+              "Thông qua mạng xã hội định hướng bằng thuật toán với quảng cáo cá nhân hóa, người nổi tiếng quảng bá và phần thưởng trò chơi hóa",
+              "Bằng cách gửi thư tay qua bưu điện tới các ký túc xá đại học",
+              "Bằng cách yêu cầu sinh viên phải vượt qua các bài kiểm tra dinh dưỡng trước khi xem quảng cáo"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Fast-food corporations leverage algorithm-driven social media platforms to target younger demographics with hyper-personalized advertising, influencer endorsements, and gamified loyalty rewards.",
+            "evidenceVi": "Các tập đoàn thức ăn nhanh tận dụng nền tảng mạng xã hội định hướng thuật toán để nhắm vào nhóm nhân khẩu học trẻ tuổi bằng quảng cáo cá nhân hóa cao, sự chứng thực của người có tầm ảnh hưởng và phần thưởng tích điểm trò chơi hóa.",
+            "explanation": "Đoạn 2 nêu rõ các chiến thuật: hyper-personalized advertising, influencer endorsements, và gamified loyalty rewards.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết tiếp thị kỹ thuật số (Digital Marketing Detail)",
+              "cluePassage": "algorithm-driven social media platforms to target younger demographics with hyper-personalized advertising, influencer endorsements, and gamified loyalty rewards",
+              "clueAnswer": "algorithm-driven social media with personalized ads, influencer endorsements, and gamified loyalty rewards",
+              "keyPassage": "algorithm-driven social media... hyper-personalized advertising, influencer endorsements, and gamified loyalty rewards",
+              "keyAnswer": "algorithm-driven social media with personalized ads, influencer endorsements, and gamified loyalty rewards",
+              "paraphrasePair": "algorithm-driven social media... personalized ads, influencer endorsements <=> algorithm-driven social media with personalized ads, influencer endorsements",
+              "meaningVi": "mạng xã hội thuật toán với quảng cáo cá nhân hóa và người có tầm ảnh hưởng",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t25_q5",
+            "num": 5,
+            "question": "What traditional dietary habit has frictionless app-based delivery largely displaced according to paragraph 2?",
+            "questionVi": "Thói quen ăn uống truyền thống nào đã bị ứng dụng giao hàng tiện lợi thay thế phần lớn theo đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "Dining at Michelin-star luxury French restaurants",
+              "Home-cooked family meals providing dietary fiber, micronutrients, and fresh produce",
+              "Harvesting wild mushrooms in deep boreal forests",
+              "Attending community religious banquets on weekends"
+            ],
+            "optionsVi": [
+              "Ăn tối tại các nhà hàng Pháp sang trọng đạt sao Michelin",
+              "Các bữa cơm gia đình tự nấu cung cấp chất xơ, vi chất dinh dưỡng và nông sản tươi",
+              "Việc hái nấm rừng hoang dã trong các khu rừng taiga sâu",
+              "Việc tham gia các yến tiệc tôn giáo cộng đồng vào cuối tuần"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "This frictionless convenience has largely displaced home-cooked family meals, which historically provided balanced nutritional profiles rich in dietary fiber, micronutrients, and fresh produce.",
+            "evidenceVi": "Sự tiện lợi trơn tru này đã thay thế phần lớn các bữa ăn gia đình tự nấu, vốn trong lịch sử luôn cung cấp hồ sơ dinh dưỡng cân bằng giàu chất xơ, vi chất dinh dưỡng và nông sản tươi.",
+            "explanation": "Đoạn 2 chỉ rõ ứng dụng giao đồ ăn đã thay thế bữa cơm gia đình tự nấu (home-cooked family meals).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết thói quen ăn uống (Dietary Shift Detail)",
+              "cluePassage": "largely displaced home-cooked family meals, which historically provided balanced nutritional profiles rich in dietary fiber, micronutrients, and fresh produce",
+              "clueAnswer": "Home-cooked family meals providing dietary fiber, micronutrients, and fresh produce",
+              "keyPassage": "displaced home-cooked family meals... rich in dietary fiber, micronutrients, and fresh produce",
+              "keyAnswer": "Home-cooked family meals providing dietary fiber, micronutrients, and fresh produce",
+              "paraphrasePair": "displaced home-cooked family meals <=> displaced home-cooked family meals providing dietary fiber, micronutrients, and fresh produce",
+              "meaningVi": "thay thế bữa ăn gia đình tự nấu giàu chất xơ và rau củ tươi",
+              "deductionLogic": "Khớp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": "t25_q6",
+            "num": 6,
+            "question": "The word 'lethargy' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'lethargy' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "sluggishness",
+              "agility",
+              "euphoria",
+              "enthusiasm"
+            ],
+            "optionsVi": [
+              "sự uể oải, lờ đờ, chậm chạp",
+              "sự nhanh nhẹn hoạt bát",
+              "sự hưng phấn tột độ",
+              "sự nhiệt tình hào hứng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...creating an addictive physiological cycle of craving and lethargy.",
+            "evidenceVi": "...tạo ra một vòng lặp sinh lý gây nghiện giữa cơn thèm ăn và sự uể oải mệt mỏi.",
+            "explanation": "'Lethargy' có nghĩa là trạng thái lờ đờ, đờ đẫn, thiếu sinh lực, đồng nghĩa với 'sluggishness' hoặc 'weariness'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng sinh lý học (Physiological Vocabulary)",
+              "cluePassage": "addictive physiological cycle of craving and lethargy",
+              "clueAnswer": "sluggishness",
+              "keyPassage": "craving and lethargy",
+              "keyAnswer": "sluggishness",
+              "paraphrasePair": "lethargy <=> sluggishness",
+              "meaningVi": "sự uể oải, đờ đẫn",
+              "deductionLogic": "Hậu quả của sụt giảm đường huyết sau ăn vặt là sự uể oải mệt mỏi (lethargy/sluggishness)."
+            }
+          },
+          {
+            "id": "t25_q7",
+            "num": 7,
+            "question": "According to paragraph 3, what psychological and cognitive impairments can high-refined diets trigger in adolescents?",
+            "questionVi": "Theo đoạn 3, chế độ ăn nhiều đường tinh luyện có thể gây ra những suy giảm tâm lý và nhận thức nào ở thanh thiếu niên?",
+            "questionType": "detail",
+            "options": [
+              "Impaired cognitive concentration, mood regulation, and academic stamina",
+              "Instant permanent memory loss of their childhood identity",
+              "The sudden development of superhuman mathematical computing abilities",
+              "Complete loss of auditory hearing and vocal speech"
+            ],
+            "optionsVi": [
+              "Làm suy giảm sự tập trung nhận thức, điều hòa tâm trạng và sức bền học tập",
+              "Mất trí nhớ vĩnh viễn ngay lập tức về danh tính thời thơ ấu",
+              "Sự phát triển đột ngột năng lực tính toán toán học siêu phàm",
+              "Mất hoàn toàn thính giác và khả năng phát âm"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...diets dominated by refined carbohydrates and artificial additives can adversely impair cognitive concentration, mood regulation, and academic stamina in developing adolescents...",
+            "evidenceVi": "...chế độ ăn bị chi phối bởi carbohydrate tinh chế và phụ gia nhân tạo có thể làm suy giảm bất lợi khả năng tập trung nhận thức, điều hòa tâm trạng và sức bền học tập ở thanh thiếu niên đang phát triển...",
+            "explanation": "Đoạn 3 chỉ ra 3 tác động nhận thức: impair cognitive concentration, mood regulation, và academic stamina.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết tác động nhận thức (Cognitive Impact Detail)",
+              "cluePassage": "adversely impair cognitive concentration, mood regulation, and academic stamina in developing adolescents",
+              "clueAnswer": "Impaired cognitive concentration, mood regulation, and academic stamina",
+              "keyPassage": "impair cognitive concentration, mood regulation, and academic stamina",
+              "keyAnswer": "Impaired cognitive concentration, mood regulation, and academic stamina",
+              "paraphrasePair": "adversely impair cognitive concentration, mood regulation, and academic stamina <=> Impaired cognitive concentration, mood regulation, and academic stamina",
+              "meaningVi": "suy giảm tập trung, điều hòa tâm trạng và thể lực học tập",
+              "deductionLogic": "Khớp câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": "t25_q8",
+            "num": 8,
+            "question": "The word 'which' in paragraph 2 refers to:",
+            "questionVi": "Từ 'which' trong đoạn 2 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "High-calorie delivery meals",
+              "Home-cooked family meals",
+              "Frictionless smartphone applications",
+              "Social media algorithm updates"
+            ],
+            "optionsVi": [
+              "Các bữa ăn nhiều calo giao tận nhà",
+              "Các bữa ăn gia đình tự nấu",
+              "Các ứng dụng điện thoại thông minh trơn tru",
+              "Các cập nhật thuật toán mạng xã hội"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "This frictionless convenience has largely displaced home-cooked family meals, which historically provided balanced nutritional profiles...",
+            "evidenceVi": "Sự tiện lợi dễ dàng này đã thay thế phần lớn các bữa ăn gia đình tự nấu, vốn trong lịch sử luôn cung cấp hồ sơ dinh dưỡng cân bằng...",
+            "explanation": "Đại từ quan hệ 'which' đứng sau 'home-cooked family meals' và bổ nghĩa cho cụm danh từ này.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ quan hệ quy chiếu (Relative Pronoun Reference)",
+              "cluePassage": "displaced home-cooked family meals, which historically provided balanced nutritional profiles",
+              "clueAnswer": "Home-cooked family meals",
+              "keyPassage": "home-cooked family meals, which",
+              "keyAnswer": "Home-cooked family meals",
+              "paraphrasePair": "home-cooked family meals <=> which",
+              "meaningVi": "bữa ăn gia đình tự nấu",
+              "deductionLogic": "Khớp danh từ đứng ngay trước đại từ quan hệ 'which'."
+            }
+          },
+          {
+            "id": "t25_q9",
+            "num": 9,
+            "question": "According to paragraph 4, which of the following is NOT mentioned as a countermeasure against the fast-food crisis?",
+            "questionVi": "Theo đoạn 4, điều nào sau đây KHÔNG được đề cập như một biện pháp đối phó với cuộc khủng hoảng thức ăn nhanh?",
+            "questionType": "negative_detail",
+            "options": [
+              "Teaching nutritional literacy and how to decipher ingredient labels in schools",
+              "Legislative fiscal levies on sugar-sweetened beverages",
+              "Restrictions on junk-food advertising near primary schools",
+              "Jailing parents whose children consume more than one burger per month"
+            ],
+            "optionsVi": [
+              "Dạy kiến thức dinh dưỡng và cách đọc nhãn thành phần trong trường học",
+              "Chính sách thuế tài khóa đối với đồ uống có đường",
+              "Các hạn chế đối với quảng cáo đồ ăn vặt gần các trường tiểu học",
+              "Bỏ tù các bậc cha mẹ có con ăn nhiều hơn một chiếc bánh mì kẹp thịt mỗi tháng"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 lists: educational literacy (A), levies on sugary drinks (B), and advertising restrictions near schools (C). Jailing parents is absurd and unmentioned.",
+            "evidenceVi": "Đoạn 4 nêu: giáo dục dinh dưỡng (A), đánh thuế đồ uống ngọt (B), hạn chế quảng cáo gần trường học (C). Việc phạt tù phụ huynh là hoàn toàn bịa đặt.",
+            "explanation": "Phương án D là thông tin bịa đặt vô căn cứ, không hề có trong bài.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Fact Check)",
+              "cluePassage": "nutritional literacy, teaching children how to decipher commercial ingredient labels... levies on sugar-sweetened beverages and stringent restrictions on junk-food advertising near primary schools",
+              "clueAnswer": "Jailing parents whose children consume more than one burger per month",
+              "keyPassage": "nutritional literacy... levies on sugar-sweetened beverages... restrictions on junk-food advertising",
+              "keyAnswer": "jailing parents (NOT mentioned)",
+              "paraphrasePair": "nutritional literacy / beverage levies / advertising restrictions vs jailing parents",
+              "meaningVi": "các biện pháp thực tế so với chi tiết bịa đặt vô lý",
+              "deductionLogic": "Phương án D hoàn toàn không có trong đoạn 4."
+            }
+          },
+          {
+            "id": "t25_q10",
+            "num": 10,
+            "question": "What does the author advocate in the final sentence to safeguard the vitality of future generations?",
+            "questionVi": "Tác giả ủng hộ điều gì ở câu cuối cùng nhằm bảo vệ sinh lực của các thế hệ tương lai?",
+            "questionType": "inference",
+            "options": [
+              "Nationalizing all private food production companies under military command",
+              "Collaborative engagement among families, educators, and policymakers to foster a cultural shift toward wholesome nutrition",
+              "Completely banning all fast food restaurants and shutting down all smartphones",
+              "Relying solely on pharmaceutical appetite-suppressant pills"
+            ],
+            "optionsVi": [
+              "Quốc hữu hóa toàn bộ các công ty sản xuất thực phẩm tư nhân dưới sự chỉ huy quân sự",
+              "Sự phối hợp hành động giữa gia đình, nhà giáo dục và nhà hoạch định chính sách để thúc đẩy sự chuyển dịch văn hóa sang dinh dưỡng lành mạnh",
+              "Cấm hoàn toàn các nhà hàng thức ăn nhanh và đóng cửa toàn bộ điện thoại thông minh",
+              "Dựa hoàn toàn vào các viên thuốc dược phẩm ức chế cảm giác thèm ăn"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Fostering a lasting cultural shift toward wholesome nutrition requires collaborative engagement among families, educators, and policymakers to safeguard the vitality of future generations.",
+            "evidenceVi": "Việc nuôi dưỡng một sự thay đổi văn hóa lâu dài hướng tới dinh dưỡng lành mạnh đòi hỏi sự tham gia hợp tác giữa các gia đình, nhà giáo dục và các nhà hoạch định chính sách...",
+            "explanation": "Câu cuối cùng nhấn mạnh sự hợp tác giữa gia đình, trường học và nhà nước để thay đổi văn hóa dinh dưỡng cho thế hệ trẻ.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Khuyến nghị kết luận (Author's Final Synthesis)",
+              "cluePassage": "Fostering a lasting cultural shift toward wholesome nutrition requires collaborative engagement among families, educators, and policymakers to safeguard the vitality of future generations.",
+              "clueAnswer": "Collaborative engagement among families, educators, and policymakers to foster a cultural shift toward wholesome nutrition",
+              "keyPassage": "collaborative engagement among families, educators, and policymakers to safeguard the vitality of future generations",
+              "keyAnswer": "Collaborative engagement among families, educators, and policymakers to foster a cultural shift toward wholesome nutrition",
+              "paraphrasePair": "collaborative engagement among families, educators, and policymakers <=> Collaborative engagement among families, educators, and policymakers",
+              "meaningVi": "sự phối hợp hợp tác giữa gia đình, nhà trường và nhà làm chính sách",
+              "deductionLogic": "Khớp câu cuối cùng của bài đọc."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Chinese Traditional Music & The Guqin",
+        "topic": "Âm nhạc cổ truyền Trung Hoa & Cổ cầm: Thang âm ngũ cung, triết lý Nho giáo - Đạo giáo, kỹ thuật gảy đàn & di sản UNESCO",
+        "timeAllowed": 15,
+        "passage": "<p>Revered for over three millennia as the quintessential instrument of classical Chinese scholars, the guqin holds an unparalleled stature in East Asian cultural heritage. The guqin is a plucked seven-stringed zither crafted traditionally from aged tone-woods, such as paulownia or fir, and coated with natural lacquer blended with powdered deer horn. Unlike Western orchestral instruments designed for high acoustic volume and grand concert halls, the guqin produces an intimate, contemplative resonance intended primarily for personal introspection and small scholarly salons. In 2003, UNESCO officially inscribed the art of the guqin onto the Representative List of the Intangible Cultural Heritage of Humanity, affirming its global artistic significance.</p><p>The sonic architecture of the guqin is intrinsically intertwined with ancient Chinese cosmology and philosophical tenets, particularly Daoism and Confucianism. Confucius famously championed the guqin as an indispensable instrument for moral cultivation, mental refinement, and societal harmony, asserting that pure music purged coarse passions. Structurally, the instrument embodies cosmic symbolism: its curved upper soundboard represents heaven, while its flat base signifies earth. The traditional repertoire predominantly employs the pentatonic scale—consisting of five fundamental pitches linked to the five elements: wood, fire, earth, metal, and water—creating evocative melodies that mirror natural landscapes, running water, and drifting clouds.</p><p>Performing the guqin demands extraordinary technical dexterity and aesthetic sensitivity. The instrument features no frets; instead, thirteen mother-of-pearl studs, known as 'hui,' are inlaid along the soundboard to guide pitch positioning. Players employ a sophisticated array of right-hand plucking techniques combined with left-hand sliding, pressing, and vibrato gestures to generate three distinct tonal textures: 'scattered sounds' (open strings), 'floating sounds' (crystalline harmonics produced by lightly touching strings), and 'stopped sounds' (pressed notes creating expressive microtonal glissandos). Furthermore, guqin compositions are preserved in 'jianzipu,' a unique tablature notation system that prescribes fingering mechanics rather than pitch durations, allowing masters substantial interpretive freedom.</p><p>In the contemporary era, the guqin is experiencing a vibrant renaissance after enduring decades of marginalization during twentieth-century geopolitical upheavals. Young musicians and conservatory scholars are revitalizing historical repertoire while exploring innovative cross-cultural collaborations with Western classical orchestras and ambient electronic music. Concurrently, digital preservation projects and community workshops are introducing younger generations to the instrument's meditative qualities in an increasingly frenetic modern world. By balancing meticulous archival fidelity with progressive artistic experimentation, contemporary custodians ensure that the ancient voice of the guqin continues to enchant and enlighten global audiences.</p>",
+        "vocab": [
+          {
+            "word": "quintessential",
+            "pos": "adj",
+            "ipa": "/ˌkwɪn.tɪˈsen.ʃəl/",
+            "level": "B2",
+            "mean": "tinh túy nhất, mẫu mực tiêu biểu nhất",
+            "syns": [
+              "archetypal",
+              "exemplary",
+              "classic"
+            ],
+            "ex": "The guqin is regarded as the quintessential instrument of classical literati culture."
+          },
+          {
+            "word": "plucked",
+            "pos": "adj",
+            "ipa": "/plʌkt/",
+            "level": "B2",
+            "mean": "được gảy bằng ngón tay (nhạc cụ dây)",
+            "syns": [
+              "fingerpicked",
+              "strummed"
+            ],
+            "ex": "Plucked string instruments require fine tactile control."
+          },
+          {
+            "word": "contemplative",
+            "pos": "adj",
+            "ipa": "/kənˈtem.plə.tɪv/",
+            "level": "B2",
+            "mean": "mang tính trầm mặc, suy tư chiêm nghiệm",
+            "syns": [
+              "meditative",
+              "reflective",
+              "thoughtful"
+            ],
+            "ex": "The guqin's soft timbre creates a deeply contemplative mood."
+          },
+          {
+            "word": "introspection",
+            "pos": "n",
+            "ipa": "/ˌɪn.trəˈspek.ʃən/",
+            "level": "B2",
+            "mean": "sự soi rọi nội tâm, tự phản tỉnh bên trong",
+            "syns": [
+              "self-reflection",
+              "soul-searching",
+              "rumination"
+            ],
+            "ex": "Playing the instrument was considered an exercise in spiritual introspection."
+          },
+          {
+            "word": "inscribe",
+            "pos": "v",
+            "ipa": "/ɪnˈskraɪb/",
+            "level": "B2",
+            "mean": "ghi danh, khắc tên vào danh sách chính thức",
+            "syns": [
+              "register",
+              "enroll",
+              "enter"
+            ],
+            "ex": "UNESCO voted to inscribe the traditional art form on its heritage register."
+          },
+          {
+            "word": "intangible",
+            "pos": "adj",
+            "ipa": "/ɪnˈtæn.dʒə.bəl/",
+            "level": "B2",
+            "mean": "phi vật thể (văn hóa, truyền thống phi vật thể)",
+            "syns": [
+              "immaterial",
+              "non-physical",
+              "spiritual"
+            ],
+            "ex": "Oral traditions and musical arts constitute invaluable intangible heritage."
+          },
+          {
+            "word": "cosmology",
+            "pos": "n",
+            "ipa": "/kɒzˈmɒl.ə.dʒi/",
+            "level": "B2",
+            "mean": "vũ trụ học, thế giới quan về cấu trúc vũ trụ",
+            "syns": [
+              "cosmogony",
+              "worldview",
+              "astrophysics"
+            ],
+            "ex": "Ancient Chinese cosmology harmonized music with the rhythms of nature."
+          },
+          {
+            "word": "tenet",
+            "pos": "n",
+            "ipa": "/ˈten.ɪt/",
+            "level": "B2",
+            "mean": "nguyên lý cốt lõi, giáo lý căn bản",
+            "syns": [
+              "principle",
+              "doctrine",
+              "creed"
+            ],
+            "ex": "A key tenet of Daoism is living in effortless harmony with the natural flow."
+          },
+          {
+            "word": "refinement",
+            "pos": "n",
+            "ipa": "/rɪˈfaɪn.mənt/",
+            "level": "B2",
+            "mean": "sự thanh cao tao nhã, sự trau chuốt tinh tế",
+            "syns": [
+              "cultivation",
+              "elegance",
+              "sophistication"
+            ],
+            "ex": "Scholars practiced calligraphy and music to achieve inner mental refinement."
+          },
+          {
+            "word": "coarse",
+            "pos": "adj",
+            "ipa": "/kɔːs/",
+            "level": "B2",
+            "mean": "thô tục, thô lỗ, kém tao nhã",
+            "syns": [
+              "crude",
+              "vulgar",
+              "unrefined"
+            ],
+            "ex": "Confucius believed sublime melodies could purify coarse emotional impulses."
+          },
+          {
+            "word": "soundboard",
+            "pos": "n",
+            "ipa": "/ˈsaʊnd.bɔːd/",
+            "level": "B2",
+            "mean": "bảng cộng hưởng âm của đàn",
+            "syns": [
+              "soundplate",
+              "belly",
+              "resonance board"
+            ],
+            "ex": "Vibrations from the strings resonate through the arched wooden soundboard."
+          },
+          {
+            "word": "pentatonic",
+            "pos": "adj",
+            "ipa": "/ˌpen.təˈtɒn.ɪk/",
+            "level": "B2",
+            "mean": "thang âm ngũ cung gồm 5 nốt nhạc",
+            "syns": [
+              "five-tone",
+              "five-pitch"
+            ],
+            "ex": "Traditional folk songs in East Asia frequently employ pentatonic scales."
+          },
+          {
+            "word": "evocative",
+            "pos": "adj",
+            "ipa": "/ɪˈvɒk.ə.tɪv/",
+            "level": "B2",
+            "mean": "gợi cảm xúc sâu sắc, gợi nhớ hình ảnh sống động",
+            "syns": [
+              "expressive",
+              "reminiscent",
+              "vivid"
+            ],
+            "ex": "The evocative notes mimicked the gentle splashing of mountain streams."
+          },
+          {
+            "word": "dexterity",
+            "pos": "n",
+            "ipa": "/dekˈster.ə.ti/",
+            "level": "B2",
+            "mean": "sự khéo léo, thuần thục của đôi bàn tay",
+            "syns": [
+              "nimbleness",
+              "agility",
+              "finesse"
+            ],
+            "ex": "Plucking rapid passages requires years of finger dexterity."
+          },
+          {
+            "word": "stud",
+            "pos": "n",
+            "ipa": "/stʌd/",
+            "level": "B2",
+            "mean": "núm đính khảm nhỏ trên mặt đàn làm mốc nốt",
+            "syns": [
+              "marker",
+              "dot",
+              "inlay pin"
+            ],
+            "ex": "Thirteen mother-of-pearl studs mark the harmonic pitch nodes."
+          },
+          {
+            "word": "inlaid",
+            "pos": "adj",
+            "ipa": "/ˈɪn.leɪd/",
+            "level": "B2",
+            "mean": "được khảm cẩn chìm vào bề mặt",
+            "syns": [
+              "embedded",
+              "encrusted",
+              "set in"
+            ],
+            "ex": "The wooden surface was inlaid with iridescent abalone shell markers."
+          },
+          {
+            "word": "vibrato",
+            "pos": "n",
+            "ipa": "/vɪˈbrɑː.təʊ/",
+            "level": "B2",
+            "mean": "kỹ thuật rung ngón tạo dao động cao độ ngân nga",
+            "syns": [
+              "quiver",
+              "oscillation",
+              "tremor"
+            ],
+            "ex": "A subtle vibrato imparts profound emotional warmth to lingering notes."
+          },
+          {
+            "word": "harmonic",
+            "pos": "n",
+            "ipa": "/hɑːˈmɒn.ɪk/",
+            "level": "B2",
+            "mean": "âm bồi trong trẻo như chuông khi chạm nhẹ dây đàn",
+            "syns": [
+              "overtone",
+              "flute-like note",
+              "bell sound"
+            ],
+            "ex": "The player produced bell-like harmonics by tapping the string lightly over the studs."
+          },
+          {
+            "word": "glissando",
+            "pos": "n",
+            "ipa": "/ɡlɪˈsæn.dəʊ/",
+            "level": "B2",
+            "mean": "kỹ thuật vuốt lướt liền mạch giữa các cao độ",
+            "syns": [
+              "portamento",
+              "slide",
+              "pitch glide"
+            ],
+            "ex": "Left-hand glissandos create expressive microtonal nuances between notes."
+          },
+          {
+            "word": "tablature",
+            "pos": "n",
+            "ipa": "/ˈtæb.lə.tʃər/",
+            "level": "B2",
+            "mean": "hệ thống ký âm chỉ thế tay và ngón bấm thay vì ghi nốt",
+            "syns": [
+              "fingering score",
+              "notation"
+            ],
+            "ex": "Guqin tablature tells the performer which finger to slide and pluck."
+          },
+          {
+            "word": "upheaval",
+            "pos": "n",
+            "ipa": "/ʌpˈhiː.vəl/",
+            "level": "B2",
+            "mean": "biến động chấn động dữ dội về chính trị xã hội",
+            "syns": [
+              "turmoil",
+              "disruption",
+              "convulsion"
+            ],
+            "ex": "Many ancient instruments were destroyed during 20th-century geopolitical upheavals."
+          },
+          {
+            "word": "marginalization",
+            "pos": "n",
+            "ipa": "/ˌmɑː.dʒɪ.nəl.aɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự bị gạt ra ngoài lề xã hội, xem nhẹ giá trị",
+            "syns": [
+              "sidelining",
+              "neglect",
+              "exclusion"
+            ],
+            "ex": "Traditional arts suffered decades of marginalization in favor of Western instruments."
+          },
+          {
+            "word": "revitalize",
+            "pos": "v",
+            "ipa": "/riːˈvaɪ.təl.aɪz/",
+            "level": "B2",
+            "mean": "hồi sinh, mang lại sức sống và năng lượng mới",
+            "syns": [
+              "reinvigorate",
+              "resurrect",
+              "renew"
+            ],
+            "ex": "Young musicians seek to revitalize ancient scores through contemporary performance."
+          },
+          {
+            "word": "frenetic",
+            "pos": "adj",
+            "ipa": "/frəˈnet.ɪk/",
+            "level": "B2",
+            "mean": "hối hả, cuồng loạn, quá bận rộn ồn ào",
+            "syns": [
+              "frantic",
+              "hectic",
+              "chaotic"
+            ],
+            "ex": "The soothing strings offer a sanctuary from the frenetic pace of modern life."
+          },
+          {
+            "word": "meticulous",
+            "pos": "adj",
+            "ipa": "/məˈtɪk.jʊ.ləs/",
+            "level": "B2",
+            "mean": "tỉ mỉ, cẩn trọng kỹ lưỡng từng chi tiết",
+            "syns": [
+              "scrupulous",
+              "painstaking",
+              "thorough"
+            ],
+            "ex": "Restoring antique instruments requires meticulous craftmanship and patience."
+          },
+          {
+            "word": "custodian",
+            "pos": "n",
+            "ipa": "/kʌsˈtəʊ.di.ən/",
+            "level": "B2",
+            "mean": "người trông nom, gìn giữ và bảo tồn di sản",
+            "syns": [
+              "guardian",
+              "keeper",
+              "protector"
+            ],
+            "ex": "Elderly masters view themselves as humble custodians of an ancient lineage."
+          },
+          {
+            "word": "enlighten",
+            "pos": "v",
+            "ipa": "/ɪnˈlaɪ.tən/",
+            "level": "B2",
+            "mean": "khai sáng, mở mang tâm trí và nhận thức",
+            "syns": [
+              "illuminate",
+              "educate",
+              "inspire"
+            ],
+            "ex": "Traditional philosophies continue to enlighten thinkers across diverse cultures."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t25_q11",
+            "num": 11,
+            "question": "What is the primary subject of the passage?",
+            "questionVi": "Chủ đề chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The commercial lumber harvesting of paulownia trees in northern China",
+              "The cultural philosophy, structural symbolism, performance technique, and modern revival of the guqin",
+              "A comparative acoustic study of Western symphonic violins and violoncellos",
+              "The diplomatic history of UNESCO world heritage committee conventions"
+            ],
+            "optionsVi": [
+              "Việc khai thác gỗ cây hông (paulownia) thương mại ở miền bắc Trung Quốc",
+              "Triết lý văn hóa, tính biểu tượng cấu trúc, kỹ thuật biểu diễn và sự phục hưng hiện đại của đàn cổ cầm",
+              "Nghiên cứu âm học so sánh giữa đàn vĩ cầm và trung cầm giao hưởng phương Tây",
+              "Lịch sử ngoại giao của các công ước ủy ban di sản thế giới UNESCO"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Entire passage covers the guqin's historical stature, cosmic and philosophical symbolism (Daoism/Confucianism), performance techniques and notation, and 21st-century revitalization.",
+            "evidenceVi": "Toàn bài bao quát vị thế lịch sử của cổ cầm, tính biểu tượng vũ trụ và triết học Nho - Đạo, kỹ thuật biểu diễn, hệ ký âm jianzipu và sự phục hưng thế kỷ 21.",
+            "explanation": "Toàn bài giới thiệu toàn diện về đàn cổ cầm từ lịch sử, triết học, cấu trúc biểu tượng đến kỹ thuật chơi và sự hồi sinh ngày nay.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "the guqin holds an unparalleled stature in East Asian cultural heritage... intrinsically intertwined with ancient Chinese cosmology... Performing the guqin demands extraordinary technical dexterity... experiencing a vibrant renaissance",
+              "clueAnswer": "The cultural philosophy, structural symbolism, performance technique, and modern revival of the guqin",
+              "keyPassage": "guqin holds an unparalleled stature... ancient Chinese cosmology... technical dexterity... vibrant renaissance",
+              "keyAnswer": "cultural philosophy, structural symbolism, performance technique, and modern revival of the guqin",
+              "paraphrasePair": "stature in heritage / cosmology / dexterity / renaissance <=> cultural philosophy, structural symbolism, performance technique, and modern revival",
+              "meaningVi": "triết lý văn hóa, biểu tượng cấu trúc, kỹ thuật và phục hưng cổ cầm",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt toàn bài đọc."
+            }
+          },
+          {
+            "id": "t25_q12",
+            "num": 12,
+            "question": "According to paragraph 1, how does the guqin's acoustic purpose contrast with Western orchestral instruments?",
+            "questionVi": "Theo đoạn 1, mục đích âm học của cổ cầm tương phản với các nhạc cụ giao hưởng phương Tây như thế nào?",
+            "questionType": "detail",
+            "options": [
+              "It is designed to emit deafening volume across massive outdoor athletic stadiums",
+              "It produces an intimate, contemplative resonance intended for personal introspection rather than grand concert halls",
+              "It relies exclusively on high-voltage electronic amplifiers and speakers",
+              "It is played only during military warfare invasions to frighten enemy soldiers"
+            ],
+            "optionsVi": [
+              "Nó được thiết kế để phát ra âm lượng chói tai khắp các sân vận động thể thao lớn ngoài trời",
+              "Nó tạo ra âm hưởng trầm lắng thân mật dành cho việc tự soi rọi nội tâm thay vì các phòng hòa nhạc lớn",
+              "Nó hoàn toàn dựa vào các bộ khuếch đại điện tử và loa công suất lớn",
+              "Nó chỉ được chơi trong các cuộc xâm lăng quân sự để dọa quân địch"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Unlike Western orchestral instruments designed for high acoustic volume and grand concert halls, the guqin produces an intimate, contemplative resonance intended primarily for personal introspection and small scholarly salons.",
+            "evidenceVi": "Khác với các nhạc cụ giao hưởng phương Tây được thiết kế cho âm lượng lớn và các phòng hòa nhạc hoành tráng, đàn cổ cầm tạo ra âm hưởng thân mật, trầm mặc nhằm phục vụ cho sự tự soi rọi nội tâm cá nhân và các phòng trà văn sĩ nhỏ.",
+            "explanation": "Đoạn 1 nêu rõ cổ cầm không nhằm phát âm thanh lớn cho phòng hòa nhạc mà để suy tư nội tâm (contemplative resonance for personal introspection).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết đối chiếu âm học (Acoustic Contrast Detail)",
+              "cluePassage": "Unlike Western orchestral instruments designed for high acoustic volume and grand concert halls, the guqin produces an intimate, contemplative resonance intended primarily for personal introspection",
+              "clueAnswer": "produces an intimate, contemplative resonance intended for personal introspection rather than grand concert halls",
+              "keyPassage": "intimate, contemplative resonance intended primarily for personal introspection and small scholarly salons",
+              "keyAnswer": "intimate, contemplative resonance intended for personal introspection rather than grand concert halls",
+              "paraphrasePair": "intimate, contemplative resonance intended primarily for personal introspection <=> intimate, contemplative resonance intended for personal introspection",
+              "meaningVi": "âm hưởng trầm mặc dành cho sự tự soi rọi nội tâm",
+              "deductionLogic": "Khớp câu 3 đoạn 1."
+            }
+          },
+          {
+            "id": "t25_q13",
+            "num": 13,
+            "question": "According to Confucian thought mentioned in paragraph 2, what was the primary moral function of the guqin?",
+            "questionVi": "Theo tư tưởng Nho giáo được đề cập trong đoạn 2, chức năng đạo đức chính của đàn cổ cầm là gì?",
+            "questionType": "detail",
+            "options": [
+              "To amass great commercial financial fortunes for court musicians",
+              "To serve as an instrument for moral cultivation, mental refinement, and purging coarse passions",
+              "To entertain illiterate peasants during marketplace carnivals",
+              "To hypnotize foreign diplomats during trade negotiations"
+            ],
+            "optionsVi": [
+              "Tích lũy tài sản tài chính thương mại lớn cho các nhạc công cung đình",
+              "Đóng vai trò như công cụ tu dưỡng đạo đức, trau chuốt tinh thần và thanh lọc những cảm xúc thô thiển",
+              "Giải trí cho nông dân mù chữ trong các lễ hội họp chợ",
+              "Thôi miên các nhà ngoại giao nước ngoài trong các cuộc đàm phán thương mại"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Confucius famously championed the guqin as an indispensable instrument for moral cultivation, mental refinement, and societal harmony, asserting that pure music purged coarse passions.",
+            "evidenceVi": "Khổng Tử nổi tiếng với việc coi cổ cầm là nhạc cụ không thể thiếu để tu dưỡng đạo đức, trau dồi tinh thần và hòa hợp xã hội, khẳng định rằng âm nhạc thuần khiết có thể gột rửa những dục vọng thô thiển.",
+            "explanation": "Đoạn 2 nêu rõ Khổng Tử đề cao cổ cầm để tu dưỡng đạo đức (moral cultivation), tinh thần (mental refinement) và gột rửa thói thô thiển (purged coarse passions).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết triết học Nho giáo (Confucian Philosophy Detail)",
+              "cluePassage": "indispensable instrument for moral cultivation, mental refinement, and societal harmony, asserting that pure music purged coarse passions",
+              "clueAnswer": "instrument for moral cultivation, mental refinement, and purging coarse passions",
+              "keyPassage": "moral cultivation, mental refinement, and societal harmony, asserting that pure music purged coarse passions",
+              "keyAnswer": "moral cultivation, mental refinement, and purging coarse passions",
+              "paraphrasePair": "moral cultivation, mental refinement... purged coarse passions <=> moral cultivation, mental refinement, and purging coarse passions",
+              "meaningVi": "tu dưỡng đạo đức, tinh luyện tâm trí và gột rửa dục vọng thô thiển",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t25_q14",
+            "num": 14,
+            "question": "The word 'quintessential' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'quintessential' trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "archetypal and purest",
+              "peripheral and unimportant",
+              "imported and foreign",
+              "temporary and fleeting"
+            ],
+            "optionsVi": [
+              "mang tính mẫu mực kinh điển và thuần túy nhất",
+              "ngoại vi và không quan trọng",
+              "nhập khẩu từ bên ngoài",
+              "tạm thời và thoáng qua"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Revered for over three millennia as the quintessential instrument of classical Chinese scholars...",
+            "evidenceVi": "Được tôn kính hơn ba thiên niên kỷ như là nhạc cụ tinh túy nhất của giới văn nhân học giả cổ điển Trung Hoa...",
+            "explanation": "'Quintessential' nghĩa là đại diện tinh túy nhất, mẫu mực chuẩn nhất của một lớp sự vật, đồng nghĩa với 'archetypal and purest'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "quintessential instrument of classical Chinese scholars",
+              "clueAnswer": "archetypal and purest",
+              "keyPassage": "quintessential instrument",
+              "keyAnswer": "archetypal and purest",
+              "paraphrasePair": "quintessential <=> archetypal and purest",
+              "meaningVi": "tinh túy nhất, mang tính mẫu mực điển hình",
+              "deductionLogic": "Cổ cầm là biểu tượng tinh hoa đỉnh cao của văn nhân, quintessential tương đương archetypal."
+            }
+          },
+          {
+            "id": "t25_q15",
+            "num": 15,
+            "question": "What cosmic symbolism is embodied in the structural design of the guqin according to paragraph 2?",
+            "questionVi": "Tính biểu tượng vũ trụ nào được thể hiện trong thiết kế cấu trúc của đàn cổ cầm theo đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "The strings represent the seven rings of planet Saturn",
+              "Its curved upper soundboard represents heaven, while its flat base signifies earth",
+              "Its tuning pegs represent the twelve signs of the Western zodiac",
+              "Its wooden bridge represents a rainbow bridging ocean waves"
+            ],
+            "optionsVi": [
+              "Các dây đàn đại diện cho bảy vành đai của Sao Thổ",
+              "Mặt bảng cộng hưởng phía trên cong vòm tượng trưng cho trời, trong khi đáy phẳng tượng trưng cho đất",
+              "Các chốt vặn dây đại diện cho mười hai cung hoàng đạo phương Tây",
+              "Ngựa đàn bằng gỗ đại diện cho cầu vồng nối liền sóng đại dương"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Structurally, the instrument embodies cosmic symbolism: its curved upper soundboard represents heaven, while its flat base signifies earth.",
+            "evidenceVi": "Về mặt cấu trúc, nhạc cụ này thể hiện tính biểu tượng vũ trụ: mặt bảng cộng hưởng phía trên uốn cong tượng trưng cho trời (trời tròn), trong khi đáy phẳng biểu thị đất (đất vuông).",
+            "explanation": "Đoạn 2 chỉ rõ: mặt trên cong vòm là trời (heaven), đáy phẳng là đất (earth) theo quan niệm trời tròn đất vuông.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết biểu tượng vũ trụ (Cosmic Symbolism Detail)",
+              "cluePassage": "its curved upper soundboard represents heaven, while its flat base signifies earth",
+              "clueAnswer": "Its curved upper soundboard represents heaven, while its flat base signifies earth",
+              "keyPassage": "curved upper soundboard represents heaven, while its flat base signifies earth",
+              "keyAnswer": "curved upper soundboard represents heaven, while its flat base signifies earth",
+              "paraphrasePair": "curved upper soundboard represents heaven, while its flat base signifies earth <=> curved upper soundboard represents heaven, while its flat base signifies earth",
+              "meaningVi": "mặt cong biểu thị trời, đáy phẳng biểu thị đất",
+              "deductionLogic": "Khớp câu 3 đoạn 2."
+            }
+          },
+          {
+            "id": "t25_q16",
+            "num": 16,
+            "question": "What role do the thirteen mother-of-pearl studs ('hui') play during performance according to paragraph 3?",
+            "questionVi": "Mười ba núm đính xà cừ ('hui') đóng vai trò gì trong quá trình biểu diễn theo đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "They are struck with wooden mallets to produce rhythmic percussion beats",
+              "They are inlaid along the soundboard to guide pitch positioning in the absence of frets",
+              "They emit microscopic electrical pulses that tune the strings automatically",
+              "They count the elapsed minutes of the musical composition"
+            ],
+            "optionsVi": [
+              "Chúng được gõ bằng dùi gỗ để tạo ra nhịp gõ bộ gõ",
+              "Chúng được khảm dọc theo bảng cộng hưởng để hướng dẫn vị trí bấm cao độ khi không có phím đàn",
+              "Chúng phát ra xung điện vi mô để tự động lên dây đàn",
+              "Chúng đếm số phút đã trôi qua của tác phẩm âm nhạc"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The instrument features no frets; instead, thirteen mother-of-pearl studs, known as 'hui,' are inlaid along the soundboard to guide pitch positioning.",
+            "evidenceVi": "Cây đàn không có các phím ngăn; thay vào đó, mười ba núm xà cừ, được gọi là 'huy', được khảm dọc theo mặt đàn để dẫn hướng vị trí cao độ.",
+            "explanation": "Đoạn 3 giải thích vì đàn không có phím (no frets), 13 điểm 'huy' bằng xà cừ giúp người chơi xác định cao độ (guide pitch positioning).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết cấu tạo kỹ thuật (Structural Technique Detail)",
+              "cluePassage": "thirteen mother-of-pearl studs, known as 'hui,' are inlaid along the soundboard to guide pitch positioning",
+              "clueAnswer": "inlaid along the soundboard to guide pitch positioning in the absence of frets",
+              "keyPassage": "instrument features no frets; instead, thirteen mother-of-pearl studs... guide pitch positioning",
+              "keyAnswer": "inlaid along the soundboard to guide pitch positioning in the absence of frets",
+              "paraphrasePair": "no frets; instead... studs guide pitch positioning <=> guide pitch positioning in the absence of frets",
+              "meaningVi": "làm mốc định vị cao độ khi đàn không có phím",
+              "deductionLogic": "Khớp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": "t25_q17",
+            "num": 17,
+            "question": "What is unique about the traditional 'jianzipu' notation system described in paragraph 3?",
+            "questionVi": "Hệ thống ký âm 'jianzipu' (giản tự phổ) truyền thống có điểm gì độc đáo được miêu tả ở đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "It is written in ancient Egyptian hieroglyphics that only pharaohs can read",
+              "It prescribes fingering mechanics rather than pitch durations, allowing masters interpretive freedom",
+              "It records only the emotional facial expressions required of the performer",
+              "It requires musicians to memorize musical notes using colored flashcards"
+            ],
+            "optionsVi": [
+              "Nó được viết bằng chữ tượng hình Ai Cập cổ đại mà chỉ pharaoh mới đọc được",
+              "Nó quy định cơ chế và thế ngón tay bấm thay vì trường độ nốt, cho phép các nghệ nhân tự do diễn giải",
+              "Nó chỉ ghi lại các biểu cảm khuôn mặt đòi hỏi ở người biểu diễn",
+              "Nó yêu cầu các nhạc sĩ phải ghi nhớ các nốt nhạc bằng thẻ màu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...'jianzipu,' a unique tablature notation system that prescribes fingering mechanics rather than pitch durations, allowing masters substantial interpretive freedom.",
+            "evidenceVi": "...'giản tự phổ', một hệ thống ký âm ghi ngón độc đáo quy định cơ chế di chuyển ngón tay thay vì trường độ cao độ cố định, cho phép các bậc thầy tự do diễn giải phong phú.",
+            "explanation": "Đoạn 3 nêu rõ jianzipu quy định cách bấm ngón (fingering mechanics) thay vì độ dài nốt (pitch durations), tạo không gian tự do diễn tấu.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết ký âm độc đáo (Notation System Detail)",
+              "cluePassage": "'jianzipu,' a unique tablature notation system that prescribes fingering mechanics rather than pitch durations, allowing masters substantial interpretive freedom",
+              "clueAnswer": "prescribes fingering mechanics rather than pitch durations, allowing masters interpretive freedom",
+              "keyPassage": "prescribes fingering mechanics rather than pitch durations, allowing masters substantial interpretive freedom",
+              "keyAnswer": "prescribes fingering mechanics rather than pitch durations, allowing masters interpretive freedom",
+              "paraphrasePair": "prescribes fingering mechanics rather than pitch durations <=> prescribes fingering mechanics rather than pitch durations",
+              "meaningVi": "chỉ ghi thế tay ngón bấm thay vì trường độ, tạo tự do sáng tạo",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": "t25_q18",
+            "num": 18,
+            "question": "The word 'dexterity' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'dexterity' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "finesse and agility",
+              "clumsiness",
+              "brute muscular strength",
+              "stubbornness"
+            ],
+            "optionsVi": [
+              "sự tinh tế khéo léo và nhanh nhẹn",
+              "sự vụng về lóng ngóng",
+              "sức mạnh cơ bắp thô bạo",
+              "sự bướng bỉnh cứng đầu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Performing the guqin demands extraordinary technical dexterity and aesthetic sensitivity.",
+            "evidenceVi": "Biểu diễn cổ cầm đòi hỏi sự khéo léo kỹ thuật phi thường và độ nhạy cảm thẩm mỹ.",
+            "explanation": "'Dexterity' nghĩa là sự khéo léo, thuần thục của ngón tay/đôi bàn tay, đồng nghĩa với 'finesse and agility'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng kỹ năng (Skill Vocabulary)",
+              "cluePassage": "demands extraordinary technical dexterity",
+              "clueAnswer": "finesse and agility",
+              "keyPassage": "technical dexterity",
+              "keyAnswer": "finesse and agility",
+              "paraphrasePair": "dexterity <=> finesse and agility",
+              "meaningVi": "sự khéo léo, tinh tế của ngón tay",
+              "deductionLogic": "Việc bấm vuốt dây đàn đòi hỏi độ khéo léo đôi tay, dexterity tương đương finesse and agility."
+            }
+          },
+          {
+            "id": "t25_q19",
+            "num": 19,
+            "question": "The word 'its' in paragraph 1 refers to:",
+            "questionVi": "Từ 'its' trong đoạn 1 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "The European symphony hall",
+              "The art of the guqin",
+              "The deer horn powder",
+              "The fir tree bark"
+            ],
+            "optionsVi": [
+              "Phòng hòa nhạc giao hưởng châu Âu",
+              "Nghệ thuật đàn cổ cầm",
+              "Bột sừng hươu",
+              "Vỏ cây linh sam"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In 2003, UNESCO officially inscribed the art of the guqin onto the Representative List of the Intangible Cultural Heritage of Humanity, affirming its global artistic significance.",
+            "evidenceVi": "Năm 2003, UNESCO đã chính thức ghi danh nghệ thuật đàn cổ cầm vào Danh sách Đại diện Di sản Văn hóa Phi vật thể của Nhân loại, khẳng định ý nghĩa nghệ thuật toàn cầu của nó.",
+            "explanation": "'Its' ở cuối câu quy chiếu về 'the art of the guqin' được ghi danh.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ sở hữu quy chiếu (Possessive Pronoun Reference)",
+              "cluePassage": "inscribed the art of the guqin onto the Representative List... affirming its global artistic significance",
+              "clueAnswer": "The art of the guqin",
+              "keyPassage": "the art of the guqin... affirming its global artistic significance",
+              "keyAnswer": "The art of the guqin",
+              "paraphrasePair": "the art of the guqin <=> its",
+              "meaningVi": "nghệ thuật đàn cổ cầm",
+              "deductionLogic": "Khớp danh từ đứng trước liên từ affirming."
+            }
+          },
+          {
+            "id": "t25_q20",
+            "num": 20,
+            "question": "According to paragraph 4, which contemporary effort to revitalize the guqin is NOT mentioned?",
+            "questionVi": "Theo đoạn 4, nỗ lực đương đại nào nhằm phục hưng đàn cổ cầm KHÔNG được đề cập?",
+            "questionType": "negative_detail",
+            "options": [
+              "Revitalizing historical repertoire and exploring cross-cultural collaborations with Western orchestras and electronic music",
+              "Conducting digital preservation projects and community workshops for younger generations",
+              "Balancing archival fidelity with progressive artistic experimentation",
+              "Melting down all antique guqins to forge modern bronze military coins"
+            ],
+            "optionsVi": [
+              "Hồi sinh các bản nhạc lịch sử và khám phá hợp tác đa văn hóa với dàn nhạc phương Tây và nhạc điện tử",
+              "Tiến hành các dự án bảo tồn kỹ thuật số và hội thảo cộng đồng cho thế hệ trẻ",
+              "Cân bằng giữa độ trung thực với tài liệu lưu trữ và thử nghiệm nghệ thuật tiến bộ",
+              "Nấu chảy toàn bộ đàn cổ cầm cổ để đúc tiền xu quân sự bằng đồng hiện đại"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 mentions: cross-cultural collaborations (A), digital preservation and workshops (B), and balancing archival fidelity with experimentation (C). Melting instruments for coins is completely unmentioned and absurd.",
+            "evidenceVi": "Đoạn 4 nêu: hợp tác giao hưởng/nhạc điện tử (A), dự án số hóa và workshop (B), cân bằng lưu trữ và thử nghiệm (C). Nấu chảy đàn đúc tiền là chi tiết hoàn toàn bịa đặt.",
+            "explanation": "Phương án D không hề xuất hiện trong đoạn 4.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Detail Check)",
+              "cluePassage": "exploring innovative cross-cultural collaborations... digital preservation projects and community workshops... balancing meticulous archival fidelity with progressive artistic experimentation",
+              "clueAnswer": "Melting down all antique guqins to forge modern bronze military coins",
+              "keyPassage": "cross-cultural collaborations... digital preservation... archival fidelity with progressive artistic experimentation",
+              "keyAnswer": "melting antique instruments (NOT mentioned)",
+              "paraphrasePair": "collaborations / preservation / fidelity vs melting down antique instruments",
+              "meaningVi": "các hoạt động phục hưng thực tế so với chi tiết vô căn cứ",
+              "deductionLogic": "Phương án D hoàn toàn không có trong đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Social Media Algorithms & User Engagement Metrics",
+        "topic": "Thuật toán mạng xã hội & Chỉ số tương tác người dùng: Vòng lặp dopamine, buồng vang thông tin (echo chambers), cực đoan hóa & thiết kế nhân văn",
+        "timeAllowed": 15,
+        "passage": "<p>In the digital economy, proprietary recommendation algorithms represent the foundational commercial engine driving multinational social media conglomerates. Rather than serving as neutral chronological conduits of user-generated content, modern digital feeds are algorithmically curated to optimize a single overarching metric: continuous user engagement. By analyzing vast telemetry data—including dwell time, cursor velocity, comment sentiment, and tap frequency—machine learning systems construct predictive behavioral profiles designed to maximize time spent on platform. Because platform monetization relies primarily on targeted advertising revenue, maintaining hyper-extended user attention is directly synonymous with corporate profitability.</p><p>To secure sustained attention, recommendation algorithms exploit innate human neurobiology, specifically the dopaminergic reward pathway. Unpredictable intermittent variable rewards—such as notifications, algorithmic likes, and viral shares—stimulate dopamine surges identical to the neurochemical mechanisms underlying gambling addictions. Concurrently, platforms prioritize content that evokes intense physiological arousal. Empirical studies in computational sociology demonstrate that emotionally inflammatory posts, particularly those inciting moral outrage and tribal indignation, disseminate six times faster than objective factual reports. Consequently, algorithms systematically amplify sensationalism and hyper-partisan conflict to prevent user disengagement.</p><p>The systemic prioritization of affective engagement has fostered deleterious societal externalities. Algorithmically generated 'echo chambers' and epistemic filter bubbles insulate users from divergent perspectives, reinforcing ideological confirmation bias and radicalizing political discourse. In the psychological domain, adolescents subjected to relentless algorithmic feeds face escalating rates of clinical anxiety, body dysmorphia, and depressive symptoms, exacerbated by toxic upward social comparisons and the perpetual fear of missing out (FOMO). Furthermore, the cognitive cadence of micro-video consumption severely truncates attention spans, eroding capacity for sustained analytical contemplation.</p><p>Addressing the algorithmic engagement crisis requires shifting from voluntary corporate self-regulation to enforceable legal frameworks and ethical system architecture. Progressive regulatory bodies, such as the European Union through the Digital Services Act (DSA), are mandating algorithmic transparency, risk assessments, and the right for consumers to opt for non-profiling chronological feeds. Concurrently, human-computer interaction (HCI) researchers advocate for 'humane design' paradigms that introduce intentional cognitive friction—such as screen-time limiters, delayed notifications, and algorithmic diversity quotas—to prioritize human psychological well-being over ruthless engagement monetization.</p>",
+        "vocab": [
+          {
+            "word": "proprietary",
+            "pos": "adj",
+            "ipa": "/prəˈpraɪə.tər.i/",
+            "level": "C1",
+            "mean": "độc quyền, thuộc quyền sở hữu bảo hộ riêng",
+            "syns": [
+              "patented",
+              "exclusive",
+              "privately-owned"
+            ],
+            "ex": "Tech giants closely guard their proprietary recommendation algorithms."
+          },
+          {
+            "word": "conglomerate",
+            "pos": "n",
+            "ipa": "/kənˈɡlɒm.ər.ət/",
+            "level": "C1",
+            "mean": "tập đoàn kinh doanh đa ngành khổng lồ",
+            "syns": [
+              "multinational corporation",
+              "syndicate",
+              "mega-company"
+            ],
+            "ex": "Social media conglomerates dominate the global digital ad market."
+          },
+          {
+            "word": "conduit",
+            "pos": "n",
+            "ipa": "/ˈkɒn.djuː.ɪt/",
+            "level": "C1",
+            "mean": "kênh dẫn, đường ống truyền tải trung gian",
+            "syns": [
+              "channel",
+              "pipe",
+              "medium"
+            ],
+            "ex": "Platforms are no longer neutral conduits for public speech."
+          },
+          {
+            "word": "curated",
+            "pos": "adj",
+            "ipa": "/kjʊəˈreɪ.tɪd/",
+            "level": "C1",
+            "mean": "được chọn lọc và sắp đặt kỹ lưỡng theo chủ đích",
+            "syns": [
+              "filtered",
+              "customized",
+              "handpicked"
+            ],
+            "ex": "The algorithm serves an intensely curated stream of sensational clips."
+          },
+          {
+            "word": "telemetry",
+            "pos": "n",
+            "ipa": "/təˈlem.ə.tri/",
+            "level": "C1",
+            "mean": "dữ liệu đo đạc hành vi tự động từ xa",
+            "syns": [
+              "usage metrics",
+              "remote tracking data"
+            ],
+            "ex": "App telemetry logs every microsecond a user lingers on a photo."
+          },
+          {
+            "word": "dwell",
+            "pos": "v",
+            "ipa": "/dwel/",
+            "level": "C1",
+            "mean": "dừng chân lại, nán lại trên một nội dung",
+            "syns": [
+              "linger",
+              "stay",
+              "remain"
+            ],
+            "ex": "Algorithms measure how long users dwell on a post before scrolling."
+          },
+          {
+            "word": "monetization",
+            "pos": "n",
+            "ipa": "/ˌmʌn.ɪ.taɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự thương mại hóa, biến dịch vụ thành nguồn thu tiền",
+            "syns": [
+              "commercialization",
+              "revenue-generation"
+            ],
+            "ex": "Aggressive ad monetization prioritizes sensationalism over factual accuracy."
+          },
+          {
+            "word": "dopaminergic",
+            "pos": "adj",
+            "ipa": "/ˌdəʊ.pə.mɪˈnɜː.dʒɪk/",
+            "level": "C1",
+            "mean": "thuộc về hệ thống dẫn truyền thần kinh dopamine",
+            "syns": [
+              "dopamine-related",
+              "reward-pathway"
+            ],
+            "ex": "App notifications trigger dopaminergic spikes associated with compulsive habits."
+          },
+          {
+            "word": "intermittent",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈmɪt.ənt/",
+            "level": "B2",
+            "mean": "ngắt quãng, không liên tục, lúc có lúc không",
+            "syns": [
+              "sporadic",
+              "occasional",
+              "periodic"
+            ],
+            "ex": "Intermittent variable rewards keep users continually pulling to refresh."
+          },
+          {
+            "word": "arousal",
+            "pos": "n",
+            "ipa": "/əˈraʊ.zəl/",
+            "level": "C1",
+            "mean": "trạng thái kích thích sinh lý hoặc cảm xúc mãnh liệt",
+            "syns": [
+              "stimulation",
+              "excitement",
+              "activation"
+            ],
+            "ex": "Posts provoking moral arousal generate the highest click-through rates."
+          },
+          {
+            "word": "inflammatory",
+            "pos": "adj",
+            "ipa": "/ɪnˈflæm.ə.tər.i/",
+            "level": "C1",
+            "mean": "mang tính kích động, khơi mào giận dữ hoặc bạo lực",
+            "syns": [
+              "provocative",
+              "incendiary",
+              "divisive"
+            ],
+            "ex": "Inflammatory political headlines spread viral outrage across networks."
+          },
+          {
+            "word": "indignation",
+            "pos": "n",
+            "ipa": "/ˌɪn.dɪɡˈneɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự phẫn nộ chính đáng trước điều bất công hoặc sai trái",
+            "syns": [
+              "righteous anger",
+              "fury",
+              "resentment"
+            ],
+            "ex": "Online feeds exploit moral indignation to capture attention."
+          },
+          {
+            "word": "disseminate",
+            "pos": "v",
+            "ipa": "/dɪˈsem.ɪ.neɪt/",
+            "level": "C1",
+            "mean": "lan truyền, phổ biến thông tin rộng rãi",
+            "syns": [
+              "spread",
+              "broadcast",
+              "circulate"
+            ],
+            "ex": "False rumors disseminate six times faster on social networks than truth."
+          },
+          {
+            "word": "sensationalism",
+            "pos": "n",
+            "ipa": "/senˈseɪ.ʃən.əl.ɪ.zəm/",
+            "level": "C1",
+            "mean": "xu hướng giật gân, câu khách rẻ tiền",
+            "syns": [
+              "melodrama",
+              "tabloidism",
+              "hype"
+            ],
+            "ex": "Sensationalism in video thumbnails drives immediate user curiosity."
+          },
+          {
+            "word": "hyper-partisan",
+            "pos": "adj",
+            "ipa": "/ˌhaɪ.pəˈpɑː.tɪ.zæn/",
+            "level": "C1",
+            "mean": "mang tính chia rẽ bè phái cực đoan",
+            "syns": [
+              "polarized",
+              "sectarian",
+              "extremist"
+            ],
+            "ex": "Hyper-partisan commentary deepens political divisions across society."
+          },
+          {
+            "word": "affective",
+            "pos": "adj",
+            "ipa": "/əˈfek.tɪv/",
+            "level": "C1",
+            "mean": "thuộc về cảm xúc và phản ứng tâm lý",
+            "syns": [
+              "emotional",
+              "feeling-based",
+              "visceral"
+            ],
+            "ex": "Affective polarization causes opposing groups to distrust one another."
+          },
+          {
+            "word": "deleterious",
+            "pos": "adj",
+            "ipa": "/ˌdel.ɪˈtɪə.ri.əs/",
+            "level": "C1",
+            "mean": "có hại, độc hại, gây tổn hại ngấm ngầm",
+            "syns": [
+              "harmful",
+              "detrimental",
+              "damaging"
+            ],
+            "ex": "Excessive screen time has deleterious impacts on adolescent sleep patterns."
+          },
+          {
+            "word": "externality",
+            "pos": "n",
+            "ipa": "/ˌek.stɜːˈnæl.ə.ti/",
+            "level": "C1",
+            "mean": "ngoại tác tiêu cực (hậu quả bên ngoài xã hội phải chịu)",
+            "syns": [
+              "side-effect",
+              "unintended consequence",
+              "spillover"
+            ],
+            "ex": "Erosion of trust is a major negative externality of algorithmic curation."
+          },
+          {
+            "word": "epistemic",
+            "pos": "adj",
+            "ipa": "/ˌep.ɪˈstem.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về nhận thức luận, tri thức và chân lý",
+            "syns": [
+              "cognitive",
+              "knowledge-based",
+              "epistemological"
+            ],
+            "ex": "Filter bubbles create closed epistemic loops where misinformation thrives."
+          },
+          {
+            "word": "dysmorphia",
+            "pos": "n",
+            "ipa": "/dɪsˈmɔː.fi.ə/",
+            "level": "C1",
+            "mean": "chứng mặc cảm ngoại hình, ám ảnh khiếm khuyết cơ thể",
+            "syns": [
+              "body dissatisfaction",
+              "appearance obsession"
+            ],
+            "ex": "Filtered selfies have fueled an epidemic of teenage body dysmorphia."
+          },
+          {
+            "word": "truncate",
+            "pos": "v",
+            "ipa": "/trʌŋˈkeɪt/",
+            "level": "C1",
+            "mean": "cắt ngắn, thu gọn cụt ngủn",
+            "syns": [
+              "shorten",
+              "abbreviate",
+              "curtail"
+            ],
+            "ex": "Endless short-form videos truncate users' capacity for deep reading."
+          },
+          {
+            "word": "contemplation",
+            "pos": "n",
+            "ipa": "/ˌkɒn.təmˈpleɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự suy tư chiêm nghiệm sâu sắc",
+            "syns": [
+              "deliberation",
+              "reflection",
+              "meditation"
+            ],
+            "ex": "Deep philosophical contemplation requires quiet, uninterrupted focus."
+          },
+          {
+            "word": "enforceable",
+            "pos": "adj",
+            "ipa": "/ɪnˈfɔː.sə.bəl/",
+            "level": "C1",
+            "mean": "có hiệu lực cưỡng chế thi hành bằng pháp luật",
+            "syns": [
+              "binding",
+              "compulsory",
+              "actionable"
+            ],
+            "ex": "Voluntary pledges must be replaced with legally enforceable regulations."
+          },
+          {
+            "word": "mandating",
+            "pos": "adj",
+            "ipa": "/ˈmæn.deɪ.tɪŋ/",
+            "level": "C1",
+            "mean": "ra lệnh bắt buộc thi hành theo luật",
+            "syns": [
+              "commanding",
+              "obligating",
+              "ordering"
+            ],
+            "ex": "New legislation is mandating annual safety audits for major platforms."
+          },
+          {
+            "word": "profiling",
+            "pos": "n",
+            "ipa": "/ˈprəʊ.faɪ.lɪŋ/",
+            "level": "C1",
+            "mean": "việc lập hồ sơ phân tích hành vi và tâm lý",
+            "syns": [
+              "behavioral tracking",
+              "data-profiling"
+            ],
+            "ex": "Consumers should have the legal right to opt out of commercial profiling."
+          },
+          {
+            "word": "friction",
+            "pos": "n",
+            "ipa": "/ˈfrɪk.ʃən/",
+            "level": "C1",
+            "mean": "ma sát nhận thức, rào cản làm chậm hành vi bốc đồng",
+            "syns": [
+              "deliberate pause",
+              "obstacle",
+              "impediment"
+            ],
+            "ex": "Humane design introduces intentional cognitive friction to prevent doomscrolling."
+          },
+          {
+            "word": "ruthless",
+            "pos": "adj",
+            "ipa": "/ˈruːθ.ləs/",
+            "level": "B2",
+            "mean": "tàn nhẫn, không khoan nhượng, bất chấp hậu quả",
+            "syns": [
+              "merciless",
+              "unrelenting",
+              "unscrupulous"
+            ],
+            "ex": "A ruthless focus on quarterly ad revenue damages civil discourse."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t25_q21",
+            "num": 21,
+            "question": "What is the primary subject explored in the passage?",
+            "questionVi": "Chủ đề chính được khám phá trong đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The hardware engineering of cellular mobile telecommunication towers",
+              "The design and societal consequences of social media recommendation algorithms and the need for ethical reform",
+              "The cryptographic programming of blockchain cryptocurrency transactions",
+              "The historical development of print newspapers during the Industrial Revolution"
+            ],
+            "optionsVi": [
+              "Kỹ thuật phần cứng của các tháp viễn thông di động tế bào",
+              "Thiết kế và hậu quả xã hội của các thuật toán đề xuất mạng xã hội cùng sự cần thiết của cải cách đạo đức",
+              "Lập trình mật mã của các giao dịch tiền điện tử chuỗi khối",
+              "Sự phát triển lịch sử của báo in trong thời kỳ Cách mạng Công nghiệp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Entire passage analyzes how recommendation algorithms work (telemetry, dopamine exploits), their deleterious societal impacts (polarization, teenage mental health), and policy/design solutions (DSA, humane design).",
+            "evidenceVi": "Toàn bài phân tích cách thức thuật toán đề xuất vận hành (dữ liệu vi mô, khai thác dopamine), các tác hại xã hội (phân cực, sức khỏe tâm thần giới trẻ) và giải pháp chính sách/thiết kế (DSA, thiết kế nhân văn).",
+            "explanation": "Đoạn văn phân tích toàn diện cơ chế hoạt động của thuật toán đề xuất mạng xã hội, các tác động xã hội/tâm lý tiêu cực và hướng cải cách pháp lý/đạo đức.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "proprietary recommendation algorithms represent the foundational commercial engine... systemic prioritization of affective engagement has fostered deleterious societal externalities... Addressing the algorithmic engagement crisis requires...",
+              "clueAnswer": "The design and societal consequences of social media recommendation algorithms and the need for ethical reform",
+              "keyPassage": "recommendation algorithms... optimize user engagement... deleterious societal externalities... Addressing the algorithmic engagement crisis requires",
+              "keyAnswer": "design and societal consequences of social media recommendation algorithms and the need for ethical reform",
+              "paraphrasePair": "recommendation algorithms / deleterious externalities / addressing crisis <=> design and societal consequences / need for ethical reform",
+              "meaningVi": "thiết kế thuật toán, hậu quả xã hội và sự cần thiết phải cải cách",
+              "deductionLogic": "Tổng hợp ý nghĩa từ đoạn 1 đến đoạn 4."
+            }
+          },
+          {
+            "id": "t25_q22",
+            "num": 22,
+            "question": "According to paragraph 1, what overarching metric are modern digital feeds algorithmically curated to optimize?",
+            "questionVi": "Theo đoạn 1, bảng tin kỹ thuật số hiện đại được thuật toán tuyển chọn nhằm tối ưu hóa chỉ số bao trùm nào?",
+            "questionType": "detail",
+            "options": [
+              "Strict chronological order of personal diary entries",
+              "Continuous user engagement and time spent on platform",
+              "The factual accuracy and scientific peer-review of content",
+              "The battery life preservation of mobile devices"
+            ],
+            "optionsVi": [
+              "Thứ tự thời gian nghiêm ngặt của các mục nhật ký cá nhân",
+              "Sự tương tác liên tục của người dùng và thời gian lưu lại trên nền tảng",
+              "Độ chính xác thực tế và bình duyệt khoa học của nội dung",
+              "Bảo tồn thời lượng pin của các thiết bị di động"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...modern digital feeds are algorithmically curated to optimize a single overarching metric: continuous user engagement... designed to maximize time spent on platform.",
+            "evidenceVi": "...các bảng tin kỹ thuật số hiện đại được thuật toán quản lý để tối ưu hóa một chỉ số bao trùm duy nhất: sự tương tác liên tục của người dùng... được thiết kế để tối đa hóa thời gian dành cho nền tảng.",
+            "explanation": "Đoạn 1 nêu rõ chỉ số duy nhất mà các thuật toán tối ưu hóa là 'continuous user engagement' (sự tương tác liên tục của người dùng).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết chỉ số thuật toán (Algorithmic Metric Detail)",
+              "cluePassage": "optimize a single overarching metric: continuous user engagement... maximize time spent on platform",
+              "clueAnswer": "Continuous user engagement and time spent on platform",
+              "keyPassage": "optimize a single overarching metric: continuous user engagement",
+              "keyAnswer": "Continuous user engagement and time spent on platform",
+              "paraphrasePair": "optimize continuous user engagement <=> Continuous user engagement and time spent on platform",
+              "meaningVi": "tối ưu hóa sự tương tác liên tục và thời gian trên ứng dụng",
+              "deductionLogic": "Khớp câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": "t25_q23",
+            "num": 23,
+            "question": "How do recommendation algorithms exploit human neurobiology according to paragraph 2?",
+            "questionVi": "Các thuật toán đề xuất khai thác sinh học thần kinh của con người như thế nào theo đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "By emitting electromagnetic waves that directly trigger physical muscle spasms",
+              "Through unpredictable intermittent variable rewards that stimulate dopamine surges similar to gambling addictions",
+              "By forcing users to stay awake through loud ultrasonic audio tones",
+              "By monitoring blood glucose levels via fingerprint scanners"
+            ],
+            "optionsVi": [
+              "Bằng cách phát ra sóng điện từ trực tiếp gây co thắt cơ bắp",
+              "Thông qua các phần thưởng biến đổi ngắt quãng không thể đoán trước kích thích tăng vọt dopamine tương tự nghiện cờ bạc",
+              "Bằng cách buộc người dùng phải thức thông qua âm thanh siêu âm lớn",
+              "Bằng cách theo dõi nồng độ đường trong máu qua máy quét vân tay"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Unpredictable intermittent variable rewards—such as notifications, algorithmic likes, and viral shares—stimulate dopamine surges identical to the neurochemical mechanisms underlying gambling addictions.",
+            "evidenceVi": "Những phần thưởng biến đổi không liên tục và không thể đoán trước—như thông báo, lượt thích thuật toán và lượt chia sẻ lan truyền—kích thích các đợt tăng vọt dopamine giống hệt như các cơ chế hóa thần kinh làm nền tảng cho chứng nghiện cờ bạc.",
+            "explanation": "Đoạn 2 chỉ rõ cơ chế: intermittent variable rewards (phần thưởng ngắt quãng) kích thích dopamine giống cơ chế nghiện cờ bạc.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết sinh học thần kinh (Neurobiology Detail)",
+              "cluePassage": "Unpredictable intermittent variable rewards—such as notifications, algorithmic likes, and viral shares—stimulate dopamine surges identical to the neurochemical mechanisms underlying gambling addictions",
+              "clueAnswer": "Through unpredictable intermittent variable rewards that stimulate dopamine surges similar to gambling addictions",
+              "keyPassage": "intermittent variable rewards... stimulate dopamine surges identical to the neurochemical mechanisms underlying gambling addictions",
+              "keyAnswer": "unpredictable intermittent variable rewards that stimulate dopamine surges similar to gambling addictions",
+              "paraphrasePair": "intermittent variable rewards... identical to gambling addictions <=> unpredictable intermittent variable rewards that stimulate dopamine surges similar to gambling addictions",
+              "meaningVi": "phần thưởng ngắt quãng kích thích dopamine giống nghiện cờ bạc",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t25_q24",
+            "num": 24,
+            "question": "The word 'deleterious' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'deleterious' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "detrimental",
+              "advantageous",
+              "negligible",
+              "spontaneous"
+            ],
+            "optionsVi": [
+              "có hại, gây tổn hại nặng nề",
+              "có lợi ích",
+              "không đáng kể",
+              "tự phát bộc phát"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The systemic prioritization of affective engagement has fostered deleterious societal externalities.",
+            "evidenceVi": "Sự ưu tiên có hệ thống cho mức độ gắn kết cảm xúc đã tạo ra những ngoại tác xã hội độc hại gây tổn hại nghiêm trọng.",
+            "explanation": "'Deleterious' nghĩa là có hại, độc hại, gây tổn thương ngấm ngầm, đồng nghĩa với 'detrimental' hoặc 'harmful'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng nâng cao (Advanced Vocabulary)",
+              "cluePassage": "fostered deleterious societal externalities",
+              "clueAnswer": "detrimental",
+              "keyPassage": "deleterious societal externalities",
+              "keyAnswer": "detrimental",
+              "paraphrasePair": "deleterious <=> detrimental",
+              "meaningVi": "có hại, gây tổn hại",
+              "deductionLogic": "Đi kèm với các ngoại tác tiêu cực xã hội (externalities), deleterious tương đương detrimental."
+            }
+          },
+          {
+            "id": "t25_q25",
+            "num": 25,
+            "question": "According to computational sociology studies in paragraph 2, what types of posts disseminate six times faster than objective factual reports?",
+            "questionVi": "Theo các nghiên cứu xã hội học điện toán trong đoạn 2, loại bài đăng nào lan truyền nhanh gấp 6 lần so với các báo cáo thực tế khách quan?",
+            "questionType": "detail",
+            "options": [
+              "Peer-reviewed medical research papers on nutrition",
+              "Emotionally inflammatory posts inciting moral outrage and tribal indignation",
+              "Detailed municipal traffic timetables and weather maps",
+              "Classical piano sheet music tutorials"
+            ],
+            "optionsVi": [
+              "Các bài báo nghiên cứu y khoa đã bình duyệt về dinh dưỡng",
+              "Các bài đăng kích động cảm xúc khơi gợi sự phẫn nộ đạo đức và chia rẽ bè phái",
+              "Các bảng giờ tàu xe đô thị chi tiết và bản đồ thời tiết",
+              "Các bài hướng dẫn đọc bản nhạc piano cổ điển"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...emotionally inflammatory posts, particularly those inciting moral outrage and tribal indignation, disseminate six times faster than objective factual reports.",
+            "evidenceVi": "...các bài đăng kích động cảm xúc, đặc biệt là những bài kích động sự phẫn nộ đạo đức và sự bất bình phe phái, lan truyền nhanh gấp sáu lần so với các báo cáo thực tế khách quan.",
+            "explanation": "Đoạn 2 nêu rõ các bài đăng kích động cảm xúc và phẫn nộ (emotionally inflammatory posts inciting moral outrage) lan truyền nhanh gấp 6 lần tin thật.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết lan truyền tin tức (Information Spread Detail)",
+              "cluePassage": "emotionally inflammatory posts, particularly those inciting moral outrage and tribal indignation, disseminate six times faster than objective factual reports",
+              "clueAnswer": "Emotionally inflammatory posts inciting moral outrage and tribal indignation",
+              "keyPassage": "emotionally inflammatory posts, particularly those inciting moral outrage and tribal indignation, disseminate six times faster",
+              "keyAnswer": "Emotionally inflammatory posts inciting moral outrage and tribal indignation",
+              "paraphrasePair": "emotionally inflammatory posts inciting moral outrage <=> Emotionally inflammatory posts inciting moral outrage and tribal indignation",
+              "meaningVi": "các bài viết kích động cảm xúc và phẫn nộ bè phái",
+              "deductionLogic": "Khớp câu 4 đoạn 2."
+            }
+          },
+          {
+            "id": "t25_q26",
+            "num": 26,
+            "question": "How does the cognitive cadence of micro-video consumption affect users according to paragraph 3?",
+            "questionVi": "Nhịp độ nhận thức của việc tiêu thụ video ngắn ảnh hưởng như thế nào đến người dùng theo đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "It expands long-term memory capacity by several gigabytes",
+              "It severely truncates attention spans and erodes capacity for sustained analytical contemplation",
+              "It accelerates reading speed of complex literary novels by five hundred percent",
+              "It completely eliminates the need for human sleep"
+            ],
+            "optionsVi": [
+              "Nó mở rộng dung lượng bộ nhớ dài hạn thêm vài gigabyte",
+              "Nó làm cắt ngắn nghiêm trọng khoảng chú ý và làm xói mòn khả năng suy tư phân tích bền bỉ",
+              "Nó tăng tốc độ đọc các tiểu thuyết văn học phức tạp lên 500%",
+              "Nó loại bỏ hoàn toàn nhu cầu phải ngủ của con người"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Furthermore, the cognitive cadence of micro-video consumption severely truncates attention spans, eroding capacity for sustained analytical contemplation.",
+            "evidenceVi": "Hơn nữa, nhịp điệu nhận thức của việc tiêu thụ video ngắn làm cắt ngắn nghiêm trọng khoảng chú ý, làm xói mòn năng lực suy tư phân tích bền bỉ.",
+            "explanation": "Đoạn 3 chỉ rõ video ngắn làm giảm khoảng chú ý (truncates attention spans) và xói mòn khả năng suy ngẫm phân tích (erodes analytical contemplation).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết tác động nhận thức (Cognitive Impact Detail)",
+              "cluePassage": "cognitive cadence of micro-video consumption severely truncates attention spans, eroding capacity for sustained analytical contemplation",
+              "clueAnswer": "severely truncates attention spans and erodes capacity for sustained analytical contemplation",
+              "keyPassage": "severely truncates attention spans, eroding capacity for sustained analytical contemplation",
+              "keyAnswer": "severely truncates attention spans and erodes capacity for sustained analytical contemplation",
+              "paraphrasePair": "truncates attention spans, eroding capacity for sustained analytical contemplation <=> truncates attention spans and erodes capacity for sustained analytical contemplation",
+              "meaningVi": "làm giảm thời lượng chú ý và xói mòn năng lực phân tích",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": "t25_q27",
+            "num": 27,
+            "question": "The word 'truncates' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'truncates' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "shortens",
+              "elongates",
+              "amplifies",
+              "rejuvenates"
+            ],
+            "optionsVi": [
+              "cắt ngắn, làm ngắn lại",
+              "kéo dài ra",
+              "khuếch đại lên",
+              "trẻ hóa làm mới"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...severely truncates attention spans...",
+            "evidenceVi": "...làm cắt ngắn nghiêm trọng khoảng thời gian chú ý...",
+            "explanation": "'Truncate' có nghĩa là cắt ngắn, làm cụt lại, đồng nghĩa với 'shortens' hoặc 'curtails'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "severely truncates attention spans",
+              "clueAnswer": "shortens",
+              "keyPassage": "truncates attention spans",
+              "keyAnswer": "shortens",
+              "paraphrasePair": "truncates <=> shortens",
+              "meaningVi": "làm ngắn lại, cắt ngắn",
+              "deductionLogic": "Khoảng chú ý bị rút ngắn lại do video ngắn, truncates tương đương shortens."
+            }
+          },
+          {
+            "id": "t25_q28",
+            "num": 28,
+            "question": "The phrase 'predictive behavioral profiles' in paragraph 1 is constructed by analyzing:",
+            "questionVi": "Cụm từ 'predictive behavioral profiles' (hồ sơ hành vi dự đoán) trong đoạn 1 được xây dựng bằng cách phân tích:",
+            "questionType": "reference",
+            "options": [
+              "Vast telemetry data such as dwell time, cursor velocity, comment sentiment, and tap frequency",
+              "Handwritten paper questionnaires mailed by users to corporate headquarters",
+              "Dental X-rays and medical records submitted during account registration",
+              "Historical census archives from the nineteenth century"
+            ],
+            "optionsVi": [
+              "Dữ liệu đo đạc hành vi khổng lồ như thời gian nán lại, tốc độ con trỏ, cảm xúc bình luận và tần suất chạm",
+              "Các bảng câu hỏi giấy viết tay do người dùng gửi qua đường bưu điện về trụ sở tập đoàn",
+              "Phim chụp X-quang răng và hồ sơ y tế nộp trong quá trình đăng ký tài khoản",
+              "Hồ sơ lưu trữ điều tra dân số lịch sử từ thế kỷ 19"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By analyzing vast telemetry data—including dwell time, cursor velocity, comment sentiment, and tap frequency—machine learning systems construct predictive behavioral profiles...",
+            "evidenceVi": "Bằng cách phân tích dữ liệu đo đạc hành vi khổng lồ—bao gồm thời gian nán lại, tốc độ con trỏ, cảm xúc bình luận và tần suất chạm—các hệ thống máy học xây dựng các hồ sơ hành vi có tính dự đoán...",
+            "explanation": "Đoạn 1 nêu rõ hồ sơ hành vi dự đoán được tạo nên từ phân tích dữ liệu telemetry: dwell time, cursor velocity, comment sentiment, và tap frequency.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Cụm từ quy chiếu dữ liệu (Data Reference Detail)",
+              "cluePassage": "analyzing vast telemetry data—including dwell time, cursor velocity, comment sentiment, and tap frequency—machine learning systems construct predictive behavioral profiles",
+              "clueAnswer": "Vast telemetry data such as dwell time, cursor velocity, comment sentiment, and tap frequency",
+              "keyPassage": "telemetry data—including dwell time, cursor velocity, comment sentiment, and tap frequency—machine learning systems construct predictive behavioral profiles",
+              "keyAnswer": "Vast telemetry data such as dwell time, cursor velocity, comment sentiment, and tap frequency",
+              "paraphrasePair": "telemetry data—including dwell time, cursor velocity, comment sentiment <=> Vast telemetry data such as dwell time, cursor velocity, comment sentiment, and tap frequency",
+              "meaningVi": "dữ liệu theo dõi hành vi chi tiết như thời gian nán lại và tốc độ con trỏ",
+              "deductionLogic": "Khớp câu 3 đoạn 1."
+            }
+          },
+          {
+            "id": "t25_q29",
+            "num": 29,
+            "question": "What does the European Union's Digital Services Act (DSA) mandate according to paragraph 4?",
+            "questionVi": "Đạo luật Dịch vụ Kỹ thuật số (DSA) của Liên minh Châu Âu quy định bắt buộc điều gì theo đoạn 4?",
+            "questionType": "detail",
+            "options": [
+              "Banning all personal computers and mobile phones for citizens under twenty-five",
+              "Algorithmic transparency, risk assessments, and the right for consumers to opt for non-profiling chronological feeds",
+              "Mandatory military service for all social media software developers",
+              "Government confiscation of all private advertising profits"
+            ],
+            "optionsVi": [
+              "Cấm toàn bộ máy tính cá nhân và điện thoại di động đối với công dân dưới 25 tuổi",
+              "Tính minh bạch của thuật toán, đánh giá rủi ro và quyền của người tiêu dùng được chọn bảng tin theo trình tự thời gian không bị lập hồ sơ",
+              "Nghĩa vụ quân sự bắt buộc đối với tất cả các nhà phát triển phần mềm mạng xã hội",
+              "Chính phủ tịch thu toàn bộ lợi nhuận quảng cáo tư nhân"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...such as the European Union through the Digital Services Act (DSA), are mandating algorithmic transparency, risk assessments, and the right for consumers to opt for non-profiling chronological feeds.",
+            "evidenceVi": "...chẳng hạn như Liên minh Châu Âu thông qua Đạo luật Dịch vụ Kỹ thuật số (DSA), đang yêu cầu tính minh bạch của thuật toán, đánh giá rủi ro và quyền của người tiêu dùng được chọn các bảng tin theo thứ tự thời gian không bị lập hồ sơ theo dõi.",
+            "explanation": "Đoạn 4 nêu rõ DSA quy định: algorithmic transparency, risk assessments, và quyền chọn chronological feeds không bị profiling.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết quy định pháp lý (Regulatory Detail)",
+              "cluePassage": "Digital Services Act (DSA), are mandating algorithmic transparency, risk assessments, and the right for consumers to opt for non-profiling chronological feeds",
+              "clueAnswer": "Algorithmic transparency, risk assessments, and the right for consumers to opt for non-profiling chronological feeds",
+              "keyPassage": "mandating algorithmic transparency, risk assessments, and the right for consumers to opt for non-profiling chronological feeds",
+              "keyAnswer": "Algorithmic transparency, risk assessments, and the right for consumers to opt for non-profiling chronological feeds",
+              "paraphrasePair": "mandating algorithmic transparency, risk assessments... <=> Algorithmic transparency, risk assessments, and the right for consumers to opt for non-profiling chronological feeds",
+              "meaningVi": "minh bạch thuật toán, đánh giá rủi ro và quyền chọn bảng tin thời gian",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": "t25_q30",
+            "num": 30,
+            "question": "Which of the following 'humane design' solutions is NOT mentioned in paragraph 4?",
+            "questionVi": "Giải pháp 'thiết kế nhân văn' nào sau đây KHÔNG được đề cập trong đoạn 4?",
+            "questionType": "negative_detail",
+            "options": [
+              "Screen-time limiters",
+              "Delayed notifications",
+              "Algorithmic diversity quotas",
+              "Implanting microchips directly into users' frontal lobes"
+            ],
+            "optionsVi": [
+              "Bộ giới hạn thời gian sử dụng màn hình",
+              "Thông báo bị trì hoãn",
+              "Hạn ngạch đa dạng hóa thuật toán",
+              "Cấy ghép vi mạch trực tiếp vào thùy trán của người dùng"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 lists: 'screen-time limiters' (A), 'delayed notifications' (B), and 'algorithmic diversity quotas' (C). Implanting microchips into lobes is completely unmentioned and dystopian fiction.",
+            "evidenceVi": "Đoạn 4 liệt kê: giới hạn thời gian màn hình (A), trì hoãn thông báo (B), hạn ngạch đa dạng thuật toán (C). Cấy vi mạch vào thùy trán là chi tiết hư cấu hoàn toàn không có trong bài.",
+            "explanation": "Phương án D không hề xuất hiện trong bài đọc.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Detail Check)",
+              "cluePassage": "intentional cognitive friction—such as screen-time limiters, delayed notifications, and algorithmic diversity quotas",
+              "clueAnswer": "Implanting microchips directly into users' frontal lobes",
+              "keyPassage": "screen-time limiters, delayed notifications, and algorithmic diversity quotas",
+              "keyAnswer": "implanting microchips (NOT mentioned)",
+              "paraphrasePair": "limiters / delayed notifications / diversity quotas vs implanting microchips",
+              "meaningVi": "các giải pháp thiết kế nhân văn thực tế so với chi tiết bịa đặt",
+              "deductionLogic": "Phương án D không xuất hiện trong bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Corporate Greenwashing & Environmental Accounting",
+        "topic": "Hành vi 'Tẩy xanh' của doanh nghiệp & Kế toán môi trường: Tín chỉ carbon mập mờ, khung báo cáo ESG và kiểm toán bền vững độc lập",
+        "timeAllowed": 15,
+        "passage": "<p>In an era defined by intensifying climatic volatility and heightened consumer environmental consciousness, corporate sustainability claims have proliferated across global markets. However, the surge in glossy sustainability reports and carbon-neutral branding has precipitated widespread accusations of 'greenwashing'—the deceptive practice of exaggerating, fabricating, or misrepresenting an enterprise's environmental stewardship to cultivate an unearned eco-friendly public persona. As corporate executives face unprecedented pressure from climate-conscious investors, greenwashing has evolved from crude advertising hyperbole into sophisticated communicative subterfuge, obfuscating continuing ecological degradation behind nebulous terminology and selective metric disclosures.</p><p>A predominant conduit for corporate greenwashing resides in the voluntary carbon offset market. Multinational polluters frequently tout carbon-neutral operational milestones by purchasing inexpensive carbon credits generated from dubious afforestation projects or avoided-deforestation concessions in developing nations. Rigorous investigative journalism and satellite remote-sensing audits have repeatedly revealed that a staggering majority of these voluntary offsets represent phantom reductions. Many project developers inflate historical baseline deforestation rates to fabricate fictitious emission savings, while others double-count carbon sequestration across multiple corporate buyers or fail to guarantee ecological permanence when conservation forests subsequently combust in wildfires.</p><p>Concurrently, corporate sustainability metrics are compromised by fragmented, self-referential Environmental, Social, and Governance (ESG) rating frameworks. Unlike rigorously codified financial accounting standards overseen by statutory regulatory authorities, ESG auditing historically lacked standardized taxonomies and auditable reporting boundaries. Consequently, corporations routinely engage in opportunistic cherry-picking, trumpeting superficial achievements—such as eliminating single-use plastic straws at corporate headquarters—while omitting catastrophic Scope 3 upstream and downstream supply-chain emissions that constitute over eighty percent of their aggregate ecological footprint. This methodological ambiguity allows carbon-intensive conglomerates to secure premium ESG ratings and attract billions in sustainable investment capital under false pretenses.</p><p>Dismantling corporate greenwashing necessitates establishing rigorous statutory environmental accounting frameworks backed by independent third-party verification. International regulatory bodies, such as the International Sustainability Standards Board (ISSB) and the European Corporate Sustainability Reporting Directive (CSRD), are implementing legally binding disclosure mandates that treat environmental data with the same auditable rigor as financial balance sheets. Furthermore, enforcing double materiality—compelling firms to report not only how climate risks impact their commercial balance sheets, but also how their operational activities degrade the biosphere—subjugates corporate green claims to inviolable empirical scrutiny, ensuring genuine ecological stewardship replaces deceptive public relations.</p>",
+        "vocab": [
+          {
+            "word": "stewardship",
+            "pos": "n",
+            "ipa": "/ˈstjuː.əd.ʃɪp/",
+            "level": "C1",
+            "mean": "sự quản lý có trách nhiệm và bảo tồn cẩn trọng",
+            "syns": [
+              "custodianship",
+              "management",
+              "oversight"
+            ],
+            "ex": "Genuine environmental stewardship requires reducing absolute greenhouse emissions."
+          },
+          {
+            "word": "persona",
+            "pos": "n",
+            "ipa": "/pəˈsəʊ.nə/",
+            "level": "C1",
+            "mean": "hình tượng công chúng tự dựng lên trước mắt dư luận",
+            "syns": [
+              "image",
+              "public face",
+              "facade"
+            ],
+            "ex": "The oil company constructed an eco-friendly persona through green marketing."
+          },
+          {
+            "word": "hyperbole",
+            "pos": "n",
+            "ipa": "/haɪˈpɜː.bəl.i/",
+            "level": "C1",
+            "mean": "lời nói quá, sự thổi phồng cường điệu",
+            "syns": [
+              "exaggeration",
+              "overstatement",
+              "magnification"
+            ],
+            "ex": "Marketing hyperbole claimed the packaging was one hundred percent ocean-safe."
+          },
+          {
+            "word": "subterfuge",
+            "pos": "n",
+            "ipa": "/ˈsʌb.tə.fjuːdʒ/",
+            "level": "C1",
+            "mean": "mánh khóe ngụy biện, thủ đoạn lừa dối tinh vi",
+            "syns": [
+              "deception",
+              "trickery",
+              "artifice"
+            ],
+            "ex": "Corporate greenwashing represents a sophisticated communicative subterfuge."
+          },
+          {
+            "word": "obfuscate",
+            "pos": "v",
+            "ipa": "/ˈɒb.fʌs.keɪt/",
+            "level": "C1",
+            "mean": "làm lu mờ, gây bối rối che giấu sự thật",
+            "syns": [
+              "blur",
+              "cloud",
+              "obscure"
+            ],
+            "ex": "Vague eco-labels deliberately obfuscate real factory pollution figures."
+          },
+          {
+            "word": "nebulous",
+            "pos": "adj",
+            "ipa": "/ˈneb.jʊ.ləs/",
+            "level": "C1",
+            "mean": "mơ hồ, mập mờ, thiếu ranh giới rõ ràng",
+            "syns": [
+              "vague",
+              "ill-defined",
+              "hazy"
+            ],
+            "ex": "Terms like 'natural' and 'clean' are nebulous claims without legal definition."
+          },
+          {
+            "word": "concession",
+            "pos": "n",
+            "ipa": "/kənˈseʃ.ən/",
+            "level": "C1",
+            "mean": "khu vực nhượng quyền khai thác hoặc quản lý bảo tồn",
+            "syns": [
+              "grant",
+              "lease",
+              "licensed tract"
+            ],
+            "ex": "The timber firm bought forestry concessions to generate carbon offset credits."
+          },
+          {
+            "word": "staggering",
+            "pos": "adj",
+            "ipa": "/ˈstæɡ.ər.ɪŋ/",
+            "level": "C1",
+            "mean": "đáng kinh ngạc, gây sửng sốt choáng váng",
+            "syns": [
+              "astonishing",
+              "shocking",
+              "astounding"
+            ],
+            "ex": "A staggering ninety percent of forest credits showed zero real carbon benefit."
+          },
+          {
+            "word": "phantom",
+            "pos": "adj",
+            "ipa": "/ˈfæn.təm/",
+            "level": "C1",
+            "mean": "ảo, không có thật trên thực tế, tồn tại trên giấy tờ",
+            "syns": [
+              "fictitious",
+              "illusory",
+              "ghostly"
+            ],
+            "ex": "Audits revealed that the reported carbon offsets were phantom reductions."
+          },
+          {
+            "word": "sequestration",
+            "pos": "n",
+            "ipa": "/ˌsiː.kwesˈtreɪ.ʃən/",
+            "level": "C1",
+            "mean": "quá trình cô lập và lưu giữ carbon lâu dài",
+            "syns": [
+              "carbon capture",
+              "storage",
+              "trapping"
+            ],
+            "ex": "Wetland restoration enhances long-term atmospheric carbon sequestration."
+          },
+          {
+            "word": "permanence",
+            "pos": "n",
+            "ipa": "/ˈpɜː.mə.nəns/",
+            "level": "C1",
+            "mean": "tính lâu bền, vĩnh viễn không bị đảo ngược",
+            "syns": [
+              "durability",
+              "endurance",
+              "longevity"
+            ],
+            "ex": "Wildfires threaten the ecological permanence of tree-planting initiatives."
+          },
+          {
+            "word": "combust",
+            "pos": "v",
+            "ipa": "/kəmˈbʌst/",
+            "level": "C1",
+            "mean": "bốc cháy, bùng cháy dữ dội",
+            "syns": [
+              "ignite",
+              "burn",
+              "catch fire"
+            ],
+            "ex": "Offset plantation forests combusted during extreme summer heatwaves."
+          },
+          {
+            "word": "self-referential",
+            "pos": "adj",
+            "ipa": "/ˌself.ref.əˈren.ʃəl/",
+            "level": "C1",
+            "mean": "tự quy chiếu, tự phong mà thiếu chuẩn mực bên ngoài",
+            "syns": [
+              "circular",
+              "inward-looking",
+              "self-justifying"
+            ],
+            "ex": "Self-referential ESG scores fail to reflect objective global emission trends."
+          },
+          {
+            "word": "codified",
+            "pos": "adj",
+            "ipa": "/ˈkəʊ.dɪ.faɪd/",
+            "level": "C1",
+            "mean": "được hệ thống hóa thành quy chuẩn pháp lý rõ ràng",
+            "syns": [
+              "systematized",
+              "standardized",
+              "formalized"
+            ],
+            "ex": "Unlike codified tax laws, sustainability metrics were largely voluntary."
+          },
+          {
+            "word": "statutory",
+            "pos": "adj",
+            "ipa": "/ˈstætʃ.ʊ.tər.i/",
+            "level": "C1",
+            "mean": "thuộc về luật định, do luật pháp quy định",
+            "syns": [
+              "legal",
+              "mandatory",
+              "legislated"
+            ],
+            "ex": "Public firms must comply with statutory financial auditing deadlines."
+          },
+          {
+            "word": "taxonomy",
+            "pos": "n",
+            "ipa": "/tækˈsɒn.ə.mi/",
+            "level": "C1",
+            "mean": "hệ thống phân loại khoa học chuẩn hóa",
+            "syns": [
+              "classification system",
+              "categorization",
+              "nomenclature"
+            ],
+            "ex": "The EU Green Taxonomy defines which corporate investments qualify as sustainable."
+          },
+          {
+            "word": "auditable",
+            "pos": "adj",
+            "ipa": "/ˈɔː.dɪ.tə.bəl/",
+            "level": "C1",
+            "mean": "có thể kiểm toán, xác minh chứng từ độc lập",
+            "syns": [
+              "verifiable",
+              "traceable",
+              "examinable"
+            ],
+            "ex": "Corporate carbon claims must be auditable by licensed third-party accountants."
+          },
+          {
+            "word": "cherry-picking",
+            "pos": "n",
+            "ipa": "/ˈtʃer.iˌpɪk.ɪŋ/",
+            "level": "C1",
+            "mean": "sự chọn lựa cơ hội (chỉ chọn số liệu đẹp bỏ qua số xấu)",
+            "syns": [
+              "selective reporting",
+              "opportunistic selection"
+            ],
+            "ex": "Cherry-picking minor recycling wins while hiding heavy emissions misleads investors."
+          },
+          {
+            "word": "superficial",
+            "pos": "adj",
+            "ipa": "/ˌsuː.pəˈfɪʃ.əl/",
+            "level": "B2",
+            "mean": "hời hợt, chỉ ở bề nổi không chạm đến bản chất",
+            "syns": [
+              "shallow",
+              "surface-level",
+              "cosmetic"
+            ],
+            "ex": "Banning plastic straws is a superficial gesture if supply-chain pollution grows."
+          },
+          {
+            "word": "aggregate",
+            "pos": "adj",
+            "ipa": "/ˈæɡ.rɪ.ɡət/",
+            "level": "C1",
+            "mean": "tổng thể, gộp lại toàn bộ các phần tử",
+            "syns": [
+              "total",
+              "cumulative",
+              "combined"
+            ],
+            "ex": "Scope 3 emissions comprise the vast majority of an automaker's aggregate footprint."
+          },
+          {
+            "word": "ambiguity",
+            "pos": "n",
+            "ipa": "/ˌæm.bɪˈɡjuː.ə.ti/",
+            "level": "C1",
+            "mean": "sự mập mờ, tính đa nghĩa khó phân định rõ ràng",
+            "syns": [
+              "vagueness",
+              "uncertainty",
+              "equivocation"
+            ],
+            "ex": "Methodological ambiguity in carbon calculations enables corporate greenwashing."
+          },
+          {
+            "word": "pretense",
+            "pos": "n",
+            "ipa": "/prɪˈtens/",
+            "level": "C1",
+            "mean": "bình phong giả tạo, sự ngụy tạo",
+            "syns": [
+              "deception",
+              "facade",
+              "sham"
+            ],
+            "ex": "High ESG ratings were awarded under the false pretense of genuine carbon neutrality."
+          },
+          {
+            "word": "mandate",
+            "pos": "n",
+            "ipa": "/ˈmæn.deɪt/",
+            "level": "C1",
+            "mean": "quy định bắt buộc thi hành theo luật",
+            "syns": [
+              "directive",
+              "requirement",
+              "decree"
+            ],
+            "ex": "New climate directives issue strict disclosure mandates for all listed firms."
+          },
+          {
+            "word": "materiality",
+            "pos": "n",
+            "ipa": "/məˌtɪə.riˈæl.ə.ti/",
+            "level": "C1",
+            "mean": "tính trọng yếu (thông tin có sức nặng ảnh hưởng quyết định)",
+            "syns": [
+              "significance",
+              "relevance",
+              "substantiality"
+            ],
+            "ex": "Double materiality assesses both financial impacts on the firm and the firm's impacts on nature."
+          },
+          {
+            "word": "biosphere",
+            "pos": "n",
+            "ipa": "/ˈbaɪ.əʊ.sfɪər/",
+            "level": "C1",
+            "mean": "sinh quyển (toàn bộ các hệ sinh thái sự sống trên Trái Đất)",
+            "syns": [
+              "global ecosystem",
+              "living world",
+              "ecosphere"
+            ],
+            "ex": "Uncontrolled industrial pollution degrades the stability of the global biosphere."
+          },
+          {
+            "word": "subjugate",
+            "pos": "v",
+            "ipa": "/ˈsʌb.dʒʊ.ɡeɪt/",
+            "level": "C1",
+            "mean": "đặt dưới quyền kiểm soát nghiêm ngặt, bắt phải tuân theo",
+            "syns": [
+              "subordinate",
+              "subject",
+              "subdue"
+            ],
+            "ex": "Regulators aim to subjugate corporate marketing to rigorous empirical standards."
+          },
+          {
+            "word": "scrutiny",
+            "pos": "n",
+            "ipa": "/ˈskruː.tɪ.ni/",
+            "level": "C1",
+            "mean": "sự soi xét kỹ lưỡng, giám sát nghiêm ngặt",
+            "syns": [
+              "close inspection",
+              "examination",
+              "audit"
+            ],
+            "ex": "Green bond issuers now face intense empirical scrutiny from investigative auditors."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t25_q31",
+            "num": 31,
+            "question": "What is the primary critical focus of the passage?",
+            "questionVi": "Trọng tâm phản biện chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The technical engineering of offshore wind turbine generators",
+              "The mechanisms of corporate greenwashing through carbon offsets and flawed ESG metrics, and statutory accounting reforms",
+              "The agricultural economics of organic coffee cooperatives in South America",
+              "The judicial arbitration procedures of maritime territorial disputes"
+            ],
+            "optionsVi": [
+              "Kỹ thuật của các máy phát điện tuabin gió ngoài khơi",
+              "Các cơ chế tẩy xanh của doanh nghiệp qua tín chỉ carbon và thước đo ESG lỗi, cùng các cải cách kế toán theo luật định",
+              "Kinh tế nông nghiệp của các hợp tác xã cà phê hữu cơ ở Nam Mỹ",
+              "Quy trình trọng tài tư pháp về các tranh chấp lãnh thổ hàng hải"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Entire passage analyzes corporate greenwashing: offset flaws (phantom reductions), ESG rating defects (cherry-picking, omitting Scope 3), and statutory solutions (ISSB, CSRD, double materiality).",
+            "evidenceVi": "Toàn bài phân tích hành vi tẩy xanh doanh nghiệp: lỗ hổng tín chỉ carbon (giảm phát thải ảo), khiếm khuyết xếp hạng ESG (chọn lọc hời hợt, bỏ qua Scope 3) và cải cách pháp lý (ISSB, CSRD, tính trọng yếu kép).",
+            "explanation": "Toàn bài phân tích chuyên sâu các chiêu thức tẩy xanh của doanh nghiệp và sự cần thiết của hệ thống kiểm toán môi trường theo luật định.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề phản biện chính (Critical Main Idea)",
+              "cluePassage": "corporate sustainability claims have proliferated... precipitated widespread accusations of 'greenwashing'... voluntary carbon offset market... ESG rating frameworks... Dismantling corporate greenwashing necessitates establishing rigorous statutory environmental accounting",
+              "clueAnswer": "The mechanisms of corporate greenwashing through carbon offsets and flawed ESG metrics, and statutory accounting reforms",
+              "keyPassage": "accusations of greenwashing... voluntary carbon offset market... fragmented ESG rating frameworks... statutory environmental accounting frameworks",
+              "keyAnswer": "mechanisms of corporate greenwashing through carbon offsets and flawed ESG metrics, and statutory accounting reforms",
+              "paraphrasePair": "greenwashing / carbon offset / ESG frameworks / statutory accounting <=> mechanisms of corporate greenwashing / flawed ESG metrics / statutory accounting reforms",
+              "meaningVi": "cơ chế tẩy xanh, thước đo ESG thiếu chuẩn và cải cách kế toán môi trường",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt 4 đoạn văn."
+            }
+          },
+          {
+            "id": "t25_q32",
+            "num": 32,
+            "question": "According to paragraph 1, how has corporate greenwashing evolved over time?",
+            "questionVi": "Theo đoạn 1, hành vi tẩy xanh của doanh nghiệp đã biến đổi như thế nào theo thời gian?",
+            "questionType": "detail",
+            "options": [
+              "It has ceased completely due to universal ethical consensus among CEOs",
+              "It has evolved from crude advertising hyperbole into sophisticated communicative subterfuge with nebulous terminology",
+              "It has been replaced entirely by direct charitable donations to local wildlife zoos",
+              "It has transformed into open public admissions of intentional industrial pollution"
+            ],
+            "optionsVi": [
+              "Nó đã chấm dứt hoàn toàn nhờ sự đồng thuận đạo đức phổ quát giữa các CEO",
+              "Nó đã phát triển từ sự thổi phồng quảng cáo thô thiển thành thủ đoạn ngụy biện tinh vi với các thuật ngữ mập mờ",
+              "Nó đã được thay thế hoàn toàn bằng các khoản quyên góp từ thiện trực tiếp cho các vườn thú địa phương",
+              "Nó đã biến thành những lời thừa nhận công khai về việc cố tình gây ô nhiễm công nghiệp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...greenwashing has evolved from crude advertising hyperbole into sophisticated communicative subterfuge, obfuscating continuing ecological degradation behind nebulous terminology and selective metric disclosures.",
+            "evidenceVi": "...hành vi tẩy xanh đã phát triển từ sự thổi phồng quảng cáo thô thiển thành thủ đoạn giao tiếp tinh vi, làm lu mờ sự suy thoái sinh thái tiếp diễn đằng sau các thuật ngữ mơ hồ và các công bố chỉ số có chọn lọc.",
+            "explanation": "Đoạn 1 nêu rõ greenwashing chuyển từ quảng cáo thổi phồng thô sơ (crude advertising hyperbole) thành thủ đoạn tinh vi (sophisticated communicative subterfuge).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết biến đổi chiến thuật (Tactical Evolution Detail)",
+              "cluePassage": "evolved from crude advertising hyperbole into sophisticated communicative subterfuge, obfuscating continuing ecological degradation behind nebulous terminology",
+              "clueAnswer": "evolved from crude advertising hyperbole into sophisticated communicative subterfuge with nebulous terminology",
+              "keyPassage": "crude advertising hyperbole into sophisticated communicative subterfuge, obfuscating continuing ecological degradation behind nebulous terminology",
+              "keyAnswer": "evolved from crude advertising hyperbole into sophisticated communicative subterfuge with nebulous terminology",
+              "paraphrasePair": "crude advertising hyperbole into sophisticated communicative subterfuge <=> evolved from crude advertising hyperbole into sophisticated communicative subterfuge",
+              "meaningVi": "từ thổi phồng quảng cáo thô thiển thành mánh khóe tinh vi",
+              "deductionLogic": "Khớp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": "t25_q33",
+            "num": 33,
+            "question": "What major flaw in the voluntary carbon offset market is highlighted in paragraph 2?",
+            "questionVi": "Lỗ hổng lớn nào trong thị trường tín chỉ carbon tự nguyện được làm nổi bật trong đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "Carbon credits are exclusively priced in gold bars that banks refuse to trade",
+              "A staggering majority represent phantom reductions due to inflated baselines, double-counting, or lack of permanence",
+              "Trees planted in offset forests grow too quickly and absorb too much oxygen",
+              "Satellites are legally banned from photographing forested regions in developing nations"
+            ],
+            "optionsVi": [
+              "Tín chỉ carbon được định giá độc quyền bằng vàng thỏi mà các ngân hàng từ chối giao dịch",
+              "Phần lớn đại diện cho sự cắt giảm ảo do thổi phồng đường cơ sở, tính trùng lặp hoặc thiếu tính lâu bền",
+              "Cây trồng trong các khu rừng bù đắp carbon phát triển quá nhanh và hút quá nhiều oxy",
+              "Các vệ tinh bị cấm về mặt pháp lý không được chụp ảnh các vùng rừng ở các quốc gia đang phát triển"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...staggering majority of these voluntary offsets represent phantom reductions. Many project developers inflate historical baseline deforestation rates to fabricate fictitious emission savings, while others double-count carbon sequestration... or fail to guarantee ecological permanence when conservation forests subsequently combust in wildfires.",
+            "evidenceVi": "...phần lớn đến mức sửng sốt của các khoản bù đắp tự nguyện này đại diện cho sự cắt giảm ảo. Nhiều nhà phát triển dự án thổi phồng tỷ lệ phá rừng đường cơ sở lịch sử để tạo ra các khoản tiết kiệm phát thải hư cấu, trong khi những người khác tính trùng lặp khả năng hấp thụ carbon... hoặc không đảm bảo tính lâu bền sinh thái khi các khu rừng bảo tồn sau đó bốc cháy trong cháy rừng.",
+            "explanation": "Đoạn 2 chỉ rõ: phantom reductions (cắt giảm ảo), inflated baselines (thổi phồng số liệu), double-counting (tính trùng) và thiếu tính permanence khi cháy rừng.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết lỗ hổng tín chỉ (Carbon Offset Flaw Detail)",
+              "cluePassage": "staggering majority of these voluntary offsets represent phantom reductions. Many project developers inflate historical baseline deforestation rates... double-count... fail to guarantee ecological permanence",
+              "clueAnswer": "A staggering majority represent phantom reductions due to inflated baselines, double-counting, or lack of permanence",
+              "keyPassage": "phantom reductions... inflate historical baseline deforestation rates... double-count... fail to guarantee ecological permanence",
+              "keyAnswer": "staggering majority represent phantom reductions due to inflated baselines, double-counting, or lack of permanence",
+              "paraphrasePair": "phantom reductions / inflate baselines / double-count / fail permanence <=> phantom reductions due to inflated baselines, double-counting, or lack of permanence",
+              "meaningVi": "cắt giảm ảo do thổi phồng số liệu cơ sở, tính trùng và mất vĩnh cửu",
+              "deductionLogic": "Khớp câu 3-4 đoạn 2."
+            }
+          },
+          {
+            "id": "t25_q34",
+            "num": 34,
+            "question": "The word 'obfuscating' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'obfuscating' trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "obscuring and confusing",
+              "clarifying and illuminating",
+              "measuring and recording",
+              "celebrating and rewarding"
+            ],
+            "optionsVi": [
+              "làm lu mờ và gây bối rối che đậy",
+              "làm rõ ràng và soi sáng",
+              "đo đạc và ghi chép",
+              "ăn mừng và khen thưởng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...obfuscating continuing ecological degradation behind nebulous terminology...",
+            "evidenceVi": "...làm lu mờ sự suy thoái sinh thái đang tiếp diễn đằng sau các thuật ngữ mơ hồ...",
+            "explanation": "'Obfuscate' có nghĩa là làm mờ đi, gây khó hiểu, che đậy bản chất, đồng nghĩa với 'obscuring and confusing'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "obfuscating continuing ecological degradation behind nebulous terminology",
+              "clueAnswer": "obscuring and confusing",
+              "keyPassage": "obfuscating continuing ecological degradation",
+              "keyAnswer": "obscuring and confusing",
+              "paraphrasePair": "obfuscating <=> obscuring and confusing",
+              "meaningVi": "làm lu mờ, gây bối rối che đậy",
+              "deductionLogic": "Ngữ cảnh che đậy tàn phá môi trường bằng thuật ngữ mơ hồ, obfuscating tương đương obscuring."
+            }
+          },
+          {
+            "id": "t25_q35",
+            "num": 35,
+            "question": "According to paragraph 3, why is corporate ESG reporting criticized regarding 'Scope 3' emissions?",
+            "questionVi": "Theo đoạn 3, tại sao báo cáo ESG của doanh nghiệp lại bị chỉ trích liên quan đến phát thải 'Scope 3'?",
+            "questionType": "detail",
+            "options": [
+              "Because Scope 3 emissions only occur in outer space exploration missions",
+              "Because companies highlight superficial headquarter achievements while omitting Scope 3 supply-chain emissions that exceed eighty percent of their footprint",
+              "Because Scope 3 emissions have been proven completely harmless to biological life",
+              "Because companies are legally prohibited from measuring any supply-chain data"
+            ],
+            "optionsVi": [
+              "Vì phát thải Scope 3 chỉ xảy ra trong các nhiệm vụ thám hiểm không gian vũ trụ",
+              "Vì các công ty nêu bật thành tích hời hợt tại trụ sở trong khi bỏ qua phát thải chuỗi cung ứng Scope 3 vốn chiếm hơn 80% dấu chân sinh thái",
+              "Vì phát thải Scope 3 đã được chứng minh là hoàn toàn vô hại đối với sinh vật học",
+              "Vì các công ty bị pháp luật nghiêm cấm đo lường bất kỳ dữ liệu chuỗi cung ứng nào"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...corporations routinely engage in opportunistic cherry-picking, trumpeting superficial achievements—such as eliminating single-use plastic straws at corporate headquarters—while omitting catastrophic Scope 3 upstream and downstream supply-chain emissions that constitute over eighty percent of their aggregate ecological footprint.",
+            "evidenceVi": "...các tập đoàn thường xuyên thực hiện việc chọn lọc số liệu có lợi, tán dương những thành tựu hời hợt—chẳng hạn như loại bỏ ống hút nhựa dùng một lần tại trụ sở công ty—trong khi bỏ qua các đợt phát thải chuỗi cung ứng thượng nguồn và hạ nguồn Scope 3 thảm khốc chiếm hơn 80% tổng dấu chân sinh thái của họ.",
+            "explanation": "Đoạn 3 chỉ trích việc 'cherry-picking': khoe khoang bỏ ống hút nhựa ở văn phòng trong khi giấu phát thải Scope 3 từ chuỗi cung ứng chiếm hơn 80%.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết báo cáo ESG (ESG Reporting Critique Detail)",
+              "cluePassage": "trumpeting superficial achievements—such as eliminating single-use plastic straws at corporate headquarters—while omitting catastrophic Scope 3 upstream and downstream supply-chain emissions that constitute over eighty percent of their aggregate ecological footprint",
+              "clueAnswer": "companies highlight superficial headquarter achievements while omitting Scope 3 supply-chain emissions that exceed eighty percent of their footprint",
+              "keyPassage": "trumpeting superficial achievements... while omitting catastrophic Scope 3... over eighty percent of their aggregate ecological footprint",
+              "keyAnswer": "highlight superficial headquarter achievements while omitting Scope 3 supply-chain emissions that exceed eighty percent",
+              "paraphrasePair": "trumpeting superficial achievements while omitting Scope 3 <=> highlight superficial headquarter achievements while omitting Scope 3",
+              "meaningVi": "khoe thành tích bề nổi ở văn phòng và giấu phát thải chuỗi cung ứng trên 80%",
+              "deductionLogic": "Khớp câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": "t25_q36",
+            "num": 36,
+            "question": "The word 'nebulous' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'nebulous' trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "vague and ill-defined",
+              "mathematically precise",
+              "statutory and legally binding",
+              "combustible"
+            ],
+            "optionsVi": [
+              "mơ hồ và không rõ ràng",
+              "chính xác về mặt toán học",
+              "theo luật định và ràng buộc pháp lý",
+              "dễ bắt lửa bốc cháy"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...behind nebulous terminology and selective metric disclosures.",
+            "evidenceVi": "...đằng sau những thuật ngữ mơ hồ mập mờ và các công bố chỉ số có chọn lọc.",
+            "explanation": "'Nebulous' có nghĩa là mơ hồ, mờ mịt, thiếu ranh giới cụ thể, đồng nghĩa với 'vague and ill-defined'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "behind nebulous terminology and selective metric disclosures",
+              "clueAnswer": "vague and ill-defined",
+              "keyPassage": "nebulous terminology",
+              "keyAnswer": "vague and ill-defined",
+              "paraphrasePair": "nebulous <=> vague and ill-defined",
+              "meaningVi": "mơ hồ, mập mờ, không rõ ràng",
+              "deductionLogic": "Thuật ngữ tẩy xanh thường mập mờ thiếu định nghĩa, do đó nebulous tương đương vague."
+            }
+          },
+          {
+            "id": "t25_q37",
+            "num": 37,
+            "question": "What is the concept of 'double materiality' explained in paragraph 4?",
+            "questionVi": "Khái niệm 'tính trọng yếu kép' (double materiality) được giải thích trong đoạn 4 là gì?",
+            "questionType": "detail",
+            "options": [
+              "Requiring companies to file two separate tax returns with the government each year",
+              "Compelling firms to report both how climate risks affect their commercial balance sheets and how their operations degrade the biosphere",
+              "Doubling the price of carbon offset credits purchased by fossil fuel corporations",
+              "Mandating that executives receive double their normal annual salary if carbon emissions decrease"
+            ],
+            "optionsVi": [
+              "Yêu cầu các công ty nộp hai tờ khai thuế riêng biệt cho chính phủ mỗi năm",
+              "Buộc các doanh nghiệp phải báo cáo cả hai chiều: rủi ro khí hậu ảnh hưởng thế nào đến bảng cân đối tài chính và hoạt động của họ tàn phá sinh quyển ra sao",
+              "Tăng gấp đôi giá tín chỉ bù đắp carbon do các tập đoàn nhiên liệu hóa thạch mua",
+              "Quy định bắt buộc các giám đốc điều hành nhận gấp đôi lương hàng năm nếu lượng khí thải carbon giảm"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...enforcing double materiality—compelling firms to report not only how climate risks impact their commercial balance sheets, but also how their operational activities degrade the biosphere...",
+            "evidenceVi": "...thực thi tính trọng yếu kép—buộc các công ty phải báo cáo không chỉ rủi ro khí hậu tác động như thế nào đến bảng cân đối kế toán thương mại của họ, mà còn cả cách các hoạt động vận hành của họ làm suy thoái sinh quyển...",
+            "explanation": "Đoạn 4 giải thích rõ: double materiality yêu cầu báo cáo 2 chiều: tác động của khí hậu lên tài chính doanh nghiệp VÀ tác động của doanh nghiệp lên sinh quyển.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết khái niệm trọng yếu kép (Double Materiality Detail)",
+              "cluePassage": "enforcing double materiality—compelling firms to report not only how climate risks impact their commercial balance sheets, but also how their operational activities degrade the biosphere",
+              "clueAnswer": "Compelling firms to report both how climate risks affect their commercial balance sheets and how their operations degrade the biosphere",
+              "keyPassage": "report not only how climate risks impact their commercial balance sheets, but also how their operational activities degrade the biosphere",
+              "keyAnswer": "report both how climate risks affect their commercial balance sheets and how their operations degrade the biosphere",
+              "paraphrasePair": "report not only how climate risks impact... but also how operations degrade biosphere <=> report both how climate risks affect balance sheets and how operations degrade biosphere",
+              "meaningVi": "báo cáo tác động tài chính lẫn tác động tàn phá sinh quyển",
+              "deductionLogic": "Khớp câu 3 đoạn 4."
+            }
+          },
+          {
+            "id": "t25_q38",
+            "num": 38,
+            "question": "The word 'their' in paragraph 3 refers to:",
+            "questionVi": "Từ 'their' trong đoạn 3 ám chỉ đối tượng nào:",
+            "questionType": "reference",
+            "options": [
+              "Plastic straws",
+              "Corporations",
+              "Statutory regulatory authorities",
+              "Independent satellite auditors"
+            ],
+            "optionsVi": [
+              "Ống hút nhựa",
+              "Các tập đoàn doanh nghiệp",
+              "Các cơ quan quản lý theo luật định",
+              "Các kiểm toán viên vệ tinh độc lập"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...corporations routinely engage in opportunistic cherry-picking... while omitting catastrophic Scope 3 upstream and downstream supply-chain emissions that constitute over eighty percent of their aggregate ecological footprint.",
+            "evidenceVi": "...các tập đoàn thường xuyên thực hiện việc chọn lọc cơ hội... trong khi bỏ qua các đợt phát thải chuỗi cung ứng Scope 3 thảm khốc chiếm hơn 80% tổng dấu chân sinh thái của họ.",
+            "explanation": "'Their' sở hữu cho 'corporations' (dấu chân sinh thái của các tập đoàn).",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ sở hữu quy chiếu (Possessive Reference)",
+              "cluePassage": "corporations routinely engage in opportunistic cherry-picking... constitute over eighty percent of their aggregate ecological footprint",
+              "clueAnswer": "Corporations",
+              "keyPassage": "corporations... their aggregate ecological footprint",
+              "keyAnswer": "Corporations",
+              "paraphrasePair": "corporations <=> their",
+              "meaningVi": "các tập đoàn doanh nghiệp",
+              "deductionLogic": "Chủ ngữ của câu là corporations, sở hữu 'their aggregate ecological footprint'."
+            }
+          },
+          {
+            "id": "t25_q39",
+            "num": 39,
+            "question": "According to paragraph 4, which of the following is NOT mentioned as a statutory or regulatory reform against greenwashing?",
+            "questionVi": "Theo đoạn 4, điều nào sau đây KHÔNG được đề cập như một cải cách theo luật định hoặc quản lý chống tẩy xanh?",
+            "questionType": "negative_detail",
+            "options": [
+              "Standards from the International Sustainability Standards Board (ISSB)",
+              "The European Corporate Sustainability Reporting Directive (CSRD)",
+              "Enforcing double materiality reporting mandates",
+              "Abolishing all international stock exchanges and banning private business ownership"
+            ],
+            "optionsVi": [
+              "Các tiêu chuẩn từ Ủy ban Tiêu chuẩn Bền vững Quốc tế (ISSB)",
+              "Chỉ thị Báo cáo Bền vững Doanh nghiệp Châu Âu (CSRD)",
+              "Thực thi các quy định bắt buộc báo cáo tính trọng yếu kép",
+              "Bãi bỏ toàn bộ thị trường chứng khoán quốc tế và cấm sở hữu doanh nghiệp tư nhân"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 lists: ISSB (A), CSRD (B), and double materiality mandates (C). Abolishing stock exchanges and banning private ownership is completely unmentioned and radical fiction.",
+            "evidenceVi": "Đoạn 4 nêu: ISSB (A), CSRD (B) và tính trọng yếu kép (C). Bãi bỏ sàn chứng khoán và cấm doanh nghiệp tư nhân là hoàn toàn bịa đặt.",
+            "explanation": "Phương án D không hề xuất hiện trong đoạn 4.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Detail Check)",
+              "cluePassage": "International Sustainability Standards Board (ISSB) and the European Corporate Sustainability Reporting Directive (CSRD)... enforcing double materiality",
+              "clueAnswer": "Abolishing all international stock exchanges and banning private business ownership",
+              "keyPassage": "ISSB... CSRD... double materiality",
+              "keyAnswer": "abolishing stock exchanges (NOT mentioned)",
+              "paraphrasePair": "ISSB / CSRD / double materiality vs abolishing stock exchanges",
+              "meaningVi": "các sáng kiến chuẩn mực thực tế so với chi tiết vô căn cứ",
+              "deductionLogic": "Phương án D hoàn toàn không có trong đoạn 4."
+            }
+          },
+          {
+            "id": "t25_q40",
+            "num": 40,
+            "question": "What does the author state is necessary in the final sentence to replace deceptive public relations?",
+            "questionVi": "Tác giả khẳng định điều gì là cần thiết ở câu cuối cùng để thay thế hoạt động quan hệ công chúng lừa dối?",
+            "questionType": "inference",
+            "options": [
+              "Permitting corporations to self-certify their own carbon emissions without external audits",
+              "Subjugating corporate green claims to inviolable empirical scrutiny to ensure genuine ecological stewardship",
+              "Replacing all human accountants with automated generative artificial intelligence bots",
+              "Prohibiting journalists from publishing investigative reports on commercial enterprises"
+            ],
+            "optionsVi": [
+              "Cho phép các tập đoàn tự chứng nhận lượng khí thải carbon của mình mà không cần kiểm toán bên ngoài",
+              "Đặt các tuyên bố xanh của doanh nghiệp dưới sự giám sát thực nghiệm bất khả xâm phạm để đảm bảo sự quản lý sinh thái thực chất",
+              "Thay thế toàn bộ kế toán viên con người bằng bot trí tuệ nhân tạo tạo sinh tự động",
+              "Cấm các nhà báo công bố các phóng sự điều tra về các doanh nghiệp thương mại"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...subjugates corporate green claims to inviolable empirical scrutiny, ensuring genuine ecological stewardship replaces deceptive public relations.",
+            "evidenceVi": "...đặt những tuyên bố xanh của doanh nghiệp dưới sự giám sát thực nghiệm bất khả xâm phạm, đảm bảo sự quản lý sinh thái thực chất thay thế cho các hoạt động quan hệ công chúng mang tính lừa dối.",
+            "explanation": "Câu kết đoạn 4 khẳng định phải đặt các tuyên bố xanh dưới sự kiểm toán thực nghiệm nghiêm ngặt (inviolable empirical scrutiny) để bảo vệ sinh thái thực chất.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Kết luận tác giả (Author's Final Synthesis)",
+              "cluePassage": "subjugates corporate green claims to inviolable empirical scrutiny, ensuring genuine ecological stewardship replaces deceptive public relations",
+              "clueAnswer": "Subjugating corporate green claims to inviolable empirical scrutiny to ensure genuine ecological stewardship",
+              "keyPassage": "subjugates corporate green claims to inviolable empirical scrutiny, ensuring genuine ecological stewardship replaces deceptive public relations",
+              "keyAnswer": "Subjugating corporate green claims to inviolable empirical scrutiny to ensure genuine ecological stewardship",
+              "paraphrasePair": "subjugates corporate green claims to inviolable empirical scrutiny <=> Subjugating corporate green claims to inviolable empirical scrutiny",
+              "meaningVi": "đặt tuyên bố xanh dưới sự kiểm tra thực nghiệm chặt chẽ",
+              "deductionLogic": "Khớp câu cuối cùng của bài đọc."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 

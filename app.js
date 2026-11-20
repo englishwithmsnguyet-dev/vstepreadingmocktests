@@ -1551,6 +1551,7 @@ function renderPracticeView() {
     const test22 = tests.find(t => t.testNum === 22);
     const test23 = tests.find(t => t.testNum === 23);
     const test24 = tests.find(t => t.testNum === 24);
+    const test25 = tests.find(t => t.testNum === 25);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -3965,90 +3966,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 15. BỘ ĐỀ THỰC CHIẾN 15 (TEST 25) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 15. BỘ ĐỀ THỰC CHIẾN 15 (TEST 25) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite25') {
+        const savedAnsCount25 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 25) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved25 = state.savedExam && state.savedExam.testNum === 25 && savedAnsCount25 > 0;
+        const totalVocab25 = (test25 && test25.passages) ? test25.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta25 = [
+            {
+                testNum: 25,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'nutrition_fastfood',
+                categoryName: 'Dinh dưỡng học & Hành vi giới trẻ',
+                categoryColor: '#f97316',
+                badgeBg: '#fff7ed',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Fast Food Trends & Youth Dietary Shifts',
+                icon: 'fa-burger',
+                title: 'Fast Food Trends & Youth Dietary Shifts: Marketing & Health Impacts',
+                titleVi: 'Xu hướng thức ăn nhanh & Sự thay đổi chế độ ăn của giới trẻ',
+                summary: 'Sự bùng nổ của chuỗi thức ăn nhanh, tiếp thị thuật toán cá nhân hóa, ứng dụng giao hàng tiện lợi thay thế bữa cơm nhà và nguy cơ kháng insulin, suy giảm nhận thức thanh thiếu niên.'
+            },
+            {
+                testNum: 25,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'traditional_music_guqin',
+                categoryName: 'Âm nhạc học & Di sản văn hóa Á Đông',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: Chinese Traditional Music & The Guqin',
+                icon: 'fa-guitar',
+                title: 'Chinese Traditional Music & The Guqin: Philosophy, Dexterity & Revival',
+                titleVi: 'Âm nhạc cổ truyền Trung Hoa & Cổ cầm: Triết lý, Kỹ thuật & Sự phục hưng',
+                summary: 'Đàn cổ cầm 7 dây tinh túy của Nho sĩ, tính biểu tượng vũ trụ trời tròn đất vuông, thang ngũ cung 5 nguyên tố, ký âm giản tự phổ (jianzipu) và di sản phi vật thể nhân loại UNESCO.'
+            },
+            {
+                testNum: 25,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'social_media_algorithms',
+                categoryName: 'Công nghệ thông tin & Tâm lý học truyền thông',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Social Media Algorithms & User Engagement',
+                icon: 'fa-hashtag',
+                title: 'Social Media Algorithms & User Engagement Metrics: Neurobiology & Reform',
+                titleVi: 'Thuật toán mạng xã hội & Chỉ số tương tác người dùng: Thần kinh & Cải cách',
+                summary: 'Tối ưu hóa chỉ số tương tác liên tục qua telemetry, khai thác vòng lặp dopamine cờ bạc, buồng vang thông tin (echo chambers), chứng mặc cảm ngoại hình và đạo luật DSA Châu Âu.'
+            },
+            {
+                testNum: 25,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'environmental_accounting',
+                categoryName: 'Kinh tế môi trường & Kiểm toán doanh nghiệp',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Corporate Greenwashing & Environmental Accounting',
+                icon: 'fa-leaf',
+                title: 'Corporate Greenwashing & Environmental Accounting: Offsets & ESG Reform',
+                titleVi: 'Hành vi "Tẩy xanh" của doanh nghiệp & Kế toán môi trường theo luật định',
+                summary: 'Vạch trần tín chỉ carbon tự nguyện cắt giảm ảo (phantom reductions), chọn lọc hời hợt bỏ qua Scope 3 trong xếp hạng ESG, cùng giải pháp tính trọng yếu kép (double materiality) và chuẩn CSRD.'
+            }
+        ];
+
+        let pCardsHtml25 = '';
+        passagesMeta25.forEach(meta => {
+            const pData = (test25 && test25.passages) ? test25.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml25 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-25">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-15" id="suite-box-25">
+                <div class="practice-suite-header suite-header-15">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(249, 115, 22, 0.25); color: #fdba74; border-color: rgba(249, 115, 22, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 15 (TEST 25) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #fdba74;"></i> BỘ ĐỀ THỰC CHIẾN 15 (TEST 25) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 15 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Xu hướng thức ăn nhanh (Part 1) • Âm nhạc cổ truyền Trung Quốc (Part 2) • Nền tảng MXH & Tương tác (Part 3) • Tẩy xanh Greenwashing (Part 4)
+                            <strong>4 Topics:</strong> Xu hướng thức ăn nhanh (Part 1) • Âm nhạc cổ truyền Cổ cầm (Part 2) • Thuật toán mạng xã hội (Part 3) • Tẩy xanh Greenwashing (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab25} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(25)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab25} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved25 ? 'background: linear-gradient(135deg, #c2410c, #f97316) !important;' : ''}" onclick="${isSaved25 ? 'resumeSavedExam()' : 'startFullExam(25)'}">
+                            ${isSaved25 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount25}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(25)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #f97316;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 15):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Evolution of Fast Food Trends</h4>
-                                <h5>Xu hướng thức ăn nhanh toàn cầu: Từ tiện lợi siêu tốc đến lựa chọn lành mạnh</h5>
-                                <p>Sự trỗi dậy của các chuỗi đồ ăn nhanh, biến chuyển sang thực phẩm hữu cơ, nguyên liệu gốc thực vật và thách thức béo phì trong xã hội hiện đại.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#f97316;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Traditional Chinese Music & Instruments</h4>
-                                <h5>Âm nhạc cổ truyền Trung Quốc: Hệ ngũ cung, nhạc cụ truyền thống & Triết lý âm dương</h5>
-                                <p>Khám phá âm sắc đàn Cổ cầm (Guqin), đàn Nhị (Erhu), thang âm ngũ cung trong tư tưởng Đạo giáo và sự bảo tồn âm nhạc di sản qua các thời đại.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Social Media Platforms & Engagement</h4>
-                                <h5>Các nền tảng mạng xã hội: Thuật toán tương tác & Tâm lý học người dùng</h5>
-                                <p>Cơ chế giữ chân người dùng qua các định dạng video ngắn, tác động của vòng lặp thông báo (notification loops) và sự phân cực ý kiến trong cộng đồng mạng.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Corporate Greenwashing & Sustainability</h4>
-                                <h5>Chiêu trò "Tẩy xanh" của doanh nghiệp & Khung quản lý tính bền vững</h5>
-                                <p>Bóc tách các chiến dịch marketing tạo vỏ bọc thân thiện môi trường của các tập đoàn đa quốc gia và khung pháp lý siết chặt kiểm toán sinh thái.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml25}
                     </div>
                 </div>
             </div>
