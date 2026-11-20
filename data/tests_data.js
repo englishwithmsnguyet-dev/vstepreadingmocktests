@@ -72443,6 +72443,2557 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST30",
+    "testNum": 30,
+    "title": "VSTEP READING MOCK TEST 30",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 20 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: The Discovery & History of Umami",
+        "topic": "Lịch sử tìm ra vị cơ bản thứ 5 (Umami): Nhà hóa học Kikunae Ikeda tách chiết glutamate từ tảo bẹ kombu năm 1908 và hành trình khoa học công nhận toàn cầu",
+        "timeAllowed": 15,
+        "passage": "<p>For centuries, classical Western gastronomic theory asserted that human gustatory perception was governed exclusively by four cardinal taste modalities: sweet, sour, salty, and bitter. However, in 1908, a perceptive Japanese chemist named Kikunae Ikeda at Tokyo Imperial University overturned this entrenched dogma. While savoring a traditional bowl of dashi broth made from dried kelp (<em>kombu</em>), Ikeda discerned an elusive, deeply savory nuance that defied categorization within the recognized fourfold paradigm. Convinced that this distinctive savoriness was produced by a specific chemical compound, Ikeda initiated rigorous laboratory extractions on massive vats of boiled brown kelp, eventually isolating white crystalline flakes of an amino acid: monosodium glutamate (MSG). He coined this novel sensation <em>umami</em>, derived from the colloquial Japanese adjective <em>umai</em>, meaning delicious.</p><p>Recognizing the immense commercial and nutritional potential of his discovery, Ikeda patented an industrial production process and partnered with entrepreneur Saburosuke Suzuki to market crystallized seasoning under the brand name <em>Ajinomoto</em>, meaning 'essence of taste.' Ikeda envisioned that affordable MSG seasoning would enhance the flavor of modest staple diets across Asia, encouraging balanced nutrition among impoverished communities by making inexpensive vegetables and rice significantly more palatable. Early culinary uptake was swift in Japanese kitchens, where cooks embraced it as a revolutionary shortcut to replicate hours of simmering kelp stock.</p><p>Despite its commercial popularity across East Asia, mainstream Western physiological science remained intensely skeptical of umami for nearly a century. European and American researchers routinely dismissed umami as a subjective cultural illusion or merely a flavor enhancer that amplified existing saltiness rather than an independent primary taste. This skepticism was compounded in the late 1960s by unsubstantiated public hysteria regarding 'Chinese Restaurant Syndrome,' which wrongly blamed MSG for headaches and palpitations without rigorous clinical validation. Consequently, MSG was stigmatized in Western grocery markets for decades despite rigorous international food safety agencies repeatedly confirming its benign biological safety profile.</p><p>Vindication arrived in the late 1990s through revolutionary breakthroughs in molecular neurobiology. Scientists identified specialized G-protein coupled receptors—specifically mGluR4 and the heterodimer T1R1+T1R3—located on human tongue taste buds that respond exclusively to L-glutamate and synergistic purine ribonucleotides found in aged cheeses, ripe tomatoes, mushrooms, and cured meats. With this definitive histological evidence, the international scientific community officially recognized umami as humanity’s fifth primary taste, validating Kikunae Ikeda's century-old culinary insight and bridging global gastronomic philosophy with modern sensory neuroscience.</p>",
+        "vocab": [
+          {
+            "word": "gastronomic",
+            "pos": "adjective",
+            "ipa": "/ˌɡæs.trəˈnɒm.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về nghệ thuật ẩm thực, sành ăn",
+            "syns": [
+              "culinary",
+              "epicurean"
+            ],
+            "ex": "Paris and Tokyo are celebrated for their rich gastronomic heritage."
+          },
+          {
+            "word": "gustatory",
+            "pos": "adjective",
+            "ipa": "/ˈɡʌs.tə.tər.i/",
+            "level": "C1",
+            "mean": "thuộc về vị giác, cảm nhận vị",
+            "syns": [
+              "taste-related",
+              "palatal"
+            ],
+            "ex": "The tongue possesses thousands of microscopic gustatory receptors."
+          },
+          {
+            "word": "modality",
+            "pos": "noun",
+            "ipa": "/məʊˈdæl.ə.ti/",
+            "level": "C1",
+            "mean": "phương thức cảm giác chuyên biệt",
+            "syns": [
+              "sensory category",
+              "type",
+              "form"
+            ],
+            "ex": "Umami was officially accepted as a distinct sensory modality."
+          },
+          {
+            "word": "dogma",
+            "pos": "noun",
+            "ipa": "/ˈdɒɡ.mə/",
+            "level": "C1",
+            "mean": "giáo điều cứng nhắc, định kiến bất biến",
+            "syns": [
+              "doctrine",
+              "unquestioned belief",
+              "tenet"
+            ],
+            "ex": "Scientific discoveries often challenge long-held academic dogma."
+          },
+          {
+            "word": "elusive",
+            "pos": "adjective",
+            "ipa": "/iˈluː.sɪv/",
+            "level": "B2",
+            "mean": "khó nắm bắt, thoắt ẩn thoắt hiện",
+            "syns": [
+              "subtle",
+              "intangible",
+              "fleeting"
+            ],
+            "ex": "The broth carried an elusive savory undertone that was difficult to describe."
+          },
+          {
+            "word": "dashi",
+            "pos": "noun",
+            "ipa": "/ˈdæʃ.i/",
+            "level": "B1",
+            "mean": "nước dùng dashi truyền thống Nhật Bản",
+            "syns": [
+              "Japanese kelp broth",
+              "soup stock"
+            ],
+            "ex": "Authentic miso soup relies on high-quality dashi stock."
+          },
+          {
+            "word": "kelp",
+            "pos": "noun",
+            "ipa": "/kelp/",
+            "level": "B2",
+            "mean": "tảo bẹ biển lớn (kombu)",
+            "syns": [
+              "brown seaweed",
+              "kombu"
+            ],
+            "ex": "Dried kelp is naturally saturated with high concentrations of free glutamate."
+          },
+          {
+            "word": "savoriness",
+            "pos": "noun",
+            "ipa": "/ˈseɪ.vər.i.nəs/",
+            "level": "B2",
+            "mean": "vị đậm đà, vị ngon ngọt thịt",
+            "syns": [
+              "deliciousness",
+              "richness",
+              "meatiness"
+            ],
+            "ex": "The natural savoriness of roasted mushrooms enhances vegetarian cooking."
+          },
+          {
+            "word": "vat",
+            "pos": "noun",
+            "ipa": "/væt/",
+            "level": "B2",
+            "mean": "thùng lớn, bể chứa chất lỏng nấu nướng",
+            "syns": [
+              "tank",
+              "tub",
+              "cauldron"
+            ],
+            "ex": "The chemist boiled massive vats of kelp to extract the target crystals."
+          },
+          {
+            "word": "palatable",
+            "pos": "adjective",
+            "ipa": "/ˈpæl.ə.tə.bəl/",
+            "level": "C1",
+            "mean": "ngon miệng, hợp khẩu vị dễ ăn",
+            "syns": [
+              "appetizing",
+              "tasty",
+              "flavorful"
+            ],
+            "ex": "Adding a pinch of seasoning made bland steamed vegetables highly palatable."
+          },
+          {
+            "word": "uptake",
+            "pos": "noun",
+            "ipa": "/ˈʌp.teɪk/",
+            "level": "B2",
+            "mean": "sự đón nhận, tốc độ tiếp nhận ứng dụng",
+            "syns": [
+              "adoption",
+              "acceptance",
+              "absorption"
+            ],
+            "ex": "Consumer uptake of the new food product was exceptionally fast in urban areas."
+          },
+          {
+            "word": "simmer",
+            "pos": "verb",
+            "ipa": "/ˈsɪm.ər/",
+            "level": "B1",
+            "mean": "ninh nhỏ lửa, đun liu riu",
+            "syns": [
+              "stew",
+              "boil gently"
+            ],
+            "ex": "Traditional soup requires chefs to simmer beef bones for twelve hours."
+          },
+          {
+            "word": "skeptical",
+            "pos": "adjective",
+            "ipa": "/ˈskep.tɪ.kəl/",
+            "level": "B2",
+            "mean": "hoài nghi, không tin tưởng",
+            "syns": [
+              "doubtful",
+              "cynical",
+              "unconvinced"
+            ],
+            "ex": "Western physiologists were initially skeptical of the existence of a fifth taste."
+          },
+          {
+            "word": "unsubstantiated",
+            "pos": "adjective",
+            "ipa": "/ˌʌn.səbˈstæn.ʃi.eɪ.tɪd/",
+            "level": "C1",
+            "mean": "không có bằng chứng xác thực, vô căn cứ",
+            "syns": [
+              "unproven",
+              "baseless",
+              "groundless"
+            ],
+            "ex": "Rumors about the dangers of MSG were based on unsubstantiated anecdotal claims."
+          },
+          {
+            "word": "palpitation",
+            "pos": "noun",
+            "ipa": "/ˌpæl.pɪˈteɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự hồi hộp, tim đập nhanh hồi hộp",
+            "syns": [
+              "rapid heartbeat",
+              "fluttering"
+            ],
+            "ex": "The patient complained of chest anxiety and rapid heart palpitations."
+          },
+          {
+            "word": "stigmatize",
+            "pos": "verb",
+            "ipa": "/ˈstɪɡ.mə.taɪz/",
+            "level": "B2",
+            "mean": "gán định kiến xấu, kỳ thị",
+            "syns": [
+              "discredit",
+              "brand",
+              "denigrate"
+            ],
+            "ex": "Sensational headlines unfairly stigmatized Asian cuisine for decades."
+          },
+          {
+            "word": "benign",
+            "pos": "adjective",
+            "ipa": "/bɪˈnaɪn/",
+            "level": "B2",
+            "mean": "lành tính, vô hại cho sức khỏe",
+            "syns": [
+              "harmless",
+              "non-toxic",
+              "safe"
+            ],
+            "ex": "Numerous peer-reviewed clinical studies proved that glutamate is entirely benign."
+          },
+          {
+            "word": "vindication",
+            "pos": "noun",
+            "ipa": "/ˌvɪn.dɪˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự minh oan, chứng minh là đúng đắn",
+            "syns": [
+              "justification",
+              "validation",
+              "exoneration"
+            ],
+            "ex": "The laboratory identification of taste receptors offered total vindication for Ikeda."
+          },
+          {
+            "word": "receptor",
+            "pos": "noun",
+            "ipa": "/rɪˈsep.tər/",
+            "level": "B2",
+            "mean": "thụ thể tế bào (tiếp nhận phân tử)",
+            "syns": [
+              "sensor",
+              "molecular binder"
+            ],
+            "ex": "Taste buds house chemical receptors specialized in recognizing sweet or bitter molecules."
+          },
+          {
+            "word": "heterodimer",
+            "pos": "noun",
+            "ipa": "/ˌhet.ər.əʊˈdaɪ.mər/",
+            "level": "C1",
+            "mean": "phức hợp dị nhị phân (protein ghép từ 2 chuỗi khác nhau)",
+            "syns": [
+              "dual-protein complex"
+            ],
+            "ex": "The T1R1+T1R3 heterodimer binds free amino acid molecules on the tongue."
+          },
+          {
+            "word": "synergistic",
+            "pos": "adjective",
+            "ipa": "/ˌsɪn.əˈdʒɪs.tɪk/",
+            "level": "C1",
+            "mean": "mang tính hiệp đồng (tăng tác dụng khi kết hợp)",
+            "syns": [
+              "cooperative",
+              "reinforcing",
+              "mutually enhancing"
+            ],
+            "ex": "Glutamate and nucleotides produce a powerful synergistic boost in flavor intensity."
+          },
+          {
+            "word": "ribonucleotide",
+            "pos": "noun",
+            "ipa": "/ˌraɪ.bəʊˈnjuː.kli.ə.taɪd/",
+            "level": "C1",
+            "mean": "hợp chất ribonucleotit (như inosinate, guanylate)",
+            "syns": [
+              "nucleotide compound"
+            ],
+            "ex": "Inosinate ribonucleotides found in bonito flakes intensify the umami sensation."
+          },
+          {
+            "word": "histological",
+            "pos": "adjective",
+            "ipa": "/ˌhɪs.təˈlɒdʒ.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc về mô học (cấu trúc mô dưới kính hiển vi)",
+            "syns": [
+              "microscopic-tissue",
+              "cellular"
+            ],
+            "ex": "Histological examinations of human papillae confirmed the presence of glutamate sensors."
+          },
+          {
+            "word": "bridge",
+            "pos": "verb",
+            "ipa": "/brɪdʒ/",
+            "level": "B2",
+            "mean": "làm cầu nối, kết nối hai lĩnh vực",
+            "syns": [
+              "connect",
+              "link",
+              "unite"
+            ],
+            "ex": "His work bridges culinary folk traditions with modern biochemical science."
+          },
+          {
+            "word": "purine",
+            "pos": "noun",
+            "ipa": "/ˈpjʊə.riːn/",
+            "level": "C1",
+            "mean": "hợp chất purin hữu cơ",
+            "syns": [
+              "nitrogenous organic base"
+            ],
+            "ex": "Meats and fish contain natural purine molecules that enhance savory tastes."
+          },
+          {
+            "word": "nuance",
+            "pos": "noun",
+            "ipa": "/ˈnjuː.ɑːns/",
+            "level": "B2",
+            "mean": "sắc thái tinh tế, nét khác biệt nhỏ",
+            "syns": [
+              "subtlety",
+              "undertone",
+              "refinement"
+            ],
+            "ex": "Tasting fine broth allows one to perceive delicate culinary nuances."
+          },
+          {
+            "word": "entrenched",
+            "pos": "adjective",
+            "ipa": "/ɪnˈtrentʃt/",
+            "level": "C1",
+            "mean": "ăn sâu bám rễ, khó thay đổi",
+            "syns": [
+              "deep-seated",
+              "ingrained",
+              "established"
+            ],
+            "ex": "The belief in only four primary tastes was deeply entrenched in European textbooks."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t30_q1",
+            "num": 1,
+            "question": "What is the primary narrative focus of the passage?",
+            "questionVi": "Trọng tâm tự sự chính của đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "The nutritional differences between seaweed farming in Japan and Europe",
+              "The scientific discovery, historical skepticism, and ultimate neurobiological validation of umami as the fifth primary taste",
+              "The commercial manufacturing methods used to package dried pasta in Italy",
+              "The medical treatment protocol for severe allergic food reactions"
+            ],
+            "optionsVi": [
+              "Sự khác biệt dinh dưỡng giữa việc nuôi trồng rong biển ở Nhật Bản và Châu Âu",
+              "Phát hiện khoa học, sự hoài nghi lịch sử và sự công nhận sinh học thần kinh cuối cùng đối với umami như vị cơ bản thứ năm",
+              "Phương pháp sản xuất thương mại được sử dụng để đóng gói mì ống khô ở Ý",
+              "Phác đồ điều trị y tế cho các phản ứng dị ứng thực phẩm nghiêm trọng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Ikeda overturned this entrenched dogma... isolating white crystalline flakes of an amino acid: monosodium glutamate (MSG). He coined this novel sensation umami... mainstream Western physiological science remained intensely skeptical... Vindication arrived in the late 1990s through revolutionary breakthroughs in molecular neurobiology... officially recognized umami as humanity’s fifth primary taste...",
+            "evidenceVi": "Ikeda đã lật ngược giáo điều thâm căn cố đế này... tách chiết được tinh thể trắng của axit amin: bột ngọt MSG. Ông đặt tên cho cảm giác mới này là umami... khoa học phương Tây vẫn hoài nghi mãnh liệt... Sự minh oan đã đến vào cuối những năm 1990 nhờ những đột phá sinh học thần kinh... chính thức công nhận umami là vị cơ bản thứ năm của nhân loại...",
+            "explanation": "Đoạn văn trình bày xuyên suốt câu chuyện: nhà hóa học Ikeda tìm ra umami từ kombu năm 1908, sự hoài nghi và kỳ thị của phương Tây suốt gần 1 thế kỷ, và sự công nhận khoa học chính thức khi tìm ra thụ thể thụ cảm glutamate trên lưỡi vào thập niên 1990.",
+            "postReading": {
+              "original": "With this definitive histological evidence, the international scientific community officially recognized umami as humanity’s fifth primary taste",
+              "paraphrase": "Armed with conclusive microscopic tissue proof, global scientists formally acknowledged umami as the fifth fundamental gustatory sensation",
+              "analysis": "'Definitive histological evidence' = 'conclusive microscopic tissue proof'; 'officially recognized' = 'formally acknowledged'; 'fifth primary taste' = 'fifth fundamental gustatory sensation'."
+            }
+          },
+          {
+            "id": "t30_q2",
+            "num": 2,
+            "question": "According to paragraph 1, what natural ingredient inspired Kikunae Ikeda to search for a new taste category in 1908?",
+            "questionVi": "Theo đoạn 1, nguyên liệu tự nhiên nào đã truyền cảm hứng cho Kikunae Ikeda tìm kiếm một nhóm vị giác mới vào năm 1908?",
+            "questionType": "Detail",
+            "options": [
+              "Fermented soybean paste imported from Korea",
+              "Traditional dashi broth prepared from dried brown kelp (kombu)",
+              "Aged sheep cheese produced in Switzerland",
+              "Spicy chili peppers harvested in South America"
+            ],
+            "optionsVi": [
+              "Tương đậu nành lên men nhập khẩu từ Hàn Quốc",
+              "Nước dùng dashi truyền thống được nấu từ tảo bẹ nâu khô (kombu)",
+              "Phô mai cừu ủ lâu năm sản xuất tại Thụy Sĩ",
+              "Ớt cay thu hoạch tại Nam Mỹ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "While savoring a traditional bowl of dashi broth made from dried kelp (kombu), Ikeda discerned an elusive, deeply savory nuance that defied categorization within the recognized fourfold paradigm.",
+            "evidenceVi": "Trong khi thưởng thức một bát nước dùng dashi truyền thống làm từ tảo bẹ khô (kombu), Ikeda đã nhận ra một sắc thái đậm đà tinh tế khó nắm bắt mà không thể xếp vào mô hình bốn vị cơ bản được công nhận.",
+            "explanation": "Đoạn 1 nêu rõ: bát nước dùng dashi nấu từ tảo bẹ khô kombu đã giúp Ikeda nhận ra vị ngọt thịt đậm đà khác biệt.",
+            "postReading": {
+              "original": "While savoring a traditional bowl of dashi broth made from dried kelp (kombu), Ikeda discerned an elusive, deeply savory nuance",
+              "paraphrase": "As he enjoyed a classic bowl of kombu seaweed stock, Ikeda noticed a subtle, intensely rich savory taste",
+              "analysis": "'Savoring a traditional bowl' = 'enjoyed a classic bowl'; 'dashi broth made from dried kelp' = 'kombu seaweed stock'; 'elusive, deeply savory nuance' = 'subtle, intensely rich savory taste'."
+            }
+          },
+          {
+            "id": "t30_q3",
+            "num": 3,
+            "question": "The word \"palatable\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"palatable\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "appetizing and enjoyable to eat",
+              "poisonous",
+              "transparent",
+              "expensive"
+            ],
+            "optionsVi": [
+              "ngon miệng và dễ ăn",
+              "có độc",
+              "trong suốt",
+              "đắt tiền"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "encouraging balanced nutrition among impoverished communities by making inexpensive vegetables and rice significantly more palatable.",
+            "evidenceVi": "khuyến khích dinh dưỡng cân bằng trong các cộng đồng nghèo bằng cách làm cho rau củ và gạo rẻ tiền trở nên ngon miệng hơn nhiều.",
+            "explanation": "'Palatable' có nghĩa là ngon miệng, vừa miệng dễ nuốt, đồng nghĩa với 'appetizing and enjoyable to eat'.",
+            "postReading": {
+              "original": "making inexpensive vegetables and rice significantly more palatable.",
+              "paraphrase": "rendering low-cost greens and grains much more appetizing for diners.",
+              "analysis": "'Inexpensive vegetables and rice' = 'low-cost greens and grains'; 'significantly more palatable' = 'much more appetizing for diners'."
+            }
+          },
+          {
+            "id": "t30_q4",
+            "num": 4,
+            "question": "According to paragraph 2, what social vision did Ikeda possess when founding the Ajinomoto brand?",
+            "questionVi": "Theo đoạn 2, Ikeda có tầm nhìn xã hội nào khi đồng sáng lập thương hiệu Ajinomoto?",
+            "questionType": "Detail",
+            "options": [
+              "To monopolize worldwide salt mining operations",
+              "To make humble staple diets of rice and vegetables tastier and improve nutritional intake for low-income citizens",
+              "To replace all agricultural farming with synthetic laboratory pills",
+              "To ban traditional home cooking in favor of industrial military rations"
+            ],
+            "optionsVi": [
+              "Độc quyền các hoạt động khai thác mỏ muối trên toàn thế giới",
+              "Làm cho các bữa ăn đạm bạc gồm cơm và rau trở nên ngon hơn và cải thiện dinh dưỡng cho người dân có thu nhập thấp",
+              "Thay thế toàn bộ canh tác nông nghiệp bằng các viên thuốc tổng hợp phòng thí nghiệm",
+              "Cấm nấu ăn truyền thống tại nhà để chuyển sang khẩu phần ăn quân sự công nghiệp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Ikeda envisioned that affordable MSG seasoning would enhance the flavor of modest staple diets across Asia, encouraging balanced nutrition among impoverished communities by making inexpensive vegetables and rice significantly more palatable.",
+            "evidenceVi": "Ikeda hình dung rằng gia vị MSG giá cả phải chăng sẽ làm tăng hương vị của các bữa ăn đạm bạc hàng ngày trên khắp châu Á, khuyến khích dinh dưỡng cân bằng trong các cộng đồng nghèo bằng cách làm cho rau và cơm rẻ tiền trở nên ngon miệng hơn nhiều.",
+            "explanation": "Đoạn 2 nêu rõ mục đích cao đẹp của Ikeda: giúp người nghèo ăn cơm rau đạm bạc cảm thấy ngon miệng hơn để bổ sung đầy đủ chất dinh dưỡng.",
+            "postReading": {
+              "original": "Ikeda envisioned that affordable MSG seasoning would enhance the flavor of modest staple diets across Asia",
+              "paraphrase": "Ikeda hoped that inexpensive glutamate flavorings would elevate the taste of simple daily meals throughout Asia",
+              "analysis": "'Envisioned' = 'hoped'; 'affordable MSG seasoning' = 'inexpensive glutamate flavorings'; 'modest staple diets' = 'simple daily meals'."
+            }
+          },
+          {
+            "id": "t30_q5",
+            "num": 5,
+            "question": "The word \"unsubstantiated\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"unsubstantiated\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "baseless and unproven",
+              "scientifically verified",
+              "government-sponsored",
+              "ancient"
+            ],
+            "optionsVi": [
+              "vô căn cứ và chưa được kiểm chứng",
+              "đã được khoa học kiểm chứng",
+              "được chính phủ tài trợ",
+              "cổ xưa"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "This skepticism was compounded in the late 1960s by unsubstantiated public hysteria regarding 'Chinese Restaurant Syndrome'...",
+            "evidenceVi": "Sự hoài nghi này càng trở nên trầm trọng hơn vào cuối những năm 1960 bởi sự hoang mang tập thể vô căn cứ liên quan đến 'Hội chứng nhà hàng Trung Hoa'...",
+            "explanation": "'Unsubstantiated' nghĩa là không có căn cứ, không có bằng chứng khoa học chứng minh, đồng nghĩa với 'baseless and unproven'.",
+            "postReading": {
+              "original": "unsubstantiated public hysteria regarding 'Chinese Restaurant Syndrome,' which wrongly blamed MSG",
+              "paraphrase": "groundless popular panic concerning 'Chinese Restaurant Syndrome,' which mistakenly accused MSG",
+              "analysis": "'Unsubstantiated public hysteria' = 'groundless popular panic'; 'wrongly blamed MSG' = 'mistakenly accused MSG'."
+            }
+          },
+          {
+            "id": "t30_q6",
+            "num": 6,
+            "question": "According to paragraph 3, how did Western researchers historically view umami prior to the late 1990s?",
+            "questionVi": "Theo đoạn 3, các nhà nghiên cứu phương Tây trong lịch sử đã nhìn nhận umami như thế nào trước cuối thập niên 1990?",
+            "questionType": "Detail",
+            "options": [
+              "They praised it as the most important taste modality ever discovered",
+              "They dismissed it as a subjective cultural illusion or a mere enhancer of existing saltiness rather than a true primary taste",
+              "They used it exclusively to preserve surgical instruments in hospitals",
+              "They claimed that umami could only be tasted by infants under age one"
+            ],
+            "optionsVi": [
+              "Họ ca ngợi nó là phương thức vị giác quan trọng nhất từng được phát hiện",
+              "Họ bác bỏ nó như một ảo tưởng văn hóa chủ quan hoặc đơn thuần là chất khuếch đại vị mặn sẵn có chứ không phải vị cơ bản thực thụ",
+              "Họ chỉ sử dụng nó duy nhất để bảo quản dụng cụ phẫu thuật trong bệnh viện",
+              "Họ khẳng định rằng umami chỉ có thể được nếm bởi trẻ sơ sinh dưới một tuổi"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "European and American researchers routinely dismissed umami as a subjective cultural illusion or merely a flavor enhancer that amplified existing saltiness rather than an independent primary taste.",
+            "evidenceVi": "Các nhà nghiên cứu Châu Âu và Châu Mỹ thường bác bỏ umami như một ảo giác văn hóa mang tính chủ quan hoặc chỉ là một chất điều vị làm tăng vị mặn sẵn có chứ không phải là một vị cơ bản độc lập.",
+            "explanation": "Đoạn 3 chỉ rõ: phương Tây từng cho rằng umami chỉ là ảo giác văn hóa của người Á Đông hoặc chất phụ gia làm tăng vị mặn của muối.",
+            "postReading": {
+              "original": "routinely dismissed umami as a subjective cultural illusion or merely a flavor enhancer that amplified existing saltiness",
+              "paraphrase": "regularly rejected umami as a personal cultural myth or simply an additive that boosted existing salty flavors",
+              "analysis": "'Dismissed umami as a subjective cultural illusion' = 'rejected umami as a personal cultural myth'; 'amplified existing saltiness' = 'boosted existing salty flavors'."
+            }
+          },
+          {
+            "id": "t30_q7",
+            "num": 7,
+            "question": "The word \"vindication\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"vindication\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "substantiation and justification",
+              "financial bankruptcy",
+              "medical quarantine",
+              "artistic appreciation"
+            ],
+            "optionsVi": [
+              "sự xác thực và minh oan chứng minh đúng đắn",
+              "sự phá sản tài chính",
+              "sự cách ly y tế",
+              "sự thưởng thức nghệ thuật"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Vindication arrived in the late 1990s through revolutionary breakthroughs in molecular neurobiology.",
+            "evidenceVi": "Sự minh oan chứng minh đúng đắn đã đến vào cuối những năm 1990 thông qua những đột phá mang tính cách mạng trong sinh học thần kinh phân tử.",
+            "explanation": "'Vindication' có nghĩa là sự minh oan, chứng thực điều gì đó từng bị nghi ngờ là hoàn toàn đúng, đồng nghĩa với 'substantiation and justification'.",
+            "postReading": {
+              "original": "Vindication arrived in the late 1990s through revolutionary breakthroughs in molecular neurobiology.",
+              "paraphrase": "Full scientific validation emerged in the late 1990s via transformative discoveries in neural biology.",
+              "analysis": "'Vindication arrived' = 'Full scientific validation emerged'; 'revolutionary breakthroughs' = 'transformative discoveries'."
+            }
+          },
+          {
+            "id": "t30_q8",
+            "num": 8,
+            "question": "What concrete biological discovery in the 1990s definitively proved that umami is a primary taste?",
+            "questionVi": "Phát hiện sinh học cụ thể nào trong thập niên 1990 đã chứng minh dứt khoát rằng umami là một vị cơ bản?",
+            "questionType": "Detail",
+            "options": [
+              "The genetic sequencing of deep-sea brown kelp chloroplasts",
+              "The identification of specific G-protein coupled receptors on tongue taste buds that bind L-glutamate",
+              "The observation that all mammals prefer drinking salt water over fresh water",
+              "The invention of electronic tongue sensors made of titanium alloys"
+            ],
+            "optionsVi": [
+              "Giải trình tự gen lục lạp của tảo bẹ nâu biển sâu",
+              "Việc xác định các thụ thể kết cặp G-protein chuyên biệt trên chồi vị giác của lưỡi có khả năng liên kết với L-glutamate",
+              "Quan sát thấy tất cả động vật có vú thích uống nước muối hơn nước ngọt",
+              "Phát minh ra cảm biến lưỡi điện tử làm bằng hợp kim titan"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Scientists identified specialized G-protein coupled receptors—specifically mGluR4 and the heterodimer T1R1+T1R3—located on human tongue taste buds that respond exclusively to L-glutamate and synergistic purine ribonucleotides...",
+            "evidenceVi": "Các nhà khoa học đã xác định được các thụ thể kết cặp protein G chuyên biệt—cụ thể là mGluR4 và heterodimer T1R1+T1R3—nằm trên các chồi vị giác của lưỡi người phản ứng độc quyền với L-glutamate và các ribonucleotide purin hiệp đồng...",
+            "explanation": "Đoạn 4 nêu rõ bằng chứng sinh học không thể chối cãi: tìm thấy các thụ thể thụ cảm vị mGluR4 và T1R1+T1R3 trên gai vị giác của lưỡi người chuyên để tiếp nhận glutamate.",
+            "postReading": {
+              "original": "Scientists identified specialized G-protein coupled receptors... located on human tongue taste buds that respond exclusively to L-glutamate",
+              "paraphrase": "Researchers discovered dedicated cellular sensors... situated on human papillae that react solely to glutamate molecules",
+              "analysis": "'Specialized G-protein coupled receptors' = 'dedicated cellular sensors'; 'taste buds' = 'papillae'; 'respond exclusively to L-glutamate' = 'react solely to glutamate molecules'."
+            }
+          },
+          {
+            "id": "t30_q9",
+            "num": 9,
+            "question": "All of the following foods are mentioned in paragraph 4 as naturally rich in umami compounds EXCEPT:",
+            "questionVi": "Tất cả các loại thực phẩm sau đây đều được nhắc đến ở đoạn 4 như là nguồn giàu hợp chất umami tự nhiên NGOẠI TRỪ:",
+            "questionType": "Negative Detail",
+            "options": [
+              "Aged cheeses",
+              "Ripe tomatoes and mushrooms",
+              "Cured meats",
+              "Unripe green lemons"
+            ],
+            "optionsVi": [
+              "Phô mai ủ lâu năm",
+              "Cà chua chín và nấm",
+              "Các loại thịt ủ muối",
+              "Chanh xanh chưa chín"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 explicitly lists 'aged cheeses, ripe tomatoes, mushrooms, and cured meats'. Nowhere does it mention unripe green lemons, which are high in citric acid (sour taste).",
+            "evidenceVi": "Đoạn 4 liệt kê rõ: 'phô mai ủ lâu năm, cà chua chín, nấm và thịt ủ muối'. Hoàn toàn không nhắc đến chanh xanh (vị chua).",
+            "explanation": "Chanh xanh chưa chín ('Unripe green lemons') không có trong danh sách thực phẩm giàu umami ở đoạn 4, nên là đáp án đúng cho câu hỏi EXCEPT.",
+            "postReading": {
+              "original": "synergistic purine ribonucleotides found in aged cheeses, ripe tomatoes, mushrooms, and cured meats.",
+              "paraphrase": "reinforcing nucleotide compounds present naturally within mature cheeses, red tomatoes, fungi, and preserved meats.",
+              "analysis": "'Aged cheeses' = 'mature cheeses'; 'mushrooms' = 'fungi'; 'cured meats' = 'preserved meats'."
+            }
+          },
+          {
+            "id": "t30_q10",
+            "num": 10,
+            "question": "What can be inferred from the final sentence about the relationship between folk cooking and modern science?",
+            "questionVi": "Có thể suy ra điều gì từ câu cuối cùng về mối quan hệ giữa nấu ăn dân gian và khoa học hiện đại?",
+            "questionType": "Inference",
+            "options": [
+              "Ancient cooking traditions are always scientifically incorrect and should be discarded",
+              "Intuitive culinary practices developed over centuries often reflect genuine biochemical principles that modern science eventually validates",
+              "Chefs should never consult food scientists when creating restaurant recipes",
+              "Neuroscience has proven that all cooking methods produce identical taste sensations"
+            ],
+            "optionsVi": [
+              "Các truyền thống nấu ăn cổ xưa luôn sai lầm về mặt khoa học và nên bị loại bỏ",
+              "Các thực hành ẩm thực trực giác được phát triển qua nhiều thế kỷ thường phản ánh các nguyên lý sinh hóa thực sự mà khoa học hiện đại cuối cùng đã chứng thực",
+              "Các đầu bếp không bao giờ nên tham khảo ý kiến các nhà khoa học thực phẩm khi sáng tạo công thức nhà hàng",
+              "Khoa học thần kinh đã chứng minh rằng mọi phương pháp nấu ăn đều tạo ra những cảm giác vị giống hệt nhau"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "validating Kikunae Ikeda's century-old culinary insight and bridging global gastronomic philosophy with modern sensory neuroscience.",
+            "evidenceVi": "chứng thực trực giác ẩm thực thế kỷ trước của Kikunae Ikeda và kết nối triết lý ẩm thực toàn cầu với khoa học thần kinh cảm giác hiện đại.",
+            "explanation": "Câu kết rút ra ý nghĩa sâu sắc: sự nhạy bén của người nấu ăn dân gian (như việc ninh kombu hàng trăm năm của người Nhật) thực chất dựa trên nguyên lý hóa sinh vững chắc mà khoa học hiện đại đã chứng minh là đúng.",
+            "postReading": {
+              "original": "validating Kikunae Ikeda's century-old culinary insight and bridging global gastronomic philosophy with modern sensory neuroscience.",
+              "paraphrase": "confirming Ikeda's historical cooking discovery and uniting culinary traditions with contemporary sensory science.",
+              "analysis": "'Validating' = 'confirming'; 'century-old culinary insight' = 'historical cooking discovery'; 'bridging global gastronomic philosophy with modern sensory neuroscience' = 'uniting culinary traditions with contemporary sensory science'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: \"Food Miles\" & Global Supply Chains: The Full Carbon Lifecycle Debate",
+        "topic": "Khái niệm \"Dặm thực phẩm\" (Food Miles): Tranh luận về lượng khí thải vận tải nông sản xuyên lục địa đối chiếu với năng lượng sưởi ấm nhà kính địa phương để hiểu đúng tổng dấu chân carbon",
+        "timeAllowed": 15,
+        "passage": "<p>Over the past three decades, the environmental consequences of globalized agricultural logistics have come under intense public scrutiny. Coined in the early 1990s by British consumer activist Tim Lang, the term 'food miles' denotes the geographical distance agricultural produce travels from the field of cultivation to the consumer’s dinner plate. In popular environmental discourse, the concept swiftly morphed into an intuitive moral rubric: eating locally was equated with environmental virtue, whereas consuming imported foods—such as Chilean cherries or Kenyan green beans sold in London supermarkets—was condemned as an egregious ecological indulgence that burns excessive fossil fuel during transcontinental transport.</p><p>While the food miles metric succeeded in raising consumer consciousness regarding the carbon footprint of global commerce, environmental economists and agronomists increasingly criticize it as an oversimplified, deeply flawed indicator of ecological impact. The fundamental fallacy of the food miles argument lies in its exclusive focus on final transportation, which accounts for a surprisingly modest fraction of total agricultural emissions. Comprehensive Life Cycle Assessment (LCA) methodologies demonstrate that between seventy and eighty percent of agricultural greenhouse gas emissions are generated on the farm itself—driven by synthetic nitrogen fertilizer synthesis, tractor diesel combustion, enteric methane emissions from ruminant livestock, and nitrous oxide off-gassing from tilled soils.</p><p>Furthermore, the environmental efficiency of food transport depends far more on the modality of transit than on raw geographic distance. Bulk maritime transport aboard mammoth container vessels or bulk refrigerated cargo freighters is extraordinarily carbon-efficient per ton-kilometer, generating negligible emissions compared to terrestrial trucking. Indeed, a classic comparative lifecycle study conducted by New Zealand’s Lincoln University revealed that dairy and lamb shipped over eighteen thousand kilometers by sea from New Zealand to the United Kingdom produced significantly lower net carbon emissions than equivalent British livestock raised locally. New Zealand pastures benefit from year-round natural grazing under temperate sunshine, whereas British farmers must deploy energy-intensive heated winter barns, imported grain feed, and heavy chemical fertilizers.</p><p>A similarly striking paradox manifests in heated greenhouse horticulture. Producing summer vegetables like tomatoes and bell peppers during northern European winters requires continuously burning fossil fuels to heat and illuminate glasshouses, generating far greater carbon emissions per kilogram than trucking field-grown tomatoes thousands of kilometers from sun-drenched southern Spain. Ultimately, environmental sustainability in food systems cannot be reduced to a simplistic geographical radius. Enlightened ecological consumption requires prioritizing *how* food is cultivated over *where* it is grown, advocating for regenerative agroecological practices, dietary shifts toward plant-based nutrition, and the minimization of post-harvest food waste.</p>",
+        "vocab": [
+          {
+            "word": "logistics",
+            "pos": "noun",
+            "ipa": "/ləˈdʒɪs.tɪks/",
+            "level": "B2",
+            "mean": "hoạt động hậu cần, chuỗi cung ứng vận tải",
+            "syns": [
+              "supply chain",
+              "distribution management"
+            ],
+            "ex": "Global food logistics must balance transit speed with fuel efficiency."
+          },
+          {
+            "word": "rubric",
+            "pos": "noun",
+            "ipa": "/ˈruː.brɪk/",
+            "level": "C1",
+            "mean": "tiêu chí đánh giá, quy tắc định chuẩn",
+            "syns": [
+              "criterion",
+              "benchmark",
+              "guideline"
+            ],
+            "ex": "Food miles became a popular moral rubric for judging grocery purchases."
+          },
+          {
+            "word": "virtue",
+            "pos": "noun",
+            "ipa": "/ˈvɜː.tʃuː/",
+            "level": "B2",
+            "mean": "đức hạnh, hành vi chuẩn mực đạo đức tốt",
+            "syns": [
+              "goodness",
+              "righteousness",
+              "merit"
+            ],
+            "ex": "Eating organic apples was perceived as a symbol of environmental virtue."
+          },
+          {
+            "word": "egregious",
+            "pos": "adjective",
+            "ipa": "/ɪˈɡriː.dʒəs/",
+            "level": "C1",
+            "mean": "trắng trợn, tệ hại tột cùng",
+            "syns": [
+              "flagrant",
+              "shocking",
+              "monstrous"
+            ],
+            "ex": "Flying asparagus from Peru to Europe was condemned as an egregious waste of jet fuel."
+          },
+          {
+            "word": "indulgence",
+            "pos": "noun",
+            "ipa": "/ɪnˈdʌl.dʒəns/",
+            "level": "B2",
+            "mean": "sự nuông chiều xa xỉ, thói quen xa hoa",
+            "syns": [
+              "luxury",
+              "extravagance",
+              "gratification"
+            ],
+            "ex": "Eating out-of-season exotic fruits is often treated as a luxury indulgence."
+          },
+          {
+            "word": "fallacy",
+            "pos": "noun",
+            "ipa": "/ˈfæl.ə.si/",
+            "level": "C1",
+            "mean": "ngụy biện, quan niệm sai lầm về logic",
+            "syns": [
+              "misconception",
+              "delusion",
+              "error"
+            ],
+            "ex": "The idea that local food is always greener is a widespread economic fallacy."
+          },
+          {
+            "word": "fraction",
+            "pos": "noun",
+            "ipa": "/ˈfræk.ʃən/",
+            "level": "B2",
+            "mean": "một phần nhỏ, tỷ lệ không đáng kể",
+            "syns": [
+              "portion",
+              "segment",
+              "part"
+            ],
+            "ex": "Transport emissions account for only a small fraction of total farming pollution."
+          },
+          {
+            "word": "enteric",
+            "pos": "adjective",
+            "ipa": "/enˈter.ɪk/",
+            "level": "C1",
+            "mean": "thuộc đường ruột (lên men dạ cỏ của bò cừu)",
+            "syns": [
+              "intestinal",
+              "digestive"
+            ],
+            "ex": "Enteric fermentation in cows generates massive volumes of atmospheric methane."
+          },
+          {
+            "word": "ruminant",
+            "pos": "noun",
+            "ipa": "/ˈruː.mɪ.nənt/",
+            "level": "C1",
+            "mean": "động vật nhai lại (bò, cừu, dê)",
+            "syns": [
+              "cud-chewing animal"
+            ],
+            "ex": "Ruminants produce methane gas as part of their natural digestion."
+          },
+          {
+            "word": "off-gassing",
+            "pos": "noun",
+            "ipa": "/ˈɒfˌɡæs.ɪŋ/",
+            "level": "C1",
+            "mean": "sự thoát khí độc hại từ đất/vật liệu",
+            "syns": [
+              "vapor emission",
+              "fuming"
+            ],
+            "ex": "Excess fertilizer application leads to harmful nitrous oxide off-gassing into the air."
+          },
+          {
+            "word": "modality",
+            "pos": "noun",
+            "ipa": "/məʊˈdæl.ə.ti/",
+            "level": "C1",
+            "mean": "phương thức (vận tải: đường biển, đường bộ, hàng không)",
+            "syns": [
+              "method",
+              "mode of transit"
+            ],
+            "ex": "The carbon cost depends greatly on the transport modality used."
+          },
+          {
+            "word": "mammoth",
+            "pos": "adjective",
+            "ipa": "/ˈmæm.əθ/",
+            "level": "B2",
+            "mean": "khổng lồ, to lớn dị thường",
+            "syns": [
+              "colossal",
+              "gigantic",
+              "huge"
+            ],
+            "ex": "Mammoth container ships carry thousands of cargo crates across oceans."
+          },
+          {
+            "word": "freighter",
+            "pos": "noun",
+            "ipa": "/ˈfreɪ.tər/",
+            "level": "B2",
+            "mean": "tàu chở hàng tải trọng lớn",
+            "syns": [
+              "cargo vessel",
+              "merchant ship"
+            ],
+            "ex": "Refrigerated freighters keep fresh butter cool during month-long sea journeys."
+          },
+          {
+            "word": "pasture",
+            "pos": "noun",
+            "ipa": "/ˈpɑːs.tʃər/",
+            "level": "B1",
+            "mean": "đồng cỏ chăn thả gia súc",
+            "syns": [
+              "meadow",
+              "grazing land",
+              "grassland"
+            ],
+            "ex": "New Zealand sheep graze outdoors on natural green pastures throughout the year."
+          },
+          {
+            "word": "grazing",
+            "pos": "noun",
+            "ipa": "/ˈɡreɪ.zɪŋ/",
+            "level": "B2",
+            "mean": "việc gặm cỏ trên đồng",
+            "syns": [
+              "pasturing",
+              "foraging"
+            ],
+            "ex": "Rotational pasture grazing improves soil health and carbon capture."
+          },
+          {
+            "word": "barn",
+            "pos": "noun",
+            "ipa": "/bɑːn/",
+            "level": "B1",
+            "mean": "chuồng trại nuôi gia súc kín",
+            "syns": [
+              "livestock shed",
+              "stable"
+            ],
+            "ex": "Heating indoor barns during cold European winters requires enormous energy."
+          },
+          {
+            "word": "paradox",
+            "pos": "noun",
+            "ipa": "/ˈpær.ə.dɒks/",
+            "level": "B2",
+            "mean": "nghịch lý, điều trái ngược đầy bất ngờ",
+            "syns": [
+              "contradiction",
+              "anomaly",
+              "inconsistency"
+            ],
+            "ex": "It is an ecological paradox that imported food can sometimes have a smaller carbon footprint."
+          },
+          {
+            "word": "horticulture",
+            "pos": "noun",
+            "ipa": "/ˈhɔː.tɪˌkʌl.tʃər/",
+            "level": "B2",
+            "mean": "nghề trồng rau quả trong nhà kính/vườn",
+            "syns": [
+              "greenhouse cultivation",
+              "market gardening"
+            ],
+            "ex": "Dutch heated glasshouse horticulture relies heavily on natural gas heating."
+          },
+          {
+            "word": "glasshouse",
+            "pos": "noun",
+            "ipa": "/ˈɡlɑːs.haʊs/",
+            "level": "B2",
+            "mean": "nhà kính trồng trọt",
+            "syns": [
+              "greenhouse",
+              "hothouse"
+            ],
+            "ex": "Commercial glasshouses maintain tropical temperatures in freezing northern winters."
+          },
+          {
+            "word": "sun-drenched",
+            "pos": "adjective",
+            "ipa": "/ˈsʌn.drentʃt/",
+            "level": "B2",
+            "mean": "ngập tràn ánh nắng mặt trời tự nhiên",
+            "syns": [
+              "sunlit",
+              "sunny",
+              "sun-soaked"
+            ],
+            "ex": "Tomatoes grow naturally in the sun-drenched open fields of Andalusia."
+          },
+          {
+            "word": "radius",
+            "pos": "noun",
+            "ipa": "/ˈreɪ.di.əs/",
+            "level": "B2",
+            "mean": "bán kính khoảng cách",
+            "syns": [
+              "range",
+              "perimeter distance"
+            ],
+            "ex": "Some local-food advocates refuse to eat anything grown outside a 50-mile radius."
+          },
+          {
+            "word": "enlightened",
+            "pos": "adjective",
+            "ipa": "/ɪnˈlaɪ.tənd/",
+            "level": "B2",
+            "mean": "sáng suốt, có hiểu biết toàn diện",
+            "syns": [
+              "informed",
+              "knowledgeable",
+              "progressive"
+            ],
+            "ex": "Enlightened consumers evaluate the entire lifecycle rather than just shipping miles."
+          },
+          {
+            "word": "agroecological",
+            "pos": "adjective",
+            "ipa": "/ˌæɡ.rəʊˌiː.kəˈlɒdʒ.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc nông sinh thái (kết hợp nông nghiệp và bảo vệ môi trường)",
+            "syns": [
+              "sustainable farming",
+              "ecological agricultural"
+            ],
+            "ex": "Agroecological methods eliminate synthetic chemical pesticides."
+          },
+          {
+            "word": "regenerative",
+            "pos": "adjective",
+            "ipa": "/rɪˈdʒen.ər.ə.tɪv/",
+            "level": "C1",
+            "mean": "có tính tái sinh đất, phục hồi tự nhiên",
+            "syns": [
+              "restorative",
+              "renewing"
+            ],
+            "ex": "Regenerative farming techniques rebuild topsoil organic matter."
+          },
+          {
+            "word": "scrutiny",
+            "pos": "noun",
+            "ipa": "/ˈskruː.tɪ.ni/",
+            "level": "C1",
+            "mean": "sự soi xét kỹ lưỡng, kiểm tra ngặt nghèo",
+            "syns": [
+              "examination",
+              "investigation",
+              "inspection"
+            ],
+            "ex": "Corporate environmental claims are under increasing government scrutiny."
+          },
+          {
+            "word": "offspring",
+            "pos": "noun",
+            "ipa": "/ˈɒf.sprɪŋ/",
+            "level": "B2",
+            "mean": "thế hệ con cái",
+            "syns": [
+              "children",
+              "progeny"
+            ],
+            "ex": "Parents worry about the environmental legacy left behind for their offspring."
+          },
+          {
+            "word": "minimization",
+            "pos": "noun",
+            "ipa": "/ˌmɪn.ɪ.maɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự giảm thiểu xuống mức thấp nhất",
+            "syns": [
+              "reduction",
+              "curtailment"
+            ],
+            "ex": "The minimization of food waste across supply chains is critical to reducing carbon footprints."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t30_q11",
+            "num": 11,
+            "question": "What is the central argument presented by the author in the passage?",
+            "questionVi": "Luận điểm trọng tâm được tác giả trình bày trong đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "All imported agricultural produce should be banned from international trade immediately",
+              "The concept of \"food miles\" is an oversimplified metric because farm production methods and transport modes dictate emissions far more than geographic distance",
+              "Diesel-powered trucks are more environmentally efficient than transoceanic container ships",
+              "Heated greenhouse horticulture in northern Europe produces zero carbon emissions"
+            ],
+            "optionsVi": [
+              "Tất cả nông sản nhập khẩu nên bị cấm tham gia thương mại quốc tế ngay lập tức",
+              "Khái niệm \"dặm thực phẩm\" là một thước đo quá đơn giản hóa vì phương pháp canh tác và phương thức vận tải quyết định lượng khí thải nhiều hơn khoảng cách địa lý",
+              "Xe tải chạy dầu diesel hiệu quả về mặt môi trường hơn các tàu container xuyên đại dương",
+              "Nghề trồng rau trong nhà kính có sưởi ở Bắc Âu không tạo ra khí thải carbon"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "environmental economists and agronomists increasingly criticize it as an oversimplified, deeply flawed indicator of ecological impact... between seventy and eighty percent of agricultural greenhouse gas emissions are generated on the farm itself... transport depends far more on the modality of transit than on raw geographic distance... sustainability in food systems cannot be reduced to a simplistic geographical radius. Enlightened ecological consumption requires prioritizing how food is cultivated over where it is grown...",
+            "evidenceVi": "các nhà kinh tế môi trường và nông học ngày càng chỉ trích nó là một chỉ số quá đơn giản hóa và đầy thiếu sót... từ 70 đến 80% phát thải nông nghiệp được tạo ra ngay tại chính trang trại... phương thức vận tải quan trọng hơn khoảng cách... tính bền vững không thể bị giản lược thành bán kính địa lý. Tiêu dùng sinh thái sáng suốt đòi hỏi ưu tiên cách thức thực phẩm được trồng hơn là nơi nó được trồng...",
+            "explanation": "Đoạn văn phản biện quan niệm phổ biến về 'food miles', chứng minh rằng 70-80% khí thải sinh ra trong quá trình canh tác tại nông trại chứ không phải trên đường đi, và phương thức chở hàng bằng đường biển có lượng phát thải cực thấp.",
+            "postReading": {
+              "original": "Enlightened ecological consumption requires prioritizing how food is cultivated over where it is grown",
+              "paraphrase": "Informed environmental eating involves paying attention to farming methods rather than merely geographic origin",
+              "analysis": "'Enlightened ecological consumption' = 'Informed environmental eating'; 'prioritizing how food is cultivated' = 'paying attention to farming methods'; 'where it is grown' = 'geographic origin'."
+            }
+          },
+          {
+            "id": "t30_q12",
+            "num": 12,
+            "question": "According to paragraph 2, what major fallacy underlies the traditional \"food miles\" argument?",
+            "questionVi": "Theo đoạn 2, sai lầm logic căn bản nào là nền tảng của lập luận \"dặm thực phẩm\" truyền thống?",
+            "questionType": "Detail",
+            "options": [
+              "It assumes that airplanes fly faster than delivery vans",
+              "It focuses exclusively on final transport distance while ignoring that 70 to 80 percent of agricultural emissions occur during on-farm production",
+              "It claims that synthetic nitrogen fertilizer has no impact on global warming",
+              "It argues that humans should eat only imported tropical fruits"
+            ],
+            "optionsVi": [
+              "Nó giả định rằng máy bay bay nhanh hơn xe tải giao hàng",
+              "Nó chỉ tập trung duy nhất vào khoảng cách vận tải cuối cùng mà bỏ qua việc 70 đến 80% lượng phát thải nông nghiệp xảy ra trong quá trình sản xuất tại trang trại",
+              "Nó tuyên bố rằng phân đạm tổng hợp không có tác động nào đến hiện tượng nóng lên toàn cầu",
+              "Nó lập luận rằng con người chỉ nên ăn trái cây nhiệt đới nhập khẩu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The fundamental fallacy of the food miles argument lies in its exclusive focus on final transportation, which accounts for a surprisingly modest fraction of total agricultural emissions. Comprehensive Life Cycle Assessment (LCA) methodologies demonstrate that between seventy and eighty percent of agricultural greenhouse gas emissions are generated on the farm itself...",
+            "evidenceVi": "Sai lầm cơ bản của lập luận dặm thực phẩm nằm ở việc nó chỉ tập trung vào khâu vận chuyển cuối cùng, vốn chỉ chiếm một phần nhỏ đáng ngạc nhiên trong tổng lượng phát thải nông nghiệp. Các phương pháp Đánh giá vòng đời toàn diện chứng minh rằng từ 70 đến 80% khí thải nhà kính nông nghiệp được tạo ra ngay tại chính trang trại...",
+            "explanation": "Đoạn 2 nêu rõ lỗ hổng: tập trung vào vận chuyển mà bỏ quên nguồn phát thải lớn nhất là khâu trồng trọt tại nông trại (phân đạm, dầu máy kéo, khí metan từ gia súc).",
+            "postReading": {
+              "original": "between seventy and eighty percent of agricultural greenhouse gas emissions are generated on the farm itself",
+              "paraphrase": "the overwhelming bulk (70–80%) of agricultural carbon output is produced directly within the farming process",
+              "analysis": "'Between seventy and eighty percent' = 'the overwhelming bulk (70–80%)'; 'agricultural greenhouse gas emissions' = 'agricultural carbon output'; 'generated on the farm itself' = 'produced directly within the farming process'."
+            }
+          },
+          {
+            "id": "t30_q13",
+            "num": 13,
+            "question": "The word \"modest\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"modest\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "relatively small and minor",
+              "colossal and overwhelming",
+              "arrogant",
+              "profitable"
+            ],
+            "optionsVi": [
+              "tương đối nhỏ và khiêm tốn",
+              "khổng lồ và áp đảo",
+              "kiêu ngạo",
+              "mang lại lợi nhuận"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "which accounts for a surprisingly modest fraction of total agricultural emissions.",
+            "evidenceVi": "vốn chỉ chiếm một phần nhỏ khiêm tốn đáng ngạc nhiên trong tổng lượng phát thải nông nghiệp.",
+            "explanation": "'Modest' ở đây nghĩa là khiêm tốn, chiếm tỷ lệ nhỏ, đồng nghĩa với 'relatively small and minor'.",
+            "postReading": {
+              "original": "accounts for a surprisingly modest fraction of total agricultural emissions.",
+              "paraphrase": "represents a remarkably small proportion of overall farming discharges.",
+              "analysis": "'Modest fraction' = 'small proportion'; 'total agricultural emissions' = 'overall farming discharges'."
+            }
+          },
+          {
+            "id": "t30_q14",
+            "num": 14,
+            "question": "According to paragraph 3, why does maritime container shipping generate relatively low emissions per ton-kilometer?",
+            "questionVi": "Theo đoạn 3, vì sao vận tải container đường biển lại tạo ra lượng phát thải tương đối thấp trên mỗi tấn-kilômét?",
+            "questionType": "Detail",
+            "options": [
+              "Cargo ships are towed across the sea entirely by wild dolphins",
+              "Mammoth bulk vessels transport colossal tonnages simultaneously, achieving extraordinary fuel economy per cargo unit compared to road trucking",
+              "International maritime laws mandate the use of zero-emission solar sails",
+              "Cargo freighters travel only during hurricane tailwinds"
+            ],
+            "optionsVi": [
+              "Tàu chở hàng được kéo qua biển hoàn toàn bởi cá heo hoang dã",
+              "Các tàu hàng khổng lồ vận chuyển khối lượng hàng hóa khổng lồ cùng lúc, đạt được hiệu quả nhiên liệu vượt trội trên mỗi đơn vị hàng so với vận tải đường bộ",
+              "Luật hàng hải quốc tế bắt buộc sử dụng cánh buồm năng lượng mặt trời không phát thải",
+              "Tàu chở hàng chỉ di chuyển theo chiều gió xuôi của bão"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Bulk maritime transport aboard mammoth container vessels or bulk refrigerated cargo freighters is extraordinarily carbon-efficient per ton-kilometer, generating negligible emissions compared to terrestrial trucking.",
+            "evidenceVi": "Vận tải hàng hải số lượng lớn trên các tàu container khổng lồ hoặc tàu chở hàng lạnh rời cực kỳ tiết kiệm carbon trên mỗi tấn-kilômét, tạo ra lượng phát thải không đáng kể so với vận tải đường bộ.",
+            "explanation": "Đoạn 3 chỉ ra: tàu container vận chuyển hàng chục nghìn tấn cùng lúc, nên chia trung bình trên mỗi tấn hàng thì lượng phát thải cực kỳ nhỏ bé so với xe tải đường bộ.",
+            "postReading": {
+              "original": "Bulk maritime transport aboard mammoth container vessels... is extraordinarily carbon-efficient per ton-kilometer, generating negligible emissions compared to terrestrial trucking.",
+              "paraphrase": "Large-scale sea freight on giant container ships is remarkably fuel-effective per ton transported, producing trivial carbon compared to road transport.",
+              "analysis": "'Bulk maritime transport' = 'Large-scale sea freight'; 'mammoth container vessels' = 'giant container ships'; 'negligible emissions' = 'trivial carbon'; 'terrestrial trucking' = 'road transport'."
+            }
+          },
+          {
+            "id": "t30_q15",
+            "num": 15,
+            "question": "What surprising finding did Lincoln University discover regarding New Zealand dairy and lamb shipped to the United Kingdom?",
+            "questionVi": "Đại học Lincoln đã phát hiện ra điều đáng ngạc nhiên nào liên quan đến sữa và thịt cừu New Zealand vận chuyển sang Vương quốc Anh?",
+            "questionType": "Detail",
+            "options": [
+              "New Zealand products caused British supermarkets to go bankrupt",
+              "Despite traveling 18,000 kilometers, New Zealand livestock produced significantly lower net carbon emissions than locally raised British animals",
+              "Lamb meat spoils permanently after forty-eight hours at sea",
+              "British cows produce fifty times more milk than New Zealand cows"
+            ],
+            "optionsVi": [
+              "Các sản phẩm của New Zealand khiến các siêu thị ở Anh bị phá sản",
+              "Mặc dù phải di chuyển 18.000 km, chăn nuôi ở New Zealand tạo ra lượng khí thải carbon ròng thấp hơn đáng kể so với gia súc nuôi tại địa phương ở Anh",
+              "Thịt cừu bị hỏng hoàn toàn sau 48 giờ trên biển",
+              "Bò ở Anh cho lượng sữa nhiều gấp 50 lần so với bò ở New Zealand"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "dairy and lamb shipped over eighteen thousand kilometers by sea from New Zealand to the United Kingdom produced significantly lower net carbon emissions than equivalent British livestock raised locally.",
+            "evidenceVi": "sữa và thịt cừu được vận chuyển hơn 18.000 km bằng đường biển từ New Zealand đến Vương quốc Anh đã tạo ra lượng khí thải carbon ròng thấp hơn đáng kể so với gia súc tương đương được nuôi tại địa phương ở Anh.",
+            "explanation": "Đoạn 3 đưa ra bằng chứng thực nghiệm: bò cừu New Zealand được thả ăn cỏ ngoài trời quanh năm dưới nắng ấm nên tốn ít năng lượng hơn hẳn việc nuôi nhốt trong chuồng sưởi ấm và bón phân hóa học ở Anh.",
+            "postReading": {
+              "original": "produced significantly lower net carbon emissions than equivalent British livestock raised locally.",
+              "paraphrase": "resulted in substantially fewer total greenhouse gases than identical livestock produced domestically in Britain.",
+              "analysis": "'Significantly lower net carbon emissions' = 'substantially fewer total greenhouse gases'; 'equivalent British livestock raised locally' = 'identical livestock produced domestically in Britain'."
+            }
+          },
+          {
+            "id": "t30_q16",
+            "num": 16,
+            "question": "Why did local British livestock farming generate higher emissions than New Zealand farming in the Lincoln study?",
+            "questionVi": "Vì sao việc chăn nuôi gia súc tại địa phương ở Anh lại tạo ra lượng phát thải cao hơn so với chăn nuôi ở New Zealand trong nghiên cứu của Lincoln?",
+            "questionType": "Detail",
+            "options": [
+              "British farmers are legally required to burn coal inside cattle pens",
+              "British farming relies on heated winter barns, imported grain feed, and heavy chemical fertilizers, unlike New Zealand's natural pasture grazing",
+              "New Zealand ships are powered by nuclear fusion generators",
+              "British sheep require daily baths in hot mineral springs"
+            ],
+            "optionsVi": [
+              "Nông dân Anh bắt buộc theo luật phải đốt than bên trong chuồng bò",
+              "Chăn nuôi ở Anh phải dựa vào chuồng trại có sưởi ấm mùa đông, thức ăn ngũ cốc nhập khẩu và nhiều phân bón hóa học, trái ngược với việc gặm cỏ tự nhiên ngoài đồng của New Zealand",
+              "Tàu của New Zealand chạy bằng máy phát điện nhiệt hạch hạt nhân",
+              "Cừu ở Anh phải tắm nước khoáng nóng hàng ngày"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "New Zealand pastures benefit from year-round natural grazing under temperate sunshine, whereas British farmers must deploy energy-intensive heated winter barns, imported grain feed, and heavy chemical fertilizers.",
+            "evidenceVi": "Đồng cỏ New Zealand hưởng lợi từ việc chăn thả tự nhiên quanh năm dưới ánh nắng ôn hòa, trong khi nông dân Anh phải sử dụng các chuồng trại sưởi ấm tiêu tốn nhiều năng lượng vào mùa đông, thức ăn ngũ cốc nhập khẩu và nhiều phân bón hóa học.",
+            "explanation": "Đoạn 3 giải thích rõ: chăn nuôi ở Anh phải sưởi ấm chuồng trại mùa đông, mua cám công nghiệp và bón nhiều phân đạm nên tổng năng lượng tiêu tốn cao hơn việc đi tàu biển từ New Zealand.",
+            "postReading": {
+              "original": "British farmers must deploy energy-intensive heated winter barns, imported grain feed, and heavy chemical fertilizers.",
+              "paraphrase": "UK agriculturalists must utilize fuel-heavy climate-controlled sheds, bought feed grains, and synthetic fertilizer inputs.",
+              "analysis": "'Deploy energy-intensive heated winter barns' = 'utilize fuel-heavy climate-controlled sheds'; 'imported grain feed' = 'bought feed grains'; 'heavy chemical fertilizers' = 'synthetic fertilizer inputs'."
+            }
+          },
+          {
+            "id": "t30_q17",
+            "num": 17,
+            "question": "The word \"paradox\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"paradox\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "contradiction and surprising puzzle",
+              "universal agreement",
+              "mathematical rule",
+              "legal statute"
+            ],
+            "optionsVi": [
+              "nghịch lý và câu đố bất ngờ",
+              "sự đồng thuận phổ quát",
+              "quy tắc toán học",
+              "đạo luật pháp lý"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "A similarly striking paradox manifests in heated greenhouse horticulture.",
+            "evidenceVi": "Một nghịch lý nổi bật tương tự cũng xuất hiện trong nghề làm vườn nhà kính có sưởi ấm.",
+            "explanation": "'Paradox' là một hiện tượng dường như trái ngược với lẽ thường nhưng lại có thật, đồng nghĩa với 'contradiction and surprising puzzle'.",
+            "postReading": {
+              "original": "A similarly striking paradox manifests in heated greenhouse horticulture.",
+              "paraphrase": "An equally noticeable contradiction appears in climate-heated glasshouse agriculture.",
+              "analysis": "'Striking paradox' = 'noticeable contradiction'; 'heated greenhouse horticulture' = 'climate-heated glasshouse agriculture'."
+            }
+          },
+          {
+            "id": "t30_q18",
+            "num": 18,
+            "question": "According to paragraph 4, why do tomatoes grown locally in northern European greenhouses during winter have a larger carbon footprint than tomatoes trucked from Spain?",
+            "questionVi": "Theo đoạn 4, vì sao cà chua trồng tại địa phương trong nhà kính Bắc Âu vào mùa đông lại có dấu chân carbon lớn hơn cà chua chở bằng xe tải từ Tây Ban Nha?",
+            "questionType": "Detail",
+            "options": [
+              "Spanish trucks run exclusively on recycled vegetable cooking oil",
+              "Northern greenhouses must continuously burn fossil fuels for heating and artificial lighting, producing far more emissions per kilogram than trucking field-grown tomatoes from sunny Spain",
+              "Tomatoes from Spain are dehydrated before being loaded onto trucks",
+              "Northern European consumers throw away half of all local produce"
+            ],
+            "optionsVi": [
+              "Xe tải Tây Ban Nha chạy hoàn toàn bằng dầu ăn thực vật tái chế",
+              "Nhà kính phương Bắc phải liên tục đốt nhiên liệu hóa thạch để sưởi ấm và chiếu sáng nhân tạo, tạo ra lượng khí thải trên mỗi kg lớn hơn nhiều so với việc chở cà chua trồng ngoài đồng từ Tây Ban Nha đầy nắng",
+              "Cà chua từ Tây Ban Nha được sấy khô trước khi chất lên xe tải",
+              "Người tiêu dùng Bắc Âu vứt bỏ một nửa số nông sản địa phương"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "during northern European winters requires continuously burning fossil fuels to heat and illuminate glasshouses, generating far greater carbon emissions per kilogram than trucking field-grown tomatoes thousands of kilometers from sun-drenched southern Spain.",
+            "evidenceVi": "trong mùa đông Bắc Âu đòi hỏi phải liên tục đốt nhiên liệu hóa thạch để sưởi ấm và chiếu sáng các nhà kính, tạo ra lượng khí thải carbon trên mỗi kg lớn hơn nhiều so với việc vận chuyển bằng xe tải cà chua trồng trên đồng ruộng hàng ngàn km từ miền nam Tây Ban Nha đầy nắng.",
+            "explanation": "Đoạn 4 nêu rõ: sưởi ấm nhà kính bằng dầu/khí đốt liên tục tốn năng lượng gấp nhiều lần việc xe tải chở cà chua trồng tự nhiên ngoài đồng từ Tây Ban Nha.",
+            "postReading": {
+              "original": "generating far greater carbon emissions per kilogram than trucking field-grown tomatoes thousands of kilometers from sun-drenched southern Spain.",
+              "paraphrase": "producing substantially higher emissions per unit of weight than transporting outdoor-grown tomatoes over long distances from sunny Spain.",
+              "analysis": "'Generating far greater carbon emissions per kilogram' = 'producing substantially higher emissions per unit of weight'; 'trucking field-grown tomatoes' = 'transporting outdoor-grown tomatoes'; 'sun-drenched southern Spain' = 'sunny Spain'."
+            }
+          },
+          {
+            "id": "t30_q19",
+            "num": 19,
+            "question": "The word \"enlightened\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"enlightened\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "informed and knowledgeable",
+              "careless",
+              "wealthy",
+              "unaware"
+            ],
+            "optionsVi": [
+              "sáng suốt và có hiểu biết",
+              "bất cẩn",
+              "giàu có",
+              "không hay biết"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Enlightened ecological consumption requires prioritizing how food is cultivated over where it is grown...",
+            "evidenceVi": "Tiêu dùng sinh thái sáng suốt đòi hỏi phải ưu tiên cách thức thực phẩm được canh tác hơn là nơi nó được trồng...",
+            "explanation": "'Enlightened' mang nghĩa có sự hiểu biết sâu sắc, sáng suốt và thấu đáo, đồng nghĩa với 'informed and knowledgeable'.",
+            "postReading": {
+              "original": "Enlightened ecological consumption requires prioritizing how food is cultivated over where it is grown",
+              "paraphrase": "Discerning sustainable buying habits demand focusing on agricultural methodology rather than mere geography",
+              "analysis": "'Enlightened ecological consumption' = 'Discerning sustainable buying habits'; 'prioritizing how food is cultivated' = 'focusing on agricultural methodology'."
+            }
+          },
+          {
+            "id": "t30_q20",
+            "num": 20,
+            "question": "According to the author's final conclusion, which actions genuinely promote food sustainability?",
+            "questionVi": "Theo kết luận cuối cùng của tác giả, những hành động nào thực sự thúc đẩy tính bền vững của hệ thống thực phẩm?",
+            "questionType": "Inference",
+            "options": [
+              "Eating only foods packaged in aluminum foil cans",
+              "Adopting regenerative agroecological farming, shifting toward plant-rich diets, and minimizing post-harvest food waste",
+              "Banning all international shipping container vessels",
+              "Consuming only processed meat products"
+            ],
+            "optionsVi": [
+              "Chỉ ăn thực phẩm đóng gói trong hộp thiếc lá nhôm",
+              "Áp dụng canh tác nông sinh thái tái sinh, chuyển dịch sang chế độ ăn nhiều thực vật và giảm thiểu lãng phí thực phẩm sau thu hoạch",
+              "Cấm tất cả các tàu container vận chuyển hàng hải quốc tế",
+              "Chỉ tiêu thụ các sản phẩm thịt chế biến sẵn"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "advocating for regenerative agroecological practices, dietary shifts toward plant-based nutrition, and the minimization of post-harvest food waste.",
+            "evidenceVi": "ủng hộ các thực hành nông sinh thái tái sinh, sự chuyển dịch chế độ ăn uống hướng tới dinh dưỡng từ thực vật và giảm thiểu tối đa lãng phí thực phẩm sau thu hoạch.",
+            "explanation": "Câu kết của bài chỉ ra các giải pháp thực chất nhất: nông nghiệp tái sinh, ăn nhiều thực vật hơn và chống lãng phí thức ăn.",
+            "postReading": {
+              "original": "advocating for regenerative agroecological practices, dietary shifts toward plant-based nutrition, and the minimization of post-harvest food waste.",
+              "paraphrase": "supporting restorative ecological cultivation, transitioning to vegetarian-leaning meals, and drastically cutting food losses.",
+              "analysis": "'Regenerative agroecological practices' = 'restorative ecological cultivation'; 'dietary shifts toward plant-based nutrition' = 'transitioning to vegetarian-leaning meals'; 'minimization of post-harvest food waste' = 'drastically cutting food losses'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Medical Breakthroughs & Battlefield Surgery in World War I",
+        "topic": "Đột phá y học & Phẫu thuật dã chiến trong Thế chiến thứ nhất: Xe X-quang di động của Marie Curie, ngân hàng máu sodium citrate, phân loại thương binh (triage) và nguồn gốc phẫu thuật tạo hình",
+        "timeAllowed": 15,
+        "passage": "<p>The industrialized carnage of the First World War (1914–1918) unleashed an unprecedented spectrum of traumatic human trauma. The widespread deployment of heavy high-explosive artillery shells, machine gun barrages, and trench-line chemical warfare inflicted catastrophic poly-trauma—deep penetrating wounds contaminated by trench mud teeming with anaerobic bacteria like <em>Clostridium perfringens</em>, the causative agent of lethal gas gangrene. Confronted with casualty volumes that instantly overwhelmed antiquated Victorian medical corps, military surgeons, pathologists, and nurses were forced to pioneer improvised clinical innovations that ultimately revolutionized modern emergency medicine, antiseptic surgery, and trauma resuscitation.</p><p>Among the most immediate logistical triumphs was the rapid mechanization and decentralized deployment of diagnostic radiology. Recognizing that surgeons were fruitlessly probing deep shrapnel wounds with bare fingers and metal forceps—frequently introducing fatal sepsis—Nobel laureate Marie Curie designed twenty custom-fitted radiological automobiles, affectionately dubbed 'petites Curies.' Powered by dynamo generators connected to the vehicle engines, these mobile X-ray units traversed bumpy frontline trenches, allowing surgeons to pinpoint precise locations of jagged metal splinters and shattered bone fragments within minutes, drastically reducing amputation rates and surgical shock.</p><p>Simultaneously, the war catalyzed the birth of modern blood transfusion banking. In previous eras, transfusions required risky, direct vein-to-vein transfers between donor and recipient because collected blood rapidly coagulated within minutes. In 1914, Belgian and Argentine researchers discovered that adding sodium citrate safely anticoagulated blood without toxicity. Capitalizing on this discovery, British and American army doctors, notably Captain Oswald Robertson, developed the world’s first operational blood depots during the 1917 Battle of Cambrai. Preserved on ice in glass bottles mixed with glucose, citrated universal Type-O blood could be stored for up to twenty-six days, enabling paramedics to resuscitate exsanguinated soldiers suffering from profound hypovolemic shock directly at forward casualty clearing stations.</p><p>Finally, the horrific prevalence of high-velocity facial mutilations gave birth to modern reconstructive plastic surgery. At Queen’s Hospital in Sidcup, New Zealand-born surgeon Harold Gillies pioneered revolutionary reconstructive procedures, most famously the 'tubed pedicle' skin graft. By fashioning a rolling cylinder of living tissue that maintained continuous vascular blood supply from the donor site to the reconstructive recipient bed, Gillies rebuilt shattered jaws, noses, and eye sockets for over eleven thousand disfigured soldiers. Coupled with the systematic institutionalization of 'triage'—the rapid clinical sorting of casualties based on survival probability rather than rank—the grim crucible of wartime trauma forged the core organizational doctrines that govern contemporary disaster medicine today.</p>",
+        "vocab": [
+          {
+            "word": "carnage",
+            "pos": "noun",
+            "ipa": "/ˈkɑː.nɪdʒ/",
+            "level": "C1",
+            "mean": "sự tàn sát đẫm máu, thảm cảnh thương vong",
+            "syns": [
+              "slaughter",
+              "butchery",
+              "massacre"
+            ],
+            "ex": "The terrible carnage on the Western Front overwhelmed field hospitals."
+          },
+          {
+            "word": "anaerobic",
+            "pos": "adjective",
+            "ipa": "/ˌæn.eəˈrəʊ.bɪk/",
+            "level": "C1",
+            "mean": "kỵ khí (sống không cần oxy)",
+            "syns": [
+              "oxygen-free",
+              "anoxic"
+            ],
+            "ex": "Anaerobic bacteria thrive in deep, closed puncture wounds."
+          },
+          {
+            "word": "gangrene",
+            "pos": "noun",
+            "ipa": "/ˈɡæŋ.ɡriːn/",
+            "level": "C1",
+            "mean": "chứng hoại thư (mô chết do nhiễm trùng)",
+            "syns": [
+              "tissue necrosis",
+              "mortification"
+            ],
+            "ex": "Gas gangrene was one of the most feared infections in muddy trenches."
+          },
+          {
+            "word": "antiquated",
+            "pos": "adjective",
+            "ipa": "/ˈæn.tɪ.kweɪ.tɪd/",
+            "level": "C1",
+            "mean": "lỗi thời, cổ lỗ sĩ không còn phù hợp",
+            "syns": [
+              "outdated",
+              "obsolete",
+              "archaic"
+            ],
+            "ex": "Antiquated medical manuals offered no guidance on shrapnel injuries."
+          },
+          {
+            "word": "resuscitation",
+            "pos": "noun",
+            "ipa": "/rɪˌsʌs.ɪˈteɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự hồi sức cấp cứu người cận tử",
+            "syns": [
+              "revival",
+              "reanimation",
+              "emergency recovery"
+            ],
+            "ex": "Rapid blood transfusions allowed prompt resuscitation of bleeding soldiers."
+          },
+          {
+            "word": "radiology",
+            "pos": "noun",
+            "ipa": "/ˌreɪ.diˈɒl.ə.dʒi/",
+            "level": "B2",
+            "mean": "khoa X-quang, chẩn đoán hình ảnh",
+            "syns": [
+              "X-ray diagnostics",
+              "medical imaging"
+            ],
+            "ex": "Marie Curie helped revolutionize military radiology during the war."
+          },
+          {
+            "word": "shrapnel",
+            "pos": "noun",
+            "ipa": "/ˈʃræp.nəl/",
+            "level": "B2",
+            "mean": "mảnh bom đạn văng ra khi nổ",
+            "syns": [
+              "metal splinters",
+              "shell fragments"
+            ],
+            "ex": "Surgeons used X-ray plates to locate hidden shrapnel inside injured muscles."
+          },
+          {
+            "word": "forceps",
+            "pos": "noun",
+            "ipa": "/ˈfɔː.seps/",
+            "level": "B2",
+            "mean": "kẹp phẫu thuật",
+            "syns": [
+              "pincers",
+              "surgical tongs"
+            ],
+            "ex": "The doctor carefully gripped the bullet fragment with sterile forceps."
+          },
+          {
+            "word": "dynamo",
+            "pos": "noun",
+            "ipa": "/ˈdaɪ.nə.məʊ/",
+            "level": "B2",
+            "mean": "máy phát điện",
+            "syns": [
+              "electrical generator"
+            ],
+            "ex": "The car's dynamo generated electricity to power the X-ray tube."
+          },
+          {
+            "word": "amputation",
+            "pos": "noun",
+            "ipa": "/ˌæm.pjəˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự cưa cắt bỏ chi",
+            "syns": [
+              "limb removal",
+              "severing"
+            ],
+            "ex": "Timely treatment prevented unnecessary limb amputations."
+          },
+          {
+            "word": "coagulate",
+            "pos": "verb",
+            "ipa": "/kəʊˈæɡ.jə.leɪt/",
+            "level": "C1",
+            "mean": "đông tụ lại (máu đóng cục)",
+            "syns": [
+              "clot",
+              "congeal",
+              "solidify"
+            ],
+            "ex": "Untreated blood tends to coagulate rapidly when exposed to air."
+          },
+          {
+            "word": "citrate",
+            "pos": "noun",
+            "ipa": "/ˈsɪt.reɪt/",
+            "level": "C1",
+            "mean": "muối xitrat (chất chống đông máu)",
+            "syns": [
+              "anticoagulant chemical"
+            ],
+            "ex": "Sodium citrate prevents donor blood from clotting in storage flasks."
+          },
+          {
+            "word": "anticoagulate",
+            "pos": "verb",
+            "ipa": "/ˌæn.ti.kəʊˈæɡ.jə.leɪt/",
+            "level": "C1",
+            "mean": "chống đông máu",
+            "syns": [
+              "prevent clotting",
+              "thin blood"
+            ],
+            "ex": "Chemicals were added to anticoagulate blood intended for field hospitals."
+          },
+          {
+            "word": "depot",
+            "pos": "noun",
+            "ipa": "/ˈdep.əʊ/",
+            "level": "B2",
+            "mean": "kho lưu trữ, trạm tiếp nhận",
+            "syns": [
+              "storehouse",
+              "bank",
+              "repository"
+            ],
+            "ex": "The army established a blood depot near the forward hospital lines."
+          },
+          {
+            "word": "exsanguinated",
+            "pos": "adjective",
+            "ipa": "/ɪkˈsæŋ.ɡwɪ.neɪ.tɪd/",
+            "level": "C1",
+            "mean": "bị mất máu kiệt quệ",
+            "syns": [
+              "drained of blood",
+              "severely hemorrhaged"
+            ],
+            "ex": "Exsanguinated casualties required immediate fluid expansion."
+          },
+          {
+            "word": "hypovolemic",
+            "pos": "adjective",
+            "ipa": "/ˌhaɪ.pəʊ.vəˈliː.mɪk/",
+            "level": "C1",
+            "mean": "thuộc sốc do giảm thể tích tuần hoàn máu",
+            "syns": [
+              "low-blood-volume shock"
+            ],
+            "ex": "Uncontrolled hemorrhage leads to fatal hypovolemic shock within minutes."
+          },
+          {
+            "word": "mutilation",
+            "pos": "noun",
+            "ipa": "/ˌmjuː.tɪˈleɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự biến dạng cơ thể nghiêm trọng, tàn tật hình hài",
+            "syns": [
+              "disfigurement",
+              "deformation",
+              "maiming"
+            ],
+            "ex": "Exploding artillery caused horrifying facial mutilations among soldiers."
+          },
+          {
+            "word": "pedicle",
+            "pos": "noun",
+            "ipa": "/ˈped.ɪ.kəl/",
+            "level": "C1",
+            "mean": "vạt cuống da nuôi (trong ghép da tạo hình)",
+            "syns": [
+              "tissue stalk",
+              "vascular graft tube"
+            ],
+            "ex": "The tubed pedicle skin flap kept the tissue alive during transfer."
+          },
+          {
+            "word": "graft",
+            "pos": "noun",
+            "ipa": "/ɡrɑːft/",
+            "level": "B2",
+            "mean": "mảnh ghép mô/da",
+            "syns": [
+              "tissue implant",
+              "transplant"
+            ],
+            "ex": "Surgeons performed a delicate skin graft to reconstruct the wounded soldier's cheek."
+          },
+          {
+            "word": "disfigured",
+            "pos": "adjective",
+            "ipa": "/dɪsˈfɪɡ.əd/",
+            "level": "B2",
+            "mean": "bị biến dạng mặt mày, dị dạng ngoại hình",
+            "syns": [
+              "deformed",
+              "scarred",
+              "blemished"
+            ],
+            "ex": "Many disfigured war veterans were treated by pioneering plastic surgeons."
+          },
+          {
+            "word": "triage",
+            "pos": "noun",
+            "ipa": "/ˈtriː.ɑːʒ/",
+            "level": "C1",
+            "mean": "quy trình phân loại bệnh nhân theo mức độ khẩn cấp",
+            "syns": [
+              "casualty prioritization",
+              "medical sorting"
+            ],
+            "ex": "Field triage ensures that patients with survivable injuries receive immediate surgery."
+          },
+          {
+            "word": "crucible",
+            "pos": "noun",
+            "ipa": "/ˈkruː.sɪ.bəl/",
+            "level": "C1",
+            "mean": "lò luyện lửa thử vàng, hoàn cảnh thử thách cam go",
+            "syns": [
+              "severe trial",
+              "test",
+              "fire ordeal"
+            ],
+            "ex": "Wartime medicine acted as a harsh crucible for clinical innovation."
+          },
+          {
+            "word": "doctrine",
+            "pos": "noun",
+            "ipa": "/ˈdɒk.trɪn/",
+            "level": "B2",
+            "mean": "học thuyết, nguyên tắc chỉ đạo nghiệp vụ",
+            "syns": [
+              "principle",
+              "creed",
+              "tenet"
+            ],
+            "ex": "Triage doctrines established in 1917 remain standard in civilian disasters today."
+          },
+          {
+            "word": "paramedic",
+            "pos": "noun",
+            "ipa": "/ˌpær.əˈmed.ɪk/",
+            "level": "B2",
+            "mean": "nhân viên y tế cứu thương khẩn cấp",
+            "syns": [
+              "emergency medic",
+              "first-responder"
+            ],
+            "ex": "Battlefield paramedics applied tourniquets under heavy fire."
+          },
+          {
+            "word": "barrage",
+            "pos": "noun",
+            "ipa": "/ˈbær.ɑːʒ/",
+            "level": "C1",
+            "mean": "hàng rào pháo kích bắn chặn liên hồi",
+            "syns": [
+              "heavy artillery bombardment",
+              "fusillade"
+            ],
+            "ex": "Soldiers sheltered inside deep bunkers during the continuous artillery barrage."
+          },
+          {
+            "word": "vascular",
+            "pos": "adjective",
+            "ipa": "/ˈvæs.kjə.lər/",
+            "level": "B2",
+            "mean": "thuộc về mạch máu",
+            "syns": [
+              "blood-vessel related",
+              "circulatory"
+            ],
+            "ex": "Maintaining healthy vascular blood flow is critical to skin graft survival."
+          },
+          {
+            "word": "polytrauma",
+            "pos": "noun",
+            "ipa": "/ˌpɒl.iˈtrɔː.mə/",
+            "level": "C1",
+            "mean": "đa chấn thương (nhiều vết thương nặng cùng lúc)",
+            "syns": [
+              "multiple trauma injuries"
+            ],
+            "ex": "Exploding trench shells resulted in complex polytrauma involving bones and organs."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t30_q21",
+            "num": 21,
+            "question": "Which of the following best summarizes the main idea of the passage?",
+            "questionVi": "Câu nào sau đây tóm tắt tốt nhất ý chính của đoạn văn?",
+            "questionType": "Main Idea",
+            "options": [
+              "World War I was won exclusively because of superior chemical weapons",
+              "The catastrophic trauma of World War I catalyzed groundbreaking innovations in mobile radiology, blood banking, plastic surgery, and disaster triage that modernized emergency medicine",
+              "Marie Curie was the sole inventor of all modern surgical instruments",
+              "Blood transfusions were strictly prohibited on European battlefields until the 1950s"
+            ],
+            "optionsVi": [
+              "Thế chiến thứ nhất đã thắng lợi hoàn toàn nhờ vào vũ khí hóa học vượt trội",
+              "Thảm cảnh chấn thương khốc liệt của Thế chiến thứ nhất đã thúc đẩy các đột phá mang tính cách mạng về X-quang di động, ngân hàng máu, phẫu thuật tạo hình và phân loại thương binh làm hiện đại hóa y học cấp cứu",
+              "Marie Curie là người phát minh duy nhất ra mọi dụng cụ phẫu thuật hiện đại",
+              "Truyền máu bị nghiêm cấm trên các chiến trường Châu Âu cho đến tận thập niên 1950"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Confronted with casualty volumes that instantly overwhelmed antiquated Victorian medical corps... surgeons, pathologists, and nurses were forced to pioneer improvised clinical innovations that ultimately revolutionized modern emergency medicine... mobile X-ray units... modern blood transfusion banking... reconstructive plastic surgery... institutionalization of 'triage'...",
+            "evidenceVi": "Đối mặt với số lượng thương vong áp đảo các đội quân y thời Victoria... các bác sĩ, nhà nghiên cứu và y tá buộc phải tiên phong các đổi mới lâm sàng giúp cách mạng hóa y học cấp cứu hiện đại... xe X-quang di động... ngân hàng truyền máu... phẫu thuật tạo hình tái tạo... quy trình phân loại thương binh triage...",
+            "explanation": "Đoạn văn điểm qua 4 đột phá y tế vĩ đại bắt nguồn từ hoàn cảnh chiến tranh Thế chiến I: xe chụp X-quang cơ động, kỹ thuật chống đông trữ máu của ngân hàng máu, phẫu thuật tái tạo mặt và hệ thống phân loại triage.",
+            "postReading": {
+              "original": "the grim crucible of wartime trauma forged the core organizational doctrines that govern contemporary disaster medicine today.",
+              "paraphrase": "the harsh ordeal of wartime casualties shaped the foundational principles directing modern emergency and catastrophe care.",
+              "analysis": "'Grim crucible of wartime trauma' = 'harsh ordeal of wartime casualties'; 'forged the core organizational doctrines' = 'shaped the foundational principles'; 'contemporary disaster medicine' = 'modern emergency and catastrophe care'."
+            }
+          },
+          {
+            "id": "t30_q22",
+            "num": 22,
+            "question": "According to paragraph 1, what made World War I shrapnel wounds uniquely vulnerable to deadly gas gangrene?",
+            "questionVi": "Theo đoạn 1, điều gì khiến các vết thương do mảnh đạn trong Thế chiến thứ nhất đặc biệt dễ bị hoại thư sinh hơi chết người?",
+            "questionType": "Detail",
+            "options": [
+              "Artillery shells were coated in poison ivy sap",
+              "Deep wounds were contaminated by trench mud teeming with anaerobic bacteria like Clostridium perfringens",
+              "Soldiers were forbidden from washing their hands before eating",
+              "Doctors applied spoiled milk directly onto battlefield cuts"
+            ],
+            "optionsVi": [
+              "Vỏ đạn pháo được bọc bằng nhựa cây thường xuân độc",
+              "Các vết thương ăn sâu bị nhiễm bẩn bởi bùn đất chiến hào chứa đầy vi khuẩn kỵ khí như Clostridium perfringens",
+              "Binh lính bị cấm rửa tay trước khi ăn",
+              "Các bác sĩ bôi sữa thiu trực tiếp lên các vết thương trên chiến trường"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "deep penetrating wounds contaminated by trench mud teeming with anaerobic bacteria like Clostridium perfringens, the causative agent of lethal gas gangrene.",
+            "evidenceVi": "những vết thương xuyên sâu bị nhiễm bẩn bởi bùn đất chiến hào chứa đầy vi khuẩn kỵ khí như Clostridium perfringens, tác nhân gây ra chứng hoại thư sinh hơi chết người.",
+            "explanation": "Đoạn 1 nêu rõ: đạn pháo cày xới đất bùn chiến hào đầy vi khuẩn kỵ khí Clostridium perfringens nhồi sâu vào vết thương gây hoại thư sinh hơi (gas gangrene).",
+            "postReading": {
+              "original": "deep penetrating wounds contaminated by trench mud teeming with anaerobic bacteria like Clostridium perfringens, the causative agent of lethal gas gangrene.",
+              "paraphrase": "deeply pierced tissue infected by trench soil full of oxygen-free bacteria, which caused deadly tissue necrosis.",
+              "analysis": "'Deep penetrating wounds' = 'deeply pierced tissue'; 'teeming with anaerobic bacteria' = 'full of oxygen-free bacteria'; 'lethal gas gangrene' = 'deadly tissue necrosis'."
+            }
+          },
+          {
+            "id": "t30_q23",
+            "num": 23,
+            "question": "What innovation did Marie Curie develop to assist frontline surgeons as described in paragraph 2?",
+            "questionVi": "Marie Curie đã phát triển cải tiến nào để hỗ trợ các bác sĩ phẫu thuật tuyến đầu như được miêu tả ở đoạn 2?",
+            "questionType": "Detail",
+            "options": [
+              "Custom-fitted radiological automobiles (\"petites Curies\") powered by dynamos to locate shrapnel and fractures",
+              "Armored surgical tanks with operating theaters inside",
+              "Electric heated blankets for soldiers in freezing trenches",
+              "Radio broadcast antennas to contact relatives in Paris"
+            ],
+            "optionsVi": [
+              "Những chiếc ô tô chụp X-quang chuyên dụng (\"petites Curies\") chạy bằng máy phát điện để định vị mảnh đạn và vết gãy xương",
+              "Những chiếc xe tăng bọc thép phẫu thuật có phòng mổ bên trong",
+              "Chăn sưởi điện cho binh lính trong chiến hào băng giá",
+              "Ăng-ten phát thanh để liên lạc với người thân ở Paris"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Nobel laureate Marie Curie designed twenty custom-fitted radiological automobiles, affectionately dubbed 'petites Curies.' Powered by dynamo generators connected to the vehicle engines, these mobile X-ray units traversed bumpy frontline trenches, allowing surgeons to pinpoint precise locations of jagged metal splinters...",
+            "evidenceVi": "Nhà khoa học đoạt giải Nobel Marie Curie đã thiết kế 20 chiếc ô tô chụp X-quang tùy chỉnh, được trìu mến gọi là 'petites Curies'. Được cung cấp năng lượng bởi máy phát điện dynamo kết nối với động cơ xe, các đơn vị X-quang di động này đã đi qua các chiến hào gập ghềnh, cho phép các bác sĩ xác định vị trí chính xác của các mảnh kim loại...",
+            "explanation": "Đoạn 2 chỉ rõ phát minh của Marie Curie: 20 chiếc xe X-quang lưu động ('petites Curies') dùng máy phát điện dynamo chạy bằng động cơ xe.",
+            "postReading": {
+              "original": "allowing surgeons to pinpoint precise locations of jagged metal splinters and shattered bone fragments within minutes, drastically reducing amputation rates",
+              "paraphrase": "enabling doctors to rapidly locate sharp shrapnel and bone fractures in moments, greatly decreasing the necessity of limb removals",
+              "analysis": "'Pinpoint precise locations' = 'rapidly locate'; 'jagged metal splinters' = 'sharp shrapnel'; 'drastically reducing amputation rates' = 'greatly decreasing the necessity of limb removals'."
+            }
+          },
+          {
+            "id": "t30_q24",
+            "num": 24,
+            "question": "The word \"pinpoint\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"pinpoint\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "locate precisely",
+              "sharpen",
+              "ignore",
+              "dissolve"
+            ],
+            "optionsVi": [
+              "xác định chính xác vị trí",
+              "mài sắc",
+              "phớt lờ",
+              "hòa tan"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "allowing surgeons to pinpoint precise locations of jagged metal splinters and shattered bone fragments within minutes...",
+            "evidenceVi": "cho phép các bác sĩ phẫu thuật định vị chính xác vị trí của các mảnh kim loại sắc nhọn và mảnh xương vỡ vụn chỉ trong vài phút...",
+            "explanation": "'Pinpoint' nghĩa là xác định vị trí chính xác đến từng mi-li-mét, đồng nghĩa với 'locate precisely'.",
+            "postReading": {
+              "original": "pinpoint precise locations of jagged metal splinters",
+              "paraphrase": "identify the exact spots of sharp bomb fragments",
+              "analysis": "'Pinpoint precise locations' = 'identify the exact spots'; 'jagged metal splinters' = 'sharp bomb fragments'."
+            }
+          },
+          {
+            "id": "t30_q25",
+            "num": 25,
+            "question": "According to paragraph 3, what chemical breakthrough made modern blood banking possible in 1914?",
+            "questionVi": "Theo đoạn 3, bước đột phá hóa học nào đã làm cho việc xây dựng ngân hàng máu trở nên khả thi vào năm 1914?",
+            "questionType": "Detail",
+            "options": [
+              "The synthesis of artificial liquid plastic blood",
+              "The discovery that sodium citrate safely anticoagulates blood without human toxicity, preventing rapid clotting",
+              "The addition of red food coloring to saline water",
+              "The invention of boiling blood at 100 degrees Celsius"
+            ],
+            "optionsVi": [
+              "Việc tổng hợp máu nhựa lỏng nhân tạo",
+              "Phát hiện ra rằng natri citrat chống đông máu an toàn mà không gây độc hại cho con người, ngăn ngừa máu đông nhanh",
+              "Việc thêm phẩm màu đỏ vào nước muối sinh lý",
+              "Phát minh đun sôi máu ở 100 độ C"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In 1914, Belgian and Argentine researchers discovered that adding sodium citrate safely anticoagulated blood without toxicity. Capitalizing on this discovery, British and American army doctors... developed the world’s first operational blood depots...",
+            "evidenceVi": "Năm 1914, các nhà nghiên cứu Bỉ và Argentina phát hiện ra rằng việc thêm natri citrat giúp chống đông máu an toàn mà không gây độc. Tận dụng khám phá này, các bác sĩ quân y Anh và Mỹ... đã phát triển các kho máu đầu tiên trên thế giới...",
+            "explanation": "Đoạn 3 nêu rõ: sodium citrate là chất chống đông máu không độc, giúp máu không bị đông cục và có thể trữ lạnh trong chai thủy tinh để truyền sau.",
+            "postReading": {
+              "original": "discovered that adding sodium citrate safely anticoagulated blood without toxicity.",
+              "paraphrase": "found that introducing sodium citrate effectively hindered blood clotting with no poisonous effects.",
+              "analysis": "'Adding sodium citrate' = 'introducing sodium citrate'; 'anticoagulated blood' = 'hindered blood clotting'; 'without toxicity' = 'with no poisonous effects'."
+            }
+          },
+          {
+            "id": "t30_q26",
+            "num": 26,
+            "question": "The word \"exsanguinated\" in paragraph 3 refers to individuals who are:",
+            "questionVi": "Từ \"exsanguinated\" trong đoạn 3 đề cập đến những bệnh nhân:",
+            "questionType": "Vocabulary",
+            "options": [
+              "Severely drained of blood due to massive hemorrhage",
+              "Suffering from severe frostbite on toes",
+              "Temporarily deafened by artillery noise",
+              "Infected with airborne influenza viruses"
+            ],
+            "optionsVi": [
+              "Bị mất máu nghiêm trọng kiệt quệ do xuất huyết ồ ạt",
+              "Bị cước cóng lạnh nghiêm trọng ở các ngón chân",
+              "Bị điếc tạm thời do tiếng pháo nổ",
+              "Bị nhiễm virus cúm lây qua đường không khí"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "enabling paramedics to resuscitate exsanguinated soldiers suffering from profound hypovolemic shock directly at forward casualty clearing stations.",
+            "evidenceVi": "cho phép các nhân viên cứu thương hồi sức cho những người lính bị mất máu kiệt quệ đang bị sốc giảm thể tích sâu trực tiếp tại các trạm phân loại thương binh phía trước.",
+            "explanation": "'Exsanguinated' xuất phát từ gốc tiếng Latinh (ex- = cạn, sanguis = máu), chỉ trạng thái mất máu gần như toàn bộ do vết thương hở, đồng nghĩa với 'severely drained of blood'.",
+            "postReading": {
+              "original": "resuscitate exsanguinated soldiers suffering from profound hypovolemic shock",
+              "paraphrase": "revive heavily bleeding troops enduring severe blood-loss trauma",
+              "analysis": "'Resuscitate' = 'revive'; 'exsanguinated soldiers' = 'heavily bleeding troops'; 'profound hypovolemic shock' = 'severe blood-loss trauma'."
+            }
+          },
+          {
+            "id": "t30_q27",
+            "num": 27,
+            "question": "According to paragraph 4, what surgical procedure was pioneered by Harold Gillies to reconstruct disfigured soldiers' faces?",
+            "questionVi": "Theo đoạn 4, kỹ thuật phẫu thuật nào đã được Harold Gillies tiên phong để tái tạo khuôn mặt biến dạng của các thương binh?",
+            "questionType": "Detail",
+            "options": [
+              "Injecting liquid silicone under the facial skin",
+              "The \"tubed pedicle\" living skin graft that maintained continuous vascular blood supply during transfer",
+              "Replacing bone with carved wooden splints",
+              "Full-face animal skin transplants from sheep"
+            ],
+            "optionsVi": [
+              "Tiêm silicon lỏng dưới da mặt",
+              "Vạt da cuống hình ống (\"tubed pedicle\") duy trì nguồn cung cấp máu mạch máu liên tục trong quá trình chuyển ghép",
+              "Thay thế xương bằng nẹp gỗ chạm khắc",
+              "Ghép da mặt động vật hoàn toàn từ cừu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Harold Gillies pioneered revolutionary reconstructive procedures, most famously the 'tubed pedicle' skin graft. By fashioning a rolling cylinder of living tissue that maintained continuous vascular blood supply from the donor site to the reconstructive recipient bed, Gillies rebuilt shattered jaws, noses, and eye sockets...",
+            "evidenceVi": "Harold Gillies đã tiên phong trong các quy trình tái tạo mang tính cách mạng, nổi tiếng nhất là kỹ thuật ghép da 'cuống hình ống' (tubed pedicle). Bằng cách cuộn một hình trụ mô sống duy trì nguồn cấp máu mạch máu liên tục từ vị trí hiến tặng đến giường nhận tái tạo, Gillies đã xây dựng lại hàm, mũi và hốc mắt bị vỡ vụn...",
+            "explanation": "Đoạn 4 nêu rõ kỹ thuật mang tên 'tubed pedicle': cuộn vạt da thành hình ống có mạch máu nuôi dưỡng để ghép dần lên mặt, cứu sống hơn 11.000 thương binh.",
+            "postReading": {
+              "original": "By fashioning a rolling cylinder of living tissue that maintained continuous vascular blood supply from the donor site to the reconstructive recipient bed",
+              "paraphrase": "Through creating a rolled tube of living flesh that kept blood circulating continuously from the donor area to the injury zone",
+              "analysis": "'Fashioning a rolling cylinder of living tissue' = 'creating a rolled tube of living flesh'; 'maintained continuous vascular blood supply' = 'kept blood circulating continuously'."
+            }
+          },
+          {
+            "id": "t30_q28",
+            "num": 28,
+            "question": "The word \"mutilations\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"mutilations\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "severe disfigurements and injuries",
+              "medals of honor",
+              "minor sunburns",
+              "promotions in military rank"
+            ],
+            "optionsVi": [
+              "sự biến dạng và tổn thương hình hài nghiêm trọng",
+              "huy chương danh dự",
+              "cháy nắng nhẹ",
+              "sự thăng quân hàm"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the horrific prevalence of high-velocity facial mutilations gave birth to modern reconstructive plastic surgery.",
+            "evidenceVi": "sự phổ biến kinh hoàng của những tổn thương biến dạng mặt nghiêm trọng do đạn tốc độ cao đã khai sinh ra ngành phẫu thuật tạo hình thẩm mỹ tái tạo hiện đại.",
+            "explanation": "'Mutilations' nghĩa là sự tàn phá, hủy hoại hình hài cơ thể nghiêm trọng, đồng nghĩa với 'severe disfigurements and injuries'.",
+            "postReading": {
+              "original": "the horrific prevalence of high-velocity facial mutilations gave birth to modern reconstructive plastic surgery.",
+              "paraphrase": "the terrible frequency of severe head deformities caused by munitions led to the foundation of plastic reconstruction.",
+              "analysis": "'Horrific prevalence' = 'terrible frequency'; 'facial mutilations' = 'severe head deformities'; 'gave birth to modern reconstructive plastic surgery' = 'led to the foundation of plastic reconstruction'."
+            }
+          },
+          {
+            "id": "t30_q29",
+            "num": 29,
+            "question": "According to paragraph 4, what is the core operational principle of medical \"triage\"?",
+            "questionVi": "Theo đoạn 4, nguyên tắc vận hành cốt lõi của quy trình phân loại y tế \"triage\" là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Treating officers first before caring for any lower-ranking soldiers",
+              "Rapidly sorting casualties based on survival probability and clinical urgency rather than military rank",
+              "Sending all wounded soldiers home on trains without examination",
+              "Admitting patients based strictly on chronological arrival order"
+            ],
+            "optionsVi": [
+              "Điều trị cho sĩ quan trước khi chăm sóc bất kỳ người lính cấp dưới nào",
+              "Nhanh chóng phân loại thương binh dựa trên xác suất sống sót và mức độ khẩn cấp lâm sàng thay vì cấp bậc quân sự",
+              "Gửi tất cả binh lính bị thương về nhà bằng tàu hỏa mà không cần khám",
+              "Tiếp nhận bệnh nhân hoàn toàn dựa trên thứ tự thời gian đến trước sau"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the systematic institutionalization of 'triage'—the rapid clinical sorting of casualties based on survival probability rather than rank—the grim crucible of wartime trauma forged the core organizational doctrines...",
+            "evidenceVi": "sự thể chế hóa có hệ thống của quy trình 'triage'—việc phân loại lâm sàng nhanh chóng các nạn nhân dựa trên xác suất sống sót hơn là cấp bậc—lò luyện khắc nghiệt của chấn thương thời chiến đã tạo nên các học thuyết tổ chức cốt lõi...",
+            "explanation": "Đoạn 4 định nghĩa rõ triage: phân loại cấp cứu dựa trên cơ hội cứu sống và tính khẩn cấp chứ không phân biệt theo cấp bậc quân hàm sĩ quan hay lính trơn.",
+            "postReading": {
+              "original": "the rapid clinical sorting of casualties based on survival probability rather than rank",
+              "paraphrase": "the swift medical categorization of wounded individuals according to their likelihood of recovery instead of status",
+              "analysis": "'Rapid clinical sorting of casualties' = 'swift medical categorization of wounded individuals'; 'survival probability' = 'likelihood of recovery'; 'rather than rank' = 'instead of status'."
+            }
+          },
+          {
+            "id": "t30_q30",
+            "num": 30,
+            "question": "Which of the following can be inferred from the entire passage regarding wartime innovation?",
+            "questionVi": "Điều nào sau đây có thể suy ra từ toàn bộ đoạn văn liên quan đến sự đổi mới trong thời chiến?",
+            "questionType": "Inference",
+            "options": [
+              "Wartime medical innovations were forgotten immediately after the armistice",
+              "Extreme humanitarian catastrophes and resource pressures can unexpectedly force medical leaps that establish enduring civilian standards of care",
+              "Military doctors refused to adopt any scientific instruments developed by female scientists",
+              "Civilian hospitals still prefer antiquated 19th-century surgical techniques"
+            ],
+            "optionsVi": [
+              "Các cải tiến y tế thời chiến đã bị lãng quên ngay sau hiệp định đình chiến",
+              "Những thảm họa nhân đạo và áp lực nguồn lực cực độ có thể bất ngờ thúc đẩy những bước nhảy vọt y tế tạo nên các chuẩn mực chăm sóc lâu dài cho dân sự",
+              "Các bác sĩ quân y từ chối áp dụng bất kỳ dụng cụ khoa học nào do các nhà khoa học nữ phát triển",
+              "Các bệnh viện dân sự vẫn thích các kỹ thuật phẫu thuật cổ xưa của thế kỷ 19"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the grim crucible of wartime trauma forged the core organizational doctrines that govern contemporary disaster medicine today.",
+            "evidenceVi": "lò luyện khắc nghiệt của chấn thương thời chiến đã tạo nên các học thuyết tổ chức cốt lõi chi phối y học thảm họa đương đại ngày nay.",
+            "explanation": "Bài đọc chứng minh rằng chính hoàn cảnh khốc liệt và áp lực thương vong kinh hoàng của Thế chiến I đã buộc con người phải sáng tạo và để lại di sản cứu trợ vô giá cho y học dân sự thời bình ngày nay.",
+            "postReading": {
+              "original": "pioneer improvised clinical innovations that ultimately revolutionized modern emergency medicine, antiseptic surgery, and trauma resuscitation.",
+              "paraphrase": "develop innovative emergency techniques that fundamentally transformed contemporary trauma care, sterile procedures, and critical life support.",
+              "analysis": "'Improvised clinical innovations' = 'innovative emergency techniques'; 'revolutionized modern emergency medicine' = 'fundamentally transformed contemporary trauma care'; 'trauma resuscitation' = 'critical life support'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Ocean Wave Dynamics: Fluid Mechanics, Rogue Waves & Coastal Energy",
+        "topic": "Động lực học sóng biển: Cơ chế truyền năng lượng gió - nước, bước sóng, sự hình thành sóng độc (rogue waves) và tiềm năng khai thác điện năng từ sóng đại dương",
+        "timeAllowed": 15,
+        "passage": "<p>To the casual coastal observer, ocean waves present an illusion of horizontal mass transport—a perception that vast volumes of water are physically surging across planetary basins. In fluid mechanics, however, surface gravity waves represent the propagation of energy, not matter. As undulating waveforms traverse the pelagic expanse, individual water molecules execute nearly closed vertical orbits, moving upward and forward beneath the crest, and downward and backward within the trough. This orbital diameter attenuates exponentially with depth, diminishing to negligible turbulence at the 'wave base'—a depth equivalent to precisely half the surface wavelength. Only when a wave shoals into shallow littoral bathymetry does seafloor friction deform these circular orbits into flattened ellipses, precipitating wave steepening, forward instability, and eventual breakers.</p><p>The genesis of wind-generated surface waves is governed by three interdependent variables: wind velocity, duration of continuous blowing, and 'fetch'—the uninterrupted linear expanse of open water across which wind stress acts. When sustained gale-force winds sweep over expansive oceanic stretches, energy transfers across the turbulent atmospheric boundary layer via tangential shear and normal pressure differentials. Initially, microscopic capillary ripples form, generating surface roughness that facilitates greater aerodynamic drag. Progressively, these ripples amplify into chaotic seas, which subsequently organize through dispersion into mature, long-period swells capable of traversing thousands of kilometers across ocean basins with minimal energetic attenuation.</p><p>For centuries, mariners whispered terrifying lore of spontaneous 'rogue waves'—solitary colossal walls of water exceeding thirty meters in height that emerged without warning in calm seas to engulf merchant vessels. Long dismissed by terrestrial oceanographers as myth or exaggerated survivor hyperbole, rogue waves were empirically validated on New Year's Day in 1995 when a laser sensor aboard the Draupner oil platform in the North Sea recorded a verified twenty-five-meter wave towering amidst twelve-meter seas. Hydrodynamic physicists now understand that rogue waves arise through two non-linear phenomena: constructive interference—where multiple wave trains of varying wavelengths momentarily align in spatial and temporal coherence—and modulation instability (the Benjamin-Feir effect), wherein non-linear wave-wave interactions cannibalize energy from adjacent swells to feed a solitary monstrous crest.</p><p>Harnessing this boundless kinetic energy represents one of the frontiers of sustainable civil engineering. Marine hydrokinetic wave energy converters (WECs)—spanning oscillating water columns, point absorbers, and attenuators—possess theoretical power densities vastly surpassing wind or photovoltaic solar arrays. However, commercial scaling confronts severe maritime engineering hurdles: mechanical fatigue from relentless cyclic stresses, corrosion in saline environments, and the paradoxical engineering requirement that devices must operate sensitively during gentle swells yet survive the cataclysmic structural violence of 100-year storm surges. Resolving these hydrodynamic challenges could unlock a dependable, baseload source of clean maritime electricity for coastal societies worldwide.</p>",
+        "vocab": [
+          {
+            "word": "undulating",
+            "pos": "adjective",
+            "ipa": "/ˈʌn.djʊ.leɪ.tɪŋ/",
+            "level": "C1",
+            "mean": "nhấp nhô gợn sóng, uốn lượn mềm mại",
+            "syns": [
+              "wavelike",
+              "rolling",
+              "surging"
+            ],
+            "ex": "Undulating swells rolled smoothly across the open ocean."
+          },
+          {
+            "word": "crest",
+            "pos": "noun",
+            "ipa": "/krest/",
+            "level": "B2",
+            "mean": "đỉnh ngọn sóng",
+            "syns": [
+              "peak",
+              "summit",
+              "ridge"
+            ],
+            "ex": "Frothy white foam formed on the crest of the breaking wave."
+          },
+          {
+            "word": "trough",
+            "pos": "noun",
+            "ipa": "/trɒf/",
+            "level": "B2",
+            "mean": "đáy sóng, hõm sóng thấp nhất",
+            "syns": [
+              "valley",
+              "hollow",
+              "depression"
+            ],
+            "ex": "The ship plunged into a deep water trough between two huge waves."
+          },
+          {
+            "word": "attenuate",
+            "pos": "verb",
+            "ipa": "/əˈten.ju.eɪt/",
+            "level": "C1",
+            "mean": "giảm dần cường độ, suy hao yếu đi",
+            "syns": [
+              "weaken",
+              "diminish",
+              "fade"
+            ],
+            "ex": "Wave energy attenuates rapidly as water depth increases."
+          },
+          {
+            "word": "shoal",
+            "pos": "verb",
+            "ipa": "/ʃəʊl/",
+            "level": "C1",
+            "mean": "nông dần (sóng tiến vào vùng nước nông ven bờ)",
+            "syns": [
+              "shallow",
+              "ground"
+            ],
+            "ex": "As deep-sea swells shoal near the coastline, their height increases dramatically."
+          },
+          {
+            "word": "bathymetry",
+            "pos": "noun",
+            "ipa": "/bəˈθɪm.ə.tri/",
+            "level": "C1",
+            "mean": "độ sâu địa hình đáy biển",
+            "syns": [
+              "underwater topography",
+              "seabed depth"
+            ],
+            "ex": "Coastal bathymetry determines where waves break along the shoreline."
+          },
+          {
+            "word": "breaker",
+            "pos": "noun",
+            "ipa": "/ˈbreɪ.kər/",
+            "level": "B2",
+            "mean": "con sóng bạc đầu vỡ òa vào bờ",
+            "syns": [
+              "crashing wave",
+              "surf"
+            ],
+            "ex": "Surfers paddled out past the line of powerful breakers."
+          },
+          {
+            "word": "fetch",
+            "pos": "noun",
+            "ipa": "/fetʃ/",
+            "level": "C1",
+            "mean": "quãng đường gió thổi tự do trên mặt nước",
+            "syns": [
+              "wind distance",
+              "open-water span"
+            ],
+            "ex": "A longer fetch allows winds to generate significantly taller waves."
+          },
+          {
+            "word": "tangential",
+            "pos": "adjective",
+            "ipa": "/tænˈdʒen.ʃəl/",
+            "level": "C1",
+            "mean": "theo phương tiếp tuyến (lực trượt trên bề mặt)",
+            "syns": [
+              "surface-shearing",
+              "peripheral"
+            ],
+            "ex": "Tangential wind friction pulls surface water particles into motion."
+          },
+          {
+            "word": "capillary",
+            "pos": "adjective",
+            "ipa": "/kəˈpɪl.ər.i/",
+            "level": "C1",
+            "mean": "thuộc mao dẫn (sóng gợn lăn tăn nhỏ do sức căng bề mặt)",
+            "syns": [
+              "micro-wave",
+              "surface-tension ripple"
+            ],
+            "ex": "Gentle breezes create tiny capillary ripples on calm lake surfaces."
+          },
+          {
+            "word": "swell",
+            "pos": "noun",
+            "ipa": "/swel/",
+            "level": "B2",
+            "mean": "sóng lừng (sóng đều đặn di chuyển từ xa đến)",
+            "syns": [
+              "undulation",
+              "ocean roller",
+              "surge"
+            ],
+            "ex": "Long-period swells originated thousands of miles away in Antarctica."
+          },
+          {
+            "word": "mariner",
+            "pos": "noun",
+            "ipa": "/ˈmær.ɪ.nər/",
+            "level": "B2",
+            "mean": "thủy thủ, người đi biển",
+            "syns": [
+              "sailor",
+              "seafarer",
+              "navigator"
+            ],
+            "ex": "Ancient mariners passed down legends of terrifying ocean monsters and giant waves."
+          },
+          {
+            "word": "rogue",
+            "pos": "adjective",
+            "ipa": "/rəʊɡ/",
+            "level": "B2",
+            "mean": "độc dữ, bất thường nguy hiểm (sóng độc, sóng quái vật)",
+            "syns": [
+              "freak",
+              "aberrant",
+              "monstrous"
+            ],
+            "ex": "A rogue wave can strike suddenly without any preceding storm signs."
+          },
+          {
+            "word": "hyperbole",
+            "pos": "noun",
+            "ipa": "/haɪˈpɜː.bəl.i/",
+            "level": "C1",
+            "mean": "lời nói ngoa dụ, phóng đại cường điệu",
+            "syns": [
+              "exaggeration",
+              "overstatement"
+            ],
+            "ex": "Scientists initially assumed sailors' reports were mere hyperbole."
+          },
+          {
+            "word": "interference",
+            "pos": "noun",
+            "ipa": "/ˌɪn.təˈfɪə.rəns/",
+            "level": "B2",
+            "mean": "sự giao thoa sóng (vật lý)",
+            "syns": [
+              "wave superimposition",
+              "convergence"
+            ],
+            "ex": "Constructive interference causes multiple waves to combine into a giant peak."
+          },
+          {
+            "word": "coherence",
+            "pos": "noun",
+            "ipa": "/kəʊˈhɪə.rəns/",
+            "level": "C1",
+            "mean": "tính kết hợp đồng pha, sự liên kết chặt chẽ",
+            "syns": [
+              "synchronicity",
+              "alignment",
+              "harmony"
+            ],
+            "ex": "When wave frequencies reach phase coherence, peak heights multiply."
+          },
+          {
+            "word": "modulation",
+            "pos": "noun",
+            "ipa": "/ˌmɒdʒ.əˈleɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự điều biến, biến điệu sóng",
+            "syns": [
+              "variation",
+              "adjustment",
+              "tuning"
+            ],
+            "ex": "Non-linear modulation instability allows one wave to absorb energy from others."
+          },
+          {
+            "word": "cannibalize",
+            "pos": "verb",
+            "ipa": "/ˈkæn.ɪ.bəl.aɪz/",
+            "level": "C1",
+            "mean": "hút cạn, nuốt chửng năng lượng từ cái khác (nghĩa bóng)",
+            "syns": [
+              "consume",
+              "absorb",
+              "take over"
+            ],
+            "ex": "The central wave can cannibalize kinetic energy from nearby smaller swells."
+          },
+          {
+            "word": "hydrokinetic",
+            "pos": "adjective",
+            "ipa": "/ˌhaɪ.drəʊ.kɪˈnet.ɪk/",
+            "level": "C1",
+            "mean": "thuộc thủy động năng (năng lượng từ chuyển động nước)",
+            "syns": [
+              "water-power",
+              "marine-kinetic"
+            ],
+            "ex": "Hydrokinetic generators generate electricity from ocean currents and tides."
+          },
+          {
+            "word": "oscillating",
+            "pos": "adjective",
+            "ipa": "/ˈɒs.ɪ.leɪ.tɪŋ/",
+            "level": "C1",
+            "mean": "dao động qua lại",
+            "syns": [
+              "vibrating",
+              "fluctuating",
+              "swinging"
+            ],
+            "ex": "An oscillating water column compresses air inside a turbine chamber."
+          },
+          {
+            "word": "attenuator",
+            "pos": "noun",
+            "ipa": "/əˈten.ju.eɪ.tər/",
+            "level": "C1",
+            "mean": "thiết bị suy giảm dao động (máy hấp thụ năng lượng sóng)",
+            "syns": [
+              "wave absorber",
+              "damper"
+            ],
+            "ex": "Floating attenuator devices flex with the waves to generate electricity."
+          },
+          {
+            "word": "photovoltaic",
+            "pos": "adjective",
+            "ipa": "/ˌfəʊ.təʊ.vɒlˈteɪ.ɪk/",
+            "level": "B2",
+            "mean": "thuộc quang điện (pin mặt trời)",
+            "syns": [
+              "solar-electric"
+            ],
+            "ex": "Wave energy density can be dozens of times higher than solar photovoltaic panels."
+          },
+          {
+            "word": "corrosion",
+            "pos": "noun",
+            "ipa": "/kəˈrəʊ.ʒən/",
+            "level": "B2",
+            "mean": "sự ăn mòn kim loại do muối biển",
+            "syns": [
+              "rusting",
+              "oxidation",
+              "decay"
+            ],
+            "ex": "Saltwater corrosion rapidly damages steel parts exposed to ocean waves."
+          },
+          {
+            "word": "cataclysmic",
+            "pos": "adjective",
+            "ipa": "/ˌkæt.əˈklɪz.mɪk/",
+            "level": "C1",
+            "mean": "mang tính đại hồng thủy, tàn phá khủng khiếp",
+            "syns": [
+              "disastrous",
+              "destructive",
+              "calamitous"
+            ],
+            "ex": "Offshore buoys must survive cataclysmic winter hurricanes."
+          },
+          {
+            "word": "baseload",
+            "pos": "noun",
+            "ipa": "/ˈbeɪs.ləʊd/",
+            "level": "C1",
+            "mean": "phụ tải đáy (nguồn điện phát ổn định liên tục 24/7)",
+            "syns": [
+              "constant power",
+              "reliable baseline energy"
+            ],
+            "ex": "Ocean waves could serve as a continuous baseload power supply for island nations."
+          },
+          {
+            "word": "littoral",
+            "pos": "adjective",
+            "ipa": "/ˈlɪt.ər.əl/",
+            "level": "C1",
+            "mean": "thuộc vùng ven bờ biển nông",
+            "syns": [
+              "coastal",
+              "shoreline",
+              "intertidal"
+            ],
+            "ex": "Littoral ecosystems must endure continuous wave battering."
+          },
+          {
+            "word": "pelagic",
+            "pos": "adjective",
+            "ipa": "/pəˈlædʒ.ɪk/",
+            "level": "C1",
+            "mean": "thuộc vùng biển khơi, đại dương mở",
+            "syns": [
+              "open-ocean",
+              "deep-sea"
+            ],
+            "ex": "Pelagic waves travel thousands of miles without encountering land."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t30_q31",
+            "num": 31,
+            "question": "Which of the following best expresses the main idea of the passage?",
+            "questionVi": "Câu nào sau đây thể hiện tốt nhất ý chính của đoạn văn?",
+            "questionType": "Main Idea",
+            "options": [
+              "Submarine earthquakes are the only physical mechanism that generates surface waves",
+              "Ocean waves represent orbital energy propagation rather than mass water transport, exhibiting complex phenomena from wind genesis and rogue waves to renewable energy conversion",
+              "Rogue waves are optical illusions caused by fatigue in deep-sea sailors",
+              "Wave energy converters have already replaced all coal power plants worldwide"
+            ],
+            "optionsVi": [
+              "Động đất ngầm dưới biển là cơ chế vật lý duy nhất tạo ra sóng bề mặt",
+              "Sóng biển đại diện cho sự truyền năng lượng theo quỹ đạo tròn chứ không phải sự vận chuyển khối lượng nước, thể hiện những hiện tượng phức tạp từ quá trình hình thành do gió, sóng độc đến chuyển đổi năng lượng tái tạo",
+              "Sóng độc là những ảo ảnh quang học do sự mệt mỏi của các thủy thủ biển sâu gây ra",
+              "Các thiết bị chuyển đổi năng lượng sóng đã thay thế hoàn toàn tất cả các nhà máy nhiệt điện than trên toàn thế giới"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "surface gravity waves represent the propagation of energy, not matter... The genesis of wind-generated surface waves is governed by three interdependent variables... mariners whispered terrifying lore of spontaneous 'rogue waves'... empirically validated... Harnessing this boundless kinetic energy represents one of the frontiers of sustainable civil engineering...",
+            "evidenceVi": "sóng trọng lực bề mặt đại diện cho sự truyền năng lượng, không phải vật chất... Sự hình thành sóng do gió bị chi phối bởi ba biến số... các thủy thủ thì thầm về truyền thuyết sóng độc... được chứng minh thực nghiệm... Khai thác động năng này đại diện cho một trong những ranh giới của kỹ thuật bền vững...",
+            "explanation": "Toàn bài phân tích bản chất vật lý của sóng (nước chuyển động theo quỹ đạo tròn chứ không di chuyển tịnh tiến), cơ chế hình thành do gió, hiện tượng sóng quái vật (rogue waves) và tiềm năng khai thác năng lượng sóng.",
+            "postReading": {
+              "original": "In fluid mechanics, however, surface gravity waves represent the propagation of energy, not matter.",
+              "paraphrase": "Within hydrodynamics, nonetheless, surface water waves signify the transmission of kinetic force rather than the physical movement of mass.",
+              "analysis": "'Fluid mechanics' = 'hydrodynamics'; 'propagation of energy' = 'transmission of kinetic force'; 'not matter' = 'rather than the physical movement of mass'."
+            }
+          },
+          {
+            "id": "t30_q32",
+            "num": 32,
+            "question": "According to paragraph 1, how do individual water molecules behave as an ocean wave passes through deep water?",
+            "questionVi": "Theo đoạn 1, các phân tử nước riêng lẻ chuyển động như thế nào khi một con sóng đại dương đi qua vùng nước sâu?",
+            "questionType": "Detail",
+            "options": [
+              "They are transported thousands of miles horizontally across the ocean basin",
+              "They execute nearly closed vertical circular orbits, moving upward and forward under crests and downward and backward in troughs",
+              "They instantly freeze into miniature ice crystals",
+              "They sink straight down to the ocean floor without rising again"
+            ],
+            "optionsVi": [
+              "Chúng được vận chuyển hàng nghìn dặm theo phương ngang qua bồn trũng đại dương",
+              "Chúng thực hiện các quỹ đạo tròn thẳng đứng gần như khép kín, di chuyển lên trên và tiến tới dưới đỉnh sóng, và đi xuống rồi lùi lại trong đáy sóng",
+              "Chúng đóng băng ngay lập tức thành các tinh thể đá nhỏ",
+              "Chúng chìm thẳng xuống đáy biển mà không bao giờ nổi lên nữa"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "individual water molecules execute nearly closed vertical orbits, moving upward and forward beneath the crest, and downward and backward within the trough.",
+            "evidenceVi": "các phân tử nước riêng lẻ thực hiện các quỹ đạo thẳng đứng gần như khép kín, di chuyển lên trên và về phía trước bên dưới đỉnh sóng, và đi xuống rồi lùi lại bên trong đáy sóng.",
+            "explanation": "Đoạn 1 nêu rõ: phân tử nước chỉ chuyển động nhấp nhô theo quỹ đạo tròn (vertical circular orbits) tại chỗ chứ không bị đẩy trôi đi xa.",
+            "postReading": {
+              "original": "individual water molecules execute nearly closed vertical orbits, moving upward and forward beneath the crest, and downward and backward within the trough.",
+              "paraphrase": "single particles of water trace nearly complete circular loops, rising and advancing under wave peaks, while descending and retreating inside wave hollows.",
+              "analysis": "'Nearly closed vertical orbits' = 'nearly complete circular loops'; 'moving upward and forward beneath the crest' = 'rising and advancing under wave peaks'; 'downward and backward within the trough' = 'descending and retreating inside wave hollows'."
+            }
+          },
+          {
+            "id": "t30_q33",
+            "num": 33,
+            "question": "The term \"wave base\" in paragraph 1 is defined as:",
+            "questionVi": "Thuật ngữ \"wave base\" (đáy sóng) trong đoạn 1 được định nghĩa là:",
+            "questionType": "Vocabulary",
+            "options": [
+              "The depth equivalent to precisely half the surface wavelength, where wave turbulence attenuates to near zero",
+              "The absolute deepest trench of the Mariana Trench",
+              "The wooden foundation upon which a harbor lighthouse rests",
+              "The speed at which tsunamis travel"
+            ],
+            "optionsVi": [
+              "Độ sâu tương đương chính xác một nửa bước sóng bề mặt, nơi sự nhiễu loạn sóng suy giảm về gần như bằng không",
+              "Rãnh sâu tuyệt đối nhất của Rãnh Mariana",
+              "Nền móng bằng gỗ nơi ngọn hải đăng bến cảng đứng vững",
+              "Tốc độ mà sóng thần di chuyển"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "diminishing to negligible turbulence at the 'wave base'—a depth equivalent to precisely half the surface wavelength.",
+            "evidenceVi": "giảm dần đến mức nhiễu loạn không đáng kể tại 'đáy sóng'—độ sâu tương đương chính xác một nửa bước sóng bề mặt.",
+            "explanation": "Đoạn 1 định nghĩa rõ ràng: wave base là độ sâu bằng 1/2 bước sóng bề mặt, nơi chuyển động sóng giảm về 0.",
+            "postReading": {
+              "original": "diminishing to negligible turbulence at the 'wave base'—a depth equivalent to precisely half the surface wavelength.",
+              "paraphrase": "declining to minimal disturbance at the 'wave base,' which corresponds exactly to 50% of the surface wave's length.",
+              "analysis": "'Negligible turbulence' = 'minimal disturbance'; 'depth equivalent to precisely half' = 'corresponds exactly to 50%'."
+            }
+          },
+          {
+            "id": "t30_q34",
+            "num": 34,
+            "question": "According to paragraph 2, what are the three interdependent variables that govern the genesis of wind-generated surface waves?",
+            "questionVi": "Theo đoạn 2, ba biến số phụ thuộc lẫn nhau chi phối sự hình thành sóng bề mặt do gió là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Water salinity, lunar gravity, and ship propeller speed",
+              "Wind velocity, duration of blowing, and fetch (the open-water distance over which wind blows)",
+              "Sunlight angle, water chlorination, and seaweed density",
+              "Cloud altitude, lightning frequency, and barometric air pollution"
+            ],
+            "optionsVi": [
+              "Độ mặn của nước, trọng lực mặt trăng và tốc độ chân vịt của tàu",
+              "Vận tốc gió, thời gian gió thổi liên tục và quãng đường gió thổi fetch (khoảng cách mặt nước mở mà gió tác động)",
+              "Góc chiếu ánh nắng, lượng clo trong nước và mật độ rong biển",
+              "Độ cao của mây, tần số sét và ô nhiễm không khí khí áp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "governed by three interdependent variables: wind velocity, duration of continuous blowing, and 'fetch'—the uninterrupted linear expanse of open water across which wind stress acts.",
+            "evidenceVi": "được chi phối bởi ba biến số phụ thuộc lẫn nhau: vận tốc gió, thời gian thổi liên tục và 'fetch'—quãng đường thẳng không bị cản trở của vùng nước mở mà sức ép của gió tác động.",
+            "explanation": "Đoạn 2 nêu rõ 3 yếu tố quyết định sóng: wind velocity (tốc độ gió), duration (thời gian thổi), và fetch (quãng đường gió thổi tự do).",
+            "postReading": {
+              "original": "governed by three interdependent variables: wind velocity, duration of continuous blowing, and 'fetch'—the uninterrupted linear expanse of open water across which wind stress acts.",
+              "paraphrase": "determined by three interrelated factors: wind speed, continuity of blowing time, and 'fetch'—the unbroken span of open ocean subject to wind forces.",
+              "analysis": "'Interdependent variables' = 'interrelated factors'; 'wind velocity' = 'wind speed'; 'uninterrupted linear expanse' = 'unbroken span of open ocean'."
+            }
+          },
+          {
+            "id": "t30_q35",
+            "num": 35,
+            "question": "The word \"hyperbole\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"hyperbole\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "exaggeration and overstatement",
+              "mathematical accuracy",
+              "written testimony",
+              "photographic proof"
+            ],
+            "optionsVi": [
+              "sự phóng đại cường điệu",
+              "độ chính xác toán học",
+              "lời chứng thực bằng văn bản",
+              "bằng chứng chụp ảnh"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Long dismissed by terrestrial oceanographers as myth or exaggerated survivor hyperbole...",
+            "evidenceVi": "Từng bị các nhà hải dương học trên bờ bác bỏ như một truyền thuyết hoang đường hoặc lời nói phóng đại cường điệu của những người sống sót...",
+            "explanation": "'Hyperbole' nghĩa là sự phóng đại, nói quá mức sự thật, đồng nghĩa với 'exaggeration and overstatement'.",
+            "postReading": {
+              "original": "dismissed by terrestrial oceanographers as myth or exaggerated survivor hyperbole",
+              "paraphrase": "rejected by land-based scientists as folklore or blown-out-of-proportion sailor talk",
+              "analysis": "'Terrestrial oceanographers' = 'land-based scientists'; 'myth' = 'folklore'; 'exaggerated survivor hyperbole' = 'blown-out-of-proportion sailor talk'."
+            }
+          },
+          {
+            "id": "t30_q36",
+            "num": 36,
+            "question": "What historic scientific event occurred on New Year's Day in 1995 aboard the Draupner platform?",
+            "questionVi": "Sự kiện khoa học lịch sử nào đã diễn ra vào ngày đầu năm mới năm 1995 trên giàn khoan Draupner?",
+            "questionType": "Detail",
+            "options": [
+              "A submarine oil pipeline ruptured and caught fire",
+              "A laser sensor empirically recorded a verified 25-meter rogue wave in the North Sea, proving their physical existence",
+              "The platform sank to the bottom of the sea due to an iceberg collision",
+              "Scientists discovered a new species of giant squid clinging to the metal pylons"
+            ],
+            "optionsVi": [
+              "Một đường ống dẫn dầu ngầm dưới biển bị vỡ và bốc cháy",
+              "Một cảm biến laser đã ghi nhận thực nghiệm một con sóng độc cao 25 mét được kiểm chứng ở Biển Bắc, chứng minh sự tồn tại vật lý của chúng",
+              "Giàn khoan bị chìm xuống đáy biển do va chạm với tảng băng trôi",
+              "Các nhà khoa học phát hiện một loài mực khổng lồ mới bám vào các cột trụ kim loại"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "rogue waves were empirically validated on New Year's Day in 1995 when a laser sensor aboard the Draupner oil platform in the North Sea recorded a verified twenty-five-meter wave towering amidst twelve-meter seas.",
+            "evidenceVi": "sóng độc đã được chứng minh bằng thực nghiệm vào ngày đầu năm mới năm 1995 khi một cảm biến laser trên giàn khoan dầu Draupner ở Biển Bắc ghi nhận một con sóng cao 25 mét được kiểm chứng sừng sững giữa những con sóng 12 mét.",
+            "explanation": "Đoạn 3 chỉ ra: ngày 1/1/1995 cảm biến laser trên giàn Draupner đã đo được con sóng quái vật cao 25 mét, chính thức chứng minh sóng độc là có thật trong vật lý chứ không phải truyền thuyết.",
+            "postReading": {
+              "original": "recorded a verified twenty-five-meter wave towering amidst twelve-meter seas.",
+              "paraphrase": "measured a confirmed 25-meter water wall rising dramatically among surrounding 12-meter swells.",
+              "analysis": "'Recorded a verified twenty-five-meter wave' = 'measured a confirmed 25-meter water wall'; 'towering amidst twelve-meter seas' = 'rising dramatically among surrounding 12-meter swells'."
+            }
+          },
+          {
+            "id": "t30_q37",
+            "num": 37,
+            "question": "According to paragraph 3, what are the two physical mechanisms responsible for producing rogue waves?",
+            "questionVi": "Theo đoạn 3, hai cơ chế vật lý nào chịu trách nhiệm tạo ra sóng độc?",
+            "questionType": "Detail",
+            "options": [
+              "Volcanic eruptions and marine mammal migration",
+              "Constructive interference and modulation instability (the Benjamin-Feir effect)",
+              "Global ocean warming and freshwater glacier runoff",
+              "Tidal gravitation and radioactive nuclear waste testing"
+            ],
+            "optionsVi": [
+              "Núi lửa phun trào và sự di cư của động vật có vú biển",
+              "Giao thoa tăng cường (constructive interference) và bất ổn định điều biến (hiệu ứng Benjamin-Feir)",
+              "Sự nóng lên của đại dương toàn cầu và nước sông băng tan chảy",
+              "Lực hấp dẫn thủy triều và thử nghiệm chất thải hạt nhân phóng xạ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Hydrodynamic physicists now understand that rogue waves arise through two non-linear phenomena: constructive interference—where multiple wave trains of varying wavelengths momentarily align in spatial and temporal coherence—and modulation instability (the Benjamin-Feir effect)...",
+            "evidenceVi": "Các nhà vật lý thủy động lực hiện hiểu rằng sóng độc xuất hiện qua hai hiện tượng phi tuyến tính: giao thoa tăng cường—nơi nhiều chuỗi sóng có bước sóng khác nhau tạm thời trùng khớp về pha trong không gian và thời gian—và sự bất ổn định điều biến (hiệu ứng Benjamin-Feir)...",
+            "explanation": "Đoạn 3 giải thích rõ 2 cơ chế: 1 là giao thoa sóng tăng cường (constructive interference) và 2 là hiện tượng bất ổn điều biến (Benjamin-Feir effect) hút năng lượng từ các sóng lân cận.",
+            "postReading": {
+              "original": "constructive interference—where multiple wave trains of varying wavelengths momentarily align in spatial and temporal coherence—and modulation instability",
+              "paraphrase": "amplifying interference—in which diverse wave series briefly synchronize in time and position—alongside wave-modulation instability",
+              "analysis": "'Constructive interference' = 'amplifying interference'; 'momentarily align in spatial and temporal coherence' = 'briefly synchronize in time and position'; 'modulation instability' = 'wave-modulation instability'."
+            }
+          },
+          {
+            "id": "t30_q38",
+            "num": 38,
+            "question": "The word \"cannibalize\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"cannibalize\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "absorb and consume energy from",
+              "generate fresh seawater for",
+              "freeze into solid ice around",
+              "reflect sunlight away from"
+            ],
+            "optionsVi": [
+              "hút cạn và nuốt trọn năng lượng từ",
+              "tạo ra nước biển tươi mới cho",
+              "đóng băng thành đá rắn quanh",
+              "phản chiếu ánh nắng mặt trời ra xa khỏi"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "wherein non-linear wave-wave interactions cannibalize energy from adjacent swells to feed a solitary monstrous crest.",
+            "evidenceVi": "trong đó các tương tác sóng-sóng phi tuyến tính hút cạn năng lượng từ các đợt sóng lừng lân cận để nuôi dưỡng một đỉnh sóng quái vật duy nhất.",
+            "explanation": "'Cannibalize' ở đây dùng với nghĩa ẩn dụ: một ngọn sóng nuốt trọn, rút cạn năng lượng từ các sóng xung quanh để trở thành sóng khổng lồ, đồng nghĩa với 'absorb and consume energy from'.",
+            "postReading": {
+              "original": "cannibalize energy from adjacent swells to feed a solitary monstrous crest.",
+              "paraphrase": "drain kinetic power from neighboring waves to build an isolated gigantic peak.",
+              "analysis": "'Cannibalize energy' = 'drain kinetic power'; 'adjacent swells' = 'neighboring waves'; 'solitary monstrous crest' = 'isolated gigantic peak'."
+            }
+          },
+          {
+            "id": "t30_q39",
+            "num": 39,
+            "question": "According to paragraph 4, what engineering paradox makes developing Wave Energy Converters (WECs) exceptionally difficult?",
+            "questionVi": "Theo đoạn 4, nghịch lý kỹ thuật nào khiến việc phát triển Thiết bị chuyển đổi năng lượng sóng (WECs) trở nên đặc biệt khó khăn?",
+            "questionType": "Detail",
+            "options": [
+              "The machines must be constructed entirely out of fragile window glass",
+              "Devices must be sensitive enough to capture gentle swells efficiently, yet strong enough to survive the cataclysmic violence of 100-year storm surges",
+              "Wave energy converters only function when ocean waters freeze into ice",
+              "Governments prohibit the installation of electrical cables beneath sea water"
+            ],
+            "optionsVi": [
+              "Các cỗ máy phải được chế tạo hoàn toàn bằng thủy tinh cửa sổ mỏng manh",
+              "Các thiết bị phải đủ nhạy để thu giữ hiệu quả các đợt sóng nhẹ, nhưng cũng phải đủ vững chắc để sống sót trước sự tàn phá khủng khiếp của những cơn bão 100 năm mới có một lần",
+              "Các thiết bị chuyển đổi năng lượng sóng chỉ hoạt động khi nước biển đóng băng",
+              "Chính phủ cấm lắp đặt cáp điện dưới nước biển"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the paradoxical engineering requirement that devices must operate sensitively during gentle swells yet survive the cataclysmic structural violence of 100-year storm surges.",
+            "evidenceVi": "yêu cầu kỹ thuật đầy nghịch lý là các thiết bị phải vận hành nhạy bén trong các đợt sóng lừng êm dịu nhưng lại phải sống sót trước sự tàn phá cấu trúc thảm khốc của các đợt triều bão 100 năm có một lần.",
+            "explanation": "Đoạn 4 chỉ ra nghịch lý kỹ thuật: làm máy quá nặng thì sóng nhỏ không phát ra điện, mà làm máy quá nhẹ thì gặp bão lớn sẽ bị sóng đánh tan nát.",
+            "postReading": {
+              "original": "devices must operate sensitively during gentle swells yet survive the cataclysmic structural violence of 100-year storm surges.",
+              "paraphrase": "converters have to capture power delicately from mild waves while withstanding the crushing physical fury of extreme centennial hurricanes.",
+              "analysis": "'Operate sensitively during gentle swells' = 'capture power delicately from mild waves'; 'survive the cataclysmic structural violence' = 'withstanding the crushing physical fury'; '100-year storm surges' = 'extreme centennial hurricanes'."
+            }
+          },
+          {
+            "id": "t30_q40",
+            "num": 40,
+            "question": "What broad promise does wave energy hold for the future if hydrodynamic challenges are resolved, according to the final sentence?",
+            "questionVi": "Năng lượng sóng mang lại triển vọng to lớn nào cho tương lai nếu các thách thức thủy động lực học được giải quyết, theo câu văn cuối cùng?",
+            "questionType": "Inference",
+            "options": [
+              "It will stop all oceanic storms from ever forming again",
+              "It could unlock a dependable, baseload source of clean maritime electricity for coastal societies worldwide",
+              "It will eliminate all human need for water desalination",
+              "It will allow cargo ships to travel at supersonic speeds"
+            ],
+            "optionsVi": [
+              "Nó sẽ ngăn chặn tất cả các cơn bão đại dương không bao giờ hình thành nữa",
+              "Nó có thể mở khóa một nguồn điện sạch ven biển đáng tin cậy, đóng vai trò phụ tải đáy liên tục cho các xã hội ven biển trên toàn thế giới",
+              "Nó sẽ loại bỏ mọi nhu cầu khử muối trong nước biển của con người",
+              "Nó sẽ cho phép tàu chở hàng di chuyển ở tốc độ siêu thanh"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Resolving these hydrodynamic challenges could unlock a dependable, baseload source of clean maritime electricity for coastal societies worldwide.",
+            "evidenceVi": "Giải quyết được những thách thức thủy động lực học này có thể mở khóa một nguồn điện sạch hàng hải đáng tin cậy, hoạt động liên tục như phụ tải đáy cho các xã hội ven biển trên toàn thế giới.",
+            "explanation": "Câu kết nhấn mạnh tiềm năng to lớn: năng lượng sóng có thể trở thành nguồn điện phụ tải đáy (baseload - cung cấp 24/7 không phụ thuộc nắng gió thất thường) cho các quốc gia và cư dân duyên hải.",
+            "postReading": {
+              "original": "could unlock a dependable, baseload source of clean maritime electricity for coastal societies worldwide.",
+              "paraphrase": "may provide a reliable, round-the-clock supply of renewable ocean energy for coastal communities globally.",
+              "analysis": "'Dependable, baseload source' = 'reliable, round-the-clock supply'; 'clean maritime electricity' = 'renewable ocean energy'; 'coastal societies worldwide' = 'coastal communities globally'."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 

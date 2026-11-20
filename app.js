@@ -1556,6 +1556,7 @@ function renderPracticeView() {
     const test27 = tests.find(t => t.testNum === 27);
     const test28 = tests.find(t => t.testNum === 28);
     const test29 = tests.find(t => t.testNum === 29);
+    const test30 = tests.find(t => t.testNum === 30);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -4830,90 +4831,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 20. BỘ ĐỀ THỰC CHIẾN 20 (TEST 30) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 20. BỘ ĐỀ THỰC CHIẾN 20 (TEST 30) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite30') {
+        const savedAnsCount30 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 30) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved30 = state.savedExam && state.savedExam.testNum === 30 && savedAnsCount30 > 0;
+        const totalVocab30 = (test30 && test30.passages) ? test30.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta30 = [
+            {
+                testNum: 30,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'umami_discovery_history',
+                categoryName: 'Lịch sử ẩm thực & Hóa học vị giác',
+                categoryColor: '#8b5cf6',
+                badgeBg: '#f5f3ff',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: The Discovery & History of Umami',
+                icon: 'fa-bowl-food',
+                title: 'The Discovery & History of Umami: Unveiling the Fifth Basic Taste',
+                titleVi: 'Lịch sử khám phá vị thứ 5 Umami: Đột phá của Kikunae Ikeda & Hành trình công nhận',
+                summary: 'Nhà hóa học Kikunae Ikeda tách chiết glutamate từ tảo bẹ kombu năm 1908 và cuộc đấu tranh suốt gần một thế kỷ để giới khoa học phương Tây công nhận thụ thể vị giác thứ năm.'
+            },
+            {
+                testNum: 30,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'food_miles_carbon_debate',
+                categoryName: 'Kinh tế môi trường & Dấu chân sinh thái',
+                categoryColor: '#10b981',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: "Food Miles" & Global Supply Chains',
+                icon: 'fa-truck-plane',
+                title: '"Food Miles" & Global Supply Chains: The Carbon Footprint Debate',
+                titleVi: 'Dặm thực phẩm "Food Miles" & Chuỗi cung ứng toàn cầu: Tranh biện vòng đời carbon',
+                summary: 'Nghịch lý vận tải hàng không đối đầu sưởi ấm nhà kính địa phương, phân tích chu trình vòng đời toàn diện LCA và sự thật về nguồn phát thải carbon trong ngành nông nghiệp.'
+            },
+            {
+                testNum: 30,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'ww1_medical_advances',
+                categoryName: 'Lịch sử y học & Phẫu thuật dã chiến',
+                categoryColor: '#6366f1',
+                badgeBg: '#e0e7ff',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Medical Breakthroughs in World War I',
+                icon: 'fa-kit-medical',
+                title: 'Medical Breakthroughs & Battlefield Surgery in World War I',
+                titleVi: 'Đột phá y học & Phẫu thuật dã chiến trong Thế chiến thứ nhất',
+                summary: 'Những bước tiến vượt bậc sinh ra từ khói lửa chiến hào: xe X-quang di động của Marie Curie, dung dịch sát khuẩn Dakin, lưu trữ máu sodium citrate và khởi nguồn phẫu thuật tạo hình.'
+            },
+            {
+                testNum: 30,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'ocean_waves_fluid_dynamics',
+                categoryName: 'Vật lý hải dương & Động lực học sóng biển',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Ocean Waves & Oceanographic Dynamics',
+                icon: 'fa-water',
+                title: 'Ocean Wave Dynamics: Fluid Mechanics, Rogue Waves & Coastal Energy',
+                titleVi: 'Động lực học sóng biển: Cơ học chất lưu, Hiện tượng sóng độc & Năng lượng ven biển',
+                summary: 'Cơ chế truyền động năng từ gió sang mặt nước, dao động quỹ đạo elip, hiện tượng sóng quái vật (rogue waves) do nhiễu xạ phi tuyến và tiềm năng phát điện năng lượng sóng.'
+            }
+        ];
+
+        let pCardsHtml30 = '';
+        passagesMeta30.forEach(meta => {
+            const pData = (test30 && test30.passages) ? test30.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml30 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-30">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-20" id="suite-box-30">
+                <div class="practice-suite-header suite-header-20">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(139, 92, 246, 0.25); color: #c4b5fd; border-color: rgba(139, 92, 246, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 20 (TEST 30) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #fcd34d;"></i> BỘ ĐỀ THỰC CHIẾN 20 (TEST 30) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 20 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Lịch sử khám phá vị thứ 5 Umami (Part 1) • Dặm thực phẩm "Food Miles" & Chuỗi cung ứng (Part 2) • Đột phá y học Thế chiến thứ nhất (Part 3) • Động lực học sóng biển & Hải dương học (Part 4)
+                            <strong>4 Topics:</strong> Vị Umami của Kikunae Ikeda (Part 1) • "Food Miles" & Chuỗi cung ứng (Part 2) • Y học chiến hào Thế chiến I (Part 3) • Động lực học sóng biển & Sóng độc (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab30} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(30)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab30} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved30 ? 'background: linear-gradient(135deg, #4c1d95, #8b5cf6) !important;' : ''}" onclick="${isSaved30 ? 'resumeSavedExam()' : 'startFullExam(30)'}">
+                            ${isSaved30 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount30}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(30)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #8b5cf6;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 20):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>The Discovery & History of Umami</h4>
-                                <h5>Lịch sử tìm ra vị cơ bản thứ 5 (Umami) & Hành trình công nhận toàn cầu</h5>
-                                <p>Câu chuyện nhà hóa học Nhật Bản Kikunae Ikeda tách chiết glutamate từ tảo bẹ kombu năm 1908 và gần một thế kỷ thuyết phục khoa học phương Tây công nhận vị thứ 5.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#6366f1;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>"Food Miles" & Global Supply Chains</h4>
-                                <h5>Dấu chân sinh thái của nông sản nhập khẩu & Nghịch lý "Food Miles"</h5>
-                                <p>Đánh giá lượng khí thải vận tải trái cây xuyên lục địa đối chiếu với năng lượng nhà kính sưởi ấm tại địa phương để hiểu đúng tổng dấu chân carbon thực phẩm.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Medical Breakthroughs in World War I</h4>
-                                <h5>Đột phá y học & Phẫu thuật dã chiến trong Thế chiến thứ nhất</h5>
-                                <p>Sự ra đời của xe X-quang di động của Marie Curie, ngân hàng truyền máu, phân loại thương binh (triage) và nền móng phẫu thuật tạo hình hiện đại.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Ocean Waves & Oceanographic Dynamics</h4>
-                                <h5>Động lực học sóng biển: Báo cáo hải dương học & Hiện tượng sóng độc</h5>
-                                <p>Nghiên cứu cơ chế truyền năng lượng gió - nước, bước sóng, sự hình thành sóng quái vật (rogue waves) và tiềm năng khai thác điện năng từ sóng đại dương.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml30}
                     </div>
                 </div>
             </div>
