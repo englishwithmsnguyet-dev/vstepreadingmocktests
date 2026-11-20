@@ -74994,9 +74994,2609 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
-  }
-];
-
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = READING_MOCK_TESTS;
+  },
+{
+  "testNum": 31,
+  "title": "VSTEP READING MOCK TEST 31",
+  "titleVi": "ĐỀ THI THỬ VSTEP READING SỐ 31 (BỘ ĐỀ THỰC CHIẾN 21)",
+  "description": "Bộ đề thực chiến 21 gồm 4 bài đọc tuyển chọn theo chuẩn cấu trúc đề thi thật VSTEP (B1-B2-C1): Sói robot 'Monster Wolf' tại Nhật Bản (Part 1) • Công trình chống lũ Venice MOSE (Part 2) • Thuật toán định giá linh hoạt TMĐT (Part 3) • Tiến hóa TTTM & Khái niệm 'King of Mall' (Part 4).",
+  "totalPassages": 4,
+  "totalQuestions": 40,
+  "durationMinutes": 60,
+  "passages": [
+    {
+      "passageId": "t31_p1",
+      "passageNum": 1,
+      "title": "The \"Monster Wolf\" Robot in Japan: Deterring Wildlife & Revitalizing Rural Frontiers",
+      "titleVi": "Sói robot \"Monster Wolf\" tại Nhật Bản: Ngăn chặn động vật hoang dã & Hồi sinh vùng biên nông thôn",
+      "category": "agriculture_technology",
+      "text": "In recent years, rural communities across Japan have confronted an unprecedented ecological and demographic crisis. As Japan's rural population ages and depopulates due to the rapid urbanization of younger generations, vast swathes of cultivated farmland and orchards border increasingly neglected mountainous terrain. Consequently, wild animals—predominantly wild boars, sika deer, and increasingly aggressive Asiatic black bears—have ventured deeper into human habitations. These incursions not only devastate valuable vegetable crops and apple orchards but also pose direct physical dangers to elderly residents who lack the physical stamina or numbers to defend their townships. In response to this mounting predicament, an agricultural cooperative in Takikawa, Hokkaido, devised an innovative, high-technology deterrent that blends robotic engineering with primal predator psychology: the \"Monster Wolf.\"\n\nThe Monster Wolf is an ultra-realistic robotic scarecrow engineered by Ohta Seiki, a precision machinery manufacturer, in collaboration with Hokkaido University and Tokyo University of Agriculture. Standing nearly one meter tall and extending over a meter in length, the mechanical beast is cloaked in faux fur, displays ferocious bared fangs, and features flashing infrared eyes that illuminate in menacing crimson. When its passive infrared motion sensors detect an animal approaching within a ten-meter radius, the automaton springs to life: its mechanical head twists from side to side in violent tremors, its optical diodes pulse brightly, and built-in loudspeakers broadcast deafening, bone-chilling acoustic signals.\n\nCrucially, the deterrent's acoustic repertoire is meticulously programmed to prevent habituation—the behavioral tendency of wild animals to become accustomed to static alarms over time. The Monster Wolf rotates among more than sixty distinct deterrent sound profiles, ranging from authentic howling grey wolves—a top predator that was eradicated from the Japanese archipelago over a century ago—to gunshot detonations, barking hunting hounds, and human vocal warnings. Because the mechanical creature randomizes its acoustic emissions and activates solely upon sensory detection, wild boars and bears perceive the apparition not as an inert inanimate object, but as a live, territorial apex carnivore guarding its sanctuary.\n\nField trials across multiple agricultural prefectures have yielded startlingly positive outcomes. In towns where Monster Wolves were deployed at peripheral forest borders and along the fringes of municipal chestnut groves, animal crop damage dropped by more than eighty percent, and bear sightings within residential zones plummeted to near zero. While wildlife conservationists emphasize that mechanical sentinels represent a localized tactical measure rather than a panacea for systemic rural abandonment and habitat fragmentation, the robotic wolf has revitalized the morale of elderly farming collectives. By providing non-lethal, automated protection, this mechanical protector allows aging agrarian communities to coexist securely along the wild frontiers of contemporary Japan.",
+      "vocab": [
+        {
+          "word": "confronted",
+          "pos": "v",
+          "ipa": "/kənˈfrʌntɪd/",
+          "level": "B2",
+          "mean": "đối mặt, đương đầu với khó khăn",
+          "syns": [
+            "faced",
+            "encountered",
+            "tackled"
+          ],
+          "ex": "Rural communities confronted an unprecedented ecological crisis."
+        },
+        {
+          "word": "demographic",
+          "pos": "adj",
+          "ipa": "/ˌdem.əˈɡræf.ɪk/",
+          "level": "B2",
+          "mean": "thuộc nhân khẩu học",
+          "syns": [
+            "population-related",
+            "statistical"
+          ],
+          "ex": "The village suffered from adverse demographic shifts as youths left."
+        },
+        {
+          "word": "depopulates",
+          "pos": "v",
+          "ipa": "/diːˈpɒp.jə.leɪts/",
+          "level": "C1",
+          "mean": "suy giảm dân số, vắng bóng người",
+          "syns": [
+            "empties",
+            "declines in population"
+          ],
+          "ex": "The rural countryside depopulates rapidly each decade."
+        },
+        {
+          "word": "swathes",
+          "pos": "n",
+          "ipa": "/sweɪðz/",
+          "level": "C1",
+          "mean": "dải đất rộng lớn, vạt đất",
+          "syns": [
+            "expanses",
+            "stretches",
+            "tracts"
+          ],
+          "ex": "Vast swathes of cultivated farmland border the forest."
+        },
+        {
+          "word": "cultivated",
+          "pos": "adj",
+          "ipa": "/ˈkʌl.tɪ.veɪ.tɪd/",
+          "level": "B2",
+          "mean": "được canh tác, trồng trọt",
+          "syns": [
+            "farmed",
+            "tilled",
+            "planted"
+          ],
+          "ex": "Wild boars ventured into cultivated vegetable patches."
+        },
+        {
+          "word": "incursions",
+          "pos": "n",
+          "ipa": "/ɪnˈkɜː.ʃənz/",
+          "level": "C1",
+          "mean": "sự xâm lấn, cuộc đột nhập bất ngờ",
+          "syns": [
+            "intrusions",
+            "raids",
+            "invasions"
+          ],
+          "ex": "Animal incursions pose physical dangers to elderly villagers."
+        },
+        {
+          "word": "predicament",
+          "pos": "n",
+          "ipa": "/prɪˈdɪk.ə.mənt/",
+          "level": "C1",
+          "mean": "tình thế hiểm nghèo, hoàn cảnh nan giải",
+          "syns": [
+            "dilemma",
+            "plight",
+            "quandary"
+          ],
+          "ex": "Farmers sought solutions to overcome their financial predicament."
+        },
+        {
+          "word": "deterrent",
+          "pos": "n",
+          "ipa": "/dɪˈter.ənt/",
+          "level": "B2",
+          "mean": "biện pháp ngăn chặn, răn đe",
+          "syns": [
+            "prevention",
+            "obstacle",
+            "disincentive"
+          ],
+          "ex": "The robotic wolf serves as an effective wildlife deterrent."
+        },
+        {
+          "word": "primal",
+          "pos": "adj",
+          "ipa": "/ˈpraɪ.məl/",
+          "level": "C1",
+          "mean": "nguyên thủy, thuộc bản năng gốc",
+          "syns": [
+            "instinctive",
+            "primitive",
+            "innate"
+          ],
+          "ex": "The loud snarl triggers primal fear in invading creatures."
+        },
+        {
+          "word": "precision",
+          "pos": "n",
+          "ipa": "/prɪˈsɪʒ.ən/",
+          "level": "B2",
+          "mean": "độ chính xác, tinh vi",
+          "syns": [
+            "accuracy",
+            "exactness"
+          ],
+          "ex": "The robot was built by a precision machinery company."
+        },
+        {
+          "word": "ferocious",
+          "pos": "adj",
+          "ipa": "/fəˈrəʊ.ʃəs/",
+          "level": "B2",
+          "mean": "hung dữ, dữ tợn",
+          "syns": [
+            "fierce",
+            "savage",
+            "vicious"
+          ],
+          "ex": "The artificial wolf displays ferocious bared fangs."
+        },
+        {
+          "word": "illuminate",
+          "pos": "v",
+          "ipa": "/ɪˈluː.mɪ.neɪt/",
+          "level": "B2",
+          "mean": "thắp sáng, rọi sáng",
+          "syns": [
+            "light up",
+            "brighten"
+          ],
+          "ex": "Flashing infrared LED eyes illuminate in menacing red."
+        },
+        {
+          "word": "automaton",
+          "pos": "n",
+          "ipa": "/ɔːˈtɒm.ə.tən/",
+          "level": "C1",
+          "mean": "cỗ máy tự động, robot",
+          "syns": [
+            "robot",
+            "mechanical figure",
+            "android"
+          ],
+          "ex": "The automaton springs to life whenever motion is detected."
+        },
+        {
+          "word": "tremors",
+          "pos": "n",
+          "ipa": "/ˈtrem.əz/",
+          "level": "B2",
+          "mean": "sự co giật, rung chấn",
+          "syns": [
+            "shakes",
+            "shudders",
+            "vibrations"
+          ],
+          "ex": "Its mechanical neck shakes in violent tremors."
+        },
+        {
+          "word": "acoustic",
+          "pos": "adj",
+          "ipa": "/əˈkuː.stɪk/",
+          "level": "B2",
+          "mean": "thuộc âm thanh, thính giác",
+          "syns": [
+            "auditory",
+            "sonic",
+            "sound-related"
+          ],
+          "ex": "The robot emits powerful acoustic signals across the fields."
+        },
+        {
+          "word": "habituation",
+          "pos": "n",
+          "ipa": "/həˌbɪtʃ.uˈeɪ.ʃən/",
+          "level": "C1",
+          "mean": "sự thích nghi, quen nhờn với kích thích",
+          "syns": [
+            "acclimatization",
+            "familiarity",
+            "tolerance"
+          ],
+          "ex": "Sound randomization prevents animal habituation to the scarecrow."
+        },
+        {
+          "word": "repertoire",
+          "pos": "n",
+          "ipa": "/ˈrep.ə.twɑːr/",
+          "level": "C1",
+          "mean": "vốn tiết mục, bộ sưu tập đa dạng",
+          "syns": [
+            "collection",
+            "assortment",
+            "range"
+          ],
+          "ex": "The system possesses a diverse repertoire of sixty sounds."
+        },
+        {
+          "word": "eradicated",
+          "pos": "v",
+          "ipa": "/ɪˈræd.ɪ.keɪ.tɪd/",
+          "level": "B2",
+          "mean": "bị tiêu diệt hoàn toàn, tận diệt",
+          "syns": [
+            "exterminated",
+            "wiped out",
+            "eliminated"
+          ],
+          "ex": "Real wolves were eradicated from the island a century ago."
+        },
+        {
+          "word": "archipelago",
+          "pos": "n",
+          "ipa": "/ˌɑː.kɪˈpel.ə.ɡəʊ/",
+          "level": "C1",
+          "mean": "quần đảo",
+          "syns": [
+            "island group",
+            "chain of islands"
+          ],
+          "ex": "Wolves formerly roamed the mountains of the Japanese archipelago."
+        },
+        {
+          "word": "inanimate",
+          "pos": "adj",
+          "ipa": "/ɪnˈæn.ɪ.mət/",
+          "level": "C1",
+          "mean": "vô tri vô giác",
+          "syns": [
+            "lifeless",
+            "inert",
+            "non-living"
+          ],
+          "ex": "Pests quickly recognize that motionless scarecrows are inanimate."
+        },
+        {
+          "word": "apex",
+          "pos": "adj",
+          "ipa": "/ˈeɪ.peks/",
+          "level": "C1",
+          "mean": "đỉnh cao, đứng đầu chuỗi thức ăn",
+          "syns": [
+            "top",
+            "pinnacle",
+            "dominant"
+          ],
+          "ex": "Grey wolves were once the apex predators of Japanese forests."
+        },
+        {
+          "word": "sanctuary",
+          "pos": "n",
+          "ipa": "/ˈsæŋk.tʃʊə.ri/",
+          "level": "B2",
+          "mean": "khu bảo tồn, nơi trú ẩn linh thiêng",
+          "syns": [
+            "haven",
+            "refuge",
+            "reserve"
+          ],
+          "ex": "Animals flee thinking a carnivore is defending its sanctuary."
+        },
+        {
+          "word": "peripheral",
+          "pos": "adj",
+          "ipa": "/pəˈrɪf.ər.əl/",
+          "level": "C1",
+          "mean": "ngoại vi, vùng rìa xung quanh",
+          "syns": [
+            "outer",
+            "marginal",
+            "bordering"
+          ],
+          "ex": "Robots were stationed along the peripheral perimeter of the village."
+        },
+        {
+          "word": "plummeted",
+          "pos": "v",
+          "ipa": "/ˈplʌm.ɪ.tɪd/",
+          "level": "B2",
+          "mean": "giảm mạnh, tụt dốc không phanh",
+          "syns": [
+            "plunged",
+            "dropped sharply",
+            "nosedived"
+          ],
+          "ex": "Bear encounters plummeted drastically after deployment."
+        },
+        {
+          "word": "sentinels",
+          "pos": "n",
+          "ipa": "/ˈsen.tɪ.nəlz/",
+          "level": "C1",
+          "mean": "lính gác, trạm canh gác",
+          "syns": [
+            "guards",
+            "watchers",
+            "patrols"
+          ],
+          "ex": "The robotic sentinels watch over the crops all night."
+        },
+        {
+          "word": "panacea",
+          "pos": "n",
+          "ipa": "/ˌpæn.əˈsiː.ə/",
+          "level": "C1",
+          "mean": "thuốc tiên, giải pháp toàn diện cho mọi vấn đề",
+          "syns": [
+            "cure-all",
+            "universal remedy",
+            "silver bullet"
+          ],
+          "ex": "Technology is not a panacea for rural socioeconomic decline."
+        },
+        {
+          "word": "agrarian",
+          "pos": "adj",
+          "ipa": "/əˈɡreə.ri.ən/",
+          "level": "C1",
+          "mean": "thuộc nông nghiệp, đồng ruộng",
+          "syns": [
+            "agricultural",
+            "farming-based",
+            "rural"
+          ],
+          "ex": "Agrarian settlements struggle to maintain production with an aging workforce."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t31_p1_q1",
+          "num": 1,
+          "question": "What is the primary factor driving wild animals into rural Japanese villages according to paragraph 1?",
+          "questionVi": "Yếu tố chủ yếu nào thúc đẩy động vật hoang dã tiến vào các ngôi làng nông thôn Nhật Bản theo đoạn 1?",
+          "questionType": "detail",
+          "options": [
+            "A sudden surge in the overall predator populations across national parks",
+            "Aging demographics and rural depopulation leaving farmland unmanaged",
+            "Extensive deforestation caused by commercial wood processing firms",
+            "Severe winter blizzards freezing natural water reservoirs in Hokkaido"
+          ],
+          "optionsVi": [
+            "Sự gia tăng đột ngột quần thể động vật ăn thịt trên khắp các vườn quốc gia",
+            "Sự già hóa dân số và sụt giảm nhân khẩu nông thôn khiến đất đai bị bỏ hoang",
+            "Nạn phá rừng quy mô lớn do các công ty chế biến gỗ thương mại gây ra",
+            "Bão tuyết mùa đông khắc nghiệt làm đóng băng các hồ chứa nước tự nhiên ở Hokkaido"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "As Japan's rural population ages and depopulates due to the rapid urbanization of younger generations, vast swathes of cultivated farmland and orchards border increasingly neglected mountainous terrain. Consequently, wild animals... have ventured deeper into human habitations.",
+          "evidenceVi": "Khi dân số nông thôn Nhật Bản già đi và suy giảm dân số do sự đô thị hóa nhanh chóng của thế hệ trẻ, những dải đất canh tác và vườn cây ăn trái rộng lớn tiếp giáp với vùng núi đồi ngày càng bị bỏ quên. Hậu quả là động vật hoang dã... đã tiến sâu hơn vào khu dân cư.",
+          "explanation": "Đoạn 1 nêu rõ nguyên nhân cốt lõi là do dân số nông thôn già hóa và giảm sút (ages and depopulates), khiến đất đai giáp vùng đồi núi bị bỏ hoang, tạo điều kiện cho động vật hoang dã xâm lấn.",
+          "postReading": {
+            "originToken": "rural population ages and depopulates",
+            "paraphraseToken": "Aging demographics and rural depopulation",
+            "explanation": "'Rural population ages and depopulates' tương đương 'Aging demographics and rural depopulation'."
+          }
+        },
+        {
+          "id": "t31_p1_q2",
+          "num": 2,
+          "question": "The word 'incursions' in paragraph 1 is closest in meaning to:",
+          "questionVi": "Từ 'incursions' trong đoạn 1 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "intrusions",
+            "migrations",
+            "extinctions",
+            "revolutions"
+          ],
+          "optionsVi": [
+            "sự xâm nhập / đột nhập",
+            "sự di cư định kỳ",
+            "sự tuyệt chủng",
+            "các cuộc cách mạng"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "These incursions not only devastate valuable vegetable crops and apple orchards but also pose direct physical dangers to elderly residents...",
+          "evidenceVi": "Những cuộc đột nhập này không chỉ tàn phá mùa màng rau màu và vườn táo có giá trị mà còn gây nguy hiểm trực tiếp về thể chất cho các cư dân lớn tuổi...",
+          "explanation": "'Incursions' có nghĩa là sự xâm lấn, đột nhập trái phép vào một khu vực, đồng nghĩa với 'intrusions'.",
+          "postReading": {
+            "originToken": "incursions",
+            "paraphraseToken": "intrusions",
+            "explanation": "'Incursions' mang nghĩa các cuộc xâm lấn, tương đương 'intrusions'."
+          }
+        },
+        {
+          "id": "t31_p1_q3",
+          "num": 3,
+          "question": "All of the following are physical characteristics of the Monster Wolf EXCEPT:",
+          "questionVi": "Tất cả các đặc điểm sau đây đều là đặc tính vật lý của Monster Wolf NGOẠI TRỪ:",
+          "questionType": "negative_detail",
+          "options": [
+            "Faux fur covering its mechanical frame",
+            "Bared fangs designed to intimidate intruders",
+            "Infrared LEDs that flash with crimson light",
+            "Motorized wheels enabling rapid chase through forests"
+          ],
+          "optionsVi": [
+            "Lớp lông thú nhân tạo bao bọc khung cơ học",
+            "Cặp nanh lộ ra ngoài được thiết kế để đe dọa",
+            "Đèn LED hồng ngoại nhấp nháy ánh đỏ đe dọa",
+            "Bánh xe cơ giới hóa cho phép rượt đuổi nhanh trong rừng"
+          ],
+          "correctAnswer": "D",
+          "correctIdx": 3,
+          "evidence": "Standing nearly one meter tall and extending over a meter in length, the mechanical beast is cloaked in faux fur, displays ferocious bared fangs, and features flashing infrared eyes that illuminate in menacing crimson. When its passive infrared motion sensors detect an animal... its mechanical head twists from side to side in violent tremors...",
+          "evidenceVi": "Với chiều cao gần một mét và dài hơn một mét, con thú máy được phủ lông giả, nhe cặp nanh dữ tợn và có đôi mắt hồng ngoại nhấp nháy phát ra sắc đỏ đe dọa. Khi cảm biến chuyển động hồng ngoại phát hiện... đầu của nó quay lắc dữ dội...",
+          "explanation": "Bài đọc mô tả robot có lông giả, răng nanh, mắt đèn LED đỏ và đầu lắc lư, hoàn toàn không hề có bánh xe rượt đuổi con thú qua rừng. Do đó D là đáp án đúng.",
+          "postReading": {
+            "originToken": "mechanical head twists... cloaked in faux fur",
+            "paraphraseToken": "Stationary mechanical scarecrow without chasing wheels",
+            "explanation": "Monster Wolf là bù nhìn máy đứng cố định xoay đầu, không có bánh xe đuổi bắt động vật."
+          }
+        },
+        {
+          "id": "t31_p1_q4",
+          "num": 4,
+          "question": "The word 'automaton' in paragraph 2 refers to:",
+          "questionVi": "Từ 'automaton' trong đoạn 2 đề cập đến:",
+          "questionType": "reference",
+          "options": [
+            "an elderly resident",
+            "the robotic wolf",
+            "a wild Asiatic black bear",
+            "an infrared sensor"
+          ],
+          "optionsVi": [
+            "một cư dân cao tuổi",
+            "con sói người máy",
+            "một con gấu đen châu Á hoang dã",
+            "một cảm biến hồng ngoại"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "When its passive infrared motion sensors detect an animal approaching within a ten-meter radius, the automaton springs to life...",
+          "evidenceVi": "Khi các cảm biến chuyển động hồng ngoại thụ động phát hiện một con vật tiến lại trong phạm vi 10 mét, cỗ máy tự động liền bừng tỉnh hoạt động...",
+          "explanation": "'The automaton' ở đây là danh từ thay thế cho con bù nhìn người máy Monster Wolf vừa được giới thiệu chi tiết trước đó.",
+          "postReading": {
+            "originToken": "automaton",
+            "paraphraseToken": "the robotic wolf / mechanical creature",
+            "explanation": "'Automaton' chỉ cỗ máy tự động, cụ thể là con sói máy."
+          }
+        },
+        {
+          "id": "t31_p1_q5",
+          "num": 5,
+          "question": "Why is the deterrence system programmed with over sixty distinct audio profiles?",
+          "questionVi": "Tại sao hệ thống răn đe lại được lập trình với hơn 60 cấu hình âm thanh khác nhau?",
+          "questionType": "detail",
+          "options": [
+            "To attract researchers from local agricultural universities",
+            "To satisfy regional noise regulations in Japanese municipalities",
+            "To prevent wild animals from becoming accustomed to repeating sounds",
+            "To communicate directly with hunting dogs patrolling the orchards"
+          ],
+          "optionsVi": [
+            "Để thu hút các nhà nghiên cứu từ các trường đại học nông nghiệp địa phương",
+            "Để đáp ứng các quy định về tiếng ồn của chính quyền địa phương Nhật Bản",
+            "Để ngăn động vật hoang dã quen nhờn với những âm thanh lặp đi lặp lại",
+            "Để giao tiếp trực tiếp với những chú chó săn đang tuần tra vườn cây"
+          ],
+          "correctAnswer": "C",
+          "correctIdx": 2,
+          "evidence": "Crucially, the deterrent's acoustic repertoire is meticulously programmed to prevent habituation—the behavioral tendency of wild animals to become accustomed to static alarms over time. The Monster Wolf rotates among more than sixty distinct deterrent sound profiles...",
+          "evidenceVi": "Quan trọng là, vốn tiết mục âm thanh của thiết bị răn đe được lập trình tỉ mỉ để ngăn hiện tượng nhờn kích thích (habituation) - xu hướng hành vi của thú hoang quen dần với chuông báo tĩnh theo thời gian. Monster Wolf luân phiên hơn 60 cấu hình âm thanh...",
+          "explanation": "Đoạn 3 giải thích việc xoay vòng hơn 60 âm thanh là nhằm ngăn chặn hiện tượng 'habituation' (động vật quen và không còn sợ tiếng báo động).",
+          "postReading": {
+            "originToken": "prevent habituation... accustomed to static alarms",
+            "paraphraseToken": "prevent wild animals from becoming accustomed",
+            "explanation": "'Prevent habituation' đồng nghĩa với 'prevent becoming accustomed to repeating stimuli'."
+          }
+        },
+        {
+          "id": "t31_p1_q6",
+          "num": 6,
+          "question": "The word 'repertoire' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'repertoire' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "frequency",
+            "collection",
+            "volume",
+            "installation"
+          ],
+          "optionsVi": [
+            "tần số dao động",
+            "tập hợp / kho tàng",
+            "âm lượng âm thanh",
+            "sự cài đặt thiết bị"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Crucially, the deterrent's acoustic repertoire is meticulously programmed to prevent habituation...",
+          "evidenceVi": "Điều then chốt là, kho âm thanh phong phú của thiết bị được lập trình tỉ mỉ để tránh hiện tượng nhờn...",
+          "explanation": "'Repertoire' là tập hợp, danh mục các tiết mục/kỹ năng/âm thanh sẵn có, đồng nghĩa với 'collection' hoặc 'range'.",
+          "postReading": {
+            "originToken": "acoustic repertoire",
+            "paraphraseToken": "collection of sounds",
+            "explanation": "'Repertoire' đồng nghĩa với 'collection'."
+          }
+        },
+        {
+          "id": "t31_p1_q7",
+          "num": 7,
+          "question": "Which of the following can be inferred about the grey wolf in Japan from paragraph 3?",
+          "questionVi": "Điều nào sau đây có thể được suy ra về loài sói xám ở Nhật Bản từ đoạn 3?",
+          "questionType": "inference",
+          "options": [
+            "It was reintroduced to Hokkaido forests by conservationists five years ago.",
+            "It remains a rampant threat to domestic livestock in suburban Tokyo.",
+            "Its historical presence left an enduring evolutionary wariness in local prey species.",
+            "It was originally imported from North America during the Meiji Restoration."
+          ],
+          "optionsVi": [
+            "Nó đã được các nhà bảo tồn tái đưa vào rừng Hokkaido 5 năm trước.",
+            "Nó vẫn là mối đe dọa thường trực đối với gia súc ở ngoại ô Tokyo.",
+            "Sự tồn tại trong lịch sử của nó đã để lại nỗi sợ hãi tiến hóa lâu dài ở các loài con mồi bản địa.",
+            "Nó vốn được nhập khẩu từ Bắc Mỹ trong thời kỳ Minh Trị Duy Tân."
+          ],
+          "correctAnswer": "C",
+          "correctIdx": 2,
+          "evidence": "...howling grey wolves—a top predator that was eradicated from the Japanese archipelago over a century ago... wild boars and bears perceive the apparition not as an inert inanimate object, but as a live, territorial apex carnivore...",
+          "evidenceVi": "...tiếng sói xám tru - loài săn mồi đỉnh cao đã bị tận diệt khỏi quần đảo Nhật Bản hơn một thế kỷ trước... lợn rừng và gấu nhìn nhận hình bóng này không phải vật vô tri mà là dã thú ăn thịt sống đang bảo vệ lãnh địa...",
+          "explanation": "Dù sói xám đã bị tuyệt diệt hơn 100 năm trước ở Nhật Bản, tiếng tru của nó vẫn khiến thú rừng hoảng sợ và bỏ chạy, chứng tỏ loài con mồi vẫn mang nỗi sợ tiến hóa bản năng đối với tiếng sói.",
+          "postReading": {
+            "originToken": "eradicated... apex carnivore guarding its sanctuary",
+            "paraphraseToken": "enduring evolutionary wariness in local prey species",
+            "explanation": "Tiếng sói dù đã tuyệt diệt vẫn kích hoạt bản năng né tránh tiến hóa."
+          }
+        },
+        {
+          "id": "t31_p1_q8",
+          "num": 8,
+          "question": "According to paragraph 4, what empirical evidence demonstrated the effectiveness of the Monster Wolf?",
+          "questionVi": "Theo đoạn 4, bằng chứng thực nghiệm nào đã chứng minh hiệu quả của Monster Wolf?",
+          "questionType": "detail",
+          "options": [
+            "Agricultural yields doubled while water consumption fell by half.",
+            "Crop damage fell by over eighty percent and residential bear sightings dropped sharply.",
+            "Hundreds of young urban workers migrated back to agricultural villages.",
+            "Local governments completely abolished all fencing around municipal orchards."
+          ],
+          "optionsVi": [
+            "Sản lượng nông nghiệp tăng gấp đôi trong khi lượng nước tiêu thụ giảm một nửa.",
+            "Thiệt hại mùa màng giảm hơn 80% và số lần nhìn thấy gấu trong khu dân cư giảm mạnh.",
+            "Hàng trăm lao động trẻ ở thành thị đã di cư quay trở lại các làng nông nghiệp.",
+            "Chính quyền địa phương dỡ bỏ hoàn toàn mọi hàng rào quanh các vườn cây ăn quả."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "In towns where Monster Wolves were deployed at peripheral forest borders and along the fringes of municipal chestnut groves, animal crop damage dropped by more than eighty percent, and bear sightings within residential zones plummeted to near zero.",
+          "evidenceVi": "Tại các thị trấn triển khai Monster Wolf ở ranh giới rừng và rìa rừng dẻ, thiệt hại mùa màng do động vật đã giảm hơn 80%, và các vụ bắt gặp gấu trong khu dân cư giảm mạnh xuống gần như bằng không.",
+          "explanation": "Đoạn 4 nêu rõ kết quả thực nghiệm: thiệt hại mùa màng giảm hơn 80% và các vụ nhìn thấy gấu tụt dốc gần bằng 0.",
+          "postReading": {
+            "originToken": "crop damage dropped by more than eighty percent, and bear sightings... plummeted",
+            "paraphraseToken": "Crop damage fell by over eighty percent and residential bear sightings dropped sharply",
+            "explanation": "'Dropped by more than 80%' và 'plummeted to near zero' tương đương."
+          }
+        },
+        {
+          "id": "t31_p1_q9",
+          "num": 9,
+          "question": "The word 'panacea' in paragraph 4 is closest in meaning to:",
+          "questionVi": "Từ 'panacea' trong đoạn 4 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "financial burden",
+            "cure-all",
+            "minor setback",
+            "dangerous hazard"
+          ],
+          "optionsVi": [
+            "gánh nặng tài chính",
+            "phương thuốc bách bệnh / giải pháp toàn năng",
+            "trở ngại nhỏ",
+            "mối nguy hiểm đáng sợ"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "While wildlife conservationists emphasize that mechanical sentinels represent a localized tactical measure rather than a panacea for systemic rural abandonment...",
+          "evidenceVi": "Mặc dù các nhà bảo tồn động vật hoang dã nhấn mạnh rằng lính gác cơ học chỉ đại diện cho một biện pháp chiến thuật cục bộ chứ không phải là phương thuốc vạn năng cho tình trạng bỏ hoang nông thôn mang tính hệ thống...",
+          "explanation": "'Panacea' có nghĩa là phương thuốc trị bách bệnh, giải pháp hoàn hảo cho mọi vấn đề, đồng nghĩa với 'cure-all' hoặc 'universal solution'.",
+          "postReading": {
+            "originToken": "panacea",
+            "paraphraseToken": "cure-all",
+            "explanation": "'Panacea' = 'cure-all'."
+          }
+        },
+        {
+          "id": "t31_p1_q10",
+          "num": 10,
+          "question": "Which of the following best summarizes the main idea of the passage?",
+          "questionVi": "Ý nào sau đây tóm tắt đúng nhất ý chính của toàn bộ bài đọc?",
+          "questionType": "main_idea",
+          "options": [
+            "A robotic wolf provides a novel, non-lethal technological solution to human-wildlife conflict in depopulating rural Japan.",
+            "Traditional fencing has proven entirely useless against invading bear populations across northern Asia.",
+            "Japanese researchers are successfully cloning extinct predatory animals to restore natural forest ecosystems.",
+            "Urban migration in modern Japan has created an unsustainable food shortage that requires automated harvesting."
+          ],
+          "optionsVi": [
+            "Một chú sói robot mang lại giải pháp công nghệ phi sát thương mới mẻ để giải quyết xung đột giữa người và động vật hoang dã tại vùng nông thôn suy giảm dân số ở Nhật Bản.",
+            "Hàng rào truyền thống đã tỏ ra hoàn toàn vô dụng trước sự xâm lấn của các quần thể gấu khắp Bắc Á.",
+            "Các nhà nghiên cứu Nhật Bản đang nhân bản vô tính thành công các loài săn mồi tuyệt chủng để khôi phục hệ sinh thái rừng tự nhiên.",
+            "Làn sóng di cư lên thành thị ở Nhật Bản hiện đại đã gây ra tình trạng thiếu hụt lương thực không bền vững đòi hỏi thu hoạch tự động."
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "In response to this mounting predicament... the Monster Wolf... By providing non-lethal, automated protection, this mechanical protector allows aging agrarian communities to coexist securely along the wild frontiers of contemporary Japan.",
+          "evidenceVi": "Để đối phó với hoàn cảnh khó khăn ngày càng tăng này... Monster Wolf... Bằng cách cung cấp sự bảo vệ tự động, không gây chết chóc, người bảo vệ máy móc này cho phép các cộng đồng nông nghiệp già hóa cùng tồn tại an toàn dọc theo biên cương hoang dã của Nhật Bản đương đại.",
+          "explanation": "Toàn bài viết về bối cảnh xung đột động vật - cư dân già hóa ở nông thôn Nhật Bản và giải pháp máy móc thông minh phi sát thương Monster Wolf giúp bảo vệ mùa màng và an toàn.",
+          "postReading": {
+            "originToken": "non-lethal, automated protection... allows aging agrarian communities to coexist",
+            "paraphraseToken": "robotic wolf provides a novel, non-lethal technological solution to human-wildlife conflict",
+            "explanation": "Tóm lược toàn diện giải pháp công nghệ Monster Wolf."
+          }
+        }
+      ]
+    },
+    {
+      "passageId": "t31_p2",
+      "passageNum": 2,
+      "title": "Venice Flood Defenses: The MOSE Barrier System & The Ecological Dilemma",
+      "titleVi": "Công trình chống lũ Venice: Hệ thống đê chắn MOSE & Thế tiến thoái lưỡng nan về sinh thái",
+      "category": "civil_engineering",
+      "text": "For centuries, the historic lagoon city of Venice has maintained a precarious equilibrium with the rising tides of the Adriatic Sea. Founded upon waterlogged marshland and supported by millions of submerged petrified wooden piles, the UNESCO World Heritage treasure has long experienced 'acqua alta'—seasonal high waters caused by tidal cycles and southern sirocco winds. However, during the twentieth and twenty-first centuries, this historic balance deteriorated into an existential emergency. A confluence of anthropogenic ground subsidence—accelerated by decades of industrial groundwater extraction on the nearby mainland—and global climate-induced sea-level rise has lowered the city relative to mean sea level by nearly thirty centimeters. Minor tidal surges that previously produced picturesque reflections in St. Mark's Square began invading Byzantine basilicas, submerging residential ground floors, and depositing corrosive salt crystals directly into fragile Renaissance brickwork.\n\nFaced with the imminent threat of catastrophic inundation, the Italian government initiated the MOSE project (Modulo Sperimentale Elettromeccanico, or Experimental Electromechanical Module), one of the most ambitious and politically scrutinized civil engineering undertakings in modern history. Conceived in the late twentieth century, the MOSE system comprises a network of seventy-eight submerged, hollow steel gates positioned across the three nautical inlets that connect the Venetian Lagoon to the open Adriatic: Lido, Malamocco, and Chioggia. Under benign tidal conditions, these colossal modular barriers—each measuring up to thirty meters in length and weighing over three hundred tons—rest flush inside massive concrete caissons cast into the seafloor, remaining completely invisible and allowing unobstructed maritime navigation and natural tidal flushing.\n\nWhen meteorological stations forecast a tidal surge exceeding the critical danger threshold of 110 centimeters, high-pressure compressed air is injected into the hollow gates. This rapidly expels the ballast water within, causing the bouyant steel barriers to hinge upward from the seabed at an angle of roughly forty-five degrees. In less than thirty minutes, the linked modules emerge from the waves, effectively walling off the entire Venetian Lagoon from Adriatic storm surges and maintaining the internal water level within manageable limits. Once the seaward surge abates, the air is vented, seawater refloods the interior cavities, and the gates sink passively back into their submerged resting trenches.\n\nSince its inaugural deployment in October 2020, MOSE has repeatedly proven its engineering efficacy, successfully sparing historic Venice from catastrophic floods that previously would have submerged over eighty percent of the municipal surface. Despite these triumphs, environmentalists and maritime ecologists raise profound long-term concerns regarding ecological consequences. The lagoon relies on continuous tidal flushing to dilute municipal effluent, circulate nutrients, and sustain biodiverse salt marshes. If accelerating sea-level rise forces authorities to raise the barriers dozens of times annually rather than intermittently, the lagoon risks transforming from a dynamic brackish estuary into a stagnant, deoxygenated septic basin. Preserving Venice thus presents an intractable paradox: protecting human architectural heritage from the sea may inadvertently sacrifice the very ecological vitality that made its lagoon habitat possible.",
+      "vocab": [
+        {
+          "word": "precarious",
+          "pos": "adj",
+          "ipa": "/prɪˈkeə.ri.əs/",
+          "level": "C1",
+          "mean": "bấp bênh, mong manh, hiểm nghèo",
+          "syns": [
+            "unstable",
+            "fragile",
+            "perilous"
+          ],
+          "ex": "Venice has maintained a precarious equilibrium with the Adriatic Sea."
+        },
+        {
+          "word": "equilibrium",
+          "pos": "n",
+          "ipa": "/ˌek.wɪˈlɪb.ri.əm/",
+          "level": "B2",
+          "mean": "trạng thái cân bằng",
+          "syns": [
+            "balance",
+            "stability"
+          ],
+          "ex": "The delicate environmental equilibrium was disrupted by human activity."
+        },
+        {
+          "word": "petrified",
+          "pos": "adj",
+          "ipa": "/ˈpet.rɪ.faɪd/",
+          "level": "C1",
+          "mean": "hóa đá, đóng băng",
+          "syns": [
+            "mineralized",
+            "hardened",
+            "fossilized"
+          ],
+          "ex": "The city is supported by submerged petrified wooden posts."
+        },
+        {
+          "word": "confluence",
+          "pos": "n",
+          "ipa": "/ˈkɒn.fluː.əns/",
+          "level": "C1",
+          "mean": "sự giao thoa, sự hội tụ đồng thời",
+          "syns": [
+            "convergence",
+            "combination",
+            "merging"
+          ],
+          "ex": "A confluence of sea level rise and ground sinking endangered the lagoon."
+        },
+        {
+          "word": "subsidence",
+          "pos": "n",
+          "ipa": "/səbˈsaɪ.dəns/",
+          "level": "C1",
+          "mean": "sự lún sụt mặt đất",
+          "syns": [
+            "sinking",
+            "settling",
+            "cave-in"
+          ],
+          "ex": "Groundwater extraction caused severe land subsidence across the coast."
+        },
+        {
+          "word": "corrosive",
+          "pos": "adj",
+          "ipa": "/kəˈrəʊ.sɪv/",
+          "level": "C1",
+          "mean": "có tính ăn mòn, hủy hoại dần",
+          "syns": [
+            "eroding",
+            "damaging",
+            "abrasive"
+          ],
+          "ex": "Saltwater deposits corrosive salt crystals into ancient marble structures."
+        },
+        {
+          "word": "inundation",
+          "pos": "n",
+          "ipa": "/ˌɪn.ʌnˈdeɪ.ʃən/",
+          "level": "C1",
+          "mean": "sự ngập lụt dữ dội",
+          "syns": [
+            "flooding",
+            "submersion",
+            "deluge"
+          ],
+          "ex": "The barriers protect historical monuments from catastrophic inundation."
+        },
+        {
+          "word": "scrutinized",
+          "pos": "v",
+          "ipa": "/ˈskruː.tɪ.naɪzd/",
+          "level": "C1",
+          "mean": "bị săm soi, xem xét kỹ lưỡng",
+          "syns": [
+            "examined",
+            "inspected",
+            "audited"
+          ],
+          "ex": "The massive budget of the barrier was closely scrutinized by inspectors."
+        },
+        {
+          "word": "undertakings",
+          "pos": "n",
+          "ipa": "/ˌʌn.dəˈteɪ.kɪŋz/",
+          "level": "B2",
+          "mean": "dự án lớn, công trình trọng điểm",
+          "syns": [
+            "projects",
+            "enterprises",
+            "ventures"
+          ],
+          "ex": "MOSE is one of the most complex engineering undertakings ever built."
+        },
+        {
+          "word": "inlets",
+          "pos": "n",
+          "ipa": "/ˈɪn.lets/",
+          "level": "B2",
+          "mean": "cửa biển hẹp, eo biển nhỏ vào đầm phá",
+          "syns": [
+            "waterways",
+            "passages",
+            "channels"
+          ],
+          "ex": "The steel gates span across the three primary tidal inlets."
+        },
+        {
+          "word": "benign",
+          "pos": "adj",
+          "ipa": "/bɪˈnaɪn/",
+          "level": "C1",
+          "mean": "ôn hòa, êm ả, không gây hại",
+          "syns": [
+            "calm",
+            "mild",
+            "favorable"
+          ],
+          "ex": "Under benign weather conditions, the gates rest invisible on the seabed."
+        },
+        {
+          "word": "caissons",
+          "pos": "n",
+          "ipa": "/ˈkeɪ.sɒnz/",
+          "level": "C1",
+          "mean": "thùng chìm bê tông (kỹ thuật thủy lợi)",
+          "syns": [
+            "concrete chambers",
+            "retaining structures"
+          ],
+          "ex": "The steel gates fold into concrete caissons anchored on the seafloor."
+        },
+        {
+          "word": "unobstructed",
+          "pos": "adj",
+          "ipa": "/ˌʌn.əbˈstrʌk.tɪd/",
+          "level": "B2",
+          "mean": "thông thoáng, không bị cản trở",
+          "syns": [
+            "clear",
+            "unhindered",
+            "open"
+          ],
+          "ex": "Ship traffic enjoys unobstructed navigation when the barriers are down."
+        },
+        {
+          "word": "threshold",
+          "pos": "n",
+          "ipa": "/ˈθreʃ.həʊld/",
+          "level": "B2",
+          "mean": "ngưỡng cửa, giới hạn kích hoạt",
+          "syns": [
+            "limit",
+            "boundary",
+            "benchmark"
+          ],
+          "ex": "The alarm sounds when tide levels cross the critical threshold."
+        },
+        {
+          "word": "expels",
+          "pos": "v",
+          "ipa": "/ɪkˈspelz/",
+          "level": "C1",
+          "mean": "tống ra, đẩy mạnh ra ngoài",
+          "syns": [
+            "ejects",
+            "forces out",
+            "drives out"
+          ],
+          "ex": "Compressed air expels seawater from the inner compartments."
+        },
+        {
+          "word": "ballast",
+          "pos": "n",
+          "ipa": "/ˈbæl.əst/",
+          "level": "C1",
+          "mean": "nước dằn, khối dằn ổn định",
+          "syns": [
+            "counterweight",
+            "stabilizing water"
+          ],
+          "ex": "Pumping out the ballast water makes the hollow steel doors float."
+        },
+        {
+          "word": "buoyant",
+          "pos": "adj",
+          "ipa": "/ˈbɔɪ.ənt/",
+          "level": "B2",
+          "mean": "nổi được trên mặt nước",
+          "syns": [
+            "floating",
+            "afloat"
+          ],
+          "ex": "The buoyant steel gates rise swiftly toward the surface."
+        },
+        {
+          "word": "abates",
+          "pos": "v",
+          "ipa": "/əˈbeɪts/",
+          "level": "C1",
+          "mean": "dịu đi, lắng xuống, thuyên giảm",
+          "syns": [
+            "subsides",
+            "lessens",
+            "diminishes"
+          ],
+          "ex": "Once the storm surge abates, the gates are lowered."
+        },
+        {
+          "word": "inaugural",
+          "pos": "adj",
+          "ipa": "/ɪˈnɔː.ɡjə.rəl/",
+          "level": "B2",
+          "mean": "đầu tiên, khai trương, mở màn",
+          "syns": [
+            "first",
+            "maiden",
+            "initial"
+          ],
+          "ex": "The system proved successful during its inaugural test in 2020."
+        },
+        {
+          "word": "efficacy",
+          "pos": "n",
+          "ipa": "/ˈef.ɪ.kə.si/",
+          "level": "C1",
+          "mean": "tính hiệu quả, hiệu lực thực tế",
+          "syns": [
+            "effectiveness",
+            "potency",
+            "success"
+          ],
+          "ex": "Decades of engineering verified the operational efficacy of the project."
+        },
+        {
+          "word": "flushing",
+          "pos": "n",
+          "ipa": "/ˈflʌʃ.ɪŋ/",
+          "level": "B2",
+          "mean": "sự xối rửa, lưu thông nước",
+          "syns": [
+            "cleansing",
+            "rinsing",
+            "renewal"
+          ],
+          "ex": "Tidal flushing washes away pollutants and replenishes lagoon oxygen."
+        },
+        {
+          "word": "dilute",
+          "pos": "v",
+          "ipa": "/daɪˈluːt/",
+          "level": "B2",
+          "mean": "làm loãng, giảm nồng độ ô nhiễm",
+          "syns": [
+            "weaken",
+            "thin out"
+          ],
+          "ex": "Inflowing ocean water helps dilute municipal sewage naturally."
+        },
+        {
+          "word": "effluent",
+          "pos": "n",
+          "ipa": "/ˈef.lu.ənt/",
+          "level": "C1",
+          "mean": "nước thải, chất thải lỏng xả ra môi trường",
+          "syns": [
+            "wastewater",
+            "sewage",
+            "discharge"
+          ],
+          "ex": "Without tidal exchange, municipal effluent accumulates in the canals."
+        },
+        {
+          "word": "brackish",
+          "pos": "adj",
+          "ipa": "/ˈbræk.ɪʃ/",
+          "level": "C1",
+          "mean": "nước lợ (pha trộn giữa mặn và ngọt)",
+          "syns": [
+            "saline-fresh",
+            "semi-salty"
+          ],
+          "ex": "The brackish marsh provides a critical breeding ground for aquatic fish."
+        },
+        {
+          "word": "stagnant",
+          "pos": "adj",
+          "ipa": "/ˈstæɡ.nənt/",
+          "level": "B2",
+          "mean": "tù đọng, không lưu thông",
+          "syns": [
+            "motionless",
+            "still",
+            "foul"
+          ],
+          "ex": "If closed too often, the lagoon could turn into a stagnant pool."
+        },
+        {
+          "word": "intractable",
+          "pos": "adj",
+          "ipa": "/ɪnˈtræk.tə.bəl/",
+          "level": "C1",
+          "mean": "khó giải quyết, nan giải",
+          "syns": [
+            "unmanageable",
+            "insoluble",
+            "uncompromising"
+          ],
+          "ex": "Engineers face an intractable dilemma balancing ecology and heritage."
+        },
+        {
+          "word": "paradox",
+          "pos": "n",
+          "ipa": "/ˈpær.ə.dɒks/",
+          "level": "B2",
+          "mean": "nghịch lý, mâu thuẫn hiển nhiên",
+          "syns": [
+            "contradiction",
+            "inconsistency"
+          ],
+          "ex": "Venice faces a tragic paradox between preservation and environmental health."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t31_p2_q11",
+          "num": 11,
+          "question": "According to paragraph 1, what two primary factors caused Venice to sink nearly thirty centimeters relative to sea level?",
+          "questionVi": "Theo đoạn 1, hai yếu tố chính nào đã khiến Venice lún sụt gần 30 cm so với mực nước biển?",
+          "questionType": "detail",
+          "options": [
+            "Excessive tourist footfall and vibrations from motorized gondolas",
+            "Industrial groundwater extraction and climate-induced sea-level rise",
+            "Severe earthquakes along the Alps and coastal sand erosion",
+            "Rapid expansion of heavy cruise ships through central canals"
+          ],
+          "optionsVi": [
+            "Lượng khách du lịch quá tải và độ rung từ thuyền gondola có động cơ",
+            "Hút nước ngầm phục vụ công nghiệp và mực nước biển dâng do khí hậu",
+            "Những trận động đất nghiêm trọng dọc dãy Alps và xói mòn cát ven biển",
+            "Sự gia tăng nhanh chóng của các tàu du lịch cỡ lớn đi qua các con kênh trung tâm"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "A confluence of anthropogenic ground subsidence—accelerated by decades of industrial groundwater extraction on the nearby mainland—and global climate-induced sea-level rise has lowered the city relative to mean sea level by nearly thirty centimeters.",
+          "evidenceVi": "Sự hội tụ của hiện tượng lún sụt đất do con người - bị đẩy nhanh bởi nhiều thập kỷ khai thác nước ngầm công nghiệp ở đất liền lân cận - và mực nước biển dâng do khí hậu toàn cầu đã hạ thấp thành phố so với mực nước biển trung bình gần 30 cm.",
+          "explanation": "Đoạn 1 chỉ rõ hai nguyên nhân là 'industrial groundwater extraction' (gây sụt lún đất) và 'climate-induced sea-level rise'.",
+          "postReading": {
+            "originToken": "industrial groundwater extraction... climate-induced sea-level rise",
+            "paraphraseToken": "Industrial groundwater extraction and climate-induced sea-level rise",
+            "explanation": "Khớp chính xác hai nguyên nhân vật lý gây lún thành phố."
+          }
+        },
+        {
+          "id": "t31_p2_q12",
+          "num": 12,
+          "question": "The word 'inundation' in paragraph 2 is closest in meaning to:",
+          "questionVi": "Từ 'inundation' trong đoạn 2 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "flooding",
+            "pollution",
+            "renovation",
+            "evacuation"
+          ],
+          "optionsVi": [
+            "ngập lụt",
+            "ô nhiễm",
+            "cải tạo",
+            "sơ tán"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "Faced with the imminent threat of catastrophic inundation, the Italian government initiated the MOSE project...",
+          "evidenceVi": "Trước mối đe dọa cận kề về trận ngập lụt thảm khốc, chính phủ Ý đã khởi động dự án MOSE...",
+          "explanation": "'Inundation' là tình trạng nước tràn ngập ngập úng dữ dội, đồng nghĩa với 'flooding' hoặc 'deluge'.",
+          "postReading": {
+            "originToken": "inundation",
+            "paraphraseToken": "flooding",
+            "explanation": "'Inundation' đồng nghĩa với 'flooding'."
+          }
+        },
+        {
+          "id": "t31_p2_q13",
+          "num": 13,
+          "question": "Where are the MOSE steel barrier gates located when there is no threatening storm surge?",
+          "questionVi": "Các cánh cổng chắn thép MOSE nằm ở đâu khi không có triều cường bão đe dọa?",
+          "questionType": "detail",
+          "options": [
+            "Floating visibly on the water surface between navigation buoys",
+            "Resting inside submerged concrete chambers on the seabed",
+            "Suspended horizontally from giant mechanical cranes onshore",
+            "Locked inside storage warehouses on the Venetian mainland"
+          ],
+          "optionsVi": [
+            "Nổi lộ thiên trên mặt nước giữa các phao hàng hải",
+            "Nằm nghỉ bên trong các hầm bê tông chìm dưới đáy biển",
+            "Được treo ngang trên những cần cẩu cơ khí khổng lồ trên bờ",
+            "Được cất khóa bên trong các nhà kho lưu trữ trên đất liền Venice"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Under benign tidal conditions, these colossal modular barriers... rest flush inside massive concrete caissons cast into the seafloor, remaining completely invisible and allowing unobstructed maritime navigation...",
+          "evidenceVi": "Dưới điều kiện triều bình thường, những tấm rào chắn mô-đun khổng lồ này... nằm phẳng bên trong các thùng chìm bê tông lớn đúc dưới đáy biển, hoàn toàn tàng hình và cho phép tàu thuyền đi lại thông thoáng...",
+          "explanation": "Đoạn 2 nêu rõ ở điều kiện bình thường, các cánh cổng nằm phẳng trong các caisson (thùng chìm bê tông) dưới đáy biển.",
+          "postReading": {
+            "originToken": "rest flush inside massive concrete caissons cast into the seafloor",
+            "paraphraseToken": "Resting inside submerged concrete chambers on the seabed",
+            "explanation": "'Caissons cast into the seafloor' = 'submerged concrete chambers on the seabed'."
+          }
+        },
+        {
+          "id": "t31_p2_q14",
+          "num": 14,
+          "question": "What mechanism causes the MOSE gates to rise up and block the incoming sea tide?",
+          "questionVi": "Cơ chế nào làm cho các cánh cổng MOSE nâng lên và ngăn chặn thủy triều biển?",
+          "questionType": "detail",
+          "options": [
+            "Powerful diesel hydraulic winches pulling metal cables from land",
+            "High-pressure compressed air expelling ballast water to create buoyancy",
+            "Electromagnetic repulsion coils buried deep in the sub-seafloor",
+            "Inflatable rubber cushions that expand under heat generators"
+          ],
+          "optionsVi": [
+            "Tời thủy lực diesel cực mạnh kéo cáp kim loại từ đất liền",
+            "Khí nén áp suất cao đẩy nước dằn ra ngoài để tạo lực nổi",
+            "Các cuộn dây đẩy điện từ chôn sâu dưới lòng đáy biển",
+            "Đệm cao su bơm hơi phồng lên dưới các máy tạo nhiệt"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "When meteorological stations forecast a tidal surge... high-pressure compressed air is injected into the hollow gates. This rapidly expels the ballast water within, causing the buoyant steel barriers to hinge upward from the seabed at an angle of roughly forty-five degrees.",
+          "evidenceVi": "Khi trạm khí tượng dự báo triều dâng... khí nén áp suất cao được bơm vào các cánh cổng rỗng. Thao tác này nhanh chóng đẩy nước dằn bên trong ra, khiến các rào thép có sức nổi bật lên khỏi đáy biển theo góc khoảng 45 độ.",
+          "explanation": "Đoạn 3 giải thích cơ chế: bơm khí nén áp lực cao để đẩy hết nước dằn ra ngoài, giúp các cánh cổng bằng thép rỗng trở nên có sức nổi (buoyant) và nâng lên.",
+          "postReading": {
+            "originToken": "compressed air is injected... expels the ballast water... buoyant steel barriers to hinge upward",
+            "paraphraseToken": "High-pressure compressed air expelling ballast water to create buoyancy",
+            "explanation": "Mô tả chuẩn xác nguyên lý khí nén tạo lực nổi đẩy cửa lên."
+          }
+        },
+        {
+          "id": "t31_p2_q15",
+          "num": 15,
+          "question": "The word 'abates' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'abates' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "subsides",
+            "accelerates",
+            "intensifies",
+            "reverses"
+          ],
+          "optionsVi": [
+            "lắng xuống, dịu đi",
+            "tăng tốc",
+            "trở nên dữ dội",
+            "đảo ngược hoàn toàn"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "Once the seaward surge abates, the air is vented, seawater refloods the interior cavities, and the gates sink passively back into their submerged resting trenches.",
+          "evidenceVi": "Một khi đợt sóng biển dâng lắng xuống, khí được xả ra, nước biển tràn lại vào các khoang bên trong, và các cánh cổng chìm thụ động trở lại các rãnh nghỉ dưới nước.",
+          "explanation": "'Abates' có nghĩa là giảm cường độ, lắng dịu đi, đồng nghĩa với 'subsides' hoặc 'lessens'.",
+          "postReading": {
+            "originToken": "surge abates",
+            "paraphraseToken": "storm surge subsides",
+            "explanation": "'Abates' = 'subsides'."
+          }
+        },
+        {
+          "id": "t31_p2_q16",
+          "num": 16,
+          "question": "What threshold triggers the activation and deployment of the MOSE system?",
+          "questionVi": "Ngưỡng nào kích hoạt việc triển khai và dựng hệ thống rào chắn MOSE?",
+          "questionType": "detail",
+          "options": [
+            "Any tidal height above thirty centimeters",
+            "A predicted tidal surge exceeding 110 centimeters",
+            "A sustained wind velocity of over 100 kilometers per hour",
+            "A water temperature increase of two degrees Celsius"
+          ],
+          "optionsVi": [
+            "Bất kỳ độ cao thủy triều nào trên 30 cm",
+            "Dự báo triều dâng vượt quá ngưỡng 110 cm",
+            "Vận tốc gió duy trì trên 100 km/h",
+            "Nhiệt độ nước tăng thêm 2 độ C"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "When meteorological stations forecast a tidal surge exceeding the critical danger threshold of 110 centimeters, high-pressure compressed air is injected into the hollow gates.",
+          "evidenceVi": "Khi các trạm khí tượng dự báo triều dâng vượt quá ngưỡng nguy hiểm chí mạng là 110 cm, khí nén áp suất cao sẽ được bơm vào các cửa rỗng.",
+          "explanation": "Đoạn 3 nêu rõ ngưỡng kích hoạt là khi dự báo triều dâng vượt quá 110 cm ('exceeding the critical danger threshold of 110 centimeters').",
+          "postReading": {
+            "originToken": "exceeding the critical danger threshold of 110 centimeters",
+            "paraphraseToken": "tidal surge exceeding 110 centimeters",
+            "explanation": "Khớp số liệu trực tiếp trong bài đọc."
+          }
+        },
+        {
+          "id": "t31_p2_q17",
+          "num": 17,
+          "question": "Which of the following describes an ecological hazard of raising the MOSE barriers too frequently?",
+          "questionVi": "Điều nào sau đây mô tả mối nguy hại sinh thái nếu dựng rào chắn MOSE quá thường xuyên?",
+          "questionType": "detail",
+          "options": [
+            "Salt crystals will completely dissolve from ancient brick monuments.",
+            "The lagoon will become stagnant, deoxygenated, and accumulate municipal waste.",
+            "Massive tsunamis will be directed toward neighboring Italian coastlines.",
+            "Petrified wooden foundation piles will instantly rot from high salinity."
+          ],
+          "optionsVi": [
+            "Các tinh thể muối sẽ tan hoàn toàn khỏi các di tích gạch cổ.",
+            "Đầm phá sẽ trở nên tù đọng, thiếu oxy và tích tụ chất thải sinh hoạt đô thị.",
+            "Những cơn sóng thần dữ dội sẽ bị đổi hướng về phía bờ biển các vùng lân cận của Ý.",
+            "Các cọc móng bằng gỗ hóa đá sẽ mục rữa ngay lập tức do độ mặn cao."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "If accelerating sea-level rise forces authorities to raise the barriers dozens of times annually rather than intermittently, the lagoon risks transforming from a dynamic brackish estuary into a stagnant, deoxygenated septic basin.",
+          "evidenceVi": "Nếu mực nước biển dâng nhanh buộc nhà chức trách phải nâng các hàng rào hàng chục lần mỗi năm thay vì thỉnh thoảng, đầm phá có nguy cơ biến từ một cửa sông nước lợ năng động thành một bể tự hoại ứ đọng, cạn kiệt oxy.",
+          "explanation": "Đoạn 4 giải thích rõ: đóng đầm phá quá thường xuyên sẽ chặn việc lưu thông thủy triều xả thải, làm đầm phá trở nên tù đọng (stagnant), mất oxy (deoxygenated) và tích tụ ô nhiễm effluent.",
+          "postReading": {
+            "originToken": "stagnant, deoxygenated septic basin",
+            "paraphraseToken": "stagnant, deoxygenated, and accumulate municipal waste",
+            "explanation": "Diễn giải lại hệ quả sinh thái tiêu cực khi đóng cổng rào thường xuyên."
+          }
+        },
+        {
+          "id": "t31_p2_q18",
+          "num": 18,
+          "question": "The word 'stagnant' in paragraph 4 is closest in meaning to:",
+          "questionVi": "Từ 'stagnant' trong đoạn 4 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "rapidly flowing",
+            "unmoving and foul",
+            "highly nutritious",
+            "extremely turbulent"
+          ],
+          "optionsVi": [
+            "chảy xiết",
+            "bất động, tù đọng và ô uế",
+            "rất giàu dinh dưỡng",
+            "cực kỳ dữ dội, hỗn loạn"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...the lagoon risks transforming from a dynamic brackish estuary into a stagnant, deoxygenated septic basin.",
+          "evidenceVi": "...đầm phá có nguy cơ biến từ một cửa sông nước lợ năng động thành một vùng tù đọng, thiếu oxy hôi thối.",
+          "explanation": "'Stagnant' chỉ nước tù, không lưu chuyển dẫn đến bốc mùi và yếm khí, đồng nghĩa với 'unmoving and foul'.",
+          "postReading": {
+            "originToken": "stagnant",
+            "paraphraseToken": "unmoving and foul",
+            "explanation": "'Stagnant' = 'unmoving / motionless and foul'."
+          }
+        },
+        {
+          "id": "t31_p2_q19",
+          "num": 19,
+          "question": "What is the 'intractable paradox' mentioned in the concluding sentence?",
+          "questionVi": "'Nghịch lý nan giải' được nhắc đến trong câu kết luận là gì?",
+          "questionType": "inference",
+          "options": [
+            "The barrier stops floods but bankrupts the city's tourism revenue.",
+            "Safeguarding historical urban architecture may destroy the surrounding natural ecosystem.",
+            "Modern engineering makes older wooden foundations physically sink faster.",
+            "Tourists demand higher tides to take memorable photographic reflections."
+          ],
+          "optionsVi": [
+            "Rào chắn ngăn lũ nhưng làm phá sản nguồn thu từ du lịch của thành phố.",
+            "Bảo vệ kiến trúc đô thị lịch sử có thể phá hủy hệ sinh thái tự nhiên bao quanh nó.",
+            "Kỹ thuật hiện đại khiến các nền móng bằng gỗ lâu đời bị lún nhanh hơn về mặt vật lý.",
+            "Khách du lịch đòi hỏi thủy triều cao hơn để chụp ảnh phản chiếu kỷ niệm."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Preserving Venice thus presents an intractable paradox: protecting human architectural heritage from the sea may inadvertently sacrifice the very ecological vitality that made its lagoon habitat possible.",
+          "evidenceVi": "Do đó, việc bảo tồn Venice đưa ra một nghịch lý nan giải: bảo vệ di sản kiến trúc nhân loại khỏi biển cả có thể vô tình hy sinh chính sức sống sinh thái đã tạo nên môi trường sống của đầm phá này.",
+          "explanation": "Câu kết giải thích rõ nghịch lý: nỗ lực bảo vệ công trình kiến trúc lịch sử khỏi ngập lụt lại hủy diệt sự lưu thông sinh thái tự nhiên của đầm phá.",
+          "postReading": {
+            "originToken": "protecting human architectural heritage... sacrifice the very ecological vitality",
+            "paraphraseToken": "Safeguarding historical urban architecture may destroy the surrounding natural ecosystem",
+            "explanation": "Nghịch lý giữa bảo tồn kiến trúc nhân tạo và bảo vệ hệ sinh thái đầm phá."
+          }
+        },
+        {
+          "id": "t31_p2_q20",
+          "num": 20,
+          "question": "Which of the following titles best captures the substance of the passage?",
+          "questionVi": "Nhan đề nào sau đây phản ánh đúng nhất nội dung của bài đọc?",
+          "questionType": "main_idea",
+          "options": [
+            "Venice's MOSE Barrier: Engineering Triumph and Ecological Dilemma",
+            "The Demise of Maritime Trade in Northern Italy's Ancient Ports",
+            "Why Groundwater Extraction Should Be Banned in Coastal Europe",
+            "The Structural Mystery of Submerged Petrified Foundations in Italy"
+          ],
+          "optionsVi": [
+            "Hệ thống rào chắn MOSE của Venice: Chiến thắng kỹ thuật và Song đề nan giải về sinh thái",
+            "Sự lụi tàn của thương mại hàng hải tại các thương cảng cổ miền Bắc nước Ý",
+            "Tại sao việc khai thác nước ngầm nên bị cấm ở vùng ven biển châu Âu",
+            "Bí ẩn kết cấu của những móng cọc gỗ hóa đá chìm dưới nước ở Ý"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The passage outlines Venice's flooding crisis, the engineering design of MOSE, its proven flood prevention success, and the resulting severe ecological conundrum regarding water stagnation.",
+          "evidenceVi": "Bài đọc khái quát khủng hoảng lũ lụt của Venice, thiết kế kỹ thuật của MOSE, thành công ngăn lụt đã được chứng minh và thế tiến thoái lưỡng nan về mặt sinh thái đầm phá.",
+          "explanation": "Bài đọc bao quát cả hai mặt: thành tựu kỹ thuật xuất sắc ngăn lụt của MOSE và bài toán hóc búa về nguy cơ hủy hoại hệ sinh thái đầm phá nếu đóng cửa quá thường xuyên.",
+          "postReading": {
+            "originToken": "engineering efficacy... ecological consequences... intractable paradox",
+            "paraphraseToken": "Engineering Triumph and Ecological Dilemma",
+            "explanation": "Bao quát tính hai mặt của công trình MOSE."
+          }
+        }
+      ]
+    },
+    {
+      "passageId": "t31_p3",
+      "passageNum": 3,
+      "title": "Dynamic Pricing Algorithms & Consumer Psychology in Modern E-Commerce",
+      "titleVi": "Thuật toán định giá linh hoạt & Tâm lý người tiêu dùng trong Thương mại điện tử",
+      "category": "economics_psychology",
+      "text": "In the contemporary digital economy, the static price tag—a foundational cornerstone of retail commerce for over a century—is being swiftly supplanted by algorithmic dynamic pricing. Leveraging massive troves of consumer data, high-velocity machine learning models, and real-time behavioral analytics, online marketplaces continuously adjust product and service prices in fractions of a second. From airline tickets and ride-hailing services to hotel bookings, consumer electronics, and everyday grocery items, automated pricing engines synthesize hundreds of fluctuating variables: current inventory levels, competitor rates, local meteorological conditions, and historical consumer purchasing patterns. However, modern dynamic pricing has evolved far beyond traditional supply-and-demand equilibrium models; it now incorporates personalized surveillance pricing engineered to exploit subtle human cognitive vulnerabilities.\n\nThrough cross-site tracking cookies, mobile device fingerprints, and geolocation coordinates, algorithmic systems construct granular psychological dossiers on prospective buyers. For example, an e-commerce platform can detect whether a shopper is searching for flights using an expensive high-end laptop, browsing from an affluent postal code, or visiting a checkout page at midnight with a critically low phone battery. Algorithms interpret these contextual signals as indicators of urgency or price insensitivity, automatically inflating prices under the assumption that a desperate consumer will tolerate a premium rather than spend time comparing alternatives. Furthermore, platforms introduce synthetic friction and manufactured scarcity—such as countdown timers indicating that an item will expire in minutes, or warnings asserting that 'only 2 seats remain at this price'—to induce visceral fear of missing out (FOMO) and short-circuit rational deliberative appraisal.\n\nEconomists and proponents argue that algorithmic price differentiation maximizes economic surplus by expanding market access to price-sensitive demographics through targeted discounts while extracting higher willingness-to-pay from affluent cohorts. Yet, consumer advocacy groups and behavioral scientists contend that this asymmetry of information creates unprecedented market distortion. In traditional physical commerce, transparent pricing allows consumers to assess whether a transaction is fair. In contrast, algorithmic personalization cloaks the baseline cost in opacity; a shopper cannot easily determine whether their quoted price reflects genuine market equilibrium or calculated digital exploitation.\n\nMoreover, empirical research reveals that when consumers discover they have paid significantly more than peers for an identical service due to opaque dynamic pricing, feelings of betrayal and moral outrage quickly erode institutional brand trust. Consequently, regulatory bodies across the globe are beginning to scrutinize algorithmic pricing models. Proposed legal frameworks in the European Union and the United States aim to mandate algorithmic transparency, restrict the exploitation of personal distress signals, and ensure that dynamic optimization does not degenerate into discriminatory predatory extraction. As retail moves toward an era of hyper-personalized commerce, society faces the pressing challenge of balancing computational efficiency with fundamental consumer equity.",
+      "vocab": [
+        {
+          "word": "supplanted",
+          "pos": "v",
+          "ipa": "/səˈplɑːn.tɪd/",
+          "level": "C1",
+          "mean": "bị thay thế, bị tiếm ngôi",
+          "syns": [
+            "replaced",
+            "superseded",
+            "displaced"
+          ],
+          "ex": "Fixed price tags are being supplanted by dynamic algorithms."
+        },
+        {
+          "word": "troves",
+          "pos": "n",
+          "ipa": "/trəʊvz/",
+          "level": "C1",
+          "mean": "kho tàng, kho lưu trữ lớn quý giá",
+          "syns": [
+            "caches",
+            "stores",
+            "repositories"
+          ],
+          "ex": "Companies mine massive troves of personal consumer data."
+        },
+        {
+          "word": "high-velocity",
+          "pos": "adj",
+          "ipa": "/haɪ vəˈlɒs.ə.ti/",
+          "level": "C1",
+          "mean": "tốc độ cao, cực kỳ nhanh chóng",
+          "syns": [
+            "rapid",
+            "swift",
+            "fast-paced"
+          ],
+          "ex": "High-velocity algorithms recalculate prices thousands of times per day."
+        },
+        {
+          "word": "synthesize",
+          "pos": "v",
+          "ipa": "/ˈsɪn.θə.saɪz/",
+          "level": "B2",
+          "mean": "tổng hợp, kết hợp nhiều nguồn",
+          "syns": [
+            "combine",
+            "integrate",
+            "amalgamate"
+          ],
+          "ex": "Pricing engines synthesize market data to calculate optimal profit."
+        },
+        {
+          "word": "surveillance",
+          "pos": "n",
+          "ipa": "/səˈveɪ.ləns/",
+          "level": "B2",
+          "mean": "sự giám sát, theo dõi bí mật",
+          "syns": [
+            "monitoring",
+            "observation",
+            "tracking"
+          ],
+          "ex": "Personalized surveillance pricing tracks users across the web."
+        },
+        {
+          "word": "vulnerabilities",
+          "pos": "n",
+          "ipa": "/ˌvʌl.nər.əˈbɪl.ə.tiz/",
+          "level": "B2",
+          "mean": "điểm yếu, lỗ hổng tâm lý",
+          "syns": [
+            "weaknesses",
+            "susceptibilities"
+          ],
+          "ex": "Algorithms exploit psychological vulnerabilities when users are tired."
+        },
+        {
+          "word": "granular",
+          "pos": "adj",
+          "ipa": "/ˈɡræn.jə.lər/",
+          "level": "C1",
+          "mean": "chi tiết tỉ mỉ, đến từng chi tiết nhỏ",
+          "syns": [
+            "detailed",
+            "meticulous",
+            "fine-grained"
+          ],
+          "ex": "Platforms build granular behavioral profiles on every user."
+        },
+        {
+          "word": "dossiers",
+          "pos": "n",
+          "ipa": "/ˈdɒs.i.eɪz/",
+          "level": "C1",
+          "mean": "hồ sơ lưu trữ toàn diện",
+          "syns": [
+            "files",
+            "records",
+            "portfolios"
+          ],
+          "ex": "Targeting tools construct psychological dossiers of customer habits."
+        },
+        {
+          "word": "affluent",
+          "pos": "adj",
+          "ipa": "/ˈæf.lu.ənt/",
+          "level": "B2",
+          "mean": "giàu có, khá giả",
+          "syns": [
+            "wealthy",
+            "prosperous",
+            "well-off"
+          ],
+          "ex": "Shoppers from affluent neighborhoods are charged higher delivery fees."
+        },
+        {
+          "word": "insensitivity",
+          "pos": "n",
+          "ipa": "/ɪnˌsen.sɪˈtɪv.ə.ti/",
+          "level": "C1",
+          "mean": "sự kém nhạy cảm (không bận tâm giá cả)",
+          "syns": [
+            "indifference",
+            "unresponsiveness"
+          ],
+          "ex": "Desperate travelers exhibit high price insensitivity."
+        },
+        {
+          "word": "friction",
+          "pos": "n",
+          "ipa": "/ˈfrɪk.ʃən/",
+          "level": "C1",
+          "mean": "trở ngại nhân tạo, sự cản trở tâm lý",
+          "syns": [
+            "resistance",
+            "impediment",
+            "obstacle"
+          ],
+          "ex": "Websites introduce synthetic friction to hurry consumer purchases."
+        },
+        {
+          "word": "scarcity",
+          "pos": "n",
+          "ipa": "/ˈskeə.sə.ti/",
+          "level": "B2",
+          "mean": "sự khan hiếm, thiếu thốn",
+          "syns": [
+            "shortage",
+            "rarity",
+            "dearth"
+          ],
+          "ex": "Manufactured scarcity tricks customers into believing tickets are almost gone."
+        },
+        {
+          "word": "visceral",
+          "pos": "adj",
+          "ipa": "/ˈvɪs.ər.əl/",
+          "level": "C1",
+          "mean": "thuộc cảm xúc bản năng ruột gan, mãnh liệt",
+          "syns": [
+            "instinctive",
+            "gut-level",
+            "deep-seated"
+          ],
+          "ex": "Ticketing sites trigger visceral fear of missing out."
+        },
+        {
+          "word": "deliberative",
+          "pos": "adj",
+          "ipa": "/dɪˈlɪb.ər.ə.tɪv/",
+          "level": "C1",
+          "mean": "mang tính cân nhắc kỹ lưỡng, thận trọng",
+          "syns": [
+            "thoughtful",
+            "reflective",
+            "analytical"
+          ],
+          "ex": "Panic countdowns bypass rational deliberative thinking."
+        },
+        {
+          "word": "appraisal",
+          "pos": "n",
+          "ipa": "/əˈpreɪ.zəl/",
+          "level": "B2",
+          "mean": "sự đánh giá, thẩm định",
+          "syns": [
+            "evaluation",
+            "assessment"
+          ],
+          "ex": "Shoppers skip careful appraisal of the total price."
+        },
+        {
+          "word": "surplus",
+          "pos": "n",
+          "ipa": "/ˈsɜː.pləs/",
+          "level": "B2",
+          "mean": "thặng dư kinh tế, phần dư thừa",
+          "syns": [
+            "excess",
+            "gain",
+            "margin"
+          ],
+          "ex": "Economists debate whether dynamic pricing increases consumer surplus."
+        },
+        {
+          "word": "cohorts",
+          "pos": "n",
+          "ipa": "/ˈkəʊ.hɔːts/",
+          "level": "C1",
+          "mean": "các nhóm đối tượng có chung đặc điểm",
+          "syns": [
+            "groups",
+            "segments",
+            "categories"
+          ],
+          "ex": "High rates are extracted from wealthier customer cohorts."
+        },
+        {
+          "word": "asymmetry",
+          "pos": "n",
+          "ipa": "/eɪˈsɪm.ə.tri/",
+          "level": "C1",
+          "mean": "sự bất đối xứng, không cân xứng",
+          "syns": [
+            "imbalance",
+            "disparity",
+            "inequality"
+          ],
+          "ex": "The asymmetry of information leaves online buyers at a disadvantage."
+        },
+        {
+          "word": "distortion",
+          "pos": "n",
+          "ipa": "/dɪˈstɔː.ʃən/",
+          "level": "B2",
+          "mean": "sự bóp méo, làm lệch lạc",
+          "syns": [
+            "misrepresentation",
+            "bias",
+            "warp"
+          ],
+          "ex": "Information opacity leads to grave market distortion."
+        },
+        {
+          "word": "cloaks",
+          "pos": "v",
+          "ipa": "/kləʊks/",
+          "level": "C1",
+          "mean": "che giấu, ngụy trang, bao phủ",
+          "syns": [
+            "conceals",
+            "masks",
+            "disguises"
+          ],
+          "ex": "Algorithmic personalization cloaks real costs under artificial surge pricing."
+        },
+        {
+          "word": "opacity",
+          "pos": "n",
+          "ipa": "/əʊˈpæs.ə.ti/",
+          "level": "C1",
+          "mean": "sự mờ ám, thiếu minh bạch",
+          "syns": [
+            "obscurity",
+            "lack of transparency",
+            "cloudiness"
+          ],
+          "ex": "Consumers struggle against the deliberate opacity of automated platforms."
+        },
+        {
+          "word": "outrage",
+          "pos": "n",
+          "ipa": "/ˈaʊt.reɪdʒ/",
+          "level": "B2",
+          "mean": "sự phẫn nộ dữ dội",
+          "syns": [
+            "fury",
+            "indignation",
+            "anger"
+          ],
+          "ex": "Price discrimination causes deep moral outrage when discovered."
+        },
+        {
+          "word": "erode",
+          "pos": "v",
+          "ipa": "/ɪˈrəʊd/",
+          "level": "B2",
+          "mean": "bào mòn, làm xói mòn dần",
+          "syns": [
+            "undermine",
+            "wear away",
+            "weaken"
+          ],
+          "ex": "Unfair pricing practices erode long-term customer loyalty."
+        },
+        {
+          "word": "mandate",
+          "pos": "v",
+          "ipa": "/ˈmæn.deɪt/",
+          "level": "C1",
+          "mean": "ra lệnh, bắt buộc thi hành theo luật",
+          "syns": [
+            "require",
+            "order",
+            "decree"
+          ],
+          "ex": "Regulators propose laws to mandate price transparency."
+        },
+        {
+          "word": "predatory",
+          "pos": "adj",
+          "ipa": "/ˈpred.ə.tər.i/",
+          "level": "C1",
+          "mean": "mang tính bóc lột, chèn ép săn mồi",
+          "syns": [
+            "exploitative",
+            "ruthless",
+            "rapacious"
+          ],
+          "ex": "New statutes protect consumers from predatory algorithmic gouging."
+        },
+        {
+          "word": "hyper-personalized",
+          "pos": "adj",
+          "ipa": "/ˌhaɪ.pə ˈpɜː.sən.əl.aɪzd/",
+          "level": "C1",
+          "mean": "siêu cá nhân hóa",
+          "syns": [
+            "deeply customized",
+            "tailored"
+          ],
+          "ex": "Hyper-personalized marketing adjusts prices to individual biometric signals."
+        },
+        {
+          "word": "equity",
+          "pos": "n",
+          "ipa": "/ˈek.wɪ.ti/",
+          "level": "B2",
+          "mean": "sự công bằng, bình đẳng quyền lợi",
+          "syns": [
+            "fairness",
+            "justice",
+            "impartiality"
+          ],
+          "ex": "Society must preserve basic equity in retail trade."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t31_p3_q21",
+          "num": 21,
+          "question": "What is the primary function of algorithmic dynamic pricing as defined in paragraph 1?",
+          "questionVi": "Chức năng chính của thuật toán định giá linh hoạt theo như định nghĩa ở đoạn 1 là gì?",
+          "questionType": "detail",
+          "options": [
+            "Printing electronic barcodes for traditional department stores",
+            "Continually recalculating product prices in real time using massive data",
+            "Eliminating all digital transaction fees for online banking users",
+            "Standardizing global currency exchange rates across foreign borders"
+          ],
+          "optionsVi": [
+            "In mã vạch điện tử cho các cửa hàng bách hóa truyền thống",
+            "Liên tục tính toán lại giá sản phẩm theo thời gian thực dựa trên khối dữ liệu khổng lồ",
+            "Xóa bỏ hoàn toàn phí giao dịch kỹ thuật số cho người dùng ngân hàng trực tuyến",
+            "Chuẩn hóa tỷ giá hối đoái tiền tệ toàn cầu qua các biên giới quốc tế"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Leveraging massive troves of consumer data, high-velocity machine learning models, and real-time behavioral analytics, online marketplaces continuously adjust product and service prices in fractions of a second.",
+          "evidenceVi": "Tận dụng các kho dữ liệu tiêu dùng khổng lồ, các mô hình học máy tốc độ cao và phân tích hành vi thời gian thực, các sàn thương mại trực tuyến liên tục điều chỉnh giá sản phẩm và dịch vụ trong tích tắc.",
+          "explanation": "Đoạn 1 nêu rõ định giá động lực là việc liên tục điều chỉnh giá trong từng phần của giây dựa trên lượng dữ liệu lớn và phân tích thời gian thực.",
+          "postReading": {
+            "originToken": "continuously adjust product and service prices in fractions of a second",
+            "paraphraseToken": "Continually recalculating product prices in real time using massive data",
+            "explanation": "'Adjust prices in fractions of a second' tương đương 'recalculating prices in real time'."
+          }
+        },
+        {
+          "id": "t31_p3_q22",
+          "num": 22,
+          "question": "The word 'supplanted' in paragraph 1 is closest in meaning to:",
+          "questionVi": "Từ 'supplanted' trong đoạn 1 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "replaced",
+            "protected",
+            "advertised",
+            "legalized"
+          ],
+          "optionsVi": [
+            "được thay thế",
+            "được bảo vệ",
+            "được quảng cáo",
+            "được hợp pháp hóa"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...the static price tag—a foundational cornerstone of retail commerce for over a century—is being swiftly supplanted by algorithmic dynamic pricing.",
+          "evidenceVi": "...mác giá cố định - viên đá tảng của thương mại bán lẻ hơn một thế kỷ qua - đang nhanh chóng bị thay thế bởi định giá động lực dựa trên thuật toán.",
+          "explanation": "'Supplanted' có nghĩa là bị thay thế, chiếm chỗ, đồng nghĩa với 'replaced' hoặc 'superseded'.",
+          "postReading": {
+            "originToken": "supplanted",
+            "paraphraseToken": "replaced",
+            "explanation": "'Supplanted' = 'replaced'."
+          }
+        },
+        {
+          "id": "t31_p3_q23",
+          "num": 23,
+          "question": "Which of the following is cited in paragraph 2 as an indicator of consumer urgency or price insensitivity?",
+          "questionVi": "Yếu tố nào sau đây được trích dẫn trong đoạn 2 như một dấu hiệu cho thấy người tiêu dùng đang cấp bách hoặc không quá nhạy cảm về giá?",
+          "questionType": "detail",
+          "options": [
+            "Checking out at midnight with an almost depleted smartphone battery",
+            "Clearing web browser history before initiating an item search",
+            "Submitting multiple discount coupon codes simultaneously",
+            "Selecting standard ground shipping instead of express priority"
+          ],
+          "optionsVi": [
+            "Thanh toán vào lúc nửa đêm với chiếc điện thoại gần như cạn kiệt pin",
+            "Xóa lịch sử trình duyệt web trước khi bắt đầu tìm kiếm mặt hàng",
+            "Nhập cùng lúc nhiều mã giảm giá ưu đãi",
+            "Chọn hình thức vận chuyển đường bộ tiêu chuẩn thay vì chuyển phát hỏa tốc"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...browsing from an affluent postal code, or visiting a checkout page at midnight with a critically low phone battery. Algorithms interpret these contextual signals as indicators of urgency or price insensitivity...",
+          "evidenceVi": "...lướt web từ một mã bưu chính giàu có, hoặc vào trang thanh toán lúc nửa đêm với chiếc điện thoại pin sắp cạn. Các thuật toán diễn giải những tín hiệu này là chỉ dấu của sự cấp bách hoặc không nhạy cảm về giá...",
+          "explanation": "Đoạn 2 chỉ rõ: vào trang thanh toán lúc nửa đêm với pin yếu ('at midnight with a critically low phone battery') được thuật toán coi là dấu hiệu cấp bách để tự động nâng giá.",
+          "postReading": {
+            "originToken": "at midnight with a critically low phone battery",
+            "paraphraseToken": "Checking out at midnight with an almost depleted smartphone battery",
+            "explanation": "'Critically low phone battery' = 'almost depleted smartphone battery'."
+          }
+        },
+        {
+          "id": "t31_p3_q24",
+          "num": 24,
+          "question": "According to paragraph 2, what is the psychological purpose of displaying countdown timers and warnings of limited seat availability?",
+          "questionVi": "Theo đoạn 2, mục đích tâm lý của việc hiển thị đồng hồ đếm ngược và cảnh báo số ghế có hạn là gì?",
+          "questionType": "detail",
+          "options": [
+            "To help shoppers plan their monthly household budgets systematically",
+            "To induce fear of missing out and short-circuit rational deliberative evaluation",
+            "To verify the purchaser's geographical credit card authorization",
+            "To prove compliance with international transport safety protocols"
+          ],
+          "optionsVi": [
+            "Để giúp người mua sắm lên kế hoạch chi tiêu ngân sách gia đình có hệ thống",
+            "Để kích hoạt nỗi sợ bị bỏ lỡ và làm tắt quá trình đánh giá cân nhắc lý trí",
+            "Để xác minh ủy quyền thẻ tín dụng theo vị trí địa lý của người mua",
+            "Để chứng minh sự tuân thủ các quy định an toàn vận tải quốc tế"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...to induce visceral fear of missing out (FOMO) and short-circuit rational deliberative appraisal.",
+          "evidenceVi": "...nhằm khơi dậy nỗi sợ bị bỏ lỡ (FOMO) mãnh liệt và làm gián đoạn sự đánh giá cân nhắc lý tính.",
+          "explanation": "Đoạn 2 giải thích việc hiển thị đồng hồ đếm ngược và ghế sắp hết là để tạo ra 'fear of missing out (FOMO)' và vô hiệu hóa sự cân nhắc lý trí ('short-circuit rational deliberative appraisal').",
+          "postReading": {
+            "originToken": "induce visceral fear of missing out... short-circuit rational deliberative appraisal",
+            "paraphraseToken": "induce fear of missing out and short-circuit rational deliberative evaluation",
+            "explanation": "'Appraisal' tương đương 'evaluation'."
+          }
+        },
+        {
+          "id": "t31_p3_q25",
+          "num": 25,
+          "question": "The word 'deliberative' in paragraph 2 is closest in meaning to:",
+          "questionVi": "Từ 'deliberative' trong đoạn 2 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "spontaneous",
+            "thoughtful",
+            "reckless",
+            "hostile"
+          ],
+          "optionsVi": [
+            "tự phát, ngẫu hứng",
+            "thận trọng, có suy nghĩ cân nhắc",
+            "liều lĩnh, bất cẩn",
+            "thù địch"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...to induce visceral fear of missing out (FOMO) and short-circuit rational deliberative appraisal.",
+          "evidenceVi": "...kích hoạt nỗi sợ bị bỏ lỡ và vô hiệu hóa sự thẩm định cân nhắc thận trọng mang tính lý trí.",
+          "explanation": "'Deliberative' mang nghĩa có sự suy nghĩ cẩn trọng, cân nhắc kỹ, đồng nghĩa với 'thoughtful' hoặc 'careful'.",
+          "postReading": {
+            "originToken": "deliberative",
+            "paraphraseToken": "thoughtful / reflective",
+            "explanation": "'Deliberative' = 'thoughtful'."
+          }
+        },
+        {
+          "id": "t31_p3_q26",
+          "num": 26,
+          "question": "How do economists who defend algorithmic pricing justify its practice in paragraph 3?",
+          "questionVi": "Các nhà kinh tế ủng hộ định giá bằng thuật toán biện minh cho hoạt động này như thế nào trong đoạn 3?",
+          "questionType": "detail",
+          "options": [
+            "It guarantees that all corporate profits are donated to social welfare programs.",
+            "It eliminates the necessity for human customer service employees.",
+            "It allows price-sensitive shoppers to access discounts while charging wealthier buyers more.",
+            "It prevents international currency inflation from affecting domestic goods."
+          ],
+          "optionsVi": [
+            "Nó đảm bảo rằng toàn bộ lợi nhuận doanh nghiệp được quyên góp cho các chương trình phúc lợi xã hội.",
+            "Nó xóa bỏ hoàn toàn nhu cầu về nhân viên chăm sóc khách hàng là con người.",
+            "Nó cho phép khách hàng nhạy cảm về giá tiếp cận các khoản giảm giá trong khi tính giá cao hơn với người giàu.",
+            "Nó ngăn chặn lạm phát tiền tệ quốc tế ảnh hưởng đến hàng hóa trong nước."
+          ],
+          "correctAnswer": "C",
+          "correctIdx": 2,
+          "evidence": "Economists and proponents argue that algorithmic price differentiation maximizes economic surplus by expanding market access to price-sensitive demographics through targeted discounts while extracting higher willingness-to-pay from affluent cohorts.",
+          "evidenceVi": "Các nhà kinh tế học và những người ủng hộ lập luận rằng sự phân biệt giá bằng thuật toán tối đa hóa thặng dư kinh tế bằng cách mở rộng khả năng tiếp cận thị trường cho nhóm dân số nhạy cảm về giá thông qua các khoản chiết khấu mục tiêu, đồng thời tận thu sự sẵn lòng chi trả cao hơn từ các nhóm khách hàng giàu có.",
+          "explanation": "Đoạn 3 nêu rõ quan điểm ủng hộ: giúp người ít tiền (price-sensitive) nhận giảm giá, còn tận thu từ người có điều kiện (affluent cohorts).",
+          "postReading": {
+            "originToken": "expanding market access to price-sensitive demographics... extracting higher willingness-to-pay from affluent cohorts",
+            "paraphraseToken": "allows price-sensitive shoppers to access discounts while charging wealthier buyers more",
+            "explanation": "Lập luận kinh tế về phân biệt giá bậc 3."
+          }
+        },
+        {
+          "id": "t31_p3_q27",
+          "num": 27,
+          "question": "The word 'opacity' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'opacity' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "clarity",
+            "obscurity",
+            "simplicity",
+            "flexibility"
+          ],
+          "optionsVi": [
+            "sự rõ ràng",
+            "sự mờ mịt, thiếu minh bạch",
+            "sự giản đơn",
+            "sự linh hoạt"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "In contrast, algorithmic personalization cloaks the baseline cost in opacity; a shopper cannot easily determine whether their quoted price reflects genuine market equilibrium...",
+          "evidenceVi": "Trái lại, việc cá nhân hóa bằng thuật toán bao phủ chi phí cơ sở trong sự mờ ám; một người mua hàng không thể dễ dàng xác định liệu mức giá đưa ra cho họ có phản ánh sự cân bằng thị trường thực sự hay không...",
+          "explanation": "'Opacity' trong ngữ cảnh thương mại và thuật toán là tình trạng che giấu, thiếu minh bạch, mờ mịt, đồng nghĩa với 'obscurity' hoặc 'lack of transparency'.",
+          "postReading": {
+            "originToken": "opacity",
+            "paraphraseToken": "obscurity / lack of transparency",
+            "explanation": "'Opacity' = 'obscurity'."
+          }
+        },
+        {
+          "id": "t31_p3_q28",
+          "num": 28,
+          "question": "What common consequence occurs when consumers discover they were charged higher prices than peers for an identical service?",
+          "questionVi": "Hậu quả chung nào xảy ra khi người tiêu dùng phát hiện họ bị tính giá cao hơn nhiều so với bạn bè cho cùng một dịch vụ?",
+          "questionType": "detail",
+          "options": [
+            "They immediately delete their personal social media accounts.",
+            "Brand trust is severely eroded through feelings of betrayal and anger.",
+            "They are automatically refunded by government consumer agencies.",
+            "They switch entirely to paying exclusively with physical cash."
+          ],
+          "optionsVi": [
+            "Họ ngay lập tức xóa tài khoản mạng xã hội cá nhân của mình.",
+            "Niềm tin vào thương hiệu bị xói mòn nghiêm trọng qua cảm giác bị phản bội và tức giận.",
+            "Họ tự động được các cơ quan bảo vệ người tiêu dùng của chính phủ hoàn tiền.",
+            "Họ chuyển đổi hoàn toàn sang việc thanh toán độc quyền bằng tiền mặt."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Moreover, empirical research reveals that when consumers discover they have paid significantly more than peers for an identical service due to opaque dynamic pricing, feelings of betrayal and moral outrage quickly erode institutional brand trust.",
+          "evidenceVi": "Hơn nữa, nghiên cứu thực nghiệm tiết lộ rằng khi người tiêu dùng phát hiện họ đã trả nhiều hơn đáng kể so với bạn bè cho cùng một dịch vụ do việc định giá động mờ ám, cảm giác bị phản bội và phẫn nộ đạo đức nhanh chóng làm xói mòn niềm tin thương hiệu.",
+          "explanation": "Đoạn 4 chỉ rõ hậu quả: người tiêu dùng cảm thấy bị phản bội (feelings of betrayal) và phẫn nộ (moral outrage), dẫn đến xói mòn niềm tin vào thương hiệu (erode brand trust).",
+          "postReading": {
+            "originToken": "feelings of betrayal and moral outrage quickly erode institutional brand trust",
+            "paraphraseToken": "Brand trust is severely eroded through feelings of betrayal and anger",
+            "explanation": "'Moral outrage' tương đương 'anger', 'erode brand trust' tương đương."
+          }
+        },
+        {
+          "id": "t31_p3_q29",
+          "num": 29,
+          "question": "Which regulatory objective is mentioned in paragraph 4 regarding new legislation in the EU and US?",
+          "questionVi": "Mục tiêu quản lý nào được đề cập trong đoạn 4 liên quan đến các dự luật mới tại EU và Hoa Kỳ?",
+          "questionType": "detail",
+          "options": [
+            "Banning all online retail transactions conducted after midnight",
+            "Mandating algorithmic transparency and preventing exploitation of distress signals",
+            "Requiring all e-commerce algorithms to be open-source public software",
+            "Fixing prices of all consumer goods at 1990 baseline levels"
+          ],
+          "optionsVi": [
+            "Cấm tất cả các giao dịch bán lẻ trực tuyến được thực hiện sau nửa đêm",
+            "Bắt buộc minh bạch thuật toán và ngăn chặn việc khai thác các tín hiệu cấp bách khó khăn",
+            "Yêu cầu tất cả các thuật toán thương mại điện tử phải là phần mềm công khai mã nguồn mở",
+            "Cố định giá của tất cả hàng hóa tiêu dùng ở mức cơ sở năm 1990"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Proposed legal frameworks in the European Union and the United States aim to mandate algorithmic transparency, restrict the exploitation of personal distress signals, and ensure that dynamic optimization does not degenerate into discriminatory predatory extraction.",
+          "evidenceVi": "Các khung pháp lý được đề xuất ở Liên minh Châu Âu và Hoa Kỳ nhằm mục đích bắt buộc minh bạch thuật toán, hạn chế việc khai thác các tín hiệu khó khăn cá nhân và đảm bảo rằng tối ưu hóa động lực không biến tướng thành sự bóc lột mang tính phân biệt đối xử săn mồi.",
+          "explanation": "Đoạn 4 nêu rõ mục tiêu luật pháp: yêu cầu minh bạch thuật toán (mandate algorithmic transparency) và hạn chế việc trục lợi từ các tín hiệu bối rối/khó khăn của người dùng (restrict exploitation of personal distress signals).",
+          "postReading": {
+            "originToken": "mandate algorithmic transparency, restrict the exploitation of personal distress signals",
+            "paraphraseToken": "Mandating algorithmic transparency and preventing exploitation of distress signals",
+            "explanation": "Khớp mục tiêu can thiệp chính sách."
+          }
+        },
+        {
+          "id": "t31_p3_q30",
+          "num": 30,
+          "question": "What is the author's primary attitude toward modern algorithmic dynamic pricing?",
+          "questionVi": "Thái độ chủ yếu của tác giả đối với việc định giá động bằng thuật toán hiện đại là gì?",
+          "questionType": "tone",
+          "options": [
+            "Enthusiastically supportive of uninhibited corporate data collection",
+            "Completely indifferent to consumer rights and regulatory developments",
+            "Critically analytical, weighing computational efficiency against consumer fairness",
+            "Outraged and advocating for the total destruction of online marketplaces"
+          ],
+          "optionsVi": [
+            "Nhiệt tình ủng hộ việc thu thập dữ liệu doanh nghiệp không giới hạn",
+            "Hoàn toàn thờ ơ với quyền lợi người tiêu dùng và các diễn biến pháp lý",
+            "Phân tích phản biện, cân nhắc giữa hiệu quả tính toán với sự công bằng cho người tiêu dùng",
+            "Phẫn nộ và ủng hộ việc xóa bỏ triệt để các sàn thương mại trực tuyến"
+          ],
+          "correctAnswer": "C",
+          "correctIdx": 2,
+          "evidence": "As retail moves toward an era of hyper-personalized commerce, society faces the pressing challenge of balancing computational efficiency with fundamental consumer equity.",
+          "evidenceVi": "Khi ngành bán lẻ tiến vào kỷ nguyên thương mại siêu cá nhân hóa, xã hội phải đối mặt với thách thức cấp bách là cân bằng giữa hiệu quả tính toán và sự công bằng cơ bản cho người tiêu dùng.",
+          "explanation": "Tác giả trình bày cả quan điểm kinh tế học về hiệu quả và các nguy cơ bóc lột, thao túng tâm lý, kết thúc bằng lời kêu gọi cân bằng giữa hiệu quả công nghệ và sự công bằng (balancing computational efficiency with fundamental consumer equity) -> phân tích phản biện (critically analytical).",
+          "postReading": {
+            "originToken": "balancing computational efficiency with fundamental consumer equity",
+            "paraphraseToken": "Critically analytical, weighing computational efficiency against consumer fairness",
+            "explanation": "'Equity' tương đương 'fairness'."
+          }
+        }
+      ]
+    },
+    {
+      "passageId": "t31_p4",
+      "passageNum": 4,
+      "title": "The Evolution of Shopping Malls: Victor Gruen & The \"King of Mall\" Concept",
+      "titleVi": "Tiến hóa của Trung tâm thương mại: Victor Gruen & Khái niệm \"King of Mall\"",
+      "category": "architecture_sociology",
+      "text": "In 1956, amidst the sprawling, post-war automobile suburbs of Edina, Minnesota, an Austrian-born architect named Victor Gruen unveiled Southdale Center, the world's first fully enclosed, climate-controlled suburban shopping mall. Gruen, a socialist refugee who had fled Nazi-occupied Vienna, was appalled by the chaotic, aesthetically barren sprawl of mid-century American suburban development. In his utopian vision, the enclosed shopping center was never intended as a mere temple of unbridled commercial consumerism; rather, it was conceived as an architectural catalyst designed to recreate the vibrant, pedestrian-centric civic spaces of European town squares. Gruen envisioned a communal sanctuary featuring art installations, aviary aviaries, public libraries, landscaped fountains, and municipal meeting halls, where suburban residents—alienated by automobile dependency and fractured housing tracts—could assemble, interact, and cultivate cohesive community bonds.\n\nCrucially, the physical layout Gruen developed became the definitive template for twentieth-century suburban retail architecture, celebrated and exploited by developers who crowned Gruen the undisputed 'Father of the Shopping Mall.' To entice visitors to linger and traverse the entire retail complex, Gruen devised the concept of two or more competing 'anchor' department stores positioned at opposite ends of a pedestrian atrium, connected by a dense corridor of smaller specialty boutiques. However, this architectural choreography also gave birth to a famous psychological phenomenon known in retail design as the 'Gruen Effect' (or Gruen Transfer). By designing deliberately disorienting, inward-focused environments without outward-facing windows or visible clocks—enlivened by soothing Muzak, uniform ambient illumination, and intoxicating sensory cues—Gruen discovered that shoppers underwent a psychological rupture: their deliberate, goal-oriented shopping mentality dissolved, giving way to an impressionable, languid state of aimless browsing and heightened impulse purchasing.\n\nDespite achieving monumental commercial success across North America, the reality of the American mall quickly diverged from Gruen's egalitarian dreams. Real-estate developers stripped away the unprofitable civic components—omitting proposed libraries, medical clinics, and post offices—in order to maximize leasable square footage and lucrative retail rents. Furthermore, rather than curbing the suburban sprawl Gruen detested, the suburban mall accelerated the decay of historic downtown business districts, creating asphalt-locked islands surrounded by vast seas of parking spaces that exacerbated automobile reliance. Bitterly disillusioned by the commercial bastardization of his philosophy, Gruen returned to Austria in 1968, famously disavowing his architectural offspring and lamenting that developers had mutated his communal vision into an environmental and architectural monstrosity.\n\nIn the twenty-first century, the traditional suburban shopping mall faces an existential crisis termed the 'retail apocalypse.' Confronted by the dominance of e-commerce behemoths, changing generational demographics, and department store bankruptcies, hundreds of 'dead malls' stand abandoned across suburban landscapes. To avoid obsolescence, surviving retail operators are radically re-architecting their complexes into mixed-use lifestyle destinations. Ironically, modern mall renovations—incorporating open-air pedestrian plazas, medical wellness centers, artisanal dining halls, and residential apartments—are belatedly fulfilling Gruen's original holistic prophecy. The modern 'King of Mall' is no longer a sterile warehouse of consumer goods, but an integrated urban village striving to recover the lost communal soul of the public square.",
+      "vocab": [
+        {
+          "word": "sprawling",
+          "pos": "adj",
+          "ipa": "/ˈsprɔː.lɪŋ/",
+          "level": "B2",
+          "mean": "trải dài ngổn ngang, mở rộng bừa bãi",
+          "syns": [
+            "expanding",
+            "straggling",
+            "rambling"
+          ],
+          "ex": "Suburbs became sprawling expanses of concrete highways."
+        },
+        {
+          "word": "unveiled",
+          "pos": "v",
+          "ipa": "/ʌnˈveɪld/",
+          "level": "B2",
+          "mean": "khánh thành, công bố lần đầu",
+          "syns": [
+            "revealed",
+            "introduced",
+            "launched"
+          ],
+          "ex": "Victor Gruen unveiled the first enclosed shopping center in 1956."
+        },
+        {
+          "word": "refugee",
+          "pos": "n",
+          "ipa": "/ˌref.juˈdʒiː/",
+          "level": "B2",
+          "mean": "người tị nạn",
+          "syns": [
+            "exile",
+            "displaced person",
+            "asylum seeker"
+          ],
+          "ex": "The architect was a refugee who fled wartime Europe."
+        },
+        {
+          "word": "unbridled",
+          "pos": "adj",
+          "ipa": "/ʌnˈbraɪ.dəld/",
+          "level": "C1",
+          "mean": "không bị kiềm chế, buông thả",
+          "syns": [
+            "unrestrained",
+            "unchecked",
+            "uncontrolled"
+          ],
+          "ex": "The mall was not intended for unbridled consumerism."
+        },
+        {
+          "word": "catalyst",
+          "pos": "n",
+          "ipa": "/ˈkæt.əl.ɪst/",
+          "level": "B2",
+          "mean": "chất xúc tác, tác nhân thúc đẩy",
+          "syns": [
+            "stimulus",
+            "spark",
+            "impetus"
+          ],
+          "ex": "The building was conceived as a catalyst for civic life."
+        },
+        {
+          "word": "alienated",
+          "pos": "adj",
+          "ipa": "/ˈeɪ.li.ə.neɪ.tɪd/",
+          "level": "C1",
+          "mean": "bị cô lập, tha hóa, xa lánh xã hội",
+          "syns": [
+            "isolated",
+            "estranged",
+            "detached"
+          ],
+          "ex": "Suburban commuters felt alienated in car-dependent tracts."
+        },
+        {
+          "word": "cohesive",
+          "pos": "adj",
+          "ipa": "/kəʊˈhiː.sɪv/",
+          "level": "C1",
+          "mean": "gắn kết chặt chẽ, đoàn kết",
+          "syns": [
+            "connected",
+            "unified",
+            "close-knit"
+          ],
+          "ex": "The town square nurtured cohesive communal relationships."
+        },
+        {
+          "word": "undisputed",
+          "pos": "adj",
+          "ipa": "/ˌʌn.dɪˈspjuː.tɪd/",
+          "level": "B2",
+          "mean": "không thể tranh cãi, hiển nhiên",
+          "syns": [
+            "unquestioned",
+            "acknowledged",
+            "undoubted"
+          ],
+          "ex": "Gruen was crowned the undisputed king of shopping mall design."
+        },
+        {
+          "word": "atrium",
+          "pos": "n",
+          "ipa": "/ˈeɪ.tri.əm/",
+          "level": "B2",
+          "mean": "sảnh thông tầng rộng lớn có giếng trời",
+          "syns": [
+            "central court",
+            "hall",
+            "courtyard"
+          ],
+          "ex": "Natural light flooded the vast central atrium of the complex."
+        },
+        {
+          "word": "choreography",
+          "pos": "n",
+          "ipa": "/ˌkɒr.iˈɒɡ.rə.fi/",
+          "level": "C1",
+          "mean": "sự sắp đặt có chủ ý, nghệ thuật bố trí",
+          "syns": [
+            "orchestration",
+            "arrangement",
+            "coordination"
+          ],
+          "ex": "The deliberate retail choreography guided shopper footsteps."
+        },
+        {
+          "word": "rupture",
+          "pos": "n",
+          "ipa": "/ˈrʌp.tʃər/",
+          "level": "C1",
+          "mean": "sự đứt gãy, biến đổi đột ngột",
+          "syns": [
+            "break",
+            "fracture",
+            "disruption"
+          ],
+          "ex": "Shoppers experienced a psychological rupture upon entering the mall."
+        },
+        {
+          "word": "languid",
+          "pos": "adj",
+          "ipa": "/ˈlæŋ.ɡwɪd/",
+          "level": "C1",
+          "mean": "thong thả, lơ đãng, uể oải",
+          "syns": [
+            "relaxed",
+            "sluggish",
+            "leisurely"
+          ],
+          "ex": "Customers wandered in a languid, unhurried trance."
+        },
+        {
+          "word": "egalitarian",
+          "pos": "adj",
+          "ipa": "/ɪˌɡæl.ɪˈteə.ri.ən/",
+          "level": "C1",
+          "mean": "mang tính bình đẳng xã hội",
+          "syns": [
+            "equal",
+            "democratic",
+            "classless"
+          ],
+          "ex": "Gruen dreamed of an egalitarian public gathering venue."
+        },
+        {
+          "word": "omitting",
+          "pos": "v",
+          "ipa": "/əʊˈmɪt.ɪŋ/",
+          "level": "B2",
+          "mean": "bỏ qua, lược bỏ",
+          "syns": [
+            "excluding",
+            "eliminating",
+            "dropping"
+          ],
+          "ex": "Builders saved money by omitting non-commercial spaces."
+        },
+        {
+          "word": "leasable",
+          "pos": "adj",
+          "ipa": "/ˈliː.sə.bəl/",
+          "level": "C1",
+          "mean": "có thể cho thuê được",
+          "syns": [
+            "rentable",
+            "commercial"
+          ],
+          "ex": "Developers prioritized leasable retail floor area above all."
+        },
+        {
+          "word": "curbing",
+          "pos": "v",
+          "ipa": "/kɜː.bɪŋ/",
+          "level": "B2",
+          "mean": "kiềm chế, kìm hãm",
+          "syns": [
+            "restraining",
+            "checking",
+            "controlling"
+          ],
+          "ex": "The design failed in curbing unchecked suburban spread."
+        },
+        {
+          "word": "decay",
+          "pos": "n",
+          "ipa": "/dɪˈkeɪ/",
+          "level": "B2",
+          "mean": "sự suy tàn, mục rỗng, thoái trào",
+          "syns": [
+            "decline",
+            "deterioration",
+            "degeneration"
+          ],
+          "ex": "Malls caused the tragic economic decay of historic downtowns."
+        },
+        {
+          "word": "exacerbated",
+          "pos": "v",
+          "ipa": "/ɪɡˈzæs.ə.beɪ.tɪd/",
+          "level": "C1",
+          "mean": "làm trầm trọng thêm",
+          "syns": [
+            "worsened",
+            "aggravated",
+            "intensified"
+          ],
+          "ex": "Vast oceans of parking lots exacerbated car dependency."
+        },
+        {
+          "word": "disillusioned",
+          "pos": "adj",
+          "ipa": "/ˌdɪs.ɪˈluː.ʒənd/",
+          "level": "B2",
+          "mean": "vỡ mộng, chán ngán thất vọng",
+          "syns": [
+            "disenchanted",
+            "disappointed"
+          ],
+          "ex": "Gruen was deeply disillusioned by corporate greed."
+        },
+        {
+          "word": "bastardization",
+          "pos": "n",
+          "ipa": "/ˌbæs.tə.daɪˈzeɪ.ʃən/",
+          "level": "C1",
+          "mean": "sự làm biến chất, làm mất đi tính nguyên bản",
+          "syns": [
+            "corruption",
+            "degradation",
+            "perversion"
+          ],
+          "ex": "He attacked the commercial bastardization of his urban ideas."
+        },
+        {
+          "word": "disavowing",
+          "pos": "v",
+          "ipa": "/ˌdɪs.əˈvaʊ.ɪŋ/",
+          "level": "C1",
+          "mean": "từ bỏ, chối bỏ liên can",
+          "syns": [
+            "renouncing",
+            "rejecting",
+            "repudiating"
+          ],
+          "ex": "Gruen died after disavowing the American shopping mall completely."
+        },
+        {
+          "word": "monstrosity",
+          "pos": "n",
+          "ipa": "/mɒnˈstrɒs.ə.ti/",
+          "level": "C1",
+          "mean": "quái thai, công trình kỳ dị xấu xí",
+          "syns": [
+            "eyesore",
+            "abomination",
+            "horror"
+          ],
+          "ex": "He condemned the commercial sprawl as an architectural monstrosity."
+        },
+        {
+          "word": "apocalypse",
+          "pos": "n",
+          "ipa": "/əˈpɒk.ə.lɪps/",
+          "level": "C1",
+          "mean": "ngày tận thế, sự sụp đổ hủy diệt quy mô lớn",
+          "syns": [
+            "catastrophe",
+            "doomsday",
+            "collapse"
+          ],
+          "ex": "The retail apocalypse caused thousands of store closures."
+        },
+        {
+          "word": "behemoths",
+          "pos": "n",
+          "ipa": "/bɪˈhiː.mɒθs/",
+          "level": "C1",
+          "mean": "gã khổng lồ, thế lực khổng lồ",
+          "syns": [
+            "giants",
+            "colossuses",
+            "titans"
+          ],
+          "ex": "Malls struggled to survive against digital e-commerce behemoths."
+        },
+        {
+          "word": "obsolescence",
+          "pos": "n",
+          "ipa": "/ˌɒb.səˈles.əns/",
+          "level": "C1",
+          "mean": "sự lỗi thời, tình trạng không còn dùng được",
+          "syns": [
+            "outdatedness",
+            "antiquation",
+            "redundancy"
+          ],
+          "ex": "Plazas must innovate continuously to escape functional obsolescence."
+        },
+        {
+          "word": "belatedly",
+          "pos": "adv",
+          "ipa": "/bɪˈleɪ.tɪd.li/",
+          "level": "C1",
+          "mean": "muộn màng, chậm trễ",
+          "syns": [
+            "tardily",
+            "after the fact"
+          ],
+          "ex": "Modern architects are belatedly returning to Gruen's original blueprint."
+        },
+        {
+          "word": "prophecy",
+          "pos": "n",
+          "ipa": "/ˈprɒf.ə.si/",
+          "level": "B2",
+          "mean": "lời tiên tri, dự báo tương lai",
+          "syns": [
+            "prediction",
+            "forecast",
+            "vision"
+          ],
+          "ex": "Urban villages are fulfilling his century-old architectural prophecy."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t31_p4_q31",
+          "num": 31,
+          "question": "What was Victor Gruen's original utopian objective when designing Southdale Center?",
+          "questionVi": "Mục tiêu không tưởng ban đầu của Victor Gruen khi thiết kế Southdale Center là gì?",
+          "questionType": "detail",
+          "options": [
+            "To maximize corporate department store profits through tax subsidies",
+            "To recreate the pedestrian civic spaces of European town squares in American suburbs",
+            "To invent an automated distribution hub for mail-order retail catalogs",
+            "To build an emergency fallout shelter disguised as a commercial arcade"
+          ],
+          "optionsVi": [
+            "Tối đa hóa lợi nhuận của các cửa hàng bách hóa thông qua trợ cấp thuế",
+            "Tái tạo không gian công cộng cho người đi bộ của quảng trường châu Âu ở ngoại ô Mỹ",
+            "Sáng chế trung tâm phân phối tự động cho danh mục bán lẻ đặt hàng qua thư",
+            "Xây dựng hầm trú ẩn khẩn cấp ngụy trang dưới dạng một khu phức hợp thương mại"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "In his utopian vision, the enclosed shopping center was never intended as a mere temple of unbridled commercial consumerism; rather, it was conceived as an architectural catalyst designed to recreate the vibrant, pedestrian-centric civic spaces of European town squares.",
+          "evidenceVi": "Trong tầm nhìn không tưởng của ông, trung tâm mua sắm khép kín không bao giờ nhằm mục đích đơn thuần là một ngôi đền của chủ nghĩa tiêu dùng không kiềm chế; thay vào đó, nó được hình thành như một chất xúc tác kiến trúc nhằm tái hiện không gian dân sự sôi động, lấy người đi bộ làm trung tâm của các quảng trường thị trấn Châu Âu.",
+          "explanation": "Đoạn 1 nêu rõ mục tiêu của Gruen: tái tạo không gian cộng đồng đi bộ giống các quảng trường châu Âu ('recreate the vibrant, pedestrian-centric civic spaces of European town squares').",
+          "postReading": {
+            "originToken": "recreate the vibrant, pedestrian-centric civic spaces of European town squares",
+            "paraphraseToken": "recreate the pedestrian civic spaces of European town squares in American suburbs",
+            "explanation": "Tầm nhìn tái hiện quảng trường châu Âu cho người đi bộ."
+          }
+        },
+        {
+          "id": "t31_p4_q32",
+          "num": 32,
+          "question": "The word 'unbridled' in paragraph 1 is closest in meaning to:",
+          "questionVi": "Từ 'unbridled' trong đoạn 1 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "unrestrained",
+            "conservative",
+            "temporary",
+            "organized"
+          ],
+          "optionsVi": [
+            "không kiềm chế / buông thả",
+            "bảo thủ",
+            "tạm thời",
+            "có tổ chức"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "In his utopian vision, the enclosed shopping center was never intended as a mere temple of unbridled commercial consumerism...",
+          "evidenceVi": "Trong tầm nhìn không tưởng của mình, trung tâm mua sắm khép kín không bao giờ được coi là một ngôi đền đơn thuần cho chủ nghĩa tiêu dùng thương mại buông thả...",
+          "explanation": "'Unbridled' có nghĩa là không bị kiểm soát, buông thả, tự do quá mức, đồng nghĩa với 'unrestrained' hoặc 'unchecked'.",
+          "postReading": {
+            "originToken": "unbridled",
+            "paraphraseToken": "unrestrained",
+            "explanation": "'Unbridled' = 'unrestrained'."
+          }
+        },
+        {
+          "id": "t31_p4_q33",
+          "num": 33,
+          "question": "According to paragraph 2, what physical design strategy did Gruen create to encourage shoppers to walk through the entire mall?",
+          "questionVi": "Theo đoạn 2, chiến lược thiết kế vật lý nào mà Gruen đã tạo ra để khuyến khích người mua sắm đi bộ qua toàn bộ trung tâm thương mại?",
+          "questionType": "detail",
+          "options": [
+            "Building outdoor escalators leading straight to parking rooftops",
+            "Placing competing anchor department stores at opposite ends of a pedestrian atrium",
+            "Requiring all shoppers to enter through a single underground subway terminal",
+            "Constructing steep circular stairs around an artificial waterfall"
+          ],
+          "optionsVi": [
+            "Xây thang cuốn ngoài trời dẫn thẳng lên các tầng đỗ xe trên mái",
+            "Đặt các cửa hàng bách hóa chủ lực cạnh tranh ở hai đầu đối diện của sảnh đi bộ",
+            "Yêu cầu mọi khách mua hàng phải vào qua một ga tàu điện ngầm duy nhất",
+            "Xây dựng các cầu thang tròn dốc bao quanh một thác nước nhân tạo"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "To entice visitors to linger and traverse the entire retail complex, Gruen devised the concept of two or more competing 'anchor' department stores positioned at opposite ends of a pedestrian atrium, connected by a dense corridor of smaller specialty boutiques.",
+          "evidenceVi": "Để lôi cuốn du khách nán lại và đi qua toàn bộ khu bán lẻ, Gruen đã nghĩ ra khái niệm đặt hai hay nhiều cửa hàng bách hóa 'chủ lực' cạnh tranh ở hai đầu đối diện của một sảnh đi bộ, kết nối bởi hành lang dày đặc các cửa hàng chuyên doanh nhỏ hơn.",
+          "explanation": "Đoạn 2 giải thích Gruen đặt các cửa hàng chủ lực (anchor stores) ở hai đầu đối diện để buộc khách đi qua toàn bộ hành lang các cửa hàng nhỏ ở giữa.",
+          "postReading": {
+            "originToken": "competing 'anchor' department stores positioned at opposite ends of a pedestrian atrium",
+            "paraphraseToken": "Placing competing anchor department stores at opposite ends of a pedestrian atrium",
+            "explanation": "Chiến lược bố trí gian hàng 'anchor stores' ở hai đầu đối diện."
+          }
+        },
+        {
+          "id": "t31_p4_q34",
+          "num": 34,
+          "question": "What happens to shoppers experiencing the 'Gruen Effect' as described in paragraph 2?",
+          "questionVi": "Điều gì xảy ra với người mua sắm khi trải nghiệm 'Hiệu ứng Gruen' như được mô tả trong đoạn 2?",
+          "questionType": "detail",
+          "options": [
+            "They panic and demand immediate exits due to claustrophobia.",
+            "Their goal-oriented focus dissolves, leading to aimless browsing and impulse purchasing.",
+            "They strictly adhere to pre-written shopping lists and spend less money.",
+            "They prioritize civic volunteer activities over purchasing merchandise."
+          ],
+          "optionsVi": [
+            "Họ hoảng sợ và yêu cầu tìm lối thoát hiểm ngay lập tức do chứng sợ không gian kín.",
+            "Tâm lý mua sắm có mục tiêu ban đầu tan biến, chuyển sang đi dạo vu vơ và mua sắm bốc đồng.",
+            "Họ tuân thủ nghiêm ngặt danh sách mua sắm viết sẵn và chi tiêu ít tiền hơn.",
+            "Họ ưu tiên các hoạt động tình nguyện cộng đồng hơn là mua sắm hàng hóa."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...Gruen discovered that shoppers underwent a psychological rupture: their deliberate, goal-oriented shopping mentality dissolved, giving way to an impressionable, languid state of aimless browsing and heightened impulse purchasing.",
+          "evidenceVi": "...Gruen phát hiện ra rằng người mua sắm trải qua một sự đứt gãy tâm lý: tâm lý mua sắm có chủ đích, hướng tới mục tiêu của họ tan biến, nhường chỗ cho trạng thái lơ đãng, thong thả dạo chơi vu vơ và gia tăng hành vi mua sắm bốc đồng.",
+          "explanation": "Hiệu ứng Gruen mô tả việc môi trường kín không đồng hồ/cửa sổ làm khách quên mục đích ban đầu, chuyển sang trạng thái đi dạo vu vơ và mua sắm bốc đồng (aimless browsing and impulse purchasing).",
+          "postReading": {
+            "originToken": "goal-oriented shopping mentality dissolved... aimless browsing and heightened impulse purchasing",
+            "paraphraseToken": "goal-oriented focus dissolves, leading to aimless browsing and impulse purchasing",
+            "explanation": "Bản chất tâm lý học của 'Hiệu ứng Gruen' trong thương mại."
+          }
+        },
+        {
+          "id": "t31_p4_q35",
+          "num": 35,
+          "question": "The word 'languid' in paragraph 2 is closest in meaning to:",
+          "questionVi": "Từ 'languid' trong đoạn 2 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "leisurely and unhurried",
+            "aggressive and rushed",
+            "suspicious and guarded",
+            "exhausted and painful"
+          ],
+          "optionsVi": [
+            "thong thả, nhàn nhã không vội vã",
+            "hung hăng và vội vã",
+            "nghi ngờ và cảnh giác",
+            "kiệt sức và đau đớn"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...giving way to an impressionable, languid state of aimless browsing and heightened impulse purchasing.",
+          "evidenceVi": "...nhường chỗ cho một trạng thái uể oải, thong thả dạo chơi vu vơ và gia tăng mua sắm bốc đồng.",
+          "explanation": "'Languid' miêu tả trạng thái chậm rãi, thong thả, không hối hả, đồng nghĩa với 'leisurely and unhurried'.",
+          "postReading": {
+            "originToken": "languid state",
+            "paraphraseToken": "leisurely and unhurried",
+            "explanation": "'Languid' = 'leisurely / unhurried'."
+          }
+        },
+        {
+          "id": "t31_p4_q36",
+          "num": 36,
+          "question": "Why did real-estate developers omit libraries and medical clinics from suburban malls according to paragraph 3?",
+          "questionVi": "Tại sao các nhà phát triển bất động sản lại lược bỏ thư viện và phòng khám khỏi các TTTM ngoại ô theo đoạn 3?",
+          "questionType": "detail",
+          "options": [
+            "State zoning laws completely prohibited civil institutions inside malls.",
+            "They wanted to eliminate unprofitable spaces to maximize profitable retail rents.",
+            "Suburban communities voted against public services during municipal hearings.",
+            "Construction unions refused to install books and sterile medical equipment."
+          ],
+          "optionsVi": [
+            "Luật quy hoạch bang hoàn toàn cấm các cơ sở dân sự bên trong trung tâm thương mại.",
+            "Họ muốn loại bỏ các không gian không sinh lời để tối đa hóa tiền thuê bán lẻ sinh lợi.",
+            "Cộng đồng ngoại ô đã bỏ phiếu phản đối các dịch vụ công trong các phiên điều trần.",
+            "Các công đoàn xây dựng từ chối lắp đặt sách và thiết bị y tế khử trùng."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Real-estate developers stripped away the unprofitable civic components—omitting proposed libraries, medical clinics, and post offices—in order to maximize leasable square footage and lucrative retail rents.",
+          "evidenceVi": "Các nhà phát triển bất động sản đã tước bỏ những thành phần dân sự không sinh lời - lược bỏ các thư viện, phòng khám y tế và bưu điện dự kiến - nhằm tối đa hóa diện tích sàn có thể cho thuê và tiền thuê bán lẻ béo bở.",
+          "explanation": "Đoạn 3 chỉ rõ nguyên nhân các nhà phát triển bỏ thư viện và phòng khám: để tối đa hóa diện tích cho thuê kiếm tiền thuê bán lẻ béo bở ('maximize leasable square footage and lucrative retail rents').",
+          "postReading": {
+            "originToken": "stripped away the unprofitable civic components... maximize leasable square footage and lucrative retail rents",
+            "paraphraseToken": "eliminate unprofitable spaces to maximize profitable retail rents",
+            "explanation": "'Unprofitable civic components' đối lập với 'lucrative retail rents'."
+          }
+        },
+        {
+          "id": "t31_p4_q37",
+          "num": 37,
+          "question": "The word 'disavowing' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'disavowing' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "repudiating",
+            "celebrating",
+            "funding",
+            "duplicating"
+          ],
+          "optionsVi": [
+            "chối bỏ / từ khước",
+            "tôn vinh",
+            "tài trợ tài chính",
+            "sao chép nhân bản"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "Bitterly disillusioned by the commercial bastardization of his philosophy, Gruen returned to Austria in 1968, famously disavowing his architectural offspring...",
+          "evidenceVi": "Cay đắng vỡ mộng vì triết lý của mình bị thương mại hóa biến chất, Gruen trở về Áo vào năm 1968, nổi tiếng với việc từ bỏ đứa con tinh thần kiến trúc của mình...",
+          "explanation": "'Disavowing' có nghĩa là chối bỏ, tuyên bố không thừa nhận liên can, đồng nghĩa với 'repudiating' hoặc 'renouncing'.",
+          "postReading": {
+            "originToken": "disavowing",
+            "paraphraseToken": "repudiating",
+            "explanation": "'Disavowing' = 'repudiating'."
+          }
+        },
+        {
+          "id": "t31_p4_q38",
+          "num": 38,
+          "question": "What trend characterizes the 'retail apocalypse' mentioned in paragraph 4?",
+          "questionVi": "Xu hướng nào đặc trưng cho 'ngày tận thế bán lẻ' được đề cập trong đoạn 4?",
+          "questionType": "detail",
+          "options": [
+            "The rapid construction of new megamalls in central cities",
+            "Widespread abandonment of suburban malls due to e-commerce and store closures",
+            "A sudden ban on automobile manufacturing across North America",
+            "The complete replacement of consumer goods with digital virtual reality avatars"
+          ],
+          "optionsVi": [
+            "Việc xây dựng nhanh chóng các trung tâm thương mại siêu lớn ở trung tâm thành phố",
+            "Sự bỏ hoang hàng loạt các TTTM ngoại ô do thương mại điện tử và các cửa hàng phá sản",
+            "Lệnh cấm đột ngột đối với sản xuất ô tô trên khắp Bắc Mỹ",
+            "Sự thay thế hoàn toàn hàng hóa tiêu dùng bằng hình đại diện thực tế ảo kỹ thuật số"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Confronted by the dominance of e-commerce behemoths, changing generational demographics, and department store bankruptcies, hundreds of 'dead malls' stand abandoned across suburban landscapes.",
+          "evidenceVi": "Đối mặt với sự thống trị của các gã khổng lồ thương mại điện tử, nhân khẩu học thế hệ thay đổi và sự phá sản của các cửa hàng bách hóa, hàng trăm 'trung tâm thương mại chết' đang bị bỏ hoang trên khắp các vùng ngoại ô.",
+          "explanation": "Đoạn 4 nêu rõ: 'retail apocalypse' gắn liền với sự cạnh tranh của thương mại điện tử và phá sản cửa hàng, dẫn đến hàng trăm 'dead malls' bị bỏ hoang.",
+          "postReading": {
+            "originToken": "hundreds of 'dead malls' stand abandoned... e-commerce behemoths... department store bankruptcies",
+            "paraphraseToken": "Widespread abandonment of suburban malls due to e-commerce and store closures",
+            "explanation": "'Dead malls stand abandoned' tương đương 'widespread abandonment'."
+          }
+        },
+        {
+          "id": "t31_p4_q39",
+          "num": 39,
+          "question": "Why does the author describe modern mall renovations as 'ironically fulfilling Gruen's original holistic prophecy'?",
+          "questionVi": "Tại sao tác giả mô tả các cuộc cải tạo TTTM hiện đại là 'trớ trêu thay lại đang hoàn thành lời tiên tri toàn diện ban đầu của Gruen'?",
+          "questionType": "inference",
+          "options": [
+            "Because malls are returning to Vienna to build traditional European cathedrals.",
+            "Because surviving malls are re-incorporating the very community, medical, and residential spaces Gruen advocated decades ago.",
+            "Because Victor Gruen's descendants inherited the copyrights to all suburban parking lots.",
+            "Because shoppers now refuse to purchase items unless background Muzak is playing."
+          ],
+          "optionsVi": [
+            "Bởi vì các trung tâm thương mại đang quay trở lại Vienna để xây dựng các nhà thờ Châu Âu truyền thống.",
+            "Bởi vì các TTTM còn tồn tại đang tái tích hợp chính các không gian cộng đồng, y tế và nhà ở mà Gruen từng chủ trương nhiều thập kỷ trước.",
+            "Bởi vì hậu duệ của Victor Gruen đã thừa kế bản quyền đối với tất cả các bãi đỗ xe ngoại ô.",
+            "Bởi vì người mua sắm hiện từ chối mua hàng trừ khi có nhạc nền Muzak phát lên."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Ironically, modern mall renovations—incorporating open-air pedestrian plazas, medical wellness centers, artisanal dining halls, and residential apartments—are belatedly fulfilling Gruen's original holistic prophecy. The modern 'King of Mall' is no longer a sterile warehouse of consumer goods, but an integrated urban village...",
+          "evidenceVi": "Trớ trêu thay, các cuộc cải tạo TTTM hiện đại - kết hợp các quảng trường đi bộ ngoài trời, trung tâm chăm sóc sức khỏe y tế, khu ẩm thực thủ công và căn hộ dân cư - đang muộn màng hoàn thành lời tiên tri toàn diện ban đầu của Gruen. 'Ông vua TTTM' hiện đại không còn là một kho hàng hóa tiêu dùng vô hồn, mà là một ngôi làng đô thị tích hợp...",
+          "explanation": "Điểm trớ trêu đầy ý nghĩa là: sau khi bị các nhà phát triển vứt bỏ các yếu tố cộng đồng và y tế trong nhiều thập kỷ, ngày nay để tồn tại trước thương mại điện tử, các TTTM buộc phải quay lại tích hợp quảng trường, phòng khám, nhà ở đúng như tầm nhìn nguyên thủy của Gruen.",
+          "postReading": {
+            "originToken": "incorporating open-air pedestrian plazas, medical wellness centers... fulfilling Gruen's original holistic prophecy",
+            "paraphraseToken": "re-incorporating the very community, medical, and residential spaces Gruen advocated decades ago",
+            "explanation": "Sự trở lại muộn màng với tầm nhìn cộng đồng của Victor Gruen."
+          }
+        },
+        {
+          "id": "t31_p4_q40",
+          "num": 40,
+          "question": "Which of the following best expresses the overarching theme of the passage?",
+          "questionVi": "Câu nào sau đây thể hiện đúng nhất chủ đề bao quát của bài đọc?",
+          "questionType": "main_idea",
+          "options": [
+            "The evolution of the shopping mall from an idealistic civic concept to commercial exploitation and its modern re-emergence as a communal village.",
+            "The architectural superiority of American suburban housing over historical European cities.",
+            "How Victor Gruen invented the automobile assembly line to assist postwar department store logistics.",
+            "The permanent extinction of physical retail stores caused by global digital e-commerce platforms."
+          ],
+          "optionsVi": [
+            "Sự tiến hóa của trung tâm thương mại từ một khái niệm dân sự lý tưởng đến sự bóc lột thương mại và sự tái xuất hiện hiện đại của nó như một ngôi làng cộng đồng.",
+            "Sự vượt trội về mặt kiến trúc của nhà ở ngoại ô Mỹ so với các thành phố châu Âu lịch sử.",
+            "Cách Victor Gruen phát minh ra dây chuyền lắp ráp ô tô để hỗ trợ hậu cần cho các cửa hàng bách hóa thời hậu chiến.",
+            "Sự tuyệt chủng vĩnh viễn của các cửa hàng bán lẻ vật lý do các nền tảng thương mại điện tử kỹ thuật số toàn cầu gây ra."
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The passage traces Gruen's original community vision, the commercial deviation and 'Gruen Effect', Gruen's disillusionment, the retail apocalypse, and the contemporary revival of malls as communal, mixed-use urban villages.",
+          "evidenceVi": "Bài đọc lần theo tầm nhìn cộng đồng ban đầu của Gruen, sự chệch hướng thương mại và 'Hiệu ứng Gruen', sự thất vọng của Gruen, ngày tận thế bán lẻ và sự hồi sinh đương đại của các TTTM thành những ngôi làng đô thị đa chức năng cộng đồng.",
+          "explanation": "Toàn bài phân tích tiến trình lịch sử: từ giấc mơ ban đầu của Gruen về một quảng trường cộng đồng, đến sự méo mó thương mại hóa vì lợi nhuận, cuộc khủng hoảng retail apocalypse và sự tái sinh thành mô hình ngôi làng đô thị tích hợp.",
+          "postReading": {
+            "originToken": "utopian vision... commercial bastardization... retail apocalypse... integrated urban village",
+            "paraphraseToken": "evolution of the shopping mall from an idealistic civic concept to commercial exploitation and its modern re-emergence as a communal village",
+            "explanation": "Tóm lược toàn diện quỹ đạo lịch sử của trung tâm thương mại."
+          }
+        }
+      ]
+    }
+  ]
 }
+];
