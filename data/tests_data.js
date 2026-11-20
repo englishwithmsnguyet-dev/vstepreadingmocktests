@@ -44853,6 +44853,2839 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST20",
+    "testNum": 20,
+    "title": "VSTEP READING MOCK TEST 20",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 10 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Lexical Context Clues & Reading Fluency",
+        "topic": "Chiến lược đoán nghĩa từ vựng qua ngữ cảnh & kỹ thuật đọc hiểu linh hoạt: Rà quét, giải mã hình thái & tăng cường tốc độ đọc",
+        "timeAllowed": 15,
+        "passage": "<p>One of the most persistent obstacles confronting second-language learners when reading authentic English texts is lexical anxiety—the sudden impulse to halt immediately whenever an unfamiliar word appears on the printed page. Novice readers frequently assume that every single word must be translated into their mother tongue before the overall message can be comprehended. Cognitive educational research, however, demonstrates that constantly interrupting one's reading rhythm to consult a bilingual dictionary exhausts short-term working memory, disrupts conceptual continuity, and severely impairs overall reading fluency. Experienced readers, by contrast, employ systematic contextual clue strategies to deduce meaning while sustaining their reading momentum.</p><p>Linguists classify context clues into several reliable operational categories. The most direct are definition or restatement clues, wherein an author explicitly defines a specialized term or rephrases it using commas, dashes, or appositives—such as explaining that 'herpetology, the zoological study of reptiles and amphibians, requires field observation.' A second vital category involves contrast and antonym signals, introduced by transitional markers such as 'whereas,' 'unlike,' or 'on the other hand.' When a text states that 'unlike her affable brother who greeted everyone warmly, Eleanor remained aloof and distant,' the reader can readily infer that 'affable' represents friendliness and approachability without ever needing an external reference book.</p><p>Beyond sentence-level semantic markers, skilled readers leverage morphological analysis to decode complex polysyllabic words. By dissecting a term into its constituent prefix, root, and suffix, learners unlock significant lexical insight. For instance, recognizing that the prefix 'un-' denotes negation, the Latin root 'preced-' relates to going before, and the suffix '-ed' signifies a past participle enables a reader to deduce that 'unprecedented' refers to something that has never occurred previously. Coupling morphological clues with broad syntactic cues—such as determining whether an unknown item functions grammatically as a noun, verb, or modifier—further narrows down plausible interpretations.</p><p>Ultimately, developing reading autonomy requires a psychological shift from perfectionist word-level fixation toward macro-level gist comprehension. Readers must learn to tolerate ambiguity, accepting that grasping seventy to eighty percent of peripheral vocabulary is often more than adequate to identify the central thesis and supporting evidence. By consciously practicing scanning for keywords and utilizing local textual clues, students cultivate the cognitive agility necessary to navigate demanding academic examinations with confidence and speed.</p>",
+        "vocab": [
+          {
+            "word": "obstacle",
+            "pos": "n",
+            "ipa": "/ˈɒb.stə.kəl/",
+            "level": "B1",
+            "mean": "chướng ngại vật, trở ngại",
+            "syns": [
+              "barrier",
+              "hurdle",
+              "impediment"
+            ],
+            "ex": "Lexical anxiety is a major obstacle to fluent second-language reading."
+          },
+          {
+            "word": "confront",
+            "pos": "v",
+            "ipa": "/kənˈfrʌnt/",
+            "level": "B2",
+            "mean": "đối mặt, đương đầu với khó khăn",
+            "syns": [
+              "face",
+              "encounter",
+              "tackle"
+            ],
+            "ex": "Learners often confront unfamiliar idioms when reading authentic literature."
+          },
+          {
+            "word": "impulse",
+            "pos": "n",
+            "ipa": "/ˈɪm.pʌls/",
+            "level": "B2",
+            "mean": "sự thôi thúc, xung động bột phát",
+            "syns": [
+              "urge",
+              "instinct",
+              "compulsion"
+            ],
+            "ex": "Resist the impulse to look up every single unknown term in a dictionary."
+          },
+          {
+            "word": "halt",
+            "pos": "v",
+            "ipa": "/hɒlt/",
+            "level": "B2",
+            "mean": "dừng lại, ngắt quãng đột ngột",
+            "syns": [
+              "stop",
+              "pause",
+              "cease"
+            ],
+            "ex": "Constantly halting reading flow overloads the reader's working memory."
+          },
+          {
+            "word": "novice",
+            "pos": "n",
+            "ipa": "/ˈnɒv.ɪs/",
+            "level": "B2",
+            "mean": "người mới học, người chưa có kinh nghiệm",
+            "syns": [
+              "beginner",
+              "neophyte",
+              "learner"
+            ],
+            "ex": "Novice readers assume that complete translation is mandatory for comprehension."
+          },
+          {
+            "word": "continuity",
+            "pos": "n",
+            "ipa": "/ˌkɒn.tɪˈnjuː.ə.ti/",
+            "level": "B2",
+            "mean": "sự liền mạch, tính liên tục",
+            "syns": [
+              "flow",
+              "progression",
+              "cohesion"
+            ],
+            "ex": "Frequent interruptions fracture the conceptual continuity of the narrative."
+          },
+          {
+            "word": "impair",
+            "pos": "v",
+            "ipa": "/ɪmˈpeər/",
+            "level": "B2",
+            "mean": "làm suy yếu, gây tổn hại",
+            "syns": [
+              "damage",
+              "hinder",
+              "diminish"
+            ],
+            "ex": "Pausing at every sentence impairs overall comprehension and reading speed."
+          },
+          {
+            "word": "deduce",
+            "pos": "v",
+            "ipa": "/dɪˈdjuːs/",
+            "level": "B2",
+            "mean": "suy luận, suy đoán dựa trên căn cứ",
+            "syns": [
+              "infer",
+              "conclude",
+              "derive"
+            ],
+            "ex": "Contextual clues allow students to deduce the meaning of specialized jargon."
+          },
+          {
+            "word": "momentum",
+            "pos": "n",
+            "ipa": "/məˈmen.təm/",
+            "level": "B2",
+            "mean": "đà phát triển, tốc độ duy trì",
+            "syns": [
+              "pace",
+              "thrust",
+              "drive"
+            ],
+            "ex": "Sustaining reading momentum helps learners grasp the overarching theme."
+          },
+          {
+            "word": "appositive",
+            "pos": "n",
+            "ipa": "/əˈpɒz.ə.tɪv/",
+            "level": "C1",
+            "mean": "ngữ đồng vị (cụm từ giải thích bổ nghĩa)",
+            "syns": [
+              "explanatory noun phrase",
+              "restatement"
+            ],
+            "ex": "Authors often place an appositive between commas to clarify technical terminology."
+          },
+          {
+            "word": "transitional",
+            "pos": "adj",
+            "ipa": "/trænˈzɪʃ.ən.əl/",
+            "level": "B2",
+            "mean": "mang tính chuyển tiếp, nối ý",
+            "syns": [
+              "connecting",
+              "linking",
+              "bridging"
+            ],
+            "ex": "Transitional markers like 'whereas' signal contrastive relationships between clauses."
+          },
+          {
+            "word": "affable",
+            "pos": "adj",
+            "ipa": "/ˈæf.ə.bəl/",
+            "level": "C1",
+            "mean": "niềm nở, thân thiện dễ gần",
+            "syns": [
+              "friendly",
+              "genial",
+              "approachable"
+            ],
+            "ex": "The host was so affable that all the nervous guests quickly felt relaxed."
+          },
+          {
+            "word": "aloof",
+            "pos": "adj",
+            "ipa": "/əˈluːf/",
+            "level": "C1",
+            "mean": "xa cách, lạnh lùng lãnh đạm",
+            "syns": [
+              "distant",
+              "detached",
+              "unfriendly"
+            ],
+            "ex": "In contrast to her outgoing sister, she remained aloof in social gatherings."
+          },
+          {
+            "word": "leverage",
+            "pos": "v",
+            "ipa": "/ˈliː.vər.ɪdʒ/",
+            "level": "B2",
+            "mean": "tận dụng, khai thác triệt để lợi thế",
+            "syns": [
+              "utilize",
+              "exploit",
+              "capitalize on"
+            ],
+            "ex": "Smart students leverage word stems and prefixes to unlock unknown vocabulary."
+          },
+          {
+            "word": "morphological",
+            "pos": "adj",
+            "ipa": "/ˌmɔː.fəˈlɒdʒ.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc về hình thái học (cấu tạo từ)",
+            "syns": [
+              "structural",
+              "word-formative"
+            ],
+            "ex": "Morphological analysis breaks words into prefixes, roots, and suffixes."
+          },
+          {
+            "word": "polysyllabic",
+            "pos": "adj",
+            "ipa": "/ˌpɒl.i.sɪˈlæb.ɪk/",
+            "level": "C1",
+            "mean": "đa âm tiết (nhiều âm tiết)",
+            "syns": [
+              "multi-syllable",
+              "complex"
+            ],
+            "ex": "Polysyllabic academic terms are often formed from Greek or Latin roots."
+          },
+          {
+            "word": "dissect",
+            "pos": "v",
+            "ipa": "/daɪˈsekt/",
+            "level": "B2",
+            "mean": "bóc tách, mổ xẻ phân tích kỹ lưỡng",
+            "syns": [
+              "break down",
+              "analyze",
+              "deconstruct"
+            ],
+            "ex": "Dissecting complex compound words reveals their core semantic components."
+          },
+          {
+            "word": "constituent",
+            "pos": "adj",
+            "ipa": "/kənˈstɪtʃ.u.ənt/",
+            "level": "B2",
+            "mean": "cấu thành, thành phần cốt lõi",
+            "syns": [
+              "component",
+              "integral",
+              "foundational"
+            ],
+            "ex": "Each constituent morpheme carries a distinct shade of semantic meaning."
+          },
+          {
+            "word": "negation",
+            "pos": "n",
+            "ipa": "/nɪˈɡeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự phủ định, tính chất phủ định",
+            "syns": [
+              "denial",
+              "contradiction",
+              "reversal"
+            ],
+            "ex": "Prefixes such as 'un-' and 'non-' signal the negation of the root concept."
+          },
+          {
+            "word": "unprecedented",
+            "pos": "adj",
+            "ipa": "/ʌnˈpres.ɪ.den.tɪd/",
+            "level": "B2",
+            "mean": "chưa từng có tiền lệ, vô tiền khoáng hậu",
+            "syns": [
+              "unmatched",
+              "extraordinary",
+              "novel"
+            ],
+            "ex": "The global crisis caused unprecedented changes to international education."
+          },
+          {
+            "word": "syntactic",
+            "pos": "adj",
+            "ipa": "/sɪnˈtæk.tɪk/",
+            "level": "C1",
+            "mean": "thuộc về cú pháp câu",
+            "syns": [
+              "grammatical",
+              "structural"
+            ],
+            "ex": "Syntactic positioning indicates whether a word serves as a verb or a noun."
+          },
+          {
+            "word": "autonomy",
+            "pos": "n",
+            "ipa": "/ɔːˈtɒn.ə.mi/",
+            "level": "B2",
+            "mean": "sự tự chủ, độc lập không phụ thuộc",
+            "syns": [
+              "independence",
+              "self-reliance",
+              "sovereignty"
+            ],
+            "ex": "Developing reading autonomy frees learners from relying constantly on translators."
+          },
+          {
+            "word": "ambiguity",
+            "pos": "n",
+            "ipa": "/ˌæm.bɪˈɡjuː.ə.ti/",
+            "level": "B2",
+            "mean": "sự mơ hồ, tính chất không chắc chắn",
+            "syns": [
+              "uncertainty",
+              "vagueness",
+              "obscurity"
+            ],
+            "ex": "Effective readers learn to tolerate ambiguity when meeting unfamiliar words."
+          },
+          {
+            "word": "peripheral",
+            "pos": "adj",
+            "ipa": "/pəˈrɪf.ər.əl/",
+            "level": "C1",
+            "mean": "ngoại vi, phụ trợ, không cốt lõi",
+            "syns": [
+              "secondary",
+              "marginal",
+              "incidental"
+            ],
+            "ex": "Do not get distracted by peripheral details when scanning for the main claim."
+          },
+          {
+            "word": "agility",
+            "pos": "n",
+            "ipa": "/əˈdʒɪl.ə.ti/",
+            "level": "B2",
+            "mean": "sự linh hoạt, độ nhanh nhạy",
+            "syns": [
+              "flexibility",
+              "nimbleness",
+              "swiftness"
+            ],
+            "ex": "Cognitive agility allows test-takers to process extensive texts efficiently."
+          },
+          {
+            "word": "apprehension",
+            "pos": "n",
+            "ipa": "/ˌæp.rɪˈhen.ʃən/",
+            "level": "B2",
+            "mean": "sự lo âu, cảm giác bất an",
+            "syns": [
+              "anxiety",
+              "dread",
+              "worry"
+            ],
+            "ex": "Practicing timed reading reduces apprehension when facing exam passages."
+          },
+          {
+            "word": "automaticity",
+            "pos": "n",
+            "ipa": "/ˌɔː.tə.məˈtɪs.ə.ti/",
+            "level": "C1",
+            "mean": "tính tự động hóa trong nhận diện",
+            "syns": [
+              "automatic processing",
+              "spontaneity"
+            ],
+            "ex": "Extensive reading builds word automaticity, enabling effortless decoding."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "Which of the following best expresses the primary topic of the passage?",
+            "questionVi": "Ý nào sau đây thể hiện khái quát chủ đề chính của đoạn văn?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "Strategies for inferring vocabulary and enhancing reading fluency through contextual analysis",
+              "The historical development of Latin prefixes and Greek suffixes in English",
+              "Why bilingual dictionaries are superior to monolingual dictionaries in exams",
+              "The neurological limitations of short-term working memory during translation"
+            ],
+            "optionsVi": [
+              "A. Các chiến lược suy đoán từ vựng và nâng cao độ lưu loát khi đọc thông qua phân tích ngữ cảnh",
+              "B. Sự phát triển lịch sử của tiền tố Latin và hậu tố Hy Lạp trong tiếng Anh",
+              "C. Vì sao từ điển song ngữ lại vượt trội hơn từ điển đơn ngữ trong các kỳ thi",
+              "D. Giới hạn thần kinh học của bộ nhớ làm việc ngắn hạn trong quá trình dịch thuật"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Experienced readers, by contrast, employ systematic contextual clue strategies to deduce meaning while sustaining their reading momentum. [Paragraph 1]",
+            "evidenceVi": "Ngược lại, người đọc có kinh nghiệm sử dụng các chiến lược manh mối ngữ cảnh có hệ thống để suy đoán nghĩa trong khi vẫn duy trì được đà đọc của mình. [Đoạn 1]",
+            "explanation": "Toàn bài tập trung vào các chiến lược nhận diện manh mối ngữ cảnh (định nghĩa, tương phản, hình thái từ, cú pháp) để suy đoán nghĩa từ mới và duy trì sự lưu loát khi đọc (A).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "Experienced readers... employ systematic contextual clue strategies to deduce meaning while sustaining their reading momentum.",
+              "clueAnswer": "Strategies for inferring vocabulary and enhancing reading fluency through contextual analysis",
+              "keyPassage": "contextual clue strategies + deduce meaning + reading momentum",
+              "keyAnswer": "inferring vocabulary + reading fluency + contextual analysis",
+              "paraphrasePair": "deduce meaning <=> inferring vocabulary; sustaining momentum <=> enhancing fluency",
+              "meaningVi": "chiến lược suy luận từ vựng và nâng cao độ trôi chảy khi đọc",
+              "deductionLogic": "Khớp toàn diện luận điểm xuyên suốt từ đoạn 1 đến đoạn 4."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "According to paragraph 1, what negative consequence occurs when readers constantly pause to look up words?",
+            "questionVi": "Theo đoạn 1, hậu quả tiêu cực nào xảy ra khi người đọc liên tục dừng lại để tra từ?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "It exhausts working memory, disrupts conceptual continuity, and slows reading fluency",
+              "It permanently damages their ability to pronounce polysyllabic English words",
+              "It causes authors to omit appositives and contrastive transitions in texts",
+              "It forces teachers to eliminate authentic literature from reading curriculums"
+            ],
+            "optionsVi": [
+              "A. Nó vắt kiệt bộ nhớ làm việc, làm gián đoạn dòng tư duy liền mạch và làm chậm độ trôi chảy khi đọc",
+              "B. Nó làm mất vĩnh viễn khả năng phát âm các từ đa âm tiết",
+              "C. Nó khiến tác giả bỏ qua các ngữ đồng vị giải thích",
+              "D. Nó buộc giáo viên phải loại bỏ bài đọc thực tế"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "constantly interrupting one's reading rhythm to consult a bilingual dictionary exhausts short-term working memory, disrupts conceptual continuity, and severely impairs overall reading fluency. [Paragraph 1]",
+            "evidenceVi": "liên tục ngắt quãng nhịp đọc để tra từ điển song ngữ làm vắt kiệt trí nhớ làm việc ngắn hạn, phá vỡ tính liên tục của khái niệm và làm suy giảm nghiêm trọng độ lưu loát khi đọc. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ 3 tác hại trực tiếp: làm cạn kiệt bộ nhớ làm việc (exhausts short-term working memory), đứt gãy tính liên tục tư duy (disrupts conceptual continuity), và suy giảm độ lưu loát (impairs overall reading fluency) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Thông tin chi tiết (Factual Detail)",
+              "cluePassage": "exhausts short-term working memory, disrupts conceptual continuity, and severely impairs overall reading fluency.",
+              "clueAnswer": "exhausts working memory, disrupts conceptual continuity, and slows reading fluency",
+              "keyPassage": "exhausts short-term working memory + disrupts conceptual continuity + impairs fluency",
+              "keyAnswer": "exhausts working memory + disrupts conceptual continuity + slows reading fluency",
+              "paraphrasePair": "severely impairs <=> slows",
+              "meaningVi": "vắt kiệt trí nhớ làm việc và phá vỡ mạch tiếp thu",
+              "deductionLogic": "Khớp chính xác từng chi tiết liệt kê ở câu 4 đoạn 1."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "The word 'deduce' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'deduce' trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "infer",
+              "invent",
+              "prohibit",
+              "memorize"
+            ],
+            "optionsVi": [
+              "A. suy luận, suy đoán dựa trên dữ kiện (infer)",
+              "B. phát minh, bịa đặt (invent)",
+              "C. ngăn cấm, cấm đoán (prohibit)",
+              "D. ghi nhớ máy móc (memorize)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "employ systematic contextual clue strategies to deduce meaning while sustaining their reading momentum. [Paragraph 1]",
+            "evidenceVi": "sử dụng các chiến lược manh mối ngữ cảnh có hệ thống để suy đoán nghĩa trong khi vẫn duy trì được đà đọc của mình. [Đoạn 1]",
+            "explanation": "'Deduce' có nghĩa là suy luận logic từ dữ kiện có sẵn, hoàn toàn đồng nghĩa với 'infer' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng đồng nghĩa (Vocabulary)",
+              "cluePassage": "employ systematic contextual clue strategies to deduce meaning",
+              "clueAnswer": "infer",
+              "keyPassage": "deduce meaning",
+              "keyAnswer": "infer meaning",
+              "paraphrasePair": "deduce <=> infer",
+              "meaningVi": "suy luận, suy đoán ngữ nghĩa từ chứng cứ",
+              "deductionLogic": "Cả hai từ đều chỉ hành động rút ra kết luận dựa trên dấu hiệu ngữ cảnh."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "In paragraph 2, what example is used to illustrate a definition or restatement clue?",
+            "questionVi": "Trong đoạn 2, ví dụ nào được sử dụng để minh họa cho manh mối định nghĩa hoặc diễn giải lại?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "The definition of 'herpetology' as the zoological study of reptiles and amphibians",
+              "The contrast between an outgoing sibling and a timid student",
+              "The biological decomposition of carbon-based plant matter",
+              "The psychological treatment of reading anxiety using behavioral drills"
+            ],
+            "optionsVi": [
+              "A. Định nghĩa của 'herpetology' là ngành động vật học nghiên cứu bò sát và lưỡng cư",
+              "B. Sự tương phản giữa người anh cởi mở và học sinh nhút nhát",
+              "C. Sự phân hủy sinh học của vật chất thực vật chứa carbon",
+              "D. Trị liệu tâm lý chứng sợ đọc bằng các bài tập hành vi"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "such as explaining that 'herpetology, the zoological study of reptiles and amphibians, requires field observation.' [Paragraph 2]",
+            "evidenceVi": "chẳng hạn như giải thích rằng 'herpetology (bò sát học), ngành nghiên cứu động vật về bò sát và lưỡng cư, đòi hỏi quan sát thực địa.' [Đoạn 2]",
+            "explanation": "Đoạn 2 đưa ra ví dụ trực tiếp về việc định nghĩa thuật ngữ chuyên ngành 'herpetology' ngay sau dấu phẩy thông qua ngữ đồng vị (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Dẫn chứng thực tế (Factual Detail)",
+              "cluePassage": "explaining that 'herpetology, the zoological study of reptiles and amphibians, requires field observation.'",
+              "clueAnswer": "The definition of 'herpetology' as the zoological study of reptiles and amphibians",
+              "keyPassage": "herpetology, the zoological study of reptiles and amphibians",
+              "keyAnswer": "herpetology as the zoological study of reptiles and amphibians",
+              "paraphrasePair": "explaining that herpetology... <=> definition of herpetology as...",
+              "meaningVi": "định nghĩa ngành bò sát học",
+              "deductionLogic": "Trích dẫn nguyên văn ở câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "Based on paragraph 2, how does a contrast clue clarify the meaning of 'affable'?",
+            "questionVi": "Dựa vào đoạn 2, manh mối tương phản làm sáng tỏ ý nghĩa của từ 'affable' như thế nào?",
+            "questionType": "DẠNG 04: CÂU HỎI SUY LUẬN (Inference)",
+            "options": [
+              "By contrasting the brother's warm greetings with Eleanor's aloof and distant behavior",
+              "By providing a dictionary pronunciation guide for the prefix 'af-'",
+              "By explaining that Eleanor was an expert in animal behavior",
+              "By proving that siblings always share identical emotional temperaments"
+            ],
+            "optionsVi": [
+              "A. Bằng cách đối lập lời chào nồng nhiệt của người anh với thái độ lạnh lùng, xa cách của Eleanor",
+              "B. Bằng cách cung cấp hướng dẫn phát âm từ điển cho tiền tố 'af-'",
+              "C. Bằng cách giải thích Eleanor là một chuyên gia về hành vi động vật",
+              "D. Bằng cách chứng minh anh chị em ruột luôn có tính cách giống hệt nhau"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "When a text states that 'unlike her affable brother who greeted everyone warmly, Eleanor remained aloof and distant,' the reader can readily infer that 'affable' represents friendliness [Paragraph 2]",
+            "evidenceVi": "Khi một văn bản nêu rằng 'khác với người anh niềm nở luôn chào đón mọi người nồng nhiệt, Eleanor lại tỏ ra xa cách và lạnh lùng', người đọc có thể dễ dàng suy ra 'affable' thể hiện sự thân thiện [Đoạn 2]",
+            "explanation": "Tác giả giải thích rằng việc đặt 'affable' cạnh hành động 'greeted everyone warmly' và đối lập với 'aloof and distant' của Eleanor giúp người đọc hiểu nghĩa là thân thiện, niềm nở (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận logic tương phản (Contrast Clue)",
+              "cluePassage": "unlike her affable brother who greeted everyone warmly, Eleanor remained aloof and distant",
+              "clueAnswer": "contrasting the brother's warm greetings with Eleanor's aloof and distant behavior",
+              "keyPassage": "unlike her affable brother who greeted everyone warmly... aloof and distant",
+              "keyAnswer": "contrasting... warm greetings with... aloof and distant behavior",
+              "paraphrasePair": "unlike <=> contrasting; greeted everyone warmly <=> warm greetings",
+              "meaningVi": "đối lập giữa sự thân thiện niềm nở và sự xa cách lạnh lùng",
+              "deductionLogic": "Sử dụng tín hiệu 'unlike' để suy ra từ đối nghĩa."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "The word 'dissecting' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'dissecting' trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "breaking down",
+              "ignoring",
+              "memorizing",
+              "rearranging"
+            ],
+            "optionsVi": [
+              "A. phân tách, bóc tách thành phần (breaking down)",
+              "B. phớt lờ, bỏ qua (ignoring)",
+              "C. học thuộc lòng (memorizing)",
+              "D. sắp xếp lại thứ tự (rearranging)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By dissecting a term into its constituent prefix, root, and suffix, learners unlock significant lexical insight. [Paragraph 3]",
+            "evidenceVi": "Bằng cách mổ xẻ bóc tách một thuật ngữ thành các thành phần tiền tố, gốc từ và hậu tố, người học mở khóa được sự thấu hiểu từ vựng to lớn. [Đoạn 3]",
+            "explanation": "'Dissecting' trong ngữ cảnh phân tích ngôn ngữ có nghĩa là phân tách, bóc nhỏ cấu trúc từ, đồng nghĩa với 'breaking down' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "By dissecting a term into its constituent prefix, root, and suffix",
+              "clueAnswer": "breaking down",
+              "keyPassage": "dissecting a term into its constituent... parts",
+              "keyAnswer": "breaking down into components",
+              "paraphrasePair": "dissecting <=> breaking down",
+              "meaningVi": "phân tách, mổ xẻ cấu trúc từ",
+              "deductionLogic": "Khớp với việc chia nhỏ từ thành tiền tố, gốc và hậu tố."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "According to paragraph 3, how does analyzing 'unprecedented' help a reader deduce its definition?",
+            "questionVi": "Theo đoạn 3, việc phân tích từ 'unprecedented' giúp người đọc suy ra định nghĩa của nó như thế nào?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "By recognizing 'un-' as negation, 'preced-' as going before, and '-ed' as a past participle",
+              "By checking the frequency of the word in nineteenth-century British literature",
+              "By translating each individual syllable into an Asian character equivalent",
+              "By substituting the word with a random noun phrase in the sentence"
+            ],
+            "optionsVi": [
+              "A. Bằng cách nhận biết 'un-' mang nghĩa phủ định, 'preced-' là đi trước, và '-ed' là phân từ quá khứ",
+              "B. Bằng cách tra cứu tần suất của từ trong văn học Anh thế kỷ 19",
+              "C. Bằng cách dịch từng âm tiết riêng lẻ sang ký tự châu Á tương đương",
+              "D. Bằng cách thay thế từ đó bằng một cụm danh từ ngẫu nhiên trong câu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "recognizing that the prefix 'un-' denotes negation, the Latin root 'preced-' relates to going before, and the suffix '-ed' signifies a past participle enables a reader to deduce that 'unprecedented' refers to something that has never occurred previously. [Paragraph 3]",
+            "evidenceVi": "nhận ra tiền tố 'un-' biểu thị sự phủ định, gốc Latin 'preced-' liên quan đến việc đi trước và hậu tố '-ed' biểu thị phân từ quá khứ cho phép người đọc suy ra rằng 'unprecedented' chỉ điều chưa từng xảy ra trước đây. [Đoạn 3]",
+            "explanation": "Đoạn 3 mô tả tường tận phương pháp bóc tách 3 thành tố: tiền tố 'un-' (phủ định), gốc từ 'preced-' (đi trước) và hậu tố '-ed' (quá khứ phân từ) để suy ra nghĩa 'chưa từng có tiền lệ' (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Phân tích hình thái từ (Morphology Detail)",
+              "cluePassage": "prefix 'un-' denotes negation, the Latin root 'preced-' relates to going before, and the suffix '-ed' signifies a past participle",
+              "clueAnswer": "By recognizing 'un-' as negation, 'preced-' as going before, and '-ed' as a past participle",
+              "keyPassage": "'un-' denotes negation + 'preced-' relates to going before + '-ed' signifies past participle",
+              "keyAnswer": "'un-' as negation + 'preced-' as going before + '-ed' as past participle",
+              "paraphrasePair": "denotes negation <=> as negation; relates to going before <=> as going before",
+              "meaningVi": "phân tích tiền tố, gốc từ và hậu tố",
+              "deductionLogic": "Khớp chuẩn xác cấu tạo hình thái học được phân tích trong bài."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "The word 'autonomy' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'autonomy' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "independence",
+              "dependency",
+              "reluctance",
+              "speed"
+            ],
+            "optionsVi": [
+              "A. sự độc lập, tự chủ (independence)",
+              "B. sự phụ thuộc (dependency)",
+              "C. sự miễn cưỡng, do dự (reluctance)",
+              "D. tốc độ (speed)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "developing reading autonomy requires a psychological shift from perfectionist word-level fixation toward macro-level gist comprehension. [Paragraph 4]",
+            "evidenceVi": "việc phát triển tính tự chủ khi đọc đòi hỏi sự chuyển dịch tâm lý từ nỗi ám ảnh cầu toàn từng chữ sang việc nắm bắt ý chính ở tầm vĩ mô. [Đoạn 4]",
+            "explanation": "'Reading autonomy' là năng lực đọc độc lập, tự chủ mà không bị lệ thuộc vào người khác hay công cụ tra cứu, đồng nghĩa với 'independence' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "developing reading autonomy requires a psychological shift",
+              "clueAnswer": "independence",
+              "keyPassage": "reading autonomy",
+              "keyAnswer": "reading independence",
+              "paraphrasePair": "autonomy <=> independence",
+              "meaningVi": "sự tự chủ, độc lập",
+              "deductionLogic": "Khớp với việc người đọc tự tin xử lý bài đọc mà không phụ thuộc từ điển."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "What advice does the author give in paragraph 4 regarding unknown peripheral vocabulary?",
+            "questionVi": "Tác giả đưa ra lời khuyên nào trong đoạn 4 liên quan đến các từ vựng ngoại vi chưa biết?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Readers should tolerate ambiguity and accept that understanding 70–80% is often sufficient",
+              "Readers must memorize every peripheral word before attempting mock exams",
+              "Learners should completely avoid reading any text containing more than five unfamiliar terms",
+              "Examinees should petition exam boards to translate all peripheral adjectives"
+            ],
+            "optionsVi": [
+              "A. Người đọc nên chấp nhận sự mơ hồ tương đối và hiểu rằng nắm được 70–80% thường là đủ",
+              "B. Người đọc phải học thuộc mọi từ ngoại vi trước khi làm bài thi thử",
+              "C. Người học nên tránh hoàn toàn việc đọc các văn bản có nhiều hơn 5 từ lạ",
+              "D. Thí sinh nên kiến nghị hội đồng thi dịch toàn bộ tính từ phụ trợ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Readers must learn to tolerate ambiguity, accepting that grasping seventy to eighty percent of peripheral vocabulary is often more than adequate to identify the central thesis [Paragraph 4]",
+            "evidenceVi": "Người đọc phải học cách chấp nhận sự mơ hồ, chấp nhận rằng việc nắm được bảy mươi đến tám mươi phần trăm từ vựng ngoại vi thường là quá đủ để xác định luận điểm trung tâm [Đoạn 4]",
+            "explanation": "Đoạn 4 khuyên người đọc cần học cách chấp nhận sự mơ hồ ('tolerate ambiguity') và nhận thức rằng chỉ cần nắm được 70–80% từ vựng ngoại vi là đủ để hiểu ý chính (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Lời khuyên phương pháp (Actionable Advice)",
+              "cluePassage": "learn to tolerate ambiguity, accepting that grasping seventy to eighty percent of peripheral vocabulary is often more than adequate",
+              "clueAnswer": "Readers should tolerate ambiguity and accept that understanding 70–80% is often sufficient",
+              "keyPassage": "tolerate ambiguity + grasping seventy to eighty percent... adequate",
+              "keyAnswer": "tolerate ambiguity + accept that understanding 70–80% is often sufficient",
+              "paraphrasePair": "grasping <=> understanding; more than adequate <=> sufficient",
+              "meaningVi": "chấp nhận sự mơ hồ tương đối và hiểu 70-80% là đủ",
+              "deductionLogic": "Trích dẫn nguyên văn ở câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "Which of the following best characterizes the author's tone throughout the passage?",
+            "questionVi": "Thái độ và giọng văn của tác giả xuyên suốt bài đọc thể hiện rõ nhất qua tính từ nào?",
+            "questionType": "DẠNG 07: THÁI ĐỘ TÁC GIẢ (Author's Tone)",
+            "options": [
+              "Pedagogical, encouraging, and analytical",
+              "Skeptical, dismissive, and cynical",
+              "Nostalgic, romantic, and sorrowful",
+              "Aggressive, confrontational, and satirical"
+            ],
+            "optionsVi": [
+              "A. Mang tính sư phạm giáo dục, khuyến khích và phân tích khoa học",
+              "B. Hoài nghi, bác bỏ và cay độc",
+              "C. Hoài niệm, lãng mạn và đau buồn",
+              "D. Hung hăng, đối đầu và châm biếm sâu cay"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By consciously practicing scanning for keywords and utilizing local textual clues, students cultivate the cognitive agility necessary to navigate demanding academic examinations with confidence and speed. [Paragraph 4]",
+            "evidenceVi": "Bằng cách có ý thức rèn luyện rà quét từ khóa và tận dụng manh mối ngữ cảnh tại chỗ, học viên nuôi dưỡng sự linh hoạt nhận thức cần thiết để vượt qua các kỳ thi học thuật khắt khe với sự tự tin và tốc độ. [Đoạn 4]",
+            "explanation": "Tác giả phân tích các phương pháp đọc hiểu một cách hệ thống, đưa ra phân loại khoa học và khuyến khích học viên tự tin vượt qua nỗi sợ từ mới -> Giọng văn sư phạm, mang tính xây dựng và phân tích (A).",
+            "postReading": {
+              "type": "tone",
+              "typeLabel": "Thái độ tác giả (Author's Tone)",
+              "cluePassage": "students cultivate the cognitive agility necessary to navigate demanding academic examinations with confidence and speed.",
+              "clueAnswer": "Pedagogical, encouraging, and analytical",
+              "keyPassage": "systematic contextual clue strategies + cultivate agility + confidence and speed",
+              "keyAnswer": "Pedagogical, encouraging, and analytical",
+              "paraphrasePair": "cultivate agility with confidence <=> encouraging and analytical",
+              "meaningVi": "giọng văn sư phạm, phân tích mạch lạc và động viên người học",
+              "deductionLogic": "Toàn bài phân tích giải pháp giáo dục với tinh thần tích cực."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Traditional Taekwondo: Martial Art, Philosophy & Global Sport",
+        "topic": "Môn võ cổ truyền Taekwondo tại Hàn Quốc: Cội nguồn lịch sử, triết lý võ đạo, quá trình chuẩn hóa Kukkiwon & hành trình Olympic",
+        "timeAllowed": 15,
+        "passage": "<p>Taekwondo, universally recognized today as the national martial art of South Korea and a permanent medal sport in the Summer Olympic Games, represents a sophisticated fusion of ancient combat traditions, moral philosophy, and modern athletic science. The etymology of the word itself reflects this comprehensive identity: 'Tae' means to strike or destroy with the foot; 'Kwon' signifies striking with the fist; and 'Do' designates the philosophical path or disciplined way of life. While many contemporary practitioners view Taekwondo primarily through the lens of dynamic high-speed kicks and competitive sparring, its deeper historical roots are intricately tied to Korea's turbulent struggle for sovereignty, cultural preservation, and national identity.</p><p>Historians trace the ancestral lineage of Taekwondo back over two millennia to the Three Kingdoms period—Goguryeo, Baekje, and Silla. In ancient Goguryeo, tomb murals dating to the fourth century depict warriors engaged in 'Subak' and 'Taekkyeon,' primitive kicking and hand-striking arts utilized in military training. In the southeastern kingdom of Silla, an elite corps of aristocratic youth known as the 'Hwarang-do' (Way of Flowering Manhood) refined these combat techniques. Crucially, the Hwarang integrated rigorous physical conditioning with Buddhist ethics, Confucian filial piety, and an unwavering martial code. However, during the subsequent Joseon Dynasty (1392–1910), Confucian ideology prioritized scholarly pursuits over military prowess, causing traditional martial arts to languish into localized folk games. Worse yet, during the Japanese colonial occupation of Korea (1910–1945), native martial practices were strictly outlawed, forcing masters to transmit their techniques in secrecy.</p><p>Following national liberation in 1945, martial arts masters returned to Seoul and established pioneering training schools known as 'kwans.' Each kwan championed unique regional variations, blending recovered Taekkyeon kicks with elements of Chinese kung fu and Okinawan karate. Recognizing that institutional fragmentation hindered international recognition, martial leaders and government authorities launched a dedicated unification movement throughout the 1950s and 1960s. In 1955, the name 'Taekwondo' was formally adopted to symbolize a unified Korean art. A monumental milestone occurred in 1972 with the inauguration of the 'Kukkiwon'—the World Taekwondo Headquarters located in Seoul—which standardized universal poomsae (forms), promotional black belt certifications, and centralized instructor training.</p><p>Integral to Taekwondo's worldwide appeal is its enduring ethical framework, crystallized in five core tenets: Ye-Ui (courtesy), Yom-Chi (integrity), In-Nae (perseverance), Guk-Gi (self-control), and Baek-Jul-Bool-Gool (indomitable spirit). Practitioners are taught that physical technique without ethical restraint constitutes mere violence. When Taekwondo made its Olympic debut as an official medal event at the 2000 Sydney Games, critics expressed concern that competitive sportification might dilute these traditional virtues. In response, modern federations have embraced sensor-equipped electronic scoring systems to ensure absolute transparency, while simultaneously redoubling character education in dojangs globally. Today, practiced by over eighty million individuals across two hundred nations, Taekwondo stands as a living testament to Korea's cultural resilience.</p>",
+        "vocab": [
+          {
+            "word": "fusion",
+            "pos": "n",
+            "ipa": "/ˈfjuː.ʒən/",
+            "level": "B2",
+            "mean": "sự hòa quyện, kết hợp hài hòa",
+            "syns": [
+              "blend",
+              "amalgamation",
+              "synthesis"
+            ],
+            "ex": "Taekwondo represents a unique fusion of combat techniques and moral philosophy."
+          },
+          {
+            "word": "etymology",
+            "pos": "n",
+            "ipa": "/ˌet.ɪˈmɒl.ə.dʒi/",
+            "level": "C1",
+            "mean": "nguồn gốc từ nguyên học",
+            "syns": [
+              "word origin",
+              "derivation"
+            ],
+            "ex": "The etymology of Taekwondo reveals the three core components of its name."
+          },
+          {
+            "word": "designate",
+            "pos": "v",
+            "ipa": "/ˈdez.ɪɡ.neɪt/",
+            "level": "B2",
+            "mean": "biểu thị, chỉ định rõ ràng",
+            "syns": [
+              "indicate",
+              "denote",
+              "signify"
+            ],
+            "ex": "The morpheme 'Do' designates a philosophical way of life and moral discipline."
+          },
+          {
+            "word": "sparring",
+            "pos": "n",
+            "ipa": "/ˈspɑː.rɪŋ/",
+            "level": "B2",
+            "mean": "sự thi đấu đối kháng trong võ thuật",
+            "syns": [
+              "combat practice",
+              "bout",
+              "scrimmage"
+            ],
+            "ex": "Modern Olympic Taekwondo emphasizes high-speed dynamic sparring."
+          },
+          {
+            "word": "sovereignty",
+            "pos": "n",
+            "ipa": "/ˈsɒv.rɪn.ti/",
+            "level": "B2",
+            "mean": "chủ quyền quốc gia, quyền độc lập",
+            "syns": [
+              "independence",
+              "autonomy",
+              "self-rule"
+            ],
+            "ex": "Preserving martial arts was deeply tied to Korea's struggle for sovereignty."
+          },
+          {
+            "word": "ancestral",
+            "pos": "adj",
+            "ipa": "/ænˈses.trəl/",
+            "level": "B2",
+            "mean": "thuộc về tổ tiên, cội nguồn xa xưa",
+            "syns": [
+              "lineage-based",
+              "inherited",
+              "forebear"
+            ],
+            "ex": "Taekkyeon is recognized as an ancestral precursor to modern Taekwondo."
+          },
+          {
+            "word": "lineage",
+            "pos": "n",
+            "ipa": "/ˈlɪn.i.ɪdʒ/",
+            "level": "B2",
+            "mean": "dòng dõi, truyền thống phả hệ",
+            "syns": [
+              "ancestry",
+              "pedigree",
+              "heritage"
+            ],
+            "ex": "Historians trace Taekwondo's lineage back over two thousand years."
+          },
+          {
+            "word": "mural",
+            "pos": "n",
+            "ipa": "/ˈmjʊə.rəl/",
+            "level": "B2",
+            "mean": "bức tranh tường cổ",
+            "syns": [
+              "fresco",
+              "wall painting"
+            ],
+            "ex": "Ancient tomb murals in Goguryeo portray warriors performing kicking stances."
+          },
+          {
+            "word": "aristocratic",
+            "pos": "adj",
+            "ipa": "/ˌær.ɪ.stəˈkræt.ɪk/",
+            "level": "B2",
+            "mean": "thuộc tầng lớp quý tộc",
+            "syns": [
+              "noble",
+              "elite",
+              "patrician"
+            ],
+            "ex": "The Hwarang warriors were chosen from young aristocratic families."
+          },
+          {
+            "word": "unwavering",
+            "pos": "adj",
+            "ipa": "/ʌnˈweɪ.vər.ɪŋ/",
+            "level": "B2",
+            "mean": "kiên định, không hề nao núng",
+            "syns": [
+              "steadfast",
+              "firm",
+              "resolute"
+            ],
+            "ex": "The martial code instilled unwavering loyalty and courage in ancient warriors."
+          },
+          {
+            "word": "languish",
+            "pos": "v",
+            "ipa": "/ˈlæŋ.ɡwɪʃ/",
+            "level": "C1",
+            "mean": "suy tàn, mai một dần",
+            "syns": [
+              "deteriorate",
+              "decline",
+              "wither"
+            ],
+            "ex": "During the peaceful Joseon era, military arts languished in popularity."
+          },
+          {
+            "word": "outlaw",
+            "pos": "v",
+            "ipa": "/ˈaʊt.lɔː/",
+            "level": "B2",
+            "mean": "ban hành luật cấm chỉ",
+            "syns": [
+              "ban",
+              "prohibit",
+              "forbid"
+            ],
+            "ex": "Traditional Korean cultural practices were outlawed under colonial rule."
+          },
+          {
+            "word": "liberation",
+            "pos": "n",
+            "ipa": "/ˌlɪb.ərˈeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự giải phóng, giành lại độc lập",
+            "syns": [
+              "emancipation",
+              "freedom",
+              "release"
+            ],
+            "ex": "Following national liberation in 1945, masters opened public martial schools."
+          },
+          {
+            "word": "fragmentation",
+            "pos": "n",
+            "ipa": "/ˌfræɡ.menˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự phân mảnh, chia rẽ rời rạc",
+            "syns": [
+              "division",
+              "splintering",
+              "breakup"
+            ],
+            "ex": "Institutional fragmentation prevented the sport from gaining global recognition."
+          },
+          {
+            "word": "unification",
+            "pos": "n",
+            "ipa": "/ˌjuː.nɪ.fɪˈkeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự thống nhất, hợp nhất thành một",
+            "syns": [
+              "consolidation",
+              "integration",
+              "merger"
+            ],
+            "ex": "The unification of the original kwans created a single standardized curriculum."
+          },
+          {
+            "word": "inauguration",
+            "pos": "n",
+            "ipa": "/ɪˌnɔː.ɡjəˈreɪ.ʃən/",
+            "level": "B2",
+            "mean": "lễ khánh thành, sự khai trương chính thức",
+            "syns": [
+              "launch",
+              "opening",
+              "establishment"
+            ],
+            "ex": "The inauguration of the Kukkiwon in 1972 centralized global black belt standards."
+          },
+          {
+            "word": "standardize",
+            "pos": "v",
+            "ipa": "/ˈstæn.də.daɪz/",
+            "level": "B2",
+            "mean": "chuẩn hóa theo quy chuẩn chung",
+            "syns": [
+              "normalize",
+              "systematize",
+              "unify"
+            ],
+            "ex": "Kukkiwon helped standardize poomsae forms across all member countries."
+          },
+          {
+            "word": "tenet",
+            "pos": "n",
+            "ipa": "/ˈten.ɪt/",
+            "level": "B2",
+            "mean": "nguyên lý, tôn chỉ cốt lõi",
+            "syns": [
+              "principle",
+              "doctrine",
+              "creed"
+            ],
+            "ex": "Courtesy and perseverance are two of the five core tenets of Taekwondo."
+          },
+          {
+            "word": "courtesy",
+            "pos": "n",
+            "ipa": "/ˈkɜː.tə.si/",
+            "level": "B2",
+            "mean": "sự lễ phép, nhã nhặn tôn trọng",
+            "syns": [
+              "politeness",
+              "respect",
+              "civility"
+            ],
+            "ex": "Martial artists bow to instructors and opponents as a sign of mutual courtesy."
+          },
+          {
+            "word": "integrity",
+            "pos": "n",
+            "ipa": "/ɪnˈteɡ.rə.ti/",
+            "level": "B2",
+            "mean": "sự chính trực, liêm khiết ngay thẳng",
+            "syns": [
+              "honesty",
+              "probity",
+              "rectitude"
+            ],
+            "ex": "Integrity dictates that students never cheat or misuse martial skills."
+          },
+          {
+            "word": "perseverance",
+            "pos": "n",
+            "ipa": "/ˌpɜː.sɪˈvɪə.rəns/",
+            "level": "B2",
+            "mean": "sự kiên trì, bền chí không nản",
+            "syns": [
+              "persistence",
+              "tenacity",
+              "endurance"
+            ],
+            "ex": "Mastering difficult rotational kicks requires years of relentless perseverance."
+          },
+          {
+            "word": "indomitable",
+            "pos": "adj",
+            "ipa": "/ɪnˈdɒm.ɪ.tə.bəl/",
+            "level": "C1",
+            "mean": "bất khuất, kiên cường không chịu khuất phục",
+            "syns": [
+              "invincible",
+              "unconquerable",
+              "unyielding"
+            ],
+            "ex": "An indomitable spirit enables athletes to overcome serious injuries and defeat."
+          },
+          {
+            "word": "restraint",
+            "pos": "n",
+            "ipa": "/rɪˈstreɪnt/",
+            "level": "B2",
+            "mean": "sự kiềm chế, tự chủ cảm xúc",
+            "syns": [
+              "self-control",
+              "discipline",
+              "moderation"
+            ],
+            "ex": "Physical prowess without ethical restraint is dangerous and irresponsible."
+          },
+          {
+            "word": "sportification",
+            "pos": "n",
+            "ipa": "/ˌspɔː.tɪ.fɪˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự thể thao hóa (chuyển thành môn thi đấu thể thao)",
+            "syns": [
+              "athleticization",
+              "competitive adaptation"
+            ],
+            "ex": "Critics argued that rapid sportification risked turning a spiritual art into a spectacle."
+          },
+          {
+            "word": "dilute",
+            "pos": "v",
+            "ipa": "/daɪˈluːt/",
+            "level": "B2",
+            "mean": "làm loãng, làm phai nhạt giá trị cốt lõi",
+            "syns": [
+              "weaken",
+              "diminish",
+              "water down"
+            ],
+            "ex": "Focusing solely on winning medals can dilute traditional martial etiquette."
+          },
+          {
+            "word": "transparency",
+            "pos": "n",
+            "ipa": "/trænˈspær.ən.si/",
+            "level": "B2",
+            "mean": "sự minh bạch, rõ ràng công bằng",
+            "syns": [
+              "clarity",
+              "openness",
+              "fairness"
+            ],
+            "ex": "Electronic sensor vests provide absolute scoring transparency during Olympic bouts."
+          },
+          {
+            "word": "resilience",
+            "pos": "n",
+            "ipa": "/rɪˈzɪl.jəns/",
+            "level": "B2",
+            "mean": "sức sống kiên cường, khả năng phục hồi bền bỉ",
+            "syns": [
+              "endurance",
+              "fortitude",
+              "tenacity"
+            ],
+            "ex": "Taekwondo's global expansion is a powerful symbol of Korean cultural resilience."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "What is the primary objective of the passage?",
+            "questionVi": "Mục tiêu chính của bài đọc là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "To chronicle the historical evolution, philosophical tenets, and global emergence of Taekwondo",
+              "To prove that ancient Subak kicking was superior to contemporary Japanese karate",
+              "To explain how electronic sensor technology is manufactured for Olympic sports",
+              "To criticize the Joseon Dynasty for favoring Confucian scholarship over martial defense"
+            ],
+            "optionsVi": [
+              "A. Ghi lại quá trình tiến hóa lịch sử, các tôn chỉ triết học và sự vươn tầm toàn cầu của Taekwondo",
+              "B. Chứng minh các đòn đá Subak cổ truyền vượt trội hơn võ karate Nhật Bản hiện đại",
+              "C. Giải thích cách sản xuất công nghệ cảm biến điện tử cho các môn thể thao Olympic",
+              "D. Phê phán triều đại Joseon vì coi trọng văn chương Nho giáo hơn phòng thủ quân sự"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "represents a sophisticated fusion of ancient combat traditions, moral philosophy, and modern athletic science. [Paragraph 1]",
+            "evidenceVi": "thể hiện sự hòa quyện tinh tế giữa truyền thống chiến đấu cổ xưa, triết lý đạo đức và khoa học thể thao hiện đại. [Đoạn 1]",
+            "explanation": "Toàn bài phân tích hành trình phát triển của Taekwondo từ cội nguồn thời Tam Quốc, triết lý đạo đức võ đạo, quá trình thống nhất Kukkiwon đến khi trở thành môn thể thao Olympic toàn cầu (A).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "represents a sophisticated fusion of ancient combat traditions, moral philosophy, and modern athletic science.",
+              "clueAnswer": "To chronicle the historical evolution, philosophical tenets, and global emergence of Taekwondo",
+              "keyPassage": "ancient combat traditions + moral philosophy + modern athletic science",
+              "keyAnswer": "historical evolution + philosophical tenets + global emergence",
+              "paraphrasePair": "ancient combat traditions <=> historical evolution; moral philosophy <=> philosophical tenets",
+              "meaningVi": "lịch sử phát triển, triết lý và sự vươn tầm toàn cầu",
+              "deductionLogic": "Khái quát toàn diện nội dung từ đoạn 1 đến đoạn 4."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "According to paragraph 1, what does the linguistic component 'Do' represent in 'Taekwondo'?",
+            "questionVi": "Theo đoạn 1, thành tố ngôn ngữ 'Do' trong từ 'Taekwondo' đại diện cho điều gì?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "The philosophical path or disciplined way of life",
+              "The technique of striking with the fist",
+              "The physical act of shattering wooden boards with feet",
+              "The administrative headquarters in Seoul"
+            ],
+            "optionsVi": [
+              "A. Con đường triết lý đạo đức hoặc lối sống rèn luyện kỷ luật",
+              "B. Kỹ thuật đấm bằng nắm đấm",
+              "C. Hành động đập vỡ ván gỗ bằng chân",
+              "D. Cơ quan trụ sở hành chính tại Seoul"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "'Do' designates the philosophical path or disciplined way of life. [Paragraph 1]",
+            "evidenceVi": "'Do' (Đạo) chỉ con đường triết lý hoặc lối sống có kỷ luật. [Đoạn 1]",
+            "explanation": "Đoạn 1 giải nghĩa từ nguyên: 'Tae' là đòn chân, 'Kwon' là nắm đấm, và 'Do' chính là con đường triết học/lối sống kỷ luật (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Giải nghĩa từ nguyên (Etymology Detail)",
+              "cluePassage": "'Do' designates the philosophical path or disciplined way of life.",
+              "clueAnswer": "The philosophical path or disciplined way of life",
+              "keyPassage": "'Do' designates the philosophical path or disciplined way of life",
+              "keyAnswer": "philosophical path or disciplined way of life",
+              "paraphrasePair": "designates <=> represents",
+              "meaningVi": "con đường triết lý hoặc lối sống đạo đức kỷ luật",
+              "deductionLogic": "Khớp chính xác với giải thích từ nguyên ở câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "In paragraph 2, what were the Hwarang-do known for integrating with their martial practice?",
+            "questionVi": "Trong đoạn 2, các võ sĩ thanh niên Hwarang-do nổi tiếng vì đã kết hợp điều gì với việc luyện võ?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Buddhist ethics, Confucian filial piety, and an unwavering martial code",
+              "Western athletic conditioning and Olympic gymnastics rules",
+              "Technological surveillance systems and mechanical weaponry",
+              "Strict isolation from religious institutions and governmental affairs"
+            ],
+            "optionsVi": [
+              "A. Đạo đức Phật giáo, chữ hiếu Nho giáo và quy tắc võ sĩ đạo kiên định",
+              "B. Thể lực phương Tây và luật thể dục dụng cụ Olympic",
+              "C. Hệ thống giám sát công nghệ và vũ khí cơ khí",
+              "D. Sự cách ly hoàn toàn khỏi các tổ chức tôn giáo và triều đình"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the Hwarang integrated rigorous physical conditioning with Buddhist ethics, Confucian filial piety, and an unwavering martial code. [Paragraph 2]",
+            "evidenceVi": "Hwarang đã kết hợp việc rèn luyện thể chất nghiêm ngặt với đạo đức Phật giáo, lòng hiếu thảo Nho giáo và quy tắc võ đạo kiên định. [Đoạn 2]",
+            "explanation": "Đoạn 2 chỉ rõ nhóm thanh niên quý tộc Hwarang đã kết hợp thể chất với đạo đức Phật giáo (Buddhist ethics), lòng hiếu kính Nho gia (Confucian filial piety) và tinh thần võ đạo (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Thông tin chi tiết lịch sử (Historical Detail)",
+              "cluePassage": "integrated rigorous physical conditioning with Buddhist ethics, Confucian filial piety, and an unwavering martial code.",
+              "clueAnswer": "Buddhist ethics, Confucian filial piety, and an unwavering martial code",
+              "keyPassage": "Buddhist ethics, Confucian filial piety, and an unwavering martial code",
+              "keyAnswer": "Buddhist ethics, Confucian filial piety, and an unwavering martial code",
+              "paraphrasePair": "integrated <=> combining with practice",
+              "meaningVi": "kết hợp đạo đức Phật giáo, chữ hiếu và võ đạo",
+              "deductionLogic": "Trích dẫn nguyên văn ở câu 4 đoạn 2."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "The word 'languish' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'languish' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "decline",
+              "prosper",
+              "accelerate",
+              "dominate"
+            ],
+            "optionsVi": [
+              "A. suy tàn, mai một dần (decline)",
+              "B. thịnh vượng, phát đạt (prosper)",
+              "C. tăng tốc nhanh (accelerate)",
+              "D. thống trị, áp đảo (dominate)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Confucian ideology prioritized scholarly pursuits over military prowess, causing traditional martial arts to languish into localized folk games. [Paragraph 2]",
+            "evidenceVi": "hệ tư tưởng Nho giáo coi trọng học thuật hơn tài năng quân sự, khiến các môn võ thuật truyền thống bị mai một thành các trò chơi dân gian địa phương. [Đoạn 2]",
+            "explanation": "'Languish' ở đây mô tả tình trạng các môn võ bị suy yếu, mai một do triều đình trọng văn khinh võ, đồng nghĩa với 'decline' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "causing traditional martial arts to languish into localized folk games",
+              "clueAnswer": "decline",
+              "keyPassage": "languish into localized folk games",
+              "keyAnswer": "decline into minor games",
+              "paraphrasePair": "languish <=> decline",
+              "meaningVi": "suy tàn, mai một, suy thoái",
+              "deductionLogic": "Đối lập với sự phát triển mạnh mẽ ở thời kỳ trước đó."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "Why did martial artists have to practice in secrecy between 1910 and 1945?",
+            "questionVi": "Tại sao các võ sư phải bí mật luyện tập trong giai đoạn từ năm 1910 đến 1945?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Because traditional Korean martial arts were outlawed by the Japanese colonial authorities",
+              "Because the Kukkiwon headquarters had not yet completed its construction",
+              "Because ancient Buddhist scriptures prohibited fighting in daylight",
+              "Because martial artists were competing in secret Olympic trials in Europe"
+            ],
+            "optionsVi": [
+              "A. Vì võ thuật truyền thống Hàn Quốc bị chính quyền thực dân Nhật Bản cấm đoán",
+              "B. Vì trụ sở Kukkiwon vẫn chưa được xây dựng xong",
+              "C. Vì kinh điển Phật giáo cổ cấm luyện võ ban ngày",
+              "D. Vì các võ sĩ đang thi đấu bí mật tại vòng loại Olympic ở châu Âu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "during the Japanese colonial occupation of Korea (1910–1945), native martial practices were strictly outlawed, forcing masters to transmit their techniques in secrecy. [Paragraph 2]",
+            "evidenceVi": "trong thời kỳ thực dân Nhật chiếm đóng Triều Tiên (1910–1945), các hoạt động võ thuật bản địa bị cấm ngặt, buộc các võ sư phải bí mật truyền dạy đòn thế. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ dưới sự chiếm đóng của thực dân Nhật (1910–1945), các môn võ bản địa bị ban lệnh cấm nghiêm ngặt (strictly outlawed), buộc các võ sư phải truyền thụ bí mật (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Bối cảnh lịch sử (Historical Detail)",
+              "cluePassage": "native martial practices were strictly outlawed, forcing masters to transmit their techniques in secrecy.",
+              "clueAnswer": "Because traditional Korean martial arts were outlawed by the Japanese colonial authorities",
+              "keyPassage": "strictly outlawed + transmit their techniques in secrecy",
+              "keyAnswer": "outlawed by the Japanese colonial authorities",
+              "paraphrasePair": "strictly outlawed <=> outlawed; in secrecy <=> secretly",
+              "meaningVi": "bị thực dân cấm chỉ nên phải truyền dạy bí mật",
+              "deductionLogic": "Khớp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "What major achievement occurred in 1972 regarding the standardization of Taekwondo?",
+            "questionVi": "Thành tựu lớn nào đã diễn ra vào năm 1972 liên quan đến việc chuẩn hóa Taekwondo?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "The opening of the Kukkiwon in Seoul to standardize forms and black belt certifications",
+              "The immediate inclusion of Taekwondo in the Olympic Games in Munich",
+              "The total elimination of sparring competitions worldwide",
+              "The prohibition of all kicking techniques in official dojangs"
+            ],
+            "optionsVi": [
+              "A. Sự thành lập Kukkiwon tại Seoul nhằm chuẩn hóa các bài quyền và cấp chứng chỉ đai đen",
+              "B. Việc đưa ngay Taekwondo vào Thế vận hội Olympic tại Munich",
+              "C. Việc xóa bỏ hoàn toàn các cuộc thi đối kháng trên toàn thế giới",
+              "D. Lệnh cấm tất cả các đòn đá tại các võ đường chính thức"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "A monumental milestone occurred in 1972 with the inauguration of the 'Kukkiwon'—the World Taekwondo Headquarters located in Seoul—which standardized universal poomsae (forms), promotional black belt certifications, and centralized instructor training. [Paragraph 3]",
+            "evidenceVi": "Một cột mốc lịch sử diễn ra vào năm 1972 với lễ khánh thành 'Kukkiwon' - Trụ sở Taekwondo Thế giới tại Seoul - nơi đã chuẩn hóa các bài quyền (poomsae) phổ quát, chứng chỉ thăng đai đen và đào tạo võ sư tập trung. [Đoạn 3]",
+            "explanation": "Năm 1972 đánh dấu sự ra đời của Viện Kukkiwon tại Seoul, nơi chuẩn hóa bài quyền poomsae, hệ thống thăng đai và đào tạo huấn luyện viên quốc tế (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cột mốc lịch sử (Historical Milestone)",
+              "cluePassage": "inauguration of the 'Kukkiwon'... which standardized universal poomsae (forms), promotional black belt certifications",
+              "clueAnswer": "The opening of the Kukkiwon in Seoul to standardize forms and black belt certifications",
+              "keyPassage": "inauguration of the Kukkiwon + standardized universal poomsae + black belt certifications",
+              "keyAnswer": "opening of the Kukkiwon + standardize forms and black belt certifications",
+              "paraphrasePair": "inauguration <=> opening; poomsae (forms) <=> forms",
+              "meaningVi": "thành lập Kukkiwon để chuẩn hóa bài quyền và cấp đai",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "The word 'tenets' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'tenets' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "core principles",
+              "physical injuries",
+              "financial rewards",
+              "uniform garments"
+            ],
+            "optionsVi": [
+              "A. các nguyên lý cốt lõi, tôn chỉ (core principles)",
+              "B. các chấn thương thể xác (physical injuries)",
+              "C. phần thưởng tài chính (financial rewards)",
+              "D. trang phục võ phục (uniform garments)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "crystallized in five core tenets: Ye-Ui (courtesy), Yom-Chi (integrity), In-Nae (perseverance), Guk-Gi (self-control), and Baek-Jul-Bool-Gool (indomitable spirit). [Paragraph 4]",
+            "evidenceVi": "được đúc kết trong năm tôn chỉ cốt lõi: Lễ nghĩa (Ye-Ui), Liêm chính (Yom-Chi), Bền chí (In-Nae), Tự chủ (Guk-Gi), và Bất khuất (Baek-Jul-Bool-Gool). [Đoạn 4]",
+            "explanation": "'Tenet' là nguyên lý, giáo lý hoặc tôn chỉ triết học chỉ đạo hành vi, đồng nghĩa với 'core principle' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "crystallized in five core tenets: Ye-Ui (courtesy), Yom-Chi (integrity)...",
+              "clueAnswer": "core principles",
+              "keyPassage": "five core tenets",
+              "keyAnswer": "core principles",
+              "paraphrasePair": "tenets <=> core principles",
+              "meaningVi": "tôn chỉ, nguyên lý đạo đức cốt lõi",
+              "deductionLogic": "Được làm rõ qua danh sách 5 phẩm chất đạo đức theo sau dấu hai chấm."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "What concern did critics raise when Taekwondo became an official Olympic medal sport in Sydney 2000?",
+            "questionVi": "Các nhà phê bình đã bày tỏ lo ngại gì khi Taekwondo trở thành môn thể thao tranh huy chương chính thức tại Olympic Sydney 2000?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "That competitive sportification might dilute traditional ethical virtues",
+              "That the sport would be restricted exclusively to Asian athletes",
+              "That electronic chest protectors would cause electromagnetic hazards",
+              "That Olympic scoring rules would eliminate foot strikes entirely"
+            ],
+            "optionsVi": [
+              "A. Rằng việc thể thao hóa thi đấu có thể làm phai nhạt các giá trị đạo đức truyền thống",
+              "B. Rằng môn võ này sẽ chỉ dành riêng cho các vận động viên châu Á",
+              "C. Rằng giáp bảo hộ điện tử sẽ gây ra nguy hiểm điện từ",
+              "D. Rằng luật tính điểm Olympic sẽ loại bỏ hoàn toàn các đòn chân"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "critics expressed concern that competitive sportification might dilute these traditional virtues. [Paragraph 4]",
+            "evidenceVi": "các nhà phê bình bày tỏ lo ngại rằng việc thương mại/thể thao hóa thi đấu có thể làm phai nhạt những đức hạnh truyền thống này. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ nỗi lo của các nhà chuyên môn: sự cạnh tranh khốc liệt của thể thao hiện đại ('sportification') có thể làm suy giảm hoặc làm phai nhạt tinh thần võ đạo truyền thống ('dilute traditional virtues') (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Thông tin chi tiết (Factual Detail)",
+              "cluePassage": "critics expressed concern that competitive sportification might dilute these traditional virtues.",
+              "clueAnswer": "That competitive sportification might dilute traditional ethical virtues",
+              "keyPassage": "competitive sportification might dilute these traditional virtues",
+              "keyAnswer": "competitive sportification might dilute traditional ethical virtues",
+              "paraphrasePair": "these traditional virtues <=> traditional ethical virtues",
+              "meaningVi": "lo ngại việc thể thao hóa làm mai một đức hạnh truyền thống",
+              "deductionLogic": "Khớp câu 3 đoạn 4."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "How have modern Taekwondo federations responded to concerns regarding judging fairness?",
+            "questionVi": "Các liên đoàn Taekwondo hiện đại đã phản hồi thế nào đối với những lo ngại về tính công bằng khi chấm điểm?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "By adopting sensor-equipped electronic scoring systems to guarantee objective transparency",
+              "By reverting back to secret subjective judging panels without public displays",
+              "By removing referees completely and allowing athletes to call their own points",
+              "By canceling televised broadcasts of international championships"
+            ],
+            "optionsVi": [
+              "A. Bằng cách áp dụng hệ thống chấm điểm điện tử gắn cảm biến để đảm bảo tính minh bạch khách quan",
+              "B. Bằng cách quay lại ban giám khảo chấm điểm bí mật",
+              "C. Bằng cách bỏ trọng tài để võ sĩ tự chấm",
+              "D. Bằng cách hủy truyền hình trực tiếp"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "modern federations have embraced sensor-equipped electronic scoring systems to ensure absolute transparency [Paragraph 4]",
+            "evidenceVi": "các liên đoàn hiện đại đã đón nhận các hệ thống tính điểm điện tử gắn cảm biến để đảm bảo sự minh bạch tuyệt đối [Đoạn 4]",
+            "explanation": "Đoạn 4 khẳng định giải pháp công nghệ là việc tích hợp hệ thống chấm điểm cảm biến điện tử ('sensor-equipped electronic scoring systems') nhằm đảm bảo tính minh bạch tuyệt đối (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Giải pháp công nghệ (Technological Solution)",
+              "cluePassage": "embraced sensor-equipped electronic scoring systems to ensure absolute transparency",
+              "clueAnswer": "By adopting sensor-equipped electronic scoring systems to guarantee objective transparency",
+              "keyPassage": "sensor-equipped electronic scoring systems + absolute transparency",
+              "keyAnswer": "sensor-equipped electronic scoring systems + objective transparency",
+              "paraphrasePair": "embraced <=> adopting; ensure absolute transparency <=> guarantee objective transparency",
+              "meaningVi": "áp dụng hệ thống cảm biến điện tử để đảm bảo minh bạch",
+              "deductionLogic": "Trích dẫn nguyên văn ở câu 4 đoạn 4."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "What is the concluding message of the passage regarding Taekwondo's global status?",
+            "questionVi": "Thông điệp kết luận của bài đọc về vị thế toàn cầu của Taekwondo là gì?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "It stands as an enduring symbol of Korean cultural resilience, practiced across 200 nations",
+              "It will soon be replaced by automated robotics in Olympic competitions",
+              "It has abandoned all historical Korean customs in favor of commercial entertainment",
+              "It is strictly limited to military academies within the Korean peninsula"
+            ],
+            "optionsVi": [
+              "A. Nó là biểu tượng trường tồn cho sức sống kiên cường của văn hóa Hàn Quốc, được luyện tập tại hơn 200 quốc gia",
+              "B. Nó sẽ sớm bị thay thế bởi robot tự động trong các cuộc thi Olympic",
+              "C. Nó đã từ bỏ mọi phong tục lịch sử Hàn Quốc để chạy theo giải trí thương mại",
+              "D. Nó bị giới hạn nghiêm ngặt trong các học viện quân sự trên bán đảo Triều Tiên"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Today, practiced by over eighty million individuals across two hundred nations, Taekwondo stands as a living testament to Korea's cultural resilience. [Paragraph 4]",
+            "evidenceVi": "Ngày nay, được luyện tập bởi hơn tám mươi triệu người trên khắp hai trăm quốc gia, Taekwondo sừng sững như một minh chứng sống động cho sức sống kiên cường của nền văn hóa Hàn Quốc. [Đoạn 4]",
+            "explanation": "Câu kết bài khẳng định Taekwondo với hơn 80 triệu người tập trên 200 quốc gia là một minh chứng sống động cho sự kiên cường và sức sống mãnh liệt của văn hóa Hàn Quốc (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "practiced by over eighty million individuals across two hundred nations, Taekwondo stands as a living testament to Korea's cultural resilience.",
+              "clueAnswer": "It stands as an enduring symbol of Korean cultural resilience, practiced across 200 nations",
+              "keyPassage": "across two hundred nations + living testament to Korea's cultural resilience",
+              "keyAnswer": "symbol of Korean cultural resilience, practiced across 200 nations",
+              "paraphrasePair": "living testament <=> enduring symbol",
+              "meaningVi": "minh chứng sống động cho sức sống văn hóa kiên cường",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Youth Career Shifts: Physical Trading vs. Modern Marketing",
+        "topic": "Sự chuyển dịch nghề nghiệp của giới trẻ: Đối chiếu mô hình buôn bán vật lý truyền thống với tiếp thị số & kinh tế sáng tạo nội dung",
+        "timeAllowed": 15,
+        "passage": "<p>Across developing and industrialized economies alike, an unmistakable generational transformation is reshaping the landscape of youth employment. A generation ago, ambitious young entrepreneurs predominantly pursued commercial success through physical merchandising and wholesale trading—securing a prominent storefront in a bustling market street, accumulating tangible inventory, and cultivating personal patron networks through face-to-face bargaining. Today, however, an escalating cohort of young professionals is bypassing physical shopfronts altogether, channeling their entrepreneurial ambitions into digital marketing, algorithmic content creation, e-commerce arbitrage, and performance advertising. This generational shift reflects far more than mere novelty; it represents a profound realignment of capital economics, technological infrastructure, and cognitive skill sets.</p><p>The starkest divergence between traditional physical commerce and modern marketing lies in capital barriers to entry and scalability. Operating a brick-and-mortar boutique demands substantial upfront capital expenditure, encompassing exorbitant commercial leases, interior renovations, utility overheads, and the continuous financial risk of perishable or unsold inventory occupying expensive warehouse shelves. Consequently, a merchant's revenue is fundamentally constrained by foot traffic within a localized geographic radius. Conversely, the digital marketing paradigm leverages cloud infrastructure, social media algorithms, and dropshipping mechanisms that radically compress startup costs. A solitary marketer operating a laptop from a coworking space can orchestrate targeted ad campaigns on Meta or TikTok, instantly showcasing products to hundreds of thousands of demographically segmented consumers across multiple continents.</p><p>This transition has fundamentally redefined the core cognitive competencies prized in the marketplace. Traditional merchants relied upon experiential intuition, keen physical inspection of commodity quality, and charismatic interpersonal negotiation to forge customer loyalty. In contrast, modern digital marketers operate as quantitative data analysts and narrative psychologists. Fluency in search engine optimization (SEO), conversion rate optimization (CRO), multi-variant A/B testing, and return-on-ad-spend (ROAS) metrics has superseded traditional salesmanship. Moreover, the rise of the 'creator economy' demands sophisticated storytelling and visual branding; young marketers must produce engaging short-form video hooks capable of capturing fleeting human attention spans within the first three seconds of a feed scroll.</p><p>Nevertheless, the hyper-digitalized marketing frontier introduces unprecedented structural vulnerabilities. While traditional shopkeepers faced localized rent hikes or seasonal lulls, modern digital entrepreneurs are entirely beholden to opaque, unilateral algorithmic shifts enacted by monopolistic platform giants. A sudden update to search ranking protocols or social privacy policies can decimate organic web traffic overnight, rendering profitable business models obsolete without warning. Furthermore, the pressure of continuous content production and round-the-clock analytics monitoring frequently induces severe psychological burnout. Therefore, forward-looking business scholars argue that the most enduring commercial enterprises will not abandon physical commerce entirely, but rather synthesize the authenticity and tangible reliability of traditional trading with the analytical agility and borderless reach of modern digital marketing.</p>",
+        "vocab": [
+          {
+            "word": "entrepreneur",
+            "pos": "n",
+            "ipa": "/ˌɒn.trə.prəˈnɜːr/",
+            "level": "B2",
+            "mean": "nhà khởi nghiệp, doanh nhân",
+            "syns": [
+              "business founder",
+              "innovator",
+              "tycoon"
+            ],
+            "ex": "Young entrepreneurs are launching e-commerce brands with minimal upfront capital."
+          },
+          {
+            "word": "merchandising",
+            "pos": "n",
+            "ipa": "/ˈmɜː.tʃən.daɪ.zɪŋ/",
+            "level": "B2",
+            "mean": "hoạt động buôn bán, kinh doanh hàng hóa",
+            "syns": [
+              "retailing",
+              "trading",
+              "commercial dealing"
+            ],
+            "ex": "Traditional merchandising depended heavily on physical store presentation."
+          },
+          {
+            "word": "tangible",
+            "pos": "adj",
+            "ipa": "/ˈtæn.dʒə.bəl/",
+            "level": "B2",
+            "mean": "hữu hình, có thể sờ chạm thấy được",
+            "syns": [
+              "physical",
+              "palpable",
+              "concrete"
+            ],
+            "ex": "Storing tangible goods carries risks of physical damage and theft."
+          },
+          {
+            "word": "patron",
+            "pos": "n",
+            "ipa": "/ˈpeɪ.trən/",
+            "level": "B2",
+            "mean": "khách hàng quen, người bảo trợ",
+            "syns": [
+              "regular customer",
+              "client",
+              "supporter"
+            ],
+            "ex": "Traditional shopkeepers relied on local patrons returning week after week."
+          },
+          {
+            "word": "escalating",
+            "pos": "adj",
+            "ipa": "/ˈes.kə.leɪ.tɪŋ/",
+            "level": "B2",
+            "mean": "gia tăng nhanh chóng, ngày càng mở rộng",
+            "syns": [
+              "growing",
+              "surging",
+              "mounting"
+            ],
+            "ex": "An escalating number of university graduates choose remote marketing roles."
+          },
+          {
+            "word": "cohort",
+            "pos": "n",
+            "ipa": "/ˈkəʊ.hɔːt/",
+            "level": "C1",
+            "mean": "nhóm người cùng chung đặc điểm hoặc thời kỳ",
+            "syns": [
+              "generation",
+              "demographic group",
+              "bracket"
+            ],
+            "ex": "This youthful cohort prefers digital nomad lifestyles over retail desk jobs."
+          },
+          {
+            "word": "realignment",
+            "pos": "n",
+            "ipa": "/ˌriː.əˈlaɪn.mənt/",
+            "level": "C1",
+            "mean": "sự tái định hình, điều chỉnh lại cấu trúc",
+            "syns": [
+              "reorganization",
+              "restructuring",
+              "reorientation"
+            ],
+            "ex": "The job market is experiencing a profound realignment toward online services."
+          },
+          {
+            "word": "divergence",
+            "pos": "n",
+            "ipa": "/daɪˈvɜː.dʒəns/",
+            "level": "B2",
+            "mean": "sự khác biệt, phân kỳ rõ rệt",
+            "syns": [
+              "difference",
+              "disparity",
+              "distinction"
+            ],
+            "ex": "There is a sharp divergence between physical store overheads and digital ad costs."
+          },
+          {
+            "word": "brick-and-mortar",
+            "pos": "adj",
+            "ipa": "/ˌbrɪk.ənˈmɔː.tər/",
+            "level": "B2",
+            "mean": "kinh doanh cửa hàng vật lý truyền thống",
+            "syns": [
+              "physical store",
+              "traditional retail"
+            ],
+            "ex": "High rental prices make brick-and-mortar stores difficult for youths to sustain."
+          },
+          {
+            "word": "exorbitant",
+            "pos": "adj",
+            "ipa": "/ɪɡˈzɔː.bɪ.tənt/",
+            "level": "B2",
+            "mean": "đắt đỏ cắt cổ, vượt quá mức hợp lý",
+            "syns": [
+              "excessive",
+              "extravagant",
+              "prohibitive"
+            ],
+            "ex": "Exorbitant downtown rents deter young entrepreneurs from opening physical shops."
+          },
+          {
+            "word": "overhead",
+            "pos": "n",
+            "ipa": "/ˈəʊ.və.hed/",
+            "level": "B2",
+            "mean": "chi phí vận hành thường xuyên (mặt bằng, điện nước)",
+            "syns": [
+              "operating costs",
+              "running expenses"
+            ],
+            "ex": "Digital businesses operate with remarkably lean monthly overheads."
+          },
+          {
+            "word": "perishable",
+            "pos": "adj",
+            "ipa": "/ˈper.ɪ.ʃə.bəl/",
+            "level": "B2",
+            "mean": "dễ hư hỏng, có hạn sử dụng ngắn",
+            "syns": [
+              "spoilable",
+              "decayable",
+              "short-lived"
+            ],
+            "ex": "Managing perishable stock requires sophisticated cold-chain logistics."
+          },
+          {
+            "word": "paradigm",
+            "pos": "n",
+            "ipa": "/ˈpær.ə.daɪm/",
+            "level": "C1",
+            "mean": "mô hình, khuôn mẫu tư duy",
+            "syns": [
+              "model",
+              "framework",
+              "archetype"
+            ],
+            "ex": "The e-commerce paradigm shifts power from local merchants to global platforms."
+          },
+          {
+            "word": "compress",
+            "pos": "v",
+            "ipa": "/kəmˈpres/",
+            "level": "B2",
+            "mean": "thu nhỏ, nén giảm tối đa",
+            "syns": [
+              "reduce",
+              "shrink",
+              "condense"
+            ],
+            "ex": "Automation and cloud computing compress the financial resources needed to launch."
+          },
+          {
+            "word": "segmented",
+            "pos": "adj",
+            "ipa": "/ˈseɡ.mən.tɪd/",
+            "level": "B2",
+            "mean": "được phân khúc kỹ lưỡng theo tệp",
+            "syns": [
+              "targeted",
+              "compartmentalized",
+              "categorized"
+            ],
+            "ex": "Ads are shown to carefully segmented demographics based on online behavior."
+          },
+          {
+            "word": "competency",
+            "pos": "n",
+            "ipa": "/ˈkɒm.pɪ.tən.si/",
+            "level": "B2",
+            "mean": "năng lực chuyên môn, kỹ năng cốt lõi",
+            "syns": [
+              "proficiency",
+              "skill set",
+              "capability"
+            ],
+            "ex": "Data analytics has become a mandatory competency for modern marketing directors."
+          },
+          {
+            "word": "intuition",
+            "pos": "n",
+            "ipa": "/ˌɪn.tʃuːˈɪʃ.ən/",
+            "level": "B2",
+            "mean": "trực giác, cảm nhận dựa trên kinh nghiệm",
+            "syns": [
+              "instinct",
+              "gut feeling",
+              "hunch"
+            ],
+            "ex": "Seasoned traders relied on personal intuition to judge customer purchasing intent."
+          },
+          {
+            "word": "charismatic",
+            "pos": "adj",
+            "ipa": "/ˌkær.ɪzˈmæt.ɪk/",
+            "level": "B2",
+            "mean": "có sức hút, lôi cuốn hấp dẫn",
+            "syns": [
+              "magnetic",
+              "charming",
+              "captivating"
+            ],
+            "ex": "A charismatic sales clerk could persuade undecided buyers to finalize deals."
+          },
+          {
+            "word": "supersede",
+            "pos": "v",
+            "ipa": "/ˌsuː.pəˈsiːd/",
+            "level": "C1",
+            "mean": "thay thế vị trí của cái cũ",
+            "syns": [
+              "replace",
+              "supplant",
+              "override"
+            ],
+            "ex": "Algorithmic ad placement has superseded traditional newspaper classifieds."
+          },
+          {
+            "word": "fleeting",
+            "pos": "adj",
+            "ipa": "/ˈfliː.tɪŋ/",
+            "level": "B2",
+            "mean": "thoáng qua, ngắn ngủi chớp nhoáng",
+            "syns": [
+              "transient",
+              "ephemeral",
+              "brief"
+            ],
+            "ex": "Video creators have only a fleeting moment to capture viewer attention."
+          },
+          {
+            "word": "vulnerability",
+            "pos": "n",
+            "ipa": "/ˌvʌl.nər.əˈbɪl.ə.ti/",
+            "level": "B2",
+            "mean": "lỗ hổng tổn thương, sự suy yếu dễ bị tác động",
+            "syns": [
+              "weakness",
+              "susceptibility",
+              "exposure"
+            ],
+            "ex": "Heavy reliance on a single social platform creates catastrophic business vulnerability."
+          },
+          {
+            "word": "beholden",
+            "pos": "adj",
+            "ipa": "/bɪˈhəʊl.dən/",
+            "level": "C1",
+            "mean": "bị lệ thuộc, chịu ơn hoặc phụ thuộc hoàn toàn",
+            "syns": [
+              "indebted",
+              "dependent",
+              "subservient"
+            ],
+            "ex": "Content creators are beholden to algorithmic tweaks outside their control."
+          },
+          {
+            "word": "unilateral",
+            "pos": "adj",
+            "ipa": "/ˌjuː.nɪˈlæt.ər.əl/",
+            "level": "C1",
+            "mean": "đơn phương, từ một phía",
+            "syns": [
+              "one-sided",
+              "independent",
+              "autonomous"
+            ],
+            "ex": "A unilateral change in platform commissions can cut an influencer's earnings in half."
+          },
+          {
+            "word": "decimate",
+            "pos": "v",
+            "ipa": "/ˈdes.ɪ.meɪt/",
+            "level": "C1",
+            "mean": "tàn phá nặng nề, quét sạch",
+            "syns": [
+              "devastate",
+              "destroy",
+              "wipe out"
+            ],
+            "ex": "A sudden Google algorithm rollout decimated web traffic to smaller retail blogs."
+          },
+          {
+            "word": "obsolete",
+            "pos": "adj",
+            "ipa": "/ˌɒb.səˈliːt/",
+            "level": "B2",
+            "mean": "lỗi thời, không còn phù hợp",
+            "syns": [
+              "outdated",
+              "archaic",
+              "antiquated"
+            ],
+            "ex": "Static advertising tactics quickly become obsolete in fast-moving digital spaces."
+          },
+          {
+            "word": "burnout",
+            "pos": "n",
+            "ipa": "/ˈbɜːn.aʊt/",
+            "level": "B2",
+            "mean": "sự kiệt sức về thể chất lẫn tinh thần",
+            "syns": [
+              "exhaustion",
+              "fatigue",
+              "overwork"
+            ],
+            "ex": "Round-the-clock content generation often leads to severe psychological burnout."
+          },
+          {
+            "word": "synthesize",
+            "pos": "v",
+            "ipa": "/ˈsɪn.θə.saɪz/",
+            "level": "B2",
+            "mean": "tổng hợp, kết hợp nhuần nhuyễn",
+            "syns": [
+              "integrate",
+              "combine",
+              "fuse"
+            ],
+            "ex": "Successful brands synthesize physical showroom experiences with online shopping apps."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "What is the central focus of the passage?",
+            "questionVi": "Nội dung trọng tâm của toàn bộ bài đọc là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "Analyzing the shift from physical retail trading to digital marketing among youth and comparing their economic dynamics",
+              "Arguing that physical storefronts will completely vanish from urban centers within the next five years",
+              "Explaining how to configure multi-variant A/B split testing software on e-commerce websites",
+              "Demonstrating why social media content creation always leads to career failure"
+            ],
+            "optionsVi": [
+              "A. Phân tích sự chuyển dịch từ buôn bán vật lý sang tiếp thị số của giới trẻ và đối chiếu động lực kinh tế của hai mô hình",
+              "B. Lập luận rằng các cửa hàng vật lý sẽ biến mất hoàn toàn khỏi các đô thị trong 5 năm tới",
+              "C. Hướng dẫn cách cài đặt phần mềm thử nghiệm phân tách A/B trên các trang thương mại điện tử",
+              "D. Chứng minh vì sao sáng tạo nội dung mạng xã hội luôn dẫn tới thất bại nghề nghiệp"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "represents a profound realignment of capital economics, technological infrastructure, and cognitive skill sets. [Paragraph 1]",
+            "evidenceVi": "thể hiện một sự tái cơ cấu sâu sắc về kinh tế vốn, cơ sở hạ tầng công nghệ và các tập hợp kỹ năng nhận thức. [Đoạn 1]",
+            "explanation": "Bài đọc so sánh toàn diện giữa mô hình buôn bán vật lý truyền thống và tiếp thị kỹ thuật số của giới trẻ trên các khía cạnh: chi phí vốn, năng lực cốt lõi, rủi ro cấu trúc và hướng tích hợp lai (A).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "represents a profound realignment of capital economics, technological infrastructure, and cognitive skill sets.",
+              "clueAnswer": "Analyzing the shift from physical retail trading to digital marketing among youth and comparing their economic dynamics",
+              "keyPassage": "realignment of capital economics, technological infrastructure, and cognitive skill sets",
+              "keyAnswer": "shift from physical retail trading to digital marketing... comparing economic dynamics",
+              "paraphrasePair": "realignment <=> shift; capital economics <=> economic dynamics",
+              "meaningVi": "phân tích sự chuyển dịch và so sánh động lực kinh tế của 2 mô hình",
+              "deductionLogic": "Khái quát luận điểm phát triển xuyên suốt 4 đoạn văn."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "According to paragraph 1, how did ambitious young people in the previous generation primarily seek commercial success?",
+            "questionVi": "Theo đoạn 1, những người trẻ đầy tham vọng ở thế hệ trước chủ yếu tìm kiếm thành công thương mại bằng cách nào?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Through physical merchandising, accumulating tangible inventory, and face-to-face bargaining",
+              "By running algorithmic ad campaigns on international social networks",
+              "By writing Python automation scripts for cross-border dropshipping",
+              "By obtaining remote marketing internships at global advertising agencies"
+            ],
+            "optionsVi": [
+              "A. Thông qua buôn bán hàng hóa vật lý, tích lũy hàng tồn kho và mặc cả đàm phán trực tiếp",
+              "B. Bằng cách chạy chiến dịch quảng cáo thuật toán trên mạng xã hội quốc tế",
+              "C. Bằng cách viết mã tự động hóa Python để dropshipping xuyên biên giới",
+              "D. Bằng cách thực tập tiếp thị từ xa tại các đại lý quảng cáo toàn cầu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "A generation ago, ambitious young entrepreneurs predominantly pursued commercial success through physical merchandising and wholesale trading—securing a prominent storefront in a bustling market street, accumulating tangible inventory, and cultivating personal patron networks through face-to-face bargaining. [Paragraph 1]",
+            "evidenceVi": "Một thế hệ trước, các doanh nhân trẻ đầy hoài bão chủ yếu theo đuổi thành công qua buôn bán vật lý và bán buôn - giành mặt tiền nổi bật trên phố buôn bán sầm uất, tích trữ hàng hóa hữu hình và gây dựng mạng lưới khách quen qua mặc cả trực tiếp. [Đoạn 1]",
+            "explanation": "Đoạn 1 mô tả rõ các yếu tố của thế hệ trước: mở cửa hàng vật lý, tích trữ hàng hóa (tangible inventory) và mặc cả đàm phán mặt đối mặt (face-to-face bargaining) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Thông tin chi tiết (Factual Detail)",
+              "cluePassage": "pursued commercial success through physical merchandising and wholesale trading... accumulating tangible inventory, and cultivating personal patron networks through face-to-face bargaining.",
+              "clueAnswer": "Through physical merchandising, accumulating tangible inventory, and face-to-face bargaining",
+              "keyPassage": "physical merchandising + accumulating tangible inventory + face-to-face bargaining",
+              "keyAnswer": "physical merchandising, accumulating tangible inventory, and face-to-face bargaining",
+              "paraphrasePair": "wholesale trading <=> physical merchandising",
+              "meaningVi": "buôn bán hàng hóa vật lý và đàm phán mặt đối mặt",
+              "deductionLogic": "Khớp chính xác câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "The word 'exorbitant' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'exorbitant' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "excessively high",
+              "affordable",
+              "negotiable",
+              "flexible"
+            ],
+            "optionsVi": [
+              "A. cao quá mức, đắt đỏ cắt cổ (excessively high)",
+              "B. phải chăng, vừa túi tiền (affordable)",
+              "C. có thể thương lượng được (negotiable)",
+              "D. linh hoạt (flexible)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "encompassing exorbitant commercial leases, interior renovations, utility overheads [Paragraph 2]",
+            "evidenceVi": "bao gồm tiền thuê mặt bằng thương mại đắt đỏ cắt cổ, cải tạo nội thất, chi phí tiện ích điện nước [Đoạn 2]",
+            "explanation": "'Exorbitant leases' chỉ giá thuê mặt bằng đắt đỏ vô lý, vượt xa mức bình thường, đồng nghĩa với 'excessively high' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "encompassing exorbitant commercial leases, interior renovations",
+              "clueAnswer": "excessively high",
+              "keyPassage": "exorbitant commercial leases",
+              "keyAnswer": "excessively high commercial leases",
+              "paraphrasePair": "exorbitant <=> excessively high",
+              "meaningVi": "đắt đỏ quá mức, cắt cổ",
+              "deductionLogic": "Mô tả gánh nặng tài chính lớn khi thuê mặt bằng."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "In paragraph 2, what geographical limitation is associated with traditional physical commerce?",
+            "questionVi": "Trong đoạn 2, giới hạn địa lý nào gắn liền với thương mại vật lý truyền thống?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Revenue is fundamentally constrained by foot traffic within a localized geographic radius",
+              "Stores cannot legally sell products that were imported from other countries",
+              "Local governments prohibit physical shops from operating during the winter months",
+              "Traditional merchants are forbidden from displaying printed price signs"
+            ],
+            "optionsVi": [
+              "A. Doanh thu bị giới hạn căn bản bởi lưu lượng người đi bộ trong bán kính địa lý cục bộ",
+              "B. Các cửa hàng bị cấm bán các sản phẩm nhập khẩu từ nước ngoài",
+              "C. Chính quyền địa phương cấm các cửa hàng vật lý hoạt động vào mùa đông",
+              "D. Các thương nhân truyền thống bị cấm niêm yết biển giá in sẵn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Consequently, a merchant's revenue is fundamentally constrained by foot traffic within a localized geographic radius. [Paragraph 2]",
+            "evidenceVi": "Do đó, doanh thu của thương nhân bị giới hạn căn bản bởi lượng khách đi bộ qua lại trong một bán kính địa lý cục bộ. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ điểm yếu của cửa hàng truyền thống: doanh số phụ thuộc chặt chẽ vào lượng người qua lại trong một phạm vi địa lý hẹp ('foot traffic within a localized geographic radius') (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Giới hạn vật lý (Geographic Constraint)",
+              "cluePassage": "a merchant's revenue is fundamentally constrained by foot traffic within a localized geographic radius.",
+              "clueAnswer": "Revenue is fundamentally constrained by foot traffic within a localized geographic radius",
+              "keyPassage": "constrained by foot traffic within a localized geographic radius",
+              "keyAnswer": "constrained by foot traffic within a localized geographic radius",
+              "paraphrasePair": "revenue is constrained <=> revenue is limited",
+              "meaningVi": "doanh thu bị kìm hãm bởi lượng khách qua lại cục bộ",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "The phrase 'compress startup costs' in paragraph 2 means that digital marketing:",
+            "questionVi": "Cụm từ 'compress startup costs' trong đoạn 2 có nghĩa là tiếp thị kỹ thuật số:",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "significantly lowers the financial investment required to launch a business",
+              "delays all business tax payments until international delivery is complete",
+              "forces founders to purchase expensive mainframe computers",
+              "eliminates the necessity of producing high-quality consumer products"
+            ],
+            "optionsVi": [
+              "A. giảm đáng kể lượng vốn đầu tư tài chính cần thiết để bắt đầu kinh doanh",
+              "B. hoãn mọi khoản thanh toán thuế doanh nghiệp cho đến khi giao hàng quốc tế",
+              "C. buộc các nhà sáng lập phải mua các máy tính lớn đắt đỏ",
+              "D. loại bỏ sự cần thiết của việc sản xuất các sản phẩm chất lượng cao"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "digital marketing paradigm leverages cloud infrastructure, social media algorithms, and dropshipping mechanisms that radically compress startup costs. [Paragraph 2]",
+            "evidenceVi": "mô hình tiếp thị kỹ thuật số tận dụng hạ tầng đám mây, thuật toán mạng xã hội và cơ chế dropshipping để cắt giảm tối đa chi phí khởi sự kinh doanh. [Đoạn 2]",
+            "explanation": "'Compress startup costs' có nghĩa là nén nhỏ, cắt giảm mạnh chi phí khởi nghiệp ban đầu, tương đương với 'significantly lowers the financial investment required to launch' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Ý nghĩa cụm từ (Phrasal Meaning)",
+              "cluePassage": "dropshipping mechanisms that radically compress startup costs.",
+              "clueAnswer": "significantly lowers the financial investment required to launch a business",
+              "keyPassage": "radically compress startup costs",
+              "keyAnswer": "significantly lowers financial investment required to launch",
+              "paraphrasePair": "radically compress <=> significantly lowers; startup costs <=> investment required to launch",
+              "meaningVi": "cắt giảm tối đa chi phí khởi sự ban đầu",
+              "deductionLogic": "Đối lập với chi phí đắt đỏ của cửa hàng truyền thống."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "According to paragraph 3, which skills have superseded traditional charismatic salesmanship?",
+            "questionVi": "Theo đoạn 3, những kỹ năng nào đã thay thế tài chào mời bán hàng lôi cuốn truyền thống?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "SEO, conversion rate optimization, multi-variant testing, and data analytics",
+              "Physical commodity manufacturing and industrial blacksmithing",
+              "Handwritten calligraphy and direct postal correspondence",
+              "Door-to-door catalog distribution and public auctioneering"
+            ],
+            "optionsVi": [
+              "A. Tối ưu hóa công cụ tìm kiếm (SEO), tối ưu tỷ lệ chuyển đổi, thử nghiệm A/B và phân tích dữ liệu",
+              "B. Sản xuất hàng hóa vật lý và nghề rèn cơ khí công nghiệp",
+              "C. Viết thư pháp bằng tay và gửi thư từ qua đường bưu điện",
+              "D. Phát tờ rơi danh mục đến từng nhà và bán đấu giá công khai"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Fluency in search engine optimization (SEO), conversion rate optimization (CRO), multi-variant A/B testing, and return-on-ad-spend (ROAS) metrics has superseded traditional salesmanship. [Paragraph 3]",
+            "evidenceVi": "Sự thông thạo về tối ưu hóa công cụ tìm kiếm (SEO), tối ưu hóa tỷ lệ chuyển đổi (CRO), thử nghiệm phân tách A/B đa biến và các chỉ số lợi nhuận trên chi tiêu quảng cáo (ROAS) đã thay thế kỹ năng bán hàng truyền thống. [Đoạn 3]",
+            "explanation": "Đoạn 3 liệt kê cụ thể các kỹ năng số mới thay thế tài ăn nói truyền thống: SEO, CRO, A/B testing và các chỉ số đo lường hiệu quả quảng cáo ROAS (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Kỹ năng chuyên môn (Skill Set Detail)",
+              "cluePassage": "Fluency in search engine optimization (SEO), conversion rate optimization (CRO), multi-variant A/B testing... has superseded traditional salesmanship.",
+              "clueAnswer": "SEO, conversion rate optimization, multi-variant testing, and data analytics",
+              "keyPassage": "SEO, CRO, multi-variant A/B testing, and ROAS metrics has superseded traditional salesmanship",
+              "keyAnswer": "SEO, conversion rate optimization, multi-variant testing, and data analytics",
+              "paraphrasePair": "superseded <=> replaced",
+              "meaningVi": "kỹ năng phân tích dữ liệu và tối ưu số thay thế nghệ thuật bán hàng cũ",
+              "deductionLogic": "Khớp câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "The word 'beholden' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'beholden' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "dependent on",
+              "indifferent to",
+              "superior to",
+              "opposed to"
+            ],
+            "optionsVi": [
+              "A. bị phụ thuộc vào, lệ thuộc (dependent on)",
+              "B. thờ ơ với (indifferent to)",
+              "C. vượt trội hơn (superior to)",
+              "D. phản đối, chống lại (opposed to)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "modern digital entrepreneurs are entirely beholden to opaque, unilateral algorithmic shifts enacted by monopolistic platform giants. [Paragraph 4]",
+            "evidenceVi": "các doanh nhân kỹ thuật số hiện đại hoàn toàn bị lệ thuộc vào những thay đổi thuật toán đơn phương, thiếu minh bạch do các tập đoàn nền tảng độc quyền ban hành. [Đoạn 4]",
+            "explanation": "'Beholden to' có nghĩa là bị chi phối, lệ thuộc vào quyền lực của ai đó, đồng nghĩa với 'dependent on' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "modern digital entrepreneurs are entirely beholden to opaque, unilateral algorithmic shifts",
+              "clueAnswer": "dependent on",
+              "keyPassage": "beholden to... algorithmic shifts",
+              "keyAnswer": "dependent on algorithmic shifts",
+              "paraphrasePair": "beholden to <=> dependent on",
+              "meaningVi": "bị lệ thuộc, chịu sự chi phối",
+              "deductionLogic": "Mô tả sự bất lực của người làm tiếp thị khi nền tảng đổi thuật toán."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "What structural vulnerability of modern digital entrepreneurship is highlighted in paragraph 4?",
+            "questionVi": "Lỗ hổng cấu trúc nào của việc kinh doanh số hiện đại được nêu bật trong đoạn 4?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Unannounced platform algorithm changes can destroy web traffic and render business models obsolete overnight",
+              "Digital marketers are legally required to pay physical property taxes in every country they target",
+              "Computer monitors emit dangerous radiation that stops internet routers from functioning",
+              "Young professionals are unable to access cloud software without physical paper licenses"
+            ],
+            "optionsVi": [
+              "A. Những thay đổi thuật toán đột ngột của nền tảng có thể phá hủy lưu lượng truy cập và khiến mô hình kinh doanh phá sản sau một đêm",
+              "B. Người làm tiếp thị số bị pháp luật bắt buộc nộp thuế bất động sản ở mọi quốc gia nhắm tới",
+              "C. Màn hình máy tính phát ra bức xạ nguy hiểm ngăn chặn các bộ định tuyến internet hoạt động",
+              "D. Giới trẻ không thể truy cập phần mềm đám mây nếu không có giấy phép bằng giấy"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "A sudden update to search ranking protocols or social privacy policies can decimate organic web traffic overnight, rendering profitable business models obsolete without warning. [Paragraph 4]",
+            "evidenceVi": "Một bản cập nhật bất ngờ đối với giao thức xếp hạng tìm kiếm hoặc chính sách bảo mật mạng xã hội có thể quét sạch lưu lượng truy cập tự nhiên sau một đêm, biến các mô hình kinh doanh đang có lãi thành lỗi thời mà không có bất kỳ cảnh báo nào. [Đoạn 4]",
+            "explanation": "Đoạn 4 nhấn mạnh rủi ro chí mạng: phụ thuộc vào thuật toán của các ông lớn công nghệ, một bản cập nhật có thể xóa sổ lưu lượng truy cập tự nhiên chỉ sau một đêm (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Rủi ro cấu trúc (Structural Vulnerability)",
+              "cluePassage": "sudden update to search ranking protocols... can decimate organic web traffic overnight, rendering profitable business models obsolete",
+              "clueAnswer": "Unannounced platform algorithm changes can destroy web traffic and render business models obsolete overnight",
+              "keyPassage": "decimate organic web traffic overnight + rendering profitable business models obsolete",
+              "keyAnswer": "destroy web traffic and render business models obsolete overnight",
+              "paraphrasePair": "decimate <=> destroy; render obsolete <=> make unusable",
+              "meaningVi": "thay đổi thuật toán có thể xóa sổ lượng truy cập sau một đêm",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "What psychological toll does modern digital marketing impose on content creators according to paragraph 4?",
+            "questionVi": "Tác động tâm lý tiêu cực nào mà tiếp thị số hiện đại gây ra cho người sáng tạo nội dung theo đoạn 4?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Severe psychological burnout from continuous content production and 24/7 analytics monitoring",
+              "A complete loss of long-term memory regarding childhood experiences",
+              "The inability to comprehend basic spoken language during face-to-face conversations",
+              "An irrational phobia of smartphones and wireless internet networks"
+            ],
+            "optionsVi": [
+              "A. Sự kiệt sức tâm lý nghiêm trọng do phải liên tục sản xuất nội dung và theo dõi chỉ số 24/7",
+              "B. Mất hoàn toàn trí nhớ dài hạn về những trải nghiệm thời thơ ấu",
+              "C. Không thể hiểu ngôn ngữ nói cơ bản trong các cuộc trò chuyện trực tiếp",
+              "D. Nỗi sợ hãi vô lý đối với điện thoại thông minh và mạng internet không dây"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the pressure of continuous content production and round-the-clock analytics monitoring frequently induces severe psychological burnout. [Paragraph 4]",
+            "evidenceVi": "áp lực sản xuất nội dung liên tục và theo dõi các phân tích dữ liệu suốt ngày đêm thường gây ra sự kiệt sức tâm lý nghiêm trọng. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ áp lực ra nội dung liên tục và theo dõi số liệu 24/7 dẫn tới hội chứng kiệt sức tâm lý trầm trọng ('severe psychological burnout') (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Tác động tâm lý (Psychological Impact)",
+              "cluePassage": "pressure of continuous content production and round-the-clock analytics monitoring frequently induces severe psychological burnout.",
+              "clueAnswer": "Severe psychological burnout from continuous content production and 24/7 analytics monitoring",
+              "keyPassage": "continuous content production + round-the-clock analytics monitoring + severe psychological burnout",
+              "keyAnswer": "Severe psychological burnout + continuous content production + 24/7 analytics monitoring",
+              "paraphrasePair": "round-the-clock <=> 24/7; induces <=> causes",
+              "meaningVi": "kiệt sức tâm lý vì phải liên tục sản xuất nội dung và canh số liệu",
+              "deductionLogic": "Khớp câu 3 đoạn 4."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "According to the concluding sentence, what constitutes the most resilient business strategy?",
+            "questionVi": "Theo câu kết bài, điều gì cấu thành chiến lược kinh doanh bền vững và kiên cường nhất?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "Synthesizing the tangible reliability of traditional trading with the analytical agility of digital marketing",
+              "Abandoning digital advertising completely to reopen nineteenth-century wholesale bazaars",
+              "Relying entirely on anonymous third-party influencers without any product quality checks",
+              "Outsourcing all commercial decision-making to unmonitored artificial intelligence bots"
+            ],
+            "optionsVi": [
+              "A. Kết hợp độ tin cậy hữu hình của buôn bán truyền thống với sự nhanh nhạy phân tích của tiếp thị số",
+              "B. Từ bỏ hoàn toàn quảng cáo số để mở lại các chợ bán buôn của thế kỷ 19",
+              "C. Phụ thuộc hoàn toàn vào các KOL vô danh mà không kiểm tra chất lượng sản phẩm",
+              "D. Thuê ngoài toàn bộ quyết định kinh doanh cho các bot trí tuệ nhân tạo không được kiểm soát"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "synthesize the authenticity and tangible reliability of traditional trading with the analytical agility and borderless reach of modern digital marketing. [Paragraph 4]",
+            "evidenceVi": "tổng hòa tính chân thực và độ tin cậy hữu hình của thương mại truyền thống với sự linh hoạt trong phân tích và tầm với không biên giới của tiếp thị kỹ thuật số hiện đại. [Đoạn 4]",
+            "explanation": "Câu kết khẳng định mô hình doanh nghiệp bền vững nhất trong tương lai là sự dung hợp (synthesize) giữa độ tin cậy của kinh doanh vật lý truyền thống với sự nhạy bén và độ phủ toàn cầu của tiếp thị số (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "synthesize the authenticity and tangible reliability of traditional trading with the analytical agility and borderless reach of modern digital marketing.",
+              "clueAnswer": "Synthesizing the tangible reliability of traditional trading with the analytical agility of digital marketing",
+              "keyPassage": "synthesize... tangible reliability of traditional trading with... analytical agility of modern digital marketing",
+              "keyAnswer": "Synthesizing the tangible reliability of traditional trading with the analytical agility of digital marketing",
+              "paraphrasePair": "synthesize <=> combine/integrate",
+              "meaningVi": "kết hợp tính tin cậy hữu hình với sự nhanh nhạy phân tích số",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Saturated vs. Unsaturated Fats in Human Nutrition & Health",
+        "topic": "Hóa sinh dinh dưỡng & bệnh tim mạch: Cấu trúc phân tử lipid, cơ chế chuyển hóa cholesterol LDL-HDL & góc nhìn y khoa hiện đại về chất béo",
+        "timeAllowed": 15,
+        "passage": "<p>For more than half a century, dietary lipids have occupied the epicenter of contentious debates within nutritional biochemistry, public health policy, and epidemiology. The foundational narrative governing cardiovascular disease prevention has long positioned dietary fats along a binary moral axis: vilifying saturated fatty acids as arterial poisons while extolling unsaturated fats as benevolent cardioprotective agents. However, contemporary molecular biology and rigorous meta-analyses of randomized clinical trials have revealed a substantially more intricate metabolic reality. Understanding the physiological distinction between saturated and unsaturated fats requires examining their atomic architecture, their regulatory effects on hepatic lipoprotein receptors, and the holistic matrix of whole foods in which they naturally reside.</p><p>At the submicroscopic molecular level, the demarcation between lipid categories is governed by the presence or absence of carbon-carbon double bonds along the hydrocarbon tail. Saturated fatty acids possess no double bonds; each carbon atom is fully 'saturated' with hydrogen atoms, forming a uniform, linear molecular chain. This rectilinear spatial conformation permits saturated lipid molecules to pack tightly against one another in crystalline arrays, explaining why saturated fats—such as those abundant in bovine dairy, lard, and tropical palm oil—remain solid at room temperature. Conversely, unsaturated fatty acids feature one or more double bonds. In naturally occurring 'cis' configurations, these double bonds introduce pronounced rigid bends or kinks into the carbon chain. These spatial disruptions hinder close intermolecular packing, resulting in lower melting points that keep monounsaturated oils (such as oleic acid in extra-virgin olive oil) and polyunsaturated oils (such as alpha-linolenic omega-3 fatty acids in flaxseed and oily fish) in a fluid state.</p><p>The biological consequences of these structural divergence patterns manifest most prominently in circulatory lipid transport and endothelial homeostasis. Ingested saturated fatty acids downregulate hepatic low-density lipoprotein (LDL) receptors. When these clearance receptors are suppressed, circulating apolipoprotein B-containing LDL particles remain in bloodstream transit for prolonged durations, undergoing enzymatic oxidation and penetrating the arterial intima to ignite foam cell formation and atherosclerotic plaque development. In sharp contrast, polyunsaturated fatty acids stimulate hepatic LDL receptor expression, enhancing the clearance of atherogenic particles from systemic circulation. Furthermore, omega-3 polyunsaturated lipids serve as precursors to specialized pro-resolving mediators—including resolvins and protectins—which actively extinguish vascular inflammation, inhibit platelet aggregation, and attenuate the progression of ischemic coronary episodes.</p><p>Despite these established biochemical pathways, modern nutritional science has pivoted away from simplistic macronutrient reductionism. Historical public health campaigns that urged consumers to indiscriminately restrict all saturated fats produced unintended adverse consequences: consumers widely substituted saturated lipids with refined carbohydrates and added sugars, which triggered metabolic syndrome, elevated circulating triglycerides, and worsened small-dense LDL profiles. Moreover, saturated fats do not exert uniform metabolic effects. Stearic acid, an 18-carbon saturated fat prevalent in dark chocolate, is rapidly converted in the liver to neutral oleic acid and exhibits negligible atherogenic impact, whereas short-chain saturated fatty acids found in fermented dairy products nourish the colonic microbiome and enhance systemic insulin sensitivity. Rather than judging individual fatty acids in isolation, contemporary preventive cardiology emphasizes overall dietary quality, advocating Mediterranean-style patterns rich in unrefined plant lipids, nuts, legumes, and omega-3 sources over industrially ultra-processed substitutes.</p>",
+        "vocab": [
+          {
+            "word": "epicenter",
+            "pos": "n",
+            "ipa": "/ˈep.ɪ.sen.tər/",
+            "level": "C1",
+            "mean": "tâm chấn, trung tâm điểm của sự chú ý",
+            "syns": [
+              "focal point",
+              "nucleus",
+              "core"
+            ],
+            "ex": "Dietary lipids have remained at the epicenter of nutritional debates for decades."
+          },
+          {
+            "word": "contentious",
+            "pos": "adj",
+            "ipa": "/kənˈten.ʃəs/",
+            "level": "C1",
+            "mean": "gây tranh cãi dữ dội",
+            "syns": [
+              "controversial",
+              "disputed",
+              "debatable"
+            ],
+            "ex": "The impact of saturated fats on longevity remains a highly contentious scientific topic."
+          },
+          {
+            "word": "vilify",
+            "pos": "v",
+            "ipa": "/ˈvɪl.ɪ.faɪ/",
+            "level": "C1",
+            "mean": "bôi nhọ, phỉ báng, coi như tội đồ",
+            "syns": [
+              "demonize",
+              "denigrate",
+              "disparage"
+            ],
+            "ex": "Early dietary guidelines vilified all saturated fats without considering their context."
+          },
+          {
+            "word": "extol",
+            "pos": "v",
+            "ipa": "/ɪkˈstəʊl/",
+            "level": "C1",
+            "mean": "tán dương, ca ngợi hết lời",
+            "syns": [
+              "praise",
+              "laud",
+              "commend"
+            ],
+            "ex": "Cardiologists extol the protective virtues of extra-virgin olive oil."
+          },
+          {
+            "word": "benevolent",
+            "pos": "adj",
+            "ipa": "/bəˈnev.əl.ənt/",
+            "level": "C1",
+            "mean": "có lợi, mang lại điều tốt lành",
+            "syns": [
+              "beneficial",
+              "wholesome",
+              "favorable"
+            ],
+            "ex": "Unsaturated fats exert benevolent effects on blood pressure and vascular health."
+          },
+          {
+            "word": "demarcation",
+            "pos": "n",
+            "ipa": "/ˌdiː.mɑːˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "ranh giới phân định rõ ràng",
+            "syns": [
+              "boundary",
+              "distinction",
+              "separation"
+            ],
+            "ex": "The chemical demarcation between fats depends on carbon-carbon double bonds."
+          },
+          {
+            "word": "rectilinear",
+            "pos": "adj",
+            "ipa": "/ˌrek.tɪˈlɪn.i.ər/",
+            "level": "C1",
+            "mean": "thẳng tắp, có dạng đường thẳng",
+            "syns": [
+              "straight",
+              "linear",
+              "unbending"
+            ],
+            "ex": "The rectilinear shape of saturated fatty acids allows them to pack closely together."
+          },
+          {
+            "word": "conformation",
+            "pos": "n",
+            "ipa": "/ˌkɒn.fɔːˈmeɪ.ʃən/",
+            "level": "C1",
+            "mean": "cấu dạng không gian phân tử",
+            "syns": [
+              "spatial arrangement",
+              "configuration",
+              "structure"
+            ],
+            "ex": "The straight spatial conformation determines a lipid's solid state at room temperature."
+          },
+          {
+            "word": "hindrance",
+            "pos": "n",
+            "ipa": "/ˈhɪn.drəns/",
+            "level": "B2",
+            "mean": "sự cản trở, chướng ngại",
+            "syns": [
+              "impediment",
+              "obstacle",
+              "obstruction"
+            ],
+            "ex": "Molecular kinks act as a hindrance to tight crystalline packing."
+          },
+          {
+            "word": "circulatory",
+            "pos": "adj",
+            "ipa": "/ˌsɜː.kjəˈleɪ.tər.i/",
+            "level": "B2",
+            "mean": "thuộc về hệ tuần hoàn máu",
+            "syns": [
+              "vascular",
+              "cardiovascular"
+            ],
+            "ex": "Dietary fats directly influence circulatory cholesterol transport."
+          },
+          {
+            "word": "endothelial",
+            "pos": "adj",
+            "ipa": "/ˌen.dəʊˈθiː.li.əl/",
+            "level": "C1",
+            "mean": "thuộc lớp nội mô lót trong thành mạch máu",
+            "syns": [
+              "vascular lining",
+              "inner-vessel"
+            ],
+            "ex": "Sustained high LDL levels cause severe endothelial dysfunction."
+          },
+          {
+            "word": "homeostasis",
+            "pos": "n",
+            "ipa": "/ˌhɒm.i.əʊˈsteɪ.sɪs/",
+            "level": "C1",
+            "mean": "trạng thái cân bằng nội môi sinh học",
+            "syns": [
+              "equilibrium",
+              "balance",
+              "stability"
+            ],
+            "ex": "Cellular homeostasis requires a delicate balance of diverse dietary fatty acids."
+          },
+          {
+            "word": "downregulate",
+            "pos": "v",
+            "ipa": "/ˌdaʊnˈreɡ.jʊ.leɪt/",
+            "level": "C1",
+            "mean": "làm giảm thụ thể, ức chế biểu hiện gen",
+            "syns": [
+              "suppress",
+              "inhibit",
+              "decrease activity"
+            ],
+            "ex": "Excess palmitic acid downregulates LDL receptors in the liver."
+          },
+          {
+            "word": "apolipoprotein",
+            "pos": "n",
+            "ipa": "/ˌæp.əʊˌlɪp.əʊˈprəʊ.tiːn/",
+            "level": "C1",
+            "mean": "protein liên kết lipid để vận chuyển trong máu",
+            "syns": [
+              "lipid-transport protein",
+              "protein carrier"
+            ],
+            "ex": "Apolipoprotein B particles are the primary carriers of atherogenic cholesterol."
+          },
+          {
+            "word": "atherosclerotic",
+            "pos": "adj",
+            "ipa": "/ˌæθ.ər.əʊ.skləˈrɒt.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về chứng xơ vữa động mạch",
+            "syns": [
+              "artery-hardening",
+              "plaque-forming"
+            ],
+            "ex": "Oxidized LDL particles trigger the formation of atherosclerotic plaques."
+          },
+          {
+            "word": "atherogenic",
+            "pos": "adj",
+            "ipa": "/ˌæθ.ər.əʊˈdʒen.ɪk/",
+            "level": "C1",
+            "mean": "có khả năng gây xơ vữa động mạch",
+            "syns": [
+              "plaque-inducing",
+              "artery-clogging"
+            ],
+            "ex": "Clearing atherogenic particles from the blood lowers the risk of heart attacks."
+          },
+          {
+            "word": "attenuate",
+            "pos": "v",
+            "ipa": "/əˈten.ju.eɪt/",
+            "level": "C1",
+            "mean": "làm suy giảm mức độ nghiêm trọng",
+            "syns": [
+              "mitigate",
+              "weaken",
+              "alleviate"
+            ],
+            "ex": "Omega-3 fatty acids attenuate inflammatory pathways in cardiovascular tissues."
+          },
+          {
+            "word": "ischemic",
+            "pos": "adj",
+            "ipa": "/ɪˈskiː.mɪk/",
+            "level": "C1",
+            "mean": "thuộc chứng thiếu máu cục bộ (do tắc mạch)",
+            "syns": [
+              "blood-deficient",
+              "restricted-flow"
+            ],
+            "ex": "Atherosclerosis can lead to severe ischemic coronary heart disease."
+          },
+          {
+            "word": "reductionism",
+            "pos": "n",
+            "ipa": "/rɪˈdʌk.ʃən.ɪ.zəm/",
+            "level": "C1",
+            "mean": "thuyết đơn giản hóa quá mức (quy giản luận)",
+            "syns": [
+              "oversimplification",
+              "narrow focus"
+            ],
+            "ex": "Nutritional reductionism failed by viewing fats outside their food matrix."
+          },
+          {
+            "word": "indiscriminately",
+            "pos": "adv",
+            "ipa": "/ˌɪn.dɪˈskrɪm.ɪ.nət.li/",
+            "level": "B2",
+            "mean": "một cách bừa bãi không phân biệt",
+            "syns": [
+              "blindly",
+              "randomly",
+              "without distinction"
+            ],
+            "ex": "Cutting all fats indiscriminately led consumers to eat excessive sugar."
+          },
+          {
+            "word": "triglyceride",
+            "pos": "n",
+            "ipa": "/traɪˈɡlɪs.ər.aɪd/",
+            "level": "C1",
+            "mean": "chất béo trung tính trong máu",
+            "syns": [
+              "blood fat",
+              "triacylglycerol"
+            ],
+            "ex": "High carbohydrate intake often drives up fasting blood triglyceride levels."
+          },
+          {
+            "word": "negligible",
+            "pos": "adj",
+            "ipa": "/ˈneɡ.lɪ.dʒə.bəl/",
+            "level": "B2",
+            "mean": "không đáng kể, không có tác động",
+            "syns": [
+              "insignificant",
+              "trivial",
+              "minor"
+            ],
+            "ex": "Stearic acid exhibits a negligible effect on total blood cholesterol levels."
+          },
+          {
+            "word": "microbiome",
+            "pos": "n",
+            "ipa": "/ˌmaɪ.krəʊˈbaɪ.əʊm/",
+            "level": "B2",
+            "mean": "hệ vi sinh vật đường ruột",
+            "syns": [
+              "microbiota",
+              "bacterial flora"
+            ],
+            "ex": "Fermented dairy supports a diverse and healthy colonic microbiome."
+          },
+          {
+            "word": "precursor",
+            "pos": "n",
+            "ipa": "/priːˈkɜː.sər/",
+            "level": "C1",
+            "mean": "chất tiền thân tham gia phản ứng sinh học",
+            "syns": [
+              "forerunner",
+              "ancestor molecule",
+              "antecedent"
+            ],
+            "ex": "EPA and DHA act as biochemical precursors to anti-inflammatory resolvins."
+          },
+          {
+            "word": "monounsaturated",
+            "pos": "adj",
+            "ipa": "/ˌmɒn.əʊ.ʌnˈsætʃ.ər.eɪ.tɪd/",
+            "level": "B2",
+            "mean": "không bão hòa đơn (chỉ có 1 liên kết đôi)",
+            "syns": [
+              "single-double-bond"
+            ],
+            "ex": "Monounsaturated fats in avocados help preserve vascular flexibility."
+          },
+          {
+            "word": "polyunsaturated",
+            "pos": "adj",
+            "ipa": "/ˌpɒl.i.ʌnˈsætʃ.ər.eɪ.tɪd/",
+            "level": "B2",
+            "mean": "không bão hòa đa (có nhiều liên kết đôi)",
+            "syns": [
+              "multi-double-bond"
+            ],
+            "ex": "Polyunsaturated fats provide essential fatty acids the body cannot synthesize."
+          },
+          {
+            "word": "resolvin",
+            "pos": "n",
+            "ipa": "/rɪˈzɒl.vɪn/",
+            "level": "C1",
+            "mean": "phân tử lipid sinh học giúp tiêu tan ổ viêm",
+            "syns": [
+              "pro-resolving mediator",
+              "anti-inflammatory lipid"
+            ],
+            "ex": "Resolvins derived from fish oil speed up tissue repair after arterial injury."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "Which of the following best summarizes the main idea of the passage?",
+            "questionVi": "Ý nào sau đây tóm tắt tốt nhất ý chính của toàn bộ bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "The biological roles of saturated and unsaturated fats are determined by molecular structure and food context rather than simplistic dietary categorizations",
+              "All saturated fats should be strictly eradicated from the global food supply to eliminate cardiovascular disease",
+              "Unsaturated fats are identical in chemical conformation to refined dietary carbohydrates",
+              "Stearic acid in dark chocolate is the only lipid capable of lowering systemic blood pressure"
+            ],
+            "optionsVi": [
+              "A. Vai trò sinh học của chất béo bão hòa và không bão hòa được quyết định bởi cấu trúc phân tử và ma trận thực phẩm chứ không phải sự phân loại dinh dưỡng giản đơn",
+              "B. Mọi chất béo bão hòa cần phải bị loại bỏ triệt để khỏi nguồn cung cấp thực phẩm toàn cầu để xóa sổ bệnh tim mạch",
+              "C. Chất béo không bão hòa có cấu dạng hóa học giống hệt với carbohydrate tinh chế trong khẩu phần ăn",
+              "D. Axit stearic trong sô-cô-la đen là loại lipid duy nhất có khả năng hạ huyết áp toàn thân"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Understanding the physiological distinction between saturated and unsaturated fats requires examining their atomic architecture, their regulatory effects on hepatic lipoprotein receptors, and the holistic matrix of whole foods in which they naturally reside. [Paragraph 1]",
+            "evidenceVi": "Hiểu được sự phân biệt sinh lý giữa chất béo bão hòa và không bão hòa đòi hỏi phải xem xét cấu trúc nguyên tử của chúng, các tác động điều hòa của chúng lên thụ thể lipoprotein ở gan và ma trận tổng thể của thực phẩm nguyên phần nơi chúng tự nhiên tồn tại. [Đoạn 1]",
+            "explanation": "Toàn bài phân tích sâu sự khác biệt giữa hai loại chất béo dựa trên cấu trúc hóa học phân tử, cơ chế thụ thể cholesterol ở gan và phê phán thuyết đơn giản hóa, nhấn mạnh chất lượng thực phẩm tổng thể (A).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "Understanding the physiological distinction between saturated and unsaturated fats requires examining their atomic architecture, their regulatory effects on hepatic lipoprotein receptors, and the holistic matrix of whole foods",
+              "clueAnswer": "The biological roles of saturated and unsaturated fats are determined by molecular structure and food context rather than simplistic dietary categorizations",
+              "keyPassage": "atomic architecture + hepatic lipoprotein receptors + holistic matrix of whole foods",
+              "keyAnswer": "molecular structure and food context rather than simplistic dietary categorizations",
+              "paraphrasePair": "atomic architecture <=> molecular structure; holistic matrix of whole foods <=> food context",
+              "meaningVi": "vai trò sinh học quyết định bởi cấu trúc phân tử và ma trận thực phẩm",
+              "deductionLogic": "Khái quát luận điểm phát triển xuyên suốt từ đoạn 1 đến đoạn 4."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "According to paragraph 2, what atomic feature explains why saturated fats remain solid at room temperature?",
+            "questionVi": "Theo đoạn 2, đặc điểm nguyên tử nào giải thích vì sao chất béo bão hòa ở thể rắn tại nhiệt độ phòng?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Their rectilinear molecular chains lack double bonds, allowing them to pack tightly in crystalline arrays",
+              "They contain massive quantities of nitrogen atoms that solidify upon exposure to oxygen",
+              "Their double bonds create extreme zig-zag kinks that force molecules apart",
+              "They possess microscopic magnetic charges that bond them permanently to iron ions"
+            ],
+            "optionsVi": [
+              "A. Chuỗi phân tử thẳng tắp không có liên kết đôi, cho phép chúng xếp chặt chẽ cạnh nhau dạng mạng tinh thể",
+              "B. Chúng chứa lượng lớn nguyên tử nitơ bị đông đặc khi tiếp xúc với oxy",
+              "C. Các liên kết đôi của chúng tạo ra các đoạn gấp khúc dữ dội đẩy các phân tử ra xa",
+              "D. Chúng mang điện tích từ vi mô liên kết vĩnh viễn với các ion sắt"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Saturated fatty acids possess no double bonds; each carbon atom is fully 'saturated' with hydrogen atoms, forming a uniform, linear molecular chain. This rectilinear spatial conformation permits saturated lipid molecules to pack tightly against one another in crystalline arrays, explaining why saturated fats... remain solid at room temperature. [Paragraph 2]",
+            "evidenceVi": "Các axit béo bão hòa không có liên kết đôi; mỗi nguyên tử carbon đều được 'bão hòa' hoàn toàn bằng các nguyên tử hydro, tạo thành chuỗi phân tử thẳng đồng nhất. Cấu dạng không gian thẳng này cho phép các phân tử lipid bão hòa xếp chặt chẽ cạnh nhau thành mảng tinh thể, giải thích vì sao chất béo bão hòa... ở thể rắn tại nhiệt độ phòng. [Đoạn 2]",
+            "explanation": "Đoạn 2 giải thích tường tận: không có liên kết đôi, chuỗi hydrocacbon thẳng tắp ('rectilinear conformation') giúp các phân tử xếp khít chặt chẽ vào nhau tạo thành thể rắn (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế hóa học phân tử (Molecular Mechanism)",
+              "cluePassage": "rectilinear spatial conformation permits saturated lipid molecules to pack tightly against one another in crystalline arrays, explaining why saturated fats... remain solid",
+              "clueAnswer": "Their rectilinear molecular chains lack double bonds, allowing them to pack tightly in crystalline arrays",
+              "keyPassage": "rectilinear spatial conformation + pack tightly in crystalline arrays + remain solid",
+              "keyAnswer": "rectilinear molecular chains lack double bonds + pack tightly in crystalline arrays",
+              "paraphrasePair": "uniform linear molecular chain <=> rectilinear molecular chains lack double bonds",
+              "meaningVi": "chuỗi phân tử thẳng không liên kết đôi xếp khít dạng tinh thể",
+              "deductionLogic": "Khớp câu 2 và 3 đoạn 2."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "The word 'kinks' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'kinks' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "sharp bends",
+              "smooth lines",
+              "hollow tubes",
+              "solid spheres"
+            ],
+            "optionsVi": [
+              "A. các đoạn gấp khúc gập gãy (sharp bends)",
+              "B. các đường thẳng nhẵn nhụi (smooth lines)",
+              "C. các ống rỗng ruột (hollow tubes)",
+              "D. các khối cầu đặc (solid spheres)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "In naturally occurring 'cis' configurations, these double bonds introduce pronounced rigid bends or kinks into the carbon chain. [Paragraph 2]",
+            "evidenceVi": "Ở cấu hình 'cis' tự nhiên, các liên kết đôi này tạo ra những khúc uốn hoặc nếp gập gãy cứng nhắc rõ rệt trên chuỗi carbon. [Đoạn 2]",
+            "explanation": "'Kinks' là các nếp gập, khúc uốn bẻ ngoặt làm gãy chuỗi phân tử, đồng nghĩa với 'sharp bends' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "these double bonds introduce pronounced rigid bends or kinks into the carbon chain.",
+              "clueAnswer": "sharp bends",
+              "keyPassage": "rigid bends or kinks",
+              "keyAnswer": "sharp bends",
+              "paraphrasePair": "kinks <=> sharp bends",
+              "meaningVi": "đoạn gấp khúc, nếp gập ngoằn ngoèo",
+              "deductionLogic": "Được làm rõ ngay trước đó bằng từ đồng nghĩa 'rigid bends'."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "Based on paragraph 3, how do saturated fatty acids promote the development of atherosclerotic plaques?",
+            "questionVi": "Dựa vào đoạn 3, các axit béo bão hòa thúc đẩy sự phát triển của mảng xơ vữa động mạch như thế nào?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "By downregulating hepatic LDL receptors, causing prolonged bloodstream transit and oxidative arterial penetration",
+              "By completely blocking blood flow through the vena cava within minutes of consumption",
+              "By transforming red blood cells into cancerous leukemic cells",
+              "By preventing the human stomach from digesting essential vitamins and minerals"
+            ],
+            "optionsVi": [
+              "A. Bằng cách ức chế thụ thể LDL ở gan, khiến hạt LDL lưu lại lâu trong máu và bị oxy hóa xâm nhập thành động mạch",
+              "B. Bằng cách chặn hoàn toàn lưu lượng máu qua tĩnh mạch chủ chỉ vài phút sau khi ăn",
+              "C. Bằng cách biến đổi hồng cầu thành các tế bào ung thư máu",
+              "D. Bằng cách ngăn dạ dày tiêu hóa các vitamin và khoáng chất thiết yếu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "saturated fatty acids downregulate hepatic low-density lipoprotein (LDL) receptors. When these clearance receptors are suppressed, circulating apolipoprotein B-containing LDL particles remain in bloodstream transit for prolonged durations, undergoing enzymatic oxidation and penetrating the arterial intima to ignite foam cell formation and atherosclerotic plaque development. [Paragraph 3]",
+            "evidenceVi": "các axit béo bão hòa làm giảm biểu hiện thụ thể lipoprotein tỷ trọng thấp (LDL) tại gan. Khi các thụ thể thanh thải này bị ức chế, các hạt LDL chứa apolipoprotein B lưu thông trong máu lâu hơn, bị oxy hóa enzym và xâm nhập vào lớp nội mạc động mạch để kích hoạt sự hình thành tế bào bọt và phát triển mảng xơ vữa động mạch. [Đoạn 3]",
+            "explanation": "Đoạn 3 trình bày chuỗi phản ứng sinh học: ức chế thụ thể LDL ở gan -> hạt LDL tồn đọng lâu trong máu -> bị oxy hóa enzym -> xâm nhập nội mạc mạch máu tạo tế bào bọt và mảng xơ vữa (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế sinh lý học (Pathophysiological Detail)",
+              "cluePassage": "downregulate hepatic low-density lipoprotein (LDL) receptors... circulating... LDL particles remain in bloodstream transit... undergoing enzymatic oxidation and penetrating the arterial intima",
+              "clueAnswer": "By downregulating hepatic LDL receptors, causing prolonged bloodstream transit and oxidative arterial penetration",
+              "keyPassage": "downregulate hepatic LDL receptors + prolonged bloodstream transit + enzymatic oxidation and penetrating arterial intima",
+              "keyAnswer": "downregulating hepatic LDL receptors + prolonged bloodstream transit and oxidative arterial penetration",
+              "paraphrasePair": "downregulate <=> suppress; penetrating the arterial intima <=> arterial penetration",
+              "meaningVi": "ức chế thụ thể gan khiến LDL lưu cữu và oxy hóa thành mạch",
+              "deductionLogic": "Khớp câu 2 và 3 đoạn 3."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "The word 'attenuate' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'attenuate' trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "reduce",
+              "accelerate",
+              "commence",
+              "replicate"
+            ],
+            "optionsVi": [
+              "A. làm giảm, làm suy yếu (reduce)",
+              "B. đẩy nhanh, tăng tốc (accelerate)",
+              "C. bắt đầu, khởi sự (commence)",
+              "D. nhân bản, sao chép (replicate)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "actively extinguish vascular inflammation, inhibit platelet aggregation, and attenuate the progression of ischemic coronary episodes. [Paragraph 3]",
+            "evidenceVi": "chủ động dập tắt tình trạng viêm mạch máu, ức chế kết tập tiểu cầu và làm giảm tiến triển của các cơn thiếu máu cục bộ mạch vành. [Đoạn 3]",
+            "explanation": "'Attenuate' trong y học có nghĩa là làm giảm nhẹ, làm suy yếu cường độ hoặc tiến trình phát triển của bệnh, đồng nghĩa với 'reduce' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh y khoa (Medical Vocabulary)",
+              "cluePassage": "inhibit platelet aggregation, and attenuate the progression of ischemic coronary episodes.",
+              "clueAnswer": "reduce",
+              "keyPassage": "attenuate the progression",
+              "keyAnswer": "reduce the progression",
+              "paraphrasePair": "attenuate <=> reduce/mitigate",
+              "meaningVi": "làm giảm, làm chậm nhẹ tiến trình bệnh",
+              "deductionLogic": "Đi cùng các hành động bảo vệ mạch máu: 'extinguish inflammation', 'inhibit aggregation'."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "According to paragraph 3, what beneficial cardioprotective role is played by omega-3 polyunsaturated lipids?",
+            "questionVi": "Theo đoạn 3, vai trò bảo vệ tim mạch có lợi nào được thực hiện bởi lipid không bão hòa đa omega-3?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "They act as precursors to specialized molecules that extinguish inflammation and inhibit platelet clumping",
+              "They permanently convert all blood vessels into flexible synthetic tubes",
+              "They completely prevent the liver from synthesizing bile salts",
+              "They stimulate the thyroid gland to double resting metabolic rate overnight"
+            ],
+            "optionsVi": [
+              "A. Chúng là tiền chất tạo ra các phân tử chuyên biệt giúp dập tắt viêm nhiễm và ức chế tiểu cầu vón cục",
+              "B. Chúng biến đổi vĩnh viễn mọi mạch máu thành các ống tổng hợp đàn hồi",
+              "C. Chúng ngăn chặn hoàn toàn gan tổng hợp muối mật",
+              "D. Chúng kích thích tuyến giáp tăng gấp đôi tốc độ trao đổi chất sau một đêm"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "omega-3 polyunsaturated lipids serve as precursors to specialized pro-resolving mediators—including resolvins and protectins—which actively extinguish vascular inflammation, inhibit platelet aggregation [Paragraph 3]",
+            "evidenceVi": "lipid không bão hòa đa omega-3 đóng vai trò là tiền chất của các chất trung gian chuyên biệt giúp tiêu tan viêm - bao gồm resolvin và protectin - có tác dụng tích cực dập tắt viêm mạch máu, ức chế kết tập tiểu cầu [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ rõ omega-3 là tiền chất sản sinh các chất trung gian pro-resolving (resolvin, protectin) giúp triệt tiêu viêm mạch máu và chống kết tập tiểu cầu (inhibit platelet aggregation/clumping) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế bảo vệ tim mạch (Cardioprotective Mechanism)",
+              "cluePassage": "omega-3 polyunsaturated lipids serve as precursors to specialized pro-resolving mediators... which actively extinguish vascular inflammation, inhibit platelet aggregation",
+              "clueAnswer": "They act as precursors to specialized molecules that extinguish inflammation and inhibit platelet clumping",
+              "keyPassage": "precursors to specialized pro-resolving mediators... extinguish vascular inflammation, inhibit platelet aggregation",
+              "keyAnswer": "precursors to specialized molecules that extinguish inflammation and inhibit platelet clumping",
+              "paraphrasePair": "platelet aggregation <=> platelet clumping",
+              "meaningVi": "tiền chất tạo chất dập tắt viêm và chống đông vón tiểu cầu",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "The term 'macronutrient reductionism' in paragraph 4 refers to:",
+            "questionVi": "Thuật ngữ 'macronutrient reductionism' trong đoạn 4 ám chỉ điều gì?",
+            "questionType": "DẠNG 04: CÂU HỎI SUY LUẬN (Inference)",
+            "options": [
+              "The flawed oversimplification of judging health outcomes based solely on single isolated nutrients rather than whole diet patterns",
+              "The laboratory technique of reducing the physical size of lipid molecules with lasers",
+              "A government tax on packaged foods that exceed certain caloric thresholds",
+              "The surgical removal of adipose fat tissue through liposuction procedures"
+            ],
+            "optionsVi": [
+              "A. Sự đơn giản hóa sai lầm khi đánh giá sức khỏe chỉ dựa trên từng dưỡng chất đơn lẻ bị cô lập thay vì chế độ ăn tổng thể",
+              "B. Kỹ thuật phòng thí nghiệm nhằm thu nhỏ kích thước vật lý của phân tử lipid bằng tia laser",
+              "C. Thuế của chính phủ đối với thực phẩm đóng gói vượt quá các ngưỡng calo nhất định",
+              "D. Việc phẫu thuật cắt bỏ mô mỡ thừa thông qua thủ thuật hút mỡ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "modern nutritional science has pivoted away from simplistic macronutrient reductionism... Rather than judging individual fatty acids in isolation, contemporary preventive cardiology emphasizes overall dietary quality [Paragraph 4]",
+            "evidenceVi": "khoa học dinh dưỡng hiện đại đã quay lưng lại với thuyết quy giản dưỡng chất đơn giản hóa... Thay vì phán xét từng axit béo riêng lẻ trong sự cô lập, tim mạch học phòng ngừa đương đại nhấn mạnh vào chất lượng tổng thể của khẩu phần ăn [Đoạn 4]",
+            "explanation": "'Macronutrient reductionism' là tư duy quy giản, chỉ chăm chăm nhìn vào một chất đơn lẻ (như tổng chất béo) mà bỏ qua bối cảnh thực phẩm và chế độ ăn tổng thể (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận khái niệm (Conceptual Inference)",
+              "cluePassage": "pivoted away from simplistic macronutrient reductionism... Rather than judging individual fatty acids in isolation, contemporary preventive cardiology emphasizes overall dietary quality",
+              "clueAnswer": "The flawed oversimplification of judging health outcomes based solely on single isolated nutrients rather than whole diet patterns",
+              "keyPassage": "simplistic macronutrient reductionism <=> judging individual fatty acids in isolation",
+              "keyAnswer": "oversimplification of judging health outcomes based solely on single isolated nutrients",
+              "paraphrasePair": "simplistic reductionism <=> flawed oversimplification; in isolation <=> single isolated nutrients",
+              "meaningVi": "thuyết quy giản đơn giản hóa thái quá chỉ nhìn chất đơn lẻ",
+              "deductionLogic": "Khớp câu 1 và câu cuối đoạn 4."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "What unexpected adverse health consequence occurred when consumers indiscriminately restricted all saturated fats?",
+            "questionVi": "Hậu quả sức khỏe tiêu cực ngoài dự tính nào đã xảy ra khi người tiêu dùng cắt giảm bừa bãi mọi chất béo bão hòa?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "They substituted fats with refined carbohydrates and sugar, worsening metabolic syndrome and small-dense LDL",
+              "They developed severe allergic reactions to all plant-based leafy vegetables",
+              "Their bodies completely ceased producing digestive saliva",
+              "They suffered from widespread sodium deficiency due to excessive water intake"
+            ],
+            "optionsVi": [
+              "A. Họ đã thay thế chất béo bằng carbohydrate tinh chế và đường, làm trầm trọng thêm hội chứng chuyển hóa và LDL nhỏ đậm đặc",
+              "B. Họ bị dị ứng nghiêm trọng với mọi loại rau xanh có nguồn gốc thực vật",
+              "C. Cơ thể họ ngừng sản xuất hoàn toàn nước bọt tiêu hóa",
+              "D. Họ bị thiếu hụt natri diện rộng do uống quá nhiều nước"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "consumers widely substituted saturated lipids with refined carbohydrates and added sugars, which triggered metabolic syndrome, elevated circulating triglycerides, and worsened small-dense LDL profiles. [Paragraph 4]",
+            "evidenceVi": "người tiêu dùng đã thay thế rộng rãi chất béo bão hòa bằng carbohydrate tinh chế và đường bổ sung, điều này đã gây ra hội chứng chuyển hóa, làm tăng triglycerid trong máu và làm trầm trọng thêm các chỉ số LDL nhỏ đậm đặc. [Đoạn 4]",
+            "explanation": "Đoạn 4 chỉ ra tác dụng phụ tiêu cực: khi cắt giảm béo, người dân ăn nhiều tinh bột tinh chế và đường, làm bùng phát hội chứng chuyển hóa (metabolic syndrome) và tăng LDL nhỏ đậm đặc gây hại tim mạch (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Hậu quả ngoài dự liệu (Unintended Consequence)",
+              "cluePassage": "substituted saturated lipids with refined carbohydrates and added sugars, which triggered metabolic syndrome, elevated circulating triglycerides, and worsened small-dense LDL",
+              "clueAnswer": "They substituted fats with refined carbohydrates and sugar, worsening metabolic syndrome and small-dense LDL",
+              "keyPassage": "substituted saturated lipids with refined carbohydrates and added sugars... worsened small-dense LDL",
+              "keyAnswer": "substituted fats with refined carbohydrates and sugar, worsening metabolic syndrome and small-dense LDL",
+              "paraphrasePair": "added sugars <=> sugar; triggered <=> caused/worsened",
+              "meaningVi": "thay chất béo bằng đường bột làm trầm trọng thêm hội chứng chuyển hóa",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "According to paragraph 4, why does stearic acid in dark chocolate have a negligible atherogenic impact?",
+            "questionVi": "Theo đoạn 4, tại sao axit stearic trong sô-cô-la đen lại có tác động gây xơ vữa không đáng kể?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "It is rapidly converted by the liver into neutral oleic acid",
+              "It dissolves instantly in the stomach without entering the bloodstream",
+              "It binds to dietary calcium and is excreted without being metabolized",
+              "It completely stops the liver from synthesizing any fatty acids"
+            ],
+            "optionsVi": [
+              "A. Nó được gan chuyển hóa nhanh chóng thành axit oleic trung tính",
+              "B. Nó hòa tan ngay lập tức trong dạ dày mà không đi vào dòng máu",
+              "C. Nó liên kết với canxi trong thức ăn và bị bài tiết mà không được chuyển hóa",
+              "D. Nó ngăn chặn hoàn toàn gan tổng hợp bất kỳ axit béo nào"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Stearic acid, an 18-carbon saturated fat prevalent in dark chocolate, is rapidly converted in the liver to neutral oleic acid and exhibits negligible atherogenic impact [Paragraph 4]",
+            "evidenceVi": "Axit stearic, một chất béo bão hòa 18-carbon có nhiều trong sô-cô-la đen, được gan chuyển hóa nhanh chóng thành axit oleic trung tính và có tác động gây xơ vữa không đáng kể [Đoạn 4]",
+            "explanation": "Đoạn 4 giải thích rõ: axit stearic trong sô-cô-la đen được gan nhanh chóng biến đổi thành axit oleic trung tính ('rapidly converted in the liver to neutral oleic acid'), do đó không làm tăng nguy cơ xơ vữa mạch (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Cơ chế chuyển hóa axit stearic (Metabolic Detail)",
+              "cluePassage": "Stearic acid... is rapidly converted in the liver to neutral oleic acid and exhibits negligible atherogenic impact",
+              "clueAnswer": "It is rapidly converted by the liver into neutral oleic acid",
+              "keyPassage": "rapidly converted in the liver to neutral oleic acid",
+              "keyAnswer": "rapidly converted by the liver into neutral oleic acid",
+              "paraphrasePair": "converted in the liver <=> converted by the liver",
+              "meaningVi": "được gan chuyển đổi thành axit oleic trung tính",
+              "deductionLogic": "Khớp câu 3 đoạn 4."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "What overall dietary recommendation does contemporary preventive cardiology advocate in the concluding sentence?",
+            "questionVi": "Khuyến nghị ăn uống tổng thể nào được tim mạch học phòng ngừa đương đại ủng hộ trong câu kết bài?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "Adopting Mediterranean-style patterns rich in unrefined plant lipids, nuts, legumes, and omega-3 sources over ultra-processed items",
+              "Consuming exclusive carnivore diets composed entirely of butter and red meats",
+              "Eliminating all dietary fat sources and subsisting strictly on fruit juices and glucose syrup",
+              "Replacing all whole foods with synthetic protein shakes and multivitamin pills"
+            ],
+            "optionsVi": [
+              "A. Áp dụng chế độ ăn kiểu Địa Trung Hải giàu chất béo thực vật chưa tinh chế, hạt, đậu và omega-3",
+              "B. Tiêu thụ chế độ ăn chỉ gồm bơ và thịt đỏ",
+              "C. Loại bỏ mọi chất béo và chỉ uống nước ép trái cây",
+              "D. Thay thế thức ăn bằng sữa lắc protein tổng hợp"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "contemporary preventive cardiology emphasizes overall dietary quality, advocating Mediterranean-style patterns rich in unrefined plant lipids, nuts, legumes, and omega-3 sources over industrially ultra-processed substitutes. [Paragraph 4]",
+            "evidenceVi": "tim mạch học phòng ngừa đương đại nhấn mạnh vào chất lượng tổng thể của chế độ ăn, ủng hộ các hình thái ăn uống kiểu Địa Trung Hải giàu lipid thực vật chưa tinh chế, các loại hạt, đậu và nguồn omega-3 hơn là các sản phẩm thay thế siêu chế biến công nghiệp. [Đoạn 4]",
+            "explanation": "Câu kết bài khẳng định tim mạch học hiện đại khuyến nghị chế độ ăn kiểu Địa Trung Hải (Mediterranean-style) giàu lipid thực vật chưa tinh chế, quả hạch, đậu và omega-3 hơn là thực phẩm siêu chế biến công nghiệp (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "advocating Mediterranean-style patterns rich in unrefined plant lipids, nuts, legumes, and omega-3 sources over industrially ultra-processed substitutes.",
+              "clueAnswer": "Adopting Mediterranean-style patterns rich in unrefined plant lipids, nuts, legumes, and omega-3 sources over ultra-processed items",
+              "keyPassage": "Mediterranean-style patterns rich in unrefined plant lipids, nuts, legumes, and omega-3 sources",
+              "keyAnswer": "Mediterranean-style patterns rich in unrefined plant lipids, nuts, legumes, and omega-3 sources",
+              "paraphrasePair": "advocating <=> adopting; ultra-processed substitutes <=> ultra-processed items",
+              "meaningVi": "chế độ ăn Địa Trung Hải giàu thực vật, hạt, đậu và omega-3",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
