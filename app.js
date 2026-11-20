@@ -2251,6 +2251,188 @@ function renderPracticeView() {
         `;
     }
 
+    // =========================================================================
+    // 7. BỘ ĐỀ THỰC CHIẾN 07 (TEST 17) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite17') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-17">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(236, 72, 153, 0.25); color: #f472b6; border-color: rgba(236, 72, 153, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 07 (TEST 17) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 07 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Võ sĩ đạo Nhật Bản (Part 1) • Văn hóa trà Trung Quốc (Part 2) • Hiện tượng sạt lở đất (Part 3) • Nạn đói & An ninh lương thực thế giới (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #ec4899;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 07):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>The Samurai & Bushido Code</h4>
+                                <h5>Võ sĩ đạo Nhật Bản: Nguồn gốc lịch sử & Tinh thần danh dự Bushido</h5>
+                                <p>Quá trình hình thành tầng lớp võ sĩ Samurai thời phong kiến Nhật Bản, 7 đức hạnh cốt lõi của đạo Bushido và ảnh hưởng văn hóa sâu sắc đến xã hội hiện đại.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ec4899;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>Chinese Tea Culture & History</h4>
+                                <h5>Văn hóa trà Trung Quốc: Lịch sử, triết lý thưởng trà & Trà đạo truyền thống</h5>
+                                <p>Từ phát hiện huyền thoại của Thần Nông đến nghi thức thưởng trà tinh tế thời Đường - Tống và vai trò của con đường Trà Mã cổ đạo trong giao thương quốc tế.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Landslides & Soil Erosion Dynamics</h4>
+                                <h5>Địa chất học: Cơ chế sạt lở đất, xói mòn & Tác động của biến đổi khí hậu</h5>
+                                <p>Phân tích các yếu tố gây mất ổn định địa hình đồi dốc: cấu trúc bão hòa nước trong đất, nạn phá rừng và các công nghệ cảnh báo sớm sạt lở địa chất.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>Global Hunger & Food Security</h4>
+                                <h5>Khủng hoảng lương thực: Nạn đói toàn cầu, đứt gãy chuỗi cung ứng & Giải pháp an ninh</h5>
+                                <p>Đánh giá nghịch lý lãng phí thực phẩm trong bối cảnh xung đột địa chính trị, biến đổi khí hậu khắc nghiệt và các chiến lược nông nghiệp công nghệ cao bền vững.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    // =========================================================================
+    // 8. BỘ ĐỀ THỰC CHIẾN 08 (TEST 18) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // =========================================================================
+    if (filter === 'all' || filter === 'suite18') {
+        suitesHtml += `
+            <div class="practice-suite-box suite-upcoming" id="suite-box-18">
+                <div class="practice-suite-header suite-header-upcoming">
+                    <div class="suite-header-info">
+                        <div class="suite-header-tag" style="background: rgba(20, 184, 166, 0.25); color: #5eead4; border-color: rgba(20, 184, 166, 0.45);">
+                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 08 (TEST 18) • ĐANG BIÊN SOẠN
+                        </div>
+                        <h3>VSTEP READING THỰC CHIẾN 08 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
+                        <div class="suite-header-topics">
+                            <strong>4 Topics:</strong> Vịnh Hạ Long (Part 1) • Bầu cử Mỹ & Nhiệm kỳ Tổng thống (Part 2) • Tác động đại dịch COVID-19 (Part 3) • Truyền hình thực tế (Part 4)
+                        </div>
+                        <div class="suite-header-meta">
+                            <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
+                            <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
+                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
+                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
+                        </span>
+                    </div>
+                </div>
+                <div class="practice-suite-body">
+                    <div class="suite-passages-heading">
+                        <i class="fa-solid fa-layer-group" style="color: #14b8a6;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 08):
+                    </div>
+                    <div class="practice-suite-grid">
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
+                                <h4>Ha Long Bay: Geological Wonder</h4>
+                                <h5>Vịnh Hạ Long: Kỳ quan địa mạo Karst & Di sản thiên nhiên thế giới</h5>
+                                <p>Lịch sử kiến tạo địa chất 500 triệu năm, sự đa dạng sinh học độc đáo của các đảo đá vôi và thách thức phát triển du lịch sinh thái bền vững.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#14b8a6;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
+                                <h4>The US Electoral System & Presidencies</h4>
+                                <h5>Hệ thống bầu cử Tổng thống Mỹ: Đại cử tri đoàn & Nhiệm kỳ Joe Biden - Donald Trump</h5>
+                                <p>Cơ chế hoạt động của Cử tri đoàn (Electoral College), hiện tượng bang chiến địa (swing states) và phân tích các chính sách then chốt dưới hai nhiệm kỳ tổng thống.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
+                                <h4>Long-term Impacts of COVID-19</h4>
+                                <h5>Tác động đa chiều của đại dịch COVID-19: Kinh tế, giáo dục & Cấu trúc việc làm</h5>
+                                <p>Phân tích sự đứt gãy chuỗi cung ứng toàn cầu, bước chuyển sang làm việc từ xa (hybrid working) và di chứng sức khỏe tâm thần hậu đại dịch.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+
+                        <div class="upcoming-passage-card">
+                            <div>
+                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
+                                <h4>The Rise of Reality Television</h4>
+                                <h5>Xã hội học truyền thông: Sự trỗi dậy và tâm lý học của chương trình truyền hình thực tế</h5>
+                                <p>Giải mã sức hút tò mò nhìn trộm (voyeurism), cơ chế kịch bản hóa xung đột cảm xúc và tác động của truyền hình thực tế đối với nhận thức danh tiếng trong giới trẻ.</p>
+                            </div>
+                            <div class="upcoming-tag-bar">
+                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
+                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
     container.innerHTML = suitesHtml;
 }
 
