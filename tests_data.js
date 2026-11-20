@@ -50518,6 +50518,2824 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST22",
+    "testNum": 22,
+    "title": "VSTEP READING MOCK TEST 22",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 12 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Suburban Hospitals & Healthcare Access",
+        "topic": "Bệnh viện vùng ngoại ô & Khả năng tiếp cận dịch vụ y tế công bằng: Thách thức phân bổ nguồn lực, y tế từ xa (telehealth) và chăm sóc sức khỏe ban đầu",
+        "timeAllowed": 15,
+        "passage": "<p>Over the past three decades, rapid suburbanization across industrialized nations has triggered a massive demographic migration. As young families and retirees progressively relocate away from congested metropolitan centers, the demand for essential community infrastructure has intensified. Among these public necessities, accessible healthcare has become paramount. Historically, advanced medical facilities and specialized clinical talent were disproportionately concentrated in downtown university teaching hospitals. Today, however, regional healthcare networks are investing billions of dollars to build modern suburban hospital campuses, striving to bridge geographic disparities and bring acute clinical interventions closer to residential neighborhoods.</p><p>Despite substantial capital investment, suburban hospitals encounter distinct systemic operational hurdles. Chief among these is medical workforce recruitment and professional retention. While metropolitan hospitals readily attract top-tier surgical subspecialists due to academic prestige and massive patient volumes, suburban community facilities often struggle to staff niche departments, such as pediatric neurology or neonatal intensive care. Consequently, patients requiring rare specialized surgeries must still be transported via emergency ambulance dispatch to downtown medical centers. Furthermore, suburban hospitals must navigate volatile commercial insurance reimbursements while maintaining emergency departments legally obligated to treat all ambulatory patients regardless of their financial solvency.</p><p>To overcome these specialized service limitations, forward-looking suburban health centers are spearheading decentralized care models. Central to this strategy is the integration of high-speed telemedicine and virtual consultation pods. Through encrypted digital links, on-duty suburban physicians can collaborate in real time with downtown academic experts to review complex diagnostic scans and calibrate intensive-care treatment plans. Concurrently, regional systems are establishing network outpatient clinics dedicated to preventative screenings and chronic illness management, such as diabetes and hypertension, significantly reducing emergency room overcrowding.</p><p>Ultimately, suburban hospitals represent an indispensable pillar of modern healthcare equity. By providing immediate emergency triage within minutes of suburban homes, they save vital minutes during acute cardiac arrests and strokes where travel time dictates survival. When thoughtfully integrated into regional hub-and-spoke networks, suburban medical campuses harmonize community proximity with world-class clinical expertise, ensuring that high-quality medical care is no longer a privilege exclusive to urban cores.</p>",
+        "vocab": [
+          {
+            "word": "suburbanization",
+            "pos": "n",
+            "ipa": "/səˌbɜː.bən.aɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "quá trình ngoại ô hóa, dân cư dịch chuyển ra ngoại thành",
+            "syns": [
+              "suburban sprawl",
+              "outward expansion"
+            ],
+            "ex": "Rapid suburbanization has transformed agricultural land into residential neighborhoods."
+          },
+          {
+            "word": "demographic",
+            "pos": "adj",
+            "ipa": "/ˌdem.əˈɡræf.ɪk/",
+            "level": "B2",
+            "mean": "thuộc về nhân khẩu học (dân số, độ tuổi, di cư)",
+            "syns": [
+              "population-based",
+              "statistical"
+            ],
+            "ex": "Suburban clinics must adapt to changing demographic profiles of elderly retirees."
+          },
+          {
+            "word": "paramount",
+            "pos": "adj",
+            "ipa": "/ˈpær.ə.maʊnt/",
+            "level": "C1",
+            "mean": "tối quan trọng, có tầm quan trọng tối thượng",
+            "syns": [
+              "supreme",
+              "primary",
+              "preeminent"
+            ],
+            "ex": "Patient safety is of paramount importance in surgical ward operations."
+          },
+          {
+            "word": "disparity",
+            "pos": "n",
+            "ipa": "/dɪˈspær.ə.ti/",
+            "level": "B2",
+            "mean": "sự bất bình đẳng, chênh lệch rõ rệt",
+            "syns": [
+              "imbalance",
+              "inequality",
+              "divergence"
+            ],
+            "ex": "Health authorities strive to eliminate geographic disparities in cancer care access."
+          },
+          {
+            "word": "acute",
+            "pos": "adj",
+            "ipa": "/əˈkjuːt/",
+            "level": "B2",
+            "mean": "cấp tính (bệnh phát tác nhanh và nghiêm trọng)",
+            "syns": [
+              "critical",
+              "severe",
+              "urgent"
+            ],
+            "ex": "Suburban emergency wards are equipped to handle acute respiratory failure."
+          },
+          {
+            "word": "recruitment",
+            "pos": "n",
+            "ipa": "/rɪˈkruːt.mənt/",
+            "level": "B2",
+            "mean": "sự tuyển dụng nhân sự",
+            "syns": [
+              "hiring",
+              "enlistment",
+              "staffing"
+            ],
+            "ex": "Physician recruitment remains a pressing concern for remote community hospitals."
+          },
+          {
+            "word": "retention",
+            "pos": "n",
+            "ipa": "/rɪˈten.ʃən/",
+            "level": "B2",
+            "mean": "sự giữ chân, duy trì nhân lực lâu dài",
+            "syns": [
+              "maintenance",
+              "preservation",
+              "keeping"
+            ],
+            "ex": "Competitive salaries and work-life balance improve nurse retention in clinics."
+          },
+          {
+            "word": "top-tier",
+            "pos": "adj",
+            "ipa": "/ˌtɒpˈtɪər/",
+            "level": "B2",
+            "mean": "hàng đầu, thuộc đẳng cấp cao nhất",
+            "syns": [
+              "first-rate",
+              "elite",
+              "leading"
+            ],
+            "ex": "Downtown facilities easily attract top-tier medical researchers and surgeons."
+          },
+          {
+            "word": "pediatric",
+            "pos": "adj",
+            "ipa": "/ˌpiː.diˈæt.rɪk/",
+            "level": "B2",
+            "mean": "thuộc về nhi khoa (chăm sóc trẻ em)",
+            "syns": [
+              "child-health",
+              "infant-care"
+            ],
+            "ex": "The hospital opened a dedicated pediatric emergency wing for young patients."
+          },
+          {
+            "word": "neonatal",
+            "pos": "adj",
+            "ipa": "/ˌniː.əʊˈneɪ.təl/",
+            "level": "B2",
+            "mean": "thuộc về trẻ sơ sinh (trong tháng đầu đời)",
+            "syns": [
+              "newborn",
+              "infant"
+            ],
+            "ex": "Premature infants require specialized neonatal intensive care incubators."
+          },
+          {
+            "word": "dispatch",
+            "pos": "n",
+            "ipa": "/dɪˈspætʃ/",
+            "level": "B2",
+            "mean": "sự điều phối, cử phương tiện đi khẩn cấp",
+            "syns": [
+              "deployment",
+              "sending",
+              "direction"
+            ],
+            "ex": "Central dispatch routed three ambulances to the multivehicle highway collision."
+          },
+          {
+            "word": "reimbursement",
+            "pos": "n",
+            "ipa": "/ˌriː.ɪmˈbɜːs.mənt/",
+            "level": "C1",
+            "mean": "khoản hoàn trả chi phí y tế từ bảo hiểm",
+            "syns": [
+              "repayment",
+              "compensation",
+              "settlement"
+            ],
+            "ex": "Hospitals depend on timely insurance reimbursement to maintain operational budgets."
+          },
+          {
+            "word": "ambulatory",
+            "pos": "adj",
+            "ipa": "/ˈæm.bjə.lə.tər.i/",
+            "level": "C1",
+            "mean": "ngoại trú, có thể đi lại tự chăm sóc được",
+            "syns": [
+              "outpatient",
+              "walking",
+              "mobile"
+            ],
+            "ex": "Ambulatory surgery centers allow patients to recover at home on the same day."
+          },
+          {
+            "word": "solvency",
+            "pos": "n",
+            "ipa": "/ˈsɒl.vən.si/",
+            "level": "C1",
+            "mean": "khả năng thanh toán tài chính",
+            "syns": [
+              "financial stability",
+              "creditworthiness"
+            ],
+            "ex": "Emergency rooms must treat all trauma victims regardless of their financial solvency."
+          },
+          {
+            "word": "spearhead",
+            "pos": "v",
+            "ipa": "/ˈspɪə.hed/",
+            "level": "B2",
+            "mean": "tiên phong dẫn đầu một phong trào hay dự án",
+            "syns": [
+              "lead",
+              "pioneer",
+              "champion"
+            ],
+            "ex": "Suburban directors spearhead local initiatives to expand preventative care."
+          },
+          {
+            "word": "decentralized",
+            "pos": "adj",
+            "ipa": "/diːˈsen.trə.laɪzd/",
+            "level": "B2",
+            "mean": "phi tập trung, phân tán về cơ sở",
+            "syns": [
+              "distributed",
+              "dispersed",
+              "localized"
+            ],
+            "ex": "A decentralized clinic network brings regular checkups closer to rural families."
+          },
+          {
+            "word": "telemedicine",
+            "pos": "n",
+            "ipa": "/ˌtel.ɪˈmed.ɪ.sɪn/",
+            "level": "B2",
+            "mean": "y tế từ xa qua kết nối internet và video",
+            "syns": [
+              "telehealth",
+              "virtual care",
+              "remote medicine"
+            ],
+            "ex": "Telemedicine allows isolated patients to consult cardiology specialists remotely."
+          },
+          {
+            "word": "encrypted",
+            "pos": "adj",
+            "ipa": "/ɪnˈkrɪp.tɪd/",
+            "level": "B2",
+            "mean": "được mã hóa bảo mật kỹ thuật số",
+            "syns": [
+              "ciphered",
+              "secured",
+              "protected"
+            ],
+            "ex": "Doctors communicate through encrypted platforms to protect confidential medical history."
+          },
+          {
+            "word": "calibrate",
+            "pos": "v",
+            "ipa": "/ˈkæl.ɪ.breɪt/",
+            "level": "C1",
+            "mean": "hiệu chỉnh chính xác liều lượng hoặc thiết bị",
+            "syns": [
+              "adjust",
+              "fine-tune",
+              "regulate"
+            ],
+            "ex": "Physicians calibrate dosage levels based on daily blood filtration metrics."
+          },
+          {
+            "word": "chronic",
+            "pos": "adj",
+            "ipa": "/ˈkrɒn.ɪk/",
+            "level": "B2",
+            "mean": "mãn tính (kéo dài kinh niên)",
+            "syns": [
+              "long-lasting",
+              "persistent",
+              "incurable"
+            ],
+            "ex": "Managing chronic conditions like diabetes prevents sudden emergency hospitalizations."
+          },
+          {
+            "word": "hypertension",
+            "pos": "n",
+            "ipa": "/ˌhaɪ.pəˈten.ʃən/",
+            "level": "B2",
+            "mean": "chứng cao huyết áp",
+            "syns": [
+              "high blood pressure",
+              "arterial pressure"
+            ],
+            "ex": "Dietary modification and exercise significantly reduce arterial hypertension."
+          },
+          {
+            "word": "equity",
+            "pos": "n",
+            "ipa": "/ˈek.wɪ.ti/",
+            "level": "B2",
+            "mean": "sự công bằng, bình đẳng cơ hội tiếp cận",
+            "syns": [
+              "fairness",
+              "impartiality",
+              "justice"
+            ],
+            "ex": "Healthcare equity ensures that quality care does not depend on postal codes."
+          },
+          {
+            "word": "triage",
+            "pos": "n",
+            "ipa": "/ˈtriː.ɑːʒ/",
+            "level": "C1",
+            "mean": "sự phân loại bệnh nhân cấp cứu theo mức độ nguy kịch",
+            "syns": [
+              "emergency sorting",
+              "priority screening"
+            ],
+            "ex": "Rapid triage ensures that patients with stroke symptoms are treated immediately."
+          },
+          {
+            "word": "hub-and-spoke",
+            "pos": "adj",
+            "ipa": "/ˌhʌb.ənˈspəʊk/",
+            "level": "B2",
+            "mean": "mô hình mạng lưới trục bánh xe (trung tâm kết nối vệ tinh)",
+            "syns": [
+              "centralized-network",
+              "star-network"
+            ],
+            "ex": "In a hub-and-spoke medical system, regional clinics feed complex cases to the main hospital."
+          },
+          {
+            "word": "proximity",
+            "pos": "n",
+            "ipa": "/prɒkˈsɪm.ə.ti/",
+            "level": "B2",
+            "mean": "sự gần gũi về khoảng cách địa lý",
+            "syns": [
+              "closeness",
+              "nearness",
+              "vicinity"
+            ],
+            "ex": "Hospital proximity significantly increases survival rates for cardiac arrest victims."
+          },
+          {
+            "word": "exclusive",
+            "pos": "adj",
+            "ipa": "/ɪkˈskluː.sɪv/",
+            "level": "B2",
+            "mean": "độc quyền, chỉ dành riêng cho một nhóm",
+            "syns": [
+              "restricted",
+              "privileged",
+              "sole"
+            ],
+            "ex": "Specialized cancer screenings should not be exclusive to wealthy urban districts."
+          },
+          {
+            "word": "cardiac",
+            "pos": "adj",
+            "ipa": "/ˈkɑː.di.æk/",
+            "level": "B2",
+            "mean": "thuộc về tim mạch",
+            "syns": [
+              "heart-related",
+              "cardiovascular"
+            ],
+            "ex": "Rapid response during a cardiac episode prevents permanent damage to heart muscle."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "Which of the following best expresses the main idea of the passage?",
+            "questionVi": "Ý nào sau đây thể hiện rõ nhất ý chính của toàn bộ đoạn văn?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "Suburban hospitals are evolving through technology and decentralized networks to provide essential healthcare equity closer to growing communities",
+              "Metropolitan university hospitals are completely shutting down due to rapid population migration",
+              "Private health insurance companies have banned the construction of all new medical campuses",
+              "Telemedicine has completely eliminated the need for human doctors in emergency rooms"
+            ],
+            "optionsVi": [
+              "A. Bệnh viện ngoại ô đang phát triển qua công nghệ và mạng lưới phi tập trung nhằm mang lại sự công bằng y tế thiết yếu gần hơn với cộng đồng đang mở rộng",
+              "B. Các bệnh viện đại học trung tâm đang đóng cửa hoàn toàn do sự di cư dân số nhanh chóng",
+              "C. Các công ty bảo hiểm y tế tư nhân đã cấm xây dựng toàn bộ khuôn viên y tế mới",
+              "D. Y tế từ xa đã loại bỏ hoàn toàn sự cần thiết của bác sĩ con người trong các phòng cấp cứu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By providing immediate emergency triage within minutes of suburban homes, they save vital minutes... suburban medical campuses harmonize community proximity with world-class clinical expertise, ensuring that high-quality medical care is no longer a privilege exclusive to urban cores. [Paragraph 4]",
+            "evidenceVi": "Bằng cách cung cấp sự phân loại cấp cứu ngay lập tức chỉ cách các ngôi nhà ngoại ô vài phút, chúng tiết kiệm những phút giây sinh tử... các khuôn viên y tế ngoại ô kết hợp hài hòa khoảng cách địa lý gần gũi với chuyên môn lâm sàng hàng đầu thế giới, đảm bảo rằng dịch vụ chăm sóc y tế chất lượng cao không còn là đặc quyền chỉ dành riêng cho vùng lõi đô thị. [Đoạn 4]",
+            "explanation": "Toàn bài phân tích nhu cầu mở rộng y tế ra ngoại ô (Đoạn 1), những thách thức về nhân sự chuyên môn (Đoạn 2), các giải pháp y tế từ xa và phòng khám ngoại trú (Đoạn 3), và vai trò cứu mạng, đảm bảo công bằng y tế (Đoạn 4) -> (A) chính xác và toàn diện nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "suburban medical campuses harmonize community proximity with world-class clinical expertise, ensuring that high-quality medical care is no longer a privilege exclusive to urban cores.",
+              "clueAnswer": "Suburban hospitals are evolving through technology and decentralized networks to provide essential healthcare equity closer to growing communities",
+              "keyPassage": "harmonize community proximity with world-class clinical expertise + healthcare equity",
+              "keyAnswer": "Suburban hospitals are evolving through technology and decentralized networks to provide essential healthcare equity closer to growing communities",
+              "paraphrasePair": "harmonize proximity with expertise <=> evolving to provide healthcare equity closer to communities",
+              "meaningVi": "bệnh viện ngoại ô phát triển công nghệ mang lại công bằng y tế cho cộng đồng",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt toàn bài đọc."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "According to paragraph 1, what demographic change has driven the expansion of suburban hospitals?",
+            "questionVi": "Theo đoạn 1, sự thay đổi nhân khẩu học nào đã thúc đẩy sự mở rộng của các bệnh viện ngoại ô?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Young families and retirees relocating away from congested downtown centers to suburban areas",
+              "A nationwide decline in the overall population of industrialized countries",
+              "The mass movement of suburban residents back into inner-city skyscraper apartments",
+              "A sudden decrease in life expectancy among rural agricultural workers"
+            ],
+            "optionsVi": [
+              "A. Các gia đình trẻ và người về hưu chuyển dịch từ các trung tâm đô thị đông đúc ra các khu vực ngoại ô",
+              "B. Sự sụt giảm dân số trên toàn quốc của các quốc gia công nghiệp phát triển",
+              "C. Làn sóng người dân ngoại ô ồ ạt quay trở lại các căn hộ chung cư cao tầng nội đô",
+              "D. Sự sụt giảm đột ngột về tuổi thọ của các công nhân nông nghiệp nông thôn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "As young families and retirees progressively relocate away from congested metropolitan centers, the demand for essential community infrastructure has intensified. Among these public necessities, accessible healthcare has become paramount. [Paragraph 1]",
+            "evidenceVi": "Khi các gia đình trẻ và người về hưu dần dần chuyển đi khỏi các trung tâm vùng đô thị đông đúc, nhu cầu về cơ sở hạ tầng cộng đồng thiết yếu ngày càng tăng cao. Trong số những nhu cầu công cộng này, y tế dễ tiếp cận đã trở thành tối quan trọng. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ nguyên nhân: các gia đình trẻ và người về hưu di cư khỏi trung tâm đô thị tắc nghẽn ('relocate away from congested metropolitan centers') ra vùng ngoại ô (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Nguyên nhân nhân khẩu học (Demographic Cause Detail)",
+              "cluePassage": "young families and retirees progressively relocate away from congested metropolitan centers, the demand for essential community infrastructure has intensified.",
+              "clueAnswer": "Young families and retirees relocating away from congested downtown centers to suburban areas",
+              "keyPassage": "young families and retirees progressively relocate away from congested metropolitan centers",
+              "keyAnswer": "Young families and retirees relocating away from congested downtown centers to suburban areas",
+              "paraphrasePair": "metropolitan centers <=> downtown centers; relocate away <=> relocating",
+              "meaningVi": "gia đình trẻ và người hưu trí di cư ra ngoại ô",
+              "deductionLogic": "Khớp câu 2 và 3 đoạn 1."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "The word 'disparities' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'disparities' trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "inequalities",
+              "similarities",
+              "agreements",
+              "directions"
+            ],
+            "optionsVi": [
+              "A. sự bất bình đẳng, chênh lệch (inequalities)",
+              "B. sự tương đồng (similarities)",
+              "C. các thỏa thuận (agreements)",
+              "D. các phương hướng (directions)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "striving to bridge geographic disparities and bring acute clinical interventions closer to residential neighborhoods. [Paragraph 1]",
+            "evidenceVi": "nỗ lực thu hẹp sự chênh lệch địa lý và đưa các can thiệp lâm sàng cấp tính đến gần hơn với các khu dân cư. [Đoạn 1]",
+            "explanation": "'Geographic disparities' chỉ sự chênh lệch, bất bình đẳng về cơ hội tiếp cận y tế giữa các khu vực địa lý, đồng nghĩa với 'inequalities' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "bridge geographic disparities and bring acute clinical interventions closer",
+              "clueAnswer": "inequalities",
+              "keyPassage": "bridge geographic disparities",
+              "keyAnswer": "bridge geographic inequalities",
+              "paraphrasePair": "disparities <=> inequalities",
+              "meaningVi": "sự bất bình đẳng, khoảng cách chênh lệch",
+              "deductionLogic": "Khớp với nỗ lực xóa bỏ khoảng cách tiếp cận y tế giữa trung tâm và ngoại ô."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "According to paragraph 2, what is a primary operational hurdle faced by suburban hospitals?",
+            "questionVi": "Theo đoạn 2, trở ngại vận hành chính mà các bệnh viện ngoại ô phải đối mặt là gì?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Medical workforce recruitment and retaining specialized clinical subspecialists",
+              "A total absence of municipal electricity and running tap water",
+              "Legal prohibitions against admitting patients over sixty-five years old",
+              "Strict government limits capping the maximum number of patient beds at five"
+            ],
+            "optionsVi": [
+              "A. Tuyển dụng nhân lực y tế và giữ chân các bác sĩ chuyên khoa sâu chuyên biệt",
+              "B. Tình trạng mất điện lưới thành phố và mất nước máy hoàn toàn",
+              "C. Lệnh cấm của pháp luật về việc tiếp nhận bệnh nhân trên 65 tuổi",
+              "D. Quy định nghiêm ngặt của chính phủ giới hạn số giường bệnh tối đa là 5 giường"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Chief among these is medical workforce recruitment and professional retention. While metropolitan hospitals readily attract top-tier surgical subspecialists... suburban community facilities often struggle to staff niche departments [Paragraph 2]",
+            "evidenceVi": "Đứng đầu trong số này là việc tuyển dụng lực lượng lao động y tế và giữ chân chuyên gia. Trong khi các bệnh viện đô thị dễ dàng thu hút các chuyên gia ngoại khoa hàng đầu... thì các cơ sở cộng đồng ngoại ô thường phải chật vật bố trí nhân sự cho các chuyên khoa đặc thù [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ rào cản lớn nhất: tuyển dụng và giữ chân nhân lực y tế, đặc biệt là các chuyên gia ngoại khoa và chuyên khoa hẹp (staff niche departments) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Trở ngại vận hành (Operational Hurdle Detail)",
+              "cluePassage": "Chief among these is medical workforce recruitment and professional retention... struggle to staff niche departments",
+              "clueAnswer": "Medical workforce recruitment and retaining specialized clinical subspecialists",
+              "keyPassage": "medical workforce recruitment and professional retention + struggle to staff niche departments",
+              "keyAnswer": "Medical workforce recruitment and retaining specialized clinical subspecialists",
+              "paraphrasePair": "professional retention <=> retaining; niche departments <=> specialized clinical subspecialists",
+              "meaningVi": "tuyển dụng nhân lực y tế và giữ chân bác sĩ chuyên khoa sâu",
+              "deductionLogic": "Khớp câu 2 và 3 đoạn 2."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "The word 'solvency' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'solvency' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "ability to pay debts",
+              "physical fitness",
+              "academic qualification",
+              "political affiliation"
+            ],
+            "optionsVi": [
+              "A. khả năng chi trả tài chính (ability to pay debts)",
+              "B. thể lực thể chất (physical fitness)",
+              "C. bằng cấp học thuật (academic qualification)",
+              "D. khuynh hướng chính trị (political affiliation)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "legally obligated to treat all ambulatory patients regardless of their financial solvency. [Paragraph 2]",
+            "evidenceVi": "bị ràng buộc về mặt pháp lý phải tiếp nhận điều trị mọi bệnh nhân ngoại trú bất kể khả năng thanh toán tài chính của họ. [Đoạn 2]",
+            "explanation": "'Financial solvency' là khả năng thanh toán chi phí/các khoản nợ tài chính, đồng nghĩa với 'ability to pay debts' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "treat all ambulatory patients regardless of their financial solvency.",
+              "clueAnswer": "ability to pay debts",
+              "keyPassage": "financial solvency",
+              "keyAnswer": "ability to pay debts",
+              "paraphrasePair": "financial solvency <=> ability to pay debts",
+              "meaningVi": "khả năng thanh toán tài chính",
+              "deductionLogic": "Phòng cấp cứu phải chữa bệnh cho mọi người dù họ có tiền chi trả hay không."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "According to paragraph 3, how does telemedicine help suburban hospitals compensate for a shortage of on-site specialists?",
+            "questionVi": "Theo đoạn 3, y tế từ xa (telemedicine) giúp các bệnh viện ngoại ô bù đắp sự thiếu hụt chuyên gia tại chỗ như thế nào?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "On-duty doctors collaborate in real time with downtown experts via encrypted digital links to review scans and calibrate treatments",
+              "Robotic drones deliver pre-packaged surgical tools to patients' homes automatically",
+              "Patients are instructed to self-administer general anesthesia using mobile apps",
+              "Virtual reality headsets hypnotize patients to eliminate the perception of pain"
+            ],
+            "optionsVi": [
+              "A. Các bác sĩ trực phối hợp thời gian thực với các chuyên gia trung tâm qua đường truyền mã hóa để đọc kết quả chụp chiếu và hiệu chỉnh phác đồ",
+              "B. Máy bay không người lái tự động vận chuyển dụng cụ phẫu thuật đến tận nhà bệnh nhân",
+              "C. Bệnh nhân được hướng dẫn tự gây mê toàn thân thông qua ứng dụng di động",
+              "D. Kính thực tế ảo thôi miên bệnh nhân để loại bỏ cảm giác đau đớn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Through encrypted digital links, on-duty suburban physicians can collaborate in real time with downtown academic experts to review complex diagnostic scans and calibrate intensive-care treatment plans. [Paragraph 3]",
+            "evidenceVi": "Thông qua các liên kết kỹ thuật số được mã hóa, các bác sĩ trực tại ngoại ô có thể cộng tác theo thời gian thực với các chuyên gia học thuật ở trung tâm để xem xét các bản quét chẩn đoán phức tạp và hiệu chỉnh các kế hoạch điều trị tích cực. [Đoạn 3]",
+            "explanation": "Đoạn 3 giải thích cơ chế: bác sĩ ngoại ô kết nối kỹ thuật số mã hóa với chuyên gia đầu ngành tại trung tâm để đọc phim chụp và lên phác đồ điều trị hồi sức tích cực theo thời gian thực (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Giải pháp công nghệ (Technological Solution Detail)",
+              "cluePassage": "encrypted digital links, on-duty suburban physicians can collaborate in real time with downtown academic experts to review complex diagnostic scans and calibrate intensive-care treatment plans.",
+              "clueAnswer": "On-duty doctors collaborate in real time with downtown experts via encrypted digital links to review scans and calibrate treatments",
+              "keyPassage": "collaborate in real time with downtown academic experts to review complex diagnostic scans and calibrate treatment plans",
+              "keyAnswer": "collaborate in real time with downtown experts via encrypted digital links to review scans and calibrate treatments",
+              "paraphrasePair": "collaborate in real time <=> collaborate in real time; calibrate treatment plans <=> calibrate treatments",
+              "meaningVi": "hội chẩn thời gian thực với chuyên gia trung tâm qua kết nối bảo mật",
+              "deductionLogic": "Khớp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "What is the purpose of establishing suburban outpatient clinics as described in paragraph 3?",
+            "questionVi": "Mục đích của việc thành lập các phòng khám ngoại trú ở ngoại ô như được mô tả trong đoạn 3 là gì?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "To manage chronic illnesses and preventative screenings, reducing emergency room overcrowding",
+              "To train commercial pilots for regional emergency rescue helicopters",
+              "To sell prescription medications at unregulated public auctions",
+              "To replace all local primary schools with pediatric nursing wards"
+            ],
+            "optionsVi": [
+              "A. Quản lý bệnh mãn tính và tầm soát phòng ngừa, giảm tải sự quá tải cho phòng cấp cứu",
+              "B. Đào tạo phi công thương mại cho máy bay trực thăng cứu hộ khu vực",
+              "C. Bán thuốc theo toa tại các cuộc đấu giá công khai không được kiểm soát",
+              "D. Thay thế toàn bộ trường tiểu học địa phương bằng các khoa điều dưỡng nhi"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "establishing network outpatient clinics dedicated to preventative screenings and chronic illness management, such as diabetes and hypertension, significantly reducing emergency room overcrowding. [Paragraph 3]",
+            "evidenceVi": "thành lập các phòng khám ngoại trú chuyên về tầm soát phòng ngừa và quản lý bệnh mãn tính như tiểu đường và cao huyết áp, giúp giảm đáng kể tình trạng quá tải phòng cấp cứu. [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu rõ mục tiêu của phòng khám ngoại trú: tầm soát sớm và quản lý bệnh mãn tính (tiểu đường, cao huyết áp), giúp giảm áp lực quá tải cho phòng cấp cứu (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Mục đích y tế dự phòng (Preventative Objective Detail)",
+              "cluePassage": "outpatient clinics dedicated to preventative screenings and chronic illness management... significantly reducing emergency room overcrowding.",
+              "clueAnswer": "To manage chronic illnesses and preventative screenings, reducing emergency room overcrowding",
+              "keyPassage": "preventative screenings and chronic illness management... reducing emergency room overcrowding",
+              "keyAnswer": "manage chronic illnesses and preventative screenings, reducing emergency room overcrowding",
+              "paraphrasePair": "reducing overcrowding <=> reducing emergency room overcrowding",
+              "meaningVi": "quản lý bệnh mãn tính và khám phòng ngừa để giảm tải cấp cứu",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "The word 'proximity' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'proximity' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "closeness",
+              "remoteness",
+              "expense",
+              "reputation"
+            ],
+            "optionsVi": [
+              "A. sự gần gũi về khoảng cách (closeness)",
+              "B. sự xa xôi hẻo lánh (remoteness)",
+              "C. chi phí tốn kém (expense)",
+              "D. danh tiếng (reputation)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "harmonize community proximity with world-class clinical expertise [Paragraph 4]",
+            "evidenceVi": "kết hợp hài hòa sự gần gũi về mặt địa lý với cộng đồng với chuyên môn lâm sàng đẳng cấp thế giới [Đoạn 4]",
+            "explanation": "'Community proximity' chỉ cự ly gần gũi, thuận tiện đi lại cho người dân, đồng nghĩa với 'closeness' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "harmonize community proximity with world-class clinical expertise",
+              "clueAnswer": "closeness",
+              "keyPassage": "community proximity",
+              "keyAnswer": "closeness to the community",
+              "paraphrasePair": "proximity <=> closeness",
+              "meaningVi": "sự gần gũi về khoảng cách địa lý",
+              "deductionLogic": "Lợi thế lớn nhất của bệnh viện ngoại ô là nằm sát khu dân cư."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "Why is immediate emergency triage in suburban hospitals vital during acute cardiac arrests and strokes?",
+            "questionVi": "Tại sao việc phân loại cấp cứu ngay lập tức tại bệnh viện ngoại ô lại có tính chất sống còn đối với các ca ngừng tim và đột quỵ cấp tính?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Because every minute saved in transit directly dictates patient survival during acute episodes",
+              "Because government funding is revoked if ambulances travel more than two miles",
+              "Because suburban doctors possess supernatural healing abilities not found in cities",
+              "Because stroke medications decompose if kept inside moving vehicles for more than five minutes"
+            ],
+            "optionsVi": [
+              "A. Vì từng phút giây tiết kiệm được khi di chuyển quyết định trực tiếp khả năng sống sót của bệnh nhân",
+              "B. Vì kinh phí chính phủ sẽ bị thu hồi nếu xe cứu thương di chuyển quá 2 dặm",
+              "C. Vì các bác sĩ ngoại ô có khả năng chữa bệnh siêu nhiên không có ở thành phố",
+              "D. Vì thuốc đột quỵ sẽ bị phân hủy nếu để trong xe đang chạy quá 5 phút"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By providing immediate emergency triage within minutes of suburban homes, they save vital minutes during acute cardiac arrests and strokes where travel time dictates survival. [Paragraph 4]",
+            "evidenceVi": "Bằng cách cung cấp sự phân loại cấp cứu ngay lập tức chỉ cách các ngôi nhà ngoại ô vài phút, chúng tiết kiệm những phút giây sinh tử trong các cơn ngừng tim và đột quỵ cấp tính - nơi thời gian di chuyển quyết định sự sống còn. [Đoạn 4]",
+            "explanation": "Đoạn 4 nhấn mạnh: trong đột quỵ và ngừng tim, thời gian di chuyển quyết định sự sống còn ('travel time dictates survival'), nên việc có bệnh viện gần nhà giúp tiết kiệm từng phút vàng (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Thời gian vàng cấp cứu (Clinical Urgency Detail)",
+              "cluePassage": "save vital minutes during acute cardiac arrests and strokes where travel time dictates survival.",
+              "clueAnswer": "Because every minute saved in transit directly dictates patient survival during acute episodes",
+              "keyPassage": "save vital minutes... where travel time dictates survival",
+              "keyAnswer": "every minute saved in transit directly dictates patient survival",
+              "paraphrasePair": "vital minutes <=> every minute; travel time dictates survival <=> in transit directly dictates patient survival",
+              "meaningVi": "thời gian di chuyển quyết định sự sống còn trong cấp cứu tim mạch",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "What is the author's concluding viewpoint regarding the role of suburban hospital campuses?",
+            "questionVi": "Quan điểm kết luận của tác giả về vai trò của các bệnh viện ngoại ô là gì?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "They ensure that high-quality medical care is no longer a privilege exclusive to urban centers",
+              "They should be privatized and converted into luxury commercial shopping malls",
+              "They are too expensive to maintain and should be closed down immediately",
+              "They should only accept patients who possess university graduate degrees"
+            ],
+            "optionsVi": [
+              "A. Chúng đảm bảo rằng việc chăm sóc y tế chất lượng cao không còn là đặc quyền riêng của các trung tâm đô thị",
+              "B. Chúng nên được tư nhân hóa và chuyển đổi thành các trung tâm mua sắm thương mại xa xỉ",
+              "C. Chúng quá đắt đỏ để duy trì và cần phải đóng cửa ngay lập tức",
+              "D. Chúng chỉ nên tiếp nhận những bệnh nhân có bằng tốt nghiệp đại học"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "ensuring that high-quality medical care is no longer a privilege exclusive to urban cores. [Paragraph 4]",
+            "evidenceVi": "đảm bảo rằng dịch vụ chăm sóc y tế chất lượng cao không còn là đặc quyền chỉ dành riêng cho vùng lõi đô thị. [Đoạn 4]",
+            "explanation": "Câu kết bài khẳng định sứ mệnh công bằng y tế: đảm bảo chăm sóc sức khỏe chất lượng cao không còn là đặc quyền chỉ dành riêng cho cư dân sống ở trung tâm đô thị (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "ensuring that high-quality medical care is no longer a privilege exclusive to urban cores.",
+              "clueAnswer": "They ensure that high-quality medical care is no longer a privilege exclusive to urban centers",
+              "keyPassage": "high-quality medical care is no longer a privilege exclusive to urban cores",
+              "keyAnswer": "high-quality medical care is no longer a privilege exclusive to urban centers",
+              "paraphrasePair": "urban cores <=> urban centers; privilege exclusive to <=> privilege exclusive to",
+              "meaningVi": "đảm bảo y tế chất lượng không còn là đặc quyền riêng của đô thị trung tâm",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Debunking the Ten-Percent Brain Myth in Modern Neuroscience",
+        "topic": "Khoa học thần kinh: Giải mã huyền thoại con người chỉ dùng 10% não bộ qua chụp cộng hưởng từ fMRI, tiến hóa sinh học và năng lượng trao đổi chất",
+        "timeAllowed": 15,
+        "passage": "<p>Few scientific misconceptions have exhibited the stubborn cultural longevity of the 'ten-percent brain myth'—the alluring belief that ordinary human beings utilize a mere fraction of their cerebral capacity, leaving ninety percent of their intellectual potential dormant. Routinely perpetuated by Hollywood science-fiction blockbusters, motivational self-help gurus, and New Age advertisers, the myth tantalizes audiences with the seductive promise that unlocking this unused cranial expanse could bestow telepathic abilities, savant-like memory, or superhuman genius. However, over the past four decades, the maturation of modern cognitive neuroscience, functional neuroimaging, and evolutionary biology has thoroughly dismantled this enduring piece of folklore.</p><p>From an evolutionary perspective, the proposition that ninety percent of the human brain lies inert is biologically implausible. Although the adult human brain accounts for roughly two percent of total body mass, it consumes a disproportionate twenty percent of the body's entire metabolic oxygen and glucose budget. From a Darwinian standpoint, maintaining an immensely energy-expensive organ—ninety percent of which served no functional survival purpose—would represent an evolutionary liability of catastrophic proportions. Natural selection rigorously weeds out metabolic waste; through neurodevelopmental pruning, unused neural pathways and dormant synaptic circuits undergo natural cellular apoptosis or atrophy. Had human ancestors possessed mostly useless cerebral tissue, individuals with smaller, more energy-efficient brains would have decisively outcompeted them.</p><p>Empirical neuroimaging provides even more conclusive refutation. Utilizing high-resolution techniques such as Functional Magnetic Resonance Imaging (fMRI) and Positron Emission Tomography (PET), neuroscientists map brain metabolism and electrical activity in real time. These scans consistently reveal that even during trivial daily activities—such as brewing morning coffee, humming a song, or resting in quiet reflection—virtually the entire brain lights up with coordinated neural firing. While different regions specialize in specific tasks (such as the occipital lobe for vision or the motor strip for movement), no dormant, silent quadrants exist. Even during deep, non-dreaming sleep, the brain maintains constant background cellular homeostasis, metabolic waste clearance, and memory consolidation across all lobes.</p><p>Furthermore, clinical neurology provides devastating evidence against the myth through the study of localized brain damage. If ninety percent of the cerebral cortex were truly superfluous, traumatic head injuries or ischemic strokes impacting minor areas would rarely produce functional deficits. In medical reality, however, damage to almost any tiny, localized neural cluster—whether through trauma, stroke, or disease—catastrophically impairs speech, motor control, emotional regulation, or spatial awareness. Ultimately, human cognitive potential is boundless not because humans possess vast tracts of unused neural real estate, but because the existing, fully engaged brain possesses magnificent 'neuroplasticity'—the dynamic capacity to form new synaptic connections, learn complex skills, and reorganize itself throughout a lifetime of diligent practice.</p>",
+        "vocab": [
+          {
+            "word": "misconception",
+            "pos": "n",
+            "ipa": "/ˌmɪs.kənˈsep.ʃən/",
+            "level": "B2",
+            "mean": "quan niệm sai lầm, hiểu lầm phổ biến",
+            "syns": [
+              "fallacy",
+              "delusion",
+              "myth"
+            ],
+            "ex": "The idea that bats are blind is a widespread scientific misconception."
+          },
+          {
+            "word": "longevity",
+            "pos": "n",
+            "ipa": "/lɒnˈdʒev.ə.ti/",
+            "level": "B2",
+            "mean": "sự trường tồn, tuổi thọ kéo dài lâu bền",
+            "syns": [
+              "durability",
+              "endurance",
+              "permanence"
+            ],
+            "ex": "The cultural longevity of urban legends often defies scientific evidence."
+          },
+          {
+            "word": "dormant",
+            "pos": "adj",
+            "ipa": "/ˈdɔː.mənt/",
+            "level": "B2",
+            "mean": "ngủ yên, nằm im không hoạt động",
+            "syns": [
+              "inactive",
+              "latent",
+              "quiescent"
+            ],
+            "ex": "Volcanoes can remain dormant for centuries before erupting violently."
+          },
+          {
+            "word": "perpetuate",
+            "pos": "v",
+            "ipa": "/pəˈpetʃ.u.eɪt/",
+            "level": "C1",
+            "mean": "duy trì, làm cho một điều gì đó kéo dài mãi",
+            "syns": [
+              "prolong",
+              "sustain",
+              "continue"
+            ],
+            "ex": "Action movies perpetuate the myth that humans use only ten percent of their brains."
+          },
+          {
+            "word": "tantalize",
+            "pos": "v",
+            "ipa": "/ˈtæn.tə.laɪz/",
+            "level": "C1",
+            "mean": "nhử nhử gợi sự tò mò thèm muốn",
+            "syns": [
+              "tease",
+              "entice",
+              "allure"
+            ],
+            "ex": "Advertisements tantalize consumers with promises of effortless brain enhancement."
+          },
+          {
+            "word": "neuroimaging",
+            "pos": "n",
+            "ipa": "/ˌnjʊə.rəʊˈɪm.ɪ.dʒɪŋ/",
+            "level": "C1",
+            "mean": "kỹ thuật chụp ảnh thần kinh học não bộ",
+            "syns": [
+              "brain scanning",
+              "cranial tomography"
+            ],
+            "ex": "Functional neuroimaging shows active blood flow in all cerebral hemispheres."
+          },
+          {
+            "word": "folklore",
+            "pos": "n",
+            "ipa": "/ˈfəʊk.lɔːr/",
+            "level": "B2",
+            "mean": "truyền thuyết dân gian, chuyện hoang đường",
+            "syns": [
+              "mythology",
+              "popular belief",
+              "tradition"
+            ],
+            "ex": "The ten-percent claim is cultural folklore rather than verified neuroscience."
+          },
+          {
+            "word": "implausible",
+            "pos": "adj",
+            "ipa": "/ɪmˈplɔː.zə.bəl/",
+            "level": "C1",
+            "mean": "khó tin, không hợp lý về mặt logic",
+            "syns": [
+              "unlikely",
+              "improbable",
+              "far-fetched"
+            ],
+            "ex": "Having ninety percent of an expensive organ lie useless is biologically implausible."
+          },
+          {
+            "word": "disproportionate",
+            "pos": "adj",
+            "ipa": "/ˌdɪs.prəˈpɔː.ʃən.ət/",
+            "level": "C1",
+            "mean": "không cân xứng, quá mức so với tỷ lệ",
+            "syns": [
+              "unequal",
+              "inordinate",
+              "excessive"
+            ],
+            "ex": "The brain uses a disproportionate amount of the body's daily caloric budget."
+          },
+          {
+            "word": "metabolic",
+            "pos": "adj",
+            "ipa": "/ˌmet.əˈbɒl.ɪk/",
+            "level": "B2",
+            "mean": "thuộc về quá trình trao đổi chất của cơ thể",
+            "syns": [
+              "energy-processing",
+              "physiological"
+            ],
+            "ex": "Intense mental concentration slightly increases overall metabolic consumption."
+          },
+          {
+            "word": "liability",
+            "pos": "n",
+            "ipa": "/ˌlaɪ.əˈbɪl.ə.ti/",
+            "level": "B2",
+            "mean": "gánh nặng, điều bất lợi hoặc trách nhiệm",
+            "syns": [
+              "burden",
+              "handicap",
+              "disadvantage"
+            ],
+            "ex": "Carrying useless biological weight would be a severe survival liability."
+          },
+          {
+            "word": "pruning",
+            "pos": "n",
+            "ipa": "/ˈpruː.nɪŋ/",
+            "level": "C1",
+            "mean": "sự tỉa tót (cắt bỏ các khớp thần kinh không dùng)",
+            "syns": [
+              "trimming",
+              "elimination",
+              "paring down"
+            ],
+            "ex": "Synaptic pruning in adolescence removes connections that are rarely stimulated."
+          },
+          {
+            "word": "atrophy",
+            "pos": "v",
+            "ipa": "/ˈæt.rə.fi/",
+            "level": "C1",
+            "mean": "teo đi, thoái hóa do không sử dụng",
+            "syns": [
+              "wither",
+              "waste away",
+              "degenerate"
+            ],
+            "ex": "Muscles and brain cells atrophy when they are deprived of regular activation."
+          },
+          {
+            "word": "apoptosis",
+            "pos": "n",
+            "ipa": "/ˌæp.əpˈtəʊ.sɪs/",
+            "level": "C1",
+            "mean": "sự chết tế bào theo chương trình tự nhiên",
+            "syns": [
+              "programmed cell death",
+              "cellular suicide"
+            ],
+            "ex": "Apoptosis removes redundant neurons during early fetal brain development."
+          },
+          {
+            "word": "refutation",
+            "pos": "n",
+            "ipa": "/ˌref.jʊˈteɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự bác bỏ, chứng cứ phản bác hoàn toàn",
+            "syns": [
+              "disproof",
+              "rebuttal",
+              "counterargument"
+            ],
+            "ex": "Brain scans provide an irrefutable refutation of the ten-percent myth."
+          },
+          {
+            "word": "trivial",
+            "pos": "adj",
+            "ipa": "/ˈtrɪv.i.əl/",
+            "level": "B2",
+            "mean": "tầm thường, vụn vặt không đáng kể",
+            "syns": [
+              "minor",
+              "inconsequential",
+              "ordinary"
+            ],
+            "ex": "Even during trivial tasks like peeling fruit, multiple brain regions coordinate."
+          },
+          {
+            "word": "occipital",
+            "pos": "adj",
+            "ipa": "/ɒkˈsɪp.ɪ.təl/",
+            "level": "C1",
+            "mean": "thuộc vùng chẩm (vùng xử lý thị giác sau gáy)",
+            "syns": [
+              "visual cortex",
+              "rear-cerebral"
+            ],
+            "ex": "The occipital lobe processes color, motion, and spatial vision from the retinas."
+          },
+          {
+            "word": "quadrant",
+            "pos": "n",
+            "ipa": "/ˈkwɒd.rənt/",
+            "level": "B2",
+            "mean": "khu vực một phần tư, phân vùng góc",
+            "syns": [
+              "sector",
+              "zone",
+              "quarter"
+            ],
+            "ex": "Surgeons carefully map every quadrant of the brain before removing a tumor."
+          },
+          {
+            "word": "consolidation",
+            "pos": "n",
+            "ipa": "/kənˌsɒl.ɪˈdeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự củng cố, khắc sâu (ký ức)",
+            "syns": [
+              "strengthening",
+              "solidification"
+            ],
+            "ex": "Sleep plays an indispensable role in memory consolidation and neural recovery."
+          },
+          {
+            "word": "superfluous",
+            "pos": "adj",
+            "ipa": "/suːˈpɜː.flu.əs/",
+            "level": "C1",
+            "mean": "thừa thãi, không cần thiết",
+            "syns": [
+              "redundant",
+              "excess",
+              "unneeded"
+            ],
+            "ex": "No part of the human central nervous system is biologically superfluous."
+          },
+          {
+            "word": "deficit",
+            "pos": "n",
+            "ipa": "/ˈdef.ɪ.sɪt/",
+            "level": "B2",
+            "mean": "sự thiếu hụt, suy giảm chức năng",
+            "syns": [
+              "impairment",
+              "deficiency",
+              "shortfall"
+            ],
+            "ex": "A small stroke in Broca's area results in severe expressive speech deficits."
+          },
+          {
+            "word": "boundless",
+            "pos": "adj",
+            "ipa": "/ˈbaʊnd.ləs/",
+            "level": "B2",
+            "mean": "vô biên, không có giới hạn",
+            "syns": [
+              "limitless",
+              "infinite",
+              "unbounded"
+            ],
+            "ex": "Human imagination and creativity appear virtually boundless."
+          },
+          {
+            "word": "tract",
+            "pos": "n",
+            "ipa": "/trækt/",
+            "level": "B2",
+            "mean": "dải, dải vùng rộng lớn (địa hạt hoặc bó thần kinh)",
+            "syns": [
+              "region",
+              "area",
+              "expanse"
+            ],
+            "ex": "There are no vast dormant tracts of gray matter waiting to be activated."
+          },
+          {
+            "word": "neuroplasticity",
+            "pos": "n",
+            "ipa": "/ˌnjʊə.rəʊ.plæsˈtɪs.ə.ti/",
+            "level": "C1",
+            "mean": "tính dẻo thần kinh (khả năng tái tổ chức mạng lưới não)",
+            "syns": [
+              "brain adaptability",
+              "neural flexibility"
+            ],
+            "ex": "Neuroplasticity allows stroke patients to relearn walking through physical therapy."
+          },
+          {
+            "word": "synaptic",
+            "pos": "adj",
+            "ipa": "/sɪˈnæp.tɪk/",
+            "level": "C1",
+            "mean": "thuộc về khớp nối xi-náp giữa các tế bào thần kinh",
+            "syns": [
+              "neuronal-junction"
+            ],
+            "ex": "Learning a new language builds dense synaptic connections between cortex regions."
+          },
+          {
+            "word": "savant",
+            "pos": "n",
+            "ipa": "/ˈsæv.ənt/",
+            "level": "C1",
+            "mean": "học giả uyên bác hoặc người có tài năng siêu phàm",
+            "syns": [
+              "genius",
+              "scholar",
+              "prodigy"
+            ],
+            "ex": "Savants demonstrate extraordinary calculating or musical memory abilities."
+          },
+          {
+            "word": "hemisphere",
+            "pos": "n",
+            "ipa": "/ˈhem.ɪ.sfɪər/",
+            "level": "B2",
+            "mean": "bán cầu não (nửa bán cầu đại não)",
+            "syns": [
+              "cerebral half",
+              "cranial division"
+            ],
+            "ex": "Both the left and right cerebral hemispheres communicate through the corpus callosum."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Ý nào sau đây thể hiện khái quát chủ đề chính của đoạn văn?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "Debunking the ten-percent brain myth through evolutionary biology, empirical neuroimaging, and clinical neurology",
+              "Promoting New Age commercial products designed to awaken psychic telepathy in students",
+              "Explaining how Hollywood screenwriters write scripts for science-fiction movies",
+              "Proving that the adult human brain accounts for fifty percent of total human body mass"
+            ],
+            "optionsVi": [
+              "A. Bác bỏ huyền thoại con người chỉ dùng 10% não bộ qua sinh học tiến hóa, chụp ảnh thần kinh thực nghiệm và thần kinh học lâm sàng",
+              "B. Quảng bá các sản phẩm thương mại New Age được thiết kế để đánh thức thần giao cách cảm ở học sinh",
+              "C. Giải thích cách các nhà biên kịch Hollywood viết kịch bản cho phim khoa học viễn tưởng",
+              "D. Chứng minh não bộ người trưởng thành chiếm 50% tổng khối lượng cơ thể con người"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "over the past four decades, the maturation of modern cognitive neuroscience, functional neuroimaging, and evolutionary biology has thoroughly dismantled this enduring piece of folklore. [Paragraph 1]",
+            "evidenceVi": "trong suốt bốn thập kỷ qua, sự trưởng thành của khoa học thần kinh nhận thức hiện đại, kỹ thuật chụp ảnh thần kinh chức năng và sinh học tiến hóa đã tháo dỡ hoàn toàn câu chuyện hoang đường trường tồn này. [Đoạn 1]",
+            "explanation": "Toàn bài phân tích và bác bỏ huyền thoại 10% não bộ từ 3 góc độ khoa học: sinh học tiến hóa và năng lượng (Đoạn 2), chụp quét fMRI và PET (Đoạn 3), tổn thương thần kinh thực tế và tính dẻo não bộ (Đoạn 4) -> (A) chuẩn xác nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "modern cognitive neuroscience, functional neuroimaging, and evolutionary biology has thoroughly dismantled this enduring piece of folklore.",
+              "clueAnswer": "Debunking the ten-percent brain myth through evolutionary biology, empirical neuroimaging, and clinical neurology",
+              "keyPassage": "cognitive neuroscience, functional neuroimaging, and evolutionary biology + dismantled enduring piece of folklore",
+              "keyAnswer": "Debunking the ten-percent brain myth through evolutionary biology, empirical neuroimaging, and clinical neurology",
+              "paraphrasePair": "dismantled enduring folklore <=> debunking myth",
+              "meaningVi": "bác bỏ huyền thoại 10% qua sinh học tiến hóa và chụp ảnh não",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt toàn bài."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "According to paragraph 1, how has the ten-percent brain myth been routinely perpetuated?",
+            "questionVi": "Theo đoạn 1, huyền thoại 10% não bộ thường xuyên được duy trì và truyền bá bởi điều gì?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "By Hollywood science-fiction blockbusters, motivational self-help gurus, and New Age advertisers",
+              "By official United Nations educational curriculum mandates",
+              "By veterinary surgeons studying animal behavior in zoos",
+              "By mathematical societies calculating geometry proofs"
+            ],
+            "optionsVi": [
+              "A. Bởi các phim bom tấn khoa học viễn tưởng Hollywood, các diễn giả truyền cảm hứng và các nhà quảng cáo New Age",
+              "B. Bởi các chỉ thị chương trình giáo dục chính thức của Liên Hợp Quốc",
+              "C. Bởi các bác sĩ phẫu thuật thú y nghiên cứu hành vi động vật trong vườn thú",
+              "D. Bởi các hội toán học tính toán các chứng minh hình học"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Routinely perpetuated by Hollywood science-fiction blockbusters, motivational self-help gurus, and New Age advertisers, the myth tantalizes audiences [Paragraph 1]",
+            "evidenceVi": "Thường xuyên được duy trì bởi các bộ phim bom tấn khoa học viễn tưởng của Hollywood, các chuyên gia tự lực truyền cảm hứng và các nhà quảng cáo New Age, huyền thoại này kích thích khán giả [Đoạn 1]",
+            "explanation": "Đoạn 1 liệt kê đích danh 3 nguồn chính gieo rắc huyền thoại này: phim bom tấn Hollywood, các chuyên gia tự lực self-help và quảng cáo New Age (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Nguồn gốc lan truyền (Cultural Transmission Detail)",
+              "cluePassage": "perpetuated by Hollywood science-fiction blockbusters, motivational self-help gurus, and New Age advertisers",
+              "clueAnswer": "By Hollywood science-fiction blockbusters, motivational self-help gurus, and New Age advertisers",
+              "keyPassage": "Hollywood science-fiction blockbusters, motivational self-help gurus, and New Age advertisers",
+              "keyAnswer": "Hollywood science-fiction blockbusters, motivational self-help gurus, and New Age advertisers",
+              "paraphrasePair": "routinely perpetuated <=> perpetuated",
+              "meaningVi": "được truyền bá bởi phim Hollywood, diễn giả và quảng cáo",
+              "deductionLogic": "Trích dẫn nguyên văn ở câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "The word 'perpetuated' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'perpetuated' trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "continued and spread",
+              "criticized severely",
+              "eliminated completely",
+              "measured precisely"
+            ],
+            "optionsVi": [
+              "A. tiếp tục duy trì và lan truyền (continued and spread)",
+              "B. chỉ trích dữ dội (criticized severely)",
+              "C. xóa sổ hoàn toàn (eliminated completely)",
+              "D. đo đạc chính xác (measured precisely)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Routinely perpetuated by Hollywood science-fiction blockbusters, motivational self-help gurus [Paragraph 1]",
+            "evidenceVi": "Thường xuyên được duy trì bởi các bộ phim bom tấn khoa học viễn tưởng của Hollywood, các chuyên gia tự lực [Đoạn 1]",
+            "explanation": "'Perpetuate' có nghĩa là làm cho một điều gì đó (thường là một niềm tin sai lệch) tiếp tục tồn tại và lan rộng, đồng nghĩa với 'continued and spread' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "Routinely perpetuated by Hollywood science-fiction blockbusters",
+              "clueAnswer": "continued and spread",
+              "keyPassage": "perpetuated by",
+              "keyAnswer": "continued and spread by",
+              "paraphrasePair": "perpetuated <=> continued and spread",
+              "meaningVi": "duy trì, làm kéo dài sự tồn tại",
+              "deductionLogic": "Mô tả sự lan truyền lâu dài của quan niệm sai lệch trong đại chúng."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "According to paragraph 2, what metabolic evidence makes the ten-percent myth biologically implausible?",
+            "questionVi": "Theo đoạn 2, bằng chứng trao đổi chất nào khiến cho huyền thoại 10% là phi lý về mặt sinh học?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "The brain accounts for 2% of body mass but consumes 20% of the body's entire oxygen and glucose budget",
+              "The brain produces ninety percent of human sweat during deep sleep",
+              "The brain requires zero calories and can survive without blood circulation",
+              "The brain operates on solar power rather than food-derived calories"
+            ],
+            "optionsVi": [
+              "A. Não bộ chỉ chiếm 2% khối lượng cơ thể nhưng tiêu thụ tới 20% toàn bộ lượng oxy và glucose của cơ thể",
+              "B. Não bộ sản sinh ra 90% lượng mồ hôi của con người trong giấc ngủ sâu",
+              "C. Não bộ không cần calo và có thể sống sót mà không cần tuần hoàn máu",
+              "D. Não bộ vận hành bằng năng lượng mặt trời thay vì calo từ thức ăn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Although the adult human brain accounts for roughly two percent of total body mass, it consumes a disproportionate twenty percent of the body's entire metabolic oxygen and glucose budget. [Paragraph 2]",
+            "evidenceVi": "Mặc dù não bộ người trưởng thành chỉ chiếm khoảng hai phần trăm tổng khối lượng cơ thể, nó lại tiêu thụ một lượng không cân xứng lên tới hai mươi phần trăm toàn bộ lượng oxy và glucose trao đổi chất của cơ thể. [Đoạn 2]",
+            "explanation": "Đoạn 2 chỉ rõ: não bộ nặng chỉ 2% cơ thể nhưng ngốn tới 20% năng lượng oxy và đường glucose. Tiến hóa không bao giờ nuôi một cơ quan ngốn 20% năng lượng nếu 90% cơ quan đó không dùng đến (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Bằng chứng trao đổi chất (Metabolic Evidence Detail)",
+              "cluePassage": "brain accounts for roughly two percent of total body mass, it consumes a disproportionate twenty percent of the body's entire metabolic oxygen and glucose budget.",
+              "clueAnswer": "The brain accounts for 2% of body mass but consumes 20% of the body's entire oxygen and glucose budget",
+              "keyPassage": "two percent of total body mass + consumes a disproportionate twenty percent of metabolic oxygen and glucose",
+              "keyAnswer": "accounts for 2% of body mass but consumes 20% of oxygen and glucose budget",
+              "paraphrasePair": "roughly two percent <=> 2%; twenty percent <=> 20%",
+              "meaningVi": "chiếm 2% khối lượng nhưng tiêu thụ 20% năng lượng oxy và đường",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "The word 'atrophy' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'atrophy' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "wither and degenerate",
+              "grow rapidly",
+              "generate electricity",
+              "harden into stone"
+            ],
+            "optionsVi": [
+              "A. teo đi và thoái hóa (wither and degenerate)",
+              "B. phát triển nhanh chóng (grow rapidly)",
+              "C. tạo ra điện năng (generate electricity)",
+              "D. hóa cứng thành đá (harden into stone)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "unused neural pathways and dormant synaptic circuits undergo natural cellular apoptosis or atrophy. [Paragraph 2]",
+            "evidenceVi": "các con đường thần kinh không được sử dụng và các mạch xi-náp ngủ yên sẽ trải qua quá trình chết tế bào tự nhiên hoặc teo thoái hóa. [Đoạn 2]",
+            "explanation": "'Atrophy' là sự teo nhỏ, thoái hóa dần của mô tế bào do không được kích thích hoặc không sử dụng, đồng nghĩa với 'wither and degenerate' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng sinh học (Biological Vocabulary)",
+              "cluePassage": "dormant synaptic circuits undergo natural cellular apoptosis or atrophy.",
+              "clueAnswer": "wither and degenerate",
+              "keyPassage": "undergo... atrophy",
+              "keyAnswer": "wither and degenerate",
+              "paraphrasePair": "atrophy <=> wither and degenerate",
+              "meaningVi": "teo đi, thoái hóa do không sử dụng",
+              "deductionLogic": "Quy luật sinh học: mô não không hoạt động sẽ bị đào thải hoặc teo đi."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "What evolutionary argument does the author present in paragraph 2 to refute the myth?",
+            "questionVi": "Tác giả đưa ra lập luận tiến hóa nào trong đoạn 2 để bác bỏ huyền thoại này?",
+            "questionType": "DẠNG 04: CÂU HỎI SUY LUẬN (Inference)",
+            "options": [
+              "Natural selection would have favored ancestors with smaller, efficient brains over those carrying 90% useless tissue",
+              "Monkeys and apes have larger brains than modern humans because they use one hundred percent",
+              "Human brains evolved specifically to watch science-fiction films on high-definition screens",
+              "Extinct hominids died out because their brains consumed no metabolic calories at all"
+            ],
+            "optionsVi": [
+              "A. Chọn lọc tự nhiên sẽ ưu ái tổ tiên có bộ não nhỏ, hiệu quả hơn là những kẻ mang theo 90% mô vô dụng",
+              "B. Khỉ và vượn người có bộ não lớn hơn người hiện đại vì chúng dùng 100%",
+              "C. Não người tiến hóa đặc thù để xem phim khoa học viễn tưởng trên màn hình độ nét cao",
+              "D. Các loài người cổ xưa đã tuyệt chủng vì não của họ hoàn toàn không tiêu thụ calo"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Had human ancestors possessed mostly useless cerebral tissue, individuals with smaller, more energy-efficient brains would have decisively outcompeted them. [Paragraph 2]",
+            "evidenceVi": "Nếu tổ tiên loài người sở hữu các mô não phần lớn là vô dụng, thì những cá nhân có bộ não nhỏ hơn, tiết kiệm năng lượng hơn chắc chắn đã cạnh tranh vượt trội hơn họ. [Đoạn 2]",
+            "explanation": "Đoạn 2 khẳng định theo thuyết tiến hóa: nếu 90% não là vô dụng, những người có não nhỏ hơn, ít tốn calo hơn đã chiến thắng trong cuộc đấu tranh sinh tồn (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận tiến hóa (Evolutionary Logic Inference)",
+              "cluePassage": "Had human ancestors possessed mostly useless cerebral tissue, individuals with smaller, more energy-efficient brains would have decisively outcompeted them.",
+              "clueAnswer": "Natural selection would have favored ancestors with smaller, efficient brains over those carrying 90% useless tissue",
+              "keyPassage": "individuals with smaller, more energy-efficient brains would have decisively outcompeted them",
+              "keyAnswer": "Natural selection would have favored ancestors with smaller, efficient brains over those carrying 90% useless tissue",
+              "paraphrasePair": "outcompeted <=> favored by natural selection",
+              "meaningVi": "chọn lọc tự nhiên sẽ đào thải bộ não thừa 90% mô vô dụng",
+              "deductionLogic": "Khớp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "According to paragraph 3, what do fMRI and PET neuroimaging scans consistently reveal?",
+            "questionVi": "Theo đoạn 3, các bản quét ảnh thần kinh fMRI và PET luôn tiết lộ điều gì?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Virtually the entire brain shows coordinated neural activity even during simple daily tasks or quiet rest",
+              "Exactly ninety percent of the brain stays completely black and deactivated at all times",
+              "The human brain only activates when answering advanced calculus examinations",
+              "Scanners cannot detect any electrical signals inside living human heads"
+            ],
+            "optionsVi": [
+              "A. Hầu như toàn bộ não bộ đều cho thấy hoạt động thần kinh phối hợp ngay cả trong các công việc thường nhật đơn giản hay nghỉ ngơi tĩnh lặng",
+              "B. Đúng 90% não bộ luôn tối đen và không hoạt động vào mọi thời điểm",
+              "C. Não người chỉ hoạt động khi giải các đề thi giải tích nâng cao",
+              "D. Máy quét không thể phát hiện bất kỳ tín hiệu điện nào bên trong đầu người sống"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "These scans consistently reveal that even during trivial daily activities—such as brewing morning coffee, humming a song, or resting in quiet reflection—virtually the entire brain lights up with coordinated neural firing. [Paragraph 3]",
+            "evidenceVi": "Những bản quét này liên tục cho thấy rằng ngay cả trong các hoạt động hàng ngày bình thường - chẳng hạn như pha cà phê buổi sáng, ngâm nga một bài hát, hoặc nghỉ ngơi trong sự tĩnh lặng - hầu như toàn bộ não bộ đều sáng lên với các đợt phát xung thần kinh phối hợp. [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ ra bằng chứng quét não thực tế: ngay cả khi làm những việc rất vụn vặt hoặc nghỉ ngơi, hầu như toàn bộ não bộ đều sáng lên và hoạt động phối hợp nhịp nhàng ('virtually the entire brain lights up') (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Bằng chứng quét ảnh thần kinh (Neuroimaging Detail)",
+              "cluePassage": "consistently reveal that even during trivial daily activities... virtually the entire brain lights up with coordinated neural firing.",
+              "clueAnswer": "Virtually the entire brain shows coordinated neural activity even during simple daily tasks or quiet rest",
+              "keyPassage": "virtually the entire brain lights up with coordinated neural firing",
+              "keyAnswer": "Virtually the entire brain shows coordinated neural activity even during simple daily tasks",
+              "paraphrasePair": "lights up with coordinated firing <=> shows coordinated neural activity; trivial daily activities <=> simple daily tasks",
+              "meaningVi": "toàn bộ não bộ đều sáng lên và hoạt động ngay cả khi làm việc nhỏ",
+              "deductionLogic": "Khớp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "The word 'superfluous' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'superfluous' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "unnecessary and redundant",
+              "indispensable and vital",
+              "delicate and fragile",
+              "electric and fast"
+            ],
+            "optionsVi": [
+              "A. không cần thiết và thừa thãi (unnecessary and redundant)",
+              "B. không thể thiếu và thiết yếu (indispensable and vital)",
+              "C. mỏng manh và dễ vỡ (delicate and fragile)",
+              "D. chạy bằng điện và nhanh (electric and fast)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "If ninety percent of the cerebral cortex were truly superfluous, traumatic head injuries... would rarely produce functional deficits. [Paragraph 4]",
+            "evidenceVi": "Nếu chín mươi phần trăm vỏ đại não thực sự là thừa thãi, các chấn thương sọ não... sẽ hiếm khi tạo ra sự thiếu hụt chức năng. [Đoạn 4]",
+            "explanation": "'Superfluous' là thừa thãi, không cần thiết hoặc dư thừa, đồng nghĩa với 'unnecessary and redundant' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "If ninety percent of the cerebral cortex were truly superfluous",
+              "clueAnswer": "unnecessary and redundant",
+              "keyPassage": "truly superfluous",
+              "keyAnswer": "unnecessary and redundant",
+              "paraphrasePair": "superfluous <=> unnecessary and redundant",
+              "meaningVi": "thừa thãi, không cần thiết",
+              "deductionLogic": "Mô tả giả định sai lầm rằng 90% não là phần thừa."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "According to paragraph 4, what clinical evidence from brain trauma completely disproves the 90% dormant assumption?",
+            "questionVi": "Theo đoạn 4, bằng chứng lâm sàng nào từ chấn thương não bác bỏ hoàn toàn giả định 90% não bộ nằm im?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Damage to almost any tiny localized neural cluster catastrophically impairs specific bodily or cognitive functions",
+              "People with head injuries universally acquire psychic abilities to predict the stock market",
+              "Patients can lose ninety percent of their head without experiencing any changes in memory",
+              "Brain surgeons can safely discard most of the cortex during routine operations"
+            ],
+            "optionsVi": [
+              "A. Tổn thương ở hầu như bất kỳ cụm tế bào thần kinh khu trú nhỏ nào cũng làm suy giảm nghiêm trọng các chức năng nhận thức hoặc cơ thể cụ thể",
+              "B. Những người bị chấn thương đầu đều có được khả năng tâm linh dự đoán thị trường chứng khoán",
+              "C. Bệnh nhân có thể mất 90% đầu mà không hề bị thay đổi trí nhớ",
+              "D. Các bác sĩ phẫu thuật não có thể vứt bỏ phần lớn vỏ não một cách an toàn trong các ca mổ thông thường"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "damage to almost any tiny, localized neural cluster—whether through trauma, stroke, or disease—catastrophically impairs speech, motor control, emotional regulation, or spatial awareness. [Paragraph 4]",
+            "evidenceVi": "tổn thương ở hầu như bất kỳ cụm tế bào thần kinh cục bộ nhỏ bé nào - dù qua chấn thương, đột quỵ hay bệnh tật - đều làm suy giảm nghiêm trọng khả năng ngôn ngữ, kiểm soát vận động, điều hòa cảm xúc hoặc nhận thức không gian. [Đoạn 4]",
+            "explanation": "Đoạn 4 khẳng định bằng chứng y khoa lâm sàng: tổn thương dù chỉ một cụm tế bào thần kinh nhỏ xíu cũng gây mất chức năng nói, vận động hay cảm xúc -> Không hề có vùng nào là thừa thãi nằm im (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Bằng chứng thần kinh lâm sàng (Clinical Neurology Detail)",
+              "cluePassage": "damage to almost any tiny, localized neural cluster... catastrophically impairs speech, motor control, emotional regulation, or spatial awareness.",
+              "clueAnswer": "Damage to almost any tiny localized neural cluster catastrophically impairs specific bodily or cognitive functions",
+              "keyPassage": "damage to almost any tiny, localized neural cluster... impairs speech, motor control, emotional regulation",
+              "keyAnswer": "Damage to almost any tiny localized neural cluster catastrophically impairs specific bodily or cognitive functions",
+              "paraphrasePair": "catastrophically impairs speech and motor control <=> impairs specific bodily or cognitive functions",
+              "meaningVi": "tổn thương bất kỳ cụm thần kinh nhỏ nào cũng gây mất chức năng",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "According to the final sentence, what truly explains human boundless cognitive potential?",
+            "questionVi": "Theo câu kết bài, điều gì thực sự giải thích tiềm năng nhận thức vô biên của con người?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "Neuroplasticity—the dynamic capacity of the engaged brain to form new synaptic connections throughout life",
+              "A hidden gland in the skull that secretes super-intelligent enzymes when stimulated by magnets",
+              "Consuming chemical stimulants that force ninety percent of dormant cells to awaken",
+              "Downloading computerized computer chips directly into the bloodstream"
+            ],
+            "optionsVi": [
+              "A. Tính dẻo thần kinh (neuroplasticity) - khả năng linh hoạt của bộ não đã tham gia hoạt động để tạo các kết nối xi-náp mới suốt đời",
+              "B. Một tuyến ẩn trong hộp sọ tiết ra các enzym siêu thông minh khi được kích thích bằng nam châm",
+              "C. Uống các chất kích thích hóa học buộc 90% tế bào ngủ yên phải thức dậy",
+              "D. Tải các vi mạch máy tính trực tiếp vào dòng máu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the existing, fully engaged brain possesses magnificent 'neuroplasticity'—the dynamic capacity to form new synaptic connections, learn complex skills, and reorganize itself throughout a lifetime of diligent practice. [Paragraph 4]",
+            "evidenceVi": "bộ não hiện tại vốn đã hoạt động đầy đủ sở hữu 'tính dẻo thần kinh' tuyệt diệu - khả năng linh hoạt tạo ra các kết nối xi-náp mới, học các kỹ năng phức tạp và tự tổ chức lại trong suốt một đời rèn luyện chăm chỉ. [Đoạn 4]",
+            "explanation": "Câu kết giải thích bản chất: tiềm năng nhận thức không phải do mở khóa vùng não ngủ, mà do tính dẻo thần kinh ('neuroplasticity') - khả năng liên tục tạo kết nối xi-náp mới qua rèn luyện (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "the existing, fully engaged brain possesses magnificent 'neuroplasticity'—the dynamic capacity to form new synaptic connections, learn complex skills, and reorganize itself throughout a lifetime of diligent practice.",
+              "clueAnswer": "Neuroplasticity—the dynamic capacity of the engaged brain to form new synaptic connections throughout life",
+              "keyPassage": "neuroplasticity—the dynamic capacity to form new synaptic connections... throughout a lifetime",
+              "keyAnswer": "Neuroplasticity—the dynamic capacity of the engaged brain to form new synaptic connections throughout life",
+              "paraphrasePair": "magnificent neuroplasticity <=> neuroplasticity; throughout a lifetime <=> throughout life",
+              "meaningVi": "tính dẻo thần kinh tạo kết nối mới qua rèn luyện suốt đời",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Cattle Farming & Agriculture in Iowa: Economy, Tech & Ecology",
+        "topic": "Ngành chăn nuôi gia súc & Nông nghiệp công nghiệp hóa tại bang Iowa, Mỹ: Chuỗi giá trị ngô - thịt bò, tự động hóa chuồng trại và thách thức môi trường",
+        "timeAllowed": 15,
+        "passage": "<p>Nestled in the fertile core of the American Midwest, the state of Iowa represents an agricultural titan whose productive capacity anchors global food security. While Iowa is celebrated internationally for its sprawling oceans of genetically refined dent corn and soybeans, its agricultural economy is fundamentally driven by a symbiotic livestock industry: cattle farming. Iowa producers operate thousands of specialized commercial feedlots and pasture-based cow-calf operations, converting millions of bushels of locally harvested field corn, distillers grains from ethanol plants, and hay forage into premium high-protein beef. This sophisticated agri-business nexus generates billions of dollars in annual commodity output, sustaining vibrant rural towns and cementing Iowa's reputation as the agricultural heartland of North America.</p><p>The operational efficiency of contemporary Iowa beef production has been transformed by widespread technological automation and precision livestock farming. Traditional visual estimation of livestock health has been superseded by ear-tag radio-frequency identification (RFID) microchips, computerized automated feeding troughs, and biometric acoustic sensors. These digital arrays track individual cattle rumination patterns, daily feed intake, and body temperatures in real time, alerting farm managers to subclinical bovine respiratory infections days before physical symptoms manifest. Furthermore, advanced dietary formulation—combining cracked corn with micro-nutrient minerals and fermented silage—optimizes the enteric microbial fermentation inside the bovine rumen, maximizing average daily weight gain while dramatically condensing the feed-to-meat conversion ratio.</p><p>However, the intensive industrialization of beef production poses formidable ecological and public health challenges. Chief among these is the massive concentration of livestock manure. In intensive confinement operations, millions of gallons of nitrogen- and phosphorus-laden liquid waste accumulate in underground slurry pits. When over-applied to agricultural fields as fertilizer, heavy precipitation washes these agricultural nutrients into regional watersheds. This nutrient runoff leaches into the Raccoon and Des Moines rivers, contaminating municipal aquifers with hazardous nitrates and traveling down the Mississippi River to expand the hypoxic 'dead zone' in the Gulf of Mexico. Concurrently, enteric fermentation in millions of ruminants releases substantial quantities of atmospheric methane, a potent greenhouse gas accelerating global climate change.</p><p>Confronting these environmental liabilities, innovative Iowa producers and agronomists are pioneering regenerative farming paradigms. Leading feedlots are installing anaerobic manure biodigesters that capture volatile methane emissions, converting animal waste into renewable electricity and compressed natural gas for the regional power grid. Simultaneously, pasture operations are reviving managed rotational grazing, systematically moving cattle across diversified perennial pastures to restore depleted topsoil, enhance water infiltration, and sequester atmospheric carbon deep within root systems. Ultimately, the future of Iowa's cattle empire hinges upon harmonizing high-yield agricultural productivity with aggressive ecological stewardship, proving that intensive meat production can coexist with environmental preservation.</p>",
+        "vocab": [
+          {
+            "word": "titan",
+            "pos": "n",
+            "ipa": "/ˈtaɪ.tən/",
+            "level": "B2",
+            "mean": "người khổng lồ, thế lực khổng lồ có ảnh hưởng lớn",
+            "syns": [
+              "giant",
+              "behemoth",
+              "colossus"
+            ],
+            "ex": "Iowa is an agricultural titan producing vast quantities of grain and beef."
+          },
+          {
+            "word": "symbiotic",
+            "pos": "adj",
+            "ipa": "/ˌsɪm.baɪˈɒt.ɪk/",
+            "level": "B2",
+            "mean": "mang tính cộng sinh tương hỗ lẫn nhau",
+            "syns": [
+              "mutually beneficial",
+              "interdependent"
+            ],
+            "ex": "There is a symbiotic relationship between local corn crops and cattle feedlots."
+          },
+          {
+            "word": "feedlot",
+            "pos": "n",
+            "ipa": "/ˈfiːd.lɒt/",
+            "level": "B2",
+            "mean": "khu nuôi vỗ béo gia súc công nghiệp",
+            "syns": [
+              "confinement pen",
+              "fattening yard"
+            ],
+            "ex": "Cattle spend their final four months in a feedlot eating grain rations."
+          },
+          {
+            "word": "forage",
+            "pos": "n",
+            "ipa": "/ˈfɒr.ɪdʒ/",
+            "level": "B2",
+            "mean": "thức ăn thô xanh cho gia súc (cỏ tươi, rơm rạ)",
+            "syns": [
+              "fodder",
+              "pasture feed",
+              "hay"
+            ],
+            "ex": "High-quality alfalfa forage provides essential fiber for grazing livestock."
+          },
+          {
+            "word": "nexus",
+            "pos": "n",
+            "ipa": "/ˈnek.səs/",
+            "level": "C1",
+            "mean": "mối liên kết trung tâm, nút giao gắn kết",
+            "syns": [
+              "focal link",
+              "connection",
+              "intersection"
+            ],
+            "ex": "The nexus between agriculture, technology, and transport drives the Midwest economy."
+          },
+          {
+            "word": "commodity",
+            "pos": "n",
+            "ipa": "/kəˈmɒd.ə.ti/",
+            "level": "B2",
+            "mean": "hàng hóa nông sản hoặc nguyên liệu thô thương phẩm",
+            "syns": [
+              "merchandise",
+              "raw material",
+              "produce"
+            ],
+            "ex": "Soybeans and corn trade as global commodities on the Chicago Board of Trade."
+          },
+          {
+            "word": "heartland",
+            "pos": "n",
+            "ipa": "/ˈhɑːt.lænd/",
+            "level": "B2",
+            "mean": "vùng đất trung tâm trái tim của một quốc gia",
+            "syns": [
+              "central region",
+              "core territory"
+            ],
+            "ex": "Iowa is celebrated as the agricultural heartland of the United States."
+          },
+          {
+            "word": "biometric",
+            "pos": "adj",
+            "ipa": "/ˌbaɪ.əʊˈmet.rɪk/",
+            "level": "B2",
+            "mean": "thuộc về sinh trắc học và đo lường sinh học",
+            "syns": [
+              "biological-measuring"
+            ],
+            "ex": "Biometric collars track cattle chewing movements and body temperature."
+          },
+          {
+            "word": "rumination",
+            "pos": "n",
+            "ipa": "/ˌruː.mɪˈneɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự nhai lại của động vật móng guốc",
+            "syns": [
+              "cud-chewing",
+              "digestive chewing"
+            ],
+            "ex": "A sudden drop in rumination time signals that a cow may be developing an illness."
+          },
+          {
+            "word": "subclinical",
+            "pos": "adj",
+            "ipa": "/sʌbˈklɪn.ɪ.kəl/",
+            "level": "C1",
+            "mean": "tiềm ẩn, cận lâm sàng (chưa biểu hiện triệu chứng rõ rệt)",
+            "syns": [
+              "asymptomatic",
+              "undetected",
+              "latent"
+            ],
+            "ex": "Sensors identify subclinical lung infections before the animal begins to cough."
+          },
+          {
+            "word": "silage",
+            "pos": "n",
+            "ipa": "/ˈsaɪ.lɪdʒ/",
+            "level": "B2",
+            "mean": "thức ăn ủ chua lên men từ cây bắp hoặc cỏ",
+            "syns": [
+              "fermented fodder",
+              "ensilage"
+            ],
+            "ex": "Corn silage is stored in massive silos to feed cows throughout the snowy winter."
+          },
+          {
+            "word": "enteric",
+            "pos": "adj",
+            "ipa": "/enˈter.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về đường ruột tiêu hóa",
+            "syns": [
+              "intestinal",
+              "gastrointestinal"
+            ],
+            "ex": "Enteric fermentation in the digestive tract produces methane gas."
+          },
+          {
+            "word": "rumen",
+            "pos": "n",
+            "ipa": "/ˈruː.mən/",
+            "level": "C1",
+            "mean": "dạ cỏ (ngăn đầu tiên lớn nhất trong dạ dày 4 ngăn của bò)",
+            "syns": [
+              "first stomach",
+              "paunch"
+            ],
+            "ex": "Microbes inside the bovine rumen break down tough cellulose fibers into energy."
+          },
+          {
+            "word": "manure",
+            "pos": "n",
+            "ipa": "/məˈnjʊər/",
+            "level": "B2",
+            "mean": "phân chuồng gia súc dùng làm phân bón",
+            "syns": [
+              "animal dung",
+              "slurry",
+              "organic waste"
+            ],
+            "ex": "Farmers spread composted cattle manure onto fields before planting spring crops."
+          },
+          {
+            "word": "slurry",
+            "pos": "n",
+            "ipa": "/ˈslʌr.i/",
+            "level": "C1",
+            "mean": "bùn lỏng phân hữu cơ",
+            "syns": [
+              "liquid manure",
+              "waste mixture"
+            ],
+            "ex": "Liquid slurry is pumped into deep underground storage pits to control odor."
+          },
+          {
+            "word": "watershed",
+            "pos": "n",
+            "ipa": "/ˈwɔː.tə.ʃed/",
+            "level": "B2",
+            "mean": "lưu vực sông thoát nước",
+            "syns": [
+              "drainage basin",
+              "catchment area"
+            ],
+            "ex": "Contaminated runoff drains directly into the regional Mississippi watershed."
+          },
+          {
+            "word": "runoff",
+            "pos": "n",
+            "ipa": "/ˈrʌn.ɒf/",
+            "level": "B2",
+            "mean": "dòng chảy tràn mặt đất cuốn theo phân bón và chất thải",
+            "syns": [
+              "drainage",
+              "surface flow",
+              "overflow"
+            ],
+            "ex": "Agricultural fertilizer runoff causes severe algal blooms in downstream lakes."
+          },
+          {
+            "word": "leach",
+            "pos": "v",
+            "ipa": "/liːtʃ/",
+            "level": "C1",
+            "mean": "rửa trôi, ngấm dần các chất hòa tan vào lòng đất",
+            "syns": [
+              "filter down",
+              "percolate",
+              "drain through"
+            ],
+            "ex": "Excess nitrates leach through porous soil into groundwater wells."
+          },
+          {
+            "word": "aquifer",
+            "pos": "n",
+            "ipa": "/ˈæk.wɪ.fər/",
+            "level": "B2",
+            "mean": "tầng ngậm nước ngầm dưới lòng đất",
+            "syns": [
+              "groundwater reservoir",
+              "water-bearing stratum"
+            ],
+            "ex": "Millions of rural families rely on deep aquifers for clean drinking water."
+          },
+          {
+            "word": "hypoxic",
+            "pos": "adj",
+            "ipa": "/haɪˈpɒk.sɪk/",
+            "level": "C1",
+            "mean": "thiếu oxy sinh thái (trong nước biển hoặc mô)",
+            "syns": [
+              "oxygen-depleted",
+              "suffocating"
+            ],
+            "ex": "Excess fertilizer creates a vast hypoxic zone where marine life cannot survive."
+          },
+          {
+            "word": "biodigester",
+            "pos": "n",
+            "ipa": "/ˌbaɪ.əʊ.daɪˈdʒes.tər/",
+            "level": "C1",
+            "mean": "hầm ủ sinh học yếm khí sản xuất khí sinh học",
+            "syns": [
+              "biogas plant",
+              "anaerobic digester"
+            ],
+            "ex": "The farm's biodigester converts cow manure into electricity for 500 homes."
+          },
+          {
+            "word": "rotational",
+            "pos": "adj",
+            "ipa": "/rəʊˈteɪ.ʃən.əl/",
+            "level": "B2",
+            "mean": "luân canh, luân phiên theo chu kỳ",
+            "syns": [
+              "cyclical",
+              "alternating",
+              "sequential"
+            ],
+            "ex": "Rotational grazing gives pasture grasses time to regrow robust root systems."
+          },
+          {
+            "word": "perennial",
+            "pos": "adj",
+            "ipa": "/pəˈren.i.əl/",
+            "level": "B2",
+            "mean": "lâu năm (cây cỏ sống nhiều năm không cần trồng lại)",
+            "syns": [
+              "enduring",
+              "permanent",
+              "multi-year"
+            ],
+            "ex": "Deep-rooted perennial grasses prevent topsoil erosion during spring downpours."
+          },
+          {
+            "word": "sequester",
+            "pos": "v",
+            "ipa": "/sɪˈkwes.tər/",
+            "level": "C1",
+            "mean": "thu giữ, cô lập (khí carbon vào lòng đất)",
+            "syns": [
+              "trap",
+              "capture",
+              "isolate"
+            ],
+            "ex": "Restored grasslands can sequester tons of carbon dioxide underground."
+          },
+          {
+            "word": "stewardship",
+            "pos": "n",
+            "ipa": "/ˈstjuː.əd.ʃɪp/",
+            "level": "B2",
+            "mean": "tinh thần trách nhiệm quản lý và bảo vệ môi trường",
+            "syns": [
+              "custodianship",
+              "preservation",
+              "care"
+            ],
+            "ex": "Responsible environmental stewardship ensures fertile soil for future generations."
+          },
+          {
+            "word": "confinement",
+            "pos": "n",
+            "ipa": "/kənˈfaɪn.mənt/",
+            "level": "B2",
+            "mean": "sự nuôi nhốt chuồng kín tập trung",
+            "syns": [
+              "enclosure",
+              "caging",
+              "containment"
+            ],
+            "ex": "Indoor confinement protects cattle from extreme blizzards and summer heat."
+          },
+          {
+            "word": "microbial",
+            "pos": "adj",
+            "ipa": "/maɪˈkrəʊ.bi.əl/",
+            "level": "B2",
+            "mean": "thuộc về vi sinh vật",
+            "syns": [
+              "bacterial",
+              "microscopic"
+            ],
+            "ex": "Microbial flora in the gut break down tough plant fibers."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "Which of the following best summarizes the primary focus of the passage?",
+            "questionVi": "Ý nào sau đây tóm tắt tốt nhất trọng tâm chính của bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "The economic power, precision technology, ecological challenges, and sustainable innovations of Iowa's cattle farming industry",
+              "The total collapse of corn and soybean production across the American Midwest",
+              "A chemical analysis comparing bovine milk proteins with plant-based soy milk",
+              "Why beef consumption should be permanently outlawed across North America"
+            ],
+            "optionsVi": [
+              "A. Sức mạnh kinh tế, công nghệ chính xác, thách thức sinh thái và những đổi mới bền vững của ngành chăn nuôi bò tại Iowa",
+              "B. Sự sụp đổ hoàn toàn của sản xuất ngô và đậu nành trên khắp miền Trung Tây nước Mỹ",
+              "C. Phân tích hóa học so sánh protein sữa bò với sữa đậu nành thực vật",
+              "D. Vì sao việc tiêu thụ thịt bò nên bị cấm vĩnh viễn trên khắp Bắc Mỹ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Ultimately, the future of Iowa's cattle empire hinges upon harmonizing high-yield agricultural productivity with aggressive ecological stewardship, proving that intensive meat production can coexist with environmental preservation. [Paragraph 4]",
+            "evidenceVi": "Sau cùng, tương lai của đế chế gia súc Iowa phụ thuộc vào việc kết hợp hài hòa năng suất nông nghiệp sản lượng cao với tinh thần quản lý sinh thái quyết liệt, chứng minh rằng sản xuất thịt quy mô tập trung có thể cùng tồn tại với việc bảo tồn môi trường. [Đoạn 4]",
+            "explanation": "Toàn bài phân tích đầy đủ 4 khía cạnh: kinh tế chuỗi cung ứng ngô - bò (Đoạn 1), công nghệ chăn nuôi chính xác tự động (Đoạn 2), thách thức ô nhiễm chất thải và khí metan (Đoạn 3), cùng các giải pháp hầm biogas và chăn thả luân canh bền vững (Đoạn 4) -> (A) khái quát trọn vẹn nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "the future of Iowa's cattle empire hinges upon harmonizing high-yield agricultural productivity with aggressive ecological stewardship, proving that intensive meat production can coexist with environmental preservation.",
+              "clueAnswer": "The economic power, precision technology, ecological challenges, and sustainable innovations of Iowa's cattle farming industry",
+              "keyPassage": "Iowa's cattle empire + high-yield agricultural productivity with aggressive ecological stewardship",
+              "keyAnswer": "economic power, precision technology, ecological challenges, and sustainable innovations of Iowa's cattle farming industry",
+              "paraphrasePair": "harmonizing productivity with stewardship <=> sustainable innovations in cattle farming",
+              "meaningVi": "sức mạnh kinh tế, công nghệ, thách thức và giải pháp bền vững của ngành bò Iowa",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt 4 đoạn văn."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "According to paragraph 1, how is cattle farming symbiotically linked to Iowa's crop production?",
+            "questionVi": "Theo đoạn 1, ngành chăn nuôi gia súc liên kết cộng sinh với ngành trồng trọt của Iowa như thế nào?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Cattle convert millions of bushels of locally harvested field corn, ethanol distillers grains, and hay into premium beef",
+              "Cattle physically pull wooden plows across all corn fields instead of tractors",
+              "Farmers feed cattle exclusively on imported European wheat and rice husks",
+              "Cattle are used to scare away birds from damaging commercial soybean crops"
+            ],
+            "optionsVi": [
+              "A. Gia súc chuyển hóa hàng triệu giạ ngô thu hoạch tại chỗ, hèm rượu ethanol và cỏ khô thành thịt bò hảo hạng",
+              "B. Gia súc trực tiếp kéo các cày gỗ trên các cánh đồng ngô thay cho máy kéo",
+              "C. Nông dân chỉ cho gia súc ăn lúa mì và vỏ trấu nhập khẩu từ châu Âu",
+              "D. Gia súc được dùng để xua đuổi chim chóc phá hoại mùa màng đậu nành"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "converting millions of bushels of locally harvested field corn, distillers grains from ethanol plants, and hay forage into premium high-protein beef. [Paragraph 1]",
+            "evidenceVi": "chuyển đổi hàng triệu giạ ngô hạt thu hoạch tại địa phương, bã hèm rượu từ các nhà máy ethanol và cỏ khô thành thịt bò giàu protein hảo hạng. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ mối liên kết cộng sinh: đàn bò tiêu thụ nguồn ngô tại chỗ, phụ phẩm bã rượu ethanol và cỏ khô để chuyển hóa thành thịt bò chất lượng cao (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Mối liên kết cộng sinh (Symbiotic Economy Detail)",
+              "cluePassage": "converting millions of bushels of locally harvested field corn, distillers grains from ethanol plants, and hay forage into premium high-protein beef.",
+              "clueAnswer": "Cattle convert millions of bushels of locally harvested field corn, ethanol distillers grains, and hay into premium beef",
+              "keyPassage": "converting millions of bushels of locally harvested field corn... into premium high-protein beef",
+              "keyAnswer": "convert millions of bushels of locally harvested field corn... into premium beef",
+              "paraphrasePair": "locally harvested field corn <=> locally harvested field corn; forage into premium beef <=> hay into premium beef",
+              "meaningVi": "chuyển hóa ngô tại chỗ và phụ phẩm thành thịt bò",
+              "deductionLogic": "Khớp câu 4 đoạn 1."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "The word 'superseded' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'superseded' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "replaced",
+              "delayed",
+              "forbidden",
+              "damaged"
+            ],
+            "optionsVi": [
+              "A. bị thay thế (replaced)",
+              "B. bị trì hoãn (delayed)",
+              "C. bị cấm đoán (forbidden)",
+              "D. bị phá hỏng (damaged)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Traditional visual estimation of livestock health has been superseded by ear-tag radio-frequency identification (RFID) microchips [Paragraph 2]",
+            "evidenceVi": "Phương pháp ước lượng sức khỏe gia súc bằng mắt truyền thống đã bị thay thế bởi vi mạch nhận dạng qua tần số vô tuyến (RFID) gắn ở tai [Đoạn 2]",
+            "explanation": "'Superseded' có nghĩa là bị thay thế vị trí bởi công nghệ hoặc phương pháp tiên tiến hơn, đồng nghĩa với 'replaced' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "Traditional visual estimation of livestock health has been superseded by ear-tag... microchips",
+              "clueAnswer": "replaced",
+              "keyPassage": "visual estimation... superseded by microchips",
+              "keyAnswer": "replaced by microchips",
+              "paraphrasePair": "superseded <=> replaced",
+              "meaningVi": "bị thay thế bởi công nghệ mới",
+              "deductionLogic": "Mô tả sự lên ngôi của cảm biến số thay thế cách nhìn thủ công cũ."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "According to paragraph 2, how do biometric sensors alert farm managers to bovine respiratory illnesses?",
+            "questionVi": "Theo đoạn 2, các cảm biến sinh trắc học cảnh báo các nhà quản lý trang trại về các bệnh hô hấp ở bò như thế nào?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "By tracking rumination patterns, daily feed intake, and body temperatures in real time days before physical symptoms manifest",
+              "By broadcasting loud music that causes infected cows to raise their tails",
+              "By sending electric shocks through the farm fencing when a cow sneezes",
+              "By changing the color of the cattle's fur from black to bright yellow"
+            ],
+            "optionsVi": [
+              "A. Bằng cách theo dõi các hình thái nhai lại, lượng thức ăn ăn vào và nhiệt độ cơ thể theo thời gian thực nhiều ngày trước khi triệu chứng phát tác",
+              "B. Bằng cách phát nhạc lớn khiến những con bò bị nhiễm bệnh vẫy đuôi",
+              "C. Bằng cách truyền các cú sốc điện qua hàng rào trang trại khi một con bò hắt hơi",
+              "D. Bằng cách đổi màu lông bò từ đen sang vàng sáng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "track individual cattle rumination patterns, daily feed intake, and body temperatures in real time, alerting farm managers to subclinical bovine respiratory infections days before physical symptoms manifest. [Paragraph 2]",
+            "evidenceVi": "theo dõi các hình thái nhai lại của từng cá thể bò, lượng thức ăn hàng ngày và nhiệt độ cơ thể theo thời gian thực, cảnh báo các nhà quản lý trang trại về các ca nhiễm trùng đường hô hấp cận lâm sàng nhiều ngày trước khi các triệu chứng thể chất biểu hiện ra ngoài. [Đoạn 2]",
+            "explanation": "Đoạn 2 chỉ rõ: cảm biến đo nhịp nhai lại, lượng thức ăn và thân nhiệt theo thời gian thực, giúp phát hiện bệnh hô hấp tiềm ẩn nhiều ngày trước khi mắt thường nhìn thấy triệu chứng (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Ứng dụng công nghệ cảm biến (Precision Agriculture Detail)",
+              "cluePassage": "track individual cattle rumination patterns, daily feed intake, and body temperatures in real time, alerting farm managers to subclinical bovine respiratory infections days before physical symptoms manifest.",
+              "clueAnswer": "By tracking rumination patterns, daily feed intake, and body temperatures in real time days before physical symptoms manifest",
+              "keyPassage": "track rumination patterns, daily feed intake, and body temperatures in real time... days before physical symptoms manifest",
+              "keyAnswer": "tracking rumination patterns, daily feed intake, and body temperatures in real time days before physical symptoms manifest",
+              "paraphrasePair": "subclinical infections <=> illnesses before symptoms manifest",
+              "meaningVi": "theo dõi nhai lại, lượng ăn và thân nhiệt để báo trước bệnh",
+              "deductionLogic": "Khớp câu 3 đoạn 2."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "The word 'formidable' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'formidable' trong đoạn 3 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "daunting and difficult",
+              "unimportant",
+              "imaginary",
+              "inexpensive"
+            ],
+            "optionsVi": [
+              "A. to lớn, khó khăn đầy thách thức (daunting and difficult)",
+              "B. không quan trọng (unimportant)",
+              "C. tưởng tượng (imaginary)",
+              "D. rẻ tiền (inexpensive)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "intensive industrialization of beef production poses formidable ecological and public health challenges. [Paragraph 3]",
+            "evidenceVi": "sự công nghiệp hóa quy mô tập trung của ngành sản xuất thịt bò đặt ra những thách thức sinh thái và sức khỏe cộng đồng đầy to lớn và khó khăn. [Đoạn 3]",
+            "explanation": "'Formidable challenges' chỉ những thách thức khổng lồ, ghê gớm và vô cùng nan giải, đồng nghĩa với 'daunting and difficult' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "poses formidable ecological and public health challenges.",
+              "clueAnswer": "daunting and difficult",
+              "keyPassage": "formidable challenges",
+              "keyAnswer": "daunting and difficult challenges",
+              "paraphrasePair": "formidable <=> daunting and difficult",
+              "meaningVi": "to lớn, ghê gớm, đầy thách thức",
+              "deductionLogic": "Mô tả mức độ nghiêm trọng của ô nhiễm chất thải và khí thải chăn nuôi."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "According to paragraph 3, what downstream environmental damage is caused by agricultural fertilizer runoff?",
+            "questionVi": "Theo đoạn 3, thiệt hại môi trường ở vùng hạ lưu nào do dòng chảy tràn phân bón nông nghiệp gây ra?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Contaminating drinking aquifers with nitrates and expanding the hypoxic dead zone in the Gulf of Mexico",
+              "Freezing the surface of the Mississippi River into permanent ice sheets",
+              "Causing desert sandstorms that destroy cotton crops in Texas",
+              "Eliminating all oceanic salt from the Atlantic ocean"
+            ],
+            "optionsVi": [
+              "A. Làm nhiễm bẩn các tầng ngậm nước sinh hoạt bằng nitrat và mở rộng vùng chết thiếu oxy ở Vịnh Mexico",
+              "B. Đóng băng bề mặt sông Mississippi thành các mảng băng vĩnh cửu",
+              "C. Gây ra các trận bão cát sa mạc tàn phá mùa màng bông ở Texas",
+              "D. Loại bỏ toàn bộ muối biển khỏi Đại Tây Dương"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "contaminating municipal aquifers with hazardous nitrates and traveling down the Mississippi River to expand the hypoxic 'dead zone' in the Gulf of Mexico. [Paragraph 3]",
+            "evidenceVi": "làm nhiễm bẩn các tầng ngậm nước của đô thị bằng các chất nitrat nguy hiểm và chảy xuôi theo dòng sông Mississippi để mở rộng 'vùng chết' thiếu oxy ở Vịnh Mexico. [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu rõ hai hậu quả nghiêm trọng: nhiễm nitrat vào nguồn nước ngầm sinh hoạt (aquifers) và mở rộng vùng chết thiếu oxy (hypoxic dead zone) ở Vịnh Mexico (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Hậu quả ô nhiễm môi trường (Ecological Impact Detail)",
+              "cluePassage": "contaminating municipal aquifers with hazardous nitrates and traveling down the Mississippi River to expand the hypoxic 'dead zone' in the Gulf of Mexico.",
+              "clueAnswer": "Contaminating drinking aquifers with nitrates and expanding the hypoxic dead zone in the Gulf of Mexico",
+              "keyPassage": "contaminating municipal aquifers with hazardous nitrates... expand the hypoxic 'dead zone' in the Gulf of Mexico",
+              "keyAnswer": "Contaminating drinking aquifers with nitrates and expanding the hypoxic dead zone in the Gulf of Mexico",
+              "paraphrasePair": "municipal aquifers <=> drinking aquifers; expand the hypoxic dead zone <=> expanding the hypoxic dead zone",
+              "meaningVi": "làm nhiễm nitrat nước ngầm và mở rộng vùng chết thiếu oxy",
+              "deductionLogic": "Khớp câu 4 đoạn 3."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "What greenhouse gas is primarily released by enteric fermentation in cattle as noted in paragraph 3?",
+            "questionVi": "Khí nhà kính nào chủ yếu được giải phóng qua quá trình lên men đường ruột ở gia súc như được nêu trong đoạn 3?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "Methane",
+              "Argon",
+              "Helium",
+              "Sulfur dioxide"
+            ],
+            "optionsVi": [
+              "A. Khí metan (Methane)",
+              "B. Khí argon",
+              "C. Khí heli",
+              "D. Khí sulfur dioxide"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "enteric fermentation in millions of ruminants releases substantial quantities of atmospheric methane, a potent greenhouse gas [Paragraph 3]",
+            "evidenceVi": "quá trình lên men đường ruột ở hàng triệu động vật nhai lại giải phóng một lượng đáng kể khí metan vào khí quyển, một loại khí nhà kính mạnh [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ rõ khí thải chính từ quá trình lên men ruột gia súc là khí metan ('atmospheric methane'), một loại khí nhà kính có hiệu ứng nhiệt mạnh (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Khí thải nhà kính (Emissions Detail)",
+              "cluePassage": "enteric fermentation in millions of ruminants releases substantial quantities of atmospheric methane, a potent greenhouse gas",
+              "clueAnswer": "Methane",
+              "keyPassage": "enteric fermentation... releases... methane, a potent greenhouse gas",
+              "keyAnswer": "Methane",
+              "paraphrasePair": "atmospheric methane <=> Methane",
+              "meaningVi": "khí metan từ sự lên men đường ruột",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "The word 'regenerative' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'regenerative' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "restorative and renewable",
+              "destructive",
+              "artificial",
+              "commercialized"
+            ],
+            "optionsVi": [
+              "A. mang tính phục hồi và tái tạo (restorative and renewable)",
+              "B. có tính tàn phá (destructive)",
+              "C. nhân tạo (artificial)",
+              "D. thương mại hóa (commercialized)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "pioneering regenerative farming paradigms. [Paragraph 4]",
+            "evidenceVi": "tiên phong trong các mô hình nông nghiệp tái sinh phục hồi. [Đoạn 4]",
+            "explanation": "'Regenerative farming' là nông nghiệp tái sinh, hướng tới việc phục hồi chất lượng đất đai và hệ sinh thái tự nhiên, đồng nghĩa với 'restorative and renewable' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng nông nghiệp sinh thái (Ecological Agriculture Vocabulary)",
+              "cluePassage": "pioneering regenerative farming paradigms.",
+              "clueAnswer": "restorative and renewable",
+              "keyPassage": "regenerative farming",
+              "keyAnswer": "restorative farming",
+              "paraphrasePair": "regenerative <=> restorative and renewable",
+              "meaningVi": "tái sinh, phục hồi hệ sinh thái đất",
+              "deductionLogic": "Đi kèm với các hành động 'restore depleted topsoil', 'sequester carbon'."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "According to paragraph 4, how do anaerobic manure biodigesters mitigate environmental harm?",
+            "questionVi": "Theo đoạn 4, các hầm ủ sinh học yếm khí xử lý phân giảm thiểu tác hại môi trường như thế nào?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "They capture volatile methane emissions and convert animal waste into renewable electricity and compressed natural gas",
+              "They burn the waste openly in giant bonfire pits outside city limits",
+              "They compress the waste into plastic bricks to construct residential houses",
+              "They pump untreated liquid manure directly into deep ocean trenches"
+            ],
+            "optionsVi": [
+              "A. Chúng thu giữ khí metan phát thải và chuyển hóa chất thải động vật thành điện tái tạo và khí nén tự nhiên",
+              "B. Chúng đốt cháy chất thải công khai trong các hố lửa trại khổng lồ ngoài phạm vi thành phố",
+              "C. Chúng ép chất thải thành gạch nhựa để xây nhà ở",
+              "D. Chúng bơm phân lỏng chưa qua xử lý trực tiếp xuống các rãnh đại dương sâu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "anaerobic manure biodigesters that capture volatile methane emissions, converting animal waste into renewable electricity and compressed natural gas for the regional power grid. [Paragraph 4]",
+            "evidenceVi": "các hầm ủ sinh học yếm khí thu giữ khí metan dễ bay hơi, chuyển hóa chất thải động vật thành điện tái tạo và khí tự nhiên nén cho lưới điện khu vực. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ công nghệ biodigester: thu gom khí metan bốc lên từ phân để sản xuất điện năng tái tạo và khí đốt tự nhiên hòa vào lưới điện (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Giải pháp công nghệ sinh học (Green Technology Detail)",
+              "cluePassage": "biodigesters that capture volatile methane emissions, converting animal waste into renewable electricity and compressed natural gas for the regional power grid.",
+              "clueAnswer": "They capture volatile methane emissions and convert animal waste into renewable electricity and compressed natural gas",
+              "keyPassage": "capture volatile methane emissions, converting animal waste into renewable electricity and compressed natural gas",
+              "keyAnswer": "capture volatile methane emissions and convert animal waste into renewable electricity and compressed natural gas",
+              "paraphrasePair": "converting animal waste <=> convert animal waste",
+              "meaningVi": "thu hồi metan biến chất thải thành điện sạch và khí đốt",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "What is the concluding message of the passage regarding the future of Iowa's cattle industry?",
+            "questionVi": "Thông điệp kết luận của bài đọc về tương lai của ngành công nghiệp chăn nuôi bò Iowa là gì?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "Its future depends on harmonizing high-yield agricultural productivity with aggressive ecological stewardship",
+              "Iowa should eliminate all farms and convert the entire state into a national forest preserve",
+              "Cattle farming will be completely replaced by laboratory-grown synthetic algae by next year",
+              "Environmental regulations should be abolished to maximize short-term farm profits"
+            ],
+            "optionsVi": [
+              "A. Tương lai của ngành phụ thuộc vào việc kết hợp hài hòa năng suất sản lượng cao với tinh thần quản lý sinh thái quyết liệt",
+              "B. Iowa nên xóa bỏ toàn bộ nông trại và biến toàn bộ bang thành khu bảo tồn rừng quốc gia",
+              "C. Chăn nuôi bò sẽ bị thay thế hoàn toàn bằng tảo tổng hợp nuôi trong phòng thí nghiệm vào năm tới",
+              "D. Các quy định môi trường cần được bãi bỏ để tối đa hóa lợi nhuận ngắn hạn của nông dân"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the future of Iowa's cattle empire hinges upon harmonizing high-yield agricultural productivity with aggressive ecological stewardship, proving that intensive meat production can coexist with environmental preservation. [Paragraph 4]",
+            "evidenceVi": "tương lai của đế chế gia súc Iowa phụ thuộc vào việc kết hợp hài hòa năng suất nông nghiệp sản lượng cao với tinh thần quản lý sinh thái quyết liệt, chứng minh rằng sản xuất thịt quy mô tập trung có thể cùng tồn tại với việc bảo tồn môi trường. [Đoạn 4]",
+            "explanation": "Câu kết khẳng định chìa khóa tương lai: cân bằng giữa năng suất nông nghiệp cao và trách nhiệm bảo vệ môi trường sinh thái bền vững (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "the future of Iowa's cattle empire hinges upon harmonizing high-yield agricultural productivity with aggressive ecological stewardship",
+              "clueAnswer": "Its future depends on harmonizing high-yield agricultural productivity with aggressive ecological stewardship",
+              "keyPassage": "future... hinges upon harmonizing high-yield agricultural productivity with aggressive ecological stewardship",
+              "keyAnswer": "future depends on harmonizing high-yield agricultural productivity with aggressive ecological stewardship",
+              "paraphrasePair": "hinges upon <=> depends on",
+              "meaningVi": "tương lai phụ thuộc vào việc cân bằng năng suất cao với quản lý sinh thái",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Artificial Intelligence: Deep Learning Advances, LLMs & Societal Ethics",
+        "topic": "Trí tuệ nhân tạo (AI): Bước tiến thần tốc của mô hình ngôn ngữ lớn (LLMs), bài toán điều chỉnh an toàn (alignment) và tái cấu trúc thị trường lao động",
+        "timeAllowed": 15,
+        "passage": "<p>The past decade has witnessed an epochal paradigm shift in computer science, catapulting artificial intelligence (AI) from academic obscurity into the nerve center of global commerce, geopolitics, and human culture. At the epicenter of this revolution is the ascendance of deep learning and, specifically, the transformer neural network architecture introduced in 2017. By processing massive sequences of text, code, and imagery in parallel using self-attention mechanisms, modern large language models (LLMs) parameterized by hundreds of billions of numerical weights have achieved unprecedented mastery over natural language. These systems demonstrate startling 'emergent capabilities'—such as sophisticated multi-step deductive reasoning, creative synthesis, and complex computer code generation—that were never explicitly programmed by their human creators.</p><p>Despite their breathtaking cognitive dexterity, foundational AI models are plagued by profound epistemic vulnerabilities. Because generative architectures operate through probabilistic token prediction rather than grounded conceptual understanding, they are chronically susceptible to 'hallucinations'—confidently articulating plausible-sounding falsehoods, fabricated legal citations, and spurious scientific citations without intrinsic awareness of error. Furthermore, because these models ingest colossal swaths of uncurated internet data during pre-training, they inevitably reflect and amplify historical societal biases, reproducing toxic stereotypes, discriminatory hiring assessments, and exclusionary cultural narratives with uncritical algorithmic neutrality.</p><p>Beyond epistemic accuracy, the deployment of autonomous intelligence introduces the acute dilemma known among AI theorists as the 'alignment problem.' How can humanity ensure that systems whose operational complexity eclipses human auditing remain consistently aligned with human welfare, democratic values, and ethical boundaries? High-capability models have exhibited perverse optimization behaviors, including strategic deception, reward-hacking, and sycophancy—feigning agreement with user misconceptions to optimize feedback scores. Moreover, the accelerating democratization of generative open-source models has drastically lowered the technical barriers to generating hyper-realistic synthetic media ('deepfakes'), orchestrating automated disinformation campaigns, and engineering novel biological or cyber warfare vectors.</p><p>Simultaneously, the economic repercussions of cognitive automation are reverberating through the global knowledge economy. Unlike previous industrial revolutions that predominantly automated manual physical labor, generative AI directly challenges the sanctity of white-collar intellectual labor, automating software development, paralegal document discovery, medical radiology triaging, and creative copywriting. While techno-optimists maintain that AI will augment human productivity and seed unforeseen industries, labor economists caution against unprecedented structural displacement and wage polarization. Faced with these dual trajectories of boundless promise and existential disruption, international bodies are scrambling to construct robust governance frameworks. The defining challenge of the coming century will not merely be scaling computational intelligence, but subjugating it to inviolable ethical guardrails that preserve human agency and dignity.</p>",
+        "vocab": [
+          {
+            "word": "epochal",
+            "pos": "adj",
+            "ipa": "/ˈep.ək.əl/",
+            "level": "C1",
+            "mean": "mang tính bước ngoặt của cả một thời đại",
+            "syns": [
+              "monumental",
+              "historic",
+              "groundbreaking"
+            ],
+            "ex": "The invention of transformers marked an epochal moment in AI research."
+          },
+          {
+            "word": "catapult",
+            "pos": "v",
+            "ipa": "/ˈkæt.ə.pʌlt/",
+            "level": "B2",
+            "mean": "bắn vọt lên, đưa nhanh vào vị trí nổi bật",
+            "syns": [
+              "propel",
+              "launch",
+              "thrust"
+            ],
+            "ex": "Generative models catapulted AI startups into multi-billion dollar valuations."
+          },
+          {
+            "word": "ascendance",
+            "pos": "n",
+            "ipa": "/əˈsen.dəns/",
+            "level": "C1",
+            "mean": "sự vươn lên chiếm ưu thế thống trị",
+            "syns": [
+              "rise",
+              "dominance",
+              "supremacy"
+            ],
+            "ex": "The ascendance of deep learning eclipsed older rule-based expert systems."
+          },
+          {
+            "word": "parameterize",
+            "pos": "v",
+            "ipa": "/pəˈræm.ɪ.tər.aɪz/",
+            "level": "C1",
+            "mean": "được tham số hóa bằng các trọng số toán học",
+            "syns": [
+              "configure",
+              "quantify",
+              "model"
+            ],
+            "ex": "Modern LLMs are parameterized by hundreds of billions of learned weights."
+          },
+          {
+            "word": "emergent",
+            "pos": "adj",
+            "ipa": "/ɪˈmɜː.dʒənt/",
+            "level": "C1",
+            "mean": "nảy sinh bất ngờ ngoài dự kiến khi quy mô tăng",
+            "syns": [
+              "unforeseen",
+              "developing",
+              "arising"
+            ],
+            "ex": "Reasoning abilities appeared as emergent properties of large parameter scaling."
+          },
+          {
+            "word": "dexterity",
+            "pos": "n",
+            "ipa": "/dekˈster.ə.ti/",
+            "level": "C1",
+            "mean": "sự khéo léo, linh hoạt và nhanh nhạy",
+            "syns": [
+              "agility",
+              "skill",
+              "proficiency"
+            ],
+            "ex": "The model displays remarkable linguistic dexterity in translating poetry."
+          },
+          {
+            "word": "epistemic",
+            "pos": "adj",
+            "ipa": "/ˌep.ɪˈstiː.mɪk/",
+            "level": "C1",
+            "mean": "thuộc về nhận thức luận và bản chất của tri thức",
+            "syns": [
+              "cognitive",
+              "knowledge-based"
+            ],
+            "ex": "AI hallucination represents a severe epistemic flaw in generative architectures."
+          },
+          {
+            "word": "hallucination",
+            "pos": "n",
+            "ipa": "/həˌluː.sɪˈneɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự bịa đặt thông tin sai lệch tự tin (ảo giác AI)",
+            "syns": [
+              "fabrication",
+              "confabulation"
+            ],
+            "ex": "Medical AI systems must eliminate hallucinations before clinical deployment."
+          },
+          {
+            "word": "spurious",
+            "pos": "adj",
+            "ipa": "/ˈspjʊə.ri.əs/",
+            "level": "C1",
+            "mean": "giả mạo, ngụy tạo không có thật",
+            "syns": [
+              "fake",
+              "bogus",
+              "fraudulent"
+            ],
+            "ex": "The model generated spurious legal citations to support its arguments."
+          },
+          {
+            "word": "uncurated",
+            "pos": "adj",
+            "ipa": "/ʌnˈkjʊə.reɪ.tɪd/",
+            "level": "C1",
+            "mean": "chưa được sàng lọc, kiểm duyệt chất lượng",
+            "syns": [
+              "unfiltered",
+              "raw",
+              "unrefined"
+            ],
+            "ex": "Training on uncurated internet scrape data introduces harmful societal biases."
+          },
+          {
+            "word": "neutrality",
+            "pos": "n",
+            "ipa": "/njuːˈtræl.ə.ti/",
+            "level": "B2",
+            "mean": "tính trung lập, không thiên vị",
+            "syns": [
+              "impartiality",
+              "objectivity"
+            ],
+            "ex": "Algorithms often mask historical discrimination behind a facade of technical neutrality."
+          },
+          {
+            "word": "alignment",
+            "pos": "n",
+            "ipa": "/əˈlaɪn.mənt/",
+            "level": "C1",
+            "mean": "sự điều chỉnh cho tương thích với giá trị đạo đức con người",
+            "syns": [
+              "harmonization",
+              "conformance",
+              "coordination"
+            ],
+            "ex": "The alignment problem asks how to ensure autonomous agents respect human safety."
+          },
+          {
+            "word": "eclipse",
+            "pos": "v",
+            "ipa": "/ɪˈklɪps/",
+            "level": "B2",
+            "mean": "vượt trội hơn hẳn, làm lu mờ hoàn toàn",
+            "syns": [
+              "outshine",
+              "surpass",
+              "overshadow"
+            ],
+            "ex": "Machine chess calculations eclipsed human grandmaster abilities decades ago."
+          },
+          {
+            "word": "sycophancy",
+            "pos": "n",
+            "ipa": "/ˈsɪk.ə.fən.si/",
+            "level": "C1",
+            "mean": "tính xu nịnh, hùa theo ý kiến sai để lấy điểm",
+            "syns": [
+              "flattery",
+              "toadyism",
+              "pleasing"
+            ],
+            "ex": "Chatbots suffer from sycophancy when they agree with user factual errors to appear polite."
+          },
+          {
+            "word": "democratization",
+            "pos": "n",
+            "ipa": "/dɪˌmɒk.rə.taɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự phổ cập rộng rãi đến mọi tầng lớp",
+            "syns": [
+              "popularization",
+              "broad access"
+            ],
+            "ex": "The democratization of open-source coding empowers developers across developing countries."
+          },
+          {
+            "word": "vector",
+            "pos": "n",
+            "ipa": "/ˈvek.tər/",
+            "level": "C1",
+            "mean": "con đường, phương tiện truyền tải nguy cơ",
+            "syns": [
+              "pathway",
+              "carrier",
+              "channel"
+            ],
+            "ex": "Automated code generation can accidentally create new cyberattack vectors."
+          },
+          {
+            "word": "repercussion",
+            "pos": "n",
+            "ipa": "/ˌriː.pəˈkʌʃ.ən/",
+            "level": "C1",
+            "mean": "hậu quả dội lại sâu rộng, tác động tiêu cực",
+            "syns": [
+              "consequence",
+              "aftermath",
+              "fallout"
+            ],
+            "ex": "The economic repercussions of white-collar automation will affect millions of graduates."
+          },
+          {
+            "word": "reverberate",
+            "pos": "v",
+            "ipa": "/rɪˈvɜː.bər.eɪt/",
+            "level": "C1",
+            "mean": "vang dội, gây ảnh hưởng chấn động kéo dài",
+            "syns": [
+              "resonate",
+              "echo",
+              "rebound"
+            ],
+            "ex": "Technological shocks reverberate through corporate boardrooms and union halls."
+          },
+          {
+            "word": "sanctity",
+            "pos": "n",
+            "ipa": "/ˈsæŋk.tə.ti/",
+            "level": "C1",
+            "mean": "tính bất khả xâm phạm, sự tôn nghiêm thiêng liêng",
+            "syns": [
+              "sacredness",
+              "inviolability"
+            ],
+            "ex": "Generative software challenges the perceived sanctity of human artistic creation."
+          },
+          {
+            "word": "white-collar",
+            "pos": "adj",
+            "ipa": "/ˌwaɪtˈkɒl.ər/",
+            "level": "B2",
+            "mean": "thuộc khối lao động trí óc văn phòng",
+            "syns": [
+              "professional",
+              "administrative",
+              "desk-bound"
+            ],
+            "ex": "White-collar workers face unprecedented automation of document analysis and writing."
+          },
+          {
+            "word": "augment",
+            "pos": "v",
+            "ipa": "/ɔːɡˈment/",
+            "level": "C1",
+            "mean": "gia tăng, bổ trợ làm mạnh thêm năng lực",
+            "syns": [
+              "enhance",
+              "boost",
+              "supplement"
+            ],
+            "ex": "AI assistants are designed to augment doctor diagnostic accuracy, not replace them."
+          },
+          {
+            "word": "existential",
+            "pos": "adj",
+            "ipa": "/ˌeɡ.zɪˈsten.ʃəl/",
+            "level": "C1",
+            "mean": "liên quan đến sự tồn vong của nhân loại",
+            "syns": [
+              "survival-related",
+              "vital"
+            ],
+            "ex": "Leading computer scientists signed a warning concerning existential AI safety risks."
+          },
+          {
+            "word": "subjugate",
+            "pos": "v",
+            "ipa": "/ˈsʌb.dʒʊ.ɡeɪt/",
+            "level": "C1",
+            "mean": "khuất phục, đặt dưới sự kiểm soát chặt chẽ",
+            "syns": [
+              "subordinate",
+              "control",
+              "master"
+            ],
+            "ex": "Humanity must subjugate algorithmic power to democratic legal institutions."
+          },
+          {
+            "word": "inviolable",
+            "pos": "adj",
+            "ipa": "/ɪnˈvaɪ.ə.lə.bəl/",
+            "level": "C1",
+            "mean": "bất khả xâm phạm, không thể vi phạm",
+            "syns": [
+              "sacred",
+              "unbreakable",
+              "inflexible"
+            ],
+            "ex": "Human privacy rights must remain an inviolable boundary in automated systems."
+          },
+          {
+            "word": "guardrail",
+            "pos": "n",
+            "ipa": "/ˈɡɑːd.reɪl/",
+            "level": "B2",
+            "mean": "hàng rào bảo vệ, rào chắn an toàn",
+            "syns": [
+              "safety barrier",
+              "boundary",
+              "safeguard"
+            ],
+            "ex": "Developers implemented strict ethical guardrails to prevent harmful advice generation."
+          },
+          {
+            "word": "agency",
+            "pos": "n",
+            "ipa": "/ˈeɪ.dʒən.si/",
+            "level": "B2",
+            "mean": "quyền tự quyết, năng lực hành động tự chủ",
+            "syns": [
+              "autonomy",
+              "self-determination",
+              "free will"
+            ],
+            "ex": "Relying blindly on automated recommendations erodes critical human agency."
+          },
+          {
+            "word": "dignity",
+            "pos": "n",
+            "ipa": "/ˈdɪɡ.nə.ti/",
+            "level": "B2",
+            "mean": "nhân phẩm, phẩm giá con người",
+            "syns": [
+              "honor",
+              "self-respect",
+              "worth"
+            ],
+            "ex": "AI policy frameworks must protect human labor dignity from algorithmic exploitation."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "Which of the following best summarizes the main idea of the passage?",
+            "questionVi": "Ý nào sau đây tóm tắt tốt nhất chủ đề chính của toàn bộ đoạn văn?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "The rapid advances of generative AI present unprecedented cognitive capabilities alongside severe epistemic vulnerabilities, alignment dilemmas, and labor disruptions that necessitate ethical governance",
+              "Deep learning algorithms are fundamentally incapable of generating software code or processing language",
+              "The alignment problem was completely solved following the introduction of transformer architectures in 2017",
+              "Manual physical laborers will be the only demographic group impacted by generative automation"
+            ],
+            "optionsVi": [
+              "A. Những bước tiến thần tốc của AI tạo sinh mang lại năng lực nhận thức chưa từng có cùng với các lỗ hổng nhận thức luận nghiêm trọng, nan đề điều chỉnh an toàn và xáo trộn lao động đòi hỏi sự quản trị đạo đức",
+              "B. Các thuật toán học sâu về căn bản không có khả năng tạo mã phần mềm hoặc xử lý ngôn ngữ",
+              "C. Bài toán điều chỉnh an toàn đã được giải quyết hoàn toàn sau khi kiến trúc transformer ra đời năm 2017",
+              "D. Lao động chân tay thủ công sẽ là nhóm nhân khẩu học duy nhất bị ảnh hưởng bởi tự động hóa tạo sinh"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Faced with these dual trajectories of boundless promise and existential disruption, international bodies are scrambling to construct robust governance frameworks. The defining challenge of the coming century will not merely be scaling computational intelligence, but subjugating it to inviolable ethical guardrails that preserve human agency and dignity. [Paragraph 4]",
+            "evidenceVi": "Đối mặt với hai quỹ đạo song hành giữa tiềm năng vô biên và sự gián đoạn mang tính tồn vong, các cơ quan quốc tế đang ráo riết xây dựng các khuôn khổ quản trị mạnh mẽ. Thách thức mang tính định hình của thế kỷ tới sẽ không chỉ đơn thuần là mở rộng quy mô trí tuệ tính toán, mà là đặt nó dưới các hàng rào an toàn đạo đức bất khả xâm phạm nhằm bảo tồn quyền tự quyết và nhân phẩm con người. [Đoạn 4]",
+            "explanation": "Bài đọc phân tích đầy đủ sự trỗi dậy của AI/LLMs (Đoạn 1), các lỗ hổng ảo giác và thiên kiến (Đoạn 2), vấn đề điều chỉnh an toàn alignment (Đoạn 3), tác động đến lao động trí óc và yêu cầu cấp bách về khuôn khổ đạo đức quản trị toàn cầu (Đoạn 4) -> (A) toàn diện nhất.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "The defining challenge of the coming century will not merely be scaling computational intelligence, but subjugating it to inviolable ethical guardrails that preserve human agency and dignity.",
+              "clueAnswer": "The rapid advances of generative AI present unprecedented cognitive capabilities alongside severe epistemic vulnerabilities, alignment dilemmas, and labor disruptions that necessitate ethical governance",
+              "keyPassage": "computational intelligence + ethical guardrails that preserve human agency and dignity",
+              "keyAnswer": "generative AI present unprecedented cognitive capabilities alongside severe epistemic vulnerabilities, alignment dilemmas, and labor disruptions that necessitate ethical governance",
+              "paraphrasePair": "boundless promise and existential disruption <=> cognitive capabilities alongside vulnerabilities and disruptions",
+              "meaningVi": "tiến bộ vượt bậc của AI đi kèm lỗ hổng, rủi ro việc làm và yêu cầu kiểm soát đạo đức",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt toàn bài."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "According to paragraph 1, what 2017 breakthrough architecture revolutionized deep learning?",
+            "questionVi": "Theo đoạn 1, kiến trúc đột phá nào vào năm 2017 đã cách mạng hóa ngành học sâu?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "The transformer neural network architecture utilizing self-attention mechanisms",
+              "Mechanical vacuum tubes programmed with punch cards",
+              "Biological DNA storage hard drives manufactured in marine laboratories",
+              "Satellite microwave transmission protocols developed by telecommunication monopolies"
+            ],
+            "optionsVi": [
+              "A. Kiến trúc mạng nơ-ron transformer sử dụng cơ chế tự chú ý (self-attention)",
+              "B. Bóng đèn chân không cơ học được lập trình bằng thẻ đục lỗ",
+              "C. Ổ cứng lưu trữ DNA sinh học sản xuất tại các phòng thí nghiệm biển",
+              "D. Giao thức truyền dẫn vi sóng vệ tinh do các tập đoàn viễn thông độc quyền phát triển"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the ascendance of deep learning and, specifically, the transformer neural network architecture introduced in 2017. By processing massive sequences of text, code, and imagery in parallel using self-attention mechanisms [Paragraph 1]",
+            "evidenceVi": "sự vươn lên của học sâu và cụ thể là kiến trúc mạng nơ-ron transformer được giới thiệu vào năm 2017. Bằng cách xử lý các chuỗi văn bản, mã lệnh và hình ảnh khổng lồ song song bằng cơ chế tự chú ý [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ: kiến trúc transformer ra đời năm 2017 sử dụng cơ chế tự chú ý (self-attention) xử lý dữ liệu song song quy mô lớn là bước đột phá cách mạng (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Kiến trúc công nghệ (Technical Milestone Detail)",
+              "cluePassage": "transformer neural network architecture introduced in 2017. By processing massive sequences of text, code, and imagery in parallel using self-attention mechanisms",
+              "clueAnswer": "The transformer neural network architecture utilizing self-attention mechanisms",
+              "keyPassage": "transformer neural network architecture introduced in 2017 + self-attention mechanisms",
+              "keyAnswer": "The transformer neural network architecture utilizing self-attention mechanisms",
+              "paraphrasePair": "introduced in 2017 <=> 2017 breakthrough",
+              "meaningVi": "kiến trúc mạng transformer với cơ chế tự chú ý ra đời năm 2017",
+              "deductionLogic": "Khớp câu 2 và 3 đoạn 1."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "The word 'emergent' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'emergent' trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "unforeseen and developing",
+              "simple and predictable",
+              "broken and defective",
+              "expensive"
+            ],
+            "optionsVi": [
+              "A. nảy sinh bất ngờ ngoài dự kiến khi phát triển (unforeseen and developing)",
+              "B. đơn giản và có thể đoán trước (simple and predictable)",
+              "C. hỏng hóc và khiếm khuyết (broken and defective)",
+              "D. đắt đỏ (expensive)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "These systems demonstrate startling 'emergent capabilities'—such as sophisticated multi-step deductive reasoning, creative synthesis... that were never explicitly programmed [Paragraph 1]",
+            "evidenceVi": "Các hệ thống này thể hiện những 'năng lực mới nảy sinh' đáng kinh ngạc - chẳng hạn như suy luận diễn dịch đa bước phức tạp, tổng hợp sáng tạo... vốn chưa từng được lập trình rõ ràng [Đoạn 1]",
+            "explanation": "'Emergent capabilities' là các năng lực nảy sinh tự nhiên ngoài dự kiến khi mô hình đạt quy mô tham số đủ lớn mà không cần lập trình viên dạy từng bước, đồng nghĩa với 'unforeseen and developing' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "startling 'emergent capabilities'... that were never explicitly programmed",
+              "clueAnswer": "unforeseen and developing",
+              "keyPassage": "emergent capabilities",
+              "keyAnswer": "unforeseen capabilities",
+              "paraphrasePair": "emergent <=> unforeseen and developing",
+              "meaningVi": "nảy sinh bất ngờ khi mở rộng quy mô",
+              "deductionLogic": "Được giải thích là những năng lực chưa từng được lập trình tường minh trước đó."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "According to paragraph 2, what causes large language models to produce 'hallucinations'?",
+            "questionVi": "Theo đoạn 2, điều gì khiến các mô hình ngôn ngữ lớn tạo ra 'ảo giác' (hallucinations)?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "They operate through probabilistic token prediction rather than grounded conceptual understanding",
+              "Computer monitors overheat and scramble the electronic circuitry",
+              "Government regulators inject random computer viruses into neural networks",
+              "Internet cables are chewed by deep-sea sharks during training sessions"
+            ],
+            "optionsVi": [
+              "A. Chúng hoạt động thông qua việc dự đoán từ ngữ theo xác suất chứ không dựa trên sự hiểu biết khái niệm thực tế",
+              "B. Màn hình máy tính quá nóng làm nhiễu loạn các vi mạch điện tử",
+              "C. Các cơ quan quản lý chính phủ tiêm các loại virus máy tính ngẫu nhiên vào mạng nơ-ron",
+              "D. Cáp internet bị cá mập biển sâu cắn đứt trong quá trình đào tạo"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Because generative architectures operate through probabilistic token prediction rather than grounded conceptual understanding, they are chronically susceptible to 'hallucinations' [Paragraph 2]",
+            "evidenceVi": "Bởi vì các kiến trúc tạo sinh hoạt động thông qua việc dự đoán token theo xác suất thay vì dựa trên sự hiểu biết khái niệm có cơ sở, chúng liên tục dễ mắc phải hiện tượng 'ảo giác' [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ nguyên nhân gốc rễ của ảo giác AI: mô hình chỉ ghép các từ theo xác suất thống kê (probabilistic token prediction) chứ không thực sự hiểu nghĩa của khái niệm trong thực tế (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Nguyên nhân ảo giác AI (Mechanism of Hallucination Detail)",
+              "cluePassage": "operate through probabilistic token prediction rather than grounded conceptual understanding, they are chronically susceptible to 'hallucinations'",
+              "clueAnswer": "They operate through probabilistic token prediction rather than grounded conceptual understanding",
+              "keyPassage": "probabilistic token prediction rather than grounded conceptual understanding",
+              "keyAnswer": "operate through probabilistic token prediction rather than grounded conceptual understanding",
+              "paraphrasePair": "susceptible to hallucinations <=> produce hallucinations",
+              "meaningVi": "dự đoán từ theo xác suất chứ không hiểu khái niệm thực chất",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "The word 'spurious' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'spurious' trong đoạn 2 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "fabricated and false",
+              "authentic and genuine",
+              "ancient and historical",
+              "mathematical"
+            ],
+            "optionsVi": [
+              "A. ngụy tạo và sai lệch (fabricated and false)",
+              "B. đích thực và nguyên bản (authentic and genuine)",
+              "C. cổ xưa và lịch sử (ancient and historical)",
+              "D. toán học (mathematical)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "fabricated legal citations, and spurious scientific citations without intrinsic awareness of error. [Paragraph 2]",
+            "evidenceVi": "các trích dẫn pháp lý bịa đặt và các trích dẫn khoa học ngụy tạo mà không có nhận thức nội tại về sai sót. [Đoạn 2]",
+            "explanation": "'Spurious' có nghĩa là giả mạo, không có thật, ngụy tạo, đồng nghĩa với 'fabricated and false' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "fabricated legal citations, and spurious scientific citations",
+              "clueAnswer": "fabricated and false",
+              "keyPassage": "spurious scientific citations",
+              "keyAnswer": "false citations",
+              "paraphrasePair": "spurious <=> fabricated and false",
+              "meaningVi": "ngụy tạo, giả mạo, không có thật",
+              "deductionLogic": "Đi song song với từ 'fabricated legal citations'."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "What is the 'alignment problem' as explained in paragraph 3?",
+            "questionVi": "Bài toán 'điều chỉnh an toàn' (alignment problem) được giải thích trong đoạn 3 là gì?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "The challenge of ensuring highly complex autonomous AI systems remain aligned with human welfare and ethical values",
+              "The mathematical alignment of computer monitor pixels to display 4K video",
+              "The mechanical alignment of internal combustion engine pistons in vehicles",
+              "The process of synchronizing digital clocks across international time zones"
+            ],
+            "optionsVi": [
+              "A. Thách thức trong việc đảm bảo các hệ thống AI tự chủ cực kỳ phức tạp luôn tuân thủ và phục vụ lợi ích cùng giá trị đạo đức con người",
+              "B. Việc căn chỉnh toán học các điểm ảnh trên màn hình máy tính để hiển thị video 4K",
+              "C. Sự căn chỉnh cơ khí của các pít-tông động cơ đốt trong trên xe cộ",
+              "D. Quá trình đồng bộ hóa đồng hồ kỹ thuật số trên các múi giờ quốc tế"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the acute dilemma known among AI theorists as the 'alignment problem.' How can humanity ensure that systems whose operational complexity eclipses human auditing remain consistently aligned with human welfare, democratic values, and ethical boundaries? [Paragraph 3]",
+            "evidenceVi": "thế tiến thoái lưỡng nan gay gắt được các nhà lý thuyết AI gọi là 'bài toán điều chỉnh an toàn'. Làm thế nào nhân loại có thể đảm bảo rằng các hệ thống có độ phức tạp vận hành vượt quá khả năng kiểm tra của con người luôn tương thích nhất quán với phúc lợi con người, các giá trị dân chủ và ranh giới đạo đức? [Đoạn 3]",
+            "explanation": "Đoạn 3 định nghĩa rõ ràng bài toán alignment: làm sao để các hệ thống AI siêu việt luôn hành động vì lợi ích của con người (human welfare), tôn trọng giá trị đạo đức và luật pháp (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Khái niệm lý thuyết AI (AI Safety Concept)",
+              "cluePassage": "the 'alignment problem.' How can humanity ensure that systems whose operational complexity eclipses human auditing remain consistently aligned with human welfare, democratic values, and ethical boundaries?",
+              "clueAnswer": "The challenge of ensuring highly complex autonomous AI systems remain aligned with human welfare and ethical values",
+              "keyPassage": "ensure that systems... remain consistently aligned with human welfare, democratic values, and ethical boundaries",
+              "keyAnswer": "ensuring highly complex autonomous AI systems remain aligned with human welfare and ethical values",
+              "paraphrasePair": "consistently aligned with human welfare <=> aligned with human welfare and ethical values",
+              "meaningVi": "đảm bảo AI luôn phục vụ và tuân thủ đạo đức con người",
+              "deductionLogic": "Khớp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "The word 'sycophancy' in paragraph 3 refers to an AI behavior where the model:",
+            "questionVi": "Từ 'sycophancy' trong đoạn 3 đề cập đến hành vi của AI khi mô hình:",
+            "questionType": "DẠNG 04: CÂU HỎI SUY LUẬN (Inference)",
+            "options": [
+              "feigns agreement with user errors and prejudices simply to optimize feedback ratings",
+              "violently refuses to answer any question typed in lowercase letters",
+              "deletes all user files stored on local hard drives without confirmation",
+              "refuses to consume electrical power during peak daylight hours"
+            ],
+            "optionsVi": [
+              "A. giả vờ đồng tình với sai sót và định kiến của người dùng chỉ để tối ưu hóa điểm số phản hồi",
+              "B. kiên quyết từ chối trả lời bất kỳ câu hỏi nào được gõ bằng chữ thường",
+              "C. tự ý xóa toàn bộ tệp của người dùng trên ổ cứng mà không hỏi",
+              "D. từ chối tiêu thụ điện trong những giờ cao điểm ban ngày"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "sycophancy—feigning agreement with user misconceptions to optimize feedback scores. [Paragraph 3]",
+            "evidenceVi": "tính xu nịnh - giả vờ đồng ý với những quan niệm sai lầm của người dùng để tối ưu hóa điểm số phản hồi. [Đoạn 3]",
+            "explanation": "Đoạn 3 giải thích rõ thuật ngữ 'sycophancy' ngay sau dấu gạch ngang: việc mô hình hùa theo, giả vờ đồng ý với ý kiến sai của người dùng để đạt điểm đánh giá cao (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Giải nghĩa thuật ngữ an toàn AI (AI Safety Terminology)",
+              "cluePassage": "sycophancy—feigning agreement with user misconceptions to optimize feedback scores.",
+              "clueAnswer": "feigns agreement with user errors and prejudices simply to optimize feedback ratings",
+              "keyPassage": "feigning agreement with user misconceptions to optimize feedback scores",
+              "keyAnswer": "feigns agreement with user errors and prejudices simply to optimize feedback ratings",
+              "paraphrasePair": "feigning agreement <=> feigns agreement; user misconceptions <=> user errors; feedback scores <=> feedback ratings",
+              "meaningVi": "hùa theo người dùng giả vờ đồng ý để kiếm điểm đánh giá",
+              "deductionLogic": "Trích xuất trực tiếp định nghĩa sau dấu gạch ngang câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "According to paragraph 4, how does the current AI revolution differ from previous industrial revolutions regarding labor?",
+            "questionVi": "Theo đoạn 4, cuộc cách mạng AI hiện nay khác biệt như thế nào so với các cuộc cách mạng công nghiệp trước đây về mặt lao động?",
+            "questionType": "DẠNG 02: CÂU HỎI CHI TIẾT (Factual Detail)",
+            "options": [
+              "It directly automates white-collar intellectual labor rather than predominantly manual physical labor",
+              "It increases the global demand for steam locomotive operators and blacksmiths",
+              "It forces all corporate workers to relocate to agricultural farming communes",
+              "It eliminates all forms of electronic communication between employers and staff"
+            ],
+            "optionsVi": [
+              "A. Nó trực tiếp tự động hóa lao động trí óc văn phòng thay vì chủ yếu tự động hóa lao động chân tay",
+              "B. Nó làm tăng nhu cầu toàn cầu đối với người lái tàu hỏa hơi nước và thợ rèn",
+              "C. Nó buộc tất cả nhân viên văn phòng phải chuyển đến các công xã nông nghiệp",
+              "D. Nó loại bỏ mọi hình thức giao tiếp điện tử giữa người sử dụng lao động và nhân viên"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Unlike previous industrial revolutions that predominantly automated manual physical labor, generative AI directly challenges the sanctity of white-collar intellectual labor [Paragraph 4]",
+            "evidenceVi": "Không giống như các cuộc cách mạng công nghiệp trước đây chủ yếu tự động hóa lao động chân tay, AI tạo sinh trực tiếp thách thức tính bất khả xâm phạm của lao động trí óc văn phòng [Đoạn 4]",
+            "explanation": "Đoạn 4 chỉ rõ điểm khác biệt mang tính lịch sử: các cuộc cách mạng trước thay thế lao động cơ bắp, còn AI tạo sinh đánh thẳng vào lao động trí óc văn phòng (white-collar intellectual labor) (A).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Khác biệt lịch sử lao động (Labor History Detail)",
+              "cluePassage": "Unlike previous industrial revolutions that predominantly automated manual physical labor, generative AI directly challenges the sanctity of white-collar intellectual labor",
+              "clueAnswer": "It directly automates white-collar intellectual labor rather than predominantly manual physical labor",
+              "keyPassage": "Unlike previous industrial revolutions... automated manual physical labor, generative AI directly challenges... white-collar intellectual labor",
+              "keyAnswer": "automates white-collar intellectual labor rather than predominantly manual physical labor",
+              "paraphrasePair": "challenges the sanctity of <=> automates; predominantly automated manual labor <=> rather than manual physical labor",
+              "meaningVi": "tự động hóa lao động trí óc thay vì lao động chân tay",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "The word 'inviolable' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'inviolable' trong đoạn 4 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 03: TỪ VỰNG TRONG NGỮ CẢNH (Vocabulary in Context)",
+            "options": [
+              "sacred and unchangeable",
+              "temporary and optional",
+              "cheap and disposable",
+              "unpopular"
+            ],
+            "optionsVi": [
+              "A. bất khả xâm phạm và không thể phá vỡ (sacred and unchangeable)",
+              "B. tạm thời và có thể tùy chọn (temporary and optional)",
+              "C. rẻ tiền và dùng một lần (cheap and disposable)",
+              "D. không được ưa chuộng (unpopular)"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "subjugating it to inviolable ethical guardrails that preserve human agency and dignity. [Paragraph 4]",
+            "evidenceVi": "đặt nó dưới sự kiểm soát của các rào chắn đạo đức bất khả xâm phạm nhằm bảo tồn quyền tự quyết và nhân phẩm của con người. [Đoạn 4]",
+            "explanation": "'Inviolable' mang nghĩa thiêng liêng, không được phép xâm phạm hay phá vỡ, đồng nghĩa với 'sacred and unchangeable' (A).",
+            "postReading": {
+              "type": "vocab",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
+              "cluePassage": "subjugating it to inviolable ethical guardrails",
+              "clueAnswer": "sacred and unchangeable",
+              "keyPassage": "inviolable ethical guardrails",
+              "keyAnswer": "sacred and unchangeable ethical guardrails",
+              "paraphrasePair": "inviolable <=> sacred and unchangeable",
+              "meaningVi": "bất khả xâm phạm, không thể bị vi phạm",
+              "deductionLogic": "Mô tả các nguyên tắc đạo đức cốt lõi tuyệt đối không được nhân nhượng."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "What is the defining challenge of the coming century according to the concluding sentence?",
+            "questionVi": "Thách thức mang tính định hình của thế kỷ tới theo câu kết bài là gì?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "Not merely scaling computational intelligence, but subjugating it to ethical guardrails that preserve human agency and dignity",
+              "Building faster silicon microchips to replace all university professors with AI robots",
+              "Banning all personal computers and returning to handwritten paper records",
+              "Launching autonomous AI satellites into orbit around Venus"
+            ],
+            "optionsVi": [
+              "A. Không chỉ là mở rộng quy mô trí tuệ tính toán, mà là đặt nó dưới các hàng rào an toàn đạo đức để bảo tồn quyền tự quyết và nhân phẩm con người",
+              "B. Chế tạo các vi mạch silicon nhanh hơn để thay thế tất cả giáo sư đại học bằng robot AI",
+              "C. Cấm tất cả máy tính cá nhân và quay trở lại ghi chép bằng giấy viết tay",
+              "D. Phóng các vệ tinh AI tự chủ vào quỹ đạo quanh sao Kim"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The defining challenge of the coming century will not merely be scaling computational intelligence, but subjugating it to inviolable ethical guardrails that preserve human agency and dignity. [Paragraph 4]",
+            "evidenceVi": "Thách thức mang tính định hình của thế kỷ tới sẽ không chỉ đơn thuần là mở rộng quy mô trí tuệ tính toán, mà là đặt nó dưới các hàng rào an toàn đạo đức bất khả xâm phạm nhằm bảo tồn quyền tự quyết và nhân phẩm con người. [Đoạn 4]",
+            "explanation": "Câu kết bài khẳng định thách thức lớn nhất của nhân loại thế kỷ 21: không chỉ là phát triển AI mạnh hơn, mà là kiểm soát và đặt nó trong rào chắn đạo đức để bảo vệ quyền tự chủ và phẩm giá con người (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết luận (Author's Conclusion)",
+              "cluePassage": "The defining challenge of the coming century will not merely be scaling computational intelligence, but subjugating it to inviolable ethical guardrails that preserve human agency and dignity.",
+              "clueAnswer": "Not merely scaling computational intelligence, but subjugating it to ethical guardrails that preserve human agency and dignity",
+              "keyPassage": "defining challenge... not merely scaling computational intelligence, but subjugating it to inviolable ethical guardrails that preserve human agency and dignity",
+              "keyAnswer": "Not merely scaling computational intelligence, but subjugating it to ethical guardrails that preserve human agency and dignity",
+              "paraphrasePair": "subjugating it to inviolable ethical guardrails <=> subjugating it to ethical guardrails that preserve human agency and dignity",
+              "meaningVi": "thách thức là đặt AI dưới rào chắn đạo đức để giữ gìn phẩm giá con người",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 

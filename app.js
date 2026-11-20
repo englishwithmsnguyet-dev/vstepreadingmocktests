@@ -1548,6 +1548,7 @@ function renderPracticeView() {
     const test19 = tests.find(t => t.testNum === 19);
     const test20 = tests.find(t => t.testNum === 20);
     const test21 = tests.find(t => t.testNum === 21);
+    const test22 = tests.find(t => t.testNum === 22);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -3446,90 +3447,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 12. BỘ ĐỀ THỰC CHIẾN 12 (TEST 22) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 12. BỘ ĐỀ THỰC CHIẾN 12 (TEST 22) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite22') {
+        const savedAnsCount22 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 22) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved22 = state.savedExam && state.savedExam.testNum === 22 && savedAnsCount22 > 0;
+        const totalVocab22 = (test22 && test22.passages) ? test22.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta22 = [
+            {
+                testNum: 22,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'healthcare_suburb',
+                categoryName: 'Y tế cộng đồng & Bệnh viện ngoại ô',
+                categoryColor: '#8b5cf6',
+                badgeBg: '#f5f3ff',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Suburban Hospitals & Healthcare',
+                icon: 'fa-hospital',
+                title: 'Suburban Hospitals & Healthcare Access',
+                titleVi: 'Bệnh viện vùng ngoại ô & Khả năng tiếp cận dịch vụ y tế công bằng',
+                summary: 'Làn sóng di cư ra ngoại ô, thách thức tuyển dụng bác sĩ chuyên khoa sâu, giải pháp y tế từ xa (telemedicine) và vai trò cứu mạng trong thời gian vàng cấp cứu.'
+            },
+            {
+                testNum: 22,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'neuroscience',
+                categoryName: 'Khoa học thần kinh nhận thức',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: Debunking the 10% Brain Myth',
+                icon: 'fa-brain',
+                title: 'Debunking the Ten-Percent Brain Myth in Modern Neuroscience',
+                titleVi: 'Khoa học thần kinh: Giải mã huyền thoại con người chỉ dùng 10% não bộ',
+                summary: 'Bác bỏ huyền thoại dân gian qua mức tiêu thụ 20% năng lượng trao đổi chất, bằng chứng quét fMRI/PET cho thấy toàn bộ não luôn sáng và sức mạnh của tính dẻo thần kinh (neuroplasticity).'
+            },
+            {
+                testNum: 22,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'agriculture_cattle',
+                categoryName: 'Nông nghiệp công nghệ & Chăn nuôi',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Cattle Farming & Agriculture in Iowa',
+                icon: 'fa-wheat-awn',
+                title: 'Cattle Farming & Agriculture in Iowa: Economy, Tech & Ecology',
+                titleVi: 'Ngành chăn nuôi gia súc & Nông nghiệp công nghiệp hóa tại bang Iowa, Mỹ',
+                summary: 'Mối liên kết cộng sinh ngô - thịt bò, tự động hóa cảm biến nhai lại RFID, bài toán ô nhiễm dòng chảy nitrat và giải pháp hầm biogas yếm khí kết hợp chăn thả luân canh.'
+            },
+            {
+                testNum: 22,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'ai_ethics',
+                categoryName: 'Trí tuệ nhân tạo & Đạo đức công nghệ',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Artificial Intelligence: Advances & Ethics',
+                icon: 'fa-robot',
+                title: 'Artificial Intelligence: Deep Learning Advances, LLMs & Societal Ethics',
+                titleVi: 'Trí tuệ nhân tạo (AI): Bước tiến thần tốc của LLMs & Hệ lụy đạo đức xã hội',
+                summary: 'Kiến trúc transformer, năng lực mới nảy sinh (emergent capabilities), lỗ hổng ảo giác (hallucination), bài toán điều chỉnh an toàn (alignment) và rào chắn bảo vệ nhân phẩm con người.'
+            }
+        ];
+
+        let pCardsHtml22 = '';
+        passagesMeta22.forEach(meta => {
+            const pData = (test22 && test22.passages) ? test22.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml22 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-22">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-12" id="suite-box-22">
+                <div class="practice-suite-header suite-header-12">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(139, 92, 246, 0.25); color: #c4b5fd; border-color: rgba(139, 92, 246, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 12 (TEST 22) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #c4b5fd;"></i> BỘ ĐỀ THỰC CHIẾN 12 (TEST 22) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 12 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Bệnh viện ngoại ô & Y tế (Part 1) • Huyền thoại 10% não bộ (Part 2) • Chăn nuôi tại bang Iowa, Mỹ (Part 3) • Trí tuệ nhân tạo (AI) (Part 4)
+                            <strong>4 Topics:</strong> Bệnh viện ngoại ô & Y tế (Part 1) • Huyền thoại 10% não bộ (Part 2) • Chăn nuôi gia súc Iowa (Part 3) • Trí tuệ nhân tạo AI & Đạo đức (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab22} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(22)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab22} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved22 ? 'background: linear-gradient(135deg, #6d28d9, #8b5cf6) !important;' : ''}" onclick="${isSaved22 ? 'resumeSavedExam()' : 'startFullExam(22)'}">
+                            ${isSaved22 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount22}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(22)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #8b5cf6;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 12):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Suburban Hospitals & Healthcare</h4>
-                                <h5>Bệnh viện vùng ngoại ô & Khả năng tiếp cận dịch vụ y tế công bằng</h5>
-                                <p>Thách thức phân bổ nguồn lực y tế giữa đô thị trung tâm và vùng ngoại ô, dịch vụ y tế từ xa (telehealth) và chăm sóc sức khỏe ban đầu.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#8b5cf6;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Debunking the 10% Brain Myth</h4>
-                                <h5>Khoa học thần kinh: Giải mã huyền thoại con người chỉ dùng 10% não bộ</h5>
-                                <p>Bác bỏ quan niệm sai lầm phổ biến qua bằng chứng chụp cắt lớp cộng hưởng từ (fMRI), chứng minh toàn bộ não bộ đều hoạt động tích cực liên tục.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Cattle Farming & Agriculture in Iowa</h4>
-                                <h5>Ngành chăn nuôi gia súc & Nông nghiệp công nghiệp hóa tại bang Iowa, Mỹ</h5>
-                                <p>Mô hình chuỗi cung ứng ngô - thịt bò quy mô lớn vùng Trung Tây nước Mỹ, cơ giới hóa tự động và các giải pháp giảm thiểu khí thải nhà kính trong chăn nuôi.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Artificial Intelligence: Advances</h4>
-                                <h5>Trí tuệ nhân tạo (AI): Bước tiến thần tốc & Những hệ lụy đạo đức xã hội</h5>
-                                <p>Mô hình ngôn ngữ lớn (LLM), bài toán điều chỉnh an toàn AI (alignment problem) và tác động tái cấu trúc thị trường lao động trí tuệ toàn cầu.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml22}
                     </div>
                 </div>
             </div>
