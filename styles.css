@@ -4957,6 +4957,10 @@ body.dark-mode .resume-exam-banner {
     border-color: #f97316;
 }
 
+.practice-suite-box.suite-16 {
+    border-color: #6366f1;
+}
+
 .practice-suite-box.suite-upcoming {
     border: 2px dashed #94a3b8;
     background: var(--surface-solid);
@@ -5030,6 +5034,10 @@ body.dark-mode .resume-exam-banner {
 
 .suite-header-15 {
     background: linear-gradient(135deg, #7c2d12 0%, #c2410c 45%, #f97316 100%);
+}
+
+.suite-header-16 {
+    background: linear-gradient(135deg, #312e81 0%, #4338ca 45%, #6366f1 100%);
 }
 
 .suite-header-upcoming {

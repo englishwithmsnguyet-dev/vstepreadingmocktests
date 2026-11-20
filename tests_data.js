@@ -61863,6 +61863,2830 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST26",
+    "testNum": 26,
+    "title": "VSTEP READING MOCK TEST 26",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 16 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Music Festivals Around the World",
+        "topic": "Các lễ hội âm nhạc quốc tế: Lịch sử Woodstock, Glastonbury, du lịch văn hóa, kinh tế trải nghiệm & thách thức quản lý rác thải sinh thái",
+        "timeAllowed": 15,
+        "passage": "<p>Over the past half-century, music festivals have evolved from spontaneous countercultural gatherings into massive global spectacles that define contemporary youth culture. The modern festival era traces its spiritual roots to the iconic 1969 Woodstock Music and Art Fair in rural New York, where hundreds of thousands of young people congregated in an unprecedented celebration of peace, artistic expression, and social unity. Today, major international gatherings such as the Glastonbury Festival in the United Kingdom, Coachella in the United States, and Tomorrowland in Belgium attract millions of international attendees annually, showcasing diverse sonic genres ranging from indie rock and hip-hop to electronic dance music.</p><p>Beyond providing memorable musical entertainment, modern festivals serve as powerful economic catalysts for host regions. Municipalities that accommodate major festivals experience substantial influxes of tourist revenue, benefiting local hospitality industries, culinary establishments, and public transport networks. Furthermore, festivals cultivate immersive communal atmospheres where attendees escape everyday urban routines, pitch tents in temporary tent cities, and form cross-cultural friendships. Modern festivals increasingly function as multifaceted cultural hubs that incorporate interactive art installations, sustainability workshops, wellness yoga classes, and global street food markets alongside continuous live stages.</p><p>However, organizing multi-day gatherings of such colossal scale introduces severe logistical and environmental challenges. Chief among these is municipal waste management and environmental degradation. The sheer volume of single-use plastic bottles, discarded nylon camping tents, and food packaging routinely transforms picturesque pastoral meadows into devastated wastelands requiring weeks of intensive sanitation cleanups. Additionally, mass vehicle transportation to remote rural festival venues generates staggering carbon footprints, while sound amplification systems can disturb surrounding wildlife sanctuaries and local residential communities.</p><p>To reconcile cultural celebration with ecological responsibility, forward-looking festival promoters are pioneering comprehensive green initiatives. Pioneering events have instituted strict bans on non-reusable plastics, requiring festival-goers to utilize refillable aluminum canteens and compostable food containers. Concurrently, organizers are powering stage illumination and sound rigs with mobile solar generators and recycled cooking biofuel, while subsidizing shuttle buses to reduce vehicular traffic. By embedding sustainability directly into the event experience, modern music festivals demonstrate that mass artistic jubilation can coexist harmoniously with environmental stewardship.</p>",
+        "vocab": [
+          {
+            "word": "countercultural",
+            "pos": "adj",
+            "ipa": "/ˌkaʊn.təˈkʌl.tʃər.əl/",
+            "level": "B2",
+            "mean": "phản văn hóa, đi ngược lại các chuẩn mực truyền thống",
+            "syns": [
+              "anti-establishment",
+              "nonconformist",
+              "radical"
+            ],
+            "ex": "The 1960s witnessed vibrant countercultural movements advocating peace."
+          },
+          {
+            "word": "spectacle",
+            "pos": "n",
+            "ipa": "/ˈspek.tə.kəl/",
+            "level": "B2",
+            "mean": "cảnh tượng hoành tráng, sự kiện quy mô lớn",
+            "syns": [
+              "extravaganza",
+              "show",
+              "grand display"
+            ],
+            "ex": "The opening ceremony of the festival was an awe-inspiring visual spectacle."
+          },
+          {
+            "word": "congregate",
+            "pos": "v",
+            "ipa": "/ˈkɒŋ.ɡrɪ.ɡeɪt/",
+            "level": "B2",
+            "mean": "tụ họp, tập hợp lại đông đúc",
+            "syns": [
+              "assemble",
+              "gather",
+              "convene"
+            ],
+            "ex": "Thousands of music fans congregated in front of the main stage at sunset."
+          },
+          {
+            "word": "unprecedented",
+            "pos": "adj",
+            "ipa": "/ʌnˈpres.ɪ.den.tɪd/",
+            "level": "B2",
+            "mean": "chưa từng có tiền lệ, chưa từng xảy ra trước đây",
+            "syns": [
+              "groundbreaking",
+              "unmatched",
+              "historic"
+            ],
+            "ex": "The sudden ticket demand set an unprecedented record in festival history."
+          },
+          {
+            "word": "attendee",
+            "pos": "n",
+            "ipa": "/ə.tenˈdiː/",
+            "level": "B1",
+            "mean": "người tham dự sự kiện",
+            "syns": [
+              "participant",
+              "visitor",
+              "ticket-holder"
+            ],
+            "ex": "Every attendee received a reusable wristband upon entering the fairgrounds."
+          },
+          {
+            "word": "catalyst",
+            "pos": "n",
+            "ipa": "/ˈkæt.əl.ɪst/",
+            "level": "B2",
+            "mean": "chất xúc tác thúc đẩy sự phát triển nhanh",
+            "syns": [
+              "stimulus",
+              "spark",
+              "driver"
+            ],
+            "ex": "The annual music weekend acted as an economic catalyst for the coastal village."
+          },
+          {
+            "word": "municipality",
+            "pos": "n",
+            "ipa": "/mjuːˌnɪs.ɪˈpæl.ə.ti/",
+            "level": "B2",
+            "mean": "chính quyền đô thị, địa phương cấp thành phố",
+            "syns": [
+              "local council",
+              "civic authority",
+              "township"
+            ],
+            "ex": "The local municipality invested in temporary train lines for festival attendees."
+          },
+          {
+            "word": "accommodate",
+            "pos": "v",
+            "ipa": "/əˈkɒm.ə.deɪt/",
+            "level": "B2",
+            "mean": "tiếp nhận, cung cấp chỗ ở và tiện ích cho người tham gia",
+            "syns": [
+              "house",
+              "lodge",
+              "shelter"
+            ],
+            "ex": "The camping fields can accommodate over fifty thousand tents comfortably."
+          },
+          {
+            "word": "influx",
+            "pos": "n",
+            "ipa": "/ˈɪn.flʌks/",
+            "level": "B2",
+            "mean": "dòng người hoặc tiền bạc đổ về ồ ạt",
+            "syns": [
+              "inflow",
+              "surge",
+              "arrival"
+            ],
+            "ex": "Local hotels enjoyed a massive influx of international tourists in July."
+          },
+          {
+            "word": "hospitality",
+            "pos": "n",
+            "ipa": "/ˌhɒs.pɪˈtæl.ə.ti/",
+            "level": "B2",
+            "mean": "ngành dịch vụ khách sạn, nhà hàng và du lịch",
+            "syns": [
+              "service industry",
+              "catering",
+              "hotelier business"
+            ],
+            "ex": "The festival provides vital revenue for the regional hospitality sector."
+          },
+          {
+            "word": "immersive",
+            "pos": "adj",
+            "ipa": "/ɪˈmɜː.sɪv/",
+            "level": "B2",
+            "mean": "mang tính đắm chìm, bao trùm toàn bộ giác quan",
+            "syns": [
+              "engrossing",
+              "all-encompassing",
+              "interactive"
+            ],
+            "ex": "Lighting projections turned the forest into an immersive fairytale realm."
+          },
+          {
+            "word": "multifaceted",
+            "pos": "adj",
+            "ipa": "/ˌmʌl.tiˈfæs.ɪ.tɪd/",
+            "level": "B2",
+            "mean": "nhiều mặt, phong phú trên nhiều phương diện",
+            "syns": [
+              "versatile",
+              "varied",
+              "diverse"
+            ],
+            "ex": "The modern festival is a multifaceted celebration of arts, food, and music."
+          },
+          {
+            "word": "colossal",
+            "pos": "adj",
+            "ipa": "/kəˈlɒs.əl/",
+            "level": "B2",
+            "mean": "khổng lồ, to lớn dị thường",
+            "syns": [
+              "gigantic",
+              "massive",
+              "mammoth"
+            ],
+            "ex": "Managing a colossal crowd of two hundred thousand people demands strict logistics."
+          },
+          {
+            "word": "logistical",
+            "pos": "adj",
+            "ipa": "/ləˈdʒɪs.tɪ.kəl/",
+            "level": "B2",
+            "mean": "thuộc về khâu hậu cần, điều phối vận tải và tổ chức",
+            "syns": [
+              "organizational",
+              "coordinative",
+              "operational"
+            ],
+            "ex": "Organizers resolved logistical issues regarding shuttle buses and sanitation."
+          },
+          {
+            "word": "degradation",
+            "pos": "n",
+            "ipa": "/ˌdeɡ.rəˈdeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự suy thoái, tàn phá làm giảm chất lượng môi trường",
+            "syns": [
+              "deterioration",
+              "damage",
+              "destruction"
+            ],
+            "ex": "Trampled grass and plastic waste cause severe soil degradation."
+          },
+          {
+            "word": "discarded",
+            "pos": "adj",
+            "ipa": "/dɪˈskɑː.dɪd/",
+            "level": "B2",
+            "mean": "bị vứt bỏ, bỏ rơi lại",
+            "syns": [
+              "abandoned",
+              "thrown away",
+              "dumped"
+            ],
+            "ex": "Volunteers collected thousands of discarded tents left behind after the concert."
+          },
+          {
+            "word": "picturesque",
+            "pos": "adj",
+            "ipa": "/ˌpɪk.tʃərˈesk/",
+            "level": "B2",
+            "mean": "đẹp như tranh vẽ, thơ mộng",
+            "syns": [
+              "scenic",
+              "charming",
+              "idyllic"
+            ],
+            "ex": "The stage was constructed against a picturesque backdrop of rolling green hills."
+          },
+          {
+            "word": "pastoral",
+            "pos": "adj",
+            "ipa": "/ˈpɑː.stər.əl/",
+            "level": "B2",
+            "mean": "thuộc đồng quê thanh bình, thôn dã",
+            "syns": [
+              "rural",
+              "countryside",
+              "bucolic"
+            ],
+            "ex": "The pastoral farm was temporarily transformed into an international dance arena."
+          },
+          {
+            "word": "meadow",
+            "pos": "n",
+            "ipa": "/ˈmed.əʊ/",
+            "level": "B1",
+            "mean": "đồng cỏ tự nhiên nở hoa",
+            "syns": [
+              "grassland",
+              "pasture",
+              "field"
+            ],
+            "ex": "Wildflowers once carpeted the meadow where tents now stood."
+          },
+          {
+            "word": "sanitation",
+            "pos": "n",
+            "ipa": "/ˌsæn.ɪˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "hệ thống vệ sinh phòng dịch và xử lý rác",
+            "syns": [
+              "waste hygiene",
+              "cleanliness",
+              "refuse clearance"
+            ],
+            "ex": "Proper sanitation facilities prevent waterborne disease outbreaks at outdoor rallies."
+          },
+          {
+            "word": "amplification",
+            "pos": "n",
+            "ipa": "/ˌæm.plɪ.fɪˈkeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự khuếch đại cường độ âm thanh hoặc tín hiệu",
+            "syns": [
+              "sound boosting",
+              "loudspeaker power",
+              "magnification"
+            ],
+            "ex": "Excessive sound amplification can cause temporary hearing loss."
+          },
+          {
+            "word": "sanctuary",
+            "pos": "n",
+            "ipa": "/ˈsæŋk.tʃʊə.ri/",
+            "level": "B2",
+            "mean": "khu bảo tồn thiên nhiên, nơi trú ẩn an toàn của muông thú",
+            "syns": [
+              "reserve",
+              "haven",
+              "refuge"
+            ],
+            "ex": "Bass frequencies carried for miles, alarming deer in the adjacent forest sanctuary."
+          },
+          {
+            "word": "reconcile",
+            "pos": "v",
+            "ipa": "/ˈrek.ən.saɪl/",
+            "level": "B2",
+            "mean": "dung hòa, hòa giải mâu thuẫn giữa hai phía",
+            "syns": [
+              "harmonize",
+              "balance",
+              "accommodate"
+            ],
+            "ex": "Event planners must reconcile massive ticket sales with environmental protection."
+          },
+          {
+            "word": "compostable",
+            "pos": "adj",
+            "ipa": "/ˈkɒm.pɒs.tə.bəl/",
+            "level": "B2",
+            "mean": "có thể phân hủy sinh học thành phân hữu cơ",
+            "syns": [
+              "biodegradable",
+              "organic-decaying"
+            ],
+            "ex": "All food stalls must serve meals in compostable paper plates."
+          },
+          {
+            "word": "biofuel",
+            "pos": "n",
+            "ipa": "/ˈbaɪ.əʊˌfjuː.əl/",
+            "level": "B2",
+            "mean": "nhiên liệu sinh học tái tạo",
+            "syns": [
+              "biodiesel",
+              "renewable fuel"
+            ],
+            "ex": "The mobile stage generators ran entirely on refined cooking biofuel."
+          },
+          {
+            "word": "jubilation",
+            "pos": "n",
+            "ipa": "/ˌdʒuː.bɪˈleɪ.ʃən/",
+            "level": "B2",
+            "mean": "niềm hân hoan vui sướng tột độ",
+            "syns": [
+              "rejoicing",
+              "exultation",
+              "celebration"
+            ],
+            "ex": "A roar of collective jubilation erupted when the headliner stepped onto stage."
+          },
+          {
+            "word": "stewardship",
+            "pos": "n",
+            "ipa": "/ˈstjuː.əd.ʃɪp/",
+            "level": "B2",
+            "mean": "sự quản lý và bảo vệ có trách nhiệm đối với môi trường",
+            "syns": [
+              "responsible care",
+              "conservation",
+              "guardianship"
+            ],
+            "ex": "Environmental stewardship has become a core principle for modern festival organizers."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t26_q1",
+            "num": 1,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The acoustic engineering of electronic dance music synthesizers",
+              "The cultural evolution, socioeconomic benefits, environmental impacts, and green initiatives of music festivals",
+              "The financial bankruptcy of municipal campgrounds in the United Kingdom",
+              "The history of tent manufacturing from canvas to synthetic nylon"
+            ],
+            "optionsVi": [
+              "Kỹ thuật âm học của máy tổng hợp âm thanh nhạc điện tử",
+              "Sự tiến hóa văn hóa, lợi ích kinh tế xã hội, tác động môi trường và các sáng kiến xanh của lễ hội âm nhạc",
+              "Sự phá sản tài chính của các khu cắm trại đô thị tại Vương quốc Anh",
+              "Lịch sử sản xuất lều bạt từ vải bạt thô đến nilon tổng hợp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Passage covers festival history (Woodstock to modern events), economic and cultural benefits, environmental and waste challenges, and green initiatives for sustainable festivals.",
+            "evidenceVi": "Toàn bài bao quát lịch sử lễ hội (Woodstock đến hiện đại), lợi ích kinh tế văn hóa, thách thức rác thải môi trường và các sáng kiến xanh bền vững.",
+            "explanation": "Đoạn văn phân tích toàn diện lịch sử văn hóa, lợi ích kinh tế, vấn đề rác thải môi trường và giải pháp xanh của các lễ hội âm nhạc lớn trên thế giới.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "Over the past half-century, music festivals have evolved from spontaneous countercultural gatherings into massive global spectacles... powerful economic catalysts... severe logistical and environmental challenges... pioneering comprehensive green initiatives.",
+              "clueAnswer": "The cultural evolution, socioeconomic benefits, environmental impacts, and green initiatives of music festivals",
+              "keyPassage": "music festivals have evolved... economic catalysts... logistical and environmental challenges... pioneering comprehensive green initiatives",
+              "keyAnswer": "cultural evolution, socioeconomic benefits, environmental impacts, and green initiatives of music festivals",
+              "paraphrasePair": "evolved / economic catalysts / environmental challenges / green initiatives <=> cultural evolution, socioeconomic benefits, environmental impacts, and green initiatives",
+              "meaningVi": "tiến hóa văn hóa, lợi ích kinh tế xã hội, tác động môi trường và sáng kiến xanh",
+              "deductionLogic": "Tổng hợp ý nghĩa từ cả 4 đoạn văn."
+            }
+          },
+          {
+            "id": "t26_q2",
+            "num": 2,
+            "question": "According to paragraph 1, what historical event is regarded as the spiritual foundation of modern music festivals?",
+            "questionVi": "Theo đoạn 1, sự kiện lịch sử nào được coi là nền tảng tinh thần của các lễ hội âm nhạc hiện đại?",
+            "questionType": "detail",
+            "options": [
+              "The 1969 Woodstock Music and Art Fair in rural New York",
+              "The opening of the Eiffel Tower World's Fair in Paris in 1889",
+              "The first European opera festival in Renaissance Venice",
+              "The live radio broadcast of the 1920 presidential election"
+            ],
+            "optionsVi": [
+              "Hội chợ Âm nhạc và Nghệ thuật Woodstock năm 1969 tại vùng nông thôn New York",
+              "Lễ khai mạc Hội chợ Thế giới Tháp Eiffel tại Paris năm 1889",
+              "Lễ hội opera châu Âu đầu tiên tại Venice thời Phục hưng",
+              "Buổi phát thanh trực tiếp cuộc bầu cử tổng thống năm 1920"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The modern festival era traces its spiritual roots to the iconic 1969 Woodstock Music and Art Fair in rural New York, where hundreds of thousands of young people congregated...",
+            "evidenceVi": "Kỷ nguyên lễ hội hiện đại bắt nguồn sâu xa từ Hội chợ Âm nhạc và Nghệ thuật Woodstock mang tính biểu tượng năm 1969 tại vùng nông thôn New York, nơi hàng trăm ngàn thanh niên đã tề tựu...",
+            "explanation": "Đoạn 1 nêu rõ kỷ nguyên lễ hội hiện đại bắt nguồn từ Hội chợ Woodstock 1969.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết lịch sử (Historical Origin Detail)",
+              "cluePassage": "traces its spiritual roots to the iconic 1969 Woodstock Music and Art Fair in rural New York",
+              "clueAnswer": "The 1969 Woodstock Music and Art Fair in rural New York",
+              "keyPassage": "spiritual roots to the iconic 1969 Woodstock Music and Art Fair in rural New York",
+              "keyAnswer": "The 1969 Woodstock Music and Art Fair in rural New York",
+              "paraphrasePair": "spiritual roots to... 1969 Woodstock Music and Art Fair <=> The 1969 Woodstock Music and Art Fair in rural New York",
+              "meaningVi": "nguồn gốc tinh thần từ Hội chợ Âm nhạc Woodstock 1969",
+              "deductionLogic": "Khớp câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": "t26_q3",
+            "num": 3,
+            "question": "The word 'influx' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'influx' trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "large arrival",
+              "gradual departure",
+              "total cancellation",
+              "strict prohibition"
+            ],
+            "optionsVi": [
+              "sự đổ về / dòng người lớn tràn tới",
+              "sự rời đi dần dần",
+              "sự hủy bỏ hoàn toàn",
+              "sự nghiêm cấm ngặt nghèo"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Municipalities that accommodate major festivals experience substantial influxes of tourist revenue...",
+            "evidenceVi": "Các đô thị tiếp nhận các lễ hội lớn trải qua những dòng thu nhập du lịch đổ về đáng kể...",
+            "explanation": "'Influx' nghĩa là sự đổ về ồ ạt của dòng người hoặc tiền bạc, đồng nghĩa với 'large arrival' hoặc 'inflow'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "experience substantial influxes of tourist revenue",
+              "clueAnswer": "large arrival",
+              "keyPassage": "substantial influxes of tourist revenue",
+              "keyAnswer": "large arrival",
+              "paraphrasePair": "influxes <=> large arrival",
+              "meaningVi": "dòng tiền đổ về lớn",
+              "deductionLogic": "Khách du lịch và tiền đổ về đô thị được gọi là influx, tương đương large arrival / inflow."
+            }
+          },
+          {
+            "id": "t26_q4",
+            "num": 4,
+            "question": "According to paragraph 2, how do host municipalities benefit economically from festivals?",
+            "questionVi": "Theo đoạn 2, các đô thị đăng cai hưởng lợi kinh tế như thế nào từ các lễ hội?",
+            "questionType": "detail",
+            "options": [
+              "Through substantial tourist revenue benefiting local hospitality, restaurants, and public transport",
+              "By levying heavy fines on all international performing artists",
+              "By forcing festival organizers to construct permanent airport runways",
+              "By selling municipal historical landmarks to foreign private corporations"
+            ],
+            "optionsVi": [
+              "Thông qua doanh thu du lịch đáng kể mang lại lợi ích cho ngành khách sạn địa phương, nhà hàng và giao thông công cộng",
+              "Bằng cách phạt tiền nặng tất cả các nghệ sĩ biểu diễn quốc tế",
+              "Bằng cách buộc ban tổ chức lễ hội phải xây dựng đường băng sân bay vĩnh viễn",
+              "Bằng cách bán các địa danh lịch sử của thành phố cho các tập đoàn tư nhân nước ngoài"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Municipalities that accommodate major festivals experience substantial influxes of tourist revenue, benefiting local hospitality industries, culinary establishments, and public transport networks.",
+            "evidenceVi": "Các đô thị tổ chức các lễ hội lớn đón nhận dòng doanh thu du lịch đáng kể, mang lại lợi ích cho ngành khách sạn địa phương, cơ sở ẩm thực và mạng lưới giao thông công cộng.",
+            "explanation": "Đoạn 2 nêu rõ 3 đối tượng hưởng lợi kinh tế: hospitality industries, culinary establishments, và public transport.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết lợi ích kinh tế (Economic Benefit Detail)",
+              "cluePassage": "substantial influxes of tourist revenue, benefiting local hospitality industries, culinary establishments, and public transport networks",
+              "clueAnswer": "Through substantial tourist revenue benefiting local hospitality, restaurants, and public transport",
+              "keyPassage": "tourist revenue, benefiting local hospitality industries, culinary establishments, and public transport networks",
+              "keyAnswer": "tourist revenue benefiting local hospitality, restaurants, and public transport",
+              "paraphrasePair": "hospitality industries, culinary establishments, and public transport <=> local hospitality, restaurants, and public transport",
+              "meaningVi": "khách sạn, nhà hàng và giao thông công cộng",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t26_q5",
+            "num": 5,
+            "question": "According to paragraph 2, which non-musical activities are increasingly incorporated into modern festivals?",
+            "questionVi": "Theo đoạn 2, những hoạt động phi âm nhạc nào đang ngày càng được tích hợp vào các lễ hội hiện đại?",
+            "questionType": "detail",
+            "options": [
+              "Interactive art installations, sustainability workshops, wellness yoga, and street food markets",
+              "Mandatory military rifle drills and geopolitical debate competitions",
+              "Stock market trading floor simulations and cryptocurrency mining seminars",
+              "Automobile demolition derbies and monster truck rallies"
+            ],
+            "optionsVi": [
+              "Tác phẩm nghệ thuật sắp đặt tương tác, hội thảo bền vững, lớp yoga chăm sóc sức khỏe và chợ ẩm thực đường phố",
+              "Các buổi tập bắn súng trường quân sự bắt buộc và cuộc thi tranh biện địa chính trị",
+              "Mô phỏng sàn giao dịch chứng khoán và hội thảo khai thác tiền điện tử",
+              "Các cuộc đua phá hủy ô tô và biểu diễn xe tải quái vật"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Modern festivals increasingly function as multifaceted cultural hubs that incorporate interactive art installations, sustainability workshops, wellness yoga classes, and global street food markets alongside continuous live stages.",
+            "evidenceVi": "Các lễ hội hiện đại ngày càng hoạt động như các trung tâm văn hóa đa diện tích hợp các tác phẩm sắp đặt nghệ thuật tương tác, hội thảo bền vững, lớp yoga chăm sóc sức khỏe và chợ ẩm thực đường phố toàn cầu bên cạnh các sân khấu trực tiếp liên tục.",
+            "explanation": "Đoạn 2 liệt kê cụ thể: interactive art installations, sustainability workshops, wellness yoga classes, và global street food markets.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết hoạt động tích hợp (Integrated Activities Detail)",
+              "cluePassage": "interactive art installations, sustainability workshops, wellness yoga classes, and global street food markets",
+              "clueAnswer": "Interactive art installations, sustainability workshops, wellness yoga, and street food markets",
+              "keyPassage": "interactive art installations, sustainability workshops, wellness yoga classes, and global street food markets",
+              "keyAnswer": "Interactive art installations, sustainability workshops, wellness yoga, and street food markets",
+              "paraphrasePair": "interactive art installations, sustainability workshops... street food markets <=> Interactive art installations, sustainability workshops, wellness yoga, and street food markets",
+              "meaningVi": "nghệ thuật sắp đặt, hội thảo bền vững, yoga và chợ ẩm thực",
+              "deductionLogic": "Khớp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": "t26_q6",
+            "num": 6,
+            "question": "The word 'colossal' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'colossal' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "immense",
+              "diminutive",
+              "temporary",
+              "fragile"
+            ],
+            "optionsVi": [
+              "khổng lồ, to lớn bao la",
+              "nhỏ bé tí hon",
+              "tạm thời",
+              "mỏng manh dễ vỡ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "However, organizing multi-day gatherings of such colossal scale introduces severe logistical and environmental challenges.",
+            "evidenceVi": "Tuy nhiên, việc tổ chức các cuộc tụ họp kéo dài nhiều ngày ở quy mô khổng lồ như vậy tạo ra những thách thức nghiêm trọng về hậu cần và môi trường.",
+            "explanation": "'Colossal' có nghĩa là khổng lồ, vô cùng to lớn, đồng nghĩa với 'immense' hoặc 'gigantic'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "gatherings of such colossal scale",
+              "clueAnswer": "immense",
+              "keyPassage": "colossal scale",
+              "keyAnswer": "immense",
+              "paraphrasePair": "colossal <=> immense",
+              "meaningVi": "quy mô khổng lồ, to lớn",
+              "deductionLogic": "Miêu tả quy mô hàng trăm ngàn người của lễ hội, colossal tương đương immense."
+            }
+          },
+          {
+            "id": "t26_q7",
+            "num": 7,
+            "question": "According to paragraph 3, what primary environmental problem occurs on festival meadows?",
+            "questionVi": "Theo đoạn 3, vấn đề môi trường chính nào xảy ra trên các đồng cỏ diễn ra lễ hội?",
+            "questionType": "detail",
+            "options": [
+              "Underground volcanic magma eruptions melting tent poles",
+              "Massive accumulations of single-use plastic bottles, discarded camping tents, and food packaging",
+              "An overgrowth of invasive venomous cactus plants",
+              "Sudden localized freezing temperatures destroying farm crops"
+            ],
+            "optionsVi": [
+              "Mắc ma núi lửa dưới lòng đất phun trào làm tan chảy cọc lều",
+              "Sự tích tụ khổng lồ của chai nhựa dùng một lần, lều cắm trại bị bỏ rơi và bao bì thực phẩm",
+              "Sự phát triển quá mức của các loài xương rồng độc xâm lấn",
+              "Nhiệt độ đóng băng cục bộ đột ngột phá hủy cây trồng nông nghiệp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The sheer volume of single-use plastic bottles, discarded nylon camping tents, and food packaging routinely transforms picturesque pastoral meadows into devastated wastelands requiring weeks of intensive sanitation cleanups.",
+            "evidenceVi": "Khối lượng khổng lồ của chai nhựa dùng một lần, lều cắm trại bằng nilon bị vứt bỏ và bao bì thực phẩm thường xuyên biến những đồng cỏ đồng quê thơ mộng thành những bãi đất hoang tàn phá đòi hỏi nhiều tuần dọn dẹp vệ sinh chuyên sâu.",
+            "explanation": "Đoạn 3 nêu rõ vấn đề rác thải gồm chai nhựa (plastic bottles), lều nilon bỏ lại (discarded nylon tents) và bao bì (food packaging).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết vấn đề môi trường (Environmental Problem Detail)",
+              "cluePassage": "sheer volume of single-use plastic bottles, discarded nylon camping tents, and food packaging routinely transforms picturesque pastoral meadows into devastated wastelands",
+              "clueAnswer": "Massive accumulations of single-use plastic bottles, discarded camping tents, and food packaging",
+              "keyPassage": "single-use plastic bottles, discarded nylon camping tents, and food packaging",
+              "keyAnswer": "single-use plastic bottles, discarded camping tents, and food packaging",
+              "paraphrasePair": "volume of single-use plastic bottles, discarded nylon camping tents <=> accumulations of single-use plastic bottles, discarded camping tents",
+              "meaningVi": "chai nhựa dùng một lần và lều bạt bị bỏ lại bừa bãi",
+              "deductionLogic": "Khớp câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": "t26_q8",
+            "num": 8,
+            "question": "The word 'these' in paragraph 3 refers to:",
+            "questionVi": "Từ 'these' trong đoạn 3 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "Multi-day live stages",
+              "Logistical and environmental challenges",
+              "Wellness yoga classes",
+              "Refillable aluminum canteens"
+            ],
+            "optionsVi": [
+              "Các sân khấu biểu diễn trực tiếp nhiều ngày",
+              "Những thách thức về hậu cần và môi trường",
+              "Các lớp học yoga chăm sóc sức khỏe",
+              "Các bình nước nhôm có thể đổ đầy lại"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "However, organizing multi-day gatherings of such colossal scale introduces severe logistical and environmental challenges. Chief among these is municipal waste management and environmental degradation.",
+            "evidenceVi": "Tuy nhiên, việc tổ chức các cuộc tụ họp kéo dài nhiều ngày ở quy mô khổng lồ như vậy tạo ra những thách thức nghiêm trọng về hậu cần và môi trường. Đứng đầu trong số này là quản lý rác thải đô thị và suy thoái môi trường.",
+            "explanation": "'These' ở câu thứ hai quy chiếu trực tiếp về 'logistical and environmental challenges' ở câu liền trước.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ chỉ định quy chiếu (Demonstrative Pronoun)",
+              "cluePassage": "severe logistical and environmental challenges. Chief among these is municipal waste management",
+              "clueAnswer": "Logistical and environmental challenges",
+              "keyPassage": "logistical and environmental challenges. Chief among these",
+              "keyAnswer": "Logistical and environmental challenges",
+              "paraphrasePair": "logistical and environmental challenges <=> these",
+              "meaningVi": "các thách thức về hậu cần và môi trường",
+              "deductionLogic": "Đại từ 'these' thay thế danh từ đứng trước liên từ 'Chief among'."
+            }
+          },
+          {
+            "id": "t26_q9",
+            "num": 9,
+            "question": "According to paragraph 4, which of the following is NOT mentioned as a green initiative adopted by festivals?",
+            "questionVi": "Theo đoạn 4, điều nào sau đây KHÔNG được đề cập như một sáng kiến xanh được các lễ hội áp dụng?",
+            "questionType": "negative_detail",
+            "options": [
+              "Banning non-reusable plastics and requiring refillable aluminum canteens",
+              "Utilizing mobile solar generators and recycled cooking biofuel to power sound and lighting",
+              "Subsidizing shuttle buses to reduce attendee vehicular traffic",
+              "Mandating that attendees generate their own stage electricity by pedaling stationary bicycles during concerts"
+            ],
+            "optionsVi": [
+              "Cấm đồ nhựa không tái sử dụng và yêu cầu bình nước nhôm dùng nhiều lần",
+              "Sử dụng máy phát điện mặt trời di động và nhiên liệu sinh học từ dầu ăn tái chế để cấp điện cho âm thanh và ánh sáng",
+              "Trợ giá xe buýt đưa đón để giảm phương tiện giao thông cá nhân của người tham dự",
+              "Yêu cầu khán giả phải tự tạo ra điện cho sân khấu bằng cách đạp xe đạp tại chỗ trong suốt buổi hòa nhạc"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 mentions: plastic bans and aluminum canteens (A), solar generators and cooking biofuel (B), and subsidized shuttle buses (C). Pedaling stationary bicycles during concerts is completely unmentioned.",
+            "evidenceVi": "Đoạn 4 nêu: cấm đồ nhựa và dùng bình nhôm (A), điện mặt trời và dầu ăn sinh học (B), xe buýt đưa đón (C). Bắt khán giả đạp xe tạo điện là chi tiết bịa đặt.",
+            "explanation": "Phương án D không hề xuất hiện trong đoạn 4.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Detail Check)",
+              "cluePassage": "strict bans on non-reusable plastics... refillable aluminum canteens... solar generators and recycled cooking biofuel... subsidizing shuttle buses",
+              "clueAnswer": "Mandating that attendees generate their own stage electricity by pedaling stationary bicycles during concerts",
+              "keyPassage": "refillable aluminum canteens... solar generators... biofuel... shuttle buses",
+              "keyAnswer": "pedaling stationary bicycles (NOT mentioned)",
+              "paraphrasePair": "canteens / solar / biofuel / shuttle buses vs pedaling bicycles",
+              "meaningVi": "các sáng kiến xanh thực tế so với chi tiết bịa đặt",
+              "deductionLogic": "Phương án D hoàn toàn không có trong đoạn 4."
+            }
+          },
+          {
+            "id": "t26_q10",
+            "num": 10,
+            "question": "What is the author's final conclusion in paragraph 4 regarding modern music festivals?",
+            "questionVi": "Kết luận cuối cùng của tác giả trong đoạn 4 về các lễ hội âm nhạc hiện đại là gì?",
+            "questionType": "inference",
+            "options": [
+              "All outdoor music festivals will soon be outlawed by international climate courts",
+              "Mass artistic jubilation can coexist harmoniously with environmental stewardship when sustainability is embedded into the event",
+              "Virtual reality online concerts will completely replace all in-person festivals by next year",
+              "Festival ticket prices should be tripled to compensate for carbon offsets"
+            ],
+            "optionsVi": [
+              "Tất cả các lễ hội âm nhạc ngoài trời sẽ sớm bị cấm bởi tòa án khí hậu quốc tế",
+              "Niềm vui sướng nghệ thuật đại chúng có thể cùng tồn tại hài hòa với sự bảo vệ môi trường khi tính bền vững được lồng ghép vào sự kiện",
+              "Các buổi hòa nhạc trực tuyến thực tế ảo sẽ thay thế hoàn toàn các lễ hội trực tiếp vào năm tới",
+              "Giá vé lễ hội nên tăng gấp ba lần để bù đắp cho các khoản tín chỉ carbon"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "By embedding sustainability directly into the event experience, modern music festivals demonstrate that mass artistic jubilation can coexist harmoniously with environmental stewardship.",
+            "evidenceVi": "Bằng cách lồng ghép tính bền vững trực tiếp vào trải nghiệm sự kiện, các lễ hội âm nhạc hiện đại chứng minh rằng niềm hân hoan nghệ thuật đại chúng có thể cùng tồn tại hài hòa với sự gìn giữ bảo vệ môi trường.",
+            "explanation": "Câu cuối cùng khẳng định thông điệp tích cực: sự thăng hoa âm nhạc hoàn toàn có thể song hành hài hòa với trách nhiệm bảo vệ môi trường.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Kết luận tác giả (Author's Final Synthesis)",
+              "cluePassage": "By embedding sustainability directly into the event experience, modern music festivals demonstrate that mass artistic jubilation can coexist harmoniously with environmental stewardship.",
+              "clueAnswer": "Mass artistic jubilation can coexist harmoniously with environmental stewardship when sustainability is embedded into the event",
+              "keyPassage": "mass artistic jubilation can coexist harmoniously with environmental stewardship",
+              "keyAnswer": "Mass artistic jubilation can coexist harmoniously with environmental stewardship",
+              "paraphrasePair": "mass artistic jubilation can coexist harmoniously with environmental stewardship <=> Mass artistic jubilation can coexist harmoniously with environmental stewardship",
+              "meaningVi": "niềm hân hoan nghệ thuật có thể hòa hợp với bảo vệ môi trường",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Risk-Taking Behaviors & Adolescent Brain Development",
+        "topic": "Hành vi ưa mạo hiểm và sự phát triển não bộ ở tuổi vị thành niên: Hệ thống limbic phát triển sớm hơn vỏ não trước trán prefrontal cortex & tác động của bạn bè",
+        "timeAllowed": 15,
+        "passage": "<p>Adolescence has historically been characterized as a turbulent developmental phase marked by heightened emotional volatility, peer conformism, and a pronounced propensity for reckless risk-taking. From daring recreational stunts to dangerous driving and substance experimentation, adolescents exhibit a disproportionate statistical likelihood of engaging in hazardous behaviors compared to children or mature adults. Historically, popular folklore dismissed this impulsivity as willful adolescent rebellion or moral deficiency. However, groundbreaking advancements in functional neuroimaging have overturned these simplistic assumptions, revealing that teenage risk-taking is rooted in the asynchronous maturation of distinct neuroanatomical brain systems.</p><p>At the core of this developmental asymmetry is the neurobiological mismatch between the subcortical limbic system and the prefrontal cortex. The limbic circuitry—specifically the amygdala and the ventral striatum, which orchestrate emotional responses, social cues, and the dopaminergic reward pathway—undergoes an accelerated surge in sensitivity during early puberty. This hypersensitive socioemotional network makes adolescents exceptionally responsive to novelty, sensation-seeking, and potential social approval. In stark contrast, the prefrontal cortex—the cerebral region responsible for executive functioning, impulse inhibition, long-term consequence evaluation, and deliberative decision-making—matures at a significantly slower pace, continuing its structural refinement well into the mid-twenties.</p><p>The presence of peers exerts a profound modulating effect on adolescent risk evaluation. Neuropsychological experiments demonstrate that when teenagers perform simulated driving tasks in the presence of observing peers, neural activation in the ventral striatum spikes dramatically, causing them to run red lights twice as frequently as when driving alone. Mature adults, by contrast, exhibit virtually no behavioral alteration in risk threshold when observed by peers. This distinct susceptibility to social evaluation reflects an evolutionary adaptation: across ancestral mammalian history, adolescence was the transitional epoch when young individuals needed to detach from parental protection, explore novel territories, and establish vital alliances within the broader social group.</p><p>Understanding the neurodevelopmental drivers of adolescent behavior provides critical guidance for effective public policy and educational intervention. Traditional warning campaigns that rely solely on delivering abstract factual lectures regarding long-term mortality hazards frequently fail because teenagers already intellectually understand the risks; their prefrontal brakes are simply overwhelmed by immediate emotional arousal in social settings. Instead, public health experts advocate for environmental guardrails, such as graduated driver licensing laws that restrict late-night driving with teenage passengers, accompanied by structured opportunities for positive risk-taking through competitive athletics, wilderness leadership, and creative performing arts.</p>",
+        "vocab": [
+          {
+            "word": "turbulent",
+            "pos": "adj",
+            "ipa": "/ˈtɜː.bjə.lənt/",
+            "level": "B2",
+            "mean": "đầy biến động sóng gió, hỗn loạn không yên",
+            "syns": [
+              "tumultuous",
+              "stormy",
+              "chaotic"
+            ],
+            "ex": "Adolescence is often a turbulent period of physical and psychological changes."
+          },
+          {
+            "word": "propensity",
+            "pos": "n",
+            "ipa": "/prəˈpen.sə.ti/",
+            "level": "B2",
+            "mean": "thiên hướng, xu hướng hành vi bẩm sinh",
+            "syns": [
+              "inclination",
+              "tendency",
+              "predisposition"
+            ],
+            "ex": "Teenagers demonstrate a natural propensity for sensation-seeking adventures."
+          },
+          {
+            "word": "hazardous",
+            "pos": "adj",
+            "ipa": "/ˈhæz.ə.dəs/",
+            "level": "B2",
+            "mean": "nguy hiểm, ẩn chứa rủi ro tai nạn",
+            "syns": [
+              "perilous",
+              "risky",
+              "dangerous"
+            ],
+            "ex": "Driving at excessive speeds is an extremely hazardous behavior."
+          },
+          {
+            "word": "impulsivity",
+            "pos": "n",
+            "ipa": "/ˌɪm.pʌlˈsɪv.ə.ti/",
+            "level": "B2",
+            "mean": "tính bốc đồng, hành động tức thời không nghĩ tới hậu quả",
+            "syns": [
+              "rashness",
+              "spontaneity",
+              "impetuousness"
+            ],
+            "ex": "High impulsivity during youth often leads to regrettable choices."
+          },
+          {
+            "word": "asynchronous",
+            "pos": "adj",
+            "ipa": "/eɪˈsɪŋ.krə.nəs/",
+            "level": "B2",
+            "mean": "không đồng bộ, diễn ra lệch pha về thời gian phát triển",
+            "syns": [
+              "unsynchronized",
+              "non-simultaneous",
+              "out-of-phase"
+            ],
+            "ex": "Asynchronous brain maturation explains why emotions outpace self-control."
+          },
+          {
+            "word": "asymmetry",
+            "pos": "n",
+            "ipa": "/eɪˈsɪm.ə.tri/",
+            "level": "B2",
+            "mean": "sự bất đối xứng, không cân xứng giữa hai bộ phận",
+            "syns": [
+              "imbalance",
+              "disproportion",
+              "unevenness"
+            ],
+            "ex": "The asymmetry between emotional drives and executive control peaks at age sixteen."
+          },
+          {
+            "word": "circuitry",
+            "pos": "n",
+            "ipa": "/ˈsɜː.kɪ.tri/",
+            "level": "B2",
+            "mean": "hệ thống mạch nơ-ron dẫn truyền thần kinh",
+            "syns": [
+              "neural pathways",
+              "brain networks"
+            ],
+            "ex": "Reward circuitry in the striatum responds vigorously to social approval."
+          },
+          {
+            "word": "puberty",
+            "pos": "n",
+            "ipa": "/ˈpjuː.bə.ti/",
+            "level": "B1",
+            "mean": "tuổi dậy thì, giai đoạn phát triển sinh dục",
+            "syns": [
+              "adolescence",
+              "sexual maturation"
+            ],
+            "ex": "Hormonal surges during puberty remodel emotional brain centers."
+          },
+          {
+            "word": "hypersensitive",
+            "pos": "adj",
+            "ipa": "/ˌhaɪ.pəˈsen.sɪ.tɪv/",
+            "level": "B2",
+            "mean": "cực kỳ nhạy cảm, phản ứng mạnh trước kích thích",
+            "syns": [
+              "hyper-reactive",
+              "overresponsive"
+            ],
+            "ex": "Adolescents are hypersensitive to peer exclusion and acceptance."
+          },
+          {
+            "word": "deliberative",
+            "pos": "adj",
+            "ipa": "/dɪˈlɪb.ər.ə.tɪv/",
+            "level": "B2",
+            "mean": "mang tính đắn đo, suy xét cẩn trọng trước khi quyết định",
+            "syns": [
+              "reflective",
+              "calculating",
+              "thoughtful"
+            ],
+            "ex": "Deliberative thinking allows adults to resist immediate temptations."
+          },
+          {
+            "word": "refinement",
+            "pos": "n",
+            "ipa": "/rɪˈfaɪn.mənt/",
+            "level": "B2",
+            "mean": "sự hoàn thiện, trau chuốt cấu trúc ngày càng tinh vi",
+            "syns": [
+              "perfection",
+              "maturation",
+              "fine-tuning"
+            ],
+            "ex": "Prefrontal synaptic refinement continues until the mid-twenties."
+          },
+          {
+            "word": "modulating",
+            "pos": "adj",
+            "ipa": "/ˈmɒdʒ.ʊ.leɪ.tɪŋ/",
+            "level": "B2",
+            "mean": "có tác dụng điều biến, làm thay đổi mức độ",
+            "syns": [
+              "regulating",
+              "adjusting",
+              "influencing"
+            ],
+            "ex": "Peer presence has a powerful modulating influence on risk perception."
+          },
+          {
+            "word": "simulated",
+            "pos": "adj",
+            "ipa": "/ˈsɪm.jʊ.leɪ.tɪd/",
+            "level": "B2",
+            "mean": "được mô phỏng, thử nghiệm trong môi trường giả lập",
+            "syns": [
+              "virtual",
+              "mock",
+              "artificial"
+            ],
+            "ex": "Subjects operated a simulated vehicle on a computer screen."
+          },
+          {
+            "word": "spike",
+            "pos": "v",
+            "ipa": "/spaɪk/",
+            "level": "B2",
+            "mean": "tăng vọt đột biến trong khoảng thời gian ngắn",
+            "syns": [
+              "surge",
+              "jump",
+              "escalate sharply"
+            ],
+            "ex": "Dopamine levels spike when peers cheer during risky maneuvers."
+          },
+          {
+            "word": "threshold",
+            "pos": "n",
+            "ipa": "/ˈθreʃ.həʊld/",
+            "level": "B2",
+            "mean": "ngưỡng giới hạn chịu đựng hoặc kích hoạt",
+            "syns": [
+              "limit",
+              "boundary",
+              "point of onset"
+            ],
+            "ex": "Peer presence substantially lowers an adolescent's risk threshold."
+          },
+          {
+            "word": "susceptibility",
+            "pos": "n",
+            "ipa": "/səˌsep.təˈbɪl.ə.ti/",
+            "level": "B2",
+            "mean": "tính nhạy cảm, dễ bị tác động hoặc lôi kéo",
+            "syns": [
+              "vulnerability",
+              "receptiveness",
+              "proneness"
+            ],
+            "ex": "High susceptibility to peer pressure decreases steadily with age."
+          },
+          {
+            "word": "epoch",
+            "pos": "n",
+            "ipa": "/ˈiː.pɒk/",
+            "level": "B2",
+            "mean": "thời kỳ, giai đoạn lịch sử hoặc sinh học đặc thù",
+            "syns": [
+              "era",
+              "period",
+              "stage"
+            ],
+            "ex": "Adolescence represented an evolutionary epoch of leaving the natal nest."
+          },
+          {
+            "word": "detach",
+            "pos": "v",
+            "ipa": "/dɪˈtætʃ/",
+            "level": "B2",
+            "mean": "tách rời, trở nên độc lập khỏi sự bao bọc",
+            "syns": [
+              "separate",
+              "disconnect",
+              "disengage"
+            ],
+            "ex": "Young mammals must detach from parents to find mates and food."
+          },
+          {
+            "word": "alliance",
+            "pos": "n",
+            "ipa": "/əˈlaɪ.əns/",
+            "level": "B2",
+            "mean": "mối quan hệ liên minh hợp tác bền chặt",
+            "syns": [
+              "partnership",
+              "coalition",
+              "union"
+            ],
+            "ex": "Forming social alliances was essential for survival in primitive tribes."
+          },
+          {
+            "word": "intervention",
+            "pos": "n",
+            "ipa": "/ˌɪn.təˈven.ʃən/",
+            "level": "B2",
+            "mean": "sự can thiệp có tính toán nhằm thay đổi kết quả",
+            "syns": [
+              "action",
+              "measure",
+              "remediation"
+            ],
+            "ex": "Early educational interventions can guide adolescents toward productive hobbies."
+          },
+          {
+            "word": "abstract",
+            "pos": "adj",
+            "ipa": "/ˈæb.strækt/",
+            "level": "B2",
+            "mean": "trừu tượng, mang tính lý thuyết suông",
+            "syns": [
+              "theoretical",
+              "conceptual",
+              "intangible"
+            ],
+            "ex": "Abstract lectures on statistics fail to deter impulsive teenage drivers."
+          },
+          {
+            "word": "mortality",
+            "pos": "n",
+            "ipa": "/mɔːˈtæl.ə.ti/",
+            "level": "B2",
+            "mean": "tỷ lệ tử vong, cái chết",
+            "syns": [
+              "fatality rate",
+              "death rate"
+            ],
+            "ex": "Accidental injuries are the leading cause of mortality among youth."
+          },
+          {
+            "word": "arousal",
+            "pos": "n",
+            "ipa": "/əˈraʊ.zəl/",
+            "level": "B2",
+            "mean": "trạng thái kích thích hưng phấn thần kinh và cảm xúc",
+            "syns": [
+              "excitation",
+              "stimulation",
+              "activation"
+            ],
+            "ex": "High emotional arousal impairs rational decision-making in the heat of the moment."
+          },
+          {
+            "word": "guardrail",
+            "pos": "n",
+            "ipa": "/ˈɡɑːd.reɪl/",
+            "level": "B2",
+            "mean": "rào chắn bảo vệ, rào cản an toàn xã hội/pháp lý",
+            "syns": [
+              "safeguard",
+              "protective barrier",
+              "precaution"
+            ],
+            "ex": "Sensible laws act as protective guardrails during vulnerable developmental years."
+          },
+          {
+            "word": "graduated",
+            "pos": "adj",
+            "ipa": "/ˈɡrædʒ.u.eɪ.tɪd/",
+            "level": "B2",
+            "mean": "được phân kỳ theo từng giai đoạn lũy tiến",
+            "syns": [
+              "phased",
+              "step-by-step",
+              "tiered"
+            ],
+            "ex": "Graduated driving systems restrict night driving until full proficiency is reached."
+          },
+          {
+            "word": "restrict",
+            "pos": "v",
+            "ipa": "/rɪˈstrɪkt/",
+            "level": "B1",
+            "mean": "hạn chế, đặt ra giới hạn ngặt nghèo",
+            "syns": [
+              "curtail",
+              "limit",
+              "confine"
+            ],
+            "ex": "Laws restrict beginner drivers from carrying multiple young passengers."
+          },
+          {
+            "word": "wilderness",
+            "pos": "n",
+            "ipa": "/ˈwɪl.də.nəs/",
+            "level": "B2",
+            "mean": "vùng thiên nhiên hoang sơ, rừng núi hoang dã",
+            "syns": [
+              "wilds",
+              "outback",
+              "backcountry"
+            ],
+            "ex": "Wilderness survival expeditions channel teenage bravery into positive self-reliance."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t26_q11",
+            "num": 11,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The genetic diagnosis of severe psychiatric disorders in early childhood",
+              "The neurobiological drivers of adolescent risk-taking, peer influence, and constructive interventions",
+              "The legal history of automotive traffic signals and highway speed limits",
+              "The statistical comparison of retirement savings between adults and seniors"
+            ],
+            "optionsVi": [
+              "Chẩn đoán di truyền về các rối loạn tâm thần nghiêm trọng ở thời thơ ấu",
+              "Các động lực sinh học thần kinh của hành vi ưa mạo hiểm ở tuổi vị thành niên, ảnh hưởng của bạn bè và các can thiệp tích cực",
+              "Lịch sử pháp lý của tín hiệu đèn giao thông ô tô và giới hạn tốc độ đường cao tốc",
+              "Sự so sánh thống kê về tiền tiết kiệm hưu trí giữa người lớn và người cao tuổi"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Entire passage covers why adolescents take risks (limbic vs prefrontal cortex asymmetry), peer influence on risk-taking, evolutionary context, and positive policy interventions.",
+            "evidenceVi": "Toàn bài phân tích nguyên nhân thanh thiếu niên mạo hiểm (sự phát triển lệch pha giữa hệ limbic và vỏ não trước trán), ảnh hưởng của bạn bè, nguồn gốc tiến hóa và các can thiệp chính sách tích cực.",
+            "explanation": "Đoạn văn phân tích toàn diện cơ sở sinh học thần kinh của hành vi mạo hiểm ở thanh thiếu niên, ảnh hưởng của bạn bè và cách thức can thiệp hiệu quả.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "teenage risk-taking is rooted in the asynchronous maturation of distinct neuroanatomical brain systems... mismatch between the subcortical limbic system and the prefrontal cortex... presence of peers exerts a profound modulating effect... effective public policy and educational intervention.",
+              "clueAnswer": "The neurobiological drivers of adolescent risk-taking, peer influence, and constructive interventions",
+              "keyPassage": "asynchronous maturation of distinct neuroanatomical brain systems... presence of peers... effective public policy and educational intervention",
+              "keyAnswer": "neurobiological drivers of adolescent risk-taking, peer influence, and constructive interventions",
+              "paraphrasePair": "asynchronous maturation / presence of peers / educational intervention <=> neurobiological drivers / peer influence / constructive interventions",
+              "meaningVi": "động lực phát triển não bộ, ảnh hưởng bạn bè và can thiệp giáo dục",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt toàn bài đọc."
+            }
+          },
+          {
+            "id": "t26_q12",
+            "num": 12,
+            "question": "According to paragraph 1, how did functional neuroimaging overturn historical beliefs about teenage impulsivity?",
+            "questionVi": "Theo đoạn 1, hình ảnh học thần kinh chức năng đã lật ngược những quan niệm lịch sử về tính bốc đồng của tuổi teen như thế nào?",
+            "questionType": "detail",
+            "options": [
+              "It showed that teenagers possess identical brain structures to seventy-year-olds",
+              "It revealed that risk-taking stems from the asynchronous maturation of distinct brain systems rather than willful rebellion",
+              "It proved that impulsive teenagers have completely detached optic nerves",
+              "It demonstrated that diet has zero relationship with neural functioning"
+            ],
+            "optionsVi": [
+              "Nó chỉ ra rằng thanh thiếu niên có cấu trúc não giống hệt người 70 tuổi",
+              "Nó hé lộ rằng hành vi mạo hiểm bắt nguồn từ sự phát triển không đồng bộ của các hệ thống não bộ thay vì sự nổi loạn cố tình",
+              "Nó chứng minh rằng thanh thiếu niên bốc đồng có dây thần kinh thị giác bị tách rời hoàn toàn",
+              "Nó chứng minh rằng chế độ ăn uống không có bất kỳ mối quan hệ nào với chức năng thần kinh"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "However, groundbreaking advancements in functional neuroimaging have overturned these simplistic assumptions, revealing that teenage risk-taking is rooted in the asynchronous maturation of distinct neuroanatomical brain systems.",
+            "evidenceVi": "Tuy nhiên, những tiến bộ mang tính đột phá trong chẩn đoán hình ảnh thần kinh chức năng đã lật ngược những giả định đơn giản này, hé lộ rằng hành vi mạo hiểm ở tuổi thiếu niên bắt nguồn từ sự trưởng thành không đồng bộ của các hệ thống giải phẫu thần kinh khác nhau.",
+            "explanation": "Đoạn 1 nêu rõ nghiên cứu fMRI chứng minh tính mạo hiểm bắt nguồn từ sự trưởng thành lệch pha của não (asynchronous maturation of distinct systems) thay vì nổi loạn cố ý.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết khám phá thần kinh (Neuroimaging Discovery Detail)",
+              "cluePassage": "functional neuroimaging have overturned these simplistic assumptions, revealing that teenage risk-taking is rooted in the asynchronous maturation of distinct neuroanatomical brain systems",
+              "clueAnswer": "revealed that risk-taking stems from the asynchronous maturation of distinct brain systems rather than willful rebellion",
+              "keyPassage": "teenage risk-taking is rooted in the asynchronous maturation of distinct neuroanatomical brain systems",
+              "keyAnswer": "risk-taking stems from the asynchronous maturation of distinct brain systems rather than willful rebellion",
+              "paraphrasePair": "rooted in the asynchronous maturation of distinct neuroanatomical brain systems <=> stems from the asynchronous maturation of distinct brain systems",
+              "meaningVi": "bắt nguồn từ sự trưởng thành không đồng bộ của các hệ thống não bộ",
+              "deductionLogic": "Khớp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": "t26_q13",
+            "num": 13,
+            "question": "What is the primary neurobiological asymmetry between the limbic system and the prefrontal cortex described in paragraph 2?",
+            "questionVi": "Sự bất đối xứng sinh học thần kinh chính giữa hệ thống limbic và vỏ não trước trán được mô tả trong đoạn 2 là gì?",
+            "questionType": "detail",
+            "options": [
+              "The prefrontal cortex matures in early childhood while the limbic system develops only in senior years",
+              "The limbic system matures rapidly in early puberty, whereas the prefrontal cortex responsible for impulse control matures much more slowly into the mid-twenties",
+              "The limbic system controls motor speech while the prefrontal cortex controls heart rate",
+              "Both systems develop simultaneously at exactly the same rate"
+            ],
+            "optionsVi": [
+              "Vỏ não trước trán trưởng thành ở thời thơ ấu trong khi hệ limbic chỉ phát triển ở tuổi già",
+              "Hệ thống limbic trưởng thành nhanh chóng vào đầu tuổi dậy thì, trong khi vỏ não trước trán chịu trách nhiệm kiểm soát xung động trưởng thành chậm hơn nhiều tới tận giữa tuổi 20",
+              "Hệ limbic kiểm soát ngôn ngữ vận động trong khi vỏ não trước trán kiểm soát nhịp tim",
+              "Cả hai hệ thống đều phát triển đồng thời với tốc độ hoàn toàn giống nhau"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The limbic circuitry... undergoes an accelerated surge in sensitivity during early puberty... In stark contrast, the prefrontal cortex—the cerebral region responsible for executive functioning, impulse inhibition... matures at a significantly slower pace, continuing its structural refinement well into the mid-twenties.",
+            "evidenceVi": "Hệ thống mạch limbic... trải qua một đợt gia tăng độ nhạy cảm nhanh chóng trong giai đoạn đầu dậy thì... Tương phản hoàn toàn, vỏ não trước trán—vùng não chịu trách nhiệm cho các chức năng điều hành, kiềm chế xung động... trưởng thành với tốc độ chậm hơn đáng kể, tiếp tục hoàn thiện cấu trúc cho đến tận giữa độ tuổi 20.",
+            "explanation": "Đoạn 2 nêu rõ hệ limbic (cảm xúc, phần thưởng) nhạy cảm sớm ở tuổi dậy thì, trong khi vỏ não trước trán (kiềm chế, phanh hãm) phát triển chậm đến 25 tuổi.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết bất đối xứng phát triển (Developmental Asymmetry Detail)",
+              "cluePassage": "limbic circuitry... accelerated surge in sensitivity during early puberty... In stark contrast, the prefrontal cortex... matures at a significantly slower pace, continuing its structural refinement well into the mid-twenties",
+              "clueAnswer": "The limbic system matures rapidly in early puberty, whereas the prefrontal cortex responsible for impulse control matures much more slowly into the mid-twenties",
+              "keyPassage": "limbic circuitry... accelerated surge... prefrontal cortex... matures at a significantly slower pace... into the mid-twenties",
+              "keyAnswer": "limbic system matures rapidly in early puberty, whereas the prefrontal cortex... matures much more slowly into the mid-twenties",
+              "paraphrasePair": "limbic... accelerated surge... prefrontal cortex... slower pace into mid-twenties <=> limbic system matures rapidly... prefrontal cortex matures much more slowly into mid-twenties",
+              "meaningVi": "hệ limbic phát triển sớm, vỏ não trước trán phát triển chậm",
+              "deductionLogic": "Khớp câu 2 và câu 4 đoạn 2."
+            }
+          },
+          {
+            "id": "t26_q14",
+            "num": 14,
+            "question": "The word 'propensity' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'propensity' trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "predisposition",
+              "aversion",
+              "inability",
+              "reluctance"
+            ],
+            "optionsVi": [
+              "thiên hướng, xu hướng tự nhiên",
+              "sự ác cảm xa lánh",
+              "sự bất tài không có khả năng",
+              "sự miễn cưỡng do dự"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...and a pronounced propensity for reckless risk-taking.",
+            "evidenceVi": "...và một thiên hướng rõ rệt đối với những hành vi liều lĩnh ưa mạo hiểm.",
+            "explanation": "'Propensity' có nghĩa là xu hướng tự nhiên, thiên hướng bẩm sinh làm việc gì đó, đồng nghĩa với 'predisposition' hoặc 'inclination'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng tâm lý học (Psychological Vocabulary)",
+              "cluePassage": "pronounced propensity for reckless risk-taking",
+              "clueAnswer": "predisposition",
+              "keyPassage": "propensity for reckless risk-taking",
+              "keyAnswer": "predisposition",
+              "paraphrasePair": "propensity <=> predisposition",
+              "meaningVi": "thiên hướng, xu hướng tự nhiên",
+              "deductionLogic": "Thanh thiếu niên có khuynh hướng tự nhiên thích mạo hiểm, propensity tương đương predisposition."
+            }
+          },
+          {
+            "id": "t26_q15",
+            "num": 15,
+            "question": "According to simulated driving experiments in paragraph 3, what happens when teenagers drive in the presence of observing peers?",
+            "questionVi": "Theo các thí nghiệm lái xe mô phỏng trong đoạn 3, điều gì xảy ra khi thanh thiếu niên lái xe với sự hiện diện của bạn bè cùng trang lứa?",
+            "questionType": "detail",
+            "options": [
+              "Their driving speed drops by half and they refuse to pass yellow lights",
+              "Neural activation in the ventral striatum spikes, causing them to run red lights twice as frequently as when driving alone",
+              "They immediately pull over and study driver safety handbooks",
+              "Their prefrontal cortex immediately completes its developmental maturation"
+            ],
+            "optionsVi": [
+              "Tốc độ lái xe của họ giảm một nửa và họ từ chối vượt đèn vàng",
+              "Hoạt hóa thần kinh trong thể vân bụng tăng vọt, khiến họ vượt đèn đỏ thường xuyên gấp đôi so với khi lái xe một mình",
+              "Họ ngay lập tức tấp vào lề và nghiên cứu sổ tay an toàn cho người lái xe",
+              "Vỏ não trước trán của họ ngay lập tức hoàn thành quá trình trưởng thành phát triển"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...when teenagers perform simulated driving tasks in the presence of observing peers, neural activation in the ventral striatum spikes dramatically, causing them to run red lights twice as frequently as when driving alone.",
+            "evidenceVi": "...khi thanh thiếu niên thực hiện các bài kiểm tra lái xe mô phỏng với sự có mặt của bạn bè quan sát, kích hoạt thần kinh ở thể vân bụng (ventral striatum) tăng vọt đáng kể, khiến các em vượt đèn đỏ thường xuyên gấp đôi so với khi lái xe một mình.",
+            "explanation": "Đoạn 3 chỉ rõ thể vân bụng tăng vọt kích hoạt và thanh thiếu niên vượt đèn đỏ nhiều gấp 2 lần (twice as frequently) khi có bạn bè bên cạnh.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết thí nghiệm thực nghiệm (Experimental Detail)",
+              "cluePassage": "in the presence of observing peers, neural activation in the ventral striatum spikes dramatically, causing them to run red lights twice as frequently as when driving alone",
+              "clueAnswer": "Neural activation in the ventral striatum spikes, causing them to run red lights twice as frequently as when driving alone",
+              "keyPassage": "neural activation in the ventral striatum spikes dramatically, causing them to run red lights twice as frequently as when driving alone",
+              "keyAnswer": "ventral striatum spikes, causing them to run red lights twice as frequently as when driving alone",
+              "paraphrasePair": "neural activation in the ventral striatum spikes... run red lights twice as frequently <=> Neural activation in the ventral striatum spikes, causing them to run red lights twice as frequently",
+              "meaningVi": "thể vân bụng tăng kích hoạt và vượt đèn đỏ gấp đôi khi có bạn bè",
+              "deductionLogic": "Khớp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": "t26_q16",
+            "num": 16,
+            "question": "Why does the author describe adolescent peer sensitivity as an evolutionary adaptation in paragraph 3?",
+            "questionVi": "Tại sao tác giả lại miêu tả sự nhạy cảm của thanh thiếu niên với bạn bè như một sự thích nghi tiến hóa trong đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "Because ancient humans needed teenagers to stay inside dark caves indefinitely",
+              "Because it motivated young individuals to detach from parental protection, explore novel territories, and establish vital social alliances",
+              "Because ancient mammals did not possess any amygdala or limbic structures",
+              "Because peer pressure helped primitive hunters avoid eating poisonous plants"
+            ],
+            "optionsVi": [
+              "Vì con người cổ đại cần thanh thiếu niên ở yên trong các hang động tối tăm vô thời hạn",
+              "Vì nó thúc đẩy người trẻ tách khỏi sự bảo bọc của cha mẹ, khám phá các vùng đất mới và thiết lập các liên minh xã hội sống còn",
+              "Vì động vật có vú cổ đại không sở hữu bất kỳ hạch hạnh nhân hay cấu trúc limbic nào",
+              "Vì áp lực bạn bè giúp những người thợ săn nguyên thủy tránh ăn phải thực vật có độc"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "This distinct susceptibility to social evaluation reflects an evolutionary adaptation: across ancestral mammalian history, adolescence was the transitional epoch when young individuals needed to detach from parental protection, explore novel territories, and establish vital alliances within the broader social group.",
+            "evidenceVi": "Tính nhạy cảm rõ rệt này trước sự đánh giá của xã hội phản ánh một sự thích nghi tiến hóa: xuyên suốt lịch sử loài thú tổ tiên, tuổi vị thành niên là giai đoạn chuyển tiếp khi các cá thể trẻ cần phải tách khỏi sự bảo bọc của cha mẹ, khám phá những vùng lãnh thổ mới và thiết lập các liên minh sống còn trong nhóm xã hội rộng lớn hơn.",
+            "explanation": "Đoạn 3 giải thích ý nghĩa tiến hóa: giúp cá thể trẻ dời tổ cha mẹ, khám phá môi trường mới và tạo liên minh bầy đàn.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết thích nghi tiến hóa (Evolutionary Adaptation Detail)",
+              "cluePassage": "adolescence was the transitional epoch when young individuals needed to detach from parental protection, explore novel territories, and establish vital alliances",
+              "clueAnswer": "motivated young individuals to detach from parental protection, explore novel territories, and establish vital social alliances",
+              "keyPassage": "detach from parental protection, explore novel territories, and establish vital alliances within the broader social group",
+              "keyAnswer": "detach from parental protection, explore novel territories, and establish vital social alliances",
+              "paraphrasePair": "detach from parental protection, explore novel territories, and establish vital alliances <=> detach from parental protection, explore novel territories, and establish vital social alliances",
+              "meaningVi": "tách khỏi cha mẹ, khám phá lãnh thổ mới và tạo dựng liên minh",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": "t26_q17",
+            "num": 17,
+            "question": "The word 'asynchronous' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'asynchronous' trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "unsynchronized",
+              "symmetrical",
+              "harmonious",
+              "simultaneous"
+            ],
+            "optionsVi": [
+              "không đồng bộ, lệch pha",
+              "đối xứng cân bằng",
+              "hài hòa nhịp nhàng",
+              "diễn ra đồng thời"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...rooted in the asynchronous maturation of distinct neuroanatomical brain systems.",
+            "evidenceVi": "...bắt nguồn từ sự trưởng thành không đồng bộ của các hệ thống giải phẫu thần kinh khác nhau.",
+            "explanation": "'Asynchronous' có nghĩa là không đồng bộ, không diễn ra cùng một lúc, đồng nghĩa với 'unsynchronized' hoặc 'non-simultaneous'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "asynchronous maturation of distinct neuroanatomical brain systems",
+              "clueAnswer": "unsynchronized",
+              "keyPassage": "asynchronous maturation",
+              "keyAnswer": "unsynchronized",
+              "paraphrasePair": "asynchronous <=> unsynchronized",
+              "meaningVi": "không đồng bộ, lệch pha thời gian",
+              "deductionLogic": "Hệ limbic và vỏ não phát triển ở tốc độ khác nhau, do đó asynchronous tương đương unsynchronized."
+            }
+          },
+          {
+            "id": "t26_q18",
+            "num": 18,
+            "question": "The word 'their' in paragraph 4 refers to:",
+            "questionVi": "Từ 'their' trong đoạn 4 ám chỉ đối tượng nào:",
+            "questionType": "reference",
+            "options": [
+              "Public health experts",
+              "Teenagers",
+              "Automotive vehicles",
+              "Warning lectures"
+            ],
+            "optionsVi": [
+              "Các chuyên gia y tế công cộng",
+              "Thanh thiếu niên",
+              "Phương tiện xe ô tô",
+              "Các bài giảng cảnh báo"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...because teenagers already intellectually understand the risks; their prefrontal brakes are simply overwhelmed by immediate emotional arousal in social settings.",
+            "evidenceVi": "...bởi vì thanh thiếu niên đã hiểu rõ về mặt lý trí các rủi ro; chiếc phanh vỏ não trước trán của các em chỉ đơn giản là bị choáng ngợp bởi sự hưng phấn cảm xúc tức thời trong các tình huống xã hội.",
+            "explanation": "'Their' sở hữu cho 'teenagers' (chiếc phanh vỏ não trước trán của thanh thiếu niên).",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ sở hữu quy chiếu (Possessive Pronoun Reference)",
+              "cluePassage": "teenagers already intellectually understand the risks; their prefrontal brakes are simply overwhelmed",
+              "clueAnswer": "Teenagers",
+              "keyPassage": "teenagers... their prefrontal brakes",
+              "keyAnswer": "Teenagers",
+              "paraphrasePair": "teenagers <=> their",
+              "meaningVi": "thanh thiếu niên",
+              "deductionLogic": "Khớp chủ ngữ mệnh đề liền trước dấu chấm phẩy."
+            }
+          },
+          {
+            "id": "t26_q19",
+            "num": 19,
+            "question": "According to paragraph 4, why do traditional lecture-based warning campaigns frequently fail with adolescents?",
+            "questionVi": "Theo đoạn 4, tại sao các chiến dịch cảnh báo dựa trên thuyết giảng truyền thống thường thất bại đối với thanh thiếu niên?",
+            "questionType": "negative_detail",
+            "options": [
+              "Because teenagers already understand the risks intellectually, but their cognitive control is overwhelmed by immediate emotional arousal in social contexts",
+              "Because teenagers are completely deaf to adult vocal sounds",
+              "Because the lectures are written in ancient languages that teenagers cannot comprehend",
+              "Because schools refuse to permit any health education programs on campus"
+            ],
+            "optionsVi": [
+              "Bởi vì thanh thiếu niên vốn dĩ đã hiểu rủi ro về mặt lý trí, nhưng khả năng kiểm soát nhận thức bị choáng ngợp bởi sự kích thích cảm xúc tức thời trong bối cảnh xã hội",
+              "Bởi vì thanh thiếu niên bị điếc hoàn toàn trước giọng nói của người lớn",
+              "Bởi vì các bài giảng được viết bằng ngôn ngữ cổ mà thanh thiếu niên không thể hiểu",
+              "Bởi vì các trường học từ chối cho phép bất kỳ chương trình giáo dục sức khỏe nào trong khuôn viên"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Traditional warning campaigns that rely solely on delivering abstract factual lectures regarding long-term mortality hazards frequently fail because teenagers already intellectually understand the risks; their prefrontal brakes are simply overwhelmed by immediate emotional arousal in social settings.",
+            "evidenceVi": "Các chiến dịch cảnh báo truyền thống chỉ dựa vào việc thuyết giảng lý thuyết trừu tượng về các mối nguy tử vong dài hạn thường thất bại vì thanh thiếu niên vốn đã hiểu rõ rủi ro về mặt nhận thức; phanh vỏ não của các em chỉ đơn giản bị lấn át bởi cảm xúc tức thời trong các tình huống bạn bè.",
+            "explanation": "Đoạn 4 nêu rõ bài giảng thất bại vì thanh thiếu niên đã biết rủi ro, nhưng phanh lý trí bị lấn át bởi hưng phấn cảm xúc trước mặt bạn bè.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết lý giải thất bại (Reason for Policy Failure Detail)",
+              "cluePassage": "fail because teenagers already intellectually understand the risks; their prefrontal brakes are simply overwhelmed by immediate emotional arousal in social settings",
+              "clueAnswer": "teenagers already understand the risks intellectually, but their cognitive control is overwhelmed by immediate emotional arousal in social contexts",
+              "keyPassage": "teenagers already intellectually understand the risks; their prefrontal brakes are simply overwhelmed by immediate emotional arousal",
+              "keyAnswer": "teenagers already understand the risks intellectually, but their cognitive control is overwhelmed by immediate emotional arousal",
+              "paraphrasePair": "already intellectually understand... prefrontal brakes overwhelmed by immediate emotional arousal <=> already understand risks intellectually, but cognitive control is overwhelmed by immediate emotional arousal",
+              "meaningVi": "vốn đã hiểu rủi ro nhưng bị lấn át bởi cảm xúc tức thời",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": "t26_q20",
+            "num": 20,
+            "question": "What constructive approach is advocated in paragraph 4 to channel adolescent risk-taking constructively?",
+            "questionVi": "Cách tiếp cận mang tính xây dựng nào được ủng hộ trong đoạn 4 nhằm hướng hành vi mạo hiểm của thanh thiếu niên vào những hoạt động tích cực?",
+            "questionType": "inference",
+            "options": [
+              "Imprisoning all teenagers in solitary rooms until their twenty-fifth birthday",
+              "Environmental guardrails like graduated licensing, combined with positive risk opportunities in athletics, wilderness leadership, and the arts",
+              "Prescribing sedative medications to completely suppress emotional arousal in youth",
+              "Eliminating all high school sports teams and outdoor recreational programs"
+            ],
+            "optionsVi": [
+              "Bỏ tù toàn bộ thanh thiếu niên trong phòng biệt giam cho đến sinh nhật thứ 25",
+              "Rào chắn môi trường như luật cấp phép lái xe phân kỳ, kết hợp với các cơ hội mạo hiểm tích cực trong thể thao, dã ngoại và nghệ thuật",
+              "Kê đơn thuốc an thần để triệt tiêu hoàn toàn sự kích thích cảm xúc ở thanh thiếu niên",
+              "Loại bỏ toàn bộ các đội thể thao trung học và các chương trình giải trí ngoài trời"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...public health experts advocate for environmental guardrails, such as graduated driver licensing laws that restrict late-night driving with teenage passengers, accompanied by structured opportunities for positive risk-taking through competitive athletics, wilderness leadership, and creative performing arts.",
+            "evidenceVi": "...các chuyên gia y tế công cộng ủng hộ các rào chắn bảo vệ môi trường, chẳng hạn như luật cấp bằng lái xe phân kỳ hạn chế lái xe đêm muộn cùng hành khách là bạn bè, đi kèm với các cơ hội có cấu trúc để mạo hiểm tích cực thông qua thể thao thi đấu, kỹ năng lãnh đạo nơi hoang dã và nghệ thuật biểu diễn sáng tạo.",
+            "explanation": "Câu cuối đoạn 4 chỉ ra giải pháp kép: environmental guardrails (rào chắn môi trường/luật pháp) kết hợp positive risk-taking (thể thao, dã ngoại, nghệ thuật).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Giải pháp can thiệp tích cực (Positive Intervention Synthesis)",
+              "cluePassage": "environmental guardrails, such as graduated driver licensing laws... accompanied by structured opportunities for positive risk-taking through competitive athletics, wilderness leadership, and creative performing arts",
+              "clueAnswer": "Environmental guardrails like graduated licensing, combined with positive risk opportunities in athletics, wilderness leadership, and the arts",
+              "keyPassage": "environmental guardrails, such as graduated driver licensing laws... structured opportunities for positive risk-taking through competitive athletics, wilderness leadership, and creative performing arts",
+              "keyAnswer": "Environmental guardrails like graduated licensing, combined with positive risk opportunities in athletics, wilderness leadership, and the arts",
+              "paraphrasePair": "environmental guardrails... structured opportunities for positive risk-taking <=> Environmental guardrails like graduated licensing, combined with positive risk opportunities in athletics, wilderness leadership, and the arts",
+              "meaningVi": "rào chắn môi trường và cơ hội mạo hiểm tích cực qua thể thao, nghệ thuật",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: The Native Parrots of Australia",
+        "topic": "Loài vẹt bản địa ở Úc: Đa dạng sinh thái tiến hóa, tập tính xã hội bầy đàn, mỏ khỏe thích nghi thức ăn cứng & mối đe dọa sinh cảnh tự nhiên",
+        "timeAllowed": 15,
+        "passage": "<p>Australia is globally celebrated among ornithologists as the 'Land of the Parrots,' boasting an extraordinary phylogenetic radiation of over fifty-six indigenous psittacine species. From the ubiquitous crimson rosellas and noisy sulphur-crested cockatoos of coastal suburbs to the elusive night parrots of remote spinifex deserts, Australian parrots occupy virtually every terrestrial biome across the continent. Fossil records indicate that the ancestral lineages of modern parrots diverged in Australasia tens of millions of years ago, when the landmass broke away from Antarctica. This prolonged geographic isolation fostered specialized evolutionary adaptations, giving rise to unique morphological diversity, dazzling iridescent plumage, and exceptional cognitive problem-solving capacities.</p><p>Morphologically, Australian parrots exhibit ingenious anatomical specializations precisely calibrated to their ecological niches. Their distinctive zygodactyl feet—featuring two forward-facing and two backward-facing digits—function like versatile hands, allowing birds to manipulate seeds with dexterity while clinging vertically to swaying eucalyptus branches. Furthermore, their formidable hooked beaks, operated by heavy cranial musculature and kinetic hinge joints, can exert crushing forces exceeding several hundred pounds per square inch. This massive bite force enables granivorous species like the black cockatoo to splinter rock-hard eucalyptus seed pods and banksia cones that are completely impenetrable to other avians.</p><p>Parrots display remarkably intricate social structures and communicative repertoires that rival primates in complexity. Most species form enduring monogamous pair bonds that persist across decades, engaging in reciprocal allopreening, coordinated vocal duetting, and cooperative nest-defense. Flocks maintain dynamic fission-fusion social structures, congregating in massive communal roosts numbering thousands of individuals to forage and evade raptor predation before fragmenting into smaller foraging parties. Field ethologists have documented sophisticated cultural transmission among wild cockatoos, including localized dialect variations and innovative foraging techniques—such as unlatching municipal waste bins—that spread horizontally through social imitation.</p><p>Despite their evolutionary resilience, numerous native Australian parrot species face catastrophic ecological jeopardy. Extensive land clearing for monoculture agriculture and urban encroachment has decimated ancient hollow-bearing eucalyptus trees, which require over a century to form the natural nesting cavities essential for parrot reproduction. Concurrently, intensifying climate-driven bushfires incinerate vast tracts of habitat, while introduced feral predators—notably domestic cats and European red foxes—slaughter ground-dwelling and fledging birds. Halting this downward biodiversity trajectory demands rigorous landscape-scale preservation of old-growth woodlands, artificial nesting box deployment, and invasive predator eradication to ensure Australia's iconic avifauna endures.</p>",
+        "vocab": [
+          {
+            "word": "ornithologist",
+            "pos": "n",
+            "ipa": "/ˌɔː.nɪˈθɒl.ə.dʒɪst/",
+            "level": "C1",
+            "mean": "nhà nghiên cứu điểu học, chuyên gia về loài chim",
+            "syns": [
+              "bird scientist",
+              "avian researcher"
+            ],
+            "ex": "Ornithologists flock to Australia to observe rare desert parrot species."
+          },
+          {
+            "word": "phylogenetic",
+            "pos": "adj",
+            "ipa": "/ˌfaɪ.ləʊ.dʒəˈnet.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về lịch sử phát sinh chủng loại và phả hệ tiến hóa",
+            "syns": [
+              "evolutionary-historical",
+              "genealogical"
+            ],
+            "ex": "Phylogenetic analysis traces the origins of parrots to ancient Gondwana."
+          },
+          {
+            "word": "radiation",
+            "pos": "n",
+            "ipa": "/ˌreɪ.diˈeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự phân tỏa tiến hóa thích nghi thành nhiều loài mới",
+            "syns": [
+              "adaptive diversification",
+              "speciation surge"
+            ],
+            "ex": "Adaptive radiation produced parrots adapted to both rainforests and arid scrubs."
+          },
+          {
+            "word": "indigenous",
+            "pos": "adj",
+            "ipa": "/ɪnˈdɪdʒ.ɪ.nəs/",
+            "level": "B2",
+            "mean": "bản địa, có nguồn gốc tự nhiên tại một vùng",
+            "syns": [
+              "native",
+              "aboriginal",
+              "endemic"
+            ],
+            "ex": "Over fifty indigenous parrot species inhabit the Australian mainland."
+          },
+          {
+            "word": "psittacine",
+            "pos": "adj",
+            "ipa": "/ˈsɪt.ə.saɪn/",
+            "level": "C1",
+            "mean": "thuộc bộ hoặc họ loài vẹt",
+            "syns": [
+              "parrot-related",
+              "hook-billed"
+            ],
+            "ex": "Psittacine intelligence rivals that of corvids and certain primates."
+          },
+          {
+            "word": "ubiquitous",
+            "pos": "adj",
+            "ipa": "/juːˈbɪk.wɪ.təs/",
+            "level": "B2",
+            "mean": "có mặt ở khắp nơi, phổ biến rộng rãi",
+            "syns": [
+              "omnipresent",
+              "common",
+              "pervasive"
+            ],
+            "ex": "Sulphur-crested cockatoos are ubiquitous in Sydney's urban botanical gardens."
+          },
+          {
+            "word": "biome",
+            "pos": "n",
+            "ipa": "/ˈbaɪ.əʊm/",
+            "level": "B2",
+            "mean": "khu sinh thái lớn với thảm động thực vật đặc trưng",
+            "syns": [
+              "ecological zone",
+              "habitat zone",
+              "ecosystem"
+            ],
+            "ex": "Australian parrots have colonized virtually every terrestrial biome on the continent."
+          },
+          {
+            "word": "diverged",
+            "pos": "adj",
+            "ipa": "/daɪˈvɜːdʒd/",
+            "level": "B2",
+            "mean": "rẽ nhánh tiến hóa, tách thành các nhánh riêng biệt",
+            "syns": [
+              "split",
+              "branched off",
+              "separated"
+            ],
+            "ex": "Australasian parrots diverged from ancestral stock tens of millions of years ago."
+          },
+          {
+            "word": "iridescent",
+            "pos": "adj",
+            "ipa": "/ˌɪr.ɪˈdes.ənt/",
+            "level": "C1",
+            "mean": "óng ánh ngũ sắc, đổi màu theo góc nhìn ánh sáng",
+            "syns": [
+              "shimmering",
+              "prismatic",
+              "opalescent"
+            ],
+            "ex": "The lorikeet's iridescent feathers reflect vivid blues, emeralds, and golds."
+          },
+          {
+            "word": "plumage",
+            "pos": "n",
+            "ipa": "/ˈpluː.mɪdʒ/",
+            "level": "B2",
+            "mean": "bộ lông vũ của loài chim",
+            "syns": [
+              "feathers",
+              "coat",
+              "quills"
+            ],
+            "ex": "Vibrant plumage plays a central role in parrot courtship displays."
+          },
+          {
+            "word": "zygodactyl",
+            "pos": "adj",
+            "ipa": "/ˌzaɪ.ɡəˈdæk.tɪl/",
+            "level": "C1",
+            "mean": "có bàn chân với 2 ngón trước và 2 ngón sau đối xứng",
+            "syns": [
+              "two-by-two toed",
+              "cross-clawed"
+            ],
+            "ex": "Zygodactyl feet provide parrots with exceptional gripping strength on tree barks."
+          },
+          {
+            "word": "digit",
+            "pos": "n",
+            "ipa": "/ˈdɪdʒ.ɪt/",
+            "level": "B2",
+            "mean": "ngón chân hoặc ngón tay của sinh vật",
+            "syns": [
+              "toe",
+              "finger",
+              "claw"
+            ],
+            "ex": "The opposable digits allow the cockatoo to grasp hard seeds like a primate hand."
+          },
+          {
+            "word": "granivorous",
+            "pos": "adj",
+            "ipa": "/ɡrəˈnɪv.ər.əs/",
+            "level": "C1",
+            "mean": "chuyên ăn các loại hạt thực vật",
+            "syns": [
+              "seed-eating",
+              "grain-feeding"
+            ],
+            "ex": "Granivorous parrots have heavy bills adapted for cracking tough shells."
+          },
+          {
+            "word": "splinter",
+            "pos": "v",
+            "ipa": "/ˈsplɪn.tər/",
+            "level": "B2",
+            "mean": "làm vỡ vụn, chẻ nứt thành các mảnh nhỏ",
+            "syns": [
+              "crack",
+              "shatter",
+              "fracture"
+            ],
+            "ex": "The black cockatoo can easily splinter thick woody seed pods."
+          },
+          {
+            "word": "impenetrable",
+            "pos": "adj",
+            "ipa": "/ɪmˈpen.ɪ.trə.bəl/",
+            "level": "B2",
+            "mean": "không thể xuyên thủng hoặc phá vỡ được",
+            "syns": [
+              "indestructible",
+              "unbreakable",
+              "impermeable"
+            ],
+            "ex": "The cone's woody exterior is impenetrable to smaller songbirds."
+          },
+          {
+            "word": "monogamous",
+            "pos": "adj",
+            "ipa": "/məˈnɒɡ.ə.məs/",
+            "level": "C1",
+            "mean": "gắn bó một vợ một chồng trọn đời",
+            "syns": [
+              "single-partnered",
+              "pair-bonded"
+            ],
+            "ex": "Cockatoos maintain lifelong monogamous partnerships spanning several decades."
+          },
+          {
+            "word": "reciprocal",
+            "pos": "adj",
+            "ipa": "/rɪˈsɪp.rə.kəl/",
+            "level": "C1",
+            "mean": "tương hỗ, có qua có lại giữa hai cá thể",
+            "syns": [
+              "mutual",
+              "bilateral",
+              "interactive"
+            ],
+            "ex": "Reciprocal grooming strengthens social bonds between mates."
+          },
+          {
+            "word": "allopreening",
+            "pos": "n",
+            "ipa": "/ˈæl.əʊˌpriː.nɪŋ/",
+            "level": "C1",
+            "mean": "hành vi rỉa lông chải chuốt chăm sóc cho nhau",
+            "syns": [
+              "mutual grooming",
+              "social feather-cleaning"
+            ],
+            "ex": "Allopreening removes parasites from hard-to-reach areas on the head and neck."
+          },
+          {
+            "word": "fission-fusion",
+            "pos": "adj",
+            "ipa": "/ˈfɪʃ.ən ˈfjuː.ʒən/",
+            "level": "C1",
+            "mean": "cơ cấu bầy đàn biến động linh hoạt (lúc phân tách lúc sáp nhập)",
+            "syns": [
+              "dynamic grouping",
+              "split-and-merge"
+            ],
+            "ex": "Fission-fusion flocking allows birds to adjust group size to food abundance."
+          },
+          {
+            "word": "predation",
+            "pos": "n",
+            "ipa": "/prɪˈdeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự săn bắt mồi của động vật ăn thịt",
+            "syns": [
+              "hunting",
+              "preying",
+              "carnivorous attack"
+            ],
+            "ex": "Roosting in thousands provides safety against hawk and eagle predation."
+          },
+          {
+            "word": "ethologist",
+            "pos": "n",
+            "ipa": "/iːˈθɒl.ə.dʒɪst/",
+            "level": "C1",
+            "mean": "nhà nghiên cứu tập tính học động vật trong môi trường tự nhiên",
+            "syns": [
+              "animal behaviorist",
+              "behavioral zoologist"
+            ],
+            "ex": "Ethologists documented cockatoos opening suburban garbage bins in Sydney."
+          },
+          {
+            "word": "imitation",
+            "pos": "n",
+            "ipa": "/ˌɪm.ɪˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự bắt chước, học hỏi qua mô phỏng đồng loại",
+            "syns": [
+              "mimicry",
+              "copying",
+              "emulation"
+            ],
+            "ex": "Young birds acquire tool-using skills through observation and social imitation."
+          },
+          {
+            "word": "jeopardy",
+            "pos": "n",
+            "ipa": "/ˈdʒep.ə.di/",
+            "level": "C1",
+            "mean": "tình thế nguy hiểm đe dọa sinh mạng hoặc tồn vong",
+            "syns": [
+              "danger",
+              "peril",
+              "hazard"
+            ],
+            "ex": "Habitat destruction places numerous desert parrot species in grave ecological jeopardy."
+          },
+          {
+            "word": "encroachment",
+            "pos": "n",
+            "ipa": "/ɪnˈkrəʊtʃ.mənt/",
+            "level": "C1",
+            "mean": "sự lấn chiếm, xâm lấn môi trường tự nhiên",
+            "syns": [
+              "intrusion",
+              "infringement",
+              "invasion"
+            ],
+            "ex": "Urban encroachment destroys centuries-old nesting trees along the coast."
+          },
+          {
+            "word": "incinerate",
+            "pos": "v",
+            "ipa": "/ɪnˈsɪn.ər.eɪt/",
+            "level": "C1",
+            "mean": "thiêu rụi thành tro tàn trong hỏa hoạn",
+            "syns": [
+              "burn to ashes",
+              "cremate",
+              "consume by fire"
+            ],
+            "ex": "Catastrophic megafires incinerate old-growth eucalyptus woodlands within hours."
+          },
+          {
+            "word": "feral",
+            "pos": "adj",
+            "ipa": "/ˈfer.əl/",
+            "level": "B2",
+            "mean": "hoang dã hóa sau khi xổng chuồng từ vật nuôi nhà",
+            "syns": [
+              "wild",
+              "untamed",
+              "un-domesticated"
+            ],
+            "ex": "Feral cats hunt vulnerable ground-nesting parrots mercilessly."
+          },
+          {
+            "word": "avifauna",
+            "pos": "n",
+            "ipa": "/ˌeɪ.vɪˈfɔː.nə/",
+            "level": "C1",
+            "mean": "quần thể các loài chim của một khu vực địa lý",
+            "syns": [
+              "birdlife",
+              "avian community"
+            ],
+            "ex": "Australia's unique avifauna evolved in isolation for tens of millions of years."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t26_q21",
+            "num": 21,
+            "question": "What is the primary subject explored in the passage?",
+            "questionVi": "Chủ đề chính được khám phá trong đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The commercial poultry export industry in contemporary Australia",
+              "The evolutionary history, morphological adaptations, complex social behaviors, and conservation threats facing Australian parrots",
+              "The genetic sequencing of flightless birds in New Zealand",
+              "The municipal waste recycling policies of suburban Sydney"
+            ],
+            "optionsVi": [
+              "Ngành xuất khẩu gia cầm thương mại ở nước Úc đương đại",
+              "Lịch sử tiến hóa, thích nghi hình thái, tập tính xã hội phức tạp và các mối đe dọa bảo tồn đối với loài vẹt Úc",
+              "Giải trình tự gen của các loài chim không biết bay ở New Zealand",
+              "Chính sách tái chế rác thải đô thị của các vùng ngoại ô Sydney"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Entire passage traces Australian parrots from evolutionary origins (Antarctica split), anatomical adaptations (zygodactyl feet, crushing beaks), social complexity (monogamy, cultural imitation), to conservation threats (habitat loss, bushfires, feral predators).",
+            "evidenceVi": "Toàn bài phân tích vẹt Úc từ nguồn gốc tiến hóa (tách khỏi Nam Cực), thích nghi giải phẫu (chân zygodactyl, mỏ khỏe), xã hội phức tạp (chung thủy, lan truyền văn hóa) đến các mối đe dọa sinh tồn (mất rừng, cháy rừng, thú săn mồi hoang dã).",
+            "explanation": "Đoạn văn khái quát toàn diện từ nguồn gốc tiến hóa, cấu tạo thích nghi, hành vi xã hội đến hiện trạng bảo tồn của loài vẹt bản địa Úc.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "Australia is globally celebrated among ornithologists as the 'Land of the Parrots,' boasting an extraordinary phylogenetic radiation... specialized evolutionary adaptations... intricate social structures... face catastrophic ecological jeopardy.",
+              "clueAnswer": "The evolutionary history, morphological adaptations, complex social behaviors, and conservation threats facing Australian parrots",
+              "keyPassage": "phylogenetic radiation... evolutionary adaptations... anatomical specializations... intricate social structures... ecological jeopardy",
+              "keyAnswer": "evolutionary history, morphological adaptations, complex social behaviors, and conservation threats facing Australian parrots",
+              "paraphrasePair": "phylogenetic radiation / anatomical specializations / social structures / ecological jeopardy <=> evolutionary history, morphological adaptations, complex social behaviors, and conservation threats",
+              "meaningVi": "lịch sử tiến hóa, thích nghi giải phẫu, tập tính xã hội và nguy cơ bảo tồn",
+              "deductionLogic": "Tổng hợp các nội dung chính từ đoạn 1 đến đoạn 4."
+            }
+          },
+          {
+            "id": "t26_q22",
+            "num": 22,
+            "question": "According to paragraph 1, what historical geological event catalyzed the specialized evolutionary adaptations of Australian parrots?",
+            "questionVi": "Theo đoạn 1, sự kiện địa chất lịch sử nào đã thúc đẩy các thích nghi tiến hóa chuyên biệt của loài vẹt Úc?",
+            "questionType": "detail",
+            "options": [
+              "A massive volcanic explosion that sank the land bridge to South America",
+              "The separation of the Australasian landmass from Antarctica and subsequent prolonged geographic isolation",
+              "The sudden glaciation of the Australian continent during the Pleistocene epoch",
+              "A colossal meteorite impact that hollowed out the Great Barrier Reef"
+            ],
+            "optionsVi": [
+              "Một vụ nổ núi lửa khổng lồ làm chìm cây cầu đất liền tới Nam Mỹ",
+              "Sự phân tách mảng lục địa Úc khỏi Nam Cực và sự cô lập địa lý kéo dài sau đó",
+              "Sự đóng băng đột ngột của lục địa Úc trong kỷ Pleistocen",
+              "Một vụ va chạm thiên thạch khổng lồ làm rỗng Rạn san hô Great Barrier"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Fossil records indicate that the ancestral lineages of modern parrots diverged in Australasia tens of millions of years ago, when the landmass broke away from Antarctica. This prolonged geographic isolation fostered specialized evolutionary adaptations...",
+            "evidenceVi": "Hồ sơ hóa thạch chỉ ra rằng các dòng dõi tổ tiên của vẹt hiện đại đã rẽ nhánh ở Australasia hàng chục triệu năm trước, khi khối đất liền tách rời khỏi Nam Cực. Sự cô lập địa lý kéo dài này đã thúc đẩy các sự thích nghi tiến hóa chuyên biệt...",
+            "explanation": "Đoạn 1 nêu rõ việc mảng lục địa tách khỏi Nam Cực (broke away from Antarctica) và sự cô lập địa lý lâu dài đã tạo điều kiện cho vẹt tiến hóa đặc thù.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết địa chất tiến hóa (Geological Evolution Detail)",
+              "cluePassage": "when the landmass broke away from Antarctica. This prolonged geographic isolation fostered specialized evolutionary adaptations",
+              "clueAnswer": "The separation of the Australasian landmass from Antarctica and subsequent prolonged geographic isolation",
+              "keyPassage": "landmass broke away from Antarctica... prolonged geographic isolation fostered specialized evolutionary adaptations",
+              "keyAnswer": "separation of the Australasian landmass from Antarctica and subsequent prolonged geographic isolation",
+              "paraphrasePair": "landmass broke away from Antarctica... prolonged geographic isolation <=> separation of the Australasian landmass from Antarctica and subsequent prolonged geographic isolation",
+              "meaningVi": "lục địa tách khỏi Nam Cực và bị cô lập địa lý lâu dài",
+              "deductionLogic": "Khớp câu 4-5 đoạn 1."
+            }
+          },
+          {
+            "id": "t26_q23",
+            "num": 23,
+            "question": "What functional advantage do zygodactyl feet provide to Australian parrots according to paragraph 2?",
+            "questionVi": "Đôi chân zygodactyl mang lại lợi thế chức năng gì cho loài vẹt Úc theo đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "They allow parrots to swim long distances across ocean straits",
+              "They function like versatile hands, enabling birds to manipulate seeds with dexterity while clinging to swaying eucalyptus branches",
+              "They generate high running speeds exceeding fifty miles per hour on desert sand",
+              "They allow parrots to dig deep subterranean burrows beneath stone boulders"
+            ],
+            "optionsVi": [
+              "Chúng cho phép vẹt bơi những khoảng cách xa qua các eo biển đại dương",
+              "Chúng hoạt động như những bàn tay linh hoạt, cho phép chim thao tác bóc hạt khéo léo trong khi bám thẳng đứng vào các cành bạch đàn đung đưa",
+              "Chúng tạo ra tốc độ chạy cao vượt quá 50 dặm một giờ trên cát sa mạc",
+              "Chúng cho phép vẹt đào các hang ngầm sâu dưới các tảng đá"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Their distinctive zygodactyl feet—featuring two forward-facing and two backward-facing digits—function like versatile hands, allowing birds to manipulate seeds with dexterity while clinging vertically to swaying eucalyptus branches.",
+            "evidenceVi": "Bàn chân zygodactyl đặc biệt của chúng—gồm hai ngón hướng về phía trước và hai ngón hướng về phía sau—hoạt động giống như những bàn tay đa năng, cho phép chim khéo léo thao tác với hạt trong khi bám thẳng đứng vào các cành bạch đàn đung đưa.",
+            "explanation": "Đoạn 2 nêu rõ chân zygodactyl hoạt động như bàn tay (versatile hands) giúp bóc hạt và bám chắc cành cây.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết chức năng giải phẫu (Anatomical Function Detail)",
+              "cluePassage": "zygodactyl feet—featuring two forward-facing and two backward-facing digits—function like versatile hands, allowing birds to manipulate seeds with dexterity while clinging vertically to swaying eucalyptus branches",
+              "clueAnswer": "function like versatile hands, enabling birds to manipulate seeds with dexterity while clinging to swaying eucalyptus branches",
+              "keyPassage": "function like versatile hands, allowing birds to manipulate seeds with dexterity while clinging vertically",
+              "keyAnswer": "function like versatile hands, enabling birds to manipulate seeds with dexterity while clinging to swaying eucalyptus branches",
+              "paraphrasePair": "function like versatile hands... manipulate seeds with dexterity <=> function like versatile hands, enabling birds to manipulate seeds with dexterity",
+              "meaningVi": "hoạt động như bàn tay khéo léo bóc hạt và bám cành",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t26_q24",
+            "num": 24,
+            "question": "Why are black cockatoos capable of cracking rock-hard eucalyptus seed pods and banksia cones according to paragraph 2?",
+            "questionVi": "Tại sao loài vẹt mào đen có thể đập vỡ các quả hạt bạch đàn cứng như đá và quả banksia theo đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "They soak the cones in natural volcanic thermal springs before eating",
+              "Their formidable hooked beaks operated by heavy cranial musculature exert crushing forces exceeding several hundred pounds per square inch",
+              "They drop cones from altitudes of ten thousand feet onto hard highway asphalt",
+              "They use manufactured steel tools stolen from human construction sites"
+            ],
+            "optionsVi": [
+              "Chúng ngâm các quả thông vào suối nước nóng núi lửa tự nhiên trước khi ăn",
+              "Chiếc mỏ quặp đáng sợ được điều khiển bởi cơ sọ dày khỏe tạo ra lực nghiền nát vượt quá vài trăm pound trên mỗi inch vuông",
+              "Chúng thả các quả nón từ độ cao mười ngàn feet xuống mặt đường nhựa cứng",
+              "Chúng sử dụng các công cụ bằng thép chế tạo trộm được từ các công trường xây dựng của con người"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...their formidable hooked beaks, operated by heavy cranial musculature and kinetic hinge joints, can exert crushing forces exceeding several hundred pounds per square inch. This massive bite force enables granivorous species like the black cockatoo to splinter rock-hard eucalyptus seed pods and banksia cones...",
+            "evidenceVi": "...chiếc mỏ quặp đáng sợ của chúng, được vận hành bởi cơ bắp sọ khỏe mạnh và các khớp bản lề động, có thể tác động lực nghiền vượt quá vài trăm pound trên mỗi inch vuông. Lực cắn khổng lồ này cho phép các loài ăn hạt như vẹt mào đen làm vỡ vụn các quả hạt bạch đàn cứng như đá và quả banksia...",
+            "explanation": "Đoạn 2 nêu rõ chiếc mỏ quặp kết hợp cơ sọ khỏe tạo lực cắn hàng trăm pound/sq inch giúp vẹt mào đen đập vỡ vỏ hạt cực cứng.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết lực cắn giải phẫu (Bite Force Mechanism Detail)",
+              "cluePassage": "hooked beaks, operated by heavy cranial musculature and kinetic hinge joints, can exert crushing forces exceeding several hundred pounds per square inch. This massive bite force enables granivorous species like the black cockatoo to splinter rock-hard eucalyptus seed pods and banksia cones",
+              "clueAnswer": "Their formidable hooked beaks operated by heavy cranial musculature exert crushing forces exceeding several hundred pounds per square inch",
+              "keyPassage": "hooked beaks, operated by heavy cranial musculature... exert crushing forces exceeding several hundred pounds per square inch",
+              "keyAnswer": "formidable hooked beaks operated by heavy cranial musculature exert crushing forces exceeding several hundred pounds per square inch",
+              "paraphrasePair": "crushing forces exceeding several hundred pounds per square inch <=> exert crushing forces exceeding several hundred pounds per square inch",
+              "meaningVi": "lực cắn nghiền nát hàng trăm pound/inch vuông",
+              "deductionLogic": "Khớp câu 3-4 đoạn 2."
+            }
+          },
+          {
+            "id": "t26_q25",
+            "num": 25,
+            "question": "The word 'impenetrable' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'impenetrable' trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "impermeable and unbreachable",
+              "nutritious",
+              "poisonous",
+              "transparent"
+            ],
+            "optionsVi": [
+              "không thể xuyên thủng, không thể phá vỡ",
+              "bổ dưỡng",
+              "độc hại",
+              "trong suốt"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...banksia cones that are completely impenetrable to other avians.",
+            "evidenceVi": "...quả nón banksia hoàn toàn không thể xuyên thủng đối với các loài chim khác.",
+            "explanation": "'Impenetrable' có nghĩa là không thể xuyên thủng, không thể phá vỡ hoặc xâm nhập, đồng nghĩa với 'impermeable and unbreachable'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "completely impenetrable to other avians",
+              "clueAnswer": "impermeable and unbreachable",
+              "keyPassage": "impenetrable to other avians",
+              "keyAnswer": "impermeable and unbreachable",
+              "paraphrasePair": "impenetrable <=> impermeable and unbreachable",
+              "meaningVi": "không thể xuyên thủng, bất khả xâm phạm",
+              "deductionLogic": "Vỏ hạt quá cứng khiến chim khác không mổ được, impenetrable tương đương unbreachable."
+            }
+          },
+          {
+            "id": "t26_q26",
+            "num": 26,
+            "question": "How do wild cockatoos exhibit cultural transmission according to field ethologists in paragraph 3?",
+            "questionVi": "Các loài vẹt mào hoang dã thể hiện sự lan truyền văn hóa như thế nào theo các nhà tập tính học ở đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "By composing written musical tablature on tree bark",
+              "Through localized dialect variations and innovative foraging techniques that spread horizontally through social imitation",
+              "By teaching human children how to speak parrot languages",
+              "By building permanent stone temples in mountain caves"
+            ],
+            "optionsVi": [
+              "Bằng cách soạn các bản nhạc ký âm viết trên vỏ cây",
+              "Thông qua các biến thể phương ngữ địa phương và kỹ thuật kiếm ăn sáng tạo lan truyền theo chiều ngang qua sự bắt chước xã hội",
+              "Bằng cách dạy trẻ em con người cách nói tiếng vẹt",
+              "Bằng cách xây dựng các ngôi đền bằng đá vĩnh viễn trong hang núi"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Field ethologists have documented sophisticated cultural transmission among wild cockatoos, including localized dialect variations and innovative foraging techniques—such as unlatching municipal waste bins—that spread horizontally through social imitation.",
+            "evidenceVi": "Các nhà tập tính học thực địa đã ghi nhận sự truyền thừa văn hóa tinh vi ở các loài vẹt mào hoang dã, bao gồm các biến thể phương ngữ mang tính địa phương và các kỹ thuật kiếm ăn sáng tạo—chẳng hạn như mở chốt thùng rác đô thị—lan truyền theo chiều ngang qua sự bắt chước xã hội.",
+            "explanation": "Đoạn 3 nêu rõ truyền thừa văn hóa thể hiện qua: localized dialect variations và innovative foraging techniques (như mở nắp thùng rác) lan truyền qua bắt chước.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết truyền thừa văn hóa (Cultural Transmission Detail)",
+              "cluePassage": "cultural transmission among wild cockatoos, including localized dialect variations and innovative foraging techniques—such as unlatching municipal waste bins—that spread horizontally through social imitation",
+              "clueAnswer": "localized dialect variations and innovative foraging techniques that spread horizontally through social imitation",
+              "keyPassage": "localized dialect variations and innovative foraging techniques... spread horizontally through social imitation",
+              "keyAnswer": "localized dialect variations and innovative foraging techniques that spread horizontally through social imitation",
+              "paraphrasePair": "localized dialect variations and innovative foraging techniques... spread horizontally through social imitation <=> localized dialect variations and innovative foraging techniques that spread horizontally through social imitation",
+              "meaningVi": "phương ngữ địa phương và kỹ thuật kiếm ăn lan truyền qua bắt chước",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": "t26_q27",
+            "num": 27,
+            "question": "The word 'jeopardy' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'jeopardy' trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "peril",
+              "prosperity",
+              "isolation",
+              "tranquility"
+            ],
+            "optionsVi": [
+              "hiểm nguy đe dọa, cơn hiểm nghèo",
+              "sự thịnh vượng phát đạt",
+              "sự cô lập cách ly",
+              "sự thanh bình yên tĩnh"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...numerous native Australian parrot species face catastrophic ecological jeopardy.",
+            "evidenceVi": "...nhiều loài vẹt bản địa Úc đang đối mặt với tình thế hiểm nguy sinh thái thảm khốc.",
+            "explanation": "'Jeopardy' có nghĩa là sự nguy hiểm, hiểm họa đe dọa tồn vong, đồng nghĩa với 'peril' hoặc 'danger'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng bảo tồn (Conservation Vocabulary)",
+              "cluePassage": "face catastrophic ecological jeopardy",
+              "clueAnswer": "peril",
+              "keyPassage": "ecological jeopardy",
+              "keyAnswer": "peril",
+              "paraphrasePair": "jeopardy <=> peril",
+              "meaningVi": "nguy hiểm, tình thế hiểm nghèo",
+              "deductionLogic": "Loài vẹt đối mặt với nguy cơ tuyệt chủng, jeopardy tương đương peril."
+            }
+          },
+          {
+            "id": "t26_q28",
+            "num": 28,
+            "question": "The word 'which' in paragraph 4 refers to:",
+            "questionVi": "Từ 'which' trong đoạn 4 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "Urban encroachment",
+              "Ancient hollow-bearing eucalyptus trees",
+              "Monoculture agriculture",
+              "Commercial timber logging trucks"
+            ],
+            "optionsVi": [
+              "Sự lấn chiếm đô thị",
+              "Những cây bạch đàn cổ thụ có hốc rỗng",
+              "Nông nghiệp độc canh",
+              "Xe tải chở gỗ thương mại"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...has decimated ancient hollow-bearing eucalyptus trees, which require over a century to form the natural nesting cavities essential for parrot reproduction.",
+            "evidenceVi": "...đã tàn sát những cây bạch đàn cổ thụ có hốc rỗng, vốn đòi hỏi hơn một thế kỷ để hình thành các hốc làm tổ tự nhiên thiết yếu cho sự sinh sản của loài vẹt.",
+            "explanation": "'Which' đứng sau 'ancient hollow-bearing eucalyptus trees' và bổ nghĩa cho cây cổ thụ này (mất hơn 100 năm để tạo hốc tổ).",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ quan hệ quy chiếu (Relative Pronoun Reference)",
+              "cluePassage": "ancient hollow-bearing eucalyptus trees, which require over a century to form the natural nesting cavities",
+              "clueAnswer": "Ancient hollow-bearing eucalyptus trees",
+              "keyPassage": "ancient hollow-bearing eucalyptus trees, which require over a century",
+              "keyAnswer": "Ancient hollow-bearing eucalyptus trees",
+              "paraphrasePair": "ancient hollow-bearing eucalyptus trees <=> which",
+              "meaningVi": "những cây bạch đàn cổ thụ có hốc rỗng",
+              "deductionLogic": "Khớp danh từ đứng liền trước đại từ quan hệ 'which'."
+            }
+          },
+          {
+            "id": "t26_q29",
+            "num": 29,
+            "question": "According to paragraph 4, which of the following is NOT mentioned as a threat to Australian parrots?",
+            "questionVi": "Theo đoạn 4, điều nào sau đây KHÔNG được đề cập như một mối đe dọa đối với loài vẹt Úc?",
+            "questionType": "negative_detail",
+            "options": [
+              "Land clearing that destroys ancient hollow-bearing eucalyptus nesting trees",
+              "Climate-driven bushfires that incinerate vast tracts of habitat",
+              "Introduced feral predators such as domestic cats and European red foxes",
+              "Radioactive fallout from extraterrestrial satellite explosions"
+            ],
+            "optionsVi": [
+              "Phát quang đất đai phá hủy những cây bạch đàn cổ thụ có hốc làm tổ",
+              "Cháy rừng do biến đổi khí hậu thiêu rụi các dải sinh cảnh rộng lớn",
+              "Các loài săn mồi hoang dã xâm lấn như mèo nhà và cáo đỏ châu Âu",
+              "Bụi phóng xạ từ các vụ nổ vệ tinh ngoài trái đất"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 lists: land clearing destroying hollow trees (A), bushfires incinerating habitat (B), and feral cats/foxes slaughtering birds (C). Radioactive fallout from satellites is completely unmentioned.",
+            "evidenceVi": "Đoạn 4 nêu: chặt phá cây có hốc (A), cháy rừng thiêu sinh cảnh (B), mèo hoang và cáo đỏ săn chim (C). Phóng xạ vệ tinh là chi tiết hoàn toàn bịa đặt.",
+            "explanation": "Phương án D không hề xuất hiện trong bài đọc.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Detail Check)",
+              "cluePassage": "land clearing... decimated ancient hollow-bearing eucalyptus trees... bushfires incinerate vast tracts... introduced feral predators—notably domestic cats and European red foxes",
+              "clueAnswer": "Radioactive fallout from extraterrestrial satellite explosions",
+              "keyPassage": "land clearing... bushfires... domestic cats and European red foxes",
+              "keyAnswer": "radioactive fallout (NOT mentioned)",
+              "paraphrasePair": "land clearing / bushfires / feral predators vs radioactive fallout",
+              "meaningVi": "các mối đe dọa sinh thái thực tế so với chi tiết bịa đặt",
+              "deductionLogic": "Phương án D hoàn toàn không có trong đoạn 4."
+            }
+          },
+          {
+            "id": "t26_q20",
+            "num": 30,
+            "question": "What comprehensive measures does the author state are necessary to protect Australian parrots in the final sentence?",
+            "questionVi": "Tác giả khẳng định những biện pháp toàn diện nào là cần thiết để bảo vệ loài vẹt Úc ở câu cuối cùng?",
+            "questionType": "inference",
+            "options": [
+              "Confining all wild parrots into indoor commercial steel breeding cages",
+              "Rigorous landscape-scale preservation of old-growth woodlands, artificial nesting box deployment, and invasive predator eradication",
+              "Cutting down all eucalyptus trees to eliminate the risk of bushfires entirely",
+              "Exporting all surviving parrots to zoological parks in North America"
+            ],
+            "optionsVi": [
+              "Nhốt toàn bộ vẹt hoang dã vào các lồng nhân giống thương mại bằng thép trong nhà",
+              "Bảo tồn quy mô cảnh quan các khu rừng bạch đàn cổ thụ, triển khai hộp làm tổ nhân tạo và xóa sổ loài săn mồi xâm hại",
+              "Chặt bỏ toàn bộ cây bạch đàn để loại bỏ triệt để nguy cơ cháy rừng",
+              "Xuất khẩu toàn bộ cá thể vẹt sống sót sang các vườn thú ở Bắc Mỹ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Halting this downward biodiversity trajectory demands rigorous landscape-scale preservation of old-growth woodlands, artificial nesting box deployment, and invasive predator eradication to ensure Australia's iconic avifauna endures.",
+            "evidenceVi": "Việc ngăn chặn quỹ đạo suy giảm đa dạng sinh học này đòi hỏi phải bảo tồn nghiêm ngặt ở quy mô cảnh quan các khu rừng cây cổ thụ, triển khai các hộp làm tổ nhân tạo và tiêu diệt các loài săn mồi xâm lấn để đảm bảo quần thể chim mang tính biểu tượng của Úc được trường tồn.",
+            "explanation": "Câu cuối đoạn 4 nêu 3 giải pháp: preservation of old-growth woodlands, artificial nesting boxes, và invasive predator eradication.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Giải pháp bảo tồn tổng thể (Conservation Synthesis)",
+              "cluePassage": "preservation of old-growth woodlands, artificial nesting box deployment, and invasive predator eradication to ensure Australia's iconic avifauna endures",
+              "clueAnswer": "Rigorous landscape-scale preservation of old-growth woodlands, artificial nesting box deployment, and invasive predator eradication",
+              "keyPassage": "preservation of old-growth woodlands, artificial nesting box deployment, and invasive predator eradication",
+              "keyAnswer": "preservation of old-growth woodlands, artificial nesting box deployment, and invasive predator eradication",
+              "paraphrasePair": "preservation of old-growth woodlands, artificial nesting box deployment, and invasive predator eradication <=> Rigorous landscape-scale preservation of old-growth woodlands, artificial nesting box deployment, and invasive predator eradication",
+              "meaningVi": "bảo tồn rừng cổ thụ, đặt hộp tổ nhân tạo và diệt trừ động vật ăn thịt xâm lấn",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: The Benefits and Market of Organic Food",
+        "topic": "Thực phẩm hữu cơ & Thị trường tiêu dùng: Phân tích hàm lượng dinh dưỡng, canh tác không hóa chất tổng hợp, cân bằng sinh thái đất & rào cản giá thành",
+        "timeAllowed": 15,
+        "passage": "<p>Over the past quarter-century, the global agricultural sector has witnessed an unprecedented paradigm shift, fueled by skyrocketing consumer demand for organically certified foods. Once an ideological niche championed exclusively by countercultural agrarians, organic agriculture has evolved into a multi-billion-dollar global juggernaut driven by heightened anxieties regarding synthetic chemical residues, environmental degradation, and the long-term nutritional integrity of industrialized food supply chains. At its legislative core, organic farming is defined by the strict prohibition of synthetic pesticides, synthetic nitrogen fertilizers, ionizing radiation, sewage sludge, and genetically modified organisms (GMOs), adhering instead to ecologically synchronized agronomic practices.</p><p>Proponents of organic agriculture emphasize its transformative ecological dividends, particularly regarding pedological conservation and biodiversity preservation. Conventional intensive monoculture deploys synthetic organophosphates and chemical fertilizers that deplete natural mycorrhizal fungal networks, desiccate topsoil organic matter, and cause toxic agricultural runoff that triggers eutrophication in aquatic ecosystems. Conversely, organic methodologies mandate systematic crop rotation, intercropping, and the application of composted manure and green cover crops. These regenerative practices enrich soil microbiota, substantially elevate humic soil organic carbon, and enhance moisture retention, thereby endowing agrarian landscapes with heightened resilience against climate-induced droughts.</p><p>Despite unequivocal ecological advantages, scientific consensus regarding the nutritional superiority of organic produce remains nuanced and fiercely contested. Extensive meta-analyses conducted by nutritional biochemists indicate that while organic crops do not consistently exhibit higher macronutrient or mineral concentrations compared to conventionally grown counterparts, they do possess statistically significant elevations—ranging from twenty to forty percent—in secondary plant metabolites, predominantly polyphenols and antioxidant flavonoids. Synthesized by crops as natural immunological defenses against pests in the absence of synthetic insecticides, these bioactive phytochemicals confer documented anti-inflammatory and cellular longevity benefits in human diets. Furthermore, organic livestock protocols enforce pasture grazing and forbid non-therapeutic antibiotic prophylaxis, drastically attenuating human exposure to multidrug-resistant pathogens.</p><p>However, formidable socioeconomic hurdles impede the universal democratization of the organic marketplace. Yield differentials remain a profound dilemma: due to the absence of fast-acting synthetic inputs, organic yields typically lag behind conventional yields by ten to twenty-five percent, demanding greater land acreage to produce equivalent agricultural tonnage. This productivity deficit, coupled with labor-intensive pest management and costly regulatory certification audits, translates into substantial retail price premiums. Consequently, organic foods frequently remain an aristocratic luxury accessible primarily to affluent urban demographics, while low-income populations remain tethered to calorie-dense, ultra-processed industrial fare. Overcoming this nutritional bifurcation necessitates public policy subsidies and agroecological innovations to scale organic output equitably.</p>",
+        "vocab": [
+          {
+            "word": "juggernaut",
+            "pos": "n",
+            "ipa": "/ˈdʒʌɡ.ə.nɔːt/",
+            "level": "C1",
+            "mean": "thế lực khổng lồ có sức mạnh áp đảo không thể cản phá",
+            "syns": [
+              "unstoppable force",
+              "colossus",
+              "powerhouse"
+            ],
+            "ex": "The organic industry has transformed into a commercial juggernaut."
+          },
+          {
+            "word": "residue",
+            "pos": "n",
+            "ipa": "/ˈrez.ɪ.dʒuː/",
+            "level": "C1",
+            "mean": "dư lượng hóa chất còn đọng lại trên nông sản",
+            "syns": [
+              "remnant",
+              "deposit",
+              "trace"
+            ],
+            "ex": "Shoppers worry about synthetic pesticide residues on grocery fruit."
+          },
+          {
+            "word": "agronomic",
+            "pos": "adj",
+            "ipa": "/ˌæɡ.rəˈnɒm.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về nông học và kỹ thuật canh tác đất đai",
+            "syns": [
+              "agricultural",
+              "crop-management"
+            ],
+            "ex": "Agronomic practices must respect seasonal climate cycles."
+          },
+          {
+            "word": "dividend",
+            "pos": "n",
+            "ipa": "/ˈdɪv.ɪ.dend/",
+            "level": "C1",
+            "mean": "lợi ích to lớn gặt hái được từ một hành động đầu tư",
+            "syns": [
+              "benefit",
+              "payoff",
+              "gain"
+            ],
+            "ex": "Investing in soil restoration pays rich ecological dividends over time."
+          },
+          {
+            "word": "pedological",
+            "pos": "adj",
+            "ipa": "/ˌped.əˈlɒdʒ.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc về thổ nhưỡng học, cấu trúc và tính chất đất đai",
+            "syns": [
+              "soil-scientific",
+              "edaphic"
+            ],
+            "ex": "Pedological surveys confirmed higher humus levels in organic plots."
+          },
+          {
+            "word": "organophosphate",
+            "pos": "n",
+            "ipa": "/ˌɔː.ɡæn.əʊˈfɒs.feɪt/",
+            "level": "C1",
+            "mean": "hợp chất thuốc trừ sâu lân hữu cơ độc tính cao",
+            "syns": [
+              "chemical pesticide",
+              "insecticide compound"
+            ],
+            "ex": "Spraying organophosphates eliminates beneficial soil insects alongside pests."
+          },
+          {
+            "word": "mycorrhizal",
+            "pos": "adj",
+            "ipa": "/ˌmaɪ.kəˈraɪ.zəl/",
+            "level": "C1",
+            "mean": "thuộc về mạng lưới nấm rễ cộng sinh với rễ thực vật",
+            "syns": [
+              "root-fungal",
+              "symbiotic-fungal"
+            ],
+            "ex": "Mycorrhizal fungi facilitate phosphorus uptake in organic orchards."
+          },
+          {
+            "word": "eutrophication",
+            "pos": "n",
+            "ipa": "/ˌjuː.trɒf.ɪˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "hiện tượng phú dưỡng do dư thừa đạm lân làm chết nguồn nước",
+            "syns": [
+              "nutrient pollution",
+              "algal blooming"
+            ],
+            "ex": "Agricultural fertilizer runoff triggers severe eutrophication in rivers."
+          },
+          {
+            "word": "intercropping",
+            "pos": "n",
+            "ipa": "/ˈɪn.təˌkrɒp.ɪŋ/",
+            "level": "C1",
+            "mean": "kỹ thuật trồng xen canh các loại cây trên cùng mảnh đất",
+            "syns": [
+              "mixed cropping",
+              "companion planting"
+            ],
+            "ex": "Intercropping corn with nitrogen-fixing legumes suppresses weeds naturally."
+          },
+          {
+            "word": "microbiota",
+            "pos": "n",
+            "ipa": "/ˌmaɪ.krəʊ.baɪˈəʊ.tə/",
+            "level": "C1",
+            "mean": "quần xã vi sinh vật sống trong môi trường đất hoặc ruột",
+            "syns": [
+              "microbial community",
+              "soil microbes"
+            ],
+            "ex": "Organic compost revitalizes dormant soil microbiota."
+          },
+          {
+            "word": "humic",
+            "pos": "adj",
+            "ipa": "/ˈhjuː.mɪk/",
+            "level": "C1",
+            "mean": "thuộc về mùn hữu cơ màu mỡ",
+            "syns": [
+              "humus-rich",
+              "organic-matter"
+            ],
+            "ex": "Humic substances improve moisture retention in sandy soils."
+          },
+          {
+            "word": "unequivocal",
+            "pos": "adj",
+            "ipa": "/ˌʌn.ɪˈkwɪv.ə.kəl/",
+            "level": "C1",
+            "mean": "rõ ràng dứt khoát, không thể tranh cãi chối cãi",
+            "syns": [
+              "unambiguous",
+              "indisputable",
+              "clear-cut"
+            ],
+            "ex": "The report provided unequivocal evidence of reduced carbon runoff."
+          },
+          {
+            "word": "metabolite",
+            "pos": "n",
+            "ipa": "/məˈtæb.əl.aɪt/",
+            "level": "C1",
+            "mean": "chất chuyển hóa sinh học do cây trồng sản sinh",
+            "syns": [
+              "metabolic byproduct",
+              "biochemical compound"
+            ],
+            "ex": "Secondary plant metabolites serve as natural defense mechanisms against herbivores."
+          },
+          {
+            "word": "polyphenol",
+            "pos": "n",
+            "ipa": "/ˌpɒl.iˈfiː.nɒl/",
+            "level": "C1",
+            "mean": "hợp chất chống oxy hóa polyphenol có lợi cho tế bào",
+            "syns": [
+              "antioxidant compound",
+              "protective phenol"
+            ],
+            "ex": "Organic berries contain elevated concentrations of health-giving polyphenols."
+          },
+          {
+            "word": "flavonoid",
+            "pos": "n",
+            "ipa": "/ˈfleɪ.və.nɔɪd/",
+            "level": "C1",
+            "mean": "chất chống oxy hóa nhóm flavonoid trong rau củ quả",
+            "syns": [
+              "plant pigment",
+              "antioxidant molecule"
+            ],
+            "ex": "Flavonoids in organic tomatoes reduce inflammatory markers in human trials."
+          },
+          {
+            "word": "bioactive",
+            "pos": "adj",
+            "ipa": "/ˌbaɪ.əʊˈæk.tɪv/",
+            "level": "C1",
+            "mean": "có hoạt tính sinh học tác động lên cơ thể sống",
+            "syns": [
+              "biologically active",
+              "physiologically potent"
+            ],
+            "ex": "Bioactive plant nutrients support cardiovascular function."
+          },
+          {
+            "word": "phytochemical",
+            "pos": "n",
+            "ipa": "/ˌfaɪ.təʊˈkem.ɪ.kəl/",
+            "level": "C1",
+            "mean": "hợp chất hóa học tự nhiên có trong thực vật",
+            "syns": [
+              "plant compound",
+              "phytonutrient"
+            ],
+            "ex": "Phytochemicals protect plants from solar radiation and fungal blight."
+          },
+          {
+            "word": "prophylaxis",
+            "pos": "n",
+            "ipa": "/ˌprɒf.ɪˈlæk.sɪs/",
+            "level": "C1",
+            "mean": "biện pháp y tế dùng thuốc để phòng ngừa bệnh trước",
+            "syns": [
+              "preventative treatment",
+              "prevention"
+            ],
+            "ex": "Routine antibiotic prophylaxis in livestock feed accelerates bacterial resistance."
+          },
+          {
+            "word": "attenuate",
+            "pos": "v",
+            "ipa": "/əˈten.ju.eɪt/",
+            "level": "C1",
+            "mean": "làm suy giảm, làm yếu bớt đi mức độ nghiêm trọng",
+            "syns": [
+              "weaken",
+              "diminish",
+              "reduce"
+            ],
+            "ex": "Organic meat production attenuates human exposure to drug-resistant pathogens."
+          },
+          {
+            "word": "differential",
+            "pos": "n",
+            "ipa": "/ˌdɪf.əˈren.ʃəl/",
+            "level": "C1",
+            "mean": "sự chênh lệch, khoảng cách khác biệt giữa hai đại lượng",
+            "syns": [
+              "gap",
+              "disparity",
+              "divergence"
+            ],
+            "ex": "The crop yield differential between organic and conventional farming persists."
+          },
+          {
+            "word": "acreage",
+            "pos": "n",
+            "ipa": "/ˈeɪ.kər.ɪdʒ/",
+            "level": "C1",
+            "mean": "diện tích đất đai tính theo mẫu Anh",
+            "syns": [
+              "land area",
+              "hectarage",
+              "surface"
+            ],
+            "ex": "Producing equivalent food volume requires expanded agricultural acreage."
+          },
+          {
+            "word": "tonnage",
+            "pos": "n",
+            "ipa": "/ˈtʌn.ɪdʒ/",
+            "level": "C1",
+            "mean": "sản lượng thu hoạch tính theo tấn",
+            "syns": [
+              "harvest volume",
+              "capacity in tons"
+            ],
+            "ex": "Conventional fields achieve higher tonnage per hectare through chemical fertilizer."
+          },
+          {
+            "word": "premium",
+            "pos": "n",
+            "ipa": "/ˈpriː.mi.əm/",
+            "level": "C1",
+            "mean": "khoản tiền chênh lệch cao hơn bình thường",
+            "syns": [
+              "extra cost",
+              "surcharge",
+              "mark-up"
+            ],
+            "ex": "Consumers often pay a fifty percent price premium for organic dairy."
+          },
+          {
+            "word": "affluent",
+            "pos": "adj",
+            "ipa": "/ˈæf.lu.ənt/",
+            "level": "B2",
+            "mean": "giàu có, khá giả, có mức thu nhập cao",
+            "syns": [
+              "wealthy",
+              "prosperous",
+              "well-off"
+            ],
+            "ex": "Organic specialty supermarkets are concentrated in affluent urban neighborhoods."
+          },
+          {
+            "word": "tethered",
+            "pos": "adj",
+            "ipa": "/ˈteð.əd/",
+            "level": "C1",
+            "mean": "bị trói buộc, gắn chặt lệ thuộc vào hoàn cảnh",
+            "syns": [
+              "tied",
+              "bound",
+              "restricted"
+            ],
+            "ex": "Lower-income households remain tethered to cheap, energy-dense processed staples."
+          },
+          {
+            "word": "bifurcation",
+            "pos": "n",
+            "ipa": "/ˌbaɪ.fəˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự phân đôi rẽ nhánh thành hai thái cực đối lập",
+            "syns": [
+              "polarization",
+              "split",
+              "division"
+            ],
+            "ex": "The nutritional bifurcation creates an unfair divide between rich and poor."
+          },
+          {
+            "word": "agroecological",
+            "pos": "adj",
+            "ipa": "/ˌæɡ.rəʊˌiː.kəˈlɒdʒ.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc về hệ sinh thái nông nghiệp bền vững",
+            "syns": [
+              "sustainable-farming",
+              "ecologically agricultural"
+            ],
+            "ex": "Agroecological research develops natural pest controls to boost organic yields."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t26_q31",
+            "num": 31,
+            "question": "What is the primary subject explored in the passage?",
+            "questionVi": "Chủ đề chính được khám phá trong đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The diplomatic negotiations governing international trade tariffs on grain exports",
+              "The ecological benefits, nutritional debates, and socioeconomic market dilemmas of organic food",
+              "The biochemistry of synthetic nitrogen fertilizer production in industrial factories",
+              "The historical development of mechanical steam tractors in 19th-century Britain"
+            ],
+            "optionsVi": [
+              "Các cuộc đàm phán ngoại giao chi phối thuế quan thương mại quốc tế về xuất khẩu ngũ cốc",
+              "Các lợi ích sinh thái, tranh luận dinh dưỡng và những nan đề thị trường kinh tế xã hội của thực phẩm hữu cơ",
+              "Hóa sinh học của quy trình sản xuất phân bón đạm tổng hợp trong các nhà máy công nghiệp",
+              "Sự phát triển lịch sử của máy cày chạy bằng hơi nước cơ khí ở nước Anh thế kỷ 19"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Passage covers: definition of organic farming, ecological dividends (soil/water), nutritional nuances (antioxidants, antibiotic resistance), and socioeconomic yield/price premium hurdles.",
+            "evidenceVi": "Toàn bài phân tích: định nghĩa canh tác hữu cơ, lợi ích sinh thái (đất/nước), sắc thái dinh dưỡng (chất chống oxy hóa, kháng kháng sinh) và các rào cản chênh lệch năng suất/giá thành cao.",
+            "explanation": "Đoạn văn xem xét toàn diện thực phẩm hữu cơ từ góc độ canh tác sinh thái, giá trị dinh dưỡng khoa học đến các thách thức kinh tế thị trường.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề bao quát (Comprehensive Main Idea)",
+              "cluePassage": "organic agriculture has evolved into a multi-billion-dollar global juggernaut... transformative ecological dividends... scientific consensus regarding the nutritional superiority... formidable socioeconomic hurdles impede universal democratization",
+              "clueAnswer": "The ecological benefits, nutritional debates, and socioeconomic market dilemmas of organic food",
+              "keyPassage": "organic agriculture... transformative ecological dividends... nutritional superiority... socioeconomic hurdles",
+              "keyAnswer": "ecological benefits, nutritional debates, and socioeconomic market dilemmas of organic food",
+              "paraphrasePair": "ecological dividends / nutritional superiority / socioeconomic hurdles <=> ecological benefits, nutritional debates, and socioeconomic market dilemmas",
+              "meaningVi": "lợi ích sinh thái, tranh luận dinh dưỡng và nan đề kinh tế thị trường",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt toàn bài đọc."
+            }
+          },
+          {
+            "id": "t26_q32",
+            "num": 32,
+            "question": "According to paragraph 1, how is organic farming strictly defined at its legislative core?",
+            "questionVi": "Theo đoạn 1, nông nghiệp hữu cơ được định nghĩa nghiêm ngặt như thế nào ở cốt lõi pháp lý?",
+            "questionType": "detail",
+            "options": [
+              "By the mandatory use of diesel tractors and satellite GPS navigation",
+              "By the strict prohibition of synthetic pesticides, synthetic nitrogen fertilizers, ionizing radiation, sewage sludge, and GMOs",
+              "By requiring all farmers to hold academic doctoral degrees in agronomy",
+              "By mandating that all crops must be cultivated inside climate-controlled glass greenhouses"
+            ],
+            "optionsVi": [
+              "Bằng việc bắt buộc sử dụng máy kéo chạy dầu diesel và định vị vệ tinh GPS",
+              "Bằng sự nghiêm cấm tuyệt đối thuốc trừ sâu tổng hợp, phân đạm tổng hợp, chiếu xạ ion hóa, bùn thải và sinh vật biến đổi gen (GMO)",
+              "Bằng việc yêu cầu tất cả nông dân phải có bằng tiến sĩ học thuật về nông học",
+              "Bằng quy định bắt buộc toàn bộ cây trồng phải được canh tác trong nhà kính lắp kính kiểm soát khí hậu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "At its legislative core, organic farming is defined by the strict prohibition of synthetic pesticides, synthetic nitrogen fertilizers, ionizing radiation, sewage sludge, and genetically modified organisms (GMOs), adhering instead to ecologically synchronized agronomic practices.",
+            "evidenceVi": "Ở cốt lõi luật định, canh tác hữu cơ được định nghĩa bởi sự nghiêm cấm tuyệt đối đối với thuốc trừ sâu tổng hợp, phân bón đạm tổng hợp, bức xạ ion hóa, bùn thải và các sinh vật biến đổi gen (GMO)...",
+            "explanation": "Đoạn 1 nêu rõ định nghĩa pháp lý là cấm tuyệt đối: synthetic pesticides, synthetic fertilizers, ionizing radiation, sewage sludge, và GMOs.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết định nghĩa luật định (Legislative Definition Detail)",
+              "cluePassage": "strict prohibition of synthetic pesticides, synthetic nitrogen fertilizers, ionizing radiation, sewage sludge, and genetically modified organisms (GMOs)",
+              "clueAnswer": "strict prohibition of synthetic pesticides, synthetic nitrogen fertilizers, ionizing radiation, sewage sludge, and GMOs",
+              "keyPassage": "prohibition of synthetic pesticides, synthetic nitrogen fertilizers, ionizing radiation, sewage sludge, and genetically modified organisms",
+              "keyAnswer": "strict prohibition of synthetic pesticides, synthetic nitrogen fertilizers, ionizing radiation, sewage sludge, and GMOs",
+              "paraphrasePair": "strict prohibition of synthetic pesticides, synthetic nitrogen fertilizers... <=> strict prohibition of synthetic pesticides, synthetic nitrogen fertilizers, ionizing radiation, sewage sludge, and GMOs",
+              "meaningVi": "nghiêm cấm thuốc trừ sâu, phân đạm hóa học và GMO",
+              "deductionLogic": "Khớp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": "t26_q33",
+            "num": 33,
+            "question": "What soil and ecological benefits of organic methodologies are emphasized in paragraph 2?",
+            "questionVi": "Những lợi ích về đất và sinh thái nào của các phương pháp hữu cơ được nhấn mạnh trong đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "They completely eliminate all earthworms and subterranean bacteria",
+              "They enrich soil microbiota, elevate humic organic carbon, and enhance moisture retention against droughts",
+              "They convert agricultural topsoil into solid limestone building blocks",
+              "They accelerate surface chemical runoff into municipal drinking reservoirs"
+            ],
+            "optionsVi": [
+              "Chúng loại bỏ hoàn toàn tất cả giun đất và vi khuẩn dưới lòng đất",
+              "Chúng làm phong phú hệ vi sinh vật đất, nâng cao carbon hữu cơ mùn và tăng cường giữ ẩm chống hạn hán",
+              "Chúng biến lớp đất mặt nông nghiệp thành các khối đá vôi xây dựng vững chắc",
+              "Chúng đẩy nhanh dòng chảy hóa chất bề mặt vào các hồ chứa nước uống của thành phố"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "These regenerative practices enrich soil microbiota, substantially elevate humic soil organic carbon, and enhance moisture retention, thereby endowing agrarian landscapes with heightened resilience against climate-induced droughts.",
+            "evidenceVi": "Những thực hành tái tạo này làm phong phú thêm hệ vi sinh vật đất, nâng cao đáng kể lượng carbon hữu cơ trong đất mùn và tăng cường khả năng giữ ẩm, do đó mang lại cho cảnh quan nông nghiệp khả năng phục hồi cao hơn trước các đợt hạn hán do khí hậu gây ra.",
+            "explanation": "Đoạn 2 nêu rõ 3 lợi ích đất: enrich soil microbiota, elevate humic soil organic carbon, và enhance moisture retention against droughts.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết lợi ích thổ nhưỡng (Soil Science Detail)",
+              "cluePassage": "enrich soil microbiota, substantially elevate humic soil organic carbon, and enhance moisture retention, thereby endowing agrarian landscapes with heightened resilience against climate-induced droughts",
+              "clueAnswer": "enrich soil microbiota, elevate humic organic carbon, and enhance moisture retention against droughts",
+              "keyPassage": "enrich soil microbiota, substantially elevate humic soil organic carbon, and enhance moisture retention",
+              "keyAnswer": "enrich soil microbiota, elevate humic organic carbon, and enhance moisture retention against droughts",
+              "paraphrasePair": "enrich soil microbiota, elevate humic organic carbon, and enhance moisture retention <=> enrich soil microbiota, elevate humic organic carbon, and enhance moisture retention against droughts",
+              "meaningVi": "làm giàu vi sinh vật đất, tăng mùn carbon và giữ ẩm chống hạn",
+              "deductionLogic": "Khớp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": "t26_q34",
+            "num": 34,
+            "question": "The word 'unequivocal' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'unequivocal' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "unambiguous and clear",
+              "dubious",
+              "temporary",
+              "unnoticeable"
+            ],
+            "optionsVi": [
+              "rõ ràng, dứt khoát không thể bàn cãi",
+              "đầy ngờ vực không chắc chắn",
+              "tạm thời ngắn hạn",
+              "không đáng chú ý"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Despite unequivocal ecological advantages...",
+            "evidenceVi": "Mặc dù có những lợi thế sinh thái rõ ràng không thể chối cãi...",
+            "explanation": "'Unequivocal' có nghĩa là rõ ràng, minh bạch, không thể nghi ngờ hay bàn cãi, đồng nghĩa với 'unambiguous and clear'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng học thuật (Academic Vocabulary)",
+              "cluePassage": "Despite unequivocal ecological advantages",
+              "clueAnswer": "unambiguous and clear",
+              "keyPassage": "unequivocal ecological advantages",
+              "keyAnswer": "unambiguous and clear",
+              "paraphrasePair": "unequivocal <=> unambiguous and clear",
+              "meaningVi": "rõ ràng, không thể chối cãi",
+              "deductionLogic": "Lợi ích sinh thái của hữu cơ đã được chứng minh rõ rệt, do đó unequivocal tương đương unambiguous."
+            }
+          },
+          {
+            "id": "t26_q35",
+            "num": 35,
+            "question": "According to meta-analyses in paragraph 3, what specific nutritional elevation do organic crops consistently exhibit?",
+            "questionVi": "Theo các phân tích tổng hợp trong đoạn 3, cây trồng hữu cơ luôn thể hiện mức gia tăng dinh dưỡng cụ thể nào?",
+            "questionType": "detail",
+            "options": [
+              "A five-hundred percent increase in refined white sugar",
+              "Statistically significant elevations (20% to 40%) in secondary plant metabolites, predominantly polyphenols and antioxidant flavonoids",
+              "A doubling of dietary sodium and saturated animal fat",
+              "Complete saturation with synthetic vitamin C tablets"
+            ],
+            "optionsVi": [
+              "Sự gia tăng 500% đường trắng tinh luyện",
+              "Sự gia tăng có ý nghĩa thống kê (20% đến 40%) các chất chuyển hóa thứ cấp của thực vật, chủ yếu là polyphenol và flavonoid chống oxy hóa",
+              "Tăng gấp đôi lượng natri trong chế độ ăn và chất béo động vật bão hòa",
+              "Bão hòa hoàn toàn với các viên vitamin C tổng hợp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...they do possess statistically significant elevations—ranging from twenty to forty percent—in secondary plant metabolites, predominantly polyphenols and antioxidant flavonoids.",
+            "evidenceVi": "...chúng thực sự sở hữu mức tăng có ý nghĩa thống kê—dao động từ 20 đến 40 phần trăm—về các chất chuyển hóa thứ cấp của thực vật, chủ yếu là polyphenol và các flavonoid chống oxy hóa.",
+            "explanation": "Đoạn 3 chỉ rõ mức tăng 20-40% ở các chất chuyển hóa thứ cấp: polyphenols và antioxidant flavonoids.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết nghiên cứu sinh hóa (Biochemical Research Detail)",
+              "cluePassage": "statistically significant elevations—ranging from twenty to forty percent—in secondary plant metabolites, predominantly polyphenols and antioxidant flavonoids",
+              "clueAnswer": "Statistically significant elevations (20% to 40%) in secondary plant metabolites, predominantly polyphenols and antioxidant flavonoids",
+              "keyPassage": "elevations—ranging from twenty to forty percent—in secondary plant metabolites, predominantly polyphenols and antioxidant flavonoids",
+              "keyAnswer": "elevations (20% to 40%) in secondary plant metabolites, predominantly polyphenols and antioxidant flavonoids",
+              "paraphrasePair": "elevations—ranging from twenty to forty percent—in secondary plant metabolites <=> elevations (20% to 40%) in secondary plant metabolites, predominantly polyphenols and antioxidant flavonoids",
+              "meaningVi": "gia tăng 20-40% các chất chuyển hóa thứ cấp, polyphenol và flavonoid",
+              "deductionLogic": "Khớp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": "t26_q36",
+            "num": 36,
+            "question": "Why do organic plants synthesize higher levels of antioxidant flavonoids and polyphenols according to paragraph 3?",
+            "questionVi": "Tại sao thực vật hữu cơ lại tổng hợp nồng độ flavonoid và polyphenol chống oxy hóa cao hơn theo đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "Because farmers inject artificial chemical dyes into the roots",
+              "As natural immunological defenses against pests and insects in the absence of synthetic insecticides",
+              "Because they are irradiated with industrial ultraviolet laser beams",
+              "Because organic crops absorb discarded plastics from nearby landfills"
+            ],
+            "optionsVi": [
+              "Vì nông dân tiêm thuốc nhuộm hóa học nhân tạo vào rễ",
+              "Như một cơ chế phòng vệ miễn dịch tự nhiên chống lại sâu bệnh và côn trùng khi không có thuốc trừ sâu hóa học",
+              "Vì chúng được chiếu xạ bằng chùm tia laser cực tím công nghiệp",
+              "Vì cây trồng hữu cơ hút nhựa phế thải từ các bãi rác gần đó"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Synthesized by crops as natural immunological defenses against pests in the absence of synthetic insecticides, these bioactive phytochemicals confer documented anti-inflammatory and cellular longevity benefits in human diets.",
+            "evidenceVi": "Được cây trồng tự tổng hợp như một cơ chế phòng vệ miễn dịch tự nhiên chống lại sâu bệnh khi không có thuốc trừ sâu tổng hợp, các hóa chất thực vật có hoạt tính sinh học này mang lại những lợi ích kháng viêm và kéo dài tuổi thọ tế bào đã được ghi nhận trong chế độ ăn của con người.",
+            "explanation": "Đoạn 3 giải thích: không có thuốc sâu hóa học, cây phải tự sản sinh chất chống oxy hóa (polyphenol/flavonoid) làm vũ khí tự vệ tự nhiên (natural immunological defenses).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết cơ chế sinh học thực vật (Plant Defense Mechanism Detail)",
+              "cluePassage": "Synthesized by crops as natural immunological defenses against pests in the absence of synthetic insecticides",
+              "clueAnswer": "As natural immunological defenses against pests and insects in the absence of synthetic insecticides",
+              "keyPassage": "Synthesized by crops as natural immunological defenses against pests in the absence of synthetic insecticides",
+              "keyAnswer": "natural immunological defenses against pests and insects in the absence of synthetic insecticides",
+              "paraphrasePair": "natural immunological defenses against pests in the absence of synthetic insecticides <=> natural immunological defenses against pests and insects in the absence of synthetic insecticides",
+              "meaningVi": "phòng vệ miễn dịch tự nhiên chống sâu bệnh khi thiếu thuốc sâu",
+              "deductionLogic": "Khớp câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": "t26_q37",
+            "num": 37,
+            "question": "The word 'attenuating' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'attenuating' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "reducing and lessening",
+              "magnifying",
+              "initiating",
+              "prohibiting legally"
+            ],
+            "optionsVi": [
+              "làm giảm bớt, làm yếu đi",
+              "khuếch đại phóng đại",
+              "khởi xướng bắt đầu",
+              "cấm đoán về mặt pháp lý"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...drastically attenuating human exposure to multidrug-resistant pathogens.",
+            "evidenceVi": "...làm suy giảm mạnh mẽ sự tiếp xúc của con người với các mầm bệnh kháng đa thuốc.",
+            "explanation": "'Attenuate' có nghĩa là làm giảm bớt, làm yếu đi cường độ hoặc tác động, đồng nghĩa với 'reducing and lessening'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng y sinh học (Biomedical Vocabulary)",
+              "cluePassage": "drastically attenuating human exposure to multidrug-resistant pathogens",
+              "clueAnswer": "reducing and lessening",
+              "keyPassage": "attenuating human exposure",
+              "keyAnswer": "reducing and lessening",
+              "paraphrasePair": "attenuating <=> reducing and lessening",
+              "meaningVi": "làm giảm bớt, giảm nhẹ",
+              "deductionLogic": "Giảm sự tiếp xúc với vi khuẩn kháng thuốc, attenuating tương đương reducing."
+            }
+          },
+          {
+            "id": "t26_q38",
+            "num": 38,
+            "question": "The word 'they' in paragraph 3 refers to:",
+            "questionVi": "Từ 'they' trong đoạn 3 ám chỉ đối tượng nào:",
+            "questionType": "reference",
+            "options": [
+              "Nutritional biochemists",
+              "Organic crops",
+              "Synthetic insecticides",
+              "Conventional supermarkets"
+            ],
+            "optionsVi": [
+              "Các nhà hóa sinh dinh dưỡng",
+              "Cây trồng hữu cơ",
+              "Thuốc trừ sâu tổng hợp",
+              "Các siêu thị truyền thống"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...while organic crops do not consistently exhibit higher macronutrient or mineral concentrations compared to conventionally grown counterparts, they do possess statistically significant elevations...",
+            "evidenceVi": "...trong khi cây trồng hữu cơ không nhất thiết thể hiện nồng độ đa lượng hoặc khoáng chất cao hơn so với cây trồng thông thường, chúng thực sự sở hữu mức tăng có ý nghĩa thống kê...",
+            "explanation": "'They' ở mệnh đề sau thay thế cho chủ ngữ 'organic crops' ở mệnh đề trước.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ nhân xưng quy chiếu (Personal Pronoun Reference)",
+              "cluePassage": "while organic crops do not consistently exhibit higher macronutrient or mineral concentrations... they do possess statistically significant elevations",
+              "clueAnswer": "Organic crops",
+              "keyPassage": "organic crops... they do possess",
+              "keyAnswer": "Organic crops",
+              "paraphrasePair": "organic crops <=> they",
+              "meaningVi": "cây trồng hữu cơ",
+              "deductionLogic": "Khớp chủ ngữ của mệnh đề nhượng bộ 'while organic crops'."
+            }
+          },
+          {
+            "id": "t26_q39",
+            "num": 39,
+            "question": "According to paragraph 4, which of the following is NOT cited as a contributor to higher retail prices for organic produce?",
+            "questionVi": "Theo đoạn 4, điều nào sau đây KHÔNG được coi là nguyên nhân dẫn đến giá bán lẻ cao hơn của nông sản hữu cơ?",
+            "questionType": "negative_detail",
+            "options": [
+              "Yield differentials requiring greater land acreage for equivalent tonnage",
+              "Labor-intensive pest management without fast-acting chemical sprays",
+              "Costly regulatory certification audits",
+              "Astronomical import taxes imposed exclusively by foreign monarchs"
+            ],
+            "optionsVi": [
+              "Sự chênh lệch năng suất đòi hỏi diện tích đất lớn hơn cho sản lượng tương đương",
+              "Quản lý sâu bệnh tốn nhiều lao động thủ công không dùng hóa chất tác dụng nhanh",
+              "Các cuộc kiểm toán chứng nhận theo quy định đắt đỏ",
+              "Thuế nhập khẩu trên trời do các vị vua nước ngoài đơn phương áp đặt"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 cites: 'productivity deficit/yield differentials' (A), 'labor-intensive pest management' (B), and 'costly regulatory certification audits' (C). Import taxes by foreign monarchs is completely unmentioned and absurd.",
+            "evidenceVi": "Đoạn 4 nêu: chênh lệch năng suất (A), quản lý sâu bệnh tốn nhân công (B), chi phí kiểm toán chứng nhận (C). Thuế nhập khẩu của vua chúa là chi tiết hoàn toàn bịa đặt.",
+            "explanation": "Phương án D không hề xuất hiện trong bài đọc.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Detail Check)",
+              "cluePassage": "productivity deficit, coupled with labor-intensive pest management and costly regulatory certification audits, translates into substantial retail price premiums",
+              "clueAnswer": "Astronomical import taxes imposed exclusively by foreign monarchs",
+              "keyPassage": "productivity deficit... labor-intensive pest management and costly regulatory certification audits",
+              "keyAnswer": "import taxes by monarchs (NOT mentioned)",
+              "paraphrasePair": "productivity deficit / labor-intensive management / certification audits vs import taxes by monarchs",
+              "meaningVi": "các yếu tố chi phí thực tế so với chi tiết vô căn cứ",
+              "deductionLogic": "Phương án D hoàn toàn không có trong đoạn 4."
+            }
+          },
+          {
+            "id": "t26_q40",
+            "num": 40,
+            "question": "What is required to overcome the nutritional bifurcation between affluent and low-income populations in the final sentence?",
+            "questionVi": "Điều gì là cần thiết để vượt qua sự phân nhánh dinh dưỡng giữa người giàu và người nghèo ở câu cuối cùng?",
+            "questionType": "inference",
+            "options": [
+              "Completely outlawing all private farming and forcing everyone to eat synthetically manufactured food paste",
+              "Public policy subsidies and agroecological innovations to scale organic output equitably",
+              "Banning low-income families from purchasing fresh vegetables",
+              "Relying solely on free commercial market deregulation without any government involvement"
+            ],
+            "optionsVi": [
+              "Đặt ngoài vòng pháp luật toàn bộ hoạt động canh tác tư nhân và buộc mọi người phải ăn bột dinh dưỡng tổng hợp",
+              "Các khoản trợ cấp chính sách công và đổi mới sinh thái nông nghiệp để mở rộng quy mô sản xuất hữu cơ một cách công bằng",
+              "Cấm các gia đình thu nhập thấp mua rau tươi",
+              "Chỉ dựa vào việc bãi bỏ quy định thị trường thương mại tự do mà không có bất kỳ sự can thiệp nào của chính phủ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Overcoming this nutritional bifurcation necessitates public policy subsidies and agroecological innovations to scale organic output equitably.",
+            "evidenceVi": "Để vượt qua sự phân nhánh dinh dưỡng này đòi hỏi các khoản trợ cấp chính sách công và các đổi mới sinh thái nông nghiệp nhằm mở rộng quy mô sản lượng hữu cơ một cách công bằng.",
+            "explanation": "Câu cuối đoạn 4 chỉ rõ giải pháp: public policy subsidies (trợ cấp chính sách công) và agroecological innovations (đổi mới sinh thái nông nghiệp).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Khuyến nghị chính sách công (Public Policy Recommendation)",
+              "cluePassage": "Overcoming this nutritional bifurcation necessitates public policy subsidies and agroecological innovations to scale organic output equitably.",
+              "clueAnswer": "Public policy subsidies and agroecological innovations to scale organic output equitably",
+              "keyPassage": "public policy subsidies and agroecological innovations to scale organic output equitably",
+              "keyAnswer": "Public policy subsidies and agroecological innovations to scale organic output equitably",
+              "paraphrasePair": "public policy subsidies and agroecological innovations to scale organic output equitably <=> Public policy subsidies and agroecological innovations to scale organic output equitably",
+              "meaningVi": "trợ cấp chính sách công và đổi mới sinh thái nông nghiệp",
+              "deductionLogic": "Khớp câu cuối cùng của bài đọc."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
