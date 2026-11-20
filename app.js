@@ -1555,6 +1555,7 @@ function renderPracticeView() {
     const test26 = tests.find(t => t.testNum === 26);
     const test27 = tests.find(t => t.testNum === 27);
     const test28 = tests.find(t => t.testNum === 28);
+    const test29 = tests.find(t => t.testNum === 29);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -4657,90 +4658,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 19. BỘ ĐỀ THỰC CHIẾN 19 (TEST 29) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 19. BỘ ĐỀ THỰC CHIẾN 19 (TEST 29) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite29') {
+        const savedAnsCount29 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 29) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved29 = state.savedExam && state.savedExam.testNum === 29 && savedAnsCount29 > 0;
+        const totalVocab29 = (test29 && test29.passages) ? test29.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta29 = [
+            {
+                testNum: 29,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'korea_kangaroo_tribe',
+                categoryName: 'Xã hội học & Áp lực kinh tế giới trẻ Á Đông',
+                categoryColor: '#f59e0b',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: The "Kangaroo Club" in South Korea',
+                icon: 'fa-house-user',
+                title: 'The "Kangaroo Tribe" in South Korea: Housing Crises & Delayed Autonomy',
+                titleVi: 'Hiện tượng "Bộ tộc Chuột túi" tại Hàn Quốc: Khủng hoảng nhà ở & Phụ thuộc cha mẹ',
+                summary: 'Giải mã áp lực tiền đặt cọc nhà jeonse khổng lồ tại Seoul, thi tuyển công chức kéo dài và hệ lụy bào mòn quỹ hưu trí khiến người già phải lao động mưu sinh.'
+            },
+            {
+                testNum: 29,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'cbt_insomnia_sleep',
+                categoryName: 'Tâm lý học lâm sàng & Y học giấc ngủ',
+                categoryColor: '#10b981',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: CBT-I for Insomnia & Sleep Disorders',
+                icon: 'fa-bed',
+                title: 'Cognitive Behavioral Therapy for Insomnia (CBT-I): Rewiring Sleep Architecture',
+                titleVi: 'Liệu pháp Nhận thức Hành vi cho Mất ngủ (CBT-I): Tái cấu trúc giấc ngủ tự nhiên',
+                summary: 'Khắc phục hạn chế lờn thuốc của thuốc ngủ an thần, kỹ thuật Kiểm soát kích thích phá phản xạ trằn trọc, Giới hạn thời gian nằm giường và Tái cấu trúc nhận thức lo âu.'
+            },
+            {
+                testNum: 29,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'assistive_edtech_inclusive',
+                categoryName: 'Công nghệ giáo dục hòa nhập & Đa dạng thần kinh',
+                categoryColor: '#6366f1',
+                badgeBg: '#e0e7ff',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Assistive EdTech for Special-Needs Children',
+                icon: 'fa-eye',
+                title: 'Assistive EdTech for Special-Needs Children: Inclusive Learning & Universal Design',
+                titleVi: 'Công nghệ hỗ trợ giáo dục cho trẻ khuyết tật: Thiết kế phổ quát & Học tập hòa nhập',
+                summary: 'Công nghệ điều khiển con trỏ bằng ánh mắt cho trẻ bại não, công cụ đọc chính tả cho trẻ khó viết (dysgraphia) và khung Thiết kế học tập phổ quát (UDL) bình đẳng.'
+            },
+            {
+                testNum: 29,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'ocean_warming_heatwaves',
+                categoryName: 'Hải dương học & Biến đổi khí hậu toàn cầu',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Ocean Warming & Rising Sea Temperatures',
+                icon: 'fa-water',
+                title: 'Ocean Warming & Marine Heatwaves: Thermal Stratification, Bleaching & AMOC',
+                titleVi: 'Đại dương ấm lên & Sóng nhiệt biển: Phân tầng nhiệt, Tẩy trắng san hô & Dòng AMOC',
+                summary: 'Đại dương hấp thụ 90% nhiệt dư gây giãn nở dâng mực nước biển, phân tầng nhiệt làm suy giảm thực vật phù du, sóng nhiệt tẩy trắng san hô và nguy cơ sụp đổ dòng AMOC.'
+            }
+        ];
+
+        let pCardsHtml29 = '';
+        passagesMeta29.forEach(meta => {
+            const pData = (test29 && test29.passages) ? test29.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml29 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-29">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-19" id="suite-box-29">
+                <div class="practice-suite-header suite-header-19">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(245, 158, 11, 0.25); color: #fcd34d; border-color: rgba(245, 158, 11, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 19 (TEST 29) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #fcd34d;"></i> BỘ ĐỀ THỰC CHIẾN 19 (TEST 29) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 19 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Hội chứng "CLB Chuột túi" Hàn Quốc (Part 1) • Trị liệu CBT cho rối loạn giấc ngủ (Part 2) • Công nghệ giáo dục cho trẻ khuyết tật (Part 3) • Hiện tượng nóng lên của đại dương (Part 4)
+                            <strong>4 Topics:</strong> "CLB Chuột túi" Hàn Quốc (Part 1) • Trị liệu CBT-I mất ngủ (Part 2) • Công nghệ EdTech hòa nhập (Part 3) • Đại dương ấm lên (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab29} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(29)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab29} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved29 ? 'background: linear-gradient(135deg, #78350f, #f59e0b) !important;' : ''}" onclick="${isSaved29 ? 'resumeSavedExam()' : 'startFullExam(29)'}">
+                            ${isSaved29 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount29}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(29)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #f59e0b;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 19):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>The "Kangaroo Club" in South Korea</h4>
-                                <h5>Hội chứng "CLB Chuột túi": Người trẻ Hàn Quốc phụ thuộc tài chính cha mẹ</h5>
-                                <p>Giải mã áp lực giá nhà Seoul, cạnh tranh việc làm khốc liệt và hệ lụy đối với quỹ hưu trí của thế hệ cha mẹ khi con trưởng thành chưa thể ra ở riêng.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#6366f1;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>CBT-I for Insomnia & Sleep Disorders</h4>
-                                <h5>Liệu pháp Nhận thức Hành vi (CBT) điều trị mất ngủ thay thế thuốc ngủ</h5>
-                                <p>So sánh hiệu quả bền vững không gây lệ thuộc thuốc của liệu pháp tái cấu trúc nhận thức giấc ngủ (CBT-I) so với thuốc an thần kê đơn truyền thống.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Assistive EdTech for Special-Needs Children</h4>
-                                <h5>Công nghệ hỗ trợ giáo dục dành cho trẻ khuyết tật & nhu cầu đặc biệt</h5>
-                                <p>Khám phá cách thiết bị theo dõi ánh mắt, phần mềm chuyển văn bản thành giọng nói và thiết kế giáo dục phổ quát (UDL) trao quyền học tập hòa nhập.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Ocean Warming & Rising Sea Temperatures</h4>
-                                <h5>Hiện tượng nóng lên của đại dương: Hấp thụ nhiệt, Tẩy trắng san hô & Bão biển</h5>
-                                <p>Phân tích vai trò bể chứa hơn 90% nhiệt dư khí nhà kính của đại dương, sự giãn nở nhiệt làm dâng mực nước biển và xáo trộn dòng hải lưu toàn cầu.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml29}
                     </div>
                 </div>
             </div>

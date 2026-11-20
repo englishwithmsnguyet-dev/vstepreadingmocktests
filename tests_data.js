@@ -69876,6 +69876,2573 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST29",
+    "testNum": 29,
+    "title": "VSTEP READING MOCK TEST 29",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 19 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: The \"Kangaroo Club\" in South Korea",
+        "topic": "Hội chứng \"CLB Chuột túi\": Hiện tượng người trẻ trưởng thành tại Hàn Quốc tiếp tục sống cùng và phụ thuộc tài chính vào cha mẹ do giá nhà cao và thị trường lao động khốc liệt",
+        "timeAllowed": 15,
+        "passage": "<p>In contemporary South Korean society, a growing demographic phenomenon known colloquially as the 'Kangaroo Tribe' (<em>Kenggeoru-jok</em>) has attracted widespread sociological attention. Named after the Australian marsupial that carries its young in a protective abdominal pouch long after infancy, this term characterizes unmarried adults in their late twenties, thirties, and even early forties who continue residing with their elderly parents while depending heavily upon them for housing, culinary sustenance, and financial subsidies. While multi-generational cohabitation historically represented filial duty in Confucian traditions, this modern recurrence is overwhelmingly driven by harsh economic realities rather than cultural reverence.</p><p>Primary among the structural catalysts fueling this trend is the exorbitant cost of residential housing across major urban centers, especially within the Seoul Metropolitan Area. South Korea’s unique rental mechanism, known as <em>jeonse</em>, mandates that tenants deposit a colossal lump sum—frequently exceeding several hundred thousand dollars—with the landlord in lieu of monthly rent payments. For recent university graduates saddled with student loans and entering an intensely competitive job market dominated by short-term precarious contracts, accumulating such astronomical capital is virtually impossible without extensive family assistance. Consequently, living in the parental home becomes an unavoidable survival adaptation rather than an intentional lifestyle choice.</p><p>Furthermore, the hyper-competitive nature of South Korea's white-collar labor market prolongs the period of economic dependency. Young job seekers, often designated as ' 취준생 ' (employment preparation candidates), frequently spend years studying full-time in specialized libraries to pass rigorous civil service examinations or secure coveted corporate positions at leading family conglomerates (<em>chaebols</em>). Unable to generate stable independent incomes during these prolonged preparatory intervals, adult children rely on their aging mothers and fathers to cover daily grocery bills, healthcare premiums, and expensive private academy tuition fees.</p><p>This prolonged cohabitation exerts profound, destabilizing repercussions on the welfare of aging parents. Many elderly Koreans find their anticipated retirement savings severely eroded because they continue underwriting the living expenditures of their adult offspring. Rather than enjoying leisurely retirements supported by state pensions, seniors frequently take precarious low-wage courier, sanitation, or security jobs well into their seventies. Sociologists warn that unless comprehensive government interventions alleviate urban housing inflation and reform rigid entry-level labor practices, the Kangaroo phenomenon risks creating an intergenerational cycle of financial depletion that jeopardizes the nation’s long-term socioeconomic stability.</p>",
+        "vocab": [
+          {
+            "word": "marsupial",
+            "pos": "noun",
+            "ipa": "/mɑːˈsuː.pi.əl/",
+            "level": "C1",
+            "mean": "thú có túi (như chuột túi, koala)",
+            "syns": [
+              "pouched mammal"
+            ],
+            "ex": "Kangaroos and koalas are the best-known Australian marsupials."
+          },
+          {
+            "word": "pouch",
+            "pos": "noun",
+            "ipa": "/paʊtʃ/",
+            "level": "B2",
+            "mean": "túi ấp (trước bụng thú có túi)",
+            "syns": [
+              "sac",
+              "pocket"
+            ],
+            "ex": "The kangaroo mother shelters her young inside her abdominal pouch."
+          },
+          {
+            "word": "sustenance",
+            "pos": "noun",
+            "ipa": "/ˈsʌs.tɪ.nəns/",
+            "level": "C1",
+            "mean": "thức ăn nuôi sống, dinh dưỡng duy trì sự sống",
+            "syns": [
+              "nourishment",
+              "food",
+              "livelihood"
+            ],
+            "ex": "Adult children still rely on their parents for daily meals and culinary sustenance."
+          },
+          {
+            "word": "subsidy",
+            "pos": "noun",
+            "ipa": "/ˈsʌb.sɪ.di/",
+            "level": "B2",
+            "mean": "khoản tiền trợ cấp, hỗ trợ tài chính",
+            "syns": [
+              "financial grant",
+              "allowance",
+              "aid"
+            ],
+            "ex": "Many graduates depend on monthly parental subsidies to cover basic living costs."
+          },
+          {
+            "word": "cohabitation",
+            "pos": "noun",
+            "ipa": "/ˌkəʊ.hæb.ɪˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự cùng chung sống dưới một mái nhà",
+            "syns": [
+              "living together",
+              "co-residence"
+            ],
+            "ex": "Intergenerational cohabitation has become widespread in high-cost Asian cities."
+          },
+          {
+            "word": "filial",
+            "pos": "adjective",
+            "ipa": "/ˈfɪl.i.əl/",
+            "level": "C1",
+            "mean": "thuộc đạo làm con, hiếu thảo",
+            "syns": [
+              "dutiful",
+              "obedient",
+              "respectful"
+            ],
+            "ex": "Confucian philosophy places great moral emphasis on filial piety toward elderly parents."
+          },
+          {
+            "word": "recurrence",
+            "pos": "noun",
+            "ipa": "/rɪˈkʌr.əns/",
+            "level": "B2",
+            "mean": "sự tái hiện, sự lặp lại",
+            "syns": [
+              "repetition",
+              "reappearance",
+              "return"
+            ],
+            "ex": "The recurrence of multi-generational living is driven by high rental rates."
+          },
+          {
+            "word": "reverence",
+            "pos": "noun",
+            "ipa": "/ˈrev.ər.əns/",
+            "level": "C1",
+            "mean": "lòng tôn kính, sự sùng kính sâu sắc",
+            "syns": [
+              "veneration",
+              "respect",
+              "honor"
+            ],
+            "ex": "Ancestral traditions are observed with profound cultural reverence."
+          },
+          {
+            "word": "exorbitant",
+            "pos": "adjective",
+            "ipa": "/ɪɡˈzɔː.bɪ.tənt/",
+            "level": "C1",
+            "mean": "đắt đỏ cắt cổ, vượt quá mức hợp lý",
+            "syns": [
+              "excessive",
+              "sky-high",
+              "extortionate"
+            ],
+            "ex": "Exorbitant apartment prices in Seoul prevent young workers from purchasing homes."
+          },
+          {
+            "word": "deposit",
+            "pos": "noun",
+            "ipa": "/dɪˈpɒz.ɪt/",
+            "level": "B1",
+            "mean": "khoản tiền đặt cọc",
+            "syns": [
+              "down payment",
+              "security bond",
+              "stake"
+            ],
+            "ex": "Tenants must hand over a massive cash deposit before moving into an apartment."
+          },
+          {
+            "word": "lump",
+            "pos": "adjective",
+            "ipa": "/lʌmp/",
+            "level": "B2",
+            "mean": "trọn gói, một cục (tiền trả một lần)",
+            "syns": [
+              "single-payment",
+              "aggregate",
+              "full"
+            ],
+            "ex": "The lease requires a colossal lump sum paid in advance."
+          },
+          {
+            "word": "saddled",
+            "pos": "adjective",
+            "ipa": "/ˈsæd.əld/",
+            "level": "B2",
+            "mean": "bị đè nặng (bởi nợ nần, gánh nặng)",
+            "syns": [
+              "burdened",
+              "encumbered",
+              "weighed down"
+            ],
+            "ex": "Fresh university graduates are saddled with heavy student debts upon graduation."
+          },
+          {
+            "word": "precarious",
+            "pos": "adjective",
+            "ipa": "/prɪˈkeə.ri.əs/",
+            "level": "B2",
+            "mean": "bấp bênh, thiếu ổn định, tạm thời",
+            "syns": [
+              "insecure",
+              "unstable",
+              "uncertain"
+            ],
+            "ex": "Many young professionals survive on short-term precarious contracts without benefits."
+          },
+          {
+            "word": "astronomical",
+            "pos": "adjective",
+            "ipa": "/ˌæs.trəˈnɒm.ɪ.kəl/",
+            "level": "B2",
+            "mean": "khổng lồ, cao ngất ngưởng như thiên văn",
+            "syns": [
+              "colossal",
+              "gigantic",
+              "huge"
+            ],
+            "ex": "Saving an astronomical sum of money on entry-level salaries is virtually impossible."
+          },
+          {
+            "word": "hyper-competitive",
+            "pos": "adjective",
+            "ipa": "/ˌhaɪ.pə.kəmˈpet.ɪ.tɪv/",
+            "level": "B2",
+            "mean": "cạnh tranh vô cùng khốc liệt",
+            "syns": [
+              "cutthroat",
+              "fiercely contested"
+            ],
+            "ex": "Graduates face a hyper-competitive corporate recruitment process."
+          },
+          {
+            "word": "coveted",
+            "pos": "adjective",
+            "ipa": "/ˈkʌv.ɪ.tɪd/",
+            "level": "C1",
+            "mean": "được thèm muốn, được khao khát săn đón",
+            "syns": [
+              "desired",
+              "prized",
+              "sought-after"
+            ],
+            "ex": "Securing a coveted position at a major technology company requires multiple rounds of interviews."
+          },
+          {
+            "word": "conglomerate",
+            "pos": "noun",
+            "ipa": "/kənˈɡlɒm.ər.ət/",
+            "level": "B2",
+            "mean": "tập đoàn tài phiệt đa ngành",
+            "syns": [
+              "business giant",
+              "corporate empire",
+              "consortium"
+            ],
+            "ex": "South Korea's major chaebols dominate key industrial sectors of the economy."
+          },
+          {
+            "word": "prolonged",
+            "pos": "adjective",
+            "ipa": "/prəˈlɒŋd/",
+            "level": "B2",
+            "mean": "kéo dài dai dẳng",
+            "syns": [
+              "extended",
+              "protracted",
+              "lengthy"
+            ],
+            "ex": "Prolonged job searching delays marriage and independent home ownership."
+          },
+          {
+            "word": "preparatory",
+            "pos": "adjective",
+            "ipa": "/prɪˈpær.ə.tər.i/",
+            "level": "B2",
+            "mean": "mang tính chuẩn bị trước",
+            "syns": [
+              "introductory",
+              "preliminary",
+              "qualifying"
+            ],
+            "ex": "She enrolled in rigorous preparatory courses to pass the national bar exam."
+          },
+          {
+            "word": "repercussion",
+            "pos": "noun",
+            "ipa": "/ˌriː.pəˈkʌʃ.ən/",
+            "level": "C1",
+            "mean": "hậu quả gián tiếp, tác động dây chuyền tiêu cực",
+            "syns": [
+              "consequence",
+              "aftermath",
+              "fallout"
+            ],
+            "ex": "Delayed independence creates severe financial repercussions for aging parents."
+          },
+          {
+            "word": "erode",
+            "pos": "verb",
+            "ipa": "/ɪˈrəʊd/",
+            "level": "B2",
+            "mean": "bào mòn, làm hao mòn dần",
+            "syns": [
+              "diminish",
+              "wear down",
+              "deplete"
+            ],
+            "ex": "Supporting adult children erodes the modest pension savings of elderly couples."
+          },
+          {
+            "word": "underwrite",
+            "pos": "verb",
+            "ipa": "/ˌʌn.dəˈraɪt/",
+            "level": "C1",
+            "mean": "bao cấp, chi trả bảo đảm tài chính",
+            "syns": [
+              "finance",
+              "subsidize",
+              "sponsor"
+            ],
+            "ex": "Parents continue to underwrite their offspring's rent and health insurance."
+          },
+          {
+            "word": "expenditure",
+            "pos": "noun",
+            "ipa": "/ɪkˈspen.dɪ.tʃər/",
+            "level": "B2",
+            "mean": "khoản chi tiêu, chi phí bỏ ra",
+            "syns": [
+              "spending",
+              "outlay",
+              "cost"
+            ],
+            "ex": "Household grocery expenditure doubles when two grown children remain at home."
+          },
+          {
+            "word": "sanitation",
+            "pos": "noun",
+            "ipa": "/ˌsæn.ɪˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "vệ sinh môi trường, lao công rác thải",
+            "syns": [
+              "cleanliness",
+              "waste disposal"
+            ],
+            "ex": "Many retired senior citizens work as building sanitation cleaners to make ends meet."
+          },
+          {
+            "word": "alleviate",
+            "pos": "verb",
+            "ipa": "/əˈliː.vi.eɪt/",
+            "level": "B2",
+            "mean": "làm giảm bớt, xoa dịu áp lực",
+            "syns": [
+              "ease",
+              "relieve",
+              "mitigate"
+            ],
+            "ex": "Subsidized public housing projects could alleviate the burden on young couples."
+          },
+          {
+            "word": "intergenerational",
+            "pos": "adjective",
+            "ipa": "/ˌɪn.təˌdʒen.əˈreɪ.ʃən.əl/",
+            "level": "B2",
+            "mean": "giữa các thế hệ, liên thế hệ",
+            "syns": [
+              "cross-generational",
+              "age-spanning"
+            ],
+            "ex": "Economic friction causes complex intergenerational conflict within the household."
+          },
+          {
+            "word": "jeopardize",
+            "pos": "verb",
+            "ipa": "/ˈdʒep.ə.daɪz/",
+            "level": "B2",
+            "mean": "gây nguy hiểm, đe dọa làm tổn hại",
+            "syns": [
+              "endanger",
+              "threaten",
+              "imperil"
+            ],
+            "ex": "Widespread poverty among the elderly could jeopardize national welfare stability."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t29_q1",
+            "num": 1,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "The zoological breeding patterns of Australian marsupials in urban zoos",
+              "The economic causes and societal consequences of the \"Kangaroo Tribe\" phenomenon in South Korea",
+              "The historical transition from traditional Confucianism to Western individualism",
+              "The architectural techniques used to construct modern apartment towers in Seoul"
+            ],
+            "optionsVi": [
+              "Khuôn mẫu sinh sản động vật học của các loài thú có túi Australia trong sở thú đô thị",
+              "Nguyên nhân kinh tế và hệ quả xã hội của hiện tượng \"Bộ tộc Chuột túi\" tại Hàn Quốc",
+              "Sự chuyển dịch lịch sử từ Nho giáo truyền thống sang chủ nghĩa cá nhân phương Tây",
+              "Kỹ thuật kiến trúc được sử dụng để xây dựng các tòa tháp chung cư hiện đại ở Seoul"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "In contemporary South Korean society, a growing demographic phenomenon known colloquially as the 'Kangaroo Tribe'... this modern recurrence is overwhelmingly driven by harsh economic realities... Primary among the structural catalysts... is the exorbitant cost of residential housing... Furthermore, the hyper-competitive nature of South Korea's white-collar labor market... This prolonged cohabitation exerts profound, destabilizing repercussions on the welfare of aging parents.",
+            "evidenceVi": "Trong xã hội Hàn Quốc đương đại, một hiện tượng nhân khẩu học ngày càng gia tăng được gọi là 'Bộ tộc Chuột túi'... sự tái hiện này chủ yếu bắt nguồn từ những thực tế kinh tế khắc nghiệt... Đứng đầu trong số các chất xúc tác cấu trúc... là chi phí nhà ở đắt đỏ... Hơn nữa, thị trường lao động cạnh tranh khốc liệt... Sự cùng chung sống kéo dài này gây ra những tác động tiêu cực sâu sắc tới cha mẹ già.",
+            "explanation": "Đoạn văn phân tích toàn diện hiện tượng 'Kangaroo Tribe' tại Hàn Quốc: định nghĩa, nguyên nhân kinh tế (giá nhà jeonse, thất nghiệp/chuẩn bị thi cử kéo dài) và hệ lụy làm suy kiệt tài chính của cha mẹ già.",
+            "postReading": {
+              "original": "this term characterizes unmarried adults in their late twenties, thirties, and even early forties who continue residing with their elderly parents while depending heavily upon them",
+              "paraphrase": "this expression describes single mature individuals aged 25 to 40+ who remain in the parental home, relying extensively on their mothers and fathers",
+              "analysis": "'Unmarried adults in their late twenties, thirties, and even early forties' = 'single mature individuals aged 25 to 40+'; 'continue residing with their elderly parents' = 'remain in the parental home'; 'depending heavily upon them' = 'relying extensively on their mothers and fathers'."
+            }
+          },
+          {
+            "id": "t29_q2",
+            "num": 2,
+            "question": "According to paragraph 1, how does modern \"Kangaroo\" cohabitation differ from historical Confucian family living?",
+            "questionVi": "Theo đoạn 1, sự sống chung của \"Bộ tộc Chuột túi\" ngày nay khác biệt như thế nào so với truyền thống gia đình Nho giáo lịch sử?",
+            "questionType": "Detail",
+            "options": [
+              "Modern cohabitation is legally prohibited by the constitutional government",
+              "Historical cohabitation was rooted in moral filial piety, whereas modern cohabitation is forced by economic necessity",
+              "Historical living arrangements excluded grandparents from the household",
+              "Modern adults live with their parents exclusively to manage family agricultural farms"
+            ],
+            "optionsVi": [
+              "Sự sống chung hiện đại bị cấm về mặt pháp lý bởi chính phủ hợp hiến",
+              "Sự sống chung lịch sử bắt nguồn từ chữ hiếu đạo đức, trong khi sự sống chung hiện đại bị thúc ép bởi hoàn cảnh kinh tế ngặt nghèo",
+              "Các dàn xếp sinh sống lịch sử loại trừ ông bà ra khỏi hộ gia đình",
+              "Người trưởng thành hiện đại sống với cha mẹ chỉ duy nhất để quản lý các trang trại nông nghiệp gia đình"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "While multi-generational cohabitation historically represented filial duty in Confucian traditions, this modern recurrence is overwhelmingly driven by harsh economic realities rather than cultural reverence.",
+            "evidenceVi": "Trong khi việc cùng chung sống nhiều thế hệ trước đây đại diện cho bổn phận làm con hiếu thảo trong truyền thống Nho giáo, thì sự tái hiện hiện đại này chủ yếu bị thúc đẩy bởi những thực tế kinh tế khắc nghiệt hơn là lòng tôn kính văn hóa.",
+            "explanation": "Đoạn 1 nêu rõ: trước đây sống chung là do chữ hiếu (filial duty), còn ngày nay là do hoàn cảnh kinh tế bức bách (harsh economic realities).",
+            "postReading": {
+              "original": "While multi-generational cohabitation historically represented filial duty in Confucian traditions, this modern recurrence is overwhelmingly driven by harsh economic realities",
+              "paraphrase": "Although multiple generations living under one roof was formerly a Confucian symbol of respect, its contemporary resurgence is predominantly caused by severe financial constraints",
+              "analysis": "'Multi-generational cohabitation' = 'multiple generations living under one roof'; 'filial duty' = 'symbol of respect'; 'harsh economic realities' = 'severe financial constraints'."
+            }
+          },
+          {
+            "id": "t29_q3",
+            "num": 3,
+            "question": "The word \"exorbitant\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"exorbitant\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "excessive and extreme",
+              "reasonable and fair",
+              "temporary and brief",
+              "decreasing and minor"
+            ],
+            "optionsVi": [
+              "quá mức và cực đoan, đắt đỏ",
+              "hợp lý và công bằng",
+              "tạm thời và ngắn ngủi",
+              "giảm dần và thứ yếu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Primary among the structural catalysts fueling this trend is the exorbitant cost of residential housing across major urban centers...",
+            "evidenceVi": "Đứng đầu trong số các chất xúc tác cấu trúc thúc đẩy xu hướng này là chi phí nhà ở đắt đỏ quá mức trên khắp các trung tâm đô thị lớn...",
+            "explanation": "'Exorbitant' có nghĩa là quá cao, đắt cắt cổ, vượt xa mức bình thường, đồng nghĩa với 'excessive and extreme'.",
+            "postReading": {
+              "original": "the exorbitant cost of residential housing across major urban centers",
+              "paraphrase": "the prohibitively high expense of domestic accommodation in principal cities",
+              "analysis": "'Exorbitant cost' = 'prohibitively high expense'; 'residential housing' = 'domestic accommodation'; 'major urban centers' = 'principal cities'."
+            }
+          },
+          {
+            "id": "t29_q4",
+            "num": 4,
+            "question": "According to paragraph 2, what is the distinctive characteristic of South Korea's \"jeonse\" rental lease system?",
+            "questionVi": "Theo đoạn 2, đặc điểm riêng biệt của hệ thống hợp đồng thuê nhà \"jeonse\" của Hàn Quốc là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Tenants must work twenty hours weekly in the landlord's grocery store",
+              "Tenants deposit an enormous cash lump sum with the landlord instead of paying regular monthly rent",
+              "The government purchases the apartment for the tenant after six months",
+              "Landlords provide free daily meals and utilities to all residents"
+            ],
+            "optionsVi": [
+              "Người thuê nhà phải làm việc 20 giờ mỗi tuần tại cửa hàng tạp hóa của chủ nhà",
+              "Người thuê phải đặt cọc một khoản tiền mặt trọn gói khổng lồ cho chủ nhà thay vì trả tiền thuê định kỳ hàng tháng",
+              "Chính phủ mua lại căn hộ cho người thuê sau sáu tháng",
+              "Chủ nhà cung cấp các bữa ăn hàng ngày và dịch vụ tiện ích miễn phí cho tất cả cư dân"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "South Korea’s unique rental mechanism, known as jeonse, mandates that tenants deposit a colossal lump sum—frequently exceeding several hundred thousand dollars—with the landlord in lieu of monthly rent payments.",
+            "evidenceVi": "Cơ chế thuê nhà độc đáo của Hàn Quốc gọi là jeonse, yêu cầu người thuê phải gửi một khoản tiền đặt cọc trọn gói khổng lồ—thường vượt quá hàng trăm nghìn đô la—cho chủ nhà thay vì trả tiền thuê hàng tháng.",
+            "explanation": "Đoạn 2 nêu rõ: hình thức thuê nhà jeonse đòi hỏi một khoản tiền mặt khổng lồ nộp một lần (lump sum) thay thế tiền thuê nhà hàng tháng.",
+            "postReading": {
+              "original": "mandates that tenants deposit a colossal lump sum—frequently exceeding several hundred thousand dollars—with the landlord in lieu of monthly rent payments.",
+              "paraphrase": "requires renters to lodge a massive upfront capital amount, often totaling hundreds of thousands of dollars, instead of recurring monthly lease fees.",
+              "analysis": "'Deposit a colossal lump sum' = 'lodge a massive upfront capital amount'; 'in lieu of monthly rent payments' = 'instead of recurring monthly lease fees'."
+            }
+          },
+          {
+            "id": "t29_q5",
+            "num": 5,
+            "question": "The word \"precarious\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"precarious\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "insecure and unstable",
+              "permanent and lifelong",
+              "prestigious and highly paid",
+              "government-funded"
+            ],
+            "optionsVi": [
+              "bấp bênh và thiếu ổn định",
+              "vĩnh viễn và trọn đời",
+              "danh giá và lương cao",
+              "được chính phủ tài trợ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "entering an intensely competitive job market dominated by short-term precarious contracts...",
+            "evidenceVi": "bước vào một thị trường việc làm cạnh tranh gay gắt bị chi phối bởi các hợp đồng bấp bênh ngắn hạn...",
+            "explanation": "'Precarious' nghĩa là bấp bênh, tạm bợ, có thể mất việc bất cứ lúc nào, đồng nghĩa với 'insecure and unstable'.",
+            "postReading": {
+              "original": "entering an intensely competitive job market dominated by short-term precarious contracts",
+              "paraphrase": "stepping into an exceptionally rivalrous employment landscape characterized by unstable temporary agreements",
+              "analysis": "'Intensely competitive job market' = 'exceptionally rivalrous employment landscape'; 'short-term precarious contracts' = 'unstable temporary agreements'."
+            }
+          },
+          {
+            "id": "t29_q6",
+            "num": 6,
+            "question": "According to paragraph 3, what occupational goal often leads Korean youth to remain unemployed for several years?",
+            "questionVi": "Theo đoạn 3, mục tiêu nghề nghiệp nào thường khiến giới trẻ Hàn Quốc duy trì tình trạng thất nghiệp trong nhiều năm?",
+            "questionType": "Detail",
+            "options": [
+              "Traveling abroad to become professional international soccer players",
+              "Studying full-time to pass competitive civil service exams or win corporate roles at major family chaebols",
+              "Refusing all modern work to establish rural organic communes",
+              "Volunteering full-time for environmental charities without pay"
+            ],
+            "optionsVi": [
+              "Đi du lịch nước ngoài để trở thành cầu thủ bóng đá chuyên nghiệp quốc tế",
+              "Học tập toàn thời gian để vượt qua các kỳ thi công chức cạnh tranh hoặc giành vị trí tại các tập đoàn tài phiệt chaebol lớn",
+              "Từ chối mọi công việc hiện đại để thành lập các công xã hữu cơ nông thôn",
+              "Làm tình nguyện toàn thời gian cho các tổ chức từ thiện môi trường không nhận lương"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Young job seekers... frequently spend years studying full-time in specialized libraries to pass rigorous civil service examinations or secure coveted corporate positions at leading family conglomerates (chaebols).",
+            "evidenceVi": "Những người trẻ tìm việc... thường dành nhiều năm học tập toàn thời gian trong các thư viện chuyên biệt để thi đỗ các kỳ thi tuyển công chức khắt khe hoặc giành các vị trí khao khát tại các tập đoàn gia đình hàng đầu (chaebol).",
+            "explanation": "Đoạn 3 chỉ rõ nguyên nhân chuẩn bị kéo dài: ôn thi công chức nhà nước hoặc thi tuyển vào các tập đoàn lớn (chaebol).",
+            "postReading": {
+              "original": "frequently spend years studying full-time in specialized libraries to pass rigorous civil service examinations or secure coveted corporate positions at leading family conglomerates",
+              "paraphrase": "often dedicate multiple years to intensive study to clear stringent government public-service tests or attain prized posts at dominant business conglomerates",
+              "analysis": "'Rigorous civil service examinations' = 'stringent government public-service tests'; 'coveted corporate positions' = 'prized posts'; 'family conglomerates' = 'business conglomerates'."
+            }
+          },
+          {
+            "id": "t29_q7",
+            "num": 7,
+            "question": "The word \"eroded\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"eroded\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "gradually depleted",
+              "rapidly multiplied",
+              "safely protected",
+              "officially doubled"
+            ],
+            "optionsVi": [
+              "bị làm hao mòn dần",
+              "được nhân lên nhanh chóng",
+              "được bảo vệ an toàn",
+              "được nhân đôi chính thức"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Many elderly Koreans find their anticipated retirement savings severely eroded because they continue underwriting the living expenditures of their adult offspring.",
+            "evidenceVi": "Nhiều người cao tuổi Hàn Quốc nhận thấy tiền tiết kiệm hưu trí dự kiến của họ bị bào mòn nghiêm trọng vì họ tiếp tục bao cấp chi phí sinh hoạt cho con cái đã trưởng thành.",
+            "explanation": "'Eroded' có nghĩa là bị hao mòn, suy giảm dần theo thời gian, đồng nghĩa với 'gradually depleted'.",
+            "postReading": {
+              "original": "their anticipated retirement savings severely eroded because they continue underwriting the living expenditures of their adult offspring.",
+              "paraphrase": "their planned pension funds heavily diminished because they persist in financing the everyday expenses of their grown children.",
+              "analysis": "'Anticipated retirement savings' = 'planned pension funds'; 'severely eroded' = 'heavily diminished'; 'underwriting the living expenditures' = 'financing the everyday expenses'."
+            }
+          },
+          {
+            "id": "t29_q8",
+            "num": 8,
+            "question": "According to paragraph 4, what coping mechanism do elderly parents frequently resort to in their late sixties and seventies?",
+            "questionVi": "Theo đoạn 4, cơ chế đối phó nào mà cha mẹ già thường phải tìm đến vào những năm cuối thập niên 60 và 70 tuổi?",
+            "questionType": "Detail",
+            "options": [
+              "Selling their residential apartments to embark on luxury worldwide cruise holidays",
+              "Taking low-wage, physically demanding jobs such as courier delivery, sanitation cleaning, or building security",
+              "Suing their adult offspring in domestic civil courts for monetary refunds",
+              "Applying for political asylum in European nations"
+            ],
+            "optionsVi": [
+              "Bán căn hộ đang ở để đi các kỳ nghỉ du thuyền sang trọng vòng quanh thế giới",
+              "Làm những công việc lương thấp, vất vả về thể chất như giao hàng, lao công dọn vệ sinh hoặc bảo vệ tòa nhà",
+              "Kiện con cái trưởng thành ra tòa án dân sự để đòi hoàn lại tiền",
+              "Nộp đơn xin tị nạn chính trị tại các quốc gia Châu Âu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Rather than enjoying leisurely retirements supported by state pensions, seniors frequently take precarious low-wage courier, sanitation, or security jobs well into their seventies.",
+            "evidenceVi": "Thay vì tận hưởng những năm tháng nghỉ hưu an nhàn nhờ lương hưu nhà nước, người cao tuổi thường phải làm các công việc bấp bênh lương thấp như người giao hàng, lao công hoặc bảo vệ cho đến tận tuổi bảy mươi.",
+            "explanation": "Đoạn 4 nêu rõ: do tiền hưu trí bị cạn kiệt, người già phải đi làm shipper, quét dọn vệ sinh, bảo vệ tòa nhà dù đã ngoài 70 tuổi.",
+            "postReading": {
+              "original": "seniors frequently take precarious low-wage courier, sanitation, or security jobs well into their seventies.",
+              "paraphrase": "elderly individuals regularly accept poorly paid, vulnerable employment in delivery, cleaning, or guarding even past seventy years of age.",
+              "analysis": "'Seniors' = 'elderly individuals'; 'precarious low-wage courier, sanitation, or security jobs' = 'poorly paid, vulnerable employment in delivery, cleaning, or guarding'; 'well into their seventies' = 'even past seventy years of age'."
+            }
+          },
+          {
+            "id": "t29_q9",
+            "num": 9,
+            "question": "The word \"jeopardizes\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"jeopardizes\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "imperils and endangers",
+              "strengthens and secures",
+              "simplifies",
+              "finances"
+            ],
+            "optionsVi": [
+              "đe dọa làm nguy hại",
+              "củng cố và làm vững chắc",
+              "đơn giản hóa",
+              "tài trợ tài chính"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the Kangaroo phenomenon risks creating an intergenerational cycle of financial depletion that jeopardizes the nation’s long-term socioeconomic stability.",
+            "evidenceVi": "hiện tượng Chuột túi có nguy cơ tạo ra một chu kỳ suy kiệt tài chính liên thế hệ đe dọa sự ổn định kinh tế - xã hội lâu dài của đất nước.",
+            "explanation": "'Jeopardizes' nghĩa là làm lâm nguy, đe dọa tổn hại, đồng nghĩa với 'imperils and endangers'.",
+            "postReading": {
+              "original": "an intergenerational cycle of financial depletion that jeopardizes the nation’s long-term socioeconomic stability.",
+              "paraphrase": "a cross-generational sequence of monetary exhaustion that endangers the country's enduring structural security.",
+              "analysis": "'Intergenerational cycle of financial depletion' = 'cross-generational sequence of monetary exhaustion'; 'jeopardizes the nation’s long-term socioeconomic stability' = 'endangers the country's enduring structural security'."
+            }
+          },
+          {
+            "id": "t29_q10",
+            "num": 10,
+            "question": "What broad policy solution does the author suggest in paragraph 4 to address this issue?",
+            "questionVi": "Tác giả đề xuất giải pháp chính sách khái quát nào ở đoạn 4 để giải quyết vấn đề này?",
+            "questionType": "Inference",
+            "options": [
+              "Banning adult children from living with their parents under criminal penalties",
+              "Implementing state policies to curb urban housing inflation and reforming restrictive entry-level employment markets",
+              "Eliminating all university education across South Korea",
+              "Encouraging all elderly citizens to emigrate to rural foreign territories"
+            ],
+            "optionsVi": [
+              "Cấm con cái trưởng thành sống cùng cha mẹ dưới các hình phạt hình sự",
+              "Thực thi các chính sách của nhà nước nhằm kiềm chế lạm phát nhà ở đô thị và cải cách thị trường lao động dành cho người mới vào nghề",
+              "Xóa bỏ toàn bộ nền giáo dục đại học trên khắp Hàn Quốc",
+              "Khuyến khích tất cả công dân cao tuổi di cư sang các vùng nông thôn nước ngoài"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Sociologists warn that unless comprehensive government interventions alleviate urban housing inflation and reform rigid entry-level labor practices, the Kangaroo phenomenon risks creating an intergenerational cycle...",
+            "evidenceVi": "Các nhà xã hội học cảnh báo rằng trừ khi có các biện pháp can thiệp toàn diện của chính phủ để giảm thiểu lạm phát nhà ở đô thị và cải cách các thông lệ tuyển dụng đầu vào cứng nhắc, hiện tượng Chuột túi có nguy cơ tạo ra một vòng xoáy...",
+            "explanation": "Đoạn cuối nêu rõ giải pháp cốt lõi: can thiệp của chính phủ kiềm chế giá nhà đô thị và cải cách cơ chế tuyển dụng việc làm đầu vào cho người trẻ.",
+            "postReading": {
+              "original": "unless comprehensive government interventions alleviate urban housing inflation and reform rigid entry-level labor practices",
+              "paraphrase": "without extensive state measures to rein in city property prices and restructure inflexible entry-level employment structures",
+              "analysis": "'Comprehensive government interventions' = 'extensive state measures'; 'alleviate urban housing inflation' = 'rein in city property prices'; 'reform rigid entry-level labor practices' = 'restructure inflexible entry-level employment structures'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Cognitive Behavioral Therapy for Insomnia (CBT-I): Rewiring Sleep Architecture",
+        "topic": "Liệu pháp Nhận thức Hành vi (CBT-I) điều trị mất ngủ mãn tính: So sánh hiệu quả lâu dài không tác dụng phụ so với thuốc an thần, cơ chế hạn chế thời gian ngủ và kiểm soát kích thích",
+        "timeAllowed": 15,
+        "passage": "<p>Chronic insomnia—characterized by persistent difficulty initiating, maintaining, or consolidating restorative sleep—afflicts between ten and fifteen percent of the global adult population, precipitating severe metabolic impairments, cardiovascular dysfunction, and heightened vulnerability to clinical depression. Historically, pharmaceutical pharmacotherapy represented the clinical standard of care. Physicians routinely prescribed sedative-hypnotic compounds, predominantly benzodiazepines and non-benzodiazepine 'Z-drugs' (such as zolpidem). While these hypnotic agents offer immediate short-term symptomatic relief, they fail to rectify the underlying psychophysiological drivers of sleeplessness. Furthermore, chronic pharmacological usage frequently induces physiological tolerance, chemical dependency, daytime cognitive impairment, and severe rebound insomnia upon abrupt cessation.</p><p>In light of these pharmaceutical liabilities, leading clinical bodies, including the American College of Physicians and the European Sleep Research Society, now unanimously designate Cognitive Behavioral Therapy for Insomnia (CBT-I) as the first-line intervention. Unlike hypnotic medications that passively force neurological sedation, CBT-I is a structured, multimodal psychotherapeutic regimen that targets the maladaptive cognitions, dysfunctional conditioning, and counterproductive behaviors that perpetuate sleeplessness. Conducted over six to eight weekly sessions, CBT-I restructures the patient's internal sleep architecture, re-establishing the biological association between the bed and restorative rest.</p><p>The behavioral cornerstone of CBT-I encompasses two potent techniques: Stimulus Control Therapy and Sleep Restriction Therapy. Over months of chronic wakefulness, insomniacs develop a Pavlovian conditioned arousal response, where the bedroom environment itself—pillows, mattress, and clock faces—becomes an active trigger for autonomic anxiety. Stimulus Control breaks this negative conditioning by enforcing strict operational rules: using the bed exclusively for sleep and intimacy, leaving the bedroom if wakeful for more than twenty minutes, and returning only when genuinely drowsy. Concurrently, Sleep Restriction Therapy temporarily limits time in bed to match the patient’s actual sleep duration, deliberately inducing mild sleep debt that amplifies biological homeostatic sleep drive and dramatically consolidates sleep efficiency.</p><p>Complementing these behavioral protocols is cognitive restructuring, which systematically dismantles catastrophic sleep-related beliefs. Insomniacs chronically amplify their distress through catastrophic distortions, convinced that a single restless night will inevitably sabotage their career or cause immediate bodily collapse. Therapists teach patients to reframe these exaggerated anxieties with objective, evidence-based appraisals. Randomized clinical trials consistently reveal that while pharmacotherapy produces slightly faster initial sedation, CBT-I yields sustained, durable sleep improvements that persist for years following therapy termination without harmful side effects, cementing its stature as the gold standard in behavioral sleep medicine.</p>",
+        "vocab": [
+          {
+            "word": "insomnia",
+            "pos": "noun",
+            "ipa": "/ɪnˈsɒm.ni.ə/",
+            "level": "B2",
+            "mean": "chứng mất ngủ mãn tính",
+            "syns": [
+              "sleeplessness",
+              "sleep disorder"
+            ],
+            "ex": "Chronic insomnia impairs memory, mood, and daily work performance."
+          },
+          {
+            "word": "consolidating",
+            "pos": "adjective",
+            "ipa": "/kənˈsɒl.ɪ.deɪ.tɪŋ/",
+            "level": "B2",
+            "mean": "làm cho liền mạch, củng cố vững chắc",
+            "syns": [
+              "stabilizing",
+              "unifying",
+              "solidifying"
+            ],
+            "ex": "Patients struggle with consolidating their sleep without waking multiple times."
+          },
+          {
+            "word": "pharmacotherapy",
+            "pos": "noun",
+            "ipa": "/ˌfɑː.mə.kəʊˈθer.ə.pi/",
+            "level": "C1",
+            "mean": "liệu pháp điều trị bằng thuốc",
+            "syns": [
+              "drug treatment",
+              "medication therapy"
+            ],
+            "ex": "Long-term pharmacotherapy for sleep problems carries significant addiction risks."
+          },
+          {
+            "word": "sedative",
+            "pos": "adjective",
+            "ipa": "/ˈsed.ə.tɪv/",
+            "level": "B2",
+            "mean": "gây buồn ngủ, an thần làm dịu thần kinh",
+            "syns": [
+              "calming",
+              "tranquilizing",
+              "soporific"
+            ],
+            "ex": "Doctors warned against using strong sedative pills every night."
+          },
+          {
+            "word": "hypnotic",
+            "pos": "adjective",
+            "ipa": "/hɪpˈnɒt.ɪk/",
+            "level": "C1",
+            "mean": "thuốc gây ngủ, có tác dụng ru ngủ",
+            "syns": [
+              "sleep-inducing",
+              "somniferous"
+            ],
+            "ex": "Hypnotic medications should only be taken under strict clinical supervision."
+          },
+          {
+            "word": "rectify",
+            "pos": "verb",
+            "ipa": "/ˈrek.tɪ.faɪ/",
+            "level": "B2",
+            "mean": "chữa trị tận gốc, khắc phục sửa chữa",
+            "syns": [
+              "remedy",
+              "resolve",
+              "correct"
+            ],
+            "ex": "Sleeping pills mask symptoms but fail to rectify the psychological root causes."
+          },
+          {
+            "word": "cessation",
+            "pos": "noun",
+            "ipa": "/sesˈeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự ngưng, sự chấm dứt hoàn toàn",
+            "syns": [
+              "termination",
+              "discontinuation",
+              "stopping"
+            ],
+            "ex": "Abrupt cessation of sleep medications causes severe withdrawal symptoms."
+          },
+          {
+            "word": "unanimously",
+            "pos": "adverb",
+            "ipa": "/juːˈnæn.ɪ.məs.li/",
+            "level": "B2",
+            "mean": "nhất trí, đồng thuận 100%",
+            "syns": [
+              "consensually",
+              "without opposition"
+            ],
+            "ex": "Health authorities unanimously endorsed CBT-I as the safest treatment option."
+          },
+          {
+            "word": "multimodal",
+            "pos": "adjective",
+            "ipa": "/ˌmʌl.tiˈməʊ.dəl/",
+            "level": "C1",
+            "mean": "đa phương thức, kết hợp nhiều cách tiếp cận",
+            "syns": [
+              "multifaceted",
+              "integrated",
+              "composite"
+            ],
+            "ex": "The program utilizes a multimodal approach combining behavioral and cognitive tasks."
+          },
+          {
+            "word": "maladaptive",
+            "pos": "adjective",
+            "ipa": "/ˌmæl.əˈdæp.tɪv/",
+            "level": "C1",
+            "mean": "kém thích nghi, mang tính phản tác dụng",
+            "syns": [
+              "counterproductive",
+              "unhelpful",
+              "dysfunctional"
+            ],
+            "ex": "Lying awake in bed for hours is a maladaptive coping behavior."
+          },
+          {
+            "word": "conditioning",
+            "pos": "noun",
+            "ipa": "/kənˈdɪʃ.ən.ɪŋ/",
+            "level": "B2",
+            "mean": "phản xạ có điều kiện (tâm lý học)",
+            "syns": [
+              "learned association",
+              "habituation"
+            ],
+            "ex": "Years of tossing and turning create negative psychological conditioning."
+          },
+          {
+            "word": "perpetuate",
+            "pos": "verb",
+            "ipa": "/pəˈpetʃ.u.eɪt/",
+            "level": "C1",
+            "mean": "kéo dài dai dẳng, làm duy trì mãi",
+            "syns": [
+              "prolong",
+              "sustain",
+              "continue"
+            ],
+            "ex": "Taking daytime naps can perpetuate night-time insomnia cycles."
+          },
+          {
+            "word": "stimulus",
+            "pos": "noun",
+            "ipa": "/ˈstɪm.jə.ləs/",
+            "level": "B2",
+            "mean": "kích thích tố, tác nhân kích hoạt",
+            "syns": [
+              "trigger",
+              "cue",
+              "incentive"
+            ],
+            "ex": "The clock on the wall acted as a stressful stimulus triggering racing thoughts."
+          },
+          {
+            "word": "arousal",
+            "pos": "noun",
+            "ipa": "/əˈraʊ.zəl/",
+            "level": "B2",
+            "mean": "sự hưng phấn, kích động sinh lý/tâm lý",
+            "syns": [
+              "activation",
+              "heightened alertness",
+              "excitement"
+            ],
+            "ex": "Bedtime anxiety causes physiological arousal, elevating heart rates."
+          },
+          {
+            "word": "autonomic",
+            "pos": "adjective",
+            "ipa": "/ˌɔː.təˈnɒm.ɪk/",
+            "level": "C1",
+            "mean": "thuộc hệ thần kinh tự chủ (tự thực vật)",
+            "syns": [
+              "involuntary",
+              "subconscious"
+            ],
+            "ex": "The autonomic nervous system triggers a fight-or-flight response when stressed."
+          },
+          {
+            "word": "drowsy",
+            "pos": "adjective",
+            "ipa": "/ˈdraʊ.zi/",
+            "level": "B2",
+            "mean": "buồn ngủ, lơ mơ mơ màng",
+            "syns": [
+              "sleepy",
+              "somnolent",
+              "lethargic"
+            ],
+            "ex": "Only return to bed when your eyes feel heavy and you are truly drowsy."
+          },
+          {
+            "word": "homeostatic",
+            "pos": "adjective",
+            "ipa": "/ˌhəʊ.mi.əʊˈstæt.ɪk/",
+            "level": "C1",
+            "mean": "thuộc cân bằng nội môi sinh học",
+            "syns": [
+              "self-balancing",
+              "regulatory"
+            ],
+            "ex": "Staying awake builds up homeostatic sleep pressure throughout the day."
+          },
+          {
+            "word": "catastrophic",
+            "pos": "adjective",
+            "ipa": "/ˌkæt.əˈstrɒf.ɪk/",
+            "level": "B2",
+            "mean": "thảm khốc, mang tính bi quan hóa tột cùng",
+            "syns": [
+              "disastrous",
+              "calamitous",
+              "ruinous"
+            ],
+            "ex": "Patients often harbor catastrophic fears that sleeplessness will ruin their health."
+          },
+          {
+            "word": "distortion",
+            "pos": "noun",
+            "ipa": "/dɪˈstɔː.ʃən/",
+            "level": "B2",
+            "mean": "sự bóp méo, suy nghĩ sai lệch thực tế",
+            "syns": [
+              "misconception",
+              "misrepresentation",
+              "bias"
+            ],
+            "ex": "Cognitive therapy helps patients identify cognitive distortions regarding sleep."
+          },
+          {
+            "word": "reframe",
+            "pos": "verb",
+            "ipa": "/ˌriːˈfreɪm/",
+            "level": "B2",
+            "mean": "tái định hình, nhìn nhận lại theo góc nhìn mới tích cực",
+            "syns": [
+              "reconceptualize",
+              "rethink",
+              "reinterpret"
+            ],
+            "ex": "Patients learn to reframe an occasional bad night as a harmless inconvenience."
+          },
+          {
+            "word": "appraisal",
+            "pos": "noun",
+            "ipa": "/əˈpreɪ.zəl/",
+            "level": "B2",
+            "mean": "sự đánh giá, thẩm định khách quan",
+            "syns": [
+              "evaluation",
+              "assessment",
+              "judgment"
+            ],
+            "ex": "Replacing emotional fears with realistic appraisal reduces bedtime stress."
+          },
+          {
+            "word": "sedation",
+            "pos": "noun",
+            "ipa": "/sɪˈdeɪ.ʃən/",
+            "level": "C1",
+            "mean": "trạng thái an thần, mê man do thuốc",
+            "syns": [
+              "induced sleep",
+              "drowsiness",
+              "stupor"
+            ],
+            "ex": "Medications produce unnatural sedation that lacks the restorative power of natural deep sleep."
+          },
+          {
+            "word": "durable",
+            "pos": "adjective",
+            "ipa": "/ˈdʒʊə.rə.bəl/",
+            "level": "B2",
+            "mean": "bền vững, lâu dài theo năm tháng",
+            "syns": [
+              "long-lasting",
+              "enduring",
+              "persistent"
+            ],
+            "ex": "CBT-I offers durable improvements that continue long after therapy concludes."
+          },
+          {
+            "word": "stature",
+            "pos": "noun",
+            "ipa": "/ˈstætʃ.ər/",
+            "level": "C1",
+            "mean": "vị thế, uy tín được thừa nhận rộng rãi",
+            "syns": [
+              "standing",
+              "reputation",
+              "prestige"
+            ],
+            "ex": "CBT-I has earned global stature as the premier treatment for sleeplessness."
+          },
+          {
+            "word": "enforce",
+            "pos": "verb",
+            "ipa": "/ɪnˈfɔːs/",
+            "level": "B2",
+            "mean": "thực thi nghiêm ngặt, áp dụng bắt buộc",
+            "syns": [
+              "implement",
+              "impose",
+              "execute"
+            ],
+            "ex": "Strictly enforcing regular waking hours anchors the human circadian pacemaker."
+          },
+          {
+            "word": "intimacy",
+            "pos": "noun",
+            "ipa": "/ˈɪn.tɪ.mə.si/",
+            "level": "B2",
+            "mean": "sự gần gũi, thân mật tình cảm",
+            "syns": [
+              "closeness",
+              "affection"
+            ],
+            "ex": "Under stimulus control, the bedroom is strictly reserved for sleep and intimacy."
+          },
+          {
+            "word": "efficiency",
+            "pos": "noun",
+            "ipa": "/ɪˈfɪʃ.ən.si/",
+            "level": "B2",
+            "mean": "hiệu suất (tỷ lệ thời gian ngủ trên thời gian nằm giường)",
+            "syns": [
+              "productivity",
+              "competence",
+              "ratio"
+            ],
+            "ex": "Sleep restriction therapy elevates sleep efficiency above eighty-five percent."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t29_q11",
+            "num": 11,
+            "question": "What is the primary objective of the passage?",
+            "questionVi": "Mục tiêu chính của đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "To promote the chemical synthesis of new pharmaceutical hypnotic sleeping tablets",
+              "To explain the principles, components, and long-term efficacy of Cognitive Behavioral Therapy for Insomnia (CBT-I)",
+              "To demonstrate that chronic insomnia causes no physiological or psychological harm",
+              "To teach readers how to assemble electronic smart mattresses"
+            ],
+            "optionsVi": [
+              "Quảng bá việc tổng hợp hóa học các loại thuốc ngủ an thần mới",
+              "Giải thích các nguyên lý, thành phần và hiệu quả lâu dài của Liệu pháp Nhận thức Hành vi cho Mất ngủ (CBT-I)",
+              "Chứng minh rằng mất ngủ mãn tính không gây ra bất kỳ tác hại sinh lý hay tâm lý nào",
+              "Hướng dẫn độc giả cách lắp ráp nệm thông minh điện tử"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "CBT-I is a structured, multimodal psychotherapeutic regimen that targets the maladaptive cognitions, dysfunctional conditioning, and counterproductive behaviors that perpetuate sleeplessness... The behavioral cornerstone... encompasses Stimulus Control Therapy and Sleep Restriction Therapy... Complementing these behavioral protocols is cognitive restructuring...",
+            "evidenceVi": "CBT-I là một liệu trình tâm lý trị liệu đa phương thức có cấu trúc nhắm vào các nhận thức sai lệch, phản xạ rối loạn và hành vi phản tác dụng... Nền tảng hành vi... bao gồm Liệu pháp Kiểm soát Kích thích và Liệu pháp Giới hạn Giấc ngủ... Bổ sung cho các quy trình này là tái cấu trúc nhận thức...",
+            "explanation": "Đoạn văn giải thích toàn diện về CBT-I: hạn chế của thuốc ngủ, cấu trúc phương pháp (Stimulus Control, Sleep Restriction, Cognitive Restructuring) và tính ưu việt bền vững của liệu pháp.",
+            "postReading": {
+              "original": "CBT-I is a structured, multimodal psychotherapeutic regimen that targets the maladaptive cognitions, dysfunctional conditioning, and counterproductive behaviors that perpetuate sleeplessness.",
+              "paraphrase": "CBT-I represents an organized, multifaceted psychological treatment aimed at correcting flawed thinking patterns, unhealthy conditioned reflexes, and self-defeating habits that maintain insomnia.",
+              "analysis": "'Structured, multimodal psychotherapeutic regimen' = 'organized, multifaceted psychological treatment'; 'maladaptive cognitions' = 'flawed thinking patterns'; 'perpetuate sleeplessness' = 'maintain insomnia'."
+            }
+          },
+          {
+            "id": "t29_q12",
+            "num": 12,
+            "question": "According to paragraph 1, what are the serious drawbacks of relying on pharmaceutical sleeping pills (such as benzodiazepines)?",
+            "questionVi": "Theo đoạn 1, những hạn chế nghiêm trọng của việc dựa vào thuốc ngủ dược phẩm (như benzodiazepine) là gì?",
+            "questionType": "Detail",
+            "options": [
+              "They permanently stain human teeth green",
+              "They fail to fix root causes and often induce tolerance, chemical dependency, cognitive fog, and rebound sleeplessness",
+              "They cause instantaneous physical blindness within twenty-four hours",
+              "They are too sweet to swallow with normal drinking water"
+            ],
+            "optionsVi": [
+              "Chúng làm ố răng con người thành màu xanh lá cây vĩnh viễn",
+              "Chúng không chữa được nguyên nhân gốc rễ và thường gây lờn thuốc, lệ thuộc hóa chất, suy giảm nhận thức ban ngày và mất ngủ bật lại",
+              "Chúng gây mù lòa thể chất ngay lập tức trong vòng 24 giờ",
+              "Chúng quá ngọt nên không thể nuốt cùng nước uống thông thường"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "they fail to rectify the underlying psychophysiological drivers of sleeplessness. Furthermore, chronic pharmacological usage frequently induces physiological tolerance, chemical dependency, daytime cognitive impairment, and severe rebound insomnia upon abrupt cessation.",
+            "evidenceVi": "chúng không khắc phục được các tác nhân tâm sinh lý tiềm ẩn của chứng mất ngủ. Hơn nữa, việc lạm dụng dược lý mãn tính thường gây ra sự lờn thuốc sinh lý, lệ thuộc hóa chất, suy giảm nhận thức ban ngày và chứng mất ngủ dội ngược nghiêm trọng khi dừng đột ngột.",
+            "explanation": "Đoạn 1 nêu rõ các tác dụng phụ của thuốc ngủ: lờn thuốc (tolerance), nghiện lệ thuộc (dependency), lơ mơ ban ngày và mất ngủ dội ngược khi dừng (rebound insomnia).",
+            "postReading": {
+              "original": "frequently induces physiological tolerance, chemical dependency, daytime cognitive impairment, and severe rebound insomnia upon abrupt cessation.",
+              "paraphrase": "regularly results in drug adaptation, addiction, daytime mental sluggishness, and worsened sleeplessness when stopped suddenly.",
+              "analysis": "'Physiological tolerance' = 'drug adaptation'; 'chemical dependency' = 'addiction'; 'daytime cognitive impairment' = 'daytime mental sluggishness'; 'rebound insomnia upon abrupt cessation' = 'worsened sleeplessness when stopped suddenly'."
+            }
+          },
+          {
+            "id": "t29_q13",
+            "num": 13,
+            "question": "The word \"rectify\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"rectify\" trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "remedy and correct",
+              "ignore and dismiss",
+              "worsen and intensify",
+              "record and measure"
+            ],
+            "optionsVi": [
+              "chữa trị và khắc phục",
+              "phớt lờ và bỏ qua",
+              "làm trầm trọng thêm",
+              "ghi nhận và đo lường"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "they fail to rectify the underlying psychophysiological drivers of sleeplessness.",
+            "evidenceVi": "chúng thất bại trong việc khắc phục những động lực tâm sinh lý nền tảng của chứng mất ngủ.",
+            "explanation": "'Rectify' có nghĩa là sửa đổi, khắc phục, chữa lành tận gốc, đồng nghĩa với 'remedy and correct'.",
+            "postReading": {
+              "original": "fail to rectify the underlying psychophysiological drivers of sleeplessness.",
+              "paraphrase": "are unable to cure the root mental and biological factors causing sleep deprivation.",
+              "analysis": "'Rectify' = 'cure'; 'underlying psychophysiological drivers' = 'root mental and biological factors'."
+            }
+          },
+          {
+            "id": "t29_q14",
+            "num": 14,
+            "question": "According to paragraph 2, why do international medical organizations recommend CBT-I as the \"first-line\" intervention?",
+            "questionVi": "Theo đoạn 2, vì sao các tổ chức y tế quốc tế lại khuyến nghị CBT-I như biện pháp can thiệp \"tuyến đầu\"?",
+            "questionType": "Detail",
+            "options": [
+              "CBT-I requires no trained therapists and can be done while driving",
+              "CBT-I restructures thoughts and behaviors to rebuild the natural connection between the bed and sleep without forcing drug sedation",
+              "CBT-I is legally required before anyone can purchase a bed",
+              "CBT-I forces patients to sleep twenty hours every weekend"
+            ],
+            "optionsVi": [
+              "CBT-I không cần nhà trị liệu được đào tạo và có thể thực hiện khi đang lái xe",
+              "CBT-I tái cấu trúc suy nghĩ và hành vi để tái lập sự liên kết tự nhiên giữa giường và giấc ngủ mà không cưỡng ép bằng thuốc",
+              "CBT-I là bắt buộc theo luật trước khi bất kỳ ai có thể mua một chiếc giường",
+              "CBT-I bắt buộc bệnh nhân phải ngủ 20 giờ mỗi cuối tuần"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Unlike hypnotic medications that passively force neurological sedation, CBT-I is a structured, multimodal psychotherapeutic regimen that targets the maladaptive cognitions, dysfunctional conditioning, and counterproductive behaviors... re-establishing the biological association between the bed and restorative rest.",
+            "evidenceVi": "Không giống như thuốc ngủ thụ động ép buộc an thần thần kinh, CBT-I là một liệu trình tâm lý trị liệu có cấu trúc nhắm vào nhận thức sai lệch, phản xạ rối loạn... tái lập mối liên kết sinh học giữa chiếc giường và sự nghỉ ngơi phục hồi.",
+            "explanation": "Đoạn 2 nêu rõ lý do: CBT-I chữa từ gốc bằng cách sửa nhận thức, hành vi và tái lập phản xạ có điều kiện lành mạnh giữa giường ngủ và giấc ngủ tự nhiên.",
+            "postReading": {
+              "original": "Unlike hypnotic medications that passively force neurological sedation, CBT-I... restructures the patient's internal sleep architecture",
+              "paraphrase": "In contrast to sleeping pills that artificially compel drowsiness, CBT-I reorganizes the individual's natural sleep framework",
+              "analysis": "'Passively force neurological sedation' = 'artificially compel drowsiness'; 'restructures the patient's internal sleep architecture' = 'reorganizes the individual's natural sleep framework'."
+            }
+          },
+          {
+            "id": "t29_q15",
+            "num": 15,
+            "question": "The word \"arousal\" in paragraph 3 refers to:",
+            "questionVi": "Từ \"arousal\" trong đoạn 3 đề cập đến:",
+            "questionType": "Vocabulary",
+            "options": [
+              "Physiological alertness and anxiety activation",
+              "Profound muscular paralysis during deep dreams",
+              "The temperature of hot bathing water",
+              "The sound volume of outdoor morning songbirds"
+            ],
+            "optionsVi": [
+              "Sự tỉnh táo và kích hoạt lo âu về mặt sinh lý",
+              "Sự liệt cơ sâu trong các giấc mơ",
+              "Nhiệt độ của nước tắm nóng",
+              "Âm lượng tiếng chim hót ngoài trời buổi sáng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "insomniacs develop a Pavlovian conditioned arousal response, where the bedroom environment itself... becomes an active trigger for autonomic anxiety.",
+            "evidenceVi": "những người mất ngủ hình thành phản xạ hưng phấn có điều kiện kiểu Pavlov, nơi chính môi trường phòng ngủ... trở thành tác nhân tích cực kích hoạt sự lo âu tự chủ.",
+            "explanation": "Trong tâm lý học, 'arousal response' chỉ trạng thái kích hoạt thần kinh, nhịp tim đập nhanh và tỉnh táo lo âu không ngủ được, đồng nghĩa với 'physiological alertness and anxiety'.",
+            "postReading": {
+              "original": "insomniacs develop a Pavlovian conditioned arousal response, where the bedroom environment itself... becomes an active trigger for autonomic anxiety.",
+              "paraphrase": "sleep-deprived individuals form an automated alertness reaction, turning their sleeping space into a direct prompt for nervous stress.",
+              "analysis": "'Conditioned arousal response' = 'automated alertness reaction'; 'active trigger for autonomic anxiety' = 'direct prompt for nervous stress'."
+            }
+          },
+          {
+            "id": "t29_q16",
+            "num": 16,
+            "question": "What core rule does Stimulus Control Therapy enforce if a patient cannot fall asleep within twenty minutes?",
+            "questionVi": "Quy tắc cốt lõi nào được Liệu pháp Kiểm soát Kích thích thực thi nếu bệnh nhân không thể ngủ được trong vòng 20 phút?",
+            "questionType": "Detail",
+            "options": [
+              "Take three sedative tablets immediately",
+              "Leave the bedroom, engage in a relaxing activity, and return only when genuinely drowsy",
+              "Perform one hundred vigorous push-ups directly on the bed",
+              "Stare continuously at the alarm clock until morning"
+            ],
+            "optionsVi": [
+              "Uống ba viên thuốc ngủ an thần ngay lập tức",
+              "Rời khỏi phòng ngủ, làm một hoạt động thư giãn và chỉ quay lại giường khi thực sự cảm thấy buồn ngủ",
+              "Thực hiện 100 lần chống đẩy mạnh mẽ ngay trên giường",
+              "Nhìn chằm chằm liên tục vào đồng hồ báo thức cho đến sáng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Stimulus Control breaks this negative conditioning by enforcing strict operational rules: using the bed exclusively for sleep and intimacy, leaving the bedroom if wakeful for more than twenty minutes, and returning only when genuinely drowsy.",
+            "evidenceVi": "Kiểm soát kích thích phá vỡ phản xạ tiêu cực này bằng cách thực thi các quy tắc nghiêm ngặt: chỉ dùng giường cho việc ngủ và sự thân mật, rời khỏi phòng ngủ nếu tỉnh táo quá 20 phút, và chỉ quay lại khi thực sự buồn ngủ.",
+            "explanation": "Đoạn 3 chỉ rõ quy tắc: nếu nằm trằn trọc quá 20 phút thì phải ra khỏi phòng ngủ và chỉ trở lại khi thực sự buồn ngủ để tránh não liên kết giường với sự căng thẳng trằn trọc.",
+            "postReading": {
+              "original": "leaving the bedroom if wakeful for more than twenty minutes, and returning only when genuinely drowsy.",
+              "paraphrase": "exiting the bed area if still awake after twenty minutes and stepping back in solely when truly sleepy.",
+              "analysis": "'Leaving the bedroom if wakeful' = 'exiting the bed area if still awake'; 'returning only when genuinely drowsy' = 'stepping back in solely when truly sleepy'."
+            }
+          },
+          {
+            "id": "t29_q17",
+            "num": 17,
+            "question": "How does Sleep Restriction Therapy consolidate sleep efficiency, according to paragraph 3?",
+            "questionVi": "Liệu pháp Giới hạn Giấc ngủ củng cố hiệu suất giấc ngủ như thế nào, theo đoạn 3?",
+            "questionType": "Detail",
+            "options": [
+              "By forcing the patient to drink caffeine every four hours",
+              "By temporarily matching time in bed to actual sleep duration, accumulating mild sleep debt that strengthens homeostatic sleep drive",
+              "By keeping room lighting at maximum brightness all night",
+              "By eliminating all weekend meals"
+            ],
+            "optionsVi": [
+              "Bằng cách ép bệnh nhân uống caffeine mỗi bốn giờ",
+              "Bằng cách tạm thời điều chỉnh thời gian nằm giường khớp với thời gian ngủ thực tế, tạo nợ ngủ nhẹ để kích hoạt áp lực ngủ nội môi",
+              "Bằng cách giữ đèn phòng ở độ sáng tối đa suốt đêm",
+              "Bằng cách loại bỏ tất cả các bữa ăn cuối tuần"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Sleep Restriction Therapy temporarily limits time in bed to match the patient’s actual sleep duration, deliberately inducing mild sleep debt that amplifies biological homeostatic sleep drive and dramatically consolidates sleep efficiency.",
+            "evidenceVi": "Liệu pháp Giới hạn Giấc ngủ tạm thời giới hạn thời gian nằm trên giường để khớp với thời lượng ngủ thực tế của bệnh nhân, chủ động tạo ra một khoản nợ ngủ nhẹ nhằm khuếch đại áp lực ngủ cân bằng nội môi và củng cố đáng kể hiệu suất giấc ngủ.",
+            "explanation": "Đoạn 3 giải thích cơ chế: rút ngắn thời gian nằm giường cho đúng bằng số giờ thực ngủ, tạo nợ ngủ nhẹ để cơ thể thèm ngủ tự nhiên (homeostatic sleep drive) và ngủ liền một mạch.",
+            "postReading": {
+              "original": "deliberately inducing mild sleep debt that amplifies biological homeostatic sleep drive and dramatically consolidates sleep efficiency.",
+              "paraphrase": "intentionally generating slight sleep deficit that strengthens the innate physiological urge to rest, substantially improving sleep continuity.",
+              "analysis": "'Inducing mild sleep debt' = 'generating slight sleep deficit'; 'amplifies biological homeostatic sleep drive' = 'strengthens the innate physiological urge to rest'; 'consolidates sleep efficiency' = 'improving sleep continuity'."
+            }
+          },
+          {
+            "id": "t29_q18",
+            "num": 18,
+            "question": "The word \"dismantles\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"dismantles\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "deconstructs and eliminates",
+              "constructs and builds",
+              "celebrates",
+              "translates"
+            ],
+            "optionsVi": [
+              "tháo gỡ và triệt tiêu",
+              "xây dựng và kiến thiết",
+              "tôn vinh",
+              "dịch nghĩa"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "cognitive restructuring, which systematically dismantles catastrophic sleep-related beliefs.",
+            "evidenceVi": "tái cấu trúc nhận thức, biện pháp tháo dỡ một cách có hệ thống những niềm tin thảm kịch hóa liên quan đến giấc ngủ.",
+            "explanation": "'Dismantles' nghĩa là tháo rời, dỡ bỏ, triệt tiêu cấu trúc niềm tin sai lệch, đồng nghĩa với 'deconstructs and eliminates'.",
+            "postReading": {
+              "original": "systematically dismantles catastrophic sleep-related beliefs.",
+              "paraphrase": "methodically deconstructs exaggerated and fearful convictions regarding sleeplessness.",
+              "analysis": "'Systematically dismantles' = 'methodically deconstructs'; 'catastrophic sleep-related beliefs' = 'exaggerated and fearful convictions regarding sleeplessness'."
+            }
+          },
+          {
+            "id": "t29_q19",
+            "num": 19,
+            "question": "What is an example of a \"catastrophic distortion\" that CBT-I cognitive restructuring helps patients reframe?",
+            "questionVi": "Một ví dụ về \"sự bóp méo mang tính thảm họa\" mà kỹ thuật tái cấu trúc nhận thức của CBT-I giúp bệnh nhân tái định hình là gì?",
+            "questionType": "Detail",
+            "options": [
+              "The belief that aliens are monitoring their dreams through smartphones",
+              "The irrational conviction that a single poor night of sleep will inevitably destroy their career or cause physical collapse",
+              "The idea that humans only need two minutes of sleep per month",
+              "The conviction that waking up early makes people wealthy"
+            ],
+            "optionsVi": [
+              "Niềm tin rằng người ngoài hành tinh đang theo dõi giấc mơ qua điện thoại",
+              "Sự tin tưởng phi lý rằng chỉ một đêm mất ngủ chắc chắn sẽ hủy hoại sự nghiệp hoặc gây đột quỵ sụp đổ thể xác",
+              "Ý nghĩ rằng con người chỉ cần hai phút ngủ mỗi tháng",
+              "Niềm tin rằng thức dậy sớm sẽ làm con người giàu có"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Insomniacs chronically amplify their distress through catastrophic distortions, convinced that a single restless night will inevitably sabotage their career or cause immediate bodily collapse. Therapists teach patients to reframe these exaggerated anxieties...",
+            "evidenceVi": "Những người mất ngủ liên tục phóng đại sự đau khổ qua các bóp méo thảm họa, đinh ninh rằng một đêm trằn trọc sẽ phá hỏng sự nghiệp hoặc làm sụp đổ thể xác ngay lập tức. Các nhà trị liệu dạy bệnh nhân định hình lại những lo lắng bị thổi phồng này...",
+            "explanation": "Đoạn 4 nêu rõ suy nghĩ lệch lạc phổ biến: bệnh nhân luôn nghĩ hễ một đêm mất ngủ là ngày mai hỏng hết sự nghiệp hoặc đột quỵ chết ('sabotage their career or cause immediate bodily collapse').",
+            "postReading": {
+              "original": "convinced that a single restless night will inevitably sabotage their career or cause immediate bodily collapse.",
+              "paraphrase": "believing mistakenly that one sleepless evening will surely ruin their professional life or lead to physical ruin.",
+              "analysis": "'Single restless night' = 'one sleepless evening'; 'sabotage their career' = 'ruin their professional life'; 'cause immediate bodily collapse' = 'lead to physical ruin'."
+            }
+          },
+          {
+            "id": "t29_q20",
+            "num": 20,
+            "question": "What conclusion about the long-term effectiveness of CBT-I versus sleeping pills is presented in the final sentence?",
+            "questionVi": "Kết luận nào về tính hiệu quả lâu dài của CBT-I so với thuốc ngủ được trình bày trong câu văn cuối cùng?",
+            "questionType": "Inference",
+            "options": [
+              "Medications are superior in every measurable metric after ten years",
+              "While pills provide faster immediate sedation, CBT-I creates enduring sleep improvements that persist for years without harmful side effects",
+              "Both therapies should be banned in favor of hypnosis",
+              "CBT-I only works if patients take sleeping pills concurrently"
+            ],
+            "optionsVi": [
+              "Thuốc vượt trội ở mọi chỉ số có thể đo lường sau 10 năm",
+              "Trong khi thuốc mang lại cơn buồn ngủ tức thì nhanh hơn, CBT-I tạo ra sự cải thiện giấc ngủ bền vững kéo dài nhiều năm mà không có tác dụng phụ",
+              "Cả hai liệu pháp nên bị cấm để chuyển sang thuật thôi miên",
+              "CBT-I chỉ có tác dụng nếu bệnh nhân uống thuốc ngủ song song"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Randomized clinical trials consistently reveal that while pharmacotherapy produces slightly faster initial sedation, CBT-I yields sustained, durable sleep improvements that persist for years following therapy termination without harmful side effects...",
+            "evidenceVi": "Các thử nghiệm lâm sàng ngẫu nhiên liên tục tiết lộ rằng trong khi điều trị bằng thuốc tạo ra sự an thần ban đầu nhanh hơn một chút, thì CBT-I mang lại những cải thiện giấc ngủ bền vững kéo dài nhiều năm sau khi kết thúc trị liệu mà không có tác dụng phụ...",
+            "explanation": "Câu kết so sánh rõ ràng: thuốc cho tác dụng gây ngủ nhanh hơn lúc đầu, nhưng CBT-I mang lại hiệu quả bền vững lâu dài nhiều năm mà hoàn toàn không có tác dụng phụ độc hại.",
+            "postReading": {
+              "original": "while pharmacotherapy produces slightly faster initial sedation, CBT-I yields sustained, durable sleep improvements that persist for years following therapy termination without harmful side effects",
+              "paraphrase": "although pharmaceutical tablets induce drowsiness more swiftly at the outset, CBT-I achieves enduring restorative benefits that last for years after treatment ends without adverse reactions",
+              "analysis": "'Pharmacotherapy produces slightly faster initial sedation' = 'pharmaceutical tablets induce drowsiness more swiftly at the outset'; 'sustained, durable sleep improvements' = 'enduring restorative benefits'; 'without harmful side effects' = 'without adverse reactions'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Assistive Educational Technology for Special-Needs Children: Inclusive Learning & Universal Design",
+        "topic": "Công nghệ hỗ trợ giáo dục dành cho trẻ khuyết tật & nhu cầu đặc biệt: Thiết bị theo dõi ánh mắt, chuyển văn bản thành giọng nói, thiết kế học tập phổ quát (UDL) và trao quyền hòa nhập",
+        "timeAllowed": 15,
+        "passage": "<p>For generations, children with sensory, physical, and neurodevelopmental impairments were systematically marginalized within traditional educational ecosystems. Rigid pedagogical architectures—predicated upon uniform textbooks, handwritten assignments, and didactic oral lectures—erected formidable barriers for students diagnosed with cerebral palsy, severe dyslexia, autism spectrum disorder, and visual or auditory deficits. In recent decades, however, the advent of sophisticated Assistive Educational Technology (EdTech) has precipitated a profound paradigm shift. Rather than viewing disability through a deficit-based medical lens that demands the child conform to an inflexible classroom, contemporary inclusive pedagogy harnesses assistive digital tools to adapt the curriculum to the unique sensory and cognitive profile of the learner.</p><p>Among the most transformative innovations in hardware accessibility are eye-tracking gaze interaction systems and adaptive physical switches. For children with severe motor impairments, such as quadriplegic cerebral palsy or progressive muscular dystrophies, inability to control voluntary hand gestures historically rendered communication and academic assessment nearly impossible. Eye-tracking technology, which utilizes near-infrared sensory cameras to detect the pupil's corneal reflections on a computer screen, transforms the student’s gaze into a high-precision digital cursor. By lingering their gaze—a mechanism known as 'dwell selection'—non-verbal children can articulate complex vocabulary through speech-generating Augmentative and Alternative Communication (AAC) software, answer multi-step mathematical equations, and author creative narratives with total physical autonomy.</p><p>In parallel with motor adaptations, dynamic assistive software dismantles linguistic and cognitive hurdles for neurodivergent learners. Text-to-Speech (TTS) synthesizers, Optical Character Recognition (OCR) scanning pens, and specialized phonetic screen readers empower dyslexic students to circumvent decoding bottlenecks, liberating cognitive bandwidth for higher-order semantic comprehension. Conversely, speech-to-text dictation engines enable individuals with dysgraphia or motor apraxia to externalize rich conceptual thoughts without the mechanical fatigue of penmanship. Furthermore, customizable digital reading interfaces—allowing users to manipulate typographic kerning, background chromatic contrast, and visual masking overlays—mitigate visual stress and sensory processing overload.</p><p>The philosophical apex of modern educational technology is codified in the Universal Design for Learning (UDL) framework. UDL posits that instead of retrofitting accommodations onto a standardized curriculum as an afterthought, educational environments must be proactively engineered with flexible pathways: multiple means of engagement, representation, and action or expression. Crucially, empirical research demonstrates that assistive technologies embedded within UDL classrooms generate positive spillover benefits for neurotypical students as well, fostering diversified learning styles. Far from being a segregated specialty, assistive EdTech embodies a democratic imperative, affirming that equitable access to knowledge is a fundamental human right.</p>",
+        "vocab": [
+          {
+            "word": "marginalize",
+            "pos": "verb",
+            "ipa": "/ˈmɑː.dʒɪ.nəl.aɪz/",
+            "level": "C1",
+            "mean": "bỏ rơi bên lề, cô lập đối xử bất công",
+            "syns": [
+              "isolate",
+              "exclude",
+              "alienate"
+            ],
+            "ex": "Special-needs students were historically marginalized in conventional classrooms."
+          },
+          {
+            "word": "didactic",
+            "pos": "adjective",
+            "ipa": "/daɪˈdæk.tɪk/",
+            "level": "C1",
+            "mean": "mang tính giáo điều, thuyết giảng một chiều",
+            "syns": [
+              "instructional",
+              "preachy",
+              "pedantic"
+            ],
+            "ex": "Traditional didactic lectures offer little interaction for active learners."
+          },
+          {
+            "word": "formidable",
+            "pos": "adjective",
+            "ipa": "/fɔːˈmɪd.ə.bəl/",
+            "level": "B2",
+            "mean": "ghê gớm, to lớn khó vượt qua",
+            "syns": [
+              "daunting",
+              "imposing",
+              "intimidating"
+            ],
+            "ex": "Printed textbooks presented formidable obstacles to children with severe dyslexia."
+          },
+          {
+            "word": "impairment",
+            "pos": "noun",
+            "ipa": "/ɪmˈpeə.mənt/",
+            "level": "B2",
+            "mean": "sự suy giảm chức năng, khiếm khuyết",
+            "syns": [
+              "disability",
+              "dysfunction",
+              "handicap"
+            ],
+            "ex": "Assistive software bridges the gap caused by auditory or visual impairment."
+          },
+          {
+            "word": "conform",
+            "pos": "verb",
+            "ipa": "/kənˈfɔːm/",
+            "level": "B2",
+            "mean": "tuân thủ theo, uốn mình cho vừa khuôn khổ",
+            "syns": [
+              "adapt",
+              "comply",
+              "fit in"
+            ],
+            "ex": "Rather than forcing the child to conform, the classroom adapts to the child."
+          },
+          {
+            "word": "quadriplegic",
+            "pos": "adjective",
+            "ipa": "/ˌkwɒd.rɪˈpliː.dʒɪk/",
+            "level": "C1",
+            "mean": "bị liệt cả tứ chi (hai tay và hai chân)",
+            "syns": [
+              "tetraplegic",
+              "four-limb paralyzed"
+            ],
+            "ex": "Quadriplegic students can navigate software using modern eye-tracking monitors."
+          },
+          {
+            "word": "dystrophy",
+            "pos": "noun",
+            "ipa": "/ˈdɪs.trə.fi/",
+            "level": "C1",
+            "mean": "chứng loạn dưỡng (thoái hóa cơ bắp)",
+            "syns": [
+              "wasting disease",
+              "degeneration"
+            ],
+            "ex": "Muscular dystrophy weakens voluntary physical movements over time."
+          },
+          {
+            "word": "corneal",
+            "pos": "adjective",
+            "ipa": "/ˈkɔː.ni.əl/",
+            "level": "C1",
+            "mean": "thuộc về giác mạc mắt",
+            "syns": [
+              "eye-lens related"
+            ],
+            "ex": "Infrared light monitors corneal reflections to calculate exact gaze direction."
+          },
+          {
+            "word": "linger",
+            "pos": "verb",
+            "ipa": "/ˈlɪŋ.ɡər/",
+            "level": "B2",
+            "mean": "dừng lại lâu hơn một chút, nấn ná",
+            "syns": [
+              "remain",
+              "hover",
+              "dwell"
+            ],
+            "ex": "Users select letters by lingering their eyes on a specific onscreen key."
+          },
+          {
+            "word": "dwell",
+            "pos": "noun",
+            "ipa": "/dwel/",
+            "level": "C1",
+            "mean": "sự dừng nhìn cố định trong khoảng thời gian xác định",
+            "syns": [
+              "fixation time",
+              "holding pause"
+            ],
+            "ex": "A half-second dwell time prevents accidental button activations."
+          },
+          {
+            "word": "augmentative",
+            "pos": "adjective",
+            "ipa": "/ɔːɡˈmen.tə.tɪv/",
+            "level": "C1",
+            "mean": "mang tính hỗ trợ tăng cường (giao tiếp)",
+            "syns": [
+              "supplementary",
+              "reinforcing"
+            ],
+            "ex": "Augmentative communication apps give non-verbal children an authentic voice."
+          },
+          {
+            "word": "neurodivergent",
+            "pos": "adjective",
+            "ipa": "/ˌnjʊə.rəʊ.daɪˈvɜː.dʒənt/",
+            "level": "C1",
+            "mean": "có sự đa dạng thần kinh (tự kỷ, ADHD, khó đọc)",
+            "syns": [
+              "neuroatypical",
+              "neurologically diverse"
+            ],
+            "ex": "Educators must respect the cognitive strengths of neurodivergent learners."
+          },
+          {
+            "word": "synthesizer",
+            "pos": "noun",
+            "ipa": "/ˈsɪn.θə.saɪ.zər/",
+            "level": "B2",
+            "mean": "bộ tổng hợp (giọng nói, âm thanh điện tử)",
+            "syns": [
+              "voice generator",
+              "speech output engine"
+            ],
+            "ex": "The text-to-speech synthesizer reads digital articles aloud in natural tones."
+          },
+          {
+            "word": "dyslexia",
+            "pos": "noun",
+            "ipa": "/dɪˈslek.si.ə/",
+            "level": "B2",
+            "mean": "chứng khó đọc chữ",
+            "syns": [
+              "reading disability",
+              "word blindness"
+            ],
+            "ex": "Audiobooks allow pupils with dyslexia to access complex literature effortlessly."
+          },
+          {
+            "word": "decoding",
+            "pos": "noun",
+            "ipa": "/diːˈkəʊ.dɪŋ/",
+            "level": "B2",
+            "mean": "sự giải mã ký tự thành âm thanh (đọc hiểu)",
+            "syns": [
+              "letter recognition",
+              "phonetic deciphering"
+            ],
+            "ex": "Struggles with mechanical letter decoding drain working memory."
+          },
+          {
+            "word": "dysgraphia",
+            "pos": "noun",
+            "ipa": "/dɪsˈɡræf.i.ə/",
+            "level": "C1",
+            "mean": "chứng khó viết chữ (vận động tay không điều khiển được)",
+            "syns": [
+              "writing impairment"
+            ],
+            "ex": "Children with dysgraphia excel when allowed to submit spoken recordings."
+          },
+          {
+            "word": "apraxia",
+            "pos": "noun",
+            "ipa": "/eɪˈpræk.si.ə/",
+            "level": "C1",
+            "mean": "chứng mất dùng động tác (mất phối hợp thần kinh - cơ)",
+            "syns": [
+              "motor planning disorder"
+            ],
+            "ex": "Motor apraxia makes coordinating fine finger grip exceptionally challenging."
+          },
+          {
+            "word": "penmanship",
+            "pos": "noun",
+            "ipa": "/ˈpen.mən.ʃɪp/",
+            "level": "B2",
+            "mean": "nghệ thuật viết chữ tay, nét chữ viết",
+            "syns": [
+              "handwriting",
+              "calligraphy"
+            ],
+            "ex": "Grading students based on neat penmanship disadvantages those with motor tremors."
+          },
+          {
+            "word": "kerning",
+            "pos": "noun",
+            "ipa": "/ˈkɜː.nɪŋ/",
+            "level": "C1",
+            "mean": "khoảng cách giãn cách giữa các chữ cái trong in ấn",
+            "syns": [
+              "letter spacing",
+              "character spacing"
+            ],
+            "ex": "Widening typographic kerning significantly improves legibility for dyslexic readers."
+          },
+          {
+            "word": "chromatic",
+            "pos": "adjective",
+            "ipa": "/krəˈmæt.ɪk/",
+            "level": "B2",
+            "mean": "thuộc về màu sắc, sắc thái màu",
+            "syns": [
+              "color-based",
+              "pigmentary"
+            ],
+            "ex": "Adjusting the screen's chromatic background reduces visual glare."
+          },
+          {
+            "word": "overlay",
+            "pos": "noun",
+            "ipa": "/ˈəʊ.və.leɪ/",
+            "level": "B2",
+            "mean": "lớp phủ màu trong suốt che lên văn bản",
+            "syns": [
+              "filter sheet",
+              "covering"
+            ],
+            "ex": "Yellow tinted digital overlays calm eye strain for sensitive students."
+          },
+          {
+            "word": "apex",
+            "pos": "noun",
+            "ipa": "/ˈeɪ.peks/",
+            "level": "C1",
+            "mean": "đỉnh cao nhất, tột đỉnh phát triển",
+            "syns": [
+              "pinnacle",
+              "zenith",
+              "culmination"
+            ],
+            "ex": "Universal design represents the philosophical apex of educational equity."
+          },
+          {
+            "word": "codify",
+            "pos": "verb",
+            "ipa": "/ˈkəʊ.dɪ.faɪ/",
+            "level": "C1",
+            "mean": "hệ thống hóa thành quy chuẩn, luật lệ",
+            "syns": [
+              "systematize",
+              "formalize",
+              "standardize"
+            ],
+            "ex": "The guidelines codify best practices for inclusive classroom design."
+          },
+          {
+            "word": "retrofit",
+            "pos": "verb",
+            "ipa": "/ˈret.rəʊ.fɪt/",
+            "level": "C1",
+            "mean": "chắp vá lắp thêm sau này (thay vì thiết kế từ đầu)",
+            "syns": [
+              "modify afterwards",
+              "adapt retrospectively"
+            ],
+            "ex": "It is far better to build accessible lessons from scratch than to retrofit them later."
+          },
+          {
+            "word": "spillover",
+            "pos": "adjective",
+            "ipa": "/ˈspɪlˌəʊ.vər/",
+            "level": "B2",
+            "mean": "mang tính lan tỏa sang các đối tượng khác",
+            "syns": [
+              "secondary",
+              "ripple-effect",
+              "collateral"
+            ],
+            "ex": "Assistive software provides wonderful spillover benefits for all regular students."
+          },
+          {
+            "word": "segregated",
+            "pos": "adjective",
+            "ipa": "/ˈseɡ.rɪ.ɡeɪ.tɪd/",
+            "level": "B2",
+            "mean": "bị tách biệt, biệt lập cách ly",
+            "syns": [
+              "isolated",
+              "separated",
+              "divided"
+            ],
+            "ex": "Inclusive education rejects segregated classrooms in favor of shared learning."
+          },
+          {
+            "word": "equitable",
+            "pos": "adjective",
+            "ipa": "/ˈek.wɪ.tə.bəl/",
+            "level": "B2",
+            "mean": "công bằng, bình đẳng thực chất",
+            "syns": [
+              "fair",
+              "just",
+              "impartial"
+            ],
+            "ex": "Technology ensures equitable access to educational opportunities for every child."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t29_q21",
+            "num": 21,
+            "question": "Which of the following best expresses the main idea of the passage?",
+            "questionVi": "Câu nào sau đây thể hiện tốt nhất ý chính của đoạn văn?",
+            "questionType": "Main Idea",
+            "options": [
+              "Computer software has completely replaced all human teachers in special education classrooms",
+              "Assistive educational technology and universal design frameworks empower special-needs and neurodivergent learners by adapting environments to individual needs",
+              "Eye-tracking monitors are too expensive to be installed in public schools",
+              "Traditional handwriting instruction must be mandatory for all children regardless of physical mobility"
+            ],
+            "optionsVi": [
+              "Phần mềm máy tính đã thay thế hoàn toàn tất cả giáo viên là con người trong các lớp học giáo dục đặc biệt",
+              "Công nghệ giáo dục hỗ trợ và các khung thiết kế phổ quát trao quyền cho học sinh khuyết tật và đa dạng thần kinh bằng cách điều chỉnh môi trường theo nhu cầu cá nhân",
+              "Màn hình theo dõi ánh mắt quá đắt đỏ để có thể lắp đặt tại các trường công lập",
+              "Giảng dạy viết chữ tay truyền thống phải là bắt buộc đối với tất cả trẻ em bất kể khả năng vận động thể chất"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "contemporary inclusive pedagogy harnesses assistive digital tools to adapt the curriculum to the unique sensory and cognitive profile of the learner... Among the most transformative innovations in hardware... In parallel with motor adaptations, dynamic assistive software... The philosophical apex of modern educational technology is codified in the Universal Design for Learning (UDL) framework...",
+            "evidenceVi": "sư phạm hòa nhập đương đại khai thác các công cụ kỹ thuật số hỗ trợ để điều chỉnh chương trình giảng dạy phù hợp với hồ sơ nhận thức và giác quan độc đáo của người học... Trong số những đổi mới phần cứng mang tính chuyển biến nhất... Song song với việc thích ứng vận động, phần mềm hỗ trợ linh hoạt... Đỉnh cao triết lý được hệ thống hóa trong khung UDL...",
+            "explanation": "Đoạn văn phân tích sự chuyển dịch từ giáo dục giáo điều sang giáo dục hòa nhập nhờ công nghệ hỗ trợ phần cứng (eye-tracking), phần mềm (TTS, OCR) và triết lý Thiết kế học tập phổ quát (UDL).",
+            "postReading": {
+              "original": "contemporary inclusive pedagogy harnesses assistive digital tools to adapt the curriculum to the unique sensory and cognitive profile of the learner.",
+              "paraphrase": "modern integrative teaching utilizes supportive electronic instruments to tailor lessons to each student's specific perceptual and mental abilities.",
+              "analysis": "'Contemporary inclusive pedagogy' = 'modern integrative teaching'; 'harnesses assistive digital tools' = 'utilizes supportive electronic instruments'; 'adapt the curriculum' = 'tailor lessons'."
+            }
+          },
+          {
+            "id": "t29_q22",
+            "num": 22,
+            "question": "According to paragraph 1, what fundamental shift in pedagogical philosophy has occurred regarding disability?",
+            "questionVi": "Theo đoạn 1, sự chuyển dịch căn bản nào trong triết lý sư phạm đã diễn ra liên quan đến vấn đề khuyết tật?",
+            "questionType": "Detail",
+            "options": [
+              "Special-needs children are now permanently separated from mainstream schools",
+              "Instead of forcing the child to conform through a deficit-based medical view, inclusive pedagogy uses digital tools to adapt the curriculum to the student",
+              "Schools now expect all students to pass identical physical handwriting tests",
+              "Disabilities are treated as disciplinary disobedience by administrative boards"
+            ],
+            "optionsVi": [
+              "Trẻ em có nhu cầu đặc biệt hiện bị tách biệt vĩnh viễn khỏi các trường học chính quy",
+              "Thay vì ép trẻ phải gò mình qua lăng kính y tế coi khuyết tật là thiếu sót, sư phạm hòa nhập dùng công cụ số để điều chỉnh chương trình theo học sinh",
+              "Các trường học hiện kỳ vọng tất cả học sinh phải vượt qua các bài kiểm tra viết tay giống hệt nhau",
+              "Các khuyết tật bị ban giám hiệu coi như hành vi bất tuân kỷ luật"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Rather than viewing disability through a deficit-based medical lens that demands the child conform to an inflexible classroom, contemporary inclusive pedagogy harnesses assistive digital tools to adapt the curriculum to the unique sensory and cognitive profile of the learner.",
+            "evidenceVi": "Thay vì nhìn nhận khuyết tật qua lăng kính y tế khiếm khuyết đòi hỏi đứa trẻ phải tuân theo một lớp học cứng nhắc, phương pháp sư phạm hòa nhập đương đại khai thác các công cụ kỹ thuật số hỗ trợ để điều chỉnh chương trình giảng dạy theo hồ sơ cảm giác và nhận thức độc đáo của người học.",
+            "explanation": "Đoạn 1 nêu rõ sự thay đổi cốt lõi: chuyển từ việc bắt học sinh khuyết tật phải gò mình vào lớp học sang việc dùng công nghệ để lớp học thích nghi với đặc điểm của học sinh.",
+            "postReading": {
+              "original": "Rather than viewing disability through a deficit-based medical lens that demands the child conform to an inflexible classroom",
+              "paraphrase": "Instead of regarding physical impairment as a flaw requiring the pupil to adjust to a rigid school environment",
+              "analysis": "'Viewing disability through a deficit-based medical lens' = 'regarding physical impairment as a flaw'; 'demands the child conform' = 'requiring the pupil to adjust'."
+            }
+          },
+          {
+            "id": "t29_q23",
+            "num": 23,
+            "question": "How does eye-tracking gaze technology work as described in paragraph 2?",
+            "questionVi": "Công nghệ theo dõi ánh mắt hoạt động như thế nào theo mô tả ở đoạn 2?",
+            "questionType": "Detail",
+            "options": [
+              "It requires surgical brain implants connected to wifi routers",
+              "Near-infrared sensory cameras detect corneal reflections to convert the student's gaze into a high-precision computer cursor",
+              "It projects holographic laser displays directly onto the retinas of blind students",
+              "It reads brainwaves through a wireless headband while the student sleeps"
+            ],
+            "optionsVi": [
+              "Nó đòi hỏi phẫu thuật cấy ghép não kết nối với bộ phát wifi",
+              "Các camera cảm biến cận hồng ngoại phát hiện phản xạ giác mạc để chuyển đổi ánh nhìn của học sinh thành con trỏ máy tính độ chính xác cao",
+              "Nó chiếu hình ảnh ba chiều bằng laser trực tiếp lên võng mạc của học sinh khiếm thị",
+              "Nó đọc sóng não qua một băng đô không dây trong khi học sinh ngủ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "which utilizes near-infrared sensory cameras to detect the pupil's corneal reflections on a computer screen, transforms the student’s gaze into a high-precision digital cursor.",
+            "evidenceVi": "sử dụng camera cảm biến cận hồng ngoại để phát hiện phản xạ giác mạc của đồng tử trên màn hình máy tính, chuyển đổi ánh nhìn của học sinh thành con trỏ kỹ thuật số có độ chính xác cao.",
+            "explanation": "Đoạn 2 giải thích nguyên lý hoạt động: camera hồng ngoại quét phản chiếu ở giác mạc mắt và biến chuyển động mắt thành con trỏ chuột trên màn hình.",
+            "postReading": {
+              "original": "transforms the student’s gaze into a high-precision digital cursor.",
+              "paraphrase": "converts the child's line of sight into an accurate onscreen mouse pointer.",
+              "analysis": "'Student's gaze' = 'child's line of sight'; 'high-precision digital cursor' = 'accurate onscreen mouse pointer'."
+            }
+          },
+          {
+            "id": "t29_q24",
+            "num": 24,
+            "question": "The term \"dwell selection\" in paragraph 2 refers to:",
+            "questionVi": "Thuật ngữ \"dwell selection\" (lựa chọn bằng cách dừng nhìn) trong đoạn 2 đề cập đến:",
+            "questionType": "Vocabulary",
+            "options": [
+              "Clicking a button by lingering one's gaze fixedly upon a digital icon for a set duration",
+              "Selecting a physical apartment for rental accommodation",
+              "Closing both eyes tightly for five minutes to reboot the software",
+              "Touching a tactile Braille surface with fingers"
+            ],
+            "optionsVi": [
+              "Nhấp chuột vào một nút bằng cách dừng ánh mắt cố định trên một biểu tượng kỹ thuật số trong khoảng thời gian xác định",
+              "Lựa chọn một căn hộ vật lý để thuê ở",
+              "Nhắm chặt cả hai mắt trong 5 phút để khởi động lại phần mềm",
+              "Chạm vào bề mặt chữ nổi Braille xúc giác bằng các ngón tay"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By lingering their gaze—a mechanism known as 'dwell selection'—non-verbal children can articulate complex vocabulary through speech-generating Augmentative and Alternative Communication (AAC) software...",
+            "evidenceVi": "Bằng cách dừng ánh nhìn cố định—một cơ chế được gọi là 'dwell selection'—những đứa trẻ không nói được có thể diễn đạt vốn từ vựng phức tạp thông qua phần mềm AAC phát ra giọng nói...",
+            "explanation": "'Dwell selection' là kỹ thuật điều khiển bằng mắt: dừng nhìn cố định vào một icon/chữ cái trên màn hình một số giây để kích hoạt lệnh thay cho nhấp chuột.",
+            "postReading": {
+              "original": "By lingering their gaze—a mechanism known as 'dwell selection'—non-verbal children can articulate complex vocabulary",
+              "paraphrase": "Through maintaining their stare on an icon—termed 'dwell selection'—speech-impaired youths can express elaborate thoughts",
+              "analysis": "'Lingering their gaze' = 'maintaining their stare on an icon'; 'non-verbal children' = 'speech-impaired youths'; 'articulate complex vocabulary' = 'express elaborate thoughts'."
+            }
+          },
+          {
+            "id": "t29_q25",
+            "num": 25,
+            "question": "The word \"circumvent\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"circumvent\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "bypass and overcome",
+              "amplify and worsen",
+              "memorize",
+              "translate"
+            ],
+            "optionsVi": [
+              "né tránh và vượt qua",
+              "khuếch đại và làm trầm trọng thêm",
+              "học thuộc lòng",
+              "biên dịch"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "empower dyslexic students to circumvent decoding bottlenecks, liberating cognitive bandwidth for higher-order semantic comprehension.",
+            "evidenceVi": "trao quyền cho học sinh mắc chứng khó đọc vượt qua điểm nghẽn giải mã ký tự, giải phóng dung lượng nhận thức cho việc đọc hiểu ngữ nghĩa bậc cao.",
+            "explanation": "'Circumvent' nghĩa là vượt qua, lách qua rào cản, đồng nghĩa với 'bypass and overcome'.",
+            "postReading": {
+              "original": "empower dyslexic students to circumvent decoding bottlenecks, liberating cognitive bandwidth for higher-order semantic comprehension.",
+              "paraphrase": "enable learners with reading difficulties to bypass phonetic hurdles, freeing up mental capacity for advanced conceptual understanding.",
+              "analysis": "'Dyslexic students' = 'learners with reading difficulties'; 'circumvent decoding bottlenecks' = 'bypass phonetic hurdles'; 'higher-order semantic comprehension' = 'advanced conceptual understanding'."
+            }
+          },
+          {
+            "id": "t29_q26",
+            "num": 26,
+            "question": "According to paragraph 3, how do Speech-to-Text dictation engines help learners with dysgraphia?",
+            "questionVi": "Theo đoạn 3, các công cụ chuyển lời nói thành văn bản giúp ích như thế nào cho học sinh mắc chứng khó viết (dysgraphia)?",
+            "questionType": "Detail",
+            "options": [
+              "They correct spelling by administering mild electric shocks to the hands",
+              "They allow learners to express conceptual thoughts orally without suffering the physical fatigue of handwriting",
+              "They force students to memorize the dictionary aloud every morning",
+              "They replace all human conversational speech with synthesized musical notes"
+            ],
+            "optionsVi": [
+              "Chúng sửa lỗi chính tả bằng cách truyền các cú sốc điện nhẹ vào tay",
+              "Chúng cho phép người học diễn đạt suy nghĩ khái niệm qua lời nói mà không phải chịu sự mệt mỏi thể chất của việc viết tay",
+              "Chúng bắt buộc học sinh phải đọc thuộc lòng từ điển vào mỗi sáng",
+              "Chúng thay thế toàn bộ lời nói trò chuyện của con người bằng các nốt nhạc tổng hợp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "speech-to-text dictation engines enable individuals with dysgraphia or motor apraxia to externalize rich conceptual thoughts without the mechanical fatigue of penmanship.",
+            "evidenceVi": "các công cụ đọc chính tả chuyển lời nói thành văn bản cho phép những cá nhân mắc chứng khó viết hoặc mất điều hòa vận động diễn đạt những suy nghĩ khái niệm phong phú mà không phải chịu sự mệt mỏi cơ học của việc viết tay.",
+            "explanation": "Đoạn 3 chỉ ra: học sinh khó viết (dysgraphia) có tư duy tốt nhưng tay khó cầm bút, nên công nghệ speech-to-text giúp các em đọc bài để máy tự gõ chữ mà không bị mỏi tay.",
+            "postReading": {
+              "original": "enable individuals with dysgraphia or motor apraxia to externalize rich conceptual thoughts without the mechanical fatigue of penmanship.",
+              "paraphrase": "allow persons experiencing writing difficulties to communicate sophisticated ideas without the physical exhaustion of manual writing.",
+              "analysis": "'Individuals with dysgraphia' = 'persons experiencing writing difficulties'; 'externalize rich conceptual thoughts' = 'communicate sophisticated ideas'; 'mechanical fatigue of penmanship' = 'physical exhaustion of manual writing'."
+            }
+          },
+          {
+            "id": "t29_q27",
+            "num": 27,
+            "question": "The word \"mitigate\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"mitigate\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "alleviate and reduce",
+              "intensify",
+              "ignore",
+              "condemn"
+            ],
+            "optionsVi": [
+              "làm giảm bớt, xoa dịu",
+              "gia tăng mãnh liệt",
+              "phớt lờ",
+              "lên án"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "customizable digital reading interfaces... mitigate visual stress and sensory processing overload.",
+            "evidenceVi": "giao diện đọc kỹ thuật số có thể tùy biến... làm giảm bớt sự căng thẳng thị giác và tình trạng quá tải xử lý giác quan.",
+            "explanation": "'Mitigate' có nghĩa là giảm nhẹ, làm dịu bớt, đồng nghĩa với 'alleviate and reduce'.",
+            "postReading": {
+              "original": "mitigate visual stress and sensory processing overload.",
+              "paraphrase": "reduce ocular strain and sensory processing exhaustion.",
+              "analysis": "'Mitigate visual stress' = 'reduce ocular strain'; 'sensory processing overload' = 'sensory processing exhaustion'."
+            }
+          },
+          {
+            "id": "t29_q28",
+            "num": 28,
+            "question": "According to paragraph 4, what is the core tenet of the Universal Design for Learning (UDL) framework?",
+            "questionVi": "Theo đoạn 4, nguyên lý cốt lõi của khung Thiết kế học tập phổ quát (UDL) là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Every child must be tested using the exact same paper exam without exceptions",
+              "Curricula should be proactively designed from the start with flexible pathways for engagement, representation, and expression rather than adding retrofitted patches later",
+              "Special-needs students should only learn vocational craft skills in separate buildings",
+              "Computers should be discarded in favor of traditional wooden blackboards"
+            ],
+            "optionsVi": [
+              "Mọi đứa trẻ phải được kiểm tra bằng bài thi trên giấy giống hệt nhau không có ngoại lệ",
+              "Chương trình giảng dạy phải được chủ động thiết kế ngay từ đầu với các con đường linh hoạt để tiếp cận, biểu đạt và hành động thay vì chắp vá bổ sung về sau",
+              "Học sinh có nhu cầu đặc biệt chỉ nên học các kỹ năng nghề thủ công ở các tòa nhà riêng biệt",
+              "Máy tính nên bị loại bỏ để chuyển sang dùng bảng đen gỗ truyền thống"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "UDL posits that instead of retrofitting accommodations onto a standardized curriculum as an afterthought, educational environments must be proactively engineered with flexible pathways: multiple means of engagement, representation, and action or expression.",
+            "evidenceVi": "UDL khẳng định rằng thay vì chắp vá lắp thêm các hỗ trợ vào một chương trình chuẩn hóa như một suy nghĩ muộn màng, môi trường giáo dục phải được chủ động thiết kế với các con đường linh hoạt: nhiều phương thức tiếp cận, thể hiện và hành động hoặc biểu đạt.",
+            "explanation": "Đoạn 4 nêu nguyên lý then chốt của UDL: không đợi có học sinh khuyết tật mới chắp vá (retrofit) mà thiết kế bài giảng đa dạng ngay từ đầu cho tất cả mọi người.",
+            "postReading": {
+              "original": "instead of retrofitting accommodations onto a standardized curriculum as an afterthought, educational environments must be proactively engineered with flexible pathways",
+              "paraphrase": "rather than tacking on adjustments to a rigid lesson plan as a secondary fix, schooling spaces should be designed in advance with versatile learning avenues",
+              "analysis": "'Retrofitting accommodations' = 'tacking on adjustments'; 'standardized curriculum' = 'rigid lesson plan'; 'proactively engineered with flexible pathways' = 'designed in advance with versatile learning avenues'."
+            }
+          },
+          {
+            "id": "t29_q29",
+            "num": 29,
+            "question": "The word \"apex\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"apex\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "pinnacle and highest peak",
+              "beginning stage",
+              "lowest foundation",
+              "unintended failure"
+            ],
+            "optionsVi": [
+              "đỉnh cao nhất, tột đỉnh",
+              "giai đoạn khởi đầu",
+              "nền móng thấp nhất",
+              "thất bại ngoài ý muốn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The philosophical apex of modern educational technology is codified in the Universal Design for Learning (UDL) framework.",
+            "evidenceVi": "Đỉnh cao triết học của công nghệ giáo dục hiện đại được hệ thống hóa trong khung Thiết kế học tập phổ quát (UDL).",
+            "explanation": "'Apex' nghĩa là đỉnh cao nhất, đỉnh điểm của sự phát triển, đồng nghĩa với 'pinnacle and highest peak'.",
+            "postReading": {
+              "original": "The philosophical apex of modern educational technology",
+              "paraphrase": "The conceptual pinnacle of contemporary learning tools",
+              "analysis": "'Philosophical apex' = 'conceptual pinnacle'; 'modern educational technology' = 'contemporary learning tools'."
+            }
+          },
+          {
+            "id": "t29_q30",
+            "num": 30,
+            "question": "What unexpected benefit of assistive EdTech in UDL classrooms is highlighted in paragraph 4?",
+            "questionVi": "Lợi ích bất ngờ nào của công nghệ hỗ trợ giáo dục trong các lớp học UDL được nhấn mạnh ở đoạn 4?",
+            "questionType": "Detail",
+            "options": [
+              "It causes all schools to reduce teacher salaries by half",
+              "It produces positive spillover benefits for neurotypical students as well, supporting varied learning preferences",
+              "It eliminates the need for students to attend school in person",
+              "It allows students to finish university degrees by age ten"
+            ],
+            "optionsVi": [
+              "Nó khiến tất cả các trường học cắt giảm một nửa lương giáo viên",
+              "Nó tạo ra những lợi ích lan tỏa tích cực cho cả những học sinh phát triển thần kinh bình thường, hỗ trợ phong cách học tập đa dạng",
+              "Nó loại bỏ nhu cầu học sinh phải đến trường trực tiếp",
+              "Nó cho phép học sinh hoàn thành bằng đại học vào năm 10 tuổi"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "assistive technologies embedded within UDL classrooms generate positive spillover benefits for neurotypical students as well, fostering diversified learning styles.",
+            "evidenceVi": "các công nghệ hỗ trợ được tích hợp trong các lớp học UDL cũng tạo ra những lợi ích lan tỏa tích cực cho cả các học sinh phát triển bình thường, nuôi dưỡng các phong cách học tập đa dạng.",
+            "explanation": "Đoạn 4 nêu rõ: công nghệ hỗ trợ không chỉ giúp trẻ khuyết tật mà còn có hiệu ứng lan tỏa (spillover benefits) giúp học sinh bình thường (neurotypical) tiếp thu bài học phong phú hơn.",
+            "postReading": {
+              "original": "assistive technologies embedded within UDL classrooms generate positive spillover benefits for neurotypical students as well, fostering diversified learning styles.",
+              "paraphrase": "inclusive digital tools integrated into universal classrooms create secondary gains for typical learners too, accommodating diverse instructional preferences.",
+              "analysis": "'Assistive technologies' = 'inclusive digital tools'; 'positive spillover benefits' = 'secondary gains'; 'neurotypical students' = 'typical learners'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Ocean Warming & Marine Heatwaves: Thermal Stratification, Coral Bleaching & Global Currents",
+        "topic": "Hiện tượng nóng lên của đại dương: Đại dương hấp thụ hơn 90% nhiệt dư khí nhà kính, sự giãn nở nhiệt làm dâng mực nước biển, phân tầng nhiệt và đe dọa dòng đối lưu kinh tuyến AMOC",
+        "timeAllowed": 15,
+        "passage": "<p>Covering more than seventy percent of the Earth's surface, the world's oceans serve as the paramount thermal buffer of the global climate system. Over the past five decades, as anthropogenic greenhouse gas emissions trapped colossal surpluses of radiant energy within the troposphere, marine waters absorbed an overwhelming ninety percent of this excess heat. This staggering thermodynamic sponge effect has substantially moderated the rate of atmospheric warming, shielding terrestrial biomes from catastrophic temperature spikes. However, this protective planetary service has inflicted devastating ecological toll upon the marine environment itself, driving ocean heat content (OHC) to historically unprecedented peaks and triggering profound disruptions across planetary hydrodynamics.</p><p>The immediate physical consequence of this sustained thermal absorption is the acceleration of global sea level rise. While the melting of terrestrial ice sheets and mountain glaciers contributes massive volumes of meltwater, approximately one-third of contemporary sea level rise is propelled purely by the thermodynamic principle of thermal expansion: as water molecules absorb heat, their kinetic energy increases, causing them to occupy a greater physical volume. Concurrently, elevated surface temperatures amplify water column thermal stratification. Warm, less-dense surface waters form an impermeable barrier atop colder, nutrient-dense deep waters, preventing vertical mixing. This stratification starves sunlit epipelagic zones of essential upwelled nitrates and iron, precipitating dramatic collapses in phytoplankton productivity—the fundamental trophic foundation of marine life.</p><p>Compounding chronic warming is the alarming proliferation of marine heatwaves (MHWs)—discrete prolonged periods of anomalously high sea surface temperatures. In tropical latitudes, these thermal spikes rupture the delicate mutualistic symbiosis between scleractinian corals and their endosymbiotic dinoflagellate algae (zooxanthellae). Thermally stressed corals expel their photosynthetic partners in a process known as mass coral bleaching, stripping the reef of its pigmentation and primary energy source. If intense thermal anomalies persist for extended periods, widespread coral mortality ensues, triggering trophic cascades that decimate reef biodiversity and jeopardize the coastal fisheries that sustain hundreds of millions of human residents across developing tropical archipelagos.</p><p>Perhaps most ominously, sustained ocean warming and glacial freshwater runoff threaten to destabilize major planetary convective systems, most notably the Atlantic Meridional Overturning Circulation (AMOC). By transporting warm tropical water northward and returning cold, dense, saline water southward through subterranean ocean trenches, the AMOC regulates northern hemisphere climate stability. Warming surface waters, coupled with massive influxes of low-density glacial meltwater from Greenland, reduce seawater salinity and density, inhibiting the deep convective sinking required to drive the circulation conveyor. Climate modelers warn that an AMOC collapse would catalyze extreme meteorological upheavals worldwide: plunging northwestern Europe into severe cold spells, shifting equatorial monsoon belts, and devastating global agricultural yields.</p>",
+        "vocab": [
+          {
+            "word": "thermodynamic",
+            "pos": "adjective",
+            "ipa": "/ˌθɜː.məʊ.daɪˈnæm.ɪk/",
+            "level": "C1",
+            "mean": "thuộc nhiệt động lực học",
+            "syns": [
+              "heat-energy related",
+              "caloric"
+            ],
+            "ex": "The ocean operates under fundamental thermodynamic principles of heat absorption."
+          },
+          {
+            "word": "troposphere",
+            "pos": "noun",
+            "ipa": "/ˈtrɒp.ə.sfɪər/",
+            "level": "C1",
+            "mean": "tầng đối lưu (tầng khí quyển sát mặt đất nhất)",
+            "syns": [
+              "lower atmosphere"
+            ],
+            "ex": "Greenhouse gases trap radiant energy inside the lower troposphere."
+          },
+          {
+            "word": "sponge",
+            "pos": "noun",
+            "ipa": "/spʌndʒ/",
+            "level": "B2",
+            "mean": "miếng bọt biển hút nhiệt (nghĩa bóng)",
+            "syns": [
+              "absorber",
+              "sink",
+              "reservoir"
+            ],
+            "ex": "The vast Pacific Ocean acts as a massive thermal sponge for human emissions."
+          },
+          {
+            "word": "hydrodynamics",
+            "pos": "noun",
+            "ipa": "/ˌhaɪ.drəʊ.daɪˈnæm.ɪks/",
+            "level": "C1",
+            "mean": "thủy động lực học (chuyển động của dòng nước)",
+            "syns": [
+              "fluid dynamics",
+              "water circulation"
+            ],
+            "ex": "Rising temperatures fundamentally alter planetary ocean hydrodynamics."
+          },
+          {
+            "word": "kinetic",
+            "pos": "adjective",
+            "ipa": "/kɪˈnet.ɪk/",
+            "level": "B2",
+            "mean": "thuộc về động năng (chuyển động của phân tử)",
+            "syns": [
+              "motion-based",
+              "active energy"
+            ],
+            "ex": "Higher kinetic energy causes warm water molecules to push further apart."
+          },
+          {
+            "word": "stratification",
+            "pos": "noun",
+            "ipa": "/ˌstræt.ɪ.fɪˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự phân tầng (nước nóng ở trên, nước lạnh ở dưới)",
+            "syns": [
+              "layering",
+              "separation",
+              "compartmentalization"
+            ],
+            "ex": "Thermal stratification prevents deep nutrient-rich water from rising to the surface."
+          },
+          {
+            "word": "impermeable",
+            "pos": "adjective",
+            "ipa": "/ɪmˈpɜː.mi.ə.bəl/",
+            "level": "C1",
+            "mean": "không thể thấm qua, ngăn cách hoàn toàn",
+            "syns": [
+              "impassable",
+              "non-porous",
+              "impenetrable"
+            ],
+            "ex": "Warm upper water forms an impermeable density barrier blocking nutrient flow."
+          },
+          {
+            "word": "epipelagic",
+            "pos": "adjective",
+            "ipa": "/ˌep.ɪ.pəˈlædʒ.ɪk/",
+            "level": "C1",
+            "mean": "thuộc tầng mặt biển (tầng có ánh sáng mặt trời rọi tới)",
+            "syns": [
+              "sunlit surface layer",
+              "photic zone"
+            ],
+            "ex": "Phytoplankton can only photosynthesize within the sunlit epipelagic zone."
+          },
+          {
+            "word": "upwelled",
+            "pos": "adjective",
+            "ipa": "/ˌʌpˈweld/",
+            "level": "C1",
+            "mean": "được dòng nước trồi đẩy từ đáy lên",
+            "syns": [
+              "surfaced",
+              "lifted",
+              "dredged up"
+            ],
+            "ex": "Upwelled currents bring rich nitrates from the seabed to feed surface plankton."
+          },
+          {
+            "word": "phytoplankton",
+            "pos": "noun",
+            "ipa": "/ˌfaɪ.təʊˈplæŋk.tən/",
+            "level": "C1",
+            "mean": "thực vật phù du (sinh vật quang hợp nền tảng của biển)",
+            "syns": [
+              "microscopic marine algae"
+            ],
+            "ex": "Phytoplankton produce more than fifty percent of the oxygen in Earth's atmosphere."
+          },
+          {
+            "word": "proliferation",
+            "pos": "noun",
+            "ipa": "/prəˌlɪf.ərˈeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự gia tăng nhanh chóng, sinh sôi nảy nở",
+            "syns": [
+              "rapid increase",
+              "multiplication",
+              "surge"
+            ],
+            "ex": "The proliferation of severe marine heatwaves threatens coastal kelp forests."
+          },
+          {
+            "word": "anomalously",
+            "pos": "adverb",
+            "ipa": "/əˈnɒm.ə.ləs.li/",
+            "level": "C1",
+            "mean": "một cách dị thường, bất thường",
+            "syns": [
+              "abnormally",
+              "unusually",
+              "irregularly"
+            ],
+            "ex": "Water temperatures remained anomalously warm for three consecutive months."
+          },
+          {
+            "word": "mutualistic",
+            "pos": "adjective",
+            "ipa": "/ˌmjuː.tʃu.əˈlɪs.tɪk/",
+            "level": "C1",
+            "mean": "mang tính hỗ sinh, đôi bên cùng có lợi",
+            "syns": [
+              "symbiotic",
+              "mutually beneficial",
+              "interdependent"
+            ],
+            "ex": "Corals and algae maintain a mutualistic partnership essential for coral calcification."
+          },
+          {
+            "word": "symbiosis",
+            "pos": "noun",
+            "ipa": "/ˌsɪm.baɪˈəʊ.sɪs/",
+            "level": "B2",
+            "mean": "sự cộng sinh sinh học",
+            "syns": [
+              "coexistence",
+              "partnership",
+              "mutualism"
+            ],
+            "ex": "Rising water heat breaks down the fragile symbiosis between coral polyps and algae."
+          },
+          {
+            "word": "dinoflagellate",
+            "pos": "noun",
+            "ipa": "/ˌdaɪ.nəʊˈflædʒ.əl.ət/",
+            "level": "C1",
+            "mean": "tảo giáp đơn bào (tảo cộng sinh trong san hô)",
+            "syns": [
+              "single-celled algae",
+              "zooxanthellae"
+            ],
+            "ex": "Dinoflagellate algae provide sugars to the host coral via photosynthesis."
+          },
+          {
+            "word": "expel",
+            "pos": "verb",
+            "ipa": "/ɪkˈspel/",
+            "level": "B2",
+            "mean": "trục xuất, tống khứ ra ngoài",
+            "syns": [
+              "eject",
+              "discharge",
+              "cast out"
+            ],
+            "ex": "Under extreme thermal stress, corals expel their colorful symbiotic algae."
+          },
+          {
+            "word": "bleaching",
+            "pos": "noun",
+            "ipa": "/ˈbliː.tʃɪŋ/",
+            "level": "B2",
+            "mean": "hiện tượng tẩy trắng san hô (hóa trắng do mất tảo)",
+            "syns": [
+              "whitening",
+              "discoloration",
+              "pigment loss"
+            ],
+            "ex": "Mass coral bleaching events have severely damaged Australia's Great Barrier Reef."
+          },
+          {
+            "word": "pigmentation",
+            "pos": "noun",
+            "ipa": "/ˌpɪɡ.mənˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "sắc tố màu sắc tự nhiên",
+            "syns": [
+              "coloring",
+              "tint",
+              "hue"
+            ],
+            "ex": "Without photosynthetic pigmentation, bleached corals appear ghostly white."
+          },
+          {
+            "word": "archipelago",
+            "pos": "noun",
+            "ipa": "/ˌɑː.kɪˈpel.ə.ɡəʊ/",
+            "level": "B2",
+            "mean": "quần đảo (nhóm nhiều hòn đảo)",
+            "syns": [
+              "island chain",
+              "island group"
+            ],
+            "ex": "Millions of people living across the Indonesian archipelago rely on coral reef fish."
+          },
+          {
+            "word": "ominously",
+            "pos": "adverb",
+            "ipa": "/ˈɒm.ɪ.nəs.li/",
+            "level": "C1",
+            "mean": "một cách đầy điềm gở, đáng ngại",
+            "syns": [
+              "forebodingly",
+              "menacingly",
+              "threateningly"
+            ],
+            "ex": "Atlantic current measurements have slowed down ominously over recent decades."
+          },
+          {
+            "word": "convective",
+            "pos": "adjective",
+            "ipa": "/kənˈvek.tɪv/",
+            "level": "C1",
+            "mean": "thuộc về đối lưu (dòng chuyển động do chênh lệch nhiệt độ/mật độ)",
+            "syns": [
+              "circulatory",
+              "overturning"
+            ],
+            "ex": "The global ocean conveyor operates via large-scale convective overturning."
+          },
+          {
+            "word": "meridional",
+            "pos": "adjective",
+            "ipa": "/məˈrɪd.i.ə.nəl/",
+            "level": "C1",
+            "mean": "theo hướng kinh tuyến (bắc - nam)",
+            "syns": [
+              "north-south",
+              "longitudinal"
+            ],
+            "ex": "The Meridional Overturning Circulation moves tropical heat toward polar latitudes."
+          },
+          {
+            "word": "saline",
+            "pos": "adjective",
+            "ipa": "/ˈseɪ.laɪn/",
+            "level": "B2",
+            "mean": "có vị mặn, chứa nồng độ muối cao",
+            "syns": [
+              "salty",
+              "saliferous"
+            ],
+            "ex": "Cold, saline water is dense and sinks deeply into North Atlantic trenches."
+          },
+          {
+            "word": "trench",
+            "pos": "noun",
+            "ipa": "/trentʃ/",
+            "level": "B2",
+            "mean": "rãnh sâu dưới đáy đại dương",
+            "syns": [
+              "abyssal ditch",
+              "deep channel"
+            ],
+            "ex": "Submarine trenches channel deep returning currents toward the equator."
+          },
+          {
+            "word": "salinity",
+            "pos": "noun",
+            "ipa": "/səˈlɪn.ə.ti/",
+            "level": "B2",
+            "mean": "độ mặn của nước biển",
+            "syns": [
+              "saltiness",
+              "salt concentration"
+            ],
+            "ex": "Melting Greenland ice caps pour fresh water into the sea, drastically reducing surface salinity."
+          },
+          {
+            "word": "upheaval",
+            "pos": "noun",
+            "ipa": "/ʌpˈhiː.vəl/",
+            "level": "C1",
+            "mean": "sự biến động dữ dội, xáo trộn hỗn loạn",
+            "syns": [
+              "convulsion",
+              "turmoil",
+              "disruption"
+            ],
+            "ex": "Climatic upheaval would trigger severe droughts in equatorial agrarian nations."
+          },
+          {
+            "word": "monsoon",
+            "pos": "noun",
+            "ipa": "/mɒnˈsuːn/",
+            "level": "B2",
+            "mean": "gió mùa, mùa mưa nhiệt đới",
+            "syns": [
+              "seasonal rainfall",
+              "tropical rainy season"
+            ],
+            "ex": "Shifting monsoon patterns threaten rice farming across South and Southeast Asia."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t29_q31",
+            "num": 31,
+            "question": "What is the primary thesis of the passage?",
+            "questionVi": "Luận điểm chính của đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "The world's oceans will evaporate completely within the next decade",
+              "Ocean warming acts as a planetary heat sink but causes thermal expansion, stratification, coral bleaching, and threats to ocean circulation",
+              "Coral reefs are indestructible geological structures immune to atmospheric climate change",
+              "Freshwater runoff from Greenland has no measurable effect on ocean water salinity"
+            ],
+            "optionsVi": [
+              "Các đại dương trên thế giới sẽ bốc hơi hoàn toàn trong vòng một thập kỷ tới",
+              "Sự nóng lên của đại dương đóng vai trò như một bể chứa nhiệt của hành tinh nhưng gây ra giãn nở nhiệt, phân tầng nước, tẩy trắng san hô và đe dọa các dòng hải lưu",
+              "Các rạn san hô là những cấu trúc địa chất bất khả xâm phạm miễn nhiễm với biến đổi khí hậu khí quyển",
+              "Nước ngọt chảy từ băng Greenland không có tác động đo lường được nào lên độ mặn của nước biển"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "marine waters absorbed an overwhelming ninety percent of this excess heat... The immediate physical consequence... is thermal expansion... elevated surface temperatures amplify water column thermal stratification... Compounding chronic warming is the alarming proliferation of marine heatwaves... sustained ocean warming and glacial freshwater runoff threaten to destabilize major planetary convective systems, most notably the AMOC.",
+            "evidenceVi": "nước biển đã hấp thụ tới 90% lượng nhiệt dư thừa này... Hậu quả vật lý trước mắt... là sự giãn nở nhiệt... nhiệt độ bề mặt gia tăng làm khuếch đại sự phân tầng nhiệt... Đi cùng sự ấm lên mãn tính là sự bùng nổ của các đợt sóng nhiệt biển... sự ấm lên và nước tan băng đe dọa làm mất ổn định các hệ thống đối lưu hành tinh, đặc biệt là dòng AMOC.",
+            "explanation": "Đoạn văn phân tích toàn diện vai trò hấp thụ nhiệt của đại dương và các hệ quả tiêu cực: giãn nở thể tích nước, phân tầng nhiệt cản trở dinh dưỡng, sóng nhiệt làm tẩy trắng san hô, và nguy cơ làm sụp đổ dòng hải lưu AMOC.",
+            "postReading": {
+              "original": "This staggering thermodynamic sponge effect has substantially moderated the rate of atmospheric warming, shielding terrestrial biomes from catastrophic temperature spikes.",
+              "paraphrase": "This enormous capacity to soak up thermal energy has significantly slowed air warming, protecting land ecosystems from devastating extreme heat waves.",
+              "analysis": "'Staggering thermodynamic sponge effect' = 'enormous capacity to soak up thermal energy'; 'moderated the rate of atmospheric warming' = 'slowed air warming'; 'shielding terrestrial biomes' = 'protecting land ecosystems'."
+            }
+          },
+          {
+            "id": "t29_q32",
+            "num": 32,
+            "question": "According to paragraph 1, what proportion of excess greenhouse radiant energy has been absorbed by global oceans?",
+            "questionVi": "Theo đoạn 1, tỷ lệ năng lượng bức xạ dư thừa từ khí nhà kính đã được các đại dương toàn cầu hấp thụ là bao nhiêu?",
+            "questionType": "Detail",
+            "options": [
+              "Less than twenty percent",
+              "Roughly fifty percent",
+              "An overwhelming ninety percent",
+              "Exactly one hundred percent"
+            ],
+            "optionsVi": [
+              "Dưới 20 phần trăm",
+              "Khoảng 50 phần trăm",
+              "Áp đảo tới 90 phần trăm",
+              "Chính xác 100 phần trăm"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Over the past five decades, as anthropogenic greenhouse gas emissions trapped colossal surpluses of radiant energy within the troposphere, marine waters absorbed an overwhelming ninety percent of this excess heat.",
+            "evidenceVi": "Trong năm thập kỷ qua, khi lượng phát thải khí nhà kính do con người gây ra bẫy lượng nhiệt bức xạ khổng lồ trong tầng đối lưu, nước biển đã hấp thụ tới 90% lượng nhiệt dư thừa này.",
+            "explanation": "Đoạn 1 nêu con số cụ thể: các đại dương đã hấp thụ tới 90% lượng nhiệt dư thừa do hiệu ứng nhà kính tạo ra.",
+            "postReading": {
+              "original": "marine waters absorbed an overwhelming ninety percent of this excess heat.",
+              "paraphrase": "the world's oceans took in an immense 90% proportion of this surplus thermal energy.",
+              "analysis": "'Marine waters' = 'world's oceans'; 'an overwhelming ninety percent' = 'an immense 90% proportion'; 'excess heat' = 'surplus thermal energy'."
+            }
+          },
+          {
+            "id": "t29_q33",
+            "num": 33,
+            "question": "According to paragraph 2, what physical mechanism accounts for approximately one-third of contemporary sea level rise?",
+            "questionVi": "Theo đoạn 2, cơ chế vật lý nào chịu trách nhiệm cho khoảng 1/3 mức tăng mực nước biển hiện nay?",
+            "questionType": "Detail",
+            "options": [
+              "Undersea volcanic lava accumulation",
+              "Thermodynamic thermal expansion of warming water molecules",
+              "Submarine tectonic earthquakes lifting the ocean floor",
+              "Excessive industrial sand dredging along coastal beaches"
+            ],
+            "optionsVi": [
+              "Sự tích tụ dung nham núi lửa dưới đáy biển",
+              "Sự giãn nở nhiệt động lực học của các phân tử nước ấm lên",
+              "Động đất kiến tạo ngầm dưới biển nâng đáy đại dương lên",
+              "Nạo vét cát công nghiệp quá mức dọc theo các bãi biển ven bờ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "approximately one-third of contemporary sea level rise is propelled purely by the thermodynamic principle of thermal expansion: as water molecules absorb heat, their kinetic energy increases, causing them to occupy a greater physical volume.",
+            "evidenceVi": "khoảng một phần ba mực nước biển dâng hiện nay hoàn toàn do nguyên lý nhiệt động lực học về sự giãn nở nhiệt thúc đẩy: khi các phân tử nước hấp thụ nhiệt, động năng của chúng tăng lên, khiến chúng chiếm thể tích vật lý lớn hơn.",
+            "explanation": "Đoạn 2 chỉ rõ: khoảng 1/3 mực nước biển dâng là do hiện tượng giãn nở nhiệt ('thermal expansion') khi nước ấm lên thì thể tích tăng.",
+            "postReading": {
+              "original": "approximately one-third of contemporary sea level rise is propelled purely by the thermodynamic principle of thermal expansion",
+              "paraphrase": "about 33% of current sea elevation is driven entirely by the physical law of heat-induced water expansion",
+              "analysis": "'Approximately one-third' = 'about 33%'; 'sea level rise' = 'sea elevation'; 'thermodynamic principle of thermal expansion' = 'physical law of heat-induced water expansion'."
+            }
+          },
+          {
+            "id": "t29_q34",
+            "num": 34,
+            "question": "The term \"thermal stratification\" in paragraph 2 refers to:",
+            "questionVi": "Thuật ngữ \"thermal stratification\" (sự phân tầng nhiệt) trong đoạn 2 đề cập đến:",
+            "questionType": "Vocabulary",
+            "options": [
+              "The construction of concrete walls to prevent waves from hitting harbors",
+              "The formation of a warm, less-dense surface layer that prevents vertical mixing with colder, nutrient-dense deep water",
+              "The freezing of surface ice sheets into solid polar barriers",
+              "The evaporation of shallow coastal lagoons during summer afternoons"
+            ],
+            "optionsVi": [
+              "Việc xây dựng các bức tường bê tông để ngăn sóng đập vào bến cảng",
+              "Sự hình thành một lớp nước ấm, nhẹ hơn ở bề mặt ngăn chặn sự xáo trộn thẳng đứng với lớp nước sâu lạnh hơn và giàu dinh dưỡng",
+              "Sự đóng băng của các tảng băng bề mặt thành các rào cản cực vững chắc",
+              "Sự bốc hơi của các đầm phá ven biển nông trong những buổi chiều hè"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "elevated surface temperatures amplify water column thermal stratification. Warm, less-dense surface waters form an impermeable barrier atop colder, nutrient-dense deep waters, preventing vertical mixing.",
+            "evidenceVi": "nhiệt độ bề mặt tăng cao làm khuếch đại sự phân tầng nhiệt của cột nước. Nước bề mặt ấm hơn, nhẹ hơn tạo thành một rào cản không thể thấm qua phía trên vùng nước sâu lạnh hơn, giàu dinh dưỡng, ngăn chặn sự xáo trộn thẳng đứng.",
+            "explanation": "Đoạn 2 định nghĩa: nước ấm nổi lên trên ngăn không cho nước sâu lạnh giàu khoáng chất hòa trộn lên trên, khiến sinh vật phù du thiếu dưỡng chất.",
+            "postReading": {
+              "original": "Warm, less-dense surface waters form an impermeable barrier atop colder, nutrient-dense deep waters, preventing vertical mixing.",
+              "paraphrase": "Heated, lighter upper water creates an impassable layer over cold, nutrient-rich deep water, blocking up-and-down circulation.",
+              "analysis": "'Less-dense surface waters' = 'lighter upper water'; 'impermeable barrier' = 'impassable layer'; 'preventing vertical mixing' = 'blocking up-and-down circulation'."
+            }
+          },
+          {
+            "id": "t29_q35",
+            "num": 35,
+            "question": "The word \"proliferation\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"proliferation\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "rapid escalation and surge",
+              "complete disappearance",
+              "gradual cooling",
+              "routine monitoring"
+            ],
+            "optionsVi": [
+              "sự gia tăng nhanh chóng và bùng nổ",
+              "sự biến mất hoàn toàn",
+              "sự làm mát dần dần",
+              "sự giám sát định kỳ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Compounding chronic warming is the alarming proliferation of marine heatwaves (MHWs)...",
+            "evidenceVi": "Làm trầm trọng thêm sự ấm lên mãn tính là sự gia tăng nhanh chóng đáng báo động của các đợt sóng nhiệt biển...",
+            "explanation": "'Proliferation' nghĩa là sự gia tăng nhanh chóng, sinh sôi nảy nở về số lượng hoặc tần suất, đồng nghĩa với 'rapid escalation and surge'.",
+            "postReading": {
+              "original": "the alarming proliferation of marine heatwaves",
+              "paraphrase": "the disturbing surge in oceanic temperature spikes",
+              "analysis": "'Alarming proliferation' = 'disturbing surge'; 'marine heatwaves' = 'oceanic temperature spikes'."
+            }
+          },
+          {
+            "id": "t29_q36",
+            "num": 36,
+            "question": "According to paragraph 3, what biological event triggers mass coral bleaching during marine heatwaves?",
+            "questionVi": "Theo đoạn 3, sự kiện sinh học nào kích hoạt hiện tượng tẩy trắng san hô hàng loạt trong các đợt sóng nhiệt biển?",
+            "questionType": "Detail",
+            "options": [
+              "Corals are eaten by swarms of predatory deep-sea squids",
+              "Thermally stressed corals expel their mutualistic symbiotic photosynthetic algae (zooxanthellae)",
+              "Corals absorb excessive salt crystals from ocean trenches",
+              "Corals migrate across the equator to polar iceberg shelves"
+            ],
+            "optionsVi": [
+              "San hô bị ăn thịt bởi các đàn mực biển sâu săn mồi",
+              "San hô bị sốc nhiệt tống khứ các loài tảo quang hợp cộng sinh hỗ trợ (zooxanthellae) ra ngoài",
+              "San hô hấp thụ quá nhiều tinh thể muối từ các rãnh đại dương",
+              "San hô di cư qua đường xích đạo tới các thềm băng trôi ở vùng cực"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "ruptures the delicate mutualistic symbiosis between scleractinian corals and their endosymbiotic dinoflagellate algae (zooxanthellae). Thermally stressed corals expel their photosynthetic partners in a process known as mass coral bleaching, stripping the reef of its pigmentation and primary energy source.",
+            "evidenceVi": "làm tan vỡ mối quan hệ cộng sinh hỗ trợ tinh tế giữa san hô và các loài tảo giáp đơn bào nội cộng sinh (zooxanthellae). San hô bị căng thẳng nhiệt đẩy các đối tác quang hợp của chúng ra ngoài trong một quá trình được gọi là tẩy trắng san hô hàng loạt, tước đi sắc tố và nguồn năng lượng chính của rạn san hô.",
+            "explanation": "Đoạn 3 chỉ rõ: khi nước quá nóng, san hô bị stress nhiệt và tống khứ tảo cộng sinh zooxanthellae ra ngoài, khiến san hô mất màu (tẩy trắng) và mất nguồn dinh dưỡng nuôi sống.",
+            "postReading": {
+              "original": "Thermally stressed corals expel their photosynthetic partners in a process known as mass coral bleaching, stripping the reef of its pigmentation and primary energy source.",
+              "paraphrase": "Heat-strained corals eject their single-celled algae partners through widespread bleaching, depriving the reef of its color and essential caloric nutrition.",
+              "analysis": "'Thermally stressed corals' = 'Heat-strained corals'; 'expel their photosynthetic partners' = 'eject their single-celled algae partners'; 'stripping the reef of its pigmentation' = 'depriving the reef of its color'."
+            }
+          },
+          {
+            "id": "t29_q37",
+            "num": 37,
+            "question": "The word \"ominously\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"ominously\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "forebodingly and threateningly",
+              "cheerfully",
+              "insignificantly",
+              "scientifically"
+            ],
+            "optionsVi": [
+              "đầy điềm gở và đe dọa",
+              "vui vẻ phấn khởi",
+              "không đáng kể",
+              "thuộc về khoa học"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Perhaps most ominously, sustained ocean warming and glacial freshwater runoff threaten to destabilize major planetary convective systems...",
+            "evidenceVi": "Có lẽ điều đáng lo ngại và mang tính điềm gở nhất là sự ấm lên liên tục của đại dương và dòng nước ngọt từ sông băng tan đe dọa làm mất ổn định các hệ thống đối lưu hành tinh...",
+            "explanation": "'Ominously' nghĩa là mang tính đe dọa, báo trước điềm chẳng lành, đồng nghĩa với 'forebodingly and threateningly'.",
+            "postReading": {
+              "original": "Perhaps most ominously, sustained ocean warming and glacial freshwater runoff threaten to destabilize major planetary convective systems",
+              "paraphrase": "Most alarmingly, persistent seawater heating and ice-melt water risk disrupting dominant global circulation loops",
+              "analysis": "'Most ominously' = 'Most alarmingly'; 'sustained ocean warming' = 'persistent seawater heating'; 'destabilize major planetary convective systems' = 'disrupting dominant global circulation loops'."
+            }
+          },
+          {
+            "id": "t29_q38",
+            "num": 38,
+            "question": "What is the primary planetary role of the Atlantic Meridional Overturning Circulation (AMOC) mentioned in paragraph 4?",
+            "questionVi": "Vai trò hành tinh chính của Dòng đối lưu kinh tuyến Đại Tây Dương (AMOC) được đề cập ở đoạn 4 là gì?",
+            "questionType": "Detail",
+            "options": [
+              "It generates underground earthquakes in equatorial volcanic faultlines",
+              "It regulates Northern Hemisphere climate stability by moving warm tropical water northward and returning dense cold water southward",
+              "It prevents marine mammals from swimming between the Pacific and Atlantic oceans",
+              "It extracts table salt from deep-sea mineral trenches"
+            ],
+            "optionsVi": [
+              "Nó tạo ra động đất ngầm trong các đường đứt gãy núi lửa xích đạo",
+              "Nó điều hòa sự ổn định khí hậu Bắc Bán cầu bằng cách vận chuyển nước ấm nhiệt đới lên phía bắc và đưa nước lạnh đậm đặc trở lại phía nam",
+              "Nó ngăn chặn các động vật có vú ở biển bơi giữa Thái Bình Dương và Đại Tây Dương",
+              "Nó chiết xuất muối ăn từ các rãnh khoáng sản biển sâu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "By transporting warm tropical water northward and returning cold, dense, saline water southward through subterranean ocean trenches, the AMOC regulates northern hemisphere climate stability.",
+            "evidenceVi": "Bằng cách vận chuyển nước ấm nhiệt đới về phía bắc và đưa nước lạnh, đậm đặc, mặn về phía nam qua các rãnh đại dương ngầm, AMOC điều hòa sự ổn định khí hậu của bán cầu bắc.",
+            "explanation": "Đoạn 4 nêu rõ vai trò của dòng AMOC: như một băng chuyền khổng lồ mang nước ấm nhiệt đới lên sưởi ấm Bắc Bán Cầu và đưa nước lạnh mặn chìm xuống đáy chảy về nam.",
+            "postReading": {
+              "original": "By transporting warm tropical water northward and returning cold, dense, saline water southward through subterranean ocean trenches, the AMOC regulates northern hemisphere climate stability.",
+              "paraphrase": "Through channeling equatorial warmth toward the north and cycling chilled, heavy saltwater southward in abyssal channels, the AMOC maintains temperature equilibrium across the Northern Hemisphere.",
+              "analysis": "'Transporting warm tropical water northward' = 'channeling equatorial warmth toward the north'; 'returning cold, dense, saline water southward' = 'cycling chilled, heavy saltwater southward'; 'regulates northern hemisphere climate stability' = 'maintains temperature equilibrium across the Northern Hemisphere'."
+            }
+          },
+          {
+            "id": "t29_q39",
+            "num": 39,
+            "question": "According to paragraph 4, why does freshwater runoff from Greenland melting ice inhibit the AMOC circulation?",
+            "questionVi": "Theo đoạn 4, vì sao dòng nước ngọt từ băng tan ở Greenland lại cản trở dòng hoàn lưu AMOC?",
+            "questionType": "Detail",
+            "options": [
+              "Freshwater freezes into solid dams that block surface ships",
+              "Low-density freshwater reduces the salinity and density of seawater, preventing the deep convective sinking necessary to power the conveyor",
+              "Freshwater contains acidic chemicals that dissolve Atlantic marine trenches",
+              "Freshwater causes sea surface temperatures to boil instantaneously"
+            ],
+            "optionsVi": [
+              "Nước ngọt đóng băng thành những con đập kiên cố chặn tàu bè trên mặt biển",
+              "Nước ngọt có tỷ trọng thấp làm giảm độ mặn và mật độ của nước biển, ngăn cản quá trình chìm đối lưu sâu cần thiết để vận hành băng chuyền",
+              "Nước ngọt chứa hóa chất axit hòa tan các rãnh biển Đại Tây Dương",
+              "Nước ngọt làm cho nhiệt độ bề mặt biển sôi lên ngay lập tức"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "coupled with massive influxes of low-density glacial meltwater from Greenland, reduce seawater salinity and density, inhibiting the deep convective sinking required to drive the circulation conveyor.",
+            "evidenceVi": "kết hợp với dòng chảy khổng lồ của nước băng tan có tỷ trọng thấp từ Greenland, làm giảm độ mặn và tỷ trọng của nước biển, ức chế sự chìm đối lưu sâu cần thiết để vận hành băng chuyền hoàn lưu.",
+            "explanation": "Đoạn 4 giải thích cơ chế: nước ngọt tan từ băng nhẹ hơn nước mặn nên nổi trên bề mặt, làm nước biển bớt mặn và không đủ nặng để chìm xuống đáy (deep convective sinking), làm tê liệt băng chuyền.",
+            "postReading": {
+              "original": "reduce seawater salinity and density, inhibiting the deep convective sinking required to drive the circulation conveyor.",
+              "paraphrase": "lowers oceanic saltiness and weight, preventing the downward plunge of water needed to power the ocean conveyor belt.",
+              "analysis": "'Reduce seawater salinity and density' = 'lowers oceanic saltiness and weight'; 'inhibiting the deep convective sinking' = 'preventing the downward plunge of water'; 'drive the circulation conveyor' = 'power the ocean conveyor belt'."
+            }
+          },
+          {
+            "id": "t29_q40",
+            "num": 40,
+            "question": "What disastrous consequences could result if the AMOC system collapses, according to the final sentence?",
+            "questionVi": "Những hậu quả thảm khốc nào có thể xảy ra nếu hệ thống AMOC sụp đổ, theo câu văn cuối cùng?",
+            "questionType": "Inference",
+            "options": [
+              "The total elimination of all human gravity across the globe",
+              "Severe cold waves in northwestern Europe, shifts in equatorial monsoon rain belts, and catastrophic damage to global agricultural yields",
+              "Immediate freezing of all tropical coral reefs into permanent icebergs",
+              "A worldwide shortage of industrial concrete for construction"
+            ],
+            "optionsVi": [
+              "Sự loại bỏ hoàn toàn trọng lực của con người trên toàn cầu",
+              "Những đợt lạnh giá khắc nghiệt ở Tây Bắc Âu, sự dịch chuyển của các vành đai mưa gió mùa xích đạo và thiệt hại thảm khốc đối với năng suất nông nghiệp toàn cầu",
+              "Sự đóng băng ngay lập tức của tất cả các rạn san hô nhiệt đới thành những tảng băng trôi vĩnh cửu",
+              "Tình trạng thiếu hụt bê tông công nghiệp trên toàn thế giới cho ngành xây dựng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Climate modelers warn that an AMOC collapse would catalyze extreme meteorological upheavals worldwide: plunging northwestern Europe into severe cold spells, shifting equatorial monsoon belts, and devastating global agricultural yields.",
+            "evidenceVi": "Các nhà mô hình hóa khí hậu cảnh báo rằng sự sụp đổ của AMOC sẽ gây ra những biến động khí tượng cực đoan trên toàn thế giới: đẩy vùng tây bắc Châu Âu vào những đợt lạnh giá nghiêm trọng, làm dịch chuyển các vành đai gió mùa xích đạo và tàn phá năng suất nông nghiệp toàn cầu.",
+            "explanation": "Câu kết liệt kê rõ ràng các thảm họa: Tây Bắc Âu lạnh cóng, gió mùa xích đạo bị lệch gây hạn hán/bão lũ bất thường và mùa màng lương thực toàn cầu bị tàn phá.",
+            "postReading": {
+              "original": "plunging northwestern Europe into severe cold spells, shifting equatorial monsoon belts, and devastating global agricultural yields.",
+              "paraphrase": "subjecting northwest Europe to intense freezing periods, altering tropical monsoon rainfall zones, and destroying worldwide crop outputs.",
+              "analysis": "'Severe cold spells' = 'intense freezing periods'; 'shifting equatorial monsoon belts' = 'altering tropical monsoon rainfall zones'; 'devastating global agricultural yields' = 'destroying worldwide crop outputs'."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
