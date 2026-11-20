@@ -42013,6 +42013,2846 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST19",
+    "testNum": 19,
+    "title": "VSTEP READING MOCK TEST 19",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 09 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Mastering English Speaking & Writing Skills",
+        "topic": "Phương pháp học kỹ năng Nói & Viết tiếng Anh chủ động: Input-Output, Shadowing & Viết theo quy trình",
+        "timeAllowed": 15,
+        "passage": "<p>Across East and Southeast Asia, millions of diligent English learners spend over a decade mastering complex grammatical rules and memorizing thousands of dictionary definitions, yet freeze nervously when asked to hold a spontaneous conversation or draft a persuasive essay. Applied linguists refer to this frustrating gap as the divide between receptive skills—listening and reading—and productive skills—speaking and writing. Whereas receptive comprehension allows learners to recognize familiar words passively through contextual clues, productive mastery requires retrieving vocabulary, assembling accurate syntax, and organizing coherent arguments in real time.</p><p>To bridge this divide in oral fluency, modern second-language pedagogy champions 'comprehensible output' alongside deliberate pronunciation training. One highly acclaimed method is 'shadowing,' in which learners listen to natural recordings by proficient speakers and repeat phrases aloud almost simultaneously, mimicking rhythm, word stress, and connected-speech intonation rather than merely reciting isolated words. Equally transformative is task-based speaking practice—such as timed role-plays, structured debates, and daily two-minute voice journals—which gradually desensitizes learners to speaking anxiety. Research consistently confirms that prioritizing communicative clarity over perfectionist error-avoidance accelerates real-world speaking confidence far more effectively than silent textbook drills.</p><p>Developing academic and professional writing proficiency demands a similarly active shift from formulaic memorization toward the 'process-writing' approach. Instead of attempting to compose a flawless final essay in a single rushed sitting, skilled writers divide composition into distinct cognitive stages: brainstorming ideas, mapping a logical outline, drafting freely, revising structural coherence, and editing lexical precision last. Crucially, learners gain rapid improvement when they study authentic model texts to notice 'collocations'—natural word partnerships like 'mitigate risks' or 'conduct research'—rather than translating word-for-word from their native tongue, which frequently produces awkward phrasing.</p><p>Ultimately, speaking and writing reinforce one another in a virtuous cognitive loop. Articulating arguments aloud clarifies mental organization before fingers touch the keyboard, while careful written revision deepens grammatical awareness that later surfaces automatically during live speech. Coupled with constructive peer feedback, targeted error logs, and consistent daily micro-habits, active productive methodologies empower learners to transform inert textbook knowledge into agile, expressive English communication.</p>",
+        "vocab": [
+          {
+            "word": "diligent",
+            "pos": "adj",
+            "ipa": "/ˈdɪl.ɪ.dʒənt/",
+            "level": "B2",
+            "mean": "chăm chỉ, cần cù bền bỉ",
+            "syns": [
+              "hardworking",
+              "industrious",
+              "assiduous"
+            ],
+            "ex": "Even diligent students struggle to speak fluently if they only read silently."
+          },
+          {
+            "word": "spontaneous",
+            "pos": "adj",
+            "ipa": "/spɒnˈteɪ.ni.əs/",
+            "level": "B2",
+            "mean": "tự phát, ứng biến ngay không chuẩn bị trước",
+            "syns": [
+              "unplanned",
+              "impromptu",
+              "unrehearsed"
+            ],
+            "ex": "Spontaneous conversations require rapid retrieval of everyday phrases."
+          },
+          {
+            "word": "receptive",
+            "pos": "adj",
+            "ipa": "/rɪˈsep.tɪv/",
+            "level": "C1",
+            "mean": "tiếp nhận (kỹ năng Nghe & Đọc)",
+            "syns": [
+              "passive-comprehension",
+              "receiving"
+            ],
+            "ex": "Listening and reading are classified as receptive language skills."
+          },
+          {
+            "word": "productive",
+            "pos": "adj",
+            "ipa": "/prəˈdʌk.tɪv/",
+            "level": "B2",
+            "mean": "sản sinh ngôn ngữ (kỹ năng Nói & Viết)",
+            "syns": [
+              "active-output",
+              "generative",
+              "expressive"
+            ],
+            "ex": "Productive skills require learners to build original sentences from scratch."
+          },
+          {
+            "word": "syntax",
+            "pos": "n",
+            "ipa": "/ˈsɪn.tæks/",
+            "level": "C1",
+            "mean": "cú pháp, cấu trúc sắp xếp câu",
+            "syns": [
+              "sentence structure",
+              "grammar",
+              "word order"
+            ],
+            "ex": "Accurate syntax helps readers follow complex academic arguments effortlessly."
+          },
+          {
+            "word": "coherent",
+            "pos": "adj",
+            "ipa": "/kəʊˈhɪə.rənt/",
+            "level": "B2",
+            "mean": "mạch lạc, liên kết chặt chẽ logic",
+            "syns": [
+              "logical",
+              "structured",
+              "unified"
+            ],
+            "ex": "Outlining paragraphs beforehand ensures a coherent progression of ideas."
+          },
+          {
+            "word": "pedagogy",
+            "pos": "n",
+            "ipa": "/ˈped.ə.ɡɒdʒ.i/",
+            "level": "C1",
+            "mean": "khoa học sư phạm, phương pháp giảng dạy",
+            "syns": [
+              "teaching methodology",
+              "instruction",
+              "didactics"
+            ],
+            "ex": "Contemporary language pedagogy emphasizes real-world communicative tasks."
+          },
+          {
+            "word": "acclaimed",
+            "pos": "adj",
+            "ipa": "/əˈkleɪmd/",
+            "level": "B2",
+            "mean": "được tán dương, đánh giá rất cao",
+            "syns": [
+              "praised",
+              "celebrated",
+              "renowned"
+            ],
+            "ex": "Shadowing is an acclaimed technique among simultaneous interpreters."
+          },
+          {
+            "word": "mimic",
+            "pos": "v",
+            "ipa": "/ˈmɪm.ɪk/",
+            "level": "B2",
+            "mean": "bắt chước mô phỏng chuẩn xác (ngữ điệu, nhịp)",
+            "syns": [
+              "imitate",
+              "echo",
+              "emulate"
+            ],
+            "ex": "Beginners mimic native speakers' intonation patterns to sound more natural."
+          },
+          {
+            "word": "intonation",
+            "pos": "n",
+            "ipa": "/ˌɪn.təˈneɪ.ʃən/",
+            "level": "B2",
+            "mean": "ngữ điệu lên xuống giọng khi nói",
+            "syns": [
+              "pitch pattern",
+              "cadence",
+              "inflection"
+            ],
+            "ex": "Rising intonation at the end of a clause often signals a polite question."
+          },
+          {
+            "word": "desensitize",
+            "pos": "v",
+            "ipa": "/ˌdiːˈsen.sɪ.taɪz/",
+            "level": "C1",
+            "mean": "làm giảm bớt nỗi sợ hãi, chai lì trước lo âu",
+            "syns": [
+              "accustom",
+              "harden",
+              "reduce sensitivity"
+            ],
+            "ex": "Recording daily voice memos helps desensitize learners to performance fear."
+          },
+          {
+            "word": "perfectionist",
+            "pos": "adj",
+            "ipa": "/pəˈfek.ʃən.ɪst/",
+            "level": "B2",
+            "mean": "cầu toàn thái quá",
+            "syns": [
+              "overly exacting",
+              "hypercritical"
+            ],
+            "ex": "Perfectionist fear of grammar slips often stops learners from opening their mouths."
+          },
+          {
+            "word": "formulaic",
+            "pos": "adj",
+            "ipa": "/ˌfɔː.mjʊˈleɪ.ɪk/",
+            "level": "C1",
+            "mean": "rập khuôn máy móc theo văn mẫu có sẵn",
+            "syns": [
+              "stereotyped",
+              "cliched",
+              "cookie-cutter"
+            ],
+            "ex": "Examiners easily spot formulaic memorized templates that fail to answer the prompt."
+          },
+          {
+            "word": "flawless",
+            "pos": "adj",
+            "ipa": "/ˈflɔː.ləs/",
+            "level": "B2",
+            "mean": "không tì vết, hoàn hảo tuyệt đối",
+            "syns": [
+              "impeccable",
+              "perfect",
+              "unblemished"
+            ],
+            "ex": "Trying to write a flawless first draft usually causes severe writer's block."
+          },
+          {
+            "word": "brainstorm",
+            "pos": "v",
+            "ipa": "/ˈbreɪn.stɔːm/",
+            "level": "B1",
+            "mean": "động não, liệt kê nhanh các ý tưởng",
+            "syns": [
+              "ideate",
+              "generate ideas",
+              "plan"
+            ],
+            "ex": "Spend five minutes to brainstorm supporting examples before drafting your essay."
+          },
+          {
+            "word": "lexical",
+            "pos": "adj",
+            "ipa": "/ˈlek.sɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc về từ vựng",
+            "syns": [
+              "vocabulary-related",
+              "verbal",
+              "word-choice"
+            ],
+            "ex": "Final proofreading sharpens lexical precision and eliminates repetitive phrasing."
+          },
+          {
+            "word": "collocation",
+            "pos": "n",
+            "ipa": "/ˌkɒl.əˈkeɪ.ʃən/",
+            "level": "B2",
+            "mean": "cụm từ kết hợp tự nhiên theo thói quen bản ngữ",
+            "syns": [
+              "word partnership",
+              "idiomatic pairing"
+            ],
+            "ex": "Learning collocations like 'pose a threat' sounds much better than literal translation."
+          },
+          {
+            "word": "awkward",
+            "pos": "adj",
+            "ipa": "/ˈɔː.kwəd/",
+            "level": "B1",
+            "mean": "gượng gạo, thiếu tự nhiên",
+            "syns": [
+              "clumsy",
+              "unnatural",
+              "stilted"
+            ],
+            "ex": "Word-for-word translation from Vietnamese often produces awkward English phrases."
+          },
+          {
+            "word": "virtuous",
+            "pos": "adj",
+            "ipa": "/ˈvɜː.tʃu.əs/",
+            "level": "C1",
+            "mean": "tích cực tương hỗ (vòng tròn tích cực)",
+            "syns": [
+              "beneficial",
+              "self-reinforcing",
+              "positive"
+            ],
+            "ex": "Speaking and writing reinforce each other in a virtuous learning loop."
+          },
+          {
+            "word": "articulate",
+            "pos": "v",
+            "ipa": "/ɑːˈtɪk.jʊ.leɪt/",
+            "level": "B2",
+            "mean": "diễn đạt thành lời rành mạch rõ ràng",
+            "syns": [
+              "express",
+              "voice",
+              "verbalize"
+            ],
+            "ex": "Learners who articulate ideas aloud organize written essays more clearly."
+          },
+          {
+            "word": "constructive",
+            "pos": "adj",
+            "ipa": "/kənˈstrʌk.tɪv/",
+            "level": "B2",
+            "mean": "mang tính xây dựng, giúp cải thiện",
+            "syns": [
+              "helpful",
+              "productive",
+              "supportive"
+            ],
+            "ex": "Constructive peer feedback highlights unclear transitions without discouraging writers."
+          },
+          {
+            "word": "inert",
+            "pos": "adj",
+            "ipa": "/ɪˈnɜːt/",
+            "level": "C1",
+            "mean": "thụ động, nằm im không đem ra vận dụng được",
+            "syns": [
+              "inactive",
+              "passive",
+              "dormant"
+            ],
+            "ex": "Active debates convert inert vocabulary memorized from lists into usable speech."
+          },
+          {
+            "word": "agile",
+            "pos": "adj",
+            "ipa": "/ˈædʒ.aɪl/",
+            "level": "B2",
+            "mean": "linh hoạt, ứng biến nhanh nhạy",
+            "syns": [
+              "nimble",
+              "versatile",
+              "adaptable"
+            ],
+            "ex": "Consistent daily practice builds agile communication across academic topics."
+          },
+          {
+            "word": "fluency",
+            "pos": "n",
+            "ipa": "/ˈfluː.ən.si/",
+            "level": "B2",
+            "mean": "độ trôi chảy, lưu loát trong giao tiếp",
+            "syns": [
+              "smoothness",
+              "ease",
+              "eloquence"
+            ],
+            "ex": "Oral fluency grows when students speak regularly without pausing to translate."
+          },
+          {
+            "word": "proficiency",
+            "pos": "n",
+            "ipa": "/prəˈfɪʃ.ən.si/",
+            "level": "B2",
+            "mean": "năng lực thành thạo ở trình độ cao",
+            "syns": [
+              "competence",
+              "mastery",
+              "expertise"
+            ],
+            "ex": "Achieving C1 writing proficiency takes disciplined drafting and careful revision."
+          },
+          {
+            "word": "retrieve",
+            "pos": "v",
+            "ipa": "/rɪˈtriːv/",
+            "level": "B2",
+            "mean": "truy xuất, gọi lại từ trí nhớ ngay lập tức",
+            "syns": [
+              "recall",
+              "access",
+              "summon"
+            ],
+            "ex": "Active speaking drills train the brain to retrieve academic verbs swiftly."
+          },
+          {
+            "word": "drill",
+            "pos": "n",
+            "ipa": "/drɪl/",
+            "level": "B2",
+            "mean": "bài tập luyện rập khuôn lặp đi lặp lại",
+            "syns": [
+              "exercise",
+              "routine practice",
+              "repetition"
+            ],
+            "ex": "Interactive role-plays outperform silent grammar drills for speaking confidence."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "According to paragraph 1, why do many diligent English learners struggle to speak or write despite years of study?",
+            "questionVi": "Theo đoạn 1, tại sao nhiều người học tiếng Anh chăm chỉ vẫn chật vật khi nói hoặc viết dù đã học nhiều năm?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Because productive skills require active real-time retrieval and organization, unlike passive receptive recognition.",
+              "Because English dictionaries contain far fewer definitions than East Asian languages.",
+              "Because listening and reading do not require recognizing any contextual clues.",
+              "Because adult learners are biologically incapable of mastering accurate syntax."
+            ],
+            "optionsVi": [
+              "A. Bởi vì kỹ năng sản sinh đòi hỏi truy xuất chủ động và tổ chức ý theo thời gian thực, khác với nhận diện thụ động ở kỹ năng tiếp nhận.",
+              "B. Bởi vì từ điển tiếng Anh có ít định nghĩa hơn ngôn ngữ Đông Á.",
+              "C. Bởi vì nghe và đọc không cần nhận diện bất kỳ manh mối ngữ cảnh nào.",
+              "D. Bởi vì người học trưởng thành không thể làm chủ cú pháp chuẩn xác về mặt sinh học."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Whereas receptive comprehension allows learners to recognize familiar words passively through contextual clues, productive mastery requires retrieving vocabulary, assembling accurate syntax, and organizing coherent arguments in real time. [Paragraph 1]",
+            "evidenceVi": "Trong khi kỹ năng tiếp nhận cho phép nhận ra từ quen thụ động qua ngữ cảnh, làm chủ kỹ năng sản sinh đòi hỏi truy xuất từ vựng, lắp ghép cú pháp chuẩn và tổ chức lập luận mạch lạc theo thời gian thực. [Đoạn 1]",
+            "explanation": "Đoạn 1 giải thích rõ sự chênh lệch giữa kỹ năng tiếp nhận (nghe - đọc thụ động) và kỹ năng sản sinh (nói - viết chủ động theo thời gian thực) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Phân biệt kỹ năng tiếp nhận vs sản sinh (Factual)",
+              "cluePassage": "receptive comprehension allows learners to recognize familiar words passively... productive mastery requires retrieving vocabulary, assembling accurate syntax, and organizing coherent arguments in real time.",
+              "clueAnswer": "productive skills require active real-time retrieval and organization, unlike passive receptive recognition.",
+              "keyPassage": "passively recognize vs retrieving vocabulary... organizing coherent arguments in real time",
+              "keyAnswer": "active real-time retrieval and organization vs passive receptive recognition",
+              "paraphrasePair": "receptive vs productive divide",
+              "meaningVi": "khoảng cách giữa nhận diện thụ động và sản sinh chủ động theo thời gian thực",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "How is the 'shadowing' technique practiced according to paragraph 2?",
+            "questionVi": "Theo đoạn 2, kỹ thuật 'shadowing' (nói đuổi) được thực hành như thế nào?",
+            "questionType": "DẠNG 03: CHI TIẾT PHƯƠNG PHÁP (Factual Detail)",
+            "options": [
+              "By listening to proficient speakers and repeating phrases aloud almost simultaneously while mimicking rhythm and intonation",
+              "By silently copying dictionary word lists into a notebook before bed",
+              "By translating English audio transcripts into one's native language word for word",
+              "By memorizing isolated single words without listening to connected speech"
+            ],
+            "optionsVi": [
+              "A. Bằng cách nghe người nói thành thạo và lặp lại thành tiếng gần như đồng thời, mô phỏng nhịp điệu và ngữ điệu",
+              "B. Bằng cách chép thầm danh sách từ điển vào vở trước khi ngủ",
+              "C. Bằng cách dịch từng chữ bản chép âm thanh tiếng Anh sang tiếng mẹ đẻ",
+              "D. Bằng cách học thuộc từng từ đơn lẻ mà không nghe nối âm"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "One highly acclaimed method is 'shadowing,' in which learners listen to natural recordings by proficient speakers and repeat phrases aloud almost simultaneously, mimicking rhythm, word stress, and connected-speech intonation... [Paragraph 2]",
+            "evidenceVi": "Một phương pháp được đánh giá cao là 'shadowing', trong đó người học nghe bản thu tự nhiên và lặp lại thành tiếng gần như đồng thời, bắt chước nhịp điệu, trọng âm và ngữ điệu nối âm. [Đoạn 2]",
+            "explanation": "Đoạn 2 mô tả chuẩn xác phương pháp shadowing: nghe bản ghi tự nhiên và nói nhại theo gần như ngay lập tức, chú trọng nhịp, trọng âm và ngữ điệu (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Kỹ thuật học nói (Factual)",
+              "cluePassage": "listen to natural recordings by proficient speakers and repeat phrases aloud almost simultaneously, mimicking rhythm, word stress, and connected-speech intonation",
+              "clueAnswer": "By listening to proficient speakers and repeating phrases aloud almost simultaneously while mimicking rhythm and intonation",
+              "keyPassage": "repeat phrases aloud almost simultaneously, mimicking rhythm... intonation",
+              "keyAnswer": "repeating phrases aloud almost simultaneously while mimicking rhythm and intonation",
+              "paraphrasePair": "exact operational description",
+              "meaningVi": "lặp lại gần như đồng thời kèm mô phỏng nhịp điệu và ngữ điệu",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "According to paragraph 2, what mindset accelerates real-world speaking confidence most effectively?",
+            "questionVi": "Theo đoạn 2, tư duy nào giúp tăng tốc sự tự tin nói tiếng Anh thực tế hiệu quả nhất?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Prioritizing communicative clarity over perfectionist fear of making errors",
+              "Waiting until every single grammar rule is flawless before speaking aloud",
+              "Completing silent textbook fill-in-the-blank exercises for hours daily",
+              "Avoiding timed role-plays and structured debates completely"
+            ],
+            "optionsVi": [
+              "A. Ưu tiên sự rõ ràng trong giao tiếp hơn là nỗi sợ cầu toàn không dám mắc lỗi",
+              "B. Chờ đến khi mọi quy tắc ngữ pháp hoàn hảo tuyệt đối mới mở miệng nói",
+              "C. Làm bài tập điền khuyết im lặng trong sách giáo khoa nhiều giờ mỗi ngày",
+              "D. Tránh hoàn toàn đóng vai bấm giờ và tranh biện có cấu trúc"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Research consistently confirms that prioritizing communicative clarity over perfectionist error-avoidance accelerates real-world speaking confidence far more effectively than silent textbook drills. [Paragraph 2]",
+            "evidenceVi": "Nghiên cứu luôn khẳng định rằng ưu tiên sự rõ ràng giao tiếp thay vì tâm lý cầu toàn né tránh lỗi giúp tăng tốc sự tự tin nói hiệu quả hơn nhiều so với bài tập sách giáo khoa im lặng. [Đoạn 2]",
+            "explanation": "Câu cuối đoạn 2 nêu rõ: đặt sự rõ ràng truyền đạt lên trên nỗi sợ cầu toàn né lỗi giúp phát triển tự tin nói nhanh hơn (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Tư duy luyện nói (Factual)",
+              "cluePassage": "prioritizing communicative clarity over perfectionist error-avoidance accelerates real-world speaking confidence",
+              "clueAnswer": "Prioritizing communicative clarity over perfectionist fear of making errors",
+              "keyPassage": "prioritizing communicative clarity over perfectionist error-avoidance",
+              "keyAnswer": "Prioritizing communicative clarity over perfectionist fear of making errors",
+              "paraphrasePair": "error-avoidance <=> fear of making errors",
+              "meaningVi": "né tránh sai sót <=> nỗi sợ mắc lỗi",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "The word \"desensitizes\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"desensitizes\" trong đoạn 2 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "makes less anxious or reactive to",
+              "makes deeply terrified of",
+              "completely erases memory of",
+              "publicly punishes for"
+            ],
+            "optionsVi": [
+              "A. giúp giảm bớt sự lo âu hoặc nhạy cảm sợ hãi trước",
+              "B. khiến vô cùng khiếp sợ",
+              "C. xóa sạch hoàn toàn trí nhớ về",
+              "D. trừng phạt công khai vì"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "task-based speaking practice—such as timed role-plays, structured debates, and daily two-minute voice journals—which gradually desensitizes learners to speaking anxiety. [Paragraph 2]",
+            "evidenceVi": "thực hành nói theo nhiệm vụ như đóng vai bấm giờ, tranh biện và nhật ký giọng nói 2 phút giúp người học dần giảm bớt nhạy cảm trước nỗi lo âu khi nói. [Đoạn 2]",
+            "explanation": "'Desensitize (to anxiety)' nghĩa là làm quen dần để giảm bớt phản ứng lo âu, sợ hãi ('makes less anxious or reactive to') (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "gradually desensitizes learners to speaking anxiety",
+              "clueAnswer": "makes less anxious or reactive to",
+              "keyPassage": "desensitizes... to speaking anxiety",
+              "keyAnswer": "makes less anxious or reactive to",
+              "paraphrasePair": "desensitizes to anxiety <=> makes less anxious",
+              "meaningVi": "giảm mẫn cảm trước lo âu <=> bớt lo lắng hơn",
+              "deductionLogic": "Phân tích gốc từ 'de-' (giảm/loại bỏ) + 'sensitize' (nhạy cảm)."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "What distinguishes the 'process-writing' approach described in paragraph 3?",
+            "questionVi": "Điều gì tạo nên đặc trưng của phương pháp 'viết theo quy trình' (process-writing) được mô tả trong đoạn 3?",
+            "questionType": "DẠNG 03: CHI TIẾT PHƯƠNG PHÁP (Factual Detail)",
+            "options": [
+              "Breaking composition into separate stages—brainstorming, outlining, drafting, revising coherence, and final lexical editing",
+              "Memorizing one rigid template essay and reproducing it identically for every prompt",
+              "Attempting to produce a perfect final manuscript in a single rushed sitting without revision",
+              "Translating each sentence literally from one's first language before looking up collocations"
+            ],
+            "optionsVi": [
+              "A. Chia việc viết thành các giai đoạn tách biệt: động não, lập dàn ý, viết nháp, chỉnh mạch lạc và biên tập từ vựng cuối cùng",
+              "B. Học thuộc một bài văn mẫu cứng nhắc và chép y hệt cho mọi đề bài",
+              "C. Cố gắng viết bản hoàn hảo ngay trong một lần ngồi gấp gáp không sửa chữa",
+              "D. Dịch từng câu theo nghĩa đen từ tiếng mẹ đẻ trước khi tra cụm từ kết hợp"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "skilled writers divide composition into distinct cognitive stages: brainstorming ideas, mapping a logical outline, drafting freely, revising structural coherence, and editing lexical precision last. [Paragraph 3]",
+            "evidenceVi": "người viết giỏi chia quá trình viết thành các giai đoạn nhận thức rõ rệt: động não ý tưởng, lập dàn ý logic, viết nháp tự do, sửa cấu trúc mạch lạc và biên tập độ chính xác từ vựng sau cùng. [Đoạn 3]",
+            "explanation": "Đoạn 3 liệt kê chính xác 5 bước của process-writing: brainstorming -> outlining -> drafting -> revising coherence -> editing lexical precision (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Quy trình viết học thuật (Factual)",
+              "cluePassage": "divide composition into distinct cognitive stages: brainstorming ideas, mapping a logical outline, drafting freely, revising structural coherence, and editing lexical precision last.",
+              "clueAnswer": "Breaking composition into separate stages—brainstorming, outlining, drafting, revising coherence, and final lexical editing",
+              "keyPassage": "distinct cognitive stages: brainstorming, outline, drafting, revising coherence, editing lexical precision",
+              "keyAnswer": "separate stages—brainstorming, outlining, drafting, revising coherence, final lexical editing",
+              "paraphrasePair": "divide into distinct stages <=> breaking into separate stages",
+              "meaningVi": "chia thành các giai đoạn nhận thức riêng biệt",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "Why does paragraph 3 advise learners to study 'collocations' in authentic model texts?",
+            "questionVi": "Tại sao đoạn 3 khuyên người học nên nghiên cứu các 'collocations' (cụm từ kết hợp tự nhiên) trong văn bản mẫu chuẩn?",
+            "questionType": "DẠNG 03: LÝ DO / LỢI ÍCH (Cause & Effect)",
+            "options": [
+              "To master natural word partnerships and avoid awkward literal translations from their native language",
+              "Because English grammar strictly forbids combining verbs with nouns",
+              "Because examiners award extra points for rare archaic poetry phrases",
+              "To completely eliminate the need to outline essays before drafting"
+            ],
+            "optionsVi": [
+              "A. Để nắm vững cách kết hợp từ tự nhiên và tránh lối dịch từng chữ gượng gạo từ tiếng mẹ đẻ",
+              "B. Bởi vì ngữ pháp tiếng Anh nghiêm cấm kết hợp động từ với danh từ",
+              "C. Bởi vì giám khảo cộng điểm thưởng cho các cụm thơ cổ hiếm gặp",
+              "D. Để xóa bỏ hoàn toàn nhu cầu lập dàn ý trước khi viết nháp"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "notice 'collocations'—natural word partnerships like 'mitigate risks' or 'conduct research'—rather than translating word-for-word from their native tongue, which frequently produces awkward phrasing. [Paragraph 3]",
+            "evidenceVi": "chú ý các 'collocations' — những cặp từ kết hợp tự nhiên như 'mitigate risks' hay 'conduct research' — thay vì dịch từng chữ từ tiếng mẹ đẻ vốn hay tạo ra cách diễn đạt gượng gạo. [Đoạn 3]",
+            "explanation": "Học collocation giúp dùng ngôn từ tự nhiên chuẩn bản ngữ thay vì dịch từng chữ gây câu cú gượng gạo ('awkward phrasing') (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Lợi ích học Collocations (Factual)",
+              "cluePassage": "natural word partnerships... rather than translating word-for-word from their native tongue, which frequently produces awkward phrasing.",
+              "clueAnswer": "To master natural word partnerships and avoid awkward literal translations from their native language",
+              "keyPassage": "natural word partnerships... rather than translating word-for-word... awkward phrasing",
+              "keyAnswer": "natural word partnerships and avoid awkward literal translations",
+              "paraphrasePair": "translating word-for-word <=> literal translations",
+              "meaningVi": "dịch từng chữ một <=> dịch sát nghĩa đen gượng gạo",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "According to paragraph 4, how do speaking and writing mutually reinforce each other?",
+            "questionVi": "Theo đoạn 4, kỹ năng nói và kỹ năng viết củng cố lẫn nhau như thế nào?",
+            "questionType": "DẠNG 03: MỐI LIÊN KẾT (Factual Detail)",
+            "options": [
+              "Speaking aloud clarifies mental structure before writing, while written revision deepens grammatical awareness that carries into live speech.",
+              "Writing eliminates the need to ever practice pronunciation or word stress.",
+              "Speaking rapidly removes all need for constructive peer feedback on essays.",
+              "They operate in completely separate brain zones with zero cognitive overlap."
+            ],
+            "optionsVi": [
+              "A. Nói thành lời làm rõ cấu trúc tư duy trước khi viết, còn việc sửa bài viết đào sâu ý thức ngữ pháp tự động bật ra khi nói trực tiếp.",
+              "B. Viết loại bỏ hoàn toàn nhu cầu luyện phát âm hay trọng âm từ.",
+              "C. Nói nhanh xóa bỏ mọi nhu cầu nhận phản hồi đồng đẳng cho bài luận.",
+              "D. Chúng hoạt động ở hai vùng não hoàn toàn tách biệt không giao thoa."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Articulating arguments aloud clarifies mental organization before fingers touch the keyboard, while careful written revision deepens grammatical awareness that later surfaces automatically during live speech. [Paragraph 4]",
+            "evidenceVi": "Diễn đạt lập luận thành tiếng làm rõ cấu trúc tư duy trước khi gõ bàn phím, trong khi chỉnh sửa bài viết cẩn thận đào sâu nhận thức ngữ pháp để sau đó tự động hiện diện khi nói. [Đoạn 4]",
+            "explanation": "Đoạn 4 mô tả vòng lặp cộng hưởng hai chiều ('virtuous cognitive loop'): nói giúp mạch tư duy sáng rõ trước khi viết, và sửa bài viết nâng độ chuẩn ngữ pháp khi nói (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Vòng lặp cộng hưởng Nói - Viết (Factual)",
+              "cluePassage": "Articulating arguments aloud clarifies mental organization before fingers touch the keyboard, while careful written revision deepens grammatical awareness that later surfaces automatically during live speech.",
+              "clueAnswer": "Speaking aloud clarifies mental structure before writing, while written revision deepens grammatical awareness that carries into live speech.",
+              "keyPassage": "clarifies mental organization before keyboard + written revision deepens grammatical awareness for live speech",
+              "keyAnswer": "clarifies mental structure before writing + written revision deepens grammatical awareness for live speech",
+              "paraphrasePair": "before fingers touch the keyboard <=> before writing",
+              "meaningVi": "trước khi ngón tay chạm bàn phím <=> trước khi viết",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "The word \"inert\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"inert\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "passive and unused",
+              "expressive and lively",
+              "incorrect and outdated",
+              "spoken and loud"
+            ],
+            "optionsVi": [
+              "A. thụ động và chưa được vận dụng",
+              "B. giàu biểu cảm và sống động",
+              "C. sai lệch và lỗi thời",
+              "D. bằng lời nói và vang to"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "active productive methodologies empower learners to transform inert textbook knowledge into agile, expressive English communication. [Paragraph 4]",
+            "evidenceVi": "các phương pháp sản sinh chủ động trao quyền cho người học chuyển hóa kiến thức sách giáo khoa thụ động thành giao tiếp tiếng Anh linh hoạt, giàu biểu cảm. [Đoạn 4]",
+            "explanation": "'Inert' (bất động, nằm im không dùng được) đối lập trực tiếp với 'agile, expressive' (linh hoạt, giàu biểu cảm), nên đồng nghĩa với 'passive and unused' (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa qua tương phản (Vocabulary)",
+              "cluePassage": "transform inert textbook knowledge into agile, expressive English communication.",
+              "clueAnswer": "passive and unused",
+              "keyPassage": "inert textbook knowledge -> agile, expressive communication",
+              "keyAnswer": "passive and unused",
+              "paraphrasePair": "inert <=> passive and unused / dormant",
+              "meaningVi": "kiến thức nằm im thụ động <=> thụ động và chưa vận dụng",
+              "deductionLogic": "Phép biến đổi 'transform A into B' đặt 'inert' đối lập với 'agile, expressive'."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "Which of the following is NOT recommended in the passage for improving speaking or writing?",
+            "questionVi": "Cách làm nào sau đây KHÔNG được khuyến nghị trong bài đọc để cải thiện kỹ năng nói hoặc viết?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Keeping daily two-minute voice journals",
+              "Tracking personal mistakes in targeted error logs",
+              "Studying natural collocations in authentic model texts",
+              "Translating essays word-for-word from one's native language"
+            ],
+            "optionsVi": [
+              "A. Ghi âm nhật ký giọng nói 2 phút mỗi ngày",
+              "B. Theo dõi lỗi sai cá nhân trong sổ ghi chép lỗi trọng điểm",
+              "C. Nghiên cứu cụm từ kết hợp tự nhiên trong các văn bản mẫu chuẩn",
+              "D. Dịch bài luận từng chữ một từ tiếng mẹ đẻ sang tiếng Anh"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "rather than translating word-for-word from their native tongue, which frequently produces awkward phrasing. [Paragraph 3]",
+            "evidenceVi": "thay vì dịch từng chữ từ tiếng mẹ đẻ vốn thường xuyên tạo ra cách diễn đạt gượng gạo. [Đoạn 3]",
+            "explanation": "A, B, C đều được khuyến khích rõ trong bài; riêng D bị cảnh báo là tạo diễn đạt gượng gạo ('awkward phrasing').",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT recommended)",
+              "cluePassage": "rather than translating word-for-word from their native tongue, which frequently produces awkward phrasing.",
+              "clueAnswer": "Translating essays word-for-word from one's native language",
+              "keyPassage": "rather than translating word-for-word",
+              "keyAnswer": "Translating word-for-word (Explicitly discouraged)",
+              "paraphrasePair": "rather than X <=> X is NOT recommended",
+              "meaningVi": "thay vì dịch từng chữ một",
+              "deductionLogic": "Loại trừ A (đoạn 2), B (đoạn 4), C (đoạn 3)."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "What is the main purpose of the passage?",
+            "questionVi": "Mục đích chính của bài đọc là gì?",
+            "questionType": "DẠNG 01: MỤC ĐÍCH / Ý CHÍNH (Main Idea)",
+            "options": [
+              "To explain why learners struggle with productive English skills and outline active, evidence-based methods to master speaking and writing",
+              "To argue that listening and reading comprehension are unnecessary for language fluency",
+              "To prove that East Asian students should abandon English grammar textbooks altogether",
+              "To advertise a single commercial smartphone app for automatic essay grading"
+            ],
+            "optionsVi": [
+              "A. Giải thích tại sao người học chật vật với kỹ năng sản sinh tiếng Anh và trình bày các phương pháp chủ động dựa trên bằng chứng để làm chủ Nói và Viết",
+              "B. Lập luận rằng kỹ năng nghe và đọc hiểu là không cần thiết cho sự lưu loát",
+              "C. Chứng minh học sinh Đông Á nên vứt bỏ hoàn toàn sách ngữ pháp",
+              "D. Quảng cáo một ứng dụng điện thoại chấm bài luận tự động"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "divide between receptive skills and productive skills... shadowing... process-writing... virtuous cognitive loop. [Paragraphs 1-4]",
+            "evidenceVi": "khoảng cách giữa kỹ năng tiếp nhận và sản sinh... shadowing... viết theo quy trình... vòng lặp cộng hưởng nhận thức. [Đoạn 1-4]",
+            "explanation": "Bài đọc chẩn đoán nguyên nhân học nhiều nhưng khó nói/viết (Đoạn 1) rồi đề xuất hệ phương pháp chủ động cho Nói (Đoạn 2), Viết (Đoạn 3) và sự tương hỗ của cả hai (Đoạn 4) (A).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Mục đích toàn bài (Main Idea)",
+              "cluePassage": "receptive vs productive divide -> shadowing & task-based speaking -> process-writing & collocations -> virtuous cognitive loop",
+              "clueAnswer": "To explain why learners struggle with productive English skills and outline active, evidence-based methods to master speaking and writing",
+              "keyPassage": "gap in productive skills + active methodologies for speaking & writing",
+              "keyAnswer": "explain struggle with productive skills and outline active methods to master speaking and writing",
+              "paraphrasePair": "comprehensive purpose synthesis",
+              "meaningVi": "tổng hợp trọn vẹn mục đích sư phạm của cả 4 đoạn",
+              "deductionLogic": "Loại B, C, D vì cực đoan hoặc không có trong bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: World History: Great Figures vs. Structural Forces",
+        "topic": "Lịch sử thế giới: Vai trò của các danh nhân bước ngoặt đối chiếu với các động lực kinh tế - xã hội",
+        "timeAllowed": 15,
+        "passage": "<p>How does human history actually move forward? For much of the nineteenth century, European historiography was captivated by the 'Great Man Theory,' famously popularized by Scottish essayist Thomas Carlyle. According to this biographical paradigm, major turning points in world civilization—from the rise of empires to scientific revolutions—were forged primarily by the extraordinary vision, charisma, and iron will of towering individuals. Portraits of figures such as Alexander the Great, Qin Shi Huang, Johannes Gutenberg, and Marie Curie dominated textbooks, encouraging readers to interpret millennia of human upheaval as dramatic sagas of solitary heroes bending passive societies to their singular genius.</p><p>During the twentieth century, however, social historians and sociologists mounted a formidable challenge to this hero-centric narrative. Scholars affiliated with the French Annales school and economic historians argued that individual leaders—no matter how brilliant—operate within vast, impersonal currents of geography, climate shifts, demographic pressure, trade routes, and technological readiness. They point out, for instance, that Johannes Gutenberg's movable-type printing press succeeded in fifteenth-century Europe not solely due to one craftsman's inventiveness, but because affordable rag paper mills, expanding urban literacy, and wine-press screw mechanics had already converged. Similarly, multiple independent scientists often arrive at identical breakthroughs—such as calculus or evolutionary theory—within the same decade once collective knowledge reaches a critical threshold.</p><p>Yet dismissing individual agency altogether creates an equally distorted portrait of the past. Modern historians increasingly adopt an integrative synthesis acknowledging that while structural conditions open narrow windows of opportunity, decisive human choices often determine which trajectory history takes at fragile crossroads. Consider the abolition of racial apartheid in South Africa or India's nonviolent independence movement: underlying economic strains and global diplomatic pressure created fertile ground for political change, yet the disciplined moral leadership of Nelson Mandela and Mahatma Gandhi steered deeply divided nations away from catastrophic civil war toward negotiated constitutional transitions.</p><p>Furthermore, contemporary world history has dramatically broadened its lens beyond monarchs and generals to recover the overlooked agency of ordinary people—artisans, maritime navigators, women textile workers, and enslaved laborers—whose everyday resilience silently built global commerce and cultural exchange. Studying world history today therefore means holding two lenses in steady focus simultaneously: examining the sweeping economic and environmental forces that shape what is possible, while honoring the courageous individuals and collective movements that decide what ultimately becomes real.</p>",
+        "vocab": [
+          {
+            "word": "historiography",
+            "pos": "n",
+            "ipa": "/hɪˌstɔː.riˈɒɡ.rə.fi/",
+            "level": "C1",
+            "mean": "sử học, phương pháp biên soạn và nghiên cứu lịch sử",
+            "syns": [
+              "historical writing",
+              "study of history"
+            ],
+            "ex": "Nineteenth-century historiography centered heavily on monarchs and military conquerors."
+          },
+          {
+            "word": "biographical",
+            "pos": "adj",
+            "ipa": "/ˌbaɪ.əˈɡræf.ɪ.kəl/",
+            "level": "B2",
+            "mean": "thuộc tiểu sử cá nhân",
+            "syns": [
+              "life-story",
+              "personal-history"
+            ],
+            "ex": "A purely biographical lens overlooks long-term demographic shifts."
+          },
+          {
+            "word": "forge",
+            "pos": "v",
+            "ipa": "/fɔːdʒ/",
+            "level": "B2",
+            "mean": "tạo dựng, rèn đúc nên (bước ngoặt lịch sử)",
+            "syns": [
+              "shape",
+              "craft",
+              "create"
+            ],
+            "ex": "Carlyle argued that visionary leaders forge the destiny of civilizations."
+          },
+          {
+            "word": "charisma",
+            "pos": "n",
+            "ipa": "/kəˈrɪz.mə/",
+            "level": "B2",
+            "mean": "sức lôi cuốn uy tín cá nhân phi thường",
+            "syns": [
+              "magnetism",
+              "charm",
+              "allure"
+            ],
+            "ex": "Personal charisma can rally millions during periods of political crisis."
+          },
+          {
+            "word": "upheaval",
+            "pos": "n",
+            "ipa": "/ʌpˈhiː.vəl/",
+            "level": "C1",
+            "mean": "biến động lớn, đảo lộn sâu sắc",
+            "syns": [
+              "turmoil",
+              "disruption",
+              "convulsion"
+            ],
+            "ex": "The Industrial Revolution triggered profound economic and social upheaval."
+          },
+          {
+            "word": "saga",
+            "pos": "n",
+            "ipa": "/ˈsɑː.ɡə/",
+            "level": "B2",
+            "mean": "thiên anh hùng ca, câu chuyện dài kịch tính",
+            "syns": [
+              "epic",
+              "chronicle",
+              "tale"
+            ],
+            "ex": "Traditional textbooks framed ancient wars as gripping sagas of lone commanders."
+          },
+          {
+            "word": "solitary",
+            "pos": "adj",
+            "ipa": "/ˈsɒl.ɪ.tər.i/",
+            "level": "B2",
+            "mean": "đơn độc, một mình tách biệt",
+            "syns": [
+              "lone",
+              "single",
+              "individual"
+            ],
+            "ex": "Scientific revolutions rarely spring from the mind of a solitary genius."
+          },
+          {
+            "word": "formidable",
+            "pos": "adj",
+            "ipa": "/ˈfɔː.mɪ.də.bəl/",
+            "level": "C1",
+            "mean": "đáng gờm, mạnh mẽ thuyết phục",
+            "syns": [
+              "powerful",
+              "compelling",
+              "impressive"
+            ],
+            "ex": "Economic historians mounted a formidable critique of hero-worship narratives."
+          },
+          {
+            "word": "impersonal",
+            "pos": "adj",
+            "ipa": "/ɪmˈpɜː.sən.əl/",
+            "level": "B2",
+            "mean": "phi cá nhân, khách quan vượt ngoài ý chí cá nhân",
+            "syns": [
+              "objective",
+              "structural",
+              "systemic"
+            ],
+            "ex": "Climate cycles and trade currents operate as vast, impersonal forces."
+          },
+          {
+            "word": "demographic",
+            "pos": "adj",
+            "ipa": "/ˌdem.əˈɡræf.ɪk/",
+            "level": "B2",
+            "mean": "thuộc nhân khẩu học (dân số)",
+            "syns": [
+              "population-related",
+              "census"
+            ],
+            "ex": "Rapid demographic growth strained medieval European food supplies."
+          },
+          {
+            "word": "converge",
+            "pos": "v",
+            "ipa": "/kənˈvɜːdʒ/",
+            "level": "C1",
+            "mean": "hội tụ lại tại cùng một thời điểm",
+            "syns": [
+              "come together",
+              "intersect",
+              "align"
+            ],
+            "ex": "Paper production and rising urban literacy had to converge for printing to boom."
+          },
+          {
+            "word": "agency",
+            "pos": "n",
+            "ipa": "/ˈeɪ.dʒən.si/",
+            "level": "C1",
+            "mean": "năng lực tự chủ hành động và tạo ra tác động",
+            "syns": [
+              "autonomy",
+              "active role",
+              "capacity to act"
+            ],
+            "ex": "Modern scholars study the everyday agency of artisans and women workers."
+          },
+          {
+            "word": "distorted",
+            "pos": "adj",
+            "ipa": "/dɪˈstɔː.tɪd/",
+            "level": "B2",
+            "mean": "bị bóp méo, phiến diện sai lệch",
+            "syns": [
+              "skewed",
+              "warped",
+              "inaccurate"
+            ],
+            "ex": "Ignoring either leadership or economics leaves a distorted view of the past."
+          },
+          {
+            "word": "synthesis",
+            "pos": "n",
+            "ipa": "/ˈsɪn.θə.sɪs/",
+            "level": "C1",
+            "mean": "sự tổng hợp hài hòa từ nhiều luồng quan điểm",
+            "syns": [
+              "integration",
+              "blend",
+              "fusion"
+            ],
+            "ex": "Contemporary historiography favors a balanced synthesis of structure and agency."
+          },
+          {
+            "word": "crossroads",
+            "pos": "n",
+            "ipa": "/ˈkrɒs.rəʊdz/",
+            "level": "B2",
+            "mean": "ngã rẽ lịch sử mang tính quyết định",
+            "syns": [
+              "turning point",
+              "juncture",
+              "crucial moment"
+            ],
+            "ex": "Ethical statesmanship matters most when nations stand at fragile crossroads."
+          },
+          {
+            "word": "abolition",
+            "pos": "n",
+            "ipa": "/ˌæb.əˈlɪʃ.ən/",
+            "level": "B2",
+            "mean": "sự bãi bỏ, xóa bỏ hoàn toàn chế độ bất công",
+            "syns": [
+              "elimination",
+              "ending",
+              "eradication"
+            ],
+            "ex": "Global sanctions and local solidarity accelerated the abolition of apartheid."
+          },
+          {
+            "word": "nonviolent",
+            "pos": "adj",
+            "ipa": "/ˌnɒnˈvaɪə.lənt/",
+            "level": "B2",
+            "mean": "bất bạo động, đấu tranh ôn hòa",
+            "syns": [
+              "peaceful",
+              "pacifist",
+              "civil"
+            ],
+            "ex": "Mahatma Gandhi championed disciplined nonviolent civil disobedience."
+          },
+          {
+            "word": "fertile",
+            "pos": "adj",
+            "ipa": "/ˈfɜː.taɪl/",
+            "level": "B2",
+            "mean": "màu mỡ, chín muồi thuận lợi (điều kiện)",
+            "syns": [
+              "ripe",
+              "favorable",
+              "productive"
+            ],
+            "ex": "Economic hardship created fertile ground for sweeping political reform."
+          },
+          {
+            "word": "steer",
+            "pos": "v",
+            "ipa": "/stɪər/",
+            "level": "B2",
+            "mean": "chèo lái, dẫn dắt hướng đi",
+            "syns": [
+              "guide",
+              "direct",
+              "navigate"
+            ],
+            "ex": "Nelson Mandela helped steer South Africa toward peaceful reconciliation."
+          },
+          {
+            "word": "catastrophic",
+            "pos": "adj",
+            "ipa": "/ˌkæt.əˈstrɒf.ɪk/",
+            "level": "B2",
+            "mean": "mang tính thảm họa hủy diệt",
+            "syns": [
+              "disastrous",
+              "devastating",
+              "ruinous"
+            ],
+            "ex": "Negotiated transitions prevented catastrophic ethnic civil war."
+          },
+          {
+            "word": "monarch",
+            "pos": "n",
+            "ipa": "/ˈmɒn.ək/",
+            "level": "B2",
+            "mean": "quân vương, vị vua trị vì",
+            "syns": [
+              "king",
+              "ruler",
+              "sovereign"
+            ],
+            "ex": "Social history looks far beyond royal courts and absolute monarchs."
+          },
+          {
+            "word": "overlooked",
+            "pos": "adj",
+            "ipa": "/ˌəʊ.vəˈlʊkt/",
+            "level": "B2",
+            "mean": "bị bỏ sót, từng bị lãng quên",
+            "syns": [
+              "neglected",
+              "ignored",
+              "unnoticed"
+            ],
+            "ex": "Archival diaries reveal the overlooked contributions of female textile workers."
+          },
+          {
+            "word": "artisan",
+            "pos": "n",
+            "ipa": "/ˌɑː.tɪˈzæn/",
+            "level": "B2",
+            "mean": "thợ thủ công lành nghề, nghệ nhân",
+            "syns": [
+              "craftsperson",
+              "maker",
+              "skilled worker"
+            ],
+            "ex": "Urban artisans refined metalworking techniques essential to early printing."
+          },
+          {
+            "word": "navigator",
+            "pos": "n",
+            "ipa": "/ˈnæv.ɪ.ɡeɪ.tər/",
+            "level": "B2",
+            "mean": "hoa tiêu hàng hải, người định hướng đường biển",
+            "syns": [
+              "mariner",
+              "seafarer",
+              "wayfinder"
+            ],
+            "ex": "Polynesian and Asian navigators connected distant ports across vast oceans."
+          },
+          {
+            "word": "sweeping",
+            "pos": "adj",
+            "ipa": "/ˈswiː.pɪŋ/",
+            "level": "B2",
+            "mean": "rộng lớn, bao trùm có tầm ảnh hưởng sâu rộng",
+            "syns": [
+              "broad",
+              "wide-ranging",
+              "far-reaching"
+            ],
+            "ex": "Sweeping environmental forces often determine which empires flourish."
+          },
+          {
+            "word": "affiliated",
+            "pos": "adj",
+            "ipa": "/əˈfɪl.i.eɪ.tɪd/",
+            "level": "C1",
+            "mean": "trực thuộc, gắn liền với (một trường phái)",
+            "syns": [
+              "associated",
+              "linked",
+              "connected"
+            ],
+            "ex": "Historians affiliated with the Annales school analyzed climate and harvest logs."
+          },
+          {
+            "word": "readiness",
+            "pos": "n",
+            "ipa": "/ˈred.i.nəs/",
+            "level": "B2",
+            "mean": "độ chín muồi, sự sẵn sàng về điều kiện",
+            "syns": [
+              "preparedness",
+              "maturity",
+              "ripeness"
+            ],
+            "ex": "Technological readiness explains why similar inventions appear simultaneously."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "According to paragraph 1, what is the core claim of Thomas Carlyle's 'Great Man Theory'?",
+            "questionVi": "Theo đoạn 1, luận điểm cốt lõi của 'Thuyết Vĩ Nhân' (Great Man Theory) do Thomas Carlyle phổ biến là gì?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "That historical turning points are forged primarily by the vision, charisma, and will of extraordinary individuals",
+              "That geography and climate shifts alone determine the rise of every human empire",
+              "That ordinary textile workers and navigators are the sole authors of historical change",
+              "That textbooks should never feature biographies of scientists or rulers"
+            ],
+            "optionsVi": [
+              "A. Rằng các bước ngoặt lịch sử được rèn đúc chủ yếu bởi tầm nhìn, sức lôi cuốn và ý chí sắt đá của những cá nhân kiệt xuất",
+              "B. Rằng chỉ riêng địa lý và khí hậu quyết định sự trỗi dậy của mọi đế chế",
+              "C. Rằng công nhân dệt và hoa tiêu bình thường là tác giả duy nhất của lịch sử",
+              "D. Rằng sách giáo khoa không bao giờ nên in tiểu sử nhà khoa học hay vua chúa"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "According to this biographical paradigm, major turning points in world civilization—from the rise of empires to scientific revolutions—were forged primarily by the extraordinary vision, charisma, and iron will of towering individuals. [Paragraph 1]",
+            "evidenceVi": "Theo mô hình tiểu sử này, các bước ngoặt lớn của văn minh nhân loại được kiến tạo chủ yếu bởi tầm nhìn phi thường, sức lôi cuốn và ý chí sắt đá của những cá nhân kiệt xuất. [Đoạn 1]",
+            "explanation": "Đoạn 1 định nghĩa trực tiếp Thuyết Vĩ Nhân: lịch sử do tầm nhìn, uy tín và ý chí của các cá nhân xuất chúng định đoạt (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Định nghĩa học thuyết (Factual)",
+              "cluePassage": "major turning points in world civilization... were forged primarily by the extraordinary vision, charisma, and iron will of towering individuals.",
+              "clueAnswer": "historical turning points are forged primarily by the vision, charisma, and will of extraordinary individuals",
+              "keyPassage": "forged primarily by extraordinary vision, charisma, and iron will of towering individuals",
+              "keyAnswer": "forged primarily by vision, charisma, and will of extraordinary individuals",
+              "paraphrasePair": "towering individuals <=> extraordinary individuals",
+              "meaningVi": "những cá nhân vĩ đại kiệt xuất",
+              "deductionLogic": "Khớp trực tiếp câu 3 đoạn 1."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "Why do twentieth-century social historians cite Johannes Gutenberg's printing press in paragraph 2?",
+            "questionVi": "Tại sao các sử gia xã hội thế kỷ 20 lại dẫn chứng máy in của Johannes Gutenberg trong đoạn 2?",
+            "questionType": "DẠNG 07: MỤC ĐÍCH DẪN CHỨNG (Author's Purpose)",
+            "options": [
+              "To illustrate that famous breakthroughs succeed only when broader technological and social conditions have already converged",
+              "To prove that Gutenberg never actually lived in fifteenth-century Europe",
+              "To show that wine-press mechanics had no relation to medieval printing",
+              "To argue that urban literacy declined rapidly after rag paper mills opened"
+            ],
+            "optionsVi": [
+              "A. Để minh họa rằng các đột phá nổi tiếng chỉ thành công khi các điều kiện công nghệ và xã hội rộng lớn hơn đã hội tụ chín muồi",
+              "B. Để chứng minh Gutenberg thực tế chưa từng sống ở châu Âu thế kỷ 15",
+              "C. Để cho thấy cơ cấu ép rượu nho không liên quan gì đến in ấn trung cổ",
+              "D. Để lập luận rằng tỷ lệ biết chữ đô thị giảm nhanh sau khi mở xưởng giấy"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Gutenberg's movable-type printing press succeeded in fifteenth-century Europe not solely due to one craftsman's inventiveness, but because affordable rag paper mills, expanding urban literacy, and wine-press screw mechanics had already converged. [Paragraph 2]",
+            "evidenceVi": "máy in chữ rời của Gutenberg thành công không chỉ nhờ tài sáng chế của một nghệ nhân, mà vì xưởng giấy giá rẻ, tỷ lệ biết chữ đô thị tăng và cơ cấu trục vít máy ép nho đã hội tụ sẵn. [Đoạn 2]",
+            "explanation": "Ví dụ Gutenberg chứng minh cho luận điểm phản biện: phát minh của cá nhân chỉ bùng nổ khi hạ tầng vật chất và xã hội đã sẵn sàng hội tụ (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Mục đích nêu ví dụ (Rhetorical Purpose)",
+              "cluePassage": "not solely due to one craftsman's inventiveness, but because affordable rag paper mills, expanding urban literacy, and wine-press screw mechanics had already converged.",
+              "clueAnswer": "To illustrate that famous breakthroughs succeed only when broader technological and social conditions have already converged",
+              "keyPassage": "not solely one craftsman's inventiveness... paper mills, urban literacy, screw mechanics had already converged",
+              "keyAnswer": "breakthroughs succeed only when broader technological and social conditions have converged",
+              "paraphrasePair": "paper mills + urban literacy + screw mechanics <=> broader technological and social conditions",
+              "meaningVi": "xưởng giấy, tỷ lệ biết chữ, cơ khí trục vít <=> các điều kiện công nghệ và xã hội rộng lớn",
+              "deductionLogic": "Khớp trực tiếp câu 3 đoạn 2."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "What does the phenomenon of multiple independent scientists discovering calculus or evolution within the same decade demonstrate (paragraph 2)?",
+            "questionVi": "Hiện tượng nhiều nhà khoa học độc lập cùng phát hiện phép tính vi tích phân hay thuyết tiến hóa trong cùng một thập kỷ chứng minh điều gì (đoạn 2)?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "That collective knowledge accumulation creates a threshold where breakthroughs become likely even without one single irreplaceable genius",
+              "That nineteenth-century scientists routinely plagiarized each other's private letters",
+              "That evolutionary theory and calculus were discovered entirely by accident during wars",
+              "That individual scientific research has zero value in modern universities"
+            ],
+            "optionsVi": [
+              "A. Rằng sự tích lũy tri thức tập thể tạo ra ngưỡng chín muồi khiến các đột phá tất yếu xuất hiện dù không phụ thuộc duy nhất một thiên tài bất khả thay thế",
+              "B. Rằng các nhà khoa học thế kỷ 19 thường xuyên đạo văn thư riêng của nhau",
+              "C. Rằng thuyết tiến hóa và vi tích phân đều tình cờ phát hiện trong chiến tranh",
+              "D. Rằng nghiên cứu khoa học cá nhân không có giá trị gì ở đại học hiện đại"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "multiple independent scientists often arrive at identical breakthroughs—such as calculus or evolutionary theory—within the same decade once collective knowledge reaches a critical threshold. [Paragraph 2]",
+            "evidenceVi": "nhiều nhà khoa học độc lập thường đạt cùng một đột phá trong cùng một thập kỷ ngay khi tri thức tập thể chạm tới một ngưỡng tới hạn. [Đoạn 2]",
+            "explanation": "Hiện tượng đồng phát minh độc lập phản bác Thuyết Vĩ Nhân, cho thấy khi nền tri thức tập thể đạt ngưỡng chín muồi, phát minh sẽ xuất hiện như kết quả của dòng chảy thời đại (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận lập luận (Inference)",
+              "cluePassage": "multiple independent scientists often arrive at identical breakthroughs... once collective knowledge reaches a critical threshold.",
+              "clueAnswer": "That collective knowledge accumulation creates a threshold where breakthroughs become likely even without one single irreplaceable genius",
+              "keyPassage": "multiple independent scientists + collective knowledge reaches a critical threshold",
+              "keyAnswer": "collective knowledge accumulation creates a threshold... without one single irreplaceable genius",
+              "paraphrasePair": "collective knowledge reaches a critical threshold <=> collective knowledge accumulation creates a threshold",
+              "meaningVi": "tri thức tập thể đạt ngưỡng tới hạn",
+              "deductionLogic": "Phù hợp mạch phản biện lại thuyết 'solitary genius' ở đoạn 1."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "According to paragraph 3, why do modern historians reject dismissing individual agency completely?",
+            "questionVi": "Theo đoạn 3, tại sao các sử gia hiện đại từ chối việc phủ nhận hoàn toàn vai trò chủ động của cá nhân?",
+            "questionType": "DẠNG 03: QUAN ĐIỂM TỔNG HỢP (Factual Detail)",
+            "options": [
+              "Because when structural conditions open fragile turning points, decisive human choices can steer nations along radically different paths.",
+              "Because geography and economic pressures no longer affect modern political transitions.",
+              "Because Thomas Carlyle's original theory proved entirely flawless without any revisions.",
+              "Because civil wars are always prevented automatically by global trade routes."
+            ],
+            "optionsVi": [
+              "A. Bởi vì khi điều kiện cấu trúc mở ra những ngã rẽ mong manh, lựa chọn quyết định của con người có thể chèo lái quốc gia sang những quỹ đạo hoàn toàn khác.",
+              "B. Bởi vì địa lý và áp lực kinh tế không còn ảnh hưởng đến chuyển giao chính trị hiện đại.",
+              "C. Bởi vì lý thuyết gốc của Thomas Carlyle được chứng minh hoàn hảo không tì vết.",
+              "D. Bởi vì nội chiến luôn được tự động ngăn chặn nhờ các tuyến thương mại toàn cầu."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "while structural conditions open narrow windows of opportunity, decisive human choices often determine which trajectory history takes at fragile crossroads. [Paragraph 3]",
+            "evidenceVi": "trong khi các điều kiện cấu trúc mở ra những ô cửa cơ hội hẹp, lựa chọn quyết đoán của con người thường định đoạt quỹ đạo lịch sử tại các ngã rẽ mong manh. [Đoạn 3]",
+            "explanation": "Đoạn 3 đưa ra quan điểm tổng hợp cân bằng: cấu trúc tạo ra cơ hội, nhưng lựa chọn đạo đức và bản lĩnh cá nhân (như Mandela, Gandhi) quyết định kết cục tại ngã rẽ lịch sử (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Góc nhìn tổng hợp (Factual)",
+              "cluePassage": "while structural conditions open narrow windows of opportunity, decisive human choices often determine which trajectory history takes at fragile crossroads.",
+              "clueAnswer": "Because when structural conditions open fragile turning points, decisive human choices can steer nations along radically different paths.",
+              "keyPassage": "structural conditions open windows + decisive human choices determine trajectory at fragile crossroads",
+              "keyAnswer": "structural conditions open fragile turning points + decisive human choices steer nations",
+              "paraphrasePair": "fragile crossroads <=> fragile turning points",
+              "meaningVi": "những ngã rẽ mong manh <=> những bước ngoặt mong manh",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "How does the author use Nelson Mandela and Mahatma Gandhi as historical evidence in paragraph 3?",
+            "questionVi": "Tác giả sử dụng Nelson Mandela và Mahatma Gandhi làm dẫn chứng lịch sử như thế nào trong đoạn 3?",
+            "questionType": "DẠNG 07: MỤC ĐÍCH DẪN CHỨNG (Author's Purpose)",
+            "options": [
+              "To show that disciplined moral leadership steered divided nations away from civil war during structural windows for political change",
+              "To argue that economic strain and diplomatic pressure played zero part in ending apartheid",
+              "To compare European Renaissance printing presses with South Asian railways",
+              "To prove that political revolutions always require violent military conflict"
+            ],
+            "optionsVi": [
+              "A. Để cho thấy sự lãnh đạo đạo đức kỷ luật đã chèo lái các quốc gia bị chia rẽ tránh khỏi nội chiến khi điều kiện cấu trúc mở cơ hội thay đổi",
+              "B. Để lập luận rằng sức ép kinh tế và ngoại giao không có vai trò gì trong việc chấm dứt chế độ apartheid",
+              "C. Để so sánh máy in Phục hưng châu Âu với đường sắt Nam Á",
+              "D. Để chứng minh các cuộc cách mạng chính trị luôn cần xung đột quân sự bạo lực"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "underlying economic strains and global diplomatic pressure created fertile ground for political change, yet the disciplined moral leadership of Nelson Mandela and Mahatma Gandhi steered deeply divided nations away from catastrophic civil war... [Paragraph 3]",
+            "evidenceVi": "sức ép kinh tế nền tảng và áp lực ngoại giao toàn cầu tạo mảnh đất chín muồi cho thay đổi, nhưng sự lãnh đạo đạo đức kỷ luật của Nelson Mandela và Mahatma Gandhi đã chèo lái đất nước tránh khỏi nội chiến thảm khốc. [Đoạn 3]",
+            "explanation": "Cả hai nhân vật minh họa hoàn hảo cho sự tổng hợp: cấu trúc tạo tiền đề chín muồi ('fertile ground'), còn lãnh đạo đạo đức cá nhân định hướng quá trình chuyển giao hòa bình (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Minh họa quan điểm tổng hợp (Purpose)",
+              "cluePassage": "economic strains and diplomatic pressure created fertile ground... yet the disciplined moral leadership of Nelson Mandela and Mahatma Gandhi steered deeply divided nations away from catastrophic civil war",
+              "clueAnswer": "To show that disciplined moral leadership steered divided nations away from civil war during structural windows for political change",
+              "keyPassage": "fertile ground + disciplined moral leadership steered divided nations away from civil war",
+              "keyAnswer": "disciplined moral leadership steered divided nations away from civil war during structural windows",
+              "paraphrasePair": "fertile ground for political change <=> structural windows for political change",
+              "meaningVi": "mảnh đất chín muồi cho thay đổi <=> cơ hội cấu trúc cho thay đổi",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "The word \"synthesis\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"synthesis\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "integration",
+              "rejection",
+              "dispute",
+              "exaggeration"
+            ],
+            "optionsVi": [
+              "A. sự tích hợp, tổng hợp hòa quyện",
+              "B. sự bác bỏ",
+              "C. cuộc tranh chấp",
+              "D. sự phóng đại"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Modern historians increasingly adopt an integrative synthesis acknowledging that while structural conditions open narrow windows... decisive human choices often determine... [Paragraph 3]",
+            "evidenceVi": "Các sử gia hiện đại ngày càng tiếp nhận sự tổng hợp tích hợp thừa nhận cả điều kiện cấu trúc lẫn lựa chọn quyết đoán của con người... [Đoạn 3]",
+            "explanation": "'Synthesis' là sự kết hợp tổng hòa hai luồng quan điểm đối lập (cấu trúc + vai trò cá nhân) thành một góc nhìn thống nhất ('integration') (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa học thuật (Vocabulary)",
+              "cluePassage": "adopt an integrative synthesis acknowledging both structural conditions and human choices",
+              "clueAnswer": "integration",
+              "keyPassage": "integrative synthesis",
+              "keyAnswer": "integration",
+              "paraphrasePair": "synthesis <=> integration / blend",
+              "meaningVi": "sự tổng hợp thống nhất <=> sự tích hợp",
+              "deductionLogic": "Tính từ bổ nghĩa 'integrative' đi ngay trước là gợi ý trực diện."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "How has contemporary world history broadened its subject matter according to paragraph 4?",
+            "questionVi": "Theo đoạn 4, sử học thế giới đương đại đã mở rộng đối tượng nghiên cứu như thế nào?",
+            "questionType": "DẠNG 03: XU HƯỚNG SỬ HỌC (Factual Detail)",
+            "options": [
+              "By looking beyond kings and generals to highlight the overlooked contributions of artisans, navigators, women workers, and laborers",
+              "By replacing all historical books with fictional adventure novels",
+              "By focusing solely on biographies of European monarchs from the nineteenth century",
+              "By eliminating economic and environmental analysis from university curricula"
+            ],
+            "optionsVi": [
+              "A. Bằng cách mở rộng vượt ra ngoài vua chúa và tướng lĩnh để làm nổi bật đóng góp từng bị bỏ sót của nghệ nhân, hoa tiêu, nữ công nhân và người lao động",
+              "B. Bằng cách thay toàn bộ sách lịch sử bằng tiểu thuyết phiêu lưu hư cấu",
+              "C. Bằng cách chỉ tập trung vào tiểu sử các vị vua châu Âu thế kỷ 19",
+              "D. Bằng cách loại bỏ phân tích kinh tế và môi trường khỏi chương trình đại học"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "contemporary world history has dramatically broadened its lens beyond monarchs and generals to recover the overlooked agency of ordinary people—artisans, maritime navigators, women textile workers, and enslaved laborers... [Paragraph 4]",
+            "evidenceVi": "sử học thế giới đương đại đã mở rộng mạnh mẽ lăng kính vượt ra ngoài quân vương và tướng lĩnh để khôi phục vai trò từng bị bỏ sót của những người bình thường như nghệ nhân, hoa tiêu, nữ công nhân dệt và lao động nô lệ. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ xu hướng 'history from below' — tôn vinh đóng góp của những tầng lớp bình dân từng bị lãng quên (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Mở rộng góc nhìn sử học (Factual)",
+              "cluePassage": "broadened its lens beyond monarchs and generals to recover the overlooked agency of ordinary people—artisans, maritime navigators, women textile workers, and enslaved laborers",
+              "clueAnswer": "looking beyond kings and generals to highlight the overlooked contributions of artisans, navigators, women workers, and laborers",
+              "keyPassage": "beyond monarchs and generals... overlooked agency of ordinary people",
+              "keyAnswer": "beyond kings and generals... overlooked contributions of ordinary people",
+              "paraphrasePair": "monarchs... recover overlooked agency <=> kings... highlight overlooked contributions",
+              "meaningVi": "quân vương & khôi phục vai trò bị bỏ sót <=> vua chúa & làm nổi bật đóng góp bị lãng quên",
+              "deductionLogic": "Khớp trực tiếp câu 1 đoạn 4."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "Which of the following historical figures is NOT mentioned anywhere in the passage?",
+            "questionVi": "Nhân vật lịch sử nào sau đây KHÔNG được đề cập ở bất kỳ đâu trong bài đọc?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Qin Shi Huang",
+              "Marie Curie",
+              "Nelson Mandela",
+              "Napoleon Bonaparte"
+            ],
+            "optionsVi": [
+              "A. Tần Thủy Hoàng (Qin Shi Huang)",
+              "B. Marie Curie",
+              "C. Nelson Mandela",
+              "D. Napoleon Bonaparte"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Alexander the Great, Qin Shi Huang, Johannes Gutenberg, and Marie Curie... Nelson Mandela and Mahatma Gandhi. [Paragraphs 1-3]",
+            "evidenceVi": "Alexander Đại đế, Tần Thủy Hoàng, Johannes Gutenberg, Marie Curie... Nelson Mandela và Mahatma Gandhi. [Đoạn 1-3]",
+            "explanation": "Tần Thủy Hoàng, Marie Curie (Đoạn 1) và Nelson Mandela (Đoạn 3) đều xuất hiện trong bài. Napoleon Bonaparte không được nhắc tới (D).",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Quét tên riêng phủ định (NOT mentioned)",
+              "cluePassage": "Alexander the Great, Qin Shi Huang, Johannes Gutenberg, Marie Curie, Thomas Carlyle, Nelson Mandela, Mahatma Gandhi",
+              "clueAnswer": "Napoleon Bonaparte",
+              "keyPassage": "Qin Shi Huang, Marie Curie, Nelson Mandela (All present)",
+              "keyAnswer": "Napoleon Bonaparte (Not mentioned)",
+              "paraphrasePair": "NOT in passage",
+              "meaningVi": "Không xuất hiện trong bài đọc",
+              "deductionLogic": "Kỹ năng Scanning tên riêng viết hoa nhanh chóng loại trừ A, B, C."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "What does the metaphor of \"holding two lenses in steady focus simultaneously\" in paragraph 4 refer to?",
+            "questionVi": "Phép ẩn dụ \"giữ đồng thời hai thấu kính ở tiêu điểm vững vàng\" trong đoạn 4 ám chỉ điều gì?",
+            "questionType": "DẠNG 06: HIỂU ẨN DỤ / SUY LUẬN (Inference)",
+            "options": [
+              "Analyzing both large-scale structural forces and the decisive actions of individuals and social movements together",
+              "Comparing photographic camera lenses invented in France and Scotland",
+              "Reading ancient manuscripts through antique magnifying glasses",
+              "Separating Asian history completely from European history in textbooks"
+            ],
+            "optionsVi": [
+              "A. Phân tích đồng thời cả các động lực cấu trúc vĩ mô lẫn hành động quyết định của cá nhân và phong trào xã hội",
+              "B. So sánh ống kính máy ảnh được phát minh ở Pháp và Scotland",
+              "C. Đọc bản thảo cổ qua kính lúp cổ đại",
+              "D. Tách rời hoàn toàn lịch sử châu Á khỏi lịch sử châu Âu trong sách giáo khoa"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "holding two lenses in steady focus simultaneously: examining the sweeping economic and environmental forces that shape what is possible, while honoring the courageous individuals and collective movements that decide what ultimately becomes real. [Paragraph 4]",
+            "evidenceVi": "giữ đồng thời hai thấu kính vững vàng: khảo sát các động lực kinh tế và môi trường rộng lớn định hình điều khả dĩ, đồng thời tôn vinh cá nhân quả cảm và phong trào tập thể quyết định điều trở thành hiện thực. [Đoạn 4]",
+            "explanation": "Mệnh đề sau dấu hai chấm giải thích rõ hai thấu kính: (1) động lực kinh tế - môi trường vĩ mô và (2) vai trò của cá nhân cùng phong trào tập thể (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Giải mã ẩn dụ (Metaphor Inference)",
+              "cluePassage": "holding two lenses in steady focus simultaneously: examining the sweeping economic and environmental forces... while honoring the courageous individuals and collective movements",
+              "clueAnswer": "Analyzing both large-scale structural forces and the decisive actions of individuals and social movements together",
+              "keyPassage": "economic and environmental forces + courageous individuals and collective movements",
+              "keyAnswer": "large-scale structural forces + decisive actions of individuals and social movements",
+              "paraphrasePair": "two lenses <=> structural forces + human/collective agency",
+              "meaningVi": "hai thấu kính <=> động lực cấu trúc vĩ mô + hành động con người & tập thể",
+              "deductionLogic": "Giải thích ngay sau dấu hai chấm ở câu cuối đoạn 4."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "Which of the following best describes the logical progression of the passage?",
+            "questionVi": "Phương án nào mô tả đúng nhất mạch lập luận xuyên suốt bài đọc?",
+            "questionType": "DẠNG 01: CẤU TRÚC LẬP LUẬN (Organization)",
+            "options": [
+              "Presents the Great Man Theory ➔ Introduces structuralist counterarguments ➔ Proposes a balanced synthesis ➔ Expands focus to ordinary people's agency",
+              "Criticizes Nelson Mandela ➔ Praises medieval kings ➔ Rejects economic history ➔ Concludes history is purely random",
+              "Describes Gutenberg's childhood ➔ Explains calculus formulas ➔ Summarizes South African geography ➔ Lists textile factory wages",
+              "Proves that individual leaders never influence wars ➔ Urges removing all biographies from libraries"
+            ],
+            "optionsVi": [
+              "A. Trình bày Thuyết Vĩ Nhân ➔ Đưa phản biện cấu trúc xã hội ➔ Đề xuất quan điểm tổng hợp cân bằng ➔ Mở rộng sang vai trò của người bình thường",
+              "B. Chỉ trích Nelson Mandela ➔ Ca ngợi vua chúa trung cổ ➔ Bác bỏ lịch sử kinh tế ➔ Kết luận lịch sử hoàn toàn ngẫu nhiên",
+              "C. Mô tả tuổi thơ Gutenberg ➔ Giải thích công thức vi tích phân ➔ Tóm tắt địa lý Nam Phi ➔ Liệt kê lương công nhân dệt",
+              "D. Chứng minh lãnh tụ cá nhân không bao giờ ảnh hưởng chiến tranh ➔ Kêu gọi gỡ bỏ mọi sách tiểu sử"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Paragraph 1 (Great Man Theory) -> Paragraph 2 (Annales/structuralist challenge) -> Paragraph 3 (integrative synthesis) -> Paragraph 4 (broadened lens to ordinary people). [Paragraphs 1-4]",
+            "evidenceVi": "Đoạn 1 (Thuyết Vĩ Nhân) -> Đoạn 2 (Phản biện cấu trúc) -> Đoạn 3 (Tổng hợp cân bằng) -> Đoạn 4 (Mở rộng sang người dân bình thường). [Đoạn 1-4]",
+            "explanation": "Bài viết tuân thủ chuẩn cấu trúc biện chứng kinh điển: Luận đề (Đoạn 1) ➔ Phản đề (Đoạn 2) ➔ Tổng hợp (Đoạn 3) ➔ Mở rộng nhân văn (Đoạn 4) (A).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Cấu trúc biện chứng 4 đoạn (Organization)",
+              "cluePassage": "Great Man Theory -> formidable challenge -> integrative synthesis -> broadened its lens beyond monarchs and generals",
+              "clueAnswer": "Presents the Great Man Theory -> Introduces structuralist counterarguments -> Proposes a balanced synthesis -> Expands focus to ordinary people's agency",
+              "keyPassage": "Great Man Theory -> structural challenge -> integrative synthesis -> ordinary people's agency",
+              "keyAnswer": "Great Man Theory -> structuralist counterarguments -> balanced synthesis -> ordinary people's agency",
+              "paraphrasePair": "thesis -> antithesis -> synthesis -> expansion",
+              "meaningVi": "mạch lập luận luận đề -> phản đề -> tổng hợp -> mở rộng",
+              "deductionLogic": "Khớp tuyệt đối trật tự 4 đoạn văn."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Environmental Preservation: Corridors & Rewilding",
+        "topic": "Bảo tồn môi trường sinh thái: Từ công viên biệt lập đến hành lang sinh học & Tái hoang dã hóa",
+        "timeAllowed": 15,
+        "passage": "<p>For over a century following the establishment of Yellowstone National Park in 1872, mainstream environmental preservation operated on a philosophy known as 'fortress conservation.' Policymakers drew firm boundaries around scenic wilderness tracts, fenced out extractive industry—and frequently displaced indigenous communities—under the assumption that nature would flourish indefinitely if isolated from human interference. While national parks undeniably rescued iconic landscapes from immediate logging and mining, decades of field ecology have revealed a critical flaw in the fortress model: isolated reserves surrounded by highways, sprawl, and intensive agriculture act like shrinking biological islands where trapped wildlife populations suffer genetic inbreeding and collapse whenever local droughts or wildfires strike.</p><p>To overcome this lethal habitat fragmentation, twenty-first-century conservation biology has pivoted toward landscape-scale connectivity—most tangibly through 'wildlife corridors' and vegetated highway overpasses. By linking disjointed national parks with strips of restored riparian forest, hedgerows, and dedicated bridge crossings, ecologists allow wide-ranging mammals, amphibians, and seed-dispersing birds to migrate safely in search of mates and seasonal forage. Crucially, as climate change shifts temperature zones poleward and upslope, interconnected corridors function as vital evolutionary escape routes enabling threatened species to track livable microclimates instead of hitting impassable concrete barriers.</p><p>Complementing physical connectivity is an audacious ecological paradigm called 'trophic rewilding'—the deliberate reintroduction of missing apex predators or ecosystem engineers to jumpstart self-regulating natural processes. When gray wolves were restored to Yellowstone in 1995 after a seventy-year absence, ecologists documented a remarkable 'trophic cascade': wolves thinned and mobilized overabundant elk herds that had been overgrazing young willow and aspen saplings along riverbanks. As streamside vegetation rebounded, songbirds returned, beaver colonies rebuilt wetland dams, and strengthened root systems even stabilized meandering river channels—demonstrating how a single keystone species can revitalize an entire watershed.</p><p>Equally transformative is the recognition that durable preservation cannot succeed by treating local residents as adversaries. Rather than enforcing top-down exclusions, leading conservation programs now embrace community-based co-management, recognizing indigenous land stewardship—which empirically outperforms many state-run reserves in curbing deforestation—and channeling ecotourism revenues or payments for ecosystem services directly to rural villagers. By uniting biological corridors, trophic restoration, and social equity, modern preservation shifts humanity's role from distant fence-builder to active, accountable partner within living ecosystems.</p>",
+        "vocab": [
+          {
+            "word": "wilderness",
+            "pos": "n",
+            "ipa": "/ˈwɪl.də.nəs/",
+            "level": "B2",
+            "mean": "vùng hoang dã tự nhiên nguyên sơ",
+            "syns": [
+              "untamed land",
+              "backcountry",
+              "nature reserve"
+            ],
+            "ex": "Early conservationists drew strict borders around scenic mountain wilderness."
+          },
+          {
+            "word": "extractive",
+            "pos": "adj",
+            "ipa": "/ɪkˈstræk.tɪv/",
+            "level": "C1",
+            "mean": "khai khoáng, khai thác tận thu tài nguyên",
+            "syns": [
+              "resource-mining",
+              "exploitative"
+            ],
+            "ex": "Protected parks barred extractive industries such as coal mining and logging."
+          },
+          {
+            "word": "displace",
+            "pos": "v",
+            "ipa": "/dɪsˈpleɪs/",
+            "level": "B2",
+            "mean": "di dời, đẩy bật khỏi nơi cư trú truyền thống",
+            "syns": [
+              "uproot",
+              "evict",
+              "relocate"
+            ],
+            "ex": "Rigid fortress-conservation policies historically displaced indigenous forest dwellers."
+          },
+          {
+            "word": "inbreeding",
+            "pos": "n",
+            "ipa": "/ˈɪn.briː.dɪŋ/",
+            "level": "C1",
+            "mean": "giao phối cận huyết (làm suy thoái gen)",
+            "syns": [
+              "genetic bottleneck",
+              "close-kin mating"
+            ],
+            "ex": "Isolated tiger reserves face severe genetic inbreeding without safe corridors."
+          },
+          {
+            "word": "fragmentation",
+            "pos": "n",
+            "ipa": "/ˌfræɡ.menˈteɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự chia cắt, phân mảnh sinh cảnh",
+            "syns": [
+              "splintering",
+              "division",
+              "breakup"
+            ],
+            "ex": "Expanding interstate highways are a leading driver of habitat fragmentation."
+          },
+          {
+            "word": "connectivity",
+            "pos": "n",
+            "ipa": "/ˌkɒn.ekˈtɪv.ə.ti/",
+            "level": "B2",
+            "mean": "tính kết nối liên thông giữa các vùng sinh thái",
+            "syns": [
+              "linkage",
+              "interconnection",
+              "continuity"
+            ],
+            "ex": "Ecological connectivity lets migrating herds move across seasonal grazing lands."
+          },
+          {
+            "word": "riparian",
+            "pos": "adj",
+            "ipa": "/raɪˈpeə.ri.ən/",
+            "level": "C1",
+            "mean": "ven sông suối (hệ thực vật dọc bờ sông)",
+            "syns": [
+              "riverside",
+              "streamside",
+              "riverbank"
+            ],
+            "ex": "Restoring riparian forest buffers filters farm runoff and shelters wildlife."
+          },
+          {
+            "word": "forage",
+            "pos": "n",
+            "ipa": "/ˈfɒr.ɪdʒ/",
+            "level": "C1",
+            "mean": "nguồn thức ăn tự nhiên trong hoang dã",
+            "syns": [
+              "fodder",
+              "grazing food",
+              "sustenance"
+            ],
+            "ex": "Migratory deer cross vegetated overpasses in search of winter forage."
+          },
+          {
+            "word": "microclimate",
+            "pos": "n",
+            "ipa": "/ˈmaɪ.krəʊˌklaɪ.mət/",
+            "level": "B2",
+            "mean": "vi khí hậu (điều kiện khí hậu cục bộ một khu vực nhỏ)",
+            "syns": [
+              "local climate",
+              "habitat climate"
+            ],
+            "ex": "Shaded mountain ravines offer cool microclimates during scorching summers."
+          },
+          {
+            "word": "impassable",
+            "pos": "adj",
+            "ipa": "/ɪmˈpɑː.sə.bəl/",
+            "level": "B2",
+            "mean": "không thể vượt qua, bị chắn kín",
+            "syns": [
+              "unpassable",
+              "blocked",
+              "insurmountable"
+            ],
+            "ex": "Eight-lane fenced highways act as impassable barriers for amphibians."
+          },
+          {
+            "word": "audacious",
+            "pos": "adj",
+            "ipa": "/ɔːˈdeɪ.ʃəs/",
+            "level": "C1",
+            "mean": "táo bạo, đầy tham vọng đột phá",
+            "syns": [
+              "bold",
+              "daring",
+              "ambitious"
+            ],
+            "ex": "Reintroducing native predators was once viewed as an audacious experiment."
+          },
+          {
+            "word": "rewilding",
+            "pos": "n",
+            "ipa": "/ˌriːˈwaɪl.dɪŋ/",
+            "level": "C1",
+            "mean": "tái hoang dã hóa, phục hồi chu trình tự nhiên tự vận hành",
+            "syns": [
+              "ecological restoration",
+              "wild recovery"
+            ],
+            "ex": "Rewilding empowers ecosystems to heal themselves with minimal human intervention."
+          },
+          {
+            "word": "apex",
+            "pos": "adj",
+            "ipa": "/ˈeɪ.peks/",
+            "level": "C1",
+            "mean": "đầu bảng, ở đỉnh chuỗi thức ăn (thú săn mồi đỉnh)",
+            "syns": [
+              "top-tier",
+              "supreme",
+              "dominant"
+            ],
+            "ex": "Apex predators like wolves regulate herbivore numbers and prevent overgrazing."
+          },
+          {
+            "word": "cascade",
+            "pos": "n",
+            "ipa": "/kæsˈkeɪd/",
+            "level": "C1",
+            "mean": "hiệu ứng tầng dinh dưỡng dây chuyền",
+            "syns": [
+              "domino effect",
+              "chain reaction",
+              "ripple"
+            ],
+            "ex": "Wolf restoration triggered a trophic cascade benefiting birds, beavers, and rivers."
+          },
+          {
+            "word": "overgraze",
+            "pos": "v",
+            "ipa": "/ˌəʊ.vəˈɡreɪz/",
+            "level": "B2",
+            "mean": "gặm cỏ quá mức làm trơ trụi thảm thực vật",
+            "syns": [
+              "strip bare",
+              "deplete vegetation"
+            ],
+            "ex": "Without natural predators, unchecked elk herds overgraze young streamside trees."
+          },
+          {
+            "word": "sapling",
+            "pos": "n",
+            "ipa": "/ˈsæp.lɪŋ/",
+            "level": "B2",
+            "mean": "cây non mới mọc",
+            "syns": [
+              "young tree",
+              "seedling",
+              "shoot"
+            ],
+            "ex": "Willow saplings finally grew tall once elk began avoiding open riverbanks."
+          },
+          {
+            "word": "rebound",
+            "pos": "v",
+            "ipa": "/rɪˈbaʊnd/",
+            "level": "B2",
+            "mean": "phục hồi bật tăng trở lại",
+            "syns": [
+              "recover",
+              "bounce back",
+              "revive"
+            ],
+            "ex": "Native songbird populations rebounded swiftly alongside denser riverside foliage."
+          },
+          {
+            "word": "meandering",
+            "pos": "adj",
+            "ipa": "/miˈæn.dər.ɪŋ/",
+            "level": "C1",
+            "mean": "uốn khúc quanh co (dòng sông)",
+            "syns": [
+              "winding",
+              "curving",
+              "sinuous"
+            ],
+            "ex": "Deep tree roots stabilized meandering riverbanks against spring flood erosion."
+          },
+          {
+            "word": "keystone",
+            "pos": "adj",
+            "ipa": "/ˈkiː.stəʊn/",
+            "level": "C1",
+            "mean": "then chốt, loài chủ chốt giữ nhịp toàn hệ sinh thái",
+            "syns": [
+              "pivotal",
+              "foundational",
+              "central"
+            ],
+            "ex": "Beavers and wolves both function as keystone species within forest watersheds."
+          },
+          {
+            "word": "watershed",
+            "pos": "n",
+            "ipa": "/ˈwɔː.tə.ʃed/",
+            "level": "C1",
+            "mean": "lưu vực sông ngòi, vùng đầu nguồn thoát nước",
+            "syns": [
+              "river basin",
+              "catchment area"
+            ],
+            "ex": "Healthy upland forests protect the entire downstream watershed from siltation."
+          },
+          {
+            "word": "adversary",
+            "pos": "n",
+            "ipa": "/ˈæd.və.sər.i/",
+            "level": "C1",
+            "mean": "đối thủ, kẻ đối nghịch",
+            "syns": [
+              "opponent",
+              "rival",
+              "foe"
+            ],
+            "ex": "Effective conservation treats local villagers as allies rather than adversaries."
+          },
+          {
+            "word": "exclusion",
+            "pos": "n",
+            "ipa": "/ɪkˈskluː.ʒən/",
+            "level": "B2",
+            "mean": "sự loại trừ, cấm đoán tách biệt",
+            "syns": [
+              "expulsion",
+              "barring",
+              "prohibition"
+            ],
+            "ex": "Top-down exclusion often sparks resentment and illegal poaching around parks."
+          },
+          {
+            "word": "outperform",
+            "pos": "v",
+            "ipa": "/ˌaʊt.pəˈfɔːm/",
+            "level": "B2",
+            "mean": "vượt trội hơn về hiệu quả thực tế",
+            "syns": [
+              "surpass",
+              "exceed",
+              "beat"
+            ],
+            "ex": "Satellite studies confirm indigenous forests often outperform state parks."
+          },
+          {
+            "word": "ecotourism",
+            "pos": "n",
+            "ipa": "/ˈiː.kəʊˌtʊə.rɪ.zəm/",
+            "level": "B2",
+            "mean": "du lịch sinh thái có trách nhiệm bảo tồn",
+            "syns": [
+              "green travel",
+              "nature tourism"
+            ],
+            "ex": "Well-managed ecotourism provides rural families steady income from living wildlife."
+          },
+          {
+            "word": "accountable",
+            "pos": "adj",
+            "ipa": "/əˈkaʊn.tə.bəl/",
+            "level": "B2",
+            "mean": "có trách nhiệm giải trình, đáng tin cậy",
+            "syns": [
+              "responsible",
+              "answerable",
+              "liable"
+            ],
+            "ex": "Co-management makes both governments and communities accountable stewards."
+          },
+          {
+            "word": "disjointed",
+            "pos": "adj",
+            "ipa": "/dɪsˈdʒɔɪn.tɪd/",
+            "level": "C1",
+            "mean": "rời rạc, đứt đoạn không liền mạch",
+            "syns": [
+              "fragmented",
+              "disconnected",
+              "scattered"
+            ],
+            "ex": "Green bridges reconnect disjointed forest patches severed by expressways."
+          },
+          {
+            "word": "deliberate",
+            "pos": "adj",
+            "ipa": "/dɪˈlɪb.ər.ət/",
+            "level": "B2",
+            "mean": "có chủ đích, được tính toán khoa học cẩn trọng",
+            "syns": [
+              "intentional",
+              "planned",
+              "purposeful"
+            ],
+            "ex": "Trophic rewilding involves the deliberate restoration of native keystone animals."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "According to paragraph 1, what critical ecological weakness undermines the traditional 'fortress conservation' model?",
+            "questionVi": "Theo đoạn 1, điểm yếu sinh thái nghiêm trọng nào làm suy yếu mô hình 'bảo tồn pháo đài' (fortress conservation) truyền thống?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Isolated parks become shrinking biological islands where trapped wildlife suffers genetic inbreeding and vulnerability to local disasters.",
+              "National parks allow unrestricted logging and coal mining inside their core boundaries.",
+              "Wildlife populations refuse to breed whenever human tourists stop visiting wilderness trails.",
+              "Fencing wilderness areas automatically stops regional droughts and wildfires from occurring."
+            ],
+            "optionsVi": [
+              "A. Các công viên biệt lập biến thành ốc đảo sinh học thu hẹp nơi động vật bị kẹt chịu giao phối cận huyết và dễ sụp đổ khi thiên tai cục bộ ập đến.",
+              "B. Các vườn quốc gia cho phép khai thác gỗ và than không giới hạn bên trong vùng lõi.",
+              "C. Quần thể động vật hoang dã ngừng sinh sản ngay khi du khách ngừng tham quan.",
+              "D. Rào kín vùng hoang dã tự động ngăn hạn hán và cháy rừng xảy ra."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "isolated reserves surrounded by highways, sprawl, and intensive agriculture act like shrinking biological islands where trapped wildlife populations suffer genetic inbreeding and collapse whenever local droughts or wildfires strike. [Paragraph 1]",
+            "evidenceVi": "các khu bảo tồn biệt lập bị bao vây bởi cao tốc và nông nghiệp hoạt động như những hòn đảo sinh học thu hẹp nơi động vật mắc kẹt chịu giao phối cận huyết và sụp đổ khi hạn hán hay cháy rừng ập tới. [Đoạn 1]",
+            "explanation": "Đoạn 1 chỉ rõ nhược điểm chí mạng của mô hình cô lập từng khu vực riêng lẻ: tạo thành 'ốc đảo sinh học', gây suy thoái cận huyết và không có đường thoát khi cháy rừng/hạn hán (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Hạn chế của bảo tồn biệt lập (Factual)",
+              "cluePassage": "isolated reserves... act like shrinking biological islands where trapped wildlife populations suffer genetic inbreeding and collapse whenever local droughts or wildfires strike.",
+              "clueAnswer": "Isolated parks become shrinking biological islands where trapped wildlife suffers genetic inbreeding and vulnerability to local disasters.",
+              "keyPassage": "shrinking biological islands + genetic inbreeding + collapse during droughts or wildfires",
+              "keyAnswer": "shrinking biological islands + genetic inbreeding + vulnerability to local disasters",
+              "paraphrasePair": "droughts or wildfires <=> local disasters",
+              "meaningVi": "hạn hán hoặc cháy rừng <=> thiên tai cục bộ",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "Why are wildlife corridors especially vital in an era of global climate change according to paragraph 2?",
+            "questionVi": "Theo đoạn 2, tại sao các hành lang động vật hoang dã lại đặc biệt thiết yếu trong kỷ nguyên biến đổi khí hậu?",
+            "questionType": "DẠNG 03: VAI TRÒ SINH THÁI (Factual Detail)",
+            "options": [
+              "They serve as escape routes allowing species to migrate poleward or upslope to track livable temperatures.",
+              "They physically cool surrounding concrete highways by absorbing solar radiation.",
+              "They prevent seed-dispersing birds from leaving national park borders.",
+              "They convert intensive farmland into commercial highway toll plazas."
+            ],
+            "optionsVi": [
+              "A. Chúng đóng vai trò tuyến đường thoát giúp các loài di cư về phía cực hoặc lên cao hơn để tìm vùng nhiệt độ phù hợp sinh tồn.",
+              "B. Chúng làm mát vật lý các tuyến cao tốc bê tông bằng cách hấp thụ bức xạ mặt trời.",
+              "C. Chúng ngăn các loài chim phát tán hạt rời khỏi biên giới vườn quốc gia.",
+              "D. Chúng chuyển đổi đất nông nghiệp thành trạm thu phí cao tốc."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "as climate change shifts temperature zones poleward and upslope, interconnected corridors function as vital evolutionary escape routes enabling threatened species to track livable microclimates... [Paragraph 2]",
+            "evidenceVi": "khi biến đổi khí hậu đẩy các đới nhiệt về phía cực và lên núi cao, các hành lang liên kết hoạt động như tuyến thoát tiến hóa sống còn giúp loài nguy cấp dịch chuyển theo vi khí hậu sống được. [Đoạn 2]",
+            "explanation": "Hành lang sinh học giúp động thực vật di chuyển theo vùng khí hậu phù hợp (về phía cực hoặc lên núi cao) thay vì bị chặn bởi đường cao tốc bê tông (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chức năng thích ứng khí hậu (Factual)",
+              "cluePassage": "shifts temperature zones poleward and upslope, interconnected corridors function as vital evolutionary escape routes enabling threatened species to track livable microclimates",
+              "clueAnswer": "They serve as escape routes allowing species to migrate poleward or upslope to track livable temperatures.",
+              "keyPassage": "escape routes + poleward and upslope + track livable microclimates",
+              "keyAnswer": "escape routes + migrate poleward or upslope + track livable temperatures",
+              "paraphrasePair": "livable microclimates <=> livable temperatures",
+              "meaningVi": "vi khí hậu sống được <=> vùng nhiệt độ phù hợp sinh tồn",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "What remarkable ecological chain reaction ('trophic cascade') followed the 1995 reintroduction of gray wolves to Yellowstone (paragraph 3)?",
+            "questionVi": "Phản ứng dây chuyền sinh thái đáng kinh ngạc ('hiệu ứng tầng dinh dưỡng') nào đã diễn ra sau khi tái thả sói xám vào Yellowstone năm 1995 (đoạn 3)?",
+            "questionType": "DẠNG 03: CHUỖI NHÂN QUẢ SINH THÁI (Cause & Effect)",
+            "options": [
+              "Wolves reduced elk overgrazing, enabling streamside trees to rebound, attracting songbirds and beavers, and even stabilizing riverbanks.",
+              "Wolves completely wiped out all beaver colonies and songbirds along Yellowstone's rivers.",
+              "Elk populations doubled rapidly because wolves cleared competing grazing mammals.",
+              "River channels dried up permanently after willow roots absorbed all surface water."
+            ],
+            "optionsVi": [
+              "A. Sói làm giảm tình trạng nai gặm quá mức, giúp cây ven suối phục hồi, kéo chim hót và hải ly trở lại, thậm chí ổn định cả bờ sông.",
+              "B. Sói xóa sổ hoàn toàn các đàn hải ly và chim hót dọc sông Yellowstone.",
+              "C. Đàn nai tăng gấp đôi nhanh chóng vì sói loại bỏ các loài ăn cỏ cạnh tranh.",
+              "D. Lòng sông khô cạn vĩnh viễn sau khi rễ liễu hút sạch nước mặt."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "wolves thinned and mobilized overabundant elk herds that had been overgrazing young willow and aspen saplings... streamside vegetation rebounded, songbirds returned, beaver colonies rebuilt wetland dams, and strengthened root systems even stabilized meandering river channels... [Paragraph 3]",
+            "evidenceVi": "sói kiểm soát đàn nai quá tải từng gặm trụi cây liễu và dương non... thảm thực vật ven suối phục hồi, chim hót trở lại, hải ly đắp đập đầm lầy và hệ rễ vững chắc làm ổn định cả dòng chảy uốn khúc. [Đoạn 3]",
+            "explanation": "Đoạn 3 miêu tả chuỗi hiệu ứng tầng dinh dưỡng kinh điển tại Yellowstone: sói kiểm soát nai -> cây ven suối phục hồi -> chim & hải ly trở lại -> rễ cây giữ ổn định bờ sông (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Hiệu ứng tầng dinh dưỡng (Cause & Effect)",
+              "cluePassage": "wolves thinned... overabundant elk herds... vegetation rebounded, songbirds returned, beaver colonies rebuilt wetland dams, and strengthened root systems even stabilized meandering river channels",
+              "clueAnswer": "Wolves reduced elk overgrazing, enabling streamside trees to rebound, attracting songbirds and beavers, and even stabilizing riverbanks.",
+              "keyPassage": "wolves -> less elk overgrazing -> vegetation rebounded -> songbirds & beavers -> stabilized river channels",
+              "keyAnswer": "wolves -> reduced overgrazing -> trees rebound -> songbirds & beavers -> stabilizing riverbanks",
+              "paraphrasePair": "trophic cascade sequence",
+              "meaningVi": "chuỗi phản ứng dây chuyền phục hồi toàn lưu vực từ một loài chủ chốt",
+              "deductionLogic": "Khớp toàn vẹn chuỗi 4 mắt xích trong đoạn 3."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "The word \"audacious\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"audacious\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "bold and daring",
+              "outdated and timid",
+              "illegal and secretive",
+              "cheap and effortless"
+            ],
+            "optionsVi": [
+              "A. táo bạo và đầy tham vọng",
+              "B. lỗi thời và rụt rè",
+              "C. bất hợp pháp và bí mật",
+              "D. rẻ tiền và không tốn sức"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Complementing physical connectivity is an audacious ecological paradigm called 'trophic rewilding'—the deliberate reintroduction of missing apex predators... [Paragraph 3]",
+            "evidenceVi": "Bổ trợ cho kết nối vật lý là một mô hình sinh thái táo bạo gọi là 'tái hoang dã hóa tầng dinh dưỡng' — chủ động đưa trở lại các loài thú săn mồi đỉnh đã biến mất... [Đoạn 3]",
+            "explanation": "'Audacious' mang nghĩa táo bạo, mạnh dạn phá vỡ lối mòn ('bold and daring') (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "an audacious ecological paradigm called 'trophic rewilding'—the deliberate reintroduction of missing apex predators",
+              "clueAnswer": "bold and daring",
+              "keyPassage": "audacious ecological paradigm",
+              "keyAnswer": "bold and daring",
+              "paraphrasePair": "audacious <=> bold and daring",
+              "meaningVi": "mô hình táo bạo <=> mạnh dạn và đầy tham vọng",
+              "deductionLogic": "Đưa thú săn mồi đầu bảng trở lại tự nhiên là một ý tưởng táo bạo, đột phá."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "In paragraph 3, what makes the gray wolf a 'keystone species'?",
+            "questionVi": "Trong đoạn 3, điều gì khiến sói xám trở thành một 'loài chủ chốt' (keystone species)?",
+            "questionType": "DẠNG 06: SUY LUẬN KHÁI NIỆM (Inference)",
+            "options": [
+              "Its presence exerts a disproportionate stabilizing influence that revitalizes the entire watershed ecosystem.",
+              "It is physically the heaviest mammal inhabiting North American mountain ranges.",
+              "It builds physical stone dams across meandering rivers during spring floods.",
+              "It survives exclusively by eating willow and aspen saplings."
+            ],
+            "optionsVi": [
+              "A. Sự hiện diện của nó tạo ra ảnh hưởng ổn định vượt trội giúp hồi sinh toàn bộ hệ sinh thái lưu vực.",
+              "B. Nó là loài thú nặng nhất về mặt thể xác sống ở vùng núi Bắc Mỹ.",
+              "C. Nó tự xây các đập đá bắc ngang sông uốn khúc vào mùa lũ xuân.",
+              "D. Nó sinh tồn duy nhất bằng cách ăn cây liễu và dương non."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "demonstrating how a single keystone species can revitalize an entire watershed. [Paragraph 3]",
+            "evidenceVi": "chứng minh cách một loài chủ chốt duy nhất có thể hồi sinh cả một lưu vực sông ngòi. [Đoạn 3]",
+            "explanation": "Qua ví dụ Yellowstone, loài chủ chốt ('keystone species') là loài có tác động dây chuyền vượt trội giúp tái sinh cân bằng cả hệ sinh thái rộng lớn (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Hiểu khái niệm sinh thái (Inference)",
+              "cluePassage": "demonstrating how a single keystone species can revitalize an entire watershed.",
+              "clueAnswer": "Its presence exerts a disproportionate stabilizing influence that revitalizes the entire watershed ecosystem.",
+              "keyPassage": "single keystone species can revitalize an entire watershed",
+              "keyAnswer": "disproportionate stabilizing influence that revitalizes the entire watershed",
+              "paraphrasePair": "revitalize an entire watershed <=> revitalizes the entire watershed ecosystem",
+              "meaningVi": "hồi sinh cả một lưu vực sông",
+              "deductionLogic": "Loại C (hải ly mới xây đập) và D (nai mới ăn cây non)."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "According to paragraph 4, what empirical evidence supports indigenous land stewardship?",
+            "questionVi": "Theo đoạn 4, bằng chứng thực nghiệm nào ủng hộ quyền quản lý đất đai của cộng đồng bản địa?",
+            "questionType": "DẠNG 03: BẰNG CHỨNG THỰC NGHIỆM (Factual Detail)",
+            "options": [
+              "It empirically outperforms many state-run reserves in curbing deforestation.",
+              "It requires zero financial revenue from ecotourism or ecosystem services.",
+              "It replaces all wild predators with domesticated agricultural livestock.",
+              "It relies strictly on constructing tall metal fences around rural villages."
+            ],
+            "optionsVi": [
+              "A. Nó chứng tỏ hiệu quả thực nghiệm vượt trội hơn nhiều khu bảo tồn do nhà nước quản lý trong việc kiềm chế nạn phá rừng.",
+              "B. Nó không cần bất kỳ nguồn thu nào từ du lịch sinh thái hay dịch vụ hệ sinh thái.",
+              "C. Nó thay thế toàn bộ thú săn mồi hoang dã bằng gia súc nông nghiệp.",
+              "D. Nó dựa hoàn toàn vào việc dựng hàng rào kim loại cao quanh làng."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "recognizing indigenous land stewardship—which empirically outperforms many state-run reserves in curbing deforestation... [Paragraph 4]",
+            "evidenceVi": "công nhận vai trò quản lý đất đai của người bản địa — vốn chứng tỏ hiệu quả thực nghiệm vượt trội nhiều khu bảo tồn nhà nước trong kiềm chế phá rừng... [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu thẳng dẫn chứng thực nghiệm: đất do cộng đồng bản địa quản lý thường kiềm chế phá rừng hiệu quả hơn cả nhiều khu bảo tồn nhà nước (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Dẫn chứng thực nghiệm (Factual)",
+              "cluePassage": "indigenous land stewardship—which empirically outperforms many state-run reserves in curbing deforestation",
+              "clueAnswer": "It empirically outperforms many state-run reserves in curbing deforestation.",
+              "keyPassage": "empirically outperforms many state-run reserves in curbing deforestation",
+              "keyAnswer": "empirically outperforms many state-run reserves in curbing deforestation",
+              "paraphrasePair": "exact empirical statement",
+              "meaningVi": "vượt trội về mặt thực nghiệm so với nhiều khu bảo tồn nhà nước trong ngăn chặn phá rừng",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "The word \"adversaries\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"adversaries\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "opponents",
+              "partners",
+              "biologists",
+              "tourists"
+            ],
+            "optionsVi": [
+              "A. đối thủ, kẻ đối nghịch",
+              "B. đối tác",
+              "C. nhà sinh vật học",
+              "D. du khách"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "durable preservation cannot succeed by treating local residents as adversaries. Rather than enforcing top-down exclusions... [Paragraph 4]",
+            "evidenceVi": "bảo tồn bền vững không thể thành công nếu coi cư dân địa phương là đối thủ đối nghịch. Thay vì áp đặt loại trừ từ trên xuống... [Đoạn 4]",
+            "explanation": "'Adversaries' nghĩa là đối thủ, phe đối địch ('opponents'), tương phản với 'partner' (đối tác) ở cuối đoạn (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "treating local residents as adversaries... shifts humanity's role to active, accountable partner",
+              "clueAnswer": "opponents",
+              "keyPassage": "adversaries (contrasted with partner)",
+              "keyAnswer": "opponents",
+              "paraphrasePair": "adversaries <=> opponents / foes",
+              "meaningVi": "đối thủ đối nghịch <=> phe đối lập",
+              "deductionLogic": "Tương phản rõ với 'accountable partner' ở câu kết."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "How do modern co-management programs economically motivate rural villagers to protect surrounding ecosystems (paragraph 4)?",
+            "questionVi": "Theo đoạn 4, các chương trình đồng quản lý hiện đại tạo động lực kinh tế cho dân làng nông thôn bảo vệ hệ sinh thái bằng cách nào?",
+            "questionType": "DẠNG 03: CƠ CHẾ KINH TẾ BẢO TỒN (Factual Detail)",
+            "options": [
+              "By directing ecotourism income and payments for ecosystem services straight to local communities",
+              "By granting villages exclusive licenses for open-pit mining inside national parks",
+              "By fining rural households whenever wild songbirds nest near farms",
+              "By relocating all villagers permanently into urban apartment blocks"
+            ],
+            "optionsVi": [
+              "A. Bằng cách chuyển trực tiếp doanh thu du lịch sinh thái và chi trả dịch vụ hệ sinh thái về cho cộng đồng địa phương",
+              "B. Bằng cách cấp phép khai thác mỏ lộ thiên trong vườn quốc gia cho các làng",
+              "C. Bằng cách phạt tiền hộ dân mỗi khi chim hoang dã làm tổ gần trang trại",
+              "D. Bằng cách di dời toàn bộ dân làng vĩnh viễn vào các khu chung cư đô thị"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "and channeling ecotourism revenues or payments for ecosystem services directly to rural villagers. [Paragraph 4]",
+            "evidenceVi": "và chuyển trực tiếp nguồn thu du lịch sinh thái hoặc chi trả dịch vụ hệ sinh thái tới người dân nông thôn. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ hai dòng tài chính khuyến khích cộng đồng bảo vệ rừng: doanh thu du lịch sinh thái và chi trả dịch vụ hệ sinh thái (PES) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế tài chính cộng đồng (Factual)",
+              "cluePassage": "channeling ecotourism revenues or payments for ecosystem services directly to rural villagers.",
+              "clueAnswer": "By directing ecotourism income and payments for ecosystem services straight to local communities",
+              "keyPassage": "channeling ecotourism revenues or payments for ecosystem services directly to rural villagers",
+              "keyAnswer": "directing ecotourism income and payments for ecosystem services straight to local communities",
+              "paraphrasePair": "channeling... directly <=> directing... straight",
+              "meaningVi": "chuyển nguồn thu trực tiếp về cộng đồng",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "Which of the following is NOT mentioned in the passage as an element of wildlife corridor connectivity?",
+            "questionVi": "Yếu tố nào sau đây KHÔNG được đề cập trong bài đọc như một thành phần của kết nối hành lang động vật hoang dã?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Restored riparian forest strips",
+              "Vegetated highway overpasses",
+              "Hedgerows linking fragmented parks",
+              "Subterranean high-speed electric cargo trains for transporting elk"
+            ],
+            "optionsVi": [
+              "A. Các dải rừng ven sông được phục hồi",
+              "B. Cầu vượt cao tốc phủ thảm thực vật xanh",
+              "C. Các hàng rào cây xanh kết nối các công viên bị chia cắt",
+              "D. Tàu điện chở hàng cao tốc ngầm để vận chuyển đàn nai"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "vegetated highway overpasses... strips of restored riparian forest, hedgerows, and dedicated bridge crossings... [Paragraph 2]",
+            "evidenceVi": "cầu vượt cao tốc phủ xanh... dải rừng ven sông phục hồi, hàng rào cây và cầu băng qua chuyên dụng... [Đoạn 2]",
+            "explanation": "A, B, C đều được liệt kê trong đoạn 2; D là phương án bịa đặt không hề có trong bài.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "vegetated highway overpasses... restored riparian forest, hedgerows, dedicated bridge crossings",
+              "clueAnswer": "Subterranean high-speed electric cargo trains for transporting elk",
+              "keyPassage": "overpasses, riparian forest, hedgerows, bridge crossings",
+              "keyAnswer": "electric cargo trains for elk (Not mentioned)",
+              "paraphrasePair": "NOT in passage",
+              "meaningVi": "Không có trong bài đọc",
+              "deductionLogic": "Loại trừ A, B, C đều xuất hiện ở đoạn 2."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "Which title best captures the central thesis of the passage?",
+            "questionVi": "Tiêu đề nào thâu tóm chính xác nhất luận đề trung tâm của bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "Beyond Fences: How Corridors, Rewilding, and Community Stewardship Are Redefining Preservation",
+              "Why Yellowstone National Park Closed Its Gates After 1995",
+              "The Complete Failure of National Parks to Protect Forest Scenery",
+              "How Concrete Highway Construction Improves Wildlife Genetic Diversity"
+            ],
+            "optionsVi": [
+              "A. Vượt qua những hàng rào: Cách hành lang sinh học, tái hoang dã hóa và quản lý cộng đồng đang tái định nghĩa công tác bảo tồn",
+              "B. Tại sao Vườn Quốc gia Yellowstone đóng cửa sau năm 1995",
+              "C. Sự thất bại hoàn toàn của các vườn quốc gia trong việc bảo vệ cảnh quan rừng",
+              "D. Cách xây dựng cao tốc bê tông cải thiện đa dạng di truyền động vật"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "fortress conservation -> wildlife corridors -> trophic rewilding -> community-based co-management... distant fence-builder to active, accountable partner. [Paragraphs 1-4]",
+            "evidenceVi": "bảo tồn pháo đài -> hành lang sinh học -> tái hoang dã hóa -> đồng quản lý cộng đồng... từ người dựng rào xa cách thành đối tác tích cực. [Đoạn 1-4]",
+            "explanation": "Phương án A thâu tóm trọn vẹn bước tiến từ 'fortress conservation' (hàng rào cô lập) sang 3 trụ cột mới: hành lang kết nối, tái hoang dã hóa và đồng quản lý cộng đồng.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Tiêu đề bao quát (Best Title)",
+              "cluePassage": "fortress conservation... wildlife corridors... trophic rewilding... community-based co-management... distant fence-builder to active partner",
+              "clueAnswer": "Beyond Fences: How Corridors, Rewilding, and Community Stewardship Are Redefining Preservation",
+              "keyPassage": "beyond fences -> corridors + rewilding + community stewardship",
+              "keyAnswer": "Beyond Fences: Corridors, Rewilding, Community Stewardship",
+              "paraphrasePair": "from distant fence-builder <=> Beyond Fences",
+              "meaningVi": "vượt qua tư duy dựng hàng rào cô lập",
+              "deductionLogic": "Loại B, C, D vì đều sai ngược dữ kiện bài đọc."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Individualism vs. Collectivism in Cultural Psychology",
+        "topic": "Chủ nghĩa cá nhân đối chiếu Chủ nghĩa tập thể trong tâm lý học văn hóa, giao tiếp & quản trị",
+        "timeAllowed": 15,
+        "passage": "<p>Among the foundational frameworks of cross-cultural psychology and organizational anthropology, few dimensions have proven as illuminating—or as widely debated—as the continuum stretching between individualism and collectivism. Pioneered empirically by Dutch social psychologist Geert Hofstede in his landmark multinational workplace studies and refined by scholars such as Harry Triandis, this axis measures how deeply individuals define their core identity in terms of autonomous personal agency versus interdependent group belonging. In predominantly individualistic societies—such as the United States, Australia, and much of Western Europe—the self is construed as a bounded, self-directed entity prized for uniqueness, personal ambition, and self-actualization. Conversely, in predominantly collectivistic cultures across East Asia, Latin America, and parts of Africa, identity is woven into enduring webs of familial duty, communal reciprocity, and relational harmony.</p><p>These contrasting models of selfhood shape far more than abstract values; they leave measurable imprints on everyday communication, moral reasoning, and even visual perception. Anthropologist Edward T. Hall observed that individualistic cultures typically favor 'low-context' communication—valuing explicit verbal directness, transparent debate, and literal contracts—whereas collectivistic societies lean toward 'high-context' expression, relying heavily on shared unspoken norms, subtle tone shifts, and indirect diplomacy to preserve social 'face' (dignity). Remarkably, cognitive experiments by Richard Nisbett revealed that East Asian participants tend to process visual scenes holistically, attending closely to background relationships and context, while North American participants more often focus analytically on prominent foreground objects detached from their surroundings.</p><p>In multinational workplaces and global diplomacy, unrecognized friction along this cultural spectrum frequently generates costly misunderstandings. A Western manager trained to reward outspoken individual initiative and public merit-based recognition may inadvertently embarrass a collectivistic team member who credits success to group collaboration and prefers discreet private praise. Likewise, consensus-driven decision-making in Japanese or Vietnamese enterprises—requiring extensive informal pre-consultation prior to formal meetings—can frustrate Western executives accustomed to brisk majority voting, even though thorough early consensus often yields faster, more unified implementation once a policy is finally adopted.</p><p>Crucially, contemporary cultural psychologists caution against treating individualism and collectivism as rigid, immutable national stereotypes. Every society—and indeed every individual mind—contains dynamic blends of both orientations depending on situational context, generational shifts, and socioeconomic urbanization. Rising urban affluence and digital globalization have fostered greater personal autonomy among young East Asians, just as Western civic movements increasingly emphasize community solidarity and ecological interdependence. Mastering intercultural competence therefore lies not in boxing nations into binary caricatures, but in cultivating flexible cultural intelligence capable of honoring both individual creativity and collective responsibility.</p>",
+        "vocab": [
+          {
+            "word": "continuum",
+            "pos": "n",
+            "ipa": "/kənˈtɪn.ju.əm/",
+            "level": "C1",
+            "mean": "dải phổ liên tục (chuyển tiếp dần giữa hai cực)",
+            "syns": [
+              "spectrum",
+              "scale",
+              "gradient"
+            ],
+            "ex": "Cultures fall along a fluid continuum rather than strictly opposite boxes."
+          },
+          {
+            "word": "anthropology",
+            "pos": "n",
+            "ipa": "/ˌæn.θrəˈpɒl.ə.dʒi/",
+            "level": "B2",
+            "mean": "nhân học (nghiên cứu văn hóa và xã hội loài người)",
+            "syns": [
+              "cultural science",
+              "ethnology"
+            ],
+            "ex": "Organizational anthropology investigates how cultural norms shape leadership."
+          },
+          {
+            "word": "construe",
+            "pos": "v",
+            "ipa": "/kənˈstruː/",
+            "level": "C1",
+            "mean": "nhìn nhận, định nghĩa và diễn giải (bản sắc cái tôi)",
+            "syns": [
+              "interpret",
+              "view",
+              "conceptualize"
+            ],
+            "ex": "Individualistic societies construe the self as an independent, bounded agent."
+          },
+          {
+            "word": "self-actualization",
+            "pos": "n",
+            "ipa": "/ˌself.æk.tʃu.ə.laɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự tự khẳng định và phát huy tối đa tiềm năng bản thân",
+            "syns": [
+              "self-fulfillment",
+              "personal realization"
+            ],
+            "ex": "Western career advice frequently places personal self-actualization above family duty."
+          },
+          {
+            "word": "reciprocity",
+            "pos": "n",
+            "ipa": "/ˌres.ɪˈprɒs.ə.ti/",
+            "level": "C1",
+            "mean": "nguyên tắc có đi có lại, tương trợ lẫn nhau",
+            "syns": [
+              "mutual exchange",
+              "give-and-take"
+            ],
+            "ex": "Strong family networks thrive on lifelong obligations of mutual reciprocity."
+          },
+          {
+            "word": "imprint",
+            "pos": "n",
+            "ipa": "/ˈɪm.prɪnt/",
+            "level": "B2",
+            "mean": "dấu ấn sâu sắc để lại",
+            "syns": [
+              "mark",
+              "impression",
+              "stamp"
+            ],
+            "ex": "Early cultural upbringing leaves a lasting imprint on communication habits."
+          },
+          {
+            "word": "explicit",
+            "pos": "adj",
+            "ipa": "/ɪkˈsplɪs.ɪt/",
+            "level": "B2",
+            "mean": "tường minh, nói thẳng trực diện rõ ràng",
+            "syns": [
+              "direct",
+              "clear-cut",
+              "unambiguous"
+            ],
+            "ex": "Low-context contracts rely on explicit written clauses rather than implied trust."
+          },
+          {
+            "word": "unspoken",
+            "pos": "adj",
+            "ipa": "/ʌnˈspəʊ.kən/",
+            "level": "B2",
+            "mean": "ngầm hiểu, không cần nói thẳng ra lời",
+            "syns": [
+              "implicit",
+              "tacit",
+              "unstated"
+            ],
+            "ex": "High-context diplomacy depends heavily on reading unspoken social cues."
+          },
+          {
+            "word": "holistically",
+            "pos": "adv",
+            "ipa": "/həˈlɪs.tɪ.kəl.i/",
+            "level": "C1",
+            "mean": "một cách tổng thể, nhìn bao quát toàn cảnh và bối cảnh",
+            "syns": [
+              "comprehensively",
+              "contextually",
+              "as a whole"
+            ],
+            "ex": "Nisbett's studies found East Asian viewers often scan scenes holistically."
+          },
+          {
+            "word": "analytically",
+            "pos": "adv",
+            "ipa": "/ˌæn.əˈlɪt.ɪ.kəl.i/",
+            "level": "B2",
+            "mean": "theo lối phân tích tách bạch từng đối tượng riêng lẻ",
+            "syns": [
+              "systematically",
+              "dissectively",
+              "logically"
+            ],
+            "ex": "Western subjects tended to categorize prominent foreground objects analytically."
+          },
+          {
+            "word": "prominent",
+            "pos": "adj",
+            "ipa": "/ˈprɒm.ɪ.nənt/",
+            "level": "B2",
+            "mean": "nổi bật ở tiền cảnh, dễ đập vào mắt",
+            "syns": [
+              "conspicuous",
+              "central",
+              "focal"
+            ],
+            "ex": "Analytical perception isolates prominent central figures from background detail."
+          },
+          {
+            "word": "detached",
+            "pos": "adj",
+            "ipa": "/dɪˈtætʃt/",
+            "level": "B2",
+            "mean": "tách rời ra khỏi bối cảnh xung quanh",
+            "syns": [
+              "separated",
+              "isolated",
+              "disconnected"
+            ],
+            "ex": "Viewing objects as detached entities reflects an individualistic cognitive style."
+          },
+          {
+            "word": "inadvertently",
+            "pos": "adv",
+            "ipa": "/ˌɪn.ədˈvɜː.tənt.li/",
+            "level": "C1",
+            "mean": "vô tình, không cố ý",
+            "syns": [
+              "unintentionally",
+              "accidentally",
+              "unwittingly"
+            ],
+            "ex": "Singling out one modest engineer for public praise can inadvertently cause discomfort."
+          },
+          {
+            "word": "discreet",
+            "pos": "adj",
+            "ipa": "/dɪˈskriːt/",
+            "level": "C1",
+            "mean": "kín đáo, tế nhị khéo léo",
+            "syns": [
+              "tactful",
+              "private",
+              "subtle"
+            ],
+            "ex": "Many collectivistic employees prefer discreet one-on-one feedback over public spotlight."
+          },
+          {
+            "word": "consensus",
+            "pos": "n",
+            "ipa": "/kənˈsen.səs/",
+            "level": "B2",
+            "mean": "sự đồng thuận nhất trí của tập thể",
+            "syns": [
+              "general agreement",
+              "unanimity",
+              "accord"
+            ],
+            "ex": "Building broad consensus before launching a project reduces later resistance."
+          },
+          {
+            "word": "consultation",
+            "pos": "n",
+            "ipa": "/ˌkɒn.sʌlˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "tham vấn, lấy ý kiến trao đổi trước",
+            "syns": [
+              "discussion",
+              "deliberation",
+              "input-gathering"
+            ],
+            "ex": "Informal pre-meeting consultation helps stakeholders voice concerns privately."
+          },
+          {
+            "word": "brisk",
+            "pos": "adj",
+            "ipa": "/brɪsk/",
+            "level": "B2",
+            "mean": "nhanh gọn, dứt khoát tốc độ cao",
+            "syns": [
+              "swift",
+              "quick",
+              "rapid"
+            ],
+            "ex": "Executives used to brisk majority voting sometimes misread slow deliberations."
+          },
+          {
+            "word": "implementation",
+            "pos": "n",
+            "ipa": "/ˌɪm.plɪ.menˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "quá trình thực thi, triển khai vào thực tế",
+            "syns": [
+              "execution",
+              "rollout",
+              "enactment"
+            ],
+            "ex": "Early team alignment speeds up smooth implementation once decisions pass."
+          },
+          {
+            "word": "immutable",
+            "pos": "adj",
+            "ipa": "/ɪˈmjuː.tə.bəl/",
+            "level": "C1",
+            "mean": "bất biến, cứng nhắc không bao giờ thay đổi",
+            "syns": [
+              "unchanging",
+              "fixed",
+              "permanent"
+            ],
+            "ex": "Cultural traits are fluid tendencies rather than immutable genetic laws."
+          },
+          {
+            "word": "stereotype",
+            "pos": "n",
+            "ipa": "/ˈster.i.ə.taɪp/",
+            "level": "B2",
+            "mean": "định kiến khuôn mẫu phiến diện",
+            "syns": [
+              "cliché",
+              "generalization",
+              "caricature"
+            ],
+            "ex": "Reducing entire nationalities to rigid stereotypes harms global teamwork."
+          },
+          {
+            "word": "orientation",
+            "pos": "n",
+            "ipa": "/ˌɔː.ri.enˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "khuynh hướng giá trị, định hướng tâm lý",
+            "syns": [
+              "inclination",
+              "leaning",
+              "tendency"
+            ],
+            "ex": "An individual's cultural orientation often shifts between family and office contexts."
+          },
+          {
+            "word": "solidarity",
+            "pos": "n",
+            "ipa": "/ˌsɒl.ɪˈdær.ə.ti/",
+            "level": "C1",
+            "mean": "tinh thần đoàn kết gắn bó cộng đồng",
+            "syns": [
+              "unity",
+              "fellowship",
+              "cohesion"
+            ],
+            "ex": "Environmental campaigns inspire strong civic solidarity across Western cities."
+          },
+          {
+            "word": "intercultural",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈkʌl.tʃər.əl/",
+            "level": "B2",
+            "mean": "liên văn hóa, giao thoa giữa các nền văn hóa",
+            "syns": [
+              "cross-cultural",
+              "multicultural"
+            ],
+            "ex": "Global leaders cultivate intercultural competence to bridge diverse teams."
+          },
+          {
+            "word": "binary",
+            "pos": "adj",
+            "ipa": "/ˈbaɪ.nər.i/",
+            "level": "C1",
+            "mean": "nhị phân, chia đôi cực đoan đen - trắng",
+            "syns": [
+              "two-fold",
+              "either-or",
+              "dualistic"
+            ],
+            "ex": "Psychologists warn against boxing vibrant nations into binary caricatures."
+          },
+          {
+            "word": "caricature",
+            "pos": "n",
+            "ipa": "/ˈkær.ɪ.kə.tʃʊər/",
+            "level": "C1",
+            "mean": "bức biếm họa phóng đại méo mó",
+            "syns": [
+              "distortion",
+              "exaggerated portrait",
+              "parody"
+            ],
+            "ex": "Treating all Eastern or Western workers alike creates an inaccurate caricature."
+          },
+          {
+            "word": "outspoken",
+            "pos": "adj",
+            "ipa": "/ˌaʊtˈspəʊ.kən/",
+            "level": "B2",
+            "mean": "thẳng thắn phát biểu bộc trực",
+            "syns": [
+              "vocal",
+              "frank",
+              "candid"
+            ],
+            "ex": "Individualistic classrooms encourage outspoken debate and personal dissent."
+          },
+          {
+            "word": "relational",
+            "pos": "adj",
+            "ipa": "/rɪˈleɪ.ʃən.əl/",
+            "level": "C1",
+            "mean": "mang tính quan hệ gắn kết giữa con người",
+            "syns": [
+              "interpersonal",
+              "social-bond",
+              "connected"
+            ],
+            "ex": "Collectivistic ethics place primary emphasis on preserving relational harmony."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "According to paragraph 1, how does the individualism–collectivism continuum define the fundamental difference in personal identity?",
+            "questionVi": "Theo đoạn 1, trục phổ chủ nghĩa cá nhân – chủ nghĩa tập thể định nghĩa sự khác biệt căn bản về bản sắc cá nhân như thế nào?",
+            "questionType": "DẠNG 03: CHI TIẾT KHÁI NIỆM (Factual Detail)",
+            "options": [
+              "Autonomous personal uniqueness and self-actualization versus interdependent group belonging, family duty, and relational harmony",
+              "Economic wealth and industrial urbanization versus rural agricultural poverty",
+              "Fluency in European languages versus mastery of East Asian calligraphy",
+              "Preference for outdoor recreation versus indoor technological entertainment"
+            ],
+            "optionsVi": [
+              "A. Sự độc bản cá nhân tự chủ và tự khẳng định bản thân đối lập với sự gắn kết phụ thuộc lẫn nhau trong nhóm, bổn phận gia đình và hòa hợp quan hệ",
+              "B. Sự giàu có kinh tế công nghiệp đối lập với nghèo đói nông nghiệp nông thôn",
+              "C. Sự lưu loát ngôn ngữ châu Âu đối lập với thư pháp Đông Á",
+              "D. Sở thích giải trí ngoài trời đối lập với giải trí công nghệ trong nhà"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "autonomous personal agency versus interdependent group belonging... uniqueness, personal ambition, and self-actualization. Conversely... familial duty, communal reciprocity, and relational harmony. [Paragraph 1]",
+            "evidenceVi": "năng lực tự chủ cá nhân đối lập với sự thuộc về tập thể phụ thuộc nhau... tính độc đáo, hoài bão và tự khẳng định bản thân đối lập với bổn phận gia đình, tương trợ cộng đồng và hòa hợp quan hệ. [Đoạn 1]",
+            "explanation": "Đoạn 1 định nghĩa sắc nét hai cực bản sắc: cái tôi độc lập tự chủ (cá nhân) so với cái tôi đan xen trong bổn phận gia đình và hài hòa quan hệ (tập thể) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Định nghĩa trục văn hóa (Factual)",
+              "cluePassage": "autonomous personal agency... uniqueness, personal ambition, and self-actualization. Conversely... interdependent group belonging... familial duty, communal reciprocity, and relational harmony.",
+              "clueAnswer": "Autonomous personal uniqueness and self-actualization versus interdependent group belonging, family duty, and relational harmony",
+              "keyPassage": "autonomous personal agency + self-actualization vs interdependent group belonging + familial duty + relational harmony",
+              "keyAnswer": "Autonomous personal uniqueness and self-actualization vs interdependent group belonging, family duty, relational harmony",
+              "paraphrasePair": "familial duty <=> family duty",
+              "meaningVi": "bổn phận gia đình và hòa hợp quan hệ",
+              "deductionLogic": "Khớp trực tiếp câu 2–4 đoạn 1."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "How does Edward T. Hall contrast 'low-context' and 'high-context' communication in paragraph 2?",
+            "questionVi": "Edward T. Hall đối chiếu giao tiếp 'ngữ cảnh thấp' (low-context) và 'ngữ cảnh cao' (high-context) như thế nào trong đoạn 2?",
+            "questionType": "DẠNG 03: SO SÁNH ĐỐI CHIẾU (Comparison)",
+            "options": [
+              "Low-context cultures value explicit directness and literal contracts, whereas high-context cultures rely on unspoken norms and indirect diplomacy to save 'face'.",
+              "Low-context cultures forbid written contracts, whereas high-context cultures avoid all unspoken facial expressions.",
+              "High-context cultures encourage blunt public confrontation to settle family disagreements swiftly.",
+              "Both styles avoid verbal speech completely in favor of mathematical diagrams."
+            ],
+            "optionsVi": [
+              "A. Văn hóa ngữ cảnh thấp coi trọng sự thẳng thắn tường minh và hợp đồng câu chữ, còn văn hóa ngữ cảnh cao dựa vào chuẩn mực ngầm hiểu và ngoại giao gián tiếp để giữ 'thể diện'.",
+              "B. Văn hóa ngữ cảnh thấp cấm hợp đồng viết, còn văn hóa ngữ cảnh cao tránh mọi biểu cảm khuôn mặt.",
+              "C. Văn hóa ngữ cảnh cao khuyến khích đối đầu trực diện công khai để giải quyết mâu thuẫn gia đình.",
+              "D. Cả hai phong cách đều tránh lời nói để dùng sơ đồ toán học."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "individualistic cultures typically favor 'low-context' communication—valuing explicit verbal directness, transparent debate, and literal contracts—whereas collectivistic societies lean toward 'high-context' expression, relying heavily on shared unspoken norms, subtle tone shifts, and indirect diplomacy to preserve social 'face'... [Paragraph 2]",
+            "evidenceVi": "văn hóa cá nhân thường chuộng giao tiếp ngữ cảnh thấp — đề cao sự thẳng thắn tường minh và hợp đồng câu chữ — trong khi xã hội tập thể nghiêng về ngữ cảnh cao dựa vào chuẩn mực ngầm hiểu và ngoại giao gián tiếp để giữ thể diện. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu chuẩn xác sự tương phản giữa low-context (thẳng thắn, hợp đồng câu chữ) và high-context (ngầm hiểu, ngữ điệu tinh tế, giữ thể diện) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Đối chiếu phong cách giao tiếp (Comparison)",
+              "cluePassage": "'low-context' communication—valuing explicit verbal directness... literal contracts—whereas...'high-context' expression, relying heavily on shared unspoken norms... indirect diplomacy to preserve social 'face'",
+              "clueAnswer": "Low-context cultures value explicit directness and literal contracts, whereas high-context cultures rely on unspoken norms and indirect diplomacy to save 'face'.",
+              "keyPassage": "low-context (explicit directness, literal contracts) vs high-context (unspoken norms, indirect diplomacy, preserve face)",
+              "keyAnswer": "low-context (explicit directness, literal contracts) vs high-context (unspoken norms, indirect diplomacy, save face)",
+              "paraphrasePair": "preserve social 'face' <=> save 'face'",
+              "meaningVi": "giữ thể diện xã hội",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "What striking cognitive finding did Richard Nisbett's visual perception experiments uncover (paragraph 2)?",
+            "questionVi": "Phát hiện nhận thức ấn tượng nào mà các thí nghiệm tri giác thị giác của Richard Nisbett khám phá ra (đoạn 2)?",
+            "questionType": "DẠNG 03: BẰNG CHỨNG KHOA HỌC (Factual Detail)",
+            "options": [
+              "East Asian participants tended to process visual scenes holistically via background relationships, whereas North Americans focused more analytically on foreground objects.",
+              "North American participants could not detect bright colors in outdoor photographs.",
+              "East Asian participants ignored surrounding context to isolate single foreground items.",
+              "Visual perception is completely identical across all cultures regardless of upbringing."
+            ],
+            "optionsVi": [
+              "A. Người tham gia Đông Á có xu hướng xử lý cảnh vật tổng thể qua mối liên hệ bối cảnh, trong khi người Bắc Mỹ tập trung phân tích vào vật thể nổi bật ở tiền cảnh.",
+              "B. Người tham gia Bắc Mỹ không thể nhận diện màu sắc tươi sáng trong ảnh ngoài trời.",
+              "C. Người tham gia Đông Á phớt lờ bối cảnh xung quanh để tách riêng từng vật thể tiền cảnh.",
+              "D. Tri giác thị giác hoàn toàn giống hệt nhau ở mọi nền văn hóa bất kể môi trường lớn lên."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "East Asian participants tend to process visual scenes holistically, attending closely to background relationships and context, while North American participants more often focus analytically on prominent foreground objects detached from their surroundings. [Paragraph 2]",
+            "evidenceVi": "Người tham gia Đông Á có xu hướng xử lý khung cảnh một cách tổng thể, chú ý kỹ mối liên hệ nền và bối cảnh, còn người Bắc Mỹ thường tập trung phân tích các vật thể tiền cảnh nổi bật tách khỏi môi trường. [Đoạn 2]",
+            "explanation": "Thí nghiệm của Nisbett cho thấy ảnh hưởng văn hóa lan tới cả tri giác thị giác: Đông Á nhìn tổng thể bối cảnh (holistically), Bắc Mỹ tập trung phân tích vật thể tiền cảnh (analytically) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Thí nghiệm tâm lý nhận thức (Factual)",
+              "cluePassage": "East Asian participants tend to process visual scenes holistically, attending closely to background relationships... while North American participants more often focus analytically on prominent foreground objects",
+              "clueAnswer": "East Asian participants tended to process visual scenes holistically via background relationships, whereas North Americans focused more analytically on foreground objects.",
+              "keyPassage": "East Asian -> holistically (background relationships) vs North American -> analytically (foreground objects)",
+              "keyAnswer": "East Asian -> holistically (background relationships) vs North Americans -> analytically (foreground objects)",
+              "paraphrasePair": "exact cognitive contrast",
+              "meaningVi": "nhìn tổng thể bối cảnh vs tập trung phân tích tiền cảnh",
+              "deductionLogic": "Loại C vì đảo ngược hai nhóm đối tượng."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "According to paragraph 3, why might a Western manager inadvertently embarrass a collectivistic employee?",
+            "questionVi": "Theo đoạn 3, tại sao một nhà quản lý phương Tây có thể vô tình khiến nhân viên thuộc văn hóa tập thể cảm thấy lúng túng?",
+            "questionType": "DẠNG 03: TÌNH HUỐNG QUẢN TRỊ (Cause & Effect)",
+            "options": [
+              "By singling them out for public individual praise when the employee attributes success to the whole group and prefers private recognition",
+              "By offering equal salaries to all members of a collaborative project team",
+              "By conducting thorough informal pre-consultations prior to formal board meetings",
+              "By refusing to implement consensus-based policies after they are adopted"
+            ],
+            "optionsVi": [
+              "A. Bằng cách tuyên dương cá nhân công khai khi nhân viên đó coi thành công thuộc về cả nhóm và thích được khen kín đáo riêng tư",
+              "B. Bằng cách trả lương ngang bằng cho mọi thành viên dự án hợp tác",
+              "C. Bằng cách tiến hành tham vấn không chính thức kỹ lưỡng trước cuộc họp chính thức",
+              "D. Bằng cách từ chối thực thi các chính sách đồng thuận sau khi thông qua"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "A Western manager trained to reward outspoken individual initiative and public merit-based recognition may inadvertently embarrass a collectivistic team member who credits success to group collaboration and prefers discreet private praise. [Paragraph 3]",
+            "evidenceVi": "Một quản lý phương Tây quen thưởng cho sáng kiến cá nhân và vinh danh công khai có thể vô tình làm lúng túng thành viên văn hóa tập thể vốn ghi công cho hợp tác nhóm và thích lời khen kín đáo riêng tư. [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu rõ xung đột phong cách khen thưởng: vinh danh cá nhân công khai ('public merit-based recognition') gây ngại ngùng cho nhân viên coi trọng công lao tập thể và ưa khen kín đáo (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Hiểu lầm nơi công sở đa văn hóa (Factual)",
+              "cluePassage": "public merit-based recognition may inadvertently embarrass a collectivistic team member who credits success to group collaboration and prefers discreet private praise.",
+              "clueAnswer": "By singling them out for public individual praise when the employee attributes success to the whole group and prefers private recognition",
+              "keyPassage": "public merit-based recognition... credits success to group collaboration and prefers discreet private praise",
+              "keyAnswer": "public individual praise... attributes success to whole group and prefers private recognition",
+              "paraphrasePair": "credits success to... discreet private praise <=> attributes success to... private recognition",
+              "meaningVi": "ghi công cho tập thể & ưa khen kín đáo riêng tư",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "What hidden operational strength of consensus-driven decision-making in Japanese or Vietnamese firms does paragraph 3 acknowledge?",
+            "questionVi": "Đoạn 3 ghi nhận điểm mạnh vận hành ẩn giấu nào của quy trình ra quyết định dựa trên đồng thuận tại các doanh nghiệp Nhật Bản hoặc Việt Nam?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Although pre-consultation takes longer initially, thorough early consensus frequently results in faster, more unified execution once adopted.",
+              "It completely eliminates the need for any informal discussions before formal meetings.",
+              "It guarantees that executives never have to adjust policies during economic recessions.",
+              "It allows a single senior manager to overrule all department heads in five minutes."
+            ],
+            "optionsVi": [
+              "A. Dù khâu tham vấn trước tốn nhiều thời gian ban đầu, sự đồng thuận kỹ lưỡng sớm thường mang lại khâu triển khai nhanh và thống nhất hơn khi đã thông qua.",
+              "B. Nó xóa bỏ hoàn toàn nhu cầu trao đổi không chính thức trước cuộc họp.",
+              "C. Nó đảm bảo lãnh đạo không bao giờ phải điều chỉnh chính sách khi suy thoái.",
+              "D. Nó cho phép một quản lý cấp cao duy nhất bác bỏ toàn bộ trưởng phòng trong 5 phút."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "even though thorough early consensus often yields faster, more unified implementation once a policy is finally adopted. [Paragraph 3]",
+            "evidenceVi": "mặc dù sự đồng thuận kỹ lưỡng từ sớm thường mang lại khâu thực thi nhanh hơn và thống nhất hơn ngay khi chính sách được thông qua. [Đoạn 3]",
+            "explanation": "Cuối đoạn 3 nêu rõ ưu điểm của mô hình đồng thuận: tuy chậm ở khâu lấy ý kiến ban đầu nhưng lại triển khai cực nhanh và đồng lòng sau khi chốt (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Ưu thế quản trị đồng thuận (Factual)",
+              "cluePassage": "thorough early consensus often yields faster, more unified implementation once a policy is finally adopted.",
+              "clueAnswer": "thorough early consensus frequently results in faster, more unified execution once adopted.",
+              "keyPassage": "thorough early consensus -> yields faster, more unified implementation",
+              "keyAnswer": "thorough early consensus -> results in faster, more unified execution",
+              "paraphrasePair": "yields... implementation <=> results in... execution",
+              "meaningVi": "mang lại khâu thực thi nhanh và thống nhất hơn",
+              "deductionLogic": "Paraphrase chuẩn từ 'yields' sang 'results in' và 'implementation' sang 'execution'."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "The word \"immutable\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"immutable\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "unchanging",
+              "flexible",
+              "recent",
+              "temporary"
+            ],
+            "optionsVi": [
+              "A. bất biến, không thay đổi",
+              "B. linh hoạt",
+              "C. gần đây",
+              "D. tạm thời"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "contemporary cultural psychologists caution against treating individualism and collectivism as rigid, immutable national stereotypes. [Paragraph 4]",
+            "evidenceVi": "các nhà tâm lý học văn hóa đương đại cảnh báo không nên coi chủ nghĩa cá nhân và tập thể là những khuôn mẫu quốc gia cứng nhắc, bất biến. [Đoạn 4]",
+            "explanation": "'Immutable' (im- phủ định + mutate biến đổi = không thể thay đổi) đứng cạnh 'rigid' (cứng nhắc), đồng nghĩa với 'unchanging' (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "rigid, immutable national stereotypes",
+              "clueAnswer": "unchanging",
+              "keyPassage": "rigid, immutable",
+              "keyAnswer": "unchanging",
+              "paraphrasePair": "immutable <=> unchanging / fixed",
+              "meaningVi": "bất biến cố định <=> không thay đổi",
+              "deductionLogic": "Phân tích gốc từ 'im-' + 'mutate' (thay đổi) và từ song hành 'rigid'."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "According to paragraph 4, what evidence shows that cultural orientations are evolving rather than permanently fixed?",
+            "questionVi": "Theo đoạn 4, bằng chứng nào cho thấy các khuynh hướng văn hóa đang vận động thay đổi chứ không cố định vĩnh viễn?",
+            "questionType": "DẠNG 03: DẪN CHỨNG VẬN ĐỘNG VĂN HÓA (Factual Detail)",
+            "options": [
+              "Urban prosperity and globalization are increasing personal autonomy among young East Asians, while Western civic movements increasingly stress community solidarity.",
+              "Young East Asians have abandoned cities entirely to return to ancient agrarian villages.",
+              "Western democracies have formally outlawed individual career ambition since 2000.",
+              "Hofstede's original workplace scores have never shifted across any generation."
+            ],
+            "optionsVi": [
+              "A. Sự thịnh vượng đô thị và toàn cầu hóa đang gia tăng tính tự chủ cá nhân ở giới trẻ Đông Á, trong khi các phong trào công dân phương Tây ngày càng nhấn mạnh đoàn kết cộng đồng.",
+              "B. Giới trẻ Đông Á đã rời bỏ hoàn toàn đô thị để quay về làng nông nghiệp cổ xưa.",
+              "C. Các nền dân chủ phương Tây đã chính thức cấm hoài bão nghề nghiệp cá nhân từ năm 2000.",
+              "D. Điểm số nơi làm việc ban đầu của Hofstede chưa từng dịch chuyển qua bất kỳ thế hệ nào."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Rising urban affluence and digital globalization have fostered greater personal autonomy among young East Asians, just as Western civic movements increasingly emphasize community solidarity and ecological interdependence. [Paragraph 4]",
+            "evidenceVi": "Sự khá giả đô thị và toàn cầu hóa số đã nuôi dưỡng tính tự chủ cá nhân lớn hơn nơi giới trẻ Đông Á, cũng như các phong trào công dân phương Tây ngày càng đề cao đoàn kết cộng đồng và phụ thuộc sinh thái. [Đoạn 4]",
+            "explanation": "Đoạn 4 dẫn chứng sự giao thoa hai chiều đang diễn ra ở cả Đông Á (tăng tự chủ cá nhân) lẫn phương Tây (tăng ý thức cộng đồng và sinh thái) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Bằng chứng giao thoa văn hóa (Factual)",
+              "cluePassage": "urban affluence and digital globalization have fostered greater personal autonomy among young East Asians, just as Western civic movements increasingly emphasize community solidarity",
+              "clueAnswer": "Urban prosperity and globalization are increasing personal autonomy among young East Asians, while Western civic movements increasingly stress community solidarity.",
+              "keyPassage": "young East Asians -> personal autonomy + Western civic movements -> community solidarity",
+              "keyAnswer": "young East Asians -> personal autonomy + Western civic movements -> community solidarity",
+              "paraphrasePair": "urban affluence... emphasize <=> urban prosperity... stress",
+              "meaningVi": "sự thịnh vượng đô thị & nhấn mạnh đoàn kết cộng đồng",
+              "deductionLogic": "Khớp trực tiếp câu 3 đoạn 4."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "Which researcher is correctly matched with their contribution according to the passage?",
+            "questionVi": "Nhà nghiên cứu nào được ghép cặp ĐÚNG với đóng góp của họ theo bài đọc?",
+            "questionType": "DẠNG 03: ĐỐI CHIẾU TÁC GIẢ - CÔNG TRÌNH (Factual Detail)",
+            "options": [
+              "Edward T. Hall — distinguished 'low-context' from 'high-context' communication styles",
+              "Geert Hofstede — conducted visual perception experiments comparing foreground objects and backgrounds",
+              "Richard Nisbett — launched the first multinational workplace survey on individualism in the Netherlands",
+              "Harry Triandis — invented rapid majority voting for Japanese corporate boards"
+            ],
+            "optionsVi": [
+              "A. Edward T. Hall — phân biệt phong cách giao tiếp 'ngữ cảnh thấp' và 'ngữ cảnh cao'",
+              "B. Geert Hofstede — thực hiện thí nghiệm tri giác thị giác so sánh tiền cảnh và hậu cảnh",
+              "C. Richard Nisbett — thực hiện khảo sát nơi làm việc đa quốc gia đầu tiên tại Hà Lan",
+              "D. Harry Triandis — phát minh bỏ phiếu đa số nhanh cho hội đồng quản trị Nhật Bản"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Anthropologist Edward T. Hall observed that individualistic cultures typically favor 'low-context' communication... whereas collectivistic societies lean toward 'high-context' expression... [Paragraph 2]",
+            "evidenceVi": "Nhà nhân học Edward T. Hall quan sát thấy văn hóa cá nhân chuộng giao tiếp 'ngữ cảnh thấp' còn xã hội tập thể nghiêng về biểu đạt 'ngữ cảnh cao'... [Đoạn 2]",
+            "explanation": "Đối chiếu tên các học giả trong bài: Hofstede (khảo sát đa quốc gia - Đoạn 1), Triandis (tinh chỉnh - Đoạn 1), Edward T. Hall (low-context vs high-context - Đoạn 2), Richard Nisbett (thí nghiệm tri giác thị giác - Đoạn 2). Duy nhất A ghép đúng!",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Khớp nối học giả & học thuyết (Factual)",
+              "cluePassage": "Anthropologist Edward T. Hall observed that individualistic cultures typically favor 'low-context' communication... 'high-context' expression",
+              "clueAnswer": "Edward T. Hall — distinguished 'low-context' from 'high-context' communication styles",
+              "keyPassage": "Edward T. Hall -> low-context vs high-context communication",
+              "keyAnswer": "Edward T. Hall — distinguished low-context from high-context communication styles",
+              "paraphrasePair": "exact scholar-concept attribution",
+              "meaningVi": "ghép đúng học giả Edward T. Hall với thuyết ngữ cảnh thấp/cao",
+              "deductionLogic": "B và C cố tình tráo đổi vai trò giữa Hofstede và Nisbett."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "What does the phrase \"boxing nations into binary caricatures\" in paragraph 4 warn against?",
+            "questionVi": "Cụm từ \"đóng khung các quốc gia vào những bức biếm họa nhị phân\" (boxing nations into binary caricatures) trong đoạn 4 cảnh báo điều gì?",
+            "questionType": "DẠNG 06: HIỂU ẨN DỤ / SUY LUẬN (Inference)",
+            "options": [
+              "Oversimplifying diverse countries into rigid, either-or stereotypes that ignore internal nuance and generational change",
+              "Exporting packaged consumer goods across two neighboring border nations",
+              "Teaching computer binary code inside cross-cultural psychology classes",
+              "Recognizing any measurable cultural differences in workplace communication at all"
+            ],
+            "optionsVi": [
+              "A. Giản lược quá mức các quốc gia đa dạng thành khuôn mẫu cứng nhắc một mất một còn, bỏ qua sắc thái nội tại và biến đổi thế hệ",
+              "B. Xuất khẩu hàng tiêu dùng đóng hộp qua hai quốc gia láng giềng",
+              "C. Giảng dạy mã nhị phân máy tính trong lớp tâm lý học liên văn hóa",
+              "D. Thừa nhận bất kỳ khác biệt văn hóa đo lường được nào trong giao tiếp công sở"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Every society—and indeed every individual mind—contains dynamic blends of both orientations... not in boxing nations into binary caricatures, but in cultivating flexible cultural intelligence... [Paragraph 4]",
+            "evidenceVi": "Mọi xã hội và mọi tâm trí đều chứa đựng sự pha trộn năng động của cả hai khuynh hướng... không đóng khung các quốc gia vào những bức biếm họa nhị phân, mà nuôi dưỡng trí tuệ văn hóa linh hoạt. [Đoạn 4]",
+            "explanation": "Tác giả cảnh báo lối tư duy chia đôi cực đoan (100% cá nhân hoặc 100% tập thể) bỏ qua sự đa dạng nội tại và sự chuyển dịch thế hệ (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Giải mã ẩn dụ học thuật (Inference)",
+              "cluePassage": "dynamic blends of both orientations... not in boxing nations into binary caricatures, but in cultivating flexible cultural intelligence",
+              "clueAnswer": "Oversimplifying diverse countries into rigid, either-or stereotypes that ignore internal nuance and generational change",
+              "keyPassage": "boxing nations into binary caricatures",
+              "keyAnswer": "oversimplifying countries into rigid, either-or stereotypes",
+              "paraphrasePair": "binary caricatures <=> rigid, either-or stereotypes",
+              "meaningVi": "bức biếm họa nhị phân <=> khuôn mẫu cực đoan hoặc cái này hoặc cái kia",
+              "deductionLogic": "Liên kết chặt chẽ với câu chủ đề đoạn 4 ('rigid, immutable national stereotypes')."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "According to the concluding sentence, what defines true intercultural competence?",
+            "questionVi": "Theo câu kết bài, điều gì định nghĩa năng lực liên văn hóa thực thụ?",
+            "questionType": "DẠNG 07: KẾT LUẬN TÁC GIẢ (Author's Conclusion)",
+            "options": [
+              "Developing flexible cultural intelligence that respects both individual creativity and collective responsibility",
+              "Forcing multinational teams to adopt exclusively Western low-context voting rules",
+              "Avoiding international collaboration between individualistic and collectivistic economies",
+              "Assuming every employee from the same country shares identical psychological habits"
+            ],
+            "optionsVi": [
+              "A. Nuôi dưỡng trí tuệ văn hóa linh hoạt biết trân trọng cả sức sáng tạo cá nhân lẫn trách nhiệm tập thể",
+              "B. Buộc các đội nhóm đa quốc gia áp dụng duy nhất quy tắc bỏ phiếu phương Tây",
+              "C. Tránh hợp tác quốc tế giữa nền kinh tế cá nhân và tập thể",
+              "D. Giả định mọi nhân viên cùng quốc tịch có thói quen tâm lý giống hệt nhau"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "cultivating flexible cultural intelligence capable of honoring both individual creativity and collective responsibility. [Paragraph 4]",
+            "evidenceVi": "nuôi dưỡng trí tuệ văn hóa linh hoạt có khả năng tôn vinh cả sự sáng tạo cá nhân lẫn trách nhiệm tập thể. [Đoạn 4]",
+            "explanation": "Câu kết khẳng định bản chất của năng lực liên văn hóa là sự linh hoạt biết tôn trọng cả hai giá trị: sáng tạo cá nhân và trách nhiệm cộng đồng (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thông điệp kết bài (Author's Conclusion)",
+              "cluePassage": "cultivating flexible cultural intelligence capable of honoring both individual creativity and collective responsibility.",
+              "clueAnswer": "Developing flexible cultural intelligence that respects both individual creativity and collective responsibility",
+              "keyPassage": "flexible cultural intelligence + honoring both individual creativity and collective responsibility",
+              "keyAnswer": "flexible cultural intelligence + respects both individual creativity and collective responsibility",
+              "paraphrasePair": "cultivating... honoring <=> developing... respects",
+              "meaningVi": "nuôi dưỡng trí tuệ văn hóa linh hoạt và trân trọng cả hai giá trị",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 4."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 

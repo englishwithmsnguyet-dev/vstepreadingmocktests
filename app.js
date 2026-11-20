@@ -1545,6 +1545,7 @@ function renderPracticeView() {
     const test16 = tests.find(t => t.testNum === 16);
     const test17 = tests.find(t => t.testNum === 17);
     const test18 = tests.find(t => t.testNum === 18);
+    const test19 = tests.find(t => t.testNum === 19);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -2927,90 +2928,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 9. BỘ ĐỀ THỰC CHIẾN 09 (TEST 19) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 9. BỘ ĐỀ THỰC CHIẾN 09 (TEST 19) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite19') {
+        const savedAnsCount19 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 19) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved19 = state.savedExam && state.savedExam.testNum === 19 && savedAnsCount19 > 0;
+        const totalVocab19 = (test19 && test19.passages) ? test19.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta19 = [
+            {
+                testNum: 19,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'linguistics',
+                categoryName: 'Phương pháp học ngoại ngữ',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: English Learning - Speaking & Writing',
+                icon: 'fa-comments',
+                title: 'Mastering English Speaking & Writing Skills',
+                titleVi: 'Phương pháp học kỹ năng Nói & Viết tiếng Anh chủ động: Shadowing & Process Writing',
+                summary: 'Giải mã khoảng cách kỹ năng tiếp nhận - sản sinh, kỹ thuật Shadowing rèn ngữ điệu tự nhiên, quy trình viết 5 bước và cách học Collocations thoát dịch từng chữ.'
+            },
+            {
+                testNum: 19,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'history',
+                categoryName: 'Sử học & Danh nhân thế giới',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: World History & Historical Figures',
+                icon: 'fa-landmark',
+                title: 'World History: Great Figures vs. Structural Forces',
+                titleVi: 'Lịch sử thế giới: Vai trò các danh nhân bước ngoặt đối chiếu động lực xã hội',
+                summary: 'Đối chiếu Thuyết Vĩ Nhân của Thomas Carlyle với trường phái sử học cấu trúc Annales, qua dẫn chứng Gutenberg, Nelson Mandela, Mahatma Gandhi và vai trò của người dân bình thường.'
+            },
+            {
+                testNum: 19,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'environment',
+                categoryName: 'Bảo tồn sinh thái & Tái hoang dã',
+                categoryColor: '#0284c7',
+                badgeBg: '#f0f9ff',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Environmental Preservation',
+                icon: 'fa-tree',
+                title: 'Environmental Preservation: Corridors & Rewilding',
+                titleVi: 'Bảo tồn môi trường: Hành lang sinh học, Tái hoang dã hóa & Đồng quản lý cộng đồng',
+                summary: 'Vượt qua mô hình "bảo tồn pháo đài" cô lập sang hành lang động vật hoang dã, hiệu ứng tầng dinh dưỡng từ sói xám Yellowstone và quyền quản lý rừng của cộng đồng bản địa.'
+            },
+            {
+                testNum: 19,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'culture_psych',
+                categoryName: 'Tâm lý học xuyên văn hóa',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Individualism vs. Collectivism in Culture',
+                icon: 'fa-people-arrows',
+                title: 'Individualism vs. Collectivism in Cultural Psychology',
+                titleVi: 'Chủ nghĩa cá nhân đối chiếu Chủ nghĩa tập thể trong văn hóa, giao tiếp & quản trị',
+                summary: 'Phân tích trục văn hóa Hofstede, giao tiếp ngữ cảnh thấp - cao của Edward T. Hall, thí nghiệm tri giác tổng thể của Nisbett và trí tuệ văn hóa linh hoạt trong môi trường đa quốc gia.'
+            }
+        ];
+
+        let pCardsHtml19 = '';
+        passagesMeta19.forEach(meta => {
+            const pData = (test19 && test19.passages) ? test19.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml19 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-19">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-09" id="suite-box-19">
+                <div class="practice-suite-header suite-header-09">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(245, 158, 11, 0.25); color: #fde68a; border-color: rgba(245, 158, 11, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 09 (TEST 19) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #fde68a;"></i> BỘ ĐỀ THỰC CHIẾN 09 (TEST 19) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 09 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Phương pháp học Nói & Viết tiếng Anh (Part 1) • Lịch sử thế giới & Danh nhân (Part 2) • Bảo vệ môi trường sinh thái (Part 3) • Chủ nghĩa cá nhân vs Tập thể trong văn hóa (Part 4)
+                            <strong>4 Topics:</strong> Phương pháp học Nói & Viết tiếng Anh (Part 1) • Lịch sử thế giới & Danh nhân (Part 2) • Bảo tồn sinh thái & Tái hoang dã (Part 3) • Chủ nghĩa cá nhân vs Tập thể (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab19} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(19)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab19} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved19 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved19 ? 'resumeSavedExam()' : 'startFullExam(19)'}">
+                            ${isSaved19 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount19}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(19)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #f59e0b;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 09):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>English Speaking & Writing Methods</h4>
-                                <h5>Phương pháp học kỹ năng Nói & Viết: Thụ đắc ngôn ngữ & Giả thuyết đầu ra</h5>
-                                <p>Các lý thuyết tiếp nhận ngôn ngữ thứ hai (SLA), vai trò của giả thuyết đầu ra (Output Hypothesis), kỹ thuật tự sửa lỗi và lộ trình xây dựng độ lưu loát học thuật.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#f59e0b;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>World History: Epochal Figures</h4>
-                                <h5>Lịch sử thế giới: Những nhân vật lịch sử & Các quyết định định hình thời đại</h5>
-                                <p>Khảo sát các bước ngoặt lịch sử nhân loại qua lăng kính của những nhà lãnh đạo và nhà tư tưởng lỗi lạc, sự tương tác giữa hoàn cảnh thời đại và ý chí cá nhân.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Ecological Preservation Dynamics</h4>
-                                <h5>Bảo tồn đa dạng sinh học & Quản trị môi trường sinh thái toàn cầu</h5>
-                                <p>Đánh giá các mô hình bảo tồn khu dự trữ sinh quyển, phục hồi hành lang di cư của động vật hoang dã và vai trò của các thỏa thuận môi trường quốc tế.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Individualism vs. Collectivism</h4>
-                                <h5>Tâm lý học xuyên văn hóa: Chủ nghĩa cá nhân đối chiếu với Chủ nghĩa tập thể</h5>
-                                <p>Phân tích khung lý thuyết chiều kích văn hóa của Geert Hofstede, sự khác biệt trong cấu trúc gia đình, động lực làm việc và phong cách giao tiếp giữa Đông và Tây.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml19}
                     </div>
                 </div>
             </div>
