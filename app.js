@@ -1550,6 +1550,7 @@ function renderPracticeView() {
     const test21 = tests.find(t => t.testNum === 21);
     const test22 = tests.find(t => t.testNum === 22);
     const test23 = tests.find(t => t.testNum === 23);
+    const test24 = tests.find(t => t.testNum === 24);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -3792,90 +3793,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 14. BỘ ĐỀ THỰC CHIẾN 14 (TEST 24) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 14. BỘ ĐỀ THỰC CHIẾN 14 (TEST 24) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite24') {
+        const savedAnsCount24 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 24) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved24 = state.savedExam && state.savedExam.testNum === 24 && savedAnsCount24 > 0;
+        const totalVocab24 = (test24 && test24.passages) ? test24.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta24 = [
+            {
+                testNum: 24,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'public_health_infectious',
+                categoryName: 'Y tế công cộng & Dịch tễ học',
+                categoryColor: '#ec4899',
+                badgeBg: '#fdf2f8',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Infectious Diseases & Public Health',
+                icon: 'fa-virus',
+                title: 'Infectious Diseases & Public Health Measures: History & Challenges',
+                titleVi: 'Bệnh truyền nhiễm & Các biện pháp y tế dự phòng: Lịch sử & Thách thức',
+                summary: 'Lịch sử từ bỏ quan niệm không khí ô uế sang thuyết mầm bệnh Pasteur-Koch, kỹ thuật cống ngầm, kiểm dịch cảng biển, kháng sinh, diệt trừ đậu mùa và thách thức siêu vi khuẩn kháng thuốc.'
+            },
+            {
+                testNum: 24,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'transport_bicycle',
+                categoryName: 'Lịch sử công nghệ & Giao thông đô thị',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: History & Societal Evolution of the Bicycle',
+                icon: 'fa-bicycle',
+                title: 'History & Societal Evolution of the Bicycle: From Novelty to Transit',
+                titleVi: 'Lịch sử & Sự tiến hóa xã hội của xe đạp: Từ thú vui quý tộc đến giao thông xanh',
+                summary: 'Sự tiến hóa từ Draisine thô sơ, xe penny-farthing nguy hiểm tới xe đạp an toàn Starley, phong trào trang phục hợp lý giải phóng phụ nữ của Susan B. Anthony và làn sóng giao thông sinh thái thế kỷ 21.'
+            },
+            {
+                testNum: 24,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'architecture_ecology',
+                categoryName: 'Kiến trúc đô thị & Bảo tồn sinh thái',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Bird Collisions with Glass Facades',
+                icon: 'fa-building',
+                title: 'Urban Architecture: Bird Collisions with Glass Facades & Safe Design',
+                titleVi: 'Kiến trúc đô thị: Nguy cơ chim va chạm tòa nhà kính & Thiết kế an toàn',
+                summary: 'Hàng trăm triệu cá thể chim tử nạn do kính phản chiếu bóng cây và ánh sáng ban đêm, bẫy tử thần hẻm cao ốc và các giải pháp quy tắc 2x4, kính hoa văn tia cực tím (UV) cùng chương trình Tắt Đèn.'
+            },
+            {
+                testNum: 24,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'chronobiology_sleep',
+                categoryName: 'Sinh học thời gian & Khoa học thần kinh',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Circadian Sleep Cycles & Glymphatic Clearance',
+                icon: 'fa-moon',
+                title: 'Chronobiology: Circadian Sleep Cycles & Neural Glymphatic Clearance',
+                titleVi: 'Sinh học thời gian: Chu kỳ giấc ngủ Circadian & Hệ thống thải độc Glymphatic',
+                summary: 'Mô hình Process C & S, sóng chậm delta NREM tiết hormone HGH, kênh AQP4 mở rộng 60% khoang gian bào xả sạch protein amyloid-beta và tau, cùng hệ lụy teo vỏ não khi mất ngủ mãn tính.'
+            }
+        ];
+
+        let pCardsHtml24 = '';
+        passagesMeta24.forEach(meta => {
+            const pData = (test24 && test24.passages) ? test24.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml24 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-24">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-14" id="suite-box-24">
+                <div class="practice-suite-header suite-header-14">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(236, 72, 153, 0.25); color: #f472b6; border-color: rgba(236, 72, 153, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 14 (TEST 24) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #f472b6;"></i> BỘ ĐỀ THỰC CHIẾN 14 (TEST 24) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 14 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Bệnh truyền nhiễm (Part 1) • Lịch sử chiếc xe đạp (Part 2) • Chim va chạm tòa nhà kính (Part 3) • Khoa học giấc ngủ & Chu kỳ ngủ (Part 4)
+                            <strong>4 Topics:</strong> Bệnh truyền nhiễm & Y tế (Part 1) • Lịch sử & Xã hội của xe đạp (Part 2) • Chim va chạm tòa nhà kính (Part 3) • Sinh học giấc ngủ & Thải độc não (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab24} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(24)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab24} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved24 ? 'background: linear-gradient(135deg, #be185d, #ec4899) !important;' : ''}" onclick="${isSaved24 ? 'resumeSavedExam()' : 'startFullExam(24)'}">
+                            ${isSaved24 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount24}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(24)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #ec4899;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 14):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Medical Science: Infectious Diseases</h4>
-                                <h5>Khoa học y tế: Cơ chế lây truyền & Khống chế bệnh truyền nhiễm</h5>
-                                <p>Lịch sử dịch tễ học, sự bùng phát của mầm bệnh virus và vi khuẩn, cùng các phác đồ tiêm chủng và biện pháp kiểm dịch y tế cộng đồng.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ec4899;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Invention & History of the Bicycle</h4>
-                                <h5>Lịch sử chiếc xe đạp: Từ cỗ máy chạy bộ gỗ đến biểu tượng giao thông xanh</h5>
-                                <p>Sự ra đời của chiếc Draisine thế kỷ 19, thời kỳ Penny-farthing bánh lớn, cuộc cách mạng giải phóng phụ nữ và vai trò trong giao thông đô thị hiện đại.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Avian Collisions with Glass Buildings</h4>
-                                <h5>Loài chim bị ảnh hưởng bởi ánh sáng nhân tạo & Tòa nhà kính cao tầng</h5>
-                                <p>Nghiên cứu thị giác của loài chim di cư ban đêm, hiện tượng bẫy ánh sáng đô thị và các sáng kiến kiến trúc kính hoa văn an toàn cho chim (bird-friendly glass).</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Science of Human Sleep & Cycles</h4>
-                                <h5>Khoa học giấc ngủ con người: Cấu trúc chu kỳ ngủ & Chức năng hồi phục</h5>
-                                <p>Sự luân chuyển giữa các giai đoạn ngủ sóng chậm (NREM) và ngủ mắt chuyển động nhanh (REM), cơ chế dọn dẹp độc tố não bộ và củng cố trí nhớ.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml24}
                     </div>
                 </div>
             </div>

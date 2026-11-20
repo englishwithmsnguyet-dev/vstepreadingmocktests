@@ -56180,6 +56180,2845 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST24",
+    "testNum": 24,
+    "title": "VSTEP READING MOCK TEST 24",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 14 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Infectious Diseases & Public Health Measures",
+        "topic": "Bệnh truyền nhiễm & Các biện pháp y tế dự phòng: Lịch sử dịch tễ, vệ sinh dịch tễ, cách ly kiểm dịch & vắc-xin bảo vệ cộng đồng",
+        "timeAllowed": 15,
+        "passage": "<p>Throughout human history, infectious diseases have posed one of the most persistent threats to human survival and societal stability. Epidemics of cholera, smallpox, and tuberculosis periodically devastated ancient and medieval civilizations, decimating populations and collapsing regional economies. Before the advent of modern germ theory in the late nineteenth century, illnesses were widely attributed to foul air or supernatural retribution. The groundbreaking discoveries of pioneering scientists like Louis Pasteur and Robert Koch fundamentally dismantled these misconceptions, proving that microscopic pathogens—primarily bacteria, viruses, and parasites—were the true agents of contagious illness.</p><p>In response to these microbiological revelations, municipal authorities worldwide began institutionalizing comprehensive public health frameworks. The earliest and most transformative intervention was sanitary engineering. Constructing subterranean sewage systems and purifying municipal water supplies eradicated waterborne scourges that had plagued urban centers for centuries. Simultaneously, the establishment of standardized quarantine protocols at maritime ports prevented virulent pathogens from infiltrating domestic borders during international commercial trade. Simple personal hygiene practices, notably regular handwashing with soap and proper food preservation, further suppressed microbial transmission rates.</p><p>In the twentieth century, biomedical advancements revolutionized infectious disease control through antimicrobial pharmaceuticals and universal immunization campaigns. The discovery of penicillin and synthetic antibiotics transformed previously fatal bacterial infections into easily treatable conditions. Concurrently, mass vaccination programs cultivated widespread herd immunity, creating immunological shields that protected vulnerable individuals who could not be vaccinated themselves. The historic global eradication of smallpox in 1980 stands as a triumphant testament to the power of coordinated international healthcare cooperation.</p><p>Despite these historic triumphs, modern public health systems confront evolving epidemiological hazards. Rapid globalization, international air travel, and encroaching urbanization into wildlife habitats have accelerated the emergence of zoonotic pathogens capable of triggering global pandemics. Furthermore, the reckless overprescription of antibiotics in clinical medicine and agriculture has fueled the alarming proliferation of drug-resistant 'superbugs.' Combating these contemporary threats requires sustained investment in genomic pathogen surveillance, equitable global vaccine distribution, and resilient healthcare infrastructure prepared for future outbreaks.</p>",
+        "vocab": [
+          {
+            "word": "persistent",
+            "pos": "adj",
+            "ipa": "/pəˈsɪs.tənt/",
+            "level": "B2",
+            "mean": "dai dẳng, liên tục không ngừng nghỉ",
+            "syns": [
+              "constant",
+              "relentless",
+              "enduring"
+            ],
+            "ex": "Infectious illnesses remain a persistent challenge for global healthcare networks."
+          },
+          {
+            "word": "epidemic",
+            "pos": "n",
+            "ipa": "/ˌep.ɪˈdem.ɪk/",
+            "level": "B2",
+            "mean": "dịch bệnh bùng phát trên diện rộng",
+            "syns": [
+              "outbreak",
+              "plague",
+              "contagion"
+            ],
+            "ex": "The cholera epidemic spread rapidly through contaminated municipal wells."
+          },
+          {
+            "word": "decimate",
+            "pos": "v",
+            "ipa": "/ˈdes.ɪ.meɪt/",
+            "level": "B2",
+            "mean": "tàn sát, hủy diệt phần lớn số lượng",
+            "syns": [
+              "devastate",
+              "destroy",
+              "wipe out"
+            ],
+            "ex": "Smallpox decimated indigenous communities lacking biological immunity."
+          },
+          {
+            "word": "advent",
+            "pos": "n",
+            "ipa": "/ˈæd.vent/",
+            "level": "B2",
+            "mean": "sự ra đời, sự xuất hiện của một phát minh hoặc kỷ nguyên mới",
+            "syns": [
+              "arrival",
+              "emergence",
+              "inception"
+            ],
+            "ex": "The advent of antibiotics drastically lowered infant mortality rates."
+          },
+          {
+            "word": "retribution",
+            "pos": "n",
+            "ipa": "/ˌret.rɪˈbjuː.ʃən/",
+            "level": "B2",
+            "mean": "sự trừng phạt, quả báo thích đáng",
+            "syns": [
+              "punishment",
+              "vengeance",
+              "retaliation"
+            ],
+            "ex": "Ancient societies viewed devastating plagues as supernatural retribution."
+          },
+          {
+            "word": "pioneering",
+            "pos": "adj",
+            "ipa": "/ˌpaɪəˈnɪə.rɪŋ/",
+            "level": "B2",
+            "mean": "tiên phong, đi đầu khai phá lĩnh vực mới",
+            "syns": [
+              "groundbreaking",
+              "trailblazing",
+              "innovative"
+            ],
+            "ex": "Louis Pasteur conducted pioneering research on microscopic fermentation."
+          },
+          {
+            "word": "dismantle",
+            "pos": "v",
+            "ipa": "/dɪsˈmæn.təl/",
+            "level": "B2",
+            "mean": "tháo dỡ, triệt tiêu, đập tan định kiến hoặc rào cản",
+            "syns": [
+              "demolish",
+              "disassemble",
+              "overturn"
+            ],
+            "ex": "Empirical evidence helped dismantle superstitious beliefs about disease transmission."
+          },
+          {
+            "word": "microscopic",
+            "pos": "adj",
+            "ipa": "/ˌmaɪ.krəˈskɒp.ɪk/",
+            "level": "B2",
+            "mean": "cực nhỏ, chỉ có thể nhìn thấy qua kính hiển vi",
+            "syns": [
+              "minute",
+              "infinitesimal",
+              "tiny"
+            ],
+            "ex": "Microscopic bacteria can multiply exponentially within hours."
+          },
+          {
+            "word": "pathogen",
+            "pos": "n",
+            "ipa": "/ˈpæθ.ə.dʒən/",
+            "level": "B2",
+            "mean": "mầm bệnh, vi sinh vật gây bệnh",
+            "syns": [
+              "infectious agent",
+              "germ",
+              "microbe"
+            ],
+            "ex": "Scientists isolated the airborne pathogen responsible for the respiratory infection."
+          },
+          {
+            "word": "contagious",
+            "pos": "adj",
+            "ipa": "/kənˈteɪ.dʒəs/",
+            "level": "B2",
+            "mean": "có tính lây nhiễm qua tiếp xúc",
+            "syns": [
+              "infectious",
+              "transmissible",
+              "communicable"
+            ],
+            "ex": "Measles is an extraordinarily contagious virus that requires high vaccination rates."
+          },
+          {
+            "word": "revelation",
+            "pos": "n",
+            "ipa": "/ˌrev.əˈleɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự khám phá bất ngờ, sự hé lộ chân lý mới",
+            "syns": [
+              "discovery",
+              "disclosure",
+              "breakthrough"
+            ],
+            "ex": "The revelation that germs caused infection transformed hospital sterilization standards."
+          },
+          {
+            "word": "institutionalize",
+            "pos": "v",
+            "ipa": "/ˌɪn.stɪˈtjuː.ʃən.əl.aɪz/",
+            "level": "B2",
+            "mean": "thể chế hóa, biến thành luật lệ hoặc quy chuẩn chính thức",
+            "syns": [
+              "formalize",
+              "codify",
+              "establish"
+            ],
+            "ex": "Governments moved quickly to institutionalize mandatory disease reporting."
+          },
+          {
+            "word": "subterranean",
+            "pos": "adj",
+            "ipa": "/ˌsʌb.təˈreɪ.ni.ən/",
+            "level": "B2",
+            "mean": "nằm dưới lòng đất",
+            "syns": [
+              "underground",
+              "subsurface",
+              "buried"
+            ],
+            "ex": "Victorian London invested heavily in subterranean sewage brick tunnels."
+          },
+          {
+            "word": "scourge",
+            "pos": "n",
+            "ipa": "/skɜːdʒ/",
+            "level": "B2",
+            "mean": "tai ương, đại nạn gây đau thương diện rộng",
+            "syns": [
+              "affliction",
+              "curse",
+              "bane"
+            ],
+            "ex": "Polio was once a dreaded scourge that paralyzed tens of thousands of children."
+          },
+          {
+            "word": "quarantine",
+            "pos": "n",
+            "ipa": "/ˈkwɒr.ən.tiːn/",
+            "level": "B2",
+            "mean": "biện pháp cách ly kiểm dịch y tế",
+            "syns": [
+              "isolation",
+              "confinement",
+              "sanitary cordon"
+            ],
+            "ex": "Ships arriving from infected ports were placed under a forty-day quarantine."
+          },
+          {
+            "word": "virulent",
+            "pos": "adj",
+            "ipa": "/ˈvɪr.jʊ.lənt/",
+            "level": "B2",
+            "mean": "có độc tính cực cao, dễ gây tử vong",
+            "syns": [
+              "lethal",
+              "toxic",
+              "deadly"
+            ],
+            "ex": "A particularly virulent strain of influenza swept across the continent."
+          },
+          {
+            "word": "hygiene",
+            "pos": "n",
+            "ipa": "/ˈhaɪ.dʒiːn/",
+            "level": "B1",
+            "mean": "vệ sinh phòng bệnh",
+            "syns": [
+              "sanitation",
+              "cleanliness",
+              "healthfulness"
+            ],
+            "ex": "Proper hand hygiene significantly reduces hospital-acquired bacterial infections."
+          },
+          {
+            "word": "antimicrobial",
+            "pos": "adj",
+            "ipa": "/ˌæn.ti.maɪˈkrəʊ.bi.əl/",
+            "level": "B2",
+            "mean": "kháng vi sinh vật gây hại",
+            "syns": [
+              "antibacterial",
+              "germ-killing",
+              "antiseptic"
+            ],
+            "ex": "Antimicrobial soaps help disinfect operating rooms before major surgery."
+          },
+          {
+            "word": "immunization",
+            "pos": "n",
+            "ipa": "/ˌɪm.jʊ.naɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự tạo miễn dịch qua tiêm chủng",
+            "syns": [
+              "vaccination",
+              "inoculation",
+              "immunizing"
+            ],
+            "ex": "Universal childhood immunization has eliminated numerous deadly diseases."
+          },
+          {
+            "word": "vulnerable",
+            "pos": "adj",
+            "ipa": "/ˈvʌl.nər.ə.bəl/",
+            "level": "B2",
+            "mean": "dễ bị tổn thương, sức đề kháng yếu",
+            "syns": [
+              "susceptible",
+              "at-risk",
+              "defenseless"
+            ],
+            "ex": "Elderly citizens and newborns are especially vulnerable to respiratory syncytial virus."
+          },
+          {
+            "word": "triumphant",
+            "pos": "adj",
+            "ipa": "/traɪˈʌm.fənt/",
+            "level": "B2",
+            "mean": "mang tính khải hoàn, thắng lợi vẻ vang",
+            "syns": [
+              "victorious",
+              "successful",
+              "conquering"
+            ],
+            "ex": "The triumphant eradication of smallpox remains a milestone of modern medicine."
+          },
+          {
+            "word": "epidemiological",
+            "pos": "adj",
+            "ipa": "/ˌep.ɪ.diː.mi.əˈlɒdʒ.ɪ.kəl/",
+            "level": "B2",
+            "mean": "thuộc về dịch tễ học và sự phân bố bệnh tật",
+            "syns": [
+              "disease-tracking",
+              "public-health-related"
+            ],
+            "ex": "Epidemiological models helped public health officials predict viral infection peaks."
+          },
+          {
+            "word": "encroaching",
+            "pos": "adj",
+            "ipa": "/ɪnˈkrəʊ.tʃɪŋ/",
+            "level": "B2",
+            "mean": "xâm lấn dần, lấn chiếm môi trường",
+            "syns": [
+              "intruding",
+              "trespassing",
+              "advancing"
+            ],
+            "ex": "Encroaching human settlements disturb virgin tropical wildlife corridors."
+          },
+          {
+            "word": "zoonotic",
+            "pos": "adj",
+            "ipa": "/ˌzəʊ.əˈnɒt.ɪk/",
+            "level": "B2",
+            "mean": "lây truyền từ động vật sang con người",
+            "syns": [
+              "animal-borne",
+              "cross-species"
+            ],
+            "ex": "Rabies and Ebola are notorious zoonotic infections with high mortality rates."
+          },
+          {
+            "word": "overprescription",
+            "pos": "n",
+            "ipa": "/ˌəʊ.və.prɪˈskrɪp.ʃən/",
+            "level": "B2",
+            "mean": "việc kê đơn thuốc quá mức cần thiết",
+            "syns": [
+              "excessive prescribing",
+              "overuse of drugs"
+            ],
+            "ex": "The overprescription of broad-spectrum antibiotics accelerates drug resistance."
+          },
+          {
+            "word": "surveillance",
+            "pos": "n",
+            "ipa": "/sɜːˈveɪ.ləns/",
+            "level": "B2",
+            "mean": "sự theo dõi và giám sát liên tục",
+            "syns": [
+              "monitoring",
+              "observation",
+              "vigilance"
+            ],
+            "ex": "Global genomic surveillance identifies emerging viral mutations within days."
+          },
+          {
+            "word": "equitable",
+            "pos": "adj",
+            "ipa": "/ˈek.wɪ.tə.bəl/",
+            "level": "B2",
+            "mean": "công bằng, bình đẳng và hợp lý",
+            "syns": [
+              "fair",
+              "just",
+              "impartial"
+            ],
+            "ex": "Ensuring equitable access to life-saving medicines is a moral obligation."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t24_q1",
+            "num": 1,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The economic costs of building subterranean water pipes in Victorian London",
+              "The historical development and contemporary challenges of infectious disease control and public health",
+              "The biological manufacturing process of synthetic penicillin in pharmaceutical laboratories",
+              "The diplomatic negotiations between the World Health Organization and maritime shipping companies"
+            ],
+            "optionsVi": [
+              "Chi phí kinh tế của việc xây dựng hệ thống ống nước ngầm tại London thời Victoria",
+              "Sự phát triển lịch sử và các thách thức đương đại của kiểm soát bệnh truyền nhiễm và y tế công cộng",
+              "Quy trình sản xuất sinh học của penicillin tổng hợp trong phòng thí nghiệm dược phẩm",
+              "Các cuộc đàm phán ngoại giao giữa Tổ chức Y tế Thế giới và các công ty vận tải biển"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Entire passage traces the history from ancient epidemics and germ theory to sanitary engineering, antibiotics, vaccines, and modern threats like zoonotic diseases and superbugs.",
+            "evidenceVi": "Toàn bài dõi theo lịch sử từ dịch bệnh thời cổ đại, thuyết mầm bệnh tới kỹ thuật vệ sinh, kháng sinh, vắc-xin và các thách thức mới như bệnh lây từ động vật và siêu vi khuẩn.",
+            "explanation": "Đoạn văn khái quát tiến trình lịch sử và các biện pháp y tế công cộng chống bệnh truyền nhiễm cùng các thách thức y tế hiện đại.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "Throughout human history, infectious diseases have posed one of the most persistent threats... public health systems confront evolving epidemiological hazards.",
+              "clueAnswer": "The historical development and contemporary challenges of infectious disease control and public health",
+              "keyPassage": "infectious diseases have posed one of the most persistent threats... public health frameworks... modern public health systems confront evolving epidemiological hazards",
+              "keyAnswer": "historical development and contemporary challenges of infectious disease control and public health",
+              "paraphrasePair": "infectious diseases / public health frameworks / modern hazards <=> historical development and contemporary challenges of infectious disease control",
+              "meaningVi": "lịch sử kiểm soát bệnh truyền nhiễm và các thách thức y tế công cộng hiện đại",
+              "deductionLogic": "Tổng hợp luận điểm từ đoạn 1 đến đoạn 4."
+            }
+          },
+          {
+            "id": "t24_q2",
+            "num": 2,
+            "question": "According to paragraph 1, what was the widespread belief about the cause of illnesses prior to the late nineteenth century?",
+            "questionVi": "Theo đoạn 1, niềm tin phổ biến về nguyên nhân gây bệnh trước cuối thế kỷ 19 là gì?",
+            "questionType": "detail",
+            "options": [
+              "They were caused by genetic chromosomal duplications inherited from parents",
+              "They were attributed to foul air or supernatural retribution",
+              "They were recognized as microscopic fungal and bacterial infections",
+              "They were caused by electromagnetic radiation emitted by lightning storms"
+            ],
+            "optionsVi": [
+              "Chúng do sự trùng lặp nhiễm sắc thể di truyền từ cha mẹ",
+              "Chúng được quy cho không khí độc hoặc sự trừng phạt siêu nhiên",
+              "Chúng được nhận diện là các nhiễm trùng nấm và vi khuẩn siêu vi",
+              "Chúng do bức xạ điện từ phát ra từ các cơn bão sấm sét"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Before the advent of modern germ theory in the late nineteenth century, illnesses were widely attributed to foul air or supernatural retribution.",
+            "evidenceVi": "Trước khi thuyết mầm bệnh hiện đại ra đời vào cuối thế kỷ 19, bệnh tật thường được quy cho không khí ô uế hoặc sự trừng phạt của thế lực siêu nhiên.",
+            "explanation": "Đoạn 1 nêu rõ trước khi có thuyết mầm bệnh, người ta tin bệnh do 'foul air or supernatural retribution'.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết lịch sử (Historical Detail)",
+              "cluePassage": "illnesses were widely attributed to foul air or supernatural retribution",
+              "clueAnswer": "attributed to foul air or supernatural retribution",
+              "keyPassage": "attributed to foul air or supernatural retribution",
+              "keyAnswer": "attributed to foul air or supernatural retribution",
+              "paraphrasePair": "widely attributed to foul air or supernatural retribution <=> attributed to foul air or supernatural retribution",
+              "meaningVi": "quy cho không khí ô uế hoặc sự trừng phạt siêu nhiên",
+              "deductionLogic": "Khớp câu 3 đoạn 1."
+            }
+          },
+          {
+            "id": "t24_q3",
+            "num": 3,
+            "question": "The word 'dismantle' in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ 'dismantle' trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "reinforce",
+              "overturn",
+              "propagate",
+              "conceal"
+            ],
+            "optionsVi": [
+              "củng cố gia cố",
+              "lật ngược / đập tan",
+              "tuyên truyền lan truyền",
+              "che giấu giấu kín"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The groundbreaking discoveries of pioneering scientists like Louis Pasteur and Robert Koch fundamentally dismantled these misconceptions...",
+            "evidenceVi": "Những khám phá đột phá của các nhà khoa học tiên phong như Louis Pasteur và Robert Koch đã căn bản đập tan những quan niệm sai lầm này...",
+            "explanation": "'Dismantle' nghĩa là dỡ bỏ, đánh đổ, đập tan định kiến, đồng nghĩa với 'overturn' hoặc 'demolish'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "fundamentally dismantled these misconceptions",
+              "clueAnswer": "overturn",
+              "keyPassage": "dismantled these misconceptions",
+              "keyAnswer": "overturn",
+              "paraphrasePair": "dismantled <=> overturn",
+              "meaningVi": "lật đổ, đập tan quan niệm sai lầm",
+              "deductionLogic": "Khám phá khoa học giúp đập tan (dismantled) quan niệm sai lầm cũ, tương đương overturn."
+            }
+          },
+          {
+            "id": "t24_q4",
+            "num": 4,
+            "question": "According to paragraph 2, what was the earliest and most transformative public health intervention?",
+            "questionVi": "Theo đoạn 2, can thiệp y tế công cộng sớm nhất và mang tính biến đổi mạnh mẽ nhất là gì?",
+            "questionType": "detail",
+            "options": [
+              "Mandatory digital contact tracing using cellular smartphone applications",
+              "Sanitary engineering, including subterranean sewage and purified municipal water",
+              "Distributing synthetic vitamin tablets to rural schoolchildren",
+              "The nationwide closure of all public recreational parks and beaches"
+            ],
+            "optionsVi": [
+              "Truy vết tiếp xúc kỹ thuật số bắt buộc bằng ứng dụng điện thoại thông minh",
+              "Kỹ thuật vệ sinh môi trường, bao gồm cống rãnh ngầm và nước máy đô thị được tinh lọc",
+              "Phát viên vitamin tổng hợp cho học sinh nông thôn",
+              "Đóng cửa toàn quốc tất cả các công viên giải trí và bãi biển công cộng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The earliest and most transformative intervention was sanitary engineering. Constructing subterranean sewage systems and purifying municipal water supplies eradicated waterborne scourges that had plagued urban centers for centuries.",
+            "evidenceVi": "Can thiệp sớm nhất và có tính biến đổi sâu sắc nhất là kỹ thuật vệ sinh. Xây dựng các hệ thống cống ngầm dưới lòng đất và thanh lọc nguồn cung cấp nước đô thị đã xóa sổ các đại nạn lây qua đường nước...",
+            "explanation": "Đoạn 2 nêu rõ can thiệp đầu tiên và mạnh mẽ nhất là 'sanitary engineering' qua cống ngầm và lọc nước đô thị.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết y tế công cộng (Public Health Detail)",
+              "cluePassage": "The earliest and most transformative intervention was sanitary engineering. Constructing subterranean sewage systems and purifying municipal water supplies",
+              "clueAnswer": "Sanitary engineering, including subterranean sewage and purified municipal water",
+              "keyPassage": "sanitary engineering. Constructing subterranean sewage systems and purifying municipal water supplies",
+              "keyAnswer": "Sanitary engineering, including subterranean sewage and purified municipal water",
+              "paraphrasePair": "sanitary engineering / subterranean sewage / purifying water <=> Sanitary engineering, including subterranean sewage and purified municipal water",
+              "meaningVi": "kỹ thuật vệ sinh qua cống ngầm và lọc nước máy",
+              "deductionLogic": "Khớp câu 2-3 đoạn 2."
+            }
+          },
+          {
+            "id": "t24_q5",
+            "num": 5,
+            "question": "The word 'scourge' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'scourge' trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "blessing",
+              "affliction",
+              "miracle",
+              "stimulus"
+            ],
+            "optionsVi": [
+              "phước lành",
+              "tai ương / nỗi thống khổ lớn",
+              "phép màu kỳ diệu",
+              "chất kích thích động lực"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...eradicated waterborne scourges that had plagued urban centers for centuries.",
+            "evidenceVi": "...đã xóa bỏ những đại nạn lây qua đường nước từng hoành hành các trung tâm đô thị trong nhiều thế kỷ.",
+            "explanation": "'Scourge' nghĩa là tai họa, tai ương, sự khổ ải gây đau đớn tột cùng, đồng nghĩa với 'affliction' hoặc 'plague'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "eradicated waterborne scourges that had plagued urban centers",
+              "clueAnswer": "affliction",
+              "keyPassage": "waterborne scourges that had plagued urban centers",
+              "keyAnswer": "affliction",
+              "paraphrasePair": "scourge <=> affliction",
+              "meaningVi": "tai họa, nỗi thống khổ",
+              "deductionLogic": "Bệnh dịch hoành hành đô thị được gọi là scourge, đồng nghĩa với affliction."
+            }
+          },
+          {
+            "id": "t24_q6",
+            "num": 6,
+            "question": "According to paragraph 2, how did maritime ports prevent virulent pathogens from entering domestic borders?",
+            "questionVi": "Theo đoạn 2, các cảng biển đã ngăn chặn mầm bệnh nguy hiểm xâm nhập biên giới nội địa như thế nào?",
+            "questionType": "detail",
+            "options": [
+              "By burning all commercial cargo ships at sea before docking",
+              "By establishing standardized quarantine protocols for arriving vessels",
+              "By completely prohibiting all maritime international trade indefinitely",
+              "By filling harbor waters with toxic chemical disinfectants"
+            ],
+            "optionsVi": [
+              "Bằng cách đốt cháy toàn bộ tàu chở hàng thương mại trên biển trước khi cập cảng",
+              "Bằng cách thiết lập các quy trình cách ly kiểm dịch chuẩn hóa cho tàu cập bến",
+              "Bằng cách cấm hoàn toàn mọi hoạt động thương mại hàng hải quốc tế vô thời hạn",
+              "Bằng cách đổ hóa chất khử trùng độc hại vào nước vịnh cảng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...the establishment of standardized quarantine protocols at maritime ports prevented virulent pathogens from infiltrating domestic borders during international commercial trade.",
+            "evidenceVi": "...việc thiết lập các quy trình cách ly kiểm dịch tiêu chuẩn tại các cảng biển đã ngăn ngừa các mầm bệnh nguy hiểm xâm nhập vào biên giới quốc gia...",
+            "explanation": "Đoạn 2 nêu rõ biện pháp là thiết lập quy trình kiểm dịch (standardized quarantine protocols) tại các cảng biển.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết kiểm dịch (Quarantine Detail)",
+              "cluePassage": "establishment of standardized quarantine protocols at maritime ports prevented virulent pathogens from infiltrating domestic borders",
+              "clueAnswer": "establishing standardized quarantine protocols for arriving vessels",
+              "keyPassage": "standardized quarantine protocols at maritime ports prevented virulent pathogens",
+              "keyAnswer": "establishing standardized quarantine protocols for arriving vessels",
+              "paraphrasePair": "standardized quarantine protocols at maritime ports <=> establishing standardized quarantine protocols for arriving vessels",
+              "meaningVi": "thiết lập quy trình kiểm dịch tại các cảng biển",
+              "deductionLogic": "Khớp câu 4 đoạn 2."
+            }
+          },
+          {
+            "id": "t24_q7",
+            "num": 7,
+            "question": "What historic healthcare milestone in 1980 is celebrated in paragraph 3?",
+            "questionVi": "Cột mốc lịch sử y tế nào vào năm 1980 được ca ngợi trong đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "The worldwide eradication of smallpox through coordinated international vaccination",
+              "The synthesis of the first artificial human heart in Switzerland",
+              "The complete elimination of all seasonal influenza viruses globally",
+              "The replacement of all medical doctors with computerized diagnostic machines"
+            ],
+            "optionsVi": [
+              "Sự xóa sổ bệnh đậu mùa trên toàn thế giới thông qua tiêm chủng quốc tế phối hợp",
+              "Sự tổng hợp quả tim nhân tạo đầu tiên của con người tại Thụy Sĩ",
+              "Sự loại bỏ hoàn toàn tất cả các virus cúm mùa trên toàn cầu",
+              "Sự thay thế toàn bộ bác sĩ y khoa bằng máy chẩn đoán điện toán"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The historic global eradication of smallpox in 1980 stands as a triumphant testament to the power of coordinated international healthcare cooperation.",
+            "evidenceVi": "Việc xóa sổ bệnh đậu mùa trên toàn cầu mang tính lịch sử vào năm 1980 là minh chứng khải hoàn cho sức mạnh của sự hợp tác y tế quốc tế có phối hợp.",
+            "explanation": "Đoạn 3 chỉ rõ năm 1980 là năm nhân loại xóa sổ thành công bệnh đậu mùa (eradication of smallpox).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết sự kiện (Historical Milestone Detail)",
+              "cluePassage": "historic global eradication of smallpox in 1980 stands as a triumphant testament to the power of coordinated international healthcare cooperation",
+              "clueAnswer": "The worldwide eradication of smallpox through coordinated international vaccination",
+              "keyPassage": "global eradication of smallpox in 1980... coordinated international healthcare cooperation",
+              "keyAnswer": "worldwide eradication of smallpox through coordinated international vaccination",
+              "paraphrasePair": "global eradication of smallpox <=> worldwide eradication of smallpox",
+              "meaningVi": "xóa sổ bệnh đậu mùa trên toàn thế giới",
+              "deductionLogic": "Khớp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": "t24_q8",
+            "num": 8,
+            "question": "The word 'themselves' in paragraph 3 refers to:",
+            "questionVi": "Từ 'themselves' trong đoạn 3 ám chỉ đối tượng nào:",
+            "questionType": "reference",
+            "options": [
+              "Antimicrobial pharmaceuticals",
+              "Vulnerable individuals who could not receive vaccines",
+              "Maritime port inspectors",
+              "Synthetic penicillin capsules"
+            ],
+            "optionsVi": [
+              "Các loại dược phẩm kháng khuẩn",
+              "Những cá nhân dễ bị tổn thương không thể tiêm vắc-xin",
+              "Các thanh tra cảng biển hàng hải",
+              "Các viên nang penicillin tổng hợp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...creating immunological shields that protected vulnerable individuals who could not be vaccinated themselves.",
+            "evidenceVi": "...tạo ra những lá chắn miễn dịch bảo vệ những cá nhân dễ bị tổn thương, những người tự bản thân họ không thể tiêm phòng được.",
+            "explanation": "'Themselves' là đại từ phản thân nhấn mạnh đối tượng 'vulnerable individuals who could not be vaccinated'.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ phản thân quy chiếu (Reflexive Pronoun)",
+              "cluePassage": "protected vulnerable individuals who could not be vaccinated themselves",
+              "clueAnswer": "Vulnerable individuals who could not receive vaccines",
+              "keyPassage": "vulnerable individuals who could not be vaccinated themselves",
+              "keyAnswer": "Vulnerable individuals who could not receive vaccines",
+              "paraphrasePair": "vulnerable individuals who could not be vaccinated <=> Vulnerable individuals who could not receive vaccines",
+              "meaningVi": "những cá nhân có sức khỏe yếu không thể tiêm phòng",
+              "deductionLogic": "Đại từ 'themselves' phản chiếu trực tiếp cho 'vulnerable individuals'."
+            }
+          },
+          {
+            "id": "t24_q9",
+            "num": 9,
+            "question": "According to paragraph 4, which of the following is NOT mentioned as a contemporary threat to public health?",
+            "questionVi": "Theo đoạn 4, điều nào sau đây KHÔNG được đề cập như một mối đe dọa đương đại đối với y tế công cộng?",
+            "questionType": "negative_detail",
+            "options": [
+              "Rapid emergence of zoonotic pathogens due to urbanization into wildlife habitats",
+              "The proliferation of drug-resistant 'superbugs' caused by antibiotic overprescription",
+              "Global pandemics facilitated by international air travel and globalization",
+              "Extensive contamination of drinking water by extraterrestrial cosmic rays"
+            ],
+            "optionsVi": [
+              "Sự xuất hiện nhanh chóng của mầm bệnh lây từ động vật do đô thị hóa lấn chiếm môi trường hoang dã",
+              "Sự sinh sôi của 'siêu vi khuẩn' kháng thuốc do lạm dụng kê đơn kháng sinh quá mức",
+              "Các đại dịch toàn cầu bùng phát do du lịch hàng không quốc tế và toàn cầu hóa",
+              "Nhiễm bẩn diện rộng nguồn nước uống bởi tia vũ trụ ngoài trái đất"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 lists: 'zoonotic pathogens' (A), 'drug-resistant superbugs' (B), and 'globalization and international air travel triggering pandemics' (C). Extraterrestrial cosmic rays is completely fabricated.",
+            "evidenceVi": "Đoạn 4 nêu: mầm bệnh lây từ động vật (A), siêu vi khuẩn kháng thuốc (B), toàn cầu hóa và du lịch hàng không gây đại dịch (C). Tia vũ trụ ngoài trái đất là chi tiết hoàn toàn bịa đặt.",
+            "explanation": "Phương án D là thông tin hư cấu không hề xuất hiện trong bài đọc.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Fact Check)",
+              "cluePassage": "emergence of zoonotic pathogens... overprescription of antibiotics has fueled... drug-resistant superbugs... international air travel",
+              "clueAnswer": "Extensive contamination of drinking water by extraterrestrial cosmic rays",
+              "keyPassage": "zoonotic pathogens... drug-resistant superbugs... globalization, international air travel",
+              "keyAnswer": "extraterrestrial cosmic rays (NOT mentioned)",
+              "paraphrasePair": "zoonotic / superbugs / air travel vs extraterrestrial cosmic rays",
+              "meaningVi": "các mối nguy hiểm có thật trong bài so với chi tiết vô căn cứ",
+              "deductionLogic": "Phương án D hoàn toàn không có trong đoạn 4."
+            }
+          },
+          {
+            "id": "t24_q10",
+            "num": 10,
+            "question": "What does the author state is necessary to combat contemporary infectious disease threats in the final sentence?",
+            "questionVi": "Tác giả khẳng định điều gì là cần thiết để đối phó với các mối đe dọa bệnh truyền nhiễm đương đại ở câu cuối cùng?",
+            "questionType": "inference",
+            "options": [
+              "Banning all international travel permanently and closing all borders forever",
+              "Sustained investment in genomic pathogen surveillance, equitable vaccine distribution, and resilient healthcare infrastructure",
+              "Replacing all synthetic chemical medicines with ancient botanical folklore remedies",
+              "Ceasing all medical scientific research and relying solely on natural herd immunity"
+            ],
+            "optionsVi": [
+              "Cấm vĩnh viễn mọi hoạt động du lịch quốc tế và đóng cửa biên giới mãi mãi",
+              "Đầu tư bền vững vào giám sát gen mầm bệnh, phân phối vắc-xin công bằng và cơ sở hạ tầng y tế kiên cường",
+              "Thay thế toàn bộ thuốc hóa học tổng hợp bằng các bài thuốc dân gian cổ đại",
+              "Dừng toàn bộ nghiên cứu khoa học y tế và chỉ dựa vào miễn dịch cộng đồng tự nhiên"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Combating these contemporary threats requires sustained investment in genomic pathogen surveillance, equitable global vaccine distribution, and resilient healthcare infrastructure prepared for future outbreaks.",
+            "evidenceVi": "Việc chống lại các mối đe dọa đương đại này đòi hỏi sự đầu tư bền vững vào giám sát bộ gen mầm bệnh, phân phối vắc-xin toàn cầu công bằng và cơ sở hạ tầng y tế kiên cường sẵn sàng cho các đợt bùng phát trong tương lai.",
+            "explanation": "Câu kết đoạn 4 chỉ rõ giải pháp: đầu tư giám sát gen mầm bệnh, chia sẻ vắc-xin công bằng và xây dựng hạ tầng y tế vững vàng.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Khuyến nghị kết luận (Author's Conclusion)",
+              "cluePassage": "requires sustained investment in genomic pathogen surveillance, equitable global vaccine distribution, and resilient healthcare infrastructure",
+              "clueAnswer": "Sustained investment in genomic pathogen surveillance, equitable vaccine distribution, and resilient healthcare infrastructure",
+              "keyPassage": "sustained investment in genomic pathogen surveillance, equitable global vaccine distribution, and resilient healthcare infrastructure",
+              "keyAnswer": "Sustained investment in genomic pathogen surveillance, equitable vaccine distribution, and resilient healthcare infrastructure",
+              "paraphrasePair": "sustained investment in genomic surveillance... resilient infrastructure <=> Sustained investment in genomic pathogen surveillance, equitable vaccine distribution, and resilient healthcare infrastructure",
+              "meaningVi": "đầu tư giám sát gen, phân phối vắc-xin công bằng và hạ tầng kiên cường",
+              "deductionLogic": "Khớp câu cuối đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: History & Societal Evolution of the Bicycle",
+        "topic": "Lịch sử & Sự tiến hóa xã hội của xe đạp: Từ thế kỷ 19 thô sơ, phương tiện giải phóng phụ nữ, đến giải pháp giao thông xanh đô thị bền vững",
+        "timeAllowed": 15,
+        "passage": "<p>Today widely celebrated as an eco-friendly mode of urban transit, the bicycle underwent a profound technological and cultural evolution before achieving its modern ubiquitous form. In 1817, German inventor Karl von Drais devised the 'Laufmaschine' (running machine), a wooden two-wheeled contraption propelled entirely by the rider's feet pushing against the ground. Lacking pedals, gears, and pneumatic tires, early prototypes offered minimal comfort and limited steering stability. By the 1870s, the emergence of the 'penny-farthing'—featuring an enormous front wheel and tiny rear stabilizer—enabled higher speeds but rendered riding extraordinarily hazardous, as sudden stops routinely propelled riders headfirst over the handlebars.</p><p>The genuine breakthrough in cycling history arrived in the late 1880s with John Kemp Starley's invention of the 'Safety Bicycle.' Featuring two wheels of equal diameter, a sturdy diamond-shaped steel frame, a chain-driven rear wheel, and John Boyd Dunlop's revolutionary air-filled pneumatic tires, this ingenious design democratized personal mobility. For the first time, cycling became safe, comfortable, and accessible to the general public across diverse age demographics and social strata. The subsequent cycling craze of the 1890s drastically reduced travel times for working-class laborers, granting them unprecedented independence from expensive horse carriages and rigid railway timetables.</p><p>Beyond facilitating daily commuting, the safety bicycle functioned as a potent catalyst for monumental social emancipation, particularly for women. In Victorian society, restrictive feminine fashion—characterized by heavy, suffocating corsets and floor-length voluminous petticoats—severely constrained female physical mobility. The desire to ride bicycles catalyzed the 'rational dress movement,' popularizing functional split skirts and loose bloomers. Prominent American suffragist Susan B. Anthony famously declared that the bicycle had 'done more to emancipate women than anything else in the world,' as it granted women independent physical mobility, fostered self-reliance, and dismantled patriarchal restrictions on female public presence.</p><p>In the twenty-first century, the bicycle is experiencing a dynamic renaissance as metropolitan cities grapple with vehicular gridlock, atmospheric smog, and escalating carbon emissions. Visionary European capitals like Copenhagen and Amsterdam have invested extensively in segregated, multi-lane cycle highways and integrated bike-sharing networks, demonstrating that prioritizing cycling drastically improves urban public health and lowers civic healthcare expenditures. Furthermore, the recent proliferation of lithium-ion electric bicycles (e-bikes) has flattened steep topographies and extended commuting ranges for elderly riders. Ultimately, the humble bicycle has transformed from an aristocratic Victorian novelty into an indispensable cornerstone of sustainable urban ecology.</p>",
+        "vocab": [
+          {
+            "word": "ubiquitous",
+            "pos": "adj",
+            "ipa": "/juːˈbɪk.wɪ.təs/",
+            "level": "B2",
+            "mean": "phổ biến khắp nơi, có mặt ở mọi chỗ",
+            "syns": [
+              "omnipresent",
+              "pervasive",
+              "universal"
+            ],
+            "ex": "Smartphones and bicycles have become ubiquitous sights in modern cities."
+          },
+          {
+            "word": "contraption",
+            "pos": "n",
+            "ipa": "/kənˈtræp.ʃən/",
+            "level": "B2",
+            "mean": "cỗ máy thô sơ, thiết bị cơ khí kỳ lạ",
+            "syns": [
+              "device",
+              "gadget",
+              "apparatus"
+            ],
+            "ex": "The wooden contraption had no chain or pedals, requiring foot propulsion."
+          },
+          {
+            "word": "propelled",
+            "pos": "adj",
+            "ipa": "/prəˈpeld/",
+            "level": "B2",
+            "mean": "được đẩy tới, thúc đẩy chuyển động về phía trước",
+            "syns": [
+              "driven",
+              "pushed",
+              "thrust"
+            ],
+            "ex": "Early bicycles were propelled solely by the rider's legs pushing the dirt road."
+          },
+          {
+            "word": "prototype",
+            "pos": "n",
+            "ipa": "/ˈprəʊ.tə.taɪp/",
+            "level": "B2",
+            "mean": "nguyên mẫu thử nghiệm ban đầu",
+            "syns": [
+              "original model",
+              "archetype",
+              "mock-up"
+            ],
+            "ex": "Engineers tested the wooden prototype for structural durability."
+          },
+          {
+            "word": "stabilizer",
+            "pos": "n",
+            "ipa": "/ˈsteɪ.bɪ.laɪ.zər/",
+            "level": "B2",
+            "mean": "bộ phận giữ thăng bằng hoặc ổn định",
+            "syns": [
+              "balancer",
+              "counterweight",
+              "steadying device"
+            ],
+            "ex": "The tiny rear wheel served merely as a stabilizer on the penny-farthing."
+          },
+          {
+            "word": "hazardous",
+            "pos": "adj",
+            "ipa": "/ˈhæz.ə.dəs/",
+            "level": "B2",
+            "mean": "nguy hiểm, đầy rủi ro",
+            "syns": [
+              "perilous",
+              "risky",
+              "dangerous"
+            ],
+            "ex": "Riding high-wheeled bicycles down cobblestone hills was extraordinarily hazardous."
+          },
+          {
+            "word": "democratize",
+            "pos": "v",
+            "ipa": "/dɪˈmɒk.rə.taɪz/",
+            "level": "B2",
+            "mean": "đại chúng hóa, mang lại cơ hội tiếp cận bình đẳng cho mọi người",
+            "syns": [
+              "popularize",
+              "make accessible",
+              "universalize"
+            ],
+            "ex": "Affordable bicycles democratized personal transit for ordinary working citizens."
+          },
+          {
+            "word": "strata",
+            "pos": "n",
+            "ipa": "/ˈstrɑː.tə/",
+            "level": "B2",
+            "mean": "các tầng lớp trong cấu trúc xã hội",
+            "syns": [
+              "classes",
+              "levels",
+              "echelons"
+            ],
+            "ex": "Cycling attracted enthusiasm across all economic strata of Victorian Britain."
+          },
+          {
+            "word": "unprecedented",
+            "pos": "adj",
+            "ipa": "/ʌnˈpres.ɪ.den.tɪd/",
+            "level": "B2",
+            "mean": "chưa từng có tiền lệ trong lịch sử",
+            "syns": [
+              "unmatched",
+              "historic",
+              "novel"
+            ],
+            "ex": "The bicycle boom created an unprecedented surge in independent personal mobility."
+          },
+          {
+            "word": "commute",
+            "pos": "v",
+            "ipa": "/kəˈmjuːt/",
+            "level": "B1",
+            "mean": "đi lại đều đặn hàng ngày giữa nhà và nơi làm việc",
+            "syns": [
+              "travel",
+              "journey",
+              "shuttle"
+            ],
+            "ex": "Thousands of factory laborers began to commute to work by bicycle."
+          },
+          {
+            "word": "catalyst",
+            "pos": "n",
+            "ipa": "/ˈkæt.əl.ɪst/",
+            "level": "B2",
+            "mean": "chất xúc tác thúc đẩy sự thay đổi mạnh mẽ",
+            "syns": [
+              "stimulus",
+              "spark",
+              "trigger"
+            ],
+            "ex": "Technological innovation served as a catalyst for sweeping societal transformations."
+          },
+          {
+            "word": "emancipation",
+            "pos": "n",
+            "ipa": "/iːˌmæn.sɪˈpeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự giải phóng, trả lại tự do và quyền bình đẳng",
+            "syns": [
+              "liberation",
+              "freedom",
+              "enfranchisement"
+            ],
+            "ex": "The bicycle played a pivotal role in the emancipation of 19th-century women."
+          },
+          {
+            "word": "corset",
+            "pos": "n",
+            "ipa": "/ˈkɔː.sɪt/",
+            "level": "B2",
+            "mean": "áo nịt ngực siết eo bó sát phụ nữ thời xưa",
+            "syns": [
+              "bodice",
+              "girdle",
+              "undergarment"
+            ],
+            "ex": "Tight corsets severely restricted breathing and upper body movement."
+          },
+          {
+            "word": "voluminous",
+            "pos": "adj",
+            "ipa": "/vəˈluː.mɪ.nəs/",
+            "level": "B2",
+            "mean": "rộng lớn, nhiều nếp vải thùng thình",
+            "syns": [
+              "bulky",
+              "capacious",
+              "ample"
+            ],
+            "ex": "Voluminous skirts easily became entangled in spinning bicycle wheel spokes."
+          },
+          {
+            "word": "suffragist",
+            "pos": "n",
+            "ipa": "/ˈsʌf.rə.dʒɪst/",
+            "level": "B2",
+            "mean": "người vận động đòi quyền bỏ phiếu cho phụ nữ",
+            "syns": [
+              "voting-rights activist",
+              "suffragette"
+            ],
+            "ex": "Suffragists organized bicycle parades to advocate for political equality."
+          },
+          {
+            "word": "patriarchal",
+            "pos": "adj",
+            "ipa": "/ˌpeɪ.triˈɑː.kəl/",
+            "level": "B2",
+            "mean": "mang tính phụ hệ, gia trưởng do nam giới chi phối",
+            "syns": [
+              "male-dominated",
+              "traditionalist",
+              "patrilineal"
+            ],
+            "ex": "Independent mobility challenged entrenched patriarchal assumptions about women's domestic roles."
+          },
+          {
+            "word": "renaissance",
+            "pos": "n",
+            "ipa": "/rəˈneɪ.səns/",
+            "level": "B2",
+            "mean": "sự phục hưng, tái sinh thời kỳ hưng thịnh mới",
+            "syns": [
+              "revival",
+              "resurgence",
+              "rebirth"
+            ],
+            "ex": "Urban cycling is experiencing a global renaissance in response to gridlock."
+          },
+          {
+            "word": "gridlock",
+            "pos": "n",
+            "ipa": "/ˈɡrɪd.lɒk/",
+            "level": "B2",
+            "mean": "tình trạng tê liệt giao thông, ùn tắc cứng đơ",
+            "syns": [
+              "traffic jam",
+              "standstill",
+              "bottleneck"
+            ],
+            "ex": "Commuters turned to bicycles to bypass endless morning highway gridlock."
+          },
+          {
+            "word": "escalating",
+            "pos": "adj",
+            "ipa": "/ˈes.kə.leɪ.tɪŋ/",
+            "level": "B2",
+            "mean": "leo thang, gia tăng nghiêm trọng",
+            "syns": [
+              "rising",
+              "intensifying",
+              "mounting"
+            ],
+            "ex": "Escalating greenhouse emissions prompted city halls to expand bike networks."
+          },
+          {
+            "word": "visionary",
+            "pos": "adj",
+            "ipa": "/ˈvɪʒ.ən.ri/",
+            "level": "B2",
+            "mean": "có tầm nhìn chiến lược xa rộng",
+            "syns": [
+              "farsighted",
+              "forward-thinking",
+              "insightful"
+            ],
+            "ex": "Visionary urban planners recognized that cars could not scale in historic centers."
+          },
+          {
+            "word": "segregated",
+            "pos": "adj",
+            "ipa": "/ˈseɡ.rɪ.ɡeɪ.tɪd/",
+            "level": "B2",
+            "mean": "được ngăn chia riêng biệt, tách biệt",
+            "syns": [
+              "separated",
+              "isolated",
+              "dedicated"
+            ],
+            "ex": "Segregated bike lanes protect cyclists from heavy bus and lorry traffic."
+          },
+          {
+            "word": "expenditure",
+            "pos": "n",
+            "ipa": "/ɪkˈspen.dɪ.tʃər/",
+            "level": "B2",
+            "mean": "chi phí, khoản tiền chi tiêu công hoặc tư",
+            "syns": [
+              "spending",
+              "outlay",
+              "cost"
+            ],
+            "ex": "Active commuting substantially reduces municipal cardiovascular healthcare expenditures."
+          },
+          {
+            "word": "topography",
+            "pos": "n",
+            "ipa": "/təˈpɒɡ.rə.fi/",
+            "level": "B2",
+            "mean": "địa hình, đặc điểm bề mặt tự nhiên của khu vực",
+            "syns": [
+              "terrain",
+              "landscape",
+              "elevation"
+            ],
+            "ex": "Hilly urban topography historically discouraged everyday cycling among seniors."
+          },
+          {
+            "word": "aristocratic",
+            "pos": "adj",
+            "ipa": "/ˌær.ɪ.stəˈkræt.ɪk/",
+            "level": "B2",
+            "mean": "thuộc về tầng lớp quý tộc, thượng lưu",
+            "syns": [
+              "noble",
+              "elite",
+              "patrician"
+            ],
+            "ex": "Early bicycles were handcrafted luxury items reserved for aristocratic hobbyists."
+          },
+          {
+            "word": "novelty",
+            "pos": "n",
+            "ipa": "/ˈnɒv.əl.ti/",
+            "level": "B2",
+            "mean": "sự mới lạ, món đồ tiêu khiển kỳ lạ",
+            "syns": [
+              "curiosity",
+              "fad",
+              "rarity"
+            ],
+            "ex": "The high-wheeler initially seemed like a passing sporting novelty."
+          },
+          {
+            "word": "cornerstone",
+            "pos": "n",
+            "ipa": "/ˈkɔː.nə.stəʊn/",
+            "level": "B2",
+            "mean": "viên đá tảng nền móng, yếu tố then chốt",
+            "syns": [
+              "foundation",
+              "keystone",
+              "pillar"
+            ],
+            "ex": "Clean public transport is the cornerstone of any sustainable city masterplan."
+          },
+          {
+            "word": "sustainable",
+            "pos": "adj",
+            "ipa": "/səˈsteɪ.nə.bəl/",
+            "level": "B2",
+            "mean": "bền vững, thân thiện với môi trường lâu dài",
+            "syns": [
+              "eco-friendly",
+              "viable",
+              "green"
+            ],
+            "ex": "Sustainable mobility policies prioritize walking, cycling, and light rail."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t24_q11",
+            "num": 11,
+            "question": "What is the primary focus of the passage?",
+            "questionVi": "Trọng tâm chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The chemistry of rubber vulcanization and pneumatic tire manufacturing",
+              "The technological evolution and profound societal impacts of the bicycle from the 19th century to today",
+              "The biographies of famous female athletes who competed in early European cycling races",
+              "The legislative debates in Victorian parliaments regarding carriage taxes"
+            ],
+            "optionsVi": [
+              "Hóa học của quá trình lưu hóa cao su và sản xuất lốp khí nén",
+              "Sự tiến hóa công nghệ và những tác động xã hội sâu sắc của xe đạp từ thế kỷ 19 tới nay",
+              "Tiểu sử của các nữ vận động viên nổi tiếng từng thi đấu trong các giải đua xe đạp châu Âu thời đầu",
+              "Các cuộc tranh luận lập pháp tại nghị viện thời Victoria liên quan đến thuế xe ngựa"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Passage covers early prototypes (von Drais, penny-farthing), the safety bicycle breakthrough, social emancipation of women, and modern 21st-century urban cycling renaissance.",
+            "evidenceVi": "Toàn bài phân tích từ nguyên mẫu ban đầu, xe đạp an toàn, giải phóng phụ nữ cho đến cuộc phục hưng giao thông xanh đô thị thế kỷ 21.",
+            "explanation": "Toàn bài tập trung vào quá trình tiến hóa công nghệ của xe đạp và những biến đổi xã hội to lớn mà nó mang lại qua các thời kỳ.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "the bicycle underwent a profound technological and cultural evolution before achieving its modern ubiquitous form... transformed from an aristocratic Victorian novelty into an indispensable cornerstone of sustainable urban ecology.",
+              "clueAnswer": "The technological evolution and profound societal impacts of the bicycle from the 19th century to today",
+              "keyPassage": "profound technological and cultural evolution... transformed from an aristocratic Victorian novelty into an indispensable cornerstone",
+              "keyAnswer": "technological evolution and profound societal impacts of the bicycle from the 19th century to today",
+              "paraphrasePair": "technological and cultural evolution <=> technological evolution and profound societal impacts",
+              "meaningVi": "sự tiến hóa công nghệ và biến đổi văn hóa xã hội",
+              "deductionLogic": "Khớp câu mở đầu và kết luận tổng thể của bài đọc."
+            }
+          },
+          {
+            "id": "t24_q12",
+            "num": 12,
+            "question": "According to paragraph 1, why was riding the 'penny-farthing' bicycle in the 1870s considered extraordinarily hazardous?",
+            "questionVi": "Theo đoạn 1, tại sao việc đi xe đạp 'penny-farthing' vào những năm 1870 lại bị coi là cực kỳ nguy hiểm?",
+            "questionType": "detail",
+            "options": [
+              "Because it lacked any steering handles and traveled exclusively backward",
+              "Because sudden stops routinely propelled riders headfirst over the handlebars from great height",
+              "Because its metal frame was charged with high-voltage electricity",
+              "Because it emitted toxic chemical smoke that poisoned the rider"
+            ],
+            "optionsVi": [
+              "Vì nó hoàn toàn không có tay lái và chỉ chạy lùi về phía sau",
+              "Vì các cú dừng đột ngột thường xuyên hất người lái cắm đầu qua ghi-đông từ độ cao lớn",
+              "Vì khung kim loại của nó bị tích điện cao thế nguy hiểm",
+              "Vì nó xả khói hóa chất độc hại làm ngộ độc người lái"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...featuring an enormous front wheel and tiny rear stabilizer—enabled higher speeds but rendered riding extraordinarily hazardous, as sudden stops routinely propelled riders headfirst over the handlebars.",
+            "evidenceVi": "...có bánh trước khổng lồ và bánh sau nhỏ xíu giữ thăng bằng—cho phép tốc độ cao hơn nhưng khiến việc đi xe cực kỳ nguy hiểm, vì những cú dừng đột ngột thường đẩy người lái cắm đầu qua tay lái.",
+            "explanation": "Đoạn 1 nêu rõ xe penny-farthing có bánh trước rất to khiến người lái dễ bị hất nhào đầu qua ghi đông khi phanh gấp.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết thiết kế lịch sử (Historical Design Detail)",
+              "cluePassage": "rendered riding extraordinarily hazardous, as sudden stops routinely propelled riders headfirst over the handlebars",
+              "clueAnswer": "sudden stops routinely propelled riders headfirst over the handlebars from great height",
+              "keyPassage": "sudden stops routinely propelled riders headfirst over the handlebars",
+              "keyAnswer": "sudden stops routinely propelled riders headfirst over the handlebars",
+              "paraphrasePair": "propelled riders headfirst over the handlebars <=> propelled riders headfirst over the handlebars",
+              "meaningVi": "hất người lái chúi đầu qua ghi-đông",
+              "deductionLogic": "Khớp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": "t24_q13",
+            "num": 13,
+            "question": "Which design features characterized the 'Safety Bicycle' invented by John Kemp Starley in the late 1880s?",
+            "questionVi": "Những đặc điểm thiết kế nào tạo nên chiếc 'Xe đạp An toàn' do John Kemp Starley phát minh vào cuối những năm 1880?",
+            "questionType": "detail",
+            "options": [
+              "A solid iron wheel three meters in height with steam engine cylinders",
+              "Two wheels of equal diameter, a diamond steel frame, chain-driven rear wheel, and pneumatic tires",
+              "A wooden unicycle frame without any seat or rubber components",
+              "Four miniature plastic wheels connected directly to electric batteries"
+            ],
+            "optionsVi": [
+              "Một bánh sắt đặc cao ba mét với xi lanh động cơ hơi nước",
+              "Hai bánh xe có đường kính bằng nhau, khung thép hình thoi, xích dẫn động bánh sau và lốp khí nén",
+              "Khung xe một bánh bằng gỗ không có yên xe hay chi tiết cao su nào",
+              "Bốn bánh xe nhựa thu nhỏ kết nối trực tiếp với ắc quy điện"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Featuring two wheels of equal diameter, a sturdy diamond-shaped steel frame, a chain-driven rear wheel, and John Boyd Dunlop's revolutionary air-filled pneumatic tires...",
+            "evidenceVi": "Sở hữu hai bánh xe có đường kính bằng nhau, khung thép hình kim cương vững chắc, bánh sau dẫn động bằng xích, và lốp khí nén bơm hơi mang tính cách mạng của John Boyd Dunlop...",
+            "explanation": "Đoạn 2 liệt kê các cải tiến cốt lõi: 2 bánh bằng nhau, khung thép hình thoi, xích tải bánh sau và lốp khí nén.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết kỹ thuật (Technical Features Detail)",
+              "cluePassage": "two wheels of equal diameter, a sturdy diamond-shaped steel frame, a chain-driven rear wheel, and John Boyd Dunlop's revolutionary air-filled pneumatic tires",
+              "clueAnswer": "Two wheels of equal diameter, a diamond steel frame, chain-driven rear wheel, and pneumatic tires",
+              "keyPassage": "two wheels of equal diameter... diamond-shaped steel frame... chain-driven rear wheel... air-filled pneumatic tires",
+              "keyAnswer": "Two wheels of equal diameter, a diamond steel frame, chain-driven rear wheel, and pneumatic tires",
+              "paraphrasePair": "diamond-shaped steel frame / chain-driven / pneumatic tires <=> diamond steel frame / chain-driven / pneumatic tires",
+              "meaningVi": "hai bánh bằng nhau, khung thép hình thoi và lốp khí nén",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t24_q14",
+            "num": 14,
+            "question": "The word 'democratized' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'democratized' trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "restricted",
+              "popularized and made accessible",
+              "prohibited legally",
+              "monopolized by royalty"
+            ],
+            "optionsVi": [
+              "hạn chế ngặt nghèo",
+              "phổ biến rộng rãi và làm cho mọi người đều tiếp cận được",
+              "nghiêm cấm về mặt pháp luật",
+              "bị giới hoàng gia độc quyền"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...this ingenious design democratized personal mobility. For the first time, cycling became safe, comfortable, and accessible to the general public...",
+            "evidenceVi": "...thiết kế tài tình này đã đại chúng hóa khả năng đi lại của cá nhân. Lần đầu tiên, việc đi xe đạp trở nên an toàn, thoải mái và tiếp cận được với đông đảo công chúng...",
+            "explanation": "'Democratized' trong ngữ cảnh công nghệ mang nghĩa đại chúng hóa, phổ cập đến mọi tầng lớp, đồng nghĩa với 'popularized and made accessible'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "democratized personal mobility. For the first time, cycling became safe, comfortable, and accessible to the general public",
+              "clueAnswer": "popularized and made accessible",
+              "keyPassage": "democratized personal mobility",
+              "keyAnswer": "popularized and made accessible",
+              "paraphrasePair": "democratized <=> popularized and made accessible",
+              "meaningVi": "đại chúng hóa, giúp mọi người tiếp cận dễ dàng",
+              "deductionLogic": "Đi liền với việc 'accessible to the general public', democratized mang nghĩa phổ cập hóa."
+            }
+          },
+          {
+            "id": "t24_q15",
+            "num": 15,
+            "question": "How did the 1890s cycling craze impact working-class laborers according to paragraph 2?",
+            "questionVi": "Cơn sốt đi xe đạp vào những năm 1890 đã tác động như thế nào đến người lao động thuộc tầng lớp bình dân theo đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "It forced them to move back to remote agrarian villages",
+              "It drastically reduced travel times and granted independence from expensive carriages and rigid train timetables",
+              "It compelled them to spend their entire life savings on bicycle licensing taxes",
+              "It caused factories to shut down due to widespread employee absenteeism"
+            ],
+            "optionsVi": [
+              "Nó buộc họ phải chuyển về sống tại các làng quê nông nghiệp xa xôi",
+              "Nó cắt giảm mạnh thời gian đi lại và đem lại sự tự chủ khỏi xe ngựa đắt đỏ cùng lịch tàu cứng nhắc",
+              "Nó buộc họ phải tiêu toàn bộ tiền tiết kiệm cả đời vào thuế cấp phép xe đạp",
+              "Nó khiến các nhà máy phải đóng cửa do nhân viên vắng mặt trên diện rộng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The subsequent cycling craze of the 1890s drastically reduced travel times for working-class laborers, granting them unprecedented independence from expensive horse carriages and rigid railway timetables.",
+            "evidenceVi": "Cơn sốt xe đạp sau đó vào những năm 1890 đã giảm mạnh thời gian di chuyển của người lao động bình dân, mang lại cho họ sự độc lập chưa từng có khỏi những cỗ xe ngựa đắt đỏ và lịch trình tàu hỏa cứng nhắc.",
+            "explanation": "Đoạn 2 nêu rõ xe đạp giúp công nhân tiết kiệm thời gian và tự do đi lại không phụ thuộc vào xe ngựa đắt tiền hay giờ chạy tàu.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết tác động xã hội (Social Impact Detail)",
+              "cluePassage": "drastically reduced travel times for working-class laborers, granting them unprecedented independence from expensive horse carriages and rigid railway timetables",
+              "clueAnswer": "drastically reduced travel times and granted independence from expensive carriages and rigid train timetables",
+              "keyPassage": "reduced travel times for working-class laborers, granting them unprecedented independence",
+              "keyAnswer": "reduced travel times and granted independence from expensive carriages and rigid train timetables",
+              "paraphrasePair": "expensive horse carriages and rigid railway timetables <=> expensive carriages and rigid train timetables",
+              "meaningVi": "thoát khỏi xe ngựa đắt đỏ và lịch tàu cứng nhắc",
+              "deductionLogic": "Khớp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": "t24_q16",
+            "num": 16,
+            "question": "According to paragraph 3, what fashion reform did the desire to ride bicycles catalyze among women?",
+            "questionVi": "Theo đoạn 3, mong muốn đi xe đạp đã tạo ra cải cách thời trang nào ở phụ nữ?",
+            "questionType": "detail",
+            "options": [
+              "The mandatory wearing of heavy metal helmets and iron boots",
+              "The 'rational dress movement,' popularizing functional split skirts and loose bloomers",
+              "The widespread adoption of tighter, multi-layered silk corsets",
+              "The banning of all female sportswear in public outdoor spaces"
+            ],
+            "optionsVi": [
+              "Yêu cầu bắt buộc đội mũ sắt nặng và đi ủng sắt",
+              "Phong trào 'trang phục hợp lý', phổ biến váy xẻ tiện dụng và quần thụng bloomers",
+              "Việc áp dụng rộng rãi áo nịt ngực bằng lụa nhiều lớp bó chặt hơn",
+              "Việc cấm toàn bộ trang phục thể thao nữ ở các không gian công cộng ngoài trời"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The desire to ride bicycles catalyzed the 'rational dress movement,' popularizing functional split skirts and loose bloomers.",
+            "evidenceVi": "Mong muốn đi xe đạp đã kích hoạt 'phong trào trang phục hợp lý', phổ biến các loại váy xẻ tiện dụng và quần thụng thoải mái (bloomers).",
+            "explanation": "Đoạn 3 chỉ rõ xe đạp đã thúc đẩy phong trào rational dress movement, thay thế corset bó sát bằng split skirts và bloomers.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết giải phóng phụ nữ (Women's Rights Detail)",
+              "cluePassage": "catalyzed the 'rational dress movement,' popularizing functional split skirts and loose bloomers",
+              "clueAnswer": "The 'rational dress movement,' popularizing functional split skirts and loose bloomers",
+              "keyPassage": "rational dress movement... split skirts and loose bloomers",
+              "keyAnswer": "rational dress movement... functional split skirts and loose bloomers",
+              "paraphrasePair": "rational dress movement <=> rational dress movement",
+              "meaningVi": "phong trào trang phục tiện dụng, hợp lý hóa",
+              "deductionLogic": "Khớp câu 3 đoạn 3."
+            }
+          },
+          {
+            "id": "t24_q17",
+            "num": 17,
+            "question": "The word 'emancipation' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'emancipation' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "subjugation",
+              "liberation",
+              "imprisonment",
+              "domestication"
+            ],
+            "optionsVi": [
+              "sự khuất phục / đàn áp",
+              "sự giải phóng / tự do hóa",
+              "sự cầm tù giam giữ",
+              "sự thuần hóa nuôi dưỡng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...the safety bicycle functioned as a potent catalyst for monumental social emancipation, particularly for women.",
+            "evidenceVi": "...chiếc xe đạp an toàn đã hoạt động như một chất xúc tác mạnh mẽ cho sự giải phóng xã hội vĩ đại, đặc biệt là đối với phụ nữ.",
+            "explanation": "'Emancipation' có nghĩa là sự giải phóng khỏi xiềng xích, trả tự do và quyền làm chủ, đồng nghĩa với 'liberation'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "monumental social emancipation, particularly for women",
+              "clueAnswer": "liberation",
+              "keyPassage": "social emancipation",
+              "keyAnswer": "liberation",
+              "paraphrasePair": "emancipation <=> liberation",
+              "meaningVi": "sự giải phóng, giải phóng quyền lợi",
+              "deductionLogic": "Đi liền với quyền tự do và độc lập của phụ nữ, emancipation tương đương liberation."
+            }
+          },
+          {
+            "id": "t24_q18",
+            "num": 18,
+            "question": "The word 'it' in paragraph 3 refers to:",
+            "questionVi": "Từ 'it' trong đoạn 3 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "The Victorian railway timetable",
+              "The bicycle",
+              "The suffocating corset",
+              "The patriarchal parliament"
+            ],
+            "optionsVi": [
+              "Lịch trình tàu hỏa thời Victoria",
+              "Chiếc xe đạp",
+              "Chiếc áo nịt ngực siết nghẹt",
+              "Nghị viện mang tính gia trưởng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Susan B. Anthony famously declared that the bicycle had 'done more to emancipate women than anything else in the world,' as it granted women independent physical mobility...",
+            "evidenceVi": "Susan B. Anthony đã tuyên bố nổi tiếng rằng chiếc xe đạp 'đã làm được nhiều điều để giải phóng phụ nữ hơn bất kỳ thứ gì khác trên thế giới', vì nó mang lại cho phụ nữ khả năng đi lại độc lập...",
+            "explanation": "'It' thay thế trực tiếp cho 'the bicycle' trong câu nói trích dẫn của Susan B. Anthony.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Đại từ quy chiếu (Pronoun Reference)",
+              "cluePassage": "the bicycle had 'done more to emancipate women than anything else in the world,' as it granted women independent physical mobility",
+              "clueAnswer": "The bicycle",
+              "keyPassage": "the bicycle had done more... as it granted women",
+              "keyAnswer": "The bicycle",
+              "paraphrasePair": "the bicycle <=> it",
+              "meaningVi": "chiếc xe đạp",
+              "deductionLogic": "Chủ ngữ của mệnh đề nguyên nhân 'as it granted' chính là the bicycle."
+            }
+          },
+          {
+            "id": "t24_q19",
+            "num": 19,
+            "question": "According to paragraph 4, which benefit of prioritizing urban cycling infrastructure is NOT mentioned?",
+            "questionVi": "Theo đoạn 4, lợi ích nào của việc ưu tiên hạ tầng xe đạp đô thị KHÔNG được đề cập?",
+            "questionType": "negative_detail",
+            "options": [
+              "Improving urban public health",
+              "Lowering civic healthcare expenditures",
+              "Mitigating traffic gridlock and reducing carbon emissions",
+              "Providing free municipal wireless internet to all cyclists"
+            ],
+            "optionsVi": [
+              "Cải thiện sức khỏe cộng đồng đô thị",
+              "Cắt giảm các khoản chi tiêu chăm sóc sức khỏe của thành phố",
+              "Giảm thiểu tình trạng tắc đường và cắt giảm khí thải carbon",
+              "Cung cấp internet không dây miễn phí của thành phố cho toàn bộ người đi xe đạp"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 lists: 'grapple with vehicular gridlock and escalating carbon emissions' (C), 'drastically improves urban public health' (A), and 'lowers civic healthcare expenditures' (B). Free Wi-Fi is completely unmentioned.",
+            "evidenceVi": "Đoạn 4 nêu: giảm tắc đường và khí thải carbon (C), cải thiện sức khỏe cộng đồng (A), hạ thấp chi phí y tế công (B). Wi-Fi miễn phí hoàn toàn không xuất hiện.",
+            "explanation": "Phương án D không hề được nhắc đến trong đoạn 4.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Detail)",
+              "cluePassage": "improves urban public health and lowers civic healthcare expenditures... vehicular gridlock, atmospheric smog, and escalating carbon emissions",
+              "clueAnswer": "Providing free municipal wireless internet to all cyclists",
+              "keyPassage": "urban public health... healthcare expenditures... vehicular gridlock and emissions",
+              "keyAnswer": "free wireless internet (NOT mentioned)",
+              "paraphrasePair": "public health / healthcare expenditures / traffic gridlock vs free municipal wireless internet",
+              "meaningVi": "các lợi ích thực tế so với chi tiết không tồn tại trong văn bản",
+              "deductionLogic": "Phương án D không xuất hiện trong bài."
+            }
+          },
+          {
+            "id": "t24_q20",
+            "num": 20,
+            "question": "What is the author's final conclusion in paragraph 4 regarding the transformation of the bicycle?",
+            "questionVi": "Kết luận cuối cùng của tác giả trong đoạn 4 về sự biến đổi của chiếc xe đạp là gì?",
+            "questionType": "inference",
+            "options": [
+              "It will soon be completely replaced by supersonic commercial passenger drones",
+              "It has transformed from an aristocratic Victorian novelty into an indispensable cornerstone of sustainable urban ecology",
+              "It should be strictly banned from European city centers to make room for automated cars",
+              "It is only useful for professional velodrome athletes and competitive sports racers"
+            ],
+            "optionsVi": [
+              "Nó sẽ sớm bị thay thế hoàn toàn bởi máy bay không người lái chở khách siêu thanh thương mại",
+              "Nó đã biến đổi từ một thú tiêu khiển mới lạ của quý tộc thời Victoria thành viên đá tảng không thể thiếu của sinh thái đô thị bền vững",
+              "Nó nên bị cấm triệt để khỏi các trung tâm thành phố châu Âu để nhường chỗ cho ô tô tự lái",
+              "Nó chỉ hữu ích cho các vận động viên đua xe lòng chảo chuyên nghiệp và thể thao thi đấu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Ultimately, the humble bicycle has transformed from an aristocratic Victorian novelty into an indispensable cornerstone of sustainable urban ecology.",
+            "evidenceVi": "Sau cùng, chiếc xe đạp khiêm nhường đã chuyển đổi từ một thú vui mới lạ của giới quý tộc thời Victoria thành một nền tảng không thể thiếu của hệ sinh thái đô thị bền vững.",
+            "explanation": "Câu cuối cùng của bài khẳng định sự chuyển mình vượt bậc của xe đạp từ đồ chơi quý tộc thành trụ cột của giao thông xanh bền vững.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Kết luận tác giả (Author's Final Synthesis)",
+              "cluePassage": "the humble bicycle has transformed from an aristocratic Victorian novelty into an indispensable cornerstone of sustainable urban ecology",
+              "clueAnswer": "transformed from an aristocratic Victorian novelty into an indispensable cornerstone of sustainable urban ecology",
+              "keyPassage": "transformed from an aristocratic Victorian novelty into an indispensable cornerstone of sustainable urban ecology",
+              "keyAnswer": "transformed from an aristocratic Victorian novelty into an indispensable cornerstone of sustainable urban ecology",
+              "paraphrasePair": "aristocratic novelty into cornerstone of sustainable ecology <=> aristocratic Victorian novelty into an indispensable cornerstone of sustainable urban ecology",
+              "meaningVi": "từ đồ chơi quý tộc trở thành nền tảng của sinh thái bền vững",
+              "deductionLogic": "Khớp trực tiếp câu kết thúc của đoạn 4."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Urban Architecture: Bird Collisions with Glass Facades",
+        "topic": "Kiến trúc đô thị: Hiện tượng chim va chạm vào kính tòa nhà chọc trời, phản chiếu ánh sáng tự nhiên và công nghệ kính hoa văn chống va chạm",
+        "timeAllowed": 15,
+        "passage": "<p>As modern metropolises experience vertical densification, contemporary architectural design has become synonymous with extensive glass curtain walls and soaring glazed skyscrapers. While sleek transparent facades maximize interior natural illumination and embody corporate prestige, they introduce a lethal hazard to global avian biodiversity. Biological research estimates that building collisions slaughter hundreds of millions of migratory and resident birds annually in North America alone, ranking among the leading anthropogenic causes of direct avian mortality. Because avian ocular physiology evolved to navigate open three-dimensional skies, birds lack the cognitive capacity to perceive transparent glass as an impassable physical barrier.</p><p>The fatal mechanism underlying bird-window collisions stems primarily from optical reflection and sheer transparency. Under daytime conditions, highly reflective exterior coatings mirror adjacent trees, vegetation, and sky with hyper-realistic fidelity. Deceived by these deceptive visual cues, birds attempt to fly through what appears to be lush foliage or unobstructed airspace at full flight velocity, suffering devastating cranial trauma upon impact. Concurrently, corner windows and glass skywalks that present an unhindered visual trajectory through the building entice birds into attempting straight flight paths, leading to fatal blunt-force decelerations.</p><p>Nocturnal illumination in urban centers exacerbates collision frequency, particularly during spring and autumn migratory seasons. The vast majority of migratory songbirds navigate at night, orienting themselves by the stars and the Earth's geomagnetism. Bright artificial skyglow disorients these nocturnal travelers, drawing them away from rural flyways into dense downtown canyons. Trapped within confusing illuminated architectural mazes, exhausted birds circle skyscrapers until they collapse from physical depletion or collide with reflective podiums at dawn while foraging for food. This phenomenon, known as the 'fatal light attraction,' disproportionately decimates vulnerable neotropical migrant populations.</p><p>To mitigate this ecological toll, conservation biologists and progressive architects are pioneering 'bird-friendly' design paradigms. Central to this movement is the application of the '2x4 rule'—visual markers spaced no more than two inches apart vertically or four inches horizontally, which deters birds from attempting to squeeze between perceived obstacles. Technological innovations include ultraviolet (UV) patterned glass, which features patterns visible to the avian visual spectrum while remaining virtually imperceptible to human eyes, and ceramic fritting that disrupts reflections. Complemented by municipal 'Lights Out' initiatives that extinguish non-essential skyscraper lighting during peak migration months, these architectural adaptations prove that urban aesthetics can harmonize with ecological preservation.</p>",
+        "vocab": [
+          {
+            "word": "densification",
+            "pos": "n",
+            "ipa": "/ˌden.sɪ.fɪˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự gia tăng mật độ xây dựng và dân cư đô thị",
+            "syns": [
+              "compact development",
+              "intensification",
+              "urban crowding"
+            ],
+            "ex": "Vertical densification transformed low-rise neighborhoods into towers of glass."
+          },
+          {
+            "word": "glazed",
+            "pos": "adj",
+            "ipa": "/ɡleɪzd/",
+            "level": "B2",
+            "mean": "được lắp kính trong suốt, có lớp phủ kính",
+            "syns": [
+              "glass-clad",
+              "vitrified",
+              "windowed"
+            ],
+            "ex": "Glazed facades reflect the surrounding sky while providing expansive views."
+          },
+          {
+            "word": "avian",
+            "pos": "adj",
+            "ipa": "/ˈeɪ.vi.ən/",
+            "level": "B2",
+            "mean": "thuộc về các loài chim",
+            "syns": [
+              "bird-related",
+              "ornithological"
+            ],
+            "ex": "Avian species migration routes cross densely populated urban areas."
+          },
+          {
+            "word": "slaughter",
+            "pos": "v",
+            "ipa": "/ˈslɔː.tər/",
+            "level": "B2",
+            "mean": "giết hại hàng loạt, gây tổn thất sinh mạng lớn",
+            "syns": [
+              "kill",
+              "massacre",
+              "decimate"
+            ],
+            "ex": "Reflective glass towers slaughter millions of songbirds each migration cycle."
+          },
+          {
+            "word": "mortality",
+            "pos": "n",
+            "ipa": "/mɔːˈtæl.ə.ti/",
+            "level": "B2",
+            "mean": "tỷ lệ tử vong, sự chết",
+            "syns": [
+              "death rate",
+              "fatality",
+              "loss of life"
+            ],
+            "ex": "Window collisions represent a leading cause of direct avian mortality."
+          },
+          {
+            "word": "ocular",
+            "pos": "adj",
+            "ipa": "/ˈɒk.jʊ.lər/",
+            "level": "C1",
+            "mean": "thuộc về mắt và cơ chế thị giác",
+            "syns": [
+              "visual",
+              "ophthalmic",
+              "optic"
+            ],
+            "ex": "Avian ocular systems are optimized for motion detection rather than glass recognition."
+          },
+          {
+            "word": "impassable",
+            "pos": "adj",
+            "ipa": "/ɪmˈpɑː.sə.bəl/",
+            "level": "C1",
+            "mean": "không thể vượt qua được, chặn đứng lối đi",
+            "syns": [
+              "insurmountable",
+              "unnavigable",
+              "impermeable"
+            ],
+            "ex": "Birds cannot perceive glass panes as impassable solid barriers."
+          },
+          {
+            "word": "optical",
+            "pos": "adj",
+            "ipa": "/ˈɒp.tɪ.kəl/",
+            "level": "B2",
+            "mean": "thuộc về quang học hoặc hiện tượng thị giác",
+            "syns": [
+              "visual",
+              "light-related",
+              "photonic"
+            ],
+            "ex": "Optical illusions created by reflective glass deceive flying birds."
+          },
+          {
+            "word": "fidelity",
+            "pos": "n",
+            "ipa": "/fɪˈdel.ə.ti/",
+            "level": "C1",
+            "mean": "độ chính xác, độ sắc nét trung thực của hình ảnh",
+            "syns": [
+              "accuracy",
+              "precision",
+              "exactness"
+            ],
+            "ex": "The mirror-like surface reflects trees with hyper-realistic fidelity."
+          },
+          {
+            "word": "deceptive",
+            "pos": "adj",
+            "ipa": "/dɪˈsep.tɪv/",
+            "level": "B2",
+            "mean": "gây hiểu lầm, lừa dối thị giác",
+            "syns": [
+              "misleading",
+              "illusory",
+              "fraudulent"
+            ],
+            "ex": "Deceptive reflections create the illusion of open flying space."
+          },
+          {
+            "word": "foliage",
+            "pos": "n",
+            "ipa": "/ˈfəʊ.li.ɪdʒ/",
+            "level": "B2",
+            "mean": "tán lá cây xanh tươi",
+            "syns": [
+              "leaves",
+              "greenery",
+              "vegetation"
+            ],
+            "ex": "Reflections of park foliage lure birds directly toward lethal glass impacts."
+          },
+          {
+            "word": "unhindered",
+            "pos": "adj",
+            "ipa": "/ʌnˈhɪn.dəd/",
+            "level": "C1",
+            "mean": "không bị cản trở, thông suốt hoàn toàn",
+            "syns": [
+              "unobstructed",
+              "unimpeded",
+              "free"
+            ],
+            "ex": "Parallel glass skywalks present an unhindered visual corridor that deceives birds."
+          },
+          {
+            "word": "trajectory",
+            "pos": "n",
+            "ipa": "/trəˈdʒek.tər.i/",
+            "level": "C1",
+            "mean": "quỹ đạo bay, đường đi của vật thể trong không gian",
+            "syns": [
+              "flight path",
+              "course",
+              "route"
+            ],
+            "ex": "Migrating warblers maintain a straight trajectory through downtown skyscraper corridors."
+          },
+          {
+            "word": "deceleration",
+            "pos": "n",
+            "ipa": "/diːˌsel.əˈreɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự giảm tốc độ đột ngột",
+            "syns": [
+              "slowing down",
+              "braking",
+              "retardation"
+            ],
+            "ex": "Impact with concrete or glass causes instant fatal deceleration."
+          },
+          {
+            "word": "nocturnal",
+            "pos": "adj",
+            "ipa": "/nɒkˈtɜː.nəl/",
+            "level": "B2",
+            "mean": "diễn ra hoặc hoạt động vào ban đêm",
+            "syns": [
+              "nighttime",
+              "night-dwelling"
+            ],
+            "ex": "Nocturnal migratory birds rely on star navigation during long flights."
+          },
+          {
+            "word": "exacerbate",
+            "pos": "v",
+            "ipa": "/ɪɡˈzæs.ə.beɪt/",
+            "level": "B2",
+            "mean": "làm trầm trọng thêm, làm xấu đi tình hình",
+            "syns": [
+              "worsen",
+              "aggravate",
+              "intensify"
+            ],
+            "ex": "Artificial street lighting exacerbates bird disorientation during stormy nights."
+          },
+          {
+            "word": "disorient",
+            "pos": "v",
+            "ipa": "/dɪsˈɔː.ri.ent/",
+            "level": "B2",
+            "mean": "làm mất phương hướng định vị",
+            "syns": [
+              "confuse",
+              "misguide",
+              "bewilder"
+            ],
+            "ex": "Blinding spotlights disorient migrating flocks, causing them to circle endlessly."
+          },
+          {
+            "word": "canyon",
+            "pos": "n",
+            "ipa": "/ˈkæn.jən/",
+            "level": "B2",
+            "mean": "hẻm vực đô thị sâu kẹp giữa các tòa cao ốc",
+            "syns": [
+              "gorge",
+              "urban ravine",
+              "narrow corridor"
+            ],
+            "ex": "Downtown architectural canyons trap disoriented songbirds in fatal light traps."
+          },
+          {
+            "word": "foraging",
+            "pos": "adj",
+            "ipa": "/ˈfɒr.ɪ.dʒɪŋ/",
+            "level": "B2",
+            "mean": "tìm kiếm thức ăn của động vật",
+            "syns": [
+              "hunting for food",
+              "scavenging",
+              "grazing"
+            ],
+            "ex": "Exhausted birds foraging for insects at dawn strike lobby display windows."
+          },
+          {
+            "word": "neotropical",
+            "pos": "adj",
+            "ipa": "/ˌniː.əʊˈtrɒp.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc khu vực nhiệt đới Tân Thế giới (châu Mỹ)",
+            "syns": [
+              "Central-South American",
+              "New World tropical"
+            ],
+            "ex": "Neotropical warblers travel thousands of kilometers from the Amazon to Canada."
+          },
+          {
+            "word": "toll",
+            "pos": "n",
+            "ipa": "/təʊl/",
+            "level": "B2",
+            "mean": "tổn thất sinh mạng, mức thiệt hại nặng nề",
+            "syns": [
+              "casualty count",
+              "death toll",
+              "loss"
+            ],
+            "ex": "The ecological toll of unchecked glass architecture has sparked public outcry."
+          },
+          {
+            "word": "paradigm",
+            "pos": "n",
+            "ipa": "/ˈpær.ə.daɪm/",
+            "level": "C1",
+            "mean": "mô hình chuẩn mực mới",
+            "syns": [
+              "framework",
+              "model",
+              "approach"
+            ],
+            "ex": "Bird-safe architecture represents a progressive paradigm in urban planning."
+          },
+          {
+            "word": "deter",
+            "pos": "v",
+            "ipa": "/dɪˈtɜːr/",
+            "level": "B2",
+            "mean": "ngăn cản, làm nản lòng, răn đe không cho làm",
+            "syns": [
+              "discourage",
+              "prevent",
+              "dissuade"
+            ],
+            "ex": "Surface patterns deter birds from flying directly toward glass panels."
+          },
+          {
+            "word": "ultraviolet",
+            "pos": "adj",
+            "ipa": "/ˌʌl.trəˈvaɪə.lət/",
+            "level": "B2",
+            "mean": "thuộc dải ánh sáng tia cực tím UV",
+            "syns": [
+              "UV-range",
+              "blacklight"
+            ],
+            "ex": "Ultraviolet markings are visible to birds but invisible to humans."
+          },
+          {
+            "word": "imperceptible",
+            "pos": "adj",
+            "ipa": "/ˌɪm.pəˈsep.tə.bəl/",
+            "level": "C1",
+            "mean": "không thể nhận thấy được bằng mắt thường",
+            "syns": [
+              "indiscernible",
+              "invisible",
+              "undetectable"
+            ],
+            "ex": "The fine UV grid remains imperceptible to people viewing the skyline."
+          },
+          {
+            "word": "fritting",
+            "pos": "n",
+            "ipa": "/ˈfrɪt.ɪŋ/",
+            "level": "C1",
+            "mean": "kỹ thuật in chấm men gốm hoa văn lên mặt kính",
+            "syns": [
+              "ceramic dotting",
+              "surface frosting",
+              "glass etching"
+            ],
+            "ex": "Ceramic fritting reduces solar glare while alerting birds to glass surfaces."
+          },
+          {
+            "word": "harmonize",
+            "pos": "v",
+            "ipa": "/ˈhɑː.mə.naɪz/",
+            "level": "B2",
+            "mean": "hòa hợp, dung hòa các yếu tố khác nhau",
+            "syns": [
+              "reconcile",
+              "coordinate",
+              "balance"
+            ],
+            "ex": "Modern architecture must harmonize human aesthetics with environmental preservation."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t24_q21",
+            "num": 21,
+            "question": "What is the primary topic discussed in the passage?",
+            "questionVi": "Chủ đề chính được thảo luận trong đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The financial bankruptcy of commercial skyscraper developers in downtown districts",
+              "The crisis of bird-window collisions caused by urban glass architecture and bird-safe design solutions",
+              "The evolutionary history of nocturnal predatory owls hunting in mountain valleys",
+              "The chemical composition of industrial ceramic frits used in kitchen countertops"
+            ],
+            "optionsVi": [
+              "Sự phá sản tài chính của các nhà phát triển tòa nhà chọc trời thương mại tại các khu trung tâm",
+              "Khủng hoảng chim va chạm vào cửa kính do kiến trúc kính đô thị và các giải pháp thiết kế thân thiện với chim",
+              "Lịch sử tiến hóa của các loài cú săn mồi ban đêm tại các thung lũng miền núi",
+              "Thành phần hóa học của men gốm công nghiệp dùng trong mặt đá bếp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Entire passage analyzes: why glass causes bird collisions (reflection/transparency, artificial light at night) and innovative architectural solutions (2x4 rule, UV glass, fritting, Lights Out).",
+            "evidenceVi": "Toàn bài phân tích: nguyên nhân kính gây va chạm cho chim (phản chiếu, ánh sáng ban đêm) và giải pháp kiến trúc (quy tắc 2x4, kính UV, men gốm, tắt đèn).",
+            "explanation": "Đoạn văn xem xét toàn diện hiểm họa của các tòa nhà ốp kính đối với loài chim và các giải pháp kiến trúc an toàn cho chim.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề chính (Main Idea)",
+              "cluePassage": "contemporary architectural design has become synonymous with extensive glass curtain walls... lethal hazard to global avian biodiversity... progressive architects are pioneering 'bird-friendly' design paradigms.",
+              "clueAnswer": "The crisis of bird-window collisions caused by urban glass architecture and bird-safe design solutions",
+              "keyPassage": "lethal hazard to global avian biodiversity... pioneering 'bird-friendly' design paradigms",
+              "keyAnswer": "crisis of bird-window collisions caused by urban glass architecture and bird-safe design solutions",
+              "paraphrasePair": "lethal hazard to avian biodiversity / bird-friendly design <=> crisis of bird-window collisions / bird-safe design solutions",
+              "meaningVi": "mối đe dọa sinh mạng loài chim và giải pháp kiến trúc an toàn",
+              "deductionLogic": "Khái quát luận điểm phát triển xuyên suốt từ đoạn 1 đến đoạn 4."
+            }
+          },
+          {
+            "id": "t24_q22",
+            "num": 22,
+            "question": "According to paragraph 1, why do birds fail to recognize transparent glass windows as impassable barriers?",
+            "questionVi": "Theo đoạn 1, tại sao loài chim không nhận biết được cửa kính trong suốt là rào cản không thể vượt qua?",
+            "questionType": "detail",
+            "options": [
+              "Because they possess complete blindness during daylight hours",
+              "Because their ocular physiology evolved to navigate open three-dimensional skies without physical glass",
+              "Because they are attracted by magnetic signals artificially emitted by glass factories",
+              "Because their wings are too heavy to steer away in time"
+            ],
+            "optionsVi": [
+              "Vì chúng bị mù hoàn toàn vào ban ngày",
+              "Vì sinh lý thị giác của chúng tiến hóa để định hướng bầu trời 3 chiều rộng mở không có kính nhân tạo",
+              "Vì chúng bị thu hút bởi các tín hiệu từ trường phát ra nhân tạo từ các nhà máy kính",
+              "Vì đôi cánh của chúng quá nặng để chuyển hướng kịp thời"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Because avian ocular physiology evolved to navigate open three-dimensional skies, birds lack the cognitive capacity to perceive transparent glass as an impassable physical barrier.",
+            "evidenceVi": "Bởi vì sinh lý học mắt của loài chim tiến hóa để định hướng trên bầu trời không gian ba chiều rộng mở, chim thiếu năng lực nhận thức để nhận ra kính trong suốt là một rào cản vật lý không thể vượt qua.",
+            "explanation": "Đoạn 1 nêu rõ do thị giác chim tiến hóa cho bầu trời tự nhiên không gian 3D, chúng không có khả năng nhận thức được kính trong suốt.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết sinh học tiến hóa (Evolutionary Biology Detail)",
+              "cluePassage": "avian ocular physiology evolved to navigate open three-dimensional skies, birds lack the cognitive capacity to perceive transparent glass as an impassable physical barrier",
+              "clueAnswer": "their ocular physiology evolved to navigate open three-dimensional skies without physical glass",
+              "keyPassage": "avian ocular physiology evolved to navigate open three-dimensional skies",
+              "keyAnswer": "ocular physiology evolved to navigate open three-dimensional skies",
+              "paraphrasePair": "avian ocular physiology evolved to navigate open three-dimensional skies <=> ocular physiology evolved to navigate open three-dimensional skies",
+              "meaningVi": "thị giác tiến hóa để bay trong không gian 3 chiều mở",
+              "deductionLogic": "Khớp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": "t24_q23",
+            "num": 23,
+            "question": "How do reflective exterior window coatings cause daytime collisions according to paragraph 2?",
+            "questionVi": "Lớp phủ ngoài phản chiếu của cửa sổ gây ra va chạm ban ngày như thế nào theo đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "They emit high-decibel supersonic alarms that paralyze birds mid-air",
+              "They mirror adjacent trees and sky with hyper-realistic fidelity, deceiving birds into flying at full velocity",
+              "They project holographic images of flying predators that chase birds into walls",
+              "They generate extreme thermal radiation that burns bird feathers instantly"
+            ],
+            "optionsVi": [
+              "Chúng phát ra báo động siêu âm cường độ cao làm chim bị tê liệt giữa không trung",
+              "Chúng phản chiếu cây cối và bầu trời liền kề với độ chân thực cao, lừa chim lao vào với tốc độ tối đa",
+              "Chúng chiếu hình ảnh ba chiều của động vật săn mồi đuổi chim đâm vào tường",
+              "Chúng tạo ra bức xạ nhiệt cực cao làm cháy lông chim ngay lập tức"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...highly reflective exterior coatings mirror adjacent trees, vegetation, and sky with hyper-realistic fidelity. Deceived by these deceptive visual cues, birds attempt to fly through what appears to be lush foliage or unobstructed airspace at full flight velocity...",
+            "evidenceVi": "...lớp phủ ngoài phản chiếu cao soi bóng cây cối lân cận, thảm thực vật và bầu trời với độ chân thực siêu thực. Bị đánh lừa bởi những dấu hiệu thị giác giả tạo này, chim cố gắng bay qua nơi có vẻ như là tán lá cây rậm rạp hoặc khoảng trời thông suốt ở tốc độ bay tối đa...",
+            "explanation": "Đoạn 2 nêu rõ bề mặt kính phản chiếu bóng cây và trời khiến chim tưởng là không gian mở và lao vào hết tốc lực.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết quang học phản chiếu (Optical Reflection Detail)",
+              "cluePassage": "mirror adjacent trees, vegetation, and sky with hyper-realistic fidelity. Deceived by these deceptive visual cues, birds attempt to fly through... at full flight velocity",
+              "clueAnswer": "mirror adjacent trees and sky with hyper-realistic fidelity, deceiving birds into flying at full velocity",
+              "keyPassage": "mirror adjacent trees, vegetation, and sky with hyper-realistic fidelity... birds attempt to fly through... at full flight velocity",
+              "keyAnswer": "mirror adjacent trees and sky with hyper-realistic fidelity, deceiving birds into flying at full velocity",
+              "paraphrasePair": "mirror adjacent trees and sky with hyper-realistic fidelity <=> mirror adjacent trees and sky with hyper-realistic fidelity",
+              "meaningVi": "phản chiếu bóng cây và bầu trời sắc nét chân thực",
+              "deductionLogic": "Khớp câu 2-3 đoạn 2."
+            }
+          },
+          {
+            "id": "t24_q24",
+            "num": 24,
+            "question": "The word 'deceptive' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'deceptive' trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "misleading",
+              "transparent",
+              "authentic",
+              "beneficial"
+            ],
+            "optionsVi": [
+              "gây hiểu lầm, lừa dối thị giác",
+              "trong suốt rõ ràng",
+              "xác thực, chân thực",
+              "có lợi ích"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Deceived by these deceptive visual cues, birds attempt to fly through what appears to be lush foliage...",
+            "evidenceVi": "Bị đánh lừa bởi những tín hiệu thị giác lừa dối này, các chú chim cố gắng bay qua những gì trông giống như tán lá xanh tốt...",
+            "explanation": "'Deceptive' nghĩa là gây hiểu lầm, mang tính lừa dối, đồng nghĩa với 'misleading' hoặc 'illusory'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "Deceived by these deceptive visual cues",
+              "clueAnswer": "misleading",
+              "keyPassage": "deceptive visual cues",
+              "keyAnswer": "misleading",
+              "paraphrasePair": "deceptive <=> misleading",
+              "meaningVi": "mang tính lừa dối, gây hiểu lầm",
+              "deductionLogic": "Hình ảnh phản chiếu gây ảo giác lừa mắt chim, deceptive tương đương misleading."
+            }
+          },
+          {
+            "id": "t24_q25",
+            "num": 25,
+            "question": "According to paragraph 3, how does artificial nocturnal illumination affect migrating birds?",
+            "questionVi": "Theo đoạn 3, ánh sáng nhân tạo ban đêm ảnh hưởng như thế nào đến chim di cư?",
+            "questionType": "detail",
+            "options": [
+              "It helps them locate abundant bird feeders installed on skyscraper roofs",
+              "It disorients their star and magnetic navigation, luring them into confusing downtown canyons where they collapse or collide",
+              "It accelerates their flight speed by ten times, allowing them to cross continents in hours",
+              "It makes them nocturnal predators that abandon seed foraging permanently"
+            ],
+            "optionsVi": [
+              "Nó giúp chúng tìm thấy các máng ăn dồi dào lắp trên mái các tòa nhà chọc trời",
+              "Nó làm mất phương hướng định vị từ trường và các vì sao, lôi kéo chúng vào các hẻm đô thị gây kiệt sức hoặc va chạm",
+              "Nó tăng tốc độ bay của chúng lên mười lần, giúp chúng băng qua các lục địa trong vài giờ",
+              "Nó biến chúng thành loài chim săn mồi ban đêm bỏ hẳn việc ăn hạt"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Bright artificial skyglow disorients these nocturnal travelers, drawing them away from rural flyways into dense downtown canyons. Trapped within confusing illuminated architectural mazes, exhausted birds circle skyscrapers until they collapse from physical depletion or collide...",
+            "evidenceVi": "Ánh sáng nhân tạo rực rỡ làm mất phương hướng những kẻ du hành ban đêm này, lôi kéo chúng khỏi đường bay nông thôn vào các hẻm vực dày đặc ở trung tâm thành phố. Bị mắc kẹt trong mê cung kiến trúc được chiếu sáng khó hiểu, những chú chim kiệt sức bay lượn quanh các tòa nhà chọc trời cho đến khi chúng ngã quỵ vì cạn kiệt sức lực hoặc va chạm...",
+            "explanation": "Đoạn 3 giải thích hiện tượng ánh sáng nhân tạo ban đêm làm chim mất phương hướng, bay vòng quanh đến kiệt sức hoặc đâm vào cửa kính.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết ô nhiễm ánh sáng (Light Pollution Detail)",
+              "cluePassage": "disorients these nocturnal travelers, drawing them away from rural flyways into dense downtown canyons... circle skyscrapers until they collapse from physical depletion or collide",
+              "clueAnswer": "disorients their star and magnetic navigation, luring them into confusing downtown canyons where they collapse or collide",
+              "keyPassage": "disorients these nocturnal travelers... drawing them away from rural flyways into dense downtown canyons... collapse from physical depletion or collide",
+              "keyAnswer": "disorients their star and magnetic navigation, luring them into confusing downtown canyons where they collapse or collide",
+              "paraphrasePair": "disorients... drawing them into downtown canyons... collapse or collide <=> disorients their star and magnetic navigation, luring them into confusing downtown canyons where they collapse or collide",
+              "meaningVi": "làm mất phương hướng và thu hút chim vào mê cung đô thị gây kiệt sức hoặc va đập",
+              "deductionLogic": "Khớp câu 3-4 đoạn 3."
+            }
+          },
+          {
+            "id": "t24_q26",
+            "num": 26,
+            "question": "The word 'exacerbates' in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ 'exacerbates' trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "alleviates",
+              "aggravates",
+              "diminishes",
+              "neutralizes"
+            ],
+            "optionsVi": [
+              "làm dịu bớt",
+              "làm trầm trọng thêm / làm xấu đi",
+              "giảm bớt",
+              "trung hòa vô hiệu hóa"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Nocturnal illumination in urban centers exacerbates collision frequency...",
+            "evidenceVi": "Ánh sáng ban đêm ở các trung tâm đô thị làm trầm trọng thêm tần suất va chạm...",
+            "explanation": "'Exacerbate' nghĩa là làm trầm trọng, làm tồi tệ thêm một vấn đề tiêu cực, đồng nghĩa với 'aggravate' hoặc 'worsen'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "Nocturnal illumination in urban centers exacerbates collision frequency",
+              "clueAnswer": "aggravates",
+              "keyPassage": "exacerbates collision frequency",
+              "keyAnswer": "aggravates",
+              "paraphrasePair": "exacerbates <=> aggravates",
+              "meaningVi": "làm trầm trọng thêm",
+              "deductionLogic": "Ánh sáng ban đêm làm số vụ va chạm tăng vọt và tồi tệ hơn, do đó exacerbates tương đương aggravates."
+            }
+          },
+          {
+            "id": "t24_q27",
+            "num": 27,
+            "question": "What is the '2x4 rule' in bird-friendly architectural design described in paragraph 4?",
+            "questionVi": "Quy tắc '2x4' trong thiết kế kiến trúc thân thiện với chim được mô tả trong đoạn 4 là gì?",
+            "questionType": "detail",
+            "options": [
+              "Windows must be constructed exactly two meters wide and four meters tall",
+              "Visual markers spaced no more than two inches apart vertically or four inches horizontally to deter birds from attempting to fly through",
+              "Skyscrapers must be repainted with green paint every two to four months",
+              "Architects must plant two trees for every four glass window panels installed"
+            ],
+            "optionsVi": [
+              "Cửa sổ phải được chế tạo chính xác rộng hai mét và cao bốn mét",
+              "Các điểm đánh dấu thị giác cách nhau không quá 2 inch theo chiều dọc hoặc 4 inch theo chiều ngang để ngăn chim cố bay xuyên qua",
+              "Các tòa nhà chọc trời phải được sơn lại bằng sơn xanh lá cây cứ sau mỗi hai đến bốn tháng",
+              "Các kiến trúc sư phải trồng hai cây xanh cho mỗi bốn tấm kính cửa sổ được lắp đặt"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Central to this movement is the application of the '2x4 rule'—visual markers spaced no more than two inches apart vertically or four inches horizontally, which deters birds from attempting to squeeze between perceived obstacles.",
+            "evidenceVi": "Trọng tâm của phong trào này là áp dụng 'quy tắc 2x4'—các dấu hiệu thị giác cách nhau không quá 2 inch theo chiều dọc hoặc 4 inch theo chiều ngang, ngăn chim cố len lỏi qua các chướng ngại vật nhận thức được.",
+            "explanation": "Đoạn 4 định nghĩa rõ quy tắc 2x4 là khoảng cách dấu thị giác tối đa 2 inch dọc và 4 inch ngang.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết quy chuẩn thiết kế (Architectural Standard Detail)",
+              "cluePassage": "application of the '2x4 rule'—visual markers spaced no more than two inches apart vertically or four inches horizontally, which deters birds from attempting to squeeze between perceived obstacles",
+              "clueAnswer": "Visual markers spaced no more than two inches apart vertically or four inches horizontally to deter birds from attempting to fly through",
+              "keyPassage": "visual markers spaced no more than two inches apart vertically or four inches horizontally",
+              "keyAnswer": "Visual markers spaced no more than two inches apart vertically or four inches horizontally",
+              "paraphrasePair": "visual markers spaced no more than two inches apart vertically or four inches horizontally <=> Visual markers spaced no more than two inches apart vertically or four inches horizontally",
+              "meaningVi": "dấu thị giác cách nhau không quá 2 inch dọc và 4 inch ngang",
+              "deductionLogic": "Khớp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": "t24_q28",
+            "num": 28,
+            "question": "What makes ultraviolet (UV) patterned glass particularly advantageous for buildings according to paragraph 4?",
+            "questionVi": "Điều gì khiến kính có hoa văn tia cực tím (UV) đặc biệt có lợi cho các tòa nhà theo đoạn 4?",
+            "questionType": "detail",
+            "options": [
+              "It reflects solar radiation into commercial electrical energy for the building",
+              "It displays patterns visible to the avian visual spectrum while remaining virtually imperceptible to human eyes",
+              "It completely blocks all exterior sounds from the city streets",
+              "It changes color automatically depending on the stock market performance"
+            ],
+            "optionsVi": [
+              "Nó phản xạ bức xạ mặt trời thành năng lượng điện thương mại cho tòa nhà",
+              "Nó hiển thị các hoa văn nhìn thấy được đối với phổ thị giác của chim trong khi gần như vô hình đối với mắt người",
+              "Nó chặn hoàn toàn tất cả các âm thanh bên ngoài từ đường phố",
+              "Nó tự động đổi màu tùy thuộc vào hiệu suất của thị trường chứng khoán"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Technological innovations include ultraviolet (UV) patterned glass, which features patterns visible to the avian visual spectrum while remaining virtually imperceptible to human eyes...",
+            "evidenceVi": "Những đổi mới công nghệ bao gồm kính hoa văn tia cực tím (UV), có các hoa văn nhìn thấy được đối với phổ thị giác của loài chim trong khi hầu như mắt người không thể nhận biết được...",
+            "explanation": "Đoạn 4 nêu rõ kính UV có hoa văn mà chim nhìn thấy được (avian visual spectrum) nhưng mắt người không thấy được (virtually imperceptible to humans).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết công nghệ vật liệu (Material Tech Detail)",
+              "cluePassage": "ultraviolet (UV) patterned glass, which features patterns visible to the avian visual spectrum while remaining virtually imperceptible to human eyes",
+              "clueAnswer": "displays patterns visible to the avian visual spectrum while remaining virtually imperceptible to human eyes",
+              "keyPassage": "patterns visible to the avian visual spectrum while remaining virtually imperceptible to human eyes",
+              "keyAnswer": "patterns visible to the avian visual spectrum while remaining virtually imperceptible to human eyes",
+              "paraphrasePair": "visible to the avian visual spectrum while remaining virtually imperceptible to human eyes <=> visible to the avian visual spectrum while remaining virtually imperceptible to human eyes",
+              "meaningVi": "chim nhìn thấy nhưng mắt người không nhận biết được",
+              "deductionLogic": "Khớp câu 3 đoạn 4."
+            }
+          },
+          {
+            "id": "t24_q29",
+            "num": 29,
+            "question": "The phrase 'these architectural adaptations' in paragraph 4 refers to:",
+            "questionVi": "Cụm từ 'these architectural adaptations' trong đoạn 4 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "Demolishing skyscrapers and replacing them with suburban timber bungalows",
+              "Bird-friendly innovations including the 2x4 rule, UV patterned glass, ceramic fritting, and Lights Out programs",
+              "Installing razor wire around building roofs to prevent birds from perching",
+              "Constructing artificial concrete trees inside museum courtyards"
+            ],
+            "optionsVi": [
+              "Phá hủy các tòa nhà chọc trời và thay thế bằng các ngôi nhà gỗ ngoại ô",
+              "Những sáng kiến thân thiện với chim gồm quy tắc 2x4, kính hoa văn UV, men gốm và chương trình Tắt Đèn",
+              "Lắp dây thép gai quanh mái tòa nhà để ngăn chim đậu",
+              "Xây dựng cây bê tông nhân tạo bên trong sân bảo tàng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...application of the '2x4 rule'... ultraviolet (UV) patterned glass... ceramic fritting... Complemented by municipal 'Lights Out' initiatives... these architectural adaptations prove that urban aesthetics can harmonize with ecological preservation.",
+            "evidenceVi": "...áp dụng 'quy tắc 2x4'... kính hoa văn tia cực tím (UV)... men gốm... Được bổ sung bởi các sáng kiến 'Tắt Đèn' của thành phố... những sự thích ứng kiến trúc này chứng minh rằng thẩm mỹ đô thị có thể hòa hợp với việc bảo tồn sinh thái.",
+            "explanation": "'These architectural adaptations' tổng hợp toàn bộ các giải pháp vừa nêu trong đoạn 4: quy tắc 2x4, kính UV, ceramic fritting, và Lights Out.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Cụm từ quy chiếu tổng hợp (Summary Referential Phrase)",
+              "cluePassage": "2x4 rule... UV patterned glass... ceramic fritting... 'Lights Out' initiatives... these architectural adaptations prove that urban aesthetics can harmonize with ecological preservation",
+              "clueAnswer": "Bird-friendly innovations including the 2x4 rule, UV patterned glass, ceramic fritting, and Lights Out programs",
+              "keyPassage": "2x4 rule... UV patterned glass... ceramic fritting... Lights Out... these architectural adaptations",
+              "keyAnswer": "Bird-friendly innovations including the 2x4 rule, UV patterned glass, ceramic fritting, and Lights Out programs",
+              "paraphrasePair": "2x4 rule / UV glass / ceramic fritting / Lights Out <=> these architectural adaptations",
+              "meaningVi": "các biện pháp thích ứng kiến trúc bảo vệ chim",
+              "deductionLogic": "Khớp câu 4 đoạn 4."
+            }
+          },
+          {
+            "id": "t24_q30",
+            "num": 30,
+            "question": "Which of the following bird-friendly architectural solutions is NOT mentioned in paragraph 4?",
+            "questionVi": "Giải pháp kiến trúc thân thiện với chim nào sau đây KHÔNG được đề cập trong đoạn 4?",
+            "questionType": "negative_detail",
+            "options": [
+              "Applying visual markers using the 2x4 spacing rule",
+              "Installing ultraviolet (UV) patterned glass visible to birds",
+              "Utilizing ceramic fritting to disrupt surface reflections",
+              "Broadcasting continuous predatory falcon shrieks from building speakers"
+            ],
+            "optionsVi": [
+              "Áp dụng các dấu hiệu thị giác sử dụng quy tắc khoảng cách 2x4",
+              "Lắp đặt kính có hoa văn tia cực tím (UV) mà chim nhìn thấy được",
+              "Sử dụng kỹ thuật in men gốm để phá vỡ hình ảnh phản chiếu trên bề mặt",
+              "Phát tiếng kêu la liên tục của chim ưng săn mồi từ loa tòa nhà"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 mentions: '2x4 rule' (A), 'ultraviolet patterned glass' (B), and 'ceramic fritting' (C). Falcon shrieks from speakers is unmentioned.",
+            "evidenceVi": "Đoạn 4 nhắc đến: quy tắc 2x4 (A), kính hoa văn UV (B), men gốm ceramic fritting (C). Tiếng chim ưng săn mồi từ loa không hề xuất hiện.",
+            "explanation": "Phương án D không hề xuất hiện trong đoạn 4.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Detail)",
+              "cluePassage": "2x4 rule... ultraviolet (UV) patterned glass... ceramic fritting that disrupts reflections... 'Lights Out' initiatives",
+              "clueAnswer": "Broadcasting continuous predatory falcon shrieks from building speakers",
+              "keyPassage": "2x4 rule... UV patterned glass... ceramic fritting",
+              "keyAnswer": "falcon shrieks (NOT mentioned)",
+              "paraphrasePair": "2x4 rule / UV glass / ceramic fritting vs falcon shrieks",
+              "meaningVi": "các giải pháp trong bài so với giải pháp bịa đặt",
+              "deductionLogic": "Phương án D hoàn toàn không có trong bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Chronobiology: Circadian Sleep Cycles & Neural Glymphatic Clearance",
+        "topic": "Sinh học thời gian: Chu kỳ giấc ngủ Circadian, giấc ngủ sâu sóng chậm NREM và hệ thống thải độc thần kinh Glymphatic",
+        "timeAllowed": 15,
+        "passage": "<p>For centuries viewed as a passive, indolent cessation of bodily activity, mammalian sleep is now understood by chronobiologists as an intensely orchestrated, neurochemically vigorous physiological necessity. Across the human lifespan, the sleep-wake cycle is governed by the delicate synchronization between two regulatory forces: Process C, an endogenous circadian pacemaker located within the hypothalamic suprachiasmatic nucleus (SCN), and Process S, the homeostatic accumulation of somnogenic somnogens, primarily adenosine, generated through prolonged waking metabolic expenditure. When these two oscillatory mechanisms converge, they trigger a succession of distinct neuroelectrical architectures categorized into non-rapid eye movement (NREM) and rapid eye movement (REM) stages, each orchestrating vital somatic restoration and cognitive consolidation.</p><p>Deep NREM sleep, specifically Stage 3 or slow-wave sleep (SWS), is characterized electroencephalographically by high-amplitude, low-frequency synchronized delta oscillations (0.5 to 4 Hz) originating in the neocortex. During this slow-wave epoch, systemic sympathetic tone plummets, blood pressure drops, and the anterior pituitary gland secretes massive pulses of human growth hormone (HGH) to stimulate tissue repair, cellular protein synthesis, and immune recalibration. Concurrently, the cerebral cortex engages in systematic synaptic pruning, selectively depotentiating redundant neural connections while consolidating salient memories into long-term hippocampal-neocortical networks through synchronized spindle-ripple complexes.</p><p>Perhaps the most revolutionary neuroscience breakthrough of the past decade was the discovery of the glymphatic system, a macroscopic waste clearance pathway heavily active during deep slow-wave sleep. Unveiled by neuroscientist Maiken Nedergaard and colleagues, this glial-dependent convective mechanism facilitates the rapid exchange of interstitial fluid (ISF) with cerebrospinal fluid (CSF) along periarterial channels. During slow-wave delta sleep, astrocytic aquaporin-4 (AQP4) water channels facilitate an extraordinary sixty percent expansion of the brain's extracellular interstitial space. This nocturnal volume surge accelerates convective CSF flux through brain parenchyma, systematically purging toxic metabolic byproducts—most critically soluble amyloid-beta and hyperphosphorylated tau proteins implicated in Alzheimer's pathogenesis.</p><p>Chronic sleep deprivation and fragmented sleep architecture deliver catastrophic neurological consequences by arresting these nocturnal cleansing and restorative cascades. Protracted wakefulness impedes glymphatic fluid transit, causing the progressive intracranial accumulation of neurotoxic oligomers that instigate microglia-mediated neuroinflammation and accelerate cortical atrophy. Moreover, circadian dysrhythmia—induced by artificial blue light exposure, shift work, and irregular lifestyles—perverts melatonin secretion, disrupting neurogenesis in the subgranular zone of the dentate gyrus. Ultimately, optimizing sleep architecture emerges not merely as a lifestyle luxury, but as an indispensable biophysical imperative to preserve cerebral longevity and avert neurodegenerative decline.</p>",
+        "vocab": [
+          {
+            "word": "indolent",
+            "pos": "adj",
+            "ipa": "/ˈɪn.dəl.ənt/",
+            "level": "C1",
+            "mean": "lười biếng, thụ động, không có hoạt động tích cực",
+            "syns": [
+              "passive",
+              "sluggish",
+              "inactive"
+            ],
+            "ex": "Sleep was historically mischaracterized as an indolent state of brain shutdown."
+          },
+          {
+            "word": "chronobiologist",
+            "pos": "n",
+            "ipa": "/ˌkrɒn.əʊ.baɪˈɒl.ə.dʒɪst/",
+            "level": "C1",
+            "mean": "nhà nghiên cứu sinh học thời gian và nhịp sinh học",
+            "syns": [
+              "biological rhythm researcher",
+              "circadian scientist"
+            ],
+            "ex": "Chronobiologists analyze how circadian clocks regulate hormonal pulses."
+          },
+          {
+            "word": "orchestrated",
+            "pos": "adj",
+            "ipa": "/ˈɔː.kɪ.streɪ.tɪd/",
+            "level": "C1",
+            "mean": "được phối hợp tổ chức một cách tinh vi và nhịp nhàng",
+            "syns": [
+              "coordinated",
+              "synchronized",
+              "choreographed"
+            ],
+            "ex": "The sleep-wake cycle involves intricately orchestrated neurochemical transitions."
+          },
+          {
+            "word": "suprachiasmatic",
+            "pos": "adj",
+            "ipa": "/ˌsuː.prə.kaɪ.æzˈmæt.ɪk/",
+            "level": "C1",
+            "mean": "thuộc nhân trên chéo thị giác của vùng dưới đồi",
+            "syns": [
+              "SCN-related",
+              "hypothalamic clock"
+            ],
+            "ex": "The suprachiasmatic nucleus serves as the body's master circadian pacemaker."
+          },
+          {
+            "word": "somnogenic",
+            "pos": "adj",
+            "ipa": "/ˌsɒm.nəˈdʒen.ɪk/",
+            "level": "C1",
+            "mean": "thúc đẩy giấc ngủ, gây buồn ngủ",
+            "syns": [
+              "sleep-inducing",
+              "hypnogenic",
+              "soporific"
+            ],
+            "ex": "Adenosine acts as a primary somnogenic substance accumulating during wakefulness."
+          },
+          {
+            "word": "oscillatory",
+            "pos": "adj",
+            "ipa": "/ˈɒs.ɪ.lə.tər.i/",
+            "level": "C1",
+            "mean": "mang tính dao động tuần hoàn, lặp đi lặp lại",
+            "syns": [
+              "rhythmic",
+              "cyclical",
+              "undulating"
+            ],
+            "ex": "Oscillatory brain waves coordinate information transfer across cortex regions."
+          },
+          {
+            "word": "somatic",
+            "pos": "adj",
+            "ipa": "/səʊˈmæt.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về cơ thể, thể xác",
+            "syns": [
+              "physical",
+              "bodily",
+              "corporeal"
+            ],
+            "ex": "Slow-wave sleep facilitates deep somatic recovery and tissue repair."
+          },
+          {
+            "word": "epoch",
+            "pos": "n",
+            "ipa": "/ˈiː.pɒk/",
+            "level": "C1",
+            "mean": "giai đoạn, khoảng thời gian đặc thù trong chu kỳ",
+            "syns": [
+              "period",
+              "interval",
+              "stage"
+            ],
+            "ex": "During the delta wave epoch, muscle tone reaches its lowest level."
+          },
+          {
+            "word": "sympathetic",
+            "pos": "adj",
+            "ipa": "/ˌsɪm.pəˈθet.ɪk/",
+            "level": "C1",
+            "mean": "thuộc hệ thần kinh giao cảm (điều khiển phản ứng chiến-hay-chạy)",
+            "syns": [
+              "adrenergic",
+              "autonomic"
+            ],
+            "ex": "Sympathetic nervous activity decreases sharply as non-REM sleep deepens."
+          },
+          {
+            "word": "recalibration",
+            "pos": "n",
+            "ipa": "/ˌriː.kæl.ɪˈbreɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự hiệu chuẩn lại, điều chỉnh tái cân bằng các thông số",
+            "syns": [
+              "readjustment",
+              "resetting",
+              "realignment"
+            ],
+            "ex": "Nocturnal immune recalibration restores white blood cell efficiency."
+          },
+          {
+            "word": "pruning",
+            "pos": "n",
+            "ipa": "/ˈpruː.nɪŋ/",
+            "level": "C1",
+            "mean": "sự cắt tỉa, loại bỏ các kết nối thừa",
+            "syns": [
+              "trimming",
+              "weeding out",
+              "selective elimination"
+            ],
+            "ex": "Synaptic pruning eliminates weak neural connections, consolidating memory."
+          },
+          {
+            "word": "depotentiate",
+            "pos": "v",
+            "ipa": "/diː.pəˈten.ʃi.eɪt/",
+            "level": "C1",
+            "mean": "làm suy giảm điện thế hoạt động, làm suy yếu liên kết synap",
+            "syns": [
+              "downscale",
+              "weaken",
+              "attenuate"
+            ],
+            "ex": "The cortex depotentiates noisy synaptic connections to optimize cognitive bandwidth."
+          },
+          {
+            "word": "salient",
+            "pos": "adj",
+            "ipa": "/ˈseɪ.li.ənt/",
+            "level": "C1",
+            "mean": "nổi bật nhất, quan trọng cốt lõi",
+            "syns": [
+              "prominent",
+              "crucial",
+              "significant"
+            ],
+            "ex": "Only salient daytime experiences are consolidated into permanent memory storage."
+          },
+          {
+            "word": "glymphatic",
+            "pos": "adj",
+            "ipa": "/ɡlɪmˈfæt.ɪk/",
+            "level": "C1",
+            "mean": "thuộc hệ thống thải độc đệm thần kinh của não bộ",
+            "syns": [
+              "glial-lymphatic",
+              "cerebral-clearing"
+            ],
+            "ex": "The glymphatic system functions primarily when animals are asleep."
+          },
+          {
+            "word": "macroscopic",
+            "pos": "adj",
+            "ipa": "/ˌmæk.rəˈskɒp.ɪk/",
+            "level": "C1",
+            "mean": "ở quy mô vĩ mô, cấu trúc toàn thể",
+            "syns": [
+              "large-scale",
+              "gross",
+              "visible"
+            ],
+            "ex": "The brain relies on a macroscopic fluid transport network to flush waste."
+          },
+          {
+            "word": "convective",
+            "pos": "adj",
+            "ipa": "/kənˈvek.tɪv/",
+            "level": "C1",
+            "mean": "mang tính đối lưu, chuyển động dòng chảy chất lỏng",
+            "syns": [
+              "advective",
+              "flow-driven",
+              "current-based"
+            ],
+            "ex": "Convective CSF currents wash through brain tissue far faster than simple diffusion."
+          },
+          {
+            "word": "interstitial",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈstɪʃ.əl/",
+            "level": "C1",
+            "mean": "thuộc về các khoảng kẽ giữa các tế bào",
+            "syns": [
+              "intercellular",
+              "extracellular",
+              "tissue-space"
+            ],
+            "ex": "Interstitial fluid carries metabolic waste away from active neurons."
+          },
+          {
+            "word": "periarterial",
+            "pos": "adj",
+            "ipa": "/ˌper.i.ɑːˈtɪə.ri.əl/",
+            "level": "C1",
+            "mean": "nằm xung quanh các động mạch",
+            "syns": [
+              "circumarterial",
+              "artery-adjacent"
+            ],
+            "ex": "Cerebrospinal fluid enters deep brain layers along periarterial pathways."
+          },
+          {
+            "word": "aquaporin",
+            "pos": "n",
+            "ipa": "/ˌæk.wəˈpɔː.rɪn/",
+            "level": "C1",
+            "mean": "kênh protein dẫn nước xuyên qua màng sinh học",
+            "syns": [
+              "water-channel protein",
+              "membrane channel"
+            ],
+            "ex": "Aquaporin-4 channels densely coat the endfeet of astrocytes in the brain."
+          },
+          {
+            "word": "parenchyma",
+            "pos": "n",
+            "ipa": "/pəˈreŋ.kɪ.mə/",
+            "level": "C1",
+            "mean": "nhu mô, mô chức năng chính của cơ quan não",
+            "syns": [
+              "functional tissue",
+              "brain matter"
+            ],
+            "ex": "Fluid pulses flush clean through the parenchyma to remove toxic debris."
+          },
+          {
+            "word": "hyperphosphorylated",
+            "pos": "adj",
+            "ipa": "/ˌhaɪ.pəˌfɒs.fɔː.rɪˈleɪ.tɪd/",
+            "level": "C1",
+            "mean": "bị gắn quá nhiều nhóm phosphate gây biến tính bệnh lý",
+            "syns": [
+              "excessively phosphorylated",
+              "chemically modified"
+            ],
+            "ex": "Hyperphosphorylated tau proteins form neurofibrillary tangles in Alzheimer's disease."
+          },
+          {
+            "word": "pathogenesis",
+            "pos": "n",
+            "ipa": "/ˌpæθ.əˈdʒen.ə.sɪs/",
+            "level": "C1",
+            "mean": "cơ chế phát sinh và diễn tiến bệnh học",
+            "syns": [
+              "disease etiology",
+              "pathophysiology",
+              "development"
+            ],
+            "ex": "Impaired glymphatic clearance is directly linked to the pathogenesis of dementia."
+          },
+          {
+            "word": "protracted",
+            "pos": "adj",
+            "ipa": "/prəˈtræk.tɪd/",
+            "level": "C1",
+            "mean": "bị kéo dài lê thê, kéo dài không dứt",
+            "syns": [
+              "prolonged",
+              "extended",
+              "drawn-out"
+            ],
+            "ex": "Protracted wakefulness leads to severe cognitive and motor impairments."
+          },
+          {
+            "word": "oligomer",
+            "pos": "n",
+            "ipa": "/əˈlɪɡ.ə.mər/",
+            "level": "C1",
+            "mean": "chuỗi oligomer phân tử liên kết ngắn độc tính",
+            "syns": [
+              "molecular cluster",
+              "peptide polymer"
+            ],
+            "ex": "Soluble amyloid oligomers attack synaptic terminals before visible plaques appear."
+          },
+          {
+            "word": "atrophy",
+            "pos": "n",
+            "ipa": "/ˈæt.rə.fi/",
+            "level": "C1",
+            "mean": "sự teo thoái hóa, hao mòn kích thước và chức năng",
+            "syns": [
+              "wasting away",
+              "shrinkage",
+              "degeneration"
+            ],
+            "ex": "Cortical atrophy in the frontal lobes impairs executive decision-making."
+          },
+          {
+            "word": "dysrhythmia",
+            "pos": "n",
+            "ipa": "/dɪsˈrɪð.mi.ə/",
+            "level": "C1",
+            "mean": "sự rối loạn nhịp điệu sinh học tự nhiên",
+            "syns": [
+              "arrhythmia",
+              "rhythm disturbance",
+              "desynchronization"
+            ],
+            "ex": "Circadian dysrhythmia from night-shift work raises long-term metabolic risks."
+          },
+          {
+            "word": "neurogenesis",
+            "pos": "n",
+            "ipa": "/ˌnjʊə.rəʊˈdʒen.ə.sɪs/",
+            "level": "C1",
+            "mean": "quá trình sinh tạo ra các tế bào thần kinh mới",
+            "syns": [
+              "neuronal generation",
+              "brain-cell creation"
+            ],
+            "ex": "Adult hippocampal neurogenesis is essential for spatial learning and mood regulation."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t24_q31",
+            "num": 31,
+            "question": "What is the primary scientific focus of the passage?",
+            "questionVi": "Trọng tâm khoa học chính của đoạn văn là gì?",
+            "questionType": "main_idea",
+            "options": [
+              "The clinical pharmacology of synthetic sleeping pill manufacturing",
+              "The neurobiological mechanisms of circadian sleep cycles, slow-wave restoration, and glymphatic clearance",
+              "The psychological interpretation of dream symbolism in psychoanalytic theory",
+              "The surgical implantation of artificial hypothalamic pacemakers in cardiac patients"
+            ],
+            "optionsVi": [
+              "Dược lý lâm sàng của việc sản xuất thuốc ngủ tổng hợp",
+              "Các cơ chế sinh học thần kinh của chu kỳ giấc ngủ circadian, phục hồi sóng chậm và hệ thống thải độc glymphatic",
+              "Sự giải thích tâm lý học về biểu tượng giấc mơ trong thuyết phân tâm học",
+              "Sự cấy ghép phẫu thuật máy tạo nhịp vùng dưới đồi nhân tạo ở bệnh nhân tim mạch"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Passage covers Process C and Process S, slow-wave sleep physiology, glymphatic waste clearance of amyloid/tau, and the neuropathology of chronic sleep deprivation.",
+            "evidenceVi": "Toàn bài phân tích Tiến trình C và S, sinh lý học giấc ngủ sóng chậm, hệ thống thải độc glymphatic loại bỏ amyloid/tau và bệnh học thần kinh khi thiếu ngủ.",
+            "explanation": "Đoạn văn xem xét chuyên sâu các cơ chế sinh học thần kinh của nhịp ngủ circadian, giấc ngủ sâu NREM và cơ chế thải độc não bộ glymphatic.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Chủ đề khoa học chính (Scientific Main Idea)",
+              "cluePassage": "Across the human lifespan, the sleep-wake cycle is governed by... Process C... Process S... discovery of the glymphatic system... biophysical imperative to preserve cerebral longevity",
+              "clueAnswer": "The neurobiological mechanisms of circadian sleep cycles, slow-wave restoration, and glymphatic clearance",
+              "keyPassage": "sleep-wake cycle... Process C... Process S... slow-wave sleep... glymphatic system... preserve cerebral longevity",
+              "keyAnswer": "neurobiological mechanisms of circadian sleep cycles, slow-wave restoration, and glymphatic clearance",
+              "paraphrasePair": "sleep-wake cycle / slow-wave sleep / glymphatic system <=> neurobiological mechanisms of circadian sleep cycles, slow-wave restoration, and glymphatic clearance",
+              "meaningVi": "cơ chế thần kinh của chu kỳ ngủ circadian, phục hồi sóng chậm và thải độc glymphatic",
+              "deductionLogic": "Khái quát luận điểm xuyên suốt toàn bài đọc."
+            }
+          },
+          {
+            "id": "t24_q32",
+            "num": 32,
+            "question": "According to paragraph 1, what two regulatory forces govern the human sleep-wake cycle?",
+            "questionVi": "Theo đoạn 1, hai lực điều hòa nào chi phối chu kỳ thức - ngủ của con người?",
+            "questionType": "detail",
+            "options": [
+              "Atmospheric barometric pressure and lunar gravitational pull",
+              "Process C (circadian pacemaker in the SCN) and Process S (homeostatic adenosine accumulation)",
+              "Dietary caloric consumption and environmental humidity fluctuations",
+              "Voluntary conscious thought and auditory ear canal vibrations"
+            ],
+            "optionsVi": [
+              "Áp suất khí quyển và lực hút hấp dẫn của mặt trăng",
+              "Tiến trình C (máy tạo nhịp circadian ở SCN) và Tiến trình S (sự tích tụ cân bằng nội môi của adenosine)",
+              "Mức tiêu thụ calo qua chế độ ăn và sự biến động độ ẩm môi trường",
+              "Ý nghĩ có ý thức tự nguyện và rung động ống tai thính giác"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...the sleep-wake cycle is governed by the delicate synchronization between two regulatory forces: Process C, an endogenous circadian pacemaker located within the hypothalamic suprachiasmatic nucleus (SCN), and Process S, the homeostatic accumulation of somnogenic somnogens, primarily adenosine, generated through prolonged waking metabolic expenditure.",
+            "evidenceVi": "...chu kỳ thức - ngủ được chi phối bởi sự đồng bộ tinh tế giữa hai lực điều hòa: Tiến trình C, một máy tạo nhịp sinh học nội sinh nằm trong nhân trên chéo thị giác (SCN) của vùng dưới đồi, và Tiến trình S, sự tích tụ cân bằng nội môi của các chất gây buồn ngủ, chủ yếu là adenosine...",
+            "explanation": "Đoạn 1 nêu rõ mô hình 2 tiến trình nổi tiếng: Process C (nhân SCN vùng dưới đồi) và Process S (tích tụ adenosine do thức lâu).",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết điều hòa thần kinh (Regulatory Neurobiology Detail)",
+              "cluePassage": "Process C, an endogenous circadian pacemaker located within the hypothalamic suprachiasmatic nucleus (SCN), and Process S, the homeostatic accumulation of somnogenic somnogens, primarily adenosine",
+              "clueAnswer": "Process C (circadian pacemaker in the SCN) and Process S (homeostatic adenosine accumulation)",
+              "keyPassage": "Process C, an endogenous circadian pacemaker... and Process S, the homeostatic accumulation of somnogenic somnogens, primarily adenosine",
+              "keyAnswer": "Process C (circadian pacemaker in the SCN) and Process S (homeostatic adenosine accumulation)",
+              "paraphrasePair": "Process C... pacemaker... Process S... accumulation of adenosine <=> Process C (circadian pacemaker in the SCN) and Process S (homeostatic adenosine accumulation)",
+              "meaningVi": "tiến trình C tạo nhịp và tiến trình S tích lũy adenosine",
+              "deductionLogic": "Khớp câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": "t24_q33",
+            "num": 33,
+            "question": "What hormonal and somatic event occurs during deep slow-wave sleep (SWS) described in paragraph 2?",
+            "questionVi": "Sự kiện nội tiết và thể xác nào diễn ra trong giai đoạn giấc ngủ sâu sóng chậm (SWS) được miêu tả ở đoạn 2?",
+            "questionType": "detail",
+            "options": [
+              "Adrenaline and cortisol surge to prepare the body for intense physical sprinting",
+              "Sympathetic tone plummets, blood pressure drops, and human growth hormone (HGH) is secreted to stimulate tissue repair",
+              "The thyroid gland shuts down completely, causing permanent hypothermia",
+              "Digestive stomach enzymes are released directly into the bloodstream"
+            ],
+            "optionsVi": [
+              "Adrenaline và cortisol tăng vọt để chuẩn bị cho cơ thể chạy nước rút cường độ cao",
+              "Trương lực giao cảm giảm mạnh, huyết áp hạ và hormone tăng trưởng (HGH) được tiết ra để kích thích phục hồi mô",
+              "Tuyến giáp ngừng hoạt động hoàn toàn, gây hạ thân nhiệt vĩnh viễn",
+              "Các enzyme tiêu hóa dạ dày được giải phóng trực tiếp vào dòng máu"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "During this slow-wave epoch, systemic sympathetic tone plummets, blood pressure drops, and the anterior pituitary gland secretes massive pulses of human growth hormone (HGH) to stimulate tissue repair, cellular protein synthesis, and immune recalibration.",
+            "evidenceVi": "Trong giai đoạn sóng chậm này, trương lực giao cảm toàn thân giảm mạnh, huyết áp hạ và thùy trước tuyến yên tiết ra các xung hormone tăng trưởng người (HGH) mạnh mẽ để kích thích sửa chữa mô, tổng hợp protein tế bào và hiệu chuẩn lại hệ miễn dịch.",
+            "explanation": "Đoạn 2 nêu rõ: trương lực giao cảm giảm, huyết áp hạ và thùy trước tuyến yên tiết HGH để sửa chữa mô và điều hòa miễn dịch.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết sinh lý học giấc ngủ sâu (Slow-Wave Physiology Detail)",
+              "cluePassage": "sympathetic tone plummets, blood pressure drops, and the anterior pituitary gland secretes massive pulses of human growth hormone (HGH) to stimulate tissue repair",
+              "clueAnswer": "Sympathetic tone plummets, blood pressure drops, and human growth hormone (HGH) is secreted to stimulate tissue repair",
+              "keyPassage": "sympathetic tone plummets, blood pressure drops, and the anterior pituitary gland secretes massive pulses of human growth hormone (HGH)",
+              "keyAnswer": "Sympathetic tone plummets, blood pressure drops, and human growth hormone (HGH) is secreted to stimulate tissue repair",
+              "paraphrasePair": "sympathetic tone plummets... secretes HGH to stimulate tissue repair <=> Sympathetic tone plummets... HGH is secreted to stimulate tissue repair",
+              "meaningVi": "hệ giao cảm dịu xuống và tiết hormone tăng trưởng sửa chữa mô",
+              "deductionLogic": "Khớp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": "t24_q34",
+            "num": 34,
+            "question": "The word 'salient' in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ 'salient' trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "prominent and important",
+              "unconscious and involuntary",
+              "negligible and trivial",
+              "fictional and imagined"
+            ],
+            "optionsVi": [
+              "nổi bật và quan trọng cốt lõi",
+              "vô thức và không tự nguyện",
+              "không đáng kể và tầm phào",
+              "hư cấu và tưởng tượng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...selectively depotentiating redundant neural connections while consolidating salient memories into long-term hippocampal-neocortical networks...",
+            "evidenceVi": "...làm suy yếu có chọn lọc các kết nối thần kinh dư thừa trong khi củng cố những ký ức nổi bật quan trọng vào các mạng lưới hồi hải mã - vỏ não dài hạn...",
+            "explanation": "'Salient' nghĩa là nổi bật, đáng chú ý nhất, trọng yếu, đồng nghĩa với 'prominent and important'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng nhận thức (Cognitive Vocabulary)",
+              "cluePassage": "consolidating salient memories into long-term hippocampal-neocortical networks",
+              "clueAnswer": "prominent and important",
+              "keyPassage": "salient memories",
+              "keyAnswer": "prominent and important",
+              "paraphrasePair": "salient <=> prominent and important",
+              "meaningVi": "nổi bật, quan trọng cốt lõi",
+              "deductionLogic": "Bộ não loại bỏ chi tiết thừa và giữ lại ký ức cốt lõi (salient), tức là prominent and important."
+            }
+          },
+          {
+            "id": "t24_q35",
+            "num": 35,
+            "question": "According to paragraph 3, what primary function does the glymphatic system perform?",
+            "questionVi": "Theo đoạn 3, hệ thống thải độc glymphatic thực hiện chức năng chính nào?",
+            "questionType": "detail",
+            "options": [
+              "It synthesizes hemoglobin for red blood cells in the liver",
+              "It acts as a macroscopic waste clearance pathway purging toxic metabolic byproducts like amyloid-beta and tau",
+              "It produces auditory sound signals when humans are engaged in deep thinking",
+              "It dissolves bone tissue to regulate skeletal calcium levels"
+            ],
+            "optionsVi": [
+              "Nó tổng hợp huyết sắc tố cho các tế bào hồng cầu trong gan",
+              "Nó hoạt động như con đường thanh lọc chất thải vĩ mô loại bỏ các phụ phẩm chuyển hóa độc hại như amyloid-beta và tau",
+              "Nó tạo ra các tín hiệu âm thanh khi con người đang suy nghĩ sâu",
+              "Nó hòa tan mô xương để điều hòa nồng độ canxi trong bộ xương"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...discovery of the glymphatic system, a macroscopic waste clearance pathway heavily active during deep slow-wave sleep... systematically purging toxic metabolic byproducts—most critically soluble amyloid-beta and hyperphosphorylated tau proteins...",
+            "evidenceVi": "...sự phát hiện ra hệ thống glymphatic, một con đường dọn dẹp chất thải vĩ mô hoạt động mạnh mẽ trong giấc ngủ sâu sóng chậm... loại bỏ có hệ thống các phụ phẩm chuyển hóa độc hại—đặc biệt là protein amyloid-beta hòa tan và tau bị phosphoryl hóa quá mức...",
+            "explanation": "Đoạn 3 chỉ ra hệ thống glymphatic là mạng lưới dọn dẹp chất thải (waste clearance pathway) loại bỏ các chất độc thần kinh như amyloid-beta và tau.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết hệ thống glymphatic (Glymphatic System Detail)",
+              "cluePassage": "macroscopic waste clearance pathway heavily active during deep slow-wave sleep... purging toxic metabolic byproducts—most critically soluble amyloid-beta and hyperphosphorylated tau proteins",
+              "clueAnswer": "acts as a macroscopic waste clearance pathway purging toxic metabolic byproducts like amyloid-beta and tau",
+              "keyPassage": "macroscopic waste clearance pathway... purging toxic metabolic byproducts—most critically soluble amyloid-beta and hyperphosphorylated tau proteins",
+              "keyAnswer": "macroscopic waste clearance pathway purging toxic metabolic byproducts like amyloid-beta and tau",
+              "paraphrasePair": "macroscopic waste clearance pathway... purging toxic metabolic byproducts <=> macroscopic waste clearance pathway purging toxic metabolic byproducts",
+              "meaningVi": "con đường dọn dẹp chất thải chuyển hóa độc hại của não",
+              "deductionLogic": "Khớp câu 1 và câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": "t24_q36",
+            "num": 36,
+            "question": "How does slow-wave sleep alter the brain's extracellular interstitial space according to paragraph 3?",
+            "questionVi": "Giấc ngủ sóng chậm làm biến đổi khoảng kẽ ngoại bào của não như thế nào theo đoạn 3?",
+            "questionType": "detail",
+            "options": [
+              "It causes the extracellular space to completely collapse to zero percent",
+              "It facilitates an extraordinary sixty percent expansion, accelerating convective cerebrospinal fluid flux",
+              "It converts all fluid into solid crystalline glucose deposits",
+              "It replaces water channels with air-filled vacuum pockets"
+            ],
+            "optionsVi": [
+              "Nó làm cho khoảng ngoại bào sụp đổ hoàn toàn về mức 0%",
+              "Nó tạo điều kiện cho sự giãn nở phi thường 60%, đẩy nhanh dòng chảy đối lưu của dịch não tủy",
+              "Nó chuyển đổi toàn bộ chất lỏng thành các mảng tinh thể glucose rắn",
+              "Nó thay thế các kênh dẫn nước bằng các túi chân không chứa đầy không khí"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "During slow-wave delta sleep, astrocytic aquaporin-4 (AQP4) water channels facilitate an extraordinary sixty percent expansion of the brain's extracellular interstitial space. This nocturnal volume surge accelerates convective CSF flux through brain parenchyma...",
+            "evidenceVi": "Trong giấc ngủ delta sóng chậm, các kênh nước aquaporin-4 (AQP4) của tế bào hình sao tạo điều kiện cho sự mở rộng phi thường 60% của không gian kẽ ngoại bào của não. Sự gia tăng thể tích ban đêm này đẩy nhanh dòng chảy đối lưu dịch não tủy qua nhu mô não...",
+            "explanation": "Đoạn 3 nêu rõ không gian gian bào mở rộng tới 60% (sixty percent expansion), giúp dòng dịch não tủy CSF cuốn trôi độc tố nhanh hơn.",
+            "postReading": {
+              "type": "detail",
+              "typeLabel": "Chi tiết cơ chế tế bào (Cellular Mechanism Detail)",
+              "cluePassage": "astrocytic aquaporin-4 (AQP4) water channels facilitate an extraordinary sixty percent expansion of the brain's extracellular interstitial space. This nocturnal volume surge accelerates convective CSF flux",
+              "clueAnswer": "facilitates an extraordinary sixty percent expansion, accelerating convective cerebrospinal fluid flux",
+              "keyPassage": "sixty percent expansion of the brain's extracellular interstitial space... accelerates convective CSF flux",
+              "keyAnswer": "sixty percent expansion, accelerating convective cerebrospinal fluid flux",
+              "paraphrasePair": "sixty percent expansion... accelerates convective CSF flux <=> sixty percent expansion, accelerating convective cerebrospinal fluid flux",
+              "meaningVi": "mở rộng 60% không gian gian bào đẩy nhanh dòng đối lưu dịch não tủy",
+              "deductionLogic": "Khớp câu 3-4 đoạn 3."
+            }
+          },
+          {
+            "id": "t24_q37",
+            "num": 37,
+            "question": "The word 'protracted' in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ 'protracted' trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "vocabulary",
+            "options": [
+              "prolonged",
+              "intermittent",
+              "abrupt",
+              "refreshing"
+            ],
+            "optionsVi": [
+              "kéo dài dai dẳng",
+              "gián đoạn ngắt quãng",
+              "đột ngột bất ngờ",
+              "sảng khoái hồi phục"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Protracted wakefulness impedes glymphatic fluid transit, causing the progressive intracranial accumulation of neurotoxic oligomers...",
+            "evidenceVi": "Việc thức kéo dài dai dẳng cản trở dòng chảy của chất lỏng glymphatic, gây ra sự tích tụ nội sọ tăng dần của các chuỗi oligomer có độc tính thần kinh...",
+            "explanation": "'Protracted' nghĩa là kéo dài lê thê, kéo dài quá mức bình thường, đồng nghĩa với 'prolonged' hoặc 'extended'.",
+            "postReading": {
+              "type": "vocabulary",
+              "typeLabel": "Từ vựng ngữ cảnh (Vocabulary Context)",
+              "cluePassage": "Protracted wakefulness impedes glymphatic fluid transit",
+              "clueAnswer": "prolonged",
+              "keyPassage": "Protracted wakefulness",
+              "keyAnswer": "prolonged",
+              "paraphrasePair": "protracted <=> prolonged",
+              "meaningVi": "kéo dài dai dẳng",
+              "deductionLogic": "Tình trạng thức kéo dài nhiều giờ được gọi là protracted wakefulness, tương đương prolonged."
+            }
+          },
+          {
+            "id": "t24_q38",
+            "num": 38,
+            "question": "The phrase 'these nocturnal cleansing and restorative cascades' in paragraph 4 refers to:",
+            "questionVi": "Cụm từ 'these nocturnal cleansing and restorative cascades' trong đoạn 4 ám chỉ điều gì:",
+            "questionType": "reference",
+            "options": [
+              "Hormone synthesis, synaptic pruning, and glymphatic CSF flushing during slow-wave sleep",
+              "The consumption of late-night snacks high in refined sugar",
+              "The surgical drainage of cerebral spinal fluid via lumbar punctures",
+              "The rapid eye movements that accompany intense vivid nightmares"
+            ],
+            "optionsVi": [
+              "Sự tổng hợp hormone, cắt tỉa synap và xả rửa dịch não tủy glymphatic trong giấc ngủ sóng chậm",
+              "Việc tiêu thụ các món ăn nhẹ đêm khuya chứa nhiều đường tinh luyện",
+              "Việc chọc hút phẫu thuật dịch não tủy qua chọc dò tủy sống thắt lưng",
+              "Các chuyển động mắt nhanh đi kèm với những cơn ác mộng sống động mãnh liệt"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Paragraph 2 and 3 describe the secretion of growth hormone, synaptic pruning, and glymphatic clearance of amyloid-beta. Paragraph 4 opens: 'Chronic sleep deprivation... deliver catastrophic consequences by arresting these nocturnal cleansing and restorative cascades.'",
+            "evidenceVi": "Đoạn 2 và 3 mô tả việc tiết hormone tăng trưởng, cắt tỉa khớp thần kinh và xả dịch glymphatic. Đầu đoạn 4 quy chiếu: việc thiếu ngủ làm gián đoạn 'các dòng thác làm sạch và phục hồi ban đêm này'.",
+            "explanation": "Cụm từ quy chiếu tổng kết toàn bộ quá trình phục hồi mô, tiết HGH, cắt tỉa synap và rửa sạch chất độc thần kinh ở 2 đoạn trước.",
+            "postReading": {
+              "type": "reference",
+              "typeLabel": "Cụm từ quy chiếu tổng quát (Comprehensive Referential Phrase)",
+              "cluePassage": "arresting these nocturnal cleansing and restorative cascades. Protracted wakefulness impedes glymphatic fluid transit",
+              "clueAnswer": "Hormone synthesis, synaptic pruning, and glymphatic CSF flushing during slow-wave sleep",
+              "keyPassage": "cleansing and restorative cascades... glymphatic fluid transit",
+              "keyAnswer": "Hormone synthesis, synaptic pruning, and glymphatic CSF flushing during slow-wave sleep",
+              "paraphrasePair": "nocturnal cleansing and restorative cascades <=> Hormone synthesis, synaptic pruning, and glymphatic CSF flushing",
+              "meaningVi": "các dòng thác làm sạch và phục hồi ban đêm",
+              "deductionLogic": "Khớp các quá trình sinh lý mô tả ở đoạn 2 và 3."
+            }
+          },
+          {
+            "id": "t24_q39",
+            "num": 39,
+            "question": "According to paragraph 4, which of the following is NOT described as a consequence of chronic sleep deprivation or circadian dysrhythmia?",
+            "questionVi": "Theo đoạn 4, hiện tượng nào sau đây KHÔNG được miêu tả như một hậu quả của việc thiếu ngủ kinh niên hoặc rối loạn nhịp circadian?",
+            "questionType": "negative_detail",
+            "options": [
+              "Progressive intracranial accumulation of neurotoxic oligomers",
+              "Microglia-mediated neuroinflammation and accelerated cortical atrophy",
+              "Disruption of adult neurogenesis in the dentate gyrus",
+              "Immediate spontaneous regeneration of lost dental teeth"
+            ],
+            "optionsVi": [
+              "Sự tích tụ nội sọ tăng dần của các oligomer có độc tính thần kinh",
+              "Viêm thần kinh qua trung gian tế bào vi bọc đệm và teo vỏ não nhanh",
+              "Sự gián đoạn quá trình sinh tạo nơ-ron mới ở hồi răng (dentate gyrus)",
+              "Sự tái mọc răng tự phát ngay lập tức của các răng đã mất"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Paragraph 4 details: accumulation of neurotoxic oligomers (A), microglia-mediated neuroinflammation and cortical atrophy (B), and disrupting neurogenesis in the dentate gyrus (C). Spontaneous regeneration of dental teeth is unmentioned and absurd.",
+            "evidenceVi": "Đoạn 4 nêu: tích tụ oligomer độc thần kinh (A), viêm thần kinh và teo vỏ não (B), phá vỡ sinh nơ-ron mới ở hồi răng não (C). Tự mọc lại răng đã mất là chi tiết vô lý và bịa đặt.",
+            "explanation": "Phương án D là chi tiết vô căn cứ, không hề xuất hiện trong bài.",
+            "postReading": {
+              "type": "negative_detail",
+              "typeLabel": "Chi tiết loại trừ (Negative Fact Checking)",
+              "cluePassage": "accumulation of neurotoxic oligomers... microglia-mediated neuroinflammation and accelerate cortical atrophy... disrupting neurogenesis in the subgranular zone of the dentate gyrus",
+              "clueAnswer": "Immediate spontaneous regeneration of lost dental teeth",
+              "keyPassage": "neurotoxic oligomers... neuroinflammation... cortical atrophy... disrupting neurogenesis",
+              "keyAnswer": "regeneration of teeth (NOT mentioned)",
+              "paraphrasePair": "oligomers / neuroinflammation / atrophy / neurogenesis vs regeneration of teeth",
+              "meaningVi": "các tổn thương thần kinh thực tế so với chi tiết bịa đặt",
+              "deductionLogic": "Phương án D hoàn toàn không có trong đoạn 4."
+            }
+          },
+          {
+            "id": "t24_q40",
+            "num": 40,
+            "question": "What is the author's ultimate conclusion in the final sentence of the passage?",
+            "questionVi": "Kết luận cuối cùng của tác giả trong câu cuối của bài đọc là gì?",
+            "questionType": "inference",
+            "options": [
+              "Sleep should be restricted to two hours per night to maximize economic factory productivity",
+              "Optimizing sleep architecture is not a mere lifestyle luxury, but an indispensable biophysical imperative to preserve cerebral longevity",
+              "Humans will soon genetically engineer themselves to eliminate the biological need for sleep permanently",
+              "Taking sleeping pills is completely sufficient to replace all natural slow-wave delta sleep stages"
+            ],
+            "optionsVi": [
+              "Nên giới hạn giấc ngủ ở mức 2 giờ mỗi đêm để tối đa hóa năng suất nhà máy kinh tế",
+              "Tối ưu hóa cấu trúc giấc ngủ không đơn thuần là sự xa xỉ trong lối sống, mà là mệnh lệnh lý sinh học tất yếu để bảo tồn tuổi thọ não bộ",
+              "Con người sẽ sớm tự biến đổi gen để loại bỏ vĩnh viễn nhu cầu sinh học phải ngủ",
+              "Uống thuốc ngủ là hoàn toàn đủ để thay thế mọi giai đoạn ngủ sâu sóng delta tự nhiên"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Ultimately, optimizing sleep architecture emerges not merely as a lifestyle luxury, but as an indispensable biophysical imperative to preserve cerebral longevity and avert neurodegenerative decline.",
+            "evidenceVi": "Sau cùng, việc tối ưu hóa cấu trúc giấc ngủ xuất hiện không chỉ đơn thuần là một sự xa xỉ trong lối sống, mà là một mệnh lệnh lý sinh học không thể thiếu để bảo tồn tuổi thọ của não và ngăn ngừa sự suy thoái thần kinh.",
+            "explanation": "Tác giả kết luận giấc ngủ chất lượng là một đòi hỏi lý sinh học bắt buộc (indispensable biophysical imperative) để bảo vệ não bộ khỏi thoái hóa.",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Kết luận tác giả (Author's Final Synthesis)",
+              "cluePassage": "optimizing sleep architecture emerges not merely as a lifestyle luxury, but as an indispensable biophysical imperative to preserve cerebral longevity and avert neurodegenerative decline",
+              "clueAnswer": "Optimizing sleep architecture is not a mere lifestyle luxury, but an indispensable biophysical imperative to preserve cerebral longevity",
+              "keyPassage": "not merely as a lifestyle luxury, but as an indispensable biophysical imperative to preserve cerebral longevity and avert neurodegenerative decline",
+              "keyAnswer": "not a mere lifestyle luxury, but an indispensable biophysical imperative to preserve cerebral longevity",
+              "paraphrasePair": "not merely as a lifestyle luxury, but as an indispensable biophysical imperative <=> not a mere lifestyle luxury, but an indispensable biophysical imperative",
+              "meaningVi": "mệnh lệnh lý sinh học bắt buộc để bảo vệ tuổi thọ não bộ",
+              "deductionLogic": "Khớp câu cuối cùng của đoạn 4."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
