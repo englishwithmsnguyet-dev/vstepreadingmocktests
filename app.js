@@ -1553,6 +1553,7 @@ function renderPracticeView() {
     const test24 = tests.find(t => t.testNum === 24);
     const test25 = tests.find(t => t.testNum === 25);
     const test26 = tests.find(t => t.testNum === 26);
+    const test27 = tests.find(t => t.testNum === 27);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -4311,90 +4312,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 17. BỘ ĐỀ THỰC CHIẾN 17 (TEST 27) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 17. BỘ ĐỀ THỰC CHIẾN 17 (TEST 27) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite27') {
+        const savedAnsCount27 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 27) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved27 = state.savedExam && state.savedExam.testNum === 27 && savedAnsCount27 > 0;
+        const totalVocab27 = (test27 && test27.passages) ? test27.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta27 = [
+            {
+                testNum: 27,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'digital_detox_mindfulness',
+                categoryName: 'Tâm lý học hành vi & Chánh niệm số',
+                categoryColor: '#6366f1',
+                badgeBg: '#e0e7ff',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Digital-Detox Mindfulness Retreat in Thailand',
+                icon: 'fa-spa',
+                title: 'Digital-Detox Mindfulness Retreats in Thailand: Screen Fatigue & Renewal',
+                titleVi: 'Khóa tu chánh niệm ngắt kết nối số tại Thái Lan: Giảm kiệt quệ màn hình',
+                summary: 'Thực trạng kiệt quệ tinh thần vì màn hình, quy trình cai nghiện thiết bị tại miền bắc Thái Lan, phục hồi nhịp sinh học và thiết lập quy tắc ranh giới số bền vững.'
+            },
+            {
+                testNum: 27,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'vietnamese_coffee_trade',
+                categoryName: 'Kinh tế nông nghiệp & Di sản ẩm thực',
+                categoryColor: '#10b981',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: Vietnamese Coffee: Culture & Export Industry',
+                icon: 'fa-mug-hot',
+                title: 'Vietnamese Coffee: Culture, Cultivation & Global Robusta Trade',
+                titleVi: 'Cà phê Việt Nam: Văn hóa, Canh tác & Ngành xuất khẩu Robusta toàn cầu',
+                summary: 'Lịch sử du nhập từ thế kỷ 19, điều kiện thổ nhưỡng bazan Tây Nguyên, sự bùng nổ sau Đổi Mới, văn hóa cà phê phin vỉa hè và cuộc cách mạng Fine Robusta chất lượng cao.'
+            },
+            {
+                testNum: 27,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'video_games_psychology',
+                categoryName: 'Tâm lý học truyền thông & Hành vi vị thành niên',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Psychological Impacts of Violent Video Games',
+                icon: 'fa-gamepad',
+                title: 'Psychological Impacts of Violent Video Games: The Empirical Debate',
+                titleVi: 'Tác động tâm lý của trò chơi điện tử bạo lực: Cuộc tranh luận thực nghiệm',
+                summary: 'Mô hình gây hấn tổng quát (GAM) đối chiếu với các nghiên cứu dọc, vai trò của biến số gia đình/xã hội, cơ chế giải tỏa căng thẳng (catharsis) và kỹ năng hợp tác đồng đội.'
+            },
+            {
+                testNum: 27,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'biodiversity_loss_extinction',
+                categoryName: 'Sinh học bảo tồn & Sinh thái học cảnh quan',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Global Biodiversity Loss & Extinction',
+                icon: 'fa-seedling',
+                title: 'Global Biodiversity Loss: Habitat Fragmentation, Invasive Species & Collapse',
+                titleVi: 'Mất đa dạng sinh học toàn cầu: Phân mảnh sinh cảnh & Tuyệt chủng loài',
+                summary: 'Kỷ nguyên Nhân sinh và tốc độ tuyệt chủng phi tự nhiên, thoái hóa cận huyết do phân mảnh, thảm họa loài xâm lấn và giải pháp kết nối hành lang sinh thái quy mô lớn.'
+            }
+        ];
+
+        let pCardsHtml27 = '';
+        passagesMeta27.forEach(meta => {
+            const pData = (test27 && test27.passages) ? test27.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml27 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-27">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-17" id="suite-box-27">
+                <div class="practice-suite-header suite-header-17">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(16, 185, 129, 0.25); color: #6ee7b7; border-color: rgba(16, 185, 129, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 17 (TEST 27) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #6ee7b7;"></i> BỘ ĐỀ THỰC CHIẾN 17 (TEST 27) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 17 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Khóa tu thiền cai nghiện công nghệ tại Thái Lan (Part 1) • Văn hóa & Ngành xuất khẩu Cà phê Việt Nam (Part 2) • Tác động tâm lý game bạo lực (Part 3) • Mất đa dạng sinh học & Tuyệt chủng loài (Part 4)
+                            <strong>4 Topics:</strong> Cai nghiện số tại Thái Lan (Part 1) • Cà phê Việt Nam (Part 2) • Tác động game bạo lực (Part 3) • Mất đa dạng sinh học (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật (Đã khử trùng Sao Hải Vương & Cà phê)</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab27} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(27)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab27} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved27 ? 'background: linear-gradient(135deg, #064e3b, #10b981) !important;' : ''}" onclick="${isSaved27 ? 'resumeSavedExam()' : 'startFullExam(27)'}">
+                            ${isSaved27 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount27}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(27)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #10b981;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 17):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Digital-Detox Mindfulness Retreat in Thailand</h4>
-                                <h5>Khóa tu chánh niệm tại Thái Lan giúp học sinh tách khỏi công nghệ số</h5>
-                                <p>Trải nghiệm các khóa thiền Phật giáo tại vùng núi Thái Lan giúp học sinh cai nghiện smartphone, phục hồi sự tập trung và cân bằng cảm xúc.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#6366f1;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Vietnamese Coffee: Culture & Export Industry</h4>
-                                <h5>Cà phê Việt Nam: Từ phin truyền thống đến cường quốc xuất khẩu Robusta</h5>
-                                <p>Hành trình phát triển từ Tây Nguyên vươn ra top 2 thế giới, văn hóa thưởng thức cà phê phin - cà phê trứng và xu hướng nâng tầm hạt đặc sản bền vững.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Psychological Impacts of Violent Video Games</h4>
-                                <h5>Tác động tâm lý của trò chơi điện tử bạo lực: Tranh luận khoa học</h5>
-                                <p>Đối chiếu hai luồng nghiên cứu tâm lý học: giả thuyết chai sạn cảm xúc và kích thích hung hăng với quan điểm phản biện cho rằng game là công cụ giải tỏa căng thẳng.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Global Biodiversity Loss & Extinction</h4>
-                                <h5>Mất đa dạng sinh học toàn cầu & Nguy cơ đại tuyệt chủng lần thứ sáu</h5>
-                                <p>Phân tích các động lực suy giảm hệ sinh thái gồm phân mảnh sinh cảnh, loài ngoại lai xâm lấn và các chiến lược bảo tồn hành lang sinh học quốc tế.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml27}
                     </div>
                 </div>
             </div>

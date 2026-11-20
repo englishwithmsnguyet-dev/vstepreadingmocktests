@@ -64687,6 +64687,2613 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST27",
+    "testNum": 27,
+    "title": "VSTEP READING MOCK TEST 27",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 17 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Digital-Detox Mindfulness Retreats in Thailand",
+        "topic": "Khóa tu chánh niệm tại Thái Lan giúp học sinh tách khỏi công nghệ số, phục hồi sự tập trung và cân bằng tâm lý",
+        "timeAllowed": 15,
+        "passage": "<p>In an era dominated by perpetual screen time and digital notifications, a burgeoning number of adolescents and students are experiencing chronic cognitive fatigue, social anxiety, and diminished attention spans. In response to this modern malaise, specialized digital-detox retreats situated in the serene mountainous landscapes of northern Thailand—particularly around Chiang Mai and Mae Hong Son—have emerged as popular havens. These immersive sanctuaries require participants to surrender their smartphones, tablets, and gaming consoles upon arrival, embarking on a structured regimen that combines secular mindfulness, communal living, and outdoor physical exploration.</p><p>The retreat curriculum is purposefully calibrated to help young participants deconstruct their compulsive digital habits. Days commence at dawn with guided walking meditation through lush bamboo forests, encouraging individuals to observe ambient sensory stimuli without the intermediary lens of a camera lens or social media interface. Group workshops explore how algorithm-driven applications intentionally exploit human dopamine feedback loops to induce psychological dependency. By actively analyzing these mechanisms, adolescents gain critical awareness regarding their compulsive screen checking, gradually replacing habitual scrolling with journal writing, contemplative silent meals, and cooperative gardening projects.</p><p>While the initial forty-eight hours often trigger acute restlessness, phantom vibration syndrome, and mild irritability among participants, noticeable emotional equilibrium typically manifests by the fourth day. Without the incessant pressure to curate idealized online personas or respond instantaneously to peer messages, attendees report substantial decreases in cortisol levels and restorative sleep patterns. Facetime interactions evolve naturally; teenagers who initially expressed social awkwardness discover genuine interpersonal camaraderie around evening campfires, engaging in unscripted conversations about life aspirations, academic anxieties, and family relationships.</p><p>The ultimate efficacy of digital-detox programs hinges upon sustainable post-retreat reintegration. Retreat facilitators emphasize that total technological abstinence is neither realistic nor desirable in our digitized global economy. Instead, participants draft personalized digital management blueprints before returning home, establishing practical boundary protocols such as smartphone-free bedrooms, dedicated offline study windows, and designated family conversation hours. By reframing technology as a deliberate tool rather than an omnipresent distraction, young individuals cultivate resilient digital hygiene that supports long-term emotional well-being.</p>",
+        "vocab": [
+          {
+            "word": "perpetual",
+            "pos": "adjective",
+            "ipa": "/pəˈpetʃ.u.əl/",
+            "level": "B2",
+            "mean": "vĩnh viễn, liên tục không ngừng",
+            "syns": [
+              "ceaseless",
+              "incessant",
+              "continuous"
+            ],
+            "ex": "Young people face perpetual streams of alerts and social notifications throughout the day."
+          },
+          {
+            "word": "malaise",
+            "pos": "noun",
+            "ipa": "/məˈleɪz/",
+            "level": "C1",
+            "mean": "tình trạng bất ổn, cảm giác khó chịu chung",
+            "syns": [
+              "unease",
+              "discomfort",
+              "restlessness"
+            ],
+            "ex": "Chronic fatigue is a symptom of a broader psychological malaise caused by screen overload."
+          },
+          {
+            "word": "haven",
+            "pos": "noun",
+            "ipa": "/ˈheɪ.vən/",
+            "level": "B2",
+            "mean": "nơi trú ẩn an toàn, nơi thanh tịnh",
+            "syns": [
+              "sanctuary",
+              "refuge",
+              "shelter"
+            ],
+            "ex": "The mountain monastery serves as a peaceful haven far away from bustling city traffic."
+          },
+          {
+            "word": "surrender",
+            "pos": "verb",
+            "ipa": "/səˈren.dər/",
+            "level": "B1",
+            "mean": "giao nộp, từ bỏ quyền nắm giữ",
+            "syns": [
+              "relinquish",
+              "hand over",
+              "yield"
+            ],
+            "ex": "Students must surrender their mobile phones to the facilitators at the beginning of the program."
+          },
+          {
+            "word": "secular",
+            "pos": "adjective",
+            "ipa": "/ˈsek.jə.lər/",
+            "level": "B2",
+            "mean": "thế tục, phi tôn giáo",
+            "syns": [
+              "non-religious",
+              "worldly",
+              "lay"
+            ],
+            "ex": "The retreat teaches secular mindfulness techniques that can be practiced by anyone regardless of faith."
+          },
+          {
+            "word": "calibrated",
+            "pos": "adjective",
+            "ipa": "/ˈkæl.ɪ.breɪ.tɪd/",
+            "level": "B2",
+            "mean": "được căn chỉnh chính xác, được thiết kế kỹ lưỡng",
+            "syns": [
+              "adjusted",
+              "fine-tuned",
+              "tailored"
+            ],
+            "ex": "The course schedule is carefully calibrated to reduce stress and promote deep psychological relaxation."
+          },
+          {
+            "word": "compulsive",
+            "pos": "adjective",
+            "ipa": "/kəmˈpʌl.sɪv/",
+            "level": "B2",
+            "mean": "có tính cưỡng chế, không cưỡng lại được",
+            "syns": [
+              "obsessive",
+              "uncontrollable",
+              "habitual"
+            ],
+            "ex": "She recognized her compulsive urge to refresh her social media feed every few minutes."
+          },
+          {
+            "word": "intermediary",
+            "pos": "adjective",
+            "ipa": "/ˌɪn.təˈmiː.di.ə.ri/",
+            "level": "B2",
+            "mean": "mang tính trung gian, làm cầu nối",
+            "syns": [
+              "mediating",
+              "intermediate",
+              "intervening"
+            ],
+            "ex": "They learned to observe nature directly without the intermediary barrier of a mobile camera screen."
+          },
+          {
+            "word": "exploit",
+            "pos": "verb",
+            "ipa": "/ɪkˈsplɔɪt/",
+            "level": "B2",
+            "mean": "khai thác, lợi dụng",
+            "syns": [
+              "leverage",
+              "capitalize on",
+              "manipulate"
+            ],
+            "ex": "Many modern applications exploit subconscious human psychological vulnerabilities for profit."
+          },
+          {
+            "word": "dependency",
+            "pos": "noun",
+            "ipa": "/dɪˈpen.dən.si/",
+            "level": "B2",
+            "mean": "sự phụ thuộc, tình trạng lệ thuộc",
+            "syns": [
+              "reliance",
+              "addiction",
+              "subordination"
+            ],
+            "ex": "Continuous dopamine rewards foster an unhealthy dependency on digital feedback."
+          },
+          {
+            "word": "contemplative",
+            "pos": "adjective",
+            "ipa": "/kənˈtem.plə.tɪv/",
+            "level": "B2",
+            "mean": "mang tính chiêm nghiệm, suy tưởng",
+            "syns": [
+              "reflective",
+              "meditative",
+              "introspective"
+            ],
+            "ex": "Eating meals in contemplative silence helped participants appreciate the texture and flavor of food."
+          },
+          {
+            "word": "acute",
+            "pos": "adjective",
+            "ipa": "/əˈkjuːt/",
+            "level": "B2",
+            "mean": "dữ dội, cấp tính, gay gắt",
+            "syns": [
+              "intense",
+              "severe",
+              "sharp"
+            ],
+            "ex": "In the opening days, participants frequently experience acute feelings of digital withdrawal."
+          },
+          {
+            "word": "restlessness",
+            "pos": "noun",
+            "ipa": "/ˈrest.ləs.nəs/",
+            "level": "B2",
+            "mean": "sự bồn chồn, trạng thái không yên",
+            "syns": [
+              "agitation",
+              "uneasiness",
+              "fidgetiness"
+            ],
+            "ex": "Physical restlessness is a normal reaction when familiar handheld stimulation is abruptly removed."
+          },
+          {
+            "word": "equilibrium",
+            "pos": "noun",
+            "ipa": "/ˌiː.kwəˈlɪb.ri.əm/",
+            "level": "B2",
+            "mean": "trạng thái cân bằng, sự bình tâm",
+            "syns": [
+              "balance",
+              "stability",
+              "serenity"
+            ],
+            "ex": "By the fourth day of the camp, students restore their mental and emotional equilibrium."
+          },
+          {
+            "word": "manifest",
+            "pos": "verb",
+            "ipa": "/ˈmæn.ɪ.fest/",
+            "level": "B2",
+            "mean": "biểu hiện rõ ràng, xuất hiện",
+            "syns": [
+              "appear",
+              "materialize",
+              "reveal itself"
+            ],
+            "ex": "Signs of genuine calm and focus begin to manifest as the digital distraction subsides."
+          },
+          {
+            "word": "curate",
+            "pos": "verb",
+            "ipa": "/kjʊəˈreɪt/",
+            "level": "B2",
+            "mean": "chọn lọc và chăm chút trưng bày, tạo dựng hình ảnh",
+            "syns": [
+              "organize",
+              "cultivate",
+              "orchestrate"
+            ],
+            "ex": "Teenagers feel exhausted when constantly pressured to curate flawless virtual identities online."
+          },
+          {
+            "word": "persona",
+            "pos": "noun",
+            "ipa": "/pəˈsəʊ.nə/",
+            "level": "B2",
+            "mean": "hình tượng công chúng, nhân cách thể hiện ra ngoài",
+            "syns": [
+              "public image",
+              "facade",
+              "identity"
+            ],
+            "ex": "Her online persona appeared confident and cheerful, contrasting sharply with her private insecurities."
+          },
+          {
+            "word": "restorative",
+            "pos": "adjective",
+            "ipa": "/rɪˈstɔː.rə.tɪv/",
+            "level": "B2",
+            "mean": "phục hồi sức khỏe, bồi bổ năng lượng",
+            "syns": [
+              "recuperative",
+              "healing",
+              "revitalizing"
+            ],
+            "ex": "Eliminating nighttime blue light exposure enabled deeper, more restorative sleep cycles."
+          },
+          {
+            "word": "camaraderie",
+            "pos": "noun",
+            "ipa": "/ˌkæm.əˈrɑː.dər.i/",
+            "level": "C1",
+            "mean": "tình bạn thân thiết, tình đồng chí",
+            "syns": [
+              "fellowship",
+              "brotherhood",
+              "solidarity"
+            ],
+            "ex": "A profound sense of camaraderie developed among students as they shared personal stories around the fire."
+          },
+          {
+            "word": "unscripted",
+            "pos": "adjective",
+            "ipa": "/ʌnˈskrɪp.tɪd/",
+            "level": "B2",
+            "mean": "không theo kịch bản trước, tự nhiên ngẫu hứng",
+            "syns": [
+              "spontaneous",
+              "unrehearsed",
+              "impromptu"
+            ],
+            "ex": "The teenagers engaged in genuine unscripted discussions without the filter of pre-planned social posts."
+          },
+          {
+            "word": "efficacy",
+            "pos": "noun",
+            "ipa": "/ˈef.ɪ.kə.si/",
+            "level": "B2",
+            "mean": "hiệu lực, tính hiệu quả thực tế",
+            "syns": [
+              "effectiveness",
+              "potency",
+              "success"
+            ],
+            "ex": "The long-term efficacy of the camp depends on the habits students maintain after arriving home."
+          },
+          {
+            "word": "hinge",
+            "pos": "verb",
+            "ipa": "/hɪndʒ/",
+            "level": "B2",
+            "mean": "xoay quanh, phụ thuộc chủ yếu vào",
+            "syns": [
+              "depend",
+              "pivot",
+              "rely"
+            ],
+            "ex": "Lasting behavioural transformation hinges upon setting firm boundaries in everyday life."
+          },
+          {
+            "word": "reintegration",
+            "pos": "noun",
+            "ipa": "/ˌriː.ɪn.tɪˈɡreɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự tái hòa nhập, sự thích nghi trở lại",
+            "syns": [
+              "reassimilation",
+              "reincorporation",
+              "readjustment"
+            ],
+            "ex": "A smooth reintegration into normal schooling requires gradual reintroduction of academic devices."
+          },
+          {
+            "word": "abstinence",
+            "pos": "noun",
+            "ipa": "/ˈæb.stɪ.nəns/",
+            "level": "B2",
+            "mean": "sự kiêng cữ hoàn toàn, sự nhịn",
+            "syns": [
+              "refraining",
+              "avoidance",
+              "temperance"
+            ],
+            "ex": "Total digital abstinence is impractical for teenagers who must complete online homework assignments."
+          },
+          {
+            "word": "blueprint",
+            "pos": "noun",
+            "ipa": "/ˈbluː.prɪnt/",
+            "level": "B2",
+            "mean": "bản kế hoạch chi tiết, phác thảo hành động",
+            "syns": [
+              "roadmap",
+              "master plan",
+              "scheme"
+            ],
+            "ex": "Each teenager created a personalized blueprint outlining how many hours they would spend online."
+          },
+          {
+            "word": "omnipresent",
+            "pos": "adjective",
+            "ipa": "/ˌɒm.nɪˈprez.ənt/",
+            "level": "C1",
+            "mean": "có mặt ở khắp nơi, tràn ngập",
+            "syns": [
+              "ubiquitous",
+              "pervasive",
+              "everywhere"
+            ],
+            "ex": "Smartphones have become omnipresent devices that intrude on quiet family dining moments."
+          },
+          {
+            "word": "hygiene",
+            "pos": "noun",
+            "ipa": "/ˈhaɪ.dʒiːn/",
+            "level": "B2",
+            "mean": "thói quen lành mạnh, vệ sinh nếp sống",
+            "syns": [
+              "habits",
+              "cleanliness",
+              "discipline"
+            ],
+            "ex": "Practicing healthy digital hygiene involves shutting off screens at least one hour before bedtime."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t27_q1",
+            "num": 1,
+            "question": "What is the primary topic of the passage?",
+            "questionVi": "Chủ đề chính của đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "The financial profitability of wellness resorts in northern Thailand",
+              "The nature and therapeutic outcomes of digital-detox retreats for youth",
+              "Technological regulations required to limit youth smartphone usage",
+              "The religious philosophy behind traditional Buddhist meditation"
+            ],
+            "optionsVi": [
+              "Lợi nhuận tài chính của các khu nghỉ dưỡng chăm sóc sức khỏe tại miền bắc Thái Lan",
+              "Bản chất và kết quả trị liệu của các khóa tu ngắt kết nối số dành cho thanh thiếu niên",
+              "Các quy định công nghệ cần thiết để hạn chế việc dùng smartphone của giới trẻ",
+              "Triết lý tôn giáo đằng sau thiền định Phật giáo truyền thống"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "specialized digital-detox retreats situated in the serene mountainous landscapes of northern Thailand... have emerged as popular havens. These immersive sanctuaries require participants to surrender their smartphones... embarking on a structured regimen that combines secular mindfulness, communal living, and outdoor physical exploration.",
+            "evidenceVi": "các khóa tu ngắt kết nối kỹ thuật số chuyên biệt tọa lạc trên các vùng núi non thanh bình ở miền bắc Thái Lan... đã nổi lên như những nơi trú ẩn thịnh hành. Những không gian này yêu cầu học viên giao nộp điện thoại... bước vào một liệu trình kết hợp chánh niệm thế tục, đời sống cộng đồng và hoạt động ngoài trời.",
+            "explanation": "Toàn bài phân tích bối cảnh, hoạt động rèn luyện chánh niệm, diễn biến phục hồi tâm lý và kế hoạch tái hòa nhập của các khóa tu cai nghiện kỹ thuật số ở Thái Lan dành cho giới trẻ, do đó đáp án B là chính xác nhất.",
+            "postReading": {
+              "original": "These immersive sanctuaries require participants to surrender their smartphones... embarking on a structured regimen that combines secular mindfulness, communal living, and outdoor physical exploration.",
+              "paraphrase": "The retreat centers mandate giving up electronic devices and participating in organized non-religious meditation, community lifestyle, and nature-based activities.",
+              "analysis": "Cụm 'surrender their smartphones' được viết lại thành 'giving up electronic devices', và 'structured regimen that combines secular mindfulness...' trở thành 'organized non-religious meditation...'."
+            }
+          },
+          {
+            "id": "t27_q2",
+            "num": 2,
+            "question": "According to paragraph 1, why have digital-detox retreats gained popularity among young people?",
+            "questionVi": "Theo đoạn 1, vì sao các khóa tu ngắt kết nối kỹ thuật số lại trở nên phổ biến đối với giới trẻ?",
+            "questionType": "Detail",
+            "options": [
+              "Adolescents seek luxury vacation accommodations in Southeast Asia",
+              "School systems require students to complete outdoor survival training",
+              "Adolescents face chronic mental exhaustion, social anxiety, and poor attention from excessive screen exposure",
+              "Parents wish to isolate their children permanently from all future digital employment"
+            ],
+            "optionsVi": [
+              "Thanh thiếu niên tìm kiếm chỗ nghỉ dưỡng sang trọng ở Đông Nam Á",
+              "Hệ thống trường học bắt buộc học sinh hoàn thành huấn luyện sinh tồn ngoài trời",
+              "Thanh thiếu niên đối mặt với kiệt quệ tinh thần mãn tính, lo âu xã hội và kém tập trung do màn hình quá mức",
+              "Phụ huynh muốn cách ly vĩnh viễn con cái khỏi các công việc kỹ thuật số trong tương lai"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "In an era dominated by perpetual screen time and digital notifications, a burgeoning number of adolescents and students are experiencing chronic cognitive fatigue, social anxiety, and diminished attention spans. In response to this modern malaise, specialized digital-detox retreats... have emerged as popular havens.",
+            "evidenceVi": "Trong kỷ nguyên bị chi phối bởi thời gian nhìn màn hình và thông báo số liên tục, ngày càng nhiều thanh thiếu niên bị kiệt quệ nhận thức mãn tính, lo âu xã hội và giảm sút khả năng chú ý. Để ứng phó với căn bệnh thời hiện đại này, các khóa tu ngắt kết nối số... đã nổi lên.",
+            "explanation": "Đoạn 1 nêu rõ lý do ra đời và thu hút của các khóa tu là nhằm chữa lành 'chronic cognitive fatigue, social anxiety, and diminished attention spans' bắt nguồn từ việc dán mắt vào màn hình liên tục.",
+            "postReading": {
+              "original": "a burgeoning number of adolescents and students are experiencing chronic cognitive fatigue, social anxiety, and diminished attention spans.",
+              "paraphrase": "Growing numbers of young learners suffer from persistent mental burnout, interpersonal apprehension, and weakened concentration.",
+              "analysis": "'Burgeoning' = 'growing'; 'chronic cognitive fatigue' = 'persistent mental burnout'; 'diminished attention spans' = 'weakened concentration'."
+            }
+          },
+          {
+            "id": "t27_q3",
+            "num": 3,
+            "question": "The word \"surrender\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"surrender\" trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "relinquish",
+              "repair",
+              "recharge",
+              "upgrade"
+            ],
+            "optionsVi": [
+              "từ bỏ, giao nộp",
+              "sửa chữa",
+              "sạc pin",
+              "nâng cấp"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "These immersive sanctuaries require participants to surrender their smartphones, tablets, and gaming consoles upon arrival...",
+            "evidenceVi": "Những nơi trú ẩn nhập vai này đòi hỏi học viên phải giao nộp điện thoại thông minh, máy tính bảng và máy chơi game khi vừa đến...",
+            "explanation": "'Surrender' ở đây có nghĩa là nộp lại, buông bỏ việc giữ thiết bị, đồng nghĩa với 'relinquish' (từ bỏ, bàn giao).",
+            "postReading": {
+              "original": "require participants to surrender their smartphones, tablets, and gaming consoles upon arrival",
+              "paraphrase": "mandate that attendees turn over their handheld electronic gadgets when they check in",
+              "analysis": "'Surrender' tương đương 'turn over' hoặc 'relinquish' tài sản tạm thời."
+            }
+          },
+          {
+            "id": "t27_q4",
+            "num": 4,
+            "question": "What is one specific educational activity conducted during retreat workshops as described in paragraph 2?",
+            "questionVi": "Một hoạt động giáo dục cụ thể được tiến hành trong các buổi hội thảo tại khóa tu như được miêu tả ở đoạn 2 là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Learning how to code smartphone applications for profit",
+              "Examining how algorithmic designs trigger biological dopamine feedback to create compulsion",
+              "Practicing competitive video gaming without internet access",
+              "Writing marketing slogans for travel agencies in Thailand"
+            ],
+            "optionsVi": [
+              "Học cách viết mã ứng dụng điện thoại để kiếm lời",
+              "Phân tích cách thiết kế thuật toán kích hoạt vòng phản hồi dopamine sinh học tạo nghiện",
+              "Thực hành chơi game đối kháng không cần mạng internet",
+              "Viết khẩu hiệu tiếp thị cho các công ty du lịch tại Thái Lan"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Group workshops explore how algorithm-driven applications intentionally exploit human dopamine feedback loops to induce psychological dependency. By actively analyzing these mechanisms, adolescents gain critical awareness...",
+            "evidenceVi": "Các buổi hội thảo nhóm khám phá cách các ứng dụng dựa trên thuật toán cố tình khai thác các vòng lặp phản hồi dopamine của con người để gây ra sự lệ thuộc tâm lý. Bằng cách chủ động phân tích các cơ chế này, thanh thiếu niên có được nhận thức phản biện...",
+            "explanation": "Đoạn 2 nêu rõ học viên tham gia workshop tìm hiểu về cách các ứng dụng khai thác vòng lặp dopamine để tạo ra sự lệ thuộc, từ đó nâng cao nhận thức của bản thân.",
+            "postReading": {
+              "original": "Group workshops explore how algorithm-driven applications intentionally exploit human dopamine feedback loops to induce psychological dependency.",
+              "paraphrase": "Seminars analyze the intentional manipulation of neural dopamine systems by platform algorithms to generate compulsive usage.",
+              "analysis": "'Algorithm-driven applications intentionally exploit...' được chuyển thành 'intentional manipulation of neural dopamine systems by platform algorithms...'."
+            }
+          },
+          {
+            "id": "t27_q5",
+            "num": 5,
+            "question": "The word \"acute\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"acute\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "slight",
+              "severe",
+              "prolonged",
+              "unnoticed"
+            ],
+            "optionsVi": [
+              "nhẹ, mờ nhạt",
+              "gay gắt, dữ dội",
+              "kéo dài âm ỉ",
+              "không được nhận biết"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "While the initial forty-eight hours often trigger acute restlessness, phantom vibration syndrome, and mild irritability among participants...",
+            "evidenceVi": "Mặc dù 48 giờ đầu tiên thường gây ra sự bồn chồn gay gắt, hội chứng rung điện thoại ảo và sự cáu kỉnh nhẹ ở các học viên...",
+            "explanation": "'Acute' chỉ mức độ mãnh liệt, dữ dội, cấp tính của các cảm giác bứt rứt trong giai đoạn đầu cai nghiện thiết bị, đồng nghĩa với 'severe' hoặc 'intense'.",
+            "postReading": {
+              "original": "While the initial forty-eight hours often trigger acute restlessness, phantom vibration syndrome, and mild irritability",
+              "paraphrase": "Although the first two days commonly provoke intense agitation, false sensation of incoming calls, and temperamental touchiness",
+              "analysis": "'Acute restlessness' tương đương 'intense agitation'; 'forty-eight hours' = 'first two days'."
+            }
+          },
+          {
+            "id": "t27_q6",
+            "num": 6,
+            "question": "According to paragraph 3, what psychological transformation typically occurs around the fourth day of the retreat?",
+            "questionVi": "Theo đoạn 3, sự biến chuyển tâm lý nào thường xảy ra vào khoảng ngày thứ tư của khóa tu?",
+            "questionType": "Detail",
+            "options": [
+              "Participants request an immediate termination of their stay",
+              "Participants show lower stress hormones, sounder sleep, and easier face-to-face bonding",
+              "Attendees refuse to participate in campfire discussions with peers",
+              "Teenagers begin secretly purchasing replacement digital devices"
+            ],
+            "optionsVi": [
+              "Học viên yêu cầu dừng ngay kỳ nghỉ để về nhà",
+              "Học viên thể hiện mức hormone căng thẳng giảm, giấc ngủ sâu hơn và dễ dàng gắn kết trực tiếp",
+              "Học viên từ chối tham gia các buổi trò chuyện bên đống lửa cùng bạn bè",
+              "Thanh thiếu niên bắt đầu lén mua các thiết bị công nghệ thay thế"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "noticeable emotional equilibrium typically manifests by the fourth day. Without the incessant pressure to curate idealized online personas or respond instantaneously to peer messages, attendees report substantial decreases in cortisol levels and restorative sleep patterns. Facetime interactions evolve naturally...",
+            "evidenceVi": "sự cân bằng cảm xúc rõ rệt thường xuất hiện vào ngày thứ tư. Không còn áp lực triền miên phải tô vẽ hình tượng ảo hay trả lời tin nhắn tức thì, học viên ghi nhận mức cortisol giảm đáng kể và có được giấc ngủ phục hồi. Các tương tác trực tiếp diễn ra tự nhiên...",
+            "explanation": "Đoạn 3 khẳng định đến ngày thứ 4 học viên đạt được cân bằng cảm xúc, giảm cortisol (hormone căng thẳng), ngủ ngon hơn và xây dựng tình bạn chân thật.",
+            "postReading": {
+              "original": "attendees report substantial decreases in cortisol levels and restorative sleep patterns.",
+              "paraphrase": "participants experience markedly lower stress hormone concentrations alongside rejuvenating nightly rest.",
+              "analysis": "'Substantial decreases in cortisol levels' = 'markedly lower stress hormone concentrations'; 'restorative sleep patterns' = 'rejuvenating nightly rest'."
+            }
+          },
+          {
+            "id": "t27_q7",
+            "num": 7,
+            "question": "The word \"omnipresent\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"omnipresent\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "ubiquitous",
+              "invisible",
+              "temporary",
+              "worthless"
+            ],
+            "optionsVi": [
+              "có mặt khắp nơi, phổ biến",
+              "vô hình",
+              "tạm thời",
+              "vô giá trị"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By reframing technology as a deliberate tool rather than an omnipresent distraction, young individuals cultivate resilient digital hygiene...",
+            "evidenceVi": "Bằng cách tái định vị công nghệ như một công cụ có chủ đích thay vì một mối phân tâm có mặt ở khắp mọi nơi, các bạn trẻ trau dồi thói quen số lành mạnh...",
+            "explanation": "'Omnipresent' nghĩa là có mặt ở khắp nơi, tràn lan, đồng nghĩa với 'ubiquitous' hoặc 'pervasive'.",
+            "postReading": {
+              "original": "reframing technology as a deliberate tool rather than an omnipresent distraction",
+              "paraphrase": "treating electronic devices as purpose-driven instruments instead of pervasive disruptions",
+              "analysis": "'Omnipresent distraction' được thay bằng 'pervasive disruptions'; 'deliberate tool' thành 'purpose-driven instruments'."
+            }
+          },
+          {
+            "id": "t27_q8",
+            "num": 8,
+            "question": "Which of the following can be inferred from paragraph 4 regarding long-term technological management?",
+            "questionVi": "Điều nào sau đây có thể suy ra từ đoạn 4 liên quan đến việc quản lý công nghệ lâu dài?",
+            "questionType": "Inference",
+            "options": [
+              "The goal of digital detox is to eliminate all digital devices permanently from modern existence",
+              "Effective technology management relies on intentional boundary setting rather than impractical absolute abstention",
+              "Children should be allowed to use mobile phones without restriction once they return home",
+              "Digital retreats guarantee permanent immunity to screen addiction without further effort"
+            ],
+            "optionsVi": [
+              "Mục tiêu của cai nghiện kỹ thuật số là loại bỏ hoàn toàn thiết bị số vĩnh viễn khỏi đời sống hiện đại",
+              "Quản lý công nghệ hiệu quả dựa vào việc chủ động thiết lập ranh giới thay vì kiêng cữ tuyệt đối một cách phi thực tế",
+              "Trẻ em nên được phép dùng điện thoại không giới hạn ngay sau khi về nhà",
+              "Các khóa tu đảm bảo miễn dịch vĩnh viễn khỏi nghiện màn hình mà không cần nỗ lực thêm"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Retreat facilitators emphasize that total technological abstinence is neither realistic nor desirable in our digitized global economy. Instead, participants draft personalized digital management blueprints before returning home, establishing practical boundary protocols...",
+            "evidenceVi": "Những người hướng dẫn nhấn mạnh rằng việc kiêng khem hoàn toàn công nghệ vừa không thực tế vừa không đáng mong muốn trong nền kinh tế số toàn cầu. Thay vào đó, học viên phác thảo bản kế hoạch chi tiết, thiết lập các quy tắc ranh giới thiết thực...",
+            "explanation": "Tác giả chỉ ra việc kiêng cữ hoàn toàn là bất khả thi trong xã hội hiện đại; điều cốt lõi là thiết lập các ranh giới thực tế (practical boundary protocols) như phòng ngủ không điện thoại, giờ học tập offline.",
+            "postReading": {
+              "original": "total technological abstinence is neither realistic nor desirable in our digitized global economy.",
+              "paraphrase": "completely cutting off all electronic gadgets is neither feasible nor beneficial within an interconnected digital world.",
+              "analysis": "'Total technological abstinence' = 'completely cutting off all electronic gadgets'; 'neither realistic nor desirable' = 'neither feasible nor beneficial'."
+            }
+          },
+          {
+            "id": "t27_q9",
+            "num": 9,
+            "question": "All of the following are mentioned in the passage as components of the retreat experience EXCEPT:",
+            "questionVi": "Tất cả những điều sau đây đều được nhắc đến trong đoạn văn như các thành tố của trải nghiệm khóa tu NGOẠI TRỪ:",
+            "questionType": "Negative Detail",
+            "options": [
+              "Participating in silent walking meditation through nature",
+              "Writing personalized management plans with practical offline boundaries",
+              "Passing compulsory standardized written examinations on computer science",
+              "Engaging in unscripted peer conversations around campfires"
+            ],
+            "optionsVi": [
+              "Tham gia thiền hành trong im lặng giữa thiên nhiên",
+              "Viết các kế hoạch quản lý cá nhân với các ranh giới ngoại tuyến thiết thực",
+              "Vượt qua các bài kiểm tra viết chuẩn hóa bắt buộc về khoa học máy tính",
+              "Tham gia các cuộc trò chuyện tự nhiên cùng bạn bè bên đống lửa"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Paragraph 2 mentions 'guided walking meditation through lush bamboo forests'. Paragraph 3 mentions 'unscripted conversations about life aspirations... around evening campfires'. Paragraph 4 mentions 'draft personalized digital management blueprints'. Nowhere are standardized computer science examinations mentioned.",
+            "evidenceVi": "Đoạn 2 nêu thiền hành trong rừng tre. Đoạn 3 nêu nói chuyện tự nhiên bên đống lửa trại. Đoạn 4 nêu lập kế hoạch quản lý cá nhân. Bài văn hoàn toàn không hề đề cập đến kỳ thi viết môn khoa học máy tính.",
+            "explanation": "Đáp án C không xuất hiện trong bài đọc nên là câu trả lời đúng cho câu hỏi EXCEPT.",
+            "postReading": {
+              "original": "teenagers who initially expressed social awkwardness discover genuine interpersonal camaraderie around evening campfires",
+              "paraphrase": "youths who once felt uneasy in social settings build authentic peer friendships during nighttime gatherings around the fire",
+              "analysis": "'Social awkwardness' = 'felt uneasy in social settings'; 'genuine interpersonal camaraderie' = 'authentic peer friendships'."
+            }
+          },
+          {
+            "id": "t27_q10",
+            "num": 10,
+            "question": "What is the author's primary tone throughout the passage?",
+            "questionVi": "Thái độ/giọng văn chủ đạo của tác giả trong toàn bộ đoạn văn là gì?",
+            "questionType": "Author's Tone",
+            "options": [
+              "Dismissive and cynical towards psychological therapy",
+              "Objective, analytical, and supportive of constructive digital habits",
+              "Alarmist and demanding total elimination of personal computers",
+              "Indifferent and detached regarding adolescent health"
+            ],
+            "optionsVi": [
+              "Coi thường và hoài nghi đối với trị liệu tâm lý",
+              "Khách quan, có tính phân tích và ủng hộ việc xây dựng thói quen số tích cực",
+              "Báo động cực đoan và yêu cầu xóa bỏ hoàn toàn máy tính cá nhân",
+              "Thờ ơ và xa cách đối với sức khỏe của lứa tuổi vị thành niên"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The author systematically examines the symptoms of digital overuse, analyzes the retreat curriculum, documents behavioral adaptations, and realistically advocates for sustainable balance ('reframing technology as a deliberate tool rather than an omnipresent distraction').",
+            "evidenceVi": "Tác giả phân tích có hệ thống các triệu chứng lạm dụng công nghệ, đánh giá chương trình khóa tu, ghi nhận tiến trình cải thiện và đề xuất giải pháp cân bằng thực tế.",
+            "explanation": "Tác giả trình bày với góc nhìn khách quan, khoa học, thấu hiểu tâm lý thanh thiếu niên và khuyến khích lối sống số lành mạnh (objective, analytical, and supportive).",
+            "postReading": {
+              "original": "young individuals cultivate resilient digital hygiene that supports long-term emotional well-being.",
+              "paraphrase": "adolescents develop robust digital wellness habits that nurture enduring psychological health.",
+              "analysis": "'Cultivate resilient digital hygiene' = 'develop robust digital wellness habits'; 'supports long-term emotional well-being' = 'nurtures enduring psychological health'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Vietnamese Coffee: Culture, Cultivation & Global Robusta Trade",
+        "topic": "Cà phê Việt Nam: Từ phin truyền thống, văn hóa vỉa hè đến vị thế cường quốc xuất khẩu Robusta số 1 thế giới và chuyển dịch chuỗi giá trị đặc sản",
+        "timeAllowed": 15,
+        "passage": "<p>Coffee holds a revered status in Vietnam, transcending its role as a mere agricultural commodity to become an integral facet of national cultural identity. Introduced by French missionaries and agronomists in the mid-nineteenth century, coffee cultivation initially found modest success in northern and central provinces before expanding rapidly across the volcanic basalt plateaus of the Central Highlands (Tây Nguyên). Regions such as Đắk Lắk, Lâm Đồng, and Gia Lai presented optimal agronomic environments—marked by high elevations, nutrient-dense soils, and distinct alternating wet and dry seasons—which proved exceptionally hospitable to the hearty <em>Coffea canephora</em>, commonly designated as Robusta.</p><p>Following the economic liberalization reforms known as Đổi Mới in 1986, Vietnam embarked on an unprecedented agricultural expansion. State-backed initiatives, agrarian land reallocations, and aggressive irrigation investments transformed smallholder farmers into highly productive cultivators. By the late 1990s, Vietnam had catapulted to the position of the world’s second-largest overall coffee producer and undisputed titan of Robusta, supplying massive volumes to multinational beverage conglomerates for instant coffee processing and commercial espresso blends. This rapid boom provided vital economic livelihood to hundreds of thousands of ethnic minority households and propelled rural infrastructure modernization across previously impoverished interior regions.</p><p>Domestically, Vietnamese coffee culture is celebrated for its distinctive preparation rituals and convivial communal spaces. Unlike the hurried, takeaway-dominated espresso habits of Western capitals, traditional Vietnamese coffee appreciation is personified by the low-tech metal filter known as the <em>phin</em>. Sitting atop a glass pre-filled with dense sweetened condensed milk, the phin brews coffee drop by deliberate drop, enforcing an unhurried tempo that invites conversation and mindful pause. From low-slung plastic stools lining bustling urban street pavements to design-forward contemporary cafes, drinking <em>cà phê sữa đá</em> (iced coffee with condensed milk) or Hanoi’s iconic whipped <em>cà phê trứng</em> (egg coffee) serves as a universal social equalizer across demographic generations.</p><p>Despite historic commercial triumphs, the Vietnamese coffee industry confronts multifaceted contemporary headwinds. Historically stigmatized on the international exchange as a lower-tier, bitter filler compared to delicate Arabica beans, Robusta prices have exhibited extreme volatility. Simultaneously, decades of intensive monoculture farming, excessive synthetic fertilizer application, and groundwater depletion present looming ecological crises, compounded by intensifying climate-induced droughts. In response, a forward-looking movement of domestic roasters, cooperatives, and agronomists is spearheading a quality revolution. By adopting shade-grown agroforestry, selective hand-harvesting of ripe red cherries, and controlled fermentation techniques, Vietnam is elevating Fine Robusta onto high-end specialty menus worldwide, securing higher profit margins and ecological resilience for future generations.</p>",
+        "vocab": [
+          {
+            "word": "revered",
+            "pos": "adjective",
+            "ipa": "/rɪˈvɪəd/",
+            "level": "B2",
+            "mean": "được tôn kính, được trân trọng sâu sắc",
+            "syns": [
+              "venerated",
+              "esteemed",
+              "cherished"
+            ],
+            "ex": "Coffee occupies a revered cultural position in daily Vietnamese social life."
+          },
+          {
+            "word": "facet",
+            "pos": "noun",
+            "ipa": "/ˈfæs.ɪt/",
+            "level": "B2",
+            "mean": "khía cạnh, phương diện",
+            "syns": [
+              "aspect",
+              "dimension",
+              "component"
+            ],
+            "ex": "Street coffee drinking is an essential facet of modern urban Vietnamese lifestyle."
+          },
+          {
+            "word": "plateau",
+            "pos": "noun",
+            "ipa": "/ˈplæt.əʊ/",
+            "level": "B2",
+            "mean": "cao nguyên, vùng đất bằng phẳng trên cao",
+            "syns": [
+              "tableland",
+              "highland",
+              "upland"
+            ],
+            "ex": "The fertile basalt plateaus of Đắk Lắk provide ideal conditions for growing coffee."
+          },
+          {
+            "word": "agronomic",
+            "pos": "adjective",
+            "ipa": "/ˌæɡ.rəˈnɒm.ɪk/",
+            "level": "C1",
+            "mean": "thuộc về nông học, canh tác đất đai",
+            "syns": [
+              "agricultural",
+              "farming",
+              "cultivational"
+            ],
+            "ex": "The region possesses unique agronomic advantages, such as mineral-rich red volcanic soil."
+          },
+          {
+            "word": "hospitable",
+            "pos": "adjective",
+            "ipa": "/hɒsˈpɪt.ə.bəl/",
+            "level": "B2",
+            "mean": "thuận lợi cho sinh trưởng, hiếu khách",
+            "syns": [
+              "favorable",
+              "congenial",
+              "welcoming"
+            ],
+            "ex": "The climate in the Central Highlands is highly hospitable to Robusta coffee shrubs."
+          },
+          {
+            "word": "liberalization",
+            "pos": "noun",
+            "ipa": "/ˌlɪb.ər.əl.aɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự tự do hóa (kinh tế, thương mại)",
+            "syns": [
+              "deregulation",
+              "market opening",
+              "freeing"
+            ],
+            "ex": "Economic liberalization in 1986 stimulated massive domestic agricultural output."
+          },
+          {
+            "word": "agrarian",
+            "pos": "adjective",
+            "ipa": "/əˈɡreə.ri.ən/",
+            "level": "B2",
+            "mean": "thuộc ruộng đất, thuộc nông nghiệp",
+            "syns": [
+              "agricultural",
+              "farming",
+              "rural"
+            ],
+            "ex": "Agrarian reforms redistributed arable land directly to smallholder farming families."
+          },
+          {
+            "word": "catapult",
+            "pos": "verb",
+            "ipa": "/ˈkæt.ə.pʌlt/",
+            "level": "B2",
+            "mean": "bắn vọt lên, đẩy nhanh chóng lên vị thế cao",
+            "syns": [
+              "propel",
+              "launch",
+              "thrust"
+            ],
+            "ex": "Unprecedented yields catapulted Vietnam into the ranks of the world's leading coffee exporters."
+          },
+          {
+            "word": "titan",
+            "pos": "noun",
+            "ipa": "/ˈtaɪ.tən/",
+            "level": "B2",
+            "mean": "người khổng lồ, cường quốc hàng đầu",
+            "syns": [
+              "giant",
+              "colossus",
+              "powerhouse"
+            ],
+            "ex": "Vietnam is the unquestioned titan in global Robusta bean production."
+          },
+          {
+            "word": "conglomerate",
+            "pos": "noun",
+            "ipa": "/kənˈɡlɒm.ər.ət/",
+            "level": "B2",
+            "mean": "tập đoàn đa ngành, khối doanh nghiệp khổng lồ",
+            "syns": [
+              "corporation",
+              "multinational",
+              "consortium"
+            ],
+            "ex": "International beverage conglomerates purchase thousands of tons of beans every harvest."
+          },
+          {
+            "word": "convivial",
+            "pos": "adjective",
+            "ipa": "/kənˈvɪv.i.əl/",
+            "level": "C1",
+            "mean": "vui tươi, ấm cúng, thân mật",
+            "syns": [
+              "friendly",
+              "genial",
+              "sociable"
+            ],
+            "ex": "Sidewalk cafes create a convivial setting where friends gather to chat for hours."
+          },
+          {
+            "word": "personify",
+            "pos": "verb",
+            "ipa": "/pəˈsɒn.ɪ.faɪ/",
+            "level": "B2",
+            "mean": "hiện thân của, đại diện tiêu biểu cho",
+            "syns": [
+              "embody",
+              "epitomize",
+              "typify"
+            ],
+            "ex": "The traditional metal phin personifies the leisurely pace of Vietnamese coffee appreciation."
+          },
+          {
+            "word": "deliberate",
+            "pos": "adjective",
+            "ipa": "/dɪˈlɪb.ər.ət/",
+            "level": "B2",
+            "mean": "thong thả, từ tốn, thận trọng",
+            "syns": [
+              "measured",
+              "unhurried",
+              "intentional"
+            ],
+            "ex": "The coffee drips through the filter at a slow, deliberate pace."
+          },
+          {
+            "word": "equalizer",
+            "pos": "noun",
+            "ipa": "/ˈiː.kwə.laɪ.zər/",
+            "level": "B2",
+            "mean": "yếu tố tạo sự bình đẳng, xóa nhòa giai cấp",
+            "syns": [
+              "leveler",
+              "unifier",
+              "balancer"
+            ],
+            "ex": "Street coffee acts as a great social equalizer where business executives sit next to manual laborers."
+          },
+          {
+            "word": "headwind",
+            "pos": "noun",
+            "ipa": "/ˈhed.wɪnd/",
+            "level": "B2",
+            "mean": "cơn gió ngược, trở ngại, thách thức",
+            "syns": [
+              "obstacle",
+              "impediment",
+              "adversity"
+            ],
+            "ex": "The national agricultural sector faces multiple economic and climatic headwinds."
+          },
+          {
+            "word": "stigmatize",
+            "pos": "verb",
+            "ipa": "/ˈstɪɡ.mə.taɪz/",
+            "level": "B2",
+            "mean": "gán định kiến tiêu cực, coi thường",
+            "syns": [
+              "disparage",
+              "denigrate",
+              "brand"
+            ],
+            "ex": "Robusta beans were long stigmatized as cheap and bitter compared to aromatic Arabica."
+          },
+          {
+            "word": "volatility",
+            "pos": "noun",
+            "ipa": "/ˌvɒl.əˈtɪl.ə.ti/",
+            "level": "B2",
+            "mean": "sự biến động thất thường, tính không ổn định",
+            "syns": [
+              "instability",
+              "fluctuation",
+              "unpredictability"
+            ],
+            "ex": "Price volatility on world commodity markets poses financial risks for small farmers."
+          },
+          {
+            "word": "monoculture",
+            "pos": "noun",
+            "ipa": "/ˈmɒn.əˌkʌl.tʃər/",
+            "level": "B2",
+            "mean": "nền độc canh (chỉ trồng một loại cây duy nhất)",
+            "syns": [
+              "single-crop farming",
+              "exclusive cultivation"
+            ],
+            "ex": "Intensive monoculture farming diminishes soil fertility over decades."
+          },
+          {
+            "word": "synthetic",
+            "pos": "adjective",
+            "ipa": "/sɪnˈθet.ɪk/",
+            "level": "B2",
+            "mean": "nhân tạo, tổng hợp hóa học",
+            "syns": [
+              "artificial",
+              "chemical-based",
+              "man-made"
+            ],
+            "ex": "Overreliance on synthetic fertilizers harms groundwater and natural microorganism communities."
+          },
+          {
+            "word": "depletion",
+            "pos": "noun",
+            "ipa": "/dɪˈpliː.ʃən/",
+            "level": "B2",
+            "mean": "sự cạn kiệt, suy giảm tài nguyên",
+            "syns": [
+              "exhaustion",
+              "drainage",
+              "diminution"
+            ],
+            "ex": "Unregulated water pumping has caused severe groundwater depletion across parts of Tây Nguyên."
+          },
+          {
+            "word": "spearhead",
+            "pos": "verb",
+            "ipa": "/ˈspɪə.hed/",
+            "level": "B2",
+            "mean": "dẫn đầu, khởi xướng tiên phong",
+            "syns": [
+              "lead",
+              "pioneer",
+              "champion"
+            ],
+            "ex": "A new generation of young Vietnamese roasters is spearheading the specialty coffee movement."
+          },
+          {
+            "word": "agroforestry",
+            "pos": "noun",
+            "ipa": "/ˌæɡ.rəʊˈfɒr.ɪ.stri/",
+            "level": "C1",
+            "mean": "nông lâm kết hợp, trồng xen rừng và trọt",
+            "syns": [
+              "forest farming",
+              "mixed cultivation",
+              "shade-grown farming"
+            ],
+            "ex": "Integrating coffee trees with taller timber trees in agroforestry systems enhances biological diversity."
+          },
+          {
+            "word": "cherry",
+            "pos": "noun",
+            "ipa": "/ˈtʃer.i/",
+            "level": "B1",
+            "mean": "quả cà phê chín (có màu đỏ giống quả anh đào)",
+            "syns": [
+              "coffee fruit",
+              "berry"
+            ],
+            "ex": "Specialty producers ensure that workers only pick fully ripened red cherries."
+          },
+          {
+            "word": "fermentation",
+            "pos": "noun",
+            "ipa": "/ˌfɜː.menˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "quá trình lên men",
+            "syns": [
+              "processing",
+              "microbial breakdown"
+            ],
+            "ex": "Carefully controlled fermentation unlocks complex fruity tasting notes within Robusta beans."
+          },
+          {
+            "word": "specialty",
+            "pos": "adjective",
+            "ipa": "/ˈspeʃ.əl.ti/",
+            "level": "B2",
+            "mean": "đặc sản, phẩm cấp cao cấp đặc biệt",
+            "syns": [
+              "high-grade",
+              "premium",
+              "gourmet"
+            ],
+            "ex": "Fine Robusta is finding an enthusiastic audience in specialty cafes in Tokyo and London."
+          },
+          {
+            "word": "margin",
+            "pos": "noun",
+            "ipa": "/ˈmɑː.dʒɪn/",
+            "level": "B2",
+            "mean": "biên lợi nhuận, mức thặng dư",
+            "syns": [
+              "profitability",
+              "mark-up",
+              "spread"
+            ],
+            "ex": "Producing specialty coffee enables farmers to achieve substantially higher profit margins."
+          },
+          {
+            "word": "resilience",
+            "pos": "noun",
+            "ipa": "/rɪˈzɪl.jəns/",
+            "level": "B2",
+            "mean": "khả năng phục hồi, tính chống chịu dẻo dai",
+            "syns": [
+              "durability",
+              "adaptability",
+              "robustness"
+            ],
+            "ex": "Diversified farming practices bolster the ecological resilience of coffee orchards against climate shocks."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t27_q11",
+            "num": 11,
+            "question": "Which of the following best expresses the main idea of the passage?",
+            "questionVi": "Câu nào sau đây thể hiện tốt nhất ý chính của đoạn văn?",
+            "questionType": "Main Idea",
+            "options": [
+              "The technical superiority of French phin coffee makers over modern espresso extraction",
+              "The comprehensive journey of Vietnamese coffee from cultural inception and export triumph to quality elevation",
+              "The immediate necessity of replacing Robusta coffee shrubs with South American Arabica",
+              "The ecological damages inflicted upon the Central Highlands by multinational coffee cartels"
+            ],
+            "optionsVi": [
+              "Sự vượt trội về mặt kỹ thuật của phin cà phê kiểu Pháp so với máy chiết xuất espresso hiện đại",
+              "Hành trình toàn diện của cà phê Việt Nam từ khởi nguồn văn hóa, thành tựu xuất khẩu đến nâng tầm phẩm cấp",
+              "Sự cần thiết tức thì của việc thay thế cây Robusta bằng giống Arabica Nam Mỹ",
+              "Những thiệt hại sinh thái gây ra cho vùng Tây Nguyên bởi các tập đoàn cà phê đa quốc gia"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The passage covers coffee's introduction and agronomic boom in Tây Nguyên (para 1), the export surge after Đổi Mới (para 2), domestic phin culture (para 3), and current environmental/quality reforms to produce Fine Robusta (para 4).",
+            "evidenceVi": "Đoạn văn bao quát từ khi cà phê du nhập và bùng nổ ở Tây Nguyên, xuất khẩu sau Đổi Mới, văn hóa phin trong nước, đến các nỗ lực nâng tầm Fine Robusta hiện đại.",
+            "explanation": "Toàn bài phân tích đầy đủ các khía cạnh lịch sử canh tác, tầm vóc xuất khẩu, văn hóa thưởng thức và tương lai phát triển bền vững của ngành cà phê Việt Nam.",
+            "postReading": {
+              "original": "Coffee holds a revered status in Vietnam, transcending its role as a mere agricultural commodity to become an integral facet of national cultural identity.",
+              "paraphrase": "Rather than being treated simply as an exported crop, coffee is deeply cherished in Vietnam as an indispensable element of societal identity.",
+              "analysis": "'Transcending its role as a mere agricultural commodity' = 'Rather than being treated simply as an exported crop'; 'integral facet of national cultural identity' = 'indispensable element of societal identity'."
+            }
+          },
+          {
+            "id": "t27_q12",
+            "num": 12,
+            "question": "According to paragraph 1, why was the Central Highlands especially suitable for Robusta cultivation?",
+            "questionVi": "Theo đoạn 1, vì sao vùng Tây Nguyên lại đặc biệt phù hợp để canh tác giống cà phê Robusta?",
+            "questionType": "Detail",
+            "options": [
+              "The region possessed cold snowstorms and constant rainfall throughout the year",
+              "The area offered fertile volcanic basalt soils, high altitudes, and distinct wet and dry seasons",
+              "French missionaries prohibited the planting of any other agricultural crops",
+              "The coastal flatlands prevented insect infestations from damaging trees"
+            ],
+            "optionsVi": [
+              "Khu vực có bão tuyết lạnh giá và lượng mưa liên tục quanh năm",
+              "Khu vực sở hữu đất đỏ bazan núi lửa màu mỡ, cao độ lớn và các mùa mưa nắng luân phiên rõ rệt",
+              "Các nhà truyền giáo người Pháp cấm trồng bất kỳ loại cây nông nghiệp nào khác",
+              "Vùng đồng bằng ven biển ngăn chặn côn trùng gây hại cho cây"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Regions such as Đắk Lắk, Lâm Đồng, and Gia Lai presented optimal agronomic environments—marked by high elevations, nutrient-dense soils, and distinct alternating wet and dry seasons—which proved exceptionally hospitable to the hearty Coffea canephora...",
+            "evidenceVi": "Các vùng như Đắk Lắk, Lâm Đồng và Gia Lai mang lại môi trường nông học tối ưu—nổi bật với độ cao lớn, đất giàu dinh dưỡng và các mùa mưa khô luân phiên rõ rệt—những điều kiện vô cùng thuận lợi cho cây Robusta sinh trưởng...",
+            "explanation": "Đoạn 1 nêu rõ các điều kiện tự nhiên tối ưu: đất bazan màu mỡ, độ cao lớn và hai mùa mưa - khô rõ rệt.",
+            "postReading": {
+              "original": "presented optimal agronomic environments—marked by high elevations, nutrient-dense soils, and distinct alternating wet and dry seasons",
+              "paraphrase": "provided ideal agricultural conditions characterized by elevated altitudes, rich volcanic soils, and alternating monsoon periods",
+              "analysis": "'Optimal agronomic environments' = 'ideal agricultural conditions'; 'nutrient-dense soils' = 'rich volcanic soils'."
+            }
+          },
+          {
+            "id": "t27_q13",
+            "num": 13,
+            "question": "The word \"catapulted\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"catapulted\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "propelled",
+              "declined",
+              "hesitated",
+              "limited"
+            ],
+            "optionsVi": [
+              "đẩy mạnh, phóng vụt lên",
+              "suy giảm",
+              "ngập ngừng do dự",
+              "bị giới hạn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "By the late 1990s, Vietnam had catapulted to the position of the world’s second-largest overall coffee producer...",
+            "evidenceVi": "Đến cuối những năm 1990, Việt Nam đã phóng vọt lên vị trí nhà sản xuất cà phê lớn thứ hai toàn cầu...",
+            "explanation": "'Catapult' nghĩa là phóng vụt lên hoặc đẩy mạnh vào một vị thế cao trong thời gian ngắn, đồng nghĩa với 'propelled' hoặc 'launched rapidly'.",
+            "postReading": {
+              "original": "Vietnam had catapulted to the position of the world’s second-largest overall coffee producer",
+              "paraphrase": "Vietnam rapidly rose to become the second-leading coffee-producing nation globally",
+              "analysis": "'Catapulted to the position' = 'rapidly rose to become'."
+            }
+          },
+          {
+            "id": "t27_q14",
+            "num": 14,
+            "question": "According to paragraph 2, who directly benefited from the rapid coffee production boom following Đổi Mới?",
+            "questionVi": "Theo đoạn 2, ai là những người trực tiếp hưởng lợi từ sự bùng nổ sản xuất cà phê sau Đổi Mới?",
+            "questionType": "Detail",
+            "options": [
+              "Only urban foreign trading merchants residing in major ports",
+              "Hundreds of thousands of ethnic minority households and rural inland communities",
+              "Exclusively foreign multinational beverage executives in Europe",
+              "Chemical fertilizer importers who bought all domestic farmland"
+            ],
+            "optionsVi": [
+              "Chỉ các thương nhân nước ngoài sinh sống ở các cảng biển lớn",
+              "Hàng trăm nghìn hộ gia đình dân tộc thiểu số và các cộng đồng nông thôn nội địa",
+              "Duy nhất các nhà lãnh đạo tập đoàn đồ uống đa quốc gia tại Châu Âu",
+              "Các đơn vị nhập khẩu phân bón hóa học mua đứt toàn bộ đất nông nghiệp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "This rapid boom provided vital economic livelihood to hundreds of thousands of ethnic minority households and propelled rural infrastructure modernization across previously impoverished interior regions.",
+            "evidenceVi": "Sự bùng nổ nhanh chóng này đã mang lại sinh kế kinh tế thiết yếu cho hàng trăm nghìn hộ gia đình đồng bào thiểu số và thúc đẩy hiện đại hóa cơ sở hạ tầng nông thôn tại những vùng nội địa vốn nghèo khó trước đây.",
+            "explanation": "Đoạn 2 nêu rõ sự bùng nổ mang lại sinh kế trực tiếp cho hàng trăm nghìn hộ gia đình dân tộc thiểu số và phát triển cơ sở hạ tầng nông thôn.",
+            "postReading": {
+              "original": "provided vital economic livelihood to hundreds of thousands of ethnic minority households and propelled rural infrastructure modernization",
+              "paraphrase": "supplied crucial income for massive numbers of indigenous farming families while fostering the upgrading of interior transport and utilities",
+              "analysis": "'Vital economic livelihood' = 'crucial income'; 'ethnic minority households' = 'indigenous farming families'; 'propelled rural infrastructure modernization' = 'fostering the upgrading of interior transport and utilities'."
+            }
+          },
+          {
+            "id": "t27_q15",
+            "num": 15,
+            "question": "In paragraph 3, the phrase \"social equalizer\" suggests that Vietnamese street coffee culture:",
+            "questionVi": "Trong đoạn 3, cụm từ \"social equalizer\" (yếu tố bình đẳng xã hội) ngụ ý rằng văn hóa cà phê vỉa hè Việt Nam:",
+            "questionType": "Inference",
+            "options": [
+              "Demands that all customers purchase precisely equal amounts of coffee beans",
+              "Bridges demographic and socioeconomic divides as people from diverse backgrounds sit together",
+              "Forces coffee shops to charge government-mandated identical prices across all provinces",
+              "Restricts cafe access solely to certified manual laborers"
+            ],
+            "optionsVi": [
+              "Yêu cầu mọi khách hàng mua chính xác lượng hạt cà phê bằng nhau",
+              "Xóa nhòa khoảng cách nhân khẩu học và kinh tế - xã hội khi mọi người từ các tầng lớp cùng ngồi uống cạnh nhau",
+              "Bắt buộc các quán cà phê phải thu giá tiền đồng nhất theo lệnh chính phủ",
+              "Hạn chế quán cà phê chỉ dành riêng cho người lao động chân tay có chứng chỉ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "From low-slung plastic stools lining bustling urban street pavements to design-forward contemporary cafes, drinking cà phê sữa đá... or Hanoi’s iconic whipped cà phê trứng... serves as a universal social equalizer across demographic generations.",
+            "evidenceVi": "Từ những chiếc ghế nhựa thấp xếp dọc vỉa hè phố phường nhộn nhịp đến những quán cà phê đương đại thời thượng, việc thưởng thức cà phê sữa đá... hay cà phê trứng... đóng vai trò như một yếu tố bình đẳng xã hội xóa nhòa khoảng cách giữa các thế hệ.",
+            "explanation": "'Social equalizer' nghĩa là một thực hành văn hóa dung dị mà mọi tầng lớp (từ giám đốc đến công nhân, người già tới sinh viên) đều có thể cùng trải nghiệm bình đẳng bên những chiếc ghế nhựa vỉa hè.",
+            "postReading": {
+              "original": "serves as a universal social equalizer across demographic generations.",
+              "paraphrase": "functions as a unifying societal phenomenon that transcends wealth gaps and age boundaries.",
+              "analysis": "'Universal social equalizer' = 'unifying societal phenomenon that transcends wealth gaps and age boundaries'."
+            }
+          },
+          {
+            "id": "t27_q16",
+            "num": 16,
+            "question": "The word \"deliberate\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"deliberate\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "unhurried",
+              "careless",
+              "aggressive",
+              "instantaneous"
+            ],
+            "optionsVi": [
+              "thong thả, không vội vã",
+              "bất cẩn",
+              "hung hăng, quyết liệt",
+              "ngay tức khắc"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the phin brews coffee drop by deliberate drop, enforcing an unhurried tempo that invites conversation and mindful pause.",
+            "evidenceVi": "phin chiết xuất cà phê từng giọt từng giọt từ tốn, tạo nên nhịp điệu thong thả mời gọi những câu chuyện trò và khoảng lặng chánh niệm.",
+            "explanation": "'Deliberate' đi kèm với 'drop by deliberate drop' và 'unhurried tempo' thể hiện sự từ tốn, thong thả, không hấp tấp, đồng nghĩa với 'unhurried' hoặc 'measured'.",
+            "postReading": {
+              "original": "the phin brews coffee drop by deliberate drop, enforcing an unhurried tempo that invites conversation",
+              "paraphrase": "the metal dripper filters the liquid drop by slow drop, creating a relaxed pace that stimulates discussion",
+              "analysis": "'Drop by deliberate drop' = 'drop by slow drop'; 'enforcing an unhurried tempo' = 'creating a relaxed pace'."
+            }
+          },
+          {
+            "id": "t27_q17",
+            "num": 17,
+            "question": "According to paragraph 4, what historical challenge did Vietnamese Robusta face on global markets?",
+            "questionVi": "Theo đoạn 4, thách thức mang tính lịch sử nào mà cà phê Robusta Việt Nam từng gặp phải trên thị trường thế giới?",
+            "questionType": "Detail",
+            "options": [
+              "It was banned from European import due to excessive acidity",
+              "It was frequently labeled as an inferior, bitter filler bean and suffered price volatility",
+              "Foreign shipping lines refused to transport goods produced in Đắk Lắk",
+              "Global consumers were unable to prepare coffee using boiling water"
+            ],
+            "optionsVi": [
+              "Bị cấm nhập khẩu vào Châu Âu do độ chua quá cao",
+              "Thường bị định kiến là hạt độn đắng cấp thấp và chịu sự biến động giá cả thất thường",
+              "Các hãng tàu biển quốc tế từ chối vận chuyển hàng hóa sản xuất tại Đắk Lắk",
+              "Người tiêu dùng toàn cầu không thể pha cà phê bằng nước sôi"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Historically stigmatized on the international exchange as a lower-tier, bitter filler compared to delicate Arabica beans, Robusta prices have exhibited extreme volatility.",
+            "evidenceVi": "Từng bị mang định kiến trên sàn giao dịch quốc tế như một loại hạt độn cấp thấp, vị đắng gắt so với hạt Arabica tinh tế, giá Robusta từng trải qua những biến động vô cùng thất thường.",
+            "explanation": "Đoạn 4 nêu rõ định kiến quốc tế coi Robusta là hạt phẩm cấp thấp, vị đắng dùng làm phụ gia độn cà phê hòa tan ('bitter filler') và chịu cảnh bấp bênh về giá.",
+            "postReading": {
+              "original": "Historically stigmatized on the international exchange as a lower-tier, bitter filler compared to delicate Arabica beans",
+              "paraphrase": "Long stereotyped on global commodity markets as an inferior, harsh-tasting additive relative to sophisticated Arabica varieties",
+              "analysis": "'Stigmatized on the international exchange' = 'stereotyped on global commodity markets'; 'lower-tier, bitter filler' = 'inferior, harsh-tasting additive'."
+            }
+          },
+          {
+            "id": "t27_q18",
+            "num": 18,
+            "question": "Which agricultural method is mentioned in paragraph 4 as a way to enhance ecological sustainability and bean quality?",
+            "questionVi": "Phương pháp nông nghiệp nào được đề cập ở đoạn 4 như một cách để nâng cao tính bền vững sinh thái và chất lượng hạt cà phê?",
+            "questionType": "Detail",
+            "options": [
+              "Applying greater volumes of synthetic chemical fertilizers",
+              "Adopting shade-grown agroforestry and selective hand-picking of ripe cherries",
+              "Expanding clear-cut monoculture plantations into protected national parks",
+              "Transitioning entirely to synthetic artificial flavoring syrups"
+            ],
+            "optionsVi": [
+              "Bón lượng phân bón hóa học tổng hợp nhiều hơn nữa",
+              "Áp dụng nông lâm kết hợp dưới bóng râm và hái chọn lọc bằng tay quả chín đỏ",
+              "Mở rộng nông trường độc canh chặt phá trắng vào các vườn quốc gia được bảo tồn",
+              "Chuyển hẳn sang sử dụng siro tạo mùi hương nhân tạo tổng hợp"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "By adopting shade-grown agroforestry, selective hand-harvesting of ripe red cherries, and controlled fermentation techniques, Vietnam is elevating Fine Robusta onto high-end specialty menus worldwide...",
+            "evidenceVi": "Bằng cách áp dụng nông lâm kết hợp trồng cây bóng mát, thu hoạch chọn lọc bằng tay quả cà phê chín mọng và kỹ thuật lên men có kiểm soát, Việt Nam đang đưa Fine Robusta vào thực đơn đặc sản cao cấp trên khắp thế giới...",
+            "explanation": "Đoạn 4 nêu rõ các giải pháp canh tác tiến bộ: nông lâm kết hợp trồng dưới bóng râm, thu hái chọn lọc quả chín và kiểm soát lên men.",
+            "postReading": {
+              "original": "By adopting shade-grown agroforestry, selective hand-harvesting of ripe red cherries, and controlled fermentation techniques",
+              "paraphrase": "Through the implementation of forest-canopy cultivation, careful manual picking of mature fruit, and regulated processing",
+              "analysis": "'Shade-grown agroforestry' = 'forest-canopy cultivation'; 'selective hand-harvesting of ripe red cherries' = 'careful manual picking of mature fruit'."
+            }
+          },
+          {
+            "id": "t27_q19",
+            "num": 19,
+            "question": "The word \"spearheading\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"spearheading\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "pioneering",
+              "prohibiting",
+              "monitoring",
+              "delaying"
+            ],
+            "optionsVi": [
+              "tiên phong dẫn đầu",
+              "cấm đoán",
+              "giám sát theo dõi",
+              "trì hoãn"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "a forward-looking movement of domestic roasters, cooperatives, and agronomists is spearheading a quality revolution.",
+            "evidenceVi": "một phong trào đầy tầm nhìn của các nhà rang xay, hợp tác xã và chuyên gia nông học trong nước đang dẫn đầu một cuộc cách mạng chất lượng.",
+            "explanation": "'Spearheading' nghĩa là dẫn đầu, đi đầu trong một phong trào đổi mới, đồng nghĩa với 'pioneering' hoặc 'leading'.",
+            "postReading": {
+              "original": "a forward-looking movement of domestic roasters, cooperatives, and agronomists is spearheading a quality revolution.",
+              "paraphrase": "a progressive collective of local coffee processors, farming groups, and agricultural scientists is leading an overhaul in quality.",
+              "analysis": "'Spearheading a quality revolution' = 'leading an overhaul in quality'; 'forward-looking movement' = 'progressive collective'."
+            }
+          },
+          {
+            "id": "t27_q20",
+            "num": 20,
+            "question": "What can be inferred about the future of Vietnamese coffee from the final paragraph?",
+            "questionVi": "Có thể suy ra điều gì về tương lai của ngành cà phê Việt Nam từ đoạn văn cuối cùng?",
+            "questionType": "Inference",
+            "options": [
+              "Vietnam will abandon coffee completely in favor of rubber tree plantations",
+              "The industry is deliberately shifting from competing merely on cheap mass volume to prioritizing high-value specialty and ecological balance",
+              "International coffee roasters will refuse all future Robusta exports from Asia",
+              "Vietnamese cafe consumers will stop drinking phin coffee in favor of instant powdered beverages"
+            ],
+            "optionsVi": [
+              "Việt Nam sẽ từ bỏ hoàn toàn cà phê để chuyển sang trồng cây cao su",
+              "Ngành cà phê đang chủ động chuyển từ cạnh tranh sản lượng giá rẻ sang ưu tiên giá trị đặc sản cao và cân bằng sinh thái",
+              "Các nhà rang xay cà phê quốc tế sẽ từ chối mọi lô hàng Robusta từ Châu Á",
+              "Người tiêu dùng quán cà phê Việt Nam sẽ ngừng uống cà phê phin để chuyển sang uống bột hòa tan"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Vietnam is elevating Fine Robusta onto high-end specialty menus worldwide, securing higher profit margins and ecological resilience for future generations.",
+            "evidenceVi": "Việt Nam đang đưa Fine Robusta lên thực đơn đặc sản cao cấp trên toàn thế giới, đảm bảo biên lợi nhuận cao hơn và khả năng phục hồi sinh thái cho các thế hệ tương lai.",
+            "explanation": "Đoạn cuối nhấn mạnh sự chuyển dịch chiến lược từ xuất khẩu thô số lượng lớn giá rẻ sang phân khúc chất lượng cao (Fine Robusta) đi đôi với bảo tồn môi trường đất và nước.",
+            "postReading": {
+              "original": "securing higher profit margins and ecological resilience for future generations.",
+              "paraphrase": "guaranteeing superior financial returns alongside environmental sustainability for the future.",
+              "analysis": "'Securing higher profit margins' = 'guaranteeing superior financial returns'; 'ecological resilience' = 'environmental sustainability'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Psychological Impacts of Violent Video Games: The Empirical Debate",
+        "topic": "Tác động tâm lý học của trò chơi điện tử bạo lực: Mô hình gây hấn tổng quát (GAM), tranh luận về giải tỏa (catharsis), tính hung hăng vị thành niên và nghiên cứu dọc",
+        "timeAllowed": 15,
+        "passage": "<p>For over three decades, the correlation between violent video games and adolescent aggression has generated fierce contention among developmental psychologists, neuroscientists, and media ethicists. As gaming technology advanced from primitive pixelated sprites to photo-realistic interactive simulations, concerns mounted that repeated virtual enactment of homicide, gunplay, and gratuitous cruelty would inevitably spill over into real-world anti-social behavior. Public anxiety predictably escalates following sensationalized juvenile tragedies, prompting lawmakers and educational boards to scrutinize gaming software as a primary vector of societal violence. However, empirical investigations into this phenomenon reveal an intricate, highly polarized scientific landscape that resists simplistic causal deductions.</p><p>Proponents of the aggression-escalation hypothesis, most prominently articulated through the General Aggression Model (GAM), posit that interactive media exerts a far more potent psychological imprint than passive entertainment forms like cinema or television. Because players actively inhabit the protagonist's viewpoint, make tactical decisions to eliminate adversaries, and receive immediate in-game reinforcement—such as points, auditory triumphs, and narrative progression—they internalize aggressive cognitive scripts. Laboratory trials frequently demonstrate short-term priming effects following intense gameplay sessions, including elevated heart rates, desensitization to graphic real-world distress imagery, and heightened tendencies to administer punitive noise blasts to opponents in controlled experimental simulations.</p><p>Conversely, a substantial cohort of skeptical researchers challenges the external validity of these laboratory methodologies. Critics argue that brief, artificial tests administered within artificial university laboratories fail to replicate the complex socio-ecological realities that dictate real-world human behavior. Furthermore, longitudinal studies tracking adolescents across multiple years have systematically yielded negligible or statistically non-significant associations between hours spent playing violent titles and actual physical criminal acts. Dissenting scholars emphasize alternative confounding variables—including underlying family instability, genetic predispositions to impulsive conduct, peer victimization, and pre-existing psychiatric comorbidities—as the genuine causal drivers of adolescent hostility.</p><p>Moreover, contemporary psychological research increasingly explores the therapeutic and prosocial dimensions of video game play. Far from fostering destructive impulses, structured gameplay can provide an efficacious outlet for emotional regulation, enabling stressed youth to experience tension release—a dynamic reminiscent of the ancient psychological construct of catharsis. Multiplayer online environments also demand sophisticated collaboration, instantaneous negotiation, and collective problem-solving, which cultivate cross-cultural social connectedness. Ultimately, consensus is emerging that video games do not act as monolithic determinants of human morality; rather, their behavioral consequences depend on a subtle matrix of player personality, parental engagement, and the specific contextual framing within which play occurs.</p>",
+        "vocab": [
+          {
+            "word": "contention",
+            "pos": "noun",
+            "ipa": "/kənˈten.ʃən/",
+            "level": "B2",
+            "mean": "sự tranh cãi, mối bất đồng gay gắt",
+            "syns": [
+              "dispute",
+              "controversy",
+              "debate"
+            ],
+            "ex": "The potential harms of digital media remain a source of intense academic contention."
+          },
+          {
+            "word": "sprite",
+            "pos": "noun",
+            "ipa": "/spraɪt/",
+            "level": "C1",
+            "mean": "đồ họa nhân vật 2D trong lập trình game cổ điển",
+            "syns": [
+              "2D computer graphic",
+              "digital image"
+            ],
+            "ex": "Early video games depicted combat through basic two-dimensional sprites."
+          },
+          {
+            "word": "gratuitous",
+            "pos": "adjective",
+            "ipa": "/ɡrəˈtʃuː.ɪ.təs/",
+            "level": "C1",
+            "mean": "vô cớ, không cần thiết, bừa bãi",
+            "syns": [
+              "unwarranted",
+              "needless",
+              "baseless"
+            ],
+            "ex": "Critics complained about the gratuitous violence featured in modern action games."
+          },
+          {
+            "word": "spillover",
+            "pos": "noun",
+            "ipa": "/ˈspɪlˌəʊ.vər/",
+            "level": "B2",
+            "mean": "sự lan tỏa sang, tác động tràn qua lĩnh vực khác",
+            "syns": [
+              "repercussion",
+              "byproduct",
+              "overflow"
+            ],
+            "ex": "Psychologists investigated whether in-game aggression had a spillover effect into classroom behavior."
+          },
+          {
+            "word": "vector",
+            "pos": "noun",
+            "ipa": "/ˈvek.tər/",
+            "level": "C1",
+            "mean": "vật truyền dẫn, tác nhân truyền bệnh hay tác động",
+            "syns": [
+              "carrier",
+              "conduit",
+              "transmitter"
+            ],
+            "ex": "Sensational media outlets blamed video games as a major vector of societal juvenile violence."
+          },
+          {
+            "word": "polarized",
+            "pos": "adjective",
+            "ipa": "/ˈpəʊ.lə.raɪzd/",
+            "level": "B2",
+            "mean": "bị phân cực, chia thành hai quan điểm đối nghịch",
+            "syns": [
+              "divided",
+              "split",
+              "opposing"
+            ],
+            "ex": "Scientific opinion on this issue remains sharply polarized between two opposing camps."
+          },
+          {
+            "word": "deduction",
+            "pos": "noun",
+            "ipa": "/dɪˈdʌk.ʃən/",
+            "level": "B2",
+            "mean": "sự suy luận, kết luận logic",
+            "syns": [
+              "inference",
+              "conclusion",
+              "reasoning"
+            ],
+            "ex": "Drawing simplistic deductions from small laboratory trials can lead to flawed public policies."
+          },
+          {
+            "word": "imprint",
+            "pos": "noun",
+            "ipa": "/ˈɪm.prɪnt/",
+            "level": "B2",
+            "mean": "dấu ấn, ảnh hưởng sâu sắc",
+            "syns": [
+              "impression",
+              "impact",
+              "mark"
+            ],
+            "ex": "Interactive role-playing exerts a powerful psychological imprint on young minds."
+          },
+          {
+            "word": "reinforcement",
+            "pos": "noun",
+            "ipa": "/ˌriː.ɪnˈfɔːs.mənt/",
+            "level": "B2",
+            "mean": "sự củng cố hành vi (thưởng/phạt)",
+            "syns": [
+              "reward",
+              "strengthening",
+              "encouragement"
+            ],
+            "ex": "Immediate auditory and visual reinforcement encourages players to repeat specific in-game actions."
+          },
+          {
+            "word": "priming",
+            "pos": "noun",
+            "ipa": "/ˈpraɪ.mɪŋ/",
+            "level": "C1",
+            "mean": "hiệu ứng mồi tâm lý (kích hoạt nhận thức sẵn có)",
+            "syns": [
+              "activation",
+              "preconditioning"
+            ],
+            "ex": "Laboratory priming experiments revealed temporary spikes in aggressive thoughts immediately after play."
+          },
+          {
+            "word": "desensitization",
+            "pos": "noun",
+            "ipa": "/diːˌsen.sɪ.taɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự chai sạn cảm xúc, giảm nhạy cảm trước bạo lực",
+            "syns": [
+              "numbing",
+              "callousness",
+              "indifference"
+            ],
+            "ex": "Repeated exposure to graphic media can cause emotional desensitization to real pain."
+          },
+          {
+            "word": "punitive",
+            "pos": "adjective",
+            "ipa": "/ˈpjuː.nɪ.tɪv/",
+            "level": "B2",
+            "mean": "mang tính trừng phạt",
+            "syns": [
+              "disciplinary",
+              "penal",
+              "retaliatory"
+            ],
+            "ex": "In laboratory tests, participants were given the option to deliver punitive noise bursts to competitors."
+          },
+          {
+            "word": "cohort",
+            "pos": "noun",
+            "ipa": "/ˈkəʊ.hɔːt/",
+            "level": "B2",
+            "mean": "nhóm đối tượng cùng chia sẻ đặc điểm",
+            "syns": [
+              "group",
+              "collective",
+              "contingent"
+            ],
+            "ex": "A growing cohort of independent sociologists questioned the validity of laboratory experiments."
+          },
+          {
+            "word": "replicate",
+            "pos": "verb",
+            "ipa": "/ˈrep.lɪ.keɪt/",
+            "level": "B2",
+            "mean": "tái hiện lại, sao chép kết quả",
+            "syns": [
+              "duplicate",
+              "reproduce",
+              "mimic"
+            ],
+            "ex": "Artificial tests fail to replicate the complex social environment of real schoolyards."
+          },
+          {
+            "word": "longitudinal",
+            "pos": "adjective",
+            "ipa": "/ˌlɒŋ.ɡɪˈtʃuː.dɪ.nəl/",
+            "level": "C1",
+            "mean": "nghiên cứu theo thời gian dài, nghiên cứu dọc",
+            "syns": [
+              "long-term",
+              "extended",
+              "over-time"
+            ],
+            "ex": "Longitudinal studies tracking subjects over a decade provide more reliable real-world data."
+          },
+          {
+            "word": "negligible",
+            "pos": "adjective",
+            "ipa": "/ˈneɡ.lɪ.dʒə.bəl/",
+            "level": "B2",
+            "mean": "không đáng kể, rất nhỏ",
+            "syns": [
+              "insignificant",
+              "minor",
+              "trifling"
+            ],
+            "ex": "Statistical analyses found only a negligible link between violent gaming and actual criminal offences."
+          },
+          {
+            "word": "confounding",
+            "pos": "adjective",
+            "ipa": "/kənˈfaʊn.dɪŋ/",
+            "level": "C1",
+            "mean": "gây nhiễu (biến số ẩn làm sai lệch kết quả)",
+            "syns": [
+              "distorting",
+              "intervening",
+              "obscuring"
+            ],
+            "ex": "Poverty and family distress are major confounding variables in aggression research."
+          },
+          {
+            "word": "predisposition",
+            "pos": "noun",
+            "ipa": "/ˌpriː.dɪs.pəˈzɪʃ.ən/",
+            "level": "B2",
+            "mean": "khuynh hướng bẩm sinh, thiên hướng sẵn có",
+            "syns": [
+              "inclination",
+              "propensity",
+              "tendency"
+            ],
+            "ex": "Genetic predispositions toward impulsivity influence how individuals react to intense stimuli."
+          },
+          {
+            "word": "victimization",
+            "pos": "noun",
+            "ipa": "/ˌvɪk.tɪ.maɪˈzeɪ.ʃən/",
+            "level": "B2",
+            "mean": "tình trạng bị bắt nạt, biến thành nạn nhân",
+            "syns": [
+              "persecution",
+              "bullying",
+              "abuse"
+            ],
+            "ex": "Schoolyard peer victimization is a much stronger predictor of teen violence than leisure gaming."
+          },
+          {
+            "word": "comorbidity",
+            "pos": "noun",
+            "ipa": "/ˌkəʊ.mɔːˈbɪd.ə.ti/",
+            "level": "C1",
+            "mean": "bệnh lý đi kèm, tình trạng bệnh đồng mắc",
+            "syns": [
+              "co-occurring disorder",
+              "secondary condition"
+            ],
+            "ex": "Depression and underlying psychiatric comorbidities often co-exist with excessive screen isolation."
+          },
+          {
+            "word": "prosocial",
+            "pos": "adjective",
+            "ipa": "/prəʊˈsəʊ.ʃəl/",
+            "level": "B2",
+            "mean": "hướng xã hội, tích cực, hợp tác giúp ích cộng đồng",
+            "syns": [
+              "altruistic",
+              "cooperative",
+              "helpful"
+            ],
+            "ex": "Many modern online games promote prosocial behaviors such as teamwork and mutual assistance."
+          },
+          {
+            "word": "regulation",
+            "pos": "noun",
+            "ipa": "/ˌreɡ.jəˈleɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự điều hòa, kiểm soát cảm xúc",
+            "syns": [
+              "management",
+              "control",
+              "modulation"
+            ],
+            "ex": "Playing video games can aid emotional regulation after an exhausting day at work."
+          },
+          {
+            "word": "catharsis",
+            "pos": "noun",
+            "ipa": "/kəˈθɑː.sɪs/",
+            "level": "C1",
+            "mean": "sự giải tỏa cảm xúc dồn nén, thanh tẩy tâm hồn",
+            "syns": [
+              "emotional release",
+              "purging",
+              "purgation"
+            ],
+            "ex": "Engaging in vigorous virtual competition provides a harmless sense of catharsis for many players."
+          },
+          {
+            "word": "connectedness",
+            "pos": "noun",
+            "ipa": "/kəˈnek.tɪd.nəs/",
+            "level": "B2",
+            "mean": "sự gắn kết, cảm giác thuộc về nhau",
+            "syns": [
+              "belonging",
+              "bonding",
+              "attachment"
+            ],
+            "ex": "Cooperative online gaming creates meaningful feelings of social connectedness among isolated teens."
+          },
+          {
+            "word": "monolithic",
+            "pos": "adjective",
+            "ipa": "/ˌmɒn.əˈlɪθ.ɪk/",
+            "level": "C1",
+            "mean": "đơn nhất khổng lồ, nguyên khối bất di bất dịch",
+            "syns": [
+              "uniform",
+              "homogenous",
+              "inflexible"
+            ],
+            "ex": "Video games cannot be viewed as a monolithic entity that affects all children identically."
+          },
+          {
+            "word": "determinant",
+            "pos": "noun",
+            "ipa": "/dɪˈtɜː.mɪ.nənt/",
+            "level": "B2",
+            "mean": "yếu tố mang tính quyết định",
+            "syns": [
+              "deciding factor",
+              "driver",
+              "causative agent"
+            ],
+            "ex": "Parental warmth and guidance remain the primary determinants of a child's ethical development."
+          },
+          {
+            "word": "contextual",
+            "pos": "adjective",
+            "ipa": "/kənˈteks.tʃu.əl/",
+            "level": "B2",
+            "mean": "thuộc về ngữ cảnh, mang tính tình huống",
+            "syns": [
+              "circumstantial",
+              "conditional",
+              "situational"
+            ],
+            "ex": "The behavioral impact of gaming depends on contextual factors such as family supervision."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t27_q21",
+            "num": 21,
+            "question": "What is the primary purpose of the passage?",
+            "questionVi": "Mục đích chính của đoạn văn là gì?",
+            "questionType": "Main Idea",
+            "options": [
+              "To advocate for a nationwide legal ban on violent video game sales to minors",
+              "To provide a balanced overview of the scientific debate surrounding video games and aggression",
+              "To prove definitively that video games cause real-life violent crimes",
+              "To instruct computer software engineers on how to program educational games"
+            ],
+            "optionsVi": [
+              "Ủng hộ một lệnh cấm pháp lý trên toàn quốc đối với việc bán game bạo lực cho trẻ vị thành niên",
+              "Cung cấp cái nhìn tổng quan cân bằng về cuộc tranh luận khoa học xung quanh game và tính hung hăng",
+              "Chứng minh dứt khoát rằng trò chơi điện tử là nguyên nhân trực tiếp gây ra tội phạm bạo lực ngoài đời thực",
+              "Hướng dẫn các kỹ sư phần mềm máy tính cách lập trình các trò chơi giáo dục"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "empirical investigations into this phenomenon reveal an intricate, highly polarized scientific landscape that resists simplistic causal deductions... Ultimately, consensus is emerging that video games do not act as monolithic determinants of human morality; rather, their behavioral consequences depend on a subtle matrix...",
+            "evidenceVi": "các cuộc điều tra thực nghiệm về hiện tượng này cho thấy một bức tranh khoa học phức tạp, phân cực cao và phản bác những suy diễn nhân quả đơn giản... Sau cùng, sự đồng thuận đang hình thành rằng trò chơi điện tử không đóng vai trò như một yếu tố quyết định đạo đức đơn nhất...",
+            "explanation": "Đoạn văn trình bày cả hai luồng quan điểm: giả thuyết làm gia tăng tính hung hăng (General Aggression Model) và quan điểm phản biện từ các nghiên cứu dọc và giá trị giải tỏa/kết nối xã hội.",
+            "postReading": {
+              "original": "empirical investigations into this phenomenon reveal an intricate, highly polarized scientific landscape that resists simplistic causal deductions.",
+              "paraphrase": "scientific research on this subject presents a nuanced, sharply divided domain that contradicts straightforward cause-and-effect assumptions.",
+              "analysis": "'Intricate, highly polarized scientific landscape' = 'nuanced, sharply divided domain'; 'resists simplistic causal deductions' = 'contradicts straightforward cause-and-effect assumptions'."
+            }
+          },
+          {
+            "id": "t27_q22",
+            "num": 22,
+            "question": "According to paragraph 2, why does the General Aggression Model (GAM) argue interactive video games are more influential than cinema?",
+            "questionVi": "Theo đoạn 2, vì sao Mô hình gây hấn tổng quát (GAM) lại cho rằng game tương tác có sức ảnh hưởng mạnh hơn phim ảnh?",
+            "questionType": "Detail",
+            "options": [
+              "Players spend more money purchasing video game consoles than cinema tickets",
+              "Players actively adopt the protagonist's viewpoint, make lethal choices, and receive immediate rewards",
+              "Movie theaters prohibit teenagers from watching films alone",
+              "Television broadcasts contain fewer sound effects than digital gaming cartridges"
+            ],
+            "optionsVi": [
+              "Người chơi tốn nhiều tiền mua máy chơi game hơn mua vé xem phim rạp",
+              "Người chơi chủ động nhập vai nhân vật chính, đưa ra các quyết định tiêu diệt đối thủ và nhận phần thưởng tức thì",
+              "Rạp chiếu phim cấm thanh thiếu niên vào xem phim một mình",
+              "Các chương trình truyền hình có ít hiệu ứng âm thanh hơn các đĩa game kỹ thuật số"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Because players actively inhabit the protagonist's viewpoint, make tactical decisions to eliminate adversaries, and receive immediate in-game reinforcement—such as points, auditory triumphs, and narrative progression—they internalize aggressive cognitive scripts.",
+            "evidenceVi": "Bởi vì người chơi chủ động nhập vai góc nhìn của nhân vật chính, đưa ra quyết định chiến thuật để tiêu diệt đối thủ và nhận sự củng cố tức thì trong game—như điểm số, âm thanh chiến thắng và tiến trình cốt truyện—họ tiếp thu những kịch bản nhận thức hung hăng.",
+            "explanation": "Đoạn 2 chỉ rõ bản chất tương tác: nhập vai nhân vật chính, tự tay đưa ra quyết định triệt hạ kẻ thù và được tưởng thưởng điểm số, chiến thắng ngay lập tức.",
+            "postReading": {
+              "original": "Because players actively inhabit the protagonist's viewpoint, make tactical decisions to eliminate adversaries, and receive immediate in-game reinforcement",
+              "paraphrase": "Since gamers directly control the main character, strategize to defeat opponents, and obtain instant virtual incentives",
+              "analysis": "'Actively inhabit the protagonist's viewpoint' = 'directly control the main character'; 'eliminate adversaries' = 'defeat opponents'; 'in-game reinforcement' = 'virtual incentives'."
+            }
+          },
+          {
+            "id": "t27_q23",
+            "num": 23,
+            "question": "The word \"gratuitous\" in paragraph 1 is closest in meaning to:",
+            "questionVi": "Từ \"gratuitous\" trong đoạn 1 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "unwarranted",
+              "generous",
+              "unavoidable",
+              "historical"
+            ],
+            "optionsVi": [
+              "vô cớ, không cần thiết",
+              "hào phóng",
+              "không thể tránh khỏi",
+              "mang tính lịch sử"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "concerns mounted that repeated virtual enactment of homicide, gunplay, and gratuitous cruelty would inevitably spill over into real-world anti-social behavior.",
+            "evidenceVi": "những lo ngại gia tăng rằng việc lặp đi lặp lại hành vi giết người, đấu súng và sự tàn bạo vô cớ trong thế giới ảo chắc chắn sẽ tràn sang hành vi chống đối xã hội ngoài đời thực.",
+            "explanation": "'Gratuitous' có nghĩa là vô cớ, không có lý do chính đáng hoặc không cần thiết, đồng nghĩa với 'unwarranted' hoặc 'needless'.",
+            "postReading": {
+              "original": "repeated virtual enactment of homicide, gunplay, and gratuitous cruelty",
+              "paraphrase": "continual simulated participation in killing, armed combat, and unjustified brutality",
+              "analysis": "'Gratuitous cruelty' = 'unjustified brutality'; 'virtual enactment' = 'simulated participation'."
+            }
+          },
+          {
+            "id": "t27_q24",
+            "num": 24,
+            "question": "What is one immediate physiological or behavioral effect demonstrated in laboratory trials mentioned in paragraph 2?",
+            "questionVi": "Một tác động sinh lý hoặc hành vi tức thì được thể hiện trong các thử nghiệm phòng thí nghiệm được đề cập ở đoạn 2 là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Dramatic decreases in heart rates and instant falling asleep",
+              "Desensitization to graphic distress imagery and delivering punitive noise blasts to opponents",
+              "Permanent loss of linguistic speech ability",
+              "Instant healing of preexisting physical bodily ailments"
+            ],
+            "optionsVi": [
+              "Nhịp tim giảm mạnh và ngủ thiếp đi ngay lập tức",
+              "Sự chai sạn cảm xúc trước hình ảnh đau đớn và gửi những luồng tiếng ồn trừng phạt đến đối thủ",
+              "Mất vĩnh viễn khả năng ngôn ngữ nói",
+              "Chữa lành ngay lập tức các bệnh tật thể chất sẵn có"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Laboratory trials frequently demonstrate short-term priming effects following intense gameplay sessions, including elevated heart rates, desensitization to graphic real-world distress imagery, and heightened tendencies to administer punitive noise blasts to opponents...",
+            "evidenceVi": "Các thử nghiệm trong phòng thí nghiệm thường chứng minh các hiệu ứng mồi ngắn hạn sau các lượt chơi game căng thẳng, bao gồm nhịp tim tăng, sự chai sạn trước hình ảnh đau buồn ngoài đời thực và xu hướng tăng cao phát ra tiếng ồn trừng phạt đối thủ...",
+            "explanation": "Đoạn 2 nêu rõ các biểu hiện trong phòng lab: nhịp tim tăng, giảm cảm giác xót thương trước hình ảnh thương tâm và phạt tiếng ồn chói tai vào đối thủ.",
+            "postReading": {
+              "original": "desensitization to graphic real-world distress imagery, and heightened tendencies to administer punitive noise blasts to opponents",
+              "paraphrase": "emotional numbness toward vivid suffering and an increased willingness to deliver unpleasant sound penalties to adversaries",
+              "analysis": "'Desensitization' = 'emotional numbness'; 'graphic real-world distress imagery' = 'vivid suffering'; 'punitive noise blasts' = 'unpleasant sound penalties'."
+            }
+          },
+          {
+            "id": "t27_q25",
+            "num": 25,
+            "question": "The word \"negligible\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"negligible\" trong đoạn 3 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "insignificant",
+              "catastrophic",
+              "definitive",
+              "measurable"
+            ],
+            "optionsVi": [
+              "không đáng kể, không có ý nghĩa",
+              "thảm khốc",
+              "dứt khoát, rõ rệt",
+              "đo đếm được"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "longitudinal studies tracking adolescents across multiple years have systematically yielded negligible or statistically non-significant associations...",
+            "evidenceVi": "các nghiên cứu dài hạn theo dõi thanh thiếu niên qua nhiều năm đã cho thấy mối liên hệ không đáng kể hoặc không có ý nghĩa thống kê...",
+            "explanation": "'Negligible' nghĩa là rất nhỏ, không đáng kể, đồng nghĩa với 'insignificant' hoặc 'trifling'.",
+            "postReading": {
+              "original": "have systematically yielded negligible or statistically non-significant associations",
+              "paraphrase": "have consistently produced trivial or mathematically inconsequential correlations",
+              "analysis": "'Systematically yielded' = 'consistently produced'; 'negligible' = 'trivial' / 'insignificant'."
+            }
+          },
+          {
+            "id": "t27_q26",
+            "num": 26,
+            "question": "According to critics in paragraph 3, what are the genuine causal drivers of adolescent hostility?",
+            "questionVi": "Theo các nhà phê bình ở đoạn 3, đâu là những tác nhân nhân quả thực sự gây ra thái độ thù địch của thanh thiếu niên?",
+            "questionType": "Detail",
+            "options": [
+              "The technical resolution of graphics cards and monitor refresh speeds",
+              "Family instability, genetic impulsivity, peer victimization, and psychiatric comorbidities",
+              "The strictness of school homework assignments and test grading systems",
+              "The volume of physical exercise performed during outdoor athletics"
+            ],
+            "optionsVi": [
+              "Độ phân giải của card đồ họa và tốc độ làm tươi của màn hình",
+              "Sự bất ổn của gia đình, khuynh hướng bốc đồng do di truyền, bị bạn bè bắt nạt và bệnh lý tâm thần đồng mắc",
+              "Độ khó của bài tập về nhà ở trường và hệ thống chấm điểm bài thi",
+              "Khối lượng tập thể dục thể chất thực hiện trong các hoạt động ngoài trời"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Dissenting scholars emphasize alternative confounding variables—including underlying family instability, genetic predispositions to impulsive conduct, peer victimization, and pre-existing psychiatric comorbidities—as the genuine causal drivers of adolescent hostility.",
+            "evidenceVi": "Các học giả phản biện nhấn mạnh các biến số gây nhiễu thay thế—bao gồm sự bất ổn nền tảng của gia đình, khuynh hướng bẩm sinh đối với hành vi bốc đồng, nạn bắt nạt học đường và bệnh tâm thần đồng mắc sẵn có—mới là những tác nhân nhân quả thực sự của sự thù địch.",
+            "explanation": "Đoạn 3 liệt kê cụ thể các yếu tố thực tế: hoàn cảnh gia đình, di truyền bốc đồng, bị bạo lực học đường và tiền sử bệnh tâm thần.",
+            "postReading": {
+              "original": "underlying family instability, genetic predispositions to impulsive conduct, peer victimization, and pre-existing psychiatric comorbidities",
+              "paraphrase": "domestic dysfunction, inherited inclinations toward reckless actions, bullying from classmates, and prior mental health issues",
+              "analysis": "'Family instability' = 'domestic dysfunction'; 'genetic predispositions' = 'inherited inclinations'; 'peer victimization' = 'bullying from classmates'."
+            }
+          },
+          {
+            "id": "t27_q27",
+            "num": 27,
+            "question": "The concept of \"catharsis\" in paragraph 4 refers to:",
+            "questionVi": "Khái niệm \"catharsis\" trong đoạn 4 đề cập đến:",
+            "questionType": "Vocabulary",
+            "options": [
+              "The complete loss of memory following head trauma",
+              "The therapeutic release and purging of pent-up emotional tension",
+              "The physical act of purchasing digital downloadable expansion packs",
+              "The technological cooling of computer hardware processing units"
+            ],
+            "optionsVi": [
+              "Mất hoàn toàn trí nhớ sau chấn thương đầu",
+              "Sự giải tỏa và thanh tẩy mang tính trị liệu các cảm xúc căng thẳng dồn nén",
+              "Hành vi mua các gói nội dung tải về mở rộng trong game",
+              "Quá trình làm mát phần cứng bộ xử lý máy tính"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "structured gameplay can provide an efficacious outlet for emotional regulation, enabling stressed youth to experience tension release—a dynamic reminiscent of the ancient psychological construct of catharsis.",
+            "evidenceVi": "trò chơi có cấu trúc có thể cung cấp một lối thoát hiệu quả để điều hòa cảm xúc, cho phép thanh thiếu niên bị căng thẳng giải tỏa áp lực—một cơ chế gợi nhắc đến khái niệm tâm lý học cổ xưa về sự thanh tẩy cảm xúc (catharsis).",
+            "explanation": "'Catharsis' là thuật ngữ chỉ sự thanh tẩy, giải tỏa cảm xúc dồn nén một cách an toàn và lành mạnh (release and purging of pent-up tension).",
+            "postReading": {
+              "original": "enabling stressed youth to experience tension release—a dynamic reminiscent of the ancient psychological construct of catharsis.",
+              "paraphrase": "allowing overburdened teenagers to purge mental stress, echoing the classical psychological theory of cathartic release.",
+              "analysis": "'Tension release' = 'purge mental stress'; 'reminiscent of the ancient psychological construct of catharsis' = 'echoing the classical psychological theory of cathartic release'."
+            }
+          },
+          {
+            "id": "t27_q28",
+            "num": 28,
+            "question": "Which positive social skill cultivated through multiplayer online games is highlighted in paragraph 4?",
+            "questionVi": "Kỹ năng xã hội tích cực nào được trau dồi qua các trò chơi trực tuyến nhiều người chơi được nhấn mạnh ở đoạn 4?",
+            "questionType": "Detail",
+            "options": [
+              "Solo financial bookkeeping and tax calculation",
+              "Sophisticated collaboration, instant negotiation, and collective problem-solving",
+              "Cheating software detection and code encryption",
+              "Silent solitary isolation from all community contact"
+            ],
+            "optionsVi": [
+              "Kế toán tài chính cá nhân và tính toán thuế",
+              "Hợp tác phức tạp, đàm phán tức thì và cùng nhau giải quyết vấn đề",
+              "Phát hiện phần mềm gian lận và mã hóa code",
+              "Sự cô lập một mình im lặng không tiếp xúc cộng đồng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Multiplayer online environments also demand sophisticated collaboration, instantaneous negotiation, and collective problem-solving, which cultivate cross-cultural social connectedness.",
+            "evidenceVi": "Các môi trường trực tuyến nhiều người chơi cũng đòi hỏi sự hợp tác tinh vi, đàm phán tức thời và cùng nhau giải quyết vấn đề, điều này nuôi dưỡng sự gắn kết xã hội xuyên văn hóa.",
+            "explanation": "Đoạn 4 nêu rõ game online đòi hỏi phối hợp đồng đội, thương lượng chiến thuật nhanh và giải quyết bài toán nhóm phức tạp.",
+            "postReading": {
+              "original": "demand sophisticated collaboration, instantaneous negotiation, and collective problem-solving",
+              "paraphrase": "require advanced teamwork, rapid communication, and shared conflict resolution",
+              "analysis": "'Sophisticated collaboration' = 'advanced teamwork'; 'instantaneous negotiation' = 'rapid communication'; 'collective problem-solving' = 'shared conflict resolution'."
+            }
+          },
+          {
+            "id": "t27_q29",
+            "num": 29,
+            "question": "The word \"monolithic\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"monolithic\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "uniform and unvarying",
+              "fragile and weak",
+              "digital and virtual",
+              "ancient and historical"
+            ],
+            "optionsVi": [
+              "đồng nhất, nguyên khối không biến đổi",
+              "mong manh và yếu ớt",
+              "kỹ thuật số và ảo",
+              "cổ xưa và mang tính lịch sử"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "consensus is emerging that video games do not act as monolithic determinants of human morality...",
+            "evidenceVi": "sự đồng thuận đang dần hình thành rằng trò chơi điện tử không đóng vai trò như những yếu tố đơn nhất bất biến quyết định đạo đức con người...",
+            "explanation": "'Monolithic' nghĩa là đồng nhất, nguyên khối, áp dụng như nhau trong mọi hoàn cảnh mà không có sự linh hoạt phân biệt, đồng nghĩa với 'uniform and unvarying'.",
+            "postReading": {
+              "original": "video games do not act as monolithic determinants of human morality",
+              "paraphrase": "interactive digital entertainment does not serve as an unvarying sole decider of personal values",
+              "analysis": "'Monolithic determinants' = 'unvarying sole decider'; 'human morality' = 'personal values'."
+            }
+          },
+          {
+            "id": "t27_q30",
+            "num": 30,
+            "question": "What can be inferred from the final sentence about the impact of video games on young players?",
+            "questionVi": "Có thể suy ra điều gì từ câu cuối cùng về tác động của trò chơi điện tử đối với người chơi trẻ tuổi?",
+            "questionType": "Inference",
+            "options": [
+              "Game effects are entirely predetermined by software developers and cannot be altered",
+              "Behavioral outcomes depend on an interplay between the individual's personality, parental involvement, and playing context",
+              "Parental involvement has been proven completely useless in mitigating media effects",
+              "All teenagers inevitably develop antisocial habits regardless of family background"
+            ],
+            "optionsVi": [
+              "Tác động của game đã được định đoạt hoàn toàn bởi các nhà phát triển và không thể thay đổi",
+              "Kết quả hành vi phụ thuộc vào sự tương tác qua lại giữa tính cách cá nhân, sự can thiệp của cha mẹ và bối cảnh chơi",
+              "Sự can thiệp của cha mẹ đã được chứng minh là hoàn toàn vô ích trong việc giảm thiểu tác động truyền thông",
+              "Mọi thanh thiếu niên đều chắc chắn phát triển thói quen chống đối xã hội bất kể nền tảng gia đình"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "rather, their behavioral consequences depend on a subtle matrix of player personality, parental engagement, and the specific contextual framing within which play occurs.",
+            "evidenceVi": "thay vào đó, những hệ quả hành vi của chúng phụ thuộc vào một ma trận tinh tế giữa nhân cách người chơi, sự đồng hành của phụ huynh và bối cảnh cụ thể mà hoạt động chơi game diễn ra.",
+            "explanation": "Câu kết luận khẳng định tác động của game không đồng nhất mà là kết quả của sự tương tác phức hợp giữa cá nhân người chơi, sự đồng hành của gia đình và bối cảnh chơi game.",
+            "postReading": {
+              "original": "their behavioral consequences depend on a subtle matrix of player personality, parental engagement, and the specific contextual framing",
+              "paraphrase": "the resulting conduct is shaped by a complex interplay of individual character, caregiver involvement, and situational environment",
+              "analysis": "'Subtle matrix' = 'complex interplay'; 'parental engagement' = 'caregiver involvement'; 'contextual framing' = 'situational environment'."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Global Biodiversity Loss: Habitat Fragmentation, Invasive Species & Ecological Collapse",
+        "topic": "Mất đa dạng sinh học toàn cầu: Phân mảnh sinh cảnh, loài ngoại lai xâm lấn, đứt gãy chuỗi thức ăn và các giải pháp hành lang sinh thái bảo tồn",
+        "timeAllowed": 15,
+        "passage": "<p>Biologists and conservation scientists increasingly characterize the contemporary epoch as the Anthropocene—a geological era in which human activities constitute the predominant driver of planetary environmental change. Foremost among the ecological perturbations characterizing this epoch is an unprecedented acceleration in the global rate of species extinction, occurring at velocities roughly one hundred to one thousand times greater than baseline geological background rates. Rather than representing an isolated biological curiosity, this systemic depletion of biosphere complexity destabilizes essential ecosystem services—such as floral pollination, watershed filtration, and atmospheric carbon sequestration—that fundamentally underpin human civilizational security.</p><p>The primary direct driver of terrestrial biodiversity loss remains anthropogenic habitat destruction and physical fragmentation. As industrial agriculture, urban sprawling infrastructure, and linear transportation networks dissect contiguous ancient biomes into diminutive, isolated habitat parcels, vulnerable animal populations suffer acute insularization. Small, isolated breeding populations experience inevitable inbreeding depression, genetic drift, and reduced resilience to episodic disease outbreaks. Concurrently, the expansion of geometric perimeter boundaries exacerbates deleterious 'edge effects,' exposing forest interiors to microclimatic desiccation, altered wind shear, wildfire encroachment, and predatory penetration by domestic and feral meso-predators.</p><p>Compounding physical fragmentation is the biological onslaught initiated by invasive alien species. In our hyper-interconnected global trading apparatus, transoceanic cargo vessels, intercontinental aviation, and agricultural commerce inadvertently translocate non-indigenous organisms past biogeographic barriers that historically isolated distinct evolutionary lineages for millions of years. Free from the co-evolved predators, specialized parasites, and immunological checks that constrained them within their native ranges, invasive flora and fauna outcompete, predate, or infect naive endemic taxa. Classic examples—such as the decimation of Guam's avifauna by the brown tree snake or the rapid annihilation of global amphibians by the chytrid fungus—vividly illustrate how non-native organisms induce trophic cascades that culminate in irreversible ecosystem homogenization.</p><p>Confronting this precipitous ecological collapse mandates an ambitious paradigm shift transcending historical static conservation. Historically, preservation strategies prioritized demarcating isolated, fence-and-protect nature reserves. Contemporary conservation biology, however, recognizes that static reserves inevitably become ecological islands if surrounding landscapes are biologically hostile. Emerging strategic frameworks prioritize macro-scale ecological connectivity, establishing continuous wildlife corridors and rewilding initiatives that bridge fragmented parks. By integrating landscape-level permeability with stringent biosecurity checkpoints and indigenous stewardship tenures, the global community can preserve evolutionary lineages and maintain functional planetary equilibrium.</p>",
+        "vocab": [
+          {
+            "word": "perturbation",
+            "pos": "noun",
+            "ipa": "/ˌpɜː.təˈbeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự xáo trộn, biến động lớn",
+            "syns": [
+              "disturbance",
+              "disruption",
+              "agitation"
+            ],
+            "ex": "Human industrial emissions cause massive perturbations in the global carbon cycle."
+          },
+          {
+            "word": "velocity",
+            "pos": "noun",
+            "ipa": "/vəˈlɒs.ə.ti/",
+            "level": "B2",
+            "mean": "tốc độ, vận tốc",
+            "syns": [
+              "speed",
+              "rapidity",
+              "pace"
+            ],
+            "ex": "Species are currently vanishing at an ecological velocity unprecedented in human history."
+          },
+          {
+            "word": "baseline",
+            "pos": "noun",
+            "ipa": "/ˈbeɪs.laɪn/",
+            "level": "B2",
+            "mean": "mức cơ sở, mức chuẩn ban đầu",
+            "syns": [
+              "benchmark",
+              "standard",
+              "reference point"
+            ],
+            "ex": "Current extinction rates vastly exceed the natural baseline observed in fossil records."
+          },
+          {
+            "word": "depletion",
+            "pos": "noun",
+            "ipa": "/dɪˈpliː.ʃən/",
+            "level": "B2",
+            "mean": "sự cạn kiệt, suy giảm nghiêm trọng",
+            "syns": [
+              "exhaustion",
+              "diminution",
+              "loss"
+            ],
+            "ex": "The depletion of marine fish stocks threatens the livelihoods of coastal communities."
+          },
+          {
+            "word": "sequestration",
+            "pos": "noun",
+            "ipa": "/ˌsiː.kwesˈtreɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự cô lập, hấp thụ và cô đọng (carbon)",
+            "syns": [
+              "capture",
+              "isolation",
+              "storage"
+            ],
+            "ex": "Ancient rainforests play a paramount role in biological carbon sequestration."
+          },
+          {
+            "word": "anthropogenic",
+            "pos": "adjective",
+            "ipa": "/ˌæn.θrə.pəˈdʒen.ɪk/",
+            "level": "C1",
+            "mean": "do con người gây ra",
+            "syns": [
+              "human-induced",
+              "man-made",
+              "human-caused"
+            ],
+            "ex": "Anthropogenic habitat alteration is the single greatest threat to wild carnivores."
+          },
+          {
+            "word": "contiguous",
+            "pos": "adjective",
+            "ipa": "/kənˈtɪɡ.ju.əs/",
+            "level": "C1",
+            "mean": "liền kề, liên tục không bị chia cắt",
+            "syns": [
+              "adjacent",
+              "unbroken",
+              "adjoining"
+            ],
+            "ex": "Tigers require vast tracts of contiguous forest to maintain viable territories."
+          },
+          {
+            "word": "biome",
+            "pos": "noun",
+            "ipa": "/ˈbaɪ.əʊm/",
+            "level": "B2",
+            "mean": "quần xã sinh vật, khu sinh học lớn",
+            "syns": [
+              "ecosystem",
+              "ecological zone",
+              "habitat zone"
+            ],
+            "ex": "Tropical rainforest biomes house over half of the world's terrestrial species."
+          },
+          {
+            "word": "diminutive",
+            "pos": "adjective",
+            "ipa": "/dɪˈmɪn.jə.tɪv/",
+            "level": "C1",
+            "mean": "nhỏ bé, manh mún",
+            "syns": [
+              "tiny",
+              "minute",
+              "miniature"
+            ],
+            "ex": "Wild animals become trapped in diminutive patches of forest surrounded by palm oil plantations."
+          },
+          {
+            "word": "insularization",
+            "pos": "noun",
+            "ipa": "/ˌɪn.sjʊ.lə.raɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "hiện tượng bị biến thành đảo biệt lập",
+            "syns": [
+              "isolation",
+              "island effect",
+              "compartmentalization"
+            ],
+            "ex": "Habitat insularization cuts off natural gene flow between neighboring wildlife groups."
+          },
+          {
+            "word": "inbreeding",
+            "pos": "noun",
+            "ipa": "/ˈɪnˌbriː.dɪŋ/",
+            "level": "B2",
+            "mean": "giao phối cận huyết",
+            "syns": [
+              "consanguineous mating",
+              "in-line breeding"
+            ],
+            "ex": "Severe inbreeding leads to congenital deformities and decreased immune defense in big cats."
+          },
+          {
+            "word": "deleterious",
+            "pos": "adjective",
+            "ipa": "/ˌdel.ɪˈtɪə.ri.əs/",
+            "level": "C1",
+            "mean": "gây hại, độc hại, bất lợi",
+            "syns": [
+              "harmful",
+              "detrimental",
+              "damaging"
+            ],
+            "ex": "Logging roads introduce deleterious changes to forest humidity and soil temperature."
+          },
+          {
+            "word": "desiccation",
+            "pos": "noun",
+            "ipa": "/ˌdes.ɪˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự khô hạn kiệt, mất nước",
+            "syns": [
+              "drying out",
+              "dehydration",
+              "aridity"
+            ],
+            "ex": "Sunlight penetrating forest edges causes acute desiccation of understory plant species."
+          },
+          {
+            "word": "onslaught",
+            "pos": "noun",
+            "ipa": "/ˈɒn.slɔːt/",
+            "level": "B2",
+            "mean": "cuộc tấn công dữ dội, sự ồ ạt ập đến",
+            "syns": [
+              "assault",
+              "inundation",
+              "incursion"
+            ],
+            "ex": "Native marsupials were entirely unprepared for the onslaught of invasive European foxes."
+          },
+          {
+            "word": "apparatus",
+            "pos": "noun",
+            "ipa": "/ˌæp.əˈreɪ.təs/",
+            "level": "B2",
+            "mean": "bộ máy, hệ thống vận hành",
+            "syns": [
+              "machinery",
+              "system",
+              "infrastructure"
+            ],
+            "ex": "The global shipping apparatus inadvertently carries thousands of marine species across oceans in ballast water."
+          },
+          {
+            "word": "translocate",
+            "pos": "verb",
+            "ipa": "/trænz.ləʊˈkeɪt/",
+            "level": "C1",
+            "mean": "di dời vị trí, chuyển dời sinh vật sang nơi khác",
+            "syns": [
+              "relocate",
+              "transport",
+              "displace"
+            ],
+            "ex": "Cargo planes frequently translocate insect pests across international borders."
+          },
+          {
+            "word": "lineage",
+            "pos": "noun",
+            "ipa": "/ˈlɪn.i.ɪdʒ/",
+            "level": "B2",
+            "mean": "dòng dõi tiến hóa, nòi giống",
+            "syns": [
+              "ancestry",
+              "pedigree",
+              "genealogy"
+            ],
+            "ex": "Madagascar boasts unique mammalian lineages that evolved in isolation for sixty million years."
+          },
+          {
+            "word": "naive",
+            "pos": "adjective",
+            "ipa": "/naɪˈiːv/",
+            "level": "B2",
+            "mean": "chưa từng tiếp xúc kẻ thù, ngây thơ sinh thái",
+            "syns": [
+              "defenseless",
+              "unwary",
+              "inexperienced"
+            ],
+            "ex": "Endemic island birds are ecologically naive and fail to recognize predatory mammals."
+          },
+          {
+            "word": "decimation",
+            "pos": "noun",
+            "ipa": "/ˌdes.ɪˈmeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự tàn sát hàng loạt, tiêu diệt phần lớn",
+            "syns": [
+              "destruction",
+              "annihilation",
+              "slaughter"
+            ],
+            "ex": "The introduction of the snake caused the complete decimation of native forest songbirds."
+          },
+          {
+            "word": "avifauna",
+            "pos": "noun",
+            "ipa": "/ˌeɪ.vɪˈfɔː.nə/",
+            "level": "C1",
+            "mean": "khu hệ chim, tất cả các loài chim trong khu vực",
+            "syns": [
+              "bird life",
+              "avian species"
+            ],
+            "ex": "Guam's unique forest avifauna was driven to near-total extinction within two decades."
+          },
+          {
+            "word": "trophic",
+            "pos": "adjective",
+            "ipa": "/ˈtrəʊ.fɪk/",
+            "level": "C1",
+            "mean": "thuộc về dinh dưỡng, chuỗi thức ăn",
+            "syns": [
+              "nutritional",
+              "food-chain related"
+            ],
+            "ex": "The removal of apex predators triggers catastrophic trophic cascades across the entire ecosystem."
+          },
+          {
+            "word": "homogenization",
+            "pos": "noun",
+            "ipa": "/həˌmɒdʒ.ə.naɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự đồng nhất hóa, làm mất đi tính đa dạng đặc thù",
+            "syns": [
+              "standardization",
+              "uniformity",
+              "leveling"
+            ],
+            "ex": "Biotic homogenization replaces unique endemic species with cosmopolitan weeds and pests."
+          },
+          {
+            "word": "precipitous",
+            "pos": "adjective",
+            "ipa": "/prɪˈsɪp.ɪ.təs/",
+            "level": "C1",
+            "mean": "nhanh đến chóng mặt, dốc đứng nguy hiểm",
+            "syns": [
+              "steep",
+              "abrupt",
+              "headlong"
+            ],
+            "ex": "Conservationists warn against the precipitous decline of wild insect populations."
+          },
+          {
+            "word": "demarcate",
+            "pos": "verb",
+            "ipa": "/ˈdiː.mɑː.keɪt/",
+            "level": "B2",
+            "mean": "vạch rõ ranh giới, phân định",
+            "syns": [
+              "delineate",
+              "boundary",
+              "mark out"
+            ],
+            "ex": "Governments attempted to demarcate nature parks on maps without connecting them together."
+          },
+          {
+            "word": "permeability",
+            "pos": "noun",
+            "ipa": "/ˌpɜː.mi.əˈbɪl.ə.ti/",
+            "level": "C1",
+            "mean": "khả năng cho sinh vật di chuyển qua lại, tính thẩm thấu",
+            "syns": [
+              "penetrability",
+              "porosity",
+              "connectivity"
+            ],
+            "ex": "Enhancing agricultural landscape permeability enables animals to safely migrate between reserves."
+          },
+          {
+            "word": "biosecurity",
+            "pos": "noun",
+            "ipa": "/ˌbaɪ.əʊ.sɪˈkjʊə.rə.ti/",
+            "level": "B2",
+            "mean": "an ninh sinh học (ngăn ngừa dịch hại và loài xâm lấn)",
+            "syns": [
+              "biological containment",
+              "quarantine"
+            ],
+            "ex": "Strict island biosecurity screening prevents foreign parasites from arriving on tourist vessels."
+          },
+          {
+            "word": "stewardship",
+            "pos": "noun",
+            "ipa": "/ˈstjuː.əd.ʃɪp/",
+            "level": "B2",
+            "mean": "sự quản lý chăm sóc tận tụy, quyền quản trị bảo vệ",
+            "syns": [
+              "guardianship",
+              "caretaking",
+              "custodianship"
+            ],
+            "ex": "Recognizing indigenous land stewardship is essential for effective global rainforest conservation."
+          }
+        ],
+        "questions": [
+          {
+            "id": "t27_q31",
+            "num": 31,
+            "question": "Which of the following best summarizes the main idea of the passage?",
+            "questionVi": "Câu nào sau đây tóm tắt tốt nhất ý chính của đoạn văn?",
+            "questionType": "Main Idea",
+            "options": [
+              "Anthropogenic habitat fragmentation and invasive species are driving a biodiversity crisis that demands interconnected landscape conservation",
+              "The construction of concrete fences around nature reserves is the only viable method to prevent animal poaching",
+              "Fossil records demonstrate that current extinction rates are identical to normal prehistoric background cycles",
+              "Invasive snakes in Guam have successfully replaced extinct bird species in performing seed dispersal"
+            ],
+            "optionsVi": [
+              "Sự phân mảnh sinh cảnh do con người và loài xâm lấn đang thúc đẩy cuộc khủng hoảng đa dạng sinh học đòi hỏi bảo tồn cảnh quan liên kết",
+              "Việc xây dựng hàng rào bê tông quanh các khu bảo tồn thiên nhiên là phương pháp khả thi duy nhất để ngăn chặn săn bắt thú",
+              "Hồ sơ hóa thạch chứng minh rằng tốc độ tuyệt chủng hiện tại hoàn toàn giống với các chu kỳ tiền sử bình thường",
+              "Loài rắn xâm lấn ở đảo Guam đã thay thế thành công các loài chim đã tuyệt chủng trong việc phát tán hạt giống"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Foremost among the ecological perturbations... is an unprecedented acceleration in the global rate of species extinction... The primary direct driver... remains anthropogenic habitat destruction and physical fragmentation... Compounding physical fragmentation is the biological onslaught initiated by invasive alien species... Confronting this precipitous ecological collapse mandates an ambitious paradigm shift... emerging strategic frameworks prioritize macro-scale ecological connectivity...",
+            "evidenceVi": "Đứng đầu trong số các biến động sinh thái... là sự gia tốc chưa từng có của tốc độ tuyệt chủng loài... Tác nhân trực tiếp chính yếu... vẫn là sự phá hủy và phân mảnh sinh cảnh do con người... Đi cùng với đó là cuộc tấn công sinh học từ các loài ngoại lai xâm lấn... Đối mặt với sự sụp đổ này đòi hỏi bước chuyển đổi tư duy... ưu tiên tính kết nối sinh thái quy mô lớn...",
+            "explanation": "Toàn bài phân tích hai nguyên nhân hàng đầu đe dọa đa dạng sinh học (phân mảnh sinh cảnh và loài xâm lấn) và kết luận bằng giải pháp mang tính kết nối hành lang sinh thái quy mô lớn.",
+            "postReading": {
+              "original": "Confronting this precipitous ecological collapse mandates an ambitious paradigm shift transcending historical static conservation.",
+              "paraphrase": "Halting this rapid environmental breakdown requires a bold transformation beyond traditional, isolated preservation methods.",
+              "analysis": "'Confronting this precipitous ecological collapse' = 'Halting this rapid environmental breakdown'; 'mandates an ambitious paradigm shift' = 'requires a bold transformation'; 'transcending historical static conservation' = 'beyond traditional, isolated preservation methods'."
+            }
+          },
+          {
+            "id": "t27_q32",
+            "num": 32,
+            "question": "According to paragraph 1, how do current extinction velocities compare to baseline geological background rates?",
+            "questionVi": "Theo đoạn 1, tốc độ tuyệt chủng hiện nay so với tỷ lệ chuẩn nền địa chất tự nhiên như thế nào?",
+            "questionType": "Detail",
+            "options": [
+              "They are virtually identical to prehistoric rates",
+              "They are approximately one hundred to one thousand times greater",
+              "They have decreased significantly because of captive breeding in zoos",
+              "They fluctuate strictly according to predictable lunar gravitational cycles"
+            ],
+            "optionsVi": [
+              "Chúng hầu như giống hệt với các tỷ lệ thời tiền sử",
+              "Chúng lớn hơn khoảng từ một trăm đến một nghìn lần",
+              "Chúng đã giảm đáng kể nhờ các chương trình nhân giống nuôi nhốt trong sở thú",
+              "Chúng biến động nghiêm ngặt theo các chu kỳ trọng lực mặt trăng có thể đoán trước"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "an unprecedented acceleration in the global rate of species extinction, occurring at velocities roughly one hundred to one thousand times greater than baseline geological background rates.",
+            "evidenceVi": "sự gia tốc chưa từng thấy trong tốc độ tuyệt chủng loài toàn cầu, diễn ra ở vận tốc lớn hơn khoảng 100 đến 1.000 lần so với tốc độ chuẩn nền địa chất ban đầu.",
+            "explanation": "Đoạn 1 nêu con số cụ thể: nhanh hơn khoảng 100 đến 1.000 lần so với tỷ lệ tự nhiên trong hồ sơ địa chất.",
+            "postReading": {
+              "original": "occurring at velocities roughly one hundred to one thousand times greater than baseline geological background rates.",
+              "paraphrase": "taking place at speeds approximately 100 to 1,000 times higher than typical historical evolutionary benchmarks.",
+              "analysis": "'Occurring at velocities roughly...' = 'taking place at speeds approximately...'; 'baseline geological background rates' = 'typical historical evolutionary benchmarks'."
+            }
+          },
+          {
+            "id": "t27_q33",
+            "num": 33,
+            "question": "The word \"contiguous\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"contiguous\" trong đoạn 2 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "unbroken and continuous",
+              "artificial and synthetic",
+              "flooded and submerged",
+              "poisonous and toxic"
+            ],
+            "optionsVi": [
+              "liền mạch, liên tục không đứt quãng",
+              "nhân tạo và tổng hợp",
+              "ngập lụt và chìm trong nước",
+              "độc hại và có độc"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "As industrial agriculture, urban sprawling infrastructure, and linear transportation networks dissect contiguous ancient biomes into diminutive, isolated habitat parcels...",
+            "evidenceVi": "Khi nông nghiệp công nghiệp, cơ sở hạ tầng đô thị mở rộng và mạng lưới giao thông đường bộ chia cắt các quần xã sinh vật cổ đại liền mạch thành những mảnh sinh cảnh nhỏ bé, biệt lập...",
+            "explanation": "'Contiguous' nghĩa là tiếp giáp nhau, trải dài liên tục thành một khối không bị cắt vụn, đồng nghĩa với 'unbroken and continuous'.",
+            "postReading": {
+              "original": "dissect contiguous ancient biomes into diminutive, isolated habitat parcels",
+              "paraphrase": "fragment vast unbroken native ecosystems into small, detached patches of land",
+              "analysis": "'Dissect contiguous ancient biomes' = 'fragment vast unbroken native ecosystems'; 'diminutive, isolated habitat parcels' = 'small, detached patches of land'."
+            }
+          },
+          {
+            "id": "t27_q34",
+            "num": 34,
+            "question": "According to paragraph 2, what genetic hazard confronts small animal populations trapped in fragmented habitats?",
+            "questionVi": "Theo đoạn 2, mối nguy hại về mặt di truyền nào đe dọa các quần thể động vật nhỏ bị mắc kẹt trong sinh cảnh phân mảnh?",
+            "questionType": "Detail",
+            "options": [
+              "Hyper-accelerated brain enlargement that requires excessive food",
+              "Inbreeding depression, genetic drift, and lowered resistance to diseases",
+              "Spontaneous metamorphosis into aquatic amphibians",
+              "The total immunity to all viral infections"
+            ],
+            "optionsVi": [
+              "Não bộ to ra quá nhanh đòi hỏi lượng thức ăn khổng lồ",
+              "Thoái hóa do giao phối cận huyết, trôi dạt di truyền và suy giảm đề kháng trước dịch bệnh",
+              "Biến thái tự phát thành các loài lưỡng cư sống dưới nước",
+              "Miễn dịch hoàn toàn trước mọi bệnh nhiễm trùng do virus"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Small, isolated breeding populations experience inevitable inbreeding depression, genetic drift, and reduced resilience to episodic disease outbreaks.",
+            "evidenceVi": "Các quần thể sinh sản nhỏ, bị cô lập phải trải qua sự suy giảm do cận huyết không thể tránh khỏi, hiện tượng trôi dạt di truyền và giảm khả năng chống chịu trước các đợt bùng phát dịch bệnh theo chu kỳ.",
+            "explanation": "Đoạn 2 chỉ rõ hệ quả di truyền của việc chia cắt quần thể nhỏ: thoái hóa cận huyết (inbreeding depression), trôi dạt gen (genetic drift) và giảm sức chống chịu bệnh tật.",
+            "postReading": {
+              "original": "Small, isolated breeding populations experience inevitable inbreeding depression, genetic drift, and reduced resilience to episodic disease outbreaks.",
+              "paraphrase": "Restricted, separated wildlife groups inevitably suffer from genetic degradation due to close-relative mating, random gene loss, and weakened defenses against epidemics.",
+              "analysis": "'Small, isolated breeding populations' = 'Restricted, separated wildlife groups'; 'inbreeding depression' = 'genetic degradation due to close-relative mating'; 'reduced resilience to episodic disease outbreaks' = 'weakened defenses against epidemics'."
+            }
+          },
+          {
+            "id": "t27_q35",
+            "num": 35,
+            "question": "The term \"edge effects\" in paragraph 2 refers to:",
+            "questionVi": "Thuật ngữ \"edge effects\" (hiệu ứng rìa rừng) trong đoạn 2 đề cập đến:",
+            "questionType": "Vocabulary",
+            "options": [
+              "The economic advantages gained by real estate developers building highways",
+              "The environmental and microclimatic deterioration occurring along boundaries where habitat fragments meet disturbed land",
+              "The deliberate decorative planting of ornamental flowers along park borders",
+              "The mechanical sharpening of forestry cutting blades"
+            ],
+            "optionsVi": [
+              "Những lợi thế kinh tế thu được từ các nhà phát triển bất động sản xây dựng đường cao tốc",
+              "Sự suy thoái môi trường và vi khí hậu xảy ra dọc theo ranh giới nơi các mảnh sinh cảnh tiếp xúc với đất bị tác động",
+              "Việc chủ động trồng hoa cảnh trang trí dọc theo biên giới công viên",
+              "Việc mài sắc cơ học các lưỡi cưa khai thác gỗ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "expansion of geometric perimeter boundaries exacerbates deleterious 'edge effects,' exposing forest interiors to microclimatic desiccation, altered wind shear, wildfire encroachment, and predatory penetration by domestic and feral meso-predators.",
+            "evidenceVi": "sự gia tăng chu vi đường bao làm trầm trọng thêm 'hiệu ứng rìa rừng' tai hại, khiến vùng lõi rừng tiếp xúc với sự khô hạn vi khí hậu, biến đổi sức gió, nguy cơ cháy rừng lan rộng và sự thâm nhập của động vật săn mồi nuôi và hoang dã.",
+            "explanation": "Hiệu ứng rìa rừng mô tả sự biến đổi tiêu cực về ánh sáng, gió khô, nhiệt độ và sự xâm nhập của loài ăn thịt khi diện tích tiếp xúc ngoài rìa của mảnh rừng tăng lên.",
+            "postReading": {
+              "original": "expansion of geometric perimeter boundaries exacerbates deleterious 'edge effects,' exposing forest interiors to microclimatic desiccation",
+              "paraphrase": "enlarging outer border perimeters intensifies harmful edge-zone disturbances, subjecting deep forest ecosystems to drying winds and heat",
+              "analysis": "'Deleterious edge effects' = 'harmful edge-zone disturbances'; 'microclimatic desiccation' = 'drying winds and heat'."
+            }
+          },
+          {
+            "id": "t27_q36",
+            "num": 36,
+            "question": "Why are invasive species capable of rapidly outcompeting endemic species, according to paragraph 3?",
+            "questionVi": "Vì sao các loài xâm lấn có khả năng nhanh chóng lấn át các loài đặc hữu, theo đoạn 3?",
+            "questionType": "Detail",
+            "options": [
+              "They possess advanced technological tools supplied by maritime cargo vessels",
+              "They escape the specialized predators, parasites, and immune pressures that restricted them in their native lands",
+              "They undergo instantaneous genetic engineering in scientific laboratory facilities",
+              "They exclusively consume plastic debris found floating in ocean waters"
+            ],
+            "optionsVi": [
+              "Chúng sở hữu các công cụ công nghệ tiên tiến do các tàu chở hàng cung cấp",
+              "Chúng thoát khỏi những loài săn mồi chuyên biệt, ký sinh trùng và áp lực miễn dịch từng kìm hãm chúng tại quê nhà",
+              "Chúng trải qua quá trình chỉnh sửa gen tức thì trong các cơ sở phòng thí nghiệm khoa học",
+              "Chúng chỉ tiêu thụ độc nhất rác thải nhựa trôi nổi trên vùng biển đại dương"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Free from the co-evolved predators, specialized parasites, and immunological checks that constrained them within their native ranges, invasive flora and fauna outcompete, predate, or infect naive endemic taxa.",
+            "evidenceVi": "Thoát khỏi các loài săn mồi cùng tiến hóa, ký sinh trùng chuyên biệt và cơ chế kiểm soát miễn dịch từng kìm hãm chúng ở vùng bản địa, hệ động thực vật xâm lấn lấn át, săn bắt hoặc lây nhiễm cho các loài đặc hữu ngây thơ.",
+            "explanation": "Đoạn 3 giải thích nguyên nhân ưu thế của loài xâm lấn: khi đến môi trường mới, chúng không có thiên địch tự nhiên, ký sinh trùng hay bệnh tật kìm hãm như ở nơi gốc gác.",
+            "postReading": {
+              "original": "Free from the co-evolved predators, specialized parasites, and immunological checks that constrained them within their native ranges",
+              "paraphrase": "Liberated from the natural natural hunters, targeted diseases, and biological controls that held them in check in their original habitats",
+              "analysis": "'Free from' = 'Liberated from'; 'co-evolved predators' = 'natural hunters'; 'immunological checks' = 'biological controls'."
+            }
+          },
+          {
+            "id": "t27_q37",
+            "num": 37,
+            "question": "The word \"precipitous\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"precipitous\" trong đoạn 4 gần nghĩa nhất với từ nào:",
+            "questionType": "Vocabulary",
+            "options": [
+              "abrupt and steep",
+              "gradual and harmless",
+              "beneficial and profitable",
+              "predictable and gentle"
+            ],
+            "optionsVi": [
+              "đột ngột và dốc đứng nguy hiểm",
+              "dần dần và vô hại",
+              "có lợi và mang lại lợi nhuận",
+              "có thể đoán trước và nhẹ nhàng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Confronting this precipitous ecological collapse mandates an ambitious paradigm shift transcending historical static conservation.",
+            "evidenceVi": "Đối mặt với sự sụp đổ sinh thái dốc đứng nhanh chóng này đòi hỏi một bước chuyển dịch tư duy đầy tham vọng vượt lên trên việc bảo tồn tĩnh truyền thống.",
+            "explanation": "'Precipitous' diễn tả sự suy giảm hoặc sụp đổ nhanh chóng, dốc đứng như rơi xuống vực thẳm, đồng nghĩa với 'abrupt and steep'.",
+            "postReading": {
+              "original": "Confronting this precipitous ecological collapse mandates an ambitious paradigm shift",
+              "paraphrase": "Addressing this steep and urgent environmental deterioration requires a profound conceptual change",
+              "analysis": "'Precipitous ecological collapse' = 'steep and urgent environmental deterioration'; 'mandates an ambitious paradigm shift' = 'requires a profound conceptual change'."
+            }
+          },
+          {
+            "id": "t27_q38",
+            "num": 38,
+            "question": "According to paragraph 4, what is the fatal flaw of traditional \"fence-and-protect\" nature reserves?",
+            "questionVi": "Theo đoạn 4, sai lầm cốt tử của các khu bảo tồn thiên nhiên kiểu \"dựng hàng rào và bảo vệ\" truyền thống là gì?",
+            "questionType": "Detail",
+            "options": [
+              "Fences are too inexpensive to deter commercial logging corporations",
+              "Static reserves inevitably turn into biological islands when surrounded by hostile, modified terrain",
+              "Park rangers refuse to allow native species to breed within borders",
+              "Nature reserves cause rainstorms to cease entirely over protected mountains"
+            ],
+            "optionsVi": [
+              "Hàng rào quá rẻ tiền để ngăn chặn các tập đoàn khai thác gỗ thương mại",
+              "Các khu bảo tồn tĩnh tất yếu trở thành những hòn đảo sinh học biệt lập khi bị bao quanh bởi cảnh quan biến đổi đầy thù địch",
+              "Các kiểm lâm từ chối không cho các loài bản địa sinh sản bên trong ranh giới",
+              "Các khu bảo tồn thiên nhiên làm cho mưa ngừng hoàn toàn trên các ngọn núi được bảo vệ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Contemporary conservation biology, however, recognizes that static reserves inevitably become ecological islands if surrounding landscapes are biologically hostile.",
+            "evidenceVi": "Tuy nhiên, sinh học bảo tồn đương đại nhận ra rằng các khu bảo tồn tĩnh chắc chắn sẽ trở thành những ốc đảo sinh thái nếu cảnh quan xung quanh mang tính thù địch về mặt sinh học.",
+            "explanation": "Đoạn 4 nêu rõ: nếu chỉ bảo tồn đóng khung trong hàng rào mà xung quanh là đô thị hóa hoặc đất nông nghiệp độc canh thì khu bảo tồn sẽ biến thành một ốc đảo cô lập (ecological islands).",
+            "postReading": {
+              "original": "static reserves inevitably become ecological islands if surrounding landscapes are biologically hostile.",
+              "paraphrase": "fixed protected areas inevitably turn into isolated ecological enclaves when enclosed by inhospitable surrounding lands.",
+              "analysis": "'Static reserves' = 'fixed protected areas'; 'ecological islands' = 'isolated ecological enclaves'; 'biologically hostile' = 'inhospitable surrounding lands'."
+            }
+          },
+          {
+            "id": "t27_q39",
+            "num": 39,
+            "question": "Which conservation strategy is explicitly championed in paragraph 4 as a modern solution to habitat fragmentation?",
+            "questionVi": "Chiến lược bảo tồn nào được ủng hộ rõ ràng ở đoạn 4 như một giải pháp hiện đại cho tình trạng phân mảnh sinh cảnh?",
+            "questionType": "Detail",
+            "options": [
+              "Building subterranean concrete bunkers to preserve frozen genetic tissue",
+              "Creating landscape-scale continuous wildlife corridors and rewilding initiatives",
+              "Eliminating national biosecurity inspections at maritime container ports",
+              "Relocating all endangered wildlife species permanently into urban city parks"
+            ],
+            "optionsVi": [
+              "Xây dựng các hầm ngầm bê tông dưới lòng đất để bảo quản mô di truyền đông lạnh",
+              "Tạo các hành lang động vật hoang dã liên tục quy mô cảnh quan và các sáng kiến tái hoang dã",
+              "Xóa bỏ kiểm dịch an ninh sinh học quốc gia tại các cảng container hàng hải",
+              "Di dời vĩnh viễn tất cả động vật nguy cấp vào các công viên đô thị"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Emerging strategic frameworks prioritize macro-scale ecological connectivity, establishing continuous wildlife corridors and rewilding initiatives that bridge fragmented parks.",
+            "evidenceVi": "Các khung chiến lược mới nổi ưu tiên tính kết nối sinh thái quy mô lớn, thiết lập các hành lang động vật hoang dã liên tục và các sáng kiến tái hoang dã kết nối các công viên bị chia cắt.",
+            "explanation": "Đoạn 4 chỉ ra giải pháp căn cơ: kết nối sinh thái quy mô vĩ mô (macro-scale connectivity), xây dựng hành lang hoang dã (wildlife corridors) và tái hoang dã (rewilding).",
+            "postReading": {
+              "original": "establishing continuous wildlife corridors and rewilding initiatives that bridge fragmented parks.",
+              "paraphrase": "creating uninterrupted ecological transit zones and restoration projects that reconnect separated conservation sectors.",
+              "analysis": "'Continuous wildlife corridors' = 'uninterrupted ecological transit zones'; 'bridge fragmented parks' = 'reconnect separated conservation sectors'."
+            }
+          },
+          {
+            "id": "t27_q40",
+            "num": 40,
+            "question": "Which of the following can be inferred from the final sentence about successful biodiversity protection?",
+            "questionVi": "Điều nào sau đây có thể suy ra từ câu kết luận về việc bảo vệ đa dạng sinh học thành công?",
+            "questionType": "Inference",
+            "options": [
+              "Technological surveillance alone is sufficient to protect wildlife without local community involvement",
+              "Sustained success requires a synthesized approach combining connected landscapes, biosecurity controls, and indigenous land rights",
+              "Indigenous peoples should be excluded from participating in environmental management decisions",
+              "Global trade must be terminated completely to prevent any biological transfers"
+            ],
+            "optionsVi": [
+              "Chỉ riêng giám sát công nghệ là đủ để bảo vệ động vật hoang dã mà không cần sự tham gia của cộng đồng địa phương",
+              "Thành công lâu bền đòi hỏi một cách tiếp cận tổng hợp kết hợp cảnh quan liên thông, kiểm soát an ninh sinh học và quyền quản trị của người bản địa",
+              "Người bản địa nên bị loại trừ khỏi việc tham gia vào các quyết định quản lý môi trường",
+              "Thương mại toàn cầu phải bị chấm dứt hoàn toàn để ngăn chặn mọi sự di chuyển sinh học"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "By integrating landscape-level permeability with stringent biosecurity checkpoints and indigenous stewardship tenures, the global community can preserve evolutionary lineages and maintain functional planetary equilibrium.",
+            "evidenceVi": "Bằng cách tích hợp khả năng lưu thông cấp cảnh quan với các trạm kiểm dịch an ninh sinh học nghiêm ngặt và quyền quản trị bảo hộ của người bản địa, cộng đồng toàn cầu có thể bảo tồn các dòng dõi tiến hóa và duy trì trạng thái cân bằng hành tinh.",
+            "explanation": "Câu kết hợp 3 trụ cột: tính thẩm thấu/kết nối của cảnh quan, trạm kiểm soát an ninh sinh học nghiêm ngặt và quyền làm chủ/bảo vệ của cư dân bản địa.",
+            "postReading": {
+              "original": "By integrating landscape-level permeability with stringent biosecurity checkpoints and indigenous stewardship tenures",
+              "paraphrase": "Through combining regional ecological connectivity, rigorous biological border screening, and customary native guardianship",
+              "analysis": "'Landscape-level permeability' = 'regional ecological connectivity'; 'stringent biosecurity checkpoints' = 'rigorous biological border screening'; 'indigenous stewardship tenures' = 'customary native guardianship'."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
