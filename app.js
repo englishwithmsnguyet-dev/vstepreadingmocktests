@@ -6358,7 +6358,9 @@ function startFullExam(testNum) {
     state.activeExam.isFullExam = true;
     state.activeExam.isSubmitted = false;
     state.activeExam.currentPassageIdx = 0;
-    state.activeExam.currentQuestionId = 1;
+    state.activeExam.currentQuestionId = (test.passages && test.passages[0] && test.passages[0].questions && test.passages[0].questions[0])
+        ? test.passages[0].questions[0].id
+        : 1;
     state.activeExam.answers = {};
     state.activeExam.flags = {};
     state.activeExam.timeLeft = 3600; // 60 mins
@@ -6384,13 +6386,14 @@ function startSinglePassageExam(testNum, passageIdx) {
     }
     playSound('click');
     const test = getMockTests().find(t => t.testNum === testNum);
-    if (!test) return;
+    if (!test || !test.passages || !test.passages[passageIdx]) return;
 
     state.activeExam.test = test;
     state.activeExam.isFullExam = false;
     state.activeExam.isSubmitted = false;
     state.activeExam.currentPassageIdx = passageIdx;
-    state.activeExam.currentQuestionId = test.passages[passageIdx].questions[0].id;
+    const firstQ = (test.passages[passageIdx].questions && test.passages[passageIdx].questions[0]);
+    state.activeExam.currentQuestionId = firstQ ? firstQ.id : (passageIdx * 10 + 1);
     state.activeExam.answers = {};
     state.activeExam.flags = {};
     state.activeExam.timeLeft = 900; // 15 mins
@@ -6418,12 +6421,17 @@ function resetCheatUI() {
 
 function initCBTWorkspace() {
     switchView('cbt');
-    updateCBTSubmissionUI();
-    renderCBTPassageTabs();
-    renderCBTPassage();
-    renderCBTActiveQuestion();
-    renderCBTPalette();
+    // Luôn khởi động timer trước để đồng hồ đếm ngược hoạt động độc lập và không bao giờ bị đơ
     startCBTTimer();
+    try {
+        updateCBTSubmissionUI();
+        renderCBTPassageTabs();
+        renderCBTPassage();
+        renderCBTActiveQuestion();
+        renderCBTPalette();
+    } catch (err) {
+        console.error("Lỗi khi render CBT Workspace:", err);
+    }
 }
 
 function updateCBTSubmissionUI() {
@@ -6594,32 +6602,41 @@ function updateActiveEvidenceInPassage(activeQId) {
 }
 
 function renderCBTPassage() {
-    const passage = state.activeExam.test.passages[state.activeExam.currentPassageIdx];
-    const pNum = String(passage.partId).padStart(2, '0');
-    const pCleanTitle = passage.title.replace(/^Passage\s*\d+:\s*/i, '');
-    document.getElementById('active-passage-title').innerHTML = `<i class="fa-solid fa-book-open" style="color: #2563eb; margin-right: 8px;"></i>PASSAGE ${pNum}: ${pCleanTitle}`;
+    const passage = state.activeExam.test && state.activeExam.test.passages && state.activeExam.test.passages[state.activeExam.currentPassageIdx];
+    if (!passage) return;
+    const pPartNum = passage.partId || passage.passageNum || (state.activeExam.currentPassageIdx + 1);
+    const pNum = String(pPartNum).padStart(2, '0');
+    const pTitle = passage.title || `Passage ${pPartNum}`;
+    const pCleanTitle = pTitle.replace(/^Passage\s*\d+:\s*/i, '');
+    const titleEl = document.getElementById('active-passage-title');
+    if (titleEl) {
+        titleEl.innerHTML = `<i class="fa-solid fa-book-open" style="color: #2563eb; margin-right: 8px;"></i>PASSAGE ${pNum}: ${pCleanTitle}`;
+    }
     
     const bodyEl = document.getElementById('active-passage-body');
+    if (!bodyEl) return;
+
+    const rawPassageText = passage.passage || passage.text || '';
 
     if (state.activeExam.isSubmitted) {
-        const pHtmlWithEv = highlightPassageWithEvidence(passage.passage, passage, state.activeExam.currentQuestionId);
+        const pHtmlWithEv = highlightPassageWithEvidence(rawPassageText, passage, state.activeExam.currentQuestionId);
         bodyEl.innerHTML = pHtmlWithEv;
         bodyEl.style.fontSize = `${state.activeExam.fontSize}%`;
         setTimeout(() => scrollToPassageEvidence(state.activeExam.currentQuestionId), 60);
         return;
     }
 
-    const savedHtml = state.activeExam.passagesHighlights[passage.partId];
+    const savedHtml = state.activeExam.passagesHighlights[pPartNum] || (passage.partId && state.activeExam.passagesHighlights[passage.partId]);
     if (savedHtml) {
         bodyEl.innerHTML = savedHtml;
     } else {
-        let pHtml = passage.passage;
+        let pHtml = rawPassageText;
         const stopPronouns = new Set(['it', 'its', 'they', 'them', 'their', 'this', 'that', 'these', 'those', 'more', 'other', 'others', 'one', 'ones', 'there', 'here', 'such', 'some', 'many', 'most', 'which', 'what', 'where', 'when', 'who', 'whom']);
         const htmlKeywords = new Set(['span', 'class', 'strong', 'style', 'mark', 'font', 'passage', 'subheading', 'target', 'word']);
 
         const escapeRegExp = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
         const highlightOutsideTags = (htmlStr, word, firstOnly = false) => {
-            if (!word || htmlKeywords.has(word.toLowerCase())) return htmlStr;
+            if (!word || !htmlStr || htmlKeywords.has(word.toLowerCase())) return htmlStr || '';
             const flags = firstOnly ? 'i' : 'gi';
             const regex = new RegExp(`\\b(${escapeRegExp(word)})\\b(?![^<]*>)`, flags);
             return htmlStr.replace(regex, '<span class="target-word">$1</span>');
@@ -6632,7 +6649,7 @@ function renderCBTPassage() {
             }
         });
 
-        passage.questions.forEach(q => {
+        (passage.questions || []).forEach(q => {
             const m = q.question.match(/The (?:word|phrase)\s*['"]([^'"]+)['"]/i);
             if (!m || !m[1]) return;
             const target = m[1].trim();
@@ -6660,13 +6677,20 @@ function renderCBTPassage() {
     }
 
     bodyEl.style.fontSize = `${state.activeExam.fontSize}%`;
-    document.getElementById('cbt-passage-column').scrollTop = 0;
+    const col = document.getElementById('cbt-passage-column');
+    if (col) col.scrollTop = 0;
 }
 
 function renderCBTActiveQuestion() {
     const test = state.activeExam.test;
+    if (!test || !test.passages) return;
     const passage = test.passages[state.activeExam.currentPassageIdx];
-    const q = passage.questions.find(item => item.id === state.activeExam.currentQuestionId);
+    if (!passage || !passage.questions || passage.questions.length === 0) return;
+    let q = passage.questions.find(item => item.id == state.activeExam.currentQuestionId || item.num == state.activeExam.currentQuestionId);
+    if (!q) {
+        q = passage.questions[0];
+        if (q) state.activeExam.currentQuestionId = q.id;
+    }
     if (!q) return;
 
     const isSubmitted = !!state.activeExam.isSubmitted;
@@ -6895,8 +6919,14 @@ function navQuestion(dir) {
 }
 
 function jumpToQuestion(targetQId) {
+    let numQId = parseInt(targetQId, 10);
+    if (isNaN(numQId)) {
+        const m = String(targetQId).match(/\d+/);
+        numQId = m ? parseInt(m[0], 10) : 1;
+    }
+    targetQId = numQId;
     state.activeExam.currentQuestionId = targetQId;
-    const targetPassageIdx = Math.floor((targetQId - 1) / 10);
+    const targetPassageIdx = Math.max(0, Math.min(3, Math.floor((targetQId - 1) / 10)));
     const needPassageSwitch = targetPassageIdx !== state.activeExam.currentPassageIdx;
     
     state.activeExam.currentPassageIdx = targetPassageIdx;
@@ -6912,10 +6942,14 @@ function jumpToQuestion(targetQId) {
 
 function renderCBTPalette() {
     const grid = document.getElementById('cbt-palette-grid');
+    if (!grid) return;
     grid.innerHTML = '';
     const currentQId = state.activeExam.currentQuestionId;
     const isSubmitted = !!state.activeExam.isSubmitted;
-    const passage = state.activeExam.test.passages[state.activeExam.currentPassageIdx];
+    const test = state.activeExam.test;
+    if (!test || !test.passages) return;
+    const passage = test.passages[state.activeExam.currentPassageIdx];
+    if (!passage) return;
 
     const pStart = state.activeExam.currentPassageIdx * 10 + 1;
     const pEnd = pStart + 9;
@@ -6925,8 +6959,8 @@ function renderCBTPalette() {
         const userAns = state.activeExam.answers[qId];
         const isAnswered = !!userAns;
         const isFlagged = !!state.activeExam.flags[qId];
-        const isActive = qId === currentQId;
-        const qObj = passage.questions.find(item => item.id === qId);
+        const isActive = qId == currentQId;
+        const qObj = (passage.questions || []).find(item => item.id == qId || item.num == qId);
 
         let classes = ['palette-btn'];
         if (isActive) classes.push('active');
