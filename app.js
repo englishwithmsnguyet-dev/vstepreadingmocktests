@@ -1541,6 +1541,7 @@ function renderPracticeView() {
     const test12 = tests.find(t => t.testNum === 12);
     const test13 = tests.find(t => t.testNum === 13);
     const test14 = tests.find(t => t.testNum === 14);
+    const test15 = tests.find(t => t.testNum === 15);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -2235,90 +2236,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 5. BỘ ĐỀ THỰC CHIẾN 05 (TEST 15) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 5. BỘ ĐỀ THỰC CHIẾN 05 (TEST 15) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite15') {
+        const savedAnsCount15 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 15) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved15 = state.savedExam && state.savedExam.testNum === 15 && savedAnsCount15 > 0;
+        const totalVocab15 = (test15 && test15.passages) ? test15.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta15 = [
+            {
+                testNum: 15,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'geography',
+                categoryName: 'Địa lý & Nông nghiệp bền vững',
+                categoryColor: '#0891b2',
+                badgeBg: '#ecfeff',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: The Mekong Delta',
+                icon: 'fa-water',
+                title: 'The Mekong Delta',
+                titleVi: 'Đồng bằng sông Cửu Long: Vựa lúa nông nghiệp & Thích ứng biến đổi khí hậu',
+                summary: 'Khám phá vai trò vựa lúa - thủy sản cốt lõi của ĐBSCL, thách thức kép từ sụt lún mặt đất, thiếu phù sa và xâm nhập mặn, cùng giải pháp luân canh lúa - tôm thuận thiên.'
+            },
+            {
+                testNum: 15,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'education',
+                categoryName: 'Giáo dục & Chuyển đổi số',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: Education in 2018',
+                icon: 'fa-graduation-cap',
+                title: 'Education in 2018: Reform & Digital Transformation',
+                titleVi: 'Giáo dục năm 2018: Đổi mới chương trình, PISA & Chuyển đổi số',
+                summary: 'Phân tích bước ngoặt giáo dục 2018 qua kết quả PISA về đọc hiểu số, cải cách chương trình phát triển năng lực, học tập kết hợp thích ứng và bài toán công bằng giáo dục.'
+            },
+            {
+                testNum: 15,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'ecology',
+                categoryName: 'Sinh thái học & Khí hậu',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Chủ đề bổ khuyết chuẩn B2/C1 liền mạch: Mangroves & Coastal Defense',
+                icon: 'fa-seedling',
+                title: 'Mangroves & Natural Coastal Defense',
+                titleVi: 'Rừng ngập mặn: Lá chắn sinh học chống xói lở & Lưu trữ Carbon xanh',
+                summary: 'Giải mã cơ chế lọc mặn và rễ thở kỳ diệu, khả năng làm suy giảm sóng bão vượt trội đê bê tông và vai trò kho lưu trữ carbon xanh gấp 4 lần rừng mưa trên cạn.'
+            },
+            {
+                testNum: 15,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'space',
+                categoryName: 'Khoa học Hành tinh & Thiên văn',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: NASA\'s Data on Mars',
+                icon: 'fa-rocket',
+                title: 'NASA\'s Data on Mars: Paleohydrology & Astrobiology',
+                titleVi: 'Dữ liệu nghiên cứu của NASA về Sao Hỏa: Cổ thủy văn & Dấu vết sự sống',
+                summary: 'Tổng hợp dữ liệu từ Perseverance, Curiosity và MAVEN về quá khứ giàu nước của Sao Hỏa, cơ chế gió mặt trời tước khí quyển (sputtering) và chiến dịch thu hồi mẫu đá về Trái Đất.'
+            }
+        ];
+
+        let pCardsHtml15 = '';
+        passagesMeta15.forEach(meta => {
+            const pData = (test15 && test15.passages) ? test15.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml15 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-15">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-05" id="suite-box-15">
+                <div class="practice-suite-header suite-header-05">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(217, 119, 6, 0.25); color: #fde68a; border-color: rgba(217, 119, 6, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 05 (TEST 15) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #67e8f9;"></i> BỘ ĐỀ THỰC CHIẾN 05 (TEST 15) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 05 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Đồng bằng sông Cửu Long (Part 1) • Giáo dục năm 2018 (Part 2) • Rừng ngập mặn & Thích ứng sạt lở (Part 3) • Dữ liệu nghiên cứu Sao Hỏa NASA (Part 4)
+                            <strong>4 Topics:</strong> Đồng bằng sông Cửu Long (Part 1) • Giáo dục năm 2018 (Part 2) • Rừng ngập mặn & Carbon xanh (Part 3) • Dữ liệu nghiên cứu Sao Hỏa NASA (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab15} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(15)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab15} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved15 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved15 ? 'resumeSavedExam()' : 'startFullExam(15)'}">
+                            ${isSaved15 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount15}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(15)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
-                        <i class="fa-solid fa-layer-group" style="color: #d97706;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 05):
+                        <i class="fa-solid fa-layer-group" style="color: #0891b2;"></i>
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>The Mekong Delta Ecosystem</h4>
-                                <h5>Đồng bằng sông Cửu Long: Hệ sinh thái, vựa lúa & Thách thức sinh kế</h5>
-                                <p>Vai trò an ninh lương thực của vùng châu thổ, nhịp sống mùa nước nổi và các mô hình nông nghiệp thích ứng với xâm nhập mặn.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>Global Education Trends in 2018</h4>
-                                <h5>Giáo dục năm 2018: Bước ngoặt công nghệ giáo dục & Học tập cá nhân hóa</h5>
-                                <p>Phân tích các báo cáo giáo dục năm 2018 về sự tích hợp của trí tuệ nhân tạo, lớp học đảo ngược (flipped classrooms) và phát triển kỹ năng thế kỷ 21.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Mangrove Ecosystems & Coastal Defense</h4>
-                                <h5>Hệ sinh thái rừng ngập mặn & Chiến lược chống xói mòn sạt lở ven bờ</h5>
-                                <p>Nghiên cứu cấu trúc rễ đước, khả năng lưu trữ carbon xanh (blue carbon) và vai trò lá chắn tự nhiên trước bão biển và triều cường.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#b45309;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>NASA's Research Data on Mars</h4>
-                                <h5>Dữ liệu nghiên cứu của NASA về Sao Hỏa: Địa chất & Dấu vết sinh học</h5>
-                                <p>Giải mã các khám phá từ robot thám hiểm Curiosity và Perseverance: bằng chứng về hồ nước cổ đại, khoáng chất đất sét và triển vọng định cư tương lai.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml15}
                     </div>
                 </div>
             </div>

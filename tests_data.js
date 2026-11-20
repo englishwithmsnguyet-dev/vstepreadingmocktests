@@ -28010,259 +28010,325 @@ const READING_MOCK_TESTS = [
         "vocab": [
           {
             "word": "vendor",
+            "pos": "n",
             "ipa": "/ˈvɛndər/",
-            "type": "n.",
             "level": "B1",
-            "meaningVi": "người bán hàng rong, tiểu thương",
-            "synonym": "seller",
-            "example": "Street vendors offer generational recipes passed down through decades."
+            "mean": "người bán hàng rong, tiểu thương",
+            "syns": [
+              "seller"
+            ],
+            "ex": "Street vendors offer generational recipes passed down through decades."
           },
           {
             "word": "cuisine",
+            "pos": "n",
             "ipa": "/kwɪˈziːn/",
-            "type": "n.",
             "level": "B1",
-            "meaningVi": "nền ẩm thực, phong cách nấu nướng",
-            "synonym": "cooking style",
-            "example": "Vietnamese cuisine is renowned for its fresh herbs and balanced flavors."
+            "mean": "nền ẩm thực, phong cách nấu nướng",
+            "syns": [
+              "cooking style"
+            ],
+            "ex": "Vietnamese cuisine is renowned for its fresh herbs and balanced flavors."
           },
           {
             "word": "delicacy",
+            "pos": "n",
             "ipa": "/ˈdɛlɪkəsi/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "món ăn đặc sản, cao lương mỹ vị",
-            "synonym": "specialty",
-            "example": "Tourists eagerly sample local delicacies at the bustling night market."
+            "mean": "món ăn đặc sản, cao lương mỹ vị",
+            "syns": [
+              "specialty"
+            ],
+            "ex": "Tourists eagerly sample local delicacies at the bustling night market."
           },
           {
             "word": "authenticity",
+            "pos": "n",
             "ipa": "/ˌɔːθɛnˈtɪsɪti/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "tính xác thực, tính nguyên bản",
-            "synonym": "genuineness",
-            "example": "Travelers value the culinary authenticity of sidewalk eateries over upscale restaurants."
+            "mean": "tính xác thực, tính nguyên bản",
+            "syns": [
+              "genuineness"
+            ],
+            "ex": "Travelers value the culinary authenticity of sidewalk eateries over upscale restaurants."
           },
           {
             "word": "hygiene",
+            "pos": "n",
             "ipa": "/ˈhaɪdʒiːn/",
-            "type": "n.",
             "level": "B1",
-            "meaningVi": "vệ sinh, điều kiện giữ sạch",
-            "synonym": "cleanliness",
-            "example": "Strict food hygiene regulations protect customers from foodborne illnesses."
+            "mean": "vệ sinh, điều kiện giữ sạch",
+            "syns": [
+              "cleanliness"
+            ],
+            "ex": "Strict food hygiene regulations protect customers from foodborne illnesses."
           },
           {
             "word": "municipal",
+            "pos": "adj",
             "ipa": "/mjuːˈnɪsɪpəl/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thuộc thành phố, thuộc đô thị",
-            "synonym": "civic",
-            "example": "Municipal authorities are designing designated zones for food stalls."
+            "mean": "thuộc thành phố, thuộc đô thị",
+            "syns": [
+              "civic"
+            ],
+            "ex": "Municipal authorities are designing designated zones for food stalls."
           },
           {
             "word": "regulation",
+            "pos": "n",
             "ipa": "/ˌrɛɡjʊˈleɪʃən/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "quy định, luật lệ quản lý",
-            "synonym": "rule",
-            "example": "Safety regulations ensure that mobile food carts maintain sanitary conditions."
+            "mean": "quy định, luật lệ quản lý",
+            "syns": [
+              "rule"
+            ],
+            "ex": "Safety regulations ensure that mobile food carts maintain sanitary conditions."
           },
           {
             "word": "sustenance",
+            "pos": "n",
             "ipa": "/ˈsʌstɪnəns/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "chất bổ dưỡng, thức ăn nuôi sống",
-            "synonym": "nourishment",
-            "example": "Street food originated as affordable sustenance for urban laborers."
+            "mean": "chất bổ dưỡng, thức ăn nuôi sống",
+            "syns": [
+              "nourishment"
+            ],
+            "ex": "Street food originated as affordable sustenance for urban laborers."
           },
           {
             "word": "vibrant",
+            "pos": "adj",
             "ipa": "/ˈvaɪbrənt/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "sôi động, tràn đầy sức sống",
-            "synonym": "lively",
-            "example": "The night market presents a vibrant atmosphere filled with sights and aromas."
+            "mean": "sôi động, tràn đầy sức sống",
+            "syns": [
+              "lively"
+            ],
+            "ex": "The night market presents a vibrant atmosphere filled with sights and aromas."
           },
           {
             "word": "palatable",
+            "pos": "adj",
             "ipa": "/ˈpælətəbəl/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "vừa miệng, dễ thưởng thức",
-            "synonym": "tasty",
-            "example": "The cook seasoned the broth to make it palatable to international visitors."
+            "mean": "vừa miệng, dễ thưởng thức",
+            "syns": [
+              "tasty"
+            ],
+            "ex": "The cook seasoned the broth to make it palatable to international visitors."
           },
           {
             "word": "gastronomic",
+            "pos": "adj",
             "ipa": "/ˌɡæstrəˈnɒmɪk/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thuộc về nghệ thuật ẩm thực",
-            "synonym": "culinary",
-            "example": "Cities celebrate their gastronomic heritage through annual food festivals."
+            "mean": "thuộc về nghệ thuật ẩm thực",
+            "syns": [
+              "culinary"
+            ],
+            "ex": "Cities celebrate their gastronomic heritage through annual food festivals."
           },
           {
             "word": "indigenous",
+            "pos": "adj",
             "ipa": "/ɪnˈdɪdʒɪnəs/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "bản địa, mang tính nguồn cội",
-            "synonym": "native",
-            "example": "Street food showcases indigenous ingredients cultivated in surrounding rural districts."
+            "mean": "bản địa, mang tính nguồn cội",
+            "syns": [
+              "native"
+            ],
+            "ex": "Street food showcases indigenous ingredients cultivated in surrounding rural districts."
           },
           {
             "word": "sanitation",
+            "pos": "n",
             "ipa": "/ˌsænɪˈteɪʃən/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "hệ thống vệ sinh môi trường",
-            "synonym": "hygienic conditions",
-            "example": "Improved water sanitation in hawker centers greatly reduces bacterial hazards."
+            "mean": "hệ thống vệ sinh môi trường",
+            "syns": [
+              "hygienic conditions"
+            ],
+            "ex": "Improved water sanitation in hawker centers greatly reduces bacterial hazards."
           },
           {
             "word": "livelihood",
+            "pos": "n",
             "ipa": "/ˈlaɪvlihʊd/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "kế sinh nhai, sinh kế",
-            "synonym": "means of living",
-            "example": "Selling street breakfast is the sole livelihood for many urban households."
+            "mean": "kế sinh nhai, sinh kế",
+            "syns": [
+              "means of living"
+            ],
+            "ex": "Selling street breakfast is the sole livelihood for many urban households."
           },
           {
             "word": "informal",
+            "pos": "adj",
             "ipa": "/ɪnˈfɔːməl/",
-            "type": "adj.",
             "level": "B1",
-            "meaningVi": "phi chính thức, phi hình thức",
-            "synonym": "unofficial",
-            "example": "The informal economy provides employment when formal jobs are scarce."
+            "mean": "phi chính thức, phi hình thức",
+            "syns": [
+              "unofficial"
+            ],
+            "ex": "The informal economy provides employment when formal jobs are scarce."
           },
           {
             "word": "staple",
+            "pos": "n",
             "ipa": "/ˈsteɪpəl/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "lương thực chủ đạo, món thiết yếu",
-            "synonym": "basic food",
-            "example": "Rice noodles and crusty bread are staples of Vietnamese morning street food."
+            "mean": "lương thực chủ đạo, món thiết yếu",
+            "syns": [
+              "basic food"
+            ],
+            "ex": "Rice noodles and crusty bread are staples of Vietnamese morning street food."
           },
           {
             "word": "savor",
+            "pos": "v",
             "ipa": "/ˈseɪvər/",
-            "type": "v.",
             "level": "B2",
-            "meaningVi": "thưởng thức, nhấm nháp hương vị",
-            "synonym": "relish",
-            "example": "Foodies savor every spoonful of the slow-simmered herbal soup."
+            "mean": "thưởng thức, nhấm nháp hương vị",
+            "syns": [
+              "relish"
+            ],
+            "ex": "Foodies savor every spoonful of the slow-simmered herbal soup."
           },
           {
             "word": "aromatic",
+            "pos": "adj",
             "ipa": "/ˌærəˈmætɪk/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thơm nức, dậy mùi thơm",
-            "synonym": "fragrant",
-            "example": "The alley was filled with aromatic steam rising from boiling broth kettles."
+            "mean": "thơm nức, dậy mùi thơm",
+            "syns": [
+              "fragrant"
+            ],
+            "ex": "The alley was filled with aromatic steam rising from boiling broth kettles."
           },
           {
             "word": "ordinance",
+            "pos": "n",
             "ipa": "/ˈɔːrdɪnəns/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sắc lệnh, quy định địa phương",
-            "synonym": "local law",
-            "example": "The city council enacted a new ordinance governing sidewalk vendors."
+            "mean": "sắc lệnh, quy định địa phương",
+            "syns": [
+              "local law"
+            ],
+            "ex": "The city council enacted a new ordinance governing sidewalk vendors."
           },
           {
             "word": "culinary",
+            "pos": "adj",
             "ipa": "/ˈkʌlɪnəri/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thuộc bếp núc, nấu nướng",
-            "synonym": "cooking-related",
-            "example": "Culinary tourism has become one of the fastest-growing sectors in the travel industry."
+            "mean": "thuộc bếp núc, nấu nướng",
+            "syns": [
+              "cooking-related"
+            ],
+            "ex": "Culinary tourism has become one of the fastest-growing sectors in the travel industry."
           },
           {
             "word": "immersion",
+            "pos": "n",
             "ipa": "/ɪˈmɜːrʒən/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự đắm mình, hòa nhập văn hóa",
-            "synonym": "deep involvement",
-            "example": "Eating alongside local workers offers genuine cultural immersion."
+            "mean": "sự đắm mình, hòa nhập văn hóa",
+            "syns": [
+              "deep involvement"
+            ],
+            "ex": "Eating alongside local workers offers genuine cultural immersion."
           },
           {
             "word": "heritage",
+            "pos": "n",
             "ipa": "/ˈhɛrɪtɪdʒ/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "di sản văn hóa truyền đời",
-            "synonym": "legacy",
-            "example": "Traditional recipes represent an intangible cultural heritage worth preserving."
+            "mean": "di sản văn hóa truyền đời",
+            "syns": [
+              "legacy"
+            ],
+            "ex": "Traditional recipes represent an intangible cultural heritage worth preserving."
           },
           {
             "word": "condiment",
+            "pos": "n",
             "ipa": "/ˈkɒndɪmənt/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "đồ gia vị, nước sốt chấm kèm",
-            "synonym": "seasoning",
-            "example": "Chili sauce and lime wedges are common condiments on every tabletop."
+            "mean": "đồ gia vị, nước sốt chấm kèm",
+            "syns": [
+              "seasoning"
+            ],
+            "ex": "Chili sauce and lime wedges are common condiments on every tabletop."
           },
           {
             "word": "proliferate",
+            "pos": "v",
             "ipa": "/prəˈlɪfəreɪt/",
-            "type": "v.",
             "level": "B2",
-            "meaningVi": "sinh sôi, phát triển nhanh chóng",
-            "synonym": "multiply",
-            "example": "Pop-up food stalls proliferate across the downtown district during weekends."
+            "mean": "sinh sôi, phát triển nhanh chóng",
+            "syns": [
+              "multiply"
+            ],
+            "ex": "Pop-up food stalls proliferate across the downtown district during weekends."
           },
           {
             "word": "affordable",
+            "pos": "adj",
             "ipa": "/əˈfɔːrdəbəl/",
-            "type": "adj.",
             "level": "B1",
-            "meaningVi": "giá cả phải chăng, vừa túi tiền",
-            "synonym": "economical",
-            "example": "Street stalls supply affordable sustenance to budget-conscious commuters."
+            "mean": "giá cả phải chăng, vừa túi tiền",
+            "syns": [
+              "economical"
+            ],
+            "ex": "Street stalls supply affordable sustenance to budget-conscious commuters."
           },
           {
             "word": "revitalize",
+            "pos": "v",
             "ipa": "/riːˈvaɪtəlaɪz/",
-            "type": "v.",
             "level": "B2",
-            "meaningVi": "tái sinh, tiếp thêm sức sống mới",
-            "synonym": "re-energize",
-            "example": "Curated food walking tours revitalize forgotten alleyways and heritage quarters."
+            "mean": "tái sinh, tiếp thêm sức sống mới",
+            "syns": [
+              "re-energize"
+            ],
+            "ex": "Curated food walking tours revitalize forgotten alleyways and heritage quarters."
           },
           {
             "word": "communal",
+            "pos": "adj",
             "ipa": "/kəˈmjuːnəl/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "mang tính cộng đồng, chung",
-            "synonym": "collective",
-            "example": "Sidewalk dining fosters a vibrant communal spirit among neighborhood residents."
+            "mean": "mang tính cộng đồng, chung",
+            "syns": [
+              "collective"
+            ],
+            "ex": "Sidewalk dining fosters a vibrant communal spirit among neighborhood residents."
           }
         ],
         "questions": [
           {
-            "id": "T14P1Q1",
+            "id": 1,
+            "num": 1,
             "question": "What is the primary focus of the first paragraph?",
-            "options": {
-              "A": "The financial cost of dining in upscale brick-and-mortar restaurants",
-              "B": "The transformation of street food from humble sustenance to a celebrated tourism asset",
-              "C": "The superior nutritional value of home cooking over commercial night market meals",
-              "D": "The historical expansion of industrial wok manufacturing across Asian cities"
-            },
+            "questionVi": "Trọng tâm chính của đoạn văn thứ nhất là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The financial cost of dining in upscale brick-and-mortar restaurants",
+              "The transformation of street food from humble sustenance to a celebrated tourism asset",
+              "The superior nutritional value of home cooking over commercial night market meals",
+              "The historical expansion of industrial wok manufacturing across Asian cities"
+            ],
+            "optionsVi": [
+              "A. Chi phí tài chính khi dùng bữa tại các nhà hàng cao cấp xây kiên cố",
+              "B. Sự chuyển mình của ẩm thực đường phố từ thức ăn bình dân thành tài sản du lịch được tôn vinh",
+              "C. Giá trị dinh dưỡng vượt trội của đồ ăn tự nấu tại nhà so với chợ đêm thương mại",
+              "D. Lịch sử mở rộng ngành sản xuất chảo công nghiệp tại các đô thị châu Á"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Street food has transcended its historical origins as cheap, quick sustenance for laboring classes to become a celebrated cornerstone of global tourism.",
+            "evidenceVi": "Ẩm thực đường phố đã vượt qua nguồn gốc lịch sử là thức ăn nhanh giá rẻ cho tầng lớp lao động để trở thành một trụ cột được tôn vinh của du lịch toàn cầu. [Đoạn 1]",
             "explanation": "Đoạn 1 nêu rõ: 'Street food has transcended its historical origins as cheap, quick sustenance for laboring classes to become a celebrated cornerstone of global tourism.' Phương án B tóm lược chính xác sự chuyển mình này.",
             "postReading": {
               "type": "main_idea",
@@ -28277,18 +28343,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P1Q2",
+            "id": 2,
+            "num": 2,
             "question": "The word \"emulate\" in paragraph 1 is closest in meaning to:",
-            "options": {
-              "A": "imitate or match",
-              "B": "disapprove of",
-              "C": "financially sponsor",
-              "D": "vigorously inspect"
-            },
+            "questionVi": "Từ \"emulate\" trong đoạn 1 gần nghĩa nhất với từ nào sau đây?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "imitate or match",
+              "disapprove of",
+              "financially sponsor",
+              "vigorously inspect"
+            ],
+            "optionsVi": [
+              "A. bắt chước hoặc sánh ngang",
+              "B. phản đối, không tán thành",
+              "C. tài trợ về mặt tài chính",
+              "D. kiểm tra một cách kỹ lưỡng"
+            ],
             "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...display a gastronomic vitality that brick-and-mortar restaurants frequently struggle to emulate.",
+            "evidenceVi": "...thể hiện sức sống ẩm thực mãnh liệt mà các nhà hàng kiên cố thường chật vật mới có thể sánh ngang. [Đoạn 1]",
             "explanation": "'Emulate' có nghĩa là bắt chước, mô phỏng hoặc cạnh tranh để sánh ngang với ai đó ('imitate or match').",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Từ vựng theo ngữ cảnh (Vocabulary)",
               "cluePassage": "...display a gastronomic vitality that brick-and-mortar restaurants frequently struggle to emulate.",
               "clueAnswer": "imitate or match",
@@ -28300,15 +28378,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P1Q3",
+            "id": 3,
+            "num": 3,
             "question": "According to paragraph 2, why is street vending crucial for the informal urban economy?",
-            "options": {
-              "A": "It generates substantial export tariffs for national treasuries.",
-              "B": "It mandates high initial capital investments and university business degrees.",
-              "C": "It offers accessible livelihoods for citizens lacking formal capital or credentialed employment.",
-              "D": "It replaces municipal supermarket chains with state-owned cooperatives."
-            },
+            "questionVi": "Theo đoạn 2, tại sao buôn bán hàng rong ẩm thực lại đóng vai trò thiết yếu đối với nền kinh tế đô thị phi chính thức?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "It generates substantial export tariffs for national treasuries.",
+              "It mandates high initial capital investments and university business degrees.",
+              "It offers accessible livelihoods for citizens lacking formal capital or credentialed employment.",
+              "It replaces municipal supermarket chains with state-owned cooperatives."
+            ],
+            "optionsVi": [
+              "A. Nó tạo ra nguồn thuế xuất khẩu khổng lồ cho ngân khố quốc gia.",
+              "B. Nó đòi hỏi vốn đầu tư ban đầu lớn và bằng cấp kinh doanh đại học.",
+              "C. Nó mang lại sinh kế dễ tiếp cận cho những công dân thiếu vốn chính thức hoặc việc làm có bằng cấp.",
+              "D. Nó thay thế các chuỗi siêu thị đô thị bằng các hợp tác xã quốc doanh."
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "street vending provides immediate livelihood opportunities for millions of citizens who lack access to formal capital or credentialed employment.",
+            "evidenceVi": "Buôn bán đường phố mang lại cơ hội sinh kế trực tiếp cho hàng triệu công dân không có điều kiện tiếp cận nguồn vốn chính thức hay việc làm đòi hỏi bằng cấp. [Đoạn 2]",
             "explanation": "Đoạn 2 nêu rõ: 'street vending provides immediate livelihood opportunities for millions of citizens who lack access to formal capital or credentialed employment.'",
             "postReading": {
               "type": "factual",
@@ -28323,15 +28413,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P1Q4",
+            "id": 4,
+            "num": 4,
             "question": "The phrase \"low barriers to entry\" in paragraph 2 implies that starting a street food cart:",
-            "options": {
-              "A": "requires extensive legal contracts with multinational corporations",
-              "B": "does not demand enormous initial capital or sophisticated infrastructure",
-              "C": "is restricted exclusively to certified professional chefs",
-              "D": "prohibits family members from participating in daily cooking"
-            },
+            "questionVi": "Cụm từ \"low barriers to entry\" trong đoạn 2 ngụ ý rằng việc bắt đầu một xe đẩy bán đồ ăn đường phố:",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "requires extensive legal contracts with multinational corporations",
+              "does not demand enormous initial capital or sophisticated infrastructure",
+              "is restricted exclusively to certified professional chefs",
+              "prohibits family members from participating in daily cooking"
+            ],
+            "optionsVi": [
+              "A. đòi hỏi các hợp đồng pháp lý phức tạp với các tập đoàn đa quốc gia",
+              "B. không đòi hỏi nguồn vốn ban đầu khổng lồ hay cơ sở hạ tầng tinh vi",
+              "C. chỉ giới hạn dành riêng cho các đầu bếp chuyên nghiệp có chứng chỉ",
+              "D. nghiêm cấm các thành viên gia đình tham gia nấu nướng hàng ngày"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "The low barriers to entry allow enterprising cooks to monetize traditional skills with minimal overhead investment.",
+            "evidenceVi": "Rào cản gia nhập thị trường thấp cho phép những người đầu bếp tháo vát kiếm thu nhập từ kỹ năng truyền thống với chi phí đầu tư ban đầu tối thiểu. [Đoạn 2]",
             "explanation": "'Low barriers to entry' (rào cản gia nhập thị trường thấp) nghĩa là bất kỳ ai cũng có thể bắt đầu kinh doanh mà không cần vốn khổng lồ hay cơ sở hạ tầng phức tạp.",
             "postReading": {
               "type": "inference",
@@ -28346,18 +28448,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P1Q5",
+            "id": 5,
+            "num": 5,
             "question": "Which of the following is NOT mentioned in paragraph 3 as a challenge associated with street vending?",
-            "options": {
-              "A": "Inadequate access to clean running water and refrigeration",
-              "B": "Obstruction of pedestrian footpaths and sidewalk movement",
-              "C": "Excessive carbon taxation imposed on vegetable growers",
-              "D": "Tensions surrounding official tax compliance and municipal hygiene"
-            },
+            "questionVi": "Điều nào sau đây KHÔNG được đề cập trong đoạn 3 như một thách thức gắn liền với việc bán hàng rong đường phố?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Inadequate access to clean running water and refrigeration",
+              "Obstruction of pedestrian footpaths and sidewalk movement",
+              "Excessive carbon taxation imposed on vegetable growers",
+              "Tensions surrounding official tax compliance and municipal hygiene"
+            ],
+            "optionsVi": [
+              "A. Thiếu nguồn nước máy sạch chảy liên tục và thiết bị bảo quản lạnh",
+              "B. Cản trở lối đi bộ trên vỉa hè và sự lưu thông của người đi bộ",
+              "C. Mức thuế carbon quá cao áp đặt lên những người nông dân trồng rau",
+              "D. Những căng thẳng xoay quanh việc tuân thủ thuế chính thức và vệ sinh đô thị"
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Municipal authorities routinely grapple with conflicting priorities regarding public hygiene, pedestrian mobility, and formal taxation. Concerns regarding food safety and water sanitation are not unfounded...",
+            "evidenceVi": "Chính quyền đô thị thường xuyên phải giải quyết các ưu tiên xung đột liên quan đến vệ sinh công cộng, lưu thông người đi bộ và thuế chính thức. [Đoạn 3]",
             "explanation": "Đoạn 3 đề cập đến vệ sinh thực phẩm (nước chảy, tủ lạnh), cản trở vỉa hè (pedestrian mobility), và thuế (taxation). Không hề có thông tin về thuế carbon đánh vào người trồng rau (C).",
             "postReading": {
-              "type": "negative_fact",
+              "type": "negative_factual",
               "typeLabel": "Tìm phương án KHÔNG được nhắc đến (Negative Fact)",
               "cluePassage": "Municipal authorities routinely grapple with conflicting priorities regarding public hygiene, pedestrian mobility, and formal taxation. Concerns regarding food safety and water sanitation are not unfounded...",
               "clueAnswer": "Excessive carbon taxation imposed on vegetable growers",
@@ -28369,18 +28483,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P1Q6",
+            "id": 6,
+            "num": 6,
             "question": "The word \"eviscerates\" in paragraph 3 is closest in meaning to:",
-            "options": {
-              "A": "destroys or severely weakens",
-              "B": "artificially inflates",
-              "C": "thoroughly cleanses",
-              "D": "publicly honors"
-            },
+            "questionVi": "Từ \"eviscerates\" trong đoạn 3 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "destroys or severely weakens",
+              "artificially inflates",
+              "thoroughly cleanses",
+              "publicly honors"
+            ],
+            "optionsVi": [
+              "A. phá hủy hoặc làm suy yếu nghiêm trọng",
+              "B. thổi phồng một cách nhân tạo",
+              "C. làm sạch hoàn toàn triệt để",
+              "D. tôn vinh công khai trước công chúng"
+            ],
             "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Yet sociologists caution that aggressive displacement eviscerates communal vitality and plunges vulnerable families into acute financial distress.",
+            "evidenceVi": "Tuy nhiên, các nhà xã hội học cảnh báo rằng việc giải tỏa cưỡng chế mạnh tay sẽ triệt tiêu sức sống cộng đồng và đẩy các gia đình dễ tổn thương vào cảnh khốn đốn tài chính. [Đoạn 3]",
             "explanation": "'Eviscerate' nghĩa đen là moi ruột, nghĩa bóng là tước đoạt phần cốt lõi, phá hủy hoặc làm suy yếu nghiêm trọng ('destroys or severely weakens').",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Từ vựng nâng cao (Vocabulary)",
               "cluePassage": "Yet sociologists caution that aggressive displacement eviscerates communal vitality and plunges vulnerable families into acute financial distress.",
               "clueAnswer": "destroys or severely weakens",
@@ -28392,18 +28518,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P1Q7",
+            "id": 7,
+            "num": 7,
             "question": "The word \"their\" in paragraph 3 refers to:",
-            "options": {
-              "A": "sidewalks",
-              "B": "pedestrian pathways",
-              "C": "municipal governments",
-              "D": "mobile stalls"
-            },
+            "questionVi": "Từ \"their\" trong đoạn 3 quy chiếu đến đối tượng nào?",
+            "questionType": "DẠNG 05: ĐẠI TỪ QUY CHIẾU (Reference)",
+            "options": [
+              "sidewalks",
+              "pedestrian pathways",
+              "municipal governments",
+              "mobile stalls"
+            ],
+            "optionsVi": [
+              "A. các vỉa hè",
+              "B. các lối đi dành cho người đi bộ",
+              "C. các chính quyền đô thị",
+              "D. các quầy hàng di động"
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "...some municipal governments have launched heavy-handed clearance campaigns, seeking to sanitize sidewalks for vehicular transit and modernize their global image.",
+            "evidenceVi": "Để đối phó, một số chính quyền đô thị đã phát động các chiến dịch giải tỏa mạnh tay nhằm dọn sạch vỉa hè cho xe cộ và hiện đại hóa hình ảnh toàn cầu của họ. [Đoạn 3]",
             "explanation": "Câu trong bài: 'In response, some municipal governments have launched heavy-handed clearance campaigns, seeking to sanitize sidewalks for vehicular transit and modernize their global image.' -> 'their' thay thế cho 'municipal governments'.",
             "postReading": {
-              "type": "reference",
+              "type": "factual",
               "typeLabel": "Đại từ quy chiếu (Reference)",
               "cluePassage": "...some municipal governments have launched heavy-handed clearance campaigns, seeking to sanitize sidewalks for vehicular transit and modernize their global image.",
               "clueAnswer": "municipal governments",
@@ -28415,15 +28553,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P1Q8",
+            "id": 8,
+            "num": 8,
             "question": "In paragraph 4, what approach do progressive administrations take regarding street food?",
-            "options": {
-              "A": "Banning all open-air cooking in favor of multinational fast-food franchises",
-              "B": "Imposing severe criminal penalties on tourists who consume street snacks",
-              "C": "Constructive integration through designated centers, clean water, and hygiene training",
-              "D": "Permanently relocating all vendors to remote suburban industrial parks"
-            },
+            "questionVi": "Trong đoạn 4, các chính quyền đô thị tiến bộ áp dụng cách tiếp cận nào đối với ẩm thực đường phố?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Banning all open-air cooking in favor of multinational fast-food franchises",
+              "Imposing severe criminal penalties on tourists who consume street snacks",
+              "Constructive integration through designated centers, clean water, and hygiene training",
+              "Permanently relocating all vendors to remote suburban industrial parks"
+            ],
+            "optionsVi": [
+              "A. Cấm toàn bộ hoạt động nấu nướng ngoài trời để nhường chỗ cho chuỗi thức ăn nhanh đa quốc gia",
+              "B. Áp đặt hình phạt hình sự nặng nề lên du khách tiêu thụ đồ ăn vặt đường phố",
+              "C. Tích hợp mang tính xây dựng thông qua các khu ẩm thực tập trung, trạm nước sạch và đào tạo vệ sinh",
+              "D. Di dời vĩnh viễn toàn bộ người bán hàng rong ra các khu công nghiệp ngoại ô xa xôi"
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Progressive urban administrations are consequently pivoting toward constructive integration rather than eradication. Initiatives such as designated hawker centers, potable water kiosks, and mandatory food hygiene training...",
+            "evidenceVi": "Các chính quyền đô thị tiến bộ đang chuyển sang tích hợp mang tính xây dựng thay vì xóa sổ: thiết lập khu ẩm thực tập trung, trạm nước sạch và đào tạo vệ sinh thực phẩm bắt buộc. [Đoạn 4]",
             "explanation": "Đoạn 4 nêu: 'Progressive urban administrations are consequently pivoting toward constructive integration rather than eradication. Initiatives such as designated hawker centers, potable water kiosks, and mandatory food hygiene training demonstrate...'",
             "postReading": {
               "type": "factual",
@@ -28438,15 +28588,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P1Q9",
+            "id": 9,
+            "num": 9,
             "question": "What can be inferred from the final sentence of the passage?",
-            "options": {
-              "A": "Culinary tours undermine local economies by pricing out domestic residents.",
-              "B": "Commercial tourism and traditional culture can establish a mutually beneficial coexistence.",
-              "C": "Street vendors will soon be entirely superseded by digital delivery apps.",
-              "D": "Municipalities have abandoned all food inspection protocols in historic areas."
-            },
+            "questionVi": "Có thể suy luận điều gì từ câu cuối cùng của bài đọc?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "Culinary tours undermine local economies by pricing out domestic residents.",
+              "Commercial tourism and traditional culture can establish a mutually beneficial coexistence.",
+              "Street vendors will soon be entirely superseded by digital delivery apps.",
+              "Municipalities have abandoned all food inspection protocols in historic areas."
+            ],
+            "optionsVi": [
+              "A. Các tour du lịch ẩm thực làm suy yếu kinh tế địa phương vì đẩy giá quá cao so với dân bản địa.",
+              "B. Du lịch thương mại và văn hóa truyền thống có thể thiết lập mối quan hệ cùng tồn tại đôi bên cùng có lợi.",
+              "C. Người bán hàng rong sẽ sớm bị thay thế hoàn toàn bởi các ứng dụng giao đồ ăn kỹ thuật số.",
+              "D. Chính quyền thành phố đã bãi bỏ hoàn toàn mọi quy trình kiểm tra thực phẩm tại khu phố cổ."
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "curated street food walking tours have transformed once-marginalized alleyways into vibrant tourist attractions, revitalizing neighborhood commerce while safeguarding intangible cultural heritage for generations to come.",
+            "evidenceVi": "Các tour đi bộ ẩm thực đường phố được thiết kế bài bản đã biến những con hẻm từng bị lãng quên thành điểm du lịch sôi động, hồi sinh thương mại khu phố đồng thời bảo tồn di sản văn hóa phi vật thể. [Đoạn 4]",
             "explanation": "Câu cuối khẳng định: các tour đi bộ ẩm thực đã biến những con hẻm bị lãng quên thành điểm thu hút du lịch sôi động, vừa hồi sinh thương mại vừa bảo tồn di sản văn hóa phi vật thể -> Du lịch và văn hóa truyền thống cùng có lợi (B).",
             "postReading": {
               "type": "inference",
@@ -28461,15 +28623,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P1Q10",
+            "id": 10,
+            "num": 10,
             "question": "Which of the following best reflects the author's overall attitude toward street food?",
-            "options": {
-              "A": "Dismissive of its cultural value and alarmed by its economic inefficiency",
-              "B": "Appreciative of its cultural and economic merits while advocating for enlightened regulation",
-              "C": "Indifferent toward vendor welfare and strictly supportive of total sidewalk clearances",
-              "D": "Pessimistic about the survival of traditional culinary practices in modern cities"
-            },
+            "questionVi": "Phương án nào phản ánh chính xác nhất thái độ chung của tác giả đối với ẩm thực đường phố?",
+            "questionType": "DẠNG 07: THÁI ĐỘ / MỤC ĐÍCH TÁC GIẢ (Author's Attitude)",
+            "options": [
+              "Dismissive of its cultural value and alarmed by its economic inefficiency",
+              "Appreciative of its cultural and economic merits while advocating for enlightened regulation",
+              "Indifferent toward vendor welfare and strictly supportive of total sidewalk clearances",
+              "Pessimistic about the survival of traditional culinary practices in modern cities"
+            ],
+            "optionsVi": [
+              "A. Coi thường giá trị văn hóa của nó và lo ngại về sự kém hiệu quả kinh tế",
+              "B. Trân trọng các giá trị văn hóa - kinh tế của nó đồng thời ủng hộ phương thức quản lý tiến bộ",
+              "C. Thờ ơ trước phúc lợi của người bán hàng và ủng hộ tuyệt đối việc dẹp bỏ hoàn toàn vỉa hè",
+              "D. Bi quan về khả năng sống sót của các tập quán ẩm thực truyền thống trong đô thị hiện đại"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "safety and authenticity need not be mutually exclusive... revitalizing neighborhood commerce while safeguarding intangible cultural heritage",
+            "evidenceVi": "An toàn vệ sinh và tính nguyên bản không nhất thiết phải loại trừ lẫn nhau... hồi sinh thương mại khu phố đồng thời bảo tồn di sản văn hóa phi vật thể. [Đoạn 4]",
             "explanation": "Tác giả đánh giá cao giá trị văn hóa và kinh tế của ẩm thực đường phố, đồng thời ủng hộ chính sách quản lý tiến bộ (enlightened regulation: cấp nước sạch, đào tạo vệ sinh, chợ tập trung) thay vì cấm đoán cực đoan.",
             "postReading": {
               "type": "main_idea",
@@ -28494,259 +28668,325 @@ const READING_MOCK_TESTS = [
         "vocab": [
           {
             "word": "journalism",
+            "pos": "n",
             "ipa": "/ˈdʒɜːrnəlɪzəm/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "nghề làm báo, hoạt động báo chí",
-            "synonym": "reporting",
-            "example": "Digital food journalism has reshaped the way restaurants are critiqued."
+            "mean": "nghề làm báo, hoạt động báo chí",
+            "syns": [
+              "reporting"
+            ],
+            "ex": "Digital food journalism has reshaped the way restaurants are critiqued."
           },
           {
             "word": "critique",
+            "pos": "n",
             "ipa": "/krɪˈtiːk/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "bài phê bình, phân tích chuyên môn",
-            "synonym": "evaluation",
-            "example": "The chef read the food critic's review with intense concentration."
+            "mean": "bài phê bình, phân tích chuyên môn",
+            "syns": [
+              "evaluation"
+            ],
+            "ex": "The chef read the food critic's review with intense concentration."
           },
           {
             "word": "impartiality",
+            "pos": "n",
             "ipa": "/ɪmˌpɑːrʃiˈæləti/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "tính vô tư, sự khách quan",
-            "synonym": "objectivity",
-            "example": "Journalistic impartiality requires paying for one's own meals during a review."
+            "mean": "tính vô tư, sự khách quan",
+            "syns": [
+              "objectivity"
+            ],
+            "ex": "Journalistic impartiality requires paying for one's own meals during a review."
           },
           {
             "word": "sponsored",
+            "pos": "adj",
             "ipa": "/ˈspɒnsərd/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "được tài trợ kinh phí",
-            "synonym": "funded",
-            "example": "The influencer failed to disclose that the luxurious dinner was sponsored."
+            "mean": "được tài trợ kinh phí",
+            "syns": [
+              "funded"
+            ],
+            "ex": "The influencer failed to disclose that the luxurious dinner was sponsored."
           },
           {
             "word": "undisclosed",
+            "pos": "adj",
             "ipa": "/ˌʌndɪsˈkloʊzd/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "không được tiết lộ, giấu kín",
-            "synonym": "unrevealed",
-            "example": "Undisclosed brand partnerships damage a creator's credibility."
+            "mean": "không được tiết lộ, giấu kín",
+            "syns": [
+              "unrevealed"
+            ],
+            "ex": "Undisclosed brand partnerships damage a creator's credibility."
           },
           {
             "word": "democratization",
+            "pos": "n",
             "ipa": "/dɪˌmɒkrətaɪˈzeɪʃən/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự phổ cập đại chúng, bình dân hóa",
-            "synonym": "popularization",
-            "example": "Smartphones led to the democratization of restaurant reviewing."
+            "mean": "sự phổ cập đại chúng, bình dân hóa",
+            "syns": [
+              "popularization"
+            ],
+            "ex": "Smartphones led to the democratization of restaurant reviewing."
           },
           {
             "word": "aesthetic",
+            "pos": "adj",
             "ipa": "/ɛsˈθɛtɪk/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "mang tính thẩm mỹ, nghệ thuật",
-            "synonym": "visual",
-            "example": "The cafe's minimalist aesthetic attracts thousands of photography enthusiasts."
+            "mean": "mang tính thẩm mỹ, nghệ thuật",
+            "syns": [
+              "visual"
+            ],
+            "ex": "The cafe's minimalist aesthetic attracts thousands of photography enthusiasts."
           },
           {
             "word": "virality",
+            "pos": "n",
             "ipa": "/vaɪˈræləti/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "tính lan truyền bùng nổ trên mạng",
-            "synonym": "rapid spread",
-            "example": "Achieving virality can cause a quiet bakery to sell out within hours."
+            "mean": "tính lan truyền bùng nổ trên mạng",
+            "syns": [
+              "rapid spread"
+            ],
+            "ex": "Achieving virality can cause a quiet bakery to sell out within hours."
           },
           {
             "word": "credibility",
+            "pos": "n",
             "ipa": "/ˌkrɛdəˈbɪləti/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "uy tín, độ tin cậy",
-            "synonym": "trustworthiness",
-            "example": "Bloggers lose credibility when their praise feels insincere and commercialized."
+            "mean": "uy tín, độ tin cậy",
+            "syns": [
+              "trustworthiness"
+            ],
+            "ex": "Bloggers lose credibility when their praise feels insincere and commercialized."
           },
           {
             "word": "integrity",
+            "pos": "n",
             "ipa": "/ɪnˈtɛɡrəti/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự chính trực, liêm khiết đạo đức",
-            "synonym": "honesty",
-            "example": "Professional food writers uphold their editorial integrity at all costs."
+            "mean": "sự chính trực, liêm khiết đạo đức",
+            "syns": [
+              "honesty"
+            ],
+            "ex": "Professional food writers uphold their editorial integrity at all costs."
           },
           {
             "word": "monetized",
+            "pos": "adj",
             "ipa": "/ˈmɒnɪtaɪzd/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "được thương mại hóa, kiếm ra tiền",
-            "synonym": "commercialized",
-            "example": "Monetized content often creates conflicts between honesty and financial gain."
+            "mean": "được thương mại hóa, kiếm ra tiền",
+            "syns": [
+              "commercialized"
+            ],
+            "ex": "Monetized content often creates conflicts between honesty and financial gain."
           },
           {
             "word": "endorsement",
+            "pos": "n",
             "ipa": "/ɪnˈdɔːrsmənt/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự chứng thực, sự quảng bá ủng hộ",
-            "synonym": "approval",
-            "example": "A celebrity endorsement can instantly boost a restaurant's reservations."
+            "mean": "sự chứng thực, sự quảng bá ủng hộ",
+            "syns": [
+              "approval"
+            ],
+            "ex": "A celebrity endorsement can instantly boost a restaurant's reservations."
           },
           {
             "word": "influencer",
+            "pos": "n",
             "ipa": "/ˈɪnfluənsər/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "người có sức ảnh hưởng mạng xã hội",
-            "synonym": "trendsetter",
-            "example": "Food influencers film their reactions to viral culinary concoctions."
+            "mean": "người có sức ảnh hưởng mạng xã hội",
+            "syns": [
+              "trendsetter"
+            ],
+            "ex": "Food influencers film their reactions to viral culinary concoctions."
           },
           {
             "word": "discerning",
+            "pos": "adj",
             "ipa": "/dɪˈsɜːrnɪŋ/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "sáng suốt, biết nhìn nhận tinh tế",
-            "synonym": "perceptive",
-            "example": "Discerning diners look beyond flashy presentations to assess taste."
+            "mean": "sáng suốt, biết nhìn nhận tinh tế",
+            "syns": [
+              "perceptive"
+            ],
+            "ex": "Discerning diners look beyond flashy presentations to assess taste."
           },
           {
             "word": "algorithm",
+            "pos": "n",
             "ipa": "/ˈælɡərɪðəm/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "thuật toán đề xuất nội dung",
-            "synonym": "computational formula",
-            "example": "Social media algorithms reward visually sensational video clips."
+            "mean": "thuật toán đề xuất nội dung",
+            "syns": [
+              "computational formula"
+            ],
+            "ex": "Social media algorithms reward visually sensational video clips."
           },
           {
             "word": "superficial",
+            "pos": "adj",
             "ipa": "/ˌsuːpərˈfɪʃəl/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "hời hợt, chỉ có vẻ bề ngoài",
-            "synonym": "shallow",
-            "example": "Overly staged food videos often provide only a superficial critique of the cuisine."
+            "mean": "hời hợt, chỉ có vẻ bề ngoài",
+            "syns": [
+              "shallow"
+            ],
+            "ex": "Overly staged food videos often provide only a superficial critique of the cuisine."
           },
           {
             "word": "gourmet",
+            "pos": "adj",
             "ipa": "/ˈɡʊərmeɪ/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "hảo hạng, chuẩn sành ăn cao cấp",
-            "synonym": "epicurean",
-            "example": "The restaurant reimagines street dishes into modern gourmet creations."
+            "mean": "hảo hạng, chuẩn sành ăn cao cấp",
+            "syns": [
+              "epicurean"
+            ],
+            "ex": "The restaurant reimagines street dishes into modern gourmet creations."
           },
           {
             "word": "transparent",
+            "pos": "adj",
             "ipa": "/trænsˈpærənt/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "minh bạch, rõ ràng trung thực",
-            "synonym": "candid",
-            "example": "Audiences appreciate reviewers who are transparent about paid collaborations."
+            "mean": "minh bạch, rõ ràng trung thực",
+            "syns": [
+              "candid"
+            ],
+            "ex": "Audiences appreciate reviewers who are transparent about paid collaborations."
           },
           {
             "word": "sensationalism",
+            "pos": "n",
             "ipa": "/sɛnˈseɪʃənəlɪzəm/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "xu hướng câu khách, giật gân",
-            "synonym": "exaggeration",
-            "example": "Visual sensationalism sometimes leads to bizarre culinary stunts."
+            "mean": "xu hướng câu khách, giật gân",
+            "syns": [
+              "exaggeration"
+            ],
+            "ex": "Visual sensationalism sometimes leads to bizarre culinary stunts."
           },
           {
             "word": "engagement",
+            "pos": "n",
             "ipa": "/ɪnˈɡeɪdʒmənt/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự tương tác của người xem",
-            "synonym": "audience interaction",
-            "example": "Controversial reviews tend to spark heated comment sections and high engagement."
+            "mean": "sự tương tác của người xem",
+            "syns": [
+              "audience interaction"
+            ],
+            "ex": "Controversial reviews tend to spark heated comment sections and high engagement."
           },
           {
             "word": "niche",
+            "pos": "adj",
             "ipa": "/niːʃ/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "ngách, chuyên biệt một lĩnh vực nhỏ",
-            "synonym": "specialized",
-            "example": "She established a successful niche blog dedicated solely to artisanal sourdough."
+            "mean": "ngách, chuyên biệt một lĩnh vực nhỏ",
+            "syns": [
+              "specialized"
+            ],
+            "ex": "She established a successful niche blog dedicated solely to artisanal sourdough."
           },
           {
             "word": "palatable",
+            "pos": "adj",
             "ipa": "/ˈpælətəbəl/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "hợp khẩu vị, dễ tiếp nhận",
-            "synonym": "acceptable",
-            "example": "Critics questioned whether the overly sweet dessert was genuinely palatable."
+            "mean": "hợp khẩu vị, dễ tiếp nhận",
+            "syns": [
+              "acceptable"
+            ],
+            "ex": "Critics questioned whether the overly sweet dessert was genuinely palatable."
           },
           {
             "word": "scrutiny",
+            "pos": "n",
             "ipa": "/ˈskruːtɪni/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự soi xét, kiểm tra kỹ lưỡng",
-            "synonym": "critical examination",
-            "example": "Sponsored reviews are increasingly falling under governmental scrutiny."
+            "mean": "sự soi xét, kiểm tra kỹ lưỡng",
+            "syns": [
+              "critical examination"
+            ],
+            "ex": "Sponsored reviews are increasingly falling under governmental scrutiny."
           },
           {
             "word": "candid",
+            "pos": "adj",
             "ipa": "/ˈkændɪd/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thẳng thắn, bộc trực chân thành",
-            "synonym": "frank",
-            "example": "Viewers trust her channel because she offers candid opinions without sugarcoating."
+            "mean": "thẳng thắn, bộc trực chân thành",
+            "syns": [
+              "frank"
+            ],
+            "ex": "Viewers trust her channel because she offers candid opinions without sugarcoating."
           },
           {
             "word": "disparity",
+            "pos": "n",
             "ipa": "/dɪˈspærəti/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự chênh lệch, độ cách biệt",
-            "synonym": "imbalance",
-            "example": "There is a vast disparity between viral video hype and actual dining reality."
+            "mean": "sự chênh lệch, độ cách biệt",
+            "syns": [
+              "imbalance"
+            ],
+            "ex": "There is a vast disparity between viral video hype and actual dining reality."
           },
           {
             "word": "patronage",
+            "pos": "n",
             "ipa": "/ˈpeɪtrənɪdʒ/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự lui tới ủng hộ của thực khách",
-            "synonym": "customer support",
-            "example": "A single viral recommendation can guarantee a year of robust customer patronage."
+            "mean": "sự lui tới ủng hộ của thực khách",
+            "syns": [
+              "customer support"
+            ],
+            "ex": "A single viral recommendation can guarantee a year of robust customer patronage."
           },
           {
             "word": "resonate",
+            "pos": "v",
             "ipa": "/ˈrɛzəneɪt/",
-            "type": "v.",
             "level": "B2",
-            "meaningVi": "tạo được sự đồng cảm sâu sắc",
-            "synonym": "evoke empathy",
-            "example": "Stories of resilient family kitchens resonate deeply with online food communities."
+            "mean": "tạo được sự đồng cảm sâu sắc",
+            "syns": [
+              "evoke empathy"
+            ],
+            "ex": "Stories of resilient family kitchens resonate deeply with online food communities."
           }
         ],
         "questions": [
           {
-            "id": "T14P2Q1",
+            "id": 11,
+            "num": 11,
             "question": "Which of the following best summarizes the main idea of paragraph 1?",
-            "options": {
-              "A": "Print food journalism has successfully banned social media creators from upscale dining rooms.",
-              "B": "The exclusive influence of traditional food critics has given way to digital content creators.",
-              "C": "Michelin guides have discontinued rating European bistros due to financial decline.",
-              "D": "Digital photography has reduced the total number of individuals interested in culinary arts."
-            },
+            "questionVi": "Phương án nào tóm tắt chính xác nhất ý chính của đoạn 1?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "Print food journalism has successfully banned social media creators from upscale dining rooms.",
+              "The exclusive influence of traditional food critics has given way to digital content creators.",
+              "Michelin guides have discontinued rating European bistros due to financial decline.",
+              "Digital photography has reduced the total number of individuals interested in culinary arts."
+            ],
+            "optionsVi": [
+              "A. Báo chí ẩm thực in ấn đã cấm thành công người sáng tạo mạng xã hội bước vào các nhà hàng sang trọng.",
+              "B. Tầm ảnh hưởng độc quyền của các nhà phê bình ẩm thực truyền thống đã nhường chỗ cho các nhà sáng tạo nội dung số.",
+              "C. Cẩm nang Michelin đã ngừng xếp hạng các quán ăn châu Âu do suy thoái tài chính.",
+              "D. Nhiếp ảnh kỹ thuật số đã làm giảm tổng số người quan tâm đến nghệ thuật ẩm thực."
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "culinary criticism was the exclusive domain of an elite cadre of print journalists... However, the advent of high-speed mobile internet... has precipitated a radical democratization of food journalism.",
+            "evidenceVi": "Trong hơn một thế kỷ, phê bình ẩm thực là lãnh địa độc quyền của báo in... Tuy nhiên, internet di động và mạng xã hội đã thúc đẩy sự phổ cập đại chúng mạnh mẽ của báo chí ẩm thực. [Đoạn 1]",
             "explanation": "Đoạn 1 phân tích sự chuyển dịch từ độc quyền của giới nhà báo phê bình ẩm thực in ấn sang làn sóng người sáng tạo nội dung số (food bloggers, TikTokers). Phương án B thâu tóm chính xác.",
             "postReading": {
               "type": "main_idea",
@@ -28761,18 +29001,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P2Q2",
+            "id": 12,
+            "num": 12,
             "question": "The word \"arbiters\" in paragraph 1 is closest in meaning to:",
-            "options": {
-              "A": "authoritative judges",
-              "B": "reluctant apprentices",
-              "C": "financial investors",
-              "D": "occasional bystanders"
-            },
+            "questionVi": "Từ \"arbiters\" trong đoạn 1 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "authoritative judges",
+              "reluctant apprentices",
+              "financial investors",
+              "occasional bystanders"
+            ],
+            "optionsVi": [
+              "A. những người phán xét có thẩm quyền",
+              "B. những người học việc miễn cưỡng",
+              "C. các nhà đầu tư tài chính",
+              "D. những người đứng ngoài quan sát tình cờ"
+            ],
             "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...these arbiters of taste wielded immense influence, capable of catapulting a neighborhood bistro to Michelin-starred fame...",
+            "evidenceVi": "...những người thẩm định thị hiếu đầy quyền lực này nắm giữ tầm ảnh hưởng khổng lồ, đủ sức đưa một quán ăn nhỏ lên tầm sao Michelin hoặc đẩy tới phá sản. [Đoạn 1]",
             "explanation": "'Arbiters' (những người phân xử, thẩm định có thẩm quyền) ở đây chỉ các nhà phê bình có quyền định đoạt số phận nhà hàng ('authoritative judges').",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Từ vựng ngữ cảnh (Vocabulary)",
               "cluePassage": "...these arbiters of taste wielded immense influence, capable of catapulting a neighborhood bistro to Michelin-starred fame...",
               "clueAnswer": "authoritative judges",
@@ -28784,15 +29036,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P2Q3",
+            "id": 13,
+            "num": 13,
             "question": "According to paragraph 2, what distinct element do digital creators emphasize compared to traditional critics?",
-            "options": {
-              "A": "Strict grammatical adherence in printed weekly columns",
-              "B": "Sensory immediacy, visual allure, and relatable narrative",
-              "C": "Formal classical French culinary pedigree",
-              "D": "In-depth chemical decomposition of organic spices"
-            },
+            "questionVi": "Theo đoạn 2, các nhà sáng tạo nội dung số nhấn mạnh yếu tố khác biệt nào so với giới phê bình truyền thống?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Strict grammatical adherence in printed weekly columns",
+              "Sensory immediacy, visual allure, and relatable narrative",
+              "Formal classical French culinary pedigree",
+              "In-depth chemical decomposition of organic spices"
+            ],
+            "optionsVi": [
+              "A. Sự tuân thủ ngữ pháp nghiêm ngặt trên các chuyên mục báo in hàng tuần",
+              "B. Cảm nhận giác quan tức thì, sức hấp dẫn thị giác và lối kể chuyện gần gũi",
+              "C. Nguồn gốc xuất thân ẩm thực Pháp cổ điển trang trọng",
+              "D. Phân tích hóa học chuyên sâu về quá trình phân hủy gia vị hữu cơ"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "digital creators emphasize sensory immediacy, visual allure, and relatable narrative.",
+            "evidenceVi": "Trong khi giới phê bình truyền thống coi trọng sự tinh tế trầm lắng, các nhà sáng tạo số nhấn mạnh tính trực quan giác quan, vẻ cuốn hút thị giác và lời kể gần gũi. [Đoạn 2]",
             "explanation": "Đoạn 2 nêu trực tiếp: 'Where traditional critics valued understated refinement... digital creators emphasize sensory immediacy, visual allure, and relatable narrative.'",
             "postReading": {
               "type": "factual",
@@ -28807,15 +29071,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P2Q4",
+            "id": 14,
+            "num": 14,
             "question": "How does digital food blogging benefit small, family-run restaurants according to paragraph 2?",
-            "options": {
-              "A": "By granting them tax exemptions from national municipal councils",
-              "B": "By enabling them to obtain free architectural redesigns from luxury agencies",
-              "C": "By providing unprecedented visibility through spontaneous user endorsements without huge marketing budgets",
-              "D": "By requiring all customers to sign non-disclosure agreements before dining"
-            },
+            "questionVi": "Theo đoạn 2, việc viết blog ẩm thực kỹ thuật số mang lại lợi ích gì cho các quán ăn nhỏ do gia đình tự quản?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "By granting them tax exemptions from national municipal councils",
+              "By enabling them to obtain free architectural redesigns from luxury agencies",
+              "By providing unprecedented visibility through spontaneous user endorsements without huge marketing budgets",
+              "By requiring all customers to sign non-disclosure agreements before dining"
+            ],
+            "optionsVi": [
+              "A. Giúp họ được hội đồng thành phố miễn trừ toàn bộ nghĩa vụ thuế",
+              "B. Giúp họ nhận được các gói thiết kế lại kiến trúc miễn phí từ các công ty sang trọng",
+              "C. Mang lại độ phủ sóng chưa từng có qua lời khen tự phát của người dùng mà không cần ngân sách tiếp thị lớn",
+              "D. Yêu cầu mọi thực khách phải ký thỏa thuận bảo mật thông tin trước khi dùng bữa"
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Small, family-run establishments that historically lacked PR budgets can now achieve unprecedented visibility through spontaneous user endorsements, leveling the playing field...",
+            "evidenceVi": "Các cơ sở kinh doanh nhỏ của gia đình vốn thiếu ngân sách PR nay có thể đạt được độ nhận diện chưa từng có thông qua sự ủng hộ tự phát của người dùng. [Đoạn 2]",
             "explanation": "Đoạn 2 chỉ rõ: 'Small, family-run establishments that historically lacked PR budgets can now achieve unprecedented visibility through spontaneous user endorsements...'",
             "postReading": {
               "type": "factual",
@@ -28830,15 +29106,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P2Q5",
+            "id": 15,
+            "num": 15,
             "question": "The author contrasts traditional critics with modern digital creators in paragraph 3 primarily by pointing out that traditional critics:",
-            "options": {
-              "A": "rarely possessed formal university educations",
-              "B": "maintained strict anonymity and paid for meals to avoid conflicts of interest",
-              "C": "favored street vendors over luxury hotel restaurants",
-              "D": "collaborated actively with commercial television advertisers"
-            },
+            "questionVi": "Trong đoạn 3, tác giả đối chiếu giới phê bình truyền thống với nhà sáng tạo số chủ yếu bằng cách chỉ ra rằng nhà phê bình truyền thống:",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "rarely possessed formal university educations",
+              "maintained strict anonymity and paid for meals to avoid conflicts of interest",
+              "favored street vendors over luxury hotel restaurants",
+              "collaborated actively with commercial television advertisers"
+            ],
+            "optionsVi": [
+              "A. hiếm khi có trình độ giáo dục đại học chính quy",
+              "B. duy trì tính ẩn danh nghiêm ngặt và tự trả tiền bữa ăn để tránh xung đột lợi ích",
+              "C. ưa chuộng hàng rong đường phố hơn là các nhà hàng khách sạn hạng sang",
+              "D. tích cực hợp tác với các đơn vị quảng cáo truyền hình thương mại"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "compelling critics to maintain strict anonymity and pay for their meals out of expense accounts. In stark contrast, many digital creators rely on complimentary banquets...",
+            "evidenceVi": "Báo chí truyền thống thiết lập ranh giới nghiêm ngặt, buộc nhà phê bình giữ ẩn danh tuyệt đối và tự thanh toán bữa ăn bằng ngân sách công tác. [Đoạn 3]",
             "explanation": "Đoạn 3 chỉ rõ: 'Traditional journalism enforced rigorous firewalls... compelling critics to maintain strict anonymity and pay for their meals out of expense accounts. In stark contrast, many digital creators rely on complimentary banquets, sponsored travel...'",
             "postReading": {
               "type": "factual",
@@ -28853,18 +29141,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P2Q6",
+            "id": 16,
+            "num": 16,
             "question": "The word \"hyperbolic\" in paragraph 3 is closest in meaning to:",
-            "options": {
-              "A": "grossly exaggerated",
-              "B": "meticulously documented",
-              "C": "whispered softly",
-              "D": "statistically verified"
-            },
+            "questionVi": "Từ \"hyperbolic\" trong đoạn 3 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "grossly exaggerated",
+              "meticulously documented",
+              "whispered softly",
+              "statistically verified"
+            ],
+            "optionsVi": [
+              "A. bị thổi phồng quá mức",
+              "B. được ghi chép tỉ mỉ có tư liệu",
+              "C. được thì thầm nhỏ nhẹ",
+              "D. được kiểm chứng bằng số liệu thống kê"
+            ],
             "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...where discerning critique is supplanted by hyperbolic praise designed to appease sponsors and maximize algorithmic engagement.",
+            "evidenceVi": "...nơi những lời phê bình sắc sảo bị thay thế bởi những lời tán dương thổi phồng nhằm làm hài lòng nhà tài trợ và tối đa hóa tương tác thuật toán. [Đoạn 3]",
             "explanation": "'Hyperbolic' (cường điệu, phóng đại quá mức) đồng nghĩa với 'grossly exaggerated'.",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Từ vựng (Vocabulary)",
               "cluePassage": "...where discerning critique is supplanted by hyperbolic praise designed to appease sponsors and maximize algorithmic engagement.",
               "clueAnswer": "grossly exaggerated",
@@ -28876,15 +29176,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P2Q7",
+            "id": 17,
+            "num": 17,
             "question": "According to paragraph 4, what negative consequence arises from the drive for virality?",
-            "options": {
-              "A": "Chefs refuse to use locally harvested organic ingredients.",
-              "B": "Restaurants are forced to hire professional actors as table waiters.",
-              "C": "Dishes are engineered for visual camera appeal at the expense of taste and balance.",
-              "D": "Social platforms ban users from photographing dessert items."
-            },
+            "questionVi": "Theo đoạn 4, hệ quả tiêu cực nào nảy sinh từ cuộc chạy đua săn tìm tính lan truyền (virality)?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Chefs refuse to use locally harvested organic ingredients.",
+              "Restaurants are forced to hire professional actors as table waiters.",
+              "Dishes are engineered for visual camera appeal at the expense of taste and balance.",
+              "Social platforms ban users from photographing dessert items."
+            ],
+            "optionsVi": [
+              "A. Các đầu bếp từ chối sử dụng nguyên liệu hữu cơ thu hoạch tại địa phương.",
+              "B. Các nhà hàng buộc phải thuê diễn viên chuyên nghiệp làm nhân viên phục vụ bàn.",
+              "C. Món ăn được thiết kế cốt để bắt mắt camera điện thoại mà hy sinh hương vị và sự cân bằng.",
+              "D. Các nền tảng mạng xã hội cấm người dùng chụp ảnh các món tráng miệng."
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Dishes are increasingly engineered to dazzle smartphone cameras—drenched in kaleidoscopic sauces or assembled into precarious, gravity-defying towers—at the direct expense of balance, texture, and flavor harmony.",
+            "evidenceVi": "Món ăn ngày càng được tạo tác để làm lóa mắt ống kính smartphone mà phải đánh đổi trực tiếp sự cân bằng, kết cấu và hài hòa hương vị. [Đoạn 4]",
             "explanation": "Đoạn 4 nêu: 'Dishes are increasingly engineered to dazzle smartphone cameras... at the direct expense of balance, texture, and flavor harmony.'",
             "postReading": {
               "type": "factual",
@@ -28899,15 +29211,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P2Q8",
+            "id": 18,
+            "num": 18,
             "question": "The phrase \"at the direct expense of\" in paragraph 4 implies that:",
-            "options": {
-              "A": "flavor harmony is enhanced by visual complexity",
-              "B": "visual appeal is prioritized in a way that harms culinary quality",
-              "C": "restaurant managers reduce the financial price of appetizers",
-              "D": "customers are charged extra for taking pictures"
-            },
+            "questionVi": "Cụm từ \"at the direct expense of\" trong đoạn 4 ngụ ý rằng:",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "flavor harmony is enhanced by visual complexity",
+              "visual appeal is prioritized in a way that harms culinary quality",
+              "restaurant managers reduce the financial price of appetizers",
+              "customers are charged extra for taking pictures"
+            ],
+            "optionsVi": [
+              "A. sự hài hòa hương vị được nâng cao nhờ sự cầu kỳ về mặt hình thức",
+              "B. sức hút thị giác được ưu tiên theo cách gây tổn hại đến chất lượng ẩm thực thực sự",
+              "C. các quản lý nhà hàng giảm giá bán các món khai vị",
+              "D. khách hàng bị tính thêm phụ phí khi chụp ảnh món ăn"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...assembled into precarious, gravity-defying towers—at the direct expense of balance, texture, and flavor harmony.",
+            "evidenceVi": "...xếp chồng thành những tòa tháp chênh vênh thách thức trọng lực — phải đánh đổi trực tiếp bằng sự cân bằng, kết cấu và hài hòa hương vị. [Đoạn 4]",
             "explanation": "'At the direct expense of' nghĩa là 'phải trả giá bằng / gây tổn hại trực tiếp đến'. Ở đây, việc chăm chút ngoại hình món ăn đã làm tổn hại đến chất lượng ẩm thực thực tế (B).",
             "postReading": {
               "type": "inference",
@@ -28922,15 +29246,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P2Q9",
+            "id": 19,
+            "num": 19,
             "question": "What emerging trend is identified at the end of paragraph 4?",
-            "options": {
-              "A": "A total prohibition of smartphones inside Michelin-starred restaurants",
-              "B": "A growing audience demand for transparency and honest, context-rich culinary reporting",
-              "C": "A mass exodus of food writers toward real estate appraisal",
-              "D": "The absolute closure of all independent food-review blogs"
-            },
+            "questionVi": "Xu hướng mới nổi nào được chỉ ra ở cuối đoạn 4?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "A total prohibition of smartphones inside Michelin-starred restaurants",
+              "A growing audience demand for transparency and honest, context-rich culinary reporting",
+              "A mass exodus of food writers toward real estate appraisal",
+              "The absolute closure of all independent food-review blogs"
+            ],
+            "optionsVi": [
+              "A. Lệnh cấm hoàn toàn điện thoại thông minh bên trong các nhà hàng gắn sao Michelin",
+              "B. Nhu cầu ngày càng tăng của khán giả về sự minh bạch và các bài đánh giá ẩm thực trung thực, giàu chiều sâu",
+              "C. Làn sóng ồ ạt các cây bút ẩm thực chuyển sang thẩm định bất động sản",
+              "D. Sự đóng cửa hoàn toàn của mọi trang blog đánh giá ẩm thực độc lập"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...a discerning segment of the digital audience is beginning to demand greater transparency, prompting reputable creators to explicitly declare commercial partnerships and return to honest, context-rich culinary reporting.",
+            "evidenceVi": "Một bộ phận khán giả số tinh tường đang bắt đầu đòi hỏi sự minh bạch cao hơn, thúc đẩy các nhà sáng tạo uy tín công khai hợp tác thương mại và quay lại đánh giá trung thực. [Đoạn 4]",
             "explanation": "Cuối đoạn 4 viết: 'a discerning segment of the digital audience is beginning to demand greater transparency, prompting reputable creators to explicitly declare commercial partnerships and return to honest, context-rich culinary reporting.'",
             "postReading": {
               "type": "factual",
@@ -28945,15 +29281,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P2Q10",
+            "id": 20,
+            "num": 20,
             "question": "Which of the following titles best encapsulates the main thesis of the passage?",
-            "options": {
-              "A": "The Death of Print: Why Old Newspapers No Longer Employ Critics",
-              "B": "Camera Feasts: The Democratization, Ethical Dilemmas, and Future of Digital Food Reviewing",
-              "C": "Bizarre Viral Recipes: How to Build Gravity-Defying Burger Towers",
-              "D": "Michelin Ratings Explained: The Complete Guide to European Dining"
-            },
+            "questionVi": "Tiêu đề nào sau đây tóm lược đầy đủ nhất luận điểm chính của toàn bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The Death of Print: Why Old Newspapers No Longer Employ Critics",
+              "Camera Feasts: The Democratization, Ethical Dilemmas, and Future of Digital Food Reviewing",
+              "Bizarre Viral Recipes: How to Build Gravity-Defying Burger Towers",
+              "Michelin Ratings Explained: The Complete Guide to European Dining"
+            ],
+            "optionsVi": [
+              "A. Cái chết của báo in: Tại sao các tờ báo cũ không còn tuyển dụng nhà phê bình",
+              "B. Bữa tiệc qua ống kính: Sự bình dân hóa, bài toán đạo đức và tương lai của phê bình ẩm thực số",
+              "C. Công thức lan truyền kỳ quái: Cách dựng những tòa tháp burger thách thức trọng lực",
+              "D. Giải mã xếp hạng Michelin: Cẩm nang toàn tập về ẩm thực châu Âu"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "democratization of food journalism... ethical and analytical compromises... demand greater transparency",
+            "evidenceVi": "Toàn bài phân tích sự phổ cập đại chúng của review ẩm thực số, xung đột đạo đức quảng cáo và xu hướng đòi hỏi sự minh bạch trong tương lai. [Toàn bài]",
             "explanation": "Toàn bài phân tích 3 khía cạnh: sự phổ cập dân chủ hóa của sáng tạo nội dung số (democratization), những thách thức đạo đức xung đột lợi ích (ethical dilemmas), và xu hướng phát triển hướng tới minh bạch trong tương lai (future of digital food reviewing).",
             "postReading": {
               "type": "main_idea",
@@ -28978,259 +29326,325 @@ const READING_MOCK_TESTS = [
         "vocab": [
           {
             "word": "dental",
+            "pos": "adj",
             "ipa": "/ˈdɛntəl/",
-            "type": "adj.",
             "level": "B1",
-            "meaningVi": "thuộc răng miệng, nha khoa",
-            "synonym": "oral",
-            "example": "Regular dental examinations prevent severe gum complications."
+            "mean": "thuộc răng miệng, nha khoa",
+            "syns": [
+              "oral"
+            ],
+            "ex": "Regular dental examinations prevent severe gum complications."
           },
           {
             "word": "hygiene",
+            "pos": "n",
             "ipa": "/ˈhaɪdʒiːn/",
-            "type": "n.",
             "level": "B1",
-            "meaningVi": "vệ sinh phòng ngừa bệnh",
-            "synonym": "cleanliness",
-            "example": "Effective oral hygiene is the foundation of overall wellness."
+            "mean": "vệ sinh phòng ngừa bệnh",
+            "syns": [
+              "cleanliness"
+            ],
+            "ex": "Effective oral hygiene is the foundation of overall wellness."
           },
           {
             "word": "enamel",
+            "pos": "n",
             "ipa": "/ɪˈnæməl/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "men răng (lớp bảo vệ ngoài cùng)",
-            "synonym": "protective tooth layer",
-            "example": "Aggressive brushing wears down tooth enamel over time."
+            "mean": "men răng (lớp bảo vệ ngoài cùng)",
+            "syns": [
+              "protective tooth layer"
+            ],
+            "ex": "Aggressive brushing wears down tooth enamel over time."
           },
           {
             "word": "plaque",
+            "pos": "n",
             "ipa": "/plæk/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "mảng bám vi khuẩn trên răng",
-            "synonym": "bacterial biofilm",
-            "example": "Flossing removes bacterial plaque between tight teeth."
+            "mean": "mảng bám vi khuẩn trên răng",
+            "syns": [
+              "bacterial biofilm"
+            ],
+            "ex": "Flossing removes bacterial plaque between tight teeth."
           },
           {
             "word": "abrasion",
+            "pos": "n",
             "ipa": "/əˈbreɪʒən/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "sự mài mòn cơ học, trầy xước",
-            "synonym": "wearing away",
-            "example": "Toothbrush abrasion causes irreversible damage to tooth enamel."
+            "mean": "sự mài mòn cơ học, trầy xước",
+            "syns": [
+              "wearing away"
+            ],
+            "ex": "Toothbrush abrasion causes irreversible damage to tooth enamel."
           },
           {
             "word": "gingival",
+            "pos": "adj",
             "ipa": "/ˈdʒɪndʒɪvəl/",
-            "type": "adj.",
             "level": "C1",
-            "meaningVi": "thuộc về nướu, lợi răng",
-            "synonym": "gum-related",
-            "example": "Gingival inflammation is an early warning sign of periodontal disease."
+            "mean": "thuộc về nướu, lợi răng",
+            "syns": [
+              "gum-related"
+            ],
+            "ex": "Gingival inflammation is an early warning sign of periodontal disease."
           },
           {
             "word": "recession",
+            "pos": "n",
             "ipa": "/rɪˈsɛʃən/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự tụt nướu, thụt lùi",
-            "synonym": "withdrawal",
-            "example": "Gum recession exposes sensitive roots to temperature changes."
+            "mean": "sự tụt nướu, thụt lùi",
+            "syns": [
+              "withdrawal"
+            ],
+            "ex": "Gum recession exposes sensitive roots to temperature changes."
           },
           {
             "word": "microbial",
+            "pos": "adj",
             "ipa": "/maɪˈkroʊbiəl/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thuộc vi sinh vật, vi khuẩn",
-            "synonym": "bacterial",
-            "example": "Toothpaste ingredients inhibit microbial proliferation in the mouth."
+            "mean": "thuộc vi sinh vật, vi khuẩn",
+            "syns": [
+              "bacterial"
+            ],
+            "ex": "Toothpaste ingredients inhibit microbial proliferation in the mouth."
           },
           {
             "word": "fluoride",
+            "pos": "n",
             "ipa": "/ˈflʊəraɪd/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "chất flo tăng cường men răng",
-            "synonym": "protective mineral",
-            "example": "Fluoride strengthens weakened enamel against acid attacks."
+            "mean": "chất flo tăng cường men răng",
+            "syns": [
+              "protective mineral"
+            ],
+            "ex": "Fluoride strengthens weakened enamel against acid attacks."
           },
           {
             "word": "discrepancy",
+            "pos": "n",
             "ipa": "/dɪˈskrɛpənsi/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự chênh lệch, độ lệch thực tế",
-            "synonym": "mismatch",
-            "example": "A huge discrepancy exists between perceived and actual brushing time."
+            "mean": "sự chênh lệch, độ lệch thực tế",
+            "syns": [
+              "mismatch"
+            ],
+            "ex": "A huge discrepancy exists between perceived and actual brushing time."
           },
           {
             "word": "ergonomic",
+            "pos": "adj",
             "ipa": "/ˌɜːrɡəˈnɒmɪk/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "công thái học, thiết kế tối ưu vận hành",
-            "synonym": "user-optimized",
-            "example": "The toothbrush handle features an ergonomic grip for steady control."
+            "mean": "công thái học, thiết kế tối ưu vận hành",
+            "syns": [
+              "user-optimized"
+            ],
+            "ex": "The toothbrush handle features an ergonomic grip for steady control."
           },
           {
             "word": "compliance",
+            "pos": "n",
             "ipa": "/kəmˈplaɪəns/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự tuân thủ hướng dẫn điều trị",
-            "synonym": "adherence",
-            "example": "Patient compliance with flossing recommendations remains notoriously low."
+            "mean": "sự tuân thủ hướng dẫn điều trị",
+            "syns": [
+              "adherence"
+            ],
+            "ex": "Patient compliance with flossing recommendations remains notoriously low."
           },
           {
             "word": "bristled",
+            "pos": "adj",
             "ipa": "/ˈbrɪsəld/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "có lông chải",
-            "synonym": "equipped with bristles",
-            "example": "Soft-bristled brushes are strongly recommended by dentists."
+            "mean": "có lông chải",
+            "syns": [
+              "equipped with bristles"
+            ],
+            "ex": "Soft-bristled brushes are strongly recommended by dentists."
           },
           {
             "word": "manual",
+            "pos": "adj",
             "ipa": "/ˈmænjuəl/",
-            "type": "adj.",
             "level": "B1",
-            "meaningVi": "bằng tay, thủ công",
-            "synonym": "hand-operated",
-            "example": "Both manual and electric brushes are effective when used with proper technique."
+            "mean": "bằng tay, thủ công",
+            "syns": [
+              "hand-operated"
+            ],
+            "ex": "Both manual and electric brushes are effective when used with proper technique."
           },
           {
             "word": "propensity",
+            "pos": "n",
             "ipa": "/prəˈpɛnsəti/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "xu hướng, thiên hướng bẩm sinh",
-            "synonym": "inclination",
-            "example": "People have a natural propensity to rush through evening hygiene rituals."
+            "mean": "xu hướng, thiên hướng bẩm sinh",
+            "syns": [
+              "inclination"
+            ],
+            "ex": "People have a natural propensity to rush through evening hygiene rituals."
           },
           {
             "word": "counterproductive",
+            "pos": "adj",
             "ipa": "/ˌkaʊntərprəˈdʌktɪv/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "phản tác dụng, đem lại tác hại",
-            "synonym": "harmful",
-            "example": "Scrubbing teeth with excessive force is entirely counterproductive."
+            "mean": "phản tác dụng, đem lại tác hại",
+            "syns": [
+              "harmful"
+            ],
+            "ex": "Scrubbing teeth with excessive force is entirely counterproductive."
           },
           {
             "word": "prophylactic",
+            "pos": "adj",
             "ipa": "/ˌprɒfɪˈlæktɪk/",
-            "type": "adj.",
             "level": "C1",
-            "meaningVi": "mang tính phòng ngừa bệnh tật",
-            "synonym": "preventative",
-            "example": "Routine dental cleaning is a cost-effective prophylactic measure."
+            "mean": "mang tính phòng ngừa bệnh tật",
+            "syns": [
+              "preventative"
+            ],
+            "ex": "Routine dental cleaning is a cost-effective prophylactic measure."
           },
           {
             "word": "habitual",
+            "pos": "adj",
             "ipa": "/həˈbɪtʃuəl/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thuộc thói quen lâu năm",
-            "synonym": "customary",
-            "example": "Breaking habitual brushing errors requires conscious daily effort."
+            "mean": "thuộc thói quen lâu năm",
+            "syns": [
+              "customary"
+            ],
+            "ex": "Breaking habitual brushing errors requires conscious daily effort."
           },
           {
             "word": "demographic",
+            "pos": "n",
             "ipa": "/ˌdɛməˈɡræfɪk/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "nhóm đối tượng nhân khẩu học",
-            "synonym": "population group",
-            "example": "Gum disease prevalence varies across different demographic sectors."
+            "mean": "nhóm đối tượng nhân khẩu học",
+            "syns": [
+              "population group"
+            ],
+            "ex": "Gum disease prevalence varies across different demographic sectors."
           },
           {
             "word": "intervention",
+            "pos": "n",
             "ipa": "/ˌɪntərˈvɛnʃən/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự can thiệp, biện pháp can thiệp",
-            "synonym": "action taken",
-            "example": "Behavioral interventions help children develop lasting brushing routines."
+            "mean": "sự can thiệp, biện pháp can thiệp",
+            "syns": [
+              "action taken"
+            ],
+            "ex": "Behavioral interventions help children develop lasting brushing routines."
           },
           {
             "word": "decay",
+            "pos": "n",
             "ipa": "/dɪˈkeɪ/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự sâu răng, hư hỏng phân rã",
-            "synonym": "caries",
-            "example": "Untreated bacterial plaque inevitably leads to severe tooth decay."
+            "mean": "sự sâu răng, hư hỏng phân rã",
+            "syns": [
+              "caries"
+            ],
+            "ex": "Untreated bacterial plaque inevitably leads to severe tooth decay."
           },
           {
             "word": "rigorous",
+            "pos": "adj",
             "ipa": "/ˈrɪɡərəs/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "nghiêm ngặt, triệt để",
-            "synonym": "thorough",
-            "example": "Rigorous oral hygiene reduces systemic cardiovascular inflammation."
+            "mean": "nghiêm ngặt, triệt để",
+            "syns": [
+              "thorough"
+            ],
+            "ex": "Rigorous oral hygiene reduces systemic cardiovascular inflammation."
           },
           {
             "word": "subconscious",
+            "pos": "adj",
             "ipa": "/sʌbˈkɒnʃəs/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thuộc tiềm thức, vô thức",
-            "synonym": "involuntary",
-            "example": "Brushing habits are often performed on subconscious autopilot."
+            "mean": "thuộc tiềm thức, vô thức",
+            "syns": [
+              "involuntary"
+            ],
+            "ex": "Brushing habits are often performed on subconscious autopilot."
           },
           {
             "word": "efficacy",
+            "pos": "n",
             "ipa": "/ˈɛfɪkəsi/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "hiệu lực, hiệu quả thực tế",
-            "synonym": "effectiveness",
-            "example": "Clinical trials proved the efficacy of oscillating brush heads."
+            "mean": "hiệu lực, hiệu quả thực tế",
+            "syns": [
+              "effectiveness"
+            ],
+            "ex": "Clinical trials proved the efficacy of oscillating brush heads."
           },
           {
             "word": "sedentary",
+            "pos": "adj",
             "ipa": "/ˌsɛdənˈtɛri/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "ít vận động, thụ động",
-            "synonym": "inactive",
-            "example": "A sedentary lifestyle often correlates with neglected self-care habits."
+            "mean": "ít vận động, thụ động",
+            "syns": [
+              "inactive"
+            ],
+            "ex": "A sedentary lifestyle often correlates with neglected self-care habits."
           },
           {
             "word": "sensor",
+            "pos": "n",
             "ipa": "/ˈsɛnsər/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "cảm biến đo lường",
-            "synonym": "detector",
-            "example": "The built-in pressure sensor flashes red when the user brushes too hard."
+            "mean": "cảm biến đo lường",
+            "syns": [
+              "detector"
+            ],
+            "ex": "The built-in pressure sensor flashes red when the user brushes too hard."
           },
           {
             "word": "nudge",
+            "pos": "n",
             "ipa": "/nʌdʒ/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "cú huých hành vi, sự nhắc nhở tinh tế",
-            "synonym": "gentle prompt",
-            "example": "Vibrating quadrant timers serve as behavioral nudges to extend brushing time."
+            "mean": "cú huých hành vi, sự nhắc nhở tinh tế",
+            "syns": [
+              "gentle prompt"
+            ],
+            "ex": "Vibrating quadrant timers serve as behavioral nudges to extend brushing time."
           }
         ],
         "questions": [
           {
-            "id": "T14P3Q1",
+            "id": 21,
+            "num": 21,
             "question": "According to paragraph 1, what is the primary reason periodontal disease and caries remain widespread?",
-            "options": {
-              "A": "A total lack of access to fluoride toothpaste in industrialized countries",
-              "B": "The complete failure of modern dental science to invent mechanical brushes",
-              "C": "Deep discrepancies between what patients believe they do and their actual physical behaviors",
-              "D": "Genetically inherited resistance to all known chemical mouthwashes"
-            },
+            "questionVi": "Theo đoạn 1, nguyên nhân chính khiến bệnh nha chu và sâu răng vẫn phổ biến rộng rãi là gì?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "A total lack of access to fluoride toothpaste in industrialized countries",
+              "The complete failure of modern dental science to invent mechanical brushes",
+              "Deep discrepancies between what patients believe they do and their actual physical behaviors",
+              "Genetically inherited resistance to all known chemical mouthwashes"
+            ],
+            "optionsVi": [
+              "A. Thiếu hụt hoàn toàn kem đánh răng chứa fluoride tại các nước công nghiệp hóa",
+              "B. Sự thất bại hoàn toàn của nha khoa hiện đại trong việc phát minh bàn chải cơ học",
+              "C. Sự chênh lệch sâu sắc giữa điều bệnh nhân tưởng mình đang làm và hành vi thể chất thực tế của họ",
+              "D. Khả năng kháng lại mọi loại nước súc miệng hóa học do di truyền"
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "it stems from deep-seated discrepancies between what patients perceive they do during routine oral care and their actual physical behaviors at the bathroom sink.",
+            "evidenceVi": "Gánh nặng bệnh tật dai dẳng này bắt nguồn từ những chênh lệch sâu sắc giữa nhận thức của bệnh nhân khi chăm sóc răng miệng với hành vi thể chất thực tế tại bồn rửa mặt. [Đoạn 1]",
             "explanation": "Đoạn 1 nêu rõ: 'it stems from deep-seated discrepancies between what patients perceive they do during routine oral care and their actual physical behaviors at the bathroom sink.'",
             "postReading": {
               "type": "factual",
@@ -29245,18 +29659,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P3Q2",
+            "id": 22,
+            "num": 22,
             "question": "The term \"duration bias\" in paragraph 2 refers to the fact that individuals:",
-            "options": {
-              "A": "brush their teeth for hours without realizing the sun has set",
-              "B": "drastically overestimate the amount of time they actually spend brushing",
-              "C": "refuse to purchase electric brushes because of battery longevity concerns",
-              "D": "forget their dentist's appointments due to long calendar intervals"
-            },
+            "questionVi": "Thuật ngữ \"duration bias\" (thiên kiến thời lượng) trong đoạn 2 đề cập đến thực tế rằng con người:",
+            "questionType": "DẠNG 03: CHI TIẾT ĐỊNH NGHĨA (Factual Definition)",
+            "options": [
+              "brush their teeth for hours without realizing the sun has set",
+              "drastically overestimate the amount of time they actually spend brushing",
+              "refuse to purchase electric brushes because of battery longevity concerns",
+              "forget their dentist's appointments due to long calendar intervals"
+            ],
+            "optionsVi": [
+              "A. đánh răng suốt nhiều giờ liền mà không nhận ra mặt trời đã lặn",
+              "B. đánh giá quá cao một cách đáng kể khoảng thời gian thực tế mình bỏ ra để đánh răng",
+              "C. từ chối mua bàn chải điện vì lo ngại về tuổi thọ pin",
+              "D. quên lịch hẹn khám nha sĩ do khoảng cách giữa các lần tái khám quá lâu"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "participants routinely overestimate their elapsed time by more than one hundred percent, genuinely believing they fulfilled the professional two-minute guideline.",
+            "evidenceVi": "Khi được hỏi sau khi đánh răng, người tham gia thường ước tính thời gian cao hơn thực tế trên 100%, tin chắc rằng họ đã đạt chuẩn hai phút. [Đoạn 2]",
             "explanation": "Đoạn 2 giải thích: dù các hiệp hội nha khoa yêu cầu đánh răng 2 phút, người lớn chỉ đánh 45-60 giây nhưng khi được hỏi thì ước tính cao hơn 100% thời gian thực tế -> 'drastically overestimate elapsed time'.",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Giải nghĩa thuật ngữ (Vocabulary/Concept)",
               "cluePassage": "participants routinely overestimate their elapsed time by more than one hundred percent, genuinely believing they fulfilled the professional two-minute guideline.",
               "clueAnswer": "drastically overestimate the amount of time they actually spend brushing",
@@ -29268,15 +29694,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P3Q3",
+            "id": 23,
+            "num": 23,
             "question": "How long does the average adult actually brush according to observational studies in paragraph 2?",
-            "options": {
-              "A": "Exactly two minutes",
-              "B": "Three to four minutes",
-              "C": "45 to 60 seconds",
-              "D": "Less than 10 seconds"
-            },
+            "questionVi": "Theo các nghiên cứu quan sát trong đoạn 2, một người trưởng thành trung bình thực sự đánh răng trong bao lâu?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Exactly two minutes",
+              "Three to four minutes",
+              "45 to 60 seconds",
+              "Less than 10 seconds"
+            ],
+            "optionsVi": [
+              "A. Đúng hai phút tròn",
+              "B. Từ ba đến bốn phút",
+              "C. Từ 45 đến 60 giây",
+              "D. Dưới 10 giây"
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "...reveal that the average adult brushes for merely 45 to 60 seconds.",
+            "evidenceVi": "Các nghiên cứu quan sát sử dụng đồng hồ ẩn và bàn chải cảm biến cho thấy người trưởng thành trung bình chỉ đánh răng trong vỏn vẹn 45 đến 60 giây. [Đoạn 2]",
             "explanation": "Đoạn 2 viết: 'observational studies utilizing concealed timers and smart-sensor brushes reveal that the average adult brushes for merely 45 to 60 seconds.'",
             "postReading": {
               "type": "factual",
@@ -29291,18 +29729,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P3Q4",
+            "id": 24,
+            "num": 24,
             "question": "The word \"detrimental\" in paragraph 3 is closest in meaning to:",
-            "options": {
-              "A": "advantageous",
-              "B": "damaging",
-              "C": "unpredictable",
-              "D": "temporary"
-            },
+            "questionVi": "Từ \"detrimental\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "advantageous",
+              "damaging",
+              "unpredictable",
+              "temporary"
+            ],
+            "optionsVi": [
+              "A. có lợi, thuận lợi",
+              "B. gây tổn hại, có hại",
+              "C. khó lường trước",
+              "D. mang tính tạm thời"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Equally detrimental is the prevalent misconception that vigorous mechanical pressure correlates directly with superior plaque removal.",
+            "evidenceVi": "Gây tổn hại không kém là quan niệm sai lầm phổ biến rằng lực chà mạnh tỷ lệ thuận với khả năng loại bỏ mảng bám vượt trội. [Đoạn 3]",
             "explanation": "'Detrimental' có nghĩa là gây hại, tác hại ('damaging').",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Từ vựng (Vocabulary)",
               "cluePassage": "Equally detrimental is the prevalent misconception that vigorous mechanical pressure correlates directly with superior plaque removal.",
               "clueAnswer": "damaging",
@@ -29314,15 +29764,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P3Q5",
+            "id": 25,
+            "num": 25,
             "question": "According to paragraph 3, what is the consequence of aggressive, heavy-handed brushing?",
-            "options": {
-              "A": "Complete eradication of all bacterial strains in the mouth",
-              "B": "Enamel abrasion and permanent gingival recession",
-              "C": "Rapid spontaneous regeneration of gum tissue",
-              "D": "Immediate calcification of exposed roots into porcelain"
-            },
+            "questionVi": "Theo đoạn 3, hậu quả của thói quen chải răng mạnh tay, thô bạo là gì?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Complete eradication of all bacterial strains in the mouth",
+              "Enamel abrasion and permanent gingival recession",
+              "Rapid spontaneous regeneration of gum tissue",
+              "Immediate calcification of exposed roots into porcelain"
+            ],
+            "optionsVi": [
+              "A. Tiêu diệt hoàn toàn mọi chủng vi khuẩn trong khoang miệng",
+              "B. Gây mòn men răng và tụt nướu vĩnh viễn",
+              "C. Kích thích mô nướu tự tái sinh nhanh chóng",
+              "D. Khiến chân răng bị lộ lập tức hóa sứ cứng chắc"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Chronic heavy-handed brushing acts like micro-sandpaper, precipitating cervical enamel abrasion and irreversible gingival recession.",
+            "evidenceVi": "Thói quen chải răng mạnh tay mãn tính hoạt động như giấy nhám siêu mịn, gây mòn men cổ răng và tụt nướu không thể đảo ngược. [Đoạn 3]",
             "explanation": "Đoạn 3 chỉ rõ: 'Chronic heavy-handed brushing acts like micro-sandpaper, precipitating cervical enamel abrasion and irreversible gingival recession.'",
             "postReading": {
               "type": "factual",
@@ -29337,15 +29799,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P3Q6",
+            "id": 26,
+            "num": 26,
             "question": "The phenomenon of \"quadrant neglect\" mentioned in paragraph 3 refers to:",
-            "options": {
-              "A": "failing to clean four consecutive teeth after eating meals",
-              "B": "unconsciously skipping or spending inadequate time on harder-to-reach mouth areas",
-              "C": "refusing to replace toothbrushes every four calendar months",
-              "D": "ignoring dietary advice concerning four basic food groups"
-            },
+            "questionVi": "Hiện tượng \"quadrant neglect\" (bỏ sót góc phần tư hàm) được đề cập trong đoạn 3 ám chỉ việc:",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "failing to clean four consecutive teeth after eating meals",
+              "unconsciously skipping or spending inadequate time on harder-to-reach mouth areas",
+              "refusing to replace toothbrushes every four calendar months",
+              "ignoring dietary advice concerning four basic food groups"
+            ],
+            "optionsVi": [
+              "A. không vệ sinh bốn chiếc răng liên tiếp sau mỗi bữa ăn",
+              "B. vô thức bỏ qua hoặc dành thời gian quá ít cho các vùng khó với tới trong khoang miệng",
+              "C. từ chối thay mới bàn chải đánh răng sau mỗi bốn tháng",
+              "D. phớt lờ lời khuyên dinh dưỡng liên quan đến bốn nhóm thực phẩm cơ bản"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "most individuals exhibit pronounced quadrant neglect, unconsciously devoting disproportionate attention to easily accessible anterior teeth while skipping the lingual surfaces of lower molars entirely.",
+            "evidenceVi": "Hầu hết mọi người đều vô thức tập trung quá nhiều vào răng cửa dễ với tới trong khi bỏ qua hoàn toàn mặt trong của các răng hàm dưới. [Đoạn 3]",
             "explanation": "Đoạn 3 giải thích: hầu hết mọi người vô thức dành sự chú ý quá mức cho răng cửa dễ với tới mà bỏ qua hoàn toàn mặt trong của các răng hàm dưới ('skipping harder-to-reach mouth areas').",
             "postReading": {
               "type": "inference",
@@ -29360,18 +29834,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P3Q7",
+            "id": 27,
+            "num": 27,
             "question": "The word \"somatic\" in paragraph 4 is closest in meaning to:",
-            "options": {
-              "A": "bodily or physical",
-              "B": "purely financial",
-              "C": "intellectually abstract",
-              "D": "linguistically complex"
-            },
+            "questionVi": "Từ \"somatic\" trong đoạn 4 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "bodily or physical",
+              "purely financial",
+              "intellectually abstract",
+              "linguistically complex"
+            ],
+            "optionsVi": [
+              "A. thuộc về cơ thể hoặc thể chất",
+              "B. thuần túy về mặt tài chính",
+              "C. trừu tượng về mặt trí tuệ",
+              "D. phức tạp về mặt ngôn ngữ"
+            ],
             "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "To bridge the gap between dental knowledge and somatic execution, behavioral dentistry is embracing technological nudges.",
+            "evidenceVi": "Để thu hẹp khoảng cách giữa kiến thức nha khoa và thao tác thực hành thể chất, ngành nha khoa hành vi đang ứng dụng các cú huých công nghệ. [Đoạn 4]",
             "explanation": "'Somatic' có nguồn gốc từ tiếng Hy Lạp 'soma' (thể xác, cơ thể), mang nghĩa thuộc về cơ thể, thể chất ('bodily or physical').",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Từ vựng y sinh (Vocabulary)",
               "cluePassage": "To bridge the gap between dental knowledge and somatic execution, behavioral dentistry is embracing technological nudges.",
               "clueAnswer": "bodily or physical",
@@ -29383,18 +29869,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P3Q8",
+            "id": 28,
+            "num": 28,
             "question": "Which of the following technological features is NOT cited in paragraph 4 as an interactive nudge?",
-            "options": {
-              "A": "Built-in pressure sensors",
-              "B": "Quadrant pacing timers",
-              "C": "Automatic laser enamel re-mineralizers",
-              "D": "Gamified smartphone interfaces"
-            },
+            "questionVi": "Tính năng công nghệ nào sau đây KHÔNG được đề cập trong đoạn 4 như một cú huých tương tác?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Built-in pressure sensors",
+              "Quadrant pacing timers",
+              "Automatic laser enamel re-mineralizers",
+              "Gamified smartphone interfaces"
+            ],
+            "optionsVi": [
+              "A. Cảm biến áp lực tích hợp sẵn",
+              "B. Bộ đếm nhịp chuyển vùng đánh răng theo góc phần tư",
+              "C. Thiết bị laser tự động tái khoáng hóa men răng",
+              "D. Giao diện ứng dụng điện thoại dạng trò chơi hóa (gamified)"
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Modern electric brushes equipped with pressure sensors, quadrant pacers, and gamified smartphone interfaces provide immediate haptic feedback...",
+            "evidenceVi": "Bàn chải điện hiện đại trang bị cảm biến áp lực, bộ đếm nhịp chuyển góc và giao diện smartphone trò chơi hóa mang lại phản hồi xúc giác tức thì. [Đoạn 4]",
             "explanation": "Đoạn 4 nêu: 'pressure sensors, quadrant pacers, and gamified smartphone interfaces'. Không hề nhắc đến thiết bị tái khoáng hóa men răng bằng laser tự động (C).",
             "postReading": {
-              "type": "negative_fact",
+              "type": "negative_factual",
               "typeLabel": "Tìm phương án KHÔNG có trong bài (Negative Fact)",
               "cluePassage": "Modern electric brushes equipped with pressure sensors, quadrant pacers, and gamified smartphone interfaces provide immediate haptic feedback...",
               "clueAnswer": "Automatic laser enamel re-mineralizers",
@@ -29406,15 +29904,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P3Q9",
+            "id": 29,
+            "num": 29,
             "question": "What is the primary function of immediate haptic feedback in modern smart toothbrushes?",
-            "options": {
-              "A": "To play musical melodies when brushing finishes",
-              "B": "To interrupt unconscious muscle memory and guide gentle, systematic brushing",
-              "C": "To notify dental clinics to deduct insurance copays automatically",
-              "D": "To sanitize the sink area using ultraviolet radiation"
-            },
+            "questionVi": "Chức năng chính của phản hồi xúc giác tức thì (haptic feedback) trên bàn chải thông minh hiện đại là gì?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "To play musical melodies when brushing finishes",
+              "To interrupt unconscious muscle memory and guide gentle, systematic brushing",
+              "To notify dental clinics to deduct insurance copays automatically",
+              "To sanitize the sink area using ultraviolet radiation"
+            ],
+            "optionsVi": [
+              "A. Phát các giai điệu âm nhạc khi kết thúc quy trình đánh răng",
+              "B. Ngắt quãng trí nhớ cơ bắp vô thức và hướng dẫn người dùng chải răng nhẹ nhàng, có hệ thống",
+              "C. Tự động thông báo cho phòng khám nha khoa trừ tiền bảo hiểm",
+              "D. Khử trùng khu vực bồn rửa mặt bằng tia cực tím"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...provide immediate haptic feedback, interrupting unconscious muscle memory and training users in gentle, systematic technique.",
+            "evidenceVi": "...cung cấp phản hồi xúc giác tức thì, ngắt quãng trí nhớ cơ bắp vô thức và rèn luyện cho người dùng kỹ thuật chải nhẹ nhàng, có hệ thống. [Đoạn 4]",
             "explanation": "Đoạn 4 nêu rõ: 'provide immediate haptic feedback, interrupting unconscious muscle memory and training users in gentle, systematic technique.'",
             "postReading": {
               "type": "factual",
@@ -29429,15 +29939,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P3Q10",
+            "id": 30,
+            "num": 30,
             "question": "Which of the following best expresses the author's primary objective in the passage?",
-            "options": {
-              "A": "To advocate for the total replacement of professional dentists with smartphone applications",
-              "B": "To elucidate how cognitive biases hinder oral hygiene and how behavioral tools can rectify them",
-              "C": "To prove that ancient chew sticks were biologically superior to synthetic fluoride pastes",
-              "D": "To lobby governments to make manual toothbrushes illegal for adult consumers"
-            },
+            "questionVi": "Phương án nào diễn đạt chính xác nhất mục tiêu chính của tác giả trong bài đọc?",
+            "questionType": "DẠNG 07: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
+            "options": [
+              "To advocate for the total replacement of professional dentists with smartphone applications",
+              "To elucidate how cognitive biases hinder oral hygiene and how behavioral tools can rectify them",
+              "To prove that ancient chew sticks were biologically superior to synthetic fluoride pastes",
+              "To lobby governments to make manual toothbrushes illegal for adult consumers"
+            ],
+            "optionsVi": [
+              "A. Kêu gọi thay thế hoàn toàn nha sĩ chuyên nghiệp bằng các ứng dụng điện thoại thông minh",
+              "B. Làm sáng tỏ cách các thiên kiến nhận thức cản trở vệ sinh răng miệng và cách công cụ hành vi khắc phục chúng",
+              "C. Chứng minh rằng cành cây nhai cổ đại ưu việt hơn về mặt sinh học so với kem đánh răng chứa fluoride",
+              "D. Vận động chính phủ cấm lưu hành bàn chải đánh răng thủ công đối với người lớn"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "bridge the gap between dental knowledge and somatic execution... converting passive hygiene recommendations into interactive, quantifiable micro-habits...",
+            "evidenceVi": "Thu hẹp khoảng cách giữa kiến thức nha khoa và thao tác thể chất bằng cách chuyển hóa các khuyến nghị thụ động thành vi thói quen tương tác. [Đoạn 4]",
             "explanation": "Mục tiêu bài đọc là giải thích cách các thiên kiến nhận thức (duration bias, dùng lực mạnh, bỏ sót góc) cản trở vệ sinh răng miệng và cách các công cụ nha khoa hành vi công nghệ có thể khắc phục chúng (B).",
             "postReading": {
               "type": "main_idea",
@@ -29462,259 +29984,325 @@ const READING_MOCK_TESTS = [
         "vocab": [
           {
             "word": "depressive",
+            "pos": "adj",
             "ipa": "/dɪˈprɛsɪv/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thuộc chứng trầm cảm",
-            "synonym": "melancholic",
-            "example": "Depressive episodes severely impair a person's ability to work."
+            "mean": "thuộc chứng trầm cảm",
+            "syns": [
+              "melancholic"
+            ],
+            "ex": "Depressive episodes severely impair a person's ability to work."
           },
           {
             "word": "neurobiology",
+            "pos": "n",
             "ipa": "/ˌnjʊəroʊbaɪˈɒlədʒi/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "sinh học thần kinh",
-            "synonym": "neural science",
-            "example": "Research into neurobiology reveals how stress alters brain structures."
+            "mean": "sinh học thần kinh",
+            "syns": [
+              "neural science"
+            ],
+            "ex": "Research into neurobiology reveals how stress alters brain structures."
           },
           {
             "word": "stigma",
+            "pos": "n",
             "ipa": "/ˈstɪɡmə/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "sự kỳ thị, vết nhơ định kiến xã hội",
-            "synonym": "disgrace",
-            "example": "Social stigma prevents many patients from seeking psychiatric care."
+            "mean": "sự kỳ thị, vết nhơ định kiến xã hội",
+            "syns": [
+              "disgrace"
+            ],
+            "ex": "Social stigma prevents many patients from seeking psychiatric care."
           },
           {
             "word": "debilitating",
+            "pos": "adj",
             "ipa": "/dɪˈbɪlɪteɪtɪŋ/",
-            "type": "adj.",
             "level": "C1",
-            "meaningVi": "làm suy nhược, tàn phá thể lực tinh thần",
-            "synonym": "crippling",
-            "example": "Chronic depression is a deeply debilitating condition."
+            "mean": "làm suy nhược, tàn phá thể lực tinh thần",
+            "syns": [
+              "crippling"
+            ],
+            "ex": "Chronic depression is a deeply debilitating condition."
           },
           {
             "word": "neurotransmitter",
+            "pos": "n",
             "ipa": "/ˌnjʊəroʊtrænzˈmɪtər/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "chất dẫn truyền thần kinh",
-            "synonym": "chemical messenger",
-            "example": "Serotonin and dopamine are essential neurotransmitters."
+            "mean": "chất dẫn truyền thần kinh",
+            "syns": [
+              "chemical messenger"
+            ],
+            "ex": "Serotonin and dopamine are essential neurotransmitters."
           },
           {
             "word": "serotonin",
+            "pos": "n",
             "ipa": "/ˌsɛrəˈtoʊnɪn/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "serotonin (chất điều hòa khí sắc)",
-            "synonym": "mood chemical",
-            "example": "Many antidepressant medications work by stabilizing serotonin levels."
+            "mean": "serotonin (chất điều hòa khí sắc)",
+            "syns": [
+              "mood chemical"
+            ],
+            "ex": "Many antidepressant medications work by stabilizing serotonin levels."
           },
           {
             "word": "neuroplasticity",
+            "pos": "n",
             "ipa": "/ˌnjʊəroʊplæˈstɪsɪti/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "tính khả biến, khả năng tái cấu trúc của não",
-            "synonym": "neural adaptability",
-            "example": "Therapy and exercise promote neuroplasticity in the adult brain."
+            "mean": "tính khả biến, khả năng tái cấu trúc của não",
+            "syns": [
+              "neural adaptability"
+            ],
+            "ex": "Therapy and exercise promote neuroplasticity in the adult brain."
           },
           {
             "word": "hippocampus",
+            "pos": "n",
             "ipa": "/ˌhɪpəˈkæmpəs/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "hồi hải mã (vùng não chịu trách nhiệm trí nhớ)",
-            "synonym": "memory center",
-            "example": "Prolonged high stress causes shrinkage of the hippocampus."
+            "mean": "hồi hải mã (vùng não chịu trách nhiệm trí nhớ)",
+            "syns": [
+              "memory center"
+            ],
+            "ex": "Prolonged high stress causes shrinkage of the hippocampus."
           },
           {
             "word": "atrophy",
+            "pos": "n",
             "ipa": "/ˈætrəfi/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "sự teo nhỏ, thoái hóa mô",
-            "synonym": "shrinkage",
-            "example": "Cellular atrophy in the prefrontal cortex impairs executive decision-making."
+            "mean": "sự teo nhỏ, thoái hóa mô",
+            "syns": [
+              "shrinkage"
+            ],
+            "ex": "Cellular atrophy in the prefrontal cortex impairs executive decision-making."
           },
           {
             "word": "cortisol",
+            "pos": "n",
             "ipa": "/ˈkɔːrtɪzɒl/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "hormone cortisol gây căng thẳng",
-            "synonym": "stress hormone",
-            "example": "Chronically elevated cortisol damages brain circuitry."
+            "mean": "hormone cortisol gây căng thẳng",
+            "syns": [
+              "stress hormone"
+            ],
+            "ex": "Chronically elevated cortisol damages brain circuitry."
           },
           {
             "word": "epigenetic",
+            "pos": "adj",
             "ipa": "/ˌɛpɪdʒɪˈnɛtɪk/",
-            "type": "adj.",
             "level": "C1",
-            "meaningVi": "thuộc di truyền biểu sinh (ảnh hưởng của môi trường lên gen)",
-            "synonym": "gene-regulatory",
-            "example": "Epigenetic changes occur in response to severe childhood trauma."
+            "mean": "thuộc di truyền biểu sinh (ảnh hưởng của môi trường lên gen)",
+            "syns": [
+              "gene-regulatory"
+            ],
+            "ex": "Epigenetic changes occur in response to severe childhood trauma."
           },
           {
             "word": "epidemiology",
+            "pos": "n",
             "ipa": "/ˌɛpɪˌdiːmiˈɒlədʒi/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "dịch tễ học (nghiên cứu tần suất bệnh)",
-            "synonym": "disease tracking",
-            "example": "Psychiatric epidemiology maps the global prevalence of mood disorders."
+            "mean": "dịch tễ học (nghiên cứu tần suất bệnh)",
+            "syns": [
+              "disease tracking"
+            ],
+            "ex": "Psychiatric epidemiology maps the global prevalence of mood disorders."
           },
           {
             "word": "affective",
+            "pos": "adj",
             "ipa": "/əˈfɛktɪv/",
-            "type": "adj.",
             "level": "C1",
-            "meaningVi": "thuộc cảm xúc, khí sắc",
-            "synonym": "emotional",
-            "example": "Bipolar and major depression are categorized as affective disorders."
+            "mean": "thuộc cảm xúc, khí sắc",
+            "syns": [
+              "emotional"
+            ],
+            "ex": "Bipolar and major depression are categorized as affective disorders."
           },
           {
             "word": "transient",
+            "pos": "adj",
             "ipa": "/ˈtrænziənt/",
-            "type": "adj.",
             "level": "C1",
-            "meaningVi": "thoáng qua, tạm thời",
-            "synonym": "fleeting",
-            "example": "Clinical depression is very different from transient everyday sadness."
+            "mean": "thoáng qua, tạm thời",
+            "syns": [
+              "fleeting"
+            ],
+            "ex": "Clinical depression is very different from transient everyday sadness."
           },
           {
             "word": "chronic",
+            "pos": "adj",
             "ipa": "/ˈkrɒnɪk/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "mãn tính, kéo dài triền miên",
-            "synonym": "long-lasting",
-            "example": "Patients suffering from chronic depression require ongoing multimodal therapy."
+            "mean": "mãn tính, kéo dài triền miên",
+            "syns": [
+              "long-lasting"
+            ],
+            "ex": "Patients suffering from chronic depression require ongoing multimodal therapy."
           },
           {
             "word": "socioeconomic",
+            "pos": "adj",
             "ipa": "/ˌsoʊsioʊˌiːkəˈnɒmɪk/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "thuộc kinh tế - xã hội",
-            "synonym": "social and economic",
-            "example": "Socioeconomic deprivation is strongly correlated with increased depression risk."
+            "mean": "thuộc kinh tế - xã hội",
+            "syns": [
+              "social and economic"
+            ],
+            "ex": "Socioeconomic deprivation is strongly correlated with increased depression risk."
           },
           {
             "word": "deprivation",
+            "pos": "n",
             "ipa": "/ˌdɛprɪˈveɪʃən/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "sự thiếu thốn, nghèo khổ tước đoạt",
-            "synonym": "hardship",
-            "example": "Sleep deprivation rapidly exacerbates depressive symptoms."
+            "mean": "sự thiếu thốn, nghèo khổ tước đoạt",
+            "syns": [
+              "hardship"
+            ],
+            "ex": "Sleep deprivation rapidly exacerbates depressive symptoms."
           },
           {
             "word": "therapeutic",
+            "pos": "adj",
             "ipa": "/ˌθɛrəˈpjuːtɪk/",
-            "type": "adj.",
             "level": "B2",
-            "meaningVi": "mang tính điều trị, chữa lành",
-            "synonym": "curative",
-            "example": "Regular aerobic exercise has profound therapeutic benefits for mental health."
+            "mean": "mang tính điều trị, chữa lành",
+            "syns": [
+              "curative"
+            ],
+            "ex": "Regular aerobic exercise has profound therapeutic benefits for mental health."
           },
           {
             "word": "pharmacotherapy",
+            "pos": "n",
             "ipa": "/ˌfɑːrməkəʊˈθɛrəpi/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "liệu pháp điều trị bằng thuốc",
-            "synonym": "medication treatment",
-            "example": "Pharmacotherapy is most effective when paired with clinical psychotherapy."
+            "mean": "liệu pháp điều trị bằng thuốc",
+            "syns": [
+              "medication treatment"
+            ],
+            "ex": "Pharmacotherapy is most effective when paired with clinical psychotherapy."
           },
           {
             "word": "cognition",
+            "pos": "n",
             "ipa": "/kɒɡˈnɪʃən/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "nhận thức, quá trình tư duy",
-            "synonym": "mental processing",
-            "example": "Depression clouds clear cognition and impairs working memory."
+            "mean": "nhận thức, quá trình tư duy",
+            "syns": [
+              "mental processing"
+            ],
+            "ex": "Depression clouds clear cognition and impairs working memory."
           },
           {
             "word": "paradigm",
+            "pos": "n",
             "ipa": "/ˈpærədaɪm/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "mô hình mẫu, hệ chuẩn tư duy",
-            "synonym": "conceptual framework",
-            "example": "Mental health care is undergoing a major paradigm shift toward integrated holistic treatment."
+            "mean": "mô hình mẫu, hệ chuẩn tư duy",
+            "syns": [
+              "conceptual framework"
+            ],
+            "ex": "Mental health care is undergoing a major paradigm shift toward integrated holistic treatment."
           },
           {
             "word": "prevalence",
+            "pos": "n",
             "ipa": "/ˈprɛvələns/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "tỷ lệ phổ biến, mức độ thịnh hành",
-            "synonym": "commonness",
-            "example": "The rising prevalence of youth depression demands urgent institutional intervention."
+            "mean": "tỷ lệ phổ biến, mức độ thịnh hành",
+            "syns": [
+              "commonness"
+            ],
+            "ex": "The rising prevalence of youth depression demands urgent institutional intervention."
           },
           {
             "word": "manifestation",
+            "pos": "n",
             "ipa": "/ˌmænɪfɛˈsteɪʃən/",
-            "type": "n.",
             "level": "C1",
-            "meaningVi": "biểu hiện bên ngoài của bệnh",
-            "synonym": "outward symptom",
-            "example": "Insomnia and lethargy are physical manifestations of depressive illness."
+            "mean": "biểu hiện bên ngoài của bệnh",
+            "syns": [
+              "outward symptom"
+            ],
+            "ex": "Insomnia and lethargy are physical manifestations of depressive illness."
           },
           {
             "word": "psychosocial",
+            "pos": "adj",
             "ipa": "/ˌsaɪkoʊˈsoʊʃəl/",
-            "type": "adj.",
             "level": "C1",
-            "meaningVi": "thuộc tâm lý xã hội",
-            "synonym": "psychological and social",
-            "example": "Effective healing addresses both biological chemistry and psychosocial factors."
+            "mean": "thuộc tâm lý xã hội",
+            "syns": [
+              "psychological and social"
+            ],
+            "ex": "Effective healing addresses both biological chemistry and psychosocial factors."
           },
           {
             "word": "somatic",
+            "pos": "adj",
             "ipa": "/soʊˈmætɪk/",
-            "type": "adj.",
             "level": "C1",
-            "meaningVi": "thuộc thể xác, thể chất",
-            "synonym": "physical",
-            "example": "Patients frequently present with somatic complaints like chronic headaches and body aches."
+            "mean": "thuộc thể xác, thể chất",
+            "syns": [
+              "physical"
+            ],
+            "ex": "Patients frequently present with somatic complaints like chronic headaches and body aches."
           },
           {
             "word": "resilience",
+            "pos": "n",
             "ipa": "/rɪˈzɪliəns/",
-            "type": "n.",
             "level": "B2",
-            "meaningVi": "khả năng phục hồi, sức bật tinh thần",
-            "synonym": "rebound capacity",
-            "example": "Psychological resilience can be cultivated through cognitive therapy techniques."
+            "mean": "khả năng phục hồi, sức bật tinh thần",
+            "syns": [
+              "rebound capacity"
+            ],
+            "ex": "Psychological resilience can be cultivated through cognitive therapy techniques."
           },
           {
             "word": "holistic",
+            "pos": "adj",
             "ipa": "/hoʊˈlɪstɪk/",
-            "type": "adj.",
             "level": "C1",
-            "meaningVi": "toàn diện, tổng thể",
-            "synonym": "comprehensive",
-            "example": "A holistic treatment strategy considers diet, sleep, relationships, and medication."
+            "mean": "toàn diện, tổng thể",
+            "syns": [
+              "comprehensive"
+            ],
+            "ex": "A holistic treatment strategy considers diet, sleep, relationships, and medication."
           }
         ],
         "questions": [
           {
-            "id": "T14P4Q1",
+            "id": 31,
+            "num": 31,
             "question": "What is the primary function of paragraph 1?",
-            "options": {
-              "A": "To demonstrate that depression is an inevitable and harmless phase of biological maturation",
-              "B": "To delineate the severity, multidimensional nature, and global epidemiological scale of clinical depression",
-              "C": "To argue that psychiatric diagnosis should be abolished in favor of home remedies",
-              "D": "To compare suicide statistics between North American and Scandinavian nations"
-            },
+            "questionVi": "Chức năng chính của đoạn văn thứ nhất là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "To demonstrate that depression is an inevitable and harmless phase of biological maturation",
+              "To delineate the severity, multidimensional nature, and global epidemiological scale of clinical depression",
+              "To argue that psychiatric diagnosis should be abolished in favor of home remedies",
+              "To compare suicide statistics between North American and Scandinavian nations"
+            ],
+            "optionsVi": [
+              "A. Chứng minh rằng trầm cảm là một giai đoạn sinh học tất yếu và vô hại của quá trình trưởng thành",
+              "B. Phác họa mức độ nghiêm trọng, bản chất đa chiều và quy mô dịch tễ toàn cầu của trầm cảm lâm sàng",
+              "C. Lập luận rằng nên bãi bỏ chẩn đoán tâm thần học để chuyển sang các phương thuốc dân gian tại nhà",
+              "D. So sánh số liệu tự tử giữa các quốc gia Bắc Mỹ và vùng Scandinavia"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Major depressive disorder (MDD) represents one of the most debilitating and widespread public health crises... afflicting an estimated 280 million individuals globally... paramount contributor to the global burden of disease...",
+            "evidenceVi": "Rối loạn trầm cảm nặng (MDD) là một trong những cuộc khủng hoảng y tế công cộng gây suy nhược và lan rộng nhất thế kỷ 21, ảnh hưởng tới khoảng 280 triệu người toàn cầu. [Đoạn 1]",
             "explanation": "Đoạn 1 nêu rõ quy mô 280 triệu người mắc, tính chất tàn phá đa chiều (anhedonia, cognitive impairment, vegetative dysregulation) và vị thế là nguyên nhân hàng đầu gây gánh nặng bệnh tật toàn cầu. Phương án B bao quát đầy đủ.",
             "postReading": {
               "type": "main_idea",
@@ -29729,18 +30317,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P4Q2",
+            "id": 32,
+            "num": 32,
             "question": "The word \"anhedonia\" in paragraph 1 refers to:",
-            "options": {
-              "A": "the inability to experience pleasure in normally enjoyable activities",
-              "B": "an uncontrollable craving for carbohydrate-rich meals",
-              "C": "excessive and rapid heart rate during physical exercise",
-              "D": "sudden loss of short-term auditory memory"
-            },
+            "questionVi": "Thuật ngữ \"anhedonia\" trong đoạn 1 đề cập đến trạng thái nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "the inability to experience pleasure in normally enjoyable activities",
+              "an uncontrollable craving for carbohydrate-rich meals",
+              "excessive and rapid heart rate during physical exercise",
+              "sudden loss of short-term auditory memory"
+            ],
+            "optionsVi": [
+              "A. sự mất khả năng cảm nhận niềm vui ở những hoạt động vốn mang lại sự thích thú",
+              "B. cơn thèm ăn không thể kiểm soát đối với các bữa ăn giàu tinh bột",
+              "C. nhịp tim đập quá nhanh trong lúc vận động thể chất",
+              "D. tình trạng mất đột ngột trí nhớ thính giác ngắn hạn"
+            ],
             "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...characterized by pervasive anhedonia, profound cognitive impairment, vegetative dysregulation...",
+            "evidenceVi": "...được đặc trưng bởi chứng mất hứng thú lan tỏa (anhedonia), suy giảm nhận thức sâu sắc, rối loạn thực vật và cảm giác vô dụng bao trùm. [Đoạn 1]",
             "explanation": "Thuật ngữ y khoa 'anhedonia' (mất khả năng cảm nhận niềm vui) là triệu chứng cốt lõi của trầm cảm lâm sàng ('inability to experience pleasure').",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Thuật ngữ y khoa (Medical Terminology)",
               "cluePassage": "...characterized by pervasive anhedonia, profound cognitive impairment, vegetative dysregulation...",
               "clueAnswer": "the inability to experience pleasure in normally enjoyable activities",
@@ -29752,15 +30352,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P4Q3",
+            "id": 33,
+            "num": 33,
             "question": "According to paragraph 2, why is the classical monoamine hypothesis now considered \"overly reductive\"?",
-            "options": {
-              "A": "Because serotonin does not exist in the human central nervous system",
-              "B": "Because modern science recognizes that disrupted neuroplasticity and stress-induced structural changes are also central",
-              "C": "Because pharmaceutical companies have completely ceased the production of SSRI medications",
-              "D": "Because depression is purely an ideological social construct with no biological correlates"
-            },
+            "questionVi": "Theo đoạn 2, tại sao giả thuyết monoamine cổ điển ngày nay bị coi là \"quá giản lược\" (overly reductive)?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "Because serotonin does not exist in the human central nervous system",
+              "Because modern science recognizes that disrupted neuroplasticity and stress-induced structural changes are also central",
+              "Because pharmaceutical companies have completely ceased the production of SSRI medications",
+              "Because depression is purely an ideological social construct with no biological correlates"
+            ],
+            "optionsVi": [
+              "A. Bởi vì serotonin không tồn tại trong hệ thần kinh trung ương của con người",
+              "B. Bởi vì khoa học hiện đại nhận diện rằng rối loạn tính khả biến thần kinh và biến đổi cấu trúc do stress cũng giữ vai trò trung tâm",
+              "C. Bởi vì các hãng dược phẩm đã ngừng sản xuất hoàn toàn các thuốc nhóm SSRI",
+              "D. Bởi vì trầm cảm thuần túy là một cấu trúc xã hội không có bất kỳ cơ sở sinh học nào"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "contemporary neuroimaging and molecular biology indicate that this model is overly reductive. Modern neuropsychiatry focuses instead on disrupted neuroplasticity and neural circuitry dysregulation.",
+            "evidenceVi": "Chẩn đoán hình ảnh thần kinh và sinh học phân tử đương đại cho thấy mô hình này quá giản lược; tâm thần học hiện đại tập trung vào sự gián đoạn tính khả biến thần kinh và rối loạn mạch thần kinh. [Đoạn 2]",
             "explanation": "Đoạn 2 nêu rõ giả thuyết monoamine xem trầm cảm chỉ đơn giản là thiếu serotonin/dopamine là quá giản lược; khoa học thần kinh hiện đại chứng minh sự gián đoạn tính khả biến thần kinh (disrupted neuroplasticity) và sự teo hồi hải mã do cortisol gây ra mới là cơ chế then chốt.",
             "postReading": {
               "type": "factual",
@@ -29775,15 +30387,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P4Q4",
+            "id": 34,
+            "num": 34,
             "question": "What structural impact does chronic elevated cortisol have on the brain according to paragraph 2?",
-            "options": {
-              "A": "It dramatically enlarges the volume of the prefrontal cortex.",
-              "B": "It triggers atrophy within the hippocampus and prefrontal cortex while hyperactivating the amygdala.",
-              "C": "It permanently thickens cranial bones to shield brain tissue from physical shocks.",
-              "D": "It eradicates all electrical synapses between sensory neurons."
-            },
+            "questionVi": "Theo đoạn 2, nồng độ cortisol tăng cao mãn tính gây ra tác động cấu trúc nào lên não bộ?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "It dramatically enlarges the volume of the prefrontal cortex.",
+              "It triggers atrophy within the hippocampus and prefrontal cortex while hyperactivating the amygdala.",
+              "It permanently thickens cranial bones to shield brain tissue from physical shocks.",
+              "It eradicates all electrical synapses between sensory neurons."
+            ],
+            "optionsVi": [
+              "A. Làm phình to đáng kể thể tích của vỏ não trước trán.",
+              "B. Kích hoạt sự teo nhỏ tại hồi hải mã và vỏ não trước trán đồng thời khiến hạch hạnh nhân hoạt động quá mức.",
+              "C. Làm dày vĩnh viễn xương hộp sọ để bảo vệ mô não khỏi các chấn động vật lý.",
+              "D. Phá hủy toàn bộ các khớp thần kinh điện giữa các nơ-ron cảm giác."
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Chronic elevated cortisol levels induced by prolonged stress trigger atrophy within the hippocampus and prefrontal cortex while provoking hyperactivity in the amygdala...",
+            "evidenceVi": "Nồng độ cortisol tăng cao mãn tính do căng thẳng kéo dài gây teo hồi hải mã và vỏ não trước trán đồng thời kích hoạt hoạt động quá mức ở hạch hạnh nhân. [Đoạn 2]",
             "explanation": "Đoạn 2 viết: 'Chronic elevated cortisol levels induced by prolonged stress trigger atrophy within the hippocampus and prefrontal cortex while provoking hyperactivity in the amygdala...'",
             "postReading": {
               "type": "factual",
@@ -29798,18 +30422,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P4Q5",
+            "id": 35,
+            "num": 35,
             "question": "The word \"epigenetic\" in paragraph 3 refers to biological mechanisms that:",
-            "options": {
-              "A": "alter gene expression without mutating the underlying DNA sequence",
-              "B": "artificially clone mammalian embryos in laboratory test tubes",
-              "C": "completely eliminate the human need for daily nutritional sustenance",
-              "D": "prevent viral pathogens from invading respiratory membranes"
-            },
+            "questionVi": "Từ \"epigenetic\" (biểu sinh) trong đoạn 3 đề cập đến các cơ chế sinh học có khả năng:",
+            "questionType": "DẠNG 03: CHI TIẾT ĐỊNH NGHĨA (Factual Definition)",
+            "options": [
+              "alter gene expression without mutating the underlying DNA sequence",
+              "artificially clone mammalian embryos in laboratory test tubes",
+              "completely eliminate the human need for daily nutritional sustenance",
+              "prevent viral pathogens from invading respiratory membranes"
+            ],
+            "optionsVi": [
+              "A. thay đổi sự biểu hiện của gen mà không làm đột biến trình tự DNA nền tảng",
+              "B. nhân bản vô tính phôi động vật có vú trong ống nghiệm phòng thí nghiệm",
+              "C. triệt tiêu hoàn toàn nhu cầu dinh dưỡng hàng ngày của con người",
+              "D. ngăn chặn các mầm bệnh virus xâm nhập vào màng hô hấp"
+            ],
             "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "...can alter gene expression without mutating DNA sequences, locking neural circuits into states of heightened neuroinflammation...",
+            "evidenceVi": "Nghèo đói kinh niên, phân biệt đối xử và sang chấn tuổi thơ có thể làm thay đổi biểu hiện gen mà không gây đột biến trình tự DNA. [Đoạn 3]",
             "explanation": "Đoạn 3 định nghĩa rõ ràng: 'alter gene expression without mutating DNA sequences' (thay đổi sự biểu hiện gen mà không làm đột biến trình tự DNA).",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Định nghĩa khoa học (Scientific Definition)",
               "cluePassage": "...can alter gene expression without mutating DNA sequences, locking neural circuits into states of heightened neuroinflammation...",
               "clueAnswer": "alter gene expression without mutating the underlying DNA sequence",
@@ -29821,15 +30457,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P4Q6",
+            "id": 36,
+            "num": 36,
             "question": "According to paragraph 3, how does societal stigma impede depression treatment?",
-            "options": {
-              "A": "By raising the market retail price of organic produce in supermarkets",
-              "B": "By moralizing depressive symptoms as personal character flaws or lack of willpower, discouraging diagnosis",
-              "C": "By forcing patients to emigrate to foreign countries for physical surgery",
-              "D": "By criminalizing the publication of neuroimaging textbooks"
-            },
+            "questionVi": "Theo đoạn 3, sự kỳ thị xã hội cản trở việc điều trị trầm cảm như thế nào?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "By raising the market retail price of organic produce in supermarkets",
+              "By moralizing depressive symptoms as personal character flaws or lack of willpower, discouraging diagnosis",
+              "By forcing patients to emigrate to foreign countries for physical surgery",
+              "By criminalizing the publication of neuroimaging textbooks"
+            ],
+            "optionsVi": [
+              "A. Bằng cách đẩy giá bán lẻ thực phẩm hữu cơ tại các siêu thị lên cao",
+              "B. Bằng cách đạo đức hóa các triệu chứng trầm cảm thành khiếm khuyết nhân cách hay thiếu ý chí, làm nản lòng việc đi khám chẩn đoán",
+              "C. Bằng cách buộc bệnh nhân phải di cư ra nước ngoài để phẫu thuật thể chất",
+              "D. Bằng cách hình sự hóa việc xuất bản các sách giáo khoa chụp chiếu thần kinh"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "...depressive manifestations continue to be moralized as flaws in personal character, emotional frailty, or lack of spiritual willpower, dissuading vulnerable individuals from seeking timely clinical diagnosis.",
+            "evidenceVi": "Trong nhiều bối cảnh văn hóa, biểu hiện trầm cảm vẫn bị quy chụp đạo đức là khiếm khuyết nhân cách, yếu đuối cảm xúc hay thiếu ý chí, ngăn cản người bệnh tìm kiếm chẩn đoán lâm sàng kịp thời. [Đoạn 3]",
             "explanation": "Đoạn 3 chỉ rõ: 'depressive manifestations continue to be moralized as flaws in personal character, emotional frailty, or lack of spiritual willpower, dissuading vulnerable individuals from seeking timely clinical diagnosis.'",
             "postReading": {
               "type": "factual",
@@ -29844,18 +30492,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P4Q7",
+            "id": 37,
+            "num": 37,
             "question": "The word \"bottlenecks\" in paragraph 4 is closest in meaning to:",
-            "options": {
-              "A": "glass manufacturing defects",
-              "B": "points of congestion or obstruction",
-              "C": "lucrative financial investments",
-              "D": "rapid chemical reactions"
-            },
+            "questionVi": "Từ \"bottlenecks\" trong đoạn 4 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "glass manufacturing defects",
+              "points of congestion or obstruction",
+              "lucrative financial investments",
+              "rapid chemical reactions"
+            ],
+            "optionsVi": [
+              "A. các lỗi kỹ thuật trong sản xuất chai thủy tinh",
+              "B. các điểm ách tắc hoặc cản trở",
+              "C. các khoản đầu tư tài chính sinh lời cao",
+              "D. các phản ứng hóa học diễn ra nhanh chóng"
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Effective public health frameworks must dismantle diagnostic bottlenecks by embedding psychological screening into routine primary care.",
+            "evidenceVi": "Các khung y tế công cộng hiệu quả phải tháo gỡ những điểm nghẽn chẩn đoán bằng cách tích hợp sàng lọc tâm lý vào chăm sóc sức khỏe ban đầu thường quy. [Đoạn 4]",
             "explanation": "'Bottleneck' nghĩa bóng là điểm nghẽn, sự ách tắc gây chậm trễ ('points of congestion or obstruction').",
             "postReading": {
-              "type": "vocabulary",
+              "type": "closest_meaning",
               "typeLabel": "Từ vựng ẩn dụ (Metaphorical Vocabulary)",
               "cluePassage": "Effective public health frameworks must dismantle diagnostic bottlenecks by embedding psychological screening into routine primary care.",
               "clueAnswer": "points of congestion or obstruction",
@@ -29867,18 +30527,30 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P4Q8",
+            "id": 38,
+            "num": 38,
             "question": "Which of the following is NOT listed in paragraph 4 as an element of holistic depression care?",
-            "options": {
-              "A": "Evidence-based psychopharmacology paired with cognitive behavioral therapy",
-              "B": "Lifestyle psychiatry including sleep hygiene and structured exercise",
-              "C": "Total social isolation in soundproof subterranean bunkers",
-              "D": "Embedding psychological screening into routine primary healthcare visits"
-            },
+            "questionVi": "Yếu tố nào sau đây KHÔNG được liệt kê trong đoạn 4 như một phần của mô hình chăm sóc trầm cảm toàn diện?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Evidence-based psychopharmacology paired with cognitive behavioral therapy",
+              "Lifestyle psychiatry including sleep hygiene and structured exercise",
+              "Total social isolation in soundproof subterranean bunkers",
+              "Embedding psychological screening into routine primary healthcare visits"
+            ],
+            "optionsVi": [
+              "A. Dược lý tâm thần dựa trên bằng chứng kết hợp với liệu pháp nhận thức hành vi (CBT)",
+              "B. Tâm thần học lối sống bao gồm vệ sinh giấc ngủ và tập thể dục có cấu trúc",
+              "C. Cô lập xã hội tuyệt đối bên trong các hầm ngầm cách âm dưới lòng đất",
+              "D. Tích hợp sàng lọc tâm lý vào các buổi thăm khám y tế ban đầu định kỳ"
+            ],
             "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "embedding psychological screening... combining evidence-based psychopharmacology with cognitive behavioral therapy (CBT), social prescribing, and lifestyle psychiatry—including restorative sleep hygiene, anti-inflammatory nutrition, and structured physical exercise.",
+            "evidenceVi": "Tích hợp sàng lọc tâm lý vào y tế ban đầu, kết hợp dùng thuốc với CBT, kết nối xã hội và tâm thần học lối sống (giấc ngủ, dinh dưỡng chống viêm, tập thể dục). [Đoạn 4]",
             "explanation": "Đoạn 4 khuyến nghị dùng thuốc kết hợp CBT, lối sống (ngủ, tập thể dục), và sàng lọc tâm lý ban đầu. Phương án C (cô lập xã hội trong hầm ngầm) là hoàn toàn bịa đặt và trái ngược với phương pháp điều trị.",
             "postReading": {
-              "type": "negative_fact",
+              "type": "negative_factual",
               "typeLabel": "Tìm phương án KHÔNG được khuyến nghị (Negative Fact)",
               "cluePassage": "embedding psychological screening... combining evidence-based psychopharmacology with cognitive behavioral therapy (CBT), social prescribing, and lifestyle psychiatry—including restorative sleep hygiene, anti-inflammatory nutrition, and structured physical exercise.",
               "clueAnswer": "Total social isolation in soundproof subterranean bunkers",
@@ -29890,15 +30562,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P4Q9",
+            "id": 39,
+            "num": 39,
             "question": "What does the author suggest about \"monotherapy\" (using a single treatment method alone) in paragraph 4?",
-            "options": {
-              "A": "It is sufficient on its own to cure all clinical depression cases permanently.",
-              "B": "It should be transcended in favor of multimodal, integrated interventions.",
-              "C": "It is the only legally permitted therapy in public health facilities.",
-              "D": "It should replace all community-based psychological counseling."
-            },
+            "questionVi": "Tác giả ngụ ý điều gì về \"monotherapy\" (đơn trị liệu — chỉ dùng một phương pháp đơn lẻ) trong đoạn 4?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "It is sufficient on its own to cure all clinical depression cases permanently.",
+              "It should be transcended in favor of multimodal, integrated interventions.",
+              "It is the only legally permitted therapy in public health facilities.",
+              "It should replace all community-based psychological counseling."
+            ],
+            "optionsVi": [
+              "A. Một mình nó đã đủ khả năng chữa khỏi vĩnh viễn mọi ca trầm cảm lâm sàng.",
+              "B. Cần phải vượt qua nó để hướng tới các can thiệp tích hợp đa mô thức.",
+              "C. Đó là liệu pháp duy nhất được pháp luật cho phép tại các cơ sở y tế công.",
+              "D. Nó nên thay thế hoàn toàn mọi hoạt động tư vấn tâm lý tại cộng đồng."
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Furthermore, therapeutic modalities must transcend monotherapy, combining evidence-based psychopharmacology with cognitive behavioral therapy (CBT), social prescribing, and lifestyle psychiatry...",
+            "evidenceVi": "Các phương thức điều trị phải vượt qua mô hình đơn trị liệu, kết hợp dược lý học với CBT, liệu pháp xã hội và tâm thần học lối sống. [Đoạn 4]",
             "explanation": "Đoạn 4 viết: 'therapeutic modalities must transcend monotherapy, combining evidence-based psychopharmacology with cognitive behavioral therapy (CBT), social prescribing, and lifestyle psychiatry...' -> Cần vượt qua đơn trị liệu để áp dụng can thiệp đa phương thức tích hợp (B).",
             "postReading": {
               "type": "inference",
@@ -29913,15 +30597,27 @@ const READING_MOCK_TESTS = [
             }
           },
           {
-            "id": "T14P4Q10",
+            "id": 40,
+            "num": 40,
             "question": "Which of the following best encapsulates the concluding argument of the passage?",
-            "options": {
-              "A": "Depression is an unsolvable mystery that will inevitably destroy modern civilization.",
-              "B": "Arresting the crisis requires an integrated approach addressing brain biology, psychological resilience, and socioeconomic environment simultaneously.",
-              "C": "Pharmaceutical medication alone can eliminate all psychiatric illnesses without any lifestyle adjustments.",
-              "D": "Suicide mortality can only be managed by constructing larger psychiatric confinement facilities."
-            },
+            "questionVi": "Phương án nào tóm lược đầy đủ nhất lập luận kết bài của tác giả?",
+            "questionType": "DẠNG 07: KẾT LUẬN / GIẢI PHÁP (Author's Conclusion)",
+            "options": [
+              "Depression is an unsolvable mystery that will inevitably destroy modern civilization.",
+              "Arresting the crisis requires an integrated approach addressing brain biology, psychological resilience, and socioeconomic environment simultaneously.",
+              "Pharmaceutical medication alone can eliminate all psychiatric illnesses without any lifestyle adjustments.",
+              "Suicide mortality can only be managed by constructing larger psychiatric confinement facilities."
+            ],
+            "optionsVi": [
+              "A. Trầm cảm là một bí ẩn vô phương cứu chữa chắc chắn sẽ hủy diệt nền văn minh hiện đại.",
+              "B. Để chặn đứng cuộc khủng hoảng cần một cách tiếp cận tích hợp giải quyết đồng thời sinh học não bộ, sức bật tâm lý và môi trường kinh tế - xã hội.",
+              "C. Chỉ riêng dược phẩm đã đủ xóa sổ mọi bệnh lý tâm thần mà không cần điều chỉnh lối sống.",
+              "D. Tỷ lệ tử vong do tự tử chỉ có thể kiểm soát bằng cách xây thêm các cơ sở giam giữ tâm thần lớn hơn."
+            ],
             "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Only by simultaneously addressing the neurobiological circuitry of the brain, the psychological resilience of the mind, and the socioeconomic health of the community can society hope to arrest this escalating crisis.",
+            "evidenceVi": "Chỉ bằng cách giải quyết đồng thời mạch sinh học thần kinh của não bộ, sức bật tâm lý của tâm trí và sức khỏe kinh tế - xã hội của cộng đồng, xã hội mới có thể chặn đứng cuộc khủng hoảng này. [Đoạn 4]",
             "explanation": "Câu kết của bài khẳng định: 'Only by simultaneously addressing the neurobiological circuitry of the brain, the psychological resilience of the mind, and the socioeconomic health of the community can society hope to arrest this escalating crisis.' Phương án B tóm lược hoàn hảo luận điểm này.",
             "postReading": {
               "type": "main_idea",
@@ -29933,6 +30629,2848 @@ const READING_MOCK_TESTS = [
               "paraphrasePair": "simultaneously addressing brain, mind, and community <=> addressing brain biology, resilience, and socioeconomic environment simultaneously",
               "meaningVi": "đồng thời giải quyết sinh học não bộ, sức bật tâm lý và môi trường kinh tế xã hội",
               "deductionLogic": "Phương án B phản ánh trọn vẹn thông điệp kết bài của tác giả."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "testId": "TEST15",
+    "testNum": 15,
+    "title": "VSTEP READING MOCK TEST 15",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 05 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: The Mekong Delta",
+        "topic": "Đồng bằng sông Cửu Long: Vựa lúa nông nghiệp & Thích ứng biến đổi khí hậu",
+        "timeAllowed": 15,
+        "passage": "<p>Stretching across southwestern Vietnam where the mighty Mekong River splits into nine fertile distributaries before emptying into the East Sea, the Mekong Delta—affectionately called the 'Nine Dragons'—is one of the most biologically productive river basins on Earth. Covering roughly 40,000 square kilometers of low-lying alluvial plains, this intricate network of rivers, canals, and wetlands sustains nearly 18 million inhabitants. Historically, annual monsoon floods deposited millions of tons of nutrient-rich silt across the floodplains, transforming the region into Vietnam's undisputed 'rice bowl.' Today, the delta accounts for more than half of the country's total rice harvest, over 65 percent of its aquaculture exports, and nearly 70 percent of its tropical fruit production.</p><p>For centuries, life in the Mekong Delta was harmoniously synchronized with the river's seasonal rhythm. Communities built homes on wooden stilts, navigated vibrant floating markets by sampan boats, and celebrated the 'floating water season' when gentle floodwaters flushed agricultural toxins from the soil and replenished freshwater fish stocks. However, over the past two decades, this delicate ecological equilibrium has come under unprecedented strain from a convergence of local human interventions and global climate change.</p><p>The most pressing threats facing the delta are land subsidence, sediment starvation, and severe saline intrusion. Upstream hydropower dams constructed along the Mekong basin trap vast quantities of coarse silt that previously rebuilt the delta's coastline, while unsustainable river-sand mining accelerates riverbank erosion. Simultaneously, excessive groundwater extraction for intensive farming and urban supply is causing the soft clay land to sink by up to several centimeters annually—faster than the global rate of sea-level rise. During prolonged dry seasons, diminished freshwater flow allows salty ocean tides to penetrate up to 70 kilometers inland, scorching rice paddies and contaminating drinking water.</p><p>Rather than fighting nature exclusively with expensive concrete seawalls, local policymakers and farmers are increasingly embracing a 'living with nature' adaptation strategy. Innovative rice-shrimp rotational farming enables coastal households to cultivate salt-tolerant rice varieties during the rainy season and raise brackish-water shrimp during the dry months. Combined with upstream water diplomacy, regulated groundwater use, and restored flood-retention zones, these nature-based solutions offer a resilient blueprint for safeguarding both the delta's ecological heritage and Southeast Asia's food security.</p>",
+        "vocab": [
+          {
+            "word": "alluvial",
+            "pos": "adj",
+            "ipa": "/əˈluː.vi.əl/",
+            "level": "C1",
+            "mean": "thuộc phù sa, do phù sa bồi đắp",
+            "syns": [
+              "sedimentary",
+              "silt-rich",
+              "fertile"
+            ],
+            "ex": "The alluvial plains of the Mekong Delta support multiple rice harvests every year."
+          },
+          {
+            "word": "distributary",
+            "pos": "n",
+            "ipa": "/dɪˈstrɪb.jʊ.tər.i/",
+            "level": "C1",
+            "mean": "nhánh sông phân lưu đổ ra biển",
+            "syns": [
+              "river branch",
+              "outflow channel"
+            ],
+            "ex": "The Mekong divides into nine major distributaries before reaching the ocean."
+          },
+          {
+            "word": "silt",
+            "pos": "n",
+            "ipa": "/sɪlt/",
+            "level": "B2",
+            "mean": "phù sa, bùn cát mịn giàu dưỡng chất",
+            "syns": [
+              "sediment",
+              "alluvium",
+              "mud"
+            ],
+            "ex": "Seasonal floods carry nutrient-rich silt that naturally fertilizes agricultural land."
+          },
+          {
+            "word": "aquaculture",
+            "pos": "n",
+            "ipa": "/ˈæk.wə.kʌl.tʃər/",
+            "level": "B2",
+            "mean": "ngành nuôi trồng thủy sản",
+            "syns": [
+              "fish farming",
+              "mariculture"
+            ],
+            "ex": "Aquaculture exports from southern Vietnam generate billions of dollars annually."
+          },
+          {
+            "word": "synchronized",
+            "pos": "adj",
+            "ipa": "/ˈsɪŋ.krə.naɪzd/",
+            "level": "B2",
+            "mean": "đồng bộ hóa, nhịp nhàng ăn khớp",
+            "syns": [
+              "coordinated",
+              "aligned",
+              "harmonized"
+            ],
+            "ex": "Traditional farming calendars were closely synchronized with annual monsoon patterns."
+          },
+          {
+            "word": "equilibrium",
+            "pos": "n",
+            "ipa": "/ˌiː.kwɪˈlɪb.ri.əm/",
+            "level": "C1",
+            "mean": "trạng thái cân bằng sinh thái",
+            "syns": [
+              "balance",
+              "stability",
+              "harmony"
+            ],
+            "ex": "Rapid industrialization can disrupt the fragile ecological equilibrium of wetlands."
+          },
+          {
+            "word": "convergence",
+            "pos": "n",
+            "ipa": "/kənˈvɜː.dʒəns/",
+            "level": "C1",
+            "mean": "sự hội tụ, giao nhau của nhiều yếu tố",
+            "syns": [
+              "confluence",
+              "intersection",
+              "merging"
+            ],
+            "ex": "The crisis stems from a convergence of upstream dams and rising sea levels."
+          },
+          {
+            "word": "subsidence",
+            "pos": "n",
+            "ipa": "/səbˈsaɪ.dəns/",
+            "level": "C1",
+            "mean": "hiện tượng sụt lún mặt đất",
+            "syns": [
+              "sinking",
+              "settling",
+              "ground collapse"
+            ],
+            "ex": "Over-pumping underground aquifers accelerates severe land subsidence."
+          },
+          {
+            "word": "sediment",
+            "pos": "n",
+            "ipa": "/ˈsed.ɪ.mənt/",
+            "level": "B2",
+            "mean": "trầm tích, phù sa lắng đọng",
+            "syns": [
+              "deposit",
+              "silt",
+              "residue"
+            ],
+            "ex": "Upstream reservoirs trap coarse sediment needed to replenish coastal beaches."
+          },
+          {
+            "word": "saline",
+            "pos": "adj",
+            "ipa": "/ˈseɪ.laɪn/",
+            "level": "B2",
+            "mean": "nhiễm mặn, có chứa muối",
+            "syns": [
+              "salty",
+              "brackish",
+              "briny"
+            ],
+            "ex": "Saline intrusion ruins freshwater crops and damages orchard roots."
+          },
+          {
+            "word": "intrusion",
+            "pos": "n",
+            "ipa": "/ɪnˈtruː.ʒən/",
+            "level": "B2",
+            "mean": "sự xâm nhập, xâm lấn",
+            "syns": [
+              "incursion",
+              "encroachment",
+              "penetration"
+            ],
+            "ex": "Engineers monitor saltwater intrusion closely throughout the dry season."
+          },
+          {
+            "word": "hydropower",
+            "pos": "n",
+            "ipa": "/ˈhaɪ.drəʊ.paʊər/",
+            "level": "B2",
+            "mean": "thủy điện",
+            "syns": [
+              "hydroelectric energy",
+              "water power"
+            ],
+            "ex": "Hydropower dams supply clean electricity but alter downstream river dynamics."
+          },
+          {
+            "word": "erosion",
+            "pos": "n",
+            "ipa": "/ɪˈrəʊ.ʒən/",
+            "level": "B2",
+            "mean": "sự xói mòn, sạt lở bờ sông",
+            "syns": [
+              "wearing away",
+              "degradation",
+              "scouring"
+            ],
+            "ex": "Unregulated sand mining causes rapid riverbank erosion and house collapses."
+          },
+          {
+            "word": "extraction",
+            "pos": "n",
+            "ipa": "/ɪkˈstræk.ʃən/",
+            "level": "B2",
+            "mean": "sự khai thác, bơm hút tài nguyên",
+            "syns": [
+              "pumping",
+              "withdrawal",
+              "removal"
+            ],
+            "ex": "Excessive groundwater extraction lowers water tables beneath coastal cities."
+          },
+          {
+            "word": "diminished",
+            "pos": "adj",
+            "ipa": "/dɪˈmɪn.ɪʃt/",
+            "level": "B2",
+            "mean": "suy giảm, giảm sút",
+            "syns": [
+              "reduced",
+              "lessened",
+              "weakened"
+            ],
+            "ex": "Diminished river flow during droughts allows ocean tides to move further inland."
+          },
+          {
+            "word": "penetrate",
+            "pos": "v",
+            "ipa": "/ˈpen.ɪ.treɪt/",
+            "level": "B2",
+            "mean": "thâm nhập sâu vào bên trong",
+            "syns": [
+              "infiltrate",
+              "pierce",
+              "enter"
+            ],
+            "ex": "Saltwater can penetrate dozens of kilometers into interior irrigation canals."
+          },
+          {
+            "word": "contaminate",
+            "pos": "v",
+            "ipa": "/kənˈtæm.ɪ.neɪt/",
+            "level": "B2",
+            "mean": "làm ô nhiễm, làm nhiễm bẩn",
+            "syns": [
+              "pollute",
+              "taint",
+              "corrupt"
+            ],
+            "ex": "Brackish tides contaminate local wells used for household drinking water."
+          },
+          {
+            "word": "adaptation",
+            "pos": "n",
+            "ipa": "/ˌæd.æpˈteɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự thích ứng, thích nghi",
+            "syns": [
+              "adjustment",
+              "modification",
+              "acclimatization"
+            ],
+            "ex": "Climate adaptation strategies help rural farmers maintain steady incomes."
+          },
+          {
+            "word": "rotational",
+            "pos": "adj",
+            "ipa": "/rəʊˈteɪ.ʃən.əl/",
+            "level": "B2",
+            "mean": "luân canh, luân phiên theo mùa",
+            "syns": [
+              "alternating",
+              "cyclical",
+              "periodic"
+            ],
+            "ex": "Rotational rice-shrimp farming improves soil health and boosts household earnings."
+          },
+          {
+            "word": "brackish",
+            "pos": "adj",
+            "ipa": "/ˈbræk.ɪʃ/",
+            "level": "C1",
+            "mean": "nước lợ (pha giữa nước ngọt và mặn)",
+            "syns": [
+              "slightly salty",
+              "estuarine",
+              "saline"
+            ],
+            "ex": "Giant tiger prawns thrive in the brackish ponds of coastal provinces."
+          },
+          {
+            "word": "diplomacy",
+            "pos": "n",
+            "ipa": "/dɪˈpləʊ.mə.si/",
+            "level": "B2",
+            "mean": "ngoại giao, đàm phán liên quốc gia",
+            "syns": [
+              "negotiation",
+              "statecraft",
+              "mediation"
+            ],
+            "ex": "Regional water diplomacy is vital for managing transboundary river basins."
+          },
+          {
+            "word": "retention",
+            "pos": "n",
+            "ipa": "/rɪˈten.ʃən/",
+            "level": "B2",
+            "mean": "sự giữ lại, tích trữ (nước lũ)",
+            "syns": [
+              "storage",
+              "preservation",
+              "holding"
+            ],
+            "ex": "Wetland flood-retention zones absorb excess water during severe monsoon storms."
+          },
+          {
+            "word": "blueprint",
+            "pos": "n",
+            "ipa": "/ˈbluː.prɪnt/",
+            "level": "B2",
+            "mean": "bản thiết kế mẫu, kế hoạch hình mẫu",
+            "syns": [
+              "model",
+              "framework",
+              "master plan"
+            ],
+            "ex": "The Mekong adaptation plan serves as a blueprint for vulnerable deltas worldwide."
+          },
+          {
+            "word": "replenish",
+            "pos": "v",
+            "ipa": "/rɪˈplen.ɪʃ/",
+            "level": "B2",
+            "mean": "bổ sung, làm đầy lại nguồn dự trữ",
+            "syns": [
+              "refill",
+              "restore",
+              "renew"
+            ],
+            "ex": "Annual floods naturally replenish wild freshwater fish populations."
+          },
+          {
+            "word": "flush",
+            "pos": "v",
+            "ipa": "/flʌʃ/",
+            "level": "B2",
+            "mean": "rửa trôi, thau chua rửa mặn",
+            "syns": [
+              "rinse",
+              "wash out",
+              "cleanse"
+            ],
+            "ex": "Fresh river water flushes accumulated acid and agricultural residues from fields."
+          },
+          {
+            "word": "resilient",
+            "pos": "adj",
+            "ipa": "/rɪˈzɪl.jənt/",
+            "level": "B2",
+            "mean": "có sức chống chịu cao, bền bỉ thích ứng",
+            "syns": [
+              "durable",
+              "adaptable",
+              "robust"
+            ],
+            "ex": "Scientists are breeding salt-resilient rice strains for coastal agriculture."
+          },
+          {
+            "word": "basin",
+            "pos": "n",
+            "ipa": "/ˈbeɪ.sən/",
+            "level": "B2",
+            "mean": "lưu vực sông",
+            "syns": [
+              "watershed",
+              "catchment",
+              "valley"
+            ],
+            "ex": "Six countries share the water resources of the greater Mekong river basin."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "What is the main topic of the passage?",
+            "questionVi": "Chủ đề chính của bài đọc là gì?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "The historical architecture of wooden stilt houses in southern Vietnam",
+              "The agricultural vitality of the Mekong Delta, its environmental threats, and nature-based adaptation strategies",
+              "The technical engineering specifications of upstream hydropower turbines",
+              "A comparison between tropical fruit exports in Vietnam and Thailand"
+            ],
+            "optionsVi": [
+              "A. Kiến trúc lịch sử của nhà sàn gỗ ở miền Nam Việt Nam",
+              "B. Sức sống nông nghiệp của Đồng bằng sông Cửu Long, các mối đe dọa môi trường và chiến lược thích ứng thuận thiên",
+              "C. Các thông số kỹ thuật của tuabin thủy điện thượng nguồn",
+              "D. Sự so sánh giữa xuất khẩu trái cây nhiệt đới của Việt Nam và Thái Lan"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the Mekong Delta... is one of the most biologically productive river basins... under unprecedented strain... embracing a 'living with nature' adaptation strategy. [Paragraphs 1-4]",
+            "evidenceVi": "Đồng bằng sông Cửu Long là một trong những lưu vực trù phú nhất... đang chịu áp lực chưa từng có... và đang áp dụng chiến lược thích ứng 'sống thuận thiên'. [Đoạn 1-4]",
+            "explanation": "Bài đọc trình bày 3 mạch chính: vai trò vựa lúa/thủy sản của ĐBSCL (Đoạn 1), các thách thức sụt lún - thiếu phù sa - xâm nhập mặn (Đoạn 2-3), và giải pháp thuận thiên như luân canh lúa-tôm (Đoạn 4).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "the Mekong Delta... Vietnam's undisputed 'rice bowl'... land subsidence, sediment starvation, and severe saline intrusion... embracing a 'living with nature' adaptation strategy.",
+              "clueAnswer": "The agricultural vitality of the Mekong Delta, its environmental threats, and nature-based adaptation strategies",
+              "keyPassage": "biologically productive... unprecedented strain... living with nature adaptation strategy",
+              "keyAnswer": "agricultural vitality... environmental threats... nature-based adaptation strategies",
+              "paraphrasePair": "'living with nature' adaptation strategy <=> nature-based adaptation strategies",
+              "meaningVi": "chiến lược thích ứng 'sống thuận thiên' <=> các chiến lược thích ứng dựa vào tự nhiên",
+              "deductionLogic": "Phương án B bao quát toàn bộ 4 đoạn văn; A, C, D chỉ là các chi tiết phụ hoặc ngoài bài."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "According to paragraph 1, how much of Vietnam's aquaculture exports does the Mekong Delta supply?",
+            "questionVi": "Theo đoạn 1, Đồng bằng sông Cửu Long cung cấp bao nhiêu phần trăm kim ngạch xuất khẩu thủy sản của Việt Nam?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Exactly 40 percent",
+              "Roughly half",
+              "Over 65 percent",
+              "Nearly 90 percent"
+            ],
+            "optionsVi": [
+              "A. Đúng 40 phần trăm",
+              "B. Khoảng một nửa",
+              "C. Hơn 65 phần trăm",
+              "D. Gần 90 phần trăm"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Today, the delta accounts for more than half of the country's total rice harvest, over 65 percent of its aquaculture exports, and nearly 70 percent of its tropical fruit production. [Paragraph 1]",
+            "evidenceVi": "Ngày nay, đồng bằng này chiếm hơn một nửa tổng sản lượng lúa, hơn 65% xuất khẩu thủy sản và gần 70% sản lượng trái cây nhiệt đới của cả nước. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu chính xác con số: 'over 65 percent of its aquaculture exports' (hơn 65% xuất khẩu thủy sản).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết số liệu (Factual Detail)",
+              "cluePassage": "over 65 percent of its aquaculture exports",
+              "clueAnswer": "Over 65 percent",
+              "keyPassage": "over 65 percent of its aquaculture exports",
+              "keyAnswer": "Over 65 percent",
+              "paraphrasePair": "accounts for over 65 percent <=> supplies over 65 percent",
+              "meaningVi": "chiếm hơn 65% <=> cung cấp hơn 65%",
+              "deductionLogic": "Đối chiếu chính xác giữa 3 con số: >50% lúa gạo, >65% thủy sản, ~70% trái cây."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "In paragraph 2, what natural benefit did the traditional 'floating water season' provide?",
+            "questionVi": "Trong đoạn 2, 'mùa nước nổi' truyền thống mang lại lợi ích tự nhiên nào?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "It washed agricultural toxins from the soil and replenished freshwater fish populations.",
+              "It permanently eliminated all coastal salt tides throughout the dry season.",
+              "It generated hydroelectric power for urban industrial factories.",
+              "It prevented farmers from needing boats for regional transportation."
+            ],
+            "optionsVi": [
+              "A. Nó rửa trôi độc tố nông nghiệp khỏi đất và bổ sung nguồn cá nước ngọt.",
+              "B. Nó loại bỏ vĩnh viễn mọi đợt triều cường nước mặn suốt mùa khô.",
+              "C. Nó tạo ra nguồn thủy điện cho các nhà máy công nghiệp đô thị.",
+              "D. Nó giúp nông dân không cần dùng thuyền để di chuyển trong vùng."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "when gentle floodwaters flushed agricultural toxins from the soil and replenished freshwater fish stocks. [Paragraph 2]",
+            "evidenceVi": "khi dòng nước lũ hiền hòa rửa trôi các độc tố nông nghiệp khỏi đất và bổ sung nguồn cá nước ngọt. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ hai lợi ích của mùa nước nổi: 'flushed agricultural toxins from the soil' (rửa trôi độc tố) và 'replenished freshwater fish stocks' (bổ sung nguồn cá nước ngọt).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết lợi ích tự nhiên (Factual)",
+              "cluePassage": "when gentle floodwaters flushed agricultural toxins from the soil and replenished freshwater fish stocks.",
+              "clueAnswer": "It washed agricultural toxins from the soil and replenished freshwater fish populations.",
+              "keyPassage": "flushed agricultural toxins... replenished freshwater fish stocks",
+              "keyAnswer": "washed agricultural toxins... replenished freshwater fish populations",
+              "paraphrasePair": "flushed... fish stocks <=> washed... fish populations",
+              "meaningVi": "rửa trôi độc tố & bổ sung trữ lượng cá <=> rửa sạch độc tố & bổ sung quần thể cá",
+              "deductionLogic": "Paraphrase trực tiếp từ 'flushed' thành 'washed' và 'stocks' thành 'populations'."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "The word \"equilibrium\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"equilibrium\" trong đoạn 2 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "expansion",
+              "balance",
+              "drought",
+              "harvest"
+            ],
+            "optionsVi": [
+              "A. sự mở rộng",
+              "B. sự cân bằng",
+              "C. hạn hán",
+              "D. mùa màng"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "However, over the past two decades, this delicate ecological equilibrium has come under unprecedented strain... [Paragraph 2]",
+            "evidenceVi": "Tuy nhiên, trong hai thập kỷ qua, sự cân bằng sinh thái mong manh này đã chịu áp lực chưa từng có... [Đoạn 2]",
+            "explanation": "'Equilibrium' nghĩa là trạng thái cân bằng ổn định ('balance').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "this delicate ecological equilibrium has come under unprecedented strain",
+              "clueAnswer": "balance",
+              "keyPassage": "delicate ecological equilibrium",
+              "keyAnswer": "balance",
+              "paraphrasePair": "equilibrium <=> balance",
+              "meaningVi": "trạng thái cân bằng <=> sự cân bằng",
+              "deductionLogic": "Từ 'delicate ecological equilibrium' là cụm thuật ngữ chuẩn chỉ sự cân bằng sinh thái mong manh."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "According to paragraph 3, what is the primary cause of land subsidence in the Mekong Delta?",
+            "questionVi": "Theo đoạn 3, nguyên nhân chính gây ra tình trạng sụt lún mặt đất ở Đồng bằng sông Cửu Long là gì?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Excessive extraction of groundwater for intensive agriculture and urban supply",
+              "The weight of floating markets anchored along interior canals",
+              "Heavy tropical rainfall during the monsoon months",
+              "The planting of salt-tolerant fruit orchards along riverbanks"
+            ],
+            "optionsVi": [
+              "A. Khai thác nước ngầm quá mức cho nông nghiệp thâm canh và cấp nước đô thị",
+              "B. Sức nặng của các chợ nổi neo đậu dọc theo các kênh rạch nội đồng",
+              "C. Lượng mưa nhiệt đới lớn trong những tháng gió mùa",
+              "D. Việc trồng các vườn cây ăn trái chịu mặn dọc bờ sông"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Simultaneously, excessive groundwater extraction for intensive farming and urban supply is causing the soft clay land to sink by up to several centimeters annually... [Paragraph 3]",
+            "evidenceVi": "Đồng thời, việc khai thác nước ngầm quá mức cho canh tác thâm canh và cấp nước đô thị đang khiến nền đất sét mềm bị lún tới vài cm mỗi năm... [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ rõ nguyên nhân trực tiếp gây sụt lún (sinking/subsidence) là việc bơm hút nước ngầm quá mức ('excessive groundwater extraction').",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Quan hệ nhân quả (Cause & Effect)",
+              "cluePassage": "excessive groundwater extraction for intensive farming and urban supply is causing the soft clay land to sink",
+              "clueAnswer": "Excessive extraction of groundwater for intensive agriculture and urban supply",
+              "keyPassage": "excessive groundwater extraction... causing the soft clay land to sink",
+              "keyAnswer": "Excessive extraction of groundwater... land subsidence",
+              "paraphrasePair": "causing land to sink <=> land subsidence",
+              "meaningVi": "khiến mặt đất lún xuống <=> hiện tượng sụt lún mặt đất",
+              "deductionLogic": "Paraphrase 'intensive farming' thành 'intensive agriculture' và 'sink' thành 'subsidence'."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "Which of the following is NOT mentioned in paragraph 3 as a factor threatening the Mekong Delta?",
+            "questionVi": "Yếu tố nào sau đây KHÔNG được nhắc đến trong đoạn 3 như một mối đe dọa đối với Đồng bằng sông Cửu Long?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Upstream hydropower dams trapping coarse silt",
+              "Unsustainable river-sand mining causing riverbank erosion",
+              "Volcanic ash eruptions burying agricultural rice fields",
+              "Ocean saltwater penetrating up to 70 kilometers inland"
+            ],
+            "optionsVi": [
+              "A. Các đập thủy điện thượng nguồn giữ lại phù sa thô",
+              "B. Khai thác cát sông thiếu bền vững gây xói lở bờ sông",
+              "C. Các đợt phun trào tro bụi núi lửa chôn vùi ruộng lúa",
+              "D. Nước biển mặn xâm nhập sâu tới 70 km vào nội địa"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "Upstream hydropower dams... trap vast quantities of coarse silt... unsustainable river-sand mining accelerates riverbank erosion... salty ocean tides to penetrate up to 70 kilometers inland. [Paragraph 3]",
+            "evidenceVi": "Đập thủy điện thượng nguồn giữ lại phù sa... khai thác cát làm tăng xói lở bờ sông... triều mặn xâm nhập sâu tới 70 km vào đất liền. [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu rõ A, B và D. Không hề có bất kỳ thông tin nào về núi lửa phun trào (C).",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "Upstream hydropower dams... river-sand mining... salty ocean tides to penetrate up to 70 kilometers inland.",
+              "clueAnswer": "Volcanic ash eruptions burying agricultural rice fields",
+              "keyPassage": "dams, sand mining, groundwater extraction, salty tides",
+              "keyAnswer": "Volcanic ash eruptions (Not mentioned)",
+              "paraphrasePair": "NOT mentioned in text",
+              "meaningVi": "Không hề xuất hiện trong đoạn văn",
+              "deductionLogic": "Loại trừ A, B, D đều có dẫn chứng trực tiếp trong đoạn 3; C hoàn toàn không có."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "What can be inferred from the comparison between land subsidence and sea-level rise in paragraph 3?",
+            "questionVi": "Có thể suy luận điều gì từ phép so sánh giữa tốc độ sụt lún mặt đất và mực nước biển dâng ở đoạn 3?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "Local human activities like groundwater pumping currently pose an even more immediate elevation threat than global sea-level rise alone.",
+              "Global sea-level rise has stopped entirely in the East Sea region.",
+              "The Mekong Delta is rising faster than the surrounding ocean due to clay expansion.",
+              "Climate change has no measurable impact on dry-season river flows."
+            ],
+            "optionsVi": [
+              "A. Các hoạt động địa phương như bơm hút nước ngầm hiện gây ra nguy cơ mất độ cao cấp bách hơn cả riêng tốc độ nước biển dâng toàn cầu.",
+              "B. Mực nước biển dâng toàn cầu đã ngừng hoàn toàn tại khu vực Biển Đông.",
+              "C. Đồng bằng sông Cửu Long đang nhô cao nhanh hơn mặt biển nhờ đất sét giãn nở.",
+              "D. Biến đổi khí hậu không có tác động đo lường được đến dòng chảy mùa khô."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "excessive groundwater extraction... is causing the soft clay land to sink by up to several centimeters annually—faster than the global rate of sea-level rise. [Paragraph 3]",
+            "evidenceVi": "việc khai thác nước ngầm quá mức khiến nền đất sét mềm lún tới vài cm mỗi năm — nhanh hơn cả tốc độ mực nước biển dâng toàn cầu. [Đoạn 3]",
+            "explanation": "Vì tốc độ sụt lún do bơm nước ngầm nhanh hơn cả tốc độ nước biển dâng toàn cầu, có thể suy luận hoạt động khai thác tại chỗ đang là mối đe dọa trực diện và cấp bách hơn cả riêng yếu tố nước biển dâng (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận logic (Inference)",
+              "cluePassage": "causing the soft clay land to sink by up to several centimeters annually—faster than the global rate of sea-level rise.",
+              "clueAnswer": "Local human activities like groundwater pumping currently pose an even more immediate elevation threat than global sea-level rise alone.",
+              "keyPassage": "groundwater extraction... sink faster than the global rate of sea-level rise",
+              "keyAnswer": "local pumping poses more immediate elevation threat than sea-level rise alone",
+              "paraphrasePair": "sink faster than global sea-level rise <=> more immediate elevation threat than sea-level rise alone",
+              "meaningVi": "lún nhanh hơn tốc độ nước biển dâng <=> nguy cơ mất độ cao cấp bách hơn cả riêng nước biển dâng",
+              "deductionLogic": "Phép so sánh 'faster than' làm nổi bật mức độ nghiêm trọng tức thời của việc khai thác nước ngầm nội vùng."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "How does rotational rice-shrimp farming work according to paragraph 4?",
+            "questionVi": "Theo đoạn 4, mô hình canh tác luân canh lúa - tôm hoạt động như thế nào?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Farmers grow salt-tolerant rice in the rainy season and farm brackish-water shrimp in the dry season.",
+              "Farmers export freshwater shrimp only during extreme flood years.",
+              "Farmers replace all rice fields permanently with concrete seawalls.",
+              "Farmers cultivate rice and shrimp in completely separate mountainous provinces."
+            ],
+            "optionsVi": [
+              "A. Nông dân trồng giống lúa chịu mặn vào mùa mưa và nuôi tôm nước lợ vào mùa khô.",
+              "B. Nông dân chỉ xuất khẩu tôm nước ngọt vào những năm lũ lớn cực đoan.",
+              "C. Nông dân thay thế vĩnh viễn toàn bộ ruộng lúa bằng đê biển bê tông.",
+              "D. Nông dân canh tác lúa và tôm ở những tỉnh miền núi tách biệt hoàn toàn."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Innovative rice-shrimp rotational farming enables coastal households to cultivate salt-tolerant rice varieties during the rainy season and raise brackish-water shrimp during the dry months. [Paragraph 4]",
+            "evidenceVi": "Mô hình luân canh lúa - tôm sáng tạo cho phép hộ dân ven biển trồng giống lúa chịu mặn vào mùa mưa và nuôi tôm nước lợ trong những tháng mùa khô. [Đoạn 4]",
+            "explanation": "Đoạn 4 mô tả trực tiếp cơ chế luân canh: mùa mưa trồng lúa chịu mặn, mùa khô nuôi tôm nước lợ.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế vận hành (Factual)",
+              "cluePassage": "cultivate salt-tolerant rice varieties during the rainy season and raise brackish-water shrimp during the dry months.",
+              "clueAnswer": "Farmers grow salt-tolerant rice in the rainy season and farm brackish-water shrimp in the dry season.",
+              "keyPassage": "cultivate salt-tolerant rice... rainy season... raise brackish-water shrimp... dry months",
+              "keyAnswer": "grow salt-tolerant rice in rainy season and farm brackish-water shrimp in dry season",
+              "paraphrasePair": "cultivate... raise <=> grow... farm",
+              "meaningVi": "canh tác lúa & nuôi tôm <=> trồng lúa & nuôi tôm theo mùa",
+              "deductionLogic": "Thông tin khớp trực tiếp câu thứ 2 đoạn 4."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "The word \"blueprint\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"blueprint\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "barrier",
+              "model",
+              "crisis",
+              "tax"
+            ],
+            "optionsVi": [
+              "A. rào cản",
+              "B. mô hình mẫu",
+              "C. cuộc khủng hoảng",
+              "D. sắc thuế"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "these nature-based solutions offer a resilient blueprint for safeguarding both the delta's ecological heritage and Southeast Asia's food security. [Paragraph 4]",
+            "evidenceVi": "các giải pháp dựa vào tự nhiên này mang lại một hình mẫu kiên cường để bảo vệ di sản sinh thái và an ninh lương thực Đông Nam Á. [Đoạn 4]",
+            "explanation": "'Blueprint' nghĩa bóng là bản thiết kế hình mẫu, kế hoạch chuẩn mực để nhân rộng ('model').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "offer a resilient blueprint for safeguarding both the delta's ecological heritage and Southeast Asia's food security.",
+              "clueAnswer": "model",
+              "keyPassage": "a resilient blueprint",
+              "keyAnswer": "model",
+              "paraphrasePair": "blueprint <=> model / framework",
+              "meaningVi": "bản thiết kế mẫu <=> mô hình mẫu mực",
+              "deductionLogic": "Ngữ cảnh tích cực chỉ một hình mẫu thích ứng bền vững cho khu vực."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "What is the author's tone toward the future of the Mekong Delta in paragraph 4?",
+            "questionVi": "Giọng điệu của tác giả đối với tương lai Đồng bằng sông Cửu Long trong đoạn 4 là gì?",
+            "questionType": "DẠNG 07: KẾT LUẬN / THÁI ĐỘ TÁC GIẢ (Author's Tone)",
+            "options": [
+              "Utterly hopeless and resigned to total submergence",
+              "Constructively optimistic when nature-based adaptation and regional cooperation are combined",
+              "Sarcastic about traditional farmers' agricultural knowledge",
+              "Indifferent toward Southeast Asia's regional food supply"
+            ],
+            "optionsVi": [
+              "A. Hoàn toàn tuyệt vọng và cam chịu cảnh chìm sâu dưới biển",
+              "B. Lạc quan mang tính xây dựng khi kết hợp thích ứng thuận thiên và hợp tác khu vực",
+              "C. Mỉa mai kiến thức nông nghiệp của nông dân truyền thống",
+              "D. Thờ ơ trước nguồn cung lương thực khu vực Đông Nam Á"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Combined with upstream water diplomacy, regulated groundwater use, and restored flood-retention zones, these nature-based solutions offer a resilient blueprint... [Paragraph 4]",
+            "evidenceVi": "Kết hợp với ngoại giao nguồn nước thượng nguồn, kiểm soát nước ngầm và phục hồi vùng trữ lũ, các giải pháp thuận thiên này mang lại một hình mẫu kiên cường... [Đoạn 4]",
+            "explanation": "Tác giả không bi quan tuyệt vọng mà thể hiện thái độ lạc quan có cơ sở, nhấn mạnh triển vọng bảo vệ ĐBSCL khi phối hợp giải pháp thuận thiên và ngoại giao nguồn nước (B).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Thái độ tác giả (Author's Tone)",
+              "cluePassage": "Combined with upstream water diplomacy... these nature-based solutions offer a resilient blueprint for safeguarding...",
+              "clueAnswer": "Constructively optimistic when nature-based adaptation and regional cooperation are combined",
+              "keyPassage": "water diplomacy... nature-based solutions offer a resilient blueprint",
+              "keyAnswer": "constructively optimistic... adaptation and regional cooperation",
+              "paraphrasePair": "water diplomacy + nature-based solutions <=> regional cooperation + nature-based adaptation",
+              "meaningVi": "ngoại giao nước & giải pháp thuận thiên <=> hợp tác khu vực & thích ứng tự nhiên",
+              "deductionLogic": "Từ ngữ tích cực 'innovative', 'resilient blueprint', 'safeguarding' thể hiện niềm tin mang tính xây dựng."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: Education in 2018: Reform & Digital Transformation",
+        "topic": "Giáo dục năm 2018: Đổi mới chương trình, Chuyển đổi số & Kỹ năng thế kỷ 21",
+        "timeAllowed": 15,
+        "passage": "<p>The year 2018 marked a pivotal inflection point in global educational reform, as ministries of education, universities, and international bodies like the OECD confronted the widening mismatch between industrial-era schooling and the realities of an automated, hyper-connected economy. According to the 2018 Programme for International Student Assessment (PISA) cycle—which evaluated over 600,000 fifteen-year-old students across 79 countries and economies—traditional rote memorization was rapidly losing utility. In an era where factual trivia could be retrieved instantaneously via smartphones, policymakers recognized that schooling needed to pivot decisively from content transmission toward competency-based learning, critical literacy, and digital discernment.</p><p>One of the most striking revelations from 2018 educational benchmarks was the alarming deficit in digital reading comprehension among teenagers. Despite being labeled 'digital natives,' fewer than one in ten students assessed by PISA 2018 could reliably distinguish empirical facts from subjective opinions when navigating complex online texts filled with hyperlinks and sponsored messaging. Concurrently, several nations enacted sweeping curricular overhauls in 2018—most notably Vietnam's landmark 2018 General Education Curriculum—specifically engineered to reduce rigid examination pressure, integrate interdisciplinary STEM projects, and cultivate autonomous problem-solving skills.</p><p>Technological integration within classrooms also underwent a qualitative shift in 2018. Rather than treating tablets and interactive whiteboards merely as digital replacements for paper textbooks, pioneering schools experimented with blended learning ecosystems and adaptive software platforms capable of tailoring exercises to each learner's pacing. Meanwhile, Massive Open Online Courses (MOOCs) matured from free, unstructured video lectures into credentialed micro-degrees partnered with Fortune 500 employers, signaling the rise of lifelong upskilling as an economic necessity.</p><p>Nevertheless, the 2018 global education landscape also exposed stubborn structural inequities. Socioeconomic disparities continued to exert a powerful influence on academic attainment: students from affluent households enjoyed high-speed broadband, private tutoring, and enrichment activities, while peers in rural or underfunded districts struggled with overcrowded classrooms and limited digital infrastructure. Educational analysts in 2018 therefore cautioned that technology alone cannot act as an automatic equalizer; meaningful reform requires sustained investment in teacher professional development, equitable funding formulas, and psychological wellbeing support so that every learner can thrive.</p>",
+        "vocab": [
+          {
+            "word": "inflection",
+            "pos": "n",
+            "ipa": "/ɪnˈflek.ʃən/",
+            "level": "C1",
+            "mean": "bước ngoặt, điểm chuyển hướng quan trọng",
+            "syns": [
+              "turning point",
+              "shift",
+              "pivot"
+            ],
+            "ex": "The 2018 curriculum reform represented a major inflection point in national schooling."
+          },
+          {
+            "word": "mismatch",
+            "pos": "n",
+            "ipa": "/ˈmɪs.mætʃ/",
+            "level": "B2",
+            "mean": "sự không tương thích, độ vênh giữa hai yếu tố",
+            "syns": [
+              "discrepancy",
+              "gap",
+              "imbalance"
+            ],
+            "ex": "Employers frequently complain about a skills mismatch among university graduates."
+          },
+          {
+            "word": "rote",
+            "pos": "adj",
+            "ipa": "/rəʊt/",
+            "level": "C1",
+            "mean": "học vẹt, ghi nhớ máy móc không hiểu sâu",
+            "syns": [
+              "mechanical",
+              "repetitive",
+              "mindless"
+            ],
+            "ex": "Modern classrooms are moving away from rote memorization toward active inquiry."
+          },
+          {
+            "word": "utility",
+            "pos": "n",
+            "ipa": "/juːˈtɪl.ə.ti/",
+            "level": "B2",
+            "mean": "tính hữu dụng, giá trị thực tiễn",
+            "syns": [
+              "usefulness",
+              "practicality",
+              "value"
+            ],
+            "ex": "Pure fact recall has limited utility in an age of instant search engines."
+          },
+          {
+            "word": "retrieve",
+            "pos": "v",
+            "ipa": "/rɪˈtriːv/",
+            "level": "B2",
+            "mean": "truy xuất, tìm lại thông tin dữ liệu",
+            "syns": [
+              "recover",
+              "fetch",
+              "access"
+            ],
+            "ex": "Students can retrieve historical dates from online databases within seconds."
+          },
+          {
+            "word": "competency",
+            "pos": "n",
+            "ipa": "/ˈkɒm.pɪ.tən.si/",
+            "level": "B2",
+            "mean": "năng lực thực hành cốt lõi",
+            "syns": [
+              "capability",
+              "proficiency",
+              "skill"
+            ],
+            "ex": "Competency-based education focuses on what students can actually apply in practice."
+          },
+          {
+            "word": "discernment",
+            "pos": "n",
+            "ipa": "/dɪˈsɜːn.mənt/",
+            "level": "C1",
+            "mean": "khả năng nhận định tinh tường, phân biệt đúng sai",
+            "syns": [
+              "judgment",
+              "insight",
+              "discrimination"
+            ],
+            "ex": "Digital discernment is essential for spotting misinformation on social feeds."
+          },
+          {
+            "word": "benchmark",
+            "pos": "n",
+            "ipa": "/ˈbentʃ.mɑːk/",
+            "level": "B2",
+            "mean": "chuẩn đối sánh, thước đo chuẩn mực",
+            "syns": [
+              "standard",
+              "yardstick",
+              "criterion"
+            ],
+            "ex": "PISA scores serve as an international benchmark for secondary education quality."
+          },
+          {
+            "word": "empirical",
+            "pos": "adj",
+            "ipa": "/ɪmˈpɪr.ɪ.kəl/",
+            "level": "C1",
+            "mean": "mang tính thực nghiệm, có bằng chứng thực tế",
+            "syns": [
+              "factual",
+              "observed",
+              "evidence-based"
+            ],
+            "ex": "Scientific arguments must rely on empirical evidence rather than personal opinions."
+          },
+          {
+            "word": "overhaul",
+            "pos": "n",
+            "ipa": "/ˈəʊ.və.hɔːl/",
+            "level": "B2",
+            "mean": "cuộc đại tu, cải cách toàn diện",
+            "syns": [
+              "revamp",
+              "restructuring",
+              "reform"
+            ],
+            "ex": "The ministry unveiled a comprehensive curricular overhaul to modernize teaching."
+          },
+          {
+            "word": "interdisciplinary",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈdɪs.ə.plɪ.nər.i/",
+            "level": "C1",
+            "mean": "liên môn, kết hợp nhiều lĩnh vực",
+            "syns": [
+              "cross-disciplinary",
+              "integrated",
+              "multidisciplinary"
+            ],
+            "ex": "Interdisciplinary STEM projects unite mathematics, engineering, and design."
+          },
+          {
+            "word": "autonomous",
+            "pos": "adj",
+            "ipa": "/ɔːˈtɒn.ə.məs/",
+            "level": "B2",
+            "mean": "tự chủ, độc lập trong tư duy và học tập",
+            "syns": [
+              "independent",
+              "self-directed",
+              "self-reliant"
+            ],
+            "ex": "Project-based assignments foster autonomous learners who take ownership of progress."
+          },
+          {
+            "word": "qualitative",
+            "pos": "adj",
+            "ipa": "/ˈkwɒl.ɪ.tə.tɪv/",
+            "level": "C1",
+            "mean": "mang tính chất lượng, thuộc về bản chất",
+            "syns": [
+              "character-based",
+              "substantive",
+              "descriptive"
+            ],
+            "ex": "There was a qualitative improvement in how schools utilized digital platforms."
+          },
+          {
+            "word": "blended",
+            "pos": "adj",
+            "ipa": "/ˈblen.dɪd/",
+            "level": "B2",
+            "mean": "kết hợp (học trực tiếp xen kẽ trực tuyến)",
+            "syns": [
+              "hybrid",
+              "combined",
+              "mixed"
+            ],
+            "ex": "Blended learning merges face-to-face classroom discussions with online modules."
+          },
+          {
+            "word": "adaptive",
+            "pos": "adj",
+            "ipa": "/əˈdæp.tɪv/",
+            "level": "B2",
+            "mean": "có tính thích ứng, tự điều chỉnh theo người học",
+            "syns": [
+              "flexible",
+              "tailored",
+              "responsive"
+            ],
+            "ex": "Adaptive learning software adjusts question difficulty based on student accuracy."
+          },
+          {
+            "word": "credentialed",
+            "pos": "adj",
+            "ipa": "/krɪˈden.ʃəld/",
+            "level": "C1",
+            "mean": "có cấp chứng chỉ công nhận chính thức",
+            "syns": [
+              "certified",
+              "accredited",
+              "licensed"
+            ],
+            "ex": "Employers increasingly value credentialed micro-degrees in data analytics."
+          },
+          {
+            "word": "upskilling",
+            "pos": "n",
+            "ipa": "/ˈʌp.skɪl.ɪŋ/",
+            "level": "B2",
+            "mean": "nâng cao kỹ năng nghề nghiệp",
+            "syns": [
+              "retraining",
+              "skill upgrading",
+              "professional growth"
+            ],
+            "ex": "Continuous upskilling protects workers from technological displacement."
+          },
+          {
+            "word": "inequity",
+            "pos": "n",
+            "ipa": "/ɪnˈek.wɪ.ti/",
+            "level": "C1",
+            "mean": "sự bất công bằng, chênh lệch cơ hội",
+            "syns": [
+              "unfairness",
+              "disparity",
+              "inequality"
+            ],
+            "ex": "Funding gaps between urban and rural schools perpetuate educational inequity."
+          },
+          {
+            "word": "attainment",
+            "pos": "n",
+            "ipa": "/əˈteɪn.mənt/",
+            "level": "B2",
+            "mean": "thành tích, trình độ đạt được",
+            "syns": [
+              "achievement",
+              "accomplishment",
+              "performance"
+            ],
+            "ex": "Parental support strongly predicts a child's long-term academic attainment."
+          },
+          {
+            "word": "affluent",
+            "pos": "adj",
+            "ipa": "/ˈæf.lu.ənt/",
+            "level": "B2",
+            "mean": "giàu có, khá giả về kinh tế",
+            "syns": [
+              "wealthy",
+              "prosperous",
+              "well-off"
+            ],
+            "ex": "Students in affluent neighborhoods often have access to private robotics clubs."
+          },
+          {
+            "word": "enrichment",
+            "pos": "n",
+            "ipa": "/ɪnˈrɪtʃ.mənt/",
+            "level": "B2",
+            "mean": "hoạt động bồi dưỡng, mở rộng kiến thức",
+            "syns": [
+              "enhancement",
+              "supplementation",
+              "cultivation"
+            ],
+            "ex": "After-school enrichment programs nurture artistic and scientific talents."
+          },
+          {
+            "word": "infrastructure",
+            "pos": "n",
+            "ipa": "/ˈɪn.frə.strʌk.tʃər/",
+            "level": "B2",
+            "mean": "cơ sở hạ tầng kỹ thuật",
+            "syns": [
+              "framework",
+              "facilities",
+              "network"
+            ],
+            "ex": "Reliable broadband infrastructure is essential for remote rural classrooms."
+          },
+          {
+            "word": "equalizer",
+            "pos": "n",
+            "ipa": "/ˈiː.kwə.laɪ.zər/",
+            "level": "B2",
+            "mean": "nhân tố san bằng khoảng cách, công cụ bình đẳng",
+            "syns": [
+              "leveler",
+              "balancer"
+            ],
+            "ex": "Public education has long been regarded as a powerful social equalizer."
+          },
+          {
+            "word": "equitable",
+            "pos": "adj",
+            "ipa": "/ˈek.wɪ.tə.bəl/",
+            "level": "C1",
+            "mean": "công bằng, phân bổ hợp lý theo nhu cầu",
+            "syns": [
+              "fair",
+              "just",
+              "impartial"
+            ],
+            "ex": "Equitable funding directs additional resources to disadvantaged school districts."
+          },
+          {
+            "word": "pivotal",
+            "pos": "adj",
+            "ipa": "/ˈpɪv.ə.təl/",
+            "level": "B2",
+            "mean": "then chốt, mang tính bước ngoặt",
+            "syns": [
+              "crucial",
+              "central",
+              "decisive"
+            ],
+            "ex": "Teachers play a pivotal role in translating policy reforms into classroom success."
+          },
+          {
+            "word": "rigid",
+            "pos": "adj",
+            "ipa": "/ˈrɪdʒ.ɪd/",
+            "level": "B2",
+            "mean": "cứng nhắc, rập khuôn thiếu linh hoạt",
+            "syns": [
+              "inflexible",
+              "strict",
+              "stiff"
+            ],
+            "ex": "Reforms sought to replace rigid testing schedules with continuous assessment."
+          },
+          {
+            "word": "subjective",
+            "pos": "adj",
+            "ipa": "/səbˈdʒek.tɪv/",
+            "level": "B2",
+            "mean": "chủ quan, mang quan điểm cá nhân",
+            "syns": [
+              "personal",
+              "biased",
+              "opinionated"
+            ],
+            "ex": "Critical readers learn to separate objective statistics from subjective claims."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "According to paragraph 1, why was rote memorization losing its value by 2018?",
+            "questionVi": "Theo đoạn 1, tại sao việc học thuộc lòng máy móc lại mất dần giá trị vào năm 2018?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CHI TIẾT (Cause & Effect)",
+            "options": [
+              "Because factual information could be retrieved instantly on smartphones, making competency and critical literacy far more important",
+              "Because the OECD prohibited memory-based questions in all national universities",
+              "Because teenagers in 79 countries refused to purchase printed textbooks",
+              "Because automated machines eliminated the need for any human reading skills"
+            ],
+            "optionsVi": [
+              "A. Bởi vì thông tin sự kiện có thể tra cứu tức thì trên điện thoại, khiến năng lực thực hành và đọc hiểu phản biện quan trọng hơn nhiều",
+              "B. Bởi vì tổ chức OECD cấm hoàn toàn các câu hỏi kiểm tra trí nhớ ở đại học",
+              "C. Bởi vì thanh thiếu niên tại 79 quốc gia từ chối mua sách giáo khoa in",
+              "D. Bởi vì máy móc tự động đã xóa sổ hoàn toàn nhu cầu đọc hiểu của con người"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "In an era where factual trivia could be retrieved instantaneously via smartphones, policymakers recognized that schooling needed to pivot decisively from content transmission toward competency-based learning, critical literacy, and digital discernment. [Paragraph 1]",
+            "evidenceVi": "Trong kỷ nguyên mà thông tin vụn vặt có thể tra cứu tức thì qua smartphone, các nhà hoạch định nhận ra giáo dục cần chuyển mạnh từ truyền thụ kiến thức sang học tập phát triển năng lực và tư duy phản biện. [Đoạn 1]",
+            "explanation": "Đoạn 1 giải thích rõ: vì smartphone giúp tra cứu dữ kiện ngay lập tức, học vẹt mất giá trị và trường học phải chuyển sang phát triển năng lực, tư duy phản biện và sàng lọc số (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên nhân thay đổi (Cause & Effect)",
+              "cluePassage": "factual trivia could be retrieved instantaneously via smartphones... pivot decisively toward competency-based learning, critical literacy",
+              "clueAnswer": "factual information could be retrieved instantly on smartphones, making competency and critical literacy far more important",
+              "keyPassage": "factual trivia retrieved instantaneously... pivot toward competency-based learning, critical literacy",
+              "keyAnswer": "factual information retrieved instantly... competency and critical literacy far more important",
+              "paraphrasePair": "factual trivia <=> factual information",
+              "meaningVi": "dữ kiện vụn vặt <=> thông tin sự kiện",
+              "deductionLogic": "Paraphrase trực tiếp từ 'factual trivia' thành 'factual information' và 'instantaneously' thành 'instantly'."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "What surprising finding did the 2018 PISA assessment reveal in paragraph 2?",
+            "questionVi": "Phát hiện đáng ngạc nhiên nào mà kỳ đánh giá PISA 2018 chỉ ra trong đoạn 2?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Most teenagers spent less than five minutes per day using digital devices.",
+              "Fewer than 10 percent of assessed students could reliably distinguish facts from opinions in complex online texts.",
+              "Digital natives outperformed older generations in every single reading metric.",
+              "Over 90 percent of teenagers preferred printed encyclopedias over hyperlinked web pages."
+            ],
+            "optionsVi": [
+              "A. Hầu hết thanh thiếu niên dành chưa đầy năm phút mỗi ngày sử dụng thiết bị số.",
+              "B. Chưa đến 10% học sinh được đánh giá có thể phân biệt đáng tin cậy giữa sự thật và ý kiến chủ quan trong văn bản mạng phức tạp.",
+              "C. Thế hệ bản địa số vượt trội hơn thế hệ trước ở mọi chỉ số đọc hiểu.",
+              "D. Hơn 90% thanh thiếu niên thích bách khoa toàn thư in hơn các trang web có siêu liên kết."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "fewer than one in ten students assessed by PISA 2018 could reliably distinguish empirical facts from subjective opinions when navigating complex online texts... [Paragraph 2]",
+            "evidenceVi": "chưa đến 1 trên 10 học sinh tham gia PISA 2018 có thể phân biệt đáng tin cậy giữa sự thật thực nghiệm và ý kiến chủ quan khi đọc văn bản trực tuyến phức tạp. [Đoạn 2]",
+            "explanation": "'Fewer than one in ten' tương đương với 'fewer than 10 percent' (chưa đến 10%). Phương án B khớp chính xác.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết số liệu quy đổi (Factual)",
+              "cluePassage": "fewer than one in ten students assessed by PISA 2018 could reliably distinguish empirical facts from subjective opinions",
+              "clueAnswer": "Fewer than 10 percent of assessed students could reliably distinguish facts from opinions",
+              "keyPassage": "fewer than one in ten... distinguish empirical facts from subjective opinions",
+              "keyAnswer": "Fewer than 10 percent... distinguish facts from opinions",
+              "paraphrasePair": "one in ten <=> 10 percent",
+              "meaningVi": "một trên mười <=> 10 phần trăm",
+              "deductionLogic": "Quy đổi tỷ lệ phân số 'one in ten' sang phần trăm '10 percent'."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "Why does the author mention Vietnam's 2018 General Education Curriculum in paragraph 2?",
+            "questionVi": "Tại sao tác giả lại nhắc đến Chương trình Giáo dục Phổ thông 2018 của Việt Nam trong đoạn 2?",
+            "questionType": "DẠNG 07: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
+            "options": [
+              "As a prime example of a national curricular overhaul aimed at reducing exam pressure and fostering problem-solving",
+              "To criticize Asian school systems for ignoring STEM subjects",
+              "To argue that international PISA scores are irrelevant to developing nations",
+              "To show that paper textbooks were completely abolished in 2018"
+            ],
+            "optionsVi": [
+              "A. Như một ví dụ tiêu biểu cho cuộc cải cách chương trình quốc gia nhằm giảm áp lực thi cử và bồi dưỡng năng lực giải quyết vấn đề",
+              "B. Để chỉ trích các hệ thống trường học châu Á phớt lờ các môn STEM",
+              "C. Để lập luận rằng điểm PISA quốc tế không liên quan đến các nước đang phát triển",
+              "D. Để cho thấy sách giáo khoa giấy đã bị xóa bỏ hoàn toàn vào năm 2018"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "several nations enacted sweeping curricular overhauls in 2018—most notably Vietnam's landmark 2018 General Education Curriculum—specifically engineered to reduce rigid examination pressure, integrate interdisciplinary STEM projects, and cultivate autonomous problem-solving skills. [Paragraph 2]",
+            "evidenceVi": "một số quốc gia đã ban hành cải cách chương trình sâu rộng năm 2018 — nổi bật là Chương trình GDPT 2018 của Việt Nam — nhằm giảm áp lực thi cử cứng nhắc, tích hợp dự án STEM liên môn và rèn kỹ năng tự giải quyết vấn đề. [Đoạn 2]",
+            "explanation": "Tác giả đưa Chương trình GDPT 2018 của Việt Nam làm ví dụ nổi bật ('most notably') cho làn sóng cải cách chương trình giảm tải thi cử và tăng năng lực tự chủ giải quyết vấn đề (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Mục đích nêu ví dụ (Rhetorical Purpose)",
+              "cluePassage": "enacted sweeping curricular overhauls in 2018—most notably Vietnam's landmark 2018 General Education Curriculum—specifically engineered to reduce rigid examination pressure... cultivate autonomous problem-solving skills.",
+              "clueAnswer": "As a prime example of a national curricular overhaul aimed at reducing exam pressure and fostering problem-solving",
+              "keyPassage": "most notably Vietnam's landmark 2018... reduce rigid examination pressure... cultivate autonomous problem-solving",
+              "keyAnswer": "prime example of national curricular overhaul aimed at reducing exam pressure and fostering problem-solving",
+              "paraphrasePair": "most notably <=> as a prime example",
+              "meaningVi": "nổi bật nhất là <=> như một ví dụ tiêu biểu hàng đầu",
+              "deductionLogic": "Dấu hiệu 'most notably' khẳng định chức năng minh họa tiêu biểu cho luận điểm ngay trước đó."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "The word \"overhauls\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"overhauls\" trong đoạn 2 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "postponements",
+              "comprehensive reforms",
+              "budget cuts",
+              "minor typos"
+            ],
+            "optionsVi": [
+              "A. sự trì hoãn",
+              "B. các cuộc cải cách toàn diện",
+              "C. các đợt cắt giảm ngân sách",
+              "D. các lỗi đánh máy nhỏ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Concurrently, several nations enacted sweeping curricular overhauls in 2018... [Paragraph 2]",
+            "evidenceVi": "Đồng thời, nhiều quốc gia đã ban hành các cuộc cải cách chương trình sâu rộng trong năm 2018... [Đoạn 2]",
+            "explanation": "'Overhaul' nghĩa là đại tu, cải tổ toàn diện ('comprehensive reforms').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "several nations enacted sweeping curricular overhauls in 2018",
+              "clueAnswer": "comprehensive reforms",
+              "keyPassage": "sweeping curricular overhauls",
+              "keyAnswer": "comprehensive reforms",
+              "paraphrasePair": "overhauls <=> comprehensive reforms",
+              "meaningVi": "cuộc đại tu, cải tổ <=> các cuộc cải cách toàn diện",
+              "deductionLogic": "Tính từ 'sweeping' (sâu rộng) đi kèm khẳng định quy mô cải cách toàn diện."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "How did classroom technology usage evolve in 2018 according to paragraph 3?",
+            "questionVi": "Theo đoạn 3, việc sử dụng công nghệ trong lớp học đã chuyển biến như thế nào vào năm 2018?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Schools moved beyond digital textbooks toward blended ecosystems and adaptive software personalized to student pacing.",
+              "Interactive whiteboards were banned because they distracted elementary teachers.",
+              "Tablets were used strictly to display scanned photocopies of historical manuscripts.",
+              "All classroom instruction was outsourced to artificial intelligence avatars."
+            ],
+            "optionsVi": [
+              "A. Các trường học vượt qua việc chỉ thay sách giấy bằng bản số để tiến tới hệ sinh thái học kết hợp và phần mềm thích ứng cá nhân hóa tiến độ.",
+              "B. Bảng tương tác bị cấm vì làm giáo viên tiểu học mất tập trung.",
+              "C. Máy tính bảng chỉ được dùng để hiển thị ảnh chụp bản thảo lịch sử.",
+              "D. Toàn bộ việc giảng dạy trên lớp được giao phó cho hình đại diện AI."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Rather than treating tablets and interactive whiteboards merely as digital replacements for paper textbooks, pioneering schools experimented with blended learning ecosystems and adaptive software platforms capable of tailoring exercises to each learner's pacing. [Paragraph 3]",
+            "evidenceVi": "Thay vì chỉ coi máy tính bảng là bản thay thế số cho sách giấy, các trường tiên phong đã thử nghiệm hệ sinh thái học kết hợp và phần mềm thích ứng điều chỉnh bài tập theo nhịp độ từng học sinh. [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu rõ bước chuyển về chất: vượt qua việc thay thế sách giáo khoa giấy sang hệ sinh thái học tập kết hợp (blended learning) và phần mềm thích ứng cá nhân hóa (adaptive software).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Sự chuyển biến công nghệ (Factual)",
+              "cluePassage": "pioneering schools experimented with blended learning ecosystems and adaptive software platforms capable of tailoring exercises to each learner's pacing.",
+              "clueAnswer": "Schools moved beyond digital textbooks toward blended ecosystems and adaptive software personalized to student pacing.",
+              "keyPassage": "blended learning ecosystems and adaptive software... tailoring exercises to each learner's pacing",
+              "keyAnswer": "blended ecosystems and adaptive software personalized to student pacing",
+              "paraphrasePair": "tailoring to each learner's pacing <=> personalized to student pacing",
+              "meaningVi": "tùy chỉnh theo nhịp độ từng người học <=> cá nhân hóa theo tiến độ học sinh",
+              "deductionLogic": "Khớp nối trực tiếp nội dung đoạn 3."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "What transformation occurred in Massive Open Online Courses (MOOCs) in 2018?",
+            "questionVi": "Sự chuyển mình nào đã diễn ra đối với các Khóa học Trực tuyến Mở Đại chúng (MOOCs) vào năm 2018?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "They shut down due to copyright disputes with traditional publishers.",
+              "They evolved from free unstructured videos into credentialed micro-degrees partnered with major employers.",
+              "They shifted focus exclusively to kindergarten art lessons.",
+              "They stopped offering video content in favor of postal correspondence."
+            ],
+            "optionsVi": [
+              "A. Chúng đóng cửa do tranh chấp bản quyền với các nhà xuất bản truyền thống.",
+              "B. Chúng phát triển từ các video miễn phí thiếu cấu trúc thành các vi bằng cấp có chứng chỉ hợp tác với doanh nghiệp lớn.",
+              "C. Chúng chuyển trọng tâm hoàn toàn sang các bài học mỹ thuật mẫu giáo.",
+              "D. Chúng ngừng cung cấp nội dung video để quay lại đào tạo qua thư bưu điện."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Massive Open Online Courses (MOOCs) matured from free, unstructured video lectures into credentialed micro-degrees partnered with Fortune 500 employers... [Paragraph 3]",
+            "evidenceVi": "Các khóa học MOOC đã trưởng thành từ những bài giảng video miễn phí thiếu cấu trúc thành các vi bằng cấp có chứng chỉ hợp tác cùng các doanh nghiệp Fortune 500. [Đoạn 3]",
+            "explanation": "Đoạn 3 nêu trực tiếp: MOOCs đã trưởng thành thành 'credentialed micro-degrees partnered with Fortune 500 employers' (vi bằng cấp có chứng chỉ liên kết doanh nghiệp lớn).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết chuyển đổi MOOCs (Factual)",
+              "cluePassage": "matured from free, unstructured video lectures into credentialed micro-degrees partnered with Fortune 500 employers",
+              "clueAnswer": "evolved from free unstructured videos into credentialed micro-degrees partnered with major employers",
+              "keyPassage": "matured... credentialed micro-degrees partnered with Fortune 500 employers",
+              "keyAnswer": "evolved... credentialed micro-degrees partnered with major employers",
+              "paraphrasePair": "Fortune 500 employers <=> major employers",
+              "meaningVi": "các tập đoàn Fortune 500 <=> các doanh nghiệp lớn",
+              "deductionLogic": "'Matured' được paraphrase thành 'evolved', 'Fortune 500 employers' thành 'major employers'."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "The word \"affluent\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"affluent\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "wealthy",
+              "remote",
+              "crowded",
+              "elderly"
+            ],
+            "optionsVi": [
+              "A. giàu có, khá giả",
+              "B. xa xôi hẻo lánh",
+              "C. đông đúc chật chội",
+              "D. lớn tuổi"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "students from affluent households enjoyed high-speed broadband, private tutoring, and enrichment activities, while peers in rural or underfunded districts struggled... [Paragraph 4]",
+            "evidenceVi": "học sinh từ các gia đình khá giả được hưởng internet băng thông rộng tốc độ cao, gia sư riêng..., trong khi bạn bè vùng nông thôn thiếu kinh phí lại chật vật... [Đoạn 4]",
+            "explanation": "'Affluent' có nghĩa là giàu có, sung túc ('wealthy'), đối lập với 'underfunded' (thiếu kinh phí).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "students from affluent households enjoyed high-speed broadband, private tutoring... while peers in rural or underfunded districts struggled",
+              "clueAnswer": "wealthy",
+              "keyPassage": "affluent households... private tutoring",
+              "keyAnswer": "wealthy",
+              "paraphrasePair": "affluent <=> wealthy",
+              "meaningVi": "khá giả, sung túc <=> giàu có",
+              "deductionLogic": "Mối quan hệ tương phản 'while' với vùng thiếu kinh phí ('underfunded') giúp suy ra 'affluent' nghĩa là giàu có."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "Which of the following is NOT listed in paragraph 4 as a requirement for meaningful educational reform?",
+            "questionVi": "Điều nào sau đây KHÔNG được liệt kê trong đoạn 4 như một yêu cầu cho cải cách giáo dục thực chất?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Sustained investment in teacher professional development",
+              "Equitable funding allocation formulas",
+              "Mandatory privatization of all rural public elementary schools",
+              "Support for students' psychological wellbeing"
+            ],
+            "optionsVi": [
+              "A. Đầu tư bền vững cho bồi dưỡng chuyên môn giáo viên",
+              "B. Các cơ chế phân bổ ngân sách công bằng",
+              "C. Tư nhân hóa bắt buộc toàn bộ trường tiểu học công lập vùng nông thôn",
+              "D. Hỗ trợ sức khỏe tâm lý cho học sinh"
+            ],
+            "correctAnswer": "C",
+            "correctIdx": 2,
+            "evidence": "meaningful reform requires sustained investment in teacher professional development, equitable funding formulas, and psychological wellbeing support so that every learner can thrive. [Paragraph 4]",
+            "evidenceVi": "cải cách thực chất đòi hỏi đầu tư bền vững cho phát triển chuyên môn giáo viên, công thức cấp vốn công bằng và hỗ trợ sức khỏe tâm lý để mọi người học đều phát triển. [Đoạn 4]",
+            "explanation": "Đoạn 4 liệt kê A, B và D. Phương án C (tư nhân hóa bắt buộc trường tiểu học nông thôn) hoàn toàn không có trong bài.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "sustained investment in teacher professional development, equitable funding formulas, and psychological wellbeing support",
+              "clueAnswer": "Mandatory privatization of all rural public elementary schools",
+              "keyPassage": "teacher development, equitable funding, psychological wellbeing",
+              "keyAnswer": "Mandatory privatization (Not mentioned)",
+              "paraphrasePair": "NOT in text",
+              "meaningVi": "Không được đề cập trong bài đọc",
+              "deductionLogic": "Loại trừ 3 yếu tố có thật ở câu cuối đoạn 4."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "What does the author imply by stating that \"technology alone cannot act as an automatic equalizer\" in paragraph 4?",
+            "questionVi": "Tác giả ngụ ý điều gì khi khẳng định \"riêng công nghệ không thể đóng vai trò là công cụ san bằng khoảng cách tự động\" ở đoạn 4?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "Simply distributing devices without addressing funding gaps and teacher training will not eliminate educational inequality.",
+              "Computers and tablets should be permanently removed from underprivileged schools.",
+              "Technology is too complicated for rural students to ever master.",
+              "Affluent families are legally prevented from buying private tutoring software."
+            ],
+            "optionsVi": [
+              "A. Chỉ phát thiết bị mà không giải quyết chênh lệch ngân sách và đào tạo giáo viên sẽ không thể xóa bỏ bất bình đẳng giáo dục.",
+              "B. Cần loại bỏ vĩnh viễn máy tính và máy tính bảng khỏi các trường khó khăn.",
+              "C. Công nghệ quá phức tạp để học sinh nông thôn có thể làm chủ.",
+              "D. Các gia đình giàu có bị luật pháp cấm mua phần mềm gia sư riêng."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "technology alone cannot act as an automatic equalizer; meaningful reform requires sustained investment in teacher professional development, equitable funding formulas, and psychological wellbeing support... [Paragraph 4]",
+            "evidenceVi": "riêng công nghệ không thể tự động san bằng bất bình đẳng; cải cách thực chất đòi hỏi đầu tư cho giáo viên, ngân sách công bằng và hỗ trợ tâm lý. [Đoạn 4]",
+            "explanation": "Vế sau dấu chấm phẩy giải thích rõ hàm ý: công nghệ chỉ phát huy bình đẳng khi đi kèm nguồn vốn công bằng, đào tạo giáo viên và hỗ trợ tâm lý; một mình thiết bị không thể tự giải quyết bất bình đẳng (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận hàm ý (Inference)",
+              "cluePassage": "technology alone cannot act as an automatic equalizer; meaningful reform requires sustained investment in teacher professional development, equitable funding formulas...",
+              "clueAnswer": "Simply distributing devices without addressing funding gaps and teacher training will not eliminate educational inequality.",
+              "keyPassage": "technology alone cannot act as an automatic equalizer... requires teacher development, equitable funding",
+              "keyAnswer": "distributing devices without funding and teacher training will not eliminate inequality",
+              "paraphrasePair": "cannot act as an automatic equalizer <=> will not eliminate educational inequality on its own",
+              "meaningVi": "không thể là công cụ san bằng tự động <=> không thể tự xóa bỏ bất bình đẳng giáo dục",
+              "deductionLogic": "Dấu chấm phẩy nối mệnh đề giải thích điều kiện cần thiết đi kèm với công nghệ."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "Which of the following best serves as an alternative title for the passage?",
+            "questionVi": "Tiêu đề thay thế nào sau đây phù hợp nhất với bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "Education at a Crossroads: Global Reforms, Digital Shifts, and Equity Challenges in 2018",
+              "Why Smartphone Bans Solved Global Reading Deficits in 2018",
+              "A History of Fortune 500 Corporate Recruitment Policies",
+              "The Complete Decline of Public Secondary Schools Worldwide"
+            ],
+            "optionsVi": [
+              "A. Giáo dục tại ngã rẽ: Cải cách toàn cầu, Chuyển dịch số và Thách thức công bằng năm 2018",
+              "B. Tại sao lệnh cấm smartphone đã giải quyết dứt điểm thiếu hụt đọc hiểu năm 2018",
+              "C. Lịch sử chính sách tuyển dụng của các tập đoàn Fortune 500",
+              "D. Sự suy tàn hoàn toàn của hệ thống trường trung học công lập toàn cầu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "The year 2018 marked a pivotal inflection point in global educational reform... Technological integration... stubborn structural inequities. [Paragraphs 1-4]",
+            "evidenceVi": "Năm 2018 đánh dấu bước ngoặt cải cách giáo dục toàn cầu... tích hợp công nghệ... và những bất bình đẳng cấu trúc dai dẳng. [Đoạn 1-4]",
+            "explanation": "Phương án A bao hàm đầy đủ 3 trụ cột của bài đọc: cải cách chương trình/PISA (Đoạn 1-2), chuyển đổi số/blended learning/MOOCs (Đoạn 3), và bài toán công bằng giáo dục (Đoạn 4).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Tiêu đề bao quát (Best Title)",
+              "cluePassage": "pivotal inflection point in global educational reform... Technological integration... stubborn structural inequities",
+              "clueAnswer": "Education at a Crossroads: Global Reforms, Digital Shifts, and Equity Challenges in 2018",
+              "keyPassage": "inflection point... reform... technological integration... inequities",
+              "keyAnswer": "Crossroads... Reforms... Digital Shifts... Equity Challenges",
+              "paraphrasePair": "inflection point <=> at a crossroads",
+              "meaningVi": "điểm uốn bước ngoặt <=> đứng tại ngã rẽ",
+              "deductionLogic": "Tổng hợp trọn vẹn bố cục 4 đoạn của bài đọc."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Mangroves & Natural Coastal Defense",
+        "topic": "Rừng ngập mặn: Lá chắn sinh học chống xói lở, triều cường & Lưu trữ Carbon xanh",
+        "timeAllowed": 15,
+        "passage": "<p>Anchoring the turbulent intertidal interface where tropical rivers converge with salty ocean currents, mangrove forests are among the most remarkably adapted botanical ecosystems on the planet. Unlike virtually all other woody plants, mangroves thrive in waterlogged, oxygen-starved mud and highly saline waters through extraordinary physiological adaptations. Specialized root structures—such as arching prop roots and upward-pointing breathing roots called pneumatophores—stabilize trees in shifting sediment while absorbing atmospheric oxygen during low tide. Meanwhile, cellular filtration membranes in their roots exclude up to 90 percent of incoming salt, and microscopic foliar glands excrete any excess sodium onto leaf surfaces.</p><p>Beyond their botanical ingenuity, mangrove belts function as formidable living seawalls protecting densely populated coastal communities. Hydrodynamic field measurements confirm that a dense, 100-meter-wide fringe of healthy mangroves can attenuate incoming wave heights by between 13 and 66 percent, while broader forest corridors spanning 500 meters can dissipate storm-surge energy by over half. Unlike rigid concrete breakwaters, which suffer structural fatigue, reflect scouring energy onto adjacent beaches, and require costly periodic repairs, living mangrove stands self-heal after cyclones and trap suspended sediment, allowing coastal land elevation to keep pace organically with gradual sea-level rise.</p><p>Equally significant is the disproportionate role mangroves play in global climate mitigation as premier 'blue carbon' sinks. Per hectare, mature mangrove ecosystems sequester and store up to four times more carbon than terrestrial tropical rainforests. Whereas fallen leaves in upland forests decompose rapidly in oxygen-rich air and release carbon dioxide back into the atmosphere, organic detritus in mangrove swamps becomes buried beneath anaerobic, waterlogged peat soils. Deprived of oxygen, microbial decay slows to a crawl, locking away vast subterranean carbon reserves for centuries or even millennia—provided the forest remains intact.</p><p>Paradoxically, despite providing ecosystem services valued at tens of thousands of dollars per hectare annually, global mangrove coverage declined precipitously throughout the late twentieth century, primarily due to clearance for commercial shrimp aquaculture, coastal real estate, and port expansion. When mangroves are uprooted and drained, oxygen rushes into the exposed peat, triggering rapid oxidation that converts centuries-old carbon vaults into potent greenhouse-gas emissions. Encouragingly, recent community-led reforestation initiatives and international blue-carbon credit markets have begun reversing net deforestation rates, proving that ecological restoration can align coastal protection with sustainable local livelihoods.</p>",
+        "vocab": [
+          {
+            "word": "intertidal",
+            "pos": "adj",
+            "ipa": "/ˌɪn.təˈtaɪ.dəl/",
+            "level": "C1",
+            "mean": "thuộc vùng gian triều (giữa mực triều cao và thấp)",
+            "syns": [
+              "tidal-zone",
+              "littoral",
+              "shoreline"
+            ],
+            "ex": "Mangroves dominate the muddy intertidal zones of tropical coastlines."
+          },
+          {
+            "word": "botanical",
+            "pos": "adj",
+            "ipa": "/bəˈtæn.ɪ.kəl/",
+            "level": "B2",
+            "mean": "thuộc thực vật học",
+            "syns": [
+              "plant-related",
+              "floral",
+              "vegetative"
+            ],
+            "ex": "Mangrove species exhibit remarkable botanical adaptations to saline mud."
+          },
+          {
+            "word": "waterlogged",
+            "pos": "adj",
+            "ipa": "/ˈwɔː.tə.lɒɡd/",
+            "level": "B2",
+            "mean": "ngập úng, sũng nước",
+            "syns": [
+              "saturated",
+              "sodden",
+              "flooded"
+            ],
+            "ex": "Ordinary tree roots quickly suffocate in waterlogged coastal soil."
+          },
+          {
+            "word": "physiological",
+            "pos": "adj",
+            "ipa": "/ˌfɪz.i.əˈlɒdʒ.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc sinh lý học (chức năng sinh học)",
+            "syns": [
+              "biological",
+              "organic",
+              "bodily"
+            ],
+            "ex": "Salt exclusion is a vital physiological mechanism in mangrove roots."
+          },
+          {
+            "word": "filtration",
+            "pos": "n",
+            "ipa": "/fɪlˈtreɪ.ʃən/",
+            "level": "B2",
+            "mean": "quá trình lọc tách tạp chất",
+            "syns": [
+              "purification",
+              "straining",
+              "screening"
+            ],
+            "ex": "Natural root filtration blocks most dissolved ocean salt from entering tree sap."
+          },
+          {
+            "word": "excrete",
+            "pos": "v",
+            "ipa": "/ɪkˈskriːt/",
+            "level": "C1",
+            "mean": "bài tiết, thải trừ chất thừa ra ngoài",
+            "syns": [
+              "expel",
+              "secrete",
+              "discharge"
+            ],
+            "ex": "Certain mangrove leaves excrete tiny salt crystals onto their glossy surfaces."
+          },
+          {
+            "word": "ingenuity",
+            "pos": "n",
+            "ipa": "/ˌɪn.dʒəˈnjuː.ə.ti/",
+            "level": "C1",
+            "mean": "sự tài tình, cơ chế khéo léo tinh vi",
+            "syns": [
+              "cleverness",
+              "resourcefulness",
+              "inventiveness"
+            ],
+            "ex": "Nature's evolutionary ingenuity is vividly displayed in coastal wetlands."
+          },
+          {
+            "word": "hydrodynamic",
+            "pos": "adj",
+            "ipa": "/ˌhaɪ.drəʊ.daɪˈnæm.ɪk/",
+            "level": "C1",
+            "mean": "thuộc thủy động lực học",
+            "syns": [
+              "fluid-motion",
+              "water-flow"
+            ],
+            "ex": "Hydrodynamic sensors measure how tree roots slow down incoming ocean waves."
+          },
+          {
+            "word": "attenuate",
+            "pos": "v",
+            "ipa": "/əˈten.ju.eɪt/",
+            "level": "C1",
+            "mean": "làm suy giảm, làm yếu đi (cường độ sóng)",
+            "syns": [
+              "weaken",
+              "diminish",
+              "dampen"
+            ],
+            "ex": "Tangled mangrove roots significantly attenuate destructive storm waves."
+          },
+          {
+            "word": "dissipate",
+            "pos": "v",
+            "ipa": "/ˈdɪs.ɪ.peɪt/",
+            "level": "C1",
+            "mean": "làm tiêu tán, phân tán năng lượng",
+            "syns": [
+              "disperse",
+              "scatter",
+              "absorb"
+            ],
+            "ex": "Wide forest buffers dissipate storm-surge energy before it strikes villages."
+          },
+          {
+            "word": "breakwater",
+            "pos": "n",
+            "ipa": "/ˈbreɪk.wɔː.tər/",
+            "level": "B2",
+            "mean": "đê chắn sóng nhân tạo",
+            "syns": [
+              "seawall",
+              "jetty",
+              "embankment"
+            ],
+            "ex": "Concrete breakwaters require expensive maintenance after major typhoons."
+          },
+          {
+            "word": "fatigue",
+            "pos": "n",
+            "ipa": "/fəˈtiːɡ/",
+            "level": "B2",
+            "mean": "sự mỏi vật liệu, xuống cấp kết cấu",
+            "syns": [
+              "weariness",
+              "weakening",
+              "deterioration"
+            ],
+            "ex": "Constant wave pounding induces structural fatigue in rigid concrete walls."
+          },
+          {
+            "word": "disproportionate",
+            "pos": "adj",
+            "ipa": "/ˌdɪs.prəˈpɔː.ʃən.ət/",
+            "level": "C1",
+            "mean": "lớn vượt trội so với tỷ lệ diện tích",
+            "syns": [
+              "outsized",
+              "extraordinary",
+              "unequal"
+            ],
+            "ex": "Despite covering a tiny area, mangroves hold a disproportionate share of global carbon."
+          },
+          {
+            "word": "mitigation",
+            "pos": "n",
+            "ipa": "/ˌmɪt.ɪˈɡeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự giảm nhẹ, cắt giảm tác động (biến đổi khí hậu)",
+            "syns": [
+              "alleviation",
+              "reduction",
+              "abatement"
+            ],
+            "ex": "Protecting coastal wetlands is a cost-effective climate mitigation strategy."
+          },
+          {
+            "word": "sequester",
+            "pos": "v",
+            "ipa": "/sɪˈkwes.tər/",
+            "level": "C1",
+            "mean": "cô lập, hấp thụ và khóa chặt (carbon)",
+            "syns": [
+              "capture",
+              "trap",
+              "isolate"
+            ],
+            "ex": "Healthy mangroves sequester carbon dioxide from the air at remarkable rates."
+          },
+          {
+            "word": "terrestrial",
+            "pos": "adj",
+            "ipa": "/təˈres.tri.əl/",
+            "level": "C1",
+            "mean": "trên cạn, thuộc lục địa",
+            "syns": [
+              "land-based",
+              "inland",
+              "earthbound"
+            ],
+            "ex": "Blue carbon ecosystems outpace terrestrial forests in per-hectare carbon storage."
+          },
+          {
+            "word": "detritus",
+            "pos": "n",
+            "ipa": "/dɪˈtraɪ.təs/",
+            "level": "C1",
+            "mean": "mùn bã hữu cơ, lá rụng phân hủy",
+            "syns": [
+              "organic debris",
+              "litter",
+              "remains"
+            ],
+            "ex": "Fallen leaves and root detritus accumulate in thick layers beneath mangrove canopies."
+          },
+          {
+            "word": "anaerobic",
+            "pos": "adj",
+            "ipa": "/ˌæn.eəˈrəʊ.bɪk/",
+            "level": "C1",
+            "mean": "kỵ khí, thiếu oxy",
+            "syns": [
+              "oxygen-free",
+              "anoxic"
+            ],
+            "ex": "Anaerobic peat soils prevent rapid bacterial breakdown of organic carbon."
+          },
+          {
+            "word": "subterranean",
+            "pos": "adj",
+            "ipa": "/ˌsʌb.tərˈeɪ.ni.ən/",
+            "level": "C1",
+            "mean": "nằm sâu dưới lòng đất",
+            "syns": [
+              "underground",
+              "buried",
+              "subsurface"
+            ],
+            "ex": "Vast subterranean peat layers store carbon accumulated over thousands of years."
+          },
+          {
+            "word": "intact",
+            "pos": "adj",
+            "ipa": "/ɪnˈtækt/",
+            "level": "B2",
+            "mean": "nguyên vẹn, chưa bị phá hủy",
+            "syns": [
+              "undamaged",
+              "preserved",
+              "unharmed"
+            ],
+            "ex": "Carbon remains safely locked underground as long as the forest stays intact."
+          },
+          {
+            "word": "paradoxically",
+            "pos": "adv",
+            "ipa": "/ˌpær.əˈdɒk.sɪ.kli/",
+            "level": "C1",
+            "mean": "trớ trêu thay, một cách nghịch lý",
+            "syns": [
+              "ironically",
+              "contradictorily"
+            ],
+            "ex": "Paradoxically, some of the most valuable coastal ecosystems are the most heavily cleared."
+          },
+          {
+            "word": "precipitously",
+            "pos": "adv",
+            "ipa": "/prɪˈsɪp.ɪ.təs.li/",
+            "level": "C1",
+            "mean": "đột ngột và nghiêm trọng (suy giảm mạnh)",
+            "syns": [
+              "sharply",
+              "steeply",
+              "dramatically"
+            ],
+            "ex": "Mangrove acreage dropped precipitously during the rapid aquaculture boom."
+          },
+          {
+            "word": "uproot",
+            "pos": "v",
+            "ipa": "/ʌpˈruːt/",
+            "level": "B2",
+            "mean": "nhổ bật gốc, chặt phá tận rễ",
+            "syns": [
+              "eradicate",
+              "clear",
+              "dig up"
+            ],
+            "ex": "Uprooting coastal trees exposes vulnerable shorelines to severe erosion."
+          },
+          {
+            "word": "oxidation",
+            "pos": "n",
+            "ipa": "/ˌɒk.sɪˈdeɪ.ʃən/",
+            "level": "C1",
+            "mean": "quá trình oxy hóa hóa học",
+            "syns": [
+              "chemical reaction with oxygen",
+              "breakdown"
+            ],
+            "ex": "Draining peat soils accelerates oxidation and releases stored greenhouse gases."
+          },
+          {
+            "word": "vault",
+            "pos": "n",
+            "ipa": "/vɔːlt/",
+            "level": "B2",
+            "mean": "hầm chứa, kho lưu giữ kiên cố",
+            "syns": [
+              "repository",
+              "storehouse",
+              "chamber"
+            ],
+            "ex": "Intact wetland sediments act as natural vaults for atmospheric carbon."
+          },
+          {
+            "word": "reforestation",
+            "pos": "n",
+            "ipa": "/ˌriː.fɒr.ɪˈsteɪ.ʃən/",
+            "level": "B2",
+            "mean": "tái trồng rừng, phục hồi rừng",
+            "syns": [
+              "replanting",
+              "rehabilitation",
+              "restoration"
+            ],
+            "ex": "Community-led mangrove reforestation strengthens local defenses against typhoons."
+          },
+          {
+            "word": "potent",
+            "pos": "adj",
+            "ipa": "/ˈpəʊ.tənt/",
+            "level": "B2",
+            "mean": "mạnh mẽ, có tác động dữ dội",
+            "syns": [
+              "powerful",
+              "intense",
+              "strong"
+            ],
+            "ex": "Disturbed peatlands become a potent source of atmospheric carbon emissions."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "According to paragraph 1, how do mangrove trees cope with high salt levels in coastal water?",
+            "questionVi": "Theo đoạn 1, cây rừng ngập mặn thích nghi với độ mặn cao của nước biển bằng cách nào?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "They block most salt through cellular root membranes and excrete surplus sodium via leaf glands.",
+              "They absorb salt into their trunks to stiffen their wood against ocean winds.",
+              "They grow exclusively in freshwater mountain streams far from ocean currents.",
+              "They shed all of their root systems during high-tide flooding events."
+            ],
+            "optionsVi": [
+              "A. Chúng chặn phần lớn muối qua màng lọc tế bào ở rễ và bài tiết lượng natri dư thừa qua các tuyến trên lá.",
+              "B. Chúng hấp thụ muối vào thân cây để làm cứng gỗ chống gió biển.",
+              "C. Chúng chỉ mọc ở các dòng suối nước ngọt miền núi cách xa dòng hải lưu.",
+              "D. Chúng rụng toàn bộ hệ thống rễ trong những đợt triều cường dâng cao."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "cellular filtration membranes in their roots exclude up to 90 percent of incoming salt, and microscopic foliar glands excrete any excess sodium onto leaf surfaces. [Paragraph 1]",
+            "evidenceVi": "màng lọc tế bào ở rễ ngăn tới 90% lượng muối xâm nhập, và các tuyến hiển vi trên lá bài tiết lượng natri dư thừa lên bề mặt lá. [Đoạn 1]",
+            "explanation": "Đoạn 1 giải thích rõ hai cơ chế sinh lý: màng lọc tế bào rễ loại bỏ tới 90% muối, và tuyến lá bài tiết phần muối dư thừa ra ngoài (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế sinh học (Factual Mechanism)",
+              "cluePassage": "cellular filtration membranes in their roots exclude up to 90 percent of incoming salt, and microscopic foliar glands excrete any excess sodium onto leaf surfaces.",
+              "clueAnswer": "They block most salt through cellular root membranes and excrete surplus sodium via leaf glands.",
+              "keyPassage": "filtration membranes exclude up to 90 percent... foliar glands excrete excess sodium",
+              "keyAnswer": "block most salt through root membranes and excrete surplus sodium via leaf glands",
+              "paraphrasePair": "exclude... foliar glands... excess <=> block... leaf glands... surplus",
+              "meaningVi": "ngăn chặn muối & tuyến trên lá thải muối dư <=> chặn muối & tuyến lá bài tiết lượng dư",
+              "deductionLogic": "Paraphrase chuẩn xác các thuật ngữ sinh học 'foliar' = 'leaf' và 'excess' = 'surplus'."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "What is the primary role of pneumatophores mentioned in paragraph 1?",
+            "questionVi": "Vai trò chính của rễ thở (pneumatophores) được đề cập trong đoạn 1 là gì?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "To trap passing ocean fish for tree nourishment",
+              "To absorb oxygen from the air in oxygen-starved mud during low tide",
+              "To store fresh rainwater inside hollow underground caverns",
+              "To reflect sunlight away from sensitive mangrove leaves"
+            ],
+            "optionsVi": [
+              "A. Để bẫy cá biển đi ngang qua làm chất dinh dưỡng cho cây",
+              "B. Để hấp thụ oxy từ không khí khi sống trong lớp bùn thiếu oxy lúc thủy triều xuống",
+              "C. Để tích trữ nước mưa ngọt bên trong các hang rỗng dưới lòng đất",
+              "D. Để phản xạ ánh nắng mặt trời khỏi những chiếc lá nhạy cảm"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "upward-pointing breathing roots called pneumatophores—stabilize trees in shifting sediment while absorbing atmospheric oxygen during low tide. [Paragraph 1]",
+            "evidenceVi": "những chiếc rễ thở mọc ngược lên gọi là pneumatophores giúp cố định cây trong trầm tích di động đồng thời hấp thụ oxy khí quyển khi triều xuống. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ rễ thở 'pneumatophores' hấp thụ oxy khí quyển khi thủy triều rút để tồn tại trong lớp bùn thiếu oxy (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết chức năng (Factual)",
+              "cluePassage": "upward-pointing breathing roots called pneumatophores—stabilize trees... while absorbing atmospheric oxygen during low tide.",
+              "clueAnswer": "To absorb oxygen from the air in oxygen-starved mud during low tide",
+              "keyPassage": "absorbing atmospheric oxygen during low tide",
+              "keyAnswer": "absorb oxygen from the air... during low tide",
+              "paraphrasePair": "atmospheric oxygen <=> oxygen from the air",
+              "meaningVi": "oxy khí quyển <=> oxy từ không khí",
+              "deductionLogic": "Thông tin khớp trực tiếp câu thứ 3 đoạn 1."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "The word \"attenuate\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"attenuate\" trong đoạn 2 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "accelerate",
+              "reduce",
+              "redirect",
+              "measure"
+            ],
+            "optionsVi": [
+              "A. tăng tốc",
+              "B. làm giảm bớt",
+              "C. chuyển hướng",
+              "D. đo lường"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "a dense, 100-meter-wide fringe of healthy mangroves can attenuate incoming wave heights by between 13 and 66 percent... [Paragraph 2]",
+            "evidenceVi": "một dải rừng ngập mặn khỏe mạnh dày đặc rộng 100 mét có thể làm suy giảm chiều cao sóng ập vào từ 13 đến 66 phần trăm... [Đoạn 2]",
+            "explanation": "'Attenuate' có nghĩa là làm suy giảm, giảm nhẹ cường độ hoặc chiều cao ('reduce').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "attenuate incoming wave heights by between 13 and 66 percent",
+              "clueAnswer": "reduce",
+              "keyPassage": "attenuate incoming wave heights",
+              "keyAnswer": "reduce",
+              "paraphrasePair": "attenuate <=> reduce / weaken",
+              "meaningVi": "làm suy giảm chiều cao sóng <=> giảm bớt",
+              "deductionLogic": "Ngữ cảnh lá chắn phòng hộ ven biển đi kèm tỷ lệ phần trăm cho thấy chức năng làm giảm chiều cao sóng."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "According to paragraph 2, what advantage do mangrove belts hold over rigid concrete breakwaters?",
+            "questionVi": "Theo đoạn 2, dải rừng ngập mặn có ưu thế gì vượt trội so với đê chắn sóng bê tông cứng?",
+            "questionType": "DẠNG 03: CHI TIẾT SO SÁNH (Comparison)",
+            "options": [
+              "Mangroves can self-heal after storms and trap sediment to naturally raise coastal land elevation.",
+              "Mangroves completely block all commercial ships from approaching coastal ports.",
+              "Concrete breakwaters cannot withstand any wave energy whatsoever.",
+              "Mangroves reflect scouring energy onto adjacent sandy beaches to create harbors."
+            ],
+            "optionsVi": [
+              "A. Rừng ngập mặn có thể tự phục hồi sau bão và giữ trầm tích để tự nhiên nâng cao nền đất ven biển.",
+              "B. Rừng ngập mặn chặn hoàn toàn mọi tàu thương mại tiếp cận cảng biển.",
+              "C. Đê bê tông hoàn toàn không thể chịu được bất kỳ năng lượng sóng nào.",
+              "D. Rừng ngập mặn phản xạ lực xói mòn sang các bãi cát lân cận để tạo bến cảng."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Unlike rigid concrete breakwaters, which suffer structural fatigue... living mangrove stands self-heal after cyclones and trap suspended sediment, allowing coastal land elevation to keep pace organically with gradual sea-level rise. [Paragraph 2]",
+            "evidenceVi": "Không giống đê bê tông cứng dễ xuống cấp kết cấu... rừng ngập mặn sống có khả năng tự phục hồi sau bão và giữ trầm tích lơ lửng, giúp độ cao đất ven biển tự nhiên theo kịp mực nước biển dâng. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ ưu thế kép của rừng ngập mặn sống: tự hồi phục sau bão ('self-heal after cyclones') và giữ phù sa nâng cao nền đất theo kịp nước biển dâng (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "So sánh ưu thế (Comparison)",
+              "cluePassage": "living mangrove stands self-heal after cyclones and trap suspended sediment, allowing coastal land elevation to keep pace organically with gradual sea-level rise.",
+              "clueAnswer": "Mangroves can self-heal after storms and trap sediment to naturally raise coastal land elevation.",
+              "keyPassage": "self-heal after cyclones and trap suspended sediment... land elevation keep pace organically",
+              "keyAnswer": "self-heal after storms and trap sediment to naturally raise coastal land elevation",
+              "paraphrasePair": "cyclones... organically <=> storms... naturally",
+              "meaningVi": "bão xoáy & một cách hữu cơ <=> bão & một cách tự nhiên",
+              "deductionLogic": "Phương án D đảo ngược sai (phản xạ lực xói mòn là nhược điểm của đê bê tông)."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "Why are mature mangroves able to store up to four times more carbon per hectare than terrestrial rainforests?",
+            "questionVi": "Tại sao rừng ngập mặn trưởng thành có thể lưu trữ lượng carbon trên mỗi hecta cao gấp bốn lần rừng mưa nhiệt đới trên cạn?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CƠ CHẾ (Cause & Effect)",
+            "options": [
+              "Because mangrove trunks grow four times taller than Amazonian trees",
+              "Because organic matter buried in oxygen-deprived, waterlogged peat decays extremely slowly",
+              "Because upland tropical rainforests do not absorb carbon dioxide during photosynthesis",
+              "Because ocean tides chemically freeze fallen mangrove leaves into solid limestone"
+            ],
+            "optionsVi": [
+              "A. Bởi vì thân cây ngập mặn cao gấp bốn lần cây rừng Amazon",
+              "B. Bởi vì vật chất hữu cơ bị vùi trong lớp đất than bùn ngập nước thiếu oxy phân hủy cực kỳ chậm",
+              "C. Bởi vì rừng mưa nhiệt đới trên cạn không hấp thụ CO2 khi quang hợp",
+              "D. Bởi vì thủy triều đại dương đóng băng hóa học lá rụng thành đá vôi rắn"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "organic detritus in mangrove swamps becomes buried beneath anaerobic, waterlogged peat soils. Deprived of oxygen, microbial decay slows to a crawl, locking away vast subterranean carbon reserves for centuries or even millennia... [Paragraph 3]",
+            "evidenceVi": "mùn bã hữu cơ trong đầm lầy ngập mặn bị chôn vùi dưới lớp đất than bùn ngập nước kỵ khí. Thiếu oxy, sự phân hủy vi sinh diễn ra chậm như rùa, khóa chặt trữ lượng carbon khổng lồ suốt hàng thế kỷ. [Đoạn 3]",
+            "explanation": "Đoạn 3 giải thích cơ chế 'carbon xanh': trong đất than bùn ngập nước kỵ khí (thiếu oxy), vi sinh vật phân hủy cực chậm nên carbon không thoát lại khí quyển mà bị khóa chặt hàng trăm đến hàng nghìn năm (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế lưu trữ Carbon xanh (Cause & Effect)",
+              "cluePassage": "buried beneath anaerobic, waterlogged peat soils. Deprived of oxygen, microbial decay slows to a crawl, locking away vast subterranean carbon reserves",
+              "clueAnswer": "Because organic matter buried in oxygen-deprived, waterlogged peat decays extremely slowly",
+              "keyPassage": "anaerobic, waterlogged peat soils... microbial decay slows to a crawl",
+              "keyAnswer": "oxygen-deprived, waterlogged peat decays extremely slowly",
+              "paraphrasePair": "anaerobic... slows to a crawl <=> oxygen-deprived... decays extremely slowly",
+              "meaningVi": "kỵ khí & chậm như rùa bò <=> thiếu oxy & phân hủy cực kỳ chậm",
+              "deductionLogic": "Giải thích chính xác khác biệt cốt lõi giữa phân hủy háo khí trên cạn và phân hủy kỵ khí dưới đất ngập nước."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "The word \"anaerobic\" in paragraph 3 refers to an environment that is:",
+            "questionVi": "Từ \"anaerobic\" trong đoạn 3 đề cập đến một môi trường có đặc điểm nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "lacking oxygen",
+              "rich in volcanic sulfur",
+              "completely dry and arid",
+              "exposed to intense ultraviolet radiation"
+            ],
+            "optionsVi": [
+              "A. thiếu hụt oxy",
+              "B. giàu lưu huỳnh núi lửa",
+              "C. hoàn toàn khô cằn",
+              "D. tiếp xúc bức xạ cực tím cường độ cao"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "buried beneath anaerobic, waterlogged peat soils. Deprived of oxygen, microbial decay slows to a crawl... [Paragraph 3]",
+            "evidenceVi": "chôn vùi dưới lớp đất than bùn kỵ khí ngập nước. Do thiếu oxy, quá trình phân hủy vi sinh chậm lại... [Đoạn 3]",
+            "explanation": "Câu ngay kế tiếp ('Deprived of oxygen') định nghĩa trực tiếp cho 'anaerobic' là môi trường kỵ khí / thiếu oxy (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Định nghĩa ngữ cảnh (Vocabulary)",
+              "cluePassage": "anaerobic, waterlogged peat soils. Deprived of oxygen, microbial decay slows to a crawl",
+              "clueAnswer": "lacking oxygen",
+              "keyPassage": "anaerobic... Deprived of oxygen",
+              "keyAnswer": "lacking oxygen",
+              "paraphrasePair": "anaerobic / deprived of oxygen <=> lacking oxygen",
+              "meaningVi": "kỵ khí / bị tước oxy <=> thiếu hụt oxy",
+              "deductionLogic": "Cụm từ 'Deprived of oxygen' ngay câu sau là manh mối định nghĩa trực tiếp."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "Which of the following is NOT cited in paragraph 4 as a primary driver of late twentieth-century mangrove loss?",
+            "questionVi": "Nguyên nhân nào sau đây KHÔNG được đề cập trong đoạn 4 là tác nhân chính gây suy giảm rừng ngập mặn cuối thế kỷ 20?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Clearance for commercial shrimp aquaculture",
+              "Coastal real estate development",
+              "Expansion of maritime ports",
+              "Severe frost waves from Arctic polar air"
+            ],
+            "optionsVi": [
+              "A. Chặt phá để nuôi tôm thương mại",
+              "B. Phát triển bất động sản ven biển",
+              "C. Mở rộng các cảng hàng hải",
+              "D. Các đợt sương giá khắc nghiệt từ không khí vùng cực Bắc Cực"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "primarily due to clearance for commercial shrimp aquaculture, coastal real estate, and port expansion. [Paragraph 4]",
+            "evidenceVi": "chủ yếu do chặt phá phục vụ nuôi tôm thương mại, bất động sản ven biển và mở rộng cảng biển. [Đoạn 4]",
+            "explanation": "Đoạn 4 liệt kê đúng 3 nguyên nhân do con người (A, B, C). Không có thông tin nào về sương giá Bắc Cực (D).",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "primarily due to clearance for commercial shrimp aquaculture, coastal real estate, and port expansion.",
+              "clueAnswer": "Severe frost waves from Arctic polar air",
+              "keyPassage": "commercial shrimp aquaculture, coastal real estate, port expansion",
+              "keyAnswer": "Arctic frost waves (Not mentioned)",
+              "paraphrasePair": "NOT in passage",
+              "meaningVi": "Không xuất hiện trong văn bản",
+              "deductionLogic": "Loại trừ A, B, C đều được nêu trực tiếp."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "What happens climatically when mangrove forests are uprooted and their peat soils are drained?",
+            "questionVi": "Điều gì xảy ra về mặt khí hậu khi rừng ngập mặn bị nhổ bỏ và đất than bùn bị rút cạn nước?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / HỆ QUẢ (Cause & Effect)",
+            "options": [
+              "The exposed soil absorbs twice as much atmospheric carbon as before.",
+              "Oxygen enters the peat and causes rapid oxidation, turning ancient carbon stores into greenhouse-gas emissions.",
+              "The underlying mud permanently solidifies into protective coastal cliffs.",
+              "Ocean salinity levels drop instantly to freshwater drinking standards."
+            ],
+            "optionsVi": [
+              "A. Lớp đất lộ thiên hấp thụ lượng carbon khí quyển gấp đôi trước đây.",
+              "B. Oxy tràn vào đất than bùn gây oxy hóa nhanh, biến kho carbon hàng thế kỷ thành khí thải nhà kính.",
+              "C. Lớp bùn bên dưới đông cứng vĩnh viễn thành vách đá bảo vệ bờ biển.",
+              "D. Độ mặn đại dương lập tức giảm xuống chuẩn nước ngọt uống được."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "When mangroves are uprooted and drained, oxygen rushes into the exposed peat, triggering rapid oxidation that converts centuries-old carbon vaults into potent greenhouse-gas emissions. [Paragraph 4]",
+            "evidenceVi": "Khi rừng ngập mặn bị chặt phá và rút cạn nước, oxy tràn vào lớp than bùn lộ thiên, kích hoạt quá trình oxy hóa nhanh biến kho carbon hàng trăm năm thành khí thải nhà kính mạnh mẽ. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ cơ chế đảo ngược nguy hiểm: đất mất nước tiếp xúc oxy sẽ bị oxy hóa nhanh và xả ngược kho carbon tích lũy hàng trăm năm ra khí quyển (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Hệ quả phá rừng (Cause & Effect)",
+              "cluePassage": "oxygen rushes into the exposed peat, triggering rapid oxidation that converts centuries-old carbon vaults into potent greenhouse-gas emissions.",
+              "clueAnswer": "Oxygen enters the peat and causes rapid oxidation, turning ancient carbon stores into greenhouse-gas emissions.",
+              "keyPassage": "oxygen rushes into peat... rapid oxidation... converts centuries-old carbon vaults into greenhouse-gas emissions",
+              "keyAnswer": "oxygen enters peat... rapid oxidation... turning ancient carbon stores into greenhouse-gas emissions",
+              "paraphrasePair": "centuries-old carbon vaults <=> ancient carbon stores",
+              "meaningVi": "hầm chứa carbon hàng trăm năm <=> kho lưu trữ carbon cổ xưa",
+              "deductionLogic": "Paraphrase chuẩn giữa 'converts' -> 'turning' và 'vaults' -> 'stores'."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "Why does the author use the word \"Paradoxically\" at the beginning of paragraph 4?",
+            "questionVi": "Tại sao tác giả lại sử dụng từ \"Paradoxically\" (một cách nghịch lý) ở đầu đoạn 4?",
+            "questionType": "DẠNG 06: SUY LUẬN / NGHỊCH LÝ (Inference / Paradox)",
+            "options": [
+              "To highlight the irony that humanity has rapidly destroyed ecosystems despite their immense economic and protective value",
+              "To argue that mangroves have no measurable financial value to coastal nations",
+              "To express disbelief that mangrove trees can survive in tropical climates",
+              "To suggest that international carbon credit markets caused global deforestation"
+            ],
+            "optionsVi": [
+              "A. Để nhấn mạnh sự trớ trêu khi con người tàn phá nhanh chóng hệ sinh thái bất chấp giá trị kinh tế và phòng hộ khổng lồ của nó",
+              "B. Để lập luận rằng rừng ngập mặn không có giá trị tài chính đo lường được",
+              "C. Để bày tỏ sự hoài nghi về việc cây ngập mặn sống được ở khí hậu nhiệt đới",
+              "D. Để cho rằng thị trường tín chỉ carbon quốc tế gây ra nạn phá rừng toàn cầu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Paradoxically, despite providing ecosystem services valued at tens of thousands of dollars per hectare annually, global mangrove coverage declined precipitously... [Paragraph 4]",
+            "evidenceVi": "Trớ trêu thay, bất chấp việc mang lại các dịch vụ hệ sinh thái trị giá hàng chục nghìn đô la mỗi hecta mỗi năm, diện tích rừng ngập mặn toàn cầu vẫn sụt giảm nghiêm trọng... [Đoạn 4]",
+            "explanation": "Sự nghịch lý nằm ở việc rừng ngập mặn mang lại giá trị kinh tế và phòng hộ khổng lồ nhưng lại bị con người chặt phá ồ ạt (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Hiểu sắc thái nghịch lý (Paradox)",
+              "cluePassage": "Paradoxically, despite providing ecosystem services valued at tens of thousands of dollars per hectare annually, global mangrove coverage declined precipitously",
+              "clueAnswer": "To highlight the irony that humanity has rapidly destroyed ecosystems despite their immense economic and protective value",
+              "keyPassage": "despite providing ecosystem services valued at tens of thousands... declined precipitously",
+              "keyAnswer": "irony... rapidly destroyed ecosystems despite immense economic and protective value",
+              "paraphrasePair": "declined precipitously despite immense value <=> rapidly destroyed despite immense value",
+              "meaningVi": "suy giảm nghiêm trọng bất chấp giá trị khổng lồ <=> tàn phá nhanh bất chấp giá trị to lớn",
+              "deductionLogic": "'Paradoxically' + 'despite' tạo thế tương phản mỉa mai giữa giá trị thực và hành vi tàn phá."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "What optimistic development does the author report at the end of the passage?",
+            "questionVi": "Diễn biến tích cực nào được tác giả nêu ra ở cuối bài đọc?",
+            "questionType": "DẠNG 07: KẾT LUẬN / GIẢI PHÁP (Author's Conclusion)",
+            "options": [
+              "Community reforestation and blue-carbon credit markets are beginning to reverse net mangrove loss while supporting local livelihoods.",
+              "All coastal shrimp farms worldwide have been voluntarily converted into luxury hotels.",
+              "Concrete breakwaters have become cheaper to build than planting natural saplings.",
+              "Mangroves have spontaneously colonized the rocky coastlines of northern Europe."
+            ],
+            "optionsVi": [
+              "A. Hoạt động tái trồng rừng cộng đồng và thị trường tín chỉ carbon xanh đang đảo ngược suy giảm ròng rừng ngập mặn đồng thời hỗ trợ sinh kế địa phương.",
+              "B. Toàn bộ đầm tôm ven biển thế giới đã tự nguyện chuyển thành khách sạn sang trọng.",
+              "C. Đê chắn sóng bê tông đã trở nên rẻ hơn việc trồng cây giống tự nhiên.",
+              "D. Rừng ngập mặn đã tự phát mọc lan ra khắp bờ biển đá ở Bắc Âu."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Encouragingly, recent community-led reforestation initiatives and international blue-carbon credit markets have begun reversing net deforestation rates, proving that ecological restoration can align coastal protection with sustainable local livelihoods. [Paragraph 4]",
+            "evidenceVi": "Đáng khích lệ là các sáng kiến tái trồng rừng cộng đồng và thị trường tín chỉ carbon xanh quốc tế đã bắt đầu đảo ngược tỷ lệ mất rừng ròng, kết hợp bảo vệ bờ biển với sinh kế bền vững. [Đoạn 4]",
+            "explanation": "Câu kết đoạn 4 nêu chính xác tín hiệu đáng khích lệ từ tái trồng rừng cộng đồng và tín chỉ carbon xanh (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Giải pháp kết bài (Author's Conclusion)",
+              "cluePassage": "community-led reforestation initiatives and international blue-carbon credit markets have begun reversing net deforestation rates... align coastal protection with sustainable local livelihoods.",
+              "clueAnswer": "Community reforestation and blue-carbon credit markets are beginning to reverse net mangrove loss while supporting local livelihoods.",
+              "keyPassage": "reforestation... blue-carbon credit markets... reversing net deforestation... local livelihoods",
+              "keyAnswer": "reforestation and blue-carbon credit markets... reverse net mangrove loss... local livelihoods",
+              "paraphrasePair": "reversing net deforestation rates <=> reverse net mangrove loss",
+              "meaningVi": "đảo ngược tỷ lệ mất rừng ròng <=> đảo ngược tình trạng suy giảm ròng rừng ngập mặn",
+              "deductionLogic": "Khớp toàn vẹn câu kết bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: NASA's Data on Mars: Paleohydrology & Astrobiology",
+        "topic": "Dữ liệu nghiên cứu của NASA về Sao Hỏa: Cổ thủy văn, Địa chất hành tinh đỏ & Tìm kiếm dấu vết sự sống",
+        "timeAllowed": 15,
+        "passage": "<p>Over the past half-century, NASA's sustained fleet of orbital satellites, stationary landers, and autonomous robotic rovers has revolutionized planetary science, transforming Mars from a speculative literary backdrop into the most extensively mapped extraterrestrial world in the solar system. Today, the Red Planet appears as an arid, frigid desert wrapped in a tenuous carbon-dioxide atmosphere less than one percent as dense as Earth's, exposed to relentless cosmic radiation. Yet high-resolution spectrometer readings and stratigraphic core data relayed by missions such as Curiosity, Perseverance, and the Mars Reconnaissance Orbiter reveal an astonishing geological paradox: roughly 3.5 to 4 billion years ago, Mars was a far warmer, dynamically hydrated world crisscrossed by braided river networks, deep crater lakes, and potentially a vast northern hemisphere ocean.</p><p>Compelling mineralogical evidence substantiating this ancient wet epoch comes directly from Jezero Crater, the landing site of the Perseverance rover since 2021. Orbital imagery and in-situ rock analyses confirm that Jezero once housed an ancient river delta where flowing liquid water deposited concentric fan-shaped layers of clay phyllosilicates and carbonate minerals—compounds that form exclusively in the presence of persistent liquid water and neutral-to-alkaline pH conditions conducive to biological preservation. Simultaneously, Curiosity's decade-long ascent up Mount Sharp inside Gale Crater uncovered complex organic carbon molecules and seasonal fluctuations in atmospheric methane, demonstrating that the basic chemical building blocks of life were demonstrably present in ancient Martian lakebeds.</p><p>Explaining how Mars transitioned from a potentially habitable aquatic oasis into a desiccated wasteland became the central mandate of NASA's MAVEN (Mars Atmosphere and Volatile Evolution) orbiter. MAVEN telemetry confirmed that the collapse of Mars's global dipolar magnetic field approximately four billion years ago—triggered by the rapid cooling of the planet's relatively small metallic core—left its upper atmosphere defenseless against the solar wind. Over geological epochs, charged solar particles relentlessly stripped away atmospheric gases into interplanetary space through a process termed sputtering. As atmospheric pressure plummeted, surface liquid water could no longer remain stable, either evaporating into space or freezing into subterranean permafrost and polar ice caps.</p><p>Crucially, astrobiologists emphasize that detecting organic molecules or habitable paleoenvironments does not constitute definitive proof of past extraterrestrial life, because abiotic geochemical reactions can also synthesize simple organic compounds. To resolve this ambiguity, Perseverance is currently sealing pristine sedimentary rock cores inside sterile titanium tubes for the ambitious Mars Sample Return campaign. Analyzing these specimens within terrestrial laboratories equipped with synchrotron X-ray microscopes and isotopic mass spectrometers—instruments far too massive to launch aboard spacecraft—may finally determine whether life ever emerged independently beyond Earth.</p>",
+        "vocab": [
+          {
+            "word": "extraterrestrial",
+            "pos": "adj",
+            "ipa": "/ˌek.strə.təˈres.tri.əl/",
+            "level": "B2",
+            "mean": "ngoài Trái Đất, thuộc hành tinh khác",
+            "syns": [
+              "alien",
+              "off-world",
+              "interplanetary"
+            ],
+            "ex": "Mars is the most thoroughly investigated extraterrestrial body in our solar system."
+          },
+          {
+            "word": "arid",
+            "pos": "adj",
+            "ipa": "/ˈær.ɪd/",
+            "level": "B2",
+            "mean": "khô cằn, không có nước lỏng bề mặt",
+            "syns": [
+              "dry",
+              "parched",
+              "barren"
+            ],
+            "ex": "Modern Mars is a bitterly cold and arid desert landscape."
+          },
+          {
+            "word": "tenuous",
+            "pos": "adj",
+            "ipa": "/ˈten.ju.əs/",
+            "level": "C1",
+            "mean": "mỏng manh, loãng (bầu khí quyển)",
+            "syns": [
+              "thin",
+              "fragile",
+              "sparse"
+            ],
+            "ex": "Mars's tenuous atmosphere cannot retain sufficient solar heat at night."
+          },
+          {
+            "word": "stratigraphic",
+            "pos": "adj",
+            "ipa": "/ˌstræt.ɪˈɡræf.ɪk/",
+            "level": "C1",
+            "mean": "thuộc địa tầng học (các lớp đá trầm tích)",
+            "syns": [
+              "layered-rock",
+              "geological"
+            ],
+            "ex": "Stratigraphic rock layers inside craters record billions of years of climate shifts."
+          },
+          {
+            "word": "hydrated",
+            "pos": "adj",
+            "ipa": "/ˈhaɪ.dreɪ.tɪd/",
+            "level": "B2",
+            "mean": "ngậm nước, giàu nước",
+            "syns": [
+              "water-rich",
+              "moist",
+              "aqueous"
+            ],
+            "ex": "Orbital spectrometers mapped hydrated clay minerals across ancient Martian valleys."
+          },
+          {
+            "word": "substantiate",
+            "pos": "v",
+            "ipa": "/səbˈstæn.ʃi.eɪt/",
+            "level": "C1",
+            "mean": "chứng minh xác thực bằng bằng chứng cụ thể",
+            "syns": [
+              "verify",
+              "corroborate",
+              "confirm"
+            ],
+            "ex": "Rover core samples substantiate theories of ancient flowing rivers on Mars."
+          },
+          {
+            "word": "epoch",
+            "pos": "n",
+            "ipa": "/ˈiː.pɒk/",
+            "level": "C1",
+            "mean": "kỷ nguyên địa chất, thời đại lịch sử",
+            "syns": [
+              "era",
+              "age",
+              "period"
+            ],
+            "ex": "Liquid lakes persisted on the Red Planet during an ancient geological epoch."
+          },
+          {
+            "word": "concentric",
+            "pos": "adj",
+            "ipa": "/kənˈsen.trɪk/",
+            "level": "C1",
+            "mean": "đồng tâm, xếp lớp tỏa tròn",
+            "syns": [
+              "coaxial",
+              "ringed",
+              "layered"
+            ],
+            "ex": "Ancient river currents deposited concentric fans of fine mud and gravel."
+          },
+          {
+            "word": "conducive",
+            "pos": "adj",
+            "ipa": "/kənˈdjuː.sɪv/",
+            "level": "C1",
+            "mean": "thuận lợi, tạo điều kiện cho",
+            "syns": [
+              "favorable",
+              "supportive",
+              "helpful"
+            ],
+            "ex": "Neutral water chemistry is highly conducive to preserving microscopic fossils."
+          },
+          {
+            "word": "fluctuation",
+            "pos": "n",
+            "ipa": "/ˌflʌk.tʃuˈeɪ.ʃən/",
+            "level": "B2",
+            "mean": "sự dao động, biến thiên theo chu kỳ",
+            "syns": [
+              "variation",
+              "oscillation",
+              "shift"
+            ],
+            "ex": "Curiosity recorded puzzling seasonal fluctuations in Martian methane levels."
+          },
+          {
+            "word": "habitable",
+            "pos": "adj",
+            "ipa": "/ˈhæb.ɪ.tə.bəl/",
+            "level": "B2",
+            "mean": "có khả năng duy trì sự sống",
+            "syns": [
+              "livable",
+              "hospitable",
+              "inhabitable"
+            ],
+            "ex": "Scientists search for ancient habitable environments where microbes could have thrived."
+          },
+          {
+            "word": "desiccated",
+            "pos": "adj",
+            "ipa": "/ˈdes.ɪ.keɪ.tɪd/",
+            "level": "C1",
+            "mean": "khô kiệt, mất hết độ ẩm",
+            "syns": [
+              "dried out",
+              "dehydrated",
+              "parched"
+            ],
+            "ex": "Loss of atmosphere transformed Mars into a desiccated, frozen wasteland."
+          },
+          {
+            "word": "telemetry",
+            "pos": "n",
+            "ipa": "/təˈlem.ə.tri/",
+            "level": "C1",
+            "mean": "dữ liệu đo lường truyền từ xa qua vệ tinh",
+            "syns": [
+              "remote data",
+              "sensor transmission"
+            ],
+            "ex": "Telemetry from the MAVEN spacecraft quantified atmospheric escape rates."
+          },
+          {
+            "word": "dipolar",
+            "pos": "adj",
+            "ipa": "/daɪˈpəʊ.lər/",
+            "level": "C1",
+            "mean": "lưỡng cực (từ trường hai cực Bắc - Nam)",
+            "syns": [
+              "two-poled",
+              "magnetic-axis"
+            ],
+            "ex": "Earth's global dipolar magnetic field shields our atmosphere from solar storms."
+          },
+          {
+            "word": "relentlessly",
+            "pos": "adv",
+            "ipa": "/rɪˈlent.ləs.li/",
+            "level": "B2",
+            "mean": "không ngừng nghỉ, dữ dội liên tục",
+            "syns": [
+              "unceasingly",
+              "persistently",
+              "continuously"
+            ],
+            "ex": "Solar wind particles relentlessly eroded the unprotected Martian sky."
+          },
+          {
+            "word": "plummet",
+            "pos": "v",
+            "ipa": "/ˈplʌm.ɪt/",
+            "level": "B2",
+            "mean": "lao dốc, sụt giảm mạnh đột ngột",
+            "syns": [
+              "plunge",
+              "tumble",
+              "drop sharply"
+            ],
+            "ex": "Once the magnetic shield failed, atmospheric pressure plummeted dramatically."
+          },
+          {
+            "word": "permafrost",
+            "pos": "n",
+            "ipa": "/ˈpɜː.mə.frɒst/",
+            "level": "B2",
+            "mean": "tầng đất đóng băng vĩnh cửu",
+            "syns": [
+              "permanently frozen ground",
+              "ice-bound soil"
+            ],
+            "ex": "Large reservoirs of Martian water remain locked inside subterranean permafrost."
+          },
+          {
+            "word": "astrobiologist",
+            "pos": "n",
+            "ipa": "/ˌæs.trəʊ.baɪˈɒl.ə.dʒɪst/",
+            "level": "C1",
+            "mean": "nhà sinh học vũ trụ",
+            "syns": [
+              "exobiologist",
+              "space life scientist"
+            ],
+            "ex": "Astrobiologists study extreme microbes on Earth to understand potential Martian life."
+          },
+          {
+            "word": "abiotic",
+            "pos": "adj",
+            "ipa": "/ˌeɪ.baɪˈɒt.ɪk/",
+            "level": "C1",
+            "mean": "phi sinh học, vô sinh (không do sinh vật tạo ra)",
+            "syns": [
+              "non-biological",
+              "inorganic",
+              "non-living"
+            ],
+            "ex": "Simple organic molecules can form through purely abiotic chemical reactions."
+          },
+          {
+            "word": "synthesize",
+            "pos": "v",
+            "ipa": "/ˈsɪn.θə.saɪz/",
+            "level": "C1",
+            "mean": "tổng hợp hóa học",
+            "syns": [
+              "produce",
+              "manufacture",
+              "combine"
+            ],
+            "ex": "Hydrothermal vents can naturally synthesize complex carbon-based compounds."
+          },
+          {
+            "word": "ambiguity",
+            "pos": "n",
+            "ipa": "/ˌæm.bɪˈɡjuː.ə.ti/",
+            "level": "C1",
+            "mean": "sự mơ hồ, tính chưa rõ ràng dứt khoát",
+            "syns": [
+              "uncertainty",
+              "doubt",
+              "vagueness"
+            ],
+            "ex": "Returning physical rock cores to Earth will resolve scientific ambiguity."
+          },
+          {
+            "word": "pristine",
+            "pos": "adj",
+            "ipa": "/ˈprɪs.tiːn/",
+            "level": "C1",
+            "mean": "nguyên sơ, tinh khiết chưa bị nhiễm tạp",
+            "syns": [
+              "uncontaminated",
+              "unspoiled",
+              "pure"
+            ],
+            "ex": "The rover collects pristine core samples untouched by terrestrial bacteria."
+          },
+          {
+            "word": "sterile",
+            "pos": "adj",
+            "ipa": "/ˈster.aɪl/",
+            "level": "B2",
+            "mean": "vô trùng, tiệt trùng tuyệt đối",
+            "syns": [
+              "germ-free",
+              "aseptic",
+              "sanitized"
+            ],
+            "ex": "Titanium sample tubes were baked and sealed under sterile clean-room conditions."
+          },
+          {
+            "word": "specimen",
+            "pos": "n",
+            "ipa": "/ˈspes.ɪ.mən/",
+            "level": "B2",
+            "mean": "mẫu vật nghiên cứu khoa học",
+            "syns": [
+              "sample",
+              "example",
+              "artifact"
+            ],
+            "ex": "Geologists eagerly await the arrival of Martian rock specimens in Earth laboratories."
+          },
+          {
+            "word": "isotopic",
+            "pos": "adj",
+            "ipa": "/ˌaɪ.səˈtɒp.ɪk/",
+            "level": "C1",
+            "mean": "thuộc đồng vị nguyên tử",
+            "syns": [
+              "atomic-variant",
+              "elemental"
+            ],
+            "ex": "Isotopic ratios of carbon can distinguish biological fossils from non-living rocks."
+          },
+          {
+            "word": "mineralogical",
+            "pos": "adj",
+            "ipa": "/ˌmɪn.ər.əˈlɒdʒ.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc khoáng vật học",
+            "syns": [
+              "rock-composition",
+              "geological"
+            ],
+            "ex": "Mineralogical assays revealed ancient clays formed inside standing freshwater lakes."
+          },
+          {
+            "word": "speculative",
+            "pos": "adj",
+            "ipa": "/ˈspek.jʊ.lə.tɪv/",
+            "level": "C1",
+            "mean": "mang tính suy đoán, giả tưởng",
+            "syns": [
+              "conjectural",
+              "hypothetical",
+              "unproven"
+            ],
+            "ex": "Robotic exploration replaced speculative fiction with empirical planetary data."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "What geological paradox is introduced in paragraph 1?",
+            "questionVi": "Nghịch lý địa chất nào được giới thiệu trong đoạn 1?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Detail)",
+            "options": [
+              "Although Mars is currently a frozen, dry desert with a thin atmosphere, data show it was once warm and rich in surface liquid water.",
+              "Although Mars orbits closer to the Sun than Earth, its surface temperatures remain permanently below freezing.",
+              "Although NASA has sent satellites to Mars, no robotic rover has successfully landed on its surface.",
+              "Although Mars lacks carbon dioxide, its atmosphere is thicker than Earth's ocean floor."
+            ],
+            "optionsVi": [
+              "A. Dù Sao Hỏa hiện là sa mạc lạnh lẽo khô cằn với khí quyển mỏng, dữ liệu cho thấy nó từng ấm áp và giàu nước lỏng bề mặt.",
+              "B. Dù Sao Hỏa quay gần Mặt Trời hơn Trái Đất, nhiệt độ bề mặt nó vẫn luôn dưới mức đóng băng.",
+              "C. Dù NASA đã phóng vệ tinh tới Sao Hỏa, chưa từng có tàu tự hành nào đáp thành công lên bề mặt.",
+              "D. Dù Sao Hỏa thiếu CO2, khí quyển của nó lại dày đặc hơn cả đáy đại dương Trái Đất."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Today, the Red Planet appears as an arid, frigid desert wrapped in a tenuous carbon-dioxide atmosphere... Yet... roughly 3.5 to 4 billion years ago, Mars was a far warmer, dynamically hydrated world crisscrossed by braided river networks, deep crater lakes... [Paragraph 1]",
+            "evidenceVi": "Ngày nay Hành tinh Đỏ là sa mạc khô cằn lạnh giá với khí quyển loãng... Tuy nhiên, khoảng 3,5 đến 4 tỷ năm trước, Sao Hỏa từng ấm áp và giàu nước với mạng lưới sông ngòi và hồ miệng núi lửa sâu. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu bật sự tương phản địa chất rõ nét giữa một Sao Hỏa khô lạnh hiện tại với một quá khứ cổ đại ấm áp đầy sông hồ cách đây 3,5-4 tỷ năm (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nghịch lý địa chất (Factual Detail)",
+              "cluePassage": "arid, frigid desert wrapped in a tenuous... atmosphere... Yet... 3.5 to 4 billion years ago, Mars was a far warmer, dynamically hydrated world",
+              "clueAnswer": "Although Mars is currently a frozen, dry desert with a thin atmosphere, data show it was once warm and rich in surface liquid water.",
+              "keyPassage": "arid, frigid... tenuous atmosphere... warmer, dynamically hydrated world",
+              "keyAnswer": "frozen, dry... thin atmosphere... warm and rich in surface liquid water",
+              "paraphrasePair": "arid, frigid, tenuous <=> dry, frozen, thin",
+              "meaningVi": "khô cằn, lạnh buốt, mỏng manh <=> khô, đóng băng, mỏng",
+              "deductionLogic": "Paraphrase hàng loạt tính từ địa chất C1 sang ngôn ngữ diễn giải chuẩn xác."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "Why are clay phyllosilicates and carbonate minerals found in Jezero Crater scientifically important?",
+            "questionVi": "Tại sao khoáng vật đất sét phyllosilicate và khoáng vật cacbonat tìm thấy ở miệng hố Jezero lại quan trọng về mặt khoa học?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "They can be burned directly as rocket fuel for returning astronauts.",
+              "They form exclusively in persistent liquid water under chemical conditions favorable to preserving biological traces.",
+              "They prove that volcanic lava completely melted Jezero Crater last century.",
+              "They shield robotic rovers from cosmic radiation during winter dust storms."
+            ],
+            "optionsVi": [
+              "A. Chúng có thể đốt trực tiếp làm nhiên liệu tên lửa cho phi hành gia quay về.",
+              "B. Chúng hình thành độc quyền trong môi trường nước lỏng duy trì lâu dài với điều kiện hóa học thuận lợi để bảo tồn dấu vết sinh học.",
+              "C. Chúng chứng minh dung nham núi lửa đã làm tan chảy hoàn toàn hố Jezero vào thế kỷ trước.",
+              "D. Chúng che chắn tàu tự hành khỏi bức xạ vũ trụ trong các trận bão bụi mùa đông."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "clay phyllosilicates and carbonate minerals—compounds that form exclusively in the presence of persistent liquid water and neutral-to-alkaline pH conditions conducive to biological preservation. [Paragraph 2]",
+            "evidenceVi": "đất sét phyllosilicate và khoáng vật cacbonat — những hợp chất hình thành duy nhất khi có nước lỏng bền bỉ và độ pH trung tính đến kiềm thuận lợi cho việc bảo tồn dấu vết sinh học. [Đoạn 2]",
+            "explanation": "Đoạn 2 giải thích chính xác giá trị khoa học của hai loại khoáng vật này: chúng chỉ hình thành khi có nước lỏng tồn tại bền bỉ và có môi trường pH thuận lợi để bảo tồn dấu tích sinh học (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Ý nghĩa khoáng vật học (Factual)",
+              "cluePassage": "form exclusively in the presence of persistent liquid water and neutral-to-alkaline pH conditions conducive to biological preservation.",
+              "clueAnswer": "They form exclusively in persistent liquid water under chemical conditions favorable to preserving biological traces.",
+              "keyPassage": "exclusively in persistent liquid water... conditions conducive to biological preservation",
+              "keyAnswer": "exclusively in persistent liquid water... conditions favorable to preserving biological traces",
+              "paraphrasePair": "conducive to biological preservation <=> favorable to preserving biological traces",
+              "meaningVi": "thuận lợi cho bảo tồn sinh học <=> có lợi cho việc lưu giữ dấu vết sinh học",
+              "deductionLogic": "Paraphrase trực tiếp từ 'conducive' thành 'favorable'."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "What did the Curiosity rover discover inside Gale Crater according to paragraph 2?",
+            "questionVi": "Theo đoạn 2, tàu tự hành Curiosity đã phát hiện điều gì bên trong miệng hố Gale?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Complex organic carbon molecules and seasonal variations in atmospheric methane",
+              "Living bacterial colonies swimming in warm underground springs",
+              "Fossilized skeletons of multicellular marine animals",
+              "A deep liquid ocean covering the northern hemisphere today"
+            ],
+            "optionsVi": [
+              "A. Các phân tử carbon hữu cơ phức tạp và sự biến thiên theo mùa của khí mê-tan trong khí quyển",
+              "B. Các khuẩn lạc vi khuẩn đang sống bơi trong suối nước nóng ngầm",
+              "C. Các bộ xương hóa thạch của động vật biển đa bào",
+              "D. Một đại dương nước lỏng sâu bao phủ bán cầu bắc hiện nay"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Curiosity's decade-long ascent up Mount Sharp inside Gale Crater uncovered complex organic carbon molecules and seasonal fluctuations in atmospheric methane... [Paragraph 2]",
+            "evidenceVi": "Hành trình kéo dài một thập kỷ của Curiosity leo lên núi Sharp trong hố Gale đã phát hiện các phân tử carbon hữu cơ phức tạp và dao động khí mê-tan khí quyển theo mùa. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu rõ hai phát hiện của Curiosity: phân tử carbon hữu cơ phức tạp và biến thiên khí mê-tan theo mùa (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Phát hiện của tàu Curiosity (Factual)",
+              "cluePassage": "uncovered complex organic carbon molecules and seasonal fluctuations in atmospheric methane",
+              "clueAnswer": "Complex organic carbon molecules and seasonal variations in atmospheric methane",
+              "keyPassage": "complex organic carbon molecules and seasonal fluctuations in atmospheric methane",
+              "keyAnswer": "complex organic carbon molecules and seasonal variations in atmospheric methane",
+              "paraphrasePair": "seasonal fluctuations <=> seasonal variations",
+              "meaningVi": "sự dao động theo mùa <=> sự biến thiên theo mùa",
+              "deductionLogic": "Phương án B, C, D đều là bẫy phóng đại vượt quá dữ liệu khoa học thực tế."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "According to paragraph 3, what originally triggered the collapse of Mars's global magnetic field?",
+            "questionVi": "Theo đoạn 3, nguyên nhân gốc rễ nào đã kích hoạt sự sụp đổ của từ trường toàn cầu trên Sao Hỏa?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CƠ CHẾ (Cause & Effect)",
+            "options": [
+              "A catastrophic collision with an interstellar comet",
+              "The rapid cooling of the planet's relatively small metallic core",
+              "Excessive carbon-dioxide extraction by ancient Martian flora",
+              "Gravitational disruption caused by Jupiter's largest moons"
+            ],
+            "optionsVi": [
+              "A. Một vụ va chạm thảm khốc với sao chổi liên sao",
+              "B. Sự nguội đi nhanh chóng của lõi kim loại tương đối nhỏ của hành tinh",
+              "C. Sự hấp thụ CO2 quá mức của hệ thực vật Sao Hỏa cổ đại",
+              "D. Sự nhiễu loạn hấp dẫn do các mặt trăng lớn nhất của Sao Mộc gây ra"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "the collapse of Mars's global dipolar magnetic field approximately four billion years ago—triggered by the rapid cooling of the planet's relatively small metallic core—left its upper atmosphere defenseless... [Paragraph 3]",
+            "evidenceVi": "sự sụp đổ từ trường lưỡng cực toàn cầu của Sao Hỏa khoảng bốn tỷ năm trước — bắt nguồn từ sự nguội đi nhanh chóng của lõi kim loại tương đối nhỏ — đã khiến tầng khí quyển trên mất khả năng phòng vệ. [Đoạn 3]",
+            "explanation": "Đoạn 3 chỉ rõ nguyên nhân nằm giữa hai dấu gạch ngang: 'triggered by the rapid cooling of the planet's relatively small metallic core' (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chuỗi nhân quả địa vật lý (Cause & Effect)",
+              "cluePassage": "collapse of Mars's global dipolar magnetic field... triggered by the rapid cooling of the planet's relatively small metallic core",
+              "clueAnswer": "The rapid cooling of the planet's relatively small metallic core",
+              "keyPassage": "triggered by the rapid cooling of the planet's relatively small metallic core",
+              "keyAnswer": "The rapid cooling of the planet's relatively small metallic core",
+              "paraphrasePair": "triggered by <=> originally caused by",
+              "meaningVi": "bị kích hoạt bởi sự nguội nhanh của lõi kim loại nhỏ",
+              "deductionLogic": "Khớp nguyên văn chi tiết nguyên nhân cốt lõi trong đoạn 3."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "In paragraph 3, the term \"sputtering\" describes the process by which:",
+            "questionVi": "Trong đoạn 3, thuật ngữ \"sputtering\" mô tả quá trình nào sau đây?",
+            "questionType": "DẠNG 03: CHI TIẾT ĐỊNH NGHĨA (Factual Definition)",
+            "options": [
+              "underground volcanic vents release pressurized steam onto icy cliffs",
+              "charged solar wind particles strip atmospheric gases away into space",
+              "robotic drills grind solid basalt into fine powdery dust",
+              "polar ice caps melt rapidly during Martian summer equinoxes"
+            ],
+            "optionsVi": [
+              "A. các lỗ phun núi lửa ngầm giải phóng hơi nước áp suất cao lên vách băng",
+              "B. các hạt gió mặt trời mang điện tước bỏ khí quyển bay vào không gian",
+              "C. mũi khoan robot nghiền đá bazan rắn thành bụi mịn",
+              "D. chỏm băng hai cực tan chảy nhanh vào mùa hè Sao Hỏa"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "charged solar particles relentlessly stripped away atmospheric gases into interplanetary space through a process termed sputtering. [Paragraph 3]",
+            "evidenceVi": "các hạt mang điện từ mặt trời không ngừng tước bỏ các chất khí khí quyển ra không gian liên hành tinh thông qua quá trình gọi là 'sputtering'. [Đoạn 3]",
+            "explanation": "Đoạn 3 định nghĩa trực tiếp thuật ngữ 'sputtering' là quá trình các hạt gió mặt trời mang điện thổi bay/tước bỏ khí quyển vào không gian (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Định nghĩa thuật ngữ vật lý thiên văn (Definition)",
+              "cluePassage": "charged solar particles relentlessly stripped away atmospheric gases into interplanetary space through a process termed sputtering.",
+              "clueAnswer": "charged solar wind particles strip atmospheric gases away into space",
+              "keyPassage": "charged solar particles... stripped away atmospheric gases into interplanetary space... termed sputtering",
+              "keyAnswer": "charged solar wind particles strip atmospheric gases away into space",
+              "paraphrasePair": "a process termed sputtering <=> describes the process",
+              "meaningVi": "quá trình gọi là sputtering <=> hạt gió mặt trời tước bỏ khí quyển vào không gian",
+              "deductionLogic": "Cụm 'through a process termed...' luôn đưa ra định nghĩa ngay trước thuật ngữ."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "The word \"plummeted\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"plummeted\" trong đoạn 3 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "dropped sharply",
+              "stabilized gradually",
+              "fluctuated mildly",
+              "doubled unexpectedly"
+            ],
+            "optionsVi": [
+              "A. sụt giảm mạnh đột ngột",
+              "B. ổn định dần dần",
+              "C. dao động nhẹ",
+              "D. tăng gấp đôi bất ngờ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "As atmospheric pressure plummeted, surface liquid water could no longer remain stable, either evaporating into space or freezing into subterranean permafrost... [Paragraph 3]",
+            "evidenceVi": "Khi áp suất khí quyển lao dốc mạnh, nước lỏng trên bề mặt không còn duy trì trạng thái ổn định được nữa, buộc phải bay hơi vào vũ trụ hoặc đóng băng thành băng vĩnh cửu. [Đoạn 3]",
+            "explanation": "'Plummet' nghĩa là giảm mạnh đột ngột, lao dốc không phanh ('dropped sharply').",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "As atmospheric pressure plummeted, surface liquid water could no longer remain stable",
+              "clueAnswer": "dropped sharply",
+              "keyPassage": "atmospheric pressure plummeted",
+              "keyAnswer": "dropped sharply",
+              "paraphrasePair": "plummeted <=> dropped sharply",
+              "meaningVi": "lao dốc <=> sụt giảm mạnh đột ngột",
+              "deductionLogic": "Hệ quả của việc khí quyển bị gió mặt trời thổi bay là áp suất khí quyển tụt dốc thảm hại."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "According to paragraph 4, why do organic molecules alone NOT constitute definitive proof of past Martian life?",
+            "questionVi": "Theo đoạn 4, tại sao chỉ riêng sự hiện diện của các phân tử hữu cơ lại KHÔNG cấu thành bằng chứng dứt khoát về sự sống cổ đại trên Sao Hỏa?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Detail)",
+            "options": [
+              "Because non-biological geochemical reactions can also synthesize simple organic compounds",
+              "Because Perseverance failed to sterilize its titanium sample tubes before launch",
+              "Because carbon atoms cannot bond together outside Earth's gravity",
+              "Because organic molecules completely disintegrate inside clay deposits"
+            ],
+            "optionsVi": [
+              "A. Bởi vì các phản ứng địa hóa phi sinh học cũng có thể tổng hợp các hợp chất hữu cơ đơn giản",
+              "B. Bởi vì tàu Perseverance đã không tiệt trùng ống mẫu titan trước khi phóng",
+              "C. Bởi vì các nguyên tử carbon không thể liên kết ngoài trọng lực Trái Đất",
+              "D. Bởi vì các phân tử hữu cơ bị phân rã hoàn toàn bên trong lớp trầm tích đất sét"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "detecting organic molecules or habitable paleoenvironments does not constitute definitive proof of past extraterrestrial life, because abiotic geochemical reactions can also synthesize simple organic compounds. [Paragraph 4]",
+            "evidenceVi": "phát hiện phân tử hữu cơ hay cổ môi trường sống được không phải bằng chứng dứt khoát về sự sống ngoài Trái Đất, vì các phản ứng địa hóa phi sinh học cũng có thể tổng hợp hợp chất hữu cơ đơn giản. [Đoạn 4]",
+            "explanation": "Đoạn 4 giải thích rõ: 'abiotic' (phi sinh học / không có sự sống) phản ứng địa hóa tự nhiên vẫn tạo ra được các hợp chất hữu cơ đơn giản (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Lý do thận trọng khoa học (Factual)",
+              "cluePassage": "because abiotic geochemical reactions can also synthesize simple organic compounds.",
+              "clueAnswer": "Because non-biological geochemical reactions can also synthesize simple organic compounds",
+              "keyPassage": "abiotic geochemical reactions can also synthesize simple organic compounds",
+              "keyAnswer": "non-biological geochemical reactions can also synthesize simple organic compounds",
+              "paraphrasePair": "abiotic <=> non-biological",
+              "meaningVi": "vô sinh, phi sinh học <=> không mang nguồn gốc sinh học",
+              "deductionLogic": "Hiểu chính xác tiền tố phủ định 'a-' + 'biotic' = 'non-biological'."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "What is the primary rationale for the Mars Sample Return campaign described in paragraph 4?",
+            "questionVi": "Lý do cốt lõi của chiến dịch Thu hồi Mẫu vật Sao Hỏa (Mars Sample Return) được mô tả trong đoạn 4 là gì?",
+            "questionType": "DẠNG 03: MỤC ĐÍCH KHOA HỌC (Factual Purpose)",
+            "options": [
+              "To sell Martian titanium tubes to private space tourism collectors",
+              "To examine uncontaminated Martian rock cores using massive, ultra-precise Earth laboratory instruments too heavy to launch into space",
+              "To import Martian clay as agricultural fertilizer for desert farms on Earth",
+              "To dispose of radioactive batteries collected by older orbital satellites"
+            ],
+            "optionsVi": [
+              "A. Để bán các ống titan Sao Hỏa cho giới sưu tầm du lịch vũ trụ tư nhân",
+              "B. Để phân tích các lõi đá Sao Hỏa nguyên sơ bằng các thiết bị phòng thí nghiệm Trái Đất cực lớn, siêu chính xác vốn quá nặng không thể phóng lên vũ trụ",
+              "C. Để nhập khẩu đất sét Sao Hỏa làm phân bón nông nghiệp cho các trang trại sa mạc trên Trái Đất",
+              "D. Để xử lý pin phóng xạ thu gom từ các vệ tinh quỹ đạo cũ"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Analyzing these specimens within terrestrial laboratories equipped with synchrotron X-ray microscopes and isotopic mass spectrometers—instruments far too massive to launch aboard spacecraft—may finally determine whether life ever emerged independently beyond Earth. [Paragraph 4]",
+            "evidenceVi": "Phân tích các mẫu vật này trong phòng thí nghiệm Trái Đất với kính hiển vi tia X đồng bộ và khối phổ kế đồng vị — những thiết bị quá đồ sộ không thể phóng trên tàu vũ trụ — có thể giúp xác định dứt khoát liệu sự sống từng xuất hiện ngoài Trái Đất hay không. [Đoạn 4]",
+            "explanation": "Các thiết bị phân tích siêu chính xác như kính hiển vi tia X synchrotron và máy khối phổ đồng vị quá nặng và cồng kềnh để lắp lên tàu tự hành, nên bắt buộc phải mang mẫu đá nguyên sơ về phòng lab Trái Đất (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Lý do kỹ thuật (Factual Purpose)",
+              "cluePassage": "sealing pristine sedimentary rock cores... Analyzing these specimens within terrestrial laboratories equipped with... instruments far too massive to launch aboard spacecraft",
+              "clueAnswer": "To examine uncontaminated Martian rock cores using massive, ultra-precise Earth laboratory instruments too heavy to launch into space",
+              "keyPassage": "pristine rock cores... terrestrial laboratories... instruments far too massive to launch",
+              "keyAnswer": "uncontaminated Martian rock cores... massive Earth laboratory instruments too heavy to launch",
+              "paraphrasePair": "pristine... terrestrial... too massive <=> uncontaminated... Earth... too heavy",
+              "meaningVi": "nguyên sơ, trên Trái Đất, quá đồ sộ <=> chưa tạp nhiễm, Trái Đất, quá nặng",
+              "deductionLogic": "Paraphrase chuẩn 3 từ khóa khoa học trọng tâm của đoạn 4."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "Which of the following is NOT mentioned in the passage as a NASA spacecraft or mission?",
+            "questionVi": "Tàu vũ trụ hoặc sứ mệnh nào sau đây của NASA KHÔNG được đề cập trong bài đọc?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Curiosity",
+              "Perseverance",
+              "MAVEN",
+              "Voyager 2"
+            ],
+            "optionsVi": [
+              "A. Curiosity",
+              "B. Perseverance",
+              "C. MAVEN",
+              "D. Voyager 2"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "missions such as Curiosity, Perseverance, and the Mars Reconnaissance Orbiter... NASA's MAVEN (Mars Atmosphere and Volatile Evolution) orbiter. [Paragraphs 1-3]",
+            "evidenceVi": "các sứ mệnh như Curiosity, Perseverance, Mars Reconnaissance Orbiter... và vệ tinh quỹ đạo MAVEN của NASA. [Đoạn 1-3]",
+            "explanation": "Curiosity, Perseverance và MAVEN đều được phân tích cụ thể trong bài. Voyager 2 (tàu bay ngang các hành tinh vòng ngoài) không hề được nhắc tới (D).",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "Curiosity, Perseverance, Mars Reconnaissance Orbiter, MAVEN",
+              "clueAnswer": "Voyager 2",
+              "keyPassage": "Curiosity, Perseverance, MAVEN",
+              "keyAnswer": "Voyager 2 (Not mentioned)",
+              "paraphrasePair": "NOT in passage",
+              "meaningVi": "Không xuất hiện trong bài đọc",
+              "deductionLogic": "Quét tên riêng sứ mệnh nhanh trong bài để loại trừ A, B, C."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "Which statement best reflects the overarching conclusion of the passage?",
+            "questionVi": "Phát biểu nào phản ánh chính xác nhất kết luận bao quát của toàn bài đọc?",
+            "questionType": "DẠNG 07: KẾT LUẬN / Ý NGHĨA RỘNG (Broader Implication)",
+            "options": [
+              "NASA has definitively proven that intelligent Martian civilizations constructed ancient canals.",
+              "NASA's orbital and rover data establish Mars's ancient watery habitability and atmospheric loss, setting the stage for sample return to answer the question of past life.",
+              "Planetary geologists have concluded that Mars has always been an arid desert devoid of water.",
+              "Spacecraft instrumentation is already sufficient to prove microbial fossils without returning rocks to Earth."
+            ],
+            "optionsVi": [
+              "A. NASA đã chứng minh dứt khoát rằng các nền văn minh Sao Hỏa thông minh đã xây dựng kênh đào cổ đại.",
+              "B. Dữ liệu vệ tinh và tàu tự hành của NASA xác lập môi trường nước cổ đại và nguyên nhân mất khí quyển của Sao Hỏa, tạo tiền đề cho chiến dịch thu hồi mẫu vật giải đáp câu hỏi về sự sống quá khứ.",
+              "C. Các nhà địa chất hành tinh kết luận Sao Hỏa luôn là sa mạc khô cằn chưa từng có nước.",
+              "D. Thiết bị trên tàu vũ trụ đã đủ chứng minh hóa thạch vi sinh vật mà không cần mang đá về Trái Đất."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Mars was a far warmer, dynamically hydrated world... sputtering... Analyzing these specimens within terrestrial laboratories... may finally determine whether life ever emerged independently beyond Earth. [Paragraphs 1-4]",
+            "evidenceVi": "Sao Hỏa từng ấm áp và giàu nước... quá trình mất khí quyển sputtering... phân tích mẫu vật tại phòng thí nghiệm Trái Đất có thể giúp xác định liệu sự sống từng xuất hiện ngoài Trái Đất hay không. [Đoạn 1-4]",
+            "explanation": "Phương án B tổng hợp chuẩn xác chuỗi phát hiện khoa học xuyên suốt 4 đoạn: xác lập cổ thủy văn giàu nước (Đoạn 1-2), giải mã cơ chế mất từ trường và khí quyển (Đoạn 3), và bước ngoặt Mars Sample Return để xác định dứt khoát dấu vết sự sống (Đoạn 4).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Tổng kết toàn bài (Broader Implication)",
+              "cluePassage": "ancient wet epoch... atmospheric gases stripped away... Mars Sample Return... determine whether life ever emerged independently beyond Earth",
+              "clueAnswer": "NASA's orbital and rover data establish Mars's ancient watery habitability and atmospheric loss, setting the stage for sample return to answer the question of past life.",
+              "keyPassage": "hydrated world... stripped away atmospheric gases... sample return... determine whether life emerged",
+              "keyAnswer": "ancient watery habitability... atmospheric loss... sample return to answer question of past life",
+              "paraphrasePair": "determine whether life emerged <=> answer the question of past life",
+              "meaningVi": "xác định liệu sự sống có từng xuất hiện <=> giải đáp câu hỏi về sự sống trong quá khứ",
+              "deductionLogic": "A, C, D đều mâu thuẫn trực tiếp với các dữ kiện khoa học trong bài."
             }
           }
         ]
