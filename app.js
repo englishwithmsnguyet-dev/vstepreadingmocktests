@@ -1544,6 +1544,7 @@ function renderPracticeView() {
     const test15 = tests.find(t => t.testNum === 15);
     const test16 = tests.find(t => t.testNum === 16);
     const test17 = tests.find(t => t.testNum === 17);
+    const test18 = tests.find(t => t.testNum === 18);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -2754,90 +2755,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 8. BỘ ĐỀ THỰC CHIẾN 08 (TEST 18) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 8. BỘ ĐỀ THỰC CHIẾN 08 (TEST 18) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite18') {
+        const savedAnsCount18 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 18) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved18 = state.savedExam && state.savedExam.testNum === 18 && savedAnsCount18 > 0;
+        const totalVocab18 = (test18 && test18.passages) ? test18.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta18 = [
+            {
+                testNum: 18,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'heritage',
+                categoryName: 'Địa chất & Di sản UNESCO',
+                categoryColor: '#0d9488',
+                badgeBg: '#f0fdfa',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Ha Long Bay',
+                icon: 'fa-mountain-sun',
+                title: 'Ha Long Bay: Karst Wonder & Sustainable Heritage',
+                titleVi: 'Vịnh Hạ Long: Địa chất Karst 500 triệu năm & Quản trị du lịch bền vững',
+                summary: 'Khám phá địa mạo karst đá vôi chìm, ranh giới mở rộng UNESCO 2023 cùng Cát Bà, hệ sinh thái tùng - áng và các biện pháp bảo tồn biển trước áp lực du lịch đại trà.'
+            },
+            {
+                testNum: 18,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'politics',
+                categoryName: 'Chính trị học & Hiến pháp Mỹ',
+                categoryColor: '#059669',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: US Electoral System (Trump & Biden)',
+                icon: 'fa-landmark-dome',
+                title: 'The US Electoral System & Modern Presidencies',
+                titleVi: 'Hệ thống Đại cử tri Mỹ & Đối chiếu nhiệm kỳ Donald Trump - Joe Biden',
+                summary: 'Giải mã cơ chế 538 phiếu Đại cử tri, nguyên tắc thắng lấy hết ở các bang chiến địa và đối chiếu định hướng chính sách kinh tế - đối ngoại giữa nhiệm kỳ Trump và Biden.'
+            },
+            {
+                testNum: 18,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'economics',
+                categoryName: 'Kinh tế vĩ mô & Y tế công cộng',
+                categoryColor: '#d97706',
+                badgeBg: '#fffbeb',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: The COVID-19 Pandemic Impacts',
+                icon: 'fa-globe',
+                title: 'Structural & Macroeconomic Impacts of COVID-19',
+                titleVi: 'Tác động vĩ mô của COVID-19: Chuỗi cung ứng, Việc làm từ xa & Công bằng y tế',
+                summary: 'Phân tích đứt gãy chuỗi cung ứng just-in-time, làn sóng lạm phát toàn cầu, khoảng cách giữa lao động tri thức - tuyến đầu và bài học công bằng vắc-xin.'
+            },
+            {
+                testNum: 18,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'media',
+                categoryName: 'Truyền thông & Đạo đức phát sóng',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Reality Television Shows',
+                icon: 'fa-video',
+                title: 'Reality Television: Manufactured Authenticity & Ethics',
+                titleVi: 'Truyền hình thực tế: Kịch bản dựng sẵn, Tâm lý khán giả & Đạo đức truyền thông',
+                summary: 'Bóc tách kỹ thuật tuyển vai đóng khung và cắt ghép Frankenbiting, tâm lý so sánh xã hội hướng xuống của khán giả cùng quy định chăm sóc tâm lý thí sinh sau phát sóng.'
+            }
+        ];
+
+        let pCardsHtml18 = '';
+        passagesMeta18.forEach(meta => {
+            const pData = (test18 && test18.passages) ? test18.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml18 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-18">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-08" id="suite-box-18">
+                <div class="practice-suite-header suite-header-08">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(20, 184, 166, 0.25); color: #5eead4; border-color: rgba(20, 184, 166, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 08 (TEST 18) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #99f6e4;"></i> BỘ ĐỀ THỰC CHIẾN 08 (TEST 18) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 08 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Vịnh Hạ Long (Part 1) • Bầu cử Mỹ & Nhiệm kỳ Tổng thống (Part 2) • Tác động đại dịch COVID-19 (Part 3) • Truyền hình thực tế (Part 4)
+                            <strong>4 Topics:</strong> Vịnh Hạ Long (Part 1) • Bầu cử Mỹ & Nhiệm kỳ Tổng thống (Part 2) • Tác động vĩ mô đại dịch COVID-19 (Part 3) • Truyền hình thực tế & Đạo đức truyền thông (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật sát thực tế</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab18} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(18)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab18} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved18 ? 'background: linear-gradient(135deg, #d97706, #f59e0b) !important;' : ''}" onclick="${isSaved18 ? 'resumeSavedExam()' : 'startFullExam(18)'}">
+                            ${isSaved18 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount18}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(18)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #14b8a6;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 08):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Ha Long Bay: Geological Wonder</h4>
-                                <h5>Vịnh Hạ Long: Kỳ quan địa mạo Karst & Di sản thiên nhiên thế giới</h5>
-                                <p>Lịch sử kiến tạo địa chất 500 triệu năm, sự đa dạng sinh học độc đáo của các đảo đá vôi và thách thức phát triển du lịch sinh thái bền vững.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#14b8a6;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>The US Electoral System & Presidencies</h4>
-                                <h5>Hệ thống bầu cử Tổng thống Mỹ: Đại cử tri đoàn & Nhiệm kỳ Joe Biden - Donald Trump</h5>
-                                <p>Cơ chế hoạt động của Cử tri đoàn (Electoral College), hiện tượng bang chiến địa (swing states) và phân tích các chính sách then chốt dưới hai nhiệm kỳ tổng thống.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>Long-term Impacts of COVID-19</h4>
-                                <h5>Tác động đa chiều của đại dịch COVID-19: Kinh tế, giáo dục & Cấu trúc việc làm</h5>
-                                <p>Phân tích sự đứt gãy chuỗi cung ứng toàn cầu, bước chuyển sang làm việc từ xa (hybrid working) và di chứng sức khỏe tâm thần hậu đại dịch.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>The Rise of Reality Television</h4>
-                                <h5>Xã hội học truyền thông: Sự trỗi dậy và tâm lý học của chương trình truyền hình thực tế</h5>
-                                <p>Giải mã sức hút tò mò nhìn trộm (voyeurism), cơ chế kịch bản hóa xung đột cảm xúc và tác động của truyền hình thực tế đối với nhận thức danh tiếng trong giới trẻ.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml18}
                     </div>
                 </div>
             </div>

@@ -39174,6 +39174,2845 @@ const READING_MOCK_TESTS = [
         ]
       }
     ]
+  },
+  {
+    "testId": "TEST18",
+    "testNum": 18,
+    "title": "VSTEP READING MOCK TEST 18",
+    "description": "Bộ đề thi thử Đọc hiểu VSTEP Thực chiến số 08 (Đầy đủ 4 Passages - 40 câu hỏi - Chuẩn B1-B2-C1)",
+    "duration": 3600,
+    "passages": [
+      {
+        "partId": 1,
+        "title": "Passage 1: Ha Long Bay: Karst Wonder & Sustainable Heritage",
+        "topic": "Vịnh Hạ Long: Địa chất karst đá vôi, Di sản UNESCO & Quản trị du lịch bền vững",
+        "timeAllowed": 15,
+        "passage": "<p>Located in Quang Ninh Province along Vietnam's northeastern coastline, Ha Long Bay is celebrated worldwide as a breathtaking seascape of emerald waters punctuated by more than 1,600 towering limestone islands and uninhabited islets. Its poetic Vietnamese name—meaning 'Descending Dragon'—stems from an ancient legend recounting how celestial dragons descended from heaven to defend early inhabitants against maritime invaders, spitting jewels and jade that solidified into an impenetrable fortress of rocky pillars. Scientifically, however, this dramatic labyrinth is a masterpiece of drowned karst geomorphology shaped over 500 million years by tectonic uplift, tropical monsoon rains, and repeated marine transgressions that dissolved thick beds of carbonate rock into vaulted grottoes, tidal arches, and sheer cliffs.</p><p>Recognizing both its incomparable natural aesthetics and its exceptional geological value, UNESCO inscribed Ha Long Bay as a World Heritage Site in 1994 and extended the designation in 2000—later expanding the heritage boundary in 2023 to encompass the neighboring Cat Ba Archipelago. Beyond scenic grandeur, the bay harbors extraordinary ecological richness, uniting coral reefs, seagrass meadows, mangrove fringes, and saltwater lakes trapped inside hollow islands (locally termed 'tùng' and 'áng'). These isolated micro-habitats shelter hundreds of mollusk and fish species alongside endemic flora clinging precariously to vertical limestone crevices.</p><p>Historically, the bay also sustained unique human communities inside floating fishing villages such as Cua Van and Vung Vieng, where generations of seafaring families lived aboard wooden houseboats, cultivated pearl oysters, and adapted seamlessly to lunar tides. Yet the explosive rise of mass tourism over the past two decades—drawing millions of domestic and international cruise passengers annually—has placed intense pressure on this fragile marine sanctuary. Diesel exhaust from hundreds of excursion boats, plastic litter drifting from coastal urban sprawl, and untreated wastewater threatened water clarity and coral vitality, prompting UNESCO conservation advisors to urge stricter environmental safeguards.</p><p>In response, provincial authorities and conservationists have initiated an ambitious pivot toward sustainable heritage governance. Measures include banning single-use plastics aboard tourist vessels, mandating onboard wastewater filtration systems, capping daily visitor quotas at sensitive caves, and relocating floating households to modern onshore housing while preserving traditional boats as living cultural museums. By harmonizing tourism revenues with rigorous marine stewardship, Ha Long Bay seeks to ensure that its sculpted limestone spires remain pristine for generations to come.</p>",
+        "vocab": [
+          {
+            "word": "seascape",
+            "pos": "n",
+            "ipa": "/ˈsiː.skeɪp/",
+            "level": "B2",
+            "mean": "cảnh quan biển đảo",
+            "syns": [
+              "marine scenery",
+              "ocean view",
+              "coastal vista"
+            ],
+            "ex": "Ha Long Bay's misty limestone seascape attracts photographers from every continent."
+          },
+          {
+            "word": "islet",
+            "pos": "n",
+            "ipa": "/ˈaɪ.lət/",
+            "level": "B2",
+            "mean": "hòn đảo đá nhỏ",
+            "syns": [
+              "small island",
+              "cay",
+              "atoll"
+            ],
+            "ex": "Over a thousand uninhabited limestone islets rise vertically from the emerald bay."
+          },
+          {
+            "word": "impenetrable",
+            "pos": "adj",
+            "ipa": "/ɪmˈpen.ɪ.trə.bəl/",
+            "level": "C1",
+            "mean": "bất khả xâm phạm, không thể xuyên thủng",
+            "syns": [
+              "impassable",
+              "impervious",
+              "invincible"
+            ],
+            "ex": "Legend describes the jagged islands as an impenetrable natural barrier against fleets."
+          },
+          {
+            "word": "labyrinth",
+            "pos": "n",
+            "ipa": "/ˈlæb.ə.rɪnθ/",
+            "level": "C1",
+            "mean": "mê cung phức tạp",
+            "syns": [
+              "maze",
+              "network",
+              "web"
+            ],
+            "ex": "Kayakers paddle quietly through a tranquil labyrinth of sheltered saltwater lagoons."
+          },
+          {
+            "word": "geomorphology",
+            "pos": "n",
+            "ipa": "/ˌdʒiː.əʊ.mɔːˈfɒl.ə.dʒi/",
+            "level": "C1",
+            "mean": "địa mạo học (khoa học về hình thái địa hình)",
+            "syns": [
+              "landform science",
+              "topography"
+            ],
+            "ex": "UNESCO recognized Ha Long Bay as a textbook site of mature karst geomorphology."
+          },
+          {
+            "word": "tectonic",
+            "pos": "adj",
+            "ipa": "/tekˈtɒn.ɪk/",
+            "level": "B2",
+            "mean": "thuộc kiến tạo vỏ Trái Đất",
+            "syns": [
+              "crustal",
+              "geological",
+              "structural"
+            ],
+            "ex": "Slow tectonic uplift raised ancient marine limestone beds high above sea level."
+          },
+          {
+            "word": "grotto",
+            "pos": "n",
+            "ipa": "/ˈɡrɒt.əʊ/",
+            "level": "C1",
+            "mean": "hang động đá vôi tự nhiên",
+            "syns": [
+              "cavern",
+              "cave",
+              "chamber"
+            ],
+            "ex": "Stalactites and stalagmites adorn the vaulted ceilings of Sung Sot Grotto."
+          },
+          {
+            "word": "inscribe",
+            "pos": "v",
+            "ipa": "/ɪnˈskraɪb/",
+            "level": "C1",
+            "mean": "ghi danh chính thức (vào danh sách di sản)",
+            "syns": [
+              "register",
+              "enlist",
+              "designate"
+            ],
+            "ex": "UNESCO chose to inscribe Ha Long Bay on the World Heritage List in 1994."
+          },
+          {
+            "word": "archipelago",
+            "pos": "n",
+            "ipa": "/ˌɑː.kɪˈpel.ə.ɡəʊ/",
+            "level": "C1",
+            "mean": "quần đảo",
+            "syns": [
+              "island chain",
+              "island group"
+            ],
+            "ex": "The 2023 extension united Ha Long Bay with the biodiverse Cat Ba Archipelago."
+          },
+          {
+            "word": "grandeur",
+            "pos": "n",
+            "ipa": "/ˈɡræn.dʒər/",
+            "level": "C1",
+            "mean": "vẻ hùng vĩ, tráng lệ uy nghi",
+            "syns": [
+              "magnificence",
+              "splendor",
+              "majesty"
+            ],
+            "ex": "Morning fog enhances the silent grandeur of the towering karst cliffs."
+          },
+          {
+            "word": "endemic",
+            "pos": "adj",
+            "ipa": "/enˈdem.ɪk/",
+            "level": "C1",
+            "mean": "đặc hữu, chỉ tồn tại ở một vùng địa lý nhất định",
+            "syns": [
+              "native",
+              "indigenous",
+              "unique to"
+            ],
+            "ex": "Rare endemic orchids bloom exclusively on shaded limestone cliffs in the bay."
+          },
+          {
+            "word": "precariously",
+            "pos": "adv",
+            "ipa": "/prɪˈkeə.ri.əs.li/",
+            "level": "C1",
+            "mean": "chênh vênh, bấp bênh trên vách đá",
+            "syns": [
+              "perilously",
+              "unsteadily",
+              "dangerously"
+            ],
+            "ex": "Hardy dwarf palms cling precariously to narrow vertical rock crevices."
+          },
+          {
+            "word": "crevice",
+            "pos": "n",
+            "ipa": "/ˈkrev.ɪs/",
+            "level": "C1",
+            "mean": "khe nứt đá nhỏ hẹp",
+            "syns": [
+              "fissure",
+              "crack",
+              "cleft"
+            ],
+            "ex": "Wind-blown seeds take root inside tiny crevices carved by tropical rain."
+          },
+          {
+            "word": "seafaring",
+            "pos": "adj",
+            "ipa": "/ˈsiː.feə.rɪŋ/",
+            "level": "B2",
+            "mean": "gắn bó với biển cả, đi biển mưu sinh",
+            "syns": [
+              "maritime",
+              "nautical",
+              "ocean-going"
+            ],
+            "ex": "Seafaring families developed intricate knowledge of monsoon winds and tidal currents."
+          },
+          {
+            "word": "sanctuary",
+            "pos": "n",
+            "ipa": "/ˈsæŋk.tʃʊə.ri/",
+            "level": "B2",
+            "mean": "khu bảo tồn thiên nhiên, nơi trú ẩn an toàn",
+            "syns": [
+              "refuge",
+              "reserve",
+              "haven"
+            ],
+            "ex": "Protecting coral nurseries turns the bay into a thriving marine sanctuary."
+          },
+          {
+            "word": "excursion",
+            "pos": "n",
+            "ipa": "/ɪkˈskɜː.ʃən/",
+            "level": "B2",
+            "mean": "chuyến tham quan du ngoạn ngắn ngày",
+            "syns": [
+              "outing",
+              "trip",
+              "voyage"
+            ],
+            "ex": "Hundreds of excursion boats depart Tuan Chau harbor every morning."
+          },
+          {
+            "word": "sprawl",
+            "pos": "n",
+            "ipa": "/sprɔːl/",
+            "level": "C1",
+            "mean": "sự mở rộng đô thị dàn trải thiếu kiểm soát",
+            "syns": [
+              "expansion",
+              "spread",
+              "encroachment"
+            ],
+            "ex": "Rapid coastal urban sprawl increases stormwater runoff into surrounding bays."
+          },
+          {
+            "word": "safeguard",
+            "pos": "n",
+            "ipa": "/ˈseɪf.ɡɑːd/",
+            "level": "B2",
+            "mean": "biện pháp bảo vệ, cơ chế phòng ngừa",
+            "syns": [
+              "protection",
+              "measure",
+              "precaution"
+            ],
+            "ex": "Stricter environmental safeguards require all cruise ships to treat wastewater."
+          },
+          {
+            "word": "mandate",
+            "pos": "v",
+            "ipa": "/ˈmæn.deɪt/",
+            "level": "C1",
+            "mean": "quy định bắt buộc theo luật",
+            "syns": [
+              "require",
+              "compel",
+              "order"
+            ],
+            "ex": "Local rules mandate that tour operators replace disposable bottles with glass."
+          },
+          {
+            "word": "quota",
+            "pos": "n",
+            "ipa": "/ˈkwəʊ.tə/",
+            "level": "B2",
+            "mean": "hạn ngạch, giới hạn số lượng tối đa",
+            "syns": [
+              "limit",
+              "cap",
+              "allocation"
+            ],
+            "ex": "Daily visitor quotas prevent overcrowding inside delicate limestone caves."
+          },
+          {
+            "word": "stewardship",
+            "pos": "n",
+            "ipa": "/ˈstjuː.əd.ʃɪp/",
+            "level": "C1",
+            "mean": "trách nhiệm quản lý và gìn giữ bền vững",
+            "syns": [
+              "guardianship",
+              "conservation",
+              "management"
+            ],
+            "ex": "Community marine stewardship ensures local residents benefit from clean waters."
+          },
+          {
+            "word": "spire",
+            "pos": "n",
+            "ipa": "/spaɪər/",
+            "level": "C1",
+            "mean": "đỉnh nhọn vươn cao (trụ đá)",
+            "syns": [
+              "pinnacle",
+              "peak",
+              "tower"
+            ],
+            "ex": "Sunlight illuminates the jagged limestone spires rising above calm waves."
+          },
+          {
+            "word": "pristine",
+            "pos": "adj",
+            "ipa": "/ˈprɪs.tiːn/",
+            "level": "C1",
+            "mean": "nguyên sơ, trong lành sạch đẹp",
+            "syns": [
+              "unspoiled",
+              "untouched",
+              "immaculate"
+            ],
+            "ex": "Strict anti-litter campaigns keep remote lagoon waters remarkably pristine."
+          },
+          {
+            "word": "dissolve",
+            "pos": "v",
+            "ipa": "/dɪˈzɒlv/",
+            "level": "B2",
+            "mean": "hòa tan, bào mòn hóa học (đá vôi)",
+            "syns": [
+              "erode",
+              "melt away",
+              "break down"
+            ],
+            "ex": "Slightly acidic rainwater slowly acts to dissolve soluble carbonate limestone."
+          },
+          {
+            "word": "encompass",
+            "pos": "v",
+            "ipa": "/ɪnˈkʌm.pəs/",
+            "level": "C1",
+            "mean": "bao gồm, mở rộng phạm vi gồm cả",
+            "syns": [
+              "include",
+              "incorporate",
+              "cover"
+            ],
+            "ex": "The expanded UNESCO zone now acts to encompass both Ha Long and Cat Ba."
+          },
+          {
+            "word": "sheer",
+            "pos": "adj",
+            "ipa": "/ʃɪər/",
+            "level": "B2",
+            "mean": "dốc đứng gần như thẳng góc",
+            "syns": [
+              "steep",
+              "vertical",
+              "precipitous"
+            ],
+            "ex": "Sheer rock cliffs plunge directly into deep turquoise coastal waters."
+          },
+          {
+            "word": "solidify",
+            "pos": "v",
+            "ipa": "/səˈlɪd.ɪ.faɪ/",
+            "level": "B2",
+            "mean": "đông cứng lại, hóa thành đá rắn",
+            "syns": [
+              "harden",
+              "set",
+              "crystallize"
+            ],
+            "ex": "In folklore, dragon jewels fell into the sea and began to solidify into islands."
+          }
+        ],
+        "questions": [
+          {
+            "id": 1,
+            "num": 1,
+            "question": "How does paragraph 1 scientifically explain the formation of Ha Long Bay's limestone islands?",
+            "questionVi": "Đoạn 1 giải thích về mặt khoa học sự hình thành các đảo đá vôi tại Vịnh Hạ Long như thế nào?",
+            "questionType": "DẠNG 03: CHI TIẾT KHOA HỌC (Factual Mechanism)",
+            "options": [
+              "Through recent volcanic eruptions that cooled beneath tropical monsoon waters",
+              "Through 500 million years of tectonic uplift, monsoon rainfall, and sea-level changes dissolving carbonate rock",
+              "Through artificial stone walls erected by ancient maritime kingdoms",
+              "Through glacial ice sheets carving deep canyons across northern Vietnam"
+            ],
+            "optionsVi": [
+              "A. Thông qua các đợt phun trào núi lửa gần đây nguội đi dưới nước gió mùa",
+              "B. Thông qua 500 triệu năm nâng kiến tạo, mưa gió mùa và biển tiến lặp lại hòa tan đá cacbonat",
+              "C. Thông qua các bức tường đá nhân tạo do các vương quốc hàng hải cổ dựng nên",
+              "D. Thông qua các tảng băng hà bào mòn thành hẻm núi sâu ở miền Bắc Việt Nam"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "a masterpiece of drowned karst geomorphology shaped over 500 million years by tectonic uplift, tropical monsoon rains, and repeated marine transgressions that dissolved thick beds of carbonate rock... [Paragraph 1]",
+            "evidenceVi": "kiệt tác địa mạo karst chìm được kiến tạo suốt 500 triệu năm bởi sự nâng kiến tạo, mưa gió mùa nhiệt đới và các đợt biển tiến lặp lại hòa tan tầng đá cacbonat dày. [Đoạn 1]",
+            "explanation": "Đoạn 1 phân biệt giữa truyền thuyết Rồng hạ thế và lời giải thích khoa học: 500 triệu năm kiến tạo, mưa nhiệt đới và biển tiến hòa tan đá vôi cacbonat (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế địa chất (Factual Mechanism)",
+              "cluePassage": "shaped over 500 million years by tectonic uplift, tropical monsoon rains, and repeated marine transgressions that dissolved thick beds of carbonate rock",
+              "clueAnswer": "Through 500 million years of tectonic uplift, monsoon rainfall, and sea-level changes dissolving carbonate rock",
+              "keyPassage": "500 million years... tectonic uplift, tropical monsoon rains, repeated marine transgressions... dissolved carbonate rock",
+              "keyAnswer": "500 million years... tectonic uplift, monsoon rainfall, sea-level changes dissolving carbonate rock",
+              "paraphrasePair": "marine transgressions <=> sea-level changes",
+              "meaningVi": "các đợt biển tiến <=> sự thay đổi mực nước biển",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": 2,
+            "num": 2,
+            "question": "What milestone occurred in 2023 regarding Ha Long Bay's UNESCO status in paragraph 2?",
+            "questionVi": "Cột mốc nào đã diễn ra vào năm 2023 liên quan đến danh hiệu UNESCO của Vịnh Hạ Long trong đoạn 2?",
+            "questionType": "DẠNG 03: CHI TIẾT THỜI GIAN (Factual Detail)",
+            "options": [
+              "Ha Long Bay was removed from the World Heritage List due to cruise traffic.",
+              "The heritage boundary was expanded to include the neighboring Cat Ba Archipelago.",
+              "UNESCO recognized the bay for the very first time in its history.",
+              "The site was reclassified strictly as a cultural rather than natural monument."
+            ],
+            "optionsVi": [
+              "A. Vịnh Hạ Long bị rút khỏi danh sách Di sản Thế giới do tàu du lịch.",
+              "B. Ranh giới di sản được mở rộng để bao gồm cả Quần đảo Cát Bà lân cận.",
+              "C. UNESCO lần đầu tiên trong lịch sử công nhận vịnh này.",
+              "D. Địa danh bị phân loại lại thuần túy là di tích văn hóa thay vì thiên nhiên."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "later expanding the heritage boundary in 2023 to encompass the neighboring Cat Ba Archipelago. [Paragraph 2]",
+            "evidenceVi": "sau đó mở rộng ranh giới di sản vào năm 2023 để bao gồm cả Quần đảo Cát Bà kế cận. [Đoạn 2]",
+            "explanation": "Đoạn 2 ghi rõ: lần đầu ghi danh năm 1994, mở rộng năm 2000 và năm 2023 tiếp tục mở rộng bao gồm cả Quần đảo Cát Bà (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cột mốc lịch sử UNESCO (Factual)",
+              "cluePassage": "expanding the heritage boundary in 2023 to encompass the neighboring Cat Ba Archipelago.",
+              "clueAnswer": "The heritage boundary was expanded to include the neighboring Cat Ba Archipelago.",
+              "keyPassage": "expanding the heritage boundary in 2023 to encompass the neighboring Cat Ba Archipelago",
+              "keyAnswer": "heritage boundary was expanded to include the neighboring Cat Ba Archipelago",
+              "paraphrasePair": "encompass <=> include",
+              "meaningVi": "bao trùm bao gồm <=> bao gồm cả",
+              "deductionLogic": "Khớp trực tiếp câu 1 đoạn 2."
+            }
+          },
+          {
+            "id": 3,
+            "num": 3,
+            "question": "In paragraph 2, what are 'tùng' and 'áng'?",
+            "questionVi": "Trong đoạn 2, 'tùng' và 'áng' là gì?",
+            "questionType": "DẠNG 03: CHI TIẾT ĐỊNH NGHĨA (Factual Definition)",
+            "options": [
+              "Traditional wooden houseboats constructed by pearl farmers",
+              "Saltwater lakes trapped inside hollow limestone islands",
+              "Ancient celestial dragons depicted in regional folklore",
+              "Onboard wastewater filtration devices required on cruise ships"
+            ],
+            "optionsVi": [
+              "A. Nhà thuyền gỗ truyền thống do ngư dân nuôi ngọc trai đóng",
+              "B. Các hồ nước mặn nằm khép kín bên trong những đảo đá vôi rỗng",
+              "C. Những con rồng trời cổ đại trong truyền thuyết địa phương",
+              "D. Thiết bị lọc nước thải bắt buộc lắp đặt trên tàu du lịch"
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "and saltwater lakes trapped inside hollow islands (locally termed 'tùng' and 'áng'). [Paragraph 2]",
+            "evidenceVi": "và những hồ nước mặn bị giữ lại bên trong các đảo rỗng (địa phương gọi là 'tùng' và 'áng'). [Đoạn 2]",
+            "explanation": "Đoạn 2 định nghĩa rõ trong ngoặc đơn: 'tùng' và 'áng' là các hồ nước mặn khép kín bên trong lòng đảo đá vôi rỗng (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Định nghĩa thuật ngữ địa phương (Definition)",
+              "cluePassage": "saltwater lakes trapped inside hollow islands (locally termed 'tùng' and 'áng')",
+              "clueAnswer": "Saltwater lakes trapped inside hollow limestone islands",
+              "keyPassage": "saltwater lakes trapped inside hollow islands",
+              "keyAnswer": "Saltwater lakes trapped inside hollow limestone islands",
+              "paraphrasePair": "locally termed <=> defined as",
+              "meaningVi": "được địa phương gọi là 'tùng' và 'áng'",
+              "deductionLogic": "Định nghĩa nằm ngay trước cụm mở ngoặc đơn."
+            }
+          },
+          {
+            "id": 4,
+            "num": 4,
+            "question": "The word \"endemic\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"endemic\" trong đoạn 2 gần nghĩa nhất với cụm từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "native and unique to a region",
+              "rapidly imported from abroad",
+              "completely extinct worldwide",
+              "artificially pruned by gardeners"
+            ],
+            "optionsVi": [
+              "A. bản địa và đặc hữu riêng của một vùng",
+              "B. được nhập khẩu nhanh từ nước ngoài",
+              "C. đã tuyệt chủng hoàn toàn trên thế giới",
+              "D. được thợ làm vườn cắt tỉa nhân tạo"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "These isolated micro-habitats shelter hundreds of mollusk and fish species alongside endemic flora clinging precariously to vertical limestone crevices. [Paragraph 2]",
+            "evidenceVi": "Các vi sinh cảnh biệt lập này che chở hàng trăm loài nhuyễn thể, cá cùng hệ thực vật đặc hữu bám chênh vênh trên khe vách đá vôi đứng. [Đoạn 2]",
+            "explanation": "'Endemic' trong sinh thái học nghĩa là loài đặc hữu, bản địa chỉ tồn tại ở một vùng sinh thái nhất định ('native and unique to a region') (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa sinh thái (Vocabulary)",
+              "cluePassage": "isolated micro-habitats shelter... endemic flora",
+              "clueAnswer": "native and unique to a region",
+              "keyPassage": "isolated micro-habitats... endemic flora",
+              "keyAnswer": "native and unique to a region",
+              "paraphrasePair": "endemic <=> native and unique to a region",
+              "meaningVi": "đặc hữu <=> bản địa và độc hữu của một vùng",
+              "deductionLogic": "Bối cảnh 'isolated micro-habitats' (vi sinh cảnh biệt lập) củng cố nghĩa loài đặc hữu."
+            }
+          },
+          {
+            "id": 5,
+            "num": 5,
+            "question": "According to paragraph 3, what environmental pressures accompanied the rapid expansion of mass tourism in Ha Long Bay?",
+            "questionVi": "Theo đoạn 3, những áp lực môi trường nào đi kèm với sự bùng nổ du lịch đại trà tại Vịnh Hạ Long?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Boat diesel exhaust, drifting plastic waste from coastal urban growth, and untreated wastewater",
+              "Oil pipeline explosions triggered by deep-sea polar icebreakers",
+              "Excessive logging of inland cedar forests for paper factories",
+              "Severe volcanic lava flows heating underwater seagrass meadows"
+            ],
+            "optionsVi": [
+              "A. Khí thải diesel từ tàu thuyền, rác thải nhựa trôi dạt từ đô thị hóa ven bờ và nước thải chưa qua xử lý",
+              "B. Các vụ nổ đường ống dầu do tàu phá băng vùng cực gây ra",
+              "C. Nạn khai thác quá mức rừng tuyết tùng nội địa cho nhà máy giấy",
+              "D. Các dòng dung nham núi lửa làm nóng thảm cỏ biển dưới nước"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Diesel exhaust from hundreds of excursion boats, plastic litter drifting from coastal urban sprawl, and untreated wastewater threatened water clarity and coral vitality... [Paragraph 3]",
+            "evidenceVi": "Khí thải diesel từ hàng trăm tàu tham quan, rác nhựa trôi từ khu đô thị ven bờ mở rộng và nước thải chưa xử lý đe dọa độ trong của nước và sức sống san hô. [Đoạn 3]",
+            "explanation": "Đoạn 3 liệt kê chính xác 3 nguồn ô nhiễm: khí thải diesel tàu du lịch, rác nhựa từ đô thị hóa ven bờ và nước thải chưa xử lý (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Áp lực môi trường (Factual)",
+              "cluePassage": "Diesel exhaust from hundreds of excursion boats, plastic litter drifting from coastal urban sprawl, and untreated wastewater",
+              "clueAnswer": "Boat diesel exhaust, drifting plastic waste from coastal urban growth, and untreated wastewater",
+              "keyPassage": "diesel exhaust... plastic litter... coastal urban sprawl... untreated wastewater",
+              "keyAnswer": "boat diesel exhaust, drifting plastic waste from coastal urban growth, untreated wastewater",
+              "paraphrasePair": "urban sprawl <=> urban growth",
+              "meaningVi": "đô thị hóa lan rộng <=> sự mở rộng đô thị",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 6,
+            "num": 6,
+            "question": "Which of the following is NOT mentioned in paragraph 4 as a sustainability policy adopted for Ha Long Bay?",
+            "questionVi": "Chính sách nào sau đây KHÔNG được đề cập trong đoạn 4 như một biện pháp phát triển bền vững tại Vịnh Hạ Long?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Banning single-use plastics aboard tour boats",
+              "Requiring onboard wastewater filtration systems on vessels",
+              "Setting daily caps on visitor numbers inside sensitive caves",
+              "Permanently closing Ha Long Bay to all international tourists"
+            ],
+            "optionsVi": [
+              "A. Cấm đồ nhựa dùng một lần trên các tàu du lịch",
+              "B. Bắt buộc lắp đặt hệ thống lọc nước thải ngay trên tàu",
+              "C. Áp dụng hạn mức giới hạn lượt khách mỗi ngày tại các hang động nhạy cảm",
+              "D. Đóng cửa vĩnh viễn Vịnh Hạ Long đối với toàn bộ du khách quốc tế"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "banning single-use plastics aboard tourist vessels, mandating onboard wastewater filtration systems, capping daily visitor quotas at sensitive caves... harmonizing tourism revenues with rigorous marine stewardship. [Paragraph 4]",
+            "evidenceVi": "cấm nhựa dùng một lần trên tàu du lịch, bắt buộc hệ thống lọc nước thải, giới hạn lượt khách mỗi ngày tại hang nhạy cảm... hài hòa doanh thu du lịch với bảo tồn biển nghiêm ngặt. [Đoạn 4]",
+            "explanation": "A, B, C đều được nêu trực tiếp trong đoạn 4. Phương án D (đóng cửa vĩnh viễn với khách quốc tế) hoàn toàn sai vì mục tiêu là hài hòa doanh thu du lịch với bảo tồn biển.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT mentioned)",
+              "cluePassage": "banning single-use plastics... mandating onboard wastewater filtration... capping daily visitor quotas",
+              "clueAnswer": "Permanently closing Ha Long Bay to all international tourists",
+              "keyPassage": "harmonizing tourism revenues with marine stewardship",
+              "keyAnswer": "Permanently closing to international tourists (Contradicts text)",
+              "paraphrasePair": "harmonizing tourism revenues >< permanently closing to tourists",
+              "meaningVi": "hài hòa doanh thu du lịch trái ngược với đóng cửa vĩnh viễn",
+              "deductionLogic": "Loại trừ A, B, C có nguyên văn ở câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 7,
+            "num": 7,
+            "question": "How have authorities balanced resident welfare and cultural preservation for floating fishing villages in paragraph 4?",
+            "questionVi": "Trong đoạn 4, chính quyền đã cân bằng giữa phúc lợi cư dân và bảo tồn văn hóa cho các làng chài nổi bằng cách nào?",
+            "questionType": "DẠNG 03: GIẢI PHÁP CHÍNH SÁCH (Factual Detail)",
+            "options": [
+              "By relocating families to modern onshore housing while preserving traditional boats as living cultural museums",
+              "By forcing fishermen to abandon oyster pearl cultivation for coal mining",
+              "By dismantling all wooden houseboats and replacing them with concrete hotels",
+              "By prohibiting tourists from ever visiting Cua Van or Vung Vieng"
+            ],
+            "optionsVi": [
+              "A. Bằng cách di dời các hộ dân lên khu nhà ở hiện đại trên bờ đồng thời giữ lại thuyền truyền thống làm bảo tàng văn hóa sống",
+              "B. Bằng cách buộc ngư dân bỏ nuôi cấy ngọc trai để chuyển sang khai thác than",
+              "C. Bằng cách tháo dỡ toàn bộ nhà thuyền gỗ và thay bằng khách sạn bê tông",
+              "D. Bằng cách cấm du khách ghé thăm Cửa Vạn hoặc Vung Viêng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "relocating floating households to modern onshore housing while preserving traditional boats as living cultural museums. [Paragraph 4]",
+            "evidenceVi": "di dời các hộ dân sống trên mặt nước lên nhà ở hiện đại trên bờ đồng thời bảo tồn thuyền truyền thống như những bảo tàng văn hóa sống. [Đoạn 4]",
+            "explanation": "Đoạn 4 ghi rõ giải pháp dung hòa: đưa người dân lên bờ sống ổn định hiện đại hơn, nhưng vẫn gìn giữ thuyền truyền thống làm bảo tàng văn hóa sống (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chi tiết bảo tồn cộng đồng (Factual)",
+              "cluePassage": "relocating floating households to modern onshore housing while preserving traditional boats as living cultural museums.",
+              "clueAnswer": "By relocating families to modern onshore housing while preserving traditional boats as living cultural museums",
+              "keyPassage": "relocating floating households to modern onshore housing while preserving traditional boats as living cultural museums",
+              "keyAnswer": "relocating families to modern onshore housing while preserving traditional boats as living cultural museums",
+              "paraphrasePair": "floating households <=> families",
+              "meaningVi": "các hộ dân làng chài nổi <=> các gia đình ngư dân",
+              "deductionLogic": "Khớp nguyên văn cuối câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 8,
+            "num": 8,
+            "question": "The word \"mandating\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"mandating\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "requiring by law",
+              "voluntarily suggesting",
+              "financially penalizing",
+              "secretly hiding"
+            ],
+            "optionsVi": [
+              "A. quy định bắt buộc theo luật",
+              "B. gợi ý tự nguyện",
+              "C. phạt tiền tài chính",
+              "D. che giấu bí mật"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Measures include banning single-use plastics aboard tourist vessels, mandating onboard wastewater filtration systems... [Paragraph 4]",
+            "evidenceVi": "Các biện pháp gồm cấm nhựa dùng một lần trên tàu du lịch, bắt buộc lắp đặt hệ thống lọc nước thải trên tàu... [Đoạn 4]",
+            "explanation": "'Mandate' (động từ) nghĩa là ban hành quy định bắt buộc phải tuân thủ ('requiring by law') (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "mandating onboard wastewater filtration systems",
+              "clueAnswer": "requiring by law",
+              "keyPassage": "mandating onboard wastewater filtration",
+              "keyAnswer": "requiring by law",
+              "paraphrasePair": "mandating <=> requiring by law / compelling",
+              "meaningVi": "bắt buộc thực hiện <=> quy định bắt buộc theo luật",
+              "deductionLogic": "Đứng song hành cùng 'banning' và 'capping' trong danh sách quy định quản lý."
+            }
+          },
+          {
+            "id": 9,
+            "num": 9,
+            "question": "Why does the author include both the Vietnamese 'Descending Dragon' legend and the karst geology explanation in paragraph 1?",
+            "questionVi": "Tại sao tác giả đưa cả truyền thuyết 'Rồng hạ thế' của Việt Nam lẫn lời giải thích địa chất karst trong đoạn 1?",
+            "questionType": "DẠNG 07: MỤC ĐÍCH TÁC GIẢ (Author's Purpose)",
+            "options": [
+              "To frame Ha Long Bay through both its cultural folklore identity and its scientific geological origins",
+              "To argue that ancient Vietnamese legends are scientifically more accurate than modern geology",
+              "To prove that dragons physically carved the grottoes 500 million years ago",
+              "To criticize tour guides for retelling local myths to international visitors"
+            ],
+            "optionsVi": [
+              "A. Để giới thiệu Vịnh Hạ Long qua cả bản sắc truyền thuyết văn hóa lẫn nguồn gốc địa chất khoa học",
+              "B. Để lập luận rằng truyền thuyết cổ chính xác hơn địa chất học hiện đại",
+              "C. Để chứng minh rồng đã thực sự đục khoét các hang động 500 triệu năm trước",
+              "D. Để chỉ trích hướng dẫn viên du lịch kể truyền thuyết địa phương cho khách quốc tế"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Its poetic Vietnamese name—meaning 'Descending Dragon'—stems from an ancient legend... Scientifically, however, this dramatic labyrinth is a masterpiece of drowned karst geomorphology... [Paragraph 1]",
+            "evidenceVi": "Tên gọi giàu chất thơ bắt nguồn từ truyền thuyết cổ... Tuy nhiên về mặt khoa học, mê cung ngoạn mục này là kiệt tác địa mạo karst chìm... [Đoạn 1]",
+            "explanation": "Tác giả kết hợp cả góc nhìn văn hóa dân gian (giải thích tên gọi Hạ Long) và góc nhìn khoa học địa chất để tạo cái nhìn đa chiều về di sản (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Mục đích trình bày (Rhetorical Purpose)",
+              "cluePassage": "ancient legend recounting how celestial dragons descended... Scientifically, however, this dramatic labyrinth is a masterpiece of drowned karst geomorphology",
+              "clueAnswer": "To frame Ha Long Bay through both its cultural folklore identity and its scientific geological origins",
+              "keyPassage": "ancient legend + scientifically... karst geomorphology",
+              "keyAnswer": "cultural folklore identity + scientific geological origins",
+              "paraphrasePair": "legend + scientifically <=> folklore identity + geological origins",
+              "meaningVi": "truyền thuyết cổ & khoa học địa chất",
+              "deductionLogic": "Loại B, C, D vì đều cực đoan hoặc xuyên tạc thái độ trung tính, trân trọng của tác giả."
+            }
+          },
+          {
+            "id": 10,
+            "num": 10,
+            "question": "Which sentence best summarizes the main idea of the passage?",
+            "questionVi": "Câu nào tóm tắt chính xác nhất ý chính của toàn bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "Ha Long Bay is a globally significant karst and ecological heritage site now transitioning toward strict sustainable tourism management to counter mass-tourism pressures.",
+              "Ha Long Bay's floating fishing villages have grown into the largest industrial cruise shipyards in Asia.",
+              "UNESCO has stripped Quang Ninh Province of its conservation authority over Cat Ba Archipelago.",
+              "Limestone erosion in Ha Long Bay has completely stopped since 1994."
+            ],
+            "optionsVi": [
+              "A. Vịnh Hạ Long là di sản địa chất karst và sinh thái tầm cỡ toàn cầu hiện đang chuyển hướng sang quản trị du lịch bền vững nghiêm ngặt để ứng phó áp lực du lịch đại trà.",
+              "B. Các làng chài nổi Vịnh Hạ Long đã phát triển thành xưởng đóng tàu du lịch lớn nhất châu Á.",
+              "C. UNESCO đã tước quyền bảo tồn Quần đảo Cát Bà của tỉnh Quảng Ninh.",
+              "D. Quá trình bào mòn đá vôi tại Vịnh Hạ Long đã chấm dứt hoàn toàn từ năm 1994."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "drowned karst geomorphology... UNESCO World Heritage Site... intense pressure from mass tourism... ambitious pivot toward sustainable heritage governance. [Paragraphs 1-4]",
+            "evidenceVi": "địa mạo karst chìm... Di sản Thế giới UNESCO... áp lực mạnh từ du lịch đại trà... bước chuyển hướng sang quản trị di sản bền vững. [Đoạn 1-4]",
+            "explanation": "Phương án A bao quát toàn diện cả 4 đoạn của bài đọc: giá trị địa chất - sinh thái UNESCO, áp lực từ du lịch ồ ạt và chiến lược quản trị bền vững.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Ý chính toàn bài (Main Idea)",
+              "cluePassage": "drowned karst geomorphology... World Heritage Site... mass tourism pressure... sustainable heritage governance",
+              "clueAnswer": "Ha Long Bay is a globally significant karst and ecological heritage site now transitioning toward strict sustainable tourism management to counter mass-tourism pressures.",
+              "keyPassage": "karst + ecological richness + mass tourism pressure + sustainable governance",
+              "keyAnswer": "karst and ecological heritage + strict sustainable tourism management",
+              "paraphrasePair": "pivot toward sustainable heritage governance <=> transitioning toward strict sustainable tourism management",
+              "meaningVi": "bước chuyển sang quản trị di sản bền vững",
+              "deductionLogic": "Loại B, C, D vì đều sai hoàn toàn so với dữ kiện bài đọc."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 2,
+        "title": "Passage 2: The US Electoral System & Modern Presidencies",
+        "topic": "Hệ thống bầu cử Tổng thống Mỹ (Đại cử tri đoàn) & Đối chiếu nhiệm kỳ Donald Trump - Joe Biden",
+        "timeAllowed": 15,
+        "passage": "<p>Unlike most contemporary democracies where a head of state is chosen directly by a nationwide popular majority, the United States elects its president through a distinctive indirect constitutional mechanism known as the Electoral College. Devised by the Framers of the 1787 Constitution as a compromise between congressional appointment and direct popular suffrage, the system allocates 538 electoral votes across the fifty states and the District of Columbia in proportion to congressional representation. To secure the White House, a candidate must capture an absolute majority of at least 270 electoral votes. Because forty-eight states award all of their electors on a 'winner-take-all' basis, presidential campaigns concentrate overwhelmingly on a handful of closely divided 'battleground' or 'swing' states rather than uniformly courting voters nationwide.</p><p>A perennial consequence of this institutional architecture is the possibility of an electoral-popular vote divergence: a nominee can win the presidency while receiving fewer individual ballots across the country overall—a scenario that transpired most famously in 2000 and again in 2016. Defenders of the Electoral College contend that it compels candidates to build broad geographic coalitions and prevents densely populated coastal metropolises from eclipsing rural agrarian states. Conversely, critics argue that the winner-take-all formula renders millions of ballots cast in solidly partisan states mathematically inconsequential and undermines the democratic principle of 'one person, one vote.'</p><p>Over the past decade, the alternating presidencies of Donald Trump and Joe Biden vividly illustrated how starkly American governance can pivot within this polarized electoral framework. Entering office in 2017 after clinching key Midwestern swing states, President Donald Trump championed an 'America First' doctrine emphasizing economic deregulation, sweeping corporate tax reductions, restrictive immigration enforcement, bilateral trade tariffs, and skepticism toward multilateral treaties such as the Paris Climate Accord. His unconventional, populist communication style—leveraging direct social media broadcasts and mass rallies—realigned working-class voters and reshaped the Republican Party's ideological identity.</p><p>Following the historic, record-turnout election of 2020 amid the pandemic, President Joe Biden steered federal policy in a markedly contrasting direction. Prioritizing institutional multilateralism and state-led industrial investment, the Biden administration rejoined the Paris Climate Accord, reinforced NATO alliances, and enacted landmark legislative packages funding physical infrastructure, domestic semiconductor manufacturing, and clean-energy subsidies. Yet both administrations operated within razor-thin congressional margins and intense partisan polarization, underscoring how deeply America's constitutional checks, swing-state mathematics, and ideological divides continue to govern the trajectory of modern US politics.</p>",
+        "vocab": [
+          {
+            "word": "constitutional",
+            "pos": "adj",
+            "ipa": "/ˌkɒn.stɪˈtjuː.ʃən.əl/",
+            "level": "B2",
+            "mean": "thuộc hiến pháp, lập hiến",
+            "syns": [
+              "chartered",
+              "statutory",
+              "legal"
+            ],
+            "ex": "The Electoral College is an indirect constitutional framework created in 1787."
+          },
+          {
+            "word": "suffrage",
+            "pos": "n",
+            "ipa": "/ˈsʌf.rɪdʒ/",
+            "level": "C1",
+            "mean": "quyền bầu cử, quyền bỏ phiếu của công dân",
+            "syns": [
+              "voting rights",
+              "franchise",
+              "ballot access"
+            ],
+            "ex": "Constitutional delegates debated how broadly to extend popular suffrage."
+          },
+          {
+            "word": "allocate",
+            "pos": "v",
+            "ipa": "/ˈæl.ə.keɪt/",
+            "level": "B2",
+            "mean": "phân bổ, chia định mức",
+            "syns": [
+              "assign",
+              "distribute",
+              "allot"
+            ],
+            "ex": "Every ten years, census counts determine how to allocate electoral votes among states."
+          },
+          {
+            "word": "battleground",
+            "pos": "n",
+            "ipa": "/ˈbæt.əl.ɡraʊnd/",
+            "level": "B2",
+            "mean": "bang chiến địa (bang tranh chấp quyết định)",
+            "syns": [
+              "swing state",
+              "contested arena"
+            ],
+            "ex": "Candidates spend most campaign funds advertising in six battleground states."
+          },
+          {
+            "word": "perennial",
+            "pos": "adj",
+            "ipa": "/pəˈren.i.əl/",
+            "level": "C1",
+            "mean": "dai dẳng, lặp đi lặp lại qua nhiều kỳ",
+            "syns": [
+              "recurring",
+              "enduring",
+              "persistent"
+            ],
+            "ex": "Debating electoral reform remains a perennial feature of American politics."
+          },
+          {
+            "word": "divergence",
+            "pos": "n",
+            "ipa": "/daɪˈvɜː.dʒəns/",
+            "level": "C1",
+            "mean": "sự phân kỳ, độ lệch giữa hai kết quả",
+            "syns": [
+              "split",
+              "gap",
+              "discrepancy"
+            ],
+            "ex": "In 2016, a rare divergence emerged between the popular tally and electoral victory."
+          },
+          {
+            "word": "transpire",
+            "pos": "v",
+            "ipa": "/trænˈspaɪər/",
+            "level": "C1",
+            "mean": "xảy ra, diễn ra trên thực tế",
+            "syns": [
+              "occur",
+              "happen",
+              "take place"
+            ],
+            "ex": "Electoral-popular splits transpired twice in the early twenty-first century."
+          },
+          {
+            "word": "coalition",
+            "pos": "n",
+            "ipa": "/ˌkəʊ.əˈlɪʃ.ən/",
+            "level": "B2",
+            "mean": "liên minh rộng rãi (giữa nhiều nhóm cử tri)",
+            "syns": [
+              "alliance",
+              "bloc",
+              "partnership"
+            ],
+            "ex": "Winning the presidency requires assembling a diverse geographic coalition."
+          },
+          {
+            "word": "eclipse",
+            "pos": "v",
+            "ipa": "/ɪˈklɪps/",
+            "level": "C1",
+            "mean": "làm lu mờ, áp đảo hoàn toàn",
+            "syns": [
+              "overshadow",
+              "outweigh",
+              "dominate"
+            ],
+            "ex": "Small states feared coastal cities would eclipse rural voices in national elections."
+          },
+          {
+            "word": "partisan",
+            "pos": "adj",
+            "ipa": "/ˈpɑː.tɪ.zæn/",
+            "level": "C1",
+            "mean": "mang tính đảng phái sâu sắc",
+            "syns": [
+              "party-line",
+              "factional",
+              "biased"
+            ],
+            "ex": "Intense partisan divisions frequently stall ambitious bills in Congress."
+          },
+          {
+            "word": "inconsequential",
+            "pos": "adj",
+            "ipa": "/ɪnˌkɒn.sɪˈkwen.ʃəl/",
+            "level": "C1",
+            "mean": "không đáng kể, không tạo tác động quyết định",
+            "syns": [
+              "insignificant",
+              "trivial",
+              "negligible"
+            ],
+            "ex": "Critics say minority-party votes feel inconsequential in winner-take-all states."
+          },
+          {
+            "word": "clinch",
+            "pos": "v",
+            "ipa": "/klɪntʃ/",
+            "level": "C1",
+            "mean": "giành chiến thắng quyết định, chốt hạ",
+            "syns": [
+              "secure",
+              "capture",
+              "win decisively"
+            ],
+            "ex": "Narrow victories in Pennsylvania and Michigan helped clinch the 270-vote threshold."
+          },
+          {
+            "word": "doctrine",
+            "pos": "n",
+            "ipa": "/ˈdɒk.trɪn/",
+            "level": "C1",
+            "mean": "học thuyết, đường lối chủ trương chính trị",
+            "syns": [
+              "policy creed",
+              "principle",
+              "tenet"
+            ],
+            "ex": "His administration anchored foreign trade around an 'America First' doctrine."
+          },
+          {
+            "word": "deregulation",
+            "pos": "n",
+            "ipa": "/ˌdiː.reɡ.jʊˈleɪ.ʃən/",
+            "level": "C1",
+            "mean": "nới lỏng quy định kiểm soát kinh tế",
+            "syns": [
+              "liberalization",
+              "removal of rules"
+            ],
+            "ex": "Supporters argued that corporate deregulation stimulated domestic energy investment."
+          },
+          {
+            "word": "bilateral",
+            "pos": "adj",
+            "ipa": "/ˌbaɪˈlæt.ər.əl/",
+            "level": "B2",
+            "mean": "song phương (giữa hai quốc gia)",
+            "syns": [
+              "two-sided",
+              "mutual",
+              "reciprocal"
+            ],
+            "ex": "The administration preferred bilateral trade pacts over large regional blocs."
+          },
+          {
+            "word": "tariff",
+            "pos": "n",
+            "ipa": "/ˈtær.ɪf/",
+            "level": "B2",
+            "mean": "thuế quan đánh vào hàng nhập khẩu",
+            "syns": [
+              "import duty",
+              "customs tax",
+              "levy"
+            ],
+            "ex": "Higher steel tariffs were enacted to shield domestic manufacturers from foreign rivals."
+          },
+          {
+            "word": "multilateral",
+            "pos": "adj",
+            "ipa": "/ˌmʌl.tiˈlæt.ər.əl/",
+            "level": "C1",
+            "mean": "đa phương (có sự tham gia của nhiều nước)",
+            "syns": [
+              "multi-nation",
+              "international",
+              "collective"
+            ],
+            "ex": "Climate agreements rely on sustained multilateral coordination among major emitters."
+          },
+          {
+            "word": "populist",
+            "pos": "adj",
+            "ipa": "/ˈpɒp.jʊ.lɪst/",
+            "level": "C1",
+            "mean": "dân túy, hướng trực tiếp vào cử tri bình dân",
+            "syns": [
+              "anti-establishment",
+              "grassroots"
+            ],
+            "ex": "Populist rhetoric often challenges traditional political elites and media institutions."
+          },
+          {
+            "word": "realign",
+            "pos": "v",
+            "ipa": "/ˌriː.əˈlaɪn/",
+            "level": "C1",
+            "mean": "tái định hình lại sự liên kết cử tri",
+            "syns": [
+              "reorganize",
+              "reshape",
+              "shift"
+            ],
+            "ex": "Trade policy debates helped realign industrial working-class voters across the Midwest."
+          },
+          {
+            "word": "turnout",
+            "pos": "n",
+            "ipa": "/ˈtɜːn.aʊt/",
+            "level": "B2",
+            "mean": "tỷ lệ cử tri đi bỏ phiếu",
+            "syns": [
+              "participation",
+              "attendance",
+              "voting rate"
+            ],
+            "ex": "Expanded mail-in voting contributed to historic voter turnout in 2020."
+          },
+          {
+            "word": "landmark",
+            "pos": "adj",
+            "ipa": "/ˈlænd.mɑːk/",
+            "level": "B2",
+            "mean": "mang tính bước ngoặt lịch sử",
+            "syns": [
+              "historic",
+              "groundbreaking",
+              "watershed"
+            ],
+            "ex": "Congress approved landmark funding to modernize bridges and broadband lines."
+          },
+          {
+            "word": "semiconductor",
+            "pos": "n",
+            "ipa": "/ˌsem.i.kənˈdʌk.tər/",
+            "level": "B2",
+            "mean": "chất bán dẫn, chip vi mạch",
+            "syns": [
+              "microchip",
+              "silicon chip"
+            ],
+            "ex": "Federal subsidies aim to strengthen domestic semiconductor fabrication plants."
+          },
+          {
+            "word": "subsidy",
+            "pos": "n",
+            "ipa": "/ˈsʌb.sɪ.di/",
+            "level": "B2",
+            "mean": "khoản trợ cấp tài chính của chính phủ",
+            "syns": [
+              "grant",
+              "financial incentive",
+              "aid"
+            ],
+            "ex": "Clean-energy tax subsidies accelerated solar and battery factory construction."
+          },
+          {
+            "word": "polarization",
+            "pos": "n",
+            "ipa": "/ˌpəʊ.lə.raɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự phân cực sâu sắc về quan điểm",
+            "syns": [
+              "division",
+              "bifurcation",
+              "rift"
+            ],
+            "ex": "Deepening political polarization makes bipartisan compromise increasingly scarce."
+          },
+          {
+            "word": "razor-thin",
+            "pos": "adj",
+            "ipa": "/ˌreɪ.zəˈθɪn/",
+            "level": "C1",
+            "mean": "cực kỳ sít sao, chênh lệch mong manh",
+            "syns": [
+              "narrow",
+              "slim",
+              "marginal"
+            ],
+            "ex": "Both presidents governed with razor-thin majorities in the US Senate."
+          },
+          {
+            "word": "courting",
+            "pos": "v",
+            "ipa": "/ˈkɔː.tɪŋ/",
+            "level": "C1",
+            "mean": "vận động tranh thủ sự ủng hộ của cử tri",
+            "syns": [
+              "wooing",
+              "pursuing",
+              "appealing to"
+            ],
+            "ex": "Presidential nominees spend months courting undecided suburban voters."
+          },
+          {
+            "word": "ideological",
+            "pos": "adj",
+            "ipa": "/ˌaɪ.di.əˈlɒdʒ.ɪ.kəl/",
+            "level": "C1",
+            "mean": "thuộc hệ tư tưởng chính trị",
+            "syns": [
+              "doctrinal",
+              "philosophical",
+              "political"
+            ],
+            "ex": "Alternating administrations exposed sharp ideological contrasts on climate and tax."
+          }
+        ],
+        "questions": [
+          {
+            "id": 11,
+            "num": 11,
+            "question": "According to paragraph 1, how does a US presidential candidate officially win the election?",
+            "questionVi": "Theo đoạn 1, một ứng cử viên Tổng thống Mỹ chính thức đắc cử bằng cách nào?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "By securing an absolute majority of at least 270 out of 538 Electoral College votes",
+              "By winning a direct nationwide popular vote regardless of state boundaries",
+              "By being appointed directly by a unanimous vote of the US Supreme Court",
+              "By winning every single one of the fifty individual state ballots"
+            ],
+            "optionsVi": [
+              "A. Bằng cách giành đa số tuyệt đối tối thiểu 270 trên tổng số 538 phiếu Đại cử tri",
+              "B. Bằng cách thắng số phiếu phổ thông toàn quốc bất kể ranh giới các bang",
+              "C. Bằng cách được Tòa án Tối cao Mỹ bổ nhiệm trực tiếp",
+              "D. Bằng cách thắng tại toàn bộ 50 bang riêng lẻ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the system allocates 538 electoral votes... To secure the White House, a candidate must capture an absolute majority of at least 270 electoral votes. [Paragraph 1]",
+            "evidenceVi": "hệ thống phân bổ 538 phiếu đại cử tri... Để bước vào Nhà Trắng, ứng viên phải giành đa số tuyệt đối ít nhất 270 phiếu đại cử tri. [Đoạn 1]",
+            "explanation": "Đoạn 1 nêu rõ cơ chế gián tiếp qua Đại cử tri đoàn: cần tối thiểu 270/538 phiếu đại cử tri để thắng cử (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế bầu cử Mỹ (Factual)",
+              "cluePassage": "allocates 538 electoral votes... capture an absolute majority of at least 270 electoral votes.",
+              "clueAnswer": "By securing an absolute majority of at least 270 out of 538 Electoral College votes",
+              "keyPassage": "538 electoral votes... absolute majority of at least 270 electoral votes",
+              "keyAnswer": "absolute majority of at least 270 out of 538 Electoral College votes",
+              "paraphrasePair": "secure the White House <=> win the election",
+              "meaningVi": "giành quyền vào Nhà Trắng <=> đắc cử Tổng thống",
+              "deductionLogic": "Khớp trực tiếp câu 3 đoạn 1."
+            }
+          },
+          {
+            "id": 12,
+            "num": 12,
+            "question": "Why do US presidential campaigns focus heavily on a small number of 'swing' states according to paragraph 1?",
+            "questionVi": "Theo đoạn 1, tại sao các chiến dịch tranh cử Tổng thống Mỹ lại tập trung dày đặc vào một nhóm nhỏ các 'bang chiến địa'?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CƠ CHẾ (Cause & Effect)",
+            "options": [
+              "Because 48 states award all their electors on a winner-take-all basis, making closely contested states decisive",
+              "Because federal election law prohibits television advertising in solidly partisan states",
+              "Because swing states contain more than 90 percent of the total US population",
+              "Because non-swing states are only permitted to vote in congressional midterms"
+            ],
+            "optionsVi": [
+              "A. Bởi vì 48 bang trao toàn bộ phiếu đại cử tri theo nguyên tắc 'được ăn cả', khiến các bang bám đuổi sát nút mang tính quyết định",
+              "B. Bởi vì luật liên bang cấm quảng cáo truyền hình tại các bang nghiêng hẳn về một đảng",
+              "C. Bởi vì các bang chiến địa chiếm hơn 90% tổng dân số Mỹ",
+              "D. Bởi vì các bang khác chỉ được bỏ phiếu trong kỳ bầu cử giữa nhiệm kỳ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Because forty-eight states award all of their electors on a 'winner-take-all' basis, presidential campaigns concentrate overwhelmingly on a handful of closely divided 'battleground' or 'swing' states... [Paragraph 1]",
+            "evidenceVi": "Vì 48 bang trao toàn bộ phiếu đại cử tri theo nguyên tắc 'thắng lấy hết', chiến dịch tranh cử tập trung áp đảo vào một số ít bang chiến địa cạnh tranh sát sao. [Đoạn 1]",
+            "explanation": "Nguyên tắc 'winner-take-all' ở 48 bang khiến việc thắng cách biệt lớn ở bang an toàn không thêm đại cử tri, nên ứng viên dồn toàn lực vào các bang chiến địa sát nút (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên nhân chiến lược tranh cử (Cause & Effect)",
+              "cluePassage": "Because forty-eight states award all of their electors on a 'winner-take-all' basis, presidential campaigns concentrate overwhelmingly on a handful of closely divided 'battleground' or 'swing' states",
+              "clueAnswer": "Because 48 states award all their electors on a winner-take-all basis, making closely contested states decisive",
+              "keyPassage": "forty-eight states award all electors on winner-take-all basis... closely divided swing states",
+              "keyAnswer": "48 states award all electors on winner-take-all basis... closely contested states decisive",
+              "paraphrasePair": "closely divided <=> closely contested",
+              "meaningVi": "phân rẽ sát sao <=> cạnh tranh sát nút",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 1."
+            }
+          },
+          {
+            "id": 13,
+            "num": 13,
+            "question": "In paragraph 2, what argument do SUPPORTERS of the Electoral College advance in its defense?",
+            "questionVi": "Trong đoạn 2, những NGƯỜI ỦNG HỘ Đại cử tri đoàn đưa ra lập luận nào để bảo vệ hệ thống này?",
+            "questionType": "DẠNG 03: QUAN ĐIỂM TRANH LUẬN (Factual Detail)",
+            "options": [
+              "It ensures that every national election always aligns with the nationwide popular majority.",
+              "It forces candidates to build broad geographic coalitions and prevents large coastal cities from overshadowing rural states.",
+              "It eliminates partisan polarization across the US Senate and House of Representatives.",
+              "It allows Congress to appoint presidents without holding public elections."
+            ],
+            "optionsVi": [
+              "A. Nó đảm bảo mọi cuộc bầu cử luôn trùng khớp với đa số phiếu phổ thông toàn quốc.",
+              "B. Nó buộc ứng viên phải xây dựng liên minh địa lý rộng rãi và ngăn các siêu đô thị ven biển lấn át các bang nông thôn.",
+              "C. Nó xóa bỏ sự phân cực đảng phái tại Thượng viện và Hạ viện Mỹ.",
+              "D. Nó cho phép Quốc hội bổ nhiệm Tổng thống mà không cần tổ chức bầu cử."
+            ],
+            "correctAnswer": "B",
+            "correctIdx": 1,
+            "evidence": "Defenders of the Electoral College contend that it compels candidates to build broad geographic coalitions and prevents densely populated coastal metropolises from eclipsing rural agrarian states. [Paragraph 2]",
+            "evidenceVi": "Những người bảo vệ Đại cử tri đoàn lập luận rằng nó buộc ứng viên xây dựng liên minh địa lý rộng và ngăn các đô thị ven biển đông đúc làm lu mờ các bang nông nghiệp nông thôn. [Đoạn 2]",
+            "explanation": "Đoạn 2 nêu chính xác lập luận của phe ủng hộ ('Defenders'): thúc đẩy liên minh đa vùng địa lý và bảo vệ tiếng nói của các bang nông thôn nhỏ trước các đô thị lớn ven biển (B).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Lập luận bảo vệ hệ thống (Factual)",
+              "cluePassage": "Defenders... contend that it compels candidates to build broad geographic coalitions and prevents densely populated coastal metropolises from eclipsing rural agrarian states.",
+              "clueAnswer": "It forces candidates to build broad geographic coalitions and prevents large coastal cities from overshadowing rural states.",
+              "keyPassage": "compels... broad geographic coalitions... prevents coastal metropolises from eclipsing rural agrarian states",
+              "keyAnswer": "forces... broad geographic coalitions... prevents large coastal cities from overshadowing rural states",
+              "paraphrasePair": "compels... eclipsing <=> forces... overshadowing",
+              "meaningVi": "buộc phải & làm lu mờ <=> ép buộc & lấn át",
+              "deductionLogic": "Paraphrase chuẩn từ 'compels' -> 'forces' và 'eclipsing' -> 'overshadowing'."
+            }
+          },
+          {
+            "id": 14,
+            "num": 14,
+            "question": "The word \"inconsequential\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"inconsequential\" trong đoạn 2 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "insignificant",
+              "illegal",
+              "decisive",
+              "unanimous"
+            ],
+            "optionsVi": [
+              "A. không đáng kể, ít tác động",
+              "B. bất hợp pháp",
+              "C. mang tính quyết định",
+              "D. nhất trí tuyệt đối"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "critics argue that the winner-take-all formula renders millions of ballots cast in solidly partisan states mathematically inconsequential... [Paragraph 2]",
+            "evidenceVi": "các nhà phê bình cho rằng công thức thắng lấy hết khiến hàng triệu lá phiếu ở các bang kiên cố về một đảng trở nên không đáng kể về mặt toán học... [Đoạn 2]",
+            "explanation": "'Inconsequential' (in- + consequence = không tạo hệ quả/tác động) đồng nghĩa với 'insignificant' (không đáng kể) (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa (Vocabulary)",
+              "cluePassage": "renders millions of ballots... mathematically inconsequential",
+              "clueAnswer": "insignificant",
+              "keyPassage": "mathematically inconsequential",
+              "keyAnswer": "insignificant",
+              "paraphrasePair": "inconsequential <=> insignificant / trivial",
+              "meaningVi": "không có hệ quả quyết định <=> không đáng kể",
+              "deductionLogic": "Phân tích gốc từ 'in-' (phủ định) + 'consequence' (kết quả/tầm quan trọng)."
+            }
+          },
+          {
+            "id": 15,
+            "num": 15,
+            "question": "Which policy priority characterized President Donald Trump's administration according to paragraph 3?",
+            "questionVi": "Ưu tiên chính sách nào đặc trưng cho nhiệm kỳ của Tổng thống Donald Trump theo đoạn 3?",
+            "questionType": "DẠNG 03: CHI TIẾT CHÍNH SÁCH (Factual Detail)",
+            "options": [
+              "Economic deregulation, corporate tax cuts, bilateral tariffs, and skepticism toward multilateral treaties",
+              "Expanding federal clean-energy subsidies and rejoining the Paris Climate Accord",
+              "Eliminating tariffs to establish a single North American currency union",
+              "Replacing social media communication entirely with formal newspaper editorials"
+            ],
+            "optionsVi": [
+              "A. Nới lỏng quy định kinh tế, cắt giảm thuế doanh nghiệp, thuế quan song phương và hoài nghi các hiệp ước đa phương",
+              "B. Mở rộng trợ cấp năng lượng sạch liên bang và tái gia nhập Thỏa thuận Khí hậu Paris",
+              "C. Xóa bỏ thuế quan để lập liên minh tiền tệ Bắc Mỹ",
+              "D. Thay thế hoàn toàn mạng xã hội bằng xã luận báo in trang trọng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "President Donald Trump championed an 'America First' doctrine emphasizing economic deregulation, sweeping corporate tax reductions, restrictive immigration enforcement, bilateral trade tariffs, and skepticism toward multilateral treaties such as the Paris Climate Accord. [Paragraph 3]",
+            "evidenceVi": "Tổng thống Donald Trump theo đuổi học thuyết 'Nước Mỹ trên hết' nhấn mạnh nới lỏng quy định kinh tế, cắt giảm mạnh thuế doanh nghiệp, siết nhập cư, thuế quan song phương và hoài nghi các hiệp ước đa phương như Thỏa thuận Paris. [Đoạn 3]",
+            "explanation": "Đoạn 3 liệt kê chuẩn xác các trụ cột chính sách của nhiệm kỳ Trump (A). Phương án B là chính sách của nhiệm kỳ Biden ở đoạn 4.",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Đặc trưng nhiệm kỳ Trump (Factual)",
+              "cluePassage": "economic deregulation, sweeping corporate tax reductions... bilateral trade tariffs, and skepticism toward multilateral treaties",
+              "clueAnswer": "Economic deregulation, corporate tax cuts, bilateral tariffs, and skepticism toward multilateral treaties",
+              "keyPassage": "economic deregulation, corporate tax reductions, bilateral trade tariffs, skepticism toward multilateral treaties",
+              "keyAnswer": "economic deregulation, corporate tax cuts, bilateral tariffs, skepticism toward multilateral treaties",
+              "paraphrasePair": "tax reductions <=> tax cuts",
+              "meaningVi": "cắt giảm thuế doanh nghiệp",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 16,
+            "num": 16,
+            "question": "According to paragraph 4, how did President Joe Biden's policy direction contrast with his predecessor's?",
+            "questionVi": "Theo đoạn 4, định hướng chính sách của Tổng thống Joe Biden tương phản như thế nào với người tiền nhiệm?",
+            "questionType": "DẠNG 03: SO SÁNH ĐỐI CHIẾU (Comparison)",
+            "options": [
+              "He emphasized multilateral alliances like NATO and Paris Climate Accord alongside federal investments in infrastructure, semiconductors, and clean energy.",
+              "He dismantled domestic semiconductor factories to rely solely on bilateral imports.",
+              "He withdrew the United States from NATO and abolished all public infrastructure spending.",
+              "He eliminated the Electoral College through a unilateral executive decree."
+            ],
+            "optionsVi": [
+              "A. Ông nhấn mạnh các liên minh đa phương như NATO và Thỏa thuận Khí hậu Paris cùng đầu tư liên bang vào hạ tầng, bán dẫn và năng lượng sạch.",
+              "B. Ông tháo dỡ các nhà máy bán dẫn nội địa để phụ thuộc hoàn toàn vào nhập khẩu song phương.",
+              "C. Ông rút Mỹ khỏi NATO và bãi bỏ mọi chi tiêu hạ tầng công cộng.",
+              "D. Ông xóa bỏ Đại cử tri đoàn bằng sắc lệnh hành pháp đơn phương."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Prioritizing institutional multilateralism and state-led industrial investment, the Biden administration rejoined the Paris Climate Accord, reinforced NATO alliances, and enacted landmark legislative packages funding physical infrastructure, domestic semiconductor manufacturing, and clean-energy subsidies. [Paragraph 4]",
+            "evidenceVi": "Ưu tiên chủ nghĩa đa phương thể chế và đầu tư công nghiệp dẫn dắt bởi nhà nước, chính quyền Biden tái gia nhập Thỏa thuận Paris, củng cố NATO và thông qua các đạo luật tài trợ hạ tầng, sản xuất bán dẫn nội địa và trợ cấp năng lượng sạch. [Đoạn 4]",
+            "explanation": "Đoạn 4 đối chiếu rõ hướng đi đa phương và đầu tư công nghiệp của chính quyền Biden: tái gia nhập Thỏa thuận Paris, củng cố NATO, gói luật hạ tầng - chip bán dẫn - năng lượng sạch (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Đối chiếu nhiệm kỳ Biden (Comparison)",
+              "cluePassage": "rejoined the Paris Climate Accord, reinforced NATO alliances, and enacted landmark legislative packages funding physical infrastructure, domestic semiconductor manufacturing, and clean-energy subsidies.",
+              "clueAnswer": "emphasized multilateral alliances like NATO and Paris Climate Accord alongside federal investments in infrastructure, semiconductors, and clean energy.",
+              "keyPassage": "Paris Climate Accord, NATO alliances, infrastructure, semiconductor manufacturing, clean-energy subsidies",
+              "keyAnswer": "NATO, Paris Climate Accord, infrastructure, semiconductors, clean energy",
+              "paraphrasePair": "state-led industrial investment <=> federal investments",
+              "meaningVi": "đầu tư công nghiệp nhà nước <=> đầu tư cấp liên bang",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 17,
+            "num": 17,
+            "question": "What common institutional constraint did BOTH the Trump and Biden administrations face according to paragraph 4?",
+            "questionVi": "Theo đoạn 4, cả hai nhiệm kỳ Trump và Biden đều phải đối mặt với ràng buộc thể chế chung nào?",
+            "questionType": "DẠNG 03: ĐIỂM TƯƠNG ĐỒNG (Factual Detail)",
+            "options": [
+              "Razor-thin congressional margins and intense partisan polarization",
+              "Unanimous bipartisan support from every single US senator",
+              "A constitutional ban prohibiting presidents from signing trade or tax bills",
+              "Complete voter apathy resulting in record-low election participation"
+            ],
+            "optionsVi": [
+              "A. Tỷ lệ chênh lệch cực kỳ sít sao tại Quốc hội và sự phân cực đảng phái gay gắt",
+              "B. Sự ủng hộ lưỡng đảng nhất trí từ toàn bộ thượng nghị sĩ Mỹ",
+              "C. Lệnh cấm hiến pháp ngăn Tổng thống ký các đạo luật thuế và thương mại",
+              "D. Sự thờ ơ hoàn toàn của cử tri dẫn đến tỷ lệ đi bầu thấp kỷ lục"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Yet both administrations operated within razor-thin congressional margins and intense partisan polarization... [Paragraph 4]",
+            "evidenceVi": "Tuy nhiên, cả hai chính quyền đều vận hành trong biên độ chênh lệch cực kỳ sít sao tại Quốc hội và sự phân cực đảng phái gay gắt... [Đoạn 4]",
+            "explanation": "Câu cuối đoạn 4 nêu rõ điểm chung của hai chính quyền: 'razor-thin congressional margins and intense partisan polarization' (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Điểm chung thể chế (Factual)",
+              "cluePassage": "both administrations operated within razor-thin congressional margins and intense partisan polarization",
+              "clueAnswer": "Razor-thin congressional margins and intense partisan polarization",
+              "keyPassage": "razor-thin congressional margins and intense partisan polarization",
+              "keyAnswer": "Razor-thin congressional margins and intense partisan polarization",
+              "paraphrasePair": "operated within <=> faced institutional constraint",
+              "meaningVi": "vận hành trong biên độ sít sao và phân cực gay gắt",
+              "deductionLogic": "Khớp nguyên văn câu cuối đoạn 4."
+            }
+          },
+          {
+            "id": 18,
+            "num": 18,
+            "question": "The phrase \"razor-thin\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Cụm từ \"razor-thin\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "extremely narrow",
+              "overwhelmingly wide",
+              "constitutionally invalid",
+              "economically prosperous"
+            ],
+            "optionsVi": [
+              "A. cực kỳ hẹp, sít sao",
+              "B. rộng áp đảo",
+              "C. vi hiến",
+              "D. thịnh vượng kinh tế"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "both administrations operated within razor-thin congressional margins... [Paragraph 4]",
+            "evidenceVi": "cả hai chính quyền đều vận hành với chênh lệch số ghế cực kỳ mong manh tại Quốc hội... [Đoạn 4]",
+            "explanation": "'Razor-thin' (mỏng như lưỡi dao cạo) nghĩa bóng là khoảng cách cực kỳ sát nút, mong manh ('extremely narrow') (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Thành ngữ báo chí (Vocabulary)",
+              "cluePassage": "razor-thin congressional margins",
+              "clueAnswer": "extremely narrow",
+              "keyPassage": "razor-thin... margins",
+              "keyAnswer": "extremely narrow",
+              "paraphrasePair": "razor-thin <=> extremely narrow / slim",
+              "meaningVi": "mỏng như dao cạo <=> cực kỳ sít sao, hẹp",
+              "deductionLogic": "Collocation phổ biến trong bầu cử: 'razor-thin margin/majority'."
+            }
+          },
+          {
+            "id": 19,
+            "num": 19,
+            "question": "What can be inferred from paragraph 2 about the US elections of 2000 and 2016?",
+            "questionVi": "Có thể suy luận điều gì từ đoạn 2 về các cuộc bầu cử Tổng thống Mỹ năm 2000 và 2016?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "The winning presidential candidate captured at least 270 electoral votes despite receiving fewer national popular votes than their opponent.",
+              "Neither candidate managed to secure any electoral votes from coastal states.",
+              "The elections were postponed due to constitutional amendments banning the Electoral College.",
+              "Both elections ended in exact 269–269 electoral ties decided by lottery."
+            ],
+            "optionsVi": [
+              "A. Ứng viên đắc cử đã giành ít nhất 270 phiếu đại cử tri dù nhận được ít phiếu phổ thông toàn quốc hơn đối thủ.",
+              "B. Không ứng viên nào giành được phiếu đại cử tri từ các bang ven biển.",
+              "C. Các cuộc bầu cử bị hoãn do tu chính án xóa bỏ Đại cử tri đoàn.",
+              "D. Cả hai cuộc bầu cử đều hòa 269–269 và phân thắng bại bằng bốc thăm."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "a nominee can win the presidency while receiving fewer individual ballots across the country overall—a scenario that transpired most famously in 2000 and again in 2016. [Paragraph 2]",
+            "evidenceVi": "một ứng viên có thể đắc cử Tổng thống dù nhận ít lá phiếu cá nhân hơn trên toàn quốc — kịch bản từng xảy ra nổi tiếng nhất vào năm 2000 và lặp lại năm 2016. [Đoạn 2]",
+            "explanation": "Kết hợp điều kiện 270 phiếu đại cử tri ở đoạn 1 và kịch bản chênh lệch năm 2000 & 2016 ở đoạn 2, suy ra người thắng đạt đủ >=270 phiếu đại cử tri dù kém phiếu phổ thông toàn quốc (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Suy luận kết hợp dữ kiện (Inference)",
+              "cluePassage": "must capture an absolute majority of at least 270 electoral votes... win the presidency while receiving fewer individual ballots... in 2000 and again in 2016.",
+              "clueAnswer": "The winning presidential candidate captured at least 270 electoral votes despite receiving fewer national popular votes than their opponent.",
+              "keyPassage": "270 electoral votes + fewer individual ballots overall in 2000 and 2016",
+              "keyAnswer": "at least 270 electoral votes despite fewer national popular votes",
+              "paraphrasePair": "fewer individual ballots overall <=> fewer national popular votes",
+              "meaningVi": "ít lá phiếu cá nhân trên toàn quốc hơn <=> ít phiếu phổ thông toàn quốc hơn",
+              "deductionLogic": "Tổng hợp chính xác cơ chế ở đoạn 1 và ví dụ lịch sử ở đoạn 2."
+            }
+          },
+          {
+            "id": 20,
+            "num": 20,
+            "question": "Which title best summarizes the entire passage?",
+            "questionVi": "Tiêu đề nào tóm lược chính xác nhất toàn bộ bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH / TIÊU ĐỀ (Main Idea)",
+            "options": [
+              "Swing States & Shifting Policies: How the US Electoral College Shapes Modern Presidencies",
+              "Why Direct Popular Voting Replaced the 1787 US Constitution",
+              "A Technical Manual for Domestic Semiconductor Manufacturing",
+              "The Unanimous Consensus Between Republican and Democratic Foreign Policy"
+            ],
+            "optionsVi": [
+              "A. Bang chiến địa & Chính sách đảo chiều: Cách Đại cử tri đoàn Mỹ định hình các nhiệm kỳ Tổng thống hiện đại",
+              "B. Tại sao bỏ phiếu phổ thông trực tiếp đã thay thế Hiến pháp Mỹ 1787",
+              "C. Cẩm nang kỹ thuật sản xuất chất bán dẫn nội địa",
+              "D. Sự đồng thuận nhất trí giữa chính sách đối ngoại Đảng Cộng hòa và Dân chủ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Electoral College... battleground states... alternating presidencies of Donald Trump and Joe Biden... swing-state mathematics and ideological divides. [Paragraphs 1-4]",
+            "evidenceVi": "Đại cử tri đoàn... các bang chiến địa... các nhiệm kỳ luân phiên Donald Trump và Joe Biden... bài toán bang chiến địa và phân rẽ tư tưởng. [Đoạn 1-4]",
+            "explanation": "Phương án A bao quát mạch lạc cả cơ chế Đại cử tri đoàn (Đoạn 1-2) lẫn sự đảo chiều chính sách qua hai nhiệm kỳ Trump và Biden (Đoạn 3-4).",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Tiêu đề bao quát (Best Title)",
+              "cluePassage": "Electoral College... battleground states... alternating presidencies of Donald Trump and Joe Biden",
+              "clueAnswer": "Swing States & Shifting Policies: How the US Electoral College Shapes Modern Presidencies",
+              "keyPassage": "Electoral College + swing states + contrasting presidencies",
+              "keyAnswer": "Swing States & Shifting Policies: How the US Electoral College Shapes Modern Presidencies",
+              "paraphrasePair": "thematic synthesis of all 4 paragraphs",
+              "meaningVi": "tổng hợp trọn vẹn chủ đề bầu cử và đối chiếu hai nhiệm kỳ",
+              "deductionLogic": "Loại B, C, D vì đều sai lệch hoàn toàn với nội dung bài."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 3,
+        "title": "Passage 3: Structural & Macroeconomic Impacts of COVID-19",
+        "topic": "Tác động vĩ mô của đại dịch COVID-19: Cú sốc chuỗi cung ứng, Việc làm từ xa & Hệ thống y tế",
+        "timeAllowed": 15,
+        "passage": "<p>Beyond its immediate toll on global human health, the COVID-19 pandemic triggered the most synchronized macroeconomic contraction since the Great Depression, exposing hidden structural fragilities built into twenty-first-century globalization. For three decades prior to 2020, multinational corporations had relentlessly optimized production around 'just-in-time' supply chains—minimizing warehouse inventories and concentrating specialized component manufacturing inside low-cost geographic hubs to maximize quarterly efficiency. When border closures, factory lockdowns, and congested container ports halted freight flows simultaneously across continents, that lean architecture fractured overnight, unleashing cascading shortages ranging from surgical masks and pharmaceuticals to automotive microchips.</p><p>In response to this severe supply-chain whiplash, governments and corporate boards began reassessing the trade-off between pure cost minimization and strategic resilience. Many manufacturers initiated 'China-plus-one' diversification, 'nearshoring' assembly closer to consumer markets, and 'just-in-case' buffer stockpiling of critical commodities. Simultaneously, massive fiscal stimulus packages deployed by central banks to prevent mass bankruptcies—colliding with bottlenecked global shipping and surging energy prices—ignited the sharpest wave of consumer inflation seen in forty years, eroding household purchasing power across both advanced and emerging economies.</p><p>The pandemic also accelerated a decade's worth of labor-market transformation within months, most visibly through the rapid normalization of remote and hybrid white-collar work. While digital collaboration tools sustained productivity for knowledge workers and reduced commuting hours, this shift exposed a stark occupational divide. Frontline essential workers in healthcare, logistics, food processing, and retail could not shelter behind laptop screens, bearing disproportionate viral exposure alongside economic precarity. Moreover, the permanent reduction in five-day office attendance triggered lasting commercial real-estate vacancies in metropolitan downtown cores, forcing urban planners to reconsider transit funding and office-to-residential building conversions.</p><p>Finally, COVID-19 delivered an unprecedented stress test to national public health systems and scientific collaboration. Although the record-breaking development of mRNA vaccines demonstrated the extraordinary power of open genomic data sharing and public-private funding, stark disparities in vaccine distribution—dubbed 'vaccine nationalism'—revealed how global inequity prolongs biological crises by allowing viral variants to proliferate. Consequently, epidemiologists emphasize that pandemic preparedness cannot rely on reactive emergency improvisation; it requires sustained investment in primary healthcare capacity, decentralized vaccine manufacturing across developing regions, and transparent international disease surveillance networks.</p>",
+        "vocab": [
+          {
+            "word": "contraction",
+            "pos": "n",
+            "ipa": "/kənˈtræk.ʃən/",
+            "level": "C1",
+            "mean": "sự thu hẹp, suy giảm mạnh (kinh tế)",
+            "syns": [
+              "shrinkage",
+              "downturn",
+              "slump"
+            ],
+            "ex": "Synchronized lockdowns induced a sharp global economic contraction in 2020."
+          },
+          {
+            "word": "fragility",
+            "pos": "n",
+            "ipa": "/frəˈdʒɪl.ə.ti/",
+            "level": "C1",
+            "mean": "tính mong manh dễ tổn thương (của hệ thống)",
+            "syns": [
+              "vulnerability",
+              "weakness",
+              "brittleness"
+            ],
+            "ex": "Port closures exposed the hidden fragility of hyper-lean global supply chains."
+          },
+          {
+            "word": "inventory",
+            "pos": "n",
+            "ipa": "/ˈɪn.vən.tər.i/",
+            "level": "B2",
+            "mean": "hàng tồn kho dự trữ",
+            "syns": [
+              "stockpile",
+              "reserve",
+              "stock"
+            ],
+            "ex": "Companies previously kept minimal warehouse inventory to cut storage expenses."
+          },
+          {
+            "word": "cascading",
+            "pos": "adj",
+            "ipa": "/kæsˈkeɪ.dɪŋ/",
+            "level": "C1",
+            "mean": "dây chuyền, hiệu ứng domino nối tiếp nhau",
+            "syns": [
+              "domino-effect",
+              "chain-reaction",
+              "rippling"
+            ],
+            "ex": "A single factory shutdown triggered cascading shortages across car plants."
+          },
+          {
+            "word": "whiplash",
+            "pos": "n",
+            "ipa": "/ˈwɪp.læʃ/",
+            "level": "C1",
+            "mean": "cú giật sốc đảo chiều đột ngột",
+            "syns": [
+              "jolt",
+              "shock",
+              "abrupt reversal"
+            ],
+            "ex": "Supply-chain whiplash left retailers swinging from empty shelves to excess stock."
+          },
+          {
+            "word": "diversification",
+            "pos": "n",
+            "ipa": "/daɪˌvɜː.sɪ.fɪˈkeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự đa dạng hóa (nguồn cung, nhà máy)",
+            "syns": [
+              "broadening",
+              "spreading risk",
+              "branching out"
+            ],
+            "ex": "Geographic diversification protects electronics firms from single-country disruptions."
+          },
+          {
+            "word": "nearshoring",
+            "pos": "n",
+            "ipa": "/ˈnɪə.ʃɔː.rɪŋ/",
+            "level": "C1",
+            "mean": "dịch chuyển sản xuất về các nước lân cận thị trường tiêu thụ",
+            "syns": [
+              "regional relocation",
+              "proximal sourcing"
+            ],
+            "ex": "Nearshoring shortens shipping lanes and lowers exposure to maritime bottlenecks."
+          },
+          {
+            "word": "stockpiling",
+            "pos": "n",
+            "ipa": "/ˈstɒk.paɪ.lɪŋ/",
+            "level": "B2",
+            "mean": "sự tích trữ dự phòng chiến lược",
+            "syns": [
+              "hoarding",
+              "accumulating",
+              "amassing"
+            ],
+            "ex": "Hospitals expanded buffer stockpiling of essential protective equipment."
+          },
+          {
+            "word": "stimulus",
+            "pos": "n",
+            "ipa": "/ˈstɪm.jʊ.ləs/",
+            "level": "C1",
+            "mean": "gói kích thích kinh tế (tài khóa/tiền tệ)",
+            "syns": [
+              "boost",
+              "incentive",
+              "injection"
+            ],
+            "ex": "Emergency fiscal stimulus prevented millions of small businesses from collapsing."
+          },
+          {
+            "word": "inflation",
+            "pos": "n",
+            "ipa": "/ɪnˈfleɪ.ʃən/",
+            "level": "B2",
+            "mean": "lạm phát, sự leo thang giá cả tiêu dùng",
+            "syns": [
+              "price surge",
+              "cost escalation"
+            ],
+            "ex": "Supply bottlenecks and surging fuel costs fueled a multi-decade high in inflation."
+          },
+          {
+            "word": "erode",
+            "pos": "v",
+            "ipa": "/ɪˈrəʊd/",
+            "level": "B2",
+            "mean": "làm xói mòn, bào mòn (sức mua)",
+            "syns": [
+              "diminish",
+              "undermine",
+              "weaken"
+            ],
+            "ex": "Rapid food inflation quickly acts to erode working families' purchasing power."
+          },
+          {
+            "word": "normalization",
+            "pos": "n",
+            "ipa": "/ˌnɔː.mə.laɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự bình thường hóa, trở thành thông lệ phổ biến",
+            "syns": [
+              "standardization",
+              "mainstreaming",
+              "acceptance"
+            ],
+            "ex": "Video platforms accelerated the normalization of hybrid office schedules."
+          },
+          {
+            "word": "white-collar",
+            "pos": "adj",
+            "ipa": "/ˌwaɪtˈkɒl.ər/",
+            "level": "B2",
+            "mean": "lao động văn phòng, trí óc",
+            "syns": [
+              "office-based",
+              "clerical",
+              "professional"
+            ],
+            "ex": "Remote software suited white-collar jobs far more easily than factory labor."
+          },
+          {
+            "word": "frontline",
+            "pos": "adj",
+            "ipa": "/ˈfrʌnt.laɪn/",
+            "level": "B2",
+            "mean": "tuyến đầu (y tế, vận tải, bán lẻ thiết yếu)",
+            "syns": [
+              "essential",
+              "direct-contact",
+              "first-response"
+            ],
+            "ex": "Frontline nurses and delivery drivers kept cities functioning during lockdowns."
+          },
+          {
+            "word": "precarity",
+            "pos": "n",
+            "ipa": "/prɪˈkeə.rə.ti/",
+            "level": "C1",
+            "mean": "sự bấp bênh, bất an về thu nhập và việc làm",
+            "syns": [
+              "insecurity",
+              "instability",
+              "uncertainty"
+            ],
+            "ex": "Hourly service staff faced acute financial precarity when venues closed."
+          },
+          {
+            "word": "vacancy",
+            "pos": "n",
+            "ipa": "/ˈveɪ.kən.si/",
+            "level": "B2",
+            "mean": "tỷ lệ mặt bằng bỏ trống chưa có người thuê",
+            "syns": [
+              "unoccupied space",
+              "emptiness"
+            ],
+            "ex": "Hybrid schedules drove downtown office vacancy rates to historic peaks."
+          },
+          {
+            "word": "genomic",
+            "pos": "adj",
+            "ipa": "/dʒɪˈnəʊ.mɪk/",
+            "level": "C1",
+            "mean": "thuộc bộ gen di truyền",
+            "syns": [
+              "genetic",
+              "DNA-sequencing"
+            ],
+            "ex": "Rapid open genomic sequencing enabled scientists to design mRNA vaccines swiftly."
+          },
+          {
+            "word": "nationalism",
+            "pos": "n",
+            "ipa": "/ˈnæʃ.ən.əl.ɪ.zəm/",
+            "level": "B2",
+            "mean": "chủ nghĩa dân tộc cục bộ (tích trữ riêng vắc-xin)",
+            "syns": [
+              "protectionism",
+              "self-interest"
+            ],
+            "ex": "Vaccine nationalism left low-income nations waiting months for initial doses."
+          },
+          {
+            "word": "prolong",
+            "pos": "v",
+            "ipa": "/prəˈlɒŋ/",
+            "level": "B2",
+            "mean": "kéo dài thêm (khủng hoảng, dịch bệnh)",
+            "syns": [
+              "extend",
+              "lengthen",
+              "protract"
+            ],
+            "ex": "Unequal immunization rates prolong pandemics by giving viruses room to mutate."
+          },
+          {
+            "word": "variant",
+            "pos": "n",
+            "ipa": "/ˈveə.ri.ənt/",
+            "level": "B2",
+            "mean": "biến thể (của virus)",
+            "syns": [
+              "strain",
+              "mutation",
+              "sub-type"
+            ],
+            "ex": "Global surveillance labs track emerging viral variants across international borders."
+          },
+          {
+            "word": "improvisation",
+            "pos": "n",
+            "ipa": "/ˌɪm.prə.vaɪˈzeɪ.ʃən/",
+            "level": "C1",
+            "mean": "sự ứng biến chắp vá tức thời không chuẩn bị trước",
+            "syns": [
+              "ad-hoc reaction",
+              "extemporization"
+            ],
+            "ex": "Public health experts warn against relying on crisis improvisation during outbreaks."
+          },
+          {
+            "word": "surveillance",
+            "pos": "n",
+            "ipa": "/sɜːˈveɪ.ləns/",
+            "level": "B2",
+            "mean": "giám sát dịch tễ học chủ động",
+            "syns": [
+              "monitoring",
+              "tracking",
+              "observation"
+            ],
+            "ex": "Transparent disease surveillance alerts health agencies before local outbreaks spread."
+          },
+          {
+            "word": "lean",
+            "pos": "adj",
+            "ipa": "/liːn/",
+            "level": "B2",
+            "mean": "tinh gọn tối đa (cắt bỏ dự phòng tồn kho)",
+            "syns": [
+              "streamlined",
+              "minimalist",
+              "trimmed"
+            ],
+            "ex": "Ultra-lean supply chains lower costs in calm times but snap during global crises."
+          },
+          {
+            "word": "fracture",
+            "pos": "v",
+            "ipa": "/ˈfræk.tʃər/",
+            "level": "B2",
+            "mean": "rạn nứt, đứt gãy đột ngột",
+            "syns": [
+              "break apart",
+              "rupture",
+              "shatter"
+            ],
+            "ex": "Simultaneous border closures caused tightly timed shipping schedules to fracture."
+          },
+          {
+            "word": "commodity",
+            "pos": "n",
+            "ipa": "/kəˈmɒd.ə.ti/",
+            "level": "B2",
+            "mean": "hàng hóa thiết yếu nguyên liệu cơ bản",
+            "syns": [
+              "raw material",
+              "essential good",
+              "staple"
+            ],
+            "ex": "Nations increased strategic reserves of energy and agricultural commodities."
+          },
+          {
+            "word": "stark",
+            "pos": "adj",
+            "ipa": "/stɑːk/",
+            "level": "C1",
+            "mean": "rõ rệt, phơi bày trần trụi đối lập",
+            "syns": [
+              "sharp",
+              "pronounced",
+              "glaring"
+            ],
+            "ex": "Remote work revealed a stark divide between salaried analysts and frontline staff."
+          },
+          {
+            "word": "bankruptcy",
+            "pos": "n",
+            "ipa": "/ˈbæŋk.rʌpt.si/",
+            "level": "B2",
+            "mean": "sự phá sản doanh nghiệp",
+            "syns": [
+              "insolvency",
+              "financial ruin",
+              "collapse"
+            ],
+            "ex": "Emergency wage subsidies shielded airlines and restaurants from immediate bankruptcy."
+          }
+        ],
+        "questions": [
+          {
+            "id": 21,
+            "num": 21,
+            "question": "According to paragraph 1, why did 'just-in-time' global supply chains fracture so severely during COVID-19?",
+            "questionVi": "Theo đoạn 1, tại sao chuỗi cung ứng toàn cầu 'đúng lúc' (just-in-time) lại đứt gãy nặng nề trong đại dịch COVID-19?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN / CƠ CHẾ (Cause & Effect)",
+            "options": [
+              "Because minimizing warehouse inventories and concentrating production in a few hubs left zero buffer when borders and ports shut down simultaneously",
+              "Because multinational corporations kept excessive stockpiles that rotted inside warehouses",
+              "Because container ships were banned permanently in favor of air freight in 2019",
+              "Because factories produced too many surgical masks and microchips before the outbreak"
+            ],
+            "optionsVi": [
+              "A. Bởi vì cắt giảm tối đa tồn kho và tập trung sản xuất tại vài trung tâm khiến hệ thống không có vùng đệm khi biên giới và cảng biển đóng cửa đồng loạt",
+              "B. Bởi vì các tập đoàn đa quốc gia tích trữ tồn kho quá mức làm hàng hư hỏng",
+              "C. Bởi vì tàu container bị cấm vĩnh viễn từ năm 2019 để chuyển sang vận tải hàng không",
+              "D. Bởi vì các nhà máy sản xuất dư thừa khẩu trang và vi mạch trước đại dịch"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "minimizing warehouse inventories and concentrating specialized component manufacturing inside low-cost geographic hubs... When border closures, factory lockdowns, and congested container ports halted freight flows simultaneously... that lean architecture fractured overnight... [Paragraph 1]",
+            "evidenceVi": "tối thiểu hóa hàng tồn kho và tập trung sản xuất linh kiện tại vài trung tâm giá rẻ... Khi đóng cửa biên giới, phong tỏa nhà máy và tắc nghẽn cảng xảy ra đồng loạt, cấu trúc tinh gọn đó đứt gãy chỉ sau một đêm. [Đoạn 1]",
+            "explanation": "Đoạn 1 phân tích điểm yếu chí mạng của mô hình 'just-in-time': tối thiểu hóa tồn kho và tập trung sản xuất quá mức tại vài điểm khiến chuỗi cung ứng đứt gãy dây chuyền khi phong tỏa diễn ra đồng loạt (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế đứt gãy chuỗi cung ứng (Cause & Effect)",
+              "cluePassage": "minimizing warehouse inventories and concentrating specialized component manufacturing... halted freight flows simultaneously... that lean architecture fractured overnight",
+              "clueAnswer": "minimizing warehouse inventories and concentrating production in a few hubs left zero buffer when borders and ports shut down simultaneously",
+              "keyPassage": "minimizing warehouse inventories + concentrating manufacturing + simultaneous closures",
+              "keyAnswer": "minimizing inventories + concentrating production + borders and ports shut down simultaneously",
+              "paraphrasePair": "lean architecture fractured <=> left zero buffer and fractured",
+              "meaningVi": "cấu trúc tinh gọn đứt gãy <=> không có vùng đệm dự phòng",
+              "deductionLogic": "Khớp trực tiếp câu 2 và câu 3 đoạn 1."
+            }
+          },
+          {
+            "id": 22,
+            "num": 22,
+            "question": "In paragraph 2, how are manufacturers restructuring supply chains to prioritize resilience over pure cost cutting?",
+            "questionVi": "Trong đoạn 2, các nhà sản xuất đang tái cấu trúc chuỗi cung ứng như thế nào để ưu tiên sức chống chịu thay vì chỉ cắt giảm chi phí?",
+            "questionType": "DẠNG 03: CHI TIẾT THÔNG TIN (Factual Detail)",
+            "options": [
+              "Through geographic diversification ('China-plus-one'), nearshoring assembly, and 'just-in-case' buffer stockpiling",
+              "By consolidating every single factory into one single coastal port city",
+              "By abolishing all warehouse storage worldwide to save real-estate taxes",
+              "By replacing all electronic microchips with manual mechanical gears"
+            ],
+            "optionsVi": [
+              "A. Thông qua đa dạng hóa địa lý ('Trung Quốc cộng một'), đưa lắp ráp về gần thị trường (nearshoring) và tích trữ dự phòng ('just-in-case')",
+              "B. Bằng cách gom toàn bộ mọi nhà máy vào duy nhất một thành phố cảng ven biển",
+              "C. Bằng cách bãi bỏ mọi kho chứa trên toàn cầu để tiết kiệm thuế đất",
+              "D. Bằng cách thay thế toàn bộ chip điện tử bằng bánh răng cơ khí thủ công"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Many manufacturers initiated 'China-plus-one' diversification, 'nearshoring' assembly closer to consumer markets, and 'just-in-case' buffer stockpiling of critical commodities. [Paragraph 2]",
+            "evidenceVi": "Nhiều nhà sản xuất khởi động đa dạng hóa 'Trung Quốc cộng một', đưa lắp ráp về gần thị trường (nearshoring) và tích trữ đệm dự phòng 'just-in-case' đối với hàng hóa thiết yếu. [Đoạn 2]",
+            "explanation": "Đoạn 2 liệt kê nguyên văn 3 chiến lược nâng sức chống chịu: đa dạng hóa 'China-plus-one', 'nearshoring' và dự phòng 'just-in-case' (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Chiến lược tái cấu trúc (Factual)",
+              "cluePassage": "initiated 'China-plus-one' diversification, 'nearshoring' assembly closer to consumer markets, and 'just-in-case' buffer stockpiling",
+              "clueAnswer": "Through geographic diversification ('China-plus-one'), nearshoring assembly, and 'just-in-case' buffer stockpiling",
+              "keyPassage": "China-plus-one diversification, nearshoring assembly, just-in-case buffer stockpiling",
+              "keyAnswer": "geographic diversification, nearshoring assembly, just-in-case buffer stockpiling",
+              "paraphrasePair": "direct triad of resilience strategies",
+              "meaningVi": "bộ ba chiến lược tăng sức chống chịu chuỗi cung ứng",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 2."
+            }
+          },
+          {
+            "id": 23,
+            "num": 23,
+            "question": "According to paragraph 2, what combination of factors ignited the sharpest consumer inflation wave in forty years?",
+            "questionVi": "Theo đoạn 2, sự kết hợp các yếu tố nào đã châm ngòi cho làn sóng lạm phát tiêu dùng mạnh nhất trong 40 năm?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN KINH TẾ (Cause & Effect)",
+            "options": [
+              "Massive fiscal stimulus colliding with bottlenecked global shipping and surging energy prices",
+              "A sharp fall in global oil prices combined with zero government spending",
+              "Mandatory five-day office commutes driving down commercial real-estate rent",
+              "Surplus inventories of inexpensive microchips flooding retail stores"
+            ],
+            "optionsVi": [
+              "A. Các gói kích thích tài khóa khổng lồ va chạm với tình trạng tắc nghẽn vận tải biển toàn cầu và giá năng lượng tăng vọt",
+              "B. Giá dầu toàn cầu giảm mạnh kết hợp với việc chính phủ ngừng chi tiêu",
+              "C. Quy định đi làm văn phòng 5 ngày bắt buộc kéo giảm tiền thuê bất động sản",
+              "D. Lượng tồn kho dư thừa vi mạch giá rẻ tràn ngập cửa hàng bán lẻ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "massive fiscal stimulus packages... colliding with bottlenecked global shipping and surging energy prices—ignited the sharpest wave of consumer inflation seen in forty years... [Paragraph 2]",
+            "evidenceVi": "các gói kích thích tài khóa khổng lồ... va chạm với vận tải biển toàn cầu tắc nghẽn và giá năng lượng tăng vọt — châm ngòi làn sóng lạm phát tiêu dùng mạnh nhất trong 40 năm. [Đoạn 2]",
+            "explanation": "Đoạn 2 chỉ rõ 3 yếu tố cộng hưởng gây lạm phát: gói kích thích tài khóa khổng lồ + vận tải biển ách tắc + giá năng lượng tăng mạnh (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Nguyên nhân lạm phát (Cause & Effect)",
+              "cluePassage": "massive fiscal stimulus packages... colliding with bottlenecked global shipping and surging energy prices—ignited the sharpest wave of consumer inflation",
+              "clueAnswer": "Massive fiscal stimulus colliding with bottlenecked global shipping and surging energy prices",
+              "keyPassage": "fiscal stimulus + bottlenecked shipping + surging energy prices -> consumer inflation",
+              "keyAnswer": "fiscal stimulus colliding with bottlenecked global shipping and surging energy prices",
+              "paraphrasePair": "exact causal mechanism",
+              "meaningVi": "kích cầu tài khóa + tắc nghẽn vận tải + giá năng lượng tăng vọt",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 24,
+            "num": 24,
+            "question": "What occupational divide did the shift to remote work expose according to paragraph 3?",
+            "questionVi": "Theo đoạn 3, xu hướng chuyển sang làm việc từ xa đã phơi bày sự phân hóa nghề nghiệp nào?",
+            "questionType": "DẠNG 03: SO SÁNH ĐỐI CHIẾU (Comparison)",
+            "options": [
+              "Knowledge workers could work safely online, whereas frontline essential workers in healthcare, logistics, and retail faced higher viral exposure and economic insecurity.",
+              "Retail and logistics staff transitioned entirely to home laptops while white-collar analysts had to commute daily.",
+              "Healthcare professionals earned triple overtime while remote office workers lost access to broadband.",
+              "Downtown real-estate landlords experienced record occupancy while suburban homes emptied out."
+            ],
+            "optionsVi": [
+              "A. Lao động tri thức có thể làm việc an toàn trực tuyến, còn lao động tuyến đầu thiết yếu trong y tế, logistics và bán lẻ đối mặt phơi nhiễm virus cao hơn và bấp bênh kinh tế.",
+              "B. Nhân viên bán lẻ và logistics chuyển hoàn toàn sang làm việc bằng laptop tại nhà còn chuyên viên văn phòng phải đi làm trực tiếp.",
+              "C. Nhân viên y tế hưởng lương gấp ba còn nhân viên văn phòng mất mạng internet.",
+              "D. Chủ cho thuê bất động sản trung tâm đạt tỷ lệ lấp đầy kỷ lục còn nhà ngoại ô bỏ trống."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "While digital collaboration tools sustained productivity for knowledge workers... Frontline essential workers in healthcare, logistics, food processing, and retail could not shelter behind laptop screens, bearing disproportionate viral exposure alongside economic precarity. [Paragraph 3]",
+            "evidenceVi": "Trong khi công cụ số duy trì năng suất cho lao động tri thức... lao động thiết yếu tuyến đầu trong y tế, vận tải, chế biến thực phẩm và bán lẻ không thể ẩn sau màn hình máy tính, phải gánh rủi ro phơi nhiễm và bấp bênh kinh tế lớn hơn. [Đoạn 3]",
+            "explanation": "Đoạn 3 đối chiếu rõ khoảng cách giữa lao động tri thức văn phòng (làm từ xa an toàn) với lao động tuyến đầu thiết yếu (chịu rủi ro phơi nhiễm và bấp bênh thu nhập) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Phân hóa thị trường lao động (Comparison)",
+              "cluePassage": "knowledge workers... Frontline essential workers in healthcare, logistics, food processing, and retail... bearing disproportionate viral exposure alongside economic precarity.",
+              "clueAnswer": "Knowledge workers could work safely online, whereas frontline essential workers in healthcare, logistics, and retail faced higher viral exposure and economic insecurity.",
+              "keyPassage": "disproportionate viral exposure alongside economic precarity",
+              "keyAnswer": "higher viral exposure and economic insecurity",
+              "paraphrasePair": "economic precarity <=> economic insecurity",
+              "meaningVi": "sự bấp bênh kinh tế <=> tình trạng bất an về kinh tế",
+              "deductionLogic": "Paraphrase chuẩn từ 'precarity' sang 'insecurity'."
+            }
+          },
+          {
+            "id": 25,
+            "num": 25,
+            "question": "What urban planning consequence of permanent hybrid work is identified at the end of paragraph 3?",
+            "questionVi": "Hệ quả quy hoạch đô thị nào từ mô hình làm việc kết hợp lâu dài được chỉ ra ở cuối đoạn 3?",
+            "questionType": "DẠNG 03: HỆ QUẢ ĐÔ THỊ (Cause & Effect)",
+            "options": [
+              "Lasting downtown commercial office vacancies, prompting cities to rethink transit budgets and office-to-housing conversions",
+              "An acute shortage of empty office towers in central metropolitan business districts",
+              "The total abolition of public commuter buses in favor of private helicopters",
+              "A universal legal requirement forcing knowledge workers back into offices six days a week"
+            ],
+            "optionsVi": [
+              "A. Tình trạng mặt bằng văn phòng thương mại trung tâm bỏ trống kéo dài, buộc các thành phố tính lại ngân sách giao thông và chuyển đổi văn phòng thành nhà ở",
+              "B. Tình trạng khan hiếm nghiêm trọng tháp văn phòng trống tại khu thương mại trung tâm",
+              "C. Xóa bỏ hoàn toàn xe buýt công cộng để thay bằng trực thăng tư nhân",
+              "D. Quy định pháp lý bắt buộc lao động tri thức quay lại văn phòng sáu ngày mỗi tuần"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the permanent reduction in five-day office attendance triggered lasting commercial real-estate vacancies in metropolitan downtown cores, forcing urban planners to reconsider transit funding and office-to-residential building conversions. [Paragraph 3]",
+            "evidenceVi": "việc giảm vĩnh viễn tần suất đến văn phòng 5 ngày/tuần gây ra tình trạng bỏ trống bất động sản thương mại trung tâm kéo dài, buộc quy hoạch đô thị cân nhắc lại nguồn thu giao thông và chuyển đổi văn phòng thành nhà ở. [Đoạn 3]",
+            "explanation": "Cuối đoạn 3 nêu trực tiếp hệ quả đô thị: văn phòng trung tâm bỏ trống lâu dài, ảnh hưởng ngân sách giao thông công cộng và thúc đẩy chuyển đổi cao ốc văn phòng thành khu căn hộ ở (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Hệ quả bất động sản & đô thị (Factual)",
+              "cluePassage": "lasting commercial real-estate vacancies in metropolitan downtown cores, forcing urban planners to reconsider transit funding and office-to-residential building conversions.",
+              "clueAnswer": "Lasting downtown commercial office vacancies, prompting cities to rethink transit budgets and office-to-housing conversions",
+              "keyPassage": "commercial real-estate vacancies... transit funding... office-to-residential conversions",
+              "keyAnswer": "downtown commercial office vacancies... transit budgets... office-to-housing conversions",
+              "paraphrasePair": "office-to-residential conversions <=> office-to-housing conversions",
+              "meaningVi": "chuyển đổi cao ốc văn phòng sang nhà ở",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 26,
+            "num": 26,
+            "question": "The word \"precarity\" in paragraph 3 is closest in meaning to:",
+            "questionVi": "Từ \"precarity\" trong đoạn 3 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "insecurity",
+              "prosperity",
+              "authority",
+              "immunity"
+            ],
+            "optionsVi": [
+              "A. sự bấp bênh, bất an",
+              "B. sự thịnh vượng",
+              "C. thẩm quyền",
+              "D. khả năng miễn dịch"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "bearing disproportionate viral exposure alongside economic precarity. [Paragraph 3]",
+            "evidenceVi": "gánh chịu mức phơi nhiễm virus cao bất cân xứng cùng với sự bấp bênh kinh tế. [Đoạn 3]",
+            "explanation": "'Precarity' (danh từ của 'precarious' = bấp bênh, chênh vênh) mang nghĩa sự bấp bênh thiếu an toàn về việc làm và tài chính ('insecurity') (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa học thuật (Vocabulary)",
+              "cluePassage": "disproportionate viral exposure alongside economic precarity",
+              "clueAnswer": "insecurity",
+              "keyPassage": "economic precarity",
+              "keyAnswer": "insecurity",
+              "paraphrasePair": "precarity <=> insecurity / instability",
+              "meaningVi": "tình trạng bấp bênh <=> sự bất an thiếu ổn định",
+              "deductionLogic": "Cùng trường nghĩa tiêu cực với 'disproportionate viral exposure'."
+            }
+          },
+          {
+            "id": 27,
+            "num": 27,
+            "question": "According to paragraph 4, why does 'vaccine nationalism' actually prolong global biological crises?",
+            "questionVi": "Theo đoạn 4, tại sao 'chủ nghĩa dân tộc vắc-xin' thực chất lại kéo dài các cuộc khủng hoảng sinh học toàn cầu?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN DỊCH TỄ (Cause & Effect)",
+            "options": [
+              "Because leaving large populations unvaccinated enables viral variants to multiply and spread across borders",
+              "Because mRNA vaccines stop working whenever they are shared internationally",
+              "Because open genomic data sharing slows down pharmaceutical laboratory research",
+              "Because wealthy nations refused to fund any private vaccine trials"
+            ],
+            "optionsVi": [
+              "A. Bởi vì để các nhóm dân cư lớn không được tiêm chủng tạo điều kiện cho các biến thể virus sinh sôi và lây lan xuyên biên giới",
+              "B. Bởi vì vắc-xin mRNA mất tác dụng ngay khi chia sẻ ra quốc tế",
+              "C. Bởi vì chia sẻ dữ liệu bộ gen mở làm chậm nghiên cứu phòng thí nghiệm dược phẩm",
+              "D. Bởi vì các nước giàu từ chối tài trợ mọi thử nghiệm vắc-xin tư nhân"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "stark disparities in vaccine distribution—dubbed 'vaccine nationalism'—revealed how global inequity prolongs biological crises by allowing viral variants to proliferate. [Paragraph 4]",
+            "evidenceVi": "sự chênh lệch gay gắt trong phân phối vắc-xin — gọi là 'chủ nghĩa dân tộc vắc-xin' — phơi bày cách bất bình đẳng toàn cầu kéo dài khủng hoảng sinh học khi tạo điều kiện cho các biến thể virus sinh sôi. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu rõ cơ chế dịch tễ: chênh lệch tiêm chủng tạo khoảng trống để virus biến đổi thành biến thể mới, làm kéo dài dịch bệnh toàn cầu (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Hệ lụy dịch tễ (Cause & Effect)",
+              "cluePassage": "global inequity prolongs biological crises by allowing viral variants to proliferate.",
+              "clueAnswer": "leaving large populations unvaccinated enables viral variants to multiply and spread across borders",
+              "keyPassage": "prolongs biological crises by allowing viral variants to proliferate",
+              "keyAnswer": "enables viral variants to multiply and spread",
+              "paraphrasePair": "proliferate <=> multiply and spread",
+              "meaningVi": "sinh sôi nảy nở mạnh <=> nhân lên và lây lan",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 28,
+            "num": 28,
+            "question": "Which of the following is NOT listed in paragraph 4 as a key pillar of future pandemic preparedness?",
+            "questionVi": "Yếu tố nào sau đây KHÔNG được liệt kê trong đoạn 4 như một trụ cột then chốt để chuẩn bị ứng phó đại dịch trong tương lai?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Sustained investment in primary healthcare capacity",
+              "Decentralized vaccine manufacturing across developing regions",
+              "Transparent international disease surveillance networks",
+              "Relying strictly on ad-hoc emergency improvisation once an outbreak begins"
+            ],
+            "optionsVi": [
+              "A. Đầu tư bền vững vào năng lực y tế chăm sóc ban đầu",
+              "B. Sản xuất vắc-xin phi tập trung tại các khu vực đang phát triển",
+              "C. Mạng lưới giám sát dịch bệnh quốc tế minh bạch",
+              "D. Chỉ dựa vào ứng biến khẩn cấp chắp vá sau khi dịch đã bùng phát"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "pandemic preparedness cannot rely on reactive emergency improvisation; it requires sustained investment in primary healthcare capacity, decentralized vaccine manufacturing across developing regions, and transparent international disease surveillance networks. [Paragraph 4]",
+            "evidenceVi": "sự sẵn sàng ứng phó đại dịch không thể dựa vào ứng biến khẩn cấp bị động; nó đòi hỏi đầu tư bền vững cho y tế ban đầu, sản xuất vắc-xin phi tập trung ở khu vực đang phát triển và giám sát dịch bệnh minh bạch. [Đoạn 4]",
+            "explanation": "Câu cuối đoạn 4 bác bỏ trực tiếp D ('cannot rely on reactive emergency improvisation') và khẳng định 3 trụ cột A, B, C.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT a pillar)",
+              "cluePassage": "cannot rely on reactive emergency improvisation; it requires sustained investment in primary healthcare capacity, decentralized vaccine manufacturing... transparent international disease surveillance",
+              "clueAnswer": "Relying strictly on ad-hoc emergency improvisation once an outbreak begins",
+              "keyPassage": "cannot rely on reactive emergency improvisation",
+              "keyAnswer": "Relying strictly on ad-hoc emergency improvisation (Explicitly rejected)",
+              "paraphrasePair": "reactive emergency improvisation <=> ad-hoc emergency improvisation",
+              "meaningVi": "ứng biến khẩn cấp bị động (bị bác bỏ trực tiếp)",
+              "deductionLogic": "Phủ định rõ ràng ngay mệnh đề đầu câu cuối."
+            }
+          },
+          {
+            "id": 29,
+            "num": 29,
+            "question": "What positive scientific lesson from COVID-19 is acknowledged in paragraph 4?",
+            "questionVi": "Bài học khoa học tích cực nào từ COVID-19 được ghi nhận trong đoạn 4?",
+            "questionType": "DẠNG 03: CHI TIẾT TÍCH CỰC (Factual Detail)",
+            "options": [
+              "Open genomic data sharing combined with public-private funding enabled record-breaking mRNA vaccine development.",
+              "Closing national laboratories accelerated individual countries' independent cures.",
+              "Traditional herbal remedies replaced all clinical immunization trials.",
+              "Viral mutations stopped occurring as soon as the first vaccine was patented."
+            ],
+            "optionsVi": [
+              "A. Chia sẻ dữ liệu bộ gen mở kết hợp tài trợ công - tư đã giúp phát triển vắc-xin mRNA nhanh kỷ lục.",
+              "B. Đóng cửa các phòng thí nghiệm quốc gia giúp từng nước tự tìm thuốc chữa nhanh hơn.",
+              "C. Thảo dược truyền thống đã thay thế mọi thử nghiệm tiêm chủng lâm sàng.",
+              "D. Đột biến virus ngừng xảy ra ngay khi vắc-xin đầu tiên được cấp bằng sáng chế."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "the record-breaking development of mRNA vaccines demonstrated the extraordinary power of open genomic data sharing and public-private funding... [Paragraph 4]",
+            "evidenceVi": "tốc độ phát triển vắc-xin mRNA phá kỷ lục đã chứng minh sức mạnh phi thường của việc chia sẻ dữ liệu gen mở và tài trợ công - tư. [Đoạn 4]",
+            "explanation": "Đoạn 4 ghi nhận sức mạnh đột phá từ chia sẻ dữ liệu bộ gen mở và hợp tác tài trợ công - tư giúp tạo ra vắc-xin mRNA trong thời gian kỷ lục (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Thành tựu khoa học (Factual)",
+              "cluePassage": "record-breaking development of mRNA vaccines demonstrated the extraordinary power of open genomic data sharing and public-private funding",
+              "clueAnswer": "Open genomic data sharing combined with public-private funding enabled record-breaking mRNA vaccine development.",
+              "keyPassage": "open genomic data sharing + public-private funding -> record-breaking mRNA vaccine development",
+              "keyAnswer": "open genomic data sharing + public-private funding -> record-breaking mRNA vaccine development",
+              "paraphrasePair": "demonstrated the power of <=> enabled",
+              "meaningVi": "chứng minh sức mạnh phi thường <=> giúp hiện thực hóa tốc độ kỷ lục",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 30,
+            "num": 30,
+            "question": "Which statement best captures the overarching message of the passage?",
+            "questionVi": "Phát biểu nào thâu tóm chính xác nhất thông điệp bao quát của toàn bài đọc?",
+            "questionType": "DẠNG 01: Ý CHÍNH TOÀN BÀI (Main Idea)",
+            "options": [
+              "COVID-19 exposed deep structural vulnerabilities across global supply chains, labor markets, urban real estate, and public health equity, prompting lasting economic and institutional shifts.",
+              "The economic impact of COVID-19 ended completely once factories reopened in late 2020.",
+              "Remote office work completely eliminated inequality between frontline and white-collar employees.",
+              "Multinational firms have returned entirely to zero-inventory supply models after the pandemic."
+            ],
+            "optionsVi": [
+              "A. COVID-19 đã phơi bày những lỗ hổng cấu trúc sâu sắc trong chuỗi cung ứng toàn cầu, thị trường lao động, bất động sản đô thị và công bằng y tế, thúc đẩy các chuyển dịch kinh tế - thể chế lâu dài.",
+              "B. Tác động kinh tế của COVID-19 kết thúc hoàn toàn ngay khi nhà máy mở lại cuối năm 2020.",
+              "C. Làm việc văn phòng từ xa đã xóa sạch bất bình đẳng giữa lao động tuyến đầu và nhân viên văn phòng.",
+              "D. Các tập đoàn đa quốc gia đã quay lại hoàn toàn mô hình không tồn kho sau đại dịch."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "supply chains... consumer inflation... remote work & occupational divide... public health systems & preparedness. [Paragraphs 1-4]",
+            "evidenceVi": "chuỗi cung ứng... lạm phát... làm việc từ xa & phân hóa nghề nghiệp... hệ thống y tế công cộng và năng lực ứng phó. [Đoạn 1-4]",
+            "explanation": "Phương án A tổng kết đầy đủ 4 trụ cột vĩ mô xuyên suốt bài đọc; B, C, D đều mâu thuẫn trực tiếp với dữ kiện trong văn bản.",
+            "postReading": {
+              "type": "main_idea",
+              "typeLabel": "Thông điệp toàn bài (Main Idea)",
+              "cluePassage": "structural fragilities... supply chains... labor-market transformation... commercial real-estate vacancies... public health systems",
+              "clueAnswer": "COVID-19 exposed deep structural vulnerabilities across global supply chains, labor markets, urban real estate, and public health equity, prompting lasting economic and institutional shifts.",
+              "keyPassage": "fragilities across supply chains, labor markets, real estate, public health equity",
+              "keyAnswer": "vulnerabilities across global supply chains, labor markets, urban real estate, and public health equity",
+              "paraphrasePair": "structural fragilities <=> structural vulnerabilities",
+              "meaningVi": "những điểm mong manh cấu trúc <=> các lỗ hổng cấu trúc sâu sắc",
+              "deductionLogic": "Tổng hợp trọn vẹn bố cục 4 đoạn."
+            }
+          }
+        ]
+      },
+      {
+        "partId": 4,
+        "title": "Passage 4: Reality Television: Manufactured Authenticity & Ethics",
+        "topic": "Truyền hình thực tế: Kịch bản dựng sẵn, Tâm lý học khán giả & Bài toán đạo đức truyền thông",
+        "timeAllowed": 15,
+        "passage": "<p>Since the turn of the twenty-first century, reality television has evolved from a low-budget scheduling filler into one of the most lucrative and culturally pervasive genres in global broadcasting. Spanning survivalist contests, culinary eliminations, dating spectacles, and celebrity docu-soaps, unscripted programming owes its commercial ascendancy to simple broadcast economics: compared with prestige scripted dramas requiring unionized screenwriters, elaborate period sets, and A-list actors' salaries, reality formats can be produced swiftly at a fraction of the cost while exporting effortlessly across international franchises. Yet beneath the genre's seductive promise of unfiltered human truth lies a meticulously engineered illusion that media scholars aptly term 'manufactured authenticity.'</p><p>Although reality shows dispense with memorized dialogue scripts, narrative outcomes are rarely left to organic chance. Producers shape storylines through strategic 'typecasting'—selecting contestants whose clashing temperaments virtually guarantee interpersonal friction—and placing participants inside pressure-cooker environments marked by sleep deprivation, isolation from outside support networks, and artificial time constraints. Most decisively, modern non-linear editing enables post-production teams to condense hundreds of hours of mundane footage into forty-five minutes of melodrama. Through 'Frankenbiting'—splicing audio sentences recorded on different days onto unrelated reaction shots—and evocative orchestral swells, editors can seamlessly cast ordinary individuals as charismatic heroes or ruthless villains regardless of how events originally unfolded.</p><p>Psychologists investigating the enduring global appetite for reality television point to a complex blend of parasocial intimacy, social comparison, and voyeuristic curiosity. Because contestants appear as relatable everyday peers rather than remote Hollywood stars, viewers experience heightened emotional investment and often engage in 'downward social comparison'—deriving subtle psychological reassurance by critiquing participants' blunders from the safety of their living rooms. Simultaneously, competitive talent shows tap into aspirational meritocracy myths, persuading audiences that sheer raw talent and public text-message voting can catapult an unknown amateur to instant stardom overnight, even when commercial recording contracts heavily pre-filter who advances.</p><p>In recent years, however, the human toll of unscripted fame has provoked urgent regulatory and ethical scrutiny. Several high-profile tragedies involving former dating-show and competition participants have exposed how sudden tabloid notoriety, relentless online cyberbullying, and restrictive non-disclosure contracts can trigger severe psychological distress once cameras stop rolling. In response, broadcasting regulators in the United Kingdom and elsewhere have introduced mandatory duty-of-care guidelines requiring pre-filming psychological assessments, independent mental-health counseling during production, and structured aftercare support. As streaming platforms continue expanding unscripted catalogs globally, reconciling viewers' hunger for dramatic spectacle with the dignity and wellbeing of real human subjects remains television's defining ethical challenge.</p>",
+        "vocab": [
+          {
+            "word": "lucrative",
+            "pos": "adj",
+            "ipa": "/ˈluː.krə.tɪv/",
+            "level": "B2",
+            "mean": "sinh lời cao, béo bở về thương mại",
+            "syns": [
+              "profitable",
+              "remunerative",
+              "money-making"
+            ],
+            "ex": "International franchise licensing turned singing contests into lucrative media assets."
+          },
+          {
+            "word": "pervasive",
+            "pos": "adj",
+            "ipa": "/pəˈveɪ.sɪv/",
+            "level": "C1",
+            "mean": "phổ biến rộng khắp, len lỏi mọi nơi",
+            "syns": [
+              "ubiquitous",
+              "widespread",
+              "omnipresent"
+            ],
+            "ex": "Unscripted competition shows have become a pervasive staple of evening schedules."
+          },
+          {
+            "word": "ascendancy",
+            "pos": "n",
+            "ipa": "/əˈsen.dən.si/",
+            "level": "C1",
+            "mean": "sự vươn lên thống trị, vị thế áp đảo",
+            "syns": [
+              "rise",
+              "dominance",
+              "supremacy"
+            ],
+            "ex": "Low production costs propelled reality TV to commercial ascendancy in the 2000s."
+          },
+          {
+            "word": "franchise",
+            "pos": "n",
+            "ipa": "/ˈfræn.tʃaɪz/",
+            "level": "B2",
+            "mean": "thương hiệu nhượng quyền sản xuất quốc tế",
+            "syns": [
+              "format license",
+              "brand series"
+            ],
+            "ex": "Cooking show franchises adapt easily to local cuisines across fifty countries."
+          },
+          {
+            "word": "meticulously",
+            "pos": "adv",
+            "ipa": "/məˈtɪk.jʊ.ləs.li/",
+            "level": "C1",
+            "mean": "một cách tỉ mỉ, tính toán kỹ lưỡng từng chi tiết",
+            "syns": [
+              "carefully",
+              "precisely",
+              "thoroughly"
+            ],
+            "ex": "What appears spontaneous on screen is often meticulously crafted in editing suites."
+          },
+          {
+            "word": "dispense",
+            "pos": "v",
+            "ipa": "/dɪˈspens/",
+            "level": "C1",
+            "mean": "loại bỏ, không dùng đến (kịch bản lời thoại)",
+            "syns": [
+              "do without",
+              "forgo",
+              "omit"
+            ],
+            "ex": "Reality shows dispense with written scripts yet still follow strict dramatic arcs."
+          },
+          {
+            "word": "typecasting",
+            "pos": "n",
+            "ipa": "/ˈtaɪp.kɑː.stɪŋ/",
+            "level": "C1",
+            "mean": "tuyển chọn đóng khung theo kiểu tính cách định sẵn",
+            "syns": [
+              "stereotyping",
+              "pigeonholing",
+              "archetype casting"
+            ],
+            "ex": "Strategic typecasting pairs introverts with outspoken rivals to spark conflict."
+          },
+          {
+            "word": "temperament",
+            "pos": "n",
+            "ipa": "/ˈtem.prə.mənt/",
+            "level": "B2",
+            "mean": "khí chất, tính khí tự nhiên",
+            "syns": [
+              "disposition",
+              "nature",
+              "personality"
+            ],
+            "ex": "Clashing temperaments inside cramped living quarters guarantee dramatic tension."
+          },
+          {
+            "word": "friction",
+            "pos": "n",
+            "ipa": "/ˈfrɪk.ʃən/",
+            "level": "B2",
+            "mean": "sự va chạm, mâu thuẫn căng thẳng",
+            "syns": [
+              "conflict",
+              "tension",
+              "discord"
+            ],
+            "ex": "Producers design team challenges that maximize interpersonal friction."
+          },
+          {
+            "word": "mundane",
+            "pos": "adj",
+            "ipa": "/mʌnˈdeɪn/",
+            "level": "C1",
+            "mean": "tẻ nhạt, bình thường đời thường",
+            "syns": [
+              "ordinary",
+              "banal",
+              "routine"
+            ],
+            "ex": "Editors discard dozens of hours of mundane conversation to preserve fast pacing."
+          },
+          {
+            "word": "melodrama",
+            "pos": "n",
+            "ipa": "/ˈmel.ə.drɑː.mə/",
+            "level": "B2",
+            "mean": "kịch tính cường điệu hóa cảm xúc",
+            "syns": [
+              "theatrics",
+              "exaggerated drama",
+              "sensationalism"
+            ],
+            "ex": "Suspenseful music turns a minor kitchen spill into high-stakes melodrama."
+          },
+          {
+            "word": "splice",
+            "pos": "v",
+            "ipa": "/splaɪs/",
+            "level": "C1",
+            "mean": "cắt ghép nối lại (âm thanh, khung hình)",
+            "syns": [
+              "join",
+              "stitch together",
+              "intercut"
+            ],
+            "ex": "Sound editors sometimes splice unrelated sentences to fabricate sharper insults."
+          },
+          {
+            "word": "evocative",
+            "pos": "adj",
+            "ipa": "/ɪˈvɒk.ə.tɪv/",
+            "level": "C1",
+            "mean": "gợi cảm xúc mạnh mẽ, khơi gợi tâm trạng",
+            "syns": [
+              "suggestive",
+              "moving",
+              "expressive"
+            ],
+            "ex": "Evocative piano chords cue audiences to feel sympathy for eliminated contestants."
+          },
+          {
+            "word": "charismatic",
+            "pos": "adj",
+            "ipa": "/ˌkær.ɪzˈmæt.ɪk/",
+            "level": "B2",
+            "mean": "cuốn hút, có sức hấp dẫn lôi cuốn",
+            "syns": [
+              "charming",
+              "magnetic",
+              "captivating"
+            ],
+            "ex": "Favorable editing portrays chosen finalists as warm and charismatic underdogs."
+          },
+          {
+            "word": "ruthless",
+            "pos": "adj",
+            "ipa": "/ˈruːθ.ləs/",
+            "level": "B2",
+            "mean": "nhẫn tâm, tàn nhẫn bất chấp thủ đoạn",
+            "syns": [
+              "merciless",
+              "cutthroat",
+              "unscrupulous"
+            ],
+            "ex": "Out-of-context clips can unfairly brand an ordinary contestant as a ruthless villain."
+          },
+          {
+            "word": "parasocial",
+            "pos": "adj",
+            "ipa": "/ˌpær.əˈsəʊ.ʃəl/",
+            "level": "C1",
+            "mean": "tương tác một chiều (cảm giác thân thiết với nhân vật truyền thông)",
+            "syns": [
+              "one-sided media bond",
+              "pseudo-intimate"
+            ],
+            "ex": "Weekly confessional interviews cultivate intense parasocial bonds with viewers."
+          },
+          {
+            "word": "voyeuristic",
+            "pos": "adj",
+            "ipa": "/ˌvɔɪ.jəˈrɪs.tɪk/",
+            "level": "C1",
+            "mean": "tò mò nhòm ngó đời tư người khác",
+            "syns": [
+              "prying",
+              "peeping",
+              "intrusive"
+            ],
+            "ex": "Hidden bedroom cameras cater directly to audiences' voyeuristic curiosity."
+          },
+          {
+            "word": "blunder",
+            "pos": "n",
+            "ipa": "/ˈblʌn.dər/",
+            "level": "B2",
+            "mean": "sai lầm ngớ ngẩn, lỗi lầm hớ hênh",
+            "syns": [
+              "mistake",
+              "gaffe",
+              "mishap"
+            ],
+            "ex": "Audiences frequently bond online by mocking contestants' awkward social blunders."
+          },
+          {
+            "word": "aspirational",
+            "pos": "adj",
+            "ipa": "/ˌæs.pɪˈreɪ.ʃən.əl/",
+            "level": "C1",
+            "mean": "khơi gợi khát vọng vươn lên thành công",
+            "syns": [
+              "ambitious",
+              "idealistic",
+              "upwardly mobile"
+            ],
+            "ex": "Talent competitions market an aspirational fantasy of overnight musical fame."
+          },
+          {
+            "word": "meritocracy",
+            "pos": "n",
+            "ipa": "/ˌmer.ɪˈtɒk.rə.si/",
+            "level": "C1",
+            "mean": "chế độ trọng dụng thực tài công bằng",
+            "syns": [
+              "talent-based system",
+              "earned advancement"
+            ],
+            "ex": "Reality contests project an illusion of pure meritocracy despite behind-the-scenes filtering."
+          },
+          {
+            "word": "catapult",
+            "pos": "v",
+            "ipa": "/ˈkæt.ə.pʌlt/",
+            "level": "C1",
+            "mean": "đưa vọt lên nhanh chóng (đỉnh cao danh vọng)",
+            "syns": [
+              "launch",
+              "propel",
+              "shoot"
+            ],
+            "ex": "A single viral audition clip can catapult a teenager into global stardom."
+          },
+          {
+            "word": "notoriety",
+            "pos": "n",
+            "ipa": "/ˌnəʊ.təˈraɪ.ə.ti/",
+            "level": "C1",
+            "mean": "tai tiếng, sự nổi tiếng kèm thị phi tiêu cực",
+            "syns": [
+              "infamy",
+              "disrepute",
+              "scandalous fame"
+            ],
+            "ex": "Villain edits frequently saddle unprepared young adults with lasting online notoriety."
+          },
+          {
+            "word": "cyberbullying",
+            "pos": "n",
+            "ipa": "/ˈsaɪ.bəˌbʊl.i.ɪŋ/",
+            "level": "B2",
+            "mean": "bắt nạt, tấn công tinh thần trên mạng xã hội",
+            "syns": [
+              "online harassment",
+              "digital abuse"
+            ],
+            "ex": "Relentless cyberbullying after elimination has pushed regulators to demand aftercare."
+          },
+          {
+            "word": "non-disclosure",
+            "pos": "adj",
+            "ipa": "/ˌnɒn.dɪsˈkləʊ.ʒər/",
+            "level": "C1",
+            "mean": "bảo mật không tiết lộ thông tin (hợp đồng NDA)",
+            "syns": [
+              "confidentiality",
+              "secrecy"
+            ],
+            "ex": "Strict non-disclosure clauses bar contestants from explaining how scenes were edited."
+          },
+          {
+            "word": "aftercare",
+            "pos": "n",
+            "ipa": "/ˈɑːf.tə.keər/",
+            "level": "B2",
+            "mean": "chăm sóc hỗ trợ tâm lý sau khi chương trình kết thúc",
+            "syns": [
+              "post-show support",
+              "follow-up care"
+            ],
+            "ex": "Updated broadcast rules mandate psychological aftercare for months following airing."
+          },
+          {
+            "word": "reconcile",
+            "pos": "v",
+            "ipa": "/ˈrek.ən.saɪl/",
+            "level": "C1",
+            "mean": "dung hòa, cân bằng hai mục tiêu xung đột",
+            "syns": [
+              "balance",
+              "harmonize",
+              "resolve"
+            ],
+            "ex": "Networks struggle to reconcile commercial drama with contestant mental safety."
+          },
+          {
+            "word": "dignity",
+            "pos": "n",
+            "ipa": "/ˈdɪɡ.nə.ti/",
+            "level": "B2",
+            "mean": "phẩm giá, nhân phẩm con người",
+            "syns": [
+              "self-respect",
+              "honor",
+              "worth"
+            ],
+            "ex": "Ethical broadcasting requires safeguarding the personal dignity of everyday participants."
+          }
+        ],
+        "questions": [
+          {
+            "id": 31,
+            "num": 31,
+            "question": "According to paragraph 1, what economic factor primarily drove the rapid commercial rise of reality television?",
+            "questionVi": "Theo đoạn 1, yếu tố kinh tế nào chủ yếu thúc đẩy sự trỗi dậy thương mại nhanh chóng của truyền hình thực tế?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN KINH TẾ (Cause & Effect)",
+            "options": [
+              "It can be filmed rapidly at a fraction of the budget of scripted dramas and easily franchised internationally.",
+              "It employs larger teams of unionized screenwriters and higher-paid Hollywood stars.",
+              "Public broadcasting taxes subsidize 100 percent of every reality show's expenses.",
+              "Viewers pay separate pay-per-view admission fees for each individual episode."
+            ],
+            "optionsVi": [
+              "A. Nó có thể sản xuất nhanh với chi phí chỉ bằng một phần nhỏ phim truyền hình kịch bản và dễ dàng nhượng quyền quốc tế.",
+              "B. Nó tuyển dụng đội ngũ biên kịch công đoàn đông hơn và diễn viên hạng A cát-xê cao hơn.",
+              "C. Thuế truyền hình công cộng trợ cấp 100% chi phí cho mọi chương trình thực tế.",
+              "D. Khán giả trả phí xem riêng lẻ từng tập phát sóng."
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "compared with prestige scripted dramas requiring unionized screenwriters, elaborate period sets, and A-list actors' salaries, reality formats can be produced swiftly at a fraction of the cost while exporting effortlessly across international franchises. [Paragraph 1]",
+            "evidenceVi": "so với phim truyền hình kịch bản đắt đỏ cần biên kịch công đoàn, bối cảnh cầu kỳ và cát-xê sao hạng A, format thực tế sản xuất nhanh với chi phí chỉ bằng một phần nhỏ và xuất khẩu nhượng quyền quốc tế dễ dàng. [Đoạn 1]",
+            "explanation": "Đoạn 1 chỉ rõ lợi thế kinh tế cốt lõi: chi phí cực thấp so với phim kịch bản, quay nhanh và dễ bán bản quyền format toàn cầu (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Động lực kinh tế (Cause & Effect)",
+              "cluePassage": "produced swiftly at a fraction of the cost while exporting effortlessly across international franchises.",
+              "clueAnswer": "It can be filmed rapidly at a fraction of the budget of scripted dramas and easily franchised internationally.",
+              "keyPassage": "produced swiftly at a fraction of the cost + exporting effortlessly across international franchises",
+              "keyAnswer": "filmed rapidly at a fraction of the budget + easily franchised internationally",
+              "paraphrasePair": "produced swiftly... cost <=> filmed rapidly... budget",
+              "meaningVi": "sản xuất nhanh với chi phí nhỏ <=> quay nhanh với ngân sách nhỏ",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 1."
+            }
+          },
+          {
+            "id": 32,
+            "num": 32,
+            "question": "What does the editing technique called 'Frankenbiting' in paragraph 2 involve?",
+            "questionVi": "Kỹ thuật biên tập gọi là 'Frankenbiting' trong đoạn 2 bao gồm thao tác gì?",
+            "questionType": "DẠNG 03: CHI TIẾT ĐỊNH NGHĨA (Factual Definition)",
+            "options": [
+              "Splicing audio clips recorded on different days onto unrelated facial reaction shots to construct a dramatic narrative",
+              "Allowing contestants to edit their own video diaries before episodes air",
+              "Removing all background musical scores to preserve raw documentary silence",
+              "Requiring contestants to memorize formal theatrical monologues"
+            ],
+            "optionsVi": [
+              "A. Cắt ghép các đoạn âm thanh thu ở những ngày khác nhau chồng lên các cảnh biểu cảm không liên quan để dựng cốt truyện kịch tính",
+              "B. Cho phép thí sinh tự biên tập nhật ký video trước khi phát sóng",
+              "C. Xóa bỏ toàn bộ nhạc nền để giữ sự im lặng phim tài liệu nguyên bản",
+              "D. Yêu cầu thí sinh học thuộc lòng các đoạn độc thoại sân khấu trang trọng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "Through 'Frankenbiting'—splicing audio sentences recorded on different days onto unrelated reaction shots—and evocative orchestral swells, editors can seamlessly cast ordinary individuals as charismatic heroes or ruthless villains... [Paragraph 2]",
+            "evidenceVi": "Thông qua kỹ thuật 'Frankenbiting' — cắt ghép các câu nói thu ở những ngày khác nhau ghép lên khung hình phản ứng không liên quan — biên tập viên dễ dàng biến người bình thường thành anh hùng hay phản diện. [Đoạn 2]",
+            "explanation": "Đoạn 2 định nghĩa trực tiếp giữa hai dấu gạch ngang: 'Frankenbiting' là kỹ thuật cắt ghép âm thanh từ các ngày khác nhau vào cảnh phản ứng không liên quan (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Định nghĩa kỹ thuật dựng phim (Definition)",
+              "cluePassage": "Through 'Frankenbiting'—splicing audio sentences recorded on different days onto unrelated reaction shots",
+              "clueAnswer": "Splicing audio clips recorded on different days onto unrelated facial reaction shots to construct a dramatic narrative",
+              "keyPassage": "splicing audio sentences recorded on different days onto unrelated reaction shots",
+              "keyAnswer": "splicing audio clips recorded on different days onto unrelated facial reaction shots",
+              "paraphrasePair": "audio sentences <=> audio clips",
+              "meaningVi": "các câu thu âm <=> các đoạn âm thanh",
+              "deductionLogic": "Định nghĩa nguyên văn nằm giữa hai dấu gạch ngang ở câu cuối đoạn 2."
+            }
+          },
+          {
+            "id": 33,
+            "num": 33,
+            "question": "Which of the following is NOT listed in paragraph 2 as a method producers use to manufacture conflict on reality shows?",
+            "questionVi": "Phương pháp nào sau đây KHÔNG được liệt kê trong đoạn 2 như cách nhà sản xuất tạo ra mâu thuẫn trên truyền hình thực tế?",
+            "questionType": "DẠNG 04: THÔNG TIN PHỦ ĐỊNH (Negative Factual - NOT)",
+            "options": [
+              "Strategic typecasting of contestants with clashing personalities",
+              "Sleep deprivation and isolation from outside support networks",
+              "Imposing artificial time constraints inside high-pressure settings",
+              "Handing contestants written word-for-word dialogue scripts to memorize"
+            ],
+            "optionsVi": [
+              "A. Tuyển chọn đóng khung những thí sinh có tính khí xung khắc",
+              "B. Thiếu ngủ và cách ly khỏi mạng lưới hỗ trợ bên ngoài",
+              "C. Áp đặt các giới hạn thời gian nhân tạo trong môi trường áp lực cao",
+              "D. Phát cho thí sinh kịch bản lời thoại từng chữ để học thuộc lòng"
+            ],
+            "correctAnswer": "D",
+            "correctIdx": 3,
+            "evidence": "Although reality shows dispense with memorized dialogue scripts, narrative outcomes are rarely left to organic chance. Producers shape storylines through strategic 'typecasting'... sleep deprivation, isolation... and artificial time constraints. [Paragraph 2]",
+            "evidenceVi": "Dù truyền hình thực tế không dùng kịch bản lời thoại học thuộc, diễn biến hiếm khi để tự nhiên: nhà sản xuất dùng tuyển chọn đóng khung, thiếu ngủ, cô lập và giới hạn thời gian nhân tạo. [Đoạn 2]",
+            "explanation": "Câu 1 đoạn 2 khẳng định rõ truyền hình thực tế loại bỏ kịch bản học thuộc ('dispense with memorized dialogue scripts'), nên D trái ngược trực tiếp; A, B, C đều có trong bài.",
+            "postReading": {
+              "type": "negative_factual",
+              "typeLabel": "Thông tin phủ định (NOT a method)",
+              "cluePassage": "dispense with memorized dialogue scripts... strategic 'typecasting'... sleep deprivation, isolation... artificial time constraints.",
+              "clueAnswer": "Handing contestants written word-for-word dialogue scripts to memorize",
+              "keyPassage": "dispense with memorized dialogue scripts",
+              "keyAnswer": "written word-for-word dialogue scripts to memorize (Explicitly denied)",
+              "paraphrasePair": "dispense with (loại bỏ) >< handing scripts to memorize",
+              "meaningVi": "loại bỏ kịch bản học thuộc trái ngược hoàn toàn với phát kịch bản học thuộc",
+              "deductionLogic": "Phát hiện động từ 'dispense with' ở ngay đầu đoạn 2."
+            }
+          },
+          {
+            "id": 34,
+            "num": 34,
+            "question": "According to paragraph 3, what psychological satisfaction do viewers gain from 'downward social comparison'?",
+            "questionVi": "Theo đoạn 3, khán giả nhận được sự thỏa mãn tâm lý nào từ 'so sánh xã hội hướng xuống' (downward social comparison)?",
+            "questionType": "DẠNG 03: CHI TIẾT TÂM LÝ HỌC (Factual Detail)",
+            "options": [
+              "Subtle psychological reassurance derived from critiquing contestants' mistakes from the safety of home",
+              "Deep academic inspiration to enroll in professional film-editing schools",
+              "A desire to donate their personal savings to celebrity contestants",
+              "Complete immunity to commercial advertising aired during show breaks"
+            ],
+            "optionsVi": [
+              "A. Cảm giác tự trấn an tâm lý tinh tế khi bình phẩm sai lầm của thí sinh từ không gian an toàn tại nhà",
+              "B. Nguồn cảm hứng học thuật sâu sắc để đăng ký trường biên tập phim chuyên nghiệp",
+              "C. Mong muốn quyên góp tiền tiết kiệm cá nhân cho các thí sinh nổi tiếng",
+              "D. Khả năng miễn nhiễm hoàn toàn với quảng cáo thương mại giữa giờ"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "viewers experience heightened emotional investment and often engage in 'downward social comparison'—deriving subtle psychological reassurance by critiquing participants' blunders from the safety of their living rooms. [Paragraph 3]",
+            "evidenceVi": "khán giả thường thực hiện 'so sánh xã hội hướng xuống' — tìm thấy sự tự trấn an tâm lý tinh tế bằng cách bình phẩm sai lầm của thí sinh ngay từ phòng khách an toàn của mình. [Đoạn 3]",
+            "explanation": "Đoạn 3 định nghĩa trực tiếp hiệu ứng tâm lý này: khán giả cảm thấy tự tin/an ủi ngầm khi nhìn và phê phán lỗi sai của thí sinh trên màn ảnh (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Cơ chế tâm lý khán giả (Factual)",
+              "cluePassage": "deriving subtle psychological reassurance by critiquing participants' blunders from the safety of their living rooms.",
+              "clueAnswer": "Subtle psychological reassurance derived from critiquing contestants' mistakes from the safety of home",
+              "keyPassage": "subtle psychological reassurance... critiquing participants' blunders... safety of living rooms",
+              "keyAnswer": "subtle psychological reassurance... critiquing contestants' mistakes... safety of home",
+              "paraphrasePair": "blunders... living rooms <=> mistakes... home",
+              "meaningVi": "sai lầm hớ hênh & phòng khách <=> lỗi sai & tại nhà",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 3."
+            }
+          },
+          {
+            "id": 35,
+            "num": 35,
+            "question": "Why does the author refer to competitive talent shows' meritocracy narrative as a \"myth\" in paragraph 3?",
+            "questionVi": "Tại sao tác giả gọi câu chuyện trọng dụng thực tài của các cuộc thi tìm kiếm tài năng là một \"huyền thoại / ngộ nhận\" (myth) ở đoạn 3?",
+            "questionType": "DẠNG 06: SUY LUẬN (Inference)",
+            "options": [
+              "Because behind-the-scenes commercial recording contracts heavily pre-filter who advances, limiting purely merit-based outcomes",
+              "Because public text-message voting is banned by international copyright laws",
+              "Because amateur singers are prohibited from auditioning for television contests",
+              "Because television audiences have no interest in watching musical performances"
+            ],
+            "optionsVi": [
+              "A. Bởi vì các hợp đồng thu âm thương mại hậu trường đã sàng lọc trước rất mạnh ai được đi tiếp, làm hạn chế kết quả thuần thực tài",
+              "B. Bởi vì bình chọn tin nhắn công chúng bị cấm bởi luật bản quyền quốc tế",
+              "C. Bởi vì ca sĩ nghiệp dư bị cấm thử giọng cho các cuộc thi truyền hình",
+              "D. Bởi vì khán giả truyền hình không có hứng thú xem biểu diễn âm nhạc"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "persuading audiences that sheer raw talent and public text-message voting can catapult an unknown amateur to instant stardom overnight, even when commercial recording contracts heavily pre-filter who advances. [Paragraph 3]",
+            "evidenceVi": "thuyết phục khán giả rằng tài năng thuần túy và tin nhắn bình chọn có thể đưa người vô danh thành sao chỉ sau một đêm, ngay cả khi hợp đồng thu âm thương mại đã sàng lọc trước rất kỹ ai sẽ đi tiếp. [Đoạn 3]",
+            "explanation": "Mệnh đề 'even when commercial recording contracts heavily pre-filter who advances' giải thích rõ vì sao câu chuyện thăng tiến thuần thực tài thực chất chỉ là huyền thoại được tô vẽ (A).",
+            "postReading": {
+              "type": "inference",
+              "typeLabel": "Giải mã hàm ý (Inference)",
+              "cluePassage": "aspirational meritocracy myths... even when commercial recording contracts heavily pre-filter who advances.",
+              "clueAnswer": "Because behind-the-scenes commercial recording contracts heavily pre-filter who advances, limiting purely merit-based outcomes",
+              "keyPassage": "commercial recording contracts heavily pre-filter who advances",
+              "keyAnswer": "commercial recording contracts heavily pre-filter who advances, limiting merit-based outcomes",
+              "paraphrasePair": "meritocracy myths + pre-filter <=> limiting purely merit-based outcomes",
+              "meaningVi": "huyền thoại thực tài bị sàng lọc bởi hợp đồng thương mại",
+              "deductionLogic": "Khớp trực tiếp câu cuối đoạn 3."
+            }
+          },
+          {
+            "id": 36,
+            "num": 36,
+            "question": "The word \"mundane\" in paragraph 2 is closest in meaning to:",
+            "questionVi": "Từ \"mundane\" trong đoạn 2 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "ordinary and dull",
+              "explosive and thrilling",
+              "confidential and secret",
+              "costly and glamorous"
+            ],
+            "optionsVi": [
+              "A. bình thường và tẻ nhạt",
+              "B. bùng nổ và gay cấn",
+              "C. bảo mật và bí mật",
+              "D. đắt đỏ và hào nhoáng"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "condense hundreds of hours of mundane footage into forty-five minutes of melodrama. [Paragraph 2]",
+            "evidenceVi": "cô đọng hàng trăm giờ quay bình thường tẻ nhạt thành bốn mươi lăm phút đầy kịch tính cường điệu. [Đoạn 2]",
+            "explanation": "'Mundane' (đời thường, tẻ nhạt) đối lập trực tiếp với 'melodrama' (kịch tính cao trào), đồng nghĩa với 'ordinary and dull' (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa qua tương phản (Vocabulary)",
+              "cluePassage": "condense hundreds of hours of mundane footage into forty-five minutes of melodrama.",
+              "clueAnswer": "ordinary and dull",
+              "keyPassage": "mundane footage -> melodrama",
+              "keyAnswer": "ordinary and dull",
+              "paraphrasePair": "mundane <=> ordinary and dull / routine",
+              "meaningVi": "tẻ nhạt đời thường <=> bình thường nhàm chán",
+              "deductionLogic": "Tương phản giữa 'hundreds of hours of mundane footage' với '45 minutes of melodrama'."
+            }
+          },
+          {
+            "id": 37,
+            "num": 37,
+            "question": "According to paragraph 4, what post-production hazards have triggered urgent ethical scrutiny of reality TV?",
+            "questionVi": "Theo đoạn 4, những mối nguy hại hậu kỳ nào đã kích hoạt sự soi xét đạo đức cấp bách đối với truyền hình thực tế?",
+            "questionType": "DẠNG 03: NGUYÊN NHÂN ĐẠO ĐỨC (Cause & Effect)",
+            "options": [
+              "Sudden tabloid notoriety, relentless online cyberbullying, and restrictive non-disclosure contracts causing severe psychological distress",
+              "Rising union salaries demanded by freelance lighting technicians",
+              "Technical malfunctions in high-definition streaming servers during live finales",
+              "Disagreements among orchestra conductors over background music royalties"
+            ],
+            "optionsVi": [
+              "A. Tai tiếng báo lá cải đột ngột, bắt nạt mạng không ngừng và hợp đồng bảo mật trói buộc gây tổn thương tâm lý nghiêm trọng",
+              "B. Mức lương công đoàn tăng cao của kỹ thuật viên ánh sáng tự do",
+              "C. Sự cố kỹ thuật máy chủ phát trực tuyến trong các đêm chung kết",
+              "D. Bất đồng giữa các nhạc trưởng về tiền bản quyền nhạc nền"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "exposed how sudden tabloid notoriety, relentless online cyberbullying, and restrictive non-disclosure contracts can trigger severe psychological distress once cameras stop rolling. [Paragraph 4]",
+            "evidenceVi": "phơi bày cách tai tiếng báo lá cải đột ngột, bắt nạt trực tuyến dai dẳng và hợp đồng bảo mật khắt khe có thể kích hoạt tổn thương tâm lý nghiêm trọng khi máy quay ngừng chạy. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu chính xác 3 yếu tố gây sang chấn tâm lý cho thí sinh sau khi chương trình lên sóng (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Hệ lụy tâm lý thí sinh (Cause & Effect)",
+              "cluePassage": "sudden tabloid notoriety, relentless online cyberbullying, and restrictive non-disclosure contracts can trigger severe psychological distress",
+              "clueAnswer": "Sudden tabloid notoriety, relentless online cyberbullying, and restrictive non-disclosure contracts causing severe psychological distress",
+              "keyPassage": "tabloid notoriety + online cyberbullying + non-disclosure contracts -> psychological distress",
+              "keyAnswer": "tabloid notoriety + online cyberbullying + non-disclosure contracts -> psychological distress",
+              "paraphrasePair": "trigger <=> causing",
+              "meaningVi": "kích hoạt tổn thương tâm lý nghiêm trọng",
+              "deductionLogic": "Khớp trực tiếp câu 2 đoạn 4."
+            }
+          },
+          {
+            "id": 38,
+            "num": 38,
+            "question": "What regulatory measures have countries like the United Kingdom enacted to protect reality TV contestants (paragraph 4)?",
+            "questionVi": "Các cơ quan quản lý tại những quốc gia như Vương quốc Anh đã ban hành biện pháp nào để bảo vệ thí sinh truyền hình thực tế (đoạn 4)?",
+            "questionType": "DẠNG 03: BIỆN PHÁP QUẢN LÝ (Factual Detail)",
+            "options": [
+              "Mandatory duty-of-care rules requiring pre-filming psychological screening, independent counseling during production, and structured aftercare",
+              "A complete ban forbidding any citizen from appearing on unscripted television",
+              "Financial bonuses paid directly to contestants who provoke the most arguments",
+              "Legislation requiring editors to broadcast all raw unedited footage live 24 hours a day"
+            ],
+            "optionsVi": [
+              "A. Quy định trách nhiệm chăm sóc bắt buộc gồm đánh giá tâm lý trước khi quay, tư vấn độc lập trong quá trình sản xuất và hỗ trợ hậu kỳ bài bản",
+              "B. Lệnh cấm hoàn toàn không cho công dân xuất hiện trên truyền hình không kịch bản",
+              "C. Tiền thưởng tài chính trả trực tiếp cho thí sinh gây ra nhiều cãi vã nhất",
+              "D. Đạo luật bắt buộc phát sóng trực tiếp 24/24 toàn bộ băng quay thô chưa chỉnh sửa"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "broadcasting regulators in the United Kingdom and elsewhere have introduced mandatory duty-of-care guidelines requiring pre-filming psychological assessments, independent mental-health counseling during production, and structured aftercare support. [Paragraph 4]",
+            "evidenceVi": "các cơ quan quản lý phát sóng tại Anh và nhiều nơi đã ban hành hướng dẫn trách nhiệm chăm sóc bắt buộc gồm đánh giá tâm lý trước khi quay, tư vấn sức khỏe tâm thần độc lập lúc quay và hỗ trợ sau phát sóng. [Đoạn 4]",
+            "explanation": "Đoạn 4 nêu đầy đủ 3 giai đoạn của quy định 'duty-of-care': trước khi quay (pre-filming assessment), trong lúc quay (counseling) và sau phát sóng (structured aftercare) (A).",
+            "postReading": {
+              "type": "factual",
+              "typeLabel": "Quy định bảo vệ thí sinh (Factual)",
+              "cluePassage": "mandatory duty-of-care guidelines requiring pre-filming psychological assessments, independent mental-health counseling during production, and structured aftercare support.",
+              "clueAnswer": "Mandatory duty-of-care rules requiring pre-filming psychological screening, independent counseling during production, and structured aftercare",
+              "keyPassage": "duty-of-care guidelines: pre-filming assessments + independent counseling + structured aftercare",
+              "keyAnswer": "duty-of-care rules: pre-filming screening + independent counseling + structured aftercare",
+              "paraphrasePair": "psychological assessments <=> psychological screening",
+              "meaningVi": "đánh giá sàng lọc tâm lý trước khi ghi hình",
+              "deductionLogic": "Khớp trực tiếp câu 3 đoạn 4."
+            }
+          },
+          {
+            "id": 39,
+            "num": 39,
+            "question": "The word \"reconciling\" in paragraph 4 is closest in meaning to:",
+            "questionVi": "Từ \"reconciling\" trong đoạn 4 gần nghĩa nhất với từ nào?",
+            "questionType": "DẠNG 02: TỪ ĐỒNG NGHĨA (Closest in Meaning)",
+            "options": [
+              "balancing and harmonizing",
+              "eliminating and outlawing",
+              "separating and dividing",
+              "ignoring and concealing"
+            ],
+            "optionsVi": [
+              "A. cân bằng và dung hòa",
+              "B. loại bỏ và cấm đoán",
+              "C. chia tách và phân rẽ",
+              "D. phớt lờ và che giấu"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "reconciling viewers' hunger for dramatic spectacle with the dignity and wellbeing of real human subjects remains television's defining ethical challenge. [Paragraph 4]",
+            "evidenceVi": "dung hòa cơn khát giải trí kịch tính của khán giả với phẩm giá và sức khỏe tinh thần của những con người thực vẫn là thách thức đạo đức định hình ngành truyền hình. [Đoạn 4]",
+            "explanation": "'Reconcile X with Y' mang nghĩa dung hòa, tìm điểm cân bằng giữa hai yêu cầu đối nghịch ('balancing and harmonizing') (A).",
+            "postReading": {
+              "type": "closest_meaning",
+              "typeLabel": "Từ đồng nghĩa học thuật (Vocabulary)",
+              "cluePassage": "reconciling viewers' hunger for dramatic spectacle with the dignity and wellbeing of real human subjects",
+              "clueAnswer": "balancing and harmonizing",
+              "keyPassage": "reconciling X with Y",
+              "keyAnswer": "balancing and harmonizing",
+              "paraphrasePair": "reconciling <=> balancing and harmonizing",
+              "meaningVi": "dung hòa hai mục tiêu <=> cân bằng và hài hòa",
+              "deductionLogic": "Cấu trúc 'reconcile A with B' rất phổ biến trong văn bản học thuật C1."
+            }
+          },
+          {
+            "id": 40,
+            "num": 40,
+            "question": "Which of the following best reflects the author's overall perspective on reality television?",
+            "questionVi": "Phương án nào phản ánh chính xác nhất góc nhìn tổng thể của tác giả về truyền hình thực tế?",
+            "questionType": "DẠNG 07: QUAN ĐIỂM TÁC GIẢ (Author's Perspective)",
+            "options": [
+              "Critically analytical—acknowledging its commercial appeal and psychological draw while exposing its manufactured editing and advocating stronger ethical duty of care",
+              "Unconditionally enthusiastic—claiming unscripted television presents 100 percent raw, unmanipulated truth",
+              "Dismissive of viewers' intelligence and demanding immediate global censorship of all streaming platforms",
+              "Focused exclusively on comparing orchestral music techniques in period dramas"
+            ],
+            "optionsVi": [
+              "A. Phân tích phản biện sâu sắc — ghi nhận sức hút thương mại và tâm lý nhưng vạch trần tính dàn dựng hậu kỳ và ủng hộ siết chặt đạo đức chăm sóc thí sinh",
+              "B. Nhiệt thành vô điều kiện — khẳng định truyền hình thực tế trình bày 100% sự thật trần trụi không cắt ghép",
+              "C. Coi thường trí tuệ khán giả và đòi kiểm duyệt cấm toàn cầu mọi nền tảng phát trực tuyến",
+              "D. Tập trung duy nhất vào việc so sánh kỹ thuật nhạc giao hưởng trong phim cổ trang"
+            ],
+            "correctAnswer": "A",
+            "correctIdx": 0,
+            "evidence": "lucrative and culturally pervasive... manufactured authenticity... parasocial intimacy... mandatory duty-of-care guidelines... defining ethical challenge. [Paragraphs 1-4]",
+            "evidenceVi": "sinh lời và phổ biến rộng khắp... tính chân thực được dàn dựng... gắn kết tâm lý... hướng dẫn trách nhiệm chăm sóc bắt buộc... thách thức đạo đức định hình ngành truyền hình. [Đoạn 1-4]",
+            "explanation": "Tác giả giữ thái độ phân tích phản biện khách quan: lý giải thành công kinh tế - tâm lý, bóc tách kỹ thuật dàn dựng và nhấn mạnh trách nhiệm đạo đức bảo vệ con người thật (A).",
+            "postReading": {
+              "type": "purpose",
+              "typeLabel": "Góc nhìn tác giả (Author's Perspective)",
+              "cluePassage": "commercial ascendancy... manufactured authenticity... psychological reassurance... duty-of-care guidelines... defining ethical challenge",
+              "clueAnswer": "Critically analytical—acknowledging its commercial appeal and psychological draw while exposing its manufactured editing and advocating stronger ethical duty of care",
+              "keyPassage": "commercial appeal + manufactured editing + ethical duty of care",
+              "keyAnswer": "Critically analytical... commercial appeal, manufactured editing, ethical duty of care",
+              "paraphrasePair": "balanced critical media analysis",
+              "meaningVi": "phân tích truyền thông phản biện, cân bằng và nhân văn",
+              "deductionLogic": "Loại B, C, D vì đều sai lệch thái độ học thuật của tác giả."
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 
