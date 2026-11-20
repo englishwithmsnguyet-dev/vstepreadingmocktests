@@ -1558,6 +1558,7 @@ function renderPracticeView() {
     const test29 = tests.find(t => t.testNum === 29);
     const test30 = tests.find(t => t.testNum === 30);
     const test31 = tests.find(t => t.testNum === 31);
+    const test32 = tests.find(t => t.testNum === 32);
 
     const filter = (state.practice && state.practice.filter) ? state.practice.filter : 'all';
 
@@ -5176,90 +5177,171 @@ function renderPracticeView() {
     }
 
     // =========================================================================
-    // 22. BỘ ĐỀ THỰC CHIẾN 22 (TEST 32) - ĐANG BIÊN SOẠN DỮ LIỆU REVIEW
+    // 22. BỘ ĐỀ THỰC CHIẾN 22 (TEST 32) - ĐÃ PHÁT HÀNH
     // =========================================================================
     if (filter === 'all' || filter === 'suite32') {
+        const savedAnsCount32 = (state.savedExam && state.savedExam.answers && state.savedExam.testNum === 32) ? Object.keys(state.savedExam.answers).length : 0;
+        const isSaved32 = state.savedExam && state.savedExam.testNum === 32 && savedAnsCount32 > 0;
+        const totalVocab32 = (test32 && test32.passages) ? test32.passages.reduce((sum, p) => sum + (p.vocab || []).length, 0) : 108;
+
+        const passagesMeta32 = [
+            {
+                testNum: 32,
+                passageIdx: 0,
+                partNum: 1,
+                categoryKey: 'organic_farming_crop_rotation',
+                categoryName: 'Nông nghiệp hữu cơ bền vững & Hệ sinh thái đất',
+                categoryColor: '#10b981',
+                badgeBg: '#ecfdf5',
+                cefrBand: 'B1-B2',
+                wordCount: '~460 từ',
+                realReviewNote: 'Review đề thi thật: Sustainable Organic Farming & Crop Rotation',
+                icon: 'fa-wheat-awn',
+                title: 'Sustainable Organic Farming & Systematic Crop Rotation: Rebuilding Soil Ecosystems',
+                titleVi: 'Nông nghiệp hữu cơ bền vững & Luân canh có hệ thống: Tái thiết hệ sinh thái đất',
+                summary: 'Cơ chế luân canh cây họ đậu cố định đạm tự nhiên, phân xanh che phủ và cắt đứt vòng đời sâu bệnh giúp hồi sinh độ phì nhiêu đất không cần hóa chất.'
+            },
+            {
+                testNum: 32,
+                passageIdx: 1,
+                partNum: 2,
+                categoryKey: 'okinawa_longevity_blue_zones',
+                categoryName: 'Dinh dưỡng học lâm sàng & Bí quyết trường thọ',
+                categoryColor: '#14b8a6',
+                badgeBg: '#f0fdfa',
+                cefrBand: 'B2',
+                wordCount: '~475 từ',
+                realReviewNote: 'Review đề thi thật: The Okinawa Longevity Diet: Hara Hachi Bu',
+                icon: 'fa-heart-pulse',
+                title: 'The Okinawa Longevity Diet: Hara Hachi Bu, Nutritional Synergy & Blue Zones',
+                titleVi: 'Chế độ ăn trường thọ đảo Okinawa: Triết lý Hara Hachi Bu, Dinh dưỡng hiệp đồng & Vùng đất Blue Zones',
+                summary: 'Khoai lang tím beni imo giàu anthocyanin, triết lý Hara Hachi Bu ăn no 8 phần phá vỡ độ trễ báo no của hormone leptin, và mạng lưới xã hội moai nâng cao tuổi thọ.'
+            },
+            {
+                testNum: 32,
+                passageIdx: 2,
+                partNum: 3,
+                categoryKey: 'olympic_games_commercialism',
+                categoryName: 'Lịch sử thể thao & Địa chính trị toàn cầu',
+                categoryColor: '#6366f1',
+                badgeBg: '#e0e7ff',
+                cefrBand: 'B2-C1',
+                wordCount: '~485 từ',
+                realReviewNote: 'Review đề thi thật: Modern Olympic Games: Pierre de Coubertin',
+                icon: 'fa-medal',
+                title: 'The Modern Olympic Games: Pierre de Coubertin, Geopolitics & The Rise of Commercialism',
+                titleVi: 'Thế vận hội Olympic hiện đại: Pierre de Coubertin, Địa chính trị & Sự trỗi dậy của Thương mại hóa',
+                summary: 'Từ lý tưởng nghiệp dư của Coubertin, các cuộc tẩy chay thời Chiến tranh Lạnh đến cuộc cách mạng thương mại hóa kỷ nguyên Los Angeles 1984 và bài toán di sản sân vận động.'
+            },
+            {
+                testNum: 32,
+                passageIdx: 3,
+                partNum: 4,
+                categoryKey: 'hoi_an_architectural_heritage',
+                categoryName: 'Di sản kiến trúc đô thị & Thích ứng khí hậu',
+                categoryColor: '#dc2626',
+                badgeBg: '#fef2f2',
+                cefrBand: 'C1',
+                wordCount: '~500 từ',
+                realReviewNote: 'Review đề thi thật: Hoi An Ancient Town & Maritime Heritage',
+                icon: 'fa-archway',
+                title: 'The Architectural & Commercial Legacy of Hoi An Ancient Town: Trade, Floods & Heritage'
+                ,titleVi: 'Di sản kiến trúc & Thương mại Cảng thị cổ Hội An: Giao thương, Thích ứng lũ lụt & Bảo tồn di sản',
+                summary: 'Cấu trúc nhà ống gỗ lim hai mặt sông - phố, giải pháp kiến trúc gác lửng ròng rọc sống chung với lũ lụt sông Thu Bồn, và bài toán bảo tồn trước áp lực Disneyfication du lịch.'
+            }
+        ];
+
+        let pCardsHtml32 = '';
+        passagesMeta32.forEach(meta => {
+            const pData = (test32 && test32.passages) ? test32.passages[meta.passageIdx] : null;
+            const vocabList = pData ? (pData.vocab || []) : [];
+            const qList = pData ? (pData.questions || []) : [];
+
+            let masteredVocab = 0;
+            vocabList.forEach(v => {
+                const key = `${meta.testNum}_${v.word.toLowerCase()}`;
+                if (state.preTest.masteredWords && state.preTest.masteredWords[key]) masteredVocab++;
+            });
+
+            pCardsHtml32 += `
+                <div class="practice-card">
+                    <div class="practice-card-top">
+                        <div class="practice-card-badge" style="background: ${meta.badgeBg}; color: ${meta.categoryColor}; border: 1px solid ${meta.categoryColor}33;">
+                            <i class="fa-solid ${meta.icon}"></i> ${meta.categoryName}
+                        </div>
+                        <div class="practice-level-tag">
+                            <span class="cefr-badge">${meta.cefrBand}</span>
+                            <span class="part-badge">Part ${meta.partNum}</span>
+                        </div>
+                    </div>
+
+                    <div class="practice-review-alert">
+                        <i class="fa-solid fa-sparkles"></i> ${meta.realReviewNote}
+                    </div>
+
+                    <h3 class="practice-card-title">${meta.title}</h3>
+                    <h4 class="practice-card-subtitle">${meta.titleVi}</h4>
+                    <p class="practice-card-summary">${meta.summary}</p>
+
+                    <div class="practice-card-meta-row">
+                        <span title="Thời gian làm bài quy định"><i class="fa-solid fa-clock"></i> 15 phút</span>
+                        <span title="Số lượng câu hỏi trắc nghiệm"><i class="fa-solid fa-list-check"></i> ${qList.length} câu chuẩn hóa</span>
+                        <span title="Từ vựng học thuật cốt lõi"><i class="fa-solid fa-spell-check"></i> ${masteredVocab}/${vocabList.length} từ</span>
+                        <span title="Độ dài bài đọc"><i class="fa-solid fa-file-lines"></i> ${meta.wordCount}</span>
+                    </div>
+
+                    <div class="practice-card-actions">
+                        <button class="secondary-btn btn-practice-pre" onclick="openPreTestView(${meta.testNum}, 'cards', ${meta.passageIdx})">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: NẠP TỪ (${vocabList.length} TỪ)
+                        </button>
+                        <button class="primary-btn btn-practice-cbt" onclick="startSinglePassageExam(${meta.testNum}, ${meta.passageIdx})">
+                            <i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING (LUYỆN 15 PHÚT)
+                        </button>
+                        <button class="secondary-btn btn-practice-post" onclick="openPostReadingModal(${meta.testNum}, '${meta.passageIdx}')">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: PARAPHRASE
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+
         suitesHtml += `
-            <div class="practice-suite-box suite-upcoming" id="suite-box-32">
-                <div class="practice-suite-header suite-header-upcoming">
+            <div class="practice-suite-box suite-22" id="suite-box-32">
+                <div class="practice-suite-header suite-header-22">
                     <div class="suite-header-info">
-                        <div class="suite-header-tag" style="background: rgba(20, 184, 166, 0.25); color: #5eead4; border-color: rgba(20, 184, 166, 0.45);">
-                            <i class="fa-solid fa-hourglass-start"></i> BỘ ĐỀ THỰC CHIẾN 22 (TEST 32) • ĐANG BIÊN SOẠN
+                        <div class="suite-header-tag">
+                            <i class="fa-solid fa-award" style="color: #fcd34d;"></i> BỘ ĐỀ THỰC CHIẾN 22 (TEST 32) • REVIEW THI THẬT
                         </div>
                         <h3>VSTEP READING THỰC CHIẾN 22 (TRỌN BỘ 4 BÀI • 40 CÂU • 60 PHÚT)</h3>
                         <div class="suite-header-topics">
-                            <strong>4 Topics:</strong> Nông nghiệp hữu cơ & Luân canh đất (Part 1) • Chế độ ăn đảo Okinawa & Bí quyết sống thọ (Part 2) • Lịch sử Thế vận hội Olympic Mùa hè (Part 3) • Di sản kiến trúc Việt Nam & Thương cảng Hội An (Part 4)
+                            <strong>4 Topics:</strong> Luân canh hữu cơ (Part 1) • Ăn thọ Okinawa Hara Hachi Bu (Part 2) • Lịch sử Olympic Pierre de Coubertin (Part 3) • Phố cổ Hội An thích ứng lũ (Part 4)
                         </div>
                         <div class="suite-header-meta">
                             <span><i class="fa-solid fa-stopwatch"></i> 60 phút</span>
                             <span><i class="fa-solid fa-list-check"></i> 40 câu trắc nghiệm</span>
-                            <span><i class="fa-solid fa-spell-check"></i> Chuẩn 25-30 từ/bài (108 từ vựng)</span>
-                            <span><i class="fa-solid fa-sparkles"></i> Review đề thi thật (Đã khử trùng COVID-19)</span>
+                            <span><i class="fa-solid fa-spell-check"></i> ${totalVocab32} từ vựng cốt lõi</span>
+                            <span><i class="fa-solid fa-graduation-cap"></i> Quy đổi chuẩn B1 - B2 - C1</span>
                         </div>
                     </div>
-                    <div>
-                        <span style="background: rgba(255,255,255,0.14); border: 1.5px dashed rgba(255,255,255,0.4); padding: 10px 18px; border-radius: 12px; font-weight: 800; font-size: 0.86rem; display: inline-flex; align-items: center; gap: 8px;">
-                            <i class="fa-solid fa-circle-notch fa-spin"></i> Đang biên soạn bài đọc & 40 câu hỏi chuẩn hóa
-                        </span>
+                    <div class="suite-header-actions">
+                        <button class="secondary-btn btn-suite-step-1" onclick="openPreTestView(32)">
+                            <i class="fa-solid fa-book-open-reader"></i> BƯỚC 1: PRE-READING • NẠP TỪ VỰNG (${totalVocab32} TỪ)
+                        </button>
+                        <button class="primary-btn btn-suite-exam" style="${isSaved32 ? 'background: linear-gradient(135deg, #134e4a, #14b8a6) !important;' : ''}" onclick="${isSaved32 ? 'resumeSavedExam()' : 'startFullExam(32)'}">
+                            ${isSaved32 ? `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • TIẾP TỤC (${savedAnsCount32}/40 câu)` : `<i class="fa-solid fa-play"></i> BƯỚC 2: WHILE-READING • THI TRỌN BỘ 60 PHÚT`}
+                        </button>
+                        <button class="secondary-btn btn-suite-step-3" onclick="openPostReadingModal(32)">
+                            <i class="fa-solid fa-lightbulb"></i> BƯỚC 3: POST-READING • GIẢI MÃ PARAPHRASE
+                        </button>
                     </div>
                 </div>
                 <div class="practice-suite-body">
                     <div class="suite-passages-heading">
                         <i class="fa-solid fa-layer-group" style="color: #14b8a6;"></i>
-                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (HÀNG 1 TEST 22):
+                        4 TOPICS BÀI ĐỌC THUỘC BỘ ĐỀ NÀY (Học viên có thể bấm luyện riêng từng bài 15 phút):
                     </div>
                     <div class="practice-suite-grid">
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#e0e7ff; color:#4338ca; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 01 • B1/B2</span>
-                                <h4>Sustainable Organic Farming & Crop Rotation</h4>
-                                <h5>Nông nghiệp hữu cơ bền vững & Kỹ thuật luân canh cải tạo đất</h5>
-                                <p>Cơ chế luân canh cây họ đậu cố định đạm, phân xanh che phủ và phòng trừ sâu bệnh sinh học giúp phục hồi độ phì nhiêu đất không cần hóa chất tổng hợp.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#6366f1;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#ecfdf5; color:#065f46; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 02 • B2</span>
-                                <h4>The Okinawa Diet & Longevity Secrets</h4>
-                                <h5>Chế độ ăn đảo Okinawa & Bí quyết trường thọ của người Nhật trăm tuổi</h5>
-                                <p>Nghiên cứu Vùng Xanh Okinawa: nguyên tắc ăn no 80% (Hara Hachi Bu), thực đơn giàu khoai lang tím - thực vật và mạng lưới gắn kết xã hội Moai.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#10b981;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fef3c7; color:#92400e; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 03 • B2/C1</span>
-                                <h4>History & Evolution of the Summer Olympics</h4>
-                                <h5>Lịch sử & Sự tiến hóa của Thế vận hội Olympic Mùa hè</h5>
-                                <p>Từ đại hội thể thao Hy Lạp cổ đại đến kỳ hồi sinh Athens 1896 của Pierre de Coubertin, hành trình bình đẳng giới, thương mại hóa truyền hình và bài toán di sản hạ tầng.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#d97706;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
-
-                        <div class="upcoming-passage-card">
-                            <div>
-                                <span class="part-badge" style="background:#fee2e2; color:#991b1b; font-weight:800; font-size:0.75rem; padding:3px 8px; border-radius:6px;">Part 04 • C1</span>
-                                <h4>Hoi An Ancient Town & Maritime Heritage</h4>
-                                <h5>Di sản kiến trúc Việt Nam & Thương cảng quốc tế Hội An qua các thế kỷ</h5>
-                                <p>Phân tích sự giao thoa kiến trúc Việt - Hoa - Nhật tại thương cảng Faifo thế kỷ 16–18 và thách thức bảo tồn đô thị di sản trước biến đổi khí hậu và du lịch đại trà.</p>
-                            </div>
-                            <div class="upcoming-tag-bar">
-                                <span><i class="fa-solid fa-clock"></i> 15 phút • 10 câu</span>
-                                <span style="color:#ef4444;"><i class="fa-solid fa-sparkles"></i> Sắp phát hành</span>
-                            </div>
-                        </div>
+                        ${pCardsHtml32}
                     </div>
                 </div>
             </div>

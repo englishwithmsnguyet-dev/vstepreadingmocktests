@@ -77598,5 +77598,2593 @@ const READING_MOCK_TESTS = [
       ]
     }
   ]
+},
+{
+  "testNum": 32,
+  "title": "VSTEP READING MOCK TEST 32",
+  "titleVi": "ĐỀ THI THỬ VSTEP READING SỐ 32 (BỘ ĐỀ THỰC CHIẾN 22)",
+  "description": "Bộ đề thực chiến 22 gồm 4 bài đọc tuyển chọn theo chuẩn cấu trúc đề thi thật VSTEP (B1-B2-C1): Nông nghiệp hữu cơ bền vững & Luân canh đất (Part 1) • Chế độ ăn đảo Okinawa & Bí quyết trường thọ Hara Hachi Bu (Part 2) • Thế vận hội Olympic hiện đại: Pierre de Coubertin & Thương mại hóa (Part 3) • Di sản kiến trúc thương cảng Hội An & Thích ứng lũ lụt (Part 4).",
+  "totalPassages": 4,
+  "totalQuestions": 40,
+  "durationMinutes": 60,
+  "passages": [
+    {
+      "passageId": "t32_p1",
+      "passageNum": 1,
+      "title": "Sustainable Organic Farming & Systematic Crop Rotation: Rebuilding Soil Ecosystems",
+      "titleVi": "Nông nghiệp hữu cơ bền vững & Luân canh có hệ thống: Tái thiết hệ sinh thái đất",
+      "category": "sustainable_agriculture",
+      "text": "Across the globe, twentieth-century intensive industrial agriculture achieved astonishing yield increases through synthetic nitrogen fertilizers, chemical pesticides, and continuous monoculture cultivation. However, this model has exacted a catastrophic ecological toll: severe topsoil erosion, widespread groundwater contamination, and the critical depletion of subterranean microbial ecosystems. In response to this compounding agricultural crisis, farmers and agronomists are increasingly reviving and scientifically optimizing sustainable organic farming practices, centering around the ancient agronomic principle of systematic crop rotation.\n\nCrop rotation is the strategic agricultural practice of planting different crop species in recurrent successions on the same plot of land, directly contrasting with continuous monoculture—the practice of growing identical crops season after season. In a classic regenerative four-course rotation, farmers sequence deep-rooted legumes, heavy-feeding leafy vegetables, light-feeding root crops, and soil-protecting cover crops or grasses. Leguminous species such as clover, alfalfa, and soybeans perform a miraculous biological function known as symbiotic nitrogen fixation. Through a mutualistic relationship with subterranean Rhizobium bacteria inhabiting their root nodules, legumes convert atmospheric nitrogen gas—an inert element inaccessible to most flora—into bioavailable ammonium and nitrates, naturally replenishing the soil without synthetic petroleum-based inputs.\n\nBeyond restoring essential chemical fertility, diversified crop rotation serves as an exceptionally formidable biological defense against pests and virulent plant pathogens. In a monoculture field, specialized insect pests, subterranean nematodes, and fungal spores multiply unchecked year after year because their preferred host plant is eternally accessible. When crops are rotated systematically across different botanical families, these pest lifecycles are violently disrupted. Pests emerging from winter dormancy find non-host plants that they cannot consume, causing larval populations to starve or disperse before inflicting economic damage. Furthermore, alternating between shallow-rooted crops like lettuce and deep-rooted taproots like carrots and radishes aerates divergent soil strata and scavenges residual nutrients across different depths.\n\nFinally, cover crops such as winter rye or hairy vetch shield vulnerable topsoil from mechanical wind and rainfall erosion during fallow intervals. Their decomposing organic biomass enriches the humus layer, dramatically enhancing soil structure, moisture retention capacity, and beneficial mycorrhizal fungi networks. While transition to certified organic rotational agriculture initially demands intensive labor, agronomic patience, and temporary yield adjustments, long-term studies demonstrate that biodiverse organic soils exhibit superior climate resilience, enduring prolonged droughts and extreme floods far better than exhausted, chemically saturated monoculture acreage.",
+      "vocab": [
+        {
+          "word": "intensive",
+          "pos": "adj",
+          "ipa": "/ɪnˈten.sɪv/",
+          "level": "B2",
+          "mean": "thâm canh, tập trung cao độ",
+          "syns": [
+            "rigorous",
+            "concentrated",
+            "in-depth"
+          ],
+          "ex": "Intensive farming methods depleted natural soil minerals."
+        },
+        {
+          "word": "monoculture",
+          "pos": "n",
+          "ipa": "/ˈmɒn.əˌkʌl.tʃər/",
+          "level": "C1",
+          "mean": "sự độc canh (trồng duy nhất 1 loại cây)",
+          "syns": [
+            "single-crop farming",
+            "single species cultivation"
+          ],
+          "ex": "Continuous monoculture makes crops susceptible to devastating diseases."
+        },
+        {
+          "word": "exacted",
+          "pos": "v",
+          "ipa": "/ɪɡˈzæk.tɪd/",
+          "level": "C1",
+          "mean": "đòi hỏi, bắt phải trả giá đắt",
+          "syns": [
+            "demanded",
+            "inflicted",
+            "imposed"
+          ],
+          "ex": "Chemical agriculture exacted a catastrophic ecological toll."
+        },
+        {
+          "word": "subterranean",
+          "pos": "adj",
+          "ipa": "/ˌsʌb.təˈreɪ.ni.ən/",
+          "level": "C1",
+          "mean": "dưới lòng đất, ngầm",
+          "syns": [
+            "underground",
+            "subsurface"
+          ],
+          "ex": "Subterranean microorganisms decompose dead plant matter."
+        },
+        {
+          "word": "compounding",
+          "pos": "adj",
+          "ipa": "/kəmˈpaʊn.dɪŋ/",
+          "level": "C1",
+          "mean": "tăng dần lên, ngày càng chồng chất",
+          "syns": [
+            "worsening",
+            "escalating",
+            "accumulating"
+          ],
+          "ex": "Farmers face compounding challenges from climate volatility."
+        },
+        {
+          "word": "recurrent",
+          "pos": "adj",
+          "ipa": "/rɪˈkʌr.ənt/",
+          "level": "C1",
+          "mean": "tái diễn, định kỳ lặp lại",
+          "syns": [
+            "repeating",
+            "periodic",
+            "cyclical"
+          ],
+          "ex": "Crops are planted in recurrent seasonal cycles."
+        },
+        {
+          "word": "regenerative",
+          "pos": "adj",
+          "ipa": "/rɪˈdʒen.ər.ə.tɪv/",
+          "level": "C1",
+          "mean": "tái sinh, phục hồi tự nhiên",
+          "syns": [
+            "restorative",
+            "renewing",
+            "revitalizing"
+          ],
+          "ex": "Regenerative organic methods rebuild degraded agricultural soils."
+        },
+        {
+          "word": "legumes",
+          "pos": "n",
+          "ipa": "/ˈleɡ.juːmz/",
+          "level": "B2",
+          "mean": "cây họ đậu",
+          "syns": [
+            "pulses",
+            "pod-bearing plants"
+          ],
+          "ex": "Farmers plant legumes to naturally replenish soil nitrogen."
+        },
+        {
+          "word": "symbiotic",
+          "pos": "adj",
+          "ipa": "/ˌsɪm.baɪˈɒt.ɪk/",
+          "level": "C1",
+          "mean": "cộng sinh, tương hỗ hai chiều",
+          "syns": [
+            "mutualistic",
+            "interdependent",
+            "cooperative"
+          ],
+          "ex": "Plants share a symbiotic relationship with beneficial bacteria."
+        },
+        {
+          "word": "nodules",
+          "pos": "n",
+          "ipa": "/ˈnɒdʒ.uːlz/",
+          "level": "C1",
+          "mean": "nốt sần (ở rễ cây họ đậu)",
+          "syns": [
+            "lumps",
+            "swellings",
+            "bumps"
+          ],
+          "ex": "Nitrogen-fixing bacteria thrive in root nodules."
+        },
+        {
+          "word": "bioavailable",
+          "pos": "adj",
+          "ipa": "/ˌbaɪ.əʊ.əˈveɪ.lə.bəl/",
+          "level": "C1",
+          "mean": "có khả năng sinh học hấp thụ được",
+          "syns": [
+            "absorbable",
+            "assimilable"
+          ],
+          "ex": "Bacteria transform elemental nitrogen into bioavailable nutrients."
+        },
+        {
+          "word": "replenishing",
+          "pos": "v",
+          "ipa": "/rɪˈplen.ɪ.ʃɪŋ/",
+          "level": "B2",
+          "mean": "bổ sung, làm đầy lại",
+          "syns": [
+            "restoring",
+            "refilling",
+            "reloading"
+          ],
+          "ex": "Cover crops aid in replenishing soil organic matter."
+        },
+        {
+          "word": "formidable",
+          "pos": "adj",
+          "ipa": "/fɔːˈmɪd.ə.bəl/",
+          "level": "C1",
+          "mean": "ghê gớm, dữ dội, đáng gờm",
+          "syns": [
+            "powerful",
+            "impressive",
+            "potent"
+          ],
+          "ex": "Crop rotation provides a formidable defense against insects."
+        },
+        {
+          "word": "virulent",
+          "pos": "adj",
+          "ipa": "/ˈvɪr.jʊ.lənt/",
+          "level": "C1",
+          "mean": "độc hại dữ dội, lây lan mạnh",
+          "syns": [
+            "toxic",
+            "lethal",
+            "infectious"
+          ],
+          "ex": "The crop rotation arrested the spread of virulent fungal strains."
+        },
+        {
+          "word": "pathogens",
+          "pos": "n",
+          "ipa": "/ˈpæθ.ə.dʒənz/",
+          "level": "B2",
+          "mean": "mầm bệnh, vi sinh vật gây hại",
+          "syns": [
+            "infectious agents",
+            "microbes",
+            "germs"
+          ],
+          "ex": "Healthy soils naturally suppress dangerous plant pathogens."
+        },
+        {
+          "word": "nematodes",
+          "pos": "n",
+          "ipa": "/ˈnem.ə.təʊdz/",
+          "level": "C1",
+          "mean": "tuyến trùng (sâu bọ đất hại rễ)",
+          "syns": [
+            "roundworms",
+            "microscopic worms"
+          ],
+          "ex": "Certain rotation crops secrete biochemicals that kill harmful nematodes."
+        },
+        {
+          "word": "dormancy",
+          "pos": "n",
+          "ipa": "/ˈdɔː.mən.si/",
+          "level": "C1",
+          "mean": "trạng thái ngủ đông, tiềm sinh",
+          "syns": [
+            "quiescence",
+            "inactivity",
+            "hibernation"
+          ],
+          "ex": "Pest larvae emerge from winter dormancy looking for crops."
+        },
+        {
+          "word": "aerates",
+          "pos": "v",
+          "ipa": "/eəˈreɪts/",
+          "level": "C1",
+          "mean": "làm thông khí, xới thoáng khí",
+          "syns": [
+            "ventilates",
+            "oxygenates",
+            "loosens"
+          ],
+          "ex": "Deep root penetration aerates dense, compacted subsoil naturally."
+        },
+        {
+          "word": "strata",
+          "pos": "n",
+          "ipa": "/ˈstrɑː.tə/",
+          "level": "C1",
+          "mean": "các tầng lớp đất, địa tầng",
+          "syns": [
+            "layers",
+            "levels",
+            "tiers"
+          ],
+          "ex": "Different root lengths absorb nutrients across divergent soil strata."
+        },
+        {
+          "word": "scavenges",
+          "pos": "v",
+          "ipa": "/ˈskæv.ɪn.dʒɪz/",
+          "level": "C1",
+          "mean": "tìm kiếm và tận thu, vét sạch",
+          "syns": [
+            "retrieves",
+            "gathers",
+            "collects"
+          ],
+          "ex": "Deep taproots scavenge nitrates that leach into deep soil depths."
+        },
+        {
+          "word": "fallow",
+          "pos": "adj",
+          "ipa": "/ˈfæl.əʊ/",
+          "level": "C1",
+          "mean": "để đất hoang nghỉ ngơi sau vụ thu hoạch",
+          "syns": [
+            "uncultivated",
+            "resting",
+            "untilled"
+          ],
+          "ex": "Cover crops protect open soil during fallow winter intervals."
+        },
+        {
+          "word": "biomass",
+          "pos": "n",
+          "ipa": "/ˈbaɪ.əʊˌmæs/",
+          "level": "B2",
+          "mean": "sinh khối hữu cơ",
+          "syns": [
+            "organic matter",
+            "biological material"
+          ],
+          "ex": "Decomposed green biomass feeds billions of beneficial soil microbes."
+        },
+        {
+          "word": "humus",
+          "pos": "n",
+          "ipa": "/ˈhjuː.məs/",
+          "level": "C1",
+          "mean": "mùn hữu cơ giàu dinh dưỡng",
+          "syns": [
+            "soil organic compound",
+            "loam"
+          ],
+          "ex": "A dark humus layer retains water during severe dry spells."
+        },
+        {
+          "word": "retention",
+          "pos": "n",
+          "ipa": "/rɪˈten.ʃən/",
+          "level": "B2",
+          "mean": "sự giữ lại, duy trì",
+          "syns": [
+            "holding",
+            "preservation",
+            "maintenance"
+          ],
+          "ex": "Organic soils boast exceptional moisture retention capabilities."
+        },
+        {
+          "word": "mycorrhizal",
+          "pos": "adj",
+          "ipa": "/ˌmaɪ.kəˈraɪ.zəl/",
+          "level": "C1",
+          "mean": "thuộc nấm rễ cộng sinh",
+          "syns": [
+            "fungal-root symbiotic"
+          ],
+          "ex": "Mycorrhizal fungi transport distant phosphorus directly to roots."
+        },
+        {
+          "word": "resilience",
+          "pos": "n",
+          "ipa": "/rɪˈzɪl.jəns/",
+          "level": "B2",
+          "mean": "khả năng phục hồi, chống chịu kiên cường",
+          "syns": [
+            "endurance",
+            "robustness",
+            "adaptability"
+          ],
+          "ex": "Crop diversification enhances agricultural ecosystem resilience."
+        },
+        {
+          "word": "acreage",
+          "pos": "n",
+          "ipa": "/ˈeɪ.kər.ɪdʒ/",
+          "level": "B2",
+          "mean": "diện tích đất đai tính theo mẫu Anh",
+          "syns": [
+            "land area",
+            "farmland",
+            "territory"
+          ],
+          "ex": "Thousands of acres of organic acreage outperformed chemical fields."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t32_p1_q1",
+          "num": 1,
+          "question": "According to paragraph 1, what negative consequences resulted from twentieth-century intensive industrial agriculture?",
+          "questionVi": "Theo đoạn 1, những hậu quả tiêu cực nào đã phát sinh từ nền nông nghiệp công nghiệp thâm canh của thế kỷ 20?",
+          "questionType": "detail",
+          "options": [
+            "A sudden collapse in total global grain production and extreme famine",
+            "Topsoil erosion, groundwater contamination, and microbial depletion",
+            "A worldwide ban on all mechanical harvesting equipment and combines",
+            "The permanent extinction of honeybees in North America and Western Europe"
+          ],
+          "optionsVi": [
+            "Sự sụp đổ đột ngột trong tổng sản lượng ngũ cốc toàn cầu và nạn đói cùng cực",
+            "Xói mòn tầng đất mặt, ô nhiễm nước ngầm và cạn kiệt vi sinh vật đất",
+            "Lệnh cấm trên toàn thế giới đối với mọi thiết bị và máy gặt đập cơ giới hóa",
+            "Sự tuyệt chủng vĩnh viễn của loài ong mật ở Bắc Mỹ và Tây Âu"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "However, this model has exacted a catastrophic ecological toll: severe topsoil erosion, widespread groundwater contamination, and the critical depletion of subterranean microbial ecosystems.",
+          "evidenceVi": "Tuy nhiên, mô hình này đã để lại cái giá sinh thái thảm khốc: xói mòn nghiêm trọng tầng đất mặt, ô nhiễm nước ngầm lan rộng và sự suy kiệt nghiêm trọng các hệ sinh thái vi sinh vật dưới lòng đất.",
+          "explanation": "Đoạn 1 nêu rõ 3 hậu quả tiêu cực: severe topsoil erosion, widespread groundwater contamination, and the critical depletion of subterranean microbial ecosystems.",
+          "postReading": {
+            "originToken": "severe topsoil erosion, widespread groundwater contamination, and... depletion of subterranean microbial ecosystems",
+            "paraphraseToken": "Topsoil erosion, groundwater contamination, and microbial depletion",
+            "explanation": "Khớp chính xác ba tác động sinh thái tiêu cực."
+          }
+        },
+        {
+          "id": "t32_p1_q2",
+          "num": 2,
+          "question": "The word 'monoculture' in paragraph 2 refers to:",
+          "questionVi": "Từ 'monoculture' trong đoạn 2 đề cập đến:",
+          "questionType": "vocabulary",
+          "options": [
+            "the practice of growing identical crops season after season on the same land",
+            "the preservation of historical culinary traditions in rural villages",
+            "the extraction of fossil fuels for manufacturing synthetic chemical sprays",
+            "the cross-breeding of wild plant varieties in laboratory greenhouses"
+          ],
+          "optionsVi": [
+            "việc trồng cùng một loại cây vụ này qua vụ khác trên cùng một mảnh đất",
+            "việc gìn giữ các truyền thống ẩm thực lịch sử tại các làng nông thôn",
+            "việc khai thác nhiên liệu hóa thạch để sản xuất thuốc phun hóa học nhân tạo",
+            "việc lai ghép các giống cây hoang dã trong các nhà kính thí nghiệm"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...directly contrasting with continuous monoculture—the practice of growing identical crops season after season.",
+          "evidenceVi": "...hoàn toàn trái ngược với độc canh liên tục - tập quán trồng các loại cây trồng giống hệt nhau từ mùa này sang mùa khác.",
+          "explanation": "Đoạn 2 định nghĩa rõ ràng: monoculture là 'the practice of growing identical crops season after season'.",
+          "postReading": {
+            "originToken": "continuous monoculture—the practice of growing identical crops season after season",
+            "paraphraseToken": "the practice of growing identical crops season after season on the same land",
+            "explanation": "Định nghĩa độc canh nông nghiệp."
+          }
+        },
+        {
+          "id": "t32_p1_q3",
+          "num": 3,
+          "question": "How do leguminous crops enrich the soil with nitrogen in paragraph 2?",
+          "questionVi": "Các loại cây họ đậu làm giàu đạm cho đất như thế nào trong đoạn 2?",
+          "questionType": "detail",
+          "options": [
+            "By capturing synthetic chemical fertilizers carried in rainfall",
+            "Through a symbiotic relationship with Rhizobium bacteria that converts atmospheric nitrogen",
+            "By absorbing excess nitrogen from surrounding weeds and decomposing pests",
+            "By secreting acidic enzymes that dissolve deep granite bedrock"
+          ],
+          "optionsVi": [
+            "Bằng cách thu giữ phân bón hóa học nhân tạo có trong nước mưa",
+            "Thông qua mối quan hệ cộng sinh với vi khuẩn Rhizobium giúp chuyển hóa nitơ trong khí quyển",
+            "Bằng cách hấp thụ lượng đạm dư thừa từ cỏ dại xung quanh và xác sâu bệnh phân hủy",
+            "Bằng cách tiết ra các enzym axit hòa tan các lớp đá granit sâu dưới lòng đất"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Through a mutualistic relationship with subterranean Rhizobium bacteria inhabiting their root nodules, legumes convert atmospheric nitrogen gas... into bioavailable ammonium and nitrates, naturally replenishing the soil...",
+          "evidenceVi": "Thông qua mối quan hệ hỗ sinh với vi khuẩn Rhizobium sống trong các nốt sần ở rễ, cây họ đậu chuyển đổi khí nitơ trong khí quyển... thành amoni và nitrat có sẵn sinh học, bổ sung tự nhiên cho đất...",
+          "explanation": "Đoạn 2 chỉ rõ cơ chế cố định đạm: mối quan hệ tương hỗ giữa rễ cây họ đậu và vi khuẩn Rhizobium chuyển hóa nitơ không khí thành ammonium và nitrate.",
+          "postReading": {
+            "originToken": "mutualistic relationship with subterranean Rhizobium bacteria... convert atmospheric nitrogen",
+            "paraphraseToken": "symbiotic relationship with Rhizobium bacteria that converts atmospheric nitrogen",
+            "explanation": "'Mutualistic relationship' đồng nghĩa với 'symbiotic relationship'."
+          }
+        },
+        {
+          "id": "t32_p1_q4",
+          "num": 4,
+          "question": "The word 'bioavailable' in paragraph 2 is closest in meaning to:",
+          "questionVi": "Từ 'bioavailable' trong đoạn 2 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "easily absorbed and utilized by living organisms",
+            "extremely poisonous and destructive to ecosystems",
+            "completely insoluble in rainwater or groundwater",
+            "artificially synthesized in an industrial laboratory"
+          ],
+          "optionsVi": [
+            "dễ dàng được các sinh vật sống hấp thụ và sử dụng",
+            "cực kỳ độc hại và hủy diệt hệ sinh thái",
+            "hoàn toàn không tan trong nước mưa hoặc nước ngầm",
+            "được tổng hợp nhân tạo trong phòng thí nghiệm công nghiệp"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...convert atmospheric nitrogen gas—an inert element inaccessible to most flora—into bioavailable ammonium and nitrates...",
+          "evidenceVi": "...chuyển đổi khí nitơ trong khí quyển - một nguyên tố trơ mà hầu hết các loài thực vật không thể tiếp cận - thành amoni và nitrat có khả năng hấp thụ sinh học...",
+          "explanation": "'Bioavailable' có nghĩa là ở dạng mà thực vật và cơ thể sống có thể dễ dàng hấp thụ và đồng hóa (easily absorbed and utilized by living organisms).",
+          "postReading": {
+            "originToken": "bioavailable",
+            "paraphraseToken": "easily absorbed and utilized by living organisms",
+            "explanation": "'Bioavailable' = có giá trị sinh học hấp thu được."
+          }
+        },
+        {
+          "id": "t32_p1_q5",
+          "num": 5,
+          "question": "According to paragraph 3, why does crop rotation naturally suppress insect pests and pathogens?",
+          "questionVi": "Theo đoạn 3, tại sao luân canh cây trồng lại ức chế sâu bọ và mầm bệnh một cách tự nhiên?",
+          "questionType": "detail",
+          "options": [
+            "Because pests are allergic to all forms of decaying organic compost",
+            "Because rotating botanical families disrupts pest lifecycles and deprives them of food",
+            "Because farmers burn the fields with fire between every crop rotation stage",
+            "Because all rotated crops produce toxic airborne venom that poisons birds"
+          ],
+          "optionsVi": [
+            "Bởi vì sâu bệnh bị dị ứng với tất cả các dạng phân hữu cơ mục nát",
+            "Bởi vì việc luân chuyển các họ thực vật làm gián đoạn vòng đời sâu bệnh và tước đi nguồn thức ăn",
+            "Bởi vì nông dân đốt đồng bằng lửa giữa mỗi giai đoạn luân canh cây trồng",
+            "Bởi vì tất cả các cây trồng luân canh đều tiết ra chất độc trong không khí đầu độc các loài chim"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "When crops are rotated systematically across different botanical families, these pest lifecycles are violently disrupted. Pests emerging from winter dormancy find non-host plants that they cannot consume, causing larval populations to starve or disperse...",
+          "evidenceVi": "Khi cây trồng được luân canh có hệ thống giữa các họ thực vật khác nhau, vòng đời của sâu bệnh này sẽ bị gián đoạn dữ dội. Sâu bọ thức dậy sau giấc ngủ đông gặp phải các loại cây không phải vật chủ mà chúng không thể ăn, khiến quần thể ấu trùng chết đói hoặc phân tán...",
+          "explanation": "Đoạn 3 giải thích sâu bệnh bị phá vỡ chu kỳ sinh trưởng vì mỗi mùa trồng một họ cây khác nhau, khiến sâu bọ không tìm thấy thức ăn vật chủ ưa thích và bị chết đói.",
+          "postReading": {
+            "originToken": "pest lifecycles are violently disrupted... find non-host plants... starve or disperse",
+            "paraphraseToken": "rotating botanical families disrupts pest lifecycles and deprives them of food",
+            "explanation": "Giải thích cơ chế kiểm soát sinh học của luân canh."
+          }
+        },
+        {
+          "id": "t32_p1_q6",
+          "num": 6,
+          "question": "The word 'aerates' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'aerates' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "oxygenates and loosens",
+            "floods and drowns",
+            "poisons and sterilizes",
+            "freezes and hardens"
+          ],
+          "optionsVi": [
+            "làm thông khí, cung cấp oxy và xới tơi xốp",
+            "gây ngập úng và dìm chết",
+            "đầu độc và khử trùng",
+            "làm đóng băng và rắn chắc"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...alternating between shallow-rooted crops like lettuce and deep-rooted taproots like carrots and radishes aerates divergent soil strata...",
+          "evidenceVi": "...việc luân phiên giữa các cây rễ nông như xà lách và rễ cọc sâu như cà rốt và củ cải giúp làm thoáng khí các tầng đất khác nhau...",
+          "explanation": "'Aerates' có nghĩa là làm thông thoáng khí, tạo khe hở cho oxy lưu thông và làm đất tơi xốp, đồng nghĩa với 'oxygenates and loosens'.",
+          "postReading": {
+            "originToken": "aerates divergent soil strata",
+            "paraphraseToken": "oxygenates and loosens",
+            "explanation": "'Aerates' = 'oxygenates and loosens'."
+          }
+        },
+        {
+          "id": "t32_p1_q7",
+          "num": 7,
+          "question": "What is the primary agronomic benefit of cover crops like winter rye during fallow periods?",
+          "questionVi": "Lợi ích nông học chính của các loại cây che phủ như lúa mạch đen mùa đông trong thời kỳ để đất nghỉ là gì?",
+          "questionType": "detail",
+          "options": [
+            "Protecting vulnerable topsoil from erosion and enriching the humus layer",
+            "Absorbing direct sunlight to permanently heat the subsurface bedrock",
+            "Preventing any wild migratory birds from landing across the countryside",
+            "Generating instant financial profits on global commodity trading exchanges"
+          ],
+          "optionsVi": [
+            "Bảo vệ tầng đất mặt mỏng manh khỏi xói mòn và làm giàu tầng mùn hữu cơ",
+            "Hấp thụ ánh sáng mặt trời trực tiếp để làm nóng vĩnh viễn lớp đá gốc dưới lòng đất",
+            "Ngăn chặn mọi loài chim di cư hoang dã đáp xuống khắp vùng nông thôn",
+            "Tạo ra lợi nhuận tài chính tức thì trên các sàn giao dịch hàng hóa toàn cầu"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "Finally, cover crops such as winter rye or hairy vetch shield vulnerable topsoil from mechanical wind and rainfall erosion during fallow intervals. Their decomposing organic biomass enriches the humus layer...",
+          "evidenceVi": "Cuối cùng, các loại cây che phủ như lúa mạch đen mùa đông hay đậu tằm giúp che chắn tầng đất mặt mỏng manh khỏi sự xói mòn do gió và mưa trong thời kỳ đất nghỉ. Sinh khối hữu cơ phân hủy của chúng làm giàu tầng mùn...",
+          "explanation": "Đoạn 4 nêu rõ cây che phủ (cover crops) bảo vệ đất mặt khỏi xói mòn do mưa gió và bổ sung sinh khối làm giàu tầng mùn (humus).",
+          "postReading": {
+            "originToken": "shield vulnerable topsoil from mechanical wind and rainfall erosion... enriches the humus layer",
+            "paraphraseToken": "Protecting vulnerable topsoil from erosion and enriching the humus layer",
+            "explanation": "Khớp công dụng bảo vệ đất của cây che phủ."
+          }
+        },
+        {
+          "id": "t32_p1_q8",
+          "num": 8,
+          "question": "The word 'resilience' in paragraph 4 is closest in meaning to:",
+          "questionVi": "Từ 'resilience' trong đoạn 4 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "endurance and ability to recover",
+            "fragility and proneness to collapse",
+            "monetary valuation and market price",
+            "artificial appearance and chemical smell"
+          ],
+          "optionsVi": [
+            "sức chống chịu kiên cường và khả năng phục hồi",
+            "sự mong manh dễ vỡ và dễ sụp đổ",
+            "định giá tiền tệ và giá cả thị trường",
+            "vẻ ngoài nhân tạo và mùi hóa chất"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...long-term studies demonstrate that biodiverse organic soils exhibit superior climate resilience, enduring prolonged droughts and extreme floods far better...",
+          "evidenceVi": "...các nghiên cứu dài hạn chứng minh rằng đất hữu cơ đa dạng sinh học thể hiện khả năng phục hồi khí hậu vượt trội, chịu đựng các đợt hạn hán kéo dài và lũ lụt khắc nghiệt tốt hơn nhiều...",
+          "explanation": "'Resilience' là khả năng chống chịu, thích nghi và phục hồi kiên cường trước nghịch cảnh, đồng nghĩa với 'endurance and ability to recover'.",
+          "postReading": {
+            "originToken": "climate resilience",
+            "paraphraseToken": "endurance and ability to recover",
+            "explanation": "'Resilience' = 'endurance / adaptability / recovery'."
+          }
+        },
+        {
+          "id": "t32_p1_q9",
+          "num": 9,
+          "question": "Which of the following can be inferred from paragraph 4 about transitioning to organic rotational farming?",
+          "questionVi": "Điều nào sau đây có thể được suy ra từ đoạn 4 về việc chuyển đổi sang canh tác luân canh hữu cơ?",
+          "questionType": "inference",
+          "options": [
+            "It eliminates all need for physical human labor from the very first week.",
+            "It requires upfront investment of time and labor before yielding long-term ecological and stability dividends.",
+            "It guarantees an immediate quadrupling of cash profits within thirty days.",
+            "It can only be successfully performed in tropical rainforest environments."
+          ],
+          "optionsVi": [
+            "Nó loại bỏ mọi nhu cầu về lao động thể chất của con người ngay từ tuần đầu tiên.",
+            "Nó đòi hỏi sự đầu tư ban đầu về thời gian và công sức trước khi mang lại lợi ích sinh thái và sự ổn định lâu dài.",
+            "Nó đảm bảo lợi nhuận tiền mặt tăng gấp bốn lần ngay lập tức trong vòng 30 ngày.",
+            "Nó chỉ có thể được thực hiện thành công trong môi trường rừng mưa nhiệt đới."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "While transition to certified organic rotational agriculture initially demands intensive labor, agronomic patience, and temporary yield adjustments, long-term studies demonstrate that biodiverse organic soils exhibit superior climate resilience...",
+          "evidenceVi": "Mặc dù việc chuyển đổi sang nền nông nghiệp luân canh hữu cơ được chứng nhận ban đầu đòi hỏi nhiều sức lao động, sự kiên nhẫn nông học và điều chỉnh năng suất tạm thời, các nghiên cứu dài hạn chứng minh rằng đất hữu cơ đa dạng sinh học thể hiện khả năng phục hồi khí hậu vượt trội...",
+          "explanation": "Đoạn 4 nêu rõ ban đầu việc chuyển đổi đòi hỏi nhiều lao động, sự kiên nhẫn và điều chỉnh năng suất, nhưng về dài hạn mang lại khả năng chống chịu khí hậu vượt trội.",
+          "postReading": {
+            "originToken": "initially demands intensive labor, agronomic patience... long-term studies demonstrate superior resilience",
+            "paraphraseToken": "requires upfront investment of time and labor before yielding long-term ecological and stability dividends",
+            "explanation": "Suy luận về sự đánh đổi giữa nỗ lực ban đầu và lợi ích bền vững lâu dài."
+          }
+        },
+        {
+          "id": "t32_p1_q10",
+          "num": 10,
+          "question": "What is the primary topic of the passage?",
+          "questionVi": "Chủ đề chính của bài đọc là gì?",
+          "questionType": "main_idea",
+          "options": [
+            "The historical collapse of commercial fertilizer conglomerates in South America",
+            "The principles, biological mechanisms, and ecological benefits of crop rotation in sustainable organic agriculture",
+            "A comparison between robotic tractors and traditional horse-drawn plows",
+            "The molecular structure of synthetic chemical pesticides used on grain crops"
+          ],
+          "optionsVi": [
+            "Sự sụp đổ lịch sử của các tập đoàn phân bón thương mại ở Nam Mỹ",
+            "Các nguyên lý, cơ chế sinh học và lợi ích sinh thái của luân canh cây trồng trong nông nghiệp hữu cơ bền vững",
+            "Sự so sánh giữa máy kéo robot và cày kéo bằng ngựa truyền thống",
+            "Cấu trúc phân tử của thuốc trừ sâu hóa học nhân tạo được sử dụng trên cây ngũ cốc"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "The passage explores how systematic crop rotation, biological nitrogen fixation, pest cycle disruption, and cover crops restore soil fertility and resilience as an alternative to intensive monoculture.",
+          "evidenceVi": "Bài đọc phân tích cách thức luân canh cây trồng có hệ thống, cố định đạm sinh học, phá vỡ chu kỳ sâu bệnh và cây che phủ phục hồi độ màu mỡ và khả năng phục hồi của đất như một giải pháp thay thế cho độc canh thâm canh.",
+          "explanation": "Toàn bài viết tập trung giải thích cơ chế khoa học, các bước luân canh và lợi ích sinh thái bền vững của phương pháp luân canh cây trồng.",
+          "postReading": {
+            "originToken": "sustainable organic farming practices, centering around the ancient agronomic principle of systematic crop rotation",
+            "paraphraseToken": "principles, biological mechanisms, and ecological benefits of crop rotation in sustainable organic agriculture",
+            "explanation": "Ý chính bao quát toàn bài về luân canh hữu cơ."
+          }
+        }
+      ]
+    },
+    {
+      "passageId": "t32_p2",
+      "passageNum": 2,
+      "title": "The Okinawa Longevity Diet: Hara Hachi Bu, Nutritional Synergy & Blue Zones",
+      "titleVi": "Chế độ ăn trường thọ đảo Okinawa: Triết lý Hara Hachi Bu, Dinh dưỡng hiệp đồng & Vùng đất Blue Zones",
+      "category": "nutrition_longevity",
+      "text": "In the remote subtropical archipelago of Okinawa, Japan, demographers and gerontologists have long documented an extraordinary epidemiological phenomenon: one of the highest concentrations of centenarians—individuals living past one hundred years—in the recorded history of humankind. Not only do Okinawan elders survive to venerable ages, but they also experience remarkably low incidence rates of coronary heart disease, stroke, breast and prostate cancers, and neurodegenerative disorders such as Alzheimer's disease. As modern societies struggle with skyrocketing healthcare expenditures driven by chronic lifestyle-related ailments, Okinawa has become a focal point of investigation within the global 'Blue Zones' project—regions where populations naturally enjoy exceptional longevity and sustained vitality into extreme old age.\n\nAt the epicenter of Okinawan longevity is an indigenous culinary and behavioral paradigm fundamentally distinct from the calorie-dense, heavily processed dietary patterns of the industrialized West. Historically, the traditional Okinawan diet was predominantly plant-based and unrefined. Rather than relying on polished white rice as their primary carbohydrate staple, Okinawans consumed enormous quantities of purple sweet potatoes (beni imo), which provided up to sixty percent of their daily caloric intake. Rich in complex slow-digesting carbohydrates, dietary fiber, and exceptionally potent anthocyanin flavonoids, this vibrant tuber exhibits a low glycemic index and provides substantial antioxidant cellular defense against oxidative stress. Furthermore, the daily diet features abundant leafy greens, seaweed rich in essential marine minerals (such as kombu and wakame), bitter melon (goya)—renowned for its insulin-sensitizing polypeptide compounds—and moderate portions of fermented soy, notably tofu and miso.\n\nEqually transformative is the ancient cultural ethos that governs eating behavior: the Confucian philosophical maxim known as 'Hara Hachi Bu.' Spoken quietly as a mindful blessing before every meal, the mantra instructs individuals to eat only until their stomachs are eighty percent full. By deliberately terminating ingestion before achieving sensations of absolute gastrointestinal distension, Okinawans practice a culturally integrated, sustainable form of mild caloric restriction. Nutritional research demonstrates that twenty-minute delays naturally occur between physiological nutrient absorption in the gut and the neurological release of satiety hormones (like leptin) to the hypothalamus. By pausing at eighty percent perceived capacity, Okinawans prevent postprandial glycemic spikes and avoid the metabolic overloads that trigger systemic inflammation.\n\nFurthermore, medical researchers emphasize that longevity in Okinawa is not merely nutritional, but intrinsically holistic, reinforced by powerful communal structures termed 'moai.' These lifelong social safety nets—informal groups of five or six peers who commit to meeting regularly, pooling financial reserves, and offering emotional solace throughout life—effectively eradicate chronic social isolation. Coupled with a strong sense of personal purpose, known locally as 'ikigai' (one's reason for waking up each morning), Okinawan elders experience exceptionally low cortisol levels and emotional serenity. While Western fast-food franchises have unfortunately penetrated modern Okinawa in recent decades, compromising the health of younger generations, the traditional dietary and social blueprint of its venerable elders continues to provide profound lessons for global preventative medicine.",
+      "vocab": [
+        {
+          "word": "gerontologists",
+          "pos": "n",
+          "ipa": "/ˌdʒer.ənˈtɒl.ə.dʒɪsts/",
+          "level": "C1",
+          "mean": "các nhà lão khoa học",
+          "syns": [
+            "specialists in aging",
+            "age researchers"
+          ],
+          "ex": "Gerontologists study why Okinawans live healthy long lives."
+        },
+        {
+          "word": "epidemiological",
+          "pos": "adj",
+          "ipa": "/ˌep.ɪ.diː.mi.əˈlɒdʒ.ɪ.kəl/",
+          "level": "C1",
+          "mean": "thuộc dịch tễ học",
+          "syns": [
+            "disease-pattern",
+            "public health"
+          ],
+          "ex": "Large epidemiological surveys revealed low cancer rates in the island."
+        },
+        {
+          "word": "centenarians",
+          "pos": "n",
+          "ipa": "/ˌsen.təˈneə.ri.ənz/",
+          "level": "C1",
+          "mean": "những người sống thọ trên 100 tuổi",
+          "syns": [
+            "hundred-year-olds",
+            "super-elders"
+          ],
+          "ex": "Okinawa boasts the highest ratio of active centenarians worldwide."
+        },
+        {
+          "word": "venerable",
+          "pos": "adj",
+          "ipa": "/ˈven.ər.ə.bəl/",
+          "level": "C1",
+          "mean": "đáng tôn kính vì tuổi cao đức trọng",
+          "syns": [
+            "esteemed",
+            "revered",
+            "hallowed"
+          ],
+          "ex": "Venerable elders work in their gardens well into their nineties."
+        },
+        {
+          "word": "incidence",
+          "pos": "n",
+          "ipa": "/ˈɪn.sɪ.dəns/",
+          "level": "B2",
+          "mean": "tỷ lệ mắc bệnh, tần suất xảy ra",
+          "syns": [
+            "rate",
+            "frequency",
+            "occurrence"
+          ],
+          "ex": "Residents exhibit a remarkably low incidence of heart attacks."
+        },
+        {
+          "word": "neurodegenerative",
+          "pos": "adj",
+          "ipa": "/ˌnjʊə.rəʊ.dɪˈdʒen.ər.ə.tɪv/",
+          "level": "C1",
+          "mean": "thoái hóa thần kinh",
+          "syns": [
+            "brain-decaying",
+            "cognitive-declining"
+          ],
+          "ex": "Elderly Okinawans rarely suffer from neurodegenerative dementia."
+        },
+        {
+          "word": "vitality",
+          "pos": "n",
+          "ipa": "/vaɪˈtæl.ə.ti/",
+          "level": "B2",
+          "mean": "sức sống dẻo dai, sinh lực",
+          "syns": [
+            "vigor",
+            "energy",
+            "liveliness"
+          ],
+          "ex": "Regular physical chores preserve muscular vitality into old age."
+        },
+        {
+          "word": "paradigm",
+          "pos": "n",
+          "ipa": "/ˈpær.ə.daɪm/",
+          "level": "C1",
+          "mean": "mô hình, khuôn mẫu chuẩn mực",
+          "syns": [
+            "model",
+            "pattern",
+            "framework"
+          ],
+          "ex": "The Okinawan food paradigm prioritizes nutrient density over calories."
+        },
+        {
+          "word": "unrefined",
+          "pos": "adj",
+          "ipa": "/ˌʌn.rɪˈfaɪnd/",
+          "level": "B2",
+          "mean": "chưa qua tinh chế, nguyên bản",
+          "syns": [
+            "whole",
+            "natural",
+            "unprocessed"
+          ],
+          "ex": "The traditional diet consisted largely of unrefined root vegetables."
+        },
+        {
+          "word": "glycemic",
+          "pos": "adj",
+          "ipa": "/ɡlaɪˈsiː.mɪk/",
+          "level": "C1",
+          "mean": "thuộc chỉ số đường huyết",
+          "syns": [
+            "blood-sugar-related"
+          ],
+          "ex": "Sweet potatoes have a low glycemic index compared to white bread."
+        },
+        {
+          "word": "flavonoids",
+          "pos": "n",
+          "ipa": "/ˈfleɪ.və.nɔɪdz/",
+          "level": "C1",
+          "mean": "chất chống oxy hóa flavonoid thực vật",
+          "syns": [
+            "phytonutrients",
+            "plant antioxidants"
+          ],
+          "ex": "Purple tubers are packed with protective anthocyanin flavonoids."
+        },
+        {
+          "word": "oxidative",
+          "pos": "adj",
+          "ipa": "/ˈɒk.sɪ.də.tɪv/",
+          "level": "C1",
+          "mean": "thuộc quá trình oxy hóa gây lão hóa tế bào",
+          "syns": [
+            "cell-damaging",
+            "oxygen-reacting"
+          ],
+          "ex": "Antioxidants protect internal blood vessels from oxidative stress."
+        },
+        {
+          "word": "polypeptide",
+          "pos": "adj",
+          "ipa": "/ˌpɒl.iˈpep.taɪd/",
+          "level": "C1",
+          "mean": "thuộc chuỗi axit amin peptit",
+          "syns": [
+            "amino acid chain",
+            "protein-like"
+          ],
+          "ex": "Bitter melon contains polypeptide compounds that help regulate insulin."
+        },
+        {
+          "word": "ethos",
+          "pos": "n",
+          "ipa": "/ˈiː.θɒs/",
+          "level": "C1",
+          "mean": "đạo đức, đặc tính văn hóa tinh thần",
+          "syns": [
+            "creed",
+            "spirit",
+            "philosophy"
+          ],
+          "ex": "The cultural ethos of mindfulness guides their dietary moderation."
+        },
+        {
+          "word": "maxim",
+          "pos": "n",
+          "ipa": "/ˈmæk.sɪm/",
+          "level": "C1",
+          "mean": "châm ngôn, phương châm sống",
+          "syns": [
+            "saying",
+            "adage",
+            "proverb"
+          ],
+          "ex": "The famous maxim 'Hara Hachi Bu' reminds people to stop eating early."
+        },
+        {
+          "word": "distension",
+          "pos": "n",
+          "ipa": "/dɪˈsten.ʃən/",
+          "level": "C1",
+          "mean": "sự căng phồng bụng (do ăn quá no)",
+          "syns": [
+            "bloating",
+            "swelling",
+            "expansion"
+          ],
+          "ex": "They avoid reaching total stomach distension during dinner."
+        },
+        {
+          "word": "ingestion",
+          "pos": "n",
+          "ipa": "/ɪnˈdʒes.tʃən/",
+          "level": "C1",
+          "mean": "sự ăn vào, nuốt thức ăn vào dạ dày",
+          "syns": [
+            "consumption",
+            "eating",
+            "intake"
+          ],
+          "ex": "Limiting food ingestion keeps blood sugar stable."
+        },
+        {
+          "word": "satiety",
+          "pos": "n",
+          "ipa": "/səˈtaɪ.ə.ti/",
+          "level": "C1",
+          "mean": "cảm giác no bụng, thỏa mãn cơn đói",
+          "syns": [
+            "fullness",
+            "satisfaction"
+          ],
+          "ex": "Hormones signaling satiety take twenty minutes to reach the brain."
+        },
+        {
+          "word": "postprandial",
+          "pos": "adj",
+          "ipa": "/ˌpəʊstˈpræn.di.əl/",
+          "level": "C1",
+          "mean": "xảy ra sau bữa ăn",
+          "syns": [
+            "after-meal",
+            "post-meal"
+          ],
+          "ex": "Light walking prevents severe postprandial glucose surges."
+        },
+        {
+          "word": "metabolic",
+          "pos": "adj",
+          "ipa": "/ˌmet.əˈbɒl.ɪk/",
+          "level": "B2",
+          "mean": "thuộc quá trình trao đổi chất",
+          "syns": [
+            "energy-processing",
+            "physiological"
+          ],
+          "ex": "Overeating strains our internal metabolic organs."
+        },
+        {
+          "word": "holistic",
+          "pos": "adj",
+          "ipa": "/həʊˈlɪs.tɪk/",
+          "level": "C1",
+          "mean": "mang tính toàn diện, tổng thể",
+          "syns": [
+            "comprehensive",
+            "all-inclusive",
+            "integrated"
+          ],
+          "ex": "Their lifestyle represents a holistic blend of diet, movement, and love."
+        },
+        {
+          "word": "solace",
+          "pos": "n",
+          "ipa": "/ˈsɒl.ɪs/",
+          "level": "C1",
+          "mean": "sự an ủi, niềm khuây khỏa tinh thần",
+          "syns": [
+            "comfort",
+            "consolation",
+            "relief"
+          ],
+          "ex": "Friends offer emotional solace when facing personal bereavement."
+        },
+        {
+          "word": "eradicate",
+          "pos": "v",
+          "ipa": "/ɪˈræd.ɪ.keɪt/",
+          "level": "B2",
+          "mean": "triệt tiêu hoàn toàn, xóa bỏ",
+          "syns": [
+            "eliminate",
+            "wipe out",
+            "abolish"
+          ],
+          "ex": "Close social circles eradicate the loneliness common in nursing homes."
+        },
+        {
+          "word": "serenity",
+          "pos": "n",
+          "ipa": "/səˈren.ə.ti/",
+          "level": "C1",
+          "mean": "sự thanh thản, an yên nội tâm",
+          "syns": [
+            "peacefulness",
+            "tranquility",
+            "calm"
+          ],
+          "ex": "Meditation and gardening foster lifelong emotional serenity."
+        },
+        {
+          "word": "penetrated",
+          "pos": "v",
+          "ipa": "/ˈpen.ə.treɪ.tɪd/",
+          "level": "B2",
+          "mean": "xâm nhập vào, len lỏi vào",
+          "syns": [
+            "infiltrated",
+            "entered",
+            "permeated"
+          ],
+          "ex": "American fast-food restaurants penetrated the island after the war."
+        },
+        {
+          "word": "compromising",
+          "pos": "v",
+          "ipa": "/ˈkɒm.prə.maɪ.zɪŋ/",
+          "level": "C1",
+          "mean": "làm tổn hại, gây nguy hiểm đến",
+          "syns": [
+            "undermining",
+            "endangering",
+            "jeopardizing"
+          ],
+          "ex": "A modern sugary diet is compromising the lifespan of local youth."
+        },
+        {
+          "word": "blueprint",
+          "pos": "n",
+          "ipa": "/ˈbluː.prɪnt/",
+          "level": "B2",
+          "mean": "bản thiết kế chi tiết, cẩm nang định hướng",
+          "syns": [
+            "guide",
+            "framework",
+            "master plan"
+          ],
+          "ex": "Their habits offer a longevity blueprint for people everywhere."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t32_p2_q11",
+          "num": 11,
+          "question": "What primary health characteristic makes the population of Okinawa an object of global gerontological study?",
+          "questionVi": "Đặc điểm sức khỏe chủ yếu nào khiến cư dân Okinawa trở thành đối tượng nghiên cứu lão khoa toàn cầu?",
+          "questionType": "detail",
+          "options": [
+            "A total genetic immunity to all tropical parasitic viruses",
+            "One of the highest concentrations of healthy centenarians with low chronic disease rates",
+            "The universal ability to work strenuous industrial jobs past age one hundred",
+            "An unprecedented birth rate that tripled their population during peacetime"
+          ],
+          "optionsVi": [
+            "Khả năng miễn dịch di truyền tuyệt đối trước mọi loại virus ký sinh nhiệt đới",
+            "Một trong những tỷ lệ người sống thọ trên trăm tuổi cao nhất với tỷ lệ mắc bệnh mãn tính rất thấp",
+            "Khả năng phổ quát làm các công việc công nghiệp nặng nhọc sau tuổi 100",
+            "Tỷ lệ sinh chưa từng có làm tăng gấp ba dân số của họ trong thời bình"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...one of the highest concentrations of centenarians—individuals living past one hundred years—in the recorded history of humankind. Not only do Okinawan elders survive to venerable ages, but they also experience remarkably low incidence rates of coronary heart disease, stroke, breast and prostate cancers...",
+          "evidenceVi": "...một trong những nơi tập trung nhiều người sống thọ trăm tuổi nhất - những người sống qua 100 tuổi - trong lịch sử được ghi nhận của nhân loại. Không chỉ sống đến độ tuổi đáng kính, các cụ già Okinawa còn có tỷ lệ mắc bệnh tim mạch vành, đột quỵ, ung thư rất thấp...",
+          "explanation": "Đoạn 1 nêu rõ lý do nghiên cứu: tỷ lệ người sống trên 100 tuổi cực cao kèm tỷ lệ mắc bệnh tim mạch, ung thư và sa sút trí tuệ rất thấp.",
+          "postReading": {
+            "originToken": "highest concentrations of centenarians... remarkably low incidence rates of coronary heart disease",
+            "paraphraseToken": "highest concentrations of healthy centenarians with low chronic disease rates",
+            "explanation": "Khớp đặc trưng sức khỏe và tuổi thọ của cư dân Okinawa."
+          }
+        },
+        {
+          "id": "t32_p2_q12",
+          "num": 12,
+          "question": "What was the main carbohydrate staple in the traditional Okinawan diet according to paragraph 2?",
+          "questionVi": "Lương thực carbohydrate chủ lực trong chế độ ăn truyền thống của người Okinawa theo đoạn 2 là gì?",
+          "questionType": "detail",
+          "options": [
+            "Polished white jasmine rice imported from mainland Asia",
+            "Purple sweet potatoes (beni imo)",
+            "Whole-wheat sourdough loaves baked in stone ovens",
+            "Boiled cassava roots supplemented with animal lard"
+          ],
+          "optionsVi": [
+            "Gạo trắng xát kỹ nhập khẩu từ lục địa châu Á",
+            "Khoai lang tím (beni imo)",
+            "Bánh mì bột chua nguyên cám nướng trong lò đá",
+            "Củ sắn luộc bổ sung mỡ động vật"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Rather than relying on polished white rice as their primary carbohydrate staple, Okinawans consumed enormous quantities of purple sweet potatoes (beni imo), which provided up to sixty percent of their daily caloric intake.",
+          "evidenceVi": "Thay vì dựa vào gạo trắng xát bóng như món carbohydrate chính, người Okinawa đã tiêu thụ một lượng khổng lồ khoai lang tím (beni imo), cung cấp tới 60% lượng calo nạp vào hàng ngày của họ.",
+          "explanation": "Đoạn 2 nêu rõ khoai lang tím (beni imo) là nguồn carb chính, chiếm tới 60% calo hàng ngày thay vì gạo trắng.",
+          "postReading": {
+            "originToken": "consumed enormous quantities of purple sweet potatoes (beni imo)... up to sixty percent of their daily caloric intake",
+            "paraphraseToken": "Purple sweet potatoes (beni imo)",
+            "explanation": "Nguồn lương thực chủ lực đặc trưng của Okinawa."
+          }
+        },
+        {
+          "id": "t32_p2_q13",
+          "num": 13,
+          "question": "The word 'unrefined' in paragraph 2 is closest in meaning to:",
+          "questionVi": "Từ 'unrefined' trong đoạn 2 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "whole and unprocessed",
+            "artificially sweetened",
+            "deep-fried and salted",
+            "genetically engineered"
+          ],
+          "optionsVi": [
+            "nguyên vẹn và không qua chế biến công nghiệp",
+            "được làm ngọt nhân tạo",
+            "chiên ngập dầu và tẩm muối",
+            "được biến đổi gen"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "Historically, the traditional Okinawan diet was predominantly plant-based and unrefined.",
+          "evidenceVi": "Trong lịch sử, chế độ ăn truyền thống của người Okinawa chủ yếu dựa trên thực vật và chưa qua tinh chế.",
+          "explanation": "'Unrefined' đối với thực phẩm có nghĩa là ở dạng thô nguyên bản, không bị tách cám hay chế biến công nghiệp tinh chế, đồng nghĩa với 'whole and unprocessed'.",
+          "postReading": {
+            "originToken": "unrefined",
+            "paraphraseToken": "whole and unprocessed",
+            "explanation": "'Unrefined' = 'whole / natural / unprocessed'."
+          }
+        },
+        {
+          "id": "t32_p2_q14",
+          "num": 14,
+          "question": "What is the core instruction of the cultural practice 'Hara Hachi Bu' in paragraph 3?",
+          "questionVi": "Chỉ dẫn cốt lõi của tập quán văn hóa 'Hara Hachi Bu' trong đoạn 3 là gì?",
+          "questionType": "detail",
+          "options": [
+            "Fast completely for three consecutive days each calendar month",
+            "Stop eating when one's stomach is approximately eighty percent full",
+            "Eat eight balanced meals throughout the day in small equal portions",
+            "Drink eight cups of boiling green tea before swallowing solid food"
+          ],
+          "optionsVi": [
+            "Nhịn ăn hoàn toàn trong ba ngày liên tiếp mỗi tháng",
+            "Dừng ăn khi dạ dày cảm thấy no khoảng 80%",
+            "Ăn tám bữa cân bằng trong ngày với khẩu phần nhỏ đều nhau",
+            "Uống tám tách trà xanh sôi trước khi nuốt thức ăn đặc"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Spoken quietly as a mindful blessing before every meal, the mantra instructs individuals to eat only until their stomachs are eighty percent full.",
+          "evidenceVi": "Được nói nhỏ nhẹ như một lời cầu chúc tỉnh thức trước mỗi bữa ăn, câu thần chú hướng dẫn mọi người chỉ ăn cho đến khi dạ dày no được 80%.",
+          "explanation": "Đoạn 3 định nghĩa rõ: 'Hara Hachi Bu' là phương châm chỉ ăn no tới mức 80% (eat only until their stomachs are eighty percent full).",
+          "postReading": {
+            "originToken": "eat only until their stomachs are eighty percent full",
+            "paraphraseToken": "Stop eating when one's stomach is approximately eighty percent full",
+            "explanation": "Khớp định nghĩa triết lý Hara Hachi Bu."
+          }
+        },
+        {
+          "id": "t32_p2_q15",
+          "num": 15,
+          "question": "Why does stopping at eighty percent fullness prevent overeating according to nutritional science in paragraph 3?",
+          "questionVi": "Tại sao việc dừng lại ở độ no 80% lại giúp ngăn ngừa ăn quá nhiều theo khoa học dinh dưỡng trong đoạn 3?",
+          "questionType": "detail",
+          "options": [
+            "Because stomach enzymes cease functioning whenever sunlight sets",
+            "Because satiety signals require about twenty minutes to travel from the gut to the brain",
+            "Because the human liver can only store eighty calories of glycogen at once",
+            "Because swallowing water immediately destroys digestive acids"
+          ],
+          "optionsVi": [
+            "Bởi vì các enzym dạ dày ngừng hoạt động bất cứ khi nào mặt trời lặn",
+            "Bởi vì các tín hiệu no cần khoảng 20 phút để truyền từ ruột lên não",
+            "Bởi vì gan người chỉ có thể lưu trữ 80 calo glycogen cùng một lúc",
+            "Bởi vì việc uống nước ngay lập tức phá hủy các axit tiêu hóa"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Nutritional research demonstrates that twenty-minute delays naturally occur between physiological nutrient absorption in the gut and the neurological release of satiety hormones (like leptin) to the hypothalamus.",
+          "evidenceVi": "Nghiên cứu dinh dưỡng chứng minh rằng sự chậm trễ khoảng 20 phút diễn ra tự nhiên giữa quá trình hấp thụ chất dinh dưỡng ở ruột và sự giải phóng các hormone tạo cảm giác no (như leptin) lên vùng dưới đồi của não bộ.",
+          "explanation": "Đoạn 3 giải thích: hormone báo no mất khoảng 20 phút để truyền tín hiệu lên não, nên dừng ở mức 80% sẽ giúp cơ thể không bị bội thực khi tín hiệu no chính thức được kích hoạt.",
+          "postReading": {
+            "originToken": "twenty-minute delays naturally occur between physiological nutrient absorption... and neurological release of satiety hormones",
+            "paraphraseToken": "satiety signals require about twenty minutes to travel from the gut to the brain",
+            "explanation": "Cơ chế sinh lý học giải thích độ trễ báo no của hormone leptin."
+          }
+        },
+        {
+          "id": "t32_p2_q16",
+          "num": 16,
+          "question": "The word 'satiety' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'satiety' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "fullness",
+            "starvation",
+            "exhaustion",
+            "dehydration"
+          ],
+          "optionsVi": [
+            "sự no bụng, cảm giác no thỏa mãn",
+            "sự đói lả",
+            "sự kiệt sức",
+            "sự mất nước"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...neurological release of satiety hormones (like leptin) to the hypothalamus.",
+          "evidenceVi": "...sự giải phóng các hormone tạo cảm giác no (như leptin) lên vùng dưới đồi não.",
+          "explanation": "'Satiety' là trạng thái no nê sau khi ăn, không còn đói, đồng nghĩa với 'fullness' hoặc 'repletion'.",
+          "postReading": {
+            "originToken": "satiety hormones",
+            "paraphraseToken": "fullness",
+            "explanation": "'Satiety' = 'fullness'."
+          }
+        },
+        {
+          "id": "t32_p2_q17",
+          "num": 17,
+          "question": "What is a 'moai' in Okinawan society as described in paragraph 4?",
+          "questionVi": "'Moai' trong xã hội Okinawa như được mô tả trong đoạn 4 là gì?",
+          "questionType": "detail",
+          "options": [
+            "A stone altar built on mountainsides to predict earthquakes",
+            "A lifelong social safety net and mutual emotional support group of peers",
+            "A mandatory military training guild for young adolescents",
+            "A competitive martial arts tournament held every five years"
+          ],
+          "optionsVi": [
+            "Một bàn thờ đá xây trên sườn núi để dự đoán động đất",
+            "Một mạng lưới an sinh xã hội suốt đời và nhóm bạn bè tương trợ tinh thần",
+            "Một phường huấn luyện quân sự bắt buộc cho thanh thiếu niên",
+            "Một giải đấu võ thuật mang tính cạnh tranh được tổ chức 5 năm một lần"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "These lifelong social safety nets—informal groups of five or six peers who commit to meeting regularly, pooling financial reserves, and offering emotional solace throughout life—effectively eradicate chronic social isolation.",
+          "evidenceVi": "Những mạng lưới an toàn xã hội trọn đời này - những nhóm không chính thức gồm năm hoặc sáu người bạn cam kết gặp gỡ thường xuyên, đóng góp quỹ tài chính chung và mang lại sự an ủi về tinh thần suốt đời - triệt tiêu sự cô lập xã hội mãn tính một cách hiệu quả.",
+          "explanation": "Đoạn 4 định nghĩa 'moai' là mạng lưới hỗ trợ xã hội trọn đời (lifelong social safety nets) của nhóm bạn bè thân thiết giúp đỡ nhau về tài chính và tinh thần.",
+          "postReading": {
+            "originToken": "lifelong social safety nets—informal groups of five or six peers... offering emotional solace",
+            "paraphraseToken": "lifelong social safety net and mutual emotional support group of peers",
+            "explanation": "Định nghĩa chính xác về cấu trúc cộng đồng moai."
+          }
+        },
+        {
+          "id": "t32_p2_q18",
+          "num": 18,
+          "question": "The concept of 'ikigai' in paragraph 4 refers to:",
+          "questionVi": "Khái niệm 'ikigai' trong đoạn 4 đề cập đến:",
+          "questionType": "detail",
+          "options": [
+            "the financial inheritance left to grandchildren",
+            "one's personal purpose or reason for waking up in the morning",
+            "the strict physical exercise routine practiced before dawn",
+            "the seasonal harvesting ceremony for sea vegetables"
+          ],
+          "optionsVi": [
+            "khoản thừa kế tài chính để lại cho con cháu",
+            "mục đích sống cá nhân hoặc lý do để thức dậy mỗi sáng",
+            "bài tập thể dục nghiêm ngặt được thực hành trước bình minh",
+            "nghi lễ thu hoạch rong biển theo mùa"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Coupled with a strong sense of personal purpose, known locally as 'ikigai' (one's reason for waking up each morning), Okinawan elders experience exceptionally low cortisol levels...",
+          "evidenceVi": "Cùng với ý thức mạnh mẽ về mục đích cá nhân, được người dân địa phương gọi là 'ikigai' (lý do để một người thức dậy vào mỗi buổi sáng), các cụ già Okinawa có mức cortisol đặc biệt thấp...",
+          "explanation": "Bài đọc định nghĩa trực tiếp: 'ikigai' nghĩa là lẽ sống, mục đích cá nhân mỗi sớm mai thức dậy (one's reason for waking up each morning).",
+          "postReading": {
+            "originToken": "personal purpose, known locally as 'ikigai' (one's reason for waking up each morning)",
+            "paraphraseToken": "one's personal purpose or reason for waking up in the morning",
+            "explanation": "Khớp định nghĩa ikigai."
+          }
+        },
+        {
+          "id": "t32_p2_q19",
+          "num": 19,
+          "question": "The word 'compromising' in paragraph 4 is closest in meaning to:",
+          "questionVi": "Từ 'compromising' trong đoạn 4 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "undermining and damaging",
+            "negotiating a peaceful settlement",
+            "celebrating and magnifying",
+            "legally recording and publishing"
+          ],
+          "optionsVi": [
+            "làm xói mòn và gây tổn hại",
+            "đàm phán một thỏa thuận hòa bình",
+            "tôn vinh và thổi phồng",
+            "ghi chép và công bố hợp pháp"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "While Western fast-food franchises have unfortunately penetrated modern Okinawa in recent decades, compromising the health of younger generations...",
+          "evidenceVi": "Trong khi các chuỗi thức ăn nhanh phương Tây không may đã thâm nhập vào Okinawa hiện đại trong những thập kỷ gần đây, làm tổn hại đến sức khỏe của các thế hệ trẻ...",
+          "explanation": "'Compromising' ở đây mang nghĩa làm suy giảm, đe dọa tổn hại đến sức khỏe, đồng nghĩa với 'undermining and damaging' hoặc 'jeopardizing'.",
+          "postReading": {
+            "originToken": "compromising the health",
+            "paraphraseToken": "undermining and damaging",
+            "explanation": "'Compromising' = 'undermining / damaging'."
+          }
+        },
+        {
+          "id": "t32_p2_q20",
+          "num": 20,
+          "question": "Which of the following best summarizes the main message of the passage?",
+          "questionVi": "Câu nào sau đây tóm tắt đúng nhất thông điệp chính của bài đọc?",
+          "questionType": "main_idea",
+          "options": [
+            "Exceptional longevity in Okinawa stems from an integrated synergy of plant-rich unrefined nutrition, mindful calorie restriction, and lifelong communal connection.",
+            "Living on an isolated Pacific island naturally eliminates all infectious viruses through ocean winds.",
+            "Consuming bitter melon is an absolute medical substitute for modern hospital interventions.",
+            "Retirement homes should immediately ban all contact between senior citizens and family members."
+          ],
+          "optionsVi": [
+            "Tuổi thọ phi thường ở Okinawa bắt nguồn từ sự kết hợp tổng hòa giữa dinh dưỡng thực vật chưa tinh chế, việc hạn chế calo có tỉnh thức và sự gắn kết cộng đồng suốt đời.",
+            "Việc sống trên một hòn đảo biệt lập ở Thái Bình Dương sẽ tự nhiên loại bỏ mọi loại virus truyền nhiễm nhờ gió biển.",
+            "Ăn mướp đắng là một phương thuốc y tế thay thế hoàn toàn cho các can thiệp tại bệnh viện hiện đại.",
+            "Các viện dưỡng lão nên cấm ngay lập tức mọi sự tiếp xúc giữa người cao tuổi và các thành viên trong gia đình."
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The passage outlines how the beni imo sweet potato diet, Hara Hachi Bu portion control, moai social networks, and ikigai purpose combine to create the legendary Okinawan longevity model.",
+          "evidenceVi": "Bài đọc khái quát cách chế độ ăn khoai lang beni imo, kiểm soát khẩu phần Hara Hachi Bu, mạng lưới bạn bè moai và lẽ sống ikigai kết hợp tạo nên mô hình sống thọ huyền thoại của Okinawa.",
+          "explanation": "Toàn bài phân tích mô hình sống thọ của Okinawa như một bức tranh tổng thể: dinh dưỡng thực vật (khoai lang, đậu), triết lý ăn no 8 phần Hara Hachi Bu và sự hỗ trợ gắn bó xã hội (moai, ikigai).",
+          "postReading": {
+            "originToken": "holistic... plant-based... Hara Hachi Bu... moai... ikigai... longevity blueprint",
+            "paraphraseToken": "Exceptional longevity in Okinawa stems from an integrated synergy of plant-rich unrefined nutrition, mindful calorie restriction, and lifelong communal connection",
+            "explanation": "Tóm tắt trọn vẹn mô hình sống thọ Okinawan."
+          }
+        }
+      ]
+    },
+    {
+      "passageId": "t32_p3",
+      "passageNum": 3,
+      "title": "The Modern Olympic Games: Pierre de Coubertin, Geopolitics & The Rise of Commercialism",
+      "titleVi": "Thế vận hội Olympic hiện đại: Pierre de Coubertin, Địa chính trị & Sự trỗi dậy của Thương mại hóa",
+      "category": "sports_history",
+      "text": "In 1894, during an international athletic congress held at the Sorbonne in Paris, a French aristocrat and educator named Baron Pierre de Coubertin spearheaded the revival of the ancient Olympic Games. Deeply influenced by the athletic ethos of English public schools and captivated by nineteenth-century archaeological excavations at ancient Olympia in Greece, Coubertin envisioned a secular, quadrennial global festival where amateur athletes of all nationalities could compete on peaceful terms. In Coubertin's romanticized pedagogical philosophy, known as 'Olympism,' elite sport was not an end in itself, but a moral instrument designed to cultivate physical vigor, chivalric character, and international fraternity. When the inaugural modern Games opened in Athens in 1896, featuring fewer than two hundred and fifty male participants representing fourteen nations, it symbolized a triumph of international idealism.\n\nHowever, Coubertin's insistence upon strict amateurism—the mandate that competitors must never receive financial compensation or material prizes for athletic performance—reflected the aristocratic class bias of Victorian Europe. By barring anyone who earned a living through manual labor or professional coaching, amateur rules effectively excluded the working classes, preserving competitive sport as an exclusive pastime for wealthy gentlemen of leisure. This elitist dogma sparked decades of bitter controversies, most infamously the unjust 1913 disqualification of American decathlete Jim Thorpe, who was stripped of his gold medals after officials discovered he had earned meager wages playing minor-league baseball. Only in the late twentieth century, under the pressures of Cold War state-sponsored athletics and television commercialization, did the International Olympic Committee (IOC) finally dismantle the archaic amateurism clause.\n\nFurthermore, Coubertin's dream of an apolitical sanctuary insulated from international conflict was repeatedly shattered by the grim realities of modern geopolitics. Far from fostering neutral brotherhood, the Olympic stage became an irresistible propaganda vehicle for authoritarian regimes and ideological rivalries. The 1936 Berlin Games were overtly orchestrated by Adolf Hitler to project Nazi racial supremacy and diplomatic legitimacy. During the Cold War, the Games transformed into a surrogate battleground between the United States and the Soviet Union, culminating in reciprocal mass boycotts: sixty-five nations boycotted the 1980 Moscow Olympics following the Soviet invasion of Afghanistan, and the Eastern Bloc retaliated by boycotting the 1984 Los Angeles Games.\n\nThe 1984 Los Angeles Games marked an epochal paradigm shift in Olympic history, inaugurating the era of hyper-commercialism. Facing bankruptcy following Montreal's catastrophic 1976 debts, Los Angeles organizers revolutionized sports business by rejecting public taxpayer subsidies, relying instead on corporate sponsorships, licensed merchandising, and colossal global television broadcast rights. Under the subsequent stewardship of IOC President Juan Antonio Samaranch, the Olympics metamorphosed from a genteel amateur pageant into a multi-billion-dollar global entertainment enterprise. Today, as host cities grapple with exorbitant infrastructure costs, white-elephant venues, and environmental displacement, the Olympic Movement must continuously negotiate the delicate tension between Coubertin's noble humanist ideals and the ruthless economic pragmatism of modern spectacles.",
+      "vocab": [
+        {
+          "word": "spearheaded",
+          "pos": "v",
+          "ipa": "/ˈspɪə.hed.ɪd/",
+          "level": "C1",
+          "mean": "dẫn đầu, khởi xướng mũi nhọn",
+          "syns": [
+            "pioneered",
+            "led",
+            "initiated"
+          ],
+          "ex": "Pierre de Coubertin spearheaded the revival of the modern Olympics."
+        },
+        {
+          "word": "secular",
+          "pos": "adj",
+          "ipa": "/ˈsek.jʊ.lər/",
+          "level": "C1",
+          "mean": "phi tôn giáo, mang tính thế tục",
+          "syns": [
+            "non-religious",
+            "lay",
+            "temporal"
+          ],
+          "ex": "The modern Games were envisioned as a secular peace festival."
+        },
+        {
+          "word": "quadrennial",
+          "pos": "adj",
+          "ipa": "/kwɒdˈren.i.əl/",
+          "level": "C1",
+          "mean": "diễn ra 4 năm một lần",
+          "syns": [
+            "four-yearly"
+          ],
+          "ex": "The quadrennial gathering attracts thousands of world athletes."
+        },
+        {
+          "word": "amateur",
+          "pos": "adj",
+          "ipa": "/ˈæm.ə.tər/",
+          "level": "B2",
+          "mean": "nghiệp dư (không nhận thù lao)",
+          "syns": [
+            "non-professional",
+            "unpaid"
+          ],
+          "ex": "Early Olympic rules permitted only strict amateur competitors."
+        },
+        {
+          "word": "chivalric",
+          "pos": "adj",
+          "ipa": "/ˈʃɪv.əl.rɪk/",
+          "level": "C1",
+          "mean": "mang tinh thần nghĩa hiệp, cao thượng",
+          "syns": [
+            "gallant",
+            "noble",
+            "courteous"
+          ],
+          "ex": "Sport was intended to nurture chivalric fairness among youths."
+        },
+        {
+          "word": "fraternity",
+          "pos": "n",
+          "ipa": "/frəˈtɜː.nə.ti/",
+          "level": "C1",
+          "mean": "tình hữu nghị huynh đệ quốc tế",
+          "syns": [
+            "brotherhood",
+            "solidarity",
+            "camaraderie"
+          ],
+          "ex": "The Games foster global fraternity across geopolitical borders."
+        },
+        {
+          "word": "idealism",
+          "pos": "n",
+          "ipa": "/aɪˈdɪə.lɪ.zəm/",
+          "level": "B2",
+          "mean": "chủ nghĩa lý tưởng",
+          "syns": [
+            "utopianism",
+            "nobility of spirit"
+          ],
+          "ex": "The 1896 Athens games represented the peak of athletic idealism."
+        },
+        {
+          "word": "mandate",
+          "pos": "n",
+          "ipa": "/ˈmæn.deɪt/",
+          "level": "B2",
+          "mean": "quy định bắt buộc, mệnh lệnh",
+          "syns": [
+            "requirement",
+            "directive",
+            "rule"
+          ],
+          "ex": "The strict mandate prevented athletes from accepting prize money."
+        },
+        {
+          "word": "bias",
+          "pos": "n",
+          "ipa": "/ˈbaɪ.əs/",
+          "level": "B2",
+          "mean": "sự thiên vị, định kiến giai cấp",
+          "syns": [
+            "prejudice",
+            "partiality",
+            "predilection"
+          ],
+          "ex": "Amateurism reflected the class bias of the British aristocracy."
+        },
+        {
+          "word": "dogma",
+          "pos": "n",
+          "ipa": "/ˈdɒɡ.mə/",
+          "level": "C1",
+          "mean": "tín điều giáo điều, nguyên tắc cứng nhắc",
+          "syns": [
+            "doctrine",
+            "creed",
+            "tenet"
+          ],
+          "ex": "The unyielding amateur dogma disqualified working-class champions."
+        },
+        {
+          "word": "disqualification",
+          "pos": "n",
+          "ipa": "/dɪsˌkwɒl.ɪ.fɪˈkeɪ.ʃən/",
+          "level": "B2",
+          "mean": "sự tước quyền thi đấu, truất quyền",
+          "syns": [
+            "expulsion",
+            "invalidation"
+          ],
+          "ex": "Jim Thorpe suffered unjust disqualification over minor baseball wages."
+        },
+        {
+          "word": "archaic",
+          "pos": "adj",
+          "ipa": "/ɑːˈkeɪ.ɪk/",
+          "level": "C1",
+          "mean": "cổ hủ, lỗi thời từ quá khứ",
+          "syns": [
+            "outdated",
+            "obsolete",
+            "antiquated"
+          ],
+          "ex": "The IOC finally discarded the archaic rule prohibiting professionalism."
+        },
+        {
+          "word": "apolitical",
+          "pos": "adj",
+          "ipa": "/ˌeɪ.pəˈlɪt.ɪ.kəl/",
+          "level": "C1",
+          "mean": "phi chính trị, đứng ngoài chính trị",
+          "syns": [
+            "non-partisan",
+            "neutral"
+          ],
+          "ex": "Coubertin falsely believed sports could remain completely apolitical."
+        },
+        {
+          "word": "insulated",
+          "pos": "adj",
+          "ipa": "/ˈɪn.sjʊ.leɪ.tɪd/",
+          "level": "C1",
+          "mean": "được cách ly, bảo vệ khỏi tác động bên ngoài",
+          "syns": [
+            "shielded",
+            "protected",
+            "isolated"
+          ],
+          "ex": "Athletic competitions cannot be insulated from world conflicts."
+        },
+        {
+          "word": "orchestrated",
+          "pos": "v",
+          "ipa": "/ˈɔː.kɪ.streɪ.tɪd/",
+          "level": "C1",
+          "mean": "dàn dựng, mưu đồ tính toán trước",
+          "syns": [
+            "coordinated",
+            "staged",
+            "choreographed"
+          ],
+          "ex": "The 1936 Berlin spectacle was orchestrated for political propaganda."
+        },
+        {
+          "word": "surrogate",
+          "pos": "adj",
+          "ipa": "/ˈsʌr.ə.ɡət/",
+          "level": "C1",
+          "mean": "thay thế, mang tính ủy nhiệm",
+          "syns": [
+            "proxy",
+            "substitute",
+            "stand-in"
+          ],
+          "ex": "The games served as a surrogate battlefield during the Cold War."
+        },
+        {
+          "word": "boycotts",
+          "pos": "n",
+          "ipa": "/ˈbɔɪ.kɒts/",
+          "level": "B2",
+          "mean": "các cuộc tẩy chay",
+          "syns": [
+            "embargoes",
+            "protests",
+            "refusals"
+          ],
+          "ex": "Mass political boycotts disrupted the Moscow and Los Angeles Games."
+        },
+        {
+          "word": "reciprocal",
+          "pos": "adj",
+          "ipa": "/rɪˈsɪp.rə.kəl/",
+          "level": "C1",
+          "mean": "qua lại, mang tính đáp trả tương hỗ",
+          "syns": [
+            "mutual",
+            "retaliatory",
+            "interchangeable"
+          ],
+          "ex": "The Soviet union launched a reciprocal boycott four years later."
+        },
+        {
+          "word": "epochal",
+          "pos": "adj",
+          "ipa": "/ˈiː.pɒk.əl/",
+          "level": "C1",
+          "mean": "mang tính bước ngoặt thời đại",
+          "syns": [
+            "historic",
+            "momentous",
+            "era-defining"
+          ],
+          "ex": "The 1984 Games represented an epochal transition toward big business."
+        },
+        {
+          "word": "subsidies",
+          "pos": "n",
+          "ipa": "/ˈsʌb.sɪ.diz/",
+          "level": "B2",
+          "mean": "tiền trợ cấp từ ngân sách nhà nước",
+          "syns": [
+            "grants",
+            "financial aid",
+            "allowances"
+          ],
+          "ex": "Los Angeles organizers chose to operate without public tax subsidies."
+        },
+        {
+          "word": "stewardship",
+          "pos": "n",
+          "ipa": "/ˈstjuː.əd.ʃɪp/",
+          "level": "C1",
+          "mean": "sự quản lý, cương vị lãnh đạo điều hành",
+          "syns": [
+            "governance",
+            "administration",
+            "management"
+          ],
+          "ex": "Under Samaranch's stewardship, television rights fees multiplied exponentially."
+        },
+        {
+          "word": "metamorphosed",
+          "pos": "v",
+          "ipa": "/ˌmet.əˈmɔː.fəʊzd/",
+          "level": "C1",
+          "mean": "chuyển hóa, lột xác thành hình thái mới",
+          "syns": [
+            "transformed",
+            "evolved",
+            "converted"
+          ],
+          "ex": "The tournament metamorphosed into a commercial entertainment juggernaut."
+        },
+        {
+          "word": "genteel",
+          "pos": "adj",
+          "ipa": "/dʒenˈtiːl/",
+          "level": "C1",
+          "mean": "nhã nhặn thượng lưu, quý phái",
+          "syns": [
+            "refined",
+            "aristocratic",
+            "polite"
+          ],
+          "ex": "The genteel amateur era gave way to hyper-capitalist sponsorship."
+        },
+        {
+          "word": "pageant",
+          "pos": "n",
+          "ipa": "/ˈpædʒ.ənt/",
+          "level": "B2",
+          "mean": "ngày hội biểu diễn tráng lệ",
+          "syns": [
+            "spectacle",
+            "display",
+            "showcase"
+          ],
+          "ex": "The opening ceremony has become an extravagant media pageant."
+        },
+        {
+          "word": "exorbitant",
+          "pos": "adj",
+          "ipa": "/ɪɡˈzɔː.bɪ.tənt/",
+          "level": "C1",
+          "mean": "đắt đỏ cắt cổ, vượt mức hợp lý",
+          "syns": [
+            "excessive",
+            "extravagant",
+            "sky-high"
+          ],
+          "ex": "Host cities struggle under exorbitant construction expenditures."
+        },
+        {
+          "word": "white-elephant",
+          "pos": "adj",
+          "ipa": "/waɪt ˈel.ɪ.fənt/",
+          "level": "C1",
+          "mean": "tốn kém vô bổ, không sử dụng sau khi xây",
+          "syns": [
+            "burdensome",
+            "useless",
+            "costly-wasteful"
+          ],
+          "ex": "Empty stadiums become white-elephant liabilities after the Games."
+        },
+        {
+          "word": "pragmatism",
+          "pos": "n",
+          "ipa": "/ˈpræɡ.mə.tɪ.zəm/",
+          "level": "C1",
+          "mean": "chủ nghĩa thực dụng",
+          "syns": [
+            "practicality",
+            "realism",
+            "utilitarianism"
+          ],
+          "ex": "Modern organizers balance philosophical ideals with economic pragmatism."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t32_p3_q21",
+          "num": 21,
+          "question": "What was Baron Pierre de Coubertin's philosophical vision for the revived modern Olympic Games in paragraph 1?",
+          "questionVi": "Tầm nhìn triết học của Nam tước Pierre de Coubertin đối với Thế vận hội hiện đại hồi sinh trong đoạn 1 là gì?",
+          "questionType": "detail",
+          "options": [
+            "A lucrative entertainment industry to fund French colonial expeditions",
+            "A moral instrument to promote physical vigor, character, and international fraternity through amateur sport",
+            "A strict military training drill designed to select soldiers for war",
+            "A commercial exhibition designed to test modern athletic footwear brands"
+          ],
+          "optionsVi": [
+            "Một ngành công nghiệp giải trí sinh lợi để tài trợ cho các chuyến thám hiểm thuộc địa của Pháp",
+            "Một công cụ đạo đức nhằm rèn luyện thể lực, nhân cách và tình hữu nghị quốc tế thông qua thể thao nghiệp dư",
+            "Một cuộc tập trận huấn luyện quân sự nghiêm ngặt nhằm tuyển chọn binh sĩ cho chiến tranh",
+            "Một cuộc triển lãm thương mại nhằm thử nghiệm các thương hiệu giày thể thao hiện đại"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "In Coubertin's romanticized pedagogical philosophy, known as 'Olympism,' elite sport was not an end in itself, but a moral instrument designed to cultivate physical vigor, chivalric character, and international fraternity.",
+          "evidenceVi": "Trong triết lý sư phạm lãng mạn hóa của Coubertin, được gọi là 'Olympism', thể thao đỉnh cao không phải là một mục đích tự thân, mà là một công cụ đạo đức được thiết kế để trau dồi thể lực, tính cách nghĩa hiệp và tình hữu nghị quốc tế.",
+          "explanation": "Đoạn 1 nêu rõ tầm nhìn 'Olympism' của Coubertin: thể thao là công cụ đạo đức để rèn luyện thể lực, nhân cách và tình huynh đệ quốc tế.",
+          "postReading": {
+            "originToken": "moral instrument designed to cultivate physical vigor, chivalric character, and international fraternity",
+            "paraphraseToken": "moral instrument to promote physical vigor, character, and international fraternity through amateur sport",
+            "explanation": "Tầm nhìn sư phạm thể thao cao thượng của Coubertin."
+          }
+        },
+        {
+          "id": "t32_p3_q22",
+          "num": 22,
+          "question": "The word 'secular' in paragraph 1 is closest in meaning to:",
+          "questionVi": "Từ 'secular' trong đoạn 1 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "non-religious",
+            "secretive",
+            "violent",
+            "temporary"
+          ],
+          "optionsVi": [
+            "phi tôn giáo / thế tục",
+            "bí mật",
+            "bạo lực",
+            "tạm thời"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...Coubertin envisioned a secular, quadrennial global festival where amateur athletes of all nationalities could compete...",
+          "evidenceVi": "...Coubertin đã hình dung ra một ngày hội toàn cầu mang tính thế tục, diễn ra 4 năm một lần, nơi các vận động viên nghiệp dư thuộc mọi quốc tịch có thể tranh tài...",
+          "explanation": "'Secular' có nghĩa là thuộc về trần thế, không mang tính tôn giáo (đối lập với các lễ hội Olympic Hy Lạp cổ đại thờ thần Zeus), đồng nghĩa với 'non-religious'.",
+          "postReading": {
+            "originToken": "secular",
+            "paraphraseToken": "non-religious",
+            "explanation": "'Secular' = 'non-religious'."
+          }
+        },
+        {
+          "id": "t32_p3_q23",
+          "num": 23,
+          "question": "According to paragraph 2, what social bias was embedded within Coubertin's insistence on strict amateurism?",
+          "questionVi": "Theo đoạn 2, định kiến xã hội nào đã ăn sâu trong sự khăng khăng đòi hỏi tính nghiệp dư nghiêm ngặt của Coubertin?",
+          "questionType": "detail",
+          "options": [
+            "A bias that favored professional boxers over amateur sprinters",
+            "An aristocratic class bias that excluded the working class who needed to earn a living",
+            "A religious prejudice against athletes from Eastern Asian nations",
+            "A preference for athletes who had never completed formal high school education"
+          ],
+          "optionsVi": [
+            "Một định kiến ưu ái các võ sĩ quyền anh chuyên nghiệp hơn các vận động viên chạy nước rút nghiệp dư",
+            "Một định kiến giai cấp quý tộc loại trừ tầng lớp lao động vốn cần phải làm việc kiếm sống",
+            "Một định kiến tôn giáo chống lại các vận động viên đến từ các quốc gia Đông Á",
+            "Sự ưu ái dành cho những vận động viên chưa từng hoàn thành chương trình giáo dục trung học chính quy"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "However, Coubertin's insistence upon strict amateurism... reflected the aristocratic class bias of Victorian Europe. By barring anyone who earned a living through manual labor or professional coaching, amateur rules effectively excluded the working classes...",
+          "evidenceVi": "Tuy nhiên, sự khăng khăng của Coubertin về tính nghiệp dư nghiêm ngặt... đã phản ánh định kiến giai cấp quý tộc của thời đại Victoria ở châu Âu. Bằng cách cấm bất kỳ ai kiếm sống bằng lao động chân tay hoặc huấn luyện chuyên nghiệp, các quy tắc nghiệp dư đã loại trừ tầng lớp lao động...",
+          "explanation": "Đoạn 2 chỉ rõ quy định nghiệp dư cấm người nhận tiền phản ánh định kiến giai cấp quý tộc (aristocratic class bias), ngăn cản người nghèo/lao động tham gia vì họ cần tiền để sống.",
+          "postReading": {
+            "originToken": "aristocratic class bias... effectively excluded the working classes",
+            "paraphraseToken": "aristocratic class bias that excluded the working class who needed to earn a living",
+            "explanation": "Bản chất phân biệt giai cấp của quy tắc thể thao nghiệp dư xưa."
+          }
+        },
+        {
+          "id": "t32_p3_q24",
+          "num": 24,
+          "question": "What happened to American decathlete Jim Thorpe in 1913 as cited in paragraph 2?",
+          "questionVi": "Điều gì đã xảy ra với vận động viên 10 môn phối hợp người Mỹ Jim Thorpe vào năm 1913 được trích dẫn trong đoạn 2?",
+          "questionType": "detail",
+          "options": [
+            "He was elected president of the International Olympic Committee.",
+            "He was stripped of his gold medals after officials found he had played minor-league baseball for wages.",
+            "He refused to accept his medals in protest against European aristocracy.",
+            "He broke the world marathon record while wearing non-regulation footwear."
+          ],
+          "optionsVi": [
+            "Ông được bầu làm chủ tịch Ủy ban Olympic Quốc tế.",
+            "Ông bị tước huy chương vàng sau khi các quan chức phát hiện ông từng chơi bóng chày hạng dưới để lấy tiền công.",
+            "Ông từ chối nhận huy chương để phản đối chế độ quý tộc châu Âu.",
+            "Ông đã phá kỷ lục marathon thế giới khi đi giày thể thao không đúng quy định."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...most infamously the unjust 1913 disqualification of American decathlete Jim Thorpe, who was stripped of his gold medals after officials discovered he had earned meager wages playing minor-league baseball.",
+          "evidenceVi": "...tai tiếng nhất là vụ tước quyền thi đấu bất công năm 1913 đối với vận động viên 10 môn phối hợp người Mỹ Jim Thorpe, người đã bị tước huy chương vàng sau khi các quan chức phát hiện ông kiếm được những đồng lương ít ỏi khi chơi bóng chày giải đấu nhỏ.",
+          "explanation": "Đoạn 2 nêu vụ việc Jim Thorpe: ông bị tước các huy chương vàng năm 1913 vì đã từng nhận thù lao chơi bóng chày ở giải nhỏ.",
+          "postReading": {
+            "originToken": "stripped of his gold medals after officials discovered he had earned meager wages playing minor-league baseball",
+            "paraphraseToken": "stripped of his gold medals after officials found he had played minor-league baseball for wages",
+            "explanation": "Vụ tước huy chương oan ức của huyền thoại Jim Thorpe."
+          }
+        },
+        {
+          "id": "t32_p3_q25",
+          "num": 25,
+          "question": "The word 'archaic' in paragraph 2 is closest in meaning to:",
+          "questionVi": "Từ 'archaic' trong đoạn 2 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "outdated",
+            "futuristic",
+            "beneficial",
+            "complicated"
+          ],
+          "optionsVi": [
+            "lỗi thời, cổ hủ",
+            "thuộc tương lai",
+            "có lợi",
+            "phức tạp"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...did the International Olympic Committee (IOC) finally dismantle the archaic amateurism clause.",
+          "evidenceVi": "...Ủy ban Olympic Quốc tế (IOC) cuối cùng mới dỡ bỏ điều khoản nghiệp dư cổ hủ lỗi thời.",
+          "explanation": "'Archaic' có nghĩa là thuộc thời kỳ cổ xưa, lỗi thời không còn phù hợp, đồng nghĩa với 'outdated' hoặc 'obsolete'.",
+          "postReading": {
+            "originToken": "archaic amateurism clause",
+            "paraphraseToken": "outdated",
+            "explanation": "'Archaic' = 'outdated'."
+          }
+        },
+        {
+          "id": "t32_p3_q26",
+          "num": 26,
+          "question": "According to paragraph 3, how was the 1936 Berlin Olympic Games manipulated by Adolf Hitler?",
+          "questionVi": "Theo đoạn 3, Thế vận hội Berlin năm 1936 đã bị Adolf Hitler thao túng như thế nào?",
+          "questionType": "detail",
+          "options": [
+            "To promote nuclear disarmament among neighboring nations",
+            "As an overt propaganda tool to project Nazi racial supremacy and diplomatic legitimacy",
+            "To raise private funds for building public hospitals in Munich",
+            "As a platform to negotiate peace treaties with the British government"
+          ],
+          "optionsVi": [
+            "Để thúc đẩy giải trừ vũ khí hạt nhân giữa các quốc gia láng giềng",
+            "Như một công cụ tuyên truyền công khai nhằm phô trương thuyết ưu việt chủng tộc Đức Quốc xã và tính hợp pháp ngoại giao",
+            "Để gây quỹ tư nhân xây dựng các bệnh viện công ở Munich",
+            "Như một diễn đàn đàm phán các hiệp ước hòa bình với chính phủ Anh"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "The 1936 Berlin Games were overtly orchestrated by Adolf Hitler to project Nazi racial supremacy and diplomatic legitimacy.",
+          "evidenceVi": "Thế vận hội Berlin năm 1936 được dàn dựng công khai bởi Adolf Hitler nhằm phô trương tính ưu việt về chủng tộc của Đức Quốc xã và tính hợp pháp ngoại giao.",
+          "explanation": "Đoạn 3 chỉ rõ Hitler lợi dụng Thế vận hội 1936 để tuyên truyền thuyết ưu việt chủng tộc Aryan và tạo tính hợp pháp ngoại giao.",
+          "postReading": {
+            "originToken": "orchestrated by Adolf Hitler to project Nazi racial supremacy and diplomatic legitimacy",
+            "paraphraseToken": "overt propaganda tool to project Nazi racial supremacy and diplomatic legitimacy",
+            "explanation": "Hitler biến Olympic Berlin thành công cụ tuyên truyền."
+          }
+        },
+        {
+          "id": "t32_p3_q27",
+          "num": 27,
+          "question": "What precipitated the reciprocal boycotts of the 1980 Moscow and 1984 Los Angeles Games in paragraph 3?",
+          "questionVi": "Điều gì đã châm ngòi cho các cuộc tẩy chay đáp trả lẫn nhau tại Thế vận hội Moscow 1980 và Los Angeles 1984 trong đoạn 3?",
+          "questionType": "detail",
+          "options": [
+            "Disputes over television broadcasting copyrights in Europe",
+            "The Cold War geopolitical rivalry, triggered by the Soviet invasion of Afghanistan",
+            "Disagreements regarding international anti-doping testing standards",
+            "Fluctuations in gold commodity prices affecting medal values"
+          ],
+          "optionsVi": [
+            "Tranh chấp bản quyền phát sóng truyền hình tại Châu Âu",
+            "Sự đối đầu địa chính trị Chiến tranh Lạnh, châm ngòi bởi cuộc xâm lược Afghanistan của Liên Xô",
+            "Những bất đồng liên quan đến các tiêu chuẩn kiểm tra chống doping quốc tế",
+            "Biến động giá vàng ảnh hưởng đến giá trị của các bộ huy chương"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...sixty-five nations boycotted the 1980 Moscow Olympics following the Soviet invasion of Afghanistan, and the Eastern Bloc retaliated by boycotting the 1984 Los Angeles Games.",
+          "evidenceVi": "...65 quốc gia đã tẩy chay Thế vận hội Moscow 1980 sau cuộc xâm lược Afghanistan của Liên Xô, và Khối phía Đông đã trả đũa bằng cách tẩy chay Thế vận hội Los Angeles 1984.",
+          "explanation": "Đoạn 3 giải thích cuộc tẩy chay bắt nguồn từ đối đầu Chiến tranh Lạnh sau khi Liên Xô đưa quân vào Afghanistan năm 1979.",
+          "postReading": {
+            "originToken": "following the Soviet invasion of Afghanistan... retaliated by boycotting the 1984 Los Angeles Games",
+            "paraphraseToken": "Cold War geopolitical rivalry, triggered by the Soviet invasion of Afghanistan",
+            "explanation": "Nguyên nhân địa chính trị dẫn tới làn sóng tẩy chay Olympic thời Chiến tranh Lạnh."
+          }
+        },
+        {
+          "id": "t32_p3_q28",
+          "num": 28,
+          "question": "The word 'epochal' in paragraph 4 is closest in meaning to:",
+          "questionVi": "Từ 'epochal' trong đoạn 4 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "historic and era-defining",
+            "negligible and minor",
+            "destructive and criminal",
+            "secret and unannounced"
+          ],
+          "optionsVi": [
+            "mang tính lịch sử và định hình kỷ nguyên",
+            "không đáng kể và nhỏ nhặt",
+            "hủy diệt và phạm tội",
+            "bí mật và không công bố"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The 1984 Los Angeles Games marked an epochal paradigm shift in Olympic history, inaugurating the era of hyper-commercialism.",
+          "evidenceVi": "Thế vận hội Los Angeles 1984 đã đánh dấu một bước chuyển dịch mang tính bước ngoặt kỷ nguyên trong lịch sử Olympic, mở màn cho kỷ nguyên siêu thương mại hóa.",
+          "explanation": "'Epochal' có nghĩa là tạo nên một thời đại mới, bước ngoặt lịch sử, đồng nghĩa với 'historic and era-defining'.",
+          "postReading": {
+            "originToken": "epochal paradigm shift",
+            "paraphraseToken": "historic and era-defining",
+            "explanation": "'Epochal' = 'historic / era-defining'."
+          }
+        },
+        {
+          "id": "t32_p3_q29",
+          "num": 29,
+          "question": "How did the 1984 Los Angeles Games revolutionize the business model of mega-events according to paragraph 4?",
+          "questionVi": "Thế vận hội Los Angeles 1984 đã cách mạng hóa mô hình kinh doanh của các đại sự kiện như thế nào theo đoạn 4?",
+          "questionType": "detail",
+          "options": [
+            "By funding the entire event exclusively through a national income tax hike",
+            "By rejecting taxpayer subsidies and relying on corporate sponsorships and TV broadcast rights",
+            "By requiring all participating athletes to pay an exorbitant personal registration fee",
+            "By eliminating paid spectators and broadcasting only via radio stations"
+          ],
+          "optionsVi": [
+            "Bằng cách tài trợ toàn bộ sự kiện độc quyền thông qua việc tăng thuế thu nhập quốc gia",
+            "Bằng cách từ chối trợ cấp tiền thuế và dựa vào tài trợ của các tập đoàn cùng bản quyền truyền hình",
+            "Bằng cách yêu cầu tất cả các vận động viên tham gia phải trả một khoản phí đăng ký cá nhân cắt cổ",
+            "Bằng cách loại bỏ khán giả trả tiền và chỉ phát sóng qua các đài phát thanh"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...revolutionized sports business by rejecting public taxpayer subsidies, relying instead on corporate sponsorships, licensed merchandising, and colossal global television broadcast rights.",
+          "evidenceVi": "...đã cách mạng hóa ngành kinh doanh thể thao bằng cách từ chối các khoản trợ cấp từ người nộp thuế, thay vào đó dựa vào các hợp đồng tài trợ doanh nghiệp, nhượng quyền thương mại và bản quyền phát sóng truyền hình toàn cầu khổng lồ.",
+          "explanation": "Đoạn 4 nêu rõ Los Angeles 1984 đã không dùng tiền thuế công mà dùng tài trợ tập đoàn (corporate sponsorships), hàng lưu niệm và bản quyền truyền hình (broadcast rights) để sinh lời.",
+          "postReading": {
+            "originToken": "rejecting public taxpayer subsidies, relying instead on corporate sponsorships... and colossal global television broadcast rights",
+            "paraphraseToken": "rejecting taxpayer subsidies and relying on corporate sponsorships and TV broadcast rights",
+            "explanation": "Cuộc cách mạng thương mại hóa Thế vận hội 1984."
+          }
+        },
+        {
+          "id": "t32_p3_q30",
+          "num": 30,
+          "question": "Which of the following best articulates the central theme of the passage?",
+          "questionVi": "Câu nào sau đây thể hiện đúng nhất chủ đề trung tâm của bài đọc?",
+          "questionType": "main_idea",
+          "options": [
+            "The evolution of the modern Olympics from an aristocratic ideal of amateurism into a geopolitical surrogate and commercial entertainment industry.",
+            "The comprehensive biographies of nineteenth-century Greek and French track athletes.",
+            "Why the Olympic Games should be completely abolished due to financial debt and corruption.",
+            "A technical critique of stadium architecture built in Los Angeles and Montreal."
+          ],
+          "optionsVi": [
+            "Sự tiến hóa của Thế vận hội hiện đại từ lý tưởng nghiệp dư quý tộc thành đấu trường ủy nhiệm địa chính trị và ngành công nghiệp giải trí thương mại.",
+            "Tiểu sử toàn diện về các vận động viên điền kinh Hy Lạp và Pháp thế kỷ 19.",
+            "Tại sao Thế vận hội Olympic nên bị bãi bỏ hoàn toàn do nợ nần tài chính và tham nhũng.",
+            "Một bài phê bình kỹ thuật về kiến trúc sân vận động được xây dựng ở Los Angeles và Montreal."
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The passage explores Coubertin's founding vision of Olympism, the elitism of amateurism, the political manipulation during the Cold War and WWII, and the transition into a commercial spectacle.",
+          "evidenceVi": "Bài đọc khám phá tầm nhìn sáng lập của Coubertin, định kiến của luật nghiệp dư, sự thao túng chính trị trong Thế chiến và Chiến tranh Lạnh, và sự chuyển đổi thành một cảnh tượng thương mại khổng lồ.",
+          "explanation": "Bài đọc trình bày toàn diện quá trình biến chuyển lịch sử của Olympic: từ triết lý thể thao lý tưởng của Coubertin, sự gò bó của luật nghiệp dư, sự can thiệp của chính trị đến cuộc cách mạng thương mại hóa hiện đại.",
+          "postReading": {
+            "originToken": "Coubertin's romanticized pedagogical philosophy... aristocratic class bias... geopolitics... hyper-commercialism",
+            "paraphraseToken": "evolution of the modern Olympics from an aristocratic ideal of amateurism into a geopolitical surrogate and commercial entertainment industry",
+            "explanation": "Bao quát tiến trình lịch sử Olympic."
+          }
+        }
+      ]
+    },
+    {
+      "passageId": "t32_p4",
+      "passageNum": 4,
+      "title": "The Architectural & Commercial Legacy of Hoi An Ancient Town: Trade, Floods & Heritage",
+      "titleVi": "Di sản kiến trúc & Thương mại Cảng thị cổ Hội An: Giao thương, Thích ứng lũ lụt & Bảo tồn di sản",
+      "category": "architecture_heritage",
+      "text": "Situated along the tranquil estuaries of the Thu Bon River in central Vietnam, Hoi An Ancient Town stands as an exceptionally preserved exemplar of a traditional Southeast Asian trading port. From the sixteenth to the nineteenth centuries, Hoi An—then renowned internationally as Fai-Fo—functioned as one of the most vibrant commercial emporiums in maritime East Asia. Positioned strategically along the seasonal monsoon trade routes, the port sheltered vast merchant fleets from Japan, China, Portugal, the Netherlands, and India, who waited for favorable trade winds to embark on their outward voyages. During these prolonged seasonal stopovers, foreign merchants established designated expatriate quarters, intermarried with the local populace, and introduced distinctive architectural, culinary, and spiritual traditions that coalesced into an exquisite, hybrid urban fabric.\n\nThe architectural genius of Hoi An is most vividly encapsulated in its surviving shophouse dwellings (nha pho), which line narrow, pedestrian-friendly streets. These elongated tube houses represent an ingenious synthesis of Vietnamese vernacular timber craftsmanship, Chinese spatial feng shui, and Japanese structural joinery. Typically constructed with sturdy ironwood (go go) frames, brick walls, and double-layered yin-yang (am duong) ceramic roof tiles, the houses are partitioned into functional sequential zones. The street-facing facade served as a bustling retail storefront; behind it lay an open-air central courtyard (gieng troi) that admitted natural ventilation, rainwater drainage, and sunlight; while the rear opened directly onto the riverbank, facilitating the seamless loading and unloading of maritime cargo from wooden sampans.\n\nCrucially, Hoi An's urban design embodies remarkable engineering adaptation to regular climatic hazards, particularly the seasonal inundations that submerge the lower riverfront streets during autumnal monsoons. Rather than attempting to hold back the irresistible floodwaters of the Thu Bon River with concrete dykes, traditional builders embraced inundation as an inevitable ecological cycle. Shophouses feature reinforced raised mezzanines with internal trapdoors cut directly through upper wooden floors, paired with iron pulley systems anchored to master roof beams. When floodwaters rise into the lower living quarters, residents simply hoist valuable merchandise, ancestral altars, and furniture to the dry upper story in a matter of minutes, continuing daily life relatively unfazed until the waters recede.\n\nThe nineteenth-century decline of Hoi An was precipitated by the gradual siltation of the Thu Bon estuary, which made the river mouth impassable for deep-draft European steamships, ultimately shifting regional colonial commerce northward to Da Nang. Ironically, this economic stagnation shielded Hoi An from mid-twentieth-century industrialization, wartime aerial bombardments, and uncontrolled modern redevelopment. Inscribed as a UNESCO World Heritage site in 1999, Hoi An transformed from a sleepy historic backwater into a world-famous cultural tourism destination. Today, the municipal government and conservationists face the delicate conundrum of managing 'overtourism'—countering the Disneyfication of ancient streets, preserving the living spiritual customs of indigenous residents, and shielding delicate centuries-old wooden structures from the twin threats of commercial gentrification and intensifying typhoons.",
+      "vocab": [
+        {
+          "word": "estuaries",
+          "pos": "n",
+          "ipa": "/ˈes.tʃʊə.riz/",
+          "level": "B2",
+          "mean": "cửa sông, vùng nước lợ nơi sông gặp biển",
+          "syns": [
+            "river mouths",
+            "inlets",
+            "waterways"
+          ],
+          "ex": "The merchant port was founded along the river estuaries."
+        },
+        {
+          "word": "exemplar",
+          "pos": "n",
+          "ipa": "/ɪɡˈzem.plɑːr/",
+          "level": "C1",
+          "mean": "hình mẫu tiêu biểu, tấm gương mẫu mực",
+          "syns": [
+            "model",
+            "prototype",
+            "embodiment"
+          ],
+          "ex": "Hoi An is an exceptionally preserved exemplar of an Asian port."
+        },
+        {
+          "word": "emporiums",
+          "pos": "n",
+          "ipa": "/ɪmˈpɔː.ri.əmz/",
+          "level": "C1",
+          "mean": "thương cảng sầm uất, trung tâm buôn bán lớn",
+          "syns": [
+            "trading centers",
+            "marketplaces",
+            "marts"
+          ],
+          "ex": "The ancient town was one of the largest maritime emporiums in the Orient."
+        },
+        {
+          "word": "expatriate",
+          "pos": "adj",
+          "ipa": "/ekˈspæt.ri.ət/",
+          "level": "B2",
+          "mean": "thuộc kiều dân, người nước ngoài cư trú",
+          "syns": [
+            "foreign",
+            "migrant",
+            "overseas"
+          ],
+          "ex": "Japanese and Chinese merchants established expatriate quarters."
+        },
+        {
+          "word": "coalesced",
+          "pos": "v",
+          "ipa": "/ˌkəʊ.əˈlest/",
+          "level": "C1",
+          "mean": "hòa quyện, kết hợp thành một khối thống nhất",
+          "syns": [
+            "fused",
+            "merged",
+            "blended"
+          ],
+          "ex": "Diverse artistic influences coalesced into a unique cultural identity."
+        },
+        {
+          "word": "encapsulated",
+          "pos": "v",
+          "ipa": "/ɪnˈkæp.sjʊ.leɪ.tɪd/",
+          "level": "C1",
+          "mean": "được gói gọn, cô đọng rõ nét trong",
+          "syns": [
+            "embodied",
+            "summarized",
+            "crystallized"
+          ],
+          "ex": "Their history is beautifully encapsulated in ancient wooden houses."
+        },
+        {
+          "word": "vernacular",
+          "pos": "adj",
+          "ipa": "/vəˈnæk.jʊ.lər/",
+          "level": "C1",
+          "mean": "thuộc bản địa, dân gian truyền thống",
+          "syns": [
+            "indigenous",
+            "native",
+            "traditional"
+          ],
+          "ex": "The houses showcase indigenous vernacular carpentry techniques."
+        },
+        {
+          "word": "joinery",
+          "pos": "n",
+          "ipa": "/ˈdʒɔɪ.nər.i/",
+          "level": "C1",
+          "mean": "nghệ thuật ghép mộng gỗ kiến trúc",
+          "syns": [
+            "woodworking",
+            "carpentry",
+            "timber crafting"
+          ],
+          "ex": "Master craftsmen utilized intricate Japanese wooden joinery without nails."
+        },
+        {
+          "word": "partitioned",
+          "pos": "v",
+          "ipa": "/pɑːˈtɪʃ.ənd/",
+          "level": "B2",
+          "mean": "được phân chia, ngăn cách thành các phần",
+          "syns": [
+            "divided",
+            "compartmentalized",
+            "sectioned"
+          ],
+          "ex": "The elongated space is partitioned into residential and retail sections."
+        },
+        {
+          "word": "facade",
+          "pos": "n",
+          "ipa": "/fəˈsɑːd/",
+          "level": "B2",
+          "mean": "mặt tiền của tòa nhà",
+          "syns": [
+            "front",
+            "exterior",
+            "street-face"
+          ],
+          "ex": "The wooden facade was designed to display fabrics and ceramics."
+        },
+        {
+          "word": "mezzanines",
+          "pos": "n",
+          "ipa": "/ˈmez.ə.niːnz/",
+          "level": "C1",
+          "mean": "gác xép, tầng lửng",
+          "syns": [
+            "intermediate floors",
+            "lofts"
+          ],
+          "ex": "Carpenters built reinforced mezzanines to store dry goods during storms."
+        },
+        {
+          "word": "inundations",
+          "pos": "n",
+          "ipa": "/ˌɪn.ʌnˈdeɪ.ʃənz/",
+          "level": "C1",
+          "mean": "những đợt ngập lụt định kỳ",
+          "syns": [
+            "floods",
+            "deluges",
+            "submersions"
+          ],
+          "ex": "The town experiences seasonal inundations from upstream rainfall."
+        },
+        {
+          "word": "inevitable",
+          "pos": "adj",
+          "ipa": "/ɪnˈev.ɪ.tə.bəl/",
+          "level": "B2",
+          "mean": "không thể tránh khỏi, tất yếu",
+          "syns": [
+            "unavoidable",
+            "inescapable"
+          ],
+          "ex": "Flooding was accepted as an inevitable feature of life by the river."
+        },
+        {
+          "word": "trapdoors",
+          "pos": "n",
+          "ipa": "/ˈtræp.dɔːz/",
+          "level": "B2",
+          "mean": "cửa sập trên sàn hoặc trần nhà",
+          "syns": [
+            "floor hatches",
+            "access doors"
+          ],
+          "ex": "Merchants opened wooden trapdoors to hoist cargo away from rising waters."
+        },
+        {
+          "word": "pulley",
+          "pos": "n",
+          "ipa": "/ˈpʊl.i/",
+          "level": "B2",
+          "mean": "ròng rọc kéo vật nặng",
+          "syns": [
+            "winch",
+            "hoist",
+            "block and tackle"
+          ],
+          "ex": "An iron pulley anchored to the roof beams lifted heavy furniture."
+        },
+        {
+          "word": "recede",
+          "pos": "v",
+          "ipa": "/rɪˈsiːd/",
+          "level": "B2",
+          "mean": "rút xuống, thoái lui",
+          "syns": [
+            "withdraw",
+            "subside",
+            "abate"
+          ],
+          "ex": "Shopkeepers cleaned the mud as soon as floodwaters began to recede."
+        },
+        {
+          "word": "siltation",
+          "pos": "n",
+          "ipa": "/sɪlˈteɪ.ʃən/",
+          "level": "C1",
+          "mean": "hiện tượng bồi lắng phù sa, nghẽn dòng",
+          "syns": [
+            "sedimentation",
+            "silt buildup"
+          ],
+          "ex": "Heavy siltation blocked large modern cargo ships from entering the port."
+        },
+        {
+          "word": "impassable",
+          "pos": "adj",
+          "ipa": "/ɪmˈpɑː.sə.bəl/",
+          "level": "B2",
+          "mean": "không thể qua lại được, tắc nghẽn",
+          "syns": [
+            "unnavigable",
+            "blocked",
+            "impenetrable"
+          ],
+          "ex": "Shallow water rendered the river mouth impassable for foreign steamships."
+        },
+        {
+          "word": "stagnation",
+          "pos": "n",
+          "ipa": "/stæɡˈneɪ.ʃən/",
+          "level": "C1",
+          "mean": "sự đình trệ, ngưng trệ kinh tế",
+          "syns": [
+            "inactivity",
+            "sluggishness",
+            "dormancy"
+          ],
+          "ex": "Decades of economic stagnation inadvertently preserved the original architecture."
+        },
+        {
+          "word": "inscribed",
+          "pos": "v",
+          "ipa": "/ɪnˈskraɪbd/",
+          "level": "B2",
+          "mean": "được ghi danh, khắc tên vào danh sách",
+          "syns": [
+            "registered",
+            "listed",
+            "enrolled"
+          ],
+          "ex": "Hoi An was officially inscribed on the UNESCO heritage list in 1999."
+        },
+        {
+          "word": "backwater",
+          "pos": "n",
+          "ipa": "/ˈbækˌwɔː.tər/",
+          "level": "C1",
+          "mean": "vùng nước tù hẻo lánh, nơi trì trệ ít ai biết",
+          "syns": [
+            "isolated outpost",
+            "provincial back country"
+          ],
+          "ex": "The once busy harbor temporarily languished as an obscure backwater."
+        },
+        {
+          "word": "conundrum",
+          "pos": "n",
+          "ipa": "/kəˈnʌn.drəm/",
+          "level": "C1",
+          "mean": "bài toán hóc búa, song đề khó xử",
+          "syns": [
+            "dilemma",
+            "enigma",
+            "puzzle"
+          ],
+          "ex": "Managing heritage preservation alongside mass tourism poses a grave conundrum."
+        },
+        {
+          "word": "overtourism",
+          "pos": "n",
+          "ipa": "/ˌəʊ.vəˈtʊə.rɪ.zəm/",
+          "level": "C1",
+          "mean": "tình trạng quá tải du lịch",
+          "syns": [
+            "tourist congestion",
+            "excessive tourism"
+          ],
+          "ex": "Overtourism threatens to erode the peaceful atmosphere of ancient alleys."
+        },
+        {
+          "word": "Disneyfication",
+          "pos": "n",
+          "ipa": "/ˌdɪz.ni.fɪˈkeɪ.ʃən/",
+          "level": "C1",
+          "mean": "sự thương mại hóa giả tạo kiểu công viên giải trí",
+          "syns": [
+            "commercialization",
+            "artificial transformation"
+          ],
+          "ex": "Critics caution against the superficial Disneyfication of cultural sites."
+        },
+        {
+          "word": "indigenous",
+          "pos": "adj",
+          "ipa": "/ɪnˈdɪdʒ.ɪ.nəs/",
+          "level": "B2",
+          "mean": "bản địa, thuần túy địa phương",
+          "syns": [
+            "native",
+            "local",
+            "original"
+          ],
+          "ex": "Ancestral altars preserve the indigenous spiritual life of local families."
+        },
+        {
+          "word": "gentrification",
+          "pos": "n",
+          "ipa": "/ˌdʒen.trɪ.fɪˈkeɪ.ʃən/",
+          "level": "C1",
+          "mean": "sự thương mại hóa đô thị hóa đẩy người bản địa đi",
+          "syns": [
+            "commercialization",
+            "urban upscale displacement"
+          ],
+          "ex": "Commercial gentrification drove out resident families in favor of souvenir shops."
+        },
+        {
+          "word": "typhoons",
+          "pos": "n",
+          "ipa": "/taɪˈfuːnz/",
+          "level": "B2",
+          "mean": "những cơn bão nhiệt đới dữ dội",
+          "syns": [
+            "hurricanes",
+            "cyclones",
+            "tropical storms"
+          ],
+          "ex": "Intensifying annual typhoons buffet the fragile historical roofs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "t32_p4_q31",
+          "num": 31,
+          "question": "What primary geographical and climatic advantage made Hoi An a thriving international trading emporium between the sixteenth and nineteenth centuries?",
+          "questionVi": "Lợi thế địa lý và khí hậu chủ yếu nào đã giúp Hội An trở thành một thương cảng quốc tế sầm uất giữa thế kỷ 16 và 19?",
+          "questionType": "detail",
+          "options": [
+            "Its massive deepwater harbor accommodating modern iron steamships",
+            "Its strategic location along seasonal monsoon trade routes providing shelter for foreign fleets",
+            "Its proximity to vast silver and gold mines in the northern highlands",
+            "A permanent peace treaty signed with the British East India Company"
+          ],
+          "optionsVi": [
+            "Cảng nước sâu khổng lồ của nó có sức chứa các tàu hơi nước bằng sắt hiện đại",
+            "Vị trí chiến lược dọc theo các tuyến thương mại gió mùa theo mùa mang lại nơi trú ẩn cho các đội tàu buôn nước ngoài",
+            "Vị trí gần các mỏ vàng và bạc rộng lớn ở vùng cao nguyên phía bắc",
+            "Một hiệp ước hòa bình vĩnh viễn được ký với Công ty Đông Ấn Anh"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Positioned strategically along the seasonal monsoon trade routes, the port sheltered vast merchant fleets from Japan, China, Portugal, the Netherlands, and India, who waited for favorable trade winds to embark on their outward voyages.",
+          "evidenceVi": "Được định vị chiến lược dọc theo các tuyến đường thương mại gió mùa theo mùa, cảng là nơi trú ẩn của các hạm đội thương thuyền lớn từ Nhật Bản, Trung Quốc, Bồ Đào Nha, Hà Lan và Ấn Độ, những người chờ gió mậu dịch thuận lợi để bắt đầu các chuyến hải trình viễn dương.",
+          "explanation": "Đoạn 1 chỉ rõ lợi thế: vị trí chiến lược trên đường thương mại gió mùa, là nơi neo đậu trú ẩn của thuyền buôn quốc tế chờ đổi hướng gió mậu dịch.",
+          "postReading": {
+            "originToken": "Positioned strategically along the seasonal monsoon trade routes, the port sheltered vast merchant fleets",
+            "paraphraseToken": "strategic location along seasonal monsoon trade routes providing shelter for foreign fleets",
+            "explanation": "Lợi thế địa lý thương mại cảng thị gió mùa."
+          }
+        },
+        {
+          "id": "t32_p4_q32",
+          "num": 32,
+          "question": "The word 'coalesced' in paragraph 1 is closest in meaning to:",
+          "questionVi": "Từ 'coalesced' trong đoạn 1 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "blended together into a unified whole",
+            "disintegrated into violent conflict",
+            "retreated into total isolation",
+            "spread widely across foreign continents"
+          ],
+          "optionsVi": [
+            "hòa quyện cùng nhau thành một thể thống nhất",
+            "tan rã thành những cuộc xung đột bạo lực",
+            "rút lui vào sự cô lập hoàn toàn",
+            "lan rộng khắp các lục địa xa lạ"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...introduced distinctive architectural, culinary, and spiritual traditions that coalesced into an exquisite, hybrid urban fabric.",
+          "evidenceVi": "...giới thiệu những truyền thống kiến trúc, ẩm thực và tâm linh đặc sắc đã hòa quyện thành một kết cấu đô thị lai ghép tinh xảo.",
+          "explanation": "'Coalesced' có nghĩa là sáp nhập, hòa quyện các yếu tố khác biệt lại thành một thể thống nhất, đồng nghĩa với 'blended together into a unified whole' hoặc 'fused'.",
+          "postReading": {
+            "originToken": "coalesced into an exquisite, hybrid urban fabric",
+            "paraphraseToken": "blended together into a unified whole",
+            "explanation": "'Coalesced' = 'blended / merged together'."
+          }
+        },
+        {
+          "id": "t32_p4_q33",
+          "num": 33,
+          "question": "According to paragraph 2, what was the functional purpose of having the rear of Hoi An shophouses open directly onto the riverbank?",
+          "questionVi": "Theo đoạn 2, mục đích chức năng của việc thiết kế mặt sau các ngôi nhà ống Hội An mở thẳng ra bờ sông là gì?",
+          "questionType": "detail",
+          "options": [
+            "To allow residents to escape police raids without detection",
+            "To facilitate the seamless loading and unloading of maritime cargo from boats",
+            "To dump household kitchen waste directly into deep ocean trenches",
+            "To build floating fish pens attached directly to the dining room"
+          ],
+          "optionsVi": [
+            "Để cho phép cư dân thoát khỏi các cuộc đột kích của cảnh sát mà không bị phát hiện",
+            "Để tạo thuận lợi cho việc bốc dỡ hàng hóa hàng hải liên tục từ thuyền bè",
+            "Để xả rác thải nhà bếp trực tiếp xuống các rãnh đại dương sâu thẳm",
+            "Để xây dựng các lồng nuôi cá nổi gắn liền trực tiếp với phòng ăn"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...while the rear opened directly onto the riverbank, facilitating the seamless loading and unloading of maritime cargo from wooden sampans.",
+          "evidenceVi": "...trong khi phía sau mở thẳng ra bờ sông, tạo điều kiện thuận lợi cho việc bốc dỡ hàng hóa hàng hải liền mạch từ các thuyền tam bản bằng gỗ.",
+          "explanation": "Đoạn 2 giải thích mặt sau giáp bờ sông là để thuận tiện bốc dỡ hàng hóa từ các thuyền gỗ (sampans).",
+          "postReading": {
+            "originToken": "rear opened directly onto the riverbank, facilitating the seamless loading and unloading of maritime cargo",
+            "paraphraseToken": "facilitate the seamless loading and unloading of maritime cargo from boats",
+            "explanation": "Thiết kế nhà ống hai mặt tiền: mặt trước buôn bán, mặt sau bốc dỡ đường thủy."
+          }
+        },
+        {
+          "id": "t32_p4_q34",
+          "num": 34,
+          "question": "How did traditional Hoi An builders ingeniously adapt shophouse architecture to recurring seasonal floods in paragraph 3?",
+          "questionVi": "Các thợ xây Hội An truyền thống đã khéo léo thích ứng kiến trúc nhà ống với các trận lũ lụt định kỳ theo mùa như thế nào trong đoạn 3?",
+          "questionType": "detail",
+          "options": [
+            "By building colossal stone dykes that sealed off the entire river estuary",
+            "By incorporating raised mezzanines, floor trapdoors, and iron pulley systems to hoist goods upstairs",
+            "By abandoning the town completely and living in mountain caves every autumn",
+            "By converting the houses into motorized rafts powered by sails"
+          ],
+          "optionsVi": [
+            "Bằng cách xây dựng những con đê đá khổng lồ phong tỏa toàn bộ cửa sông",
+            "Bằng cách kết hợp các gác lửng nâng cao, cửa sập sàn và hệ thống ròng rọc sắt để kéo hàng lên lầu",
+            "Bằng cách bỏ hoang hoàn toàn thị trấn và sống trong các hang núi vào mỗi mùa thu",
+            "Bằng cách chuyển đổi các ngôi nhà thành bè cơ giới chạy bằng buồm"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Shophouses feature reinforced raised mezzanines with internal trapdoors cut directly through upper wooden floors, paired with iron pulley systems anchored to master roof beams. When floodwaters rise... residents simply hoist valuable merchandise... to the dry upper story in a matter of minutes...",
+          "evidenceVi": "Các ngôi nhà ống có các gác lửng kiên cố với các cửa sập được khoét trực tiếp qua sàn gỗ phía trên, kết hợp với các hệ thống ròng rọc sắt gắn vào xà nóc chính. Khi nước lũ dâng lên... cư dân chỉ việc kéo hàng hóa có giá trị... lên tầng trên khô ráo chỉ trong vài phút...",
+          "explanation": "Đoạn 3 mô tả kiến trúc sống chung với lũ: có gác lửng kiên cố (mezzanines), cửa sập trên sàn (trapdoors) và ròng rọc (pulley) để tời tài sản lên tầng 2 khi nước dâng.",
+          "postReading": {
+            "originToken": "reinforced raised mezzanines with internal trapdoors... iron pulley systems... hoist valuable merchandise",
+            "paraphraseToken": "incorporating raised mezzanines, floor trapdoors, and iron pulley systems to hoist goods upstairs",
+            "explanation": "Giải pháp kiến trúc thích ứng lũ lụt truyền thống của Hội An."
+          }
+        },
+        {
+          "id": "t32_p4_q35",
+          "num": 35,
+          "question": "The word 'recede' in paragraph 3 is closest in meaning to:",
+          "questionVi": "Từ 'recede' trong đoạn 3 gần nghĩa nhất với:",
+          "questionType": "vocabulary",
+          "options": [
+            "withdraw and fall",
+            "freeze and turn to ice",
+            "intensify and burst",
+            "contaminate and smell"
+          ],
+          "optionsVi": [
+            "rút lui và hạ xuống",
+            "đóng băng thành đá",
+            "dữ dội hơn và vỡ tung",
+            "bị ô nhiễm và bốc mùi"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "...continuing daily life relatively unfazed until the waters recede.",
+          "evidenceVi": "...tiếp tục cuộc sống hàng ngày tương đối bình thản cho đến khi nước rút.",
+          "explanation": "'Recede' (nói về nước lũ hoặc thủy triều) là rút lui, hạ xuống, đồng nghĩa với 'withdraw and fall' hoặc 'subside'.",
+          "postReading": {
+            "originToken": "waters recede",
+            "paraphraseToken": "withdraw and fall",
+            "explanation": "'Recede' = 'withdraw / subside'."
+          }
+        },
+        {
+          "id": "t32_p4_q36",
+          "num": 36,
+          "question": "What primary environmental event led to the commercial decline of Hoi An port in the nineteenth century?",
+          "questionVi": "Sự kiện môi trường chủ yếu nào đã dẫn đến sự suy tàn thương mại của cảng Hội An vào thế kỷ 19?",
+          "questionType": "detail",
+          "options": [
+            "A violent volcanic eruption that buried the river under basalt lava",
+            "The progressive siltation of the Thu Bon estuary blocking deep-draft steamships",
+            "A permanent toxic algal bloom that poisoned all freshwater supplies",
+            "A catastrophic tsunami that obliterated the entire central coastline"
+          ],
+          "optionsVi": [
+            "Một vụ phun trào núi lửa dữ dội chôn vùi dòng sông dưới dung nham bazan",
+            "Sự bồi lắng phù sa ngày càng tăng của cửa sông Thu Bồn ngăn cản các tàu hơi nước mớn nước sâu",
+            "Hiện tượng tảo nở hoa độc hại vĩnh viễn đầu độc tất cả các nguồn cung cấp nước ngọt",
+            "Một trận sóng thần thảm khốc xóa sổ toàn bộ bờ biển miền Trung"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "The nineteenth-century decline of Hoi An was precipitated by the gradual siltation of the Thu Bon estuary, which made the river mouth impassable for deep-draft European steamships, ultimately shifting regional colonial commerce northward to Da Nang.",
+          "evidenceVi": "Sự suy tàn vào thế kỷ 19 của Hội An là do hiện tượng bồi lắng phù sa dần dần ở cửa sông Thu Bồn, khiến cửa sông không thể đi lại đối với các tàu hơi nước có mớn nước sâu của châu Âu, cuối cùng chuyển dịch thương mại thuộc địa của khu vực lên phía bắc tới Đà Nẵng.",
+          "explanation": "Đoạn 4 chỉ rõ nguyên nhân suy giảm: cửa sông Thu Bồn bị bồi lắng phù sa (siltation) khiến tàu hơi nước lớn mớn nước sâu không vào được, dẫn đến thương mại chuyển ra cảng Đà Nẵng.",
+          "postReading": {
+            "originToken": "gradual siltation of the Thu Bon estuary, which made the river mouth impassable for deep-draft European steamships",
+            "paraphraseToken": "progressive siltation of the Thu Bon estuary blocking deep-draft steamships",
+            "explanation": "'Siltation' làm cạn luồng tàu khiến thương cảng lụi tàn tự nhiên."
+          }
+        },
+        {
+          "id": "t32_p4_q37",
+          "num": 37,
+          "question": "What unexpected positive outcome resulted from Hoi An's nineteenth-century economic stagnation?",
+          "questionVi": "Kết quả tích cực bất ngờ nào đã phát sinh từ sự đình trệ kinh tế của Hội An vào thế kỷ 19?",
+          "questionType": "detail",
+          "options": [
+            "The town discovered immense underground natural gas reserves.",
+            "It was protected from wartime bombings and modern architectural destruction, preserving its heritage.",
+            "Local fishermen invented the world's first motor-powered iron submarine.",
+            "The population emigrated to Western Europe and founded major banking dynasties."
+          ],
+          "optionsVi": [
+            "Thị trấn phát hiện ra trữ lượng khí đốt tự nhiên khổng lồ dưới lòng đất.",
+            "Nó được bảo vệ khỏi bom đạn chiến tranh và sự phá hủy kiến trúc hiện đại, gìn giữ được di sản.",
+            "Các ngư dân địa phương đã phát minh ra chiếc tàu ngầm bằng sắt chạy bằng động cơ đầu tiên trên thế giới.",
+            "Dân số đã di cư sang Tây Âu và thành lập các triều đại ngân hàng lớn."
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "Ironically, this economic stagnation shielded Hoi An from mid-twentieth-century industrialization, wartime aerial bombardments, and uncontrolled modern redevelopment.",
+          "evidenceVi": "Trớ trêu thay, sự đình trệ kinh tế này lại che chắn cho Hội An khỏi sự công nghiệp hóa giữa thế kỷ 20, những trận ném bom tàn phá trong chiến tranh và việc tái phát triển hiện đại thiếu kiểm soát.",
+          "explanation": "Đoạn 4 nêu nghịch lý thú vị: việc bị rơi vào quên lãng kinh tế đã giúp Hội An tránh được công nghiệp hóa ồ ạt, bom đạn chiến tranh và việc phá dỡ xây nhà mới, nhờ đó kiến trúc cổ được nguyên vẹn.",
+          "postReading": {
+            "originToken": "economic stagnation shielded Hoi An from... wartime aerial bombardments, and uncontrolled modern redevelopment",
+            "paraphraseToken": "protected from wartime bombings and modern architectural destruction, preserving its heritage",
+            "explanation": "Sự đình trệ kinh tế đã vô tình trở thành tấm khiên bảo vệ di sản cổ."
+          }
+        },
+        {
+          "id": "t32_p4_q38",
+          "num": 38,
+          "question": "The term 'Disneyfication' in paragraph 4 conveys the author's concern regarding:",
+          "questionVi": "Thuật ngữ 'Disneyfication' trong đoạn 4 truyền tải mối quan ngại của tác giả liên quan đến:",
+          "questionType": "vocabulary",
+          "options": [
+            "the building of high-speed rollercoasters across the Thu Bon river",
+            "the superficial commercialization that turns authentic cultural heritage into an artificial tourist attraction",
+            "the strict prohibition of photography in historical monuments",
+            "the legal ownership of traditional houses by American media conglomerates"
+          ],
+          "optionsVi": [
+            "việc xây dựng tàu lượn siêu tốc băng qua sông Thu Bồn",
+            "sự thương mại hóa nông cạn biến di sản văn hóa đích thực thành điểm du lịch nhân tạo giả tạo",
+            "lệnh cấm chụp ảnh nghiêm ngặt tại các di tích lịch sử",
+            "quyền sở hữu hợp pháp các ngôi nhà truyền thống bởi các tập đoàn truyền thông Mỹ"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...countering the Disneyfication of ancient streets, preserving the living spiritual customs of indigenous residents, and shielding delicate centuries-old wooden structures...",
+          "evidenceVi": "...đối phó với sự 'Disney hóa' các con phố cổ, bảo tồn phong tục tâm linh sống động của cư dân bản địa và che chắn cho các công trình kiến trúc bằng gỗ hàng thế kỷ...",
+          "explanation": "'Disneyfication' là thuật ngữ xã hội học chỉ việc biến một địa điểm lịch sử văn hóa có thật thành một không gian giả tạo, hào nhoáng, thương mại hóa như công viên giải trí.",
+          "postReading": {
+            "originToken": "Disneyfication",
+            "paraphraseToken": "superficial commercialization that turns authentic cultural heritage into an artificial tourist attraction",
+            "explanation": "'Disneyfication' = thương mại hóa giải trí làm mất tính chân thực của di sản."
+          }
+        },
+        {
+          "id": "t32_p4_q39",
+          "num": 39,
+          "question": "Which of the following describes a modern threat to the preservation of Hoi An Ancient Town mentioned in paragraph 4?",
+          "questionVi": "Điều nào sau đây mô tả một mối đe dọa hiện đại đối với việc bảo tồn Phố cổ Hội An được đề cập trong đoạn 4?",
+          "questionType": "detail",
+          "options": [
+            "A total lack of international tourists resulting in municipal bankruptcy",
+            "Commercial gentrification displacing residents, and intensifying severe typhoons",
+            "The mandatory demolition of all wooden shophouses by federal law",
+            "An invasion of toxic desert locusts destroying rooftop clay tiles"
+          ],
+          "optionsVi": [
+            "Sự thiếu vắng hoàn toàn khách du lịch quốc tế dẫn đến tình trạng phá sản thành phố",
+            "Sự thương mại hóa đô thị đẩy người dân bản địa đi nơi khác, và những cơn bão ngày càng khốc liệt",
+            "Việc phá dỡ bắt buộc tất cả các ngôi nhà ống bằng gỗ theo luật liên bang",
+            "Sự xâm lấn của loài châu chấu sa mạc độc hại phá hủy các viên ngói đất sét trên mái nhà"
+          ],
+          "correctAnswer": "B",
+          "correctIdx": 1,
+          "evidence": "...shielding delicate centuries-old wooden structures from the twin threats of commercial gentrification and intensifying typhoons.",
+          "evidenceVi": "...bảo vệ các cấu trúc bằng gỗ mỏng manh hàng thế kỷ trước mối đe dọa kép từ sự thượng lưu hóa thương mại hóa và những cơn bão ngày càng dữ dội.",
+          "explanation": "Đoạn 4 nêu rõ 2 mối đe dọa: thương mại hóa đô thị đẩy người dân đi (commercial gentrification) và bão lũ ngày càng khốc liệt do biến đổi khí hậu (intensifying typhoons).",
+          "postReading": {
+            "originToken": "twin threats of commercial gentrification and intensifying typhoons",
+            "paraphraseToken": "Commercial gentrification displacing residents, and intensifying severe typhoons",
+            "explanation": "Hai thách thức bảo tồn hiện đại của đô thị cổ Hội An."
+          }
+        },
+        {
+          "id": "t32_p4_q40",
+          "num": 40,
+          "question": "Which of the following titles best summarizes the content of the entire passage?",
+          "questionVi": "Nhan đề nào sau đây tóm tắt tốt nhất nội dung của toàn bộ bài đọc?",
+          "questionType": "main_idea",
+          "options": [
+            "Hoi An Ancient Town: Architectural Ingenuity, Climate Adaptation, and Modern Heritage Challenges",
+            "The Defeat of European Colonial Fleets in the South China Sea",
+            "Why Wooden Sampan Boats Have Become Obsolete in Contemporary Vietnam",
+            "The Complete History of Brick Manufacturing in Central Vietnam"
+          ],
+          "optionsVi": [
+            "Phố cổ Hội An: Sự khéo léo kiến trúc, Thích ứng khí hậu và Thách thức bảo tồn di sản hiện đại",
+            "Sự thất bại của các hạm đội thuộc địa Châu Âu ở Biển Đông",
+            "Tại sao thuyền tam bản bằng gỗ đã trở nên lỗi thời ở Việt Nam đương đại",
+            "Toàn bộ lịch sử sản xuất gạch ở miền Trung Việt Nam"
+          ],
+          "correctAnswer": "A",
+          "correctIdx": 0,
+          "evidence": "The passage outlines Hoi An's maritime commercial history, unique shophouse architecture, flood-adaptation mechanisms, historical preservation through stagnation, and contemporary overtourism dilemmas.",
+          "evidenceVi": "Bài đọc khái quát lịch sử thương mại hàng hải của Hội An, kiến trúc nhà ống độc đáo, cơ chế thích ứng với lũ lụt, sự bảo tồn lịch sử qua giai đoạn đình trệ và những tình thế tiến thoái lưỡng nan về du lịch quá tải đương đại.",
+          "explanation": "Toàn bài phân tích Hội An từ quá khứ thương cảng, sự tinh tế kiến trúc thích ứng ngập lụt đến bài toán bảo tồn du lịch bền vững hiện nay.",
+          "postReading": {
+            "originToken": "trading port... architectural genius... climatic hazards... heritage site... conundrum of overtourism",
+            "paraphraseToken": "Hoi An Ancient Town: Architectural Ingenuity, Climate Adaptation, and Modern Heritage Challenges",
+            "explanation": "Nhan đề khái quát toàn diện mọi khía cạnh của bài đọc."
+          }
+        }
+      ]
+    }
+  ]
 }
 ];
