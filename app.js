@@ -27,8 +27,17 @@ function normalizeMockTestsData(tests) {
             const partNum = p.partId || p.passageNum || (pIdx + 1);
             p.partId = partNum;
             p.passageNum = partNum;
-            if (!p.passage && p.text) p.passage = p.text;
-            if (!p.text && p.passage) p.text = p.passage;
+            let pText = p.passage || p.text || '';
+            if (pText && !pText.includes('<p>') && !pText.includes('<p ')) {
+                const paras = pText.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
+                if (paras.length > 0) {
+                    pText = paras.map(para => `<p>${para}</p>`).join('');
+                } else {
+                    pText = `<p>${pText}</p>`;
+                }
+            }
+            p.passage = pText;
+            p.text = pText;
             (p.questions || []).forEach((q, qIdx) => {
                 const calculatedQNum = (partNum - 1) * 10 + (qIdx + 1);
                 const qNum = (typeof q.num === 'number' && q.num > 0) ? q.num : (getQuestionNumericId(q.id) || calculatedQNum);
@@ -6667,7 +6676,15 @@ function renderCBTPassage() {
     const bodyEl = document.getElementById('active-passage-body');
     if (!bodyEl) return;
 
-    const rawPassageText = passage.passage || passage.text || '';
+    let rawPassageText = passage.passage || passage.text || '';
+    if (rawPassageText && !rawPassageText.includes('<p>') && !rawPassageText.includes('<p ')) {
+        const paras = rawPassageText.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
+        if (paras.length > 0) {
+            rawPassageText = paras.map(para => `<p>${para}</p>`).join('');
+        } else {
+            rawPassageText = `<p>${rawPassageText}</p>`;
+        }
+    }
 
     if (state.activeExam.isSubmitted) {
         const pHtmlWithEv = highlightPassageWithEvidence(rawPassageText, passage, state.activeExam.currentQuestionId);
