@@ -1100,15 +1100,24 @@ button, input, select, textarea {
     flex-grow: 1;
 }
 
-/* Target Word Yellow Highlights in Passage */
+/* Target Word in Passage for Vocabulary Questions (Clean standard exam style) */
 .target-word {
-    background: #fef08a;
+    font-weight: 800;
     color: #0f172a;
-    font-weight: 700;
-    padding: 1px 6px;
-    border-radius: 4px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    border-bottom: 2px solid #94a3b8;
+    padding: 0 2px;
     display: inline;
+    transition: all 0.2s ease;
+}
+
+/* Focused Highlight when viewing that specific vocabulary question */
+.target-word.active-target-word {
+    background: #fef08a;
+    color: #854d0e;
+    border-bottom: 2px solid #eab308;
+    border-radius: 3px;
+    padding: 1px 5px;
+    box-shadow: 0 0 0 2px rgba(234, 179, 8, 0.35);
 }
 
 /* Submit button under Palette */

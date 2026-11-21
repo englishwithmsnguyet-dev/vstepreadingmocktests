@@ -6753,12 +6753,7 @@ function renderCBTPassage() {
             return htmlStr.replace(regex, '<span class="target-word">$1</span>');
         };
 
-        (passage.vocab || []).forEach(v => {
-            const w = (v.word || '').trim();
-            if (w.length >= 4 && !stopPronouns.has(w.toLowerCase())) {
-                pHtml = highlightOutsideTags(pHtml, w, true);
-            }
-        });
+        // Không tự ý highlight toàn bộ từ vựng bài đọc để giữ nguyên bản bài đọc sạch đẹp như đề thi thật
 
         (passage.questions || []).forEach(q => {
             const m = q.question.match(/The (?:word|phrase)\s*['"]([^'"]+)['"]/i);
@@ -7035,6 +7030,23 @@ function renderCBTActiveQuestion() {
     if (prevBtn) prevBtn.disabled = qNum <= 1;
     const nextBtn = document.getElementById('btn-next-q');
     if (nextBtn) nextBtn.disabled = qNum >= 40;
+
+    updateActiveTargetWordInPassage(q);
+}
+
+function updateActiveTargetWordInPassage(q) {
+    document.querySelectorAll('#active-passage-body .target-word').forEach(el => {
+        el.classList.remove('active-target-word');
+    });
+    if (!q || !q.question) return;
+    const m = q.question.match(/The (?:word|phrase)\s*['"]([^'"]+)['"]/i);
+    if (!m || !m[1]) return;
+    const target = m[1].trim().toLowerCase();
+    document.querySelectorAll('#active-passage-body .target-word').forEach(el => {
+        if (el.textContent.trim().toLowerCase() === target) {
+            el.classList.add('active-target-word');
+        }
+    });
 }
 
 function selectOption(qId, letter) {
