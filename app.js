@@ -1003,6 +1003,49 @@ function updateHeaderStudentUI(name = state.student.name, sClass = state.student
     if (modalName) modalName.textContent = name;
     if (modalClass) modalClass.textContent = isTeacher ? 'Giáo viên (GV)' : sClass;
 
+    const badgeContainer = document.getElementById('vstep-user-badge-container');
+    if (badgeContainer) {
+        if (state.student.isLoggedIn) {
+            badgeContainer.innerHTML = `
+                <div class="user-logged-badge" style="display: flex; align-items: center; gap: 10px; background: ${isTeacher ? 'rgba(234, 179, 8, 0.15); border: 1.5px solid rgba(234, 179, 8, 0.4);' : 'rgba(37, 99, 235, 0.08); border: 1.5px solid rgba(37, 99, 235, 0.25);'} padding: 7px 16px; border-radius: 999px; font-size: 13.5px; color: #1e293b; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);">
+                    <i class="fa-solid ${isTeacher ? 'fa-chalkboard-user' : 'fa-circle-user'}" style="color: ${isTeacher ? '#eab308' : '#2563eb'}; font-size: 16px;"></i>
+                    <span>${isTeacher ? 'Giáo viên' : 'Học viên'}: <strong style="color: #0f172a;">${name}</strong> (${isTeacher ? '' : 'Lớp: '}<strong style="color: ${isTeacher ? '#ca8a04' : '#2563eb'};">${sClass}</strong>)</span>
+                    <button type="button" onclick="openStudentModal(false)" style="background: #f1f5f9; border: none; color: #475569; font-size: 12px; font-weight: 700; cursor: pointer; padding: 4px 10px; border-radius: 8px; margin-left: 6px; transition: all 0.2s ease;" title="Đổi thông tin học viên"><i class="fa-solid fa-user-pen"></i> Đổi</button>
+                    <button type="button" onclick="logoutStudent()" style="background: rgba(239, 68, 68, 0.08); border: 1px solid rgba(239, 68, 68, 0.25); color: #ef4444; font-size: 12px; font-weight: 700; cursor: pointer; padding: 4px 10px; border-radius: 8px; margin-left: 6px; transition: all 0.2s ease; display: inline-flex; align-items: center; gap: 4px;" title="Đăng xuất"><i class="fa-solid fa-arrow-right-from-bracket"></i> Đăng xuất</button>
+                </div>
+            `;
+        } else {
+            badgeContainer.innerHTML = '';
+        }
+    }
+
+    const sidebarUserCard = document.getElementById('vstep-sidebar-user-card');
+    if (sidebarUserCard) {
+        if (state.student.isLoggedIn) {
+            sidebarUserCard.innerHTML = `
+                <div class="sidebar-user-card" style="padding: 12px 14px; background: ${isTeacher ? 'rgba(234, 179, 8, 0.12)' : 'rgba(99, 102, 241, 0.08)'}; border-radius: 12px; margin: 10px 14px 14px; border: 1px solid ${isTeacher ? 'rgba(234, 179, 8, 0.35)' : 'rgba(99, 102, 241, 0.18)'}; text-align: left;">
+                    <div style="font-size: 11px; font-weight: 800; color: ${isTeacher ? '#ca8a04' : '#6366f1'}; text-transform: uppercase; display: flex; align-items: center; gap: 6px;">
+                        <i class="fa-solid ${isTeacher ? 'fa-chalkboard-user' : 'fa-user-graduate'}"></i>
+                        <span>${isTeacher ? 'Giáo viên' : 'Học viên'} (Lớp ${sClass})</span>
+                    </div>
+                    <div style="font-size: 13.5px; font-weight: 800; color: #0f172a; margin: 4px 0 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                        ${name}
+                    </div>
+                    <div style="display: flex; gap: 6px;">
+                        <button type="button" onclick="openStudentModal(false)" style="flex: 1; padding: 5px 8px; font-size: 11.5px; font-weight: 700; background: #fff; border: 1px solid #cbd5e1; border-radius: 6px; cursor: pointer; color: #334155; display: inline-flex; align-items: center; justify-content: center; gap: 4px;">
+                            <i class="fa-solid fa-user-pen"></i> Đổi
+                        </button>
+                        <button type="button" onclick="logoutStudent()" style="flex: 1; padding: 5px 8px; font-size: 11.5px; font-weight: 700; background: rgba(239, 68, 68, 0.08); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 6px; cursor: pointer; color: #ef4444; display: inline-flex; align-items: center; justify-content: center; gap: 4px;">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i> Đăng xuất
+                        </button>
+                    </div>
+                </div>
+            `;
+        } else {
+            sidebarUserCard.innerHTML = '';
+        }
+    }
+
     syncClassAccessRestrictions();
     if (typeof renderDashboardTests === 'function') renderDashboardTests();
 }
